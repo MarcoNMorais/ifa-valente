@@ -1,0 +1,6 @@
+{% extends "base.html" %}
+{% block title %}Erro {{ code }}{% endblock %}
+{% block page_title %}{{ title }}{% endblock %}
+{% block page_subtitle %}Código {{ code }}{% endblock %}
+{% block content %}<div class="error-card"><strong>{{ code }}</strong><h2>{{ title }}</h2><p>{{ message }}</p><a class="btn primary" href="{{ url_for('principal') if g.user else url_for('index') }}">Voltar ao sistema</a></div>{% endblock %}
+{% block guest_content %}<div class="error-card standalone"><strong>{{ code }}</strong><h2>{{ title }}</h2><p>{{ message }}</p><a class="btn primary" href="{{ url_for('index') }}">Ir para o login</a></div>{% endblock %}

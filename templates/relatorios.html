@@ -1,0 +1,102 @@
+{% extends "base.html" %}
+{% block title %}Relatórios{% endblock %}
+{% block page_title %}Relatório por ACS{% endblock %}
+{% block page_subtitle %}Busca simples por ACS, com média anual e evolução mês a mês por índice{% endblock %}
+{% block top_actions %}<button class="btn secondary" onclick="window.print()">Imprimir</button><a class="btn primary" href="{{ url_for('relatorios_csv', **request.args) }}">Exportar CSV</a>{% endblock %}
+{% block content %}
+<article class="panel filter-panel no-print">
+  <form class="filter-grid acs-report-filter" method="get">
+    <label>ACS
+      <select name="agente" required>
+        <option value="">Selecione o ACS</option>
+        {% for a in agents %}
+          <option value="{{ a.id }}" {% if selected_agent==a.id %}selected{% endif %}>{{ a.full_name }} — {{ a.unit_name }}</option>
+        {% endfor %}
+      </select>
+    </label>
+    <label>Ano
+      <input type="number" name="ano" min="2020" max="2100" value="{{ year }}">
+    </label>
+    <label>Salário/base para simular o valor
+      <input type="text" name="salario" value="{{ salary_text }}" placeholder="Ex.: 3036,00">
+    </label>
+    <button class="btn primary" type="submit">Buscar ACS</button>
+  </form>
+</article>
+
+{% if not report %}
+<article class="panel empty-state">
+  <h2>Selecione um ACS</h2>
+  <p>Escolha o profissional e o ano para visualizar os índices, médias mensais e percentual final.</p>
+</article>
+{% else %}
+<div class="report-heading print-only"><img src="{{ url_for('static', filename='img/logo_valente_saude.png') }}"><h1>Relatório anual por ACS</h1><p>{{ report.agent.full_name }} — {{ year }}</p></div>
+
+<div class="summary-grid acs-summary-grid">
+  <article><small>ACS</small><strong>{{ report.agent.full_name }}</strong></article>
+  <article><small>Unidade</small><strong>{{ report.agent.unit_name }}</strong></article>
+  <article><small>Microárea</small><strong>{{ report.agent.microarea or '—' }}</strong></article>
+  <article><small>Ano</small><strong>{{ year }}</strong></article>
+  <article><small>Meses válidos na média</small><strong>{{ report.months_counted }}{% if report.months_discarded %} de 12{% endif %}</strong></article>
+  <article><small>Percentual final pelos pesos</small><strong class="percent-text {% if report.receive_percentage is not none %}{{ 'good' if report.receive_percentage>=80 else 'mid' if report.receive_percentage>=70 else 'low' }}{% endif %}">{{ report.receive_percentage|percent2 if report.receive_percentage is not none else '—' }}%</strong>{% if report.annual_points_average is not none %}<span class="summary-subvalue">{{ report.annual_points_average|percent2 }} pts de 10</span>{% endif %}</article>
+  <article><small>Valor estimado</small><strong class="money-green">{% if report.estimated_value is not none %}R$ {{ '%.2f'|format(report.estimated_value) }}{% else %}Informe o salário{% endif %}</strong></article>
+</div>
+
+<article class="panel acs-annual-panel">
+  <div class="panel-head">
+    <div>
+      <h2>Índices do ACS no ano</h2>
+      <p>Cada linha mostra a média anual do índice e o percentual mês a mês. Os índices 2 e 3 só ficam disponíveis na competência 12.</p>
+    </div>
+  </div>
+  <div class="table-wrap acs-annual-wrap">
+    <table class="acs-annual-table">
+      <thead>
+        <tr>
+          <th>Índice</th>
+          <th>Média anual</th>
+          {% for month in report.months %}<th>{{ month.label }}</th>{% endfor %}
+        </tr>
+      </thead>
+      <tbody>
+        {% for indicator in report.indicators %}
+        <tr>
+          <td class="indicator-title-cell"><span class="indicator-index">Índice {{ indicator.order }}</span><strong>{{ indicator.name }}</strong></td>
+          <td>{% if indicator.annual_average is not none %}<div class="annual-score-cell"><strong class="percent-text {{ 'good' if indicator.annual_average>=80 else 'mid' if indicator.annual_average>=70 else 'low' }}">{{ indicator.annual_average|percent2 }}%</strong><small>{{ indicator.annual_points|percent2 }} pts</small></div>{% else %}<span class="muted">—</span>{% endif %}</td>
+          {% for value in indicator.months %}
+          <td class="{% if not value.applicable %}not-applicable{% endif %}">
+            {% if value.leave_discarded and not value.applicable %}
+              <span class="na-chip leave-chip">{{ 'Férias' if value.leave_type=='ferias' else 'Licença' }}</span>
+            {% elif not value.applicable %}
+              <span class="na-chip">Não habilitado</span>
+            {% elif value.percentage is not none %}
+              <div class="metric-cell {{ 'good' if value.percentage>=80 else 'mid' if value.percentage>=70 else 'low' }}"><strong>{{ value.percentage|percent2 }}%</strong><small>{{ value.score|percent2 }} pts</small></div>
+            {% else %}
+              <span class="muted">—</span>
+            {% endif %}
+          </td>
+          {% endfor %}
+        </tr>
+        {% endfor %}
+        <tr class="general-average-row">
+          <td class="indicator-title-cell"><span class="indicator-index">Final</span><strong>Média geral pelos pesos</strong><small>Percentual que será aplicado sobre o salário/base informado</small></td>
+          <td>{% if report.annual_score is not none %}<div class="annual-score-cell final"><strong class="percent-text {{ 'good' if report.annual_score>=80 else 'mid' if report.annual_score>=70 else 'low' }}">{{ report.annual_score|percent2 }}%</strong><small>{{ report.annual_points_average|percent2 }} pts de 10</small></div>{% else %}<strong>—</strong>{% endif %}</td>
+          {% for item in report.monthly_totals %}
+          <td>{% if item.leave_discarded and item.score is none %}<span class="na-chip leave-chip">{{ 'Férias' if item.leave_type=='ferias' else 'Licença' }}</span>{% elif item.score is not none %}<div class="metric-cell {{ 'good' if item.score>=80 else 'mid' if item.score>=70 else 'low' }}"><strong>{{ item.score|percent2 }}%</strong><small>mês</small></div>{% else %}<span class="muted">—</span>{% endif %}</td>
+          {% endfor %}
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</article>
+
+<article class="panel">
+  <div class="panel-head"><div><h2>Resumo do pagamento</h2><p>Cálculo final usando a pontuação por peso dos indicadores</p></div></div>
+  <div class="payment-summary">
+    <div><small>Percentual final</small><strong class="percent-text {% if report.receive_percentage is not none %}{{ 'good' if report.receive_percentage>=80 else 'mid' if report.receive_percentage>=70 else 'low' }}{% endif %}">{{ report.receive_percentage|percent2 if report.receive_percentage is not none else '—' }}%</strong>{% if report.annual_points_average is not none %}<span class="summary-subvalue">{{ report.annual_points_average|percent2 }} pts de 10</span>{% endif %}</div>
+    <div><small>Salário/base informado</small><strong>{% if report.salary_value %}R$ {{ '%.2f'|format(report.salary_value) }}{% else %}Não informado{% endif %}</strong></div>
+    <div><small>Valor estimado a receber</small><strong class="money-green">{% if report.estimated_value is not none %}R$ {{ '%.2f'|format(report.estimated_value) }}{% else %}—{% endif %}</strong></div>
+  </div>
+</article>
+{% endif %}
+{% endblock %}

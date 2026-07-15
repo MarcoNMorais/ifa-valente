@@ -1,0 +1,51 @@
+# PUBLICAR O IFA VALENTE COMO SITE ONLINE
+
+Este pacote mantém o sistema exatamente como está.
+Foram adicionadas apenas orientações de publicação.
+
+IMPORTANTE:
+- Não hospedar no GitHub Pages, pois o sistema tem login, banco de dados e rotas Flask.
+- Usar Render, Railway, VPS ou outro servidor Python.
+- O arquivo render.yaml já está configurado para Render com banco persistente em /var/data.
+
+PASSO A PASSO NO RENDER
+
+1. Envie a pasta IFA_Valente para um repositório no GitHub.
+2. Entre em https://render.com
+3. Clique em New + > Blueprint.
+4. Selecione o repositório do GitHub.
+5. O Render vai ler o arquivo render.yaml automaticamente.
+6. Confirme a criação do serviço.
+7. Aguarde o build finalizar.
+8. O site ficará disponível em um endereço parecido com:
+   https://secsaudevalente.com.br/ifa
+
+CONFIGURAÇÕES JÁ PRONTAS
+
+Build Command:
+pip install -r requirements.txt
+
+Start Command:
+gunicorn app:app --bind 0.0.0.0:$PORT --workers 1 --threads 8
+
+Variáveis:
+SECRET_KEY = gerada automaticamente
+IFA_DATA_DIR = /var/data
+
+Disco persistente:
+Nome: ifa-valente-data
+Caminho: /var/data
+Tamanho: 1 GB
+
+ACESSOS INICIAIS
+
+Administrador:
+Usuário: admin
+Senha: Admin@2026
+
+Regulador:
+Usuário: regulador
+Senha: Regula@2026
+
+RECOMENDAÇÃO:
+Após publicar online, entre como ADM e troque as senhas padrão.

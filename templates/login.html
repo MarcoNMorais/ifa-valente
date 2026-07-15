@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+{% block title %}Login{% endblock %}
+{% block bodyclass %}login-page{% endblock %}
+{% block guest_content %}
+<div class="login-shell">
+  <section class="login-hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <img class="hero-logo" src="{{ url_for('static', filename='img/logo_valente_saude.png') }}" alt="Prefeitura de Valente - Secretaria da Saúde">
+      <div class="hero-tag">GESTÃO • TRANSPARÊNCIA • VALORIZAÇÃO</div>
+      <h1>Avaliação de Desempenho<br>IFA</h1>
+      <p>Plataforma municipal para cadastro, apuração e acompanhamento dos indicadores dos Agentes Comunitários de Saúde e Agentes de Combate às Endemias.</p>
+      <div class="hero-features">
+        <span>✓ Cálculo automático da pontuação</span>
+        <span>✓ Relatórios mensais, quadrimestrais e anuais</span>
+        <span>✓ Histórico, auditoria e backups</span>
+      </div>
+    </div>
+  </section>
+  <section class="login-panel">
+    <form class="login-card" method="post" autocomplete="on">
+      <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+      <div class="login-mark">IFA</div>
+      <h2>Acesso ao sistema</h2>
+      <p>Entre com seu perfil de Administrador ou Regulador.</p>
+      {% with messages = get_flashed_messages(with_categories=true) %}
+        {% for category, message in messages %}<div class="flash {{ category }}"><span>{{ message }}</span></div>{% endfor %}
+      {% endwith %}
+      <label>Usuário
+        <input name="username" required autofocus placeholder="Digite seu usuário">
+      </label>
+      <label>Senha
+        <div class="password-field"><input id="password" name="password" type="password" required placeholder="Digite sua senha"><button type="button" onclick="togglePassword('password', this)">Mostrar</button></div>
+      </label>
+      <button class="btn primary large" type="submit">Entrar</button>
+      <small class="login-footer">Secretaria Municipal de Saúde de Valente • 2026</small>
+    </form>
+  </section>
+</div>
+{% endblock %}

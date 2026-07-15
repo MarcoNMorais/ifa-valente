@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block title %}Avaliações{% endblock %}
+{% block page_title %}Avaliações de Desempenho{% endblock %}
+{% block page_subtitle %}Cadastre, consulte, edite ou exclua cada competência{% endblock %}
+{% block top_actions %}<a class="btn primary" href="{{ url_for('avaliacao_nova') }}">+ Nova avaliação</a>{% endblock %}
+{% block content %}
+<article class="panel">
+  <div class="panel-head"><div><h2>Histórico de avaliações</h2><p>Uma avaliação por profissional e competência mensal</p></div><form class="search-form"><input name="q" value="{{ query }}" placeholder="Buscar profissional, unidade ou competência"><button class="btn secondary">Buscar</button></form></div>
+  <div class="table-wrap"><table><thead><tr><th>Competência</th><th>Profissional</th><th>Unidade</th><th>Percentual médio</th><th>Pontuação total</th><th>Atualização</th><th>Ações</th></tr></thead><tbody>
+  {% for row in rows %}<tr><td><strong>{{ row.competence|competencia }}</strong>{% if row.leave_type %}<br><span class='na-chip leave-chip'>{{ 'Férias' if row.leave_type=='ferias' else 'Licença' }}</span>{% endif %}</td><td>{{ row.full_name }} <span class="tag">{{ row.category }}</span></td><td>{{ row.unit_name }}</td><td><span class="percent-chip {{ 'good' if row.avg_percentage is not none and row.avg_percentage>=80 else 'mid' if row.avg_percentage is not none and row.avg_percentage>=50 else 'low' }}">{{ row.avg_percentage|percent2 if row.avg_percentage is not none else '—' }}%</span></td><td><span class="score {{ 'good' if row.avg_percentage is not none and row.avg_percentage>=80 else 'mid' if row.avg_percentage is not none and row.avg_percentage>=50 else 'low' }}">{{ row.total_score|percent2 if row.total_score is not none else '—' }}</span></td><td>{{ row.updated_at }}</td><td class="actions"><a href="{{ url_for('avaliacao_detalhe', evaluation_id=row.id) }}">Abrir</a><a href="{{ url_for('avaliacao_editar', evaluation_id=row.id) }}">Editar</a><form method="post" action="{{ url_for('avaliacao_excluir', evaluation_id=row.id) }}" onsubmit="return confirm('Excluir esta avaliação?')"><input type="hidden" name="csrf_token" value="{{ csrf_token() }}"><button class="link-danger">Excluir</button></form></td></tr>
+  {% else %}<tr><td colspan="7" class="empty">Nenhuma avaliação encontrada.</td></tr>{% endfor %}
+  </tbody></table></div>
+</article>
+{% endblock %}

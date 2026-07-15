@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+{% block title %}Principal{% endblock %}
+{% block page_title %}Painel Principal{% endblock %}
+{% block page_subtitle %}Visão geral do desempenho IFA em {{ year }}{% endblock %}
+{% block top_actions %}<a class="btn primary" href="{{ url_for('avaliacao_nova') }}">+ Nova avaliação</a>{% endblock %}
+{% block content %}
+<div class="stats-grid">
+  <article class="stat-card"><span class="stat-icon blue">ACS</span><div><small>ACS ativos</small><strong>{{ cards.agents }}</strong><em>Profissionais cadastrados</em></div></article>
+  <article class="stat-card"><span class="stat-icon green">USF</span><div><small>Unidades ativas</small><strong>{{ cards.units }}</strong><em>Unidades de lotação</em></div></article>
+  <article class="stat-card"><span class="stat-icon gold">AV</span><div><small>Avaliações em {{ year }}</small><strong>{{ cards.evaluations }}</strong><em>Competências registradas</em></div></article>
+  <article class="stat-card"><span class="stat-icon teal">%</span><div><small>Pontuação média</small><strong>{{ cards.avg_score|percent2 }}</strong><em>Escala dos indicadores</em></div></article>
+</div>
+<div class="grid-2">
+  <article class="panel">
+    <div class="panel-head"><div><h2>Evolução mensal</h2><p>Média da pontuação total por competência</p></div><span class="pill">{{ year }}</span></div>
+    <canvas id="monthlyChart" class="chart" height="250"></canvas>
+  </article>
+  <article class="panel">
+    <div class="panel-head"><div><h2>Desempenho por unidade</h2><p>Ranking pela pontuação média anual</p></div></div>
+    <canvas id="unitChart" class="chart" height="250"></canvas>
+  </article>
+</div>
+<article class="panel">
+  <div class="panel-head"><div><h2>Avaliações recentes</h2><p>Últimos registros incluídos ou atualizados</p></div><a class="text-link" href="{{ url_for('avaliacoes') }}">Ver todas →</a></div>
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th>Competência</th><th>Profissional</th><th>Unidade</th><th>Percentual médio</th><th>Pontuação</th><th></th></tr></thead>
+      <tbody>
+      {% for row in recent %}
+        <tr><td><strong>{{ row.competence|competencia }}</strong>{% if row.leave_type %}<br><span class='na-chip leave-chip'>{{ 'Férias' if row.leave_type=='ferias' else 'Licença' }}</span>{% endif %}</td><td>{{ row.full_name }} <span class="tag">{{ row.category }}</span></td><td>{{ row.unit_name }}</td><td><span class="percent-chip {{ 'good' if row.avg_percentage is not none and row.avg_percentage>=80 else 'mid' if row.avg_percentage is not none and row.avg_percentage>=50 else 'low' }}">{{ row.avg_percentage|percent2 if row.avg_percentage is not none else '—' }}%</span></td><td><span class="score {{ 'good' if row.avg_percentage is not none and row.avg_percentage>=80 else 'mid' if row.avg_percentage is not none and row.avg_percentage>=50 else 'low' }}">{{ row.total_score|percent2 if row.total_score is not none else '—' }}</span></td><td><a class="icon-link" href="{{ url_for('avaliacao_detalhe', evaluation_id=row.id) }}">Abrir</a></td></tr>
+      {% else %}<tr><td colspan="6" class="empty">Nenhuma avaliação cadastrada.</td></tr>{% endfor %}
+      </tbody>
+    </table>
+  </div>
+</article>
+{% endblock %}
+{% block scripts %}
+<script>
+drawLineChart('monthlyChart', {{ monthly_labels|tojson }}, {{ monthly_values|tojson }}, 100);
+drawBarChart('unitChart', {{ unit_labels|tojson }}, {{ unit_values|tojson }}, 100);
+</script>
+{% endblock %}

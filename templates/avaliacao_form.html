@@ -1,0 +1,65 @@
+{% extends "base.html" %}
+{% block title %}{{ 'Editar' if evaluation else 'Nova' }} Avaliação{% endblock %}
+{% block page_title %}{{ 'Editar avaliação' if evaluation else 'Nova avaliação' }}{% endblock %}
+{% block page_subtitle %}Informe numerador e denominador; o percentual e a pontuação serão calculados automaticamente{% endblock %}
+{% block top_actions %}<a class="btn secondary" href="{{ url_for('avaliacoes') }}">← Voltar</a>{% endblock %}
+{% block content %}
+<form method="post" class="evaluation-form" id="evaluationForm">
+  <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+  <article class="panel">
+    <div class="form-grid four">
+      <label>Profissional *
+        <select name="agent_id" id="agentSelect" required onchange="updateCompetenceAvailability(); updateIndicatorVisibility(); updateAnnualIndicatorLocks(); updateLeaveState();">
+          <option value="">Selecione</option>
+          {% for a in agents %}<option value="{{ a.id }}" data-category="{{ a.category }}" {% if evaluation and evaluation.agent_id==a.id %}selected{% endif %}>{{ a.full_name }} — {{ a.unit_name }}</option>{% endfor %}
+        </select>
+      </label>
+      <label>Competência *
+        <select name="competence" id="competenceSelect" required onchange="updateAnnualIndicatorLocks(); updateLeaveState(); recalculateEvaluation();">
+          <option value="">Selecione</option>
+          {% for opt in competence_options %}
+            <option value="{{ opt.value }}" data-month="{{ opt.month }}" {% if evaluation and evaluation.competence==opt.value %}selected{% elif not evaluation and opt.value=='2026-07' %}selected{% endif %}>{{ opt.label }}</option>
+          {% endfor %}
+        </select>
+        <small>Competências já cadastradas para o mesmo ACS ficam bloqueadas automaticamente.</small>
+      </label>
+      <label>Fator proporcional (%)<input type="number" name="proportional_factor" min="1" max="100" step="0.01" value="{{ evaluation.proportional_factor if evaluation else 100 }}"><small>Informe a meta integral; o sistema ajustará o denominador conforme este fator.</small></label>
+      <label>Categoria<div class="readonly-field" id="categoryDisplay">Selecione o profissional</div></label>
+    </div>
+  </article>
+  <div class="section-title"><div><h2>Indicadores da avaliação</h2><p>Faixas: 80%–100% = 10 pontos; 70%–79,99% = 7; abaixo de 70% = 5. Índices 2 e 3 são anuais e só abrem na competência 12.</p></div><div class="live-total">Pontuação estimada <strong id="liveTotal">0</strong></div></div>
+  <div class="indicator-list">
+  {% for ind in indicators %}
+    {% set val = item_values.get(ind.id, {}) %}
+    <article class="indicator-card" data-category="{{ ind.category }}" data-indicator-id="{{ ind.id }}" data-order-index="{{ ind.order_index }}">
+      <div class="indicator-number">{{ ind.order_index }}</div>
+      <div class="indicator-info"><h3>{{ ind.name }}</h3><p>{{ ind.description }}</p><small class="annual-lock-note">Este índice só pode ser preenchido na competência 12.</small></div>
+      <label>Realizado / alcançado<input class="calc-input numerator" type="number" name="num_{{ ind.id }}" min="0" step="0.01" value="{{ val.get('numerator','') }}" placeholder="Ex.: 85"></label>
+      <label>Meta / total<input class="calc-input denominator" type="number" name="den_{{ ind.id }}" min="0.01" step="0.01" value="{{ val.get('denominator','') }}" placeholder="Ex.: 100"></label>
+      <div class="indicator-result"><span class="percent {{ 'percent-good' if val.get('percentage',0)>=80 else 'percent-mid' if val.get('percentage',0)>=70 else 'percent-low' }}">{{ val.get('percentage',0)|percent2 }}%</span><strong class="points">{{ val.get('score',0)|percent2 }} pts</strong></div>
+    </article>
+  {% endfor %}
+  </div>
+  <article class="panel leave-panel">
+    <div class="panel-head"><div><h2>Férias ou licença</h2><p>Marque somente quando o ACS não deve ter a competência considerada na média anual. A justificativa é obrigatória.</p></div></div>
+    <div class="leave-options">
+      <label class="radio-card"><input type="radio" name="leave_type" value="" {% if not evaluation or not evaluation.leave_type %}checked{% endif %}> <span>Não se aplica</span></label>
+      <label class="radio-card"><input type="radio" name="leave_type" value="ferias" {% if evaluation and evaluation.leave_type=='ferias' %}checked{% endif %}> <span>Férias</span></label>
+      <label class="radio-card"><input type="radio" name="leave_type" value="licenca" {% if evaluation and evaluation.leave_type=='licenca' %}checked{% endif %}> <span>Licença</span></label>
+    </div>
+    <label id="leaveJustificationBox" class="leave-justification">Justificativa da férias/licença
+      <textarea name="leave_justification" id="leaveJustification" rows="3" placeholder="Ex.: ACS em férias oficiais no período.">{{ evaluation.leave_justification if evaluation and evaluation.leave_justification else '' }}</textarea>
+    </label>
+    <p class="leave-alert" id="leaveAlert">Com férias/licença marcada, esta competência será descartada da média anual. Na competência 12, os índices 2 e 3 continuam habilitados e entram na média geral.</p>
+  </article>
+  <article class="panel"><label>Observações<textarea name="notes" rows="4" placeholder="Registre justificativas, afastamentos, fontes ou observações da competência.">{{ evaluation.notes if evaluation else '' }}</textarea></label></article>
+  <div class="form-actions"><a class="btn secondary" href="{{ url_for('avaliacoes') }}">Cancelar</a><button class="btn primary large" type="submit">{{ 'Salvar alterações' if evaluation else 'Cadastrar avaliação' }}</button></div>
+</form>
+{% endblock %}
+{% block scripts %}
+<script>
+  window.EXISTING_COMPETENCES = {{ existing_competences|tojson }};
+  window.CURRENT_EVALUATION_COMPETENCE = {{ (evaluation.competence if evaluation else '')|tojson }};
+</script>
+<script>updateCompetenceAvailability(); updateIndicatorVisibility(); updateAnnualIndicatorLocks(); updateLeaveState(); initEvaluationCalculator();</script>
+{% endblock %}

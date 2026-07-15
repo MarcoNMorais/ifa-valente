@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% block title %}Detalhe da Avaliação{% endblock %}
+{% block page_title %}Resultado da Avaliação{% endblock %}
+{% block page_subtitle %}{{ evaluation.full_name }} • {{ evaluation.competence|competencia }}{% endblock %}
+{% block top_actions %}<button class="btn secondary" onclick="window.print()">Imprimir</button><a class="btn primary" href="{{ url_for('avaliacao_nova') }}">Nova Avaliação</a>{% endblock %}
+{% block content %}
+<div class="detail-header">
+  <div><span class="eyebrow">{{ evaluation.category }} • {{ evaluation.unit_name }}</span><h2>{{ evaluation.full_name }}</h2><p>{{ evaluation.microarea or 'Microárea não informada' }} • Competência {{ evaluation.competence|competencia }}</p></div>
+  <div class="score-hero"><small>Pontuação total</small><strong>{{ total_score|percent2 if total_score is not none else '—' }}<em>/{{ max_score }}</em></strong><span>Média dos indicadores: <b class="percent-text {{ 'good' if avg_percentage is not none and avg_percentage>=80 else 'mid' if avg_percentage is not none and avg_percentage>=70 else 'low' }}">{{ avg_percentage|percent2 if avg_percentage is not none else '—' }}%</b></span></div>
+</div>
+<div class="summary-grid">
+  <article><small>Competência</small><strong>{{ evaluation.competence|competencia }}</strong></article>
+  <article><small>Fator proporcional</small><strong>{{ evaluation.proportional_factor|percent2 }}%</strong></article>
+  <article><small>Avaliador</small><strong>{{ evaluation.evaluator_name or 'Não identificado' }}</strong></article>
+  <article><small>Última atualização</small><strong>{{ evaluation.updated_at }}</strong></article>
+</div>
+{% if evaluation.leave_type %}
+<article class="panel leave-detail"><h2>{{ 'Férias' if evaluation.leave_type=='ferias' else 'Licença' }} registrada</h2><p>{{ evaluation.leave_justification }}</p><small>Esta competência não entra na média anual, exceto os índices 2 e 3 quando a competência for 12.</small></article>
+{% endif %}
+<article class="panel"><div class="panel-head"><div><h2>Resultado por indicador</h2><p>Valores registrados e pontuação calculada</p></div></div><div class="table-wrap"><table><thead><tr><th>#</th><th>Indicador</th><th>Realizado</th><th>Meta integral</th><th>Meta ajustada</th><th>Percentual</th><th>Pontos</th></tr></thead><tbody>
+{% for row in items %}
+<tr><td>{{ row.order_index }}</td><td><strong>{{ row.name }}</strong><small class="table-note">{{ row.description }}</small></td><td>{{ row.numerator|percent2 }}</td><td>{{ row.denominator|percent2 }}</td><td>{{ (row.denominator * evaluation.proportional_factor / 100)|percent2 }}</td><td><span class="percent-chip {{ 'good' if row.percentage>=80 else 'mid' if row.percentage>=70 else 'low' }}">{{ row.percentage|percent2 }}%</span></td><td><span class="score {{ 'good' if row.percentage>=80 else 'mid' if row.percentage>=70 else 'low' }}">{{ row.score|percent2 }}</span></td></tr>
+{% else %}
+<tr><td colspan="7" class="empty">Nenhum indicador computado nesta competência.</td></tr>
+{% endfor %}
+</tbody></table></div></article>
+{% if evaluation.notes %}<article class="panel"><h2>Observações</h2><p class="preline">{{ evaluation.notes }}</p></article>{% endif %}
+{% endblock %}

@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0d3f77">
+  <title>{% block title %}IFA Valente{% endblock %} | Secretaria Municipal de Saúde</title>
+  <link rel="icon" href="{{ url_for('static', filename='img/logo_valente_saude.png') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  {% block head %}{% endblock %}
+</head>
+<body class="{% block bodyclass %}{% endblock %}">
+{% if g.user %}
+<div class="app-shell">
+  <aside class="sidebar" id="sidebar">
+    <a class="brand" href="{{ url_for('principal') }}">
+      <img src="{{ url_for('static', filename='img/brasao_valente.png') }}" alt="Brasão de Valente">
+      <span><strong>IFA Valente</strong><small>Avaliação de Desempenho</small></span>
+    </a>
+    <nav class="nav-menu">
+      <a class="nav-item {% if request.endpoint=='principal' %}active{% endif %}" href="{{ url_for('principal') }}"><span class="nav-icon">▦</span> Principal</a>
+      <a class="nav-item {% if request.endpoint and request.endpoint.startswith('relatorios') %}active{% endif %}" href="{{ url_for('relatorios') }}"><span class="nav-icon">▥</span> Relatórios</a>
+      <a class="nav-item {% if request.endpoint and request.endpoint.startswith('avaliacao') %}active{% endif %}" href="{{ url_for('avaliacoes') }}"><span class="nav-icon">✓</span> Avaliações</a>
+      <a class="nav-item {% if request.endpoint and (request.endpoint.startswith('cadastro') or request.endpoint.startswith('agente') or request.endpoint.startswith('unidade')) %}active{% endif %}" href="{{ url_for('cadastro') }}"><span class="nav-icon">◎</span> Cadastro</a>
+      <a class="nav-item {% if request.endpoint=='criterios' %}active{% endif %}" href="{{ url_for('criterios') }}"><span class="nav-icon">≡</span> Critérios IFA</a>
+      {% if g.user.role == 'ADM' %}
+      <div class="nav-section">Administração</div>
+      <a class="nav-item {% if request.endpoint and (request.endpoint.startswith('administracao') or request.endpoint.startswith('usuario') or request.endpoint.startswith('backup')) %}active{% endif %}" href="{{ url_for('administracao') }}"><span class="nav-icon">⚙</span> Acessos e Backup</a>
+      {% endif %}
+    </nav>
+    <div class="sidebar-footer">
+      <div class="user-chip">
+        <span class="avatar">{{ g.user.name[:1]|upper }}</span>
+        <span><strong>{{ g.user.name }}</strong><small>{{ 'Administrador' if g.user.role=='ADM' else 'Regulador' }}</small></span>
+      </div>
+      <a class="logout" href="{{ url_for('logout') }}">Sair do sistema</a>
+    </div>
+  </aside>
+  <main class="main-area">
+    <header class="topbar">
+      <button class="mobile-menu" type="button" onclick="toggleSidebar()" aria-label="Abrir menu">☰</button>
+      <div>
+        <h1>{% block page_title %}IFA Valente{% endblock %}</h1>
+        <p>{% block page_subtitle %}Secretaria Municipal de Saúde de Valente{% endblock %}</p>
+      </div>
+      <div class="top-actions">{% block top_actions %}{% endblock %}</div>
+    </header>
+    <section class="content">
+      {% with messages = get_flashed_messages(with_categories=true) %}
+        {% if messages %}
+          <div class="flash-stack">
+          {% for category, message in messages %}
+            <div class="flash {{ category }}"><span>{{ message }}</span><button type="button" onclick="this.parentElement.remove()">×</button></div>
+          {% endfor %}
+          </div>
+        {% endif %}
+      {% endwith %}
+      {% block content %}{% endblock %}
+    </section>
+  </main>
+</div>
+{% else %}
+  {% block guest_content %}{% endblock %}
+{% endif %}
+<script src="{{ url_for('static', filename='js/app.js') }}"></script>
+{% block scripts %}{% endblock %}
+</body>
+</html>
