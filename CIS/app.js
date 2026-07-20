@@ -268,6 +268,7 @@ function showTab(tab='dashboard', pushRoute=true){
  document.title=`CIS · ${ROUTE_TITLES[tab]||'Sistema de Regulação'}`;
  if(pushRoute) setAppRoute(tab,false);
  renderAll();
+ if(tab==='admin') carregarBackupsRender();
 }
 function routeToLogin(replace=true){
  document.title='CIS · Login';
@@ -276,7 +277,7 @@ function routeToLogin(replace=true){
 
 function statePayload(){
  return {
-  versao:13,
+  versao:14,
   atualizadoEm:new Date().toISOString(),
   pacientes:normalizePacientes(pacientes),
   procedimentos:Array.isArray(procedimentos)?procedimentos:defaultProcedimentos,
@@ -316,6 +317,7 @@ async function saveStateToServer(){
   const res=await fetch(`${CIS_API_BASE}/salvar`,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(statePayload())});
   if(!res.ok) throw new Error('HTTP '+res.status);
   serverStatus='online';
+  if(isAdmin()) setTimeout(carregarBackupsRender,700);
  }catch(err){
   serverStatus='local';
   console.warn('CIS: não foi possível salvar no backend. Mantido localmente no navegador.',err);
@@ -532,6 +534,7 @@ function renderFilas(){
  tb.innerHTML=rows.map((p,i)=>`<tr><td>${i+1}</td><td><b>${esc(p.nome)}</b></td><td>${esc(p.cpf)}</td><td>${esc(p.sus)}</td><td>${fmtDate(p.nascimento)}</td><td>${esc(p.contato)}</td><td>${esc(p.procedimento)}</td><td>${esc(p.cid)}</td><td>${esc(p.acs)}</td><td>${esc(p.psf)}</td><td>${fmtDate(p.dataSolicitacao)}</td><td>${esc(firstName(p.operadorCadastro||p.operadorCadastroNome||p.operadorAtualizacao))}</td><td>${esc(p.localMarcacao)}</td><td>${fmtDate(p.dataMarcacao)}</td><td><span class="tag ${priorityClass(p.prioridade)}">${esc(p.status||'')}</span><br><small>${esc(p.prioridade||'Não Classificado')}</small></td><td><button class="btn secondary" onclick="editPaciente('${p.id}')">Editar</button></td></tr>`).join('') || `<tr><td colspan="${colspan}">Nenhum cadastro encontrado.</td></tr>`;
 }
 function esc(s){return (s||'').toString().replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]))}
+function escAttr(s){return esc(s).replace(/'/g,'&#39;')}
 function fmtDate(d){if(!d)return''; const [y,m,day]=d.split('-'); return y&&m&&day?`${day}/${m}/${y}`:d}
 function countBy(arr, key){return arr.reduce((acc,x)=>{const k=(x[key]||'Não informado').trim()||'Não informado';acc[k]=(acc[k]||0)+1;return acc},{})}
 function renderBar(sel,obj){const el=$(sel); const entries=Object.entries(obj).sort((a,b)=>b[1]-a[1]).slice(0,8); if(!entries.length){el.textContent='Sem dados ainda.'; el.className='barList empty'; return} const max=Math.max(...entries.map(e=>e[1])); el.className='barList'; el.innerHTML=entries.map(([k,v])=>`<div class="barItem"><b title="${esc(k)}">${esc(k.slice(0,34))}</b><span class="bar"><i style="width:${(v/max)*100}%"></i></span><strong>${v}</strong></div>`).join('')}
@@ -638,7 +641,57 @@ $('#importSigtap').onchange=e=>{if(!isAdmin())return; const file=e.target.files[
 $('#importSigtapCodigos').onchange=e=>{if(!isAdmin())return; const file=e.target.files[0]; if(!file)return; importSigtapFile(file,true); e.target.value='';};
 $('#importCiap').onchange=e=>{if(!isAdmin())return; const file=e.target.files[0]; if(!file)return; readFileText(file,text=>{const parsed=parseGenericCodes(text,'CIAP-2'); addCodes(parsed); addLog('Importação',`${parsed.length} CIAP-2 importado(s) do arquivo ${file.name}.`); save(); toast(`${parsed.length} CIAP-2 importado(s).`); e.target.value='';});};
 
-$('#btnExportJson').onclick=()=>{if(!isAdmin())return; addLog('Backup','Backup completo exportado.'); download(`backup_cis_regulacao_${today()}.json`,JSON.stringify({versao:13,pacientes,procedimentos,codigos,locais,users:normalizeUsers(users),logs,geradoEm:new Date().toISOString()},null,2))};
+
+function formatBytes(bytes){
+ bytes=Number(bytes||0);
+ if(bytes<1024) return bytes+' B';
+ if(bytes<1024*1024) return (bytes/1024).toFixed(1).replace('.',',')+' KB';
+ return (bytes/1024/1024).toFixed(1).replace('.',',')+' MB';
+}
+async function carregarBackupsRender(){
+ if(!isAdmin() || !$('#backupTable')) return;
+ const status=$('#backupRenderStatus');
+ const tb=$('#backupTable tbody');
+ if(!SERVER_SYNC_ENABLED){
+  if(status) status.textContent='Backups do Render aparecem somente quando o sistema está publicado online.';
+  tb.innerHTML='<tr><td colspan="5" class="mutedCell">Sistema aberto localmente. Sem consulta ao Render.</td></tr>';
+  return;
+ }
+ try{
+  if(status) status.textContent='Consultando backups salvos no Render...';
+  const res=await fetch(`${CIS_API_BASE}/backups?limit=10`,{cache:'no-store'});
+  if(!res.ok) throw new Error('HTTP '+res.status);
+  const payload=await res.json();
+  const backups=payload.backups||[];
+  if(status) status.textContent=`${backups.length} backup(s) encontrado(s) no Render. Pasta: ${payload.pasta||''}`;
+  tb.innerHTML=backups.length?backups.map(b=>`<tr><td>${esc(logTime(b.criadoEm))}</td><td><span class="tag">${esc(b.tipo)}</span></td><td class="logDetail">${esc(b.nome)}</td><td>${esc(formatBytes(b.tamanho))}</td><td><button class="btn secondary" type="button" onclick="baixarBackupRender('${escAttr(b.download_url||'')}')">Baixar</button></td></tr>`).join(''):'<tr><td colspan="5" class="mutedCell">Ainda não existe backup automático. Salve ou edite um cadastro para o sistema criar a primeira cópia.</td></tr>';
+ }catch(err){
+  console.warn('CIS: não foi possível carregar backups do Render.',err);
+  if(status) status.textContent='Não foi possível consultar os backups do Render. Confira se o deploy atualizou o cis_routes.py.';
+  tb.innerHTML='<tr><td colspan="5" class="mutedCell">Erro ao carregar backups do Render.</td></tr>';
+ }
+}
+function baixarBackupRender(url){
+ if(!url) return toast('Backup sem link de download.');
+ window.open(url,'_blank');
+}
+window.baixarBackupRender=baixarBackupRender;
+async function gerarBackupRender(){
+ if(!isAdmin()) return;
+ if(!SERVER_SYNC_ENABLED){toast('Backup no Render só funciona com o sistema publicado online.');return;}
+ try{
+  await saveStateToServer();
+  window.open(`${CIS_API_BASE}/backup`,'_blank');
+  addLog('Backup','Backup manual gerado no Render.');
+  setTimeout(carregarBackupsRender,1200);
+ }catch(err){
+  toast('Não foi possível gerar backup no Render.');
+ }
+}
+if($('#btnAtualizarBackups')) $('#btnAtualizarBackups').onclick=carregarBackupsRender;
+if($('#btnBackupRender')) $('#btnBackupRender').onclick=gerarBackupRender;
+
+$('#btnExportJson').onclick=()=>{if(!isAdmin())return; addLog('Backup','Backup completo exportado.'); download(`backup_cis_regulacao_${today()}.json`,JSON.stringify({versao:14,pacientes,procedimentos,codigos,locais,users:normalizeUsers(users),logs,geradoEm:new Date().toISOString()},null,2))};
 $('#importJson').onchange=e=>{if(!isAdmin())return; const file=e.target.files[0]; if(!file)return; const r=new FileReader(); r.onload=()=>{try{const data=JSON.parse(r.result); pacientes=data.pacientes||[]; procedimentos=data.procedimentos||defaultProcedimentos; codigos=data.codigos||((data.cids||[]).map(c=>({tipo:'CID-10',codigo:c.codigo,descricao:c.descricao})))||defaultCodigos; locais=data.locais||defaultLocais; users=normalizeUsers(data.users||users); logs=data.logs||logs; addLog('Backup','Backup importado: '+file.name); save(); toast('Backup importado.')}catch{toast('Arquivo inválido.')}}; r.readAsText(file)};
 $('#btnPublicJson').onclick=()=>{if(!isAdmin())return; addLog('Internet','Arquivo público JSON gerado.'); download('dados_publicos_cis_regulacao.json',JSON.stringify({atualizadoEm:new Date().toISOString(),dashboard:{total:pacientes.length,aguardando:pacientes.filter(p=>p.status==='Aguardando').length,riscoAlto:pacientes.filter(p=>(p.prioridade||'').includes('Prioridade 0')||(p.prioridade||'').includes('Prioridade 1')).length},filas:pacientes.map(({id,nome,cpf,sus,nascimento,contato,obs,operadorCadastro,operadorAtualizacao,...publico})=>publico)},null,2))};
 $('#btnCsv').onclick=()=>{if(!isAdmin())return; const rows=filtered(); addLog('Exportação','CSV da fila exportado. Total: '+rows.length); const header=['Nome','CPF','SUS','Nascimento','Contato','Procedimento','CID/SIGTAP/CIAP/Motivo','ACS','PSF','Data Solicitacao','Operador','Local Marcacao/Atendimento','Data Marcacao/Atendimento','Prioridade','Status','Observacao']; const csv=[header,...rows.map(p=>[p.nome,p.cpf,p.sus,p.nascimento,p.contato,p.procedimento,p.cid,p.acs,p.psf,p.dataSolicitacao,firstName(p.operadorCadastro||p.operadorAtualizacao),p.localMarcacao,p.dataMarcacao,p.prioridade,p.status,p.obs])].map(r=>r.map(v=>'"'+(v||'').replace(/"/g,'""')+'"').join(';')).join('\n'); download(`fila_cis_regulacao_${today()}.csv`,csv,'text/csv;charset=utf-8')};

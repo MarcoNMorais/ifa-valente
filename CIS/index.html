@@ -231,13 +231,31 @@
             </form>
           </article>
 
-          <article class="card importantCard">
+          <article class="card importantCard backupCard">
             <h2>Backup e internet</h2>
             <p>Use para guardar uma cópia local, restaurar dados ou gerar o JSON público sem dados pessoais para alimentar um painel na internet.</p>
             <div class="inline baseActions">
               <button id="btnExportJson" class="btn secondary">Exportar backup completo</button>
               <label class="btn secondary fileBtn">Importar backup<input id="importJson" type="file" accept="application/json" hidden></label>
               <button id="btnPublicJson" class="btn primary">Gerar arquivo para internet</button>
+            </div>
+            <hr class="softLine">
+            <div class="sectionHead compactHead">
+              <div>
+                <h3>Backups automáticos no Render</h3>
+                <p class="hint">Lista as últimas 10 cópias salvas no disco persistente. Somente Admin visualiza esta área.</p>
+              </div>
+              <div class="inline miniActions">
+                <button id="btnBackupRender" class="btn secondary" type="button">Gerar backup agora</button>
+                <button id="btnAtualizarBackups" class="btn ghost" type="button">Atualizar</button>
+              </div>
+            </div>
+            <p id="backupRenderStatus" class="hint">Carregando backups do Render...</p>
+            <div class="tableWrap smallTableWrap">
+              <table id="backupTable">
+                <thead><tr><th>Data</th><th>Tipo</th><th>Arquivo</th><th>Tamanho</th><th>Ação</th></tr></thead>
+                <tbody><tr><td colspan="5" class="mutedCell">Nenhum backup carregado.</td></tr></tbody>
+              </table>
             </div>
           </article>
         </div>

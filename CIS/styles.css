@@ -25,3 +25,11 @@
 #excluirUsuario:disabled{display:none}
 @media(max-width:1000px){.usersCard{grid-column:span 1}.userGrid{grid-template-columns:1fr}#usuariosTable{min-width:760px}}
 
+
+/* Backups no Render */
+.backupCard .softLine{border:0;border-top:1px solid var(--line);margin:18px 0;}
+.compactHead{align-items:flex-start;gap:14px;}
+.compactHead h3{margin:0 0 4px;color:var(--blue);font-size:18px;}
+.miniActions{justify-content:flex-end;}
+.smallTableWrap{max-height:320px;overflow:auto;}
+#backupTable th,#backupTable td{font-size:13px;}
