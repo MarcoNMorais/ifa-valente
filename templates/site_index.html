@@ -1,22 +1,293 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Secretaria de Saúde de Valente</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Secretaria Municipal de Saúde de Valente</title>
   <style>
-    body{margin:0;min-height:100vh;background:#fff;font-family:Arial,Helvetica,sans-serif;color:#0d3f77;display:grid;place-items:center}
-    .wrap{text-align:center}
-    h1{font-size:22px;margin:0 0 10px}
-    p{margin:0;color:#64748b}
-    a{display:inline-block;margin-top:18px;color:#0d63b7;text-decoration:none;font-weight:700}
+    :root {
+      --azul: #003b7a;
+      --azul-2: #0b5ca8;
+      --azul-claro: #dff4ff;
+      --verde: #0b8f7a;
+      --texto: #07305f;
+      --cinza: #617389;
+      --borda: #dbe7f1;
+      --card: rgba(255, 255, 255, 0.86);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: Arial, Helvetica, sans-serif;
+      color: var(--texto);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+      background:
+        radial-gradient(circle at 18% 22%, rgba(10, 142, 197, 0.24) 0, rgba(10, 142, 197, 0.08) 26%, transparent 46%),
+        radial-gradient(circle at 82% 18%, rgba(11, 92, 168, 0.22) 0, rgba(11, 92, 168, 0.08) 28%, transparent 50%),
+        radial-gradient(circle at 72% 82%, rgba(11, 143, 122, 0.18) 0, rgba(11, 143, 122, 0.07) 28%, transparent 48%),
+        linear-gradient(135deg, #eefaff 0%, #dff4ff 45%, #f6fbff 100%);
+      overflow: hidden;
+      position: relative;
+    }
+
+    body::before,
+    body::after {
+      content: "";
+      position: fixed;
+      border-radius: 999px;
+      filter: blur(18px);
+      opacity: 0.55;
+      pointer-events: none;
+      z-index: 0;
+      animation: flutuar 10s ease-in-out infinite alternate;
+    }
+
+    body::before {
+      width: 360px;
+      height: 360px;
+      left: -110px;
+      top: -90px;
+      background: rgba(0, 117, 171, 0.22);
+    }
+
+    body::after {
+      width: 430px;
+      height: 430px;
+      right: -130px;
+      bottom: -120px;
+      background: rgba(11, 143, 122, 0.16);
+      animation-delay: 1.5s;
+    }
+
+    @keyframes flutuar {
+      from {
+        transform: translateY(0) scale(1);
+      }
+      to {
+        transform: translateY(22px) scale(1.04);
+      }
+    }
+
+    .pagina {
+      width: 100%;
+      max-width: 980px;
+      text-align: center;
+      position: relative;
+      z-index: 1;
+      padding: 46px 28px;
+      border-radius: 34px;
+      background: rgba(255, 255, 255, 0.54);
+      border: 1px solid rgba(255, 255, 255, 0.72);
+      box-shadow: 0 30px 80px rgba(0, 59, 122, 0.12);
+      backdrop-filter: blur(8px);
+    }
+
+    .logo-secretaria {
+      width: min(370px, 85vw);
+      max-height: 175px;
+      object-fit: contain;
+      margin: 0 auto 28px;
+      display: none;
+    }
+
+    .titulo {
+      margin: 0;
+      font-size: clamp(34px, 5vw, 62px);
+      line-height: 1.08;
+      font-weight: 800;
+      letter-spacing: -1.5px;
+      color: var(--azul);
+      text-shadow: 0 6px 18px rgba(0, 59, 122, 0.10);
+    }
+
+    .subtitulo {
+      margin: 14px 0 34px;
+      font-size: clamp(17px, 2vw, 23px);
+      color: var(--cinza);
+      font-weight: 500;
+    }
+
+    .botoes {
+      display: flex;
+      align-items: stretch;
+      justify-content: center;
+      gap: 22px;
+      flex-wrap: wrap;
+      margin-top: 10px;
+    }
+
+    .botao-sistema {
+      width: min(300px, 100%);
+      min-height: 96px;
+      padding: 18px 24px;
+      border-radius: 28px;
+      border: 1px solid rgba(255, 255, 255, 0.76);
+      background: linear-gradient(145deg, rgba(255,255,255,0.95), rgba(238,248,254,0.9));
+      color: var(--texto);
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 16px;
+      box-shadow: 0 16px 34px rgba(0, 59, 122, 0.13);
+      transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
+    }
+
+    .botao-sistema:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 22px 48px rgba(0, 59, 122, 0.20);
+      border-color: rgba(11, 92, 168, 0.28);
+    }
+
+    .botao-sistema:focus {
+      outline: 4px solid rgba(11, 92, 168, 0.22);
+      outline-offset: 3px;
+    }
+
+    .botao-sistema img {
+      width: 62px;
+      height: 62px;
+      object-fit: contain;
+      flex: 0 0 auto;
+      display: none;
+    }
+
+    .botao-texto {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      text-align: left;
+      line-height: 1.1;
+    }
+
+    .botao-titulo {
+      font-size: 30px;
+      font-weight: 800;
+      color: var(--azul);
+    }
+
+    .botao-desc {
+      margin-top: 7px;
+      font-size: 14px;
+      color: var(--cinza);
+      font-weight: 600;
+    }
+
+    .botao-cis .botao-titulo {
+      color: var(--verde);
+    }
+
+    @media (max-width: 640px) {
+      body {
+        padding: 20px;
+        overflow: auto;
+      }
+
+      .pagina {
+        padding: 34px 20px;
+        border-radius: 28px;
+      }
+
+      .botoes {
+        gap: 16px;
+      }
+
+      .botao-sistema {
+        width: 100%;
+        min-height: 88px;
+      }
+
+      .botao-titulo {
+        font-size: 26px;
+      }
+    }
   </style>
 </head>
 <body>
-  <main class="wrap">
-    <h1>Secretaria Municipal de Saúde de Valente</h1>
-    <p>Página inicial em construção.</p>
-    <a href="{{ url_for('index') }}">Acessar IFA</a>
+  <main class="pagina">
+    <img
+      id="logoSecretaria"
+      class="logo-secretaria"
+      src="/static/logo-secretaria.png"
+      alt="Logo da Secretaria Municipal de Saúde de Valente"
+      data-srcs="/static/logo-secretaria.png|/static/logo_secretaria.png|/static/secretaria.png|/static/logo.png|/static/img/logo-secretaria.png|/static/img/logo.png"
+    />
+
+    <h1 class="titulo">Secretaria Municipal de Saúde de Valente</h1>
+    <p class="subtitulo">Selecione o sistema que deseja acessar</p>
+
+    <section class="botoes" aria-label="Sistemas disponíveis">
+      <a class="botao-sistema botao-ifa" href="/ifa" aria-label="Acessar sistema IFA">
+        <img
+          id="logoIfa"
+          src="/static/logo-ifa.png"
+          alt="Logo IFA"
+          data-srcs="/static/logo-ifa.png|/static/logo_ifa.png|/static/ifa.png|/static/img/logo-ifa.png|/static/img/ifa.png"
+        />
+        <span class="botao-texto">
+          <span class="botao-titulo">IFA</span>
+          <span class="botao-desc">Indicadores e avaliação</span>
+        </span>
+      </a>
+
+      <a class="botao-sistema botao-cis" href="/CIS" aria-label="Acessar sistema CIS">
+        <img
+          id="logoCis"
+          src="/CIS/logo-cis.jpeg"
+          alt="Logo CIS"
+          data-srcs="/CIS/logo-cis.jpeg|/CIS/logo-cis.jpg|/CIS/logo-cis.png|/CIS/logo.jpeg|/CIS/logo.png|/static/logo-cis.jpeg|/static/logo-cis.png"
+        />
+        <span class="botao-texto">
+          <span class="botao-titulo">CIS</span>
+          <span class="botao-desc">Regulação e marcação</span>
+        </span>
+      </a>
+    </section>
   </main>
+
+  <script>
+    function carregarLogo(img) {
+      if (!img) return;
+
+      const fontes = (img.dataset.srcs || "")
+        .split("|")
+        .map(item => item.trim())
+        .filter(Boolean);
+
+      let indice = 0;
+
+      function tentar() {
+        if (indice >= fontes.length) {
+          img.style.display = "none";
+          return;
+        }
+
+        img.onload = function () {
+          img.style.display = "block";
+        };
+
+        img.onerror = function () {
+          indice += 1;
+          tentar();
+        };
+
+        img.src = fontes[indice];
+      }
+
+      tentar();
+    }
+
+    carregarLogo(document.getElementById("logoSecretaria"));
+    carregarLogo(document.getElementById("logoIfa"));
+    carregarLogo(document.getElementById("logoCis"));
+  </script>
 </body>
 </html>
