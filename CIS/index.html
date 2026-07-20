@@ -1,0 +1,289 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>CIS · Sistema de Regulação e Marcação</title>
+  <script>
+    // Quando estiver publicado em /CIS, força os arquivos do sistema a carregarem da pasta correta.
+    // Quando abrir direto no computador, continua funcionando localmente.
+    if (location.protocol !== 'file:') document.write('<base href="/CIS/">');
+  </script>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <section id="loginScreen" class="loginScreen">
+    <div class="loginCard">
+      <img src="logo-cis.jpeg" alt="CIS Central Integrada da Saúde" class="loginLogo" />
+      <h1>Sistema CIS de Regulação e Marcação</h1>
+      <p>Controle interno de filas, cadastros, procedimentos, CID, SIGTAP e CIAP.</p>
+      <form id="loginForm" class="loginForm">
+        <label>Usuário<input id="loginUser" autocomplete="username" placeholder="Usuário" required /></label>
+        <label>Senha<input id="loginPass" type="password" autocomplete="current-password" placeholder="Senha" required /></label>
+        <button class="btn primary full" type="submit">Entrar no sistema</button>
+      </form>
+      <div class="resetAccessBox">
+        <button id="btnResetAdmin" class="btn ghost full" type="button">Resetar acesso do Admin</button>
+        <small>Use somente se esqueceu a senha. Não apaga cadastros, filas, bases ou logs.</small>
+      </div>
+    </div>
+  </section>
+
+  <div id="appShell" class="appShell hidden">
+    <header class="topbar">
+      <div class="brand">
+        <img src="logo-cis.jpeg" alt="CIS" class="brandLogo" />
+        <div>
+          <h1>CIS · Regulação e Marcação</h1>
+          <p>Sistema CIS · Cadastro de pacientes · Filas · Procedimentos · CID/SIGTAP/CIAP</p>
+        </div>
+      </div>
+      <div class="actions">
+        <span id="userBadge" class="userBadge"></span>
+        <button id="btnLogout" class="btn ghost">Sair</button>
+      </div>
+    </header>
+
+    <nav class="tabs">
+      <button class="tab active" data-tab="dashboard">1. Dashboard</button>
+      <button class="tab" data-tab="filas">2. Filas</button>
+      <button class="tab" data-tab="cadastro">3. Cadastro</button>
+      <button class="tab" data-tab="bases">Bases e configurações</button>
+      <button class="tab adminOnly" data-tab="admin">Administração</button>
+    </nav>
+
+    <main>
+      <section id="dashboard" class="view active">
+        <div class="grid cards">
+          <article class="card stat"><span>Total na fila</span><strong id="statTotal">0</strong><small>Todos os cadastros ativos</small></article>
+          <article class="card stat"><span>Aguardando</span><strong id="statAguardando">0</strong><small>Sem marcação concluída</small></article>
+          <article class="card stat"><span>Risco alto</span><strong id="statUrgente">0</strong><small>Prioridade 0 ou 1</small></article>
+          <article class="card stat"><span>Solicitados hoje</span><strong id="statHoje">0</strong><small>Data de solicitação atual</small></article>
+        </div>
+        <div class="grid two">
+          <article class="card">
+            <h2>Procedimentos mais solicitados</h2>
+            <div id="chartProcedimentos" class="barList empty">Sem dados ainda.</div>
+          </article>
+          <article class="card">
+            <h2>Fila por PSF / Unidade</h2>
+            <div id="chartPsf" class="barList empty">Sem dados ainda.</div>
+          </article>
+        </div>
+        <article class="card">
+          <h2>Resumo por status</h2>
+          <div id="statusResumo" class="chips"></div>
+        </article>
+      </section>
+
+      <section id="filas" class="view">
+        <article class="card">
+          <div class="sectionHead">
+            <div>
+              <h2>Filas de pacientes</h2>
+              <p>Filtre por procedimento, CID/SIGTAP/CIAP/motivo, PSF, ACS, prioridade ou status.</p>
+            </div>
+            <div class="inline">
+              <button id="btnPdf" class="btn primary">Exportar PDF da fila</button>
+              <button id="btnCsv" class="btn secondary adminOnly">Exportar CSV filtrado</button>
+            </div>
+          </div>
+          <div class="filters">
+            <input id="fBusca" placeholder="Buscar nome, SUS, CPF, contato..." />
+            <input id="fProc" placeholder="Procedimento" />
+            <input id="fCid" placeholder="CID / SIGTAP / CIAP / Motivo" />
+            <div class="combo"><input id="fPsf" autocomplete="off" placeholder="PSF / Unidade" /><div id="fPsfSug" class="suggestions"></div></div>
+            <input id="fAcs" placeholder="ACS" />
+            <select id="fPrioridade"><option value="">Prioridade</option></select>
+            <select id="fStatus"><option value="">Status</option><option>Aguardando</option><option>Marcado</option><option>Atendido</option><option>Cancelado</option><option>Retorno</option></select>
+            <button id="limparFiltros" class="btn ghost">Limpar</button>
+          </div>
+          <div class="tableWrap">
+            <table id="filaTable">
+              <thead><tr><th>#</th><th>Nome</th><th>CPF</th><th>SUS</th><th>Nasc.</th><th>Contato</th><th>Procedimento</th><th>CID/SIGTAP/CIAP/Motivo</th><th>ACS</th><th>PSF</th><th>Data sol.</th><th>Operador</th><th>Local</th><th>Data marc./atend.</th><th>Status</th><th>Ações</th></tr></thead>
+              <tbody></tbody>
+            </table>
+          </div>
+        </article>
+      </section>
+
+      <section id="cadastro" class="view">
+        <article class="card formCard">
+          <div class="sectionHead">
+            <div>
+              <h2 id="formTitle">Cadastro de paciente</h2>
+              <p>Apenas o nome é obrigatório. Data de solicitação em branco será preenchida automaticamente com a data atual.</p>
+            </div>
+            <button id="novoCadastro" class="btn ghost">Novo cadastro</button>
+          </div>
+          <form id="pacienteForm">
+            <input type="hidden" id="pacienteId" />
+            <div class="formGrid">
+              <label>Nome completo <b class="required">*</b><input id="nome" required placeholder="Nome do paciente" /></label>
+              <label>CPF<input id="cpf" inputmode="numeric" placeholder="000.000.000-00" /></label>
+              <label>Cartão SUS<input id="sus" inputmode="numeric" placeholder="Número do SUS" /></label>
+              <label>Data de nascimento<input id="nascimento" type="date" /></label>
+              <label>Contato<input id="contato" placeholder="Telefone / WhatsApp" /></label>
+              <label class="wide">Procedimento
+                <div class="combo"><input id="procedimento" autocomplete="off" placeholder="Digite para buscar procedimento ou SIGTAP" /><div id="procSug" class="suggestions"></div></div>
+              </label>
+              <label class="wide">CID / SIGTAP / CIAP / Motivo
+                <div class="combo"><input id="cid" autocomplete="off" placeholder="Digite CID, SIGTAP, CIAP ou motivo. Ex: I83, 0301100152, A97, varizes..." /><div id="cidSug" class="suggestions"></div></div>
+              </label>
+              <label>ACS<input id="acs" placeholder="Nome do ACS" /></label>
+              <label>PSF / Unidade
+                <div class="combo"><input id="psf" autocomplete="off" placeholder="Digite para buscar a unidade" /><div id="psfSug" class="suggestions"></div></div>
+              </label>
+              <label class="dataSolicField">Data solicitada<input id="dataSolicitacao" type="date" /></label>
+              <label class="statusField">Status<select id="status"><option>Aguardando</option><option>Marcado</option><option>Atendido</option><option>Cancelado</option><option>Retorno</option></select></label>
+              <fieldset class="wide priorityBox prioritySide">
+                <legend>Classificação de prioridade</legend>
+                <div id="prioridadeRadios" class="priorityList"></div>
+              </fieldset>
+              <div id="statusDetails" class="statusDetails statusDetailsForm hidden">
+                <label>Local marcado/atendido
+                  <div class="combo"><input id="localMarcacao" autocomplete="off" placeholder="Digite para buscar ou cadastrar local" /><div id="localSug" class="suggestions"></div></div>
+                </label>
+                <label>Data marcada/atendimento<input id="dataMarcacao" type="date" /></label>
+              </div>
+              <label class="wide obsField">Observação<textarea id="obs" rows="3" placeholder="Observações internas"></textarea></label>
+            </div>
+            <div class="formActions">
+              <button class="btn primary" type="submit">Salvar cadastro</button>
+              <button class="btn danger" type="button" id="excluirCadastro" disabled>Excluir</button>
+            </div>
+          </form>
+        </article>
+      </section>
+
+      <section id="bases" class="view">
+        <article class="card importantCard">
+          <h2>Bases oficiais e internet</h2>
+          <p>Para uso local em um computador, este HTML salva no navegador. Para colocar na internet com vários usuários cadastrando ao mesmo tempo, o ideal é usar banco de dados com login e permissões. Site estático/GitHub Pages serve melhor para painel público sem dados pessoais.</p>
+        </article>
+
+        <div class="grid two">
+          <article class="card">
+            <h2>Unidades fixas de Valente</h2>
+            <p>Campo PSF/Unidade agora funciona em modo pesquisa e já vem com as 10 unidades.</p>
+            <div id="unidadeCount" class="count"></div>
+            <ul id="unidadeList" class="baseList compact"></ul>
+          </article>
+          <article class="card">
+            <h2>Procedimentos</h2>
+            <p>Cadastre manualmente novos procedimentos. A importação em massa do SIGTAP fica na aba Administração, visível apenas para Admin.</p>
+            <div class="inline"><input id="novoProcNome" placeholder="Novo procedimento"/><button id="addProc" class="btn primary">Adicionar</button></div>
+            <p class="hint">A busca ignora acentos e procura por qualquer parte do nome ou código.</p>
+            <div id="procCount" class="count"></div>
+            <ul id="procList" class="baseList"></ul>
+          </article>
+        </div>
+
+        <article class="card">
+          <h2>Base CID / SIGTAP / CIAP</h2>
+          <p>Esse banco alimenta o campo único <b>CID / SIGTAP / CIAP / Motivo</b>. A busca procura por código, descrição e tipo.</p>
+          <div class="formGrid smallGrid">
+            <label>Tipo<select id="novoCodTipo"><option>CID-10</option><option>SIGTAP</option><option>CIAP-2</option><option>Motivo</option></select></label>
+            <label>Código<input id="novoCidCod" placeholder="Ex: I839, 0301100152, A97"/></label>
+            <label class="wide">Descrição<input id="novoCidDesc" placeholder="Descrição"/></label>
+            <div class="alignEnd"><button id="addCid" class="btn primary" type="button">Adicionar</button></div>
+          </div>
+          <p class="hint">Para importação em massa de CID-10, SIGTAP e CIAP-2, acesse a aba Administração com login Admin.</p>
+          <div id="cidCount" class="count"></div>
+          <ul id="cidList" class="baseList compact"></ul>
+        </article>
+
+        <article class="card configCard">
+          <h2>Locais de marcação/atendimento</h2>
+          <p>Esses locais alimentam a pesquisa que aparece quando o status for Marcado ou Atendido.</p>
+          <div class="inline"><input id="novoLocalNome" placeholder="Novo local"/><button id="addLocal" class="btn primary">Adicionar local</button></div>
+          <div id="localCount" class="count"></div>
+          <ul id="localList" class="baseList compact"></ul>
+        </article>
+      </section>
+
+      <section id="admin" class="view adminOnly">
+        <div class="grid two">
+          <article class="card configCard usersCard">
+            <div class="sectionHead">
+              <div>
+                <h2>Operadores do sistema</h2>
+                <p>Somente o Admin visualiza esta área. Cadastre, edite login/senha e defina se o operador é Admin ou Regulador.</p>
+              </div>
+              <button id="btnNovoUsuario" class="btn primary" type="button">Adicionar novo operador</button>
+            </div>
+            <div class="tableWrap usersTableWrap">
+              <table id="usuariosTable">
+                <thead><tr><th>Nome</th><th>Login</th><th>Perfil</th><th>Status</th><th>Última edição</th><th>Ações</th></tr></thead>
+                <tbody></tbody>
+              </table>
+            </div>
+            <form id="usuarioForm" class="userEditor hidden">
+              <input type="hidden" id="usuarioId" />
+              <div class="formGrid userGrid">
+                <label>Nome do operador<input id="usuarioNome" placeholder="Ex: Irla, Maria, João" /></label>
+                <label>Login <b class="required">*</b><input id="usuarioLogin" placeholder="Sem espaço. Ex: irla" required /></label>
+                <label>Senha <b class="required">*</b><input id="usuarioSenha" type="password" placeholder="Senha do operador" required /></label>
+                <label>Perfil<select id="usuarioPerfil"><option value="regulador">Regulador</option><option value="admin">Admin</option></select></label>
+                <label>Status<select id="usuarioAtivo"><option value="true">Ativo</option><option value="false">Inativo</option></select></label>
+              </div>
+              <div class="formActions">
+                <button class="btn primary" type="submit">Salvar operador</button>
+                <button id="cancelarUsuario" class="btn ghost" type="button">Cancelar</button>
+                <button id="excluirUsuario" class="btn danger" type="button">Excluir operador</button>
+              </div>
+            </form>
+          </article>
+
+          <article class="card importantCard">
+            <h2>Backup e internet</h2>
+            <p>Use para guardar uma cópia local, restaurar dados ou gerar o JSON público sem dados pessoais para alimentar um painel na internet.</p>
+            <div class="inline baseActions">
+              <button id="btnExportJson" class="btn secondary">Exportar backup completo</button>
+              <label class="btn secondary fileBtn">Importar backup<input id="importJson" type="file" accept="application/json" hidden></label>
+              <button id="btnPublicJson" class="btn primary">Gerar arquivo para internet</button>
+            </div>
+          </article>
+        </div>
+
+        <article class="card configCard">
+          <h2>Importações oficiais</h2>
+          <p>Área exclusiva do Admin para carregar bases em massa. Depois da importação, Regulador também consegue pesquisar os registros nos campos de cadastro.</p>
+          <div class="inline baseActions">
+            <label class="btn secondary fileBtn">Importar procedimentos/SIGTAP<input id="importSigtap" type="file" accept=".txt,.csv,text/plain,text/csv" hidden></label>
+            <label class="btn secondary fileBtn">Importar CID-10 CSV<input id="importCidCsv" type="file" accept=".csv,text/csv" hidden></label>
+            <label class="btn secondary fileBtn">Importar SIGTAP TXT/CSV<input id="importSigtapCodigos" type="file" accept=".txt,.csv,text/plain,text/csv" hidden></label>
+            <label class="btn secondary fileBtn">Importar CIAP-2 CSV/TXT<input id="importCiap" type="file" accept=".txt,.csv,text/plain,text/csv" hidden></label>
+          </div>
+          <p class="hint">CID-10: CSV de subcategorias. SIGTAP: tb_procedimento.txt. CIAP-2: CSV/TXT com código e descrição.</p>
+        </article>
+
+        <article class="card configCard logCard">
+          <div class="sectionHead">
+            <div>
+              <h2>Log do sistema</h2>
+              <p>Registra login, inclusão, edição, exclusão, backup, importações e alterações feitas por cada operador.</p>
+            </div>
+            <button id="btnLogCsv" class="btn secondary" type="button">Exportar log CSV</button>
+          </div>
+          <div class="filters logFilters">
+            <select id="fLogUsuario"><option value="">Todos os operadores</option></select>
+            <select id="fLogAcao"><option value="">Todas as ações</option></select>
+            <input id="fLogBusca" placeholder="Buscar no log..." />
+            <button id="limparLog" class="btn ghost" type="button">Limpar</button>
+          </div>
+          <div class="tableWrap">
+            <table id="logTable">
+              <thead><tr><th>Data/Hora</th><th>Operador</th><th>Perfil</th><th>Ação</th><th>Paciente</th><th>Detalhes</th></tr></thead>
+              <tbody></tbody>
+            </table>
+          </div>
+        </article>
+      </section>
+    </main>
+  </div>
+
+  <div id="toast"></div>
+  <script src="app.js"></script>
+</body>
+</html>

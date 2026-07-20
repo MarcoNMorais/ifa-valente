@@ -1,0 +1,27 @@
+BASES OFICIAIS - COMO CARREGAR NO SISTEMA
+
+As importações em massa ficam na aba Administração e só aparecem para o login Admin.
+
+1) CID-10
+Arquivo recomendado: CID-10-SUBCATEGORIAS.CSV
+Importar em: Administração > Importações oficiais > Importar CID-10 CSV
+Formato aceito: CSV com código em uma coluna e descrição em outra.
+
+2) SIGTAP
+Arquivo recomendado: tb_procedimento.txt da competência desejada.
+Importar em: Administração > Importações oficiais > Importar procedimentos/SIGTAP
+O sistema lê o código SIGTAP de 10 dígitos e a descrição do procedimento.
+Ao importar SIGTAP, ele alimenta:
+- A busca de Procedimento;
+- A busca do campo CID/SIGTAP/CIAP/Motivo.
+
+3) CIAP-2
+Arquivo recomendado: CSV/TXT com código e descrição.
+Importar em: Administração > Importações oficiais > Importar CIAP-2 CSV/TXT
+Exemplos aceitos:
+A97;Sem doença
+A98;Medicina preventiva/manutenção da saúde
+K86;Hipertensão sem complicações
+
+Observação importante:
+Não inventei uma base completa manualmente para evitar erro em código oficial. O sistema está pronto para receber as bases oficiais completas por importação.
