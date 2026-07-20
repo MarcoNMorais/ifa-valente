@@ -14,6 +14,14 @@ const OLD_SESSION_KEY='cis_regulacao_session_v3';
 const OLD_LOC_KEY='cis_regulacao_locais_v3';
 const OLD_LOGS_KEY='cis_regulacao_logs_v4';
 
+// Integração online: quando publicado em /CIS, o sistema tenta salvar no backend Flask.
+// Quando aberto direto no computador, continua funcionando no navegador/localStorage.
+const CIS_API_BASE='/api/cis';
+const SERVER_SYNC_ENABLED=location.protocol!=='file:';
+let serverSyncReady=false;
+let serverSaveTimer=null;
+let serverStatus='local';
+
 const $=sel=>document.querySelector(sel);
 const $$=sel=>Array.from(document.querySelectorAll(sel));
 const today=()=>new Date().toISOString().slice(0,10);
@@ -266,8 +274,30 @@ function routeToLogin(replace=true){
  setAppRoute(null,replace);
 }
 
-function persistAll(){
- pacientes=normalizePacientes(pacientes);
+function statePayload(){
+ return {
+  versao:13,
+  atualizadoEm:new Date().toISOString(),
+  pacientes:normalizePacientes(pacientes),
+  procedimentos:Array.isArray(procedimentos)?procedimentos:defaultProcedimentos,
+  codigos:Array.isArray(codigos)?codigos:defaultCodigos,
+  locais:Array.isArray(locais)?locais:defaultLocais,
+  users:normalizeUsers(users),
+  logs:Array.isArray(logs)?logs:[]
+ };
+}
+function applyStatePayload(data){
+ if(!data || typeof data!=='object') return;
+ pacientes=normalizePacientes(data.pacientes||[]);
+ procedimentos=Array.isArray(data.procedimentos)?data.procedimentos:defaultProcedimentos;
+ codigos=Array.isArray(data.codigos)?data.codigos:defaultCodigos;
+ locais=Array.isArray(data.locais)?data.locais:defaultLocais;
+ users=normalizeUsers(data.users||defaultUsers);
+ logs=Array.isArray(data.logs)?data.logs:[];
+}
+function persistLocalOnly(){
+ const payload=statePayload();
+ pacientes=payload.pacientes; procedimentos=payload.procedimentos; codigos=payload.codigos; locais=payload.locais; users=payload.users; logs=payload.logs;
  localStorage.setItem(STORAGE_KEY,JSON.stringify(pacientes));
  localStorage.setItem(PROC_KEY,JSON.stringify(procedimentos));
  localStorage.setItem(CODES_KEY,JSON.stringify(codigos));
@@ -275,6 +305,57 @@ function persistAll(){
  localStorage.setItem(LOC_KEY,JSON.stringify(locais));
  localStorage.setItem(LOGS_KEY,JSON.stringify(logs));
 }
+function scheduleServerSave(){
+ if(!SERVER_SYNC_ENABLED || !serverSyncReady) return;
+ clearTimeout(serverSaveTimer);
+ serverSaveTimer=setTimeout(saveStateToServer,450);
+}
+async function saveStateToServer(){
+ if(!SERVER_SYNC_ENABLED || !serverSyncReady) return;
+ try{
+  const res=await fetch(`${CIS_API_BASE}/salvar`,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(statePayload())});
+  if(!res.ok) throw new Error('HTTP '+res.status);
+  serverStatus='online';
+ }catch(err){
+  serverStatus='local';
+  console.warn('CIS: não foi possível salvar no backend. Mantido localmente no navegador.',err);
+ }
+}
+async function initDataStorage(){
+ const localPayload=statePayload();
+ const localHasData=(localPayload.pacientes?.length||0) || (localPayload.logs?.length||0) || (localPayload.procedimentos?.length||0) || (localPayload.codigos?.length||0);
+ persistLocalOnly();
+ if(SERVER_SYNC_ENABLED){
+  try{
+   const res=await fetch(`${CIS_API_BASE}/dados`,{cache:'no-store'});
+   if(res.ok){
+    const payload=await res.json();
+    if(payload && payload.ok && payload.data){
+     const serverData=payload.data;
+     const serverHasData=(serverData.pacientes?.length||0) || (serverData.logs?.length||0) || (serverData.procedimentos?.length||0) || (serverData.codigos?.length||0);
+     serverStatus='online';
+     if(!serverHasData && localHasData){
+      // Primeiro acesso online: se o navegador já tinha dados locais, envia para o Render
+      // em vez de apagar tudo com uma base nova vazia do servidor.
+      serverSyncReady=true;
+      await saveStateToServer();
+      renderAll();
+      return;
+     }
+     applyStatePayload(serverData);
+     persistLocalOnly();
+    }
+   }
+  }catch(err){
+   serverStatus='local';
+   console.warn('CIS: backend não respondeu. Usando armazenamento local do navegador.',err);
+  }
+ }
+ serverSyncReady=true;
+ renderAll();
+ if(SERVER_SYNC_ENABLED) scheduleServerSave();
+}
+function persistAll(){persistLocalOnly();scheduleServerSave()}
 function save(){persistAll();renderAll()}
 function toast(msg){const t=$('#toast');t.textContent=msg;t.classList.add('show');setTimeout(()=>t.classList.remove('show'),2600)}
 function download(name, content, type='application/json'){const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([content],{type}));a.download=name;a.click();setTimeout(()=>URL.revokeObjectURL(a.href),500)}
@@ -311,26 +392,6 @@ function applyLogin(){
 function logout(){if(currentUser) addLog('Logout','Saiu do sistema'); sessionStorage.removeItem(SESSION_KEY);currentUser=null;$('#appShell').classList.add('hidden');$('#loginScreen').classList.remove('hidden');$('#loginPass').value='';routeToLogin(true);}
 $('#loginForm').onsubmit=e=>{e.preventDefault();login($('#loginUser').value.trim(),$('#loginPass').value)};
 
-function resetAdminAccess(){
- const resp=prompt('Recuperação de acesso do Admin\n\nIsso vai criar ou redefinir o usuário admin com senha padrão.\nNão apaga pacientes, filas, bases, procedimentos, operadores existentes ou backups.\n\nPara confirmar, digite: RESETAR');
- if((resp||'').trim().toUpperCase()!=='RESETAR'){toast('Reset cancelado.');return;}
- users=normalizeUsers(loadRaw(USERS_KEY)||users);
- const adminLoginKey=compact('admin');
- const nowIso=new Date().toISOString();
- const idx=users.findIndex(u=>compact(u.user)===adminLoginKey);
- const adminItem={id:idx>=0?users[idx].id:'admin-reset-'+uid(),user:'admin',pass:'1234',role:'admin',name:'admin',active:true,createdAt:idx>=0?(users[idx].createdAt||nowIso):nowIso,updatedAt:nowIso};
- if(idx>=0) users[idx]={...users[idx],...adminItem};
- else users.push(adminItem);
- logs=Array.isArray(logs)?logs:[];
- logs.unshift({id:uid(),quando:nowIso,usuario:'Recuperação de acesso',perfil:'sistema',acao:'Reset Admin',paciente:'',detalhes:'Usuário admin redefinido pela tela de login. Pacientes e bases foram mantidos.'});
- if(logs.length>5000) logs=logs.slice(0,5000);
- persistAll();
- $('#loginUser').value='admin';
- $('#loginPass').value='';
- $('#loginPass').focus();
- toast('Admin resetado. Entre com login admin e senha 1234.');
-}
-$('#btnResetAdmin')?.addEventListener('click',resetAdminAccess);
 $('#btnLogout').onclick=logout;
 const savedSession=loadRaw(SESSION_KEY)||loadRaw(OLD_SESSION_KEY); if(savedSession){currentUser=savedSession; setTimeout(applyLogin,0)}
 
@@ -577,7 +638,7 @@ $('#importSigtap').onchange=e=>{if(!isAdmin())return; const file=e.target.files[
 $('#importSigtapCodigos').onchange=e=>{if(!isAdmin())return; const file=e.target.files[0]; if(!file)return; importSigtapFile(file,true); e.target.value='';};
 $('#importCiap').onchange=e=>{if(!isAdmin())return; const file=e.target.files[0]; if(!file)return; readFileText(file,text=>{const parsed=parseGenericCodes(text,'CIAP-2'); addCodes(parsed); addLog('Importação',`${parsed.length} CIAP-2 importado(s) do arquivo ${file.name}.`); save(); toast(`${parsed.length} CIAP-2 importado(s).`); e.target.value='';});};
 
-$('#btnExportJson').onclick=()=>{if(!isAdmin())return; addLog('Backup','Backup completo exportado.'); download(`backup_cis_regulacao_${today()}.json`,JSON.stringify({versao:8,pacientes,procedimentos,codigos,locais,users:normalizeUsers(users),logs,geradoEm:new Date().toISOString()},null,2))};
+$('#btnExportJson').onclick=()=>{if(!isAdmin())return; addLog('Backup','Backup completo exportado.'); download(`backup_cis_regulacao_${today()}.json`,JSON.stringify({versao:13,pacientes,procedimentos,codigos,locais,users:normalizeUsers(users),logs,geradoEm:new Date().toISOString()},null,2))};
 $('#importJson').onchange=e=>{if(!isAdmin())return; const file=e.target.files[0]; if(!file)return; const r=new FileReader(); r.onload=()=>{try{const data=JSON.parse(r.result); pacientes=data.pacientes||[]; procedimentos=data.procedimentos||defaultProcedimentos; codigos=data.codigos||((data.cids||[]).map(c=>({tipo:'CID-10',codigo:c.codigo,descricao:c.descricao})))||defaultCodigos; locais=data.locais||defaultLocais; users=normalizeUsers(data.users||users); logs=data.logs||logs; addLog('Backup','Backup importado: '+file.name); save(); toast('Backup importado.')}catch{toast('Arquivo inválido.')}}; r.readAsText(file)};
 $('#btnPublicJson').onclick=()=>{if(!isAdmin())return; addLog('Internet','Arquivo público JSON gerado.'); download('dados_publicos_cis_regulacao.json',JSON.stringify({atualizadoEm:new Date().toISOString(),dashboard:{total:pacientes.length,aguardando:pacientes.filter(p=>p.status==='Aguardando').length,riscoAlto:pacientes.filter(p=>(p.prioridade||'').includes('Prioridade 0')||(p.prioridade||'').includes('Prioridade 1')).length},filas:pacientes.map(({id,nome,cpf,sus,nascimento,contato,obs,operadorCadastro,operadorAtualizacao,...publico})=>publico)},null,2))};
 $('#btnCsv').onclick=()=>{if(!isAdmin())return; const rows=filtered(); addLog('Exportação','CSV da fila exportado. Total: '+rows.length); const header=['Nome','CPF','SUS','Nascimento','Contato','Procedimento','CID/SIGTAP/CIAP/Motivo','ACS','PSF','Data Solicitacao','Operador','Local Marcacao/Atendimento','Data Marcacao/Atendimento','Prioridade','Status','Observacao']; const csv=[header,...rows.map(p=>[p.nome,p.cpf,p.sus,p.nascimento,p.contato,p.procedimento,p.cid,p.acs,p.psf,p.dataSolicitacao,firstName(p.operadorCadastro||p.operadorAtualizacao),p.localMarcacao,p.dataMarcacao,p.prioridade,p.status,p.obs])].map(r=>r.map(v=>'"'+(v||'').replace(/"/g,'""')+'"').join(';')).join('\n'); download(`fila_cis_regulacao_${today()}.csv`,csv,'text/csv;charset=utf-8')};
@@ -693,5 +754,4 @@ if($('#btnLogCsv')) $('#btnLogCsv').onclick=()=>{if(!isAdmin())return; const row
 
 function renderAll(){renderDashboard();renderFilas();renderBases();renderUsersAdmin();renderLog()}
 
-persistAll();
-renderAll();
+initDataStorage();

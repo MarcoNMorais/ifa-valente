@@ -1,11 +1,11 @@
-Sistema Local CIS - Regulação e Marcação - v10
+Sistema CIS - Regulação e Marcação - v12
 
 Como abrir:
 1. Extraia o ZIP.
 2. Abra o arquivo index.html no Google Chrome.
 3. Use o login criado para Admin ou Regulador. As informações de acesso não aparecem na tela inicial.
 
-O que mudou na v10:
+O que mudou na v12:
 - Administração ganhou gestão completa de operadores.
 - Agora mostra todos os operadores cadastrados em tabela.
 - Admin pode adicionar novo operador.
@@ -42,17 +42,20 @@ Para colocar na internet:
 - Para vários usuários cadastrando pela internet, o correto é usar banco de dados com login, permissões e backup, por exemplo PostgreSQL/Supabase/Firebase ou backend próprio.
 
 
-ALTERAÇÃO v10:
+ALTERAÇÕES ANTERIORES:
 - Login passou a ignorar letras maiúsculas/minúsculas. Exemplo: Irla, irla ou IRLA entram no mesmo operador.
 - Senha continua diferenciando maiúsculas/minúsculas.
 
 
-ALTERAÇÃO v10:
+ALTERAÇÕES ANTERIORES:
 - Corrigido o botão Excluir no cadastro: agora o ID interno é carregado corretamente ao abrir pela fila.
 - Incluída segurança extra para localizar cadastros antigos pelo conteúdo do formulário caso o ID esteja vazio.
 
 
-VERSÃO v10
-- Incluído botão 'Resetar acesso do Admin' na tela de login.
-- Para usar: clique no botão, digite RESETAR e depois entre com login admin e senha 1234.
-- O reset mantém pacientes, filas, bases, procedimentos, locais, operadores existentes e logs.
+Versão v12:
+- Removido botão de reset do Admin da tela de login.
+- Preparado para salvar no backend Flask em /api/cis quando publicado online.
+- Mantém funcionamento local pelo navegador se aberto direto no computador.
+
+V13 Render persistente:
+No Render, usando server.py + cis_routes.py, os dados do CIS são salvos em /var/data/cis/cis_database.json quando a variável IFA_DATA_DIR=/var/data estiver configurada.
