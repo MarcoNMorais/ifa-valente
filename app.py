@@ -1892,6 +1892,30 @@ def server_error(_):
 
 
 init_database()
+import os
+from flask import send_from_directory, redirect
 
+@app.route('/cis')
+@app.route('/cis/')
+@app.route('/cis/<path:path>')
+@app.route('/Cis')
+@app.route('/Cis/')
+@app.route('/Cis/<path:path>')
+def redirecionar_cis(path=''):
+    if path:
+        return redirect('/CIS/' + path)
+    return redirect('/CIS')
+
+@app.route('/CIS')
+@app.route('/CIS/')
+@app.route('/CIS/<path:path>')
+def sistema_cis(path='index.html'):
+    pasta_cis = os.path.join(app.root_path, 'CIS')
+
+    arquivo = os.path.join(pasta_cis, path)
+    if path and os.path.exists(arquivo):
+        return send_from_directory(pasta_cis, path)
+
+    return send_from_directory(pasta_cis, 'index.html')
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=int(os.environ.get("PORT", "5000")), debug=False)
