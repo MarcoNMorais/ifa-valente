@@ -29,6 +29,32 @@ function statusItem(i){
 }
 function roleLabel(p){ return p === "ADM" ? "Administrador" : "Coordenador"; }
 function isAdm(){ return SESSION && SESSION.perfil === "ADM"; }
+function onlyDateIsoFromMovement(m){
+  const raw = String(m.data || m.created_at || m.atualizado_em || m.date || "").trim();
+  if(!raw) return "";
+  let match = raw.match(/^(\d{4})-(\d{2})-(\d{2})/);
+  if(match) return `${match[1]}-${match[2]}-${match[3]}`;
+  match = raw.match(/^(\d{2})\/(\d{2})\/(\d{4})/);
+  if(match) return `${match[3]}-${match[2]}-${match[1]}`;
+  match = raw.match(/^(\d{2})-(\d{2})-(\d{4})/);
+  if(match) return `${match[3]}-${match[2]}-${match[1]}`;
+  return "";
+}
+function produtoMov(m){ return String(m.item || m.produto_nome || m.nome || m.produto || "").trim(); }
+function operadorMov(m){ return String(m.usuario || m.responsavel || m.operador || m.criado_por || "").trim(); }
+function qtdMov(m){ return Number(m.quantidade || m.qtd || m.qtde || m.total || 0) || 0; }
+function tipoMovRaw(m){ return String(m.tipo || m.operacao || m.movimento || m.acao || "").trim(); }
+function classificarMov(m){
+  const texto = `${tipoMovRaw(m)} ${m.origem || ""} ${m.destino || ""} ${m.descricao || ""}`.toLowerCase();
+  if(texto.includes("saída") || texto.includes("saida") || texto.includes("retirada") || texto.includes("baixa") || texto.includes("consumo")) return "saida";
+  if(texto.includes("entrada") || texto.includes("compra") || texto.includes("recebimento") || texto.includes("adicao") || texto.includes("adição")) return "entrada";
+  if(texto.includes("transfer")) return "transferencia";
+  return "outro";
+}
+function tipoMovLabel(tipo){
+  return {entrada:"Entrada", saida:"Saída", transferencia:"Transferência", outro:"Outros"}[tipo] || "Outros";
+}
+function uniq(arr){ return [...new Set(arr.filter(Boolean))].sort((a,b)=>a.localeCompare(b,"pt-BR")); }
 
 async function loadData(){
   try{
@@ -39,7 +65,6 @@ async function loadData(){
     DATA = { resumo:{}, itens:[], movimentacoes:[], erro:String(e) };
   }
 }
-
 function loadSession(){
   try{ SESSION = JSON.parse(localStorage.getItem(LOGIN_KEY) || "null"); }catch{ SESSION=null; }
 }
@@ -83,37 +108,32 @@ function renderLogin(){
               <p>Secretaria Municipal de Saúde de Valente</p>
             </div>
           </div>
-          <h2>Acesso ao portal</h2>
-          <p class="sub">Entre para consultar os relatórios online do estoque hospitalar.</p>
+          <h2>Acesso restrito</h2>
+          <p class="sub">Sistema online de consulta e acompanhamento do estoque hospitalar.</p>
           <div id="loginAlert"></div>
           <form id="loginForm">
             <div class="field">
-              <label>Login</label>
-              <input id="loginUser" autocomplete="username" placeholder="Admin ou Coordenador" required>
+              <label>Usuário</label>
+              <input id="loginUser" autocomplete="username" required>
             </div>
             <div class="field">
               <label>Senha</label>
-              <input id="loginPass" type="password" autocomplete="current-password" placeholder="Digite a senha" required>
+              <input id="loginPass" type="password" autocomplete="current-password" required>
             </div>
-            <button class="btn btn-primary btn-full" type="submit">Entrar no sistema</button>
+            <button class="btn btn-primary btn-full" type="submit">Entrar</button>
           </form>
-          <div class="kpi-note" style="margin-top:18px">
-            <strong>Perfis:</strong><br>
-            Administrador vê tudo, cadastro e backup.<br>
-            Coordenador visualiza relatórios e consultas.
-          </div>
         </div>
       </section>
       <section class="login-right">
         <div class="hero-content">
-          <span class="hero-badge">🏥 Portal Online</span>
-          <h2>Controle moderno do estoque hospitalar</h2>
-          <p>Consulta rápida dos saldos, itens críticos, movimentações e indicadores, alimentada automaticamente pelo sistema local.</p>
+          <span class="hero-badge">🏥 Estoque Hospitalar</span>
+          <h2>Hospital Municipal José Mota Araújo</h2>
+          <p>Portal integrado para acompanhamento dos saldos, movimentações e indicadores de estoque.</p>
           <div class="hero-grid">
             <div class="hero-mini"><strong>${money(DATA.resumo?.itens)}</strong><span>itens cadastrados</span></div>
             <div class="hero-mini"><strong>${money(DATA.resumo?.total_geral)}</strong><span>saldo total</span></div>
             <div class="hero-mini"><strong>${money(DATA.resumo?.perto_de_terminar)}</strong><span>itens em alerta</span></div>
-            <div class="hero-mini"><strong>${DATA.atualizado_em || "-"}</strong><span>última atualização</span></div>
+            <div class="hero-mini"><strong>${DATA.atualizado_em || "-"}</strong><span>atualização</span></div>
           </div>
         </div>
       </section>
@@ -127,7 +147,7 @@ function renderLogin(){
       saveSession({ usuario:u, nome:found.nome, perfil:found.perfil, entrada:new Date().toISOString() });
       go("VisaoGeral");
     }else{
-      document.getElementById("loginAlert").innerHTML = `<div class="alert">Login ou senha inválidos.</div>`;
+      document.getElementById("loginAlert").innerHTML = `<div class="alert">Usuário ou senha inválidos.</div>`;
     }
   });
 }
@@ -168,7 +188,7 @@ function renderShell(content){
         </div>
       </aside>
       <main class="main">${content}
-        <div class="footer-note">Portal alimentado automaticamente pelo sistema local. Última atualização: ${DATA.atualizado_em || "-"}</div>
+        <div class="footer-note">Última atualização: ${DATA.atualizado_em || "-"}</div>
       </main>
     </div>`;
 }
@@ -196,7 +216,7 @@ function renderVisaoGeral(){
     <section class="grid two-col section">
       <div class="card">
         <div class="section-head"><div><h2>Itens críticos</h2><p>Produtos zerados ou abaixo do mínimo.</p></div></div>
-        ${tableItens(alertas, true)}
+        ${tableItens(alertas)}
       </div>
       <div class="card">
         <div class="section-head"><div><h2>Menores saldos</h2><p>Ranking por total geral.</p></div></div>
@@ -210,7 +230,7 @@ function renderVisaoGeral(){
   `);
 }
 
-function tableItens(rows, compact=false){
+function tableItens(rows){
   if(!rows || rows.length===0) return `<div class="empty">Nenhum item encontrado.</div>`;
   return `<div class="table-wrap"><table>
     <thead><tr>
@@ -260,7 +280,7 @@ function chartTipos(){
 }
 
 function renderEstoque(){
-  const tipos = [...new Set((DATA.itens||[]).map(i=>i.tipo||"Sem tipo"))].sort();
+  const tipos = uniq((DATA.itens||[]).map(i=>i.tipo||"Sem tipo"));
   renderShell(`
     ${pageHeader("Estoque", "Consulta completa dos itens publicados.")}
     <section class="card">
@@ -296,30 +316,185 @@ function filtrarEstoque(){
   document.getElementById("estoqueTabela").innerHTML = tableItens(rows.slice(0,300));
 }
 
+function filtrosRelatorioHtml(){
+  const movs = DATA.movimentacoes || [];
+  const produtos = uniq(movs.map(produtoMov));
+  const operadores = uniq(movs.map(operadorMov));
+  return `
+    <div class="filters-card">
+      <div class="field"><label>Data inicial</label><input id="relInicio" type="date" onchange="aplicarRelatorios()"></div>
+      <div class="field"><label>Data final</label><input id="relFim" type="date" onchange="aplicarRelatorios()"></div>
+      <div class="field"><label>Produto</label><select id="relProduto" onchange="aplicarRelatorios()"><option value="">Todos</option>${produtos.map(p=>`<option>${esc(p)}</option>`).join("")}</select></div>
+      <div class="field"><label>Operador</label><select id="relOperador" onchange="aplicarRelatorios()"><option value="">Todos</option>${operadores.map(o=>`<option>${esc(o)}</option>`).join("")}</select></div>
+      <div class="field"><label>Movimento</label><select id="relTipo" onchange="aplicarRelatorios()"><option value="">Todos</option><option value="entrada">Entrada</option><option value="saida">Saída</option><option value="transferencia">Transferência</option><option value="outro">Outros</option></select></div>
+      <div class="field action-field"><label>&nbsp;</label><button class="btn btn-light" onclick="limparRelatorios()">Limpar filtros</button></div>
+    </div>`;
+}
+function movimentosFiltradosRel(){
+  const ini = document.getElementById("relInicio")?.value || "";
+  const fim = document.getElementById("relFim")?.value || "";
+  const prod = document.getElementById("relProduto")?.value || "";
+  const op = document.getElementById("relOperador")?.value || "";
+  const tipo = document.getElementById("relTipo")?.value || "";
+  return (DATA.movimentacoes || []).filter(m=>{
+    const d = onlyDateIsoFromMovement(m);
+    const p = produtoMov(m);
+    const o = operadorMov(m);
+    const t = classificarMov(m);
+    return (!ini || (d && d >= ini)) &&
+           (!fim || (d && d <= fim)) &&
+           (!prod || p === prod) &&
+           (!op || o === op) &&
+           (!tipo || t === tipo);
+  });
+}
+function resumirMovimentos(rows){
+  const totals = {entrada:0, saida:0, transferencia:0, outro:0};
+  rows.forEach(m=>totals[classificarMov(m)] += qtdMov(m));
+  return totals;
+}
+function resumoPorProduto(rows){
+  const map = {};
+  rows.forEach(m=>{
+    const p = produtoMov(m) || "Não informado";
+    if(!map[p]) map[p] = {produto:p, entrada:0, saida:0, transferencia:0, outro:0, total:0};
+    const t = classificarMov(m), q = qtdMov(m);
+    map[p][t] += q;
+    map[p].total += q;
+  });
+  return Object.values(map).sort((a,b)=>b.total-a.total);
+}
+function resumoPorOperador(rows){
+  const map = {};
+  rows.forEach(m=>{
+    const p = operadorMov(m) || "Não informado";
+    if(!map[p]) map[p] = {operador:p, entrada:0, saida:0, transferencia:0, outro:0, total:0, registros:0};
+    const t = classificarMov(m), q = qtdMov(m);
+    map[p][t] += q;
+    map[p].total += q;
+    map[p].registros += 1;
+  });
+  return Object.values(map).sort((a,b)=>b.total-a.total);
+}
 function renderRelatorios(){
-  const itens = DATA.itens || [];
-  const criticos = itens.filter(i=>statusItem(i)[0]!=="ok");
   renderShell(`
-    ${pageHeader("Relatórios", "Indicadores consolidados para acompanhamento gerencial.")}
-    <section class="grid cards">
-      <div class="card metric"><div class="label">Saldo total</div><div class="value">${money(DATA.resumo?.total_geral)}</div><div class="hint">todos os setores</div></div>
-      <div class="card metric"><div class="label">Críticos</div><div class="value">${money(criticos.length)}</div><div class="hint">zerados ou no mínimo</div></div>
-      <div class="card metric"><div class="label">Movimentações</div><div class="value">${money((DATA.movimentacoes||[]).length)}</div><div class="hint">últimos registros</div></div>
-      <div class="card metric"><div class="label">Atualizado</div><div class="value" style="font-size:18px">${DATA.atualizado_em || "-"}</div><div class="hint">dados.json</div></div>
+    ${pageHeader("Relatórios", "Consulta gerencial das movimentações e saldos publicados.")}
+    <section class="card">
+      <div class="section-head"><div><h2>Filtros</h2><p>Selecione o período, produto, operador ou tipo de movimentação.</p></div></div>
+      ${filtrosRelatorioHtml()}
+    </section>
+    <section id="relatorioResultado"></section>
+  `);
+  aplicarRelatorios();
+}
+function aplicarRelatorios(){
+  const rows = movimentosFiltradosRel();
+  const totals = resumirMovimentos(rows);
+  const porProduto = resumoPorProduto(rows);
+  const porOperador = resumoPorOperador(rows);
+  const detalhes = rows.slice(0,500);
+
+  const html = `
+    <section class="grid cards section">
+      <div class="card metric"><div class="label">Registros</div><div class="value">${money(rows.length)}</div><div class="hint">movimentações filtradas</div></div>
+      <div class="card metric"><div class="label">Entradas</div><div class="value">${money(totals.entrada)}</div><div class="hint">quantidade total</div></div>
+      <div class="card metric"><div class="label">Saídas</div><div class="value">${money(totals.saida)}</div><div class="hint">quantidade total</div></div>
+      <div class="card metric"><div class="label">Transferências</div><div class="value">${money(totals.transferencia)}</div><div class="hint">quantidade total</div></div>
     </section>
     <section class="grid two-col section">
-      <div class="card"><div class="section-head"><div><h2>Relatório de itens críticos</h2><p>Lista para reposição e acompanhamento.</p></div></div>${tableItens(criticos)}</div>
-      <div class="card"><div class="section-head"><div><h2>Saldo por tipo</h2><p>Maiores grupos em estoque.</p></div></div>${chartTipos()}</div>
+      <div class="card">
+        <div class="section-head">
+          <div><h2>Quantidade por produto</h2><p>Entradas, saídas e transferências por item.</p></div>
+          <button class="btn btn-light" onclick="exportarRelatorioCSV()">Exportar CSV</button>
+        </div>
+        ${tabelaPorProduto(porProduto)}
+      </div>
+      <div class="card">
+        <div class="section-head"><div><h2>Quantidade por operador</h2><p>Total movimentado por responsável.</p></div></div>
+        ${tabelaPorOperador(porOperador)}
+      </div>
     </section>
-  `);
+    <section class="card section">
+      <div class="section-head"><div><h2>Movimentações detalhadas</h2><p>Histórico conforme filtros selecionados.</p></div></div>
+      ${tabelaMovDetalhada(detalhes)}
+    </section>`;
+  const el = document.getElementById("relatorioResultado");
+  if(el) el.innerHTML = html;
+}
+function tabelaPorProduto(rows){
+  if(!rows.length) return `<div class="empty">Nenhum resultado encontrado.</div>`;
+  return `<div class="table-wrap"><table>
+    <thead><tr><th>Produto</th><th>Entrada</th><th>Saída</th><th>Transferência</th><th>Outros</th><th>Total</th></tr></thead>
+    <tbody>${rows.map(r=>`<tr>
+      <td><strong>${esc(r.produto)}</strong></td>
+      <td>${money(r.entrada)}</td><td>${money(r.saida)}</td><td>${money(r.transferencia)}</td><td>${money(r.outro)}</td><td><strong>${money(r.total)}</strong></td>
+    </tr>`).join("")}</tbody>
+  </table></div>`;
+}
+function tabelaPorOperador(rows){
+  if(!rows.length) return `<div class="empty">Nenhum resultado encontrado.</div>`;
+  return `<div class="table-wrap"><table style="min-width:620px">
+    <thead><tr><th>Operador</th><th>Registros</th><th>Entrada</th><th>Saída</th><th>Total</th></tr></thead>
+    <tbody>${rows.map(r=>`<tr>
+      <td><strong>${esc(r.operador)}</strong></td>
+      <td>${money(r.registros)}</td><td>${money(r.entrada)}</td><td>${money(r.saida)}</td><td><strong>${money(r.total)}</strong></td>
+    </tr>`).join("")}</tbody>
+  </table></div>`;
+}
+function tabelaMovDetalhada(rows){
+  if(!rows.length) return `<div class="empty">Nenhuma movimentação encontrada.</div>`;
+  return `<div class="table-wrap"><table>
+    <thead><tr><th>Data</th><th>Produto</th><th>Movimento</th><th>Origem</th><th>Destino</th><th>Qtd.</th><th>Operador</th></tr></thead>
+    <tbody>${rows.map(m=>`<tr>
+      <td>${esc(m.data || m.created_at || "")}</td>
+      <td><strong>${esc(produtoMov(m))}</strong></td>
+      <td>${tipoMovLabel(classificarMov(m))}</td>
+      <td>${esc(m.origem || "")}</td>
+      <td>${esc(m.destino || "")}</td>
+      <td>${money(qtdMov(m))}</td>
+      <td>${esc(operadorMov(m))}</td>
+    </tr>`).join("")}</tbody>
+  </table></div>`;
+}
+function limparRelatorios(){
+  ["relInicio","relFim","relProduto","relOperador","relTipo"].forEach(id=>{ const e=document.getElementById(id); if(e) e.value=""; });
+  aplicarRelatorios();
+}
+function exportarRelatorioCSV(){
+  const rows = movimentosFiltradosRel();
+  const linhas = [["Data","Produto","Movimento","Origem","Destino","Quantidade","Operador"]];
+  rows.forEach(m=>linhas.push([
+    m.data || m.created_at || "",
+    produtoMov(m),
+    tipoMovLabel(classificarMov(m)),
+    m.origem || "",
+    m.destino || "",
+    qtdMov(m),
+    operadorMov(m)
+  ]));
+  const csv = linhas.map(l=>l.map(v=>`"${String(v).replaceAll('"','""')}"`).join(";")).join("\n");
+  const blob = new Blob(["\ufeff"+csv], {type:"text/csv;charset=utf-8"});
+  const a=document.createElement("a");
+  a.href=URL.createObjectURL(blob);
+  a.download=`relatorio_movimentacoes_${new Date().toISOString().slice(0,10)}.csv`;
+  a.click();
+  URL.revokeObjectURL(a.href);
 }
 
 function renderMovimentacoes(){
-  const rows = DATA.movimentacoes || [];
+  const movs = DATA.movimentacoes || [];
+  const produtos = uniq(movs.map(produtoMov));
+  const operadores = uniq(movs.map(operadorMov));
   renderShell(`
-    ${pageHeader("Movimentações", "Últimas entradas, saídas e transferências publicadas.")}
+    ${pageHeader("Movimentações", "Histórico de entradas, saídas e transferências publicadas.")}
     <section class="card">
-      <div class="toolbar"><input id="movBusca" placeholder="Pesquisar movimentação..." oninput="filtrarMov()"></div>
+      <div class="filters-card compact">
+        <div class="field"><label>Data inicial</label><input id="movInicio" type="date" oninput="filtrarMov()"></div>
+        <div class="field"><label>Data final</label><input id="movFim" type="date" oninput="filtrarMov()"></div>
+        <div class="field"><label>Produto</label><select id="movProduto" onchange="filtrarMov()"><option value="">Todos</option>${produtos.map(p=>`<option>${esc(p)}</option>`).join("")}</select></div>
+        <div class="field"><label>Operador</label><select id="movOperador" onchange="filtrarMov()"><option value="">Todos</option>${operadores.map(o=>`<option>${esc(o)}</option>`).join("")}</select></div>
+        <div class="field"><label>Busca</label><input id="movBusca" placeholder="Pesquisar..." oninput="filtrarMov()"></div>
+      </div>
       <div id="movTabela"></div>
     </section>
   `);
@@ -327,19 +502,19 @@ function renderMovimentacoes(){
 }
 function filtrarMov(){
   const q = (document.getElementById("movBusca")?.value || "").toLowerCase();
-  const rows = (DATA.movimentacoes||[]).filter(m=>JSON.stringify(m).toLowerCase().includes(q)).slice(0,300);
-  document.getElementById("movTabela").innerHTML = `<div class="table-wrap"><table>
-    <thead><tr><th>Data</th><th>Item</th><th>Tipo</th><th>Origem</th><th>Destino</th><th>Qtd.</th><th>Responsável</th></tr></thead>
-    <tbody>${rows.map(m=>`<tr>
-      <td>${esc(m.data || m.created_at || "")}</td>
-      <td><strong>${esc(m.item || m.produto_nome || m.nome || "")}</strong></td>
-      <td>${esc(m.tipo || m.operacao || "")}</td>
-      <td>${esc(m.origem || "")}</td>
-      <td>${esc(m.destino || "")}</td>
-      <td>${money(m.quantidade || m.qtd || "")}</td>
-      <td>${esc(m.usuario || m.responsavel || "")}</td>
-    </tr>`).join("") || `<tr><td colspan="7">Nenhuma movimentação encontrada.</td></tr>`}</tbody>
-  </table></div>`;
+  const ini = document.getElementById("movInicio")?.value || "";
+  const fim = document.getElementById("movFim")?.value || "";
+  const prod = document.getElementById("movProduto")?.value || "";
+  const op = document.getElementById("movOperador")?.value || "";
+  const rows = (DATA.movimentacoes||[]).filter(m=>{
+    const d = onlyDateIsoFromMovement(m);
+    return (!q || JSON.stringify(m).toLowerCase().includes(q)) &&
+           (!ini || (d && d >= ini)) &&
+           (!fim || (d && d <= fim)) &&
+           (!prod || produtoMov(m) === prod) &&
+           (!op || operadorMov(m) === op);
+  }).slice(0,500);
+  document.getElementById("movTabela").innerHTML = tabelaMovDetalhada(rows);
 }
 
 function getCadastros(){
@@ -350,28 +525,28 @@ function renderCadastro(){
   if(!isAdm()){ go("VisaoGeral"); return; }
   const cad = getCadastros();
   renderShell(`
-    ${pageHeader("Cadastro", "Área administrativa para registrar solicitações e anotações online.")}
+    ${pageHeader("Cadastro", "Registros administrativos do portal.")}
     <section class="grid two-col">
       <div class="card">
-        <div class="section-head"><div><h2>Novo cadastro/anotação</h2><p>Uso administrativo do portal online.</p></div></div>
+        <div class="section-head"><div><h2>Novo registro</h2><p>Cadastro complementar para acompanhamento administrativo.</p></div></div>
         <form id="cadForm">
           <div class="form-grid">
-            <div class="field"><label>Nome do item / assunto</label><input id="cadNome" required></div>
-            <div class="field"><label>Tipo</label><input id="cadTipo" placeholder="Medicamento, material, solicitação..."></div>
+            <div class="field"><label>Item / assunto</label><input id="cadNome" required></div>
+            <div class="field"><label>Tipo</label><input id="cadTipo"></div>
             <div class="field"><label>Quantidade</label><input id="cadQtd" type="number" min="0"></div>
             <div class="field"><label>Setor</label><input id="cadSetor"></div>
           </div>
           <div class="field"><label>Observação</label><textarea id="cadObs" rows="4"></textarea></div>
-          <div class="form-actions"><button class="btn btn-primary">Salvar cadastro</button></div>
+          <div class="form-actions"><button class="btn btn-primary">Salvar</button></div>
         </form>
       </div>
       <div class="card">
-        <div class="section-head"><div><h2>Registros locais</h2><p>Salvos no navegador do administrador.</p></div></div>
+        <div class="section-head"><div><h2>Registros</h2><p>Acompanhamento complementar.</p></div></div>
         <div id="cadLista">${cad.map((c,idx)=>`<div class="kpi-note" style="margin-bottom:10px">
           <strong>${esc(c.nome)}</strong><br>${esc(c.tipo)} • Qtd: ${esc(c.qtd)} • ${esc(c.setor)}<br>
           <span>${esc(c.obs)}</span><br>
           <button class="btn btn-danger" style="margin-top:8px" onclick="delCad(${idx})">Excluir</button>
-        </div>`).join("") || `<div class="empty">Nenhum cadastro local.</div>`}</div>
+        </div>`).join("") || `<div class="empty">Nenhum registro encontrado.</div>`}</div>
       </div>
     </section>
   `);
@@ -388,24 +563,27 @@ function delCad(i){ const c=getCadastros(); c.splice(i,1); saveCadastros(c); ren
 function renderBackup(){
   if(!isAdm()){ go("VisaoGeral"); return; }
   renderShell(`
-    ${pageHeader("Backup", "Exportação dos dados publicados no portal.")}
+    ${pageHeader("Backup", "Exportação dos dados publicados.")}
     <section class="grid two-col">
       <div class="card">
-        <h2>Backup do dados.json</h2>
-        <p class="sub">Baixe uma cópia do arquivo publicado atualmente no site.</p>
+        <h2>Arquivo de dados</h2>
         <div class="kpi-note">
-          <strong>Última atualização:</strong> ${DATA.atualizado_em || "-"}<br>
+          <strong>Atualização:</strong> ${DATA.atualizado_em || "-"}<br>
           <strong>Itens:</strong> ${money(DATA.resumo?.itens)}<br>
           <strong>Movimentações:</strong> ${money((DATA.movimentacoes||[]).length)}
         </div>
         <div class="form-actions" style="justify-content:flex-start;margin-top:16px">
-          <button class="btn btn-primary" onclick="baixarBackup()">Baixar backup JSON</button>
-          <button class="btn btn-light" onclick="loadData().then(renderBackup)">Recarregar dados</button>
+          <button class="btn btn-primary" onclick="baixarBackup()">Baixar JSON</button>
+          <button class="btn btn-light" onclick="loadData().then(renderBackup)">Atualizar</button>
         </div>
       </div>
       <div class="card">
-        <h2>Observação importante</h2>
-        <p>Este backup é do portal online. O backup oficial do sistema local continua sendo feito na tela de backup do sistema de estoque.</p>
+        <h2>Resumo</h2>
+        <section class="grid" style="gap:10px">
+          <div class="kpi-note"><strong>Total geral:</strong> ${money(DATA.resumo?.total_geral)}</div>
+          <div class="kpi-note"><strong>Almoxarifado:</strong> ${money(DATA.resumo?.total_almoxarifado)}</div>
+          <div class="kpi-note"><strong>Farmácia:</strong> ${money(DATA.resumo?.total_farmacia)}</div>
+        </section>
       </div>
     </section>
   `);
