@@ -252,3 +252,24 @@ tr:last-child td{border-bottom:0}
   .topbar{align-items:flex-start;flex-direction:column}
   .toolbar input{min-width:100%;width:100%}
 }
+
+
+/* V45 - filtros profissionais dos relatórios */
+.filters-card{
+  display:grid;
+  grid-template-columns:repeat(6,minmax(150px,1fr));
+  gap:12px;
+  align-items:end;
+}
+.filters-card.compact{
+  grid-template-columns:repeat(5,minmax(160px,1fr));
+}
+.filters-card .field{margin-bottom:0}
+.action-field .btn{width:100%}
+.sub{color:var(--muted);line-height:1.45}
+@media(max-width:1200px){
+  .filters-card,.filters-card.compact{grid-template-columns:repeat(3,1fr)}
+}
+@media(max-width:720px){
+  .filters-card,.filters-card.compact{grid-template-columns:1fr}
+}
