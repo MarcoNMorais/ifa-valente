@@ -1917,5 +1917,33 @@ def sistema_cis(path='index.html'):
         return send_from_directory(pasta_cis, path)
 
     return send_from_directory(pasta_cis, 'index.html')
+
+
+# ===== ROTA ESTOQUE HOSPITAL =====
+@app.route('/estoquehospital')
+@app.route('/estoquehospital/')
+@app.route('/estoquehospital/<path:path>')
+@app.route('/Estoquehospital')
+@app.route('/Estoquehospital/')
+@app.route('/Estoquehospital/<path:path>')
+def redirecionar_estoque_hospital(path=''):
+    if path:
+        return redirect('/EstoqueHospital/' + path)
+    return redirect('/EstoqueHospital')
+
+
+@app.route('/EstoqueHospital')
+@app.route('/EstoqueHospital/')
+@app.route('/EstoqueHospital/<path:path>')
+def sistema_estoque_hospital(path='index.html'):
+    pasta_estoque = os.path.join(app.root_path, 'EstoqueHospital')
+
+    arquivo = os.path.join(pasta_estoque, path)
+    if path and os.path.exists(arquivo):
+        return send_from_directory(pasta_estoque, path)
+
+    return send_from_directory(pasta_estoque, 'index.html')
+# ===== FIM ROTA ESTOQUE HOSPITAL =====
+
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=int(os.environ.get("PORT", "5000")), debug=False)
