@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Estoque Hospital - Valente</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topo">
+  <div class="marca">
+    <div class="logo-box">+</div>
+    <div>
+      <h1>Estoque Hospital</h1>
+      <p>Hospital Municipal José Mota Araújo • Secretaria Municipal de Saúde de Valente</p>
+    </div>
+  </div>
+  <div class="status">
+    <strong id="dataAtualizacao">Atualizando...</strong>
+    <span>Relatório online automático</span>
+  </div>
+</header>
+
+<nav class="nav">
+  <button class="ativo" onclick="mostrar('visao')">📊 Visão geral</button>
+  <button onclick="mostrar('estoque')">📦 Estoque</button>
+  <button onclick="mostrar('relatorios')">📋 Relatórios</button>
+  <button onclick="mostrar('movimentacoes')">🔄 Movimentações</button>
+</nav>
+
+<main>
+  <section id="visao" class="pagina ativa">
+    <div class="hero">
+      <div>
+        <h2>Controle Online do Estoque Hospitalar</h2>
+        <p>Consulta pública/gerencial dos saldos e indicadores do estoque do Hospital.</p>
+      </div>
+      <div class="hero-badge">Estoque Hospital</div>
+    </div>
+
+    <div class="cards">
+      <div class="card"><span>Itens cadastrados</span><strong id="kpiItens">0</strong></div>
+      <div class="card"><span>Total Almoxarifado</span><strong id="kpiAlmox">0</strong></div>
+      <div class="card"><span>Total Farmácia</span><strong id="kpiFarmacia">0</strong></div>
+      <div class="card alerta"><span>Perto de terminar</span><strong id="kpiPerto">0</strong></div>
+      <div class="card perigo"><span>Produtos zerados</span><strong id="kpiZerados">0</strong></div>
+      <div class="card"><span>Saídas no mês</span><strong id="kpiSaidas">0</strong></div>
+    </div>
+
+    <div class="grid2">
+      <div class="painel">
+        <h3>⚠️ Itens perto de terminar</h3>
+        <div class="table-wrap">
+          <table>
+            <thead><tr><th>Item</th><th>Total</th><th>Mínimo</th><th>Onde está</th></tr></thead>
+            <tbody id="tbodyPerto"></tbody>
+          </table>
+        </div>
+      </div>
+      <div class="painel">
+        <h3>📉 Menores saldos</h3>
+        <div class="table-wrap">
+          <table>
+            <thead><tr><th>Item</th><th>Total</th><th>Mínimo</th></tr></thead>
+            <tbody id="tbodyMenores"></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="estoque" class="pagina">
+    <div class="painel">
+      <div class="linha-topo">
+        <h2>📦 Estoque completo</h2>
+        <input id="buscaEstoque" placeholder="Pesquisar item..." oninput="renderEstoque()">
+      </div>
+      <div class="table-wrap grande">
+        <table>
+          <thead>
+            <tr><th>Item</th><th>Tipo</th><th>Unidade</th><th>Almoxarifado</th><th>Farmácia</th><th>Total</th><th>Mínimo</th><th>Status</th></tr>
+          </thead>
+          <tbody id="tbodyEstoque"></tbody>
+        </table>
+      </div>
+      <div class="paginacao">
+        <button onclick="paginaEstoque=Math.max(1,paginaEstoque-1);renderEstoque()">Anterior</button>
+        <span id="infoEstoque"></span>
+        <button onclick="paginaEstoque++;renderEstoque()">Próxima</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="relatorios" class="pagina">
+    <div class="grid2">
+      <div class="painel">
+        <h2>📊 Quantidade por tipo</h2>
+        <div class="table-wrap">
+          <table><thead><tr><th>Tipo</th><th>Quantidade total</th></tr></thead><tbody id="tbodyTipo"></tbody></table>
+        </div>
+      </div>
+      <div class="painel">
+        <h2>🏥 Saldo por setor</h2>
+        <div class="cards mini">
+          <div class="card"><span>Almoxarifado</span><strong id="relAlmox">0</strong></div>
+          <div class="card"><span>Farmácia</span><strong id="relFarmacia">0</strong></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="movimentacoes" class="pagina">
+    <div class="painel">
+      <div class="linha-topo">
+        <h2>🔄 Últimas movimentações</h2>
+        <input id="buscaMov" placeholder="Pesquisar movimentação..." oninput="renderMovimentacoes()">
+      </div>
+      <div class="table-wrap grande">
+        <table>
+          <thead><tr><th>Data</th><th>Item</th><th>Tipo</th><th>Origem</th><th>Destino</th><th>Quantidade</th><th>Usuário</th></tr></thead>
+          <tbody id="tbodyMov"></tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  Sistema alimentado automaticamente pelo Controle Local de Estoque de Medicamentos.
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
