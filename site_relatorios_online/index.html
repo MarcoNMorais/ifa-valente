@@ -1,0 +1,1415 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portal Executivo - Secretaria da Saúde de Valente</title>
+  <style>
+    :root{
+      --azul:#003b7a;
+      --azul2:#005cb9;
+      --azul3:#0a2348;
+      --vermelho:#d71d24;
+      --dourado:#d3a246;
+      --bg:#f3f7fc;
+      --card:#ffffff;
+      --borda:#dce5f1;
+      --texto:#172033;
+      --muted:#6b778c;
+      --sombra:0 12px 28px rgba(10,35,72,.10);
+      --radius:18px;
+      --verde:#1f8f5f;
+      --verde2:#29b374;
+      --roxo:#7b4cc6;
+      --teal:#0a8b92;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Inter,Segoe UI,Arial,sans-serif;background:linear-gradient(135deg,#f5f8fe 0%,#eef3fb 55%,#fffaf1 100%);color:var(--texto)}
+    .hidden{display:none !important}
+    .login-screen{min-height:100vh;display:grid;place-items:center;padding:24px}
+    .login-card{
+      width:min(420px,100%);background:var(--card);border:1px solid var(--borda);border-radius:28px;
+      box-shadow:0 18px 40px rgba(0,43,92,.16);padding:32px 28px;position:relative;overflow:hidden
+    }
+    .login-card:before{content:'';position:absolute;left:0;top:0;right:0;height:7px;background:linear-gradient(90deg,var(--vermelho) 0 28%,var(--azul2) 28% 74%,var(--dourado) 74% 100%)}
+    .login-logo-wrap{display:flex;justify-content:center;margin-bottom:20px}
+    .login-logo{width:100%;max-width:335px;max-height:245px;object-fit:contain;border-radius:16px;display:block}
+    .login-title{text-align:center;font-size:15px;font-weight:800;color:var(--azul);letter-spacing:.05em;text-transform:uppercase;margin-bottom:6px}
+    .login-sub{text-align:center;color:var(--muted);font-size:14px;margin:0 0 22px;line-height:1.5}
+    .field{margin-bottom:14px}
+    .field label{display:block;font-size:12px;font-weight:800;color:var(--muted);margin-bottom:8px;text-transform:uppercase;letter-spacing:.05em}
+    .field input{width:100%;padding:14px 15px;border-radius:14px;border:1px solid var(--borda);font-size:15px;outline:none;background:#fff}
+    .field input:focus{border-color:var(--azul2);box-shadow:0 0 0 4px rgba(0,92,185,.11)}
+    .btn{width:100%;border:none;border-radius:14px;padding:15px 18px;font-size:15px;font-weight:800;cursor:pointer;background:linear-gradient(135deg,var(--azul3) 0%,var(--azul2) 70%,var(--dourado) 100%);color:#fff;box-shadow:0 14px 26px rgba(0,59,122,.22)}
+
+    .app{display:grid;grid-template-columns:280px 1fr;min-height:100vh;background:var(--bg)}
+    .sidebar{background:linear-gradient(180deg,var(--azul3) 0%,var(--azul) 54%,#001b3a 100%);color:#fff;padding:20px 16px;position:sticky;top:0;height:100vh;overflow:auto;border-right:5px solid var(--dourado)}
+    .brand{display:flex;gap:12px;align-items:center;padding:10px 10px 18px;border-bottom:1px solid rgba(255,255,255,.14)}
+    .brand-badge{width:48px;height:48px;border-radius:16px;background:rgba(255,255,255,.15);display:grid;place-items:center;font-weight:900}
+    .brand h1{margin:0;font-size:17px;line-height:1.15}
+    .brand small{opacity:.88}
+    .profile{background:rgba(255,255,255,.10);border:1px solid rgba(255,255,255,.18);padding:14px;border-radius:16px;margin:16px 0}
+    .profile strong{display:block;font-size:14px}
+    .profile span{font-size:12px;opacity:.9;line-height:1.45}
+    .nav{display:flex;flex-direction:column;gap:8px}
+    .nav button{width:100%;text-align:left;border:none;background:transparent;color:#fff;padding:13px 14px;border-radius:14px;font-size:14px;font-weight:700;cursor:pointer;display:flex;justify-content:space-between;align-items:center}
+    .nav button:hover,.nav button.active{background:rgba(255,255,255,.16)}
+    .logout button{margin-top:18px;width:100%;border:none;background:#fff;color:var(--azul3);padding:12px 14px;border-radius:14px;font-weight:800;cursor:pointer}
+
+    .main{padding:24px}
+    .topbar{background:#fff;border:1px solid var(--borda);border-radius:22px;padding:18px 20px;box-shadow:var(--sombra);display:flex;justify-content:space-between;gap:16px;align-items:center;flex-wrap:wrap;margin-bottom:18px;border-bottom:4px solid var(--azul)}
+    .topbar h2{margin:0;font-size:29px;color:var(--azul3)}
+    .topbar p{margin:6px 0 0;color:var(--muted)}
+    .topchips{display:flex;flex-wrap:wrap;gap:10px}
+    .chip{padding:9px 12px;border-radius:999px;background:#fff;border:1px solid var(--borda);font-size:12px;font-weight:800;color:var(--azul)}
+    .info-strip{background:linear-gradient(90deg,#fff 0%,#fff9ed 100%);border:1px solid #efdeae;border-radius:16px;padding:12px 14px;font-size:13px;color:#7a5b00;margin-bottom:18px}
+
+    .section{display:none}
+    .section.active{display:block}
+    .hero{background:linear-gradient(135deg,#fff 0%,#f6faff 60%,#fff9ed 100%);border:1px solid var(--borda);border-left:7px solid var(--azul);border-radius:24px;padding:22px;box-shadow:var(--sombra);margin-bottom:18px;position:relative;overflow:hidden}
+    .hero:after{content:'';position:absolute;right:-60px;bottom:-80px;width:240px;height:160px;border-radius:50%;background:linear-gradient(135deg,var(--azul2),var(--dourado));opacity:.12}
+    .hero h3{margin:0 0 8px;font-size:24px;color:var(--azul3)}
+    .hero p{margin:0;color:var(--muted);line-height:1.6}
+    .hero-stats{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:16px}
+    .hero-stat{background:#fff;border:1px solid var(--borda);border-radius:16px;padding:14px}
+    .hero-stat .lbl{font-size:12px;font-weight:800;color:var(--muted)}
+    .hero-stat .num{font-size:24px;font-weight:900;margin:8px 0 4px;color:var(--azul3)}
+    .hero-stat .sub{font-size:12px;color:var(--muted)}
+
+    .cards{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-bottom:18px}
+    .card{background:var(--card);border:1px solid var(--borda);border-radius:var(--radius);box-shadow:var(--sombra);padding:18px}
+    .label{font-size:12px;font-weight:800;color:var(--muted);text-transform:uppercase;letter-spacing:.03em}
+    .value{font-size:30px;font-weight:900;margin:10px 0 6px;color:var(--azul3)}
+    .sub{font-size:13px;color:var(--muted);line-height:1.45}
+    .warn{color:#c58a00} .green{color:var(--verde)} .blue{color:var(--azul2)} .red{color:var(--vermelho)}
+    .grid-2{display:grid;grid-template-columns:1.45fr 1fr;gap:16px;margin-bottom:18px}
+    .grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-bottom:18px}
+    .section-title{margin:0 0 14px;font-size:18px;font-weight:900;color:var(--azul3)}
+    .chart-box{display:flex;align-items:flex-end;gap:10px;height:230px;padding-top:12px}
+    .bar-col{display:flex;flex-direction:column;align-items:center;gap:8px;flex:1}
+    .bar{width:100%;max-width:48px;border-radius:14px 14px 6px 6px;background:linear-gradient(180deg,var(--azul2),var(--dourado));position:relative}
+    .bar.teal{background:linear-gradient(180deg,var(--teal),#52c7cc)}
+    .bar.green{background:linear-gradient(180deg,var(--verde),var(--verde2))}
+    .bar.purple{background:linear-gradient(180deg,var(--roxo),#ae8af0)}
+    .bar::after{content:attr(data-value);position:absolute;top:-22px;left:50%;transform:translateX(-50%);font-size:11px;font-weight:800;color:#43526d}
+    .bar-label{font-size:12px;color:var(--muted);font-weight:800;text-align:center}
+    .list{display:flex;flex-direction:column;gap:12px}
+    .list-item{display:flex;justify-content:space-between;gap:14px;align-items:center;padding:11px 0;border-bottom:1px solid #edf2f8}
+    .list-item:last-child{border-bottom:none}
+    .list-item strong{font-size:14px}
+    .list-item small{display:block;font-size:12px;color:var(--muted);margin-top:4px}
+    .badge{padding:7px 10px;border-radius:999px;font-size:12px;font-weight:900;white-space:nowrap}
+    .badge.green{background:#dff7ea;color:#117b4d} .badge.blue{background:#eaf3ff;color:var(--azul)} .badge.yellow{background:#fff4d4;color:#9d6e00} .badge.purple{background:#f2ebff;color:#6c3cc1}
+    table{width:100%;border-collapse:collapse;font-size:14px}
+    th,td{padding:12px 10px;border-bottom:1px solid #edf2f8;text-align:left;white-space:nowrap}
+    th{font-size:12px;color:var(--muted);text-transform:uppercase;letter-spacing:.04em}
+    .table-wrap{overflow:auto}
+    .progress-row{display:grid;gap:12px}
+    .progress-head{display:flex;justify-content:space-between;font-size:13px;font-weight:800}
+    .progress{height:10px;background:#edf4fa;border-radius:999px;overflow:hidden}
+    .progress span{display:block;height:100%;background:linear-gradient(90deg,var(--azul2),var(--dourado));border-radius:999px}
+    @media (max-width:1200px){.cards{grid-template-columns:repeat(2,1fr)} .hero-stats{grid-template-columns:repeat(2,1fr)} .grid-2,.grid-3{grid-template-columns:1fr}}
+    @media (max-width:900px){.app{grid-template-columns:1fr} .sidebar{position:relative;height:auto}}
+    @media (max-width:700px){.main{padding:16px} .cards,.hero-stats{grid-template-columns:1fr} .topbar h2{font-size:24px} .login-card{padding:28px 20px}}
+  
+    /* V64 - ajustes sem mudar o visual profissional original */
+    .login-msg{margin-top:12px;font-size:13px;font-weight:800;color:var(--vermelho);text-align:center}
+    .field select{width:100%;padding:14px 15px;border-radius:14px;border:1px solid var(--borda);font-size:15px;outline:none;background:#fff}
+    .btn.small{width:auto;padding:9px 11px;font-size:12px;box-shadow:none}
+    .btn.danger{background:var(--vermelho);box-shadow:none}
+    .empty{min-height:120px;border:1px dashed #c7d4e4;background:#f9fbfe;border-radius:16px;display:grid;place-items:center;color:var(--muted);font-weight:800;text-align:center;padding:18px}
+
+  
+    /* V64 - Menu online agrupado e profissional */
+    .nav-group{
+      margin:10px 0 4px;
+      border:1px solid rgba(255,255,255,.15);
+      border-radius:18px;
+      overflow:hidden;
+      background:rgba(255,255,255,.07);
+    }
+    .nav-group-title{
+      width:100%;
+      border:none;
+      background:rgba(255,255,255,.10);
+      color:#fff;
+      padding:13px 14px;
+      font-size:14px;
+      font-weight:900;
+      cursor:pointer;
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      text-align:left;
+    }
+    .nav-group-title:hover{
+      background:rgba(255,255,255,.16);
+    }
+    .nav-sub{
+      display:flex;
+      flex-direction:column;
+      gap:4px;
+      padding:8px;
+    }
+    .nav-sub button{
+      padding:11px 12px 11px 24px !important;
+      border-radius:13px !important;
+      font-size:13px !important;
+      background:rgba(255,255,255,.06);
+    }
+    .nav-sub button.active{
+      background:#fff !important;
+      color:var(--azul3) !important;
+    }
+    .nav-sub button::before{
+      content:'•';
+      margin-right:7px;
+      opacity:.9;
+    }
+
+  
+    /* V64 - menu agrupado real e filtros */
+    .nav-loading{padding:14px;color:#fff;opacity:.8;font-weight:800}
+    .nav-group{margin:10px 0 6px;border:1px solid rgba(255,255,255,.18);border-radius:18px;background:rgba(255,255,255,.07);overflow:hidden}
+    .nav-group-title{width:100%;border:0;background:rgba(255,255,255,.11);color:#fff;padding:14px;font-size:14px;font-weight:900;display:flex;justify-content:space-between;align-items:center;cursor:pointer;text-align:left}
+    .nav-sub{display:flex;flex-direction:column;gap:6px;padding:8px}
+    .nav-sub button{padding:11px 12px 11px 24px!important;border-radius:13px!important;font-size:13px!important;background:rgba(255,255,255,.06)}
+    .nav-sub button.active{background:#fff!important;color:var(--azul3)!important}
+    .filter-bar{display:grid;grid-template-columns:1.5fr 1fr 1fr 1fr 1fr auto;gap:10px;margin-bottom:14px;align-items:end}
+    .filter-bar .field{margin-bottom:0}
+    .filter-bar input,.filter-bar select{width:100%;padding:11px 12px;border-radius:12px;border:1px solid var(--borda);outline:none;background:#fff}
+    @media(max-width:1100px){.filter-bar{grid-template-columns:1fr 1fr}}
+    @media(max-width:700px){.filter-bar{grid-template-columns:1fr}}
+
+  
+    /* V69 - logo do portal online sem depender de imagem externa */
+    .login-logo-wrap{
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      margin:6px auto 20px;
+    }
+    .portal-logo-v68{
+      width:min(330px,92%);
+      min-height:112px;
+      border-radius:24px;
+      background:linear-gradient(135deg,#ffffff 0%,#f5f9ff 62%,#fff7e5 100%);
+      border:1px solid #dce5f1;
+      box-shadow:0 16px 30px rgba(10,35,72,.12);
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      gap:16px;
+      padding:18px 20px;
+      position:relative;
+      overflow:hidden;
+    }
+    .portal-logo-v68:before{
+      content:'';
+      position:absolute;
+      left:0;
+      top:0;
+      height:7px;
+      width:100%;
+      background:linear-gradient(90deg,#d71d24 0 27%,#005cb9 27% 73%,#d3a246 73% 100%);
+    }
+    .portal-logo-mark-v68{
+      width:68px;
+      height:68px;
+      border-radius:22px;
+      background:linear-gradient(135deg,#0a2348,#005cb9 70%,#d3a246);
+      color:white;
+      display:grid;
+      place-items:center;
+      font-weight:1000;
+      font-size:24px;
+      letter-spacing:-1px;
+      box-shadow:0 12px 25px rgba(0,59,122,.22);
+      flex:0 0 auto;
+    }
+    .portal-logo-text-v68 strong{
+      display:block;
+      font-size:23px;
+      line-height:1.05;
+      color:#0a2348;
+      font-weight:1000;
+    }
+    .portal-logo-text-v68 span{
+      display:block;
+      margin-top:5px;
+      font-size:13px;
+      color:#005cb9;
+      font-weight:900;
+      letter-spacing:.04em;
+      text-transform:uppercase;
+    }
+    .login-logo{
+      display:none !important;
+    }
+
+  
+    /* V69 - logo visível no login online */
+    .login-brand-v69{
+      width:100%;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      gap:14px;
+      margin:8px auto 24px;
+      padding:18px 14px 12px;
+    }
+    .login-brand-mark-v69{
+      width:72px;
+      height:72px;
+      border-radius:24px;
+      background:linear-gradient(135deg,#0a2348 0%,#005cb9 72%,#d3a246 100%);
+      color:#fff;
+      display:grid;
+      place-items:center;
+      font-size:25px;
+      font-weight:1000;
+      letter-spacing:-1px;
+      box-shadow:0 14px 28px rgba(0,59,122,.24);
+      flex:0 0 auto;
+    }
+    .login-brand-text-v69 strong{
+      display:block;
+      color:#0a2348;
+      font-size:25px;
+      font-weight:1000;
+      line-height:1.05;
+      letter-spacing:-.3px;
+    }
+    .login-brand-text-v69 span{
+      display:block;
+      margin-top:6px;
+      color:#005cb9;
+      font-size:13px;
+      font-weight:900;
+      letter-spacing:.06em;
+      text-transform:uppercase;
+    }
+    @media(max-width:540px){
+      .login-brand-v69{flex-direction:column;text-align:center;gap:10px}
+      .login-brand-text-v69 strong{font-size:22px}
+    }
+
+  </style>
+
+<style>
+/* LOGO ONLINE - usando arquivo real no GitHub */
+.logo-online-real{
+  width:min(360px, 92%);
+  display:block;
+  margin:6px auto 24px;
+  border-radius:18px;
+  box-shadow:0 14px 32px rgba(10,35,72,.10);
+}
+.login-logo-wrap,
+.portal-logo-v68,
+.login-brand-v69,
+.login-brand-v70,
+.login-logo-final-v71{
+  display:none !important;
+}
+</style>
+
+<!-- Online logo por imagem GitHub -->
+</head>
+<body>
+  <div id="loginScreen" class="login-screen">
+    <div class="login-card">
+
+      <img class="logo-online-real" src="assets/logo_secretaria_valente.png" alt="Secretaria da Saúde - Prefeitura de Valente">
+<div class="login-title">Portal Executivo</div>
+      <p class="login-sub">Acesso restrito da Secretaria Municipal de Saúde de Valente</p>
+      <div class="field"><label>CPF</label><input id="cpf" inputmode="numeric" maxlength="14" placeholder="000.000.000-00"></div>
+      <div class="field"><label>Senha</label><input id="senha" type="password" placeholder="Digite sua senha"></div>
+      <button class="btn" onclick="entrar()">Entrar</button>
+    </div>
+  </div>
+
+  <div id="app" class="app hidden">
+    <aside class="sidebar">
+      <div class="brand">
+        <div class="brand-badge">SV</div>
+        <div><h1>Secretaria da Saúde</h1><small>Prefeitura de Valente</small></div>
+      </div>
+      <div class="profile">
+        <strong>Marília Oliveira</strong>
+        <span>Secretária Municipal de Saúde</span><br>
+        <span>Perfil executivo • visão total da rede</span>
+      </div>
+      
+      <nav class="nav" id="menuNav">
+        <div class="nav-loading">Carregando menu...</div>
+      </nav>
+
+      <div class="logout"><button onclick="sair()">Sair</button></div>
+    </aside>
+
+    <main class="main">
+      <div class="topbar">
+        <div>
+          <h2 id="mainTitle">Visão Geral da Rede</h2>
+          <p id="mainSubtitle">Panorama estratégico consolidado da saúde municipal de Valente</p>
+        </div>
+        <div class="topchips">
+          <div class="chip">📅 Maio/2026</div>
+          <div class="chip">🔄 Atualizado às 08:35</div>
+          <div class="chip">📍 Valente - BA</div>
+        </div>
+      </div>
+      <div class="info-strip">Painel estratégico da Secretaria Municipal de Saúde de Valente, com indicadores por área, unidade e setor.</div>
+
+      <section id="visaoGeral" class="section active">
+        <div class="hero">
+          <h3>Central de Gestão da Saúde de Valente</h3>
+          <p>Uma única plataforma para acompanhamento da produção assistencial, unidades de saúde, CAPS, agentes de saúde, almoxarifados, CEMES e indicadores administrativos da Secretaria.</p>
+          <div class="hero-stats">
+            <div class="hero-stat"><div class="lbl">Atendimentos totais</div><div class="num">18.452</div><div class="sub">+8,7% no mês</div></div>
+            <div class="hero-stat"><div class="lbl">Cobertura APS</div><div class="num">92,4%</div><div class="sub">rede acompanhada</div></div>
+            <div class="hero-stat"><div class="lbl">Visitas domiciliares</div><div class="num">3.562</div><div class="sub">ACS no período</div></div>
+            <div class="hero-stat"><div class="lbl">Consumo de insumos</div><div class="num">R$ 428 mil</div><div class="sub">rede consolidada</div></div>
+          </div>
+        </div>
+
+        <div class="cards">
+          <div class="card"><div class="label">Hospital - atendimentos</div><div class="value">6.284</div><div class="sub">Emergência, UTI, enfermaria e ambulatório</div></div>
+          <div class="card"><div class="label">CEMES - produção</div><div class="value">2.193</div><div class="sub">Consultas especializadas e exames</div></div>
+          <div class="card"><div class="label">APS - consultas</div><div class="value">8.726</div><div class="sub">Produção dos postos de saúde</div></div>
+          <div class="card"><div class="label">CAPS + agentes</div><div class="value">5.297</div><div class="sub">Acolhimentos, grupos e visitas domiciliares</div></div>
+        </div>
+
+        <div class="grid-2">
+          <div class="card">
+            <h3 class="section-title">Produção consolidada por área</h3>
+            <div class="chart-box">
+              <div class="bar-col"><div class="bar" style="height:78%" data-value="6.284"></div><div class="bar-label">Hospital</div></div>
+              <div class="bar-col"><div class="bar teal" style="height:30%" data-value="2.193"></div><div class="bar-label">CEMES</div></div>
+              <div class="bar-col"><div class="bar green" style="height:100%" data-value="8.726"></div><div class="bar-label">PSFs</div></div>
+              <div class="bar-col"><div class="bar purple" style="height:18%" data-value="1.735"></div><div class="bar-label">CAPS</div></div>
+              <div class="bar-col"><div class="bar teal" style="height:42%" data-value="3.562"></div><div class="bar-label">ACS</div></div>
+              <div class="bar-col"><div class="bar" style="height:15%" data-value="1.184"></div><div class="bar-label">Ponto/dia</div></div>
+            </div>
+          </div>
+          <div class="card">
+            <h3 class="section-title">Indicadores prioritários</h3>
+            <div class="progress-row">
+              <div><div class="progress-head"><span>Tempo de resposta da regulação</span><span>81%</span></div><div class="progress"><span style="width:81%"></span></div></div>
+              <div><div class="progress-head"><span>Execução das agendas</span><span>94%</span></div><div class="progress"><span style="width:94%"></span></div></div>
+              <div><div class="progress-head"><span>Cobertura vacinal</span><span>89%</span></div><div class="progress"><span style="width:89%"></span></div></div>
+              <div><div class="progress-head"><span>Assiduidade da rede</span><span>96%</span></div><div class="progress"><span style="width:96%"></span></div></div>
+              <div><div class="progress-head"><span>Rastreabilidade de insumos</span><span>97%</span></div><div class="progress"><span style="width:97%"></span></div></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="grid-3">
+          <div class="card">
+            <h3 class="section-title">Hospital em destaque</h3>
+            <div class="list">
+              <div class="list-item"><div><strong>Emergência</strong><small>Atendimentos no mês</small></div><span class="badge green">3.184</span></div>
+              <div class="list-item"><div><strong>UTI</strong><small>Taxa média de ocupação</small></div><span class="badge blue">78%</span></div>
+              <div class="list-item"><div><strong>Internações</strong><small>Total consolidado</small></div><span class="badge yellow">428</span></div>
+              <div class="list-item"><div><strong>Altas</strong><small>Durante o período</small></div><span class="badge green">401</span></div>
+            </div>
+          </div>
+          <div class="card">
+            <h3 class="section-title">CAPS em destaque</h3>
+            <div class="list">
+              <div class="list-item"><div><strong>Acolhimentos</strong><small>Novos acolhimentos</small></div><span class="badge purple">186</span></div>
+              <div class="list-item"><div><strong>Atendimentos individuais</strong><small>Psicologia/psiquiatria</small></div><span class="badge blue">724</span></div>
+              <div class="list-item"><div><strong>Oficinas e grupos</strong><small>Participações</small></div><span class="badge green">612</span></div>
+              <div class="list-item"><div><strong>Busca ativa</strong><small>Usuários monitorados</small></div><span class="badge yellow">96</span></div>
+            </div>
+          </div>
+          <div class="card">
+            <h3 class="section-title">Agentes de saúde</h3>
+            <div class="list">
+              <div class="list-item"><div><strong>Visitas domiciliares</strong><small>Total no mês</small></div><span class="badge green">3.562</span></div>
+              <div class="list-item"><div><strong>Famílias acompanhadas</strong><small>Cadastro ativo</small></div><span class="badge blue">5.418</span></div>
+              <div class="list-item"><div><strong>Gestantes monitoradas</strong><small>Microáreas</small></div><span class="badge yellow">241</span></div>
+              <div class="list-item"><div><strong>Idosos acompanhados</strong><small>Visita prioritária</small></div><span class="badge purple">1.104</span></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="hospitalGeral" class="section">
+        <div class="cards">
+          <div class="card"><div class="label">Atendimentos gerais</div><div class="value">6.284</div><div class="sub">Produção consolidada do hospital no mês</div></div>
+          <div class="card"><div class="label">Emergência</div><div class="value">3.184</div><div class="sub">Atendimentos de urgência e emergência</div></div>
+          <div class="card"><div class="label">Internações</div><div class="value">428</div><div class="sub">Pacientes internados no período</div></div>
+          <div class="card"><div class="label">Ocupação UTI</div><div class="value warn">78%</div><div class="sub">Taxa média de ocupação mensal</div></div>
+        </div>
+
+        <div class="grid-2">
+          <div class="card">
+            <h3 class="section-title">Fluxo assistencial do Hospital Geral</h3>
+            <div class="table-wrap">
+              <table>
+                <thead><tr><th>Setor</th><th>Atendimentos</th><th>Tempo médio</th><th>Indicador</th></tr></thead>
+                <tbody>
+                  <tr><td>Emergência</td><td>3.184</td><td>42 min</td><td>Classificação e atendimento inicial</td></tr>
+                  <tr><td>Ambulatório</td><td>1.136</td><td>28 min</td><td>Consultas e retornos</td></tr>
+                  <tr><td>Enfermaria</td><td>742</td><td>2,8 dias</td><td>Permanência média</td></tr>
+                  <tr><td>UTI</td><td>118</td><td>4,6 dias</td><td>Permanência média</td></tr>
+                  <tr><td>Centro Cirúrgico</td><td>96</td><td>1h20</td><td>Procedimentos realizados</td></tr>
+                  <tr><td>Observação</td><td>1.008</td><td>6h15</td><td>Pacientes em observação</td></tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <div class="card">
+            <h3 class="section-title">Indicadores hospitalares</h3>
+            <div class="list">
+              <div class="list-item"><div><strong>Altas hospitalares</strong><small>Pacientes liberados no período</small></div><span class="badge green">401</span></div>
+              <div class="list-item"><div><strong>Transferências reguladas</strong><small>Encaminhadas para referência</small></div><span class="badge blue">38</span></div>
+              <div class="list-item"><div><strong>Taxa de retorno em 72h</strong><small>Retorno após alta/atendimento</small></div><span class="badge yellow">4,2%</span></div>
+              <div class="list-item"><div><strong>Exames internos solicitados</strong><small>Laboratório e imagem</small></div><span class="badge blue">2.841</span></div>
+              <div class="list-item"><div><strong>Leitos ocupados hoje</strong><small>Enfermaria + UTI</small></div><span class="badge yellow">63%</span></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="grid-3">
+          <div class="card">
+            <h3 class="section-title">Emergência</h3>
+            <div class="list">
+              <div class="list-item"><div><strong>Vermelho/Laranja</strong><small>Alta prioridade</small></div><span class="badge yellow">312</span></div>
+              <div class="list-item"><div><strong>Amarelo</strong><small>Prioridade moderada</small></div><span class="badge blue">1.084</span></div>
+              <div class="list-item"><div><strong>Verde/Azul</strong><small>Baixa prioridade</small></div><span class="badge green">1.788</span></div>
+            </div>
+          </div>
+          <div class="card">
+            <h3 class="section-title">Internação</h3>
+            <div class="list">
+              <div class="list-item"><div><strong>Clínica médica</strong><small>Internações</small></div><span class="badge blue">214</span></div>
+              <div class="list-item"><div><strong>Pediatria</strong><small>Internações</small></div><span class="badge green">76</span></div>
+              <div class="list-item"><div><strong>Cirúrgica</strong><small>Internações</small></div><span class="badge yellow">138</span></div>
+            </div>
+          </div>
+          <div class="card">
+            <h3 class="section-title">Produtividade diária</h3>
+            <div class="progress-row">
+              <div><div class="progress-head"><span>Leitos disponíveis</span><span>37%</span></div><div class="progress"><span style="width:37%"></span></div></div>
+              <div><div class="progress-head"><span>Agendas cumpridas</span><span>91%</span></div><div class="progress"><span style="width:91%"></span></div></div>
+              <div><div class="progress-head"><span>Exames liberados</span><span>88%</span></div><div class="progress"><span style="width:88%"></span></div></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="cemes" class="section">
+        <div class="cards">
+          <div class="card"><div class="label">Consultas especializadas</div><div class="value">1.326</div><div class="sub">Cardiologia, ortopedia, ginecologia e outros</div></div>
+          <div class="card"><div class="label">Exames realizados</div><div class="value">867</div><div class="sub">Ultrassom, ECG, laboratório e imagem</div></div>
+          <div class="card"><div class="label">Pacientes regulados</div><div class="value">1.912</div><div class="sub">Atendidos via regulação</div></div>
+          <div class="card"><div class="label">Absenteísmo</div><div class="value warn">9,6%</div><div class="sub">Consultas e exames não comparecidos</div></div>
+        </div>
+        <div class="grid-2">
+          <div class="card"><h3 class="section-title">Produção por especialidade</h3>
+            <div class="table-wrap"><table><thead><tr><th>Especialidade</th><th>Consultas</th><th>Faltas</th><th>Aproveitamento</th></tr></thead><tbody>
+              <tr><td>Cardiologia</td><td>212</td><td>16</td><td>92,9%</td></tr>
+              <tr><td>Ortopedia</td><td>188</td><td>24</td><td>88,6%</td></tr>
+              <tr><td>Ginecologia</td><td>241</td><td>18</td><td>93,0%</td></tr>
+              <tr><td>Pediatria</td><td>174</td><td>10</td><td>94,6%</td></tr>
+              <tr><td>Oftalmologia</td><td>143</td><td>17</td><td>89,4%</td></tr>
+              <tr><td>Neurologia</td><td>89</td><td>7</td><td>92,7%</td></tr>
+              <tr><td>Ultrassonografia</td><td>279</td><td>22</td><td>92,7%</td></tr>
+            </tbody></table></div>
+          </div>
+          <div class="card"><h3 class="section-title">Indicadores do CEMES</h3>
+            <div class="list">
+              <div class="list-item"><div><strong>Tempo médio até consulta</strong><small>Pacientes regulados</small></div><span class="badge blue">11 dias</span></div>
+              <div class="list-item"><div><strong>Retorno agendado</strong><small>Eficiência do seguimento</small></div><span class="badge green">84%</span></div>
+              <div class="list-item"><div><strong>Exames entregues no prazo</strong><small>Consolidação mensal</small></div><span class="badge green">91%</span></div>
+              <div class="list-item"><div><strong>Fila ativa</strong><small>Pacientes aguardando</small></div><span class="badge yellow">312</span></div>
+              <div class="list-item"><div><strong>Maior demanda</strong><small>Especialidade com mais procura</small></div><span class="badge blue">Ginecologia</span></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="postos" class="section">
+        <div class="cards">
+          <div class="card"><div class="label">Unidades acompanhadas</div><div class="value">10</div><div class="sub">PSFs e unidades de apoio</div></div>
+          <div class="card"><div class="label">Consultas APS</div><div class="value">8.726</div><div class="sub">Atendimentos de atenção primária</div></div>
+          <div class="card"><div class="label">Visitas domiciliares</div><div class="value">3.562</div><div class="sub">ACS e equipes multiprofissionais</div></div>
+          <div class="card"><div class="label">Cobertura vacinal</div><div class="value green">89%</div><div class="sub">Consolidado da rede APS</div></div>
+        </div>
+        <div class="card" style="margin-bottom:18px"><h3 class="section-title">Estatística por unidade</h3>
+          <div class="table-wrap"><table><thead><tr><th>Unidade</th><th>Consultas</th><th>Procedimentos</th><th>Vacinas</th><th>Visitas ACS</th><th>Absenteísmo</th></tr></thead><tbody>
+            <tr><td>USF Cidade Nova</td><td>1.124</td><td>412</td><td>286</td><td>442</td><td>5,2%</td></tr>
+            <tr><td>USF Dr. Antônio Delfino Mota Simões</td><td>986</td><td>361</td><td>248</td><td>398</td><td>6,0%</td></tr>
+            <tr><td>UBS de Saúde de Valente</td><td>1.018</td><td>374</td><td>291</td><td>411</td><td>4,8%</td></tr>
+            <tr><td>Posto de Saúde Santa Rita de Cássia</td><td>774</td><td>282</td><td>214</td><td>327</td><td>6,5%</td></tr>
+            <tr><td>USF Juazeiro</td><td>816</td><td>298</td><td>229</td><td>346</td><td>7,1%</td></tr>
+            <tr><td>USF Petrolina</td><td>731</td><td>256</td><td>207</td><td>301</td><td>7,3%</td></tr>
+            <tr><td>USF Tamanduá</td><td>692</td><td>244</td><td>195</td><td>284</td><td>8,0%</td></tr>
+            <tr><td>USF Valilândia</td><td>765</td><td>269</td><td>219</td><td>315</td><td>6,8%</td></tr>
+            <tr><td>USF Santa Rosa</td><td>908</td><td>337</td><td>264</td><td>377</td><td>5,9%</td></tr>
+            <tr><td>USF Centro</td><td>912</td><td>354</td><td>265</td><td>361</td><td>5,4%</td></tr>
+          </tbody></table></div>
+        </div>
+      </section>
+
+      <section id="caps" class="section">
+        <div class="cards">
+          <div class="card"><div class="label">Usuários ativos</div><div class="value">486</div><div class="sub">Acompanhamento regular no CAPS</div></div>
+          <div class="card"><div class="label">Acolhimentos</div><div class="value">186</div><div class="sub">Novos acolhimentos no mês</div></div>
+          <div class="card"><div class="label">Atendimentos individuais</div><div class="value">724</div><div class="sub">Psicologia, psiquiatria e serviço social</div></div>
+          <div class="card"><div class="label">Participações em grupos</div><div class="value">612</div><div class="sub">Oficinas e grupos terapêuticos</div></div>
+        </div>
+        <div class="grid-2">
+          <div class="card"><h3 class="section-title">Indicadores do CAPS</h3>
+            <div class="table-wrap"><table><thead><tr><th>Indicador</th><th>Total</th><th>Observação</th></tr></thead><tbody>
+              <tr><td>Visitas domiciliares</td><td>78</td><td>Busca ativa e acompanhamento intensivo</td></tr>
+              <tr><td>Atendimentos em crise</td><td>34</td><td>Casos atendidos com suporte prioritário</td></tr>
+              <tr><td>Encaminhamentos à rede</td><td>119</td><td>APS, hospital e regulação</td></tr>
+              <tr><td>Retorno garantido</td><td>92%</td><td>Usuários com seguimento marcado</td></tr>
+              <tr><td>Adesão ao tratamento</td><td>87%</td><td>Usuários ativos acompanhados</td></tr>
+            </tbody></table></div>
+          </div>
+          <div class="card"><h3 class="section-title">Resumo assistencial</h3>
+            <div class="list">
+              <div class="list-item"><div><strong>Grupo terapêutico</strong><small>Participações registradas</small></div><span class="badge purple">312</span></div>
+              <div class="list-item"><div><strong>Oficinas terapêuticas</strong><small>Participações registradas</small></div><span class="badge blue">300</span></div>
+              <div class="list-item"><div><strong>Famílias orientadas</strong><small>Ações de apoio e cuidado</small></div><span class="badge green">141</span></div>
+              <div class="list-item"><div><strong>Usuários em atenção intensiva</strong><small>Monitoramento frequente</small></div><span class="badge yellow">52</span></div>
+              <div class="list-item"><div><strong>Taxa de comparecimento</strong><small>Consultas e grupos</small></div><span class="badge green">90,4%</span></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="agentes" class="section">
+        <div class="cards">
+          <div class="card"><div class="label">Agentes ativos</div><div class="value">42</div><div class="sub">Agentes de saúde em campo</div></div>
+          <div class="card"><div class="label">Visitas domiciliares</div><div class="value">3.562</div><div class="sub">Realizadas no período</div></div>
+          <div class="card"><div class="label">Famílias acompanhadas</div><div class="value">5.418</div><div class="sub">Cadastro por microárea</div></div>
+          <div class="card"><div class="label">Cobertura das microáreas</div><div class="value green">94%</div><div class="sub">Cobertura das visitas programadas</div></div>
+        </div>
+        <div class="grid-2">
+          <div class="card"><h3 class="section-title">Indicadores dos agentes de saúde</h3>
+            <div class="table-wrap"><table><thead><tr><th>Indicador</th><th>Total</th><th>Detalhe</th></tr></thead><tbody>
+              <tr><td>Gestantes acompanhadas</td><td>241</td><td>Monitoramento em microárea</td></tr>
+              <tr><td>Crianças acompanhadas</td><td>812</td><td>Puericultura e vacinação</td></tr>
+              <tr><td>Idosos acompanhados</td><td>1.104</td><td>Visita prioritária</td></tr>
+              <tr><td>Hiperdia monitorado</td><td>1.386</td><td>Hipertensos e diabéticos</td></tr>
+              <tr><td>Busca ativa de faltosos</td><td>214</td><td>Consultas e exames</td></tr>
+              <tr><td>Focos e alertas em território</td><td>63</td><td>Situações notificadas</td></tr>
+            </tbody></table></div>
+          </div>
+          <div class="card"><h3 class="section-title">Desempenho operacional</h3>
+            <div class="progress-row">
+              <div><div class="progress-head"><span>Visitas realizadas x programadas</span><span>94%</span></div><div class="progress"><span style="width:94%"></span></div></div>
+              <div><div class="progress-head"><span>Atualização cadastral</span><span>88%</span></div><div class="progress"><span style="width:88%"></span></div></div>
+              <div><div class="progress-head"><span>Encaminhamentos resolvidos</span><span>83%</span></div><div class="progress"><span style="width:83%"></span></div></div>
+              <div><div class="progress-head"><span>Registro no território</span><span>96%</span></div><div class="progress"><span style="width:96%"></span></div></div>
+            </div>
+            <div class="list" style="margin-top:14px">
+              <div class="list-item"><div><strong>Microárea destaque</strong><small>Maior cobertura de visitas</small></div><span class="badge blue">USF Cidade Nova</span></div>
+              <div class="list-item"><div><strong>Melhor atualização cadastral</strong><small>Equipe em maior conformidade</small></div><span class="badge green">USF Centro</span></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="almoxHospital" class="section">
+        <div class="cards">
+          <div class="card"><div class="label">Consumo mensal</div><div class="value">R$ 172 mil</div><div class="sub">Materiais e insumos do hospital</div></div>
+          <div class="card"><div class="label">Itens movimentados</div><div class="value">4.318</div><div class="sub">Saídas registradas no período</div></div>
+          <div class="card"><div class="label">Reposições internas</div><div class="value">274</div><div class="sub">Solicitações das alas/setores</div></div>
+          <div class="card"><div class="label">Itens críticos</div><div class="value warn">12</div><div class="sub">Acompanhamento de consumo acelerado</div></div>
+        </div>
+        <div class="grid-2">
+          <div class="card"><h3 class="section-title">Uso por setor</h3><div class="table-wrap"><table><thead><tr><th>Setor</th><th>Valor consumido</th><th>Saídas</th><th>Participação</th></tr></thead><tbody>
+            <tr><td>Emergência</td><td>R$ 48.200</td><td>1.108</td><td>28%</td></tr>
+            <tr><td>UTI</td><td>R$ 39.870</td><td>824</td><td>23%</td></tr>
+            <tr><td>Enfermaria</td><td>R$ 28.330</td><td>718</td><td>16%</td></tr>
+            <tr><td>Centro Cirúrgico</td><td>R$ 31.910</td><td>563</td><td>19%</td></tr>
+            <tr><td>Ambulatório</td><td>R$ 23.690</td><td>611</td><td>14%</td></tr>
+          </tbody></table></div></div>
+          <div class="card"><h3 class="section-title">Itens com maior consumo</h3><div class="list">
+            <div class="list-item"><div><strong>Luva de procedimento</strong><small>Unidades consumidas</small></div><span class="badge green">18.400</span></div>
+            <div class="list-item"><div><strong>Soro fisiológico 500ml</strong><small>Frascos consumidos</small></div><span class="badge blue">3.280</span></div>
+            <div class="list-item"><div><strong>Seringa 10ml</strong><small>Unidades consumidas</small></div><span class="badge green">8.920</span></div>
+            <div class="list-item"><div><strong>Máscara cirúrgica</strong><small>Unidades consumidas</small></div><span class="badge yellow">6.540</span></div>
+            <div class="list-item"><div><strong>Curativo estéril</strong><small>Unidades consumidas</small></div><span class="badge blue">2.830</span></div>
+          </div></div>
+        </div>
+      </section>
+
+      <section id="almoxCentral" class="section">
+        <div class="cards">
+          <div class="card"><div class="label">Entradas do mês</div><div class="value">R$ 256 mil</div><div class="sub">Aquisições e abastecimentos</div></div>
+          <div class="card"><div class="label">Saídas para rede</div><div class="value">R$ 198 mil</div><div class="sub">Distribuição para unidades</div></div>
+          <div class="card"><div class="label">Unidades abastecidas</div><div class="value">16</div><div class="sub">Hospital, CEMES, CAPS e APS</div></div>
+          <div class="card"><div class="label">Nível de atendimento</div><div class="value green">97%</div><div class="sub">Solicitações atendidas no prazo</div></div>
+        </div>
+        <div class="grid-2">
+          <div class="card"><h3 class="section-title">Distribuição por destino</h3><div class="table-wrap"><table><thead><tr><th>Destino</th><th>Valor enviado</th><th>Requisições</th><th>Prazo médio</th></tr></thead><tbody>
+            <tr><td>Hospital Municipal</td><td>R$ 112.000</td><td>74</td><td>1,2 dia</td></tr>
+            <tr><td>CEMES</td><td>R$ 21.800</td><td>18</td><td>1,0 dia</td></tr>
+            <tr><td>CAPS</td><td>R$ 14.600</td><td>12</td><td>1,1 dia</td></tr>
+            <tr><td>PSFs Urbanos</td><td>R$ 31.700</td><td>42</td><td>1,4 dia</td></tr>
+            <tr><td>PSFs Rurais</td><td>R$ 17.900</td><td>31</td><td>1,9 dia</td></tr>
+          </tbody></table></div></div>
+          <div class="card"><h3 class="section-title">Estatísticas operacionais</h3><div class="progress-row">
+            <div><div class="progress-head"><span>Entrega dentro do prazo</span><span>97%</span></div><div class="progress"><span style="width:97%"></span></div></div>
+            <div><div class="progress-head"><span>Controle de perdas</span><span>98%</span></div><div class="progress"><span style="width:98%"></span></div></div>
+            <div><div class="progress-head"><span>Giro de estoque</span><span>83%</span></div><div class="progress"><span style="width:83%"></span></div></div>
+            <div><div class="progress-head"><span>Rastreabilidade de saída</span><span>100%</span></div><div class="progress"><span style="width:100%"></span></div></div>
+          </div></div>
+        </div>
+      </section>
+
+      <section id="estoqueCentral" class="section">
+        <div class="cards">
+          <div class="card"><div class="label">Valor em estoque</div><div class="value">R$ 397,6 mil</div><div class="sub">Saldo estimado do almoxarifado central</div></div>
+          <div class="card"><div class="label">Itens cadastrados</div><div class="value">842</div><div class="sub">Medicamentos, material penso, EPI e limpeza</div></div>
+          <div class="card"><div class="label">Abaixo do mínimo</div><div class="value warn">25</div><div class="sub">Itens para reposição planejada</div></div>
+          <div class="card"><div class="label">Vencimento próximo</div><div class="value red">14</div><div class="sub">Itens vencendo em até 60 dias</div></div>
+        </div>
+
+        <div class="grid-2">
+          <div class="card">
+            <h3 class="section-title">Itens do Almoxarifado Central</h3>
+            <div class="table-wrap">
+              <table>
+                <thead><tr><th>Item</th><th>Categoria</th><th>Saldo</th><th>Mínimo</th><th>Validade</th><th>Situação</th></tr></thead>
+                <tbody>
+                  <tr><td>Dipirona 500mg/ml</td><td>Medicamento</td><td>380</td><td>500</td><td>10/2026</td><td><span class="badge yellow">Abaixo mínimo</span></td></tr>
+                  <tr><td>Amoxicilina 500mg</td><td>Medicamento</td><td>1.840</td><td>900</td><td>02/2027</td><td><span class="badge green">Normal</span></td></tr>
+                  <tr><td>Losartana 50mg</td><td>Medicamento</td><td>7.200</td><td>4.000</td><td>04/2027</td><td><span class="badge green">Normal</span></td></tr>
+                  <tr><td>Metformina 850mg</td><td>Medicamento</td><td>6.450</td><td>3.500</td><td>05/2027</td><td><span class="badge green">Normal</span></td></tr>
+                  <tr><td>Teste rápido dengue</td><td>Laboratório</td><td>74</td><td>120</td><td>08/2026</td><td><span class="badge yellow">Atenção</span></td></tr>
+                  <tr><td>Álcool 70%</td><td>Antissepsia</td><td>96</td><td>150</td><td>12/2026</td><td><span class="badge yellow">Reposição</span></td></tr>
+                  <tr><td>Máscara cirúrgica</td><td>EPI</td><td>9.800</td><td>6.000</td><td>03/2027</td><td><span class="badge green">Normal</span></td></tr>
+                  <tr><td>Papel toalha</td><td>Limpeza</td><td>420</td><td>300</td><td>-</td><td><span class="badge green">Normal</span></td></tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <div class="card">
+            <h3 class="section-title">Resumo operacional</h3>
+            <div class="list">
+              <div class="list-item"><div><strong>Entradas no mês</strong><small>Compras e recebimentos</small></div><span class="badge blue">R$ 256 mil</span></div>
+              <div class="list-item"><div><strong>Saídas para rede</strong><small>Distribuição para unidades</small></div><span class="badge green">R$ 198 mil</span></div>
+              <div class="list-item"><div><strong>Unidades abastecidas</strong><small>Hospital, PSFs, CEMES e CAPS</small></div><span class="badge blue">16</span></div>
+              <div class="list-item"><div><strong>Itens sem giro</strong><small>Mais de 90 dias sem saída</small></div><span class="badge yellow">11</span></div>
+              <div class="list-item"><div><strong>Solicitações pendentes</strong><small>Aguardando separação</small></div><span class="badge yellow">8</span></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="estoqueHospital" class="section">
+        <div class="cards">
+          <div class="card"><div class="label">Valor em estoque</div><div class="value">R$ 286,4 mil</div><div class="sub">Saldo estimado do almoxarifado hospitalar</div></div>
+          <div class="card"><div class="label">Itens cadastrados</div><div class="value">406</div><div class="sub">Insumos hospitalares e medicamentos de uso interno</div></div>
+          <div class="card"><div class="label">Abaixo do mínimo</div><div class="value warn">12</div><div class="sub">Itens críticos para assistência</div></div>
+          <div class="card"><div class="label">Vencimento próximo</div><div class="value red">8</div><div class="sub">Itens vencendo em até 60 dias</div></div>
+        </div>
+
+        <div class="grid-2">
+          <div class="card">
+            <h3 class="section-title">Itens do Almoxarifado Hospitalar</h3>
+            <div class="table-wrap">
+              <table>
+                <thead><tr><th>Item</th><th>Categoria</th><th>Saldo</th><th>Mínimo</th><th>Consumo mês</th><th>Situação</th></tr></thead>
+                <tbody>
+                  <tr><td>Soro fisiológico 500ml</td><td>Insumo</td><td>1.240</td><td>800</td><td>3.280</td><td><span class="badge green">Normal</span></td></tr>
+                  <tr><td>Luva de procedimento M</td><td>EPI</td><td>22.400</td><td>18.000</td><td>18.400</td><td><span class="badge green">Normal</span></td></tr>
+                  <tr><td>Seringa 10ml</td><td>Material penso</td><td>6.100</td><td>5.000</td><td>8.920</td><td><span class="badge green">Normal</span></td></tr>
+                  <tr><td>Equipo macrogotas</td><td>Material hospitalar</td><td>420</td><td>600</td><td>970</td><td><span class="badge yellow">Reposição</span></td></tr>
+                  <tr><td>Atadura 10cm</td><td>Material penso</td><td>180</td><td>260</td><td>490</td><td><span class="badge yellow">Abaixo mínimo</span></td></tr>
+                  <tr><td>Clorexidina degermante</td><td>Antissepsia</td><td>38</td><td>60</td><td>105</td><td><span class="badge yellow">Reposição</span></td></tr>
+                  <tr><td>Cateter periférico 22G</td><td>Material hospitalar</td><td>920</td><td>700</td><td>1.440</td><td><span class="badge green">Normal</span></td></tr>
+                  <tr><td>Compressa gaze</td><td>Material penso</td><td>3.200</td><td>2.800</td><td>5.600</td><td><span class="badge green">Normal</span></td></tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <div class="card">
+            <h3 class="section-title">Resumo operacional</h3>
+            <div class="list">
+              <div class="list-item"><div><strong>Consumo mensal</strong><small>Materiais e insumos do hospital</small></div><span class="badge blue">R$ 172 mil</span></div>
+              <div class="list-item"><div><strong>Reposições internas</strong><small>Emergência, UTI e enfermaria</small></div><span class="badge green">274</span></div>
+              <div class="list-item"><div><strong>Setor de maior consumo</strong><small>Saídas registradas</small></div><span class="badge yellow">Emergência</span></div>
+              <div class="list-item"><div><strong>Itens críticos</strong><small>Consumo acelerado</small></div><span class="badge yellow">12</span></div>
+              <div class="list-item"><div><strong>Última conferência</strong><small>Inventário interno</small></div><span class="badge green">Hoje 07:45</span></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="estoqueGeral" class="section">
+        <div class="cards">
+          <div class="card"><div class="label">Valor total em estoque</div><div class="value">R$ 684 mil</div><div class="sub">Hospital + almoxarifado central</div></div>
+          <div class="card"><div class="label">Itens cadastrados</div><div class="value">1.248</div><div class="sub">Medicamentos, materiais e insumos</div></div>
+          <div class="card"><div class="label">Itens abaixo do mínimo</div><div class="value warn">37</div><div class="sub">Necessitam reposição planejada</div></div>
+          <div class="card"><div class="label">Vencimento próximo</div><div class="value red">22</div><div class="sub">Itens com vencimento em até 60 dias</div></div>
+        </div>
+
+        <div class="grid-2">
+          <div class="card">
+            <h3 class="section-title">Resumo por almoxarifado</h3>
+            <div class="table-wrap">
+              <table>
+                <thead><tr><th>Local</th><th>Valor em estoque</th><th>Entradas</th><th>Saídas</th><th>Críticos</th></tr></thead>
+                <tbody>
+                  <tr><td>Almoxarifado do Hospital</td><td>R$ 286.400</td><td>R$ 92.800</td><td>R$ 172.000</td><td>12</td></tr>
+                  <tr><td>Almoxarifado Central</td><td>R$ 397.600</td><td>R$ 256.000</td><td>R$ 198.000</td><td>25</td></tr>
+                  <tr><td>Reserva CEMES</td><td>R$ 34.200</td><td>R$ 11.300</td><td>R$ 21.800</td><td>4</td></tr>
+                  <tr><td>Reserva CAPS</td><td>R$ 18.700</td><td>R$ 7.900</td><td>R$ 14.600</td><td>3</td></tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <div class="card">
+            <h3 class="section-title">Categorias acompanhadas</h3>
+            <div class="progress-row">
+              <div><div class="progress-head"><span>Medicamentos</span><span>R$ 312 mil</span></div><div class="progress"><span style="width:82%"></span></div></div>
+              <div><div class="progress-head"><span>Material penso</span><span>R$ 124 mil</span></div><div class="progress"><span style="width:55%"></span></div></div>
+              <div><div class="progress-head"><span>Laboratório</span><span>R$ 88 mil</span></div><div class="progress"><span style="width:44%"></span></div></div>
+              <div><div class="progress-head"><span>Limpeza e descartáveis</span><span>R$ 73 mil</span></div><div class="progress"><span style="width:38%"></span></div></div>
+              <div><div class="progress-head"><span>EPI</span><span>R$ 87 mil</span></div><div class="progress"><span style="width:45%"></span></div></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card" style="margin-bottom:18px">
+          <h3 class="section-title">Itens fictícios para acompanhamento operacional</h3>
+          <div class="table-wrap">
+            <table>
+              <thead><tr><th>Item</th><th>Categoria</th><th>Saldo</th><th>Mínimo</th><th>Consumo mês</th><th>Situação</th></tr></thead>
+              <tbody>
+                <tr><td>Soro fisiológico 500ml</td><td>Medicamento/Insumo</td><td>1.240</td><td>800</td><td>3.280</td><td><span class="badge green">Normal</span></td></tr>
+                <tr><td>Luva de procedimento M</td><td>EPI</td><td>22.400</td><td>18.000</td><td>18.400</td><td><span class="badge green">Normal</span></td></tr>
+                <tr><td>Dipirona 500mg/ml</td><td>Medicamento</td><td>380</td><td>500</td><td>1.120</td><td><span class="badge yellow">Abaixo do mínimo</span></td></tr>
+                <tr><td>Seringa 10ml</td><td>Material penso</td><td>6.100</td><td>5.000</td><td>8.920</td><td><span class="badge green">Normal</span></td></tr>
+                <tr><td>Equipo macrogotas</td><td>Material hospitalar</td><td>420</td><td>600</td><td>970</td><td><span class="badge yellow">Reposição</span></td></tr>
+                <tr><td>Álcool 70%</td><td>Limpeza/Antissepsia</td><td>96</td><td>150</td><td>244</td><td><span class="badge yellow">Atenção</span></td></tr>
+                <tr><td>Atadura 10cm</td><td>Material penso</td><td>180</td><td>260</td><td>490</td><td><span class="badge yellow">Abaixo do mínimo</span></td></tr>
+                <tr><td>Máscara cirúrgica</td><td>EPI</td><td>9.800</td><td>6.000</td><td>6.540</td><td><span class="badge green">Normal</span></td></tr>
+                <tr><td>Clorexidina degermante</td><td>Antissepsia</td><td>38</td><td>60</td><td>105</td><td><span class="badge yellow">Reposição</span></td></tr>
+                <tr><td>Teste rápido dengue</td><td>Laboratório</td><td>74</td><td>120</td><td>210</td><td><span class="badge yellow">Atenção</span></td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <div class="grid-3">
+          <div class="card">
+            <h3 class="section-title">Alertas de estoque</h3>
+            <div class="list">
+              <div class="list-item"><div><strong>Abaixo do mínimo</strong><small>Itens com saldo insuficiente</small></div><span class="badge yellow">37</span></div>
+              <div class="list-item"><div><strong>Vencimento até 30 dias</strong><small>Prioridade de saída</small></div><span class="badge yellow">9</span></div>
+              <div class="list-item"><div><strong>Sem movimentação</strong><small>Mais de 90 dias</small></div><span class="badge blue">16</span></div>
+            </div>
+          </div>
+          <div class="card">
+            <h3 class="section-title">Consumo mensal</h3>
+            <div class="list">
+              <div class="list-item"><div><strong>Hospital</strong><small>Saídas registradas</small></div><span class="badge blue">R$ 172 mil</span></div>
+              <div class="list-item"><div><strong>Rede APS</strong><small>PSFs e apoio</small></div><span class="badge green">R$ 49,6 mil</span></div>
+              <div class="list-item"><div><strong>CEMES/CAPS</strong><small>Serviços especializados</small></div><span class="badge yellow">R$ 36,4 mil</span></div>
+            </div>
+          </div>
+          <div class="card">
+            <h3 class="section-title">Controle operacional</h3>
+            <div class="progress-row">
+              <div><div class="progress-head"><span>Rastreabilidade</span><span>100%</span></div><div class="progress"><span style="width:100%"></span></div></div>
+              <div><div class="progress-head"><span>Reposição no prazo</span><span>91%</span></div><div class="progress"><span style="width:91%"></span></div></div>
+              <div><div class="progress-head"><span>Conferência mensal</span><span>88%</span></div><div class="progress"><span style="width:88%"></span></div></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="secretaria" class="section">
+        <div class="cards">
+          <div class="card"><div class="label">Servidores monitorados</div><div class="value">428</div><div class="sub">Rede direta + unidades</div></div>
+          <div class="card"><div class="label">Batidas de ponto/dia</div><div class="value">1.184</div><div class="sub">Consolidado da rede</div></div>
+          <div class="card"><div class="label">Assiduidade mensal</div><div class="value green">96,1%</div><div class="sub">Frequência média registrada</div></div>
+          <div class="card"><div class="label">Demandas administrativas</div><div class="value">214</div><div class="sub">Ofícios, solicitações e despachos</div></div>
+        </div>
+        <div class="grid-2">
+          <div class="card"><h3 class="section-title">Painel administrativo da Secretaria</h3><div class="list">
+            <div class="list-item"><div><strong>Unidades com ponto em dia</strong><small>Atualização regular</small></div><span class="badge green">16/18</span></div>
+            <div class="list-item"><div><strong>Demandas finalizadas</strong><small>Fluxo administrativo do mês</small></div><span class="badge blue">176</span></div>
+            <div class="list-item"><div><strong>Processos em análise</strong><small>Compras, RH e planejamento</small></div><span class="badge yellow">38</span></div>
+            <div class="list-item"><div><strong>Reuniões de coordenação</strong><small>Realizadas no período</small></div><span class="badge green">12</span></div>
+            <div class="list-item"><div><strong>Projetos estratégicos</strong><small>Em acompanhamento</small></div><span class="badge blue">7</span></div>
+          </div></div>
+          <div class="card"><h3 class="section-title">Indicadores de gestão</h3><div class="progress-row">
+            <div><div class="progress-head"><span>Execução do planejamento mensal</span><span>86%</span></div><div class="progress"><span style="width:86%"></span></div></div>
+            <div><div class="progress-head"><span>Frequência das equipes</span><span>96%</span></div><div class="progress"><span style="width:96%"></span></div></div>
+            <div><div class="progress-head"><span>Resolução de demandas internas</span><span>82%</span></div><div class="progress"><span style="width:82%"></span></div></div>
+            <div><div class="progress-head"><span>Integração das informações</span><span>90%</span></div><div class="progress"><span style="width:90%"></span></div></div>
+          </div></div>
+        </div>
+      </section>
+    
+      <section id="usuariosOnline" class="section">
+        <div class="hero">
+          <h3>Administração de Usuários Online</h3>
+          <p>Cadastre usuários próprios do portal online. Estes logins são independentes do sistema local de estoque.</p>
+        </div>
+        <div class="grid-2">
+          <div class="card">
+            <h3 class="section-title">Cadastrar / editar usuário</h3>
+            <div class="field"><label>Nome</label><input id="uNome" placeholder="Nome completo"></div>
+            <div class="field"><label>CPF</label><input id="uCpf" placeholder="000.000.000-00" maxlength="14" inputmode="numeric"></div>
+            <div class="field"><label>Senha</label><input id="uSenha" type="password" placeholder="Digite uma senha"></div>
+            <div class="field"><label>Perfil</label><select id="uPerfil"><option>Administrador</option><option>Coordenador</option><option>Consulta</option></select></div>
+            <div class="field"><label>Módulos liberados</label>
+              <div style="display:flex;gap:12px;flex-wrap:wrap;font-size:13px;font-weight:800">
+                <label><input type="checkbox" id="modAlmox"> Almoxerifado / Estoque</label>
+                <label><input type="checkbox" id="modSecretaria"> Secretaria de Saúde</label>
+                <label><input type="checkbox" id="modUsuarios"> Gerenciar usuários</label>
+              </div>
+            </div>
+            <button class="btn" onclick="salvarUsuarioOnline()">Salvar usuário</button>
+            <div id="userMsg" style="margin-top:12px;font-weight:800"></div>
+          </div>
+          <div class="card">
+            <h3 class="section-title">Acessos iniciais</h3>
+            <div class="list">
+              <div class="list-item"><div><strong>Administrador Online</strong><small>CPF 000.000.000-00</small></div><span class="badge blue">admin123</span></div>
+              <div class="list-item"><div><strong>Coordenador Almoxerifado</strong><small>CPF 555.555.555-55</small></div><span class="badge green">5</span></div>
+              <div class="list-item"><div><strong>Secretaria de Saúde</strong><small>CPF 333.333.333-33</small></div><span class="badge yellow">3</span></div>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <h3 class="section-title">Usuários cadastrados</h3>
+          <div class="table-wrap">
+            <table><thead><tr><th>Nome</th><th>CPF</th><th>Perfil</th><th>Módulos</th><th>Status</th><th>Ações</th></tr></thead><tbody id="usersBody"></tbody></table>
+          </div>
+        </div>
+      </section>
+
+    </main>
+  </div>
+
+  
+<script>
+    const titles = {
+      visaoGeral:['Visão Geral da Rede','Área preparada para apresentação dos módulos gerais da saúde municipal'],
+      hospitalGeral:['Hospital Geral','Módulo preparado, aguardando integração de dados'],
+      cemes:['CEMES','Módulo preparado, aguardando integração de dados'],
+      postos:['Postos de Saúde','Módulo preparado, aguardando integração de dados'],
+      caps:['CAPS','Módulo preparado, aguardando integração de dados'],
+      agentes:['Agentes de Saúde','Módulo preparado, aguardando integração de dados'],
+      almoxHospital:['Almoxarifado do Hospital','Estatísticas de consumo e movimentação do estoque hospitalar'],
+      almoxCentral:['Almoxarifado Central','Estatísticas de entradas, saídas e distribuição da rede'],
+      estoqueGeral:['Estoques Detalhados','Dados operacionais de estoque por unidade'],
+      estoqueCentral:['Almoxarifado Central — Estoque','Itens, saldos, mínimos e situação operacional do almoxarifado central'],
+      estoqueHospital:['Almoxarifado Hospital — Estoque','Itens, saldos, mínimos e situação operacional do almoxarifado hospitalar'],
+      secretaria:['Secretaria','Módulos administrativos preparados, aguardando integração'],
+      usuariosOnline:['Usuários Online','Cadastro de usuários próprios do portal online']
+    };
+
+    let usuarioAtual = null;
+    let DADOS = {dashboard:{},itens:[],movimentacoes:[],baixo_minimo:[],estatisticas:{por_destino:[],por_produto_destino:[]}};
+    let editCpf = null;
+
+    const DEFAULT_USERS = [
+      {nome:"Administrador Online",cpf:"00000000000",senha:"admin123",cargo:"Administração do Portal Online",perfil:"Administrador • visão total e cadastro de usuários",tipo:"admin",modulos:["almox","secretaria","usuarios"],ativo:true},
+      {nome:"Coordenador Almoxerifado",cpf:"55555555555",senha:"5",cargo:"Coordenação de Estoque e Almoxerifados",perfil:"Coordenador • almoxerifado e estoque",tipo:"coordenadora",modulos:["almox"],ativo:true},
+      {nome:"Secretaria de Saúde",cpf:"33333333333",senha:"3",cargo:"Secretaria Municipal de Saúde",perfil:"Perfil executivo • módulos da secretaria",tipo:"secretaria",modulos:["secretaria"],ativo:true}
+    ];
+
+    function onlyDigits(v){return String(v||"").replace(/\D/g,"")}
+    function formatCPF(v){
+      v = onlyDigits(v).slice(0,11);
+      if (v.length > 9) return v.replace(/(\d{3})(\d{3})(\d{3})(\d{0,2})/, '$1.$2.$3-$4');
+      if (v.length > 6) return v.replace(/(\d{3})(\d{3})(\d{0,3})/, '$1.$2.$3');
+      if (v.length > 3) return v.replace(/(\d{3})(\d{0,3})/, '$1.$2');
+      return v;
+    }
+    function esc(s){return String(s??"").replace(/[&<>"']/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[m]))}
+    function fmtData(d){if(!d)return "-";const p=String(d).split("-");return p.length>=3?`${p[2]}/${p[1]}/${p[0]}`:d}
+    async function sha256(texto){
+      const enc = new TextEncoder().encode(String(texto||""));
+      const buf = await crypto.subtle.digest("SHA-256", enc);
+      return Array.from(new Uint8Array(buf)).map(b=>b.toString(16).padStart(2,"0")).join("");
+    }
+    async function initUsers(){
+      let users = JSON.parse(localStorage.getItem("portal_online_users_profissional")||"null");
+      if(!users){
+        users = [];
+        for(const u of DEFAULT_USERS){
+          users.push({...u, senhaHash: await sha256(u.senha)});
+          delete users[users.length-1].senha;
+        }
+        localStorage.setItem("portal_online_users_profissional", JSON.stringify(users));
+      }
+    }
+    function getUsers(){return JSON.parse(localStorage.getItem("portal_online_users_profissional")||"[]")}
+    function setUsers(users){localStorage.setItem("portal_online_users_profissional", JSON.stringify(users))}
+    function temModulo(m){return usuarioAtual && (usuarioAtual.tipo === "admin" || (usuarioAtual.modulos||[]).includes(m))}
+    async function carregarDados(){
+      try{
+        const r = await fetch("dados_relatorios.json?ts="+Date.now(), {cache:"no-store"});
+        DADOS = await r.json();
+        const chips = document.querySelectorAll(".topchips .chip");
+        if(chips[1]) chips[1].textContent = "🔄 Atualizado: " + (DADOS.gerado_em || "-");
+      }catch(e){
+        const chips = document.querySelectorAll(".topchips .chip");
+        if(chips[1]) chips[1].textContent = "🔄 Sem dados do estoque";
+      }
+    }
+
+    function blankSection(id, titulo, subtitulo){
+      const el = document.getElementById(id);
+      if(!el) return;
+      el.innerHTML = `
+        <div class="hero">
+          <h3>${esc(titulo)}</h3>
+          <p>${esc(subtitulo)}</p>
+          <div class="hero-stats">
+            <div class="hero-stat"><div class="lbl">Status</div><div class="num">—</div><div class="sub">Aguardando integração</div></div>
+            <div class="hero-stat"><div class="lbl">Indicadores</div><div class="num">—</div><div class="sub">Sem dados cadastrados</div></div>
+            <div class="hero-stat"><div class="lbl">Relatórios</div><div class="num">—</div><div class="sub">Em preparação</div></div>
+            <div class="hero-stat"><div class="lbl">Atualização</div><div class="num">—</div><div class="sub">Futura integração</div></div>
+          </div>
+        </div>
+        <div class="grid-3">
+          <div class="card"><h3 class="section-title">CEMES</h3><div class="empty">Sem dados cadastrados ainda</div></div>
+          <div class="card"><h3 class="section-title">Hospital Geral</h3><div class="empty">Sem dados cadastrados ainda</div></div>
+          <div class="card"><h3 class="section-title">Indicadores</h3><div class="empty">Sem dados cadastrados ainda</div></div>
+        </div>
+      `;
+    }
+
+    function renderBlankModules(){
+      blankSection("visaoGeral","Portal Executivo da Secretaria","Ambiente preparado para reunir os módulos da rede municipal de saúde.");
+      blankSection("hospitalGeral","Hospital Geral","Módulo preparado, aguardando integração dos dados hospitalares.");
+      blankSection("cemes","CEMES","Módulo preparado, aguardando integração de consultas, exames e regulação.");
+      blankSection("postos","Postos de Saúde","Módulo preparado, aguardando integração da atenção primária.");
+      blankSection("caps","CAPS","Módulo preparado, aguardando integração da saúde mental.");
+      blankSection("agentes","Agentes de Saúde","Módulo preparado, aguardando integração territorial.");
+      blankSection("secretaria","Secretaria de Saúde","Área administrativa preparada, aguardando integração de dados.");
+    }
+
+    function totalSaidas(){
+      return (DADOS.movimentacoes||[]).filter(m => String(m.tipo||"").toLowerCase().includes("saída") || String(m.tipo||"").toLowerCase().includes("saida")).reduce((a,m)=>a+(Number(m.quantidade)||0),0);
+    }
+
+
+    function getTipoPorProduto(){
+      const mapa = {};
+      (DADOS.itens||[]).forEach(i=>{mapa[String(i.nome||"").toLowerCase()] = i.tipo || "";});
+      return mapa;
+    }
+
+    function dentroPeriodo(data, ini, fim){
+      if(!data) return true;
+      if(ini && data < ini) return false;
+      if(fim && data > fim) return false;
+      return true;
+    }
+
+    function renderEstoqueSecao(id, titulo, local){
+      const el = document.getElementById(id);
+      if(!el) return;
+
+      const buscaId = id+"Busca";
+      const tipoId = id+"Tipo";
+      const sitId = id+"Situacao";
+
+      const buscaAtual = document.getElementById(buscaId)?.value || "";
+      const tipoAtual = document.getElementById(tipoId)?.value || "";
+      const sitAtual = document.getElementById(sitId)?.value || "";
+
+      const itens = DADOS.itens || [];
+      const totalLocal = itens.reduce((a,i)=>a+(Number(i.saldos?.[local])||0),0);
+      const baixo = itens.filter(i => Number(i.minimo||0)>0 && Number(i.total||0)<=Number(i.minimo||0));
+
+      let filtrados = itens.filter(i=>{
+        const saldo = Number(i.saldos?.[local])||0;
+        const min = Number(i.minimo)||0;
+        const total = Number(i.total)||0;
+        const status = min>0 && total<=min ? "baixo" : saldo<=0 ? "zerado" : "normal";
+        const buscaOk = !buscaAtual || String(i.nome||"").toLowerCase().includes(buscaAtual.toLowerCase());
+        const tipoOk = !tipoAtual || String(i.tipo||"") === tipoAtual;
+        const sitOk = !sitAtual || status === sitAtual;
+        return buscaOk && tipoOk && sitOk;
+      });
+
+      const tipos = [...new Set(itens.map(i=>i.tipo).filter(Boolean))].sort();
+
+      const rows = filtrados.slice(0,200).map(i=>{
+        const saldo = Number(i.saldos?.[local])||0;
+        const min = Number(i.minimo)||0;
+        const total = Number(i.total)||0;
+        const sit = min>0 && total<=min ? '<span class="badge yellow">Abaixo mínimo</span>' : saldo<=0 ? '<span class="badge purple">Zerado</span>' : '<span class="badge green">Normal</span>';
+        return `<tr><td><strong>${esc(i.nome)}</strong></td><td>${esc(i.tipo||"-")}</td><td>${esc(i.unidade||"-")}</td><td>${saldo}</td><td>${min}</td><td>${sit}</td></tr>`;
+      }).join("");
+
+      el.innerHTML = `
+        <div class="cards">
+          <div class="card"><div class="label">Itens cadastrados</div><div class="value">${itens.length}</div><div class="sub">Produtos sincronizados</div></div>
+          <div class="card"><div class="label">Saldo nesta unidade</div><div class="value">${totalLocal}</div><div class="sub">${esc(titulo)}</div></div>
+          <div class="card"><div class="label">Abaixo do mínimo</div><div class="value warn">${baixo.length}</div><div class="sub">Itens para atenção</div></div>
+          <div class="card"><div class="label">Filtrados</div><div class="value">${filtrados.length}</div><div class="sub">Resultado atual</div></div>
+        </div>
+        <div class="card">
+          <h3 class="section-title">Itens do ${esc(titulo)}</h3>
+          <div class="filter-bar">
+            <div class="field"><label>Produto</label><input id="${buscaId}" placeholder="Buscar produto..." value="${esc(buscaAtual)}"></div>
+            <div class="field"><label>Tipo</label><select id="${tipoId}"><option value="">Todos</option>${tipos.map(t=>`<option ${t===tipoAtual?"selected":""}>${esc(t)}</option>`).join("")}</select></div>
+            <div class="field"><label>Situação</label><select id="${sitId}">
+              <option value="">Todas</option>
+              <option value="normal" ${sitAtual==="normal"?"selected":""}>Normal</option>
+              <option value="baixo" ${sitAtual==="baixo"?"selected":""}>Abaixo do mínimo</option>
+              <option value="zerado" ${sitAtual==="zerado"?"selected":""}>Zerado</option>
+            </select></div>
+            <div></div><div></div>
+            <button class="btn small" onclick="renderEstoqueSecao('${id}','${titulo}','${local}')">Filtrar</button>
+          </div>
+          <div class="table-wrap">
+            <table><thead><tr><th>Item</th><th>Categoria</th><th>Unidade</th><th>Saldo</th><th>Mínimo</th><th>Situação</th></tr></thead><tbody>
+              ${rows || '<tr><td colspan="6">Nenhum item encontrado no filtro.</td></tr>'}
+            </tbody></table>
+          </div>
+        </div>
+      `;
+    }
+
+    function renderEstatisticaAlmox(id, titulo, local){
+      const el = document.getElementById(id);
+      if(!el) return;
+
+      const buscaId = id+"Busca";
+      const tipoId = id+"Tipo";
+      const destId = id+"Destino";
+      const iniId = id+"Ini";
+      const fimId = id+"Fim";
+
+      const busca = document.getElementById(buscaId)?.value || "";
+      const tipoFiltro = document.getElementById(tipoId)?.value || "";
+      const destinoFiltro = document.getElementById(destId)?.value || "";
+      const ini = document.getElementById(iniId)?.value || "";
+      const fim = document.getElementById(fimId)?.value || "";
+
+      const mapaTipo = getTipoPorProduto();
+      const movsBase = (DADOS.movimentacoes || []).filter(m=>{
+        const origem = String(m.origem||"").toLowerCase();
+        const destino = String(m.destino||"").toLowerCase();
+        if(local === "almoxarifado") return origem.includes("almox") || destino.includes("almox");
+        return origem.includes("farm") || destino.includes("farm");
+      });
+
+      const tipos = [...new Set((DADOS.itens||[]).map(i=>i.tipo).filter(Boolean))].sort();
+      const destinos = [...new Set(movsBase.map(m=>m.destino).filter(Boolean))].sort();
+
+      const movs = movsBase.filter(m=>{
+        const nome = String(m.produto_nome||"");
+        const tipo = mapaTipo[nome.toLowerCase()] || "";
+        const buscaOk = !busca || nome.toLowerCase().includes(busca.toLowerCase());
+        const tipoOk = !tipoFiltro || tipo === tipoFiltro;
+        const destOk = !destinoFiltro || String(m.destino||"") === destinoFiltro;
+        const periodoOk = dentroPeriodo(String(m.data||""), ini, fim);
+        return buscaOk && tipoOk && destOk && periodoOk;
+      });
+
+      const entradas = movs.filter(m => String(m.destino||"").toLowerCase().includes(local === "almoxarifado" ? "almox" : "farm"));
+      const saidas = movs.filter(m => String(m.origem||"").toLowerCase().includes(local === "almoxarifado" ? "almox" : "farm"));
+      const qtdTotal = movs.reduce((a,m)=>a+(Number(m.quantidade)||0),0);
+
+      const porTipo = {};
+      movs.forEach(m=>{
+        const nome = String(m.produto_nome||"");
+        const tipo = mapaTipo[nome.toLowerCase()] || "Sem tipo";
+        porTipo[tipo] = (porTipo[tipo]||0) + (Number(m.quantidade)||0);
+      });
+
+      const rowsTipo = Object.entries(porTipo).sort((a,b)=>b[1]-a[1]).map(([t,q])=>`<tr><td>${esc(t)}</td><td><strong>${q}</strong></td></tr>`).join("");
+      const rowsMov = movs.slice(0,120).map(m=>`
+        <tr><td>${fmtData(m.data)}</td><td><strong>${esc(m.produto_nome||"-")}</strong></td><td>${esc(mapaTipo[String(m.produto_nome||"").toLowerCase()]||"-")}</td><td>${esc(m.origem||"")}</td><td>${esc(m.destino||"")}</td><td><strong>${m.quantidade||0}</strong></td></tr>
+      `).join("");
+
+      el.innerHTML = `
+        <div class="cards">
+          <div class="card"><div class="label">Entradas filtradas</div><div class="value">${entradas.length}</div><div class="sub">Movimentações de entrada</div></div>
+          <div class="card"><div class="label">Saídas filtradas</div><div class="value">${saidas.length}</div><div class="sub">Movimentações de saída</div></div>
+          <div class="card"><div class="label">Quantidade movimentada</div><div class="value">${qtdTotal}</div><div class="sub">Soma do filtro atual</div></div>
+          <div class="card"><div class="label">Registros filtrados</div><div class="value">${movs.length}</div><div class="sub">Resultado atual</div></div>
+        </div>
+        <div class="card">
+          <h3 class="section-title">Filtros da estatística — ${esc(titulo)}</h3>
+          <div class="filter-bar">
+            <div class="field"><label>Produto</label><input id="${buscaId}" placeholder="Buscar produto..." value="${esc(busca)}"></div>
+            <div class="field"><label>Tipo</label><select id="${tipoId}"><option value="">Todos</option>${tipos.map(t=>`<option ${t===tipoFiltro?"selected":""}>${esc(t)}</option>`).join("")}</select></div>
+            <div class="field"><label>Destino</label><select id="${destId}"><option value="">Todos</option>${destinos.map(d=>`<option ${d===destinoFiltro?"selected":""}>${esc(d)}</option>`).join("")}</select></div>
+            <div class="field"><label>Data inicial</label><input id="${iniId}" type="date" value="${esc(ini)}"></div>
+            <div class="field"><label>Data final</label><input id="${fimId}" type="date" value="${esc(fim)}"></div>
+            <button class="btn small" onclick="renderEstatisticaAlmox('${id}','${titulo}','${local}')">Filtrar</button>
+          </div>
+        </div>
+        <div class="grid-2">
+          <div class="card"><h3 class="section-title">Quantidade por tipo</h3><div class="table-wrap"><table><thead><tr><th>Tipo</th><th>Quantidade</th></tr></thead><tbody>${rowsTipo || '<tr><td colspan="2">Sem dados no filtro.</td></tr>'}</tbody></table></div></div>
+          <div class="card"><h3 class="section-title">Movimentações filtradas</h3><div class="table-wrap"><table><thead><tr><th>Data</th><th>Produto</th><th>Tipo</th><th>Origem</th><th>Destino</th><th>Qtd</th></tr></thead><tbody>${rowsMov || '<tr><td colspan="6">Sem movimentações no filtro.</td></tr>'}</tbody></table></div></div>
+        </div>
+      `;
+    }
+
+    function renderAlmox(){
+      renderEstoqueSecao("estoqueCentral","Almoxarifado Central","almoxarifado");
+      renderEstoqueSecao("estoqueHospital","Almoxarifado Hospital/Farmácia","farmacia");
+      renderEstatisticaAlmox("almoxCentral","Almoxarifado Central","almoxarifado");
+      renderEstatisticaAlmox("almoxHospital","Almoxarifado Hospital/Farmácia","farmacia");
+    }
+
+
+    function construirMenuAgrupado(usuario){
+      const nav = document.getElementById("menuNav") || document.querySelector(".nav");
+      if(!nav) return;
+      const isAdmin = usuario.tipo === "admin";
+      const canAlmox = isAdmin || (usuario.modulos||[]).includes("almox");
+      const canSecretaria = isAdmin || (usuario.modulos||[]).includes("secretaria");
+      const canUsuarios = isAdmin || (usuario.modulos||[]).includes("usuarios");
+
+      let h = "";
+
+      if(isAdmin || canSecretaria){
+        h += `<button data-target="visaoGeral" data-role="secretaria" onclick="showSection('visaoGeral', this)">🏠 Visão Geral <span>›</span></button>`;
+        h += `<button data-target="hospitalGeral" data-role="secretaria" onclick="showSection('hospitalGeral', this)">🚑 Hospital Geral <span>›</span></button>`;
+        h += `<button data-target="cemes" data-role="secretaria" onclick="showSection('cemes', this)">🩺 CEMES <span>›</span></button>`;
+        h += `<button data-target="postos" data-role="secretaria" onclick="showSection('postos', this)">🏥 Postos de Saúde <span>›</span></button>`;
+        h += `<button data-target="caps" data-role="secretaria" onclick="showSection('caps', this)">🧠 CAPS <span>›</span></button>`;
+        h += `<button data-target="agentes" data-role="secretaria" onclick="showSection('agentes', this)">👥 Agentes de Saúde <span>›</span></button>`;
+      }
+
+      if(canAlmox){
+        h += `
+          <div class="nav-group">
+            <button type="button" class="nav-group-title">📦 Almoxerifado Hospital <span>▾</span></button>
+            <div class="nav-sub">
+              <button data-target="estoqueHospital" data-role="coordenadora" onclick="showSection('estoqueHospital', this)">Estoque <span>›</span></button>
+              <button data-target="almoxHospital" data-role="coordenadora" onclick="showSection('almoxHospital', this)">Estatística <span>›</span></button>
+            </div>
+          </div>
+          <div class="nav-group">
+            <button type="button" class="nav-group-title">🏬 Almoxerifado Central <span>▾</span></button>
+            <div class="nav-sub">
+              <button data-target="estoqueCentral" data-role="coordenadora" onclick="showSection('estoqueCentral', this)">Estoque <span>›</span></button>
+              <button data-target="almoxCentral" data-role="coordenadora" onclick="showSection('almoxCentral', this)">Estatística <span>›</span></button>
+            </div>
+          </div>
+        `;
+      }
+
+      if(canSecretaria){
+        h += `<button data-target="secretaria" data-role="secretaria" onclick="showSection('secretaria', this)">🏛️ Secretaria <span>›</span></button>`;
+      }
+
+      if(canUsuarios){
+        h += `<button data-target="usuariosOnline" data-role="admin" onclick="showSection('usuariosOnline', this)">👥 Usuários Online <span>›</span></button>`;
+      }
+
+      nav.innerHTML = h;
+    }
+
+    function aplicarPerfil(usuario){
+      usuarioAtual = usuario;
+      document.querySelector('.profile strong').textContent = usuario.nome;
+      const profileSpans = document.querySelectorAll('.profile span');
+      if(profileSpans[0]) profileSpans[0].textContent = usuario.cargo || usuario.perfil;
+      if(profileSpans[1]) profileSpans[1].textContent = usuario.perfil || usuario.tipo;
+
+      construirMenuAgrupado(usuario);
+
+      renderBlankModules();
+      carregarDados().then(()=>{
+        renderAlmox();
+        if(usuario.tipo === "admin"){
+          showSection('visaoGeral', document.querySelector('[data-target="visaoGeral"]'));
+        } else if(temModulo("almox")){
+          showSection('estoqueCentral', document.querySelector('[data-target="estoqueCentral"]'));
+        } else {
+          showSection('visaoGeral', document.querySelector('[data-target="visaoGeral"]'));
+        }
+      });
+    }
+
+    async function entrar(){
+      const msg = document.getElementById('loginMsg');
+      if(msg) msg.textContent = "";
+      await initUsers();
+      const cpf = onlyDigits(document.getElementById('cpf').value);
+      const senha = document.getElementById('senha').value.trim();
+      const senhaHash = await sha256(senha);
+      const usuario = getUsers().find(u => u.ativo !== false && onlyDigits(u.cpf) === cpf && u.senhaHash === senhaHash);
+      if (usuario) {
+        localStorage.setItem("portal_online_session_profissional", JSON.stringify({cpf: usuario.cpf}));
+        document.getElementById('loginScreen').classList.add('hidden');
+        document.getElementById('app').classList.remove('hidden');
+        aplicarPerfil(usuario);
+      } else {
+        if(msg) msg.textContent = 'CPF ou senha inválidos.';
+        else alert('CPF ou senha inválidos.');
+      }
+    }
+
+    function sair(){
+      localStorage.removeItem("portal_online_session_profissional");
+      document.getElementById('app').classList.add('hidden');
+      document.getElementById('loginScreen').classList.remove('hidden');
+      document.getElementById('cpf').value='';
+      document.getElementById('senha').value='';
+      usuarioAtual = null;
+    }
+
+    function showSection(id, btn){
+      if(!document.getElementById(id)) return;
+      document.querySelectorAll('.section').forEach(el => el.classList.remove('active'));
+      document.getElementById(id).classList.add('active');
+      document.querySelectorAll('.nav button').forEach(el => el.classList.remove('active'));
+      if(btn) btn.classList.add('active');
+      document.getElementById('mainTitle').textContent = titles[id]?.[0] || 'Portal Online';
+      document.getElementById('mainSubtitle').textContent = titles[id]?.[1] || '';
+      if(id === "usuariosOnline") renderUsuariosOnline();
+      if(["estoqueCentral","estoqueHospital","almoxCentral","almoxHospital"].includes(id)){
+        carregarDados().then(renderAlmox);
+      }
+      window.scrollTo({top:0, behavior:'smooth'});
+    }
+
+    function renderUsuariosOnline(){
+      const body = document.getElementById("usersBody");
+      if(!body) return;
+      const users = getUsers();
+      body.innerHTML = users.map(u=>`
+        <tr>
+          <td><strong>${esc(u.nome)}</strong></td>
+          <td>${formatCPF(u.cpf)}</td>
+          <td>${esc(u.tipo === "admin" ? "Administrador" : (u.perfil || "Coordenador"))}</td>
+          <td>${(u.modulos||[]).map(m=>m==="almox"?"Almoxerifado":m==="secretaria"?"Secretaria":"Usuários").join(", ")}</td>
+          <td><span class="badge ${u.ativo!==false ? "green" : "yellow"}">${u.ativo!==false ? "Ativo" : "Inativo"}</span></td>
+          <td>
+            <button class="btn small" onclick="editarUsuarioOnline('${u.cpf}')">Editar</button>
+            <button class="btn small" onclick="toggleUsuarioOnline('${u.cpf}')">${u.ativo!==false ? "Inativar" : "Ativar"}</button>
+            <button class="btn small danger" onclick="excluirUsuarioOnline('${u.cpf}')">Excluir</button>
+          </td>
+        </tr>
+      `).join("");
+    }
+
+    async function salvarUsuarioOnline(){
+      const msg = document.getElementById("userMsg");
+      if(msg){msg.textContent="";msg.style.color="var(--texto)"}
+      const nome = document.getElementById("uNome").value.trim();
+      const cpf = onlyDigits(document.getElementById("uCpf").value);
+      const senha = document.getElementById("uSenha").value;
+      const perfil = document.getElementById("uPerfil").value;
+      if(!nome || cpf.length !== 11 || (!editCpf && !senha)){
+        if(msg){msg.textContent="Preencha nome, CPF válido e senha.";msg.style.color="var(--vermelho)"}
+        return;
+      }
+      let modulos = [];
+      if(document.getElementById("modAlmox").checked) modulos.push("almox");
+      if(document.getElementById("modSecretaria").checked) modulos.push("secretaria");
+      if(document.getElementById("modUsuarios").checked) modulos.push("usuarios");
+      const tipo = perfil === "Administrador" ? "admin" : (modulos.includes("almox") && !modulos.includes("secretaria") ? "coordenadora" : "secretaria");
+      if(tipo === "admin") modulos = ["almox","secretaria","usuarios"];
+
+      let users = getUsers();
+      const idx = users.findIndex(u => onlyDigits(u.cpf) === (editCpf || cpf));
+      const obj = {nome, cpf, cargo: perfil === "Administrador" ? "Administração do Portal Online" : perfil, perfil, tipo, modulos, ativo:true};
+      if(idx >= 0){
+        obj.senhaHash = senha ? await sha256(senha) : users[idx].senhaHash;
+        users[idx] = obj;
+      } else {
+        if(users.some(u => onlyDigits(u.cpf) === cpf)){
+          if(msg){msg.textContent="CPF já cadastrado.";msg.style.color="var(--vermelho)"}
+          return;
+        }
+        obj.senhaHash = await sha256(senha);
+        users.push(obj);
+      }
+      setUsers(users);
+      editCpf = null;
+      ["uNome","uCpf","uSenha"].forEach(id=>document.getElementById(id).value="");
+      ["modAlmox","modSecretaria","modUsuarios"].forEach(id=>document.getElementById(id).checked=false);
+      document.getElementById("uPerfil").value="Coordenador";
+      if(msg){msg.textContent="Usuário salvo com sucesso.";msg.style.color="var(--verde)"}
+      renderUsuariosOnline();
+    }
+
+    function editarUsuarioOnline(cpf){
+      const u = getUsers().find(x=>onlyDigits(x.cpf)===onlyDigits(cpf));
+      if(!u) return;
+      editCpf = onlyDigits(u.cpf);
+      document.getElementById("uNome").value = u.nome || "";
+      document.getElementById("uCpf").value = formatCPF(u.cpf || "");
+      document.getElementById("uSenha").value = "";
+      document.getElementById("uPerfil").value = u.tipo === "admin" ? "Administrador" : (u.perfil || "Coordenador");
+      document.getElementById("modAlmox").checked = (u.modulos||[]).includes("almox");
+      document.getElementById("modSecretaria").checked = (u.modulos||[]).includes("secretaria");
+      document.getElementById("modUsuarios").checked = (u.modulos||[]).includes("usuarios");
+      window.scrollTo({top:0,behavior:"smooth"});
+    }
+
+    function toggleUsuarioOnline(cpf){
+      const users = getUsers();
+      const u = users.find(x=>onlyDigits(x.cpf)===onlyDigits(cpf));
+      if(!u) return;
+      if(onlyDigits(u.cpf)==="00000000000"){alert("O administrador inicial não pode ser inativado.");return}
+      u.ativo = !(u.ativo !== false);
+      setUsers(users);
+      renderUsuariosOnline();
+    }
+
+    function excluirUsuarioOnline(cpf){
+      if(onlyDigits(cpf)==="00000000000"){alert("O administrador inicial não pode ser excluído.");return}
+      if(!confirm("Excluir este usuário online?")) return;
+      setUsers(getUsers().filter(u=>onlyDigits(u.cpf)!==onlyDigits(cpf)));
+      renderUsuariosOnline();
+    }
+
+    const cpfInput = document.getElementById('cpf');
+    cpfInput.addEventListener('input', function(){ this.value = formatCPF(this.value); });
+    document.addEventListener('input', function(e){
+      if(e.target && e.target.id === "uCpf") e.target.value = formatCPF(e.target.value);
+    });
+
+    document.addEventListener('keydown', function(e){
+      if (e.key === 'Enter' && !document.getElementById('loginScreen').classList.contains('hidden')) entrar();
+    });
+
+    setInterval(()=>{
+      if(usuarioAtual){
+        carregarDados().then(()=>{renderAlmox();});
+      }
+    }, 30000);
+
+    (async()=>{
+      await initUsers();
+      renderBlankModules();
+      await carregarDados();
+      renderAlmox();
+      const sess = JSON.parse(localStorage.getItem("portal_online_session_profissional")||"null");
+      if(sess){
+        const u = getUsers().find(x=>x.ativo!==false && onlyDigits(x.cpf)===onlyDigits(sess.cpf));
+        if(u){
+          document.getElementById('loginScreen').classList.add('hidden');
+          document.getElementById('app').classList.remove('hidden');
+          aplicarPerfil(u);
+        }
+      }
+    })();
+  </script>
+
+</body>
+</html>
