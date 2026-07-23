@@ -1,12 +1,12 @@
 {
-  "atualizado_em": "23/07/2026 11:24:51",
+  "atualizado_em": "23/07/2026 11:25:09",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
-    "itens": 5,
-    "total_almoxarifado": 4210,
+    "itens": 6,
+    "total_almoxarifado": 5210,
     "total_farmacia": 0,
-    "total_geral": 4210,
-    "perto_de_terminar": 1,
+    "total_geral": 5210,
+    "perto_de_terminar": 2,
     "zerados": 0
   },
   "itens": [
@@ -30,6 +30,27 @@
       "origem": "",
       "obs": "",
       "atualizado_em": "2026-07-23 11:24:47"
+    },
+    {
+      "id": 6,
+      "produto_id": 37,
+      "nome": "Seringa 5mL",
+      "tipo": "Material",
+      "unidade": "Unidade",
+      "almoxarifado": 1000,
+      "farmacia": 0,
+      "sala_medicacoes": 0,
+      "internamento": 0,
+      "sala_cirurgica": 0,
+      "baixa": 0,
+      "outro": 0,
+      "total": 1000,
+      "minimo": 1000,
+      "validade": "",
+      "lote": "",
+      "origem": "",
+      "obs": "",
+      "atualizado_em": "2026-07-23 11:25:06"
     },
     {
       "id": 4,
@@ -117,6 +138,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 6,
+      "item_id": 6,
+      "produto_nome": "Seringa 5mL",
+      "tipo": "Entrada no Almoxarifado",
+      "origem": "Entrada externa",
+      "destino": "Almoxarifado",
+      "quantidade": 1000,
+      "responsavel": "Almoxarifado Teste",
+      "data": "2026-07-23",
+      "obs": "",
+      "criado_em": "2026-07-23 11:25:06",
+      "item": "Seringa 5mL",
+      "usuario": "Almoxarifado Teste"
+    },
     {
       "id": 5,
       "item_id": 5,
