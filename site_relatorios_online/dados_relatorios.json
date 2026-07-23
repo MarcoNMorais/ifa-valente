@@ -1,17 +1,40 @@
 {
   "ok": true,
-  "gerado_em": "2026-07-23 11:26:52",
+  "gerado_em": "2026-07-23 11:27:03",
   "hospital": "Hospital Municipal José Mota Araújo",
   "dashboard": {
-    "itens_cadastrados": 8,
-    "total_almoxarifado": 5470,
+    "itens_cadastrados": 9,
+    "total_almoxarifado": 5630,
     "total_farmacia": 0,
     "total_geral": 0,
-    "abaixo_minimo": 8,
-    "zerados": 8,
+    "abaixo_minimo": 9,
+    "zerados": 9,
     "saidas_registradas": 0
   },
   "itens": [
+    {
+      "id": 9,
+      "produto_id": 282,
+      "minimo": 60,
+      "validade": "",
+      "lote": "",
+      "origem": "",
+      "obs": "",
+      "criado_em": "2026-07-23 11:26:57",
+      "atualizado_em": "2026-07-23 11:26:57",
+      "nome": "ATADURA GESSADA 10 CM",
+      "tipo": "Material",
+      "unidade": "Unidade",
+      "saldos": {
+        "almoxarifado": 160,
+        "farmacia": 0,
+        "salaMedicacoes": 0,
+        "internamento": 0,
+        "salaCirurgica": 0,
+        "baixa": 0,
+        "outro": 0
+      }
+    },
     {
       "id": 8,
       "produto_id": 281,
@@ -199,6 +222,19 @@
   ],
   "movimentacoes": [
     {
+      "id": 9,
+      "item_id": 9,
+      "produto_nome": "ATADURA GESSADA 10 CM",
+      "tipo": "Entrada no Almoxarifado",
+      "origem": "Entrada externa",
+      "destino": "Almoxarifado",
+      "quantidade": 160,
+      "responsavel": "Almoxarifado Teste",
+      "data": "2026-07-23",
+      "obs": "",
+      "criado_em": "2026-07-23 11:26:57"
+    },
+    {
       "id": 8,
       "item_id": 8,
       "produto_nome": "ATADURA GESSADA 15CM",
@@ -305,6 +341,29 @@
   ],
   "saidas_farmacia": [],
   "baixo_minimo": [
+    {
+      "id": 9,
+      "produto_id": 282,
+      "minimo": 60,
+      "validade": "",
+      "lote": "",
+      "origem": "",
+      "obs": "",
+      "criado_em": "2026-07-23 11:26:57",
+      "atualizado_em": "2026-07-23 11:26:57",
+      "nome": "ATADURA GESSADA 10 CM",
+      "tipo": "Material",
+      "unidade": "Unidade",
+      "saldos": {
+        "almoxarifado": 160,
+        "farmacia": 0,
+        "salaMedicacoes": 0,
+        "internamento": 0,
+        "salaCirurgica": 0,
+        "baixa": 0,
+        "outro": 0
+      }
+    },
     {
       "id": 8,
       "produto_id": 281,
@@ -491,6 +550,29 @@
     }
   ],
   "zerados": [
+    {
+      "id": 9,
+      "produto_id": 282,
+      "minimo": 60,
+      "validade": "",
+      "lote": "",
+      "origem": "",
+      "obs": "",
+      "criado_em": "2026-07-23 11:26:57",
+      "atualizado_em": "2026-07-23 11:26:57",
+      "nome": "ATADURA GESSADA 10 CM",
+      "tipo": "Material",
+      "unidade": "Unidade",
+      "saldos": {
+        "almoxarifado": 160,
+        "farmacia": 0,
+        "salaMedicacoes": 0,
+        "internamento": 0,
+        "salaCirurgica": 0,
+        "baixa": 0,
+        "outro": 0
+      }
+    },
     {
       "id": 8,
       "produto_id": 281,
