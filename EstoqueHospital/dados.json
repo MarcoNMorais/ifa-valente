@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "23/07/2026 11:28:13",
+  "atualizado_em": "23/07/2026 11:28:23",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
-    "itens": 9,
-    "total_almoxarifado": 5630,
+    "itens": 10,
+    "total_almoxarifado": 6080,
     "total_farmacia": 0,
-    "total_geral": 5630,
+    "total_geral": 6080,
     "perto_de_terminar": 2,
     "zerados": 0
   },
@@ -72,6 +72,27 @@
       "origem": "",
       "obs": "",
       "atualizado_em": "2026-07-23 11:26:02"
+    },
+    {
+      "id": 10,
+      "produto_id": 283,
+      "nome": "LUVA CIRURGICA ESTÉRIL TAM 7,5",
+      "tipo": "Material",
+      "unidade": "Unidade",
+      "almoxarifado": 450,
+      "farmacia": 0,
+      "sala_medicacoes": 0,
+      "internamento": 0,
+      "sala_cirurgica": 0,
+      "baixa": 0,
+      "outro": 0,
+      "total": 450,
+      "minimo": 100,
+      "validade": "",
+      "lote": "",
+      "origem": "",
+      "obs": "",
+      "atualizado_em": "2026-07-23 11:28:17"
     },
     {
       "id": 5,
@@ -201,6 +222,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 10,
+      "item_id": 10,
+      "produto_nome": "LUVA CIRURGICA ESTÉRIL TAM 7,5",
+      "tipo": "Entrada no Almoxarifado",
+      "origem": "Entrada externa",
+      "destino": "Almoxarifado",
+      "quantidade": 450,
+      "responsavel": "Almoxarifado Teste",
+      "data": "2026-07-23",
+      "obs": "",
+      "criado_em": "2026-07-23 11:28:17",
+      "item": "LUVA CIRURGICA ESTÉRIL TAM 7,5",
+      "usuario": "Almoxarifado Teste"
+    },
     {
       "id": 9,
       "item_id": 9,
