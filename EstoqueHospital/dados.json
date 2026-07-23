@@ -1,15 +1,36 @@
 {
-  "atualizado_em": "23/07/2026 11:22:33",
+  "atualizado_em": "23/07/2026 11:22:44",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
-    "itens": 1,
-    "total_almoxarifado": 360,
+    "itens": 2,
+    "total_almoxarifado": 390,
     "total_farmacia": 0,
-    "total_geral": 360,
-    "perto_de_terminar": 0,
+    "total_geral": 390,
+    "perto_de_terminar": 1,
     "zerados": 0
   },
   "itens": [
+    {
+      "id": 2,
+      "produto_id": 278,
+      "nome": "SORO GLICOFISIOLÓGICO",
+      "tipo": "Insumo",
+      "unidade": "Unidade",
+      "almoxarifado": 30,
+      "farmacia": 0,
+      "sala_medicacoes": 0,
+      "internamento": 0,
+      "sala_cirurgica": 0,
+      "baixa": 0,
+      "outro": 0,
+      "total": 30,
+      "minimo": 30,
+      "validade": "",
+      "lote": "",
+      "origem": "",
+      "obs": "",
+      "atualizado_em": "2026-07-23 11:22:43"
+    },
     {
       "id": 1,
       "produto_id": 277,
@@ -33,6 +54,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 2,
+      "item_id": 2,
+      "produto_nome": "SORO GLICOFISIOLÓGICO",
+      "tipo": "Entrada no Almoxarifado",
+      "origem": "Entrada externa",
+      "destino": "Almoxarifado",
+      "quantidade": 30,
+      "responsavel": "Almoxarifado Teste",
+      "data": "2026-07-23",
+      "obs": "",
+      "criado_em": "2026-07-23 11:22:43",
+      "item": "SORO GLICOFISIOLÓGICO",
+      "usuario": "Almoxarifado Teste"
+    },
     {
       "id": 1,
       "item_id": 1,
