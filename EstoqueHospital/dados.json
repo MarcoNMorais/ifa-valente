@@ -1,15 +1,36 @@
 {
-  "atualizado_em": "23/07/2026 11:25:55",
+  "atualizado_em": "23/07/2026 11:26:06",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
-    "itens": 6,
-    "total_almoxarifado": 5210,
+    "itens": 7,
+    "total_almoxarifado": 5310,
     "total_farmacia": 0,
-    "total_geral": 5210,
+    "total_geral": 5310,
     "perto_de_terminar": 2,
     "zerados": 0
   },
   "itens": [
+    {
+      "id": 7,
+      "produto_id": 280,
+      "nome": "ATADURA GESSADA 20 CM",
+      "tipo": "Material",
+      "unidade": "Unidade",
+      "almoxarifado": 100,
+      "farmacia": 0,
+      "sala_medicacoes": 0,
+      "internamento": 0,
+      "sala_cirurgica": 0,
+      "baixa": 0,
+      "outro": 0,
+      "total": 100,
+      "minimo": 20,
+      "validade": "",
+      "lote": "",
+      "origem": "",
+      "obs": "",
+      "atualizado_em": "2026-07-23 11:26:02"
+    },
     {
       "id": 5,
       "produto_id": 36,
@@ -138,6 +159,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 7,
+      "item_id": 7,
+      "produto_nome": "ATADURA GESSADA 20 CM",
+      "tipo": "Entrada no Almoxarifado",
+      "origem": "Entrada externa",
+      "destino": "Almoxarifado",
+      "quantidade": 100,
+      "responsavel": "Almoxarifado Teste",
+      "data": "2026-07-23",
+      "obs": "",
+      "criado_em": "2026-07-23 11:26:02",
+      "item": "ATADURA GESSADA 20 CM",
+      "usuario": "Almoxarifado Teste"
+    },
     {
       "id": 6,
       "item_id": 6,
