@@ -1,21 +1,107 @@
 {
   "ok": true,
-  "gerado_em": "2026-07-23 11:21:55",
+  "gerado_em": "2026-07-23 11:22:05",
   "hospital": "Hospital Municipal José Mota Araújo",
   "dashboard": {
-    "itens_cadastrados": 0,
-    "total_almoxarifado": 0,
+    "itens_cadastrados": 1,
+    "total_almoxarifado": 360,
     "total_farmacia": 0,
     "total_geral": 0,
-    "abaixo_minimo": 0,
-    "zerados": 0,
+    "abaixo_minimo": 1,
+    "zerados": 1,
     "saidas_registradas": 0
   },
-  "itens": [],
-  "movimentacoes": [],
+  "itens": [
+    {
+      "id": 1,
+      "produto_id": 277,
+      "minimo": 50,
+      "validade": "",
+      "lote": "",
+      "origem": "",
+      "obs": "",
+      "criado_em": "2026-07-23 11:21:58",
+      "atualizado_em": "2026-07-23 11:21:58",
+      "nome": "SORO RINGER COM LACTATO 500ML",
+      "tipo": "Insumo",
+      "unidade": "Unidade",
+      "saldos": {
+        "almoxarifado": 360,
+        "farmacia": 0,
+        "salaMedicacoes": 0,
+        "internamento": 0,
+        "salaCirurgica": 0,
+        "baixa": 0,
+        "outro": 0
+      }
+    }
+  ],
+  "movimentacoes": [
+    {
+      "id": 1,
+      "item_id": 1,
+      "produto_nome": "SORO RINGER COM LACTATO 500ML",
+      "tipo": "Entrada no Almoxarifado",
+      "origem": "Entrada externa",
+      "destino": "Almoxarifado",
+      "quantidade": 360,
+      "responsavel": "Almoxarifado Teste",
+      "data": "2026-07-23",
+      "obs": "",
+      "criado_em": "2026-07-23 11:21:58"
+    }
+  ],
   "saidas_farmacia": [],
-  "baixo_minimo": [],
-  "zerados": [],
+  "baixo_minimo": [
+    {
+      "id": 1,
+      "produto_id": 277,
+      "minimo": 50,
+      "validade": "",
+      "lote": "",
+      "origem": "",
+      "obs": "",
+      "criado_em": "2026-07-23 11:21:58",
+      "atualizado_em": "2026-07-23 11:21:58",
+      "nome": "SORO RINGER COM LACTATO 500ML",
+      "tipo": "Insumo",
+      "unidade": "Unidade",
+      "saldos": {
+        "almoxarifado": 360,
+        "farmacia": 0,
+        "salaMedicacoes": 0,
+        "internamento": 0,
+        "salaCirurgica": 0,
+        "baixa": 0,
+        "outro": 0
+      }
+    }
+  ],
+  "zerados": [
+    {
+      "id": 1,
+      "produto_id": 277,
+      "minimo": 50,
+      "validade": "",
+      "lote": "",
+      "origem": "",
+      "obs": "",
+      "criado_em": "2026-07-23 11:21:58",
+      "atualizado_em": "2026-07-23 11:21:58",
+      "nome": "SORO RINGER COM LACTATO 500ML",
+      "tipo": "Insumo",
+      "unidade": "Unidade",
+      "saldos": {
+        "almoxarifado": 360,
+        "farmacia": 0,
+        "salaMedicacoes": 0,
+        "internamento": 0,
+        "salaCirurgica": 0,
+        "baixa": 0,
+        "outro": 0
+      }
+    }
+  ],
   "estatisticas": {
     "por_destino": [],
     "por_produto_destino": []
