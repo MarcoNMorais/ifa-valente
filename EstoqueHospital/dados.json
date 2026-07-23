@@ -1,15 +1,36 @@
 {
-  "atualizado_em": "23/07/2026 11:24:24",
+  "atualizado_em": "23/07/2026 11:24:51",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
-    "itens": 4,
-    "total_almoxarifado": 1710,
+    "itens": 5,
+    "total_almoxarifado": 4210,
     "total_farmacia": 0,
-    "total_geral": 1710,
+    "total_geral": 4210,
     "perto_de_terminar": 1,
     "zerados": 0
   },
   "itens": [
+    {
+      "id": 5,
+      "produto_id": 36,
+      "nome": "Seringa 3mL",
+      "tipo": "Material",
+      "unidade": "Unidade",
+      "almoxarifado": 2500,
+      "farmacia": 0,
+      "sala_medicacoes": 0,
+      "internamento": 0,
+      "sala_cirurgica": 0,
+      "baixa": 0,
+      "outro": 0,
+      "total": 2500,
+      "minimo": 500,
+      "validade": "",
+      "lote": "",
+      "origem": "",
+      "obs": "",
+      "atualizado_em": "2026-07-23 11:24:47"
+    },
     {
       "id": 4,
       "produto_id": 279,
@@ -96,6 +117,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 5,
+      "item_id": 5,
+      "produto_nome": "Seringa 3mL",
+      "tipo": "Entrada no Almoxarifado",
+      "origem": "Entrada externa",
+      "destino": "Almoxarifado",
+      "quantidade": 2500,
+      "responsavel": "Almoxarifado Teste",
+      "data": "2026-07-23",
+      "obs": "",
+      "criado_em": "2026-07-23 11:24:47",
+      "item": "Seringa 3mL",
+      "usuario": "Almoxarifado Teste"
+    },
     {
       "id": 4,
       "item_id": 4,
