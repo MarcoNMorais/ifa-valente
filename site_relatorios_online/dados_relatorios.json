@@ -1,17 +1,40 @@
 {
   "ok": true,
-  "gerado_em": "2026-07-23 11:24:08",
+  "gerado_em": "2026-07-23 11:24:20",
   "hospital": "Hospital Municipal José Mota Araújo",
   "dashboard": {
-    "itens_cadastrados": 3,
-    "total_almoxarifado": 570,
+    "itens_cadastrados": 4,
+    "total_almoxarifado": 1710,
     "total_farmacia": 0,
     "total_geral": 0,
-    "abaixo_minimo": 3,
-    "zerados": 3,
+    "abaixo_minimo": 4,
+    "zerados": 4,
     "saidas_registradas": 0
   },
   "itens": [
+    {
+      "id": 4,
+      "produto_id": 279,
+      "minimo": 300,
+      "validade": "",
+      "lote": "",
+      "origem": "",
+      "obs": "",
+      "criado_em": "2026-07-23 11:24:18",
+      "atualizado_em": "2026-07-23 11:24:18",
+      "nome": "SORO FISIOLÓGICO 0,9% 100ML",
+      "tipo": "Insumo",
+      "unidade": "Frasco",
+      "saldos": {
+        "almoxarifado": 1140,
+        "farmacia": 0,
+        "salaMedicacoes": 0,
+        "internamento": 0,
+        "salaCirurgica": 0,
+        "baixa": 0,
+        "outro": 0
+      }
+    },
     {
       "id": 2,
       "produto_id": 278,
@@ -84,6 +107,19 @@
   ],
   "movimentacoes": [
     {
+      "id": 4,
+      "item_id": 4,
+      "produto_nome": "SORO FISIOLÓGICO 0,9% 100ML",
+      "tipo": "Entrada no Almoxarifado",
+      "origem": "Entrada externa",
+      "destino": "Almoxarifado",
+      "quantidade": 1140,
+      "responsavel": "Almoxarifado Teste",
+      "data": "2026-07-23",
+      "obs": "",
+      "criado_em": "2026-07-23 11:24:18"
+    },
+    {
       "id": 3,
       "item_id": 3,
       "produto_nome": "Soro glicosado 5% 500mL",
@@ -125,6 +161,29 @@
   ],
   "saidas_farmacia": [],
   "baixo_minimo": [
+    {
+      "id": 4,
+      "produto_id": 279,
+      "minimo": 300,
+      "validade": "",
+      "lote": "",
+      "origem": "",
+      "obs": "",
+      "criado_em": "2026-07-23 11:24:18",
+      "atualizado_em": "2026-07-23 11:24:18",
+      "nome": "SORO FISIOLÓGICO 0,9% 100ML",
+      "tipo": "Insumo",
+      "unidade": "Frasco",
+      "saldos": {
+        "almoxarifado": 1140,
+        "farmacia": 0,
+        "salaMedicacoes": 0,
+        "internamento": 0,
+        "salaCirurgica": 0,
+        "baixa": 0,
+        "outro": 0
+      }
+    },
     {
       "id": 2,
       "produto_id": 278,
@@ -196,6 +255,29 @@
     }
   ],
   "zerados": [
+    {
+      "id": 4,
+      "produto_id": 279,
+      "minimo": 300,
+      "validade": "",
+      "lote": "",
+      "origem": "",
+      "obs": "",
+      "criado_em": "2026-07-23 11:24:18",
+      "atualizado_em": "2026-07-23 11:24:18",
+      "nome": "SORO FISIOLÓGICO 0,9% 100ML",
+      "tipo": "Insumo",
+      "unidade": "Frasco",
+      "saldos": {
+        "almoxarifado": 1140,
+        "farmacia": 0,
+        "salaMedicacoes": 0,
+        "internamento": 0,
+        "salaCirurgica": 0,
+        "baixa": 0,
+        "outro": 0
+      }
+    },
     {
       "id": 2,
       "produto_id": 278,
