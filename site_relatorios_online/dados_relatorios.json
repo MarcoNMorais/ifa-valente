@@ -1,14 +1,14 @@
 {
   "ok": true,
-  "gerado_em": "2026-07-23 11:28:08",
+  "gerado_em": "2026-07-23 11:28:19",
   "hospital": "Hospital Municipal José Mota Araújo",
   "dashboard": {
-    "itens_cadastrados": 9,
-    "total_almoxarifado": 5630,
+    "itens_cadastrados": 10,
+    "total_almoxarifado": 6080,
     "total_farmacia": 0,
     "total_geral": 0,
-    "abaixo_minimo": 9,
-    "zerados": 9,
+    "abaixo_minimo": 10,
+    "zerados": 10,
     "saidas_registradas": 0
   },
   "itens": [
@@ -73,6 +73,29 @@
       "unidade": "Unidade",
       "saldos": {
         "almoxarifado": 100,
+        "farmacia": 0,
+        "salaMedicacoes": 0,
+        "internamento": 0,
+        "salaCirurgica": 0,
+        "baixa": 0,
+        "outro": 0
+      }
+    },
+    {
+      "id": 10,
+      "produto_id": 283,
+      "minimo": 100,
+      "validade": "",
+      "lote": "",
+      "origem": "",
+      "obs": "",
+      "criado_em": "2026-07-23 11:28:17",
+      "atualizado_em": "2026-07-23 11:28:17",
+      "nome": "LUVA CIRURGICA ESTÉRIL TAM 7,5",
+      "tipo": "Material",
+      "unidade": "Unidade",
+      "saldos": {
+        "almoxarifado": 450,
         "farmacia": 0,
         "salaMedicacoes": 0,
         "internamento": 0,
@@ -221,6 +244,19 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 10,
+      "item_id": 10,
+      "produto_nome": "LUVA CIRURGICA ESTÉRIL TAM 7,5",
+      "tipo": "Entrada no Almoxarifado",
+      "origem": "Entrada externa",
+      "destino": "Almoxarifado",
+      "quantidade": 450,
+      "responsavel": "Almoxarifado Teste",
+      "data": "2026-07-23",
+      "obs": "",
+      "criado_em": "2026-07-23 11:28:17"
+    },
     {
       "id": 9,
       "item_id": 9,
@@ -402,6 +438,29 @@
       "unidade": "Unidade",
       "saldos": {
         "almoxarifado": 100,
+        "farmacia": 0,
+        "salaMedicacoes": 0,
+        "internamento": 0,
+        "salaCirurgica": 0,
+        "baixa": 0,
+        "outro": 0
+      }
+    },
+    {
+      "id": 10,
+      "produto_id": 283,
+      "minimo": 100,
+      "validade": "",
+      "lote": "",
+      "origem": "",
+      "obs": "",
+      "criado_em": "2026-07-23 11:28:17",
+      "atualizado_em": "2026-07-23 11:28:17",
+      "nome": "LUVA CIRURGICA ESTÉRIL TAM 7,5",
+      "tipo": "Material",
+      "unidade": "Unidade",
+      "saldos": {
+        "almoxarifado": 450,
         "farmacia": 0,
         "salaMedicacoes": 0,
         "internamento": 0,
@@ -611,6 +670,29 @@
       "unidade": "Unidade",
       "saldos": {
         "almoxarifado": 100,
+        "farmacia": 0,
+        "salaMedicacoes": 0,
+        "internamento": 0,
+        "salaCirurgica": 0,
+        "baixa": 0,
+        "outro": 0
+      }
+    },
+    {
+      "id": 10,
+      "produto_id": 283,
+      "minimo": 100,
+      "validade": "",
+      "lote": "",
+      "origem": "",
+      "obs": "",
+      "criado_em": "2026-07-23 11:28:17",
+      "atualizado_em": "2026-07-23 11:28:17",
+      "nome": "LUVA CIRURGICA ESTÉRIL TAM 7,5",
+      "tipo": "Material",
+      "unidade": "Unidade",
+      "saldos": {
+        "almoxarifado": 450,
         "farmacia": 0,
         "salaMedicacoes": 0,
         "internamento": 0,
