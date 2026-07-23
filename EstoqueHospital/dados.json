@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "23/07/2026 11:22:55",
+  "atualizado_em": "23/07/2026 11:23:26",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
-    "itens": 2,
-    "total_almoxarifado": 390,
+    "itens": 3,
+    "total_almoxarifado": 570,
     "total_farmacia": 0,
-    "total_geral": 390,
+    "total_geral": 570,
     "perto_de_terminar": 1,
     "zerados": 0
   },
@@ -32,6 +32,27 @@
       "atualizado_em": "2026-07-23 11:22:43"
     },
     {
+      "id": 3,
+      "produto_id": 32,
+      "nome": "Soro glicosado 5% 500mL",
+      "tipo": "Insumo",
+      "unidade": "Frasco",
+      "almoxarifado": 180,
+      "farmacia": 0,
+      "sala_medicacoes": 0,
+      "internamento": 0,
+      "sala_cirurgica": 0,
+      "baixa": 0,
+      "outro": 0,
+      "total": 180,
+      "minimo": 30,
+      "validade": "",
+      "lote": "",
+      "origem": "",
+      "obs": "",
+      "atualizado_em": "2026-07-23 11:23:22"
+    },
+    {
       "id": 1,
       "produto_id": 277,
       "nome": "SORO RINGER COM LACTATO 500ML",
@@ -54,6 +75,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 3,
+      "item_id": 3,
+      "produto_nome": "Soro glicosado 5% 500mL",
+      "tipo": "Entrada no Almoxarifado",
+      "origem": "Entrada externa",
+      "destino": "Almoxarifado",
+      "quantidade": 180,
+      "responsavel": "Almoxarifado Teste",
+      "data": "2026-07-23",
+      "obs": "",
+      "criado_em": "2026-07-23 11:23:22",
+      "item": "Soro glicosado 5% 500mL",
+      "usuario": "Almoxarifado Teste"
+    },
     {
       "id": 2,
       "item_id": 2,
