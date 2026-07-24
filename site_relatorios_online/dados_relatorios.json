@@ -1,17 +1,40 @@
 {
   "ok": true,
-  "gerado_em": "2026-07-24 10:45:51",
+  "gerado_em": "2026-07-24 10:46:02",
   "hospital": "Hospital Municipal José Mota Araújo",
   "dashboard": {
-    "itens_cadastrados": 27,
-    "total_almoxarifado": 12058,
+    "itens_cadastrados": 28,
+    "total_almoxarifado": 12068,
     "total_farmacia": 0,
     "total_geral": 0,
     "abaixo_minimo": 13,
-    "zerados": 27,
+    "zerados": 28,
     "saidas_registradas": 0
   },
   "itens": [
+    {
+      "id": 28,
+      "produto_id": 300,
+      "minimo": 0,
+      "validade": "",
+      "lote": "",
+      "origem": "",
+      "obs": "",
+      "criado_em": "2026-07-24 10:45:54",
+      "atualizado_em": "2026-07-24 10:45:54",
+      "nome": "AGULHA 13X45",
+      "tipo": "Material",
+      "unidade": "Caixa",
+      "saldos": {
+        "almoxarifado": 10,
+        "farmacia": 0,
+        "salaMedicacoes": 0,
+        "internamento": 0,
+        "salaCirurgica": 0,
+        "baixa": 0,
+        "outro": 0
+      }
+    },
     {
       "id": 27,
       "produto_id": 299,
@@ -635,6 +658,19 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 28,
+      "item_id": 28,
+      "produto_nome": "AGULHA 13X45",
+      "tipo": "Entrada no Almoxarifado",
+      "origem": "Entrada externa",
+      "destino": "Almoxarifado",
+      "quantidade": 10,
+      "responsavel": "Almoxarifado Teste",
+      "data": "2026-07-24",
+      "obs": "",
+      "criado_em": "2026-07-24 10:45:54"
+    },
     {
       "id": 27,
       "item_id": 27,
@@ -1290,6 +1326,29 @@
     }
   ],
   "zerados": [
+    {
+      "id": 28,
+      "produto_id": 300,
+      "minimo": 0,
+      "validade": "",
+      "lote": "",
+      "origem": "",
+      "obs": "",
+      "criado_em": "2026-07-24 10:45:54",
+      "atualizado_em": "2026-07-24 10:45:54",
+      "nome": "AGULHA 13X45",
+      "tipo": "Material",
+      "unidade": "Caixa",
+      "saldos": {
+        "almoxarifado": 10,
+        "farmacia": 0,
+        "salaMedicacoes": 0,
+        "internamento": 0,
+        "salaCirurgica": 0,
+        "baixa": 0,
+        "outro": 0
+      }
+    },
     {
       "id": 27,
       "produto_id": 299,
