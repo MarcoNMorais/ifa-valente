@@ -1,14 +1,14 @@
 {
   "ok": true,
-  "gerado_em": "2026-07-24 10:40:25",
+  "gerado_em": "2026-07-24 10:40:36",
   "hospital": "Hospital Municipal José Mota Araújo",
   "dashboard": {
-    "itens_cadastrados": 16,
-    "total_almoxarifado": 7631,
+    "itens_cadastrados": 17,
+    "total_almoxarifado": 8063,
     "total_farmacia": 0,
     "total_geral": 0,
     "abaixo_minimo": 13,
-    "zerados": 16,
+    "zerados": 17,
     "saidas_registradas": 0
   },
   "itens": [
@@ -142,6 +142,29 @@
       "unidade": "Unidade",
       "saldos": {
         "almoxarifado": 1000,
+        "farmacia": 0,
+        "salaMedicacoes": 0,
+        "internamento": 0,
+        "salaCirurgica": 0,
+        "baixa": 0,
+        "outro": 0
+      }
+    },
+    {
+      "id": 17,
+      "produto_id": 289,
+      "minimo": 0,
+      "validade": "",
+      "lote": "",
+      "origem": "",
+      "obs": "",
+      "criado_em": "2026-07-24 10:40:29",
+      "atualizado_em": "2026-07-24 10:40:29",
+      "nome": "FIO NYLON 4.0",
+      "tipo": "Material",
+      "unidade": "Unidade",
+      "saldos": {
+        "almoxarifado": 432,
         "farmacia": 0,
         "salaMedicacoes": 0,
         "internamento": 0,
@@ -382,6 +405,19 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 17,
+      "item_id": 17,
+      "produto_nome": "FIO NYLON 4.0",
+      "tipo": "Entrada no Almoxarifado",
+      "origem": "Entrada externa",
+      "destino": "Almoxarifado",
+      "quantidade": 432,
+      "responsavel": "Almoxarifado Teste",
+      "data": "2026-07-24",
+      "obs": "",
+      "criado_em": "2026-07-24 10:40:29"
+    },
     {
       "id": 16,
       "item_id": 16,
@@ -1024,6 +1060,29 @@
       "unidade": "Unidade",
       "saldos": {
         "almoxarifado": 1000,
+        "farmacia": 0,
+        "salaMedicacoes": 0,
+        "internamento": 0,
+        "salaCirurgica": 0,
+        "baixa": 0,
+        "outro": 0
+      }
+    },
+    {
+      "id": 17,
+      "produto_id": 289,
+      "minimo": 0,
+      "validade": "",
+      "lote": "",
+      "origem": "",
+      "obs": "",
+      "criado_em": "2026-07-24 10:40:29",
+      "atualizado_em": "2026-07-24 10:40:29",
+      "nome": "FIO NYLON 4.0",
+      "tipo": "Material",
+      "unidade": "Unidade",
+      "saldos": {
+        "almoxarifado": 432,
         "farmacia": 0,
         "salaMedicacoes": 0,
         "internamento": 0,
