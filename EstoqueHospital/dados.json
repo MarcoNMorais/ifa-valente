@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/07/2026 10:43:39",
+  "atualizado_em": "24/07/2026 10:43:49",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
-    "itens": 23,
-    "total_almoxarifado": 10579,
+    "itens": 24,
+    "total_almoxarifado": 11679,
     "total_farmacia": 0,
-    "total_geral": 10579,
+    "total_geral": 11679,
     "perto_de_terminar": 2,
     "zerados": 0
   },
@@ -240,6 +240,27 @@
       "origem": "",
       "obs": "",
       "atualizado_em": "2026-07-24 10:41:34"
+    },
+    {
+      "id": 24,
+      "produto_id": 296,
+      "nome": "GELCO 20",
+      "tipo": "Material",
+      "unidade": "Unidade",
+      "almoxarifado": 1100,
+      "farmacia": 0,
+      "sala_medicacoes": 0,
+      "internamento": 0,
+      "sala_cirurgica": 0,
+      "baixa": 0,
+      "outro": 0,
+      "total": 1100,
+      "minimo": 0,
+      "validade": "",
+      "lote": "",
+      "origem": "",
+      "obs": "",
+      "atualizado_em": "2026-07-24 10:43:47"
     },
     {
       "id": 23,
@@ -495,6 +516,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 24,
+      "item_id": 24,
+      "produto_nome": "GELCO 20",
+      "tipo": "Entrada no Almoxarifado",
+      "origem": "Entrada externa",
+      "destino": "Almoxarifado",
+      "quantidade": 1100,
+      "responsavel": "Almoxarifado Teste",
+      "data": "2026-07-24",
+      "obs": "",
+      "criado_em": "2026-07-24 10:43:47",
+      "item": "GELCO 20",
+      "usuario": "Almoxarifado Teste"
+    },
     {
       "id": 23,
       "item_id": 23,
