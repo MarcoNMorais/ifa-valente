@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/07/2026 10:43:28",
+  "atualizado_em": "24/07/2026 10:43:39",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
-    "itens": 22,
-    "total_almoxarifado": 9279,
+    "itens": 23,
+    "total_almoxarifado": 10579,
     "total_farmacia": 0,
-    "total_geral": 9279,
+    "total_geral": 10579,
     "perto_de_terminar": 2,
     "zerados": 0
   },
@@ -242,6 +242,27 @@
       "atualizado_em": "2026-07-24 10:41:34"
     },
     {
+      "id": 23,
+      "produto_id": 295,
+      "nome": "GELCO 22",
+      "tipo": "Material",
+      "unidade": "Unidade",
+      "almoxarifado": 1300,
+      "farmacia": 0,
+      "sala_medicacoes": 0,
+      "internamento": 0,
+      "sala_cirurgica": 0,
+      "baixa": 0,
+      "outro": 0,
+      "total": 1300,
+      "minimo": 0,
+      "validade": "",
+      "lote": "",
+      "origem": "",
+      "obs": "",
+      "atualizado_em": "2026-07-24 10:43:28"
+    },
+    {
       "id": 22,
       "produto_id": 294,
       "nome": "GELCO N 24",
@@ -474,6 +495,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 23,
+      "item_id": 23,
+      "produto_nome": "GELCO 22",
+      "tipo": "Entrada no Almoxarifado",
+      "origem": "Entrada externa",
+      "destino": "Almoxarifado",
+      "quantidade": 1300,
+      "responsavel": "Almoxarifado Teste",
+      "data": "2026-07-24",
+      "obs": "",
+      "criado_em": "2026-07-24 10:43:28",
+      "item": "GELCO 22",
+      "usuario": "Almoxarifado Teste"
+    },
     {
       "id": 22,
       "item_id": 22,
