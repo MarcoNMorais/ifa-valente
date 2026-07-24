@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/07/2026 10:46:06",
+  "atualizado_em": "24/07/2026 10:46:19",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
-    "itens": 28,
-    "total_almoxarifado": 12068,
+    "itens": 29,
+    "total_almoxarifado": 12076,
     "total_farmacia": 0,
-    "total_geral": 12068,
+    "total_geral": 12076,
     "perto_de_terminar": 2,
     "zerados": 0
   },
@@ -30,6 +30,27 @@
       "origem": "",
       "obs": "",
       "atualizado_em": "2026-07-24 10:45:54"
+    },
+    {
+      "id": 29,
+      "produto_id": 40,
+      "nome": "Agulha 25x7",
+      "tipo": "Material",
+      "unidade": "Unidade",
+      "almoxarifado": 8,
+      "farmacia": 0,
+      "sala_medicacoes": 0,
+      "internamento": 0,
+      "sala_cirurgica": 0,
+      "baixa": 0,
+      "outro": 0,
+      "total": 8,
+      "minimo": 0,
+      "validade": "",
+      "lote": "",
+      "origem": "",
+      "obs": "",
+      "atualizado_em": "2026-07-24 10:46:15"
     },
     {
       "id": 27,
@@ -600,6 +621,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 29,
+      "item_id": 29,
+      "produto_nome": "Agulha 25x7",
+      "tipo": "Entrada no Almoxarifado",
+      "origem": "Entrada externa",
+      "destino": "Almoxarifado",
+      "quantidade": 8,
+      "responsavel": "Almoxarifado Teste",
+      "data": "2026-07-24",
+      "obs": "",
+      "criado_em": "2026-07-24 10:46:15",
+      "item": "Agulha 25x7",
+      "usuario": "Almoxarifado Teste"
+    },
     {
       "id": 28,
       "item_id": 28,
