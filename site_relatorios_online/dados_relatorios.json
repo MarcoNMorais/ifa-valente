@@ -1,14 +1,14 @@
 {
   "ok": true,
-  "gerado_em": "2026-07-24 10:37:36",
+  "gerado_em": "2026-07-24 10:38:08",
   "hospital": "Hospital Municipal José Mota Araújo",
   "dashboard": {
-    "itens_cadastrados": 12,
-    "total_almoxarifado": 6400,
+    "itens_cadastrados": 13,
+    "total_almoxarifado": 7400,
     "total_farmacia": 0,
     "total_geral": 0,
-    "abaixo_minimo": 12,
-    "zerados": 12,
+    "abaixo_minimo": 13,
+    "zerados": 13,
     "saidas_registradas": 0
   },
   "itens": [
@@ -96,6 +96,29 @@
       "unidade": "Unidade",
       "saldos": {
         "almoxarifado": 120,
+        "farmacia": 0,
+        "salaMedicacoes": 0,
+        "internamento": 0,
+        "salaCirurgica": 0,
+        "baixa": 0,
+        "outro": 0
+      }
+    },
+    {
+      "id": 13,
+      "produto_id": 34,
+      "minimo": 200,
+      "validade": "",
+      "lote": "",
+      "origem": "",
+      "obs": "",
+      "criado_em": "2026-07-24 10:38:08",
+      "atualizado_em": "2026-07-24 10:38:08",
+      "nome": "Equipo macrogotas",
+      "tipo": "Material",
+      "unidade": "Unidade",
+      "saldos": {
+        "almoxarifado": 1000,
         "farmacia": 0,
         "salaMedicacoes": 0,
         "internamento": 0,
@@ -290,6 +313,19 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 13,
+      "item_id": 13,
+      "produto_nome": "Equipo macrogotas",
+      "tipo": "Entrada no Almoxarifado",
+      "origem": "Entrada externa",
+      "destino": "Almoxarifado",
+      "quantidade": 1000,
+      "responsavel": "Almoxarifado Teste",
+      "data": "2026-07-24",
+      "obs": "",
+      "criado_em": "2026-07-24 10:38:08"
+    },
     {
       "id": 12,
       "item_id": 12,
@@ -533,6 +569,29 @@
       "unidade": "Unidade",
       "saldos": {
         "almoxarifado": 120,
+        "farmacia": 0,
+        "salaMedicacoes": 0,
+        "internamento": 0,
+        "salaCirurgica": 0,
+        "baixa": 0,
+        "outro": 0
+      }
+    },
+    {
+      "id": 13,
+      "produto_id": 34,
+      "minimo": 200,
+      "validade": "",
+      "lote": "",
+      "origem": "",
+      "obs": "",
+      "criado_em": "2026-07-24 10:38:08",
+      "atualizado_em": "2026-07-24 10:38:08",
+      "nome": "Equipo macrogotas",
+      "tipo": "Material",
+      "unidade": "Unidade",
+      "saldos": {
+        "almoxarifado": 1000,
         "farmacia": 0,
         "salaMedicacoes": 0,
         "internamento": 0,
@@ -811,6 +870,29 @@
       "unidade": "Unidade",
       "saldos": {
         "almoxarifado": 120,
+        "farmacia": 0,
+        "salaMedicacoes": 0,
+        "internamento": 0,
+        "salaCirurgica": 0,
+        "baixa": 0,
+        "outro": 0
+      }
+    },
+    {
+      "id": 13,
+      "produto_id": 34,
+      "minimo": 200,
+      "validade": "",
+      "lote": "",
+      "origem": "",
+      "obs": "",
+      "criado_em": "2026-07-24 10:38:08",
+      "atualizado_em": "2026-07-24 10:38:08",
+      "nome": "Equipo macrogotas",
+      "tipo": "Material",
+      "unidade": "Unidade",
+      "saldos": {
+        "almoxarifado": 1000,
         "farmacia": 0,
         "salaMedicacoes": 0,
         "internamento": 0,
