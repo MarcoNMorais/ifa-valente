@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/07/2026 10:42:10",
+  "atualizado_em": "24/07/2026 10:42:22",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
-    "itens": 19,
-    "total_almoxarifado": 8135,
+    "itens": 20,
+    "total_almoxarifado": 8231,
     "total_farmacia": 0,
-    "total_geral": 8135,
+    "total_geral": 8231,
     "perto_de_terminar": 2,
     "zerados": 0
   },
@@ -135,6 +135,27 @@
       "origem": "",
       "obs": "",
       "atualizado_em": "2026-07-24 10:38:54"
+    },
+    {
+      "id": 20,
+      "produto_id": 292,
+      "nome": "FIO NYLON 1.0",
+      "tipo": "Material",
+      "unidade": "Unidade",
+      "almoxarifado": 96,
+      "farmacia": 0,
+      "sala_medicacoes": 0,
+      "internamento": 0,
+      "sala_cirurgica": 0,
+      "baixa": 0,
+      "outro": 0,
+      "total": 96,
+      "minimo": 0,
+      "validade": "",
+      "lote": "",
+      "origem": "",
+      "obs": "",
+      "atualizado_em": "2026-07-24 10:42:21"
     },
     {
       "id": 19,
@@ -411,6 +432,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 20,
+      "item_id": 20,
+      "produto_nome": "FIO NYLON 1.0",
+      "tipo": "Entrada no Almoxarifado",
+      "origem": "Entrada externa",
+      "destino": "Almoxarifado",
+      "quantidade": 96,
+      "responsavel": "Almoxarifado Teste",
+      "data": "2026-07-24",
+      "obs": "",
+      "criado_em": "2026-07-24 10:42:21",
+      "item": "FIO NYLON 1.0",
+      "usuario": "Almoxarifado Teste"
+    },
     {
       "id": 19,
       "item_id": 19,
