@@ -1,15 +1,36 @@
 {
-  "atualizado_em": "24/07/2026 10:45:12",
+  "atualizado_em": "24/07/2026 10:45:24",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
-    "itens": 25,
-    "total_almoxarifado": 11979,
+    "itens": 26,
+    "total_almoxarifado": 12034,
     "total_farmacia": 0,
-    "total_geral": 11979,
+    "total_geral": 12034,
     "perto_de_terminar": 2,
     "zerados": 0
   },
   "itens": [
+    {
+      "id": 26,
+      "produto_id": 298,
+      "nome": "AGULHA 40X12",
+      "tipo": "Material",
+      "unidade": "Caixa",
+      "almoxarifado": 55,
+      "farmacia": 0,
+      "sala_medicacoes": 0,
+      "internamento": 0,
+      "sala_cirurgica": 0,
+      "baixa": 0,
+      "outro": 0,
+      "total": 55,
+      "minimo": 0,
+      "validade": "",
+      "lote": "",
+      "origem": "",
+      "obs": "",
+      "atualizado_em": "2026-07-24 10:45:13"
+    },
     {
       "id": 9,
       "produto_id": 282,
@@ -537,6 +558,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 26,
+      "item_id": 26,
+      "produto_nome": "AGULHA 40X12",
+      "tipo": "Entrada no Almoxarifado",
+      "origem": "Entrada externa",
+      "destino": "Almoxarifado",
+      "quantidade": 55,
+      "responsavel": "Almoxarifado Teste",
+      "data": "2026-07-24",
+      "obs": "",
+      "criado_em": "2026-07-24 10:45:13",
+      "item": "AGULHA 40X12",
+      "usuario": "Almoxarifado Teste"
+    },
     {
       "id": 25,
       "item_id": 25,
