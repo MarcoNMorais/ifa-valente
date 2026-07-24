@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/07/2026 10:39:14",
+  "atualizado_em": "24/07/2026 10:39:27",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
-    "itens": 15,
-    "total_almoxarifado": 7451,
+    "itens": 16,
+    "total_almoxarifado": 7631,
     "total_farmacia": 0,
-    "total_geral": 7451,
+    "total_geral": 7631,
     "perto_de_terminar": 2,
     "zerados": 0
   },
@@ -200,6 +200,27 @@
       "atualizado_em": "2026-07-23 11:28:42"
     },
     {
+      "id": 16,
+      "produto_id": 288,
+      "nome": "MASCARA N95",
+      "tipo": "Material",
+      "unidade": "Unidade",
+      "almoxarifado": 180,
+      "farmacia": 0,
+      "sala_medicacoes": 0,
+      "internamento": 0,
+      "sala_cirurgica": 0,
+      "baixa": 0,
+      "outro": 0,
+      "total": 180,
+      "minimo": 0,
+      "validade": "",
+      "lote": "",
+      "origem": "",
+      "obs": "",
+      "atualizado_em": "2026-07-24 10:39:16"
+    },
+    {
       "id": 5,
       "produto_id": 36,
       "nome": "Seringa 3mL",
@@ -327,6 +348,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 16,
+      "item_id": 16,
+      "produto_nome": "MASCARA N95",
+      "tipo": "Entrada no Almoxarifado",
+      "origem": "Entrada externa",
+      "destino": "Almoxarifado",
+      "quantidade": 180,
+      "responsavel": "Almoxarifado Teste",
+      "data": "2026-07-24",
+      "obs": "",
+      "criado_em": "2026-07-24 10:39:16",
+      "item": "MASCARA N95",
+      "usuario": "Almoxarifado Teste"
+    },
     {
       "id": 15,
       "item_id": 15,
