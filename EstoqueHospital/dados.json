@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/07/2026 10:37:29",
+  "atualizado_em": "24/07/2026 10:37:39",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
-    "itens": 11,
-    "total_almoxarifado": 6280,
+    "itens": 12,
+    "total_almoxarifado": 6400,
     "total_farmacia": 0,
-    "total_geral": 6280,
+    "total_geral": 6400,
     "perto_de_terminar": 2,
     "zerados": 0
   },
@@ -72,6 +72,27 @@
       "origem": "",
       "obs": "",
       "atualizado_em": "2026-07-23 11:26:02"
+    },
+    {
+      "id": 12,
+      "produto_id": 285,
+      "nome": "ELETRODOS",
+      "tipo": "Material",
+      "unidade": "Unidade",
+      "almoxarifado": 120,
+      "farmacia": 0,
+      "sala_medicacoes": 0,
+      "internamento": 0,
+      "sala_cirurgica": 0,
+      "baixa": 0,
+      "outro": 0,
+      "total": 120,
+      "minimo": 30,
+      "validade": "",
+      "lote": "",
+      "origem": "",
+      "obs": "",
+      "atualizado_em": "2026-07-24 10:37:33"
     },
     {
       "id": 10,
@@ -243,6 +264,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 12,
+      "item_id": 12,
+      "produto_nome": "ELETRODOS",
+      "tipo": "Entrada no Almoxarifado",
+      "origem": "Entrada externa",
+      "destino": "Almoxarifado",
+      "quantidade": 120,
+      "responsavel": "Almoxarifado Teste",
+      "data": "2026-07-24",
+      "obs": "",
+      "criado_em": "2026-07-24 10:37:33",
+      "item": "ELETRODOS",
+      "usuario": "Almoxarifado Teste"
+    },
     {
       "id": 11,
       "item_id": 11,
