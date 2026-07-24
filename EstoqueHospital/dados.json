@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/07/2026 10:44:16",
+  "atualizado_em": "24/07/2026 10:44:27",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
-    "itens": 24,
-    "total_almoxarifado": 11679,
+    "itens": 25,
+    "total_almoxarifado": 11979,
     "total_farmacia": 0,
-    "total_geral": 11679,
+    "total_geral": 11979,
     "perto_de_terminar": 2,
     "zerados": 0
   },
@@ -72,6 +72,27 @@
       "origem": "",
       "obs": "",
       "atualizado_em": "2026-07-23 11:26:02"
+    },
+    {
+      "id": 25,
+      "produto_id": 297,
+      "nome": "CLAMP UMBILICAL",
+      "tipo": "Material",
+      "unidade": "Unidade",
+      "almoxarifado": 300,
+      "farmacia": 0,
+      "sala_medicacoes": 0,
+      "internamento": 0,
+      "sala_cirurgica": 0,
+      "baixa": 0,
+      "outro": 0,
+      "total": 300,
+      "minimo": 0,
+      "validade": "",
+      "lote": "",
+      "origem": "",
+      "obs": "",
+      "atualizado_em": "2026-07-24 10:44:19"
     },
     {
       "id": 12,
@@ -516,6 +537,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 25,
+      "item_id": 25,
+      "produto_nome": "CLAMP UMBILICAL",
+      "tipo": "Entrada no Almoxarifado",
+      "origem": "Entrada externa",
+      "destino": "Almoxarifado",
+      "quantidade": 300,
+      "responsavel": "Almoxarifado Teste",
+      "data": "2026-07-24",
+      "obs": "",
+      "criado_em": "2026-07-24 10:44:19",
+      "item": "CLAMP UMBILICAL",
+      "usuario": "Almoxarifado Teste"
+    },
     {
       "id": 24,
       "item_id": 24,
