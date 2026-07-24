@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/07/2026 10:37:39",
+  "atualizado_em": "24/07/2026 10:38:12",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
-    "itens": 12,
-    "total_almoxarifado": 6400,
+    "itens": 13,
+    "total_almoxarifado": 7400,
     "total_farmacia": 0,
-    "total_geral": 6400,
+    "total_geral": 7400,
     "perto_de_terminar": 2,
     "zerados": 0
   },
@@ -93,6 +93,27 @@
       "origem": "",
       "obs": "",
       "atualizado_em": "2026-07-24 10:37:33"
+    },
+    {
+      "id": 13,
+      "produto_id": 34,
+      "nome": "Equipo macrogotas",
+      "tipo": "Material",
+      "unidade": "Unidade",
+      "almoxarifado": 1000,
+      "farmacia": 0,
+      "sala_medicacoes": 0,
+      "internamento": 0,
+      "sala_cirurgica": 0,
+      "baixa": 0,
+      "outro": 0,
+      "total": 1000,
+      "minimo": 200,
+      "validade": "",
+      "lote": "",
+      "origem": "",
+      "obs": "",
+      "atualizado_em": "2026-07-24 10:38:08"
     },
     {
       "id": 10,
@@ -264,6 +285,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 13,
+      "item_id": 13,
+      "produto_nome": "Equipo macrogotas",
+      "tipo": "Entrada no Almoxarifado",
+      "origem": "Entrada externa",
+      "destino": "Almoxarifado",
+      "quantidade": 1000,
+      "responsavel": "Almoxarifado Teste",
+      "data": "2026-07-24",
+      "obs": "",
+      "criado_em": "2026-07-24 10:38:08",
+      "item": "Equipo macrogotas",
+      "usuario": "Almoxarifado Teste"
+    },
     {
       "id": 12,
       "item_id": 12,
