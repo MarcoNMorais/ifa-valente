@@ -128,6 +128,7 @@ function statusSlot(row) {
   const passed = new Date(`${row.service_date}T${row.service_time}:00`) < new Date();
   if (passed && row.remaining > 0) return ['expired', 'Vencida'];
   if (row.remaining <= 0) return ['full', 'Esgotada'];
+  if (row.is_free_pool) return ['free', 'Livre'];
   if (row.used > 0) return ['partial', 'Parcial'];
   return ['available', 'Disponível'];
 }
@@ -178,7 +179,7 @@ async function renderDashboard() {
     <div class="stats">
       <article class="stat-card"><div class="stat-top"><span class="stat-label">Vagas cadastradas</span><span class="stat-icon">▦</span></div><div class="stat-number">${use(data.total)}</div><div class="stat-note">Total do período</div></article>
       <article class="stat-card green"><div class="stat-top"><span class="stat-label">Utilizadas</span><span class="stat-icon">✓</span></div><div class="stat-number">${use(data.used)}</div><div class="stat-note">${data.total ? Math.round(data.used / data.total * 100) : 0}% de aproveitamento</div></article>
-      <article class="stat-card"><div class="stat-top"><span class="stat-label">Disponíveis</span><span class="stat-icon">＋</span></div><div class="stat-number">${use(data.remaining)}</div><div class="stat-note">Com data e horário</div></article>
+      <article class="stat-card"><div class="stat-top"><span class="stat-label">Disponíveis</span><span class="stat-icon">＋</span></div><div class="stat-number">${use(data.remaining)}</div><div class="stat-note">${use(data.free)} em vagas livres</div></article>
       <article class="stat-card amber"><div class="stat-top"><span class="stat-label">Pendências</span><span class="stat-icon">!</span></div><div class="stat-number">${use(data.pending)}</div><div class="stat-note">Precisam de conferência</div></article>
       <article class="stat-card red"><div class="stat-top"><span class="stat-label">Vencidas</span><span class="stat-icon">×</span></div><div class="stat-number">${use(data.expired)}</div><div class="stat-note">Sem utilização</div></article>
     </div>
@@ -203,13 +204,13 @@ async function renderSlots() {
   const viewAll = Boolean(state.user.permissions?.view_all_units) || state.user.role !== 'unidade';
   const pageTitle = viewAll ? 'Agenda de vagas' : `Vagas da ${state.user.unit_name}`;
   const pageDescription = state.user.role === 'unidade' && !viewAll
-    ? 'Este perfil visualiza as vagas da própria unidade e pode registrar manualmente as que já foram marcadas no portal.'
+    ? 'Veja as vagas da sua unidade, pegue vagas livres e registre as que já foram marcadas no portal.'
     : state.user.role === 'unidade'
-      ? 'O perfil CEMES visualiza todas as vagas e pode registrar utilizações do CEMES e da Secretaria de Saúde.'
-      : 'Distribua o total de cada data entre todas as unidades e registre utilizações confirmadas no portal.';
+      ? 'O perfil CEMES visualiza todas as vagas, pode pegar vagas livres para CEMES ou Secretaria e registrar utilizações.'
+      : 'Distribua vagas entre unidades, deixe saldo livre para retirada e acompanhe as utilizações confirmadas.';
   $('#page-content').innerHTML = `
     ${pageHead(pageTitle, pageDescription, canEdit ? '<button class="secondary" id="import-slots">⇧ Importar Excel</button><button class="primary" id="new-slot">＋ Distribuir vagas</button>' : '')}
-    <div class="filter-bar"><div class="search-wrap"><input id="slot-search" placeholder="Buscar procedimento, unidade, médico ou local"></div><select id="slot-unit">${selectOptions(state.units, '', 'Todas as unidades')}</select><input id="slot-date" type="date" aria-label="Filtrar por data"><select id="slot-status"><option value="">Todas as situações</option><option value="available">Disponível</option><option value="partial">Parcial</option><option value="full">Esgotada</option><option value="expired">Vencida</option></select><button class="secondary" id="clear-slot-filter">Limpar</button></div>
+    <div class="filter-bar"><div class="search-wrap"><input id="slot-search" placeholder="Buscar procedimento, unidade, médico ou local"></div><select id="slot-unit"><option value="">Todas as unidades</option><option value="free">Vagas livres</option>${state.units.map(row => `<option value="${row.id}">${escapeHtml(row.name)}</option>`).join('')}</select><input id="slot-date" type="date" aria-label="Filtrar por data"><select id="slot-status"><option value="">Todas as situações</option><option value="free">Livre</option><option value="available">Disponível</option><option value="partial">Parcial</option><option value="full">Esgotada</option><option value="expired">Vencida</option></select><button class="secondary" id="clear-slot-filter">Limpar</button></div>
     <div class="table-wrap"><table class="data-table ${groupedView ? 'grouped-slots-table' : ''}"><thead id="slots-head"></thead><tbody id="slots-body"></tbody></table></div>`;
 
   const timeLabel = row => row.service_time_max && row.service_time_max !== row.service_time
@@ -217,6 +218,15 @@ async function renderSlots() {
     : row.service_time;
 
   const actionButtons = row => {
+    if (row.is_free_pool) {
+      const claimAction = row.remaining > 0 && statusSlot(row)[0] !== 'expired' && state.user.role !== 'gestor'
+        ? `<button class="table-action claim-free" data-id="${row.id}">✦ Pegar vaga</button>`
+        : '';
+      const cancelAction = canEdit
+        ? `<button class="table-action cancel-slot" data-id="${row.id}">Cancelar saldo livre</button>`
+        : '';
+      return `${claimAction}${cancelAction}` || '—';
+    }
     const useAction = row.remaining > 0 && canManuallyUseSlot(row)
       ? `<button class="table-action use-slot" data-id="${row.id}">✓ Marcar utilizada</button>`
       : '';
@@ -227,6 +237,7 @@ async function renderSlots() {
   };
 
   const bindSlotActions = () => {
+    $$('.claim-free').forEach(btn => btn.addEventListener('click', () => claimFreeSlotDialog(rows.find(row => row.id === Number(btn.dataset.id)))));
     $$('.use-slot').forEach(btn => btn.addEventListener('click', () => manualSlotDialog(rows.find(row => row.id === Number(btn.dataset.id)))));
     $$('.transfer-slot').forEach(btn => btn.addEventListener('click', () => transferDialog(rows.find(row => row.id === Number(btn.dataset.id)))));
     $$('.edit-slot').forEach(btn => btn.addEventListener('click', () => editSlotDialog(rows.find(row => row.id === Number(btn.dataset.id)))));
@@ -271,30 +282,36 @@ async function renderSlots() {
     const search = $('#slot-search').value.toLowerCase(); const unit = $('#slot-unit').value; const date = $('#slot-date').value; const status = $('#slot-status').value;
     const filtered = rows.filter(row => {
       const st = statusSlot(row)[0];
-      return (!search || `${row.procedure_name} ${row.unit_name} ${row.doctor_name || row.provider || ''} ${row.location || ''}`.toLowerCase().includes(search)) && (!unit || String(row.unit_id) === unit) && (!date || row.service_date === date) && (!status || st === status);
+      const unitMatches = !unit
+        || (unit === 'free' && Boolean(row.is_free_pool))
+        || (unit !== 'free' && !row.is_free_pool && String(row.unit_id) === unit);
+      return (!search || `${row.procedure_name} ${row.unit_name} ${row.doctor_name || row.provider || ''} ${row.location || ''}`.toLowerCase().includes(search)) && unitMatches && (!date || row.service_date === date) && (!status || st === status);
     });
     if (groupedView) {
       $('#slots-head').innerHTML = '<tr><th>Data e horário</th><th>Procedimento</th><th>Local executante</th><th>Médico</th><th>Distribuição</th><th>Situação</th><th>Detalhes</th></tr>';
       const groups = groupRows(filtered);
       $('#slots-body').innerHTML = groups.length ? groups.map(group => {
         const [klass,label] = statusSlot(group);
-        const unitCount = new Set(group.rows.map(row => row.unit_id)).size;
+        const regularRows = group.rows.filter(row => !row.is_free_pool);
+        const unitCount = new Set(regularRows.map(row => row.unit_id)).size;
+        const freeCount = group.rows.filter(row => row.is_free_pool).reduce((sum, row) => sum + Number(row.remaining || 0), 0);
+        const distributionLabel = `${unitCount} unidade${unitCount === 1 ? '' : 's'}${freeCount ? ` • ${freeCount} livre${freeCount === 1 ? '' : 's'}` : ''}`;
         return `<tr class="distribution-summary-row">
           <td><span class="strong mono">${dateBr(group.service_date)}</span><br><span class="muted mono">${timeLabel(group)}</span></td>
           <td><span class="strong">${escapeHtml(group.procedure_name)}</span><br><span class="muted">${escapeHtml(group.sigtap || 'Sem SIGTAP')}</span></td>
           <td><span class="strong">${escapeHtml(group.location || '—')}</span></td>
           <td>${escapeHtml(group.doctor_name || '—')}</td>
-          <td><span class="strong">${group.used} / ${group.quantity}</span><br><span class="muted">${unitCount} unidade${unitCount === 1 ? '' : 's'} • ${group.remaining} restante${group.remaining === 1 ? '' : 's'}</span></td>
+          <td><span class="strong">${group.used} / ${group.quantity}</span><br><span class="muted">${distributionLabel} • ${group.remaining} restante${group.remaining === 1 ? '' : 's'}</span></td>
           <td><span class="badge ${klass}">${label}</span></td>
-          <td><button class="table-action expand-distribution" data-target="${group.id}" aria-expanded="false">⌄ Ver unidades (${unitCount})</button></td>
+          <td><button class="table-action expand-distribution" data-target="${group.id}" aria-expanded="false">⌄ Ver distribuição (${group.rows.length})</button></td>
         </tr>
         <tr class="distribution-details-row" id="${group.id}" hidden><td colspan="7">
           <div class="distribution-details">
-            <div class="distribution-details-title"><b>Vagas distribuídas por unidade</b><span>${group.quantity} vagas no total desta agenda</span></div>
+            <div class="distribution-details-title"><b>Distribuição por unidade e saldo livre</b><span>${group.quantity} vagas no total desta agenda</span></div>
             <div class="distribution-details-scroll"><table><thead><tr><th>Unidade</th><th>Vagas</th><th>Utilizadas</th><th>Restantes</th><th>Situação</th><th>Ações</th></tr></thead><tbody>
               ${group.rows.map(row => {
                 const [rowClass,rowLabel] = statusSlot(row);
-                return `<tr><td class="strong">${escapeHtml(row.unit_name)}</td><td>${row.quantity}</td><td>${row.used}</td><td>${row.remaining}</td><td><span class="badge ${rowClass}">${rowLabel}</span></td><td><div class="actions">${actionButtons(row)}</div></td></tr>`;
+                return `<tr class="${row.is_free_pool ? 'free-slot-row' : ''}"><td class="strong">${row.is_free_pool ? '✦ ' : ''}${escapeHtml(row.unit_name)}</td><td>${row.quantity}</td><td>${row.used}</td><td>${row.remaining}</td><td><span class="badge ${rowClass}">${rowLabel}</span></td><td><div class="actions">${actionButtons(row)}</div></td></tr>`;
               }).join('')}
             </tbody></table></div>
           </div>
@@ -305,7 +322,7 @@ async function renderSlots() {
         const details = document.getElementById(button.dataset.target);
         details.hidden = !details.hidden;
         button.setAttribute('aria-expanded', String(!details.hidden));
-        button.textContent = `${details.hidden ? '⌄' : '⌃'} ${details.hidden ? 'Ver' : 'Ocultar'} unidades (${details.querySelectorAll('.distribution-details-scroll table > tbody > tr').length})`;
+        button.textContent = `${details.hidden ? '⌄' : '⌃'} ${details.hidden ? 'Ver' : 'Ocultar'} distribuição (${details.querySelectorAll('.distribution-details-scroll table > tbody > tr').length})`;
         };
         button.addEventListener('click', toggleDetails);
         button.closest('.distribution-summary-row').addEventListener('click', event => {
@@ -316,7 +333,7 @@ async function renderSlots() {
       $('#slots-head').innerHTML = `<tr><th>Data e horário</th><th>Procedimento</th><th>Unidade</th><th>Local executante</th><th>Médico</th><th>Utilização</th><th>Situação</th>${showActions ? '<th>Ações</th>' : ''}</tr>`;
       $('#slots-body').innerHTML = filtered.length ? filtered.map(row => {
         const [klass,label] = statusSlot(row);
-        return `<tr><td><span class="strong mono">${dateBr(row.service_date)}</span><br><span class="muted mono">${timeLabel(row)}</span></td><td><span class="strong">${escapeHtml(row.procedure_name)}</span><br><span class="muted">${escapeHtml(row.sigtap || 'Sem SIGTAP')}</span></td><td>${escapeHtml(row.unit_name)}</td><td>${escapeHtml(row.location || '—')}</td><td>${escapeHtml(row.doctor_name || row.provider || '—')}</td><td><span class="strong">${row.used} / ${row.quantity}</span><br><span class="muted">${row.remaining} restante${row.remaining === 1 ? '' : 's'}</span></td><td><span class="badge ${klass}">${label}</span></td>${showActions ? `<td><div class="actions">${actionButtons(row)}</div></td>` : ''}</tr>`;
+        return `<tr class="${row.is_free_pool ? 'free-slot-row' : ''}"><td><span class="strong mono">${dateBr(row.service_date)}</span><br><span class="muted mono">${timeLabel(row)}</span></td><td><span class="strong">${escapeHtml(row.procedure_name)}</span><br><span class="muted">${escapeHtml(row.sigtap || 'Sem SIGTAP')}</span></td><td>${row.is_free_pool ? '✦ ' : ''}${escapeHtml(row.unit_name)}</td><td>${escapeHtml(row.location || '—')}</td><td>${escapeHtml(row.doctor_name || row.provider || '—')}</td><td><span class="strong">${row.used} / ${row.quantity}</span><br><span class="muted">${row.remaining} restante${row.remaining === 1 ? '' : 's'}</span></td><td><span class="badge ${klass}">${label}</span></td>${showActions ? `<td><div class="actions">${actionButtons(row)}</div></td>` : ''}</tr>`;
       }).join('') : `<tr><td colspan="${showActions ? 8 : 7}"><div class="empty"><b>Nenhuma vaga encontrada.</b>Ajuste os filtros.</div></td></tr>`;
     }
     bindSlotActions();
@@ -328,11 +345,17 @@ async function renderSlots() {
 }
 
 async function renderHistory() {
-  const rows = await api('/api/bookings'); state.cache.bookings = rows;
+  const [rows, claims] = await Promise.all([api('/api/bookings'), api('/api/free-slot-claims')]);
+  state.cache.bookings = rows; state.cache.freeClaims = claims;
   const canCancel = ['admin','regulacao'].includes(state.user.role);
-  $('#page-content').innerHTML = `${pageHead('Histórico de agendamentos', 'Registros confirmados, cancelados e remarcados permanecem disponíveis para auditoria.')}
+  $('#page-content').innerHTML = `${pageHead('Histórico de agendamentos', 'Utilizações, cancelamentos, remarcações e retiradas de vagas livres permanecem registrados.')}
     <div class="filter-bar"><div class="search-wrap"><input id="history-search" placeholder="Buscar procedimento, unidade ou operador"></div><select id="history-unit">${selectOptions(state.units,'','Todas as unidades')}</select><input id="history-date" type="date"><select id="history-status"><option value="">Todos os status</option><option value="confirmed">Confirmado</option><option value="cancelled">Cancelado</option></select><button class="secondary" id="print-history">Imprimir</button></div>
-    <div class="table-wrap"><table class="data-table"><thead><tr><th>Atendimento</th><th>Procedimento</th><th>Unidade</th><th>Operador</th><th>Registro</th><th>Status</th>${canCancel ? '<th>Ação</th>' : ''}</tr></thead><tbody id="history-body"></tbody></table></div>`;
+    <div class="table-wrap"><table class="data-table"><thead><tr><th>Atendimento</th><th>Procedimento</th><th>Unidade</th><th>Operador</th><th>Registro</th><th>Status</th>${canCancel ? '<th>Ação</th>' : ''}</tr></thead><tbody id="history-body"></tbody></table></div>
+    <section class="panel free-claims-history"><header class="panel-header"><div><h3>Retiradas de vagas livres</h3><p>Mostra quem pegou, para qual unidade e quando a retirada ocorreu.</p></div><span class="free-claims-count">${claims.length}</span></header>
+      <div class="table-wrap"><table class="data-table"><thead><tr><th>Agenda</th><th>Procedimento</th><th>Unidade que recebeu</th><th>Retirada por</th><th>Confirmada em</th></tr></thead><tbody>
+        ${claims.length ? claims.map(row => `<tr><td><span class="strong">${dateBr(row.service_date)}</span><br><span class="muted">${escapeHtml(row.service_time)}${row.service_time_max && row.service_time_max !== row.service_time ? ` até ${escapeHtml(row.service_time_max)}` : ''}</span></td><td><span class="strong">${escapeHtml(row.procedure_name)}</span><br><span class="muted">${escapeHtml(row.doctor_name || '—')}</span></td><td>${escapeHtml(row.unit_name)}</td><td>${escapeHtml(row.operator_name || 'Sistema')}</td><td>${dateTimeBr(row.created_at)}</td></tr>`).join('') : '<tr><td colspan="5"><div class="empty"><b>Nenhuma vaga livre foi retirada.</b></div></td></tr>'}
+      </tbody></table></div>
+    </section>`;
   const draw = () => {
     const search = $('#history-search').value.toLowerCase(), unit = $('#history-unit').value, date = $('#history-date').value, status = $('#history-status').value;
     const filtered = rows.filter(row => (!search || `${row.procedure_name} ${row.unit_name} ${row.operator_name || ''}`.toLowerCase().includes(search)) && (!unit || String(row.unit_id) === unit) && (!date || row.service_date === date) && (!status || row.status === status));
@@ -462,7 +485,7 @@ function newSlotDialog() {
     submit: 'Cadastrar distribuição',
     wide: true,
     body: `
-      <div class="distribution-intro">O total será distribuído entre as 13 unidades e setores. A mesma divisão será repetida em cada data, mas cada data pode ter horários diferentes.</div>
+      <div class="distribution-intro">O total pode ser dividido entre as ${state.units.length} unidades e também deixar um saldo de <b>vagas livres</b>. A primeira unidade que confirmar uma vaga livre passa a recebê-la.</div>
       <div class="form-grid">
         <label class="field">Procedimento<select name="procedure_id" required>${selectOptions(state.procedures)}</select></label>
         <label class="field">Total de vagas por data<input name="total_quantity" type="number" min="1" max="5000" placeholder="Ex.: 20" required></label>
@@ -479,9 +502,10 @@ function newSlotDialog() {
         </div>
         <div id="distribution-dates" class="date-chips"><span class="muted">Nenhuma data e horário adicionados.</span></div>
       </div>
-      <div class="distribution-header"><div><b>Divisão por unidade</b><span>Unidades sem vagas devem permanecer com zero.</span></div><strong id="distribution-counter">0 de 0</strong></div>
+      <div class="distribution-header"><div><b>Divisão por unidade</b><span>A soma das unidades com as vagas livres deve fechar o total informado.</span></div><strong id="distribution-counter">0 de 0</strong></div>
       <div class="distribution-table-wrap">
         <table class="distribution-table"><thead><tr><th>Unidade ou setor</th><th>Quantidade por data</th></tr></thead><tbody>
+          <tr class="free-allocation-row"><td><b>✦ Vagas livres</b><span>Ficam abertas; a primeira unidade que confirmar recebe a vaga.</span></td><td><input id="free-quantity" type="number" min="0" max="5000" value="0" aria-label="Quantidade de vagas livres"></td></tr>
           ${state.units.map(unit => `<tr><td><b>${escapeHtml(unit.name)}</b>${unit.cnes ? `<span>CNES ${escapeHtml(unit.cnes)}</span>` : ''}</td><td><input class="allocation-input" data-unit-id="${unit.id}" type="number" min="0" max="5000" value="0" aria-label="Quantidade para ${escapeHtml(unit.name)}"></td></tr>`).join('')}
         </tbody></table>
       </div>
@@ -496,6 +520,7 @@ function newSlotDialog() {
         location: form.get('location'),
         notes: form.get('notes'),
         schedules: selectedSchedules,
+        free_quantity: Number($('#free-quantity').value || 0),
         allocations: $$('.allocation-input', $('#dialog-body')).map(input => ({
           unit_id: Number(input.dataset.unitId),
           quantity: Number(input.value || 0)
@@ -514,6 +539,7 @@ function newSlotDialog() {
   const validation = $('#distribution-validation');
   const counter = $('#distribution-counter');
   const submit = $('#dialog-submit');
+  const freeInput = $('#free-quantity');
 
   const renderDates = () => {
     $('#distribution-dates').innerHTML = selectedSchedules.length
@@ -528,7 +554,9 @@ function newSlotDialog() {
 
   const validateDistribution = () => {
     const total = Number(totalInput.value || 0);
-    const allocated = $$('.allocation-input', body).reduce((sum, input) => sum + Number(input.value || 0), 0);
+    const freeQuantity = Number(freeInput.value || 0);
+    const allocatedToUnits = $$('.allocation-input', body).reduce((sum, input) => sum + Number(input.value || 0), 0);
+    const allocated = allocatedToUnits + freeQuantity;
     const difference = total - allocated;
     counter.textContent = `${allocated} de ${total || 0}`;
     validation.className = 'distribution-validation';
@@ -548,7 +576,7 @@ function newSlotDialog() {
     } else {
       validation.classList.add('success');
       const grandTotal = total * selectedSchedules.length;
-      validation.textContent = `Distribuição completa: ${total} vagas × ${selectedSchedules.length} data/horário = ${grandTotal} vagas cadastradas no total.`;
+      validation.textContent = `Distribuição completa: ${allocatedToUnits} para unidades + ${freeQuantity} livre${freeQuantity === 1 ? '' : 's'} por data. Total geral: ${grandTotal} vagas.`;
     }
     submit.disabled = !(total > 0 && difference === 0 && selectedSchedules.length && procedureInput.value && doctorInput.value);
   };
@@ -571,7 +599,7 @@ function newSlotDialog() {
     renderDates();
     validateDistribution();
   });
-  $$('.allocation-input', body).forEach(input => input.addEventListener('input', validateDistribution));
+  [...$$('.allocation-input', body), freeInput].forEach(input => input.addEventListener('input', validateDistribution));
   const refreshDoctors = () => {
     const doctors = state.doctors.filter(doctor => doctor.procedure_ids.includes(Number(procedureInput.value)));
     doctorInput.innerHTML = `<option value="">${doctors.length ? 'Selecione' : 'Nenhum médico cadastrado para este procedimento'}</option>${doctors.map(doctor => `<option value="${doctor.id}">${escapeHtml(doctor.name)}${doctor.crm ? ` — ${escapeHtml(doctor.crm)}` : ''}</option>`).join('')}`;
@@ -586,6 +614,41 @@ function newSlotDialog() {
 
 function sequenceDialog() {
   openDialog({ title: 'Criar sequência de horários', kicker: 'Cadastro rápido', submit: 'Criar horários', body: `<div class="form-grid"><label class="field">Unidade<select name="unit_id" required>${selectOptions(state.units)}</select></label><label class="field">Procedimento<select name="procedure_id" required>${selectOptions(state.procedures)}</select></label><label class="field">Data<input name="service_date" type="date" required></label><label class="field">Quantidade por horário<input name="quantity" type="number" min="1" value="1" required></label><label class="field">Horário inicial<input name="start_time" type="time" required></label><label class="field">Horário final<input name="end_time" type="time" required></label><label class="field">Intervalo<select name="interval_minutes"><option value="15">15 minutos</option><option value="20">20 minutos</option><option value="30" selected>30 minutos</option><option value="60">60 minutos</option></select></label><label class="field">Médico<input name="provider"></label><label class="field full">Local<input name="location" value="CEMES"></label></div>`, onSubmit: form => api('/api/slots/sequence', { method: 'POST', body: JSON.stringify(Object.fromEntries(form)) }) });
+}
+
+function claimFreeSlotDialog(row) {
+  const normalizedUnit = String(state.user.unit_name || '').normalize('NFD').replace(/\p{Diacritic}/gu, '').toLowerCase();
+  let targets = state.units;
+  if (state.user.role === 'unidade' && normalizedUnit !== 'cemes') {
+    targets = state.units.filter(unit => Number(unit.id) === Number(state.user.unit_id));
+  } else if (state.user.role === 'unidade') {
+    targets = state.units.filter(unit => Number(unit.id) === Number(state.user.unit_id)
+      || String(unit.name).normalize('NFD').replace(/\p{Diacritic}/gu, '').toLowerCase().includes('secretaria'));
+  }
+  const maximum = row.service_time_max || row.service_time;
+  const targetField = targets.length === 1
+    ? `<input type="hidden" name="unit_id" value="${targets[0].id}"><div class="free-claim-target"><span>Unidade que receberá</span><b>${escapeHtml(targets[0].name)}</b></div>`
+    : `<label class="field">Unidade que receberá a vaga<select name="unit_id" required>${selectOptions(targets)}</select></label>`;
+  openDialog({
+    title: 'Pegar vaga livre',
+    kicker: 'Primeiro a confirmar recebe a vaga',
+    submit: 'Confirmar retirada',
+    body: `
+      <div class="free-claim-alert"><b>Esta vaga está aberta para as unidades.</b><span>Ao confirmar, uma vaga será destinada à unidade escolhida. Ela ainda não será marcada como utilizada.</span></div>
+      <div class="manual-slot-summary">
+        <div><span>Procedimento</span><b>${escapeHtml(row.procedure_name)}</b></div>
+        <div><span>Data</span><b>${dateBr(row.service_date)}</b></div>
+        <div><span>Horário</span><b>${escapeHtml(row.service_time)}${maximum !== row.service_time ? ` até ${escapeHtml(maximum)}` : ''}</b></div>
+        <div><span>Saldo livre</span><b>${row.remaining} vaga${row.remaining === 1 ? '' : 's'}</b></div>
+        <div><span>Médico</span><b>${escapeHtml(row.doctor_name || row.provider || '—')}</b></div>
+        <div><span>Local</span><b>${escapeHtml(row.location || 'CEMES')}</b></div>
+      </div>
+      ${targetField}`,
+    onSubmit: form => api(`/api/free-slots/${row.id}/claim`, {
+      method: 'POST',
+      body: JSON.stringify({ unit_id: Number(form.get('unit_id')) })
+    })
+  });
 }
 
 function manualSlotDialog(row) {

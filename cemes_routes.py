@@ -146,6 +146,7 @@ CREATE TABLE IF NOT EXISTS slots (
     provider TEXT,
     location TEXT,
     notes TEXT,
+    is_free_pool INTEGER NOT NULL DEFAULT 0 CHECK(is_free_pool IN (0,1)),
     status TEXT NOT NULL DEFAULT 'active' CHECK(status IN ('active','cancelled','transferred')),
     created_by INTEGER REFERENCES users(id),
     created_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP,
@@ -153,6 +154,16 @@ CREATE TABLE IF NOT EXISTS slots (
 );
 CREATE INDEX IF NOT EXISTS slots_lookup_idx
 ON slots(unit_id, procedure_id, service_date, service_time, status);
+CREATE TABLE IF NOT EXISTS free_slot_claims (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    free_slot_id INTEGER NOT NULL REFERENCES slots(id),
+    target_slot_id INTEGER NOT NULL REFERENCES slots(id),
+    unit_id INTEGER NOT NULL REFERENCES units(id),
+    claimed_by INTEGER REFERENCES users(id),
+    created_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP
+);
+CREATE INDEX IF NOT EXISTS free_slot_claims_unit_idx
+ON free_slot_claims(unit_id, created_at);
 CREATE TABLE IF NOT EXISTS bookings (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     slot_id INTEGER NOT NULL REFERENCES slots(id),
@@ -307,6 +318,20 @@ class CemesStore:
     def initialize(self) -> None:
         with self.connection() as db:
             db.executescript(SCHEMA)
+            slot_columns = {
+                row["name"] for row in db.execute("PRAGMA table_info(slots)").fetchall()
+            }
+            if "is_free_pool" not in slot_columns:
+                db.execute(
+                    "ALTER TABLE slots ADD COLUMN is_free_pool INTEGER NOT NULL DEFAULT 0 "
+                    "CHECK(is_free_pool IN (0,1))"
+                )
+            db.execute(
+                """
+                CREATE INDEX IF NOT EXISTS slots_free_pool_idx
+                ON slots(is_free_pool, procedure_id, service_date, service_time, status)
+                """
+            )
             base_marker = db.execute(
                 "SELECT 1 FROM settings WHERE key='seed:v1:base-catalog'"
             ).fetchone()
@@ -586,7 +611,9 @@ def register_cemes_routes(app):
         return _row(
             db.execute(
                 """
-                SELECT s.*,u.name unit_name,p.name procedure_name,p.sigtap,
+                SELECT s.*,
+                       CASE WHEN s.is_free_pool=1 THEN 'Vagas livres' ELSE u.name END unit_name,
+                       p.name procedure_name,p.sigtap,
                        COALESCE(d.name,s.provider) doctor_name,
                        (SELECT COUNT(*) FROM bookings b
                         WHERE b.slot_id=s.id AND b.status='confirmed') used,
@@ -621,12 +648,19 @@ def register_cemes_routes(app):
         date_from: Any = None,
         date_to: Any = None,
         available_only: bool = False,
+        include_free_pool: bool = True,
     ) -> list[dict[str, Any]]:
         where = ["s.status='active'"]
         params: list[Any] = []
         if unit_id:
-            where.append("s.unit_id=?")
+            where.append(
+                "(s.unit_id=? OR s.is_free_pool=1)"
+                if include_free_pool
+                else "s.unit_id=?"
+            )
             params.append(unit_id)
+        elif not include_free_pool:
+            where.append("s.is_free_pool=0")
         if procedure_id:
             where.append("s.procedure_id=?")
             params.append(int(procedure_id))
@@ -643,7 +677,9 @@ def register_cemes_routes(app):
         return _rows(
             db.execute(
                 f"""
-                SELECT s.*,u.name unit_name,p.name procedure_name,p.sigtap,
+                SELECT s.*,
+                       CASE WHEN s.is_free_pool=1 THEN 'Vagas livres' ELSE u.name END unit_name,
+                       p.name procedure_name,p.sigtap,
                        COALESCE(d.name,s.provider) doctor_name,
                        (SELECT COUNT(*) FROM bookings b
                         WHERE b.slot_id=s.id AND b.status='confirmed') used,
@@ -708,6 +744,7 @@ def register_cemes_routes(app):
         ).fetchone():
             raise CemesError("O procedimento informado não existe ou está inativo.")
         doctor_id = int(data.get("doctor_id") or 0) or None
+        is_free_pool = 1 if data.get("is_free_pool") in (True, 1, "1") else 0
         provider = _clean(data.get("provider"))
         if doctor_id:
             doctor = validate_doctor(db, doctor_id, procedure_id)
@@ -716,8 +753,8 @@ def register_cemes_routes(app):
             """
             INSERT INTO slots(
                 unit_id,procedure_id,service_date,service_time,service_time_max,
-                quantity,doctor_id,provider,location,notes,created_by
-            ) VALUES(?,?,?,?,?,?,?,?,?,?,?)
+                quantity,doctor_id,provider,location,notes,is_free_pool,created_by
+            ) VALUES(?,?,?,?,?,?,?,?,?,?,?,?)
             """,
             (
                 unit_id,
@@ -730,6 +767,7 @@ def register_cemes_routes(app):
                 provider,
                 _clean(data.get("location")) or "CEMES",
                 _clean(data.get("notes"), 500),
+                is_free_pool,
                 user_id,
             ),
         )
@@ -801,6 +839,7 @@ def register_cemes_routes(app):
                   AND s.service_time<=?
                   AND COALESCE(s.service_time_max,s.service_time)>=?
                   AND s.status='active'
+                  AND s.is_free_pool=0
                   AND (SELECT COUNT(*) FROM bookings b
                        WHERE b.slot_id=s.id AND b.status='confirmed') < s.quantity
                 ORDER BY s.service_time DESC,s.id LIMIT 1
@@ -815,7 +854,7 @@ def register_cemes_routes(app):
                 WHERE unit_id=? AND procedure_id=? AND service_date=?
                   AND service_time<=?
                   AND COALESCE(service_time_max,service_time)>=?
-                  AND status='active' LIMIT 1
+                  AND status='active' AND is_free_pool=0 LIMIT 1
                 """,
                 (unit_id, procedure_id, service_date, service_time, service_time),
             ).fetchone()
@@ -985,7 +1024,8 @@ def register_cemes_routes(app):
     @require_auth
     def cemes_dashboard():
         unit_id = scoped_unit_id(g.cmvr_user)
-        clause = " AND s.unit_id=?" if unit_id else ""
+        slot_clause = " AND (s.unit_id=? OR s.is_free_pool=1)" if unit_id else ""
+        unit_clause = " AND unit_id=?" if unit_id else ""
         params = [unit_id] if unit_id else []
         with store.connection() as db:
             totals = db.execute(
@@ -993,13 +1033,13 @@ def register_cemes_routes(app):
                 SELECT COALESCE(SUM(s.quantity),0) total,
                 COALESCE(SUM((SELECT COUNT(*) FROM bookings b
                 WHERE b.slot_id=s.id AND b.status='confirmed')),0) used
-                FROM slots s WHERE s.status='active'{clause}
+                FROM slots s WHERE s.status='active'{slot_clause}
                 """,
                 params,
             ).fetchone()
             pending = db.execute(
                 "SELECT COUNT(*) FROM pending_records WHERE status='open'"
-                + (" AND unit_id=?" if unit_id else ""),
+                + unit_clause,
                 params,
             ).fetchone()[0]
             expired = db.execute(
@@ -1008,14 +1048,20 @@ def register_cemes_routes(app):
                 WHERE b.slot_id=s.id AND b.status='confirmed'))),0)
                 FROM slots s WHERE s.status='active'
                 AND datetime(s.service_date||' '||s.service_time)<datetime('now','localtime')
-                {clause}
+                {slot_clause}
                 """,
                 params,
             ).fetchone()[0]
             today = db.execute(
                 "SELECT COUNT(*) FROM bookings b WHERE date(b.created_at,'localtime')=date('now','localtime') "
-                "AND b.status='confirmed'" + (" AND b.unit_id=?" if unit_id else ""),
+                "AND b.status='confirmed'" + unit_clause,
                 params,
+            ).fetchone()[0]
+            free = db.execute(
+                """
+                SELECT COALESCE(SUM(quantity),0) FROM slots
+                WHERE status='active' AND is_free_pool=1
+                """
             ).fetchone()[0]
             by_procedure = _rows(
                 db.execute(
@@ -1024,7 +1070,7 @@ def register_cemes_routes(app):
                     SUM((SELECT COUNT(*) FROM bookings b
                     WHERE b.slot_id=s.id AND b.status='confirmed')) used
                     FROM slots s JOIN procedures p ON p.id=s.procedure_id
-                    WHERE s.status='active'{clause}
+                    WHERE s.status='active'{slot_clause}
                     GROUP BY p.id ORDER BY used DESC,p.name LIMIT 8
                     """,
                     params,
@@ -1037,6 +1083,7 @@ def register_cemes_routes(app):
             pending=pending,
             expired=expired,
             today=today,
+            free=free,
             byProcedure=by_procedure,
         )
 
@@ -1467,6 +1514,7 @@ def register_cemes_routes(app):
             procedure_id = int(data.get("procedure_id"))
             doctor_id = int(data.get("doctor_id"))
             total = int(data.get("total_quantity"))
+            free_quantity = int(data.get("free_quantity") or 0)
         except (TypeError, ValueError):
             raise CemesError("Informe o procedimento e o total de vagas por data.")
         raw_schedules = data.get("schedules") if isinstance(data.get("schedules"), list) else []
@@ -1487,7 +1535,7 @@ def register_cemes_routes(app):
             ]
         except (TypeError, ValueError):
             raise CemesError("A quantidade de cada unidade deve ser um número inteiro igual ou maior que zero.")
-        if total < 1 or total > 5000:
+        if total < 1 or total > 5000 or free_quantity < 0 or free_quantity > total:
             raise CemesError("Informe o procedimento e o total de vagas por data.")
         if (
             not schedules
@@ -1524,7 +1572,8 @@ def register_cemes_routes(app):
                 raise CemesError(
                     "A quantidade de cada unidade deve ser um número inteiro igual ou maior que zero."
                 )
-            allocated = sum(item["quantity"] for item in allocations)
+            allocated_to_units = sum(item["quantity"] for item in allocations)
+            allocated = allocated_to_units + free_quantity
             if allocated < total:
                 missing = total - allocated
                 raise CemesError(
@@ -1552,6 +1601,18 @@ def register_cemes_routes(app):
             if not procedure:
                 raise CemesError("Procedimento não encontrado ou inativo.", 404)
             doctor = validate_doctor(db, doctor_id, procedure_id)
+            free_pool_unit = None
+            if free_quantity:
+                free_pool_unit = _row(
+                    db.execute(
+                        "SELECT id,name FROM units WHERE name='CEMES' COLLATE NOCASE AND active=1"
+                    ).fetchone()
+                )
+                if not free_pool_unit:
+                    raise CemesError(
+                        "O setor CEMES precisa estar ativo para disponibilizar vagas livres.",
+                        409,
+                    )
             for schedule in schedules:
                 for allocation in (item for item in allocations if item["quantity"] > 0):
                     duplicate = _row(
@@ -1562,7 +1623,7 @@ def register_cemes_routes(app):
                             WHERE s.unit_id=? AND s.procedure_id=? AND s.service_date=?
                               AND s.service_time<=?
                               AND COALESCE(s.service_time_max,s.service_time)>=?
-                              AND s.status='active' LIMIT 1
+                              AND s.status='active' AND s.is_free_pool=0 LIMIT 1
                             """,
                             (
                                 allocation["unit_id"],
@@ -1580,15 +1641,38 @@ def register_cemes_routes(app):
                             f"{duplicate['unit_name']} em {formatted} com horário sobreposto. Nada foi gravado.",
                             409,
                         )
+                if free_quantity:
+                    duplicate_free = db.execute(
+                        """
+                        SELECT id FROM slots
+                        WHERE is_free_pool=1 AND procedure_id=? AND service_date=?
+                          AND service_time<=?
+                          AND COALESCE(service_time_max,service_time)>=?
+                          AND status='active' LIMIT 1
+                        """,
+                        (
+                            procedure_id,
+                            schedule["service_date"],
+                            schedule["service_time_max"],
+                            schedule["service_time"],
+                        ),
+                    ).fetchone()
+                    if duplicate_free:
+                        formatted = "/".join(reversed(schedule["service_date"].split("-")))
+                        raise CemesError(
+                            f"Já existem vagas livres de {procedure['name']} em {formatted} "
+                            "com horário sobreposto. Nada foi gravado.",
+                            409,
+                        )
             batch_id = f"dist-{int(datetime.now().timestamp() * 1000)}-{secrets.token_hex(4)}"
             created = []
             for schedule in schedules:
+                notes = " — ".join(
+                    item
+                    for item in (_clean(data.get("notes"), 500), f"Distribuição {batch_id}")
+                    if item
+                )
                 for allocation in (item for item in allocations if item["quantity"] > 0):
-                    notes = " — ".join(
-                        item
-                        for item in (_clean(data.get("notes"), 500), f"Distribuição {batch_id}")
-                        if item
-                    )
                     created.append(
                         insert_slot(
                             db,
@@ -1606,6 +1690,27 @@ def register_cemes_routes(app):
                             do_audit=False,
                         )
                     )
+                if free_quantity and free_pool_unit:
+                    created.append(
+                        insert_slot(
+                            db,
+                            {
+                                **schedule,
+                                "unit_id": free_pool_unit["id"],
+                                "procedure_id": procedure_id,
+                                "quantity": free_quantity,
+                                "doctor_id": doctor_id,
+                                "location": _clean(data.get("location")) or "CEMES",
+                                "notes": " — ".join(
+                                    item for item in (notes, "Vagas livres") if item
+                                ),
+                                "is_free_pool": True,
+                            },
+                            g.cmvr_user["id"],
+                            request.remote_addr,
+                            do_audit=False,
+                        )
+                    )
             result = {
                 "batch_id": batch_id,
                 "procedure_id": procedure_id,
@@ -1616,6 +1721,8 @@ def register_cemes_routes(app):
                 "total_per_date": total,
                 "total_distributed": total * len(schedules),
                 "allocations": allocations,
+                "allocated_to_units": allocated_to_units,
+                "free_quantity": free_quantity,
                 "created_slots": len(created),
                 "slots": created,
             }
@@ -1625,6 +1732,210 @@ def register_cemes_routes(app):
                 "slot_batch",
                 batch_id,
                 user_id=g.cmvr_user["id"],
+                after=result,
+                ip=request.remote_addr,
+            )
+        return jsonify(result), 201
+
+    def claimable_unit_ids(
+        db: sqlite3.Connection, user: dict[str, Any]
+    ) -> set[int]:
+        if user["role"] in ("admin", "regulacao"):
+            return {
+                int(row["id"])
+                for row in db.execute("SELECT id FROM units WHERE active=1").fetchall()
+            }
+        if user["role"] != "unidade" or not user.get("unit_id"):
+            return set()
+        allowed = {int(user["unit_id"])}
+        if _norm(user.get("unit_name")) == "cemes":
+            secretaria = db.execute(
+                """
+                SELECT id FROM units
+                WHERE active=1 AND lower(name) LIKE '%secretaria%'
+                ORDER BY id LIMIT 1
+                """
+            ).fetchone()
+            if secretaria:
+                allowed.add(int(secretaria["id"]))
+        return allowed
+
+    @app.route("/Cemes/api/free-slots/<int:slot_id>/claim", methods=["POST"])
+    @api_guard
+    @require_auth
+    @require_csrf
+    def cemes_free_slot_claim(slot_id: int):
+        data = body()
+        store.auto_backup()
+        with store.connection() as db:
+            db.execute("BEGIN IMMEDIATE")
+            allowed_units = claimable_unit_ids(db, g.cmvr_user)
+            if not allowed_units:
+                raise CemesError(
+                    "Este perfil não possui permissão para pegar vagas livres.", 403
+                )
+            if len(allowed_units) == 1:
+                target_unit_id = next(iter(allowed_units))
+            else:
+                try:
+                    target_unit_id = int(data.get("unit_id"))
+                except (TypeError, ValueError):
+                    target_unit_id = 0
+            if target_unit_id not in allowed_units:
+                raise CemesError(
+                    "Selecione uma unidade permitida para receber a vaga livre.", 403
+                )
+            target_unit = _row(
+                db.execute(
+                    "SELECT id,name FROM units WHERE id=? AND active=1",
+                    (target_unit_id,),
+                ).fetchone()
+            )
+            if not target_unit:
+                raise CemesError("A unidade de destino está inativa ou não existe.", 409)
+
+            before = slot_by_id(db, slot_id)
+            if not before:
+                raise CemesError("Vaga livre não encontrada.", 404)
+            if not before["is_free_pool"]:
+                raise CemesError("Esta vaga já pertence a uma unidade.", 409)
+            if before["status"] != "active" or before["quantity"] < 1:
+                raise CemesError(
+                    "Outra unidade já pegou a última vaga livre disponível.", 409
+                )
+            maximum = before["service_time_max"] or before["service_time"]
+            if datetime.fromisoformat(
+                f"{before['service_date']}T{maximum}:00"
+            ) < datetime.now():
+                raise CemesError("Esta agenda já encerrou e não pode mais ser retirada.", 409)
+
+            target_slot = _row(
+                db.execute(
+                    """
+                    SELECT id FROM slots
+                    WHERE is_free_pool=0 AND status='active'
+                      AND unit_id=? AND procedure_id=? AND service_date=?
+                      AND service_time=? AND COALESCE(service_time_max,service_time)=?
+                      AND COALESCE(doctor_id,0)=COALESCE(?,0)
+                      AND COALESCE(location,'')=COALESCE(?,'')
+                    ORDER BY id LIMIT 1
+                    """,
+                    (
+                        target_unit_id,
+                        before["procedure_id"],
+                        before["service_date"],
+                        before["service_time"],
+                        maximum,
+                        before["doctor_id"],
+                        before["location"],
+                    ),
+                ).fetchone()
+            )
+            if target_slot:
+                db.execute(
+                    """
+                    UPDATE slots SET quantity=quantity+1,updated_at=CURRENT_TIMESTAMP
+                    WHERE id=?
+                    """,
+                    (target_slot["id"],),
+                )
+                target_slot_id = int(target_slot["id"])
+            else:
+                overlapping = db.execute(
+                    """
+                    SELECT id FROM slots
+                    WHERE is_free_pool=0 AND status='active'
+                      AND unit_id=? AND procedure_id=? AND service_date=?
+                      AND service_time<=?
+                      AND COALESCE(service_time_max,service_time)>=?
+                    LIMIT 1
+                    """,
+                    (
+                        target_unit_id,
+                        before["procedure_id"],
+                        before["service_date"],
+                        maximum,
+                        before["service_time"],
+                    ),
+                ).fetchone()
+                if overlapping:
+                    raise CemesError(
+                        "A unidade já possui uma agenda sobreposta deste procedimento. "
+                        "A Regulação deve conferir antes da retirada.",
+                        409,
+                    )
+                assigned = insert_slot(
+                    db,
+                    {
+                        "unit_id": target_unit_id,
+                        "procedure_id": before["procedure_id"],
+                        "service_date": before["service_date"],
+                        "service_time": before["service_time"],
+                        "service_time_max": maximum,
+                        "quantity": 1,
+                        "doctor_id": before["doctor_id"],
+                        "provider": before["provider"],
+                        "location": before["location"],
+                        "notes": (
+                            f"Vaga livre retirada por {g.cmvr_user['name']} "
+                            f"para {target_unit['name']}."
+                        ),
+                    },
+                    g.cmvr_user["id"],
+                    request.remote_addr,
+                    do_audit=False,
+                )
+                target_slot_id = int(assigned["id"])
+
+            free_remaining = int(before["quantity"]) - 1
+            if free_remaining:
+                db.execute(
+                    """
+                    UPDATE slots SET quantity=?,updated_at=CURRENT_TIMESTAMP WHERE id=?
+                    """,
+                    (free_remaining, slot_id),
+                )
+            else:
+                note = (
+                    f"Última vaga livre retirada por {g.cmvr_user['name']} "
+                    f"para {target_unit['name']}."
+                )
+                db.execute(
+                    """
+                    UPDATE slots SET status='transferred',
+                    notes=CASE WHEN notes IS NULL OR notes='' THEN ? ELSE notes||char(10)||? END,
+                    updated_at=CURRENT_TIMESTAMP WHERE id=?
+                    """,
+                    (note, note, slot_id),
+                )
+            claim_cursor = db.execute(
+                """
+                INSERT INTO free_slot_claims(
+                    free_slot_id,target_slot_id,unit_id,claimed_by
+                ) VALUES(?,?,?,?)
+                """,
+                (slot_id, target_slot_id, target_unit_id, g.cmvr_user["id"]),
+            )
+            assigned_slot = slot_by_id(db, target_slot_id)
+            result = {
+                "id": claim_cursor.lastrowid,
+                "free_slot_id": slot_id,
+                "free_remaining": free_remaining,
+                "unit_id": target_unit_id,
+                "unit_name": target_unit["name"],
+                "assigned_slot": assigned_slot,
+                "message": (
+                    f"Vaga livre destinada para {target_unit['name']}. "
+                    "Ela ainda deverá ser marcada como utilizada após o agendamento."
+                ),
+            }
+            store.audit(
+                db,
+                "CLAIM_FREE_SLOT",
+                "free_slot_claim",
+                claim_cursor.lastrowid,
+                user_id=g.cmvr_user["id"],
+                before=before,
                 after=result,
                 ip=request.remote_addr,
             )
@@ -1766,6 +2077,11 @@ def register_cemes_routes(app):
             slot = slot_by_id(db, slot_id)
             if not slot:
                 raise CemesError("Vaga não encontrada.", 404)
+            if slot["is_free_pool"]:
+                raise CemesError(
+                    "Pegue a vaga livre para uma unidade antes de marcá-la como utilizada.",
+                    409,
+                )
             if not can_use_slot(g.cmvr_user, slot):
                 raise CemesError(
                     "Este perfil não possui permissão para marcar a utilização desta vaga.", 403
@@ -1841,6 +2157,10 @@ def register_cemes_routes(app):
             before = slot_by_id(db, slot_id)
             if not before:
                 raise CemesError("Vaga não encontrada.", 404)
+            if before["is_free_pool"]:
+                raise CemesError(
+                    "Use a opção “Pegar vaga” para destinar uma vaga livre.", 409
+                )
             if before["used"] > 0:
                 raise CemesError("Não é possível transferir uma vaga que já possui utilização.", 409)
             if not db.execute(
@@ -1984,6 +2304,36 @@ def register_cemes_routes(app):
             )
         return jsonify(result)
 
+    @app.route("/Cemes/api/free-slot-claims")
+    @api_guard
+    @require_auth
+    def cemes_free_slot_claims():
+        unit_id = scoped_unit_id(g.cmvr_user)
+        where = "WHERE c.unit_id=?" if unit_id else ""
+        params = (unit_id,) if unit_id else ()
+        with store.connection() as db:
+            result = _rows(
+                db.execute(
+                    f"""
+                    SELECT c.id,c.free_slot_id,c.target_slot_id,c.unit_id,c.created_at,
+                           u.name unit_name,p.name procedure_name,
+                           fs.service_date,fs.service_time,fs.service_time_max,
+                           COALESCE(d.name,fs.provider) doctor_name,fs.location,
+                           usr.name operator_name
+                    FROM free_slot_claims c
+                    JOIN units u ON u.id=c.unit_id
+                    JOIN slots fs ON fs.id=c.free_slot_id
+                    JOIN procedures p ON p.id=fs.procedure_id
+                    LEFT JOIN doctors d ON d.id=fs.doctor_id
+                    LEFT JOIN users usr ON usr.id=c.claimed_by
+                    {where}
+                    ORDER BY c.created_at DESC,c.id DESC LIMIT 2000
+                    """,
+                    params,
+                ).fetchall()
+            )
+        return jsonify(result)
+
     @app.route("/Cemes/api/bookings/manual", methods=["POST"])
     @api_guard
     @require_auth
@@ -2068,7 +2418,7 @@ def register_cemes_routes(app):
                     WHERE s.unit_id=? AND s.procedure_id=? AND s.service_date=?
                       AND s.service_time<=?
                       AND COALESCE(s.service_time_max,s.service_time)>=?
-                      AND s.status='active'
+                      AND s.status='active' AND s.is_free_pool=0
                       AND (SELECT COUNT(*) FROM bookings b
                            WHERE b.slot_id=s.id AND b.status='confirmed')<s.quantity
                     ORDER BY s.id LIMIT 1
@@ -2182,7 +2532,7 @@ def register_cemes_routes(app):
                         SELECT s.* FROM slots s WHERE s.unit_id=? AND s.procedure_id=?
                         AND s.service_date=? AND s.service_time<=?
                         AND COALESCE(s.service_time_max,s.service_time)>=?
-                        AND s.status='active'
+                        AND s.status='active' AND s.is_free_pool=0
                         AND (SELECT COUNT(*) FROM bookings b
                         WHERE b.slot_id=s.id AND b.status='confirmed')<s.quantity
                         ORDER BY s.id LIMIT 1
@@ -2661,6 +3011,7 @@ def register_cemes_routes(app):
                 device["unit_id"],
                 date_from=datetime.now().strftime("%Y-%m-%d"),
                 available_only=True,
+                include_free_pool=False,
             )
             procedures = _rows(
                 db.execute(
