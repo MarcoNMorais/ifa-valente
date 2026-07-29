@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#075985">
+  <title>CMVR — Controle Municipal de Vagas</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+  <main id="login-view" class="login-shell">
+    <section class="login-brand">
+      <img
+        class="prefeitura-banner"
+        src="./assets/prefeitura-valente-2025.png"
+        alt="Prefeitura de Valente — União e Trabalho"
+      >
+      <div class="health-lockup" aria-label="Secretaria Municipal da Saúde de Valente">
+        <svg viewBox="0 0 64 64" aria-hidden="true">
+          <path d="M23 5h18v18h18v18H41v18H23V41H5V23h18z"></path>
+          <path class="health-pulse" d="M13 33h11l4-9 8 18 4-9h11"></path>
+        </svg>
+        <div>
+          <b>Secretaria Municipal da Saúde</b>
+          <span>Valente • Bahia</span>
+        </div>
+      </div>
+      <p class="eyebrow">CEMES • Central Municipal de Regulação</p>
+      <h1>Controle Municipal de Vagas e Marcação</h1>
+      <p class="login-lead">Tecnologia para organizar consultas e procedimentos, conectar as unidades e acompanhar cada vaga com transparência.</p>
+      <div class="login-points">
+        <span><i>✓</i> Distribuição organizada entre todas as unidades</span>
+        <span><i>✓</i> Histórico e saldo atualizados com segurança</span>
+        <span><i>✓</i> Integração com a Regulação do Ministério da Saúde</span>
+      </div>
+    </section>
+    <section class="login-card-wrap">
+      <form id="login-form" class="login-card">
+        <div class="login-system">
+          <div class="brand-mark">CM</div>
+          <div><b>CMVR</b><span>CEMES • Marcação</span></div>
+        </div>
+        <p class="eyebrow blue">Acesso seguro</p>
+        <h2>Acessar o sistema</h2>
+        <p>Use seu usuário e senha para continuar.</p>
+        <label>Usuário<input name="username" autocomplete="username" required autofocus></label>
+        <label>Senha<input name="password" type="password" autocomplete="current-password" required></label>
+        <button class="primary wide" type="submit">Entrar no sistema</button>
+        <p class="form-error" id="login-error"></p>
+        <div class="login-signature">
+          <img src="./assets/brasao-valente.png" alt="">
+          <span>Secretaria Municipal da Saúde<br><b>Prefeitura de Valente</b></span>
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <div id="app-view" class="app-shell hidden">
+    <aside class="sidebar" id="sidebar">
+      <div class="sidebar-brand"><div class="brand-mark">CM</div><div><b>CMVR</b><span>CEMES • Valente</span></div></div>
+      <nav id="main-nav" aria-label="Navegação principal">
+        <button data-page="dashboard" class="active"><span>▦</span>Painel</button>
+        <button data-page="vagas"><span>◫</span>Agenda de vagas</button>
+        <button data-page="historico"><span>↻</span>Histórico</button>
+        <button data-page="pendencias"><span>!</span>Pendências <i id="pending-badge">0</i></button>
+        <button data-page="relatorios"><span>▤</span>Relatórios</button>
+        <button data-page="cadastros" data-roles="admin,regulacao"><span>＋</span>Cadastros</button>
+        <button data-page="administracao" data-roles="admin"><span>⚙</span>Administração</button>
+      </nav>
+      <div class="sidebar-foot"><div class="status-dot"></div><div><b>Sistema conectado</b><span>Dados protegidos</span></div></div>
+    </aside>
+
+    <div class="app-main">
+      <header class="topbar">
+        <button id="menu-toggle" class="icon-btn menu-btn" aria-label="Abrir menu">☰</button>
+        <div><p id="page-kicker">Visão geral</p><h1 id="page-title">Painel de vagas</h1></div>
+        <div class="topbar-actions">
+          <div id="sync-status" class="sync-pill"><span></span>Atualizado agora</div>
+          <button id="user-menu" class="user-chip"><span id="user-initials">MM</span><div><b id="user-name">Usuário</b><small id="user-role">Perfil</small></div></button>
+          <button id="logout-button" class="icon-btn" title="Sair" aria-label="Sair">↪</button>
+        </div>
+      </header>
+
+      <section id="page-content" class="content" tabindex="-1"></section>
+    </div>
+  </div>
+
+  <dialog id="form-dialog">
+    <form method="dialog" class="dialog-card" id="dialog-form">
+      <header><div><p class="eyebrow blue" id="dialog-kicker">Cadastro</p><h2 id="dialog-title">Nova informação</h2></div><button type="button" id="dialog-close" class="close-btn" aria-label="Fechar">×</button></header>
+      <div id="dialog-body" class="dialog-body"></div>
+      <p class="form-error" id="dialog-error"></p>
+      <footer><button type="button" id="dialog-cancel" class="secondary">Cancelar</button><button type="submit" id="dialog-submit" class="primary">Salvar</button></footer>
+    </form>
+  </dialog>
+
+  <script type="module" src="./app.js"></script>
+</body>
+</html>

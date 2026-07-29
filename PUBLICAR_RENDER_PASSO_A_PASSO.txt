@@ -1,51 +1,91 @@
-# PUBLICAR O IFA VALENTE COMO SITE ONLINE
+PUBLICAR NO MESMO GITHUB E NO MESMO RENDER — SEM CRIAR OUTRO PLANO
 
-Este pacote mantém o sistema exatamente como está.
-Foram adicionadas apenas orientações de publicação.
+Este pacote foi preparado para atualizar o repositório e o serviço que já
+existem. Não crie novo repositório, Blueprint, Web Service ou Persistent Disk.
 
-IMPORTANTE:
-- Não hospedar no GitHub Pages, pois o sistema tem login, banco de dados e rotas Flask.
-- Usar Render, Railway, VPS ou outro servidor Python.
-- O arquivo render.yaml já está configurado para Render com banco persistente em /var/data.
+ANTES DE ENVIAR
 
-PASSO A PASSO NO RENDER
+1. Baixe um backup do IFA.
+2. Baixe um backup do CIS.
+3. Baixe/exporte os dados do Estoque Hospitalar.
+4. No Render, confirme que o disco atual está montado em /var/data.
+5. Não exclua nem recrie o serviço atual.
 
-1. Envie a pasta IFA_Valente para um repositório no GitHub.
-2. Entre em https://render.com
-3. Clique em New + > Blueprint.
-4. Selecione o repositório do GitHub.
-5. O Render vai ler o arquivo render.yaml automaticamente.
-6. Confirme a criação do serviço.
-7. Aguarde o build finalizar.
-8. O site ficará disponível em um endereço parecido com:
-   https://secsaudevalente.com.br/ifa
+GITHUB — ATUALIZAR O REPOSITÓRIO EXISTENTE
 
-CONFIGURAÇÕES JÁ PRONTAS
+1. Extraia o ZIP entregue.
+2. Abra no GitHub o mesmo repositório que já publica secsaudevalente.com.br.
+3. Entre na raiz do repositório.
+4. Clique em Add file > Upload files.
+5. Arraste o conteúdo de dentro da pasta extraída, e não a pasta por fora.
+6. Aceite substituir os arquivos com o mesmo nome.
+7. Confirme que também foram enviados:
+   - Cemes/
+   - CemesExtensao/
+   - docs/CEMES/
+   - cemes_routes.py
+   - server.py
+   - render.yaml
+   - requirements.txt
+8. Use a mensagem: CEMES integrado ao mesmo serviço.
+9. Clique em Commit changes.
 
-Build Command:
-pip install -r requirements.txt
+RENDER — USAR O SERVIÇO ATUAL
 
-Start Command:
-gunicorn app:app --bind 0.0.0.0:$PORT --workers 1 --threads 8
+1. Abra o serviço atual ifa-valente.
+2. Não clique em New, Blueprint ou New Web Service.
+3. Em Settings, mantenha:
 
-Variáveis:
-SECRET_KEY = gerada automaticamente
-IFA_DATA_DIR = /var/data
+   Build Command:
+   pip install -r requirements.txt
 
-Disco persistente:
-Nome: ifa-valente-data
-Caminho: /var/data
-Tamanho: 1 GB
+   Start Command:
+   gunicorn server:app --bind 0.0.0.0:$PORT --workers 1 --threads 8 --timeout 120
 
-ACESSOS INICIAIS
+   Variável:
+   IFA_DATA_DIR=/var/data
 
-Administrador:
-Usuário: admin
-Senha: Admin@2026
+   Disco:
+   mountPath=/var/data
 
-Regulador:
-Usuário: regulador
-Senha: Regula@2026
+4. Não troque o nome, o caminho ou o disco persistente.
+5. Abra Manual Deploy > Deploy latest commit.
+6. Aguarde o status Live.
 
-RECOMENDAÇÃO:
-Após publicar online, entre como ADM e troque as senhas padrão.
+POR QUE OS DADOS ANTIGOS NÃO SÃO SOBRESCRITOS
+
+- IFA continua em /var/data/ifa_valente.db.
+- CIS continua em /var/data/cis/cis_database.json.
+- CEMES cria /var/data/cemes/cmvr.db.
+- Os backups do CEMES ficam em /var/data/cemes/backups.
+- O deploy atualiza o código; o Persistent Disk continua anexado.
+
+TESTE DEPOIS DO DEPLOY
+
+1. Abra https://secsaudevalente.com.br/
+2. Confirme os quatro botões.
+3. Teste:
+   - https://secsaudevalente.com.br/ifa
+   - https://secsaudevalente.com.br/CIS
+   - https://secsaudevalente.com.br/EstoqueHospital
+   - https://secsaudevalente.com.br/Cemes
+4. Abra https://secsaudevalente.com.br/Cemes/api/health
+5. Confirme que aparece "status": "ok".
+6. Entre no CEMES, distribua uma agenda pequena e gere um backup.
+7. Faça novo Deploy latest commit e confirme que a agenda permanece.
+
+SE O DEPLOY NÃO ABRIR
+
+1. Leia a primeira mensagem vermelha em Logs.
+2. Confirme que o Start Command usa server:app, e não app:app.
+3. Em Events, use Rollback para a versão anterior.
+4. Não apague nem restaure o disco.
+
+ACESSOS INICIAIS DO CEMES
+
+Administrador: admin / Admin@123
+Regulação: regulacao / Regulacao@123
+Gestor: gestor / Gestor@123
+Unidades: senha inicial Unidade@123
+
+O sistema solicita troca da senha no primeiro acesso.

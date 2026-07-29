@@ -1,6 +1,8 @@
-# IFA Valente — Avaliação de Desempenho
+# Secretaria Municipal de Saúde de Valente — Sistemas integrados
 
-Sistema web em Flask + SQLite para cadastro e avaliação dos Agentes Comunitários de Saúde (ACS) e Agentes de Combate às Endemias (ACE), baseado no Anexo I da Portaria municipal de 2026.
+Um único projeto Flask e um único serviço Render para IFA, CIS, Estoque
+Hospitalar e CEMES/Marcação. Cada módulo mantém seus dados em área própria
+do mesmo disco persistente.
 
 ## Páginas e endereços
 
@@ -11,6 +13,10 @@ Sistema web em Flask + SQLite para cadastro e avaliação dos Agentes Comunitár
 - `/ifa/cadastro` — ACS/ACE e Unidades de Saúde
 - `/ifa/criterios` — indicadores e faixas de pontuação
 - `/ifa/administracao` — usuários, auditoria, backup automático/manual e restauração (somente ADM)
+- `/CIS` — regulação CIS
+- `/EstoqueHospital` — estoque hospitalar
+- `/Cemes/` — Controle Municipal de Vagas e Marcação
+- `/Cemes/api/health` — verificação do módulo CEMES
 
 ## Unidades de Saúde cadastradas
 
@@ -42,7 +48,7 @@ python -m venv .venv
 # Windows: .venv\Scripts\activate
 # Linux/macOS: source .venv/bin/activate
 pip install -r requirements.txt
-python app.py
+python server.py
 ```
 
 ## Backup
@@ -62,6 +68,17 @@ SECRET_KEY=uma-chave-secreta-forte
 ```
 
 Sem disco persistente, hospedagens com sistema de arquivos temporário podem apagar o banco em reinícios ou novas publicações.
+
+No Render existente, mantenha um único serviço, o disco montado em
+`/var/data` e o comando:
+
+```text
+gunicorn server:app --bind 0.0.0.0:$PORT --workers 1 --threads 8 --timeout 120
+```
+
+O CEMES salva isoladamente em `/var/data/cemes/cmvr.db`. Ele não substitui
+o banco do IFA nem o arquivo do CIS. Consulte
+`LEIA-ME_CEMES_INTEGRADO.txt` antes de publicar.
 
 ## Regras implementadas
 

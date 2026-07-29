@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "CMVR — Registro de Vagas",
+  "version": "1.7.0",
+  "description": "Registra no controle municipal as vagas agendadas no portal da regulação.",
+  "permissions": ["storage", "alarms"],
+  "optional_host_permissions": ["http://*/*", "https://*/*"],
+  "host_permissions": ["https://regulacao.saude.gov.br/*"],
+  "background": { "service_worker": "background.js" },
+  "action": { "default_title": "CMVR", "default_popup": "popup.html" },
+  "content_scripts": [
+    {
+      "matches": ["https://regulacao.saude.gov.br/*", "http://localhost/*", "http://127.0.0.1/*"],
+      "js": ["detector.js", "content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}

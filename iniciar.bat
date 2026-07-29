@@ -20,5 +20,5 @@ if not exist ".venv\Scripts\python.exe" (
   call .venv\Scripts\activate.bat
 )
 start "" /b .venv\Scripts\python.exe -c "import time,webbrowser; time.sleep(2); webbrowser.open('http://127.0.0.1:5000/ifa')"
-python app.py
+python server.py
 pause

@@ -1,0 +1,106 @@
+CEMES INTEGRADO AO IFA VALENTE — MESMO GITHUB E MESMO RENDER
+Versão: 1.7.0
+
+O QUE ESTA VERSÃO FAZ
+
+- Mantém IFA, CIS e Estoque Hospitalar no mesmo repositório e serviço Render.
+- Adiciona o CEMES em https://secsaudevalente.com.br/Cemes
+- Usa o mesmo disco persistente já pago, mas com banco isolado.
+- Não substitui nem importa nenhum banco existente.
+
+CAMINHOS NO DISCO PERSISTENTE
+
+- IFA: permanece no caminho atual dentro de /var/data
+- CIS: permanece em /var/data/cis
+- CEMES: /var/data/cemes/cmvr.db
+- Backups do CEMES: /var/data/cemes/backups
+
+ANTES DE PUBLICAR
+
+1. Entre no IFA e baixe um backup.
+2. Entre no CIS e baixe um backup.
+3. Entre no Estoque Hospitalar e baixe um backup.
+4. No GitHub, confirme que está no repositório ifa-valente.
+5. Não exclua o serviço Render e não desconecte o disco /var/data.
+
+PUBLICAÇÃO NO GITHUB
+
+1. Extraia este ZIP no computador.
+2. Abra o repositório ifa-valente no GitHub.
+3. Clique em Add file > Upload files.
+4. Envie todo o conteúdo da pasta extraída para a raiz do repositório.
+5. Confirme a substituição dos arquivos com o mesmo nome.
+6. Escreva: "CEMES integrado ao mesmo serviço".
+7. Clique em Commit changes.
+
+PUBLICAÇÃO NO RENDER
+
+1. Abra o serviço atual ifa-valente.
+2. Não crie outro serviço.
+3. Não altere o Persistent Disk.
+4. Confira em Settings que o Start Command é:
+
+gunicorn server:app --bind 0.0.0.0:$PORT --workers 1 --threads 8 --timeout 120
+
+5. Confira que IFA_DATA_DIR continua /var/data.
+6. Clique em Manual Deploy > Deploy latest commit.
+7. Aguarde aparecer Live.
+
+TESTE APÓS A PUBLICAÇÃO
+
+1. Abra https://secsaudevalente.com.br/
+2. Teste os botões IFA, CIS e Estoque.
+3. Abra https://secsaudevalente.com.br/Cemes/api/health
+4. O resultado deve mostrar "status": "ok".
+5. Abra https://secsaudevalente.com.br/Cemes
+6. Entre com o acesso inicial abaixo.
+
+ACESSOS INICIAIS DO CEMES
+
+Administrador:
+Usuário: admin
+Senha: Admin@123
+
+Regulação:
+Usuário: regulacao
+Senha: Regulacao@123
+
+Gestor:
+Usuário: gestor
+Senha: Gestor@123
+
+Perfis das unidades:
+Usuários: centro, valilandia, casaspopulares, cidadenova,
+juazeiropetrolina, queimada, santarita, tanquinho, junco,
+drantonio, secretaria, cemes e cis
+Senha inicial comum: Unidade@123
+
+O sistema solicita a troca da senha no primeiro acesso.
+
+TESTE DE PERSISTÊNCIA DO CEMES
+
+1. Distribua uma pequena agenda.
+2. Gere um backup na Administração.
+3. No Render, faça Deploy latest commit novamente.
+4. Entre no CEMES e confirme que a agenda continua registrada.
+5. Confirme que IFA, CIS e Estoque continuam com seus dados.
+
+EXTENSÃO
+
+1. A pasta para instalação é CemesExtensao.
+2. No Chrome, abra chrome://extensions.
+3. Ative o Modo do desenvolvedor.
+4. Clique em Carregar sem compactação.
+5. Escolha a pasta CemesExtensao.
+6. No CEMES, entre como administrador e gere uma chave para o computador.
+7. Configure a extensão com:
+   https://secsaudevalente.com.br/Cemes
+8. Cole a chave gerada e teste a conexão.
+
+COMO VOLTAR SE HOUVER PROBLEMA
+
+1. No Render, abra Events.
+2. Use Rollback para a publicação anterior.
+3. Não restaure nem remova nenhum disco.
+4. Como o banco do CEMES fica em pasta separada, o rollback do código não
+   altera os bancos do IFA, CIS ou Estoque.

@@ -8,4 +8,4 @@ if [ ! -d .venv ]; then
 else
   . .venv/bin/activate
 fi
-python app.py
+python server.py

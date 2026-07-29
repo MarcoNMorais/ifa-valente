@@ -195,7 +195,7 @@
       color: #1a6fa7;
     }
 
-.botao-hospital {
+    .botao-hospital {
       grid-column: 1;
       grid-row: 2;
       height: 96px;
@@ -215,6 +215,37 @@
       max-height: 46px;
       object-fit: contain;
       flex: 0 0 74px;
+    }
+
+    .botao-cemes {
+      grid-column: 2;
+      grid-row: 2;
+      flex-direction: row;
+      padding: 18px 22px;
+      gap: 14px;
+    }
+
+    .botao-icone-cemes {
+      width: 48px;
+      height: 48px;
+      flex: 0 0 48px;
+      display: grid;
+      place-items: center;
+      border-radius: 15px;
+      background: linear-gradient(145deg, #cffafe, #bae6fd);
+      color: #075985;
+      font-size: 18px;
+      font-weight: 900;
+      box-shadow: inset 0 0 0 1px rgba(7, 89, 133, 0.08);
+    }
+
+    .botao-cemes .botao-titulo {
+      color: #075985;
+      font-size: 25px;
+    }
+
+    .botao-cemes .botao-desc {
+      font-size: 13px;
     }
 
     @media (max-width: 980px) {
@@ -277,7 +308,8 @@
         gap: 16px;
       }
 
-      .botao-hospital {
+      .botao-hospital,
+      .botao-cemes {
         grid-column: auto;
         grid-row: auto;
       }
@@ -351,6 +383,14 @@
         <span class="botao-texto">
           <span class="botao-titulo">Estoque</span>
           <span class="botao-desc">Hospital Municipal</span>
+        </span>
+      </a>
+
+      <a class="botao-sistema botao-cemes" href="/Cemes" aria-label="Acessar CEMES Marcação">
+        <span class="botao-icone-cemes" aria-hidden="true">CM</span>
+        <span class="botao-texto">
+          <span class="botao-titulo">CEMES</span>
+          <span class="botao-desc">Vagas e marcação</span>
         </span>
       </a>
 
