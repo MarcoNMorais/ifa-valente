@@ -3,16 +3,45 @@ const BASE = "/EstoqueHospital";
 const LOGIN_KEY = "estoqueHospitalSessao";
 const CAD_KEY = "estoqueHospitalCadastros";
 
-const USERS = {
-  "Admin": { senha: "Vitoria04", perfil: "ADM", nome: "Administrador" },
-  "admin": { senha: "Vitoria04", perfil: "ADM", nome: "Administrador" },
-  "Coordenador": { senha: "Vitoria04", perfil: "COORDENADOR", nome: "Coordenador" },
-  "coordenador": { senha: "Vitoria04", perfil: "COORDENADOR", nome: "Coordenador" }
-};
+const USER_STORE_KEY = "estoqueHospitalUsuarios";
+
+const DEFAULT_USERS = [
+  { usuario: "Admin", senha: "Vitoria04", perfil: "ADM", nome: "Administrador", padrao: true },
+  { usuario: "Coordenador", senha: "Vitoria04", perfil: "COORDENADOR", nome: "Coordenador", padrao: true }
+];
 
 let DATA = { resumo:{}, itens:[], movimentacoes:[] };
 let SESSION = null;
 let CURRENT_PAGE = "VisaoGeral";
+
+function normUser(v){ return String(v || "").trim().toLowerCase(); }
+function getPortalUsers(){
+  try{
+    const salvos = JSON.parse(localStorage.getItem(USER_STORE_KEY) || "[]");
+    return Array.isArray(salvos) ? salvos : [];
+  }catch{
+    return [];
+  }
+}
+function savePortalUsers(users){
+  localStorage.setItem(USER_STORE_KEY, JSON.stringify(users || []));
+}
+function allPortalUsers(){
+  const custom = getPortalUsers().filter(u => u && u.usuario && u.senha);
+  const usados = new Set();
+  const out = [];
+  [...DEFAULT_USERS, ...custom].forEach(u=>{
+    const key = normUser(u.usuario);
+    if(!key || usados.has(key)) return;
+    usados.add(key);
+    out.push(u);
+  });
+  return out;
+}
+function findLoginUser(usuario){
+  const key = normUser(usuario);
+  return allPortalUsers().find(u => normUser(u.usuario) === key) || null;
+}
 
 function money(n){ return Number(n || 0).toLocaleString("pt-BR"); }
 function esc(v){
@@ -142,9 +171,9 @@ function renderLogin(){
     e.preventDefault();
     const u = document.getElementById("loginUser").value.trim();
     const p = document.getElementById("loginPass").value;
-    const found = USERS[u];
+    const found = findLoginUser(u);
     if(found && found.senha === p){
-      saveSession({ usuario:u, nome:found.nome, perfil:found.perfil, entrada:new Date().toISOString() });
+      saveSession({ usuario:found.usuario, nome:found.nome || found.usuario, perfil:found.perfil || "COORDENADOR", entrada:new Date().toISOString() });
       go("VisaoGeral");
     }else{
       document.getElementById("loginAlert").innerHTML = `<div class="alert">Usuário ou senha inválidos.</div>`;
@@ -159,7 +188,7 @@ function menuButton(page, icon, label){
 
 function renderShell(content){
   const adminMenus = isAdm() ? `
-    ${menuButton("Cadastro","📝","Cadastro")}
+    ${menuButton("Cadastro","👤","Usuários")}
     ${menuButton("Backup","💾","Backup")}
   ` : "";
   document.getElementById("app").innerHTML = `
@@ -517,48 +546,68 @@ function filtrarMov(){
   document.getElementById("movTabela").innerHTML = tabelaMovDetalhada(rows);
 }
 
-function getCadastros(){
-  try{return JSON.parse(localStorage.getItem(CAD_KEY)||"[]");}catch{return[]}
-}
-function saveCadastros(v){ localStorage.setItem(CAD_KEY, JSON.stringify(v)); }
+function perfilTextoUsuario(p){ return p === "ADM" ? "Administrador" : "Coordenador"; }
 function renderCadastro(){
   if(!isAdm()){ go("VisaoGeral"); return; }
-  const cad = getCadastros();
+  const usuariosCadastrados = getPortalUsers();
+  const usuariosTela = allPortalUsers();
   renderShell(`
-    ${pageHeader("Cadastro", "Registros administrativos do portal.")}
+    ${pageHeader("Usuários", "Cadastro de usuários para acesso ao portal online. Não cadastra produtos.")}
     <section class="grid two-col">
       <div class="card">
-        <div class="section-head"><div><h2>Novo registro</h2><p>Cadastro complementar para acompanhamento administrativo.</p></div></div>
-        <form id="cadForm">
+        <div class="section-head"><div><h2>Novo usuário</h2><p>Crie acesso para conferência do site online.</p></div></div>
+        <form id="userForm">
           <div class="form-grid">
-            <div class="field"><label>Item / assunto</label><input id="cadNome" required></div>
-            <div class="field"><label>Tipo</label><input id="cadTipo"></div>
-            <div class="field"><label>Quantidade</label><input id="cadQtd" type="number" min="0"></div>
-            <div class="field"><label>Setor</label><input id="cadSetor"></div>
+            <div class="field"><label>Nome</label><input id="userNome" required placeholder="Nome do usuário"></div>
+            <div class="field"><label>Usuário de login</label><input id="userLogin" required placeholder="Ex: farmacia"></div>
+            <div class="field"><label>Senha</label><input id="userSenha" type="password" required placeholder="Senha de acesso"></div>
+            <div class="field"><label>Perfil</label><select id="userPerfil"><option value="COORDENADOR">Coordenador / Consulta</option><option value="ADM">Administrador</option></select></div>
           </div>
-          <div class="field"><label>Observação</label><textarea id="cadObs" rows="4"></textarea></div>
-          <div class="form-actions"><button class="btn btn-primary">Salvar</button></div>
+          <div class="kpi-note" style="margin-top:12px">
+            Este cadastro é somente para login do portal online. Não altera produtos, estoque, movimentações nem banco de dados.
+          </div>
+          <div id="userAlert"></div>
+          <div class="form-actions"><button class="btn btn-primary">Salvar usuário</button></div>
         </form>
       </div>
       <div class="card">
-        <div class="section-head"><div><h2>Registros</h2><p>Acompanhamento complementar.</p></div></div>
-        <div id="cadLista">${cad.map((c,idx)=>`<div class="kpi-note" style="margin-bottom:10px">
-          <strong>${esc(c.nome)}</strong><br>${esc(c.tipo)} • Qtd: ${esc(c.qtd)} • ${esc(c.setor)}<br>
-          <span>${esc(c.obs)}</span><br>
-          <button class="btn btn-danger" style="margin-top:8px" onclick="delCad(${idx})">Excluir</button>
-        </div>`).join("") || `<div class="empty">Nenhum registro encontrado.</div>`}</div>
+        <div class="section-head"><div><h2>Usuários do portal</h2><p>Contas liberadas para entrar no site.</p></div></div>
+        <div id="userLista">${usuariosTela.map((u,idx)=>`
+          <div class="kpi-note" style="margin-bottom:10px">
+            <strong>${esc(u.nome || u.usuario)}</strong><br>
+            Login: <strong>${esc(u.usuario)}</strong> • Perfil: ${perfilTextoUsuario(u.perfil)}<br>
+            ${u.padrao ? `<span>Usuário padrão do sistema</span>` : `<button class="btn btn-danger" style="margin-top:8px" onclick="delUsuarioPortal('${esc(u.usuario)}')">Excluir</button>`}
+          </div>`).join("") || `<div class="empty">Nenhum usuário encontrado.</div>`}</div>
       </div>
     </section>
   `);
-  document.getElementById("cadForm").addEventListener("submit",e=>{
+  document.getElementById("userForm").addEventListener("submit",e=>{
     e.preventDefault();
-    const cad = getCadastros();
-    cad.unshift({nome:cadNome.value,tipo:cadTipo.value,qtd:cadQtd.value,setor:cadSetor.value,obs:cadObs.value,data:new Date().toLocaleString("pt-BR")});
-    saveCadastros(cad);
+    const nome = document.getElementById("userNome").value.trim();
+    const usuario = document.getElementById("userLogin").value.trim();
+    const senha = document.getElementById("userSenha").value;
+    const perfil = document.getElementById("userPerfil").value;
+    const alert = document.getElementById("userAlert");
+    if(!nome || !usuario || !senha){
+      alert.innerHTML = `<div class="alert">Preencha nome, usuário e senha.</div>`;
+      return;
+    }
+    if(findLoginUser(usuario)){
+      alert.innerHTML = `<div class="alert">Já existe usuário com esse login.</div>`;
+      return;
+    }
+    const users = getPortalUsers();
+    users.unshift({nome, usuario, senha, perfil, criado_em:new Date().toLocaleString("pt-BR")});
+    savePortalUsers(users);
     renderCadastro();
   });
 }
-function delCad(i){ const c=getCadastros(); c.splice(i,1); saveCadastros(c); renderCadastro(); }
+function delUsuarioPortal(usuario){
+  const key = normUser(usuario);
+  const users = getPortalUsers().filter(u => normUser(u.usuario) !== key);
+  savePortalUsers(users);
+  renderCadastro();
+}
 
 function renderBackup(){
   if(!isAdm()){ go("VisaoGeral"); return; }
