@@ -50,8 +50,10 @@ function esc(v){
 function totalItem(i){
   return Number(i.total ?? 0) || (Number(i.almoxarifado||0)+Number(i.farmacia||0)+Number(i.sala_medicacoes||0)+Number(i.internamento||0)+Number(i.sala_cirurgica||0)+Number(i.baixa||0)+Number(i.outro||0));
 }
+function validadeItem(i){ return i.validade_mais_proxima || i.vencimento_mais_proximo || i.validade || ""; }
+function minimoItem(i){ return Number((i.minimo_alerta ?? i.previsao_20_dias ?? i.minimo) || 0); }
 function statusItem(i){
-  const t=totalItem(i), m=Number(i.minimo||0);
+  const t=totalItem(i), m=minimoItem(i);
   if(t<=0) return ["zero","Zerado"];
   if(m>0 && t<=m) return ["warn","Perto de terminar"];
   return ["ok","Normal"];
