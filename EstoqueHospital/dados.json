@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "20/08/2026 16:27:19",
+  "atualizado_em": "20/08/2026 16:27:32",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
-    "total_almoxarifado": 91844,
-    "total_farmacia": 30940,
+    "total_almoxarifado": 91836,
+    "total_farmacia": 30948,
     "total_geral": 122784,
     "perto_de_terminar": 0,
     "zerados": 2
@@ -7858,8 +7858,8 @@
       "nome": "Mathergan",
       "tipo": "Medicamento",
       "unidade": "Ampola",
-      "almoxarifado": 8,
-      "farmacia": 0,
+      "almoxarifado": 0,
+      "farmacia": 8,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -7871,12 +7871,12 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-08-20 16:27:18",
+      "atualizado_em": "2026-08-20 16:27:32",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
         {
-          "local": "almoxarifado",
+          "local": "farmacia",
           "validade": "",
           "lote": "",
           "quantidade": 8
@@ -13930,6 +13930,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 420,
+      "item_id": 336,
+      "produto_nome": "Mathergan",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 8,
+      "responsavel": "Leiliana",
+      "data": "2026-08-20",
+      "obs": "",
+      "criado_em": "2026-08-20 16:27:32",
+      "item": "Mathergan",
+      "usuario": "Leiliana"
+    },
     {
       "id": 419,
       "item_id": 336,
