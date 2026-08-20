@@ -3,44 +3,71 @@ const BASE = "/EstoqueHospital";
 const LOGIN_KEY = "estoqueHospitalSessao";
 const CAD_KEY = "estoqueHospitalCadastros";
 
-const USER_STORE_KEY = "estoqueHospitalUsuarios";
+const USER_STORE_KEY = "estoqueHospitalUsuarios"; // legado: usado apenas para migração
+let PORTAL_USERS = [];
 
-const DEFAULT_USERS = [
-  { usuario: "Admin", senha: "Vitoria04", perfil: "ADM", nome: "Administrador", padrao: true },
-  { usuario: "Coordenador", senha: "Vitoria04", perfil: "COORDENADOR", nome: "Coordenador", padrao: true }
-];
-
-let DATA = { resumo:{}, itens:[], movimentacoes:[] };
-let SESSION = null;
-let CURRENT_PAGE = "VisaoGeral";
-
+async function sha256Texto(texto){
+  const data = new TextEncoder().encode(String(texto || ""));
+  const hash = await crypto.subtle.digest("SHA-256", data);
+  return Array.from(new Uint8Array(hash)).map(b=>b.toString(16).padStart(2,"0")).join("");
+}
 function normUser(v){ return String(v || "").trim().toLowerCase(); }
-function getPortalUsers(){
+async function loadPortalUsers(){
   try{
-    const salvos = JSON.parse(localStorage.getItem(USER_STORE_KEY) || "[]");
-    return Array.isArray(salvos) ? salvos : [];
-  }catch{
-    return [];
+    const r = await fetch(`${BASE}/usuarios_online.json?v=${Date.now()}`, {cache:"no-store"});
+    if(!r.ok) throw new Error("HTTP "+r.status);
+    const d = await r.json();
+    PORTAL_USERS = Array.isArray(d) ? d : (Array.isArray(d.usuarios) ? d.usuarios : []);
+  }catch(e){
+    PORTAL_USERS = [];
+    console.error("Falha ao carregar usuários online:", e);
   }
 }
-function savePortalUsers(users){
-  localStorage.setItem(USER_STORE_KEY, JSON.stringify(users || []));
-}
+function getPortalUsers(){ return PORTAL_USERS.filter(u=>u && u.usuario && (u.senha_hash || u.senha)); }
 function allPortalUsers(){
-  const custom = getPortalUsers().filter(u => u && u.usuario && u.senha);
   const usados = new Set();
-  const out = [];
-  [...DEFAULT_USERS, ...custom].forEach(u=>{
-    const key = normUser(u.usuario);
-    if(!key || usados.has(key)) return;
-    usados.add(key);
-    out.push(u);
+  return getPortalUsers().filter(u=>{
+    const key=normUser(u.usuario);
+    if(!key || usados.has(key)) return false;
+    usados.add(key); return true;
   });
-  return out;
 }
 function findLoginUser(usuario){
   const key = normUser(usuario);
   return allPortalUsers().find(u => normUser(u.usuario) === key) || null;
+}
+async function apiPortalUsuarios(acao, payload={}){
+  const r = await fetch(`${BASE}/api/usuarios`, {
+    method:"POST",
+    headers:{"Content-Type":"application/json"},
+    body:JSON.stringify({
+      acao,
+      ...payload,
+      admin_usuario: SESSION?.usuario || "",
+      admin_hash: SESSION?.auth_hash || ""
+    })
+  });
+  let d={}; try{ d=await r.json(); }catch{}
+  if(!r.ok || !d.ok) throw new Error(d.erro || `Erro HTTP ${r.status}`);
+  await loadPortalUsers();
+  return d;
+}
+
+async function migrarUsuariosLegados(){
+  if(!isAdm()) return;
+  let antigos=[];
+  try{ antigos=JSON.parse(localStorage.getItem(USER_STORE_KEY) || "[]"); }catch{}
+  if(!Array.isArray(antigos) || !antigos.length) return;
+  for(const u of antigos){
+    try{
+      if(!u || !u.usuario || !u.senha || findLoginUser(u.usuario)) continue;
+      const senha_hash = await sha256Texto(u.senha);
+      await apiPortalUsuarios("salvar", {
+        nome:u.nome || u.usuario, usuario:u.usuario, senha_hash, perfil:u.perfil || "COORDENADOR"
+      });
+    }catch(e){ console.warn("Migração de usuário legado não concluída:", e); }
+  }
+  localStorage.removeItem(USER_STORE_KEY);
 }
 
 function money(n){ return Number(n || 0).toLocaleString("pt-BR"); }
@@ -169,13 +196,16 @@ function renderLogin(){
         </div>
       </section>
     </div>`;
-  document.getElementById("loginForm").addEventListener("submit", e=>{
+  document.getElementById("loginForm").addEventListener("submit", async e=>{
     e.preventDefault();
     const u = document.getElementById("loginUser").value.trim();
     const p = document.getElementById("loginPass").value;
     const found = findLoginUser(u);
-    if(found && found.senha === p){
-      saveSession({ usuario:found.usuario, nome:found.nome || found.usuario, perfil:found.perfil || "COORDENADOR", entrada:new Date().toISOString() });
+    const hash = await sha256Texto(p);
+    const senhaOk = found && ((found.senha_hash && found.senha_hash === hash) || (found.senha && found.senha === p));
+    if(senhaOk){
+      saveSession({ usuario:found.usuario, nome:found.nome || found.usuario, perfil:found.perfil || "COORDENADOR", auth_hash:hash, entrada:new Date().toISOString() });
+      await migrarUsuariosLegados();
       go("VisaoGeral");
     }else{
       document.getElementById("loginAlert").innerHTML = `<div class="alert">Usuário ou senha inválidos.</div>`;
@@ -282,6 +312,17 @@ function tableItens(rows){
     }).join("")}</tbody>
   </table></div>`;
 }
+function tableEstoqueOnline(rows){
+  if(!rows || rows.length===0) return `<div class="empty">Nenhum item encontrado.</div>`;
+  return `<div class="table-wrap estoque-mobile-wrap"><table class="estoque-online-table">
+    <thead><tr><th>Produto</th><th>Quantidade</th></tr></thead>
+    <tbody>${rows.map(i=>`<tr>
+      <td><strong>${esc(i.nome)}</strong></td>
+      <td class="qtd-cell"><strong>${money(totalItem(i))}</strong></td>
+    </tr>`).join("")}</tbody>
+  </table></div>`;
+}
+
 function miniTable(rows){
   if(!rows || rows.length===0) return `<div class="empty">Nenhum item encontrado.</div>`;
   return `<div class="table-wrap"><table style="min-width:430px">
@@ -313,7 +354,7 @@ function chartTipos(){
 function renderEstoque(){
   const tipos = uniq((DATA.itens||[]).map(i=>i.tipo||"Sem tipo"));
   renderShell(`
-    ${pageHeader("Estoque", "Consulta completa dos itens publicados.")}
+    ${pageHeader("Estoque", "Consulta rápida de produtos e quantidades disponíveis.")}
     <section class="card">
       <div class="toolbar">
         <input id="busca" placeholder="Pesquisar item..." oninput="filtrarEstoque()">
@@ -344,7 +385,7 @@ function filtrarEstoque(){
            (!tipo || (i.tipo||"Sem tipo") === tipo) &&
            (!st || cls === st);
   });
-  document.getElementById("estoqueTabela").innerHTML = tableItens(rows.slice(0,300));
+  document.getElementById("estoqueTabela").innerHTML = tableEstoqueOnline(rows.slice(0,300));
 }
 
 function filtrosRelatorioHtml(){
@@ -551,7 +592,6 @@ function filtrarMov(){
 function perfilTextoUsuario(p){ return p === "ADM" ? "Administrador" : "Coordenador"; }
 function renderCadastro(){
   if(!isAdm()){ go("VisaoGeral"); return; }
-  const usuariosCadastrados = getPortalUsers();
   const usuariosTela = allPortalUsers();
   renderShell(`
     ${pageHeader("Usuários", "Cadastro de usuários para acesso ao portal online. Não cadastra produtos.")}
@@ -598,17 +638,24 @@ function renderCadastro(){
       alert.innerHTML = `<div class="alert">Já existe usuário com esse login.</div>`;
       return;
     }
-    const users = getPortalUsers();
-    users.unshift({nome, usuario, senha, perfil, criado_em:new Date().toLocaleString("pt-BR")});
-    savePortalUsers(users);
-    renderCadastro();
+    (async()=>{
+      try{
+        const senha_hash = await sha256Texto(senha);
+        await apiPortalUsuarios("salvar", {nome, usuario, senha_hash, perfil});
+        renderCadastro();
+      }catch(err){
+        alert.innerHTML = `<div class="alert">${esc(err.message || "Erro ao salvar usuário online.")}</div>`;
+      }
+    })();
   });
 }
-function delUsuarioPortal(usuario){
-  const key = normUser(usuario);
-  const users = getPortalUsers().filter(u => normUser(u.usuario) !== key);
-  savePortalUsers(users);
-  renderCadastro();
+async function delUsuarioPortal(usuario){
+  try{
+    await apiPortalUsuarios("excluir", {usuario});
+    renderCadastro();
+  }catch(err){
+    alert(err.message || "Erro ao excluir usuário online.");
+  }
 }
 
 function renderBackup(){
@@ -662,4 +709,4 @@ async function render(){
 }
 
 window.addEventListener("popstate", render);
-loadData().then(render);
+Promise.all([loadData(), loadPortalUsers()]).then(render);
