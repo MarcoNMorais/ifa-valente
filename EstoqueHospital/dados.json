@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "20/08/2026 16:27:10",
+  "atualizado_em": "20/08/2026 16:27:19",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
-    "itens": 335,
-    "total_almoxarifado": 91836,
+    "itens": 336,
+    "total_almoxarifado": 91844,
     "total_farmacia": 30940,
-    "total_geral": 122776,
+    "total_geral": 122784,
     "perto_de_terminar": 0,
     "zerados": 2
   },
@@ -7853,6 +7853,46 @@
       "alerta_estoque": false
     },
     {
+      "id": 336,
+      "produto_id": 336,
+      "nome": "Mathergan",
+      "tipo": "Medicamento",
+      "unidade": "Ampola",
+      "almoxarifado": 8,
+      "farmacia": 0,
+      "sala_medicacoes": 0,
+      "internamento": 0,
+      "sala_cirurgica": 0,
+      "baixa": 0,
+      "outro": 0,
+      "total": 8,
+      "minimo": 0,
+      "validade": "",
+      "lote": "",
+      "origem": "Entrada externa",
+      "obs": "",
+      "atualizado_em": "2026-08-20 16:27:18",
+      "validade_mais_proxima": "",
+      "vencimento_mais_proximo": "",
+      "lotes_validade": [
+        {
+          "local": "almoxarifado",
+          "validade": "",
+          "lote": "",
+          "quantidade": 8
+        }
+      ],
+      "minimo_manual": 0,
+      "minimo_alerta": 0,
+      "previsao_20_dias": 0,
+      "criterio_alerta": "estoque_minimo_manual_inicio",
+      "dias_historico": 1,
+      "media_diaria_saida": 0.0,
+      "total_saida_historica": 0,
+      "cobertura_dias": null,
+      "alerta_estoque": false
+    },
+    {
       "id": 225,
       "produto_id": 225,
       "nome": "Meropenem 1g",
@@ -13890,6 +13930,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 419,
+      "item_id": 336,
+      "produto_nome": "Mathergan",
+      "tipo": "Entrada no Almoxarifado",
+      "origem": "Entrada externa",
+      "destino": "Almoxarifado",
+      "quantidade": 8,
+      "responsavel": "Leiliana",
+      "data": "2026-08-20",
+      "obs": "",
+      "criado_em": "2026-08-20 16:27:18",
+      "item": "Mathergan",
+      "usuario": "Leiliana"
+    },
     {
       "id": 418,
       "item_id": 211,
