@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "20/08/2026 13:22:49",
+  "atualizado_em": "20/08/2026 16:17:29",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 335,
     "total_almoxarifado": 91836,
-    "total_farmacia": 31008,
-    "total_geral": 122844,
+    "total_farmacia": 30948,
+    "total_geral": 122784,
     "perto_de_terminar": 0,
     "zerados": 1
   },
@@ -2387,19 +2387,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 240,
+      "farmacia": 180,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 240,
+      "total": 180,
       "minimo": 0,
       "validade": "2027-09",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-20 13:12:54",
+      "atualizado_em": "2026-08-20 16:17:28",
       "validade_mais_proxima": "2027-09",
       "vencimento_mais_proximo": "2027-09",
       "lotes_validade": [
@@ -2407,7 +2407,7 @@
           "local": "farmacia",
           "validade": "2027-09",
           "lote": "",
-          "quantidade": 240
+          "quantidade": 180
         }
       ],
       "minimo_manual": 0,
@@ -2415,9 +2415,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 8,
-      "media_diaria_saida": 0.0,
-      "total_saida_historica": 0,
-      "cobertura_dias": null,
+      "media_diaria_saida": 7.5,
+      "total_saida_historica": 60,
+      "cobertura_dias": 24.0,
       "alerta_estoque": false
     },
     {
@@ -13897,6 +13897,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 417,
+      "item_id": 138,
+      "produto_nome": "Captopril 25mg CPR",
+      "tipo": "Farmácia para Outro destino",
+      "origem": "Farmácia",
+      "destino": "Outro destino",
+      "quantidade": 60,
+      "responsavel": "Leiliana",
+      "data": "2026-08-20",
+      "obs": "",
+      "criado_em": "2026-08-20 16:17:28",
+      "item": "Captopril 25mg CPR",
+      "usuario": "Leiliana"
+    },
     {
       "id": 416,
       "item_id": 158,
