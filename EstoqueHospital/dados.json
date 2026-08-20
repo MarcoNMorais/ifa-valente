@@ -1,13 +1,13 @@
 {
-  "atualizado_em": "20/08/2026 16:17:29",
+  "atualizado_em": "20/08/2026 16:25:47",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 335,
     "total_almoxarifado": 91836,
-    "total_farmacia": 30948,
-    "total_geral": 122784,
+    "total_farmacia": 30940,
+    "total_geral": 122776,
     "perto_de_terminar": 0,
-    "zerados": 1
+    "zerados": 2
   },
   "itens": [
     {
@@ -7939,37 +7939,30 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 8,
+      "farmacia": 0,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 8,
+      "total": 0,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-20 13:12:54",
+      "atualizado_em": "2026-08-20 16:25:46",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
-      "lotes_validade": [
-        {
-          "local": "farmacia",
-          "validade": "",
-          "lote": "",
-          "quantidade": 8
-        }
-      ],
+      "lotes_validade": [],
       "minimo_manual": 0,
       "minimo_alerta": 0,
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 8,
-      "media_diaria_saida": 0.0,
-      "total_saida_historica": 0,
-      "cobertura_dias": null,
+      "media_diaria_saida": 1.0,
+      "total_saida_historica": 8,
+      "cobertura_dias": 0.0,
       "alerta_estoque": false
     },
     {
@@ -13897,6 +13890,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 418,
+      "item_id": 211,
+      "produto_nome": "Metergin",
+      "tipo": "Farmácia para nome errado",
+      "origem": "Farmácia",
+      "destino": "nome errado",
+      "quantidade": 8,
+      "responsavel": "Leiliana",
+      "data": "2026-08-20",
+      "obs": "",
+      "criado_em": "2026-08-20 16:25:46",
+      "item": "Metergin",
+      "usuario": "Leiliana"
+    },
     {
       "id": 417,
       "item_id": 138,
