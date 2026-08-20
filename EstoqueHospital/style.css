@@ -273,3 +273,144 @@ tr:last-child td{border-bottom:0}
 @media(max-width:720px){
   .filters-card,.filters-card.compact{grid-template-columns:1fr}
 }
+
+
+/* V60 - Estoque online simplificado + responsividade ampla para celulares */
+.estoque-online-table{
+  min-width:0;
+  table-layout:fixed;
+}
+.estoque-online-table th:first-child,
+.estoque-online-table td:first-child{width:auto}
+.estoque-online-table th:last-child,
+.estoque-online-table td:last-child{
+  width:150px;
+  text-align:center;
+}
+.estoque-online-table td:first-child{
+  overflow-wrap:anywhere;
+  word-break:normal;
+  line-height:1.35;
+}
+.estoque-online-table .qtd-cell{
+  font-size:16px;
+  white-space:nowrap;
+}
+
+@media(max-width:1000px){
+  .app-shell{display:block}
+  .sidebar{
+    position:sticky;
+    top:0;
+    z-index:30;
+    height:auto;
+    padding:10px 12px;
+    border-right:0;
+    border-bottom:1px solid var(--line);
+    box-shadow:0 5px 20px rgba(15,39,66,.08);
+    background:rgba(255,255,255,.97);
+  }
+  .side-brand{
+    padding:2px 4px 8px;
+    border-bottom:0;
+  }
+  .side-brand .logo{width:38px;height:38px;font-size:19px;border-radius:12px}
+  .side-brand h2{font-size:15px}
+  .side-brand p{display:none}
+  .menu{
+    padding:4px 0 2px;
+    display:flex;
+    gap:7px;
+    overflow-x:auto;
+    -webkit-overflow-scrolling:touch;
+    scrollbar-width:none;
+  }
+  .menu::-webkit-scrollbar{display:none}
+  .menu button{
+    width:auto;
+    flex:0 0 auto;
+    padding:9px 11px;
+    border:1px solid #e3edf5;
+    background:#f8fbff;
+    font-size:13px;
+    white-space:nowrap;
+  }
+  .menu button .ico{width:auto}
+  .menu button.active{border-color:#c6e5f6;background:#e9f6fd}
+  .side-footer{
+    position:absolute;
+    right:12px;
+    top:10px;
+    left:auto;
+    bottom:auto;
+    display:flex;
+    align-items:center;
+    gap:7px;
+  }
+  .user-box{display:none}
+  .side-footer .btn{padding:8px 11px;font-size:12px;border-radius:11px}
+  .main{padding:20px 18px 36px}
+  .table-wrap{max-width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch}
+}
+
+@media(max-width:620px){
+  body{background:#f4f8fb}
+  .login-left{padding:18px 12px;align-items:flex-start}
+  .login-card{padding:22px 18px;border-radius:20px;margin-top:18px}
+  .brand{margin-bottom:18px}
+  .brand .logo{width:48px;height:48px;border-radius:14px}
+  .brand h1{font-size:20px}
+  .login-card h2{font-size:24px}
+  .field input,.field select,.field textarea{font-size:16px;padding:13px}
+  .btn{min-height:44px}
+
+  .sidebar{padding:8px 10px}
+  .side-brand{padding-right:64px}
+  .side-brand .logo{width:34px;height:34px;font-size:18px}
+  .side-brand h2{font-size:14px}
+  .side-footer{top:8px;right:10px}
+  .side-footer .btn{min-height:34px;padding:6px 9px}
+  .menu button{padding:8px 9px;font-size:12px;border-radius:11px}
+
+  .main{padding:16px 10px 30px}
+  .topbar{gap:12px;margin-bottom:16px}
+  .title h1{font-size:25px;margin-bottom:4px}
+  .title p{font-size:13px;line-height:1.4}
+  .top-actions{width:100%;display:grid;grid-template-columns:1fr 1fr;gap:8px}
+  .top-actions .badge,.top-actions .btn{width:100%;justify-content:center;min-height:42px}
+
+  .card{padding:14px;border-radius:15px;box-shadow:0 8px 24px rgba(15,39,66,.07)}
+  .section{margin-top:14px}
+  .section-head{align-items:flex-start}
+  .section-head h2{font-size:18px}
+  .section-head p{font-size:13px;line-height:1.4}
+  .metric .value{font-size:28px}
+
+  .toolbar{display:grid;grid-template-columns:1fr;gap:8px;margin-bottom:12px}
+  .toolbar input,.toolbar select{width:100%;min-width:0;font-size:16px;padding:12px}
+
+  .estoque-mobile-wrap{overflow:visible;border-radius:13px}
+  .estoque-online-table{width:100%;min-width:0;table-layout:fixed}
+  .estoque-online-table th,
+  .estoque-online-table td{padding:11px 9px}
+  .estoque-online-table th{font-size:11px}
+  .estoque-online-table th:last-child,
+  .estoque-online-table td:last-child{width:96px;text-align:center}
+  .estoque-online-table td:first-child{font-size:14px}
+  .estoque-online-table .qtd-cell{font-size:16px}
+
+  .cards{gap:10px}
+  .bar-row{grid-template-columns:minmax(95px,1fr) minmax(80px,1.5fr) 58px;gap:7px;font-size:12px}
+  .footer-note{text-align:center;font-size:11px;margin-top:18px}
+}
+
+@media(max-width:380px){
+  .main{padding-left:8px;padding-right:8px}
+  .card{padding:12px}
+  .title h1{font-size:23px}
+  .estoque-online-table th:last-child,
+  .estoque-online-table td:last-child{width:84px}
+  .estoque-online-table th,
+  .estoque-online-table td{padding:10px 7px}
+  .menu button{font-size:11px;padding:8px}
+}
