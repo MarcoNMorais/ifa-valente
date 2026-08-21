@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "21/08/2026 10:58:52",
+  "atualizado_em": "21/08/2026 11:00:01",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 91083,
-    "total_farmacia": 30974,
-    "total_geral": 122057,
+    "total_farmacia": 30973,
+    "total_geral": 122056,
     "perto_de_terminar": 0,
     "zerados": 2
   },
@@ -6537,19 +6537,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 31,
+      "farmacia": 30,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 31,
+      "total": 30,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga Farmácia 227-288",
       "obs": "Importação Farmácia 227-288",
-      "atualizado_em": "2026-08-21 10:58:51",
+      "atualizado_em": "2026-08-21 11:00:00",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -6557,7 +6557,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 31
+          "quantidade": 30
         }
       ],
       "minimo_manual": 0,
@@ -6565,9 +6565,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 8,
-      "media_diaria_saida": 0.12,
-      "total_saida_historica": 1,
-      "cobertura_dias": 248.0,
+      "media_diaria_saida": 0.25,
+      "total_saida_historica": 2,
+      "cobertura_dias": 120.0,
       "alerta_estoque": false
     },
     {
@@ -14166,6 +14166,21 @@
       "criado_em": "2026-08-20 16:17:28",
       "item": "Captopril 25mg CPR",
       "usuario": "Leiliana"
+    },
+    {
+      "id": 465,
+      "item_id": 255,
+      "produto_nome": "Ibuprofeno gotas",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 1,
+      "responsavel": "Assucena",
+      "data": "2026-08-14",
+      "obs": "",
+      "criado_em": "2026-08-21 11:00:00",
+      "item": "Ibuprofeno gotas",
+      "usuario": "Assucena"
     },
     {
       "id": 464,
