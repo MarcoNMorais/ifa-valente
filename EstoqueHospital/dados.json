@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "21/08/2026 10:43:01",
+  "atualizado_em": "21/08/2026 10:43:33",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
-    "total_almoxarifado": 91751,
-    "total_farmacia": 31033,
+    "total_almoxarifado": 91651,
+    "total_farmacia": 31133,
     "total_geral": 122784,
     "perto_de_terminar": 0,
     "zerados": 2
@@ -12545,8 +12545,8 @@
       "nome": "Soro fisiológico 250ml",
       "tipo": "Insumo",
       "unidade": "Unidade",
-      "almoxarifado": 850,
-      "farmacia": 50,
+      "almoxarifado": 750,
+      "farmacia": 150,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -12558,7 +12558,7 @@
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-20 13:12:54",
+      "atualizado_em": "2026-08-21 10:43:33",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -12566,13 +12566,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 850
+          "quantidade": 750
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 50
+          "quantidade": 150
         }
       ],
       "minimo_manual": 0,
@@ -13942,6 +13942,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 426,
+      "item_id": 203,
+      "produto_nome": "Soro fisiológico 250ml",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 100,
+      "responsavel": "Assucena",
+      "data": "2026-08-20",
+      "obs": "",
+      "criado_em": "2026-08-21 10:43:33",
+      "item": "Soro fisiológico 250ml",
+      "usuario": "Assucena"
+    },
     {
       "id": 425,
       "item_id": 184,
