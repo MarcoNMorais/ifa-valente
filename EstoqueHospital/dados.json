@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "21/08/2026 10:42:42",
+  "atualizado_em": "21/08/2026 10:43:01",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
-    "total_almoxarifado": 91801,
-    "total_farmacia": 30983,
+    "total_almoxarifado": 91751,
+    "total_farmacia": 31033,
     "total_geral": 122784,
     "perto_de_terminar": 0,
     "zerados": 2
@@ -7286,8 +7286,8 @@
       "nome": "Luva cirúrgica tam. 7",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 500,
-      "farmacia": 10,
+      "almoxarifado": 450,
+      "farmacia": 60,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -7299,7 +7299,7 @@
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-20 13:12:54",
+      "atualizado_em": "2026-08-21 10:43:01",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -7307,13 +7307,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 500
+          "quantidade": 450
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 10
+          "quantidade": 60
         }
       ],
       "minimo_manual": 0,
@@ -13942,6 +13942,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 425,
+      "item_id": 184,
+      "produto_nome": "Luva cirúrgica tam. 7",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 50,
+      "responsavel": "Assucena",
+      "data": "2026-08-20",
+      "obs": "",
+      "criado_em": "2026-08-21 10:43:01",
+      "item": "Luva cirúrgica tam. 7",
+      "usuario": "Assucena"
+    },
     {
       "id": 424,
       "item_id": 320,
