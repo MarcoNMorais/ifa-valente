@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "21/08/2026 10:43:33",
+  "atualizado_em": "21/08/2026 10:44:59",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
-    "total_almoxarifado": 91651,
-    "total_farmacia": 31133,
+    "total_almoxarifado": 91621,
+    "total_farmacia": 31163,
     "total_geral": 122784,
     "perto_de_terminar": 0,
     "zerados": 2
@@ -12683,8 +12683,8 @@
       "nome": "Soro glicose 5% 500ml",
       "tipo": "Insumo",
       "unidade": "Unidade",
-      "almoxarifado": 120,
-      "farmacia": 7,
+      "almoxarifado": 90,
+      "farmacia": 37,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -12696,7 +12696,7 @@
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-20 13:12:54",
+      "atualizado_em": "2026-08-21 10:44:58",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -12704,13 +12704,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 120
+          "quantidade": 90
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 7
+          "quantidade": 37
         }
       ],
       "minimo_manual": 0,
@@ -13942,6 +13942,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 427,
+      "item_id": 205,
+      "produto_nome": "Soro glicose 5% 500ml",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 30,
+      "responsavel": "Assucena",
+      "data": "2026-08-20",
+      "obs": "",
+      "criado_em": "2026-08-21 10:44:58",
+      "item": "Soro glicose 5% 500ml",
+      "usuario": "Assucena"
+    },
     {
       "id": 426,
       "item_id": 203,
