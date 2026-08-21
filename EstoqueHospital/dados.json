@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "21/08/2026 10:54:00",
+  "atualizado_em": "21/08/2026 10:54:11",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 91083,
-    "total_farmacia": 31380,
-    "total_geral": 122463,
+    "total_farmacia": 31360,
+    "total_geral": 122443,
     "perto_de_terminar": 0,
     "zerados": 2
   },
@@ -3715,19 +3715,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 320,
+      "farmacia": 300,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 320,
+      "total": 300,
       "minimo": 0,
       "validade": "2028-02",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-20 13:12:54",
+      "atualizado_em": "2026-08-21 10:54:11",
       "validade_mais_proxima": "2028-02",
       "vencimento_mais_proximo": "2028-02",
       "lotes_validade": [
@@ -3735,7 +3735,7 @@
           "local": "farmacia",
           "validade": "2028-02",
           "lote": "",
-          "quantidade": 320
+          "quantidade": 300
         }
       ],
       "minimo_manual": 0,
@@ -3743,9 +3743,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 9,
-      "media_diaria_saida": 0.0,
-      "total_saida_historica": 0,
-      "cobertura_dias": null,
+      "media_diaria_saida": 2.22,
+      "total_saida_historica": 20,
+      "cobertura_dias": 135.0,
       "alerta_estoque": false
     },
     {
@@ -14166,6 +14166,21 @@
       "criado_em": "2026-08-20 16:17:28",
       "item": "Captopril 25mg CPR",
       "usuario": "Leiliana"
+    },
+    {
+      "id": 445,
+      "item_id": 69,
+      "produto_nome": "Diclofenaco 25mg",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 20,
+      "responsavel": "Assucena",
+      "data": "2026-08-14",
+      "obs": "",
+      "criado_em": "2026-08-21 10:54:11",
+      "item": "Diclofenaco 25mg",
+      "usuario": "Assucena"
     },
     {
       "id": 444,
