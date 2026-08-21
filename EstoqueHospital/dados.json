@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "21/08/2026 10:54:52",
+  "atualizado_em": "21/08/2026 10:55:04",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 91083,
-    "total_farmacia": 31270,
-    "total_geral": 122353,
+    "total_farmacia": 31260,
+    "total_geral": 122343,
     "perto_de_terminar": 0,
     "zerados": 2
   },
@@ -4047,19 +4047,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 800,
-      "farmacia": 465,
+      "farmacia": 455,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1265,
+      "total": 1255,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-20 13:12:54",
+      "atualizado_em": "2026-08-21 10:55:04",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -4073,7 +4073,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 465
+          "quantidade": 455
         }
       ],
       "minimo_manual": 0,
@@ -4081,9 +4081,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 9,
-      "media_diaria_saida": 0.0,
-      "total_saida_historica": 0,
-      "cobertura_dias": null,
+      "media_diaria_saida": 1.11,
+      "total_saida_historica": 10,
+      "cobertura_dias": 1129.5,
       "alerta_estoque": false
     },
     {
@@ -14166,6 +14166,21 @@
       "criado_em": "2026-08-20 16:17:28",
       "item": "Captopril 25mg CPR",
       "usuario": "Leiliana"
+    },
+    {
+      "id": 450,
+      "item_id": 176,
+      "produto_nome": "Dispositivo intravenoso Gelco nº 24",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 10,
+      "responsavel": "Assucena",
+      "data": "2026-08-14",
+      "obs": "",
+      "criado_em": "2026-08-21 10:55:04",
+      "item": "Dispositivo intravenoso Gelco nº 24",
+      "usuario": "Assucena"
     },
     {
       "id": 449,
