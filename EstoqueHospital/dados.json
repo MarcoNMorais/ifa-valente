@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "21/08/2026 10:44:59",
+  "atualizado_em": "21/08/2026 10:45:22",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
-    "total_almoxarifado": 91621,
-    "total_farmacia": 31163,
+    "total_almoxarifado": 91573,
+    "total_farmacia": 31211,
     "total_geral": 122784,
     "perto_de_terminar": 0,
     "zerados": 2
@@ -12729,8 +12729,8 @@
       "nome": "Soro Ringer Lactato 500ml",
       "tipo": "Insumo",
       "unidade": "Unidade",
-      "almoxarifado": 360,
-      "farmacia": 24,
+      "almoxarifado": 312,
+      "farmacia": 72,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -12742,7 +12742,7 @@
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-20 13:12:54",
+      "atualizado_em": "2026-08-21 10:45:21",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -12750,13 +12750,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 360
+          "quantidade": 312
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 24
+          "quantidade": 72
         }
       ],
       "minimo_manual": 0,
@@ -13942,6 +13942,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 428,
+      "item_id": 201,
+      "produto_nome": "Soro Ringer Lactato 500ml",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 48,
+      "responsavel": "Assucena",
+      "data": "2026-08-21",
+      "obs": "",
+      "criado_em": "2026-08-21 10:45:21",
+      "item": "Soro Ringer Lactato 500ml",
+      "usuario": "Assucena"
+    },
     {
       "id": 427,
       "item_id": 205,
