@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "21/08/2026 10:53:25",
+  "atualizado_em": "21/08/2026 10:53:51",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 91083,
-    "total_farmacia": 31414,
-    "total_geral": 122497,
+    "total_farmacia": 31400,
+    "total_geral": 122483,
     "perto_de_terminar": 0,
     "zerados": 2
   },
@@ -12592,19 +12592,19 @@
       "tipo": "Insumo",
       "unidade": "Unidade",
       "almoxarifado": 1093,
-      "farmacia": 78,
+      "farmacia": 72,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1171,
+      "total": 1165,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-21 10:45:56",
+      "atualizado_em": "2026-08-21 10:53:38",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -12618,7 +12618,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 78
+          "quantidade": 72
         }
       ],
       "minimo_manual": 0,
@@ -12626,9 +12626,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 9,
-      "media_diaria_saida": 0.0,
-      "total_saida_historica": 0,
-      "cobertura_dias": null,
+      "media_diaria_saida": 0.67,
+      "total_saida_historica": 6,
+      "cobertura_dias": 1747.5,
       "alerta_estoque": false
     },
     {
@@ -12730,19 +12730,19 @@
       "tipo": "Insumo",
       "unidade": "Unidade",
       "almoxarifado": 312,
-      "farmacia": 72,
+      "farmacia": 64,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 384,
+      "total": 376,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-21 10:45:21",
+      "atualizado_em": "2026-08-21 10:53:49",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -12756,7 +12756,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 72
+          "quantidade": 64
         }
       ],
       "minimo_manual": 0,
@@ -12764,9 +12764,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 9,
-      "media_diaria_saida": 0.0,
-      "total_saida_historica": 0,
-      "cobertura_dias": null,
+      "media_diaria_saida": 0.89,
+      "total_saida_historica": 8,
+      "cobertura_dias": 423.0,
       "alerta_estoque": false
     },
     {
@@ -14166,6 +14166,36 @@
       "criado_em": "2026-08-20 16:17:28",
       "item": "Captopril 25mg CPR",
       "usuario": "Leiliana"
+    },
+    {
+      "id": 443,
+      "item_id": 201,
+      "produto_nome": "Soro Ringer Lactato 500ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 8,
+      "responsavel": "Assucena",
+      "data": "2026-08-14",
+      "obs": "",
+      "criado_em": "2026-08-21 10:53:49",
+      "item": "Soro Ringer Lactato 500ml",
+      "usuario": "Assucena"
+    },
+    {
+      "id": 442,
+      "item_id": 204,
+      "produto_nome": "Soro fisiológico 500ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 6,
+      "responsavel": "Assucena",
+      "data": "2026-08-14",
+      "obs": "",
+      "criado_em": "2026-08-21 10:53:38",
+      "item": "Soro fisiológico 500ml",
+      "usuario": "Assucena"
     },
     {
       "id": 441,
