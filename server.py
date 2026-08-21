@@ -2,9 +2,11 @@
 from app import app  # importa o sistema IFA original
 from cemes_routes import register_cemes_routes
 from cis_routes import register_cis_routes
+from mensagem_routes import register_mensagem_routes
 
 register_cis_routes(app)
 register_cemes_routes(app)
+register_mensagem_routes(app)
 
 
 if __name__ == "__main__":
