@@ -40,7 +40,7 @@ def register_mensagem_routes(app) -> None:
             "SELECT id, text FROM daily_messages WHERE active=1 ORDER BY id"
         ).fetchall()
         messages = [{"id": row["id"], "text": row["text"]} for row in rows]
-        return render_template("mensagem.html", messages=messages, total=len(messages))
+        return render_template("mensagem_v2.html", messages=messages, total=len(messages))
 
     @app.route("/mensagem/admin", methods=["GET", "POST"])
     @admin_required
