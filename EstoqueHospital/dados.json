@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "21/08/2026 11:00:52",
+  "atualizado_em": "21/08/2026 11:01:07",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 91083,
-    "total_farmacia": 30842,
-    "total_geral": 121925,
+    "total_farmacia": 30762,
+    "total_geral": 121845,
     "perto_de_terminar": 0,
     "zerados": 2
   },
@@ -595,19 +595,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 1150,
+      "farmacia": 1070,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1150,
+      "total": 1070,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-20 13:12:54",
+      "atualizado_em": "2026-08-21 11:01:06",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -615,7 +615,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 1150
+          "quantidade": 1070
         }
       ],
       "minimo_manual": 0,
@@ -623,9 +623,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 9,
-      "media_diaria_saida": 0.0,
-      "total_saida_historica": 0,
-      "cobertura_dias": null,
+      "media_diaria_saida": 8.89,
+      "total_saida_historica": 80,
+      "cobertura_dias": 120.4,
       "alerta_estoque": false
     },
     {
@@ -14166,6 +14166,21 @@
       "criado_em": "2026-08-20 16:17:28",
       "item": "Captopril 25mg CPR",
       "usuario": "Leiliana"
+    },
+    {
+      "id": 470,
+      "item_id": 187,
+      "produto_nome": "Agulha hipodérmica tam. 18",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 80,
+      "responsavel": "Assucena",
+      "data": "2026-08-14",
+      "obs": "",
+      "criado_em": "2026-08-21 11:01:06",
+      "item": "Agulha hipodérmica tam. 18",
+      "usuario": "Assucena"
     },
     {
       "id": 469,
