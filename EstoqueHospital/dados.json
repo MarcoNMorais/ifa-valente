@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "21/08/2026 11:00:41",
+  "atualizado_em": "21/08/2026 11:00:52",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 91083,
-    "total_farmacia": 30942,
-    "total_geral": 122025,
+    "total_farmacia": 30842,
+    "total_geral": 121925,
     "perto_de_terminar": 0,
     "zerados": 2
   },
@@ -7465,19 +7465,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 1800,
+      "farmacia": 1700,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1800,
+      "total": 1700,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-20 13:12:54",
+      "atualizado_em": "2026-08-21 11:00:52",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -7485,7 +7485,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 1800
+          "quantidade": 1700
         }
       ],
       "minimo_manual": 0,
@@ -7493,9 +7493,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 9,
-      "media_diaria_saida": 0.0,
-      "total_saida_historica": 0,
-      "cobertura_dias": null,
+      "media_diaria_saida": 11.11,
+      "total_saida_historica": 100,
+      "cobertura_dias": 153.0,
       "alerta_estoque": false
     },
     {
@@ -14166,6 +14166,21 @@
       "criado_em": "2026-08-20 16:17:28",
       "item": "Captopril 25mg CPR",
       "usuario": "Leiliana"
+    },
+    {
+      "id": 469,
+      "item_id": 181,
+      "produto_nome": "Luva de látex tam. M",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 100,
+      "responsavel": "Assucena",
+      "data": "2026-08-14",
+      "obs": "",
+      "criado_em": "2026-08-21 11:00:52",
+      "item": "Luva de látex tam. M",
+      "usuario": "Assucena"
     },
     {
       "id": 468,
