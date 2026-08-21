@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "21/08/2026 10:51:04",
+  "atualizado_em": "21/08/2026 10:51:18",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 91083,
-    "total_farmacia": 31474,
-    "total_geral": 122557,
+    "total_farmacia": 31450,
+    "total_geral": 122533,
     "perto_de_terminar": 0,
     "zerados": 2
   },
@@ -1287,19 +1287,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 1788,
-      "farmacia": 84,
+      "farmacia": 60,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1872,
+      "total": 1848,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-20 13:12:54",
+      "atualizado_em": "2026-08-21 10:51:18",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -1313,7 +1313,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 84
+          "quantidade": 60
         }
       ],
       "minimo_manual": 0,
@@ -1321,9 +1321,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 9,
-      "media_diaria_saida": 0.0,
-      "total_saida_historica": 0,
-      "cobertura_dias": null,
+      "media_diaria_saida": 2.67,
+      "total_saida_historica": 24,
+      "cobertura_dias": 693.0,
       "alerta_estoque": false
     },
     {
@@ -14166,6 +14166,21 @@
       "criado_em": "2026-08-20 16:17:28",
       "item": "Captopril 25mg CPR",
       "usuario": "Leiliana"
+    },
+    {
+      "id": 439,
+      "item_id": 152,
+      "produto_nome": "Atadura crepon nº 10",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 24,
+      "responsavel": "Assucena",
+      "data": "2026-08-14",
+      "obs": "",
+      "criado_em": "2026-08-21 10:51:18",
+      "item": "Atadura crepon nº 10",
+      "usuario": "Assucena"
     },
     {
       "id": 438,
