@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "21/08/2026 10:36:36",
+  "atualizado_em": "21/08/2026 10:41:27",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
-    "total_almoxarifado": 91816,
-    "total_farmacia": 30968,
+    "total_almoxarifado": 91806,
+    "total_farmacia": 30978,
     "total_geral": 122784,
     "perto_de_terminar": 0,
     "zerados": 2
@@ -1326,8 +1326,8 @@
       "nome": "Atadura crepon nº 15",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 288,
-      "farmacia": 48,
+      "almoxarifado": 278,
+      "farmacia": 58,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -1339,7 +1339,7 @@
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-20 13:12:54",
+      "atualizado_em": "2026-08-21 10:41:27",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -1347,13 +1347,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 288
+          "quantidade": 278
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 48
+          "quantidade": 58
         }
       ],
       "minimo_manual": 0,
@@ -13936,6 +13936,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 423,
+      "item_id": 151,
+      "produto_nome": "Atadura crepon nº 15",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 10,
+      "responsavel": "Assucena",
+      "data": "2026-08-20",
+      "obs": "",
+      "criado_em": "2026-08-21 10:41:27",
+      "item": "Atadura crepon nº 15",
+      "usuario": "Assucena"
+    },
     {
       "id": 422,
       "item_id": 300,
