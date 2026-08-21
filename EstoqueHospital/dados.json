@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "21/08/2026 10:56:14",
+  "atualizado_em": "21/08/2026 10:56:25",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 91083,
-    "total_farmacia": 31124,
-    "total_geral": 122207,
+    "total_farmacia": 31104,
+    "total_geral": 122187,
     "perto_de_terminar": 0,
     "zerados": 2
   },
@@ -10224,19 +10224,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 4400,
-      "farmacia": 378,
+      "farmacia": 358,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 4778,
+      "total": 4758,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-20 13:12:54",
+      "atualizado_em": "2026-08-21 10:56:24",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -10250,7 +10250,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 378
+          "quantidade": 358
         }
       ],
       "minimo_manual": 0,
@@ -10258,9 +10258,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 9,
-      "media_diaria_saida": 0.0,
-      "total_saida_historica": 0,
-      "cobertura_dias": null,
+      "media_diaria_saida": 2.22,
+      "total_saida_historica": 20,
+      "cobertura_dias": 2141.1,
       "alerta_estoque": false
     },
     {
@@ -14166,6 +14166,21 @@
       "criado_em": "2026-08-20 16:17:28",
       "item": "Captopril 25mg CPR",
       "usuario": "Leiliana"
+    },
+    {
+      "id": 454,
+      "item_id": 104,
+      "produto_nome": "Seringa 3ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 20,
+      "responsavel": "Assucena",
+      "data": "2026-08-14",
+      "obs": "",
+      "criado_em": "2026-08-21 10:56:24",
+      "item": "Seringa 3ml",
+      "usuario": "Assucena"
     },
     {
       "id": 453,
