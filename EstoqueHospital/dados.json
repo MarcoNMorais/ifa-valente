@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "21/08/2026 10:45:36",
+  "atualizado_em": "21/08/2026 10:45:56",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
-    "total_almoxarifado": 91393,
-    "total_farmacia": 31391,
+    "total_almoxarifado": 91333,
+    "total_farmacia": 31451,
     "total_geral": 122784,
     "perto_de_terminar": 0,
     "zerados": 2
@@ -12591,8 +12591,8 @@
       "nome": "Soro fisiológico 500ml",
       "tipo": "Insumo",
       "unidade": "Unidade",
-      "almoxarifado": 1153,
-      "farmacia": 18,
+      "almoxarifado": 1093,
+      "farmacia": 78,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -12604,7 +12604,7 @@
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-20 13:12:54",
+      "atualizado_em": "2026-08-21 10:45:56",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -12612,13 +12612,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 1153
+          "quantidade": 1093
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 18
+          "quantidade": 78
         }
       ],
       "minimo_manual": 0,
@@ -13942,6 +13942,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 430,
+      "item_id": 204,
+      "produto_nome": "Soro fisiológico 500ml",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 60,
+      "responsavel": "Assucena",
+      "data": "2026-08-21",
+      "obs": "",
+      "criado_em": "2026-08-21 10:45:56",
+      "item": "Soro fisiológico 500ml",
+      "usuario": "Assucena"
+    },
     {
       "id": 429,
       "item_id": 202,
