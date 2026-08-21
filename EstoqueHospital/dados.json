@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "21/08/2026 10:58:30",
+  "atualizado_em": "21/08/2026 10:58:41",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 91083,
-    "total_farmacia": 30977,
-    "total_geral": 122060,
+    "total_farmacia": 30975,
+    "total_geral": 122058,
     "perto_de_terminar": 0,
     "zerados": 2
   },
@@ -2187,19 +2187,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 66,
+      "farmacia": 64,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 66,
+      "total": 64,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga Farmácia 227-288",
       "obs": "Importação Farmácia 227-288",
-      "atualizado_em": "2026-08-20 13:12:54",
+      "atualizado_em": "2026-08-21 10:58:40",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -2207,17 +2207,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 66
+          "quantidade": 64
         }
       ],
       "minimo_manual": 0,
       "minimo_alerta": 0,
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
-      "dias_historico": 4,
-      "media_diaria_saida": 0.0,
-      "total_saida_historica": 0,
-      "cobertura_dias": null,
+      "dias_historico": 8,
+      "media_diaria_saida": 0.25,
+      "total_saida_historica": 2,
+      "cobertura_dias": 256.0,
       "alerta_estoque": false
     },
     {
@@ -14166,6 +14166,21 @@
       "criado_em": "2026-08-20 16:17:28",
       "item": "Captopril 25mg CPR",
       "usuario": "Leiliana"
+    },
+    {
+      "id": 463,
+      "item_id": 257,
+      "produto_nome": "Brometo de ipratrópio gotas",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 2,
+      "responsavel": "Assucena",
+      "data": "2026-08-14",
+      "obs": "",
+      "criado_em": "2026-08-21 10:58:40",
+      "item": "Brometo de ipratrópio gotas",
+      "usuario": "Assucena"
     },
     {
       "id": 462,
