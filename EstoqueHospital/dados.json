@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "21/08/2026 11:00:32",
+  "atualizado_em": "21/08/2026 11:00:41",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 91083,
-    "total_farmacia": 30943,
-    "total_geral": 122026,
+    "total_farmacia": 30942,
+    "total_geral": 122025,
     "perto_de_terminar": 0,
     "zerados": 2
   },
@@ -9530,19 +9530,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 13,
+      "farmacia": 12,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 13,
+      "total": 12,
       "minimo": 0,
       "validade": "03/28",
       "lote": "",
       "origem": "Carga Farmácia 227-288",
       "obs": "Importação Farmácia 227-288",
-      "atualizado_em": "2026-08-20 13:12:54",
+      "atualizado_em": "2026-08-21 11:00:40",
       "validade_mais_proxima": "03/28",
       "vencimento_mais_proximo": "03/28",
       "lotes_validade": [
@@ -9556,17 +9556,17 @@
           "local": "farmacia",
           "validade": "07/27",
           "lote": "",
-          "quantidade": 3
+          "quantidade": 2
         }
       ],
       "minimo_manual": 0,
       "minimo_alerta": 0,
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
-      "dias_historico": 4,
-      "media_diaria_saida": 0.0,
-      "total_saida_historica": 0,
-      "cobertura_dias": null,
+      "dias_historico": 8,
+      "media_diaria_saida": 0.12,
+      "total_saida_historica": 1,
+      "cobertura_dias": 96.0,
       "alerta_estoque": false
     },
     {
@@ -14166,6 +14166,21 @@
       "criado_em": "2026-08-20 16:17:28",
       "item": "Captopril 25mg CPR",
       "usuario": "Leiliana"
+    },
+    {
+      "id": 468,
+      "item_id": 249,
+      "produto_nome": "Prednisolona 3mg/ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 1,
+      "responsavel": "Assucena",
+      "data": "2026-08-14",
+      "obs": "",
+      "criado_em": "2026-08-21 11:00:40",
+      "item": "Prednisolona 3mg/ml",
+      "usuario": "Assucena"
     },
     {
       "id": 467,
