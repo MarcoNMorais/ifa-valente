@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "21/08/2026 10:52:59",
+  "atualizado_em": "21/08/2026 10:53:25",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 91083,
-    "total_farmacia": 31420,
-    "total_geral": 122503,
+    "total_farmacia": 31414,
+    "total_geral": 122497,
     "perto_de_terminar": 0,
     "zerados": 2
   },
@@ -12546,19 +12546,19 @@
       "tipo": "Insumo",
       "unidade": "Unidade",
       "almoxarifado": 750,
-      "farmacia": 150,
+      "farmacia": 144,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 900,
+      "total": 894,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-21 10:43:33",
+      "atualizado_em": "2026-08-21 10:53:25",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -12572,7 +12572,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 150
+          "quantidade": 144
         }
       ],
       "minimo_manual": 0,
@@ -12580,9 +12580,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 9,
-      "media_diaria_saida": 0.0,
-      "total_saida_historica": 0,
-      "cobertura_dias": null,
+      "media_diaria_saida": 0.67,
+      "total_saida_historica": 6,
+      "cobertura_dias": 1341.0,
       "alerta_estoque": false
     },
     {
@@ -14166,6 +14166,21 @@
       "criado_em": "2026-08-20 16:17:28",
       "item": "Captopril 25mg CPR",
       "usuario": "Leiliana"
+    },
+    {
+      "id": 441,
+      "item_id": 203,
+      "produto_nome": "Soro fisiológico 250ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 6,
+      "responsavel": "Assucena",
+      "data": "2026-08-14",
+      "obs": "",
+      "criado_em": "2026-08-21 10:53:25",
+      "item": "Soro fisiológico 250ml",
+      "usuario": "Assucena"
     },
     {
       "id": 440,
