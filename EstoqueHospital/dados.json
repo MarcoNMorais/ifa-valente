@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "21/08/2026 10:41:27",
+  "atualizado_em": "21/08/2026 10:42:42",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
-    "total_almoxarifado": 91806,
-    "total_farmacia": 30978,
+    "total_almoxarifado": 91801,
+    "total_farmacia": 30983,
     "total_geral": 122784,
     "perto_de_terminar": 0,
     "zerados": 2
@@ -62,8 +62,8 @@
       "nome": "Acebrofilina 10mg/ml",
       "tipo": "Medicamento",
       "unidade": "Unidade",
-      "almoxarifado": 24,
-      "farmacia": 0,
+      "almoxarifado": 19,
+      "farmacia": 5,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -75,7 +75,7 @@
       "lote": "",
       "origem": "Carga Almoxerifado",
       "obs": "Importação Almoxerifado",
-      "atualizado_em": "2026-08-20 13:12:54",
+      "atualizado_em": "2026-08-21 10:42:42",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -83,7 +83,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 24
+          "quantidade": 19
+        },
+        {
+          "local": "farmacia",
+          "validade": "",
+          "lote": "",
+          "quantidade": 5
         }
       ],
       "minimo_manual": 0,
@@ -13936,6 +13942,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 424,
+      "item_id": 320,
+      "produto_nome": "Acebrofilina 10mg/ml",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 5,
+      "responsavel": "Assucena",
+      "data": "2026-08-20",
+      "obs": "",
+      "criado_em": "2026-08-21 10:42:42",
+      "item": "Acebrofilina 10mg/ml",
+      "usuario": "Assucena"
+    },
     {
       "id": 423,
       "item_id": 151,
