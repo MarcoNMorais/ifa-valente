@@ -3,15 +3,23 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<title>Sua mensagem do dia</title>
+<meta name="theme-color" content="#fff6d7">
+<title>Mensagem do Dia | Saúde Valente</title>
 <style>
-*{box-sizing:border-box}html,body{margin:0;min-height:100%;font-family:Arial,Helvetica,sans-serif;background:#fff3cf;color:#123e73}.page{min-height:100vh;background:linear-gradient(180deg,#fff3cf 0%,#fff8df 100%);padding:14px 26px 110px;position:relative;overflow:hidden}.logo{display:block;width:min(410px,78vw);height:auto;margin:0 auto 12px}.hero{text-align:center}.hero h1{margin:0;color:#0d437d;font-size:clamp(42px,8.2vw,68px);font-weight:900;line-height:.9;letter-spacing:-2px}.hero h1 span{display:block}.rule{display:flex;align-items:center;gap:18px;margin:20px auto 15px;max-width:585px;color:#f4b900}.rule:before,.rule:after{content:"";height:4px;background:#f4b900;flex:1}.rule b{font-size:34px;line-height:1}.subtitle{font-weight:900;font-size:clamp(24px,4.8vw,34px);line-height:1.05;margin:0 0 8px}.support{font-size:clamp(16px,3.4vw,22px);margin:0 auto 14px}.card{max-width:660px;margin:0 auto;background:#fffdf7;border:2px solid #e6c95b;border-radius:40px;padding:22px 18px 16px;text-align:center;box-shadow:0 4px 12px #cba93a22}.card-title{font-size:clamp(29px,5.6vw,40px);font-weight:900;display:flex;align-items:center;gap:18px;white-space:nowrap}.card-title:before,.card-title:after{content:"";height:4px;background:#e6b900;flex:1}.quote{margin-top:16px;border:2px solid #e5c95e;border-radius:34px;background:linear-gradient(135deg,#fffbea,#ffeaa0);padding:48px 28px 35px;min-height:280px;display:flex;align-items:center;justify-content:center;position:relative}.quote:before{content:"“";position:absolute;left:34px;top:6px;color:#f2b800;font-size:82px;font-weight:900;line-height:1}.quote p{margin:0;color:#18263a;font-size:clamp(28px,5.3vw,42px);line-height:1.13;font-weight:900}.tomorrow{color:#707070;font-size:clamp(16px,3.2vw,21px);margin:14px 0 0}.footer-shape{position:absolute;left:0;right:0;bottom:0;height:100px;background:#0c447d;clip-path:polygon(0 35%,63% 55%,63% 48%,100% 40%,100% 100%,0 100%)}.footer-shape:before{content:"";position:absolute;left:0;top:0;width:63%;height:50px;background:#f7b900;transform:rotate(2deg);transform-origin:left top}
-@media(max-width:520px){.page{padding:14px 26px 100px}.logo{width:78vw;margin-bottom:10px}.card{border-radius:36px}.card-title{gap:12px}.quote{padding:45px 22px 30px;min-height:280px}}
+:root{--azul:#073d7c;--amarelo:#f3b700;--fundo:#fff6d7;--texto:#17263a;--cinza:#737373}
+*{box-sizing:border-box}html,body{margin:0;width:100%;min-height:100%;background:var(--fundo);font-family:Arial,Helvetica,sans-serif;color:var(--texto)}body{overflow-x:hidden}
+.page{width:min(760px,100%);min-height:100dvh;margin:auto;padding:max(10px,env(safe-area-inset-top)) 14px max(24px,env(safe-area-inset-bottom));display:flex;flex-direction:column;align-items:center;background:linear-gradient(180deg,#fff8df 0%,#fff1c8 100%);position:relative;overflow:hidden}
+.logo{display:block;width:min(330px,74vw);height:auto;object-fit:contain;margin:0 auto 8px;border:0}
+.hero{text-align:center;width:100%;position:relative;z-index:2}.hero h1{margin:0;color:var(--azul);font-size:clamp(42px,10.8vw,72px);line-height:.88;letter-spacing:-.05em;font-weight:950;text-transform:uppercase}.hero h1 span{display:block}.rule{display:flex;align-items:center;gap:12px;width:min(620px,88vw);margin:14px auto 10px}.rule:before,.rule:after{content:"";height:3px;background:var(--amarelo);flex:1}.rule b{color:var(--amarelo);font-size:30px;line-height:1}.subtitle{margin:0;color:var(--azul);font-size:clamp(22px,5.2vw,34px);line-height:1.08;font-weight:900}.support{margin:9px 0 0;color:var(--azul);font-size:clamp(14px,3.5vw,20px);line-height:1.2}.support strong{font-weight:900}
+.card{width:min(680px,96%);margin-top:18px;padding:16px 18px 13px;border:2px solid rgba(215,166,20,.60);border-radius:34px;background:rgba(255,255,255,.94);box-shadow:0 12px 30px rgba(115,82,0,.10);position:relative;z-index:3}.card-title{display:flex;align-items:center;gap:14px;color:var(--azul);font-size:clamp(24px,5.8vw,38px);font-weight:950;white-space:nowrap;margin:0 0 12px}.card-title:before,.card-title:after{content:"";height:3px;background:var(--amarelo);flex:1}.quote{position:relative;min-height:clamp(210px,32vh,330px);display:flex;align-items:center;justify-content:center;padding:42px 26px 26px;border:2px solid rgba(215,166,20,.58);border-radius:30px;background:linear-gradient(145deg,#fffdf4 0%,#ffeaa8 100%);overflow:hidden}.quote:before{content:'“';position:absolute;left:28px;top:8px;color:var(--amarelo);font:900 76px/1 Georgia,serif}#message{margin:0;max-width:560px;text-align:center;color:#142235;font-size:clamp(26px,6.2vw,40px);font-weight:950;line-height:1.11;letter-spacing:-.025em}#message.medium{font-size:clamp(22px,5.2vw,34px)}#message.long{font-size:clamp(18px,4.5vw,29px)}.tomorrow{text-align:center;margin:12px 0 0;color:var(--cinza);font-size:clamp(13px,3.2vw,18px)}
+.footer{width:112%;height:88px;margin-top:auto;background:var(--azul);position:relative;transform:rotate(-1.2deg);left:0;bottom:-38px}.footer:before{content:"";position:absolute;left:-3%;top:-20px;width:60%;height:38px;background:var(--amarelo);transform:rotate(2.5deg)}
+@media(max-width:430px){.page{padding-left:8px;padding-right:8px}.logo{width:min(310px,78vw);margin-bottom:6px}.hero h1{font-size:clamp(40px,11.5vw,50px)}.rule{margin:10px auto 8px}.rule b{font-size:27px}.subtitle{font-size:21px}.support{font-size:14px}.card{width:97%;margin-top:14px;padding:13px 10px 11px;border-radius:28px}.card-title{font-size:22px;gap:10px;margin-bottom:10px}.quote{min-height:clamp(190px,29vh,270px);padding:38px 17px 22px;border-radius:24px}.quote:before{left:20px;top:5px;font-size:66px}#message{font-size:clamp(25px,7vw,32px)}#message.medium{font-size:clamp(21px,5.9vw,27px)}#message.long{font-size:clamp(17px,4.8vw,22px)}.tomorrow{font-size:13px;margin-top:10px}.footer{height:78px;bottom:-35px}}
+@media(max-height:760px){.page{padding-top:5px}.logo{width:250px;max-height:15vh}.hero h1{font-size:36px}.rule{margin:6px auto 5px}.subtitle{font-size:17px}.support{font-size:11px}.card{margin-top:8px;padding-top:9px}.card-title{font-size:19px;margin-bottom:6px}.quote{min-height:145px;height:25vh;padding-top:28px}.quote:before{font-size:52px}#message{font-size:24px}#message.medium{font-size:20px}#message.long{font-size:17px}.tomorrow{font-size:11px;margin-top:6px}}
 </style>
 </head>
 <body>
 <main class="page">
-<img class="logo" src="/static/logo-cartaz-setembro-amarelo.jpg?v=20260822-1238" alt="Secretaria da Saúde - Prefeitura de Valente">
+<img class="logo" src="{{ url_for('static', filename='logo-setembro-site.jpg') }}?v=20260822-1255" alt="Secretaria da Saúde - Prefeitura de Valente">
 <section class="hero">
 <h1><span>SETEMBRO</span><span>AMARELO</span></h1>
 <div class="rule"><b>♥</b></div>
@@ -23,13 +31,14 @@
 <div class="quote"><p id="message">Carregando sua mensagem...</p></div>
 <p class="tomorrow">Amanhã você recebe uma nova mensagem.</p>
 </section>
-<div class="footer-shape"></div>
+<div class="footer" aria-hidden="true"></div>
 </main>
 <script>
-const FALLBACK=["Você merece ser ouvido com respeito e sem julgamento. Procure alguém de confiança e converse se precisar.","Você não precisa ter todas as respostas hoje. Reserve um instante para respirar e perceber como você está.","Seu esforço de continuar já diz muita coisa sobre você. Cuide do que está ao seu alcance agora."];
+const messages={{ messages|tojson }};const el=document.getElementById('message');
+function key(){let k=localStorage.getItem('mensagem_device_key');if(!k){k=(crypto.randomUUID?crypto.randomUUID():Math.random().toString(36).slice(2)+Date.now());localStorage.setItem('mensagem_device_key',k)}return k}
 function hash(s){let h=2166136261;for(let i=0;i<s.length;i++){h^=s.charCodeAt(i);h=Math.imul(h,16777619)}return h>>>0}
-const d=new Date(),key=`${d.getFullYear()}-${d.getMonth()+1}-${d.getDate()}`;let device=localStorage.getItem('msg_device');if(!device){device=Math.random().toString(36).slice(2)+Date.now();localStorage.setItem('msg_device',device)}
-fetch('/api/mensagem').then(r=>r.ok?r.json():Promise.reject()).then(data=>{const arr=Array.isArray(data)?data:(data.frases||data.mensagens||[]);document.getElementById('message').textContent=arr.length?arr[hash(device+key)%arr.length]:FALLBACK[hash(device+key)%FALLBACK.length]}).catch(()=>document.getElementById('message').textContent=FALLBACK[hash(device+key)%FALLBACK.length]);
+const d=new Date(),day=d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0');
+if(messages.length){const m=messages[hash(key()+'|'+day)%messages.length].text;el.textContent=m;el.className=m.length>190?'long':m.length>125?'medium':''}else el.textContent='Você importa. Sua vida tem valor.';
 </script>
 </body>
 </html>
