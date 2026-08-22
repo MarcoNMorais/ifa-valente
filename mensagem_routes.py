@@ -40,7 +40,9 @@ def register_mensagem_routes(app) -> None:
             "SELECT id, text FROM daily_messages WHERE active=1 ORDER BY id"
         ).fetchall()
         messages = [{"id": row["id"], "text": row["text"]} for row in rows]
-        return render_template("mensagem_v2.html", messages=messages, total=len(messages))
+        html = render_template("mensagem_v2.html", messages=messages, total=len(messages))
+        marker = '<div style="position:fixed;right:8px;bottom:8px;z-index:99999;background:#083b79;color:white;padding:6px 10px;border-radius:14px;font:700 11px Arial,sans-serif;box-shadow:0 2px 8px rgba(0,0,0,.18)">VERSÃO PYTHON 21:50</div>'
+        return html.replace("</body>", marker + "</body>")
 
     @app.route("/mensagem/admin", methods=["GET", "POST"])
     @admin_required
