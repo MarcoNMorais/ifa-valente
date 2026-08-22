@@ -3,29 +3,15 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<meta name="theme-color" content="#fcefc9">
-<title>Mensagem do Dia | Saúde Valente</title>
+<title>Sua mensagem do dia</title>
 <style>
-:root{--azul:#073d7c;--amarelo:#f2b500;--fundo:#fcefc9;--texto:#17263a}
-*{box-sizing:border-box}html,body{margin:0;width:100%;height:100%;overflow:hidden}body{font-family:Arial,Helvetica,sans-serif;background:var(--fundo);color:var(--texto)}
-.page{width:min(760px,100%);height:100dvh;min-height:100svh;margin:auto;padding:max(8px,env(safe-area-inset-top)) 12px max(10px,env(safe-area-inset-bottom));display:flex;flex-direction:column;align-items:center;overflow:hidden;background:linear-gradient(180deg,#fcefc9 0%,#fff3d6 100%);position:relative}
-.logo{display:block;width:min(330px,80vw);height:auto;max-height:18vh;object-fit:contain;margin:0 auto 6px}
-.hero{text-align:center;width:100%}.hero h1{margin:0;color:var(--azul);font-size:clamp(36px,10vw,64px);line-height:.9;letter-spacing:-.045em;font-weight:950;text-transform:uppercase}.hero h1 span{display:block}
-.rule{display:flex;align-items:center;gap:10px;width:min(520px,82vw);margin:7px auto 5px}.rule:before,.rule:after{content:"";height:2px;background:var(--amarelo);flex:1}.rule b{color:var(--amarelo);font-size:22px}
-.subtitle{margin:0;color:var(--azul);font-size:clamp(18px,4.5vw,28px);line-height:1.06;font-weight:900}.support{margin:4px 0 0;color:var(--azul);font-size:clamp(11px,2.8vw,16px)}
-.card{width:min(640px,96%);margin-top:clamp(9px,1.5vh,16px);padding:10px 13px 9px;border:1px solid rgba(219,162,0,.52);border-radius:26px;background:rgba(255,255,255,.92);box-shadow:0 12px 30px rgba(112,78,0,.10)}
-.card-title{display:flex;align-items:center;gap:10px;margin-bottom:7px;color:var(--azul);font-size:clamp(18px,4.4vw,26px);font-weight:900;white-space:nowrap}.card-title:before,.card-title:after{content:"";height:2px;background:var(--amarelo);flex:1}
-.quote{position:relative;height:clamp(145px,24vh,215px);display:flex;align-items:center;justify-content:center;padding:24px 20px 17px;border:1px solid rgba(219,162,0,.50);border-radius:21px;background:linear-gradient(145deg,#fffdf4,#ffe8a0);overflow:hidden}.quote:before{content:'“';position:absolute;top:0;left:18px;color:var(--amarelo);font:800 56px/1 Georgia,serif}
-#message{margin:0;max-width:540px;text-align:center;color:var(--texto);font-size:clamp(20px,5.1vw,31px);font-weight:900;line-height:1.14;letter-spacing:-.02em}#message.medium{font-size:clamp(17px,4.5vw,26px)}#message.long{font-size:clamp(14px,3.8vw,21px)}
-.tomorrow{text-align:center;margin:7px 0 0;color:#6e6e6e;font-size:clamp(10px,2.8vw,14px)}
-.footer{position:absolute;left:-5%;right:-5%;bottom:-28px;height:74px;background:var(--azul);transform:rotate(-1.6deg)}.footer:before{content:"";position:absolute;left:-3%;top:-16px;width:65%;height:33px;background:var(--amarelo);transform:rotate(3deg)}
-@media(max-width:430px){.page{padding-left:8px;padding-right:8px}.logo{width:min(305px,79vw);max-height:16vh}.hero h1{font-size:clamp(35px,10.3vw,45px)}.rule{margin:6px auto 4px}.subtitle{font-size:18px}.support{font-size:11px}.card{width:97%;margin-top:8px;padding:9px 9px 8px;border-radius:23px}.card-title{font-size:19px;margin-bottom:6px}.quote{height:clamp(140px,23vh,200px);padding:22px 13px 15px;border-radius:19px}#message{font-size:clamp(20px,5.9vw,27px)}#message.medium{font-size:clamp(17px,5vw,22px)}#message.long{font-size:clamp(14px,4.1vw,18px)}}
-@media(max-height:760px){.logo{width:250px;max-height:13vh}.hero h1{font-size:32px}.subtitle{font-size:15px}.support{font-size:10px}.rule{margin:4px auto 3px}.card{margin-top:6px}.quote{height:21vh;min-height:118px}.tomorrow{font-size:10px}}
+*{box-sizing:border-box}html,body{margin:0;min-height:100%;font-family:Arial,Helvetica,sans-serif;background:#fff3cf;color:#123e73}.page{min-height:100vh;background:linear-gradient(180deg,#fff3cf 0%,#fff8df 100%);padding:14px 26px 110px;position:relative;overflow:hidden}.logo{display:block;width:min(410px,78vw);height:auto;margin:0 auto 12px}.hero{text-align:center}.hero h1{margin:0;color:#0d437d;font-size:clamp(42px,8.2vw,68px);font-weight:900;line-height:.9;letter-spacing:-2px}.hero h1 span{display:block}.rule{display:flex;align-items:center;gap:18px;margin:20px auto 15px;max-width:585px;color:#f4b900}.rule:before,.rule:after{content:"";height:4px;background:#f4b900;flex:1}.rule b{font-size:34px;line-height:1}.subtitle{font-weight:900;font-size:clamp(24px,4.8vw,34px);line-height:1.05;margin:0 0 8px}.support{font-size:clamp(16px,3.4vw,22px);margin:0 auto 14px}.card{max-width:660px;margin:0 auto;background:#fffdf7;border:2px solid #e6c95b;border-radius:40px;padding:22px 18px 16px;text-align:center;box-shadow:0 4px 12px #cba93a22}.card-title{font-size:clamp(29px,5.6vw,40px);font-weight:900;display:flex;align-items:center;gap:18px;white-space:nowrap}.card-title:before,.card-title:after{content:"";height:4px;background:#e6b900;flex:1}.quote{margin-top:16px;border:2px solid #e5c95e;border-radius:34px;background:linear-gradient(135deg,#fffbea,#ffeaa0);padding:48px 28px 35px;min-height:280px;display:flex;align-items:center;justify-content:center;position:relative}.quote:before{content:"“";position:absolute;left:34px;top:6px;color:#f2b800;font-size:82px;font-weight:900;line-height:1}.quote p{margin:0;color:#18263a;font-size:clamp(28px,5.3vw,42px);line-height:1.13;font-weight:900}.tomorrow{color:#707070;font-size:clamp(16px,3.2vw,21px);margin:14px 0 0}.footer-shape{position:absolute;left:0;right:0;bottom:0;height:100px;background:#0c447d;clip-path:polygon(0 35%,63% 55%,63% 48%,100% 40%,100% 100%,0 100%)}.footer-shape:before{content:"";position:absolute;left:0;top:0;width:63%;height:50px;background:#f7b900;transform:rotate(2deg);transform-origin:left top}
+@media(max-width:520px){.page{padding:14px 26px 100px}.logo{width:78vw;margin-bottom:10px}.card{border-radius:36px}.card-title{gap:12px}.quote{padding:45px 22px 30px;min-height:280px}}
 </style>
 </head>
 <body>
 <main class="page">
-<img class="logo" src="/static/logo-oficial-setembro.png?v=20260822-1225" alt="Secretaria da Saúde - Prefeitura de Valente">
+<img class="logo" src="/static/logo-cartaz-setembro-amarelo.jpg?v=20260822-1238" alt="Secretaria da Saúde - Prefeitura de Valente">
 <section class="hero">
 <h1><span>SETEMBRO</span><span>AMARELO</span></h1>
 <div class="rule"><b>♥</b></div>
@@ -37,13 +23,13 @@
 <div class="quote"><p id="message">Carregando sua mensagem...</p></div>
 <p class="tomorrow">Amanhã você recebe uma nova mensagem.</p>
 </section>
-<div class="footer" aria-hidden="true"></div>
+<div class="footer-shape"></div>
 </main>
 <script>
-const messages={{ messages|tojson }};const el=document.getElementById('message');
-function key(){let k=localStorage.getItem('mensagem_device_key');if(!k){k=(crypto.randomUUID?crypto.randomUUID():Math.random().toString(36).slice(2)+Date.now());localStorage.setItem('mensagem_device_key',k)}return k}
+const FALLBACK=["Você merece ser ouvido com respeito e sem julgamento. Procure alguém de confiança e converse se precisar.","Você não precisa ter todas as respostas hoje. Reserve um instante para respirar e perceber como você está.","Seu esforço de continuar já diz muita coisa sobre você. Cuide do que está ao seu alcance agora."];
 function hash(s){let h=2166136261;for(let i=0;i<s.length;i++){h^=s.charCodeAt(i);h=Math.imul(h,16777619)}return h>>>0}
-const d=new Date(),day=d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0');
-if(messages.length){const m=messages[hash(key()+'|'+day)%messages.length].text;el.textContent=m;el.className=m.length>190?'long':m.length>125?'medium':''}else el.textContent='Você importa. Sua vida tem valor.';
+const d=new Date(),key=`${d.getFullYear()}-${d.getMonth()+1}-${d.getDate()}`;let device=localStorage.getItem('msg_device');if(!device){device=Math.random().toString(36).slice(2)+Date.now();localStorage.setItem('msg_device',device)}
+fetch('/api/mensagem').then(r=>r.ok?r.json():Promise.reject()).then(data=>{const arr=Array.isArray(data)?data:(data.frases||data.mensagens||[]);document.getElementById('message').textContent=arr.length?arr[hash(device+key)%arr.length]:FALLBACK[hash(device+key)%FALLBACK.length]}).catch(()=>document.getElementById('message').textContent=FALLBACK[hash(device+key)%FALLBACK.length]);
 </script>
-</body></html>
+</body>
+</html>
