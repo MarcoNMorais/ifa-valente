@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 15:47:24",
+  "atualizado_em": "24/08/2026 15:47:36",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 25839,
-    "total_geral": 116244,
+    "total_farmacia": 25809,
+    "total_geral": 116214,
     "perto_de_terminar": 0,
     "zerados": 9
   },
@@ -9190,19 +9190,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 214,
+      "farmacia": 184,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 214,
+      "total": 184,
       "minimo": 0,
       "validade": "02/28",
       "lote": "",
       "origem": "Carga Farmácia 227-288",
       "obs": "Importação Farmácia 227-288",
-      "atualizado_em": "2026-08-24 15:23:04",
+      "atualizado_em": "2026-08-24 15:47:36",
       "validade_mais_proxima": "02/28",
       "vencimento_mais_proximo": "02/28",
       "lotes_validade": [
@@ -9210,7 +9210,7 @@
           "local": "farmacia",
           "validade": "02/28",
           "lote": "",
-          "quantidade": 214
+          "quantidade": 184
         }
       ],
       "minimo_manual": 0,
@@ -9218,9 +9218,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 8,
-      "media_diaria_saida": 2.75,
-      "total_saida_historica": 22,
-      "cobertura_dias": 77.8,
+      "media_diaria_saida": 6.5,
+      "total_saida_historica": 52,
+      "cobertura_dias": 28.3,
       "alerta_estoque": false
     },
     {
@@ -13833,6 +13833,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 854,
+      "item_id": 229,
+      "produto_nome": "Oxacilina 500mg pó injetável",
+      "tipo": "Farmácia para Outro destino",
+      "origem": "Farmácia",
+      "destino": "Outro destino",
+      "quantidade": 30,
+      "responsavel": "Leiliana",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-24 15:47:36",
+      "item": "Oxacilina 500mg pó injetável",
+      "usuario": "Leiliana"
+    },
     {
       "id": 853,
       "item_id": 60,
@@ -21316,21 +21331,6 @@
       "obs": "Importação Almoxerifado - linha 39",
       "criado_em": "18/08/2026 09:58:00",
       "item": "Cateter tipo óculos adulto",
-      "usuario": "Sistema"
-    },
-    {
-      "id": 354,
-      "item_id": 290,
-      "produto_nome": "Metronidazol 100ml",
-      "tipo": "entrada",
-      "origem": "Carga Almoxerifado",
-      "destino": "almoxarifado",
-      "quantidade": 139,
-      "responsavel": "Sistema",
-      "data": "18/08/2026 09:58:00",
-      "obs": "Importação Almoxerifado - linha 38",
-      "criado_em": "18/08/2026 09:58:00",
-      "item": "Metronidazol 100ml",
       "usuario": "Sistema"
     }
   ]
