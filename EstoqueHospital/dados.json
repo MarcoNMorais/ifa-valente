@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 15:41:34",
+  "atualizado_em": "24/08/2026 15:41:45",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 26079,
-    "total_geral": 116484,
+    "total_farmacia": 26076,
+    "total_geral": 116481,
     "perto_de_terminar": 0,
     "zerados": 9
   },
@@ -12462,19 +12462,19 @@
       "tipo": "Insumo",
       "unidade": "Unidade",
       "almoxarifado": 750,
-      "farmacia": 3,
+      "farmacia": 0,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 753,
+      "total": 750,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-24 15:33:09",
+      "atualizado_em": "2026-08-24 15:41:45",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -12483,12 +12483,6 @@
           "validade": "",
           "lote": "",
           "quantidade": 750
-        },
-        {
-          "local": "farmacia",
-          "validade": "",
-          "lote": "",
-          "quantidade": 3
         }
       ],
       "minimo_manual": 0,
@@ -12496,9 +12490,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 12.25,
-      "total_saida_historica": 147,
-      "cobertura_dias": 61.5,
+      "media_diaria_saida": 12.5,
+      "total_saida_historica": 150,
+      "cobertura_dias": 60.0,
       "alerta_estoque": false
     },
     {
@@ -13845,6 +13839,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 835,
+      "item_id": 203,
+      "produto_nome": "Soro fisiológico 250ml",
+      "tipo": "Farmácia para Outro destino",
+      "origem": "Farmácia",
+      "destino": "Outro destino",
+      "quantidade": 3,
+      "responsavel": "Leiliana",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-24 15:41:45",
+      "item": "Soro fisiológico 250ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 834,
       "item_id": 59,
@@ -21328,21 +21337,6 @@
       "obs": "Importação Almoxerifado - linha 20",
       "criado_em": "18/08/2026 09:58:00",
       "item": "Equipo micro",
-      "usuario": "Sistema"
-    },
-    {
-      "id": 335,
-      "item_id": 103,
-      "produto_nome": "Seringa 10ml",
-      "tipo": "entrada",
-      "origem": "Carga Almoxerifado",
-      "destino": "almoxarifado",
-      "quantidade": 3000,
-      "responsavel": "Sistema",
-      "data": "18/08/2026 09:58:00",
-      "obs": "Importação Almoxerifado - linha 19",
-      "criado_em": "18/08/2026 09:58:00",
-      "item": "Seringa 10ml",
       "usuario": "Sistema"
     }
   ]
