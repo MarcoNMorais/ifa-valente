@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 14:27:13",
+  "atualizado_em": "24/08/2026 14:27:30",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 29112,
-    "total_geral": 119517,
+    "total_farmacia": 29082,
+    "total_geral": 119487,
     "perto_de_terminar": 0,
     "zerados": 4
   },
@@ -2747,19 +2747,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 279,
+      "farmacia": 249,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 279,
+      "total": 249,
       "minimo": 0,
       "validade": "2027-09",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-24 11:44:02",
+      "atualizado_em": "2026-08-24 14:27:30",
       "validade_mais_proxima": "2027-09",
       "vencimento_mais_proximo": "2027-09",
       "lotes_validade": [
@@ -2767,7 +2767,7 @@
           "local": "farmacia",
           "validade": "2027-09",
           "lote": "",
-          "quantidade": 279
+          "quantidade": 249
         }
       ],
       "minimo_manual": 0,
@@ -2775,9 +2775,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 4.17,
-      "total_saida_historica": 50,
-      "cobertura_dias": 67.0,
+      "media_diaria_saida": 6.67,
+      "total_saida_historica": 80,
+      "cobertura_dias": 37.4,
       "alerta_estoque": false
     },
     {
@@ -13905,6 +13905,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 652,
+      "item_id": 61,
+      "produto_nome": "Cetoprofeno IM 50mg",
+      "tipo": "Farmácia para Outro destino",
+      "origem": "Farmácia",
+      "destino": "Outro destino",
+      "quantidade": 30,
+      "responsavel": "Leiliana",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-24 14:27:30",
+      "item": "Cetoprofeno IM 50mg",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 651,
       "item_id": 55,
       "produto_nome": "Benzilpenicilina 1.200",
@@ -21387,21 +21402,6 @@
       "obs": "Carga inicial Farmácia - linha 137 | Validade: 2027-11",
       "criado_em": "13/08/2026 20:25:46",
       "item": "Metformina 500mg CPR",
-      "usuario": "Carga inicial Farmácia"
-    },
-    {
-      "id": 152,
-      "item_id": 133,
-      "produto_nome": "Topiramato 25mg CPR",
-      "tipo": "Entrada direta na Farmácia",
-      "origem": "Carga inicial",
-      "destino": "Farmácia",
-      "quantidade": 12,
-      "responsavel": "Carga inicial Farmácia",
-      "data": "13/08/2026",
-      "obs": "Carga inicial Farmácia - linha 136 | Validade: 2027-02",
-      "criado_em": "13/08/2026 20:25:46",
-      "item": "Topiramato 25mg CPR",
       "usuario": "Carga inicial Farmácia"
     }
   ]
