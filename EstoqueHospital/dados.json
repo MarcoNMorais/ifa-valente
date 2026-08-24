@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 15:30:43",
+  "atualizado_em": "24/08/2026 15:30:59",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 26827,
-    "total_geral": 117232,
+    "total_farmacia": 26826,
+    "total_geral": 117231,
     "perto_de_terminar": 0,
     "zerados": 8
   },
@@ -3026,19 +3026,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 12,
+      "farmacia": 11,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 12,
+      "total": 11,
       "minimo": 0,
       "validade": "2028-01",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-24 14:10:06",
+      "atualizado_em": "2026-08-24 15:30:59",
       "validade_mais_proxima": "2028-01",
       "vencimento_mais_proximo": "2028-01",
       "lotes_validade": [
@@ -3046,7 +3046,7 @@
           "local": "farmacia",
           "validade": "2028-01",
           "lote": "",
-          "quantidade": 12
+          "quantidade": 11
         }
       ],
       "minimo_manual": 0,
@@ -3054,9 +3054,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 0.17,
-      "total_saida_historica": 2,
-      "cobertura_dias": 72.0,
+      "media_diaria_saida": 0.25,
+      "total_saida_historica": 3,
+      "cobertura_dias": 44.0,
       "alerta_estoque": false
     },
     {
@@ -13859,6 +13859,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 798,
+      "item_id": 21,
+      "produto_nome": "Clonazepam gotas 25mg/ml",
+      "tipo": "Farmácia para Outro destino",
+      "origem": "Farmácia",
+      "destino": "Outro destino",
+      "quantidade": 1,
+      "responsavel": "Leiliana",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-24 15:30:59",
+      "item": "Clonazepam gotas 25mg/ml",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 797,
       "item_id": 256,
       "produto_nome": "Simeticona gotas",
@@ -21341,21 +21356,6 @@
       "obs": "Importação Farmácia - linha 273 | validade: 10/27",
       "criado_em": "18/08/2026 09:14:00",
       "item": "Imosec CPR",
-      "usuario": "Importação Farmácia"
-    },
-    {
-      "id": 298,
-      "item_id": 264,
-      "produto_nome": "Clonazepam 2mg CPR",
-      "tipo": "Entrada direta na Farmácia",
-      "origem": "Importação lista Farmácia 227-288",
-      "destino": "Farmácia",
-      "quantidade": 60,
-      "responsavel": "Importação Farmácia",
-      "data": "18/08/2026",
-      "obs": "Importação Farmácia - linha 272 | validade: 08/27",
-      "criado_em": "18/08/2026 09:14:00",
-      "item": "Clonazepam 2mg CPR",
       "usuario": "Importação Farmácia"
     }
   ]
