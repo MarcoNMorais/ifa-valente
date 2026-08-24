@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 14:54:10",
+  "atualizado_em": "24/08/2026 14:54:32",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 28370,
-    "total_geral": 118775,
+    "total_farmacia": 28364,
+    "total_geral": 118769,
     "perto_de_terminar": 0,
     "zerados": 6
   },
@@ -12501,19 +12501,19 @@
       "tipo": "Insumo",
       "unidade": "Unidade",
       "almoxarifado": 750,
-      "farmacia": 64,
+      "farmacia": 58,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 814,
+      "total": 808,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-24 14:11:59",
+      "atualizado_em": "2026-08-24 14:54:31",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -12527,7 +12527,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 64
+          "quantidade": 58
         }
       ],
       "minimo_manual": 0,
@@ -12535,9 +12535,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 7.17,
-      "total_saida_historica": 86,
-      "cobertura_dias": 113.6,
+      "media_diaria_saida": 7.67,
+      "total_saida_historica": 92,
+      "cobertura_dias": 105.4,
       "alerta_estoque": false
     },
     {
@@ -13890,6 +13890,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 706,
+      "item_id": 203,
+      "produto_nome": "Soro fisiológico 250ml",
+      "tipo": "Farmácia para Outro destino",
+      "origem": "Farmácia",
+      "destino": "Outro destino",
+      "quantidade": 6,
+      "responsavel": "Leiliana",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-24 14:54:31",
+      "item": "Soro fisiológico 250ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 705,
       "item_id": 103,
@@ -21373,21 +21388,6 @@
       "obs": "Carga inicial Farmácia - linha 190",
       "criado_em": "13/08/2026 20:25:46",
       "item": "Agulha hipodérmica tam. 18",
-      "usuario": "Carga inicial Farmácia"
-    },
-    {
-      "id": 206,
-      "item_id": 186,
-      "produto_nome": "Luva cirúrgica tam. 8",
-      "tipo": "Entrada direta na Farmácia",
-      "origem": "Carga inicial",
-      "destino": "Farmácia",
-      "quantidade": 10,
-      "responsavel": "Carga inicial Farmácia",
-      "data": "13/08/2026",
-      "obs": "Carga inicial Farmácia - linha 189",
-      "criado_em": "13/08/2026 20:25:46",
-      "item": "Luva cirúrgica tam. 8",
       "usuario": "Carga inicial Farmácia"
     }
   ]
