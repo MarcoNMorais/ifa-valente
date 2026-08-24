@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 15:59:04",
+  "atualizado_em": "24/08/2026 15:59:14",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 25126,
-    "total_geral": 115531,
+    "total_farmacia": 25116,
+    "total_geral": 115521,
     "perto_de_terminar": 0,
     "zerados": 9
   },
@@ -2700,19 +2700,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 123,
+      "farmacia": 113,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 123,
+      "total": 113,
       "minimo": 0,
       "validade": "2028-01",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-24 15:49:42",
+      "atualizado_em": "2026-08-24 15:59:13",
       "validade_mais_proxima": "2028-01",
       "vencimento_mais_proximo": "2028-01",
       "lotes_validade": [
@@ -2720,7 +2720,7 @@
           "local": "farmacia",
           "validade": "2028-01",
           "lote": "",
-          "quantidade": 123
+          "quantidade": 113
         }
       ],
       "minimo_manual": 0,
@@ -2728,9 +2728,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 10.58,
-      "total_saida_historica": 127,
-      "cobertura_dias": 11.6,
+      "media_diaria_saida": 11.42,
+      "total_saida_historica": 137,
+      "cobertura_dias": 9.9,
       "alerta_estoque": false
     },
     {
@@ -13828,6 +13828,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 896,
+      "item_id": 60,
+      "produto_nome": "Cetoprofeno EV 100mg",
+      "tipo": "Farmácia para Outro destino",
+      "origem": "Farmácia",
+      "destino": "Outro destino",
+      "quantidade": 10,
+      "responsavel": "Leiliana",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-24 15:59:13",
+      "item": "Cetoprofeno EV 100mg",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 895,
       "item_id": 61,
       "produto_nome": "Cetoprofeno IM 50mg",
@@ -21310,21 +21325,6 @@
       "obs": "Importação Almoxerifado - linha 81",
       "criado_em": "18/08/2026 09:58:00",
       "item": "Fio categute nº 0",
-      "usuario": "Sistema"
-    },
-    {
-      "id": 396,
-      "item_id": 321,
-      "produto_nome": "Fio categute nº 1",
-      "tipo": "entrada",
-      "origem": "Carga Almoxerifado",
-      "destino": "almoxarifado",
-      "quantidade": 72,
-      "responsavel": "Sistema",
-      "data": "18/08/2026 09:58:00",
-      "obs": "Importação Almoxerifado - linha 80",
-      "criado_em": "18/08/2026 09:58:00",
-      "item": "Fio categute nº 1",
       "usuario": "Sistema"
     }
   ]
