@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 11:51:41",
+  "atualizado_em": "24/08/2026 11:52:04",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 29947,
-    "total_geral": 120352,
+    "total_farmacia": 29927,
+    "total_geral": 120332,
     "perto_de_terminar": 0,
     "zerados": 3
   },
@@ -715,19 +715,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 426,
+      "farmacia": 406,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 426,
+      "total": 406,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-24 11:51:26",
+      "atualizado_em": "2026-08-24 11:52:04",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -735,7 +735,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 426
+          "quantidade": 406
         }
       ],
       "minimo_manual": 0,
@@ -743,9 +743,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 5.0,
-      "total_saida_historica": 60,
-      "cobertura_dias": 85.2,
+      "media_diaria_saida": 6.67,
+      "total_saida_historica": 80,
+      "cobertura_dias": 60.9,
       "alerta_estoque": false
     },
     {
@@ -14365,6 +14365,21 @@
       "usuario": "Leiliana"
     },
     {
+      "id": 596,
+      "item_id": 189,
+      "produto_nome": "Agulha hipodérmica tam. 22",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 20,
+      "responsavel": "Assucena",
+      "data": "2026-08-17",
+      "obs": "",
+      "criado_em": "2026-08-24 11:52:04",
+      "item": "Agulha hipodérmica tam. 22",
+      "usuario": "Assucena"
+    },
+    {
       "id": 595,
       "item_id": 188,
       "produto_nome": "Agulha hipodérmica tam. 21",
@@ -21412,21 +21427,6 @@
       "obs": "Carga inicial Farmácia - linha 83 | Validade: 2027-07",
       "criado_em": "13/08/2026 20:25:46",
       "item": "Hidralazina 20mg",
-      "usuario": "Carga inicial Farmácia"
-    },
-    {
-      "id": 96,
-      "item_id": 79,
-      "produto_nome": "Sulfato de Gentamicina 40mg",
-      "tipo": "Entrada direta na Farmácia",
-      "origem": "Carga inicial",
-      "destino": "Farmácia",
-      "quantidade": 72,
-      "responsavel": "Carga inicial Farmácia",
-      "data": "13/08/2026",
-      "obs": "Carga inicial Farmácia - linha 82 | Validade: 2026-08",
-      "criado_em": "13/08/2026 20:25:46",
-      "item": "Sulfato de Gentamicina 40mg",
       "usuario": "Carga inicial Farmácia"
     }
   ]
