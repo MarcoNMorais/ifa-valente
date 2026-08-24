@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 15:24:42",
+  "atualizado_em": "24/08/2026 15:25:00",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 27279,
-    "total_geral": 117684,
+    "total_farmacia": 27275,
+    "total_geral": 117680,
     "perto_de_terminar": 0,
     "zerados": 8
   },
@@ -6710,19 +6710,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 42,
+      "farmacia": 38,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 42,
+      "total": 38,
       "minimo": 0,
       "validade": "2027-04",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-20 13:12:54",
+      "atualizado_em": "2026-08-24 15:25:00",
       "validade_mais_proxima": "2027-04",
       "vencimento_mais_proximo": "2027-04",
       "lotes_validade": [
@@ -6730,7 +6730,7 @@
           "local": "farmacia",
           "validade": "2027-04",
           "lote": "",
-          "quantidade": 42
+          "quantidade": 38
         }
       ],
       "minimo_manual": 0,
@@ -6738,9 +6738,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 0.0,
-      "total_saida_historica": 0,
-      "cobertura_dias": null,
+      "media_diaria_saida": 0.33,
+      "total_saida_historica": 4,
+      "cobertura_dias": 114.0,
       "alerta_estoque": false
     },
     {
@@ -13858,6 +13858,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 778,
+      "item_id": 15,
+      "produto_nome": "Ketamina 50mg/ml 10ml",
+      "tipo": "Farmácia para Outro destino",
+      "origem": "Farmácia",
+      "destino": "Outro destino",
+      "quantidade": 4,
+      "responsavel": "Leiliana",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-24 15:25:00",
+      "item": "Ketamina 50mg/ml 10ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 777,
       "item_id": 50,
@@ -21341,21 +21356,6 @@
       "obs": "Importação Farmácia - linha 256 | validade: 12/26",
       "criado_em": "18/08/2026 09:14:00",
       "item": "Salbutamol spray",
-      "usuario": "Importação Farmácia"
-    },
-    {
-      "id": 278,
-      "item_id": 251,
-      "produto_nome": "Dexclorfeniramina + Betametasona XPE",
-      "tipo": "Entrada direta na Farmácia",
-      "origem": "Importação lista Farmácia 227-288",
-      "destino": "Farmácia",
-      "quantidade": 4,
-      "responsavel": "Importação Farmácia",
-      "data": "18/08/2026",
-      "obs": "Importação Farmácia - linha 255 | validade: 09/27",
-      "criado_em": "18/08/2026 09:14:00",
-      "item": "Dexclorfeniramina + Betametasona XPE",
       "usuario": "Importação Farmácia"
     }
   ]
