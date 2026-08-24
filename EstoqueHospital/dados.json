@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 11:49:28",
+  "atualizado_em": "24/08/2026 11:49:49",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 30153,
-    "total_geral": 120558,
+    "total_farmacia": 30053,
+    "total_geral": 120458,
     "perto_de_terminar": 0,
     "zerados": 3
   },
@@ -7424,19 +7424,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 900,
+      "farmacia": 800,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 900,
+      "total": 800,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-20 13:12:54",
+      "atualizado_em": "2026-08-24 11:49:49",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -7444,7 +7444,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 900
+          "quantidade": 800
         }
       ],
       "minimo_manual": 0,
@@ -7452,9 +7452,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 0.0,
-      "total_saida_historica": 0,
-      "cobertura_dias": null,
+      "media_diaria_saida": 8.33,
+      "total_saida_historica": 100,
+      "cobertura_dias": 96.0,
       "alerta_estoque": false
     },
     {
@@ -14369,6 +14369,21 @@
       "criado_em": "2026-08-20 16:17:28",
       "item": "Captopril 25mg CPR",
       "usuario": "Leiliana"
+    },
+    {
+      "id": 588,
+      "item_id": 182,
+      "produto_nome": "Luva de látex tam. G",
+      "tipo": "Farmácia para Posto de Internamento",
+      "origem": "Farmácia",
+      "destino": "Posto de Internamento",
+      "quantidade": 100,
+      "responsavel": "Assucena",
+      "data": "2026-08-17",
+      "obs": "",
+      "criado_em": "2026-08-24 11:49:49",
+      "item": "Luva de látex tam. G",
+      "usuario": "Assucena"
     },
     {
       "id": 587,
@@ -21418,21 +21433,6 @@
       "obs": "Carga inicial Farmácia - linha 75 | Validade: 2027-06",
       "criado_em": "13/08/2026 20:25:46",
       "item": "Dobutamina 250mg",
-      "usuario": "Carga inicial Farmácia"
-    },
-    {
-      "id": 88,
-      "item_id": 71,
-      "produto_nome": "Dopamina",
-      "tipo": "Entrada direta na Farmácia",
-      "origem": "Carga inicial",
-      "destino": "Farmácia",
-      "quantidade": 21,
-      "responsavel": "Carga inicial Farmácia",
-      "data": "13/08/2026",
-      "obs": "Carga inicial Farmácia - linha 74 | Validade: 2027-03",
-      "criado_em": "13/08/2026 20:25:46",
-      "item": "Dopamina",
       "usuario": "Carga inicial Farmácia"
     }
   ]
