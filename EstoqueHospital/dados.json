@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 11:47:29",
+  "atualizado_em": "24/08/2026 11:47:40",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 30511,
-    "total_geral": 120916,
+    "total_farmacia": 30461,
+    "total_geral": 120866,
     "perto_de_terminar": 0,
     "zerados": 3
   },
@@ -13221,19 +13221,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 1000,
+      "farmacia": 950,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1000,
+      "total": 950,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-24 11:21:27",
+      "atualizado_em": "2026-08-24 11:47:39",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -13241,7 +13241,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 1000
+          "quantidade": 950
         }
       ],
       "minimo_manual": 0,
@@ -13249,9 +13249,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 4.17,
-      "total_saida_historica": 50,
-      "cobertura_dias": 240.0,
+      "media_diaria_saida": 8.33,
+      "total_saida_historica": 100,
+      "cobertura_dias": 114.0,
       "alerta_estoque": false
     },
     {
@@ -14369,6 +14369,21 @@
       "criado_em": "2026-08-20 16:17:28",
       "item": "Captopril 25mg CPR",
       "usuario": "Leiliana"
+    },
+    {
+      "id": 578,
+      "item_id": 195,
+      "produto_nome": "Tira Reagente G-Tech",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 50,
+      "responsavel": "Assucena",
+      "data": "2026-08-17",
+      "obs": "",
+      "criado_em": "2026-08-24 11:47:39",
+      "item": "Tira Reagente G-Tech",
+      "usuario": "Assucena"
     },
     {
       "id": 577,
@@ -21418,21 +21433,6 @@
       "obs": "Carga inicial Farmácia - linha 65 | Validade: 2027-03",
       "criado_em": "13/08/2026 20:25:46",
       "item": "Ciprofloxacino",
-      "usuario": "Carga inicial Farmácia"
-    },
-    {
-      "id": 78,
-      "item_id": 62,
-      "produto_nome": "Cimetidina 150mg",
-      "tipo": "Entrada direta na Farmácia",
-      "origem": "Carga inicial",
-      "destino": "Farmácia",
-      "quantidade": 166,
-      "responsavel": "Carga inicial Farmácia",
-      "data": "13/08/2026",
-      "obs": "Carga inicial Farmácia - linha 64 | Validade: 2027-06",
-      "criado_em": "13/08/2026 20:25:46",
-      "item": "Cimetidina 150mg",
       "usuario": "Carga inicial Farmácia"
     }
   ]
