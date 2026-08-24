@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 11:19:12",
+  "atualizado_em": "24/08/2026 11:19:38",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 91033,
-    "total_farmacia": 33212,
-    "total_geral": 124245,
+    "total_farmacia": 33192,
+    "total_geral": 124225,
     "perto_de_terminar": 0,
     "zerados": 2
   },
@@ -4339,19 +4339,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 47,
+      "farmacia": 27,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 47,
+      "total": 27,
       "minimo": 0,
       "validade": "2027-12",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-20 13:12:54",
+      "atualizado_em": "2026-08-24 11:19:37",
       "validade_mais_proxima": "2027-12",
       "vencimento_mais_proximo": "2027-12",
       "lotes_validade": [
@@ -4359,7 +4359,7 @@
           "local": "farmacia",
           "validade": "2027-12",
           "lote": "",
-          "quantidade": 47
+          "quantidade": 27
         }
       ],
       "minimo_manual": 0,
@@ -4367,9 +4367,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 0.0,
-      "total_saida_historica": 0,
-      "cobertura_dias": null,
+      "media_diaria_saida": 1.67,
+      "total_saida_historica": 20,
+      "cobertura_dias": 16.2,
       "alerta_estoque": false
     },
     {
@@ -13942,6 +13942,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 478,
+      "item_id": 73,
+      "produto_nome": "Epinefrina 1mg",
+      "tipo": "Farmácia para ATENÇÃO BÁSICA",
+      "origem": "Farmácia",
+      "destino": "ATENÇÃO BÁSICA",
+      "quantidade": 20,
+      "responsavel": "Assucena",
+      "data": "2026-08-21",
+      "obs": "",
+      "criado_em": "2026-08-24 11:19:37",
+      "item": "Epinefrina 1mg",
+      "usuario": "Assucena"
+    },
     {
       "id": 477,
       "item_id": 239,
