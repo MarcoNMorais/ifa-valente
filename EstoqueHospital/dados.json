@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 14:10:49",
+  "atualizado_em": "24/08/2026 14:12:00",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 29334,
-    "total_geral": 119739,
+    "total_farmacia": 29315,
+    "total_geral": 119720,
     "perto_de_terminar": 0,
     "zerados": 3
   },
@@ -12515,19 +12515,19 @@
       "tipo": "Insumo",
       "unidade": "Unidade",
       "almoxarifado": 750,
-      "farmacia": 83,
+      "farmacia": 64,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 833,
+      "total": 814,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-24 13:59:54",
+      "atualizado_em": "2026-08-24 14:11:59",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -12541,7 +12541,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 83
+          "quantidade": 64
         }
       ],
       "minimo_manual": 0,
@@ -12549,9 +12549,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 5.58,
-      "total_saida_historica": 67,
-      "cobertura_dias": 149.2,
+      "media_diaria_saida": 7.17,
+      "total_saida_historica": 86,
+      "cobertura_dias": 113.6,
       "alerta_estoque": false
     },
     {
@@ -13911,6 +13911,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 630,
+      "item_id": 203,
+      "produto_nome": "Soro fisiológico 250ml",
+      "tipo": "Farmácia para Outro destino",
+      "origem": "Farmácia",
+      "destino": "Outro destino",
+      "quantidade": 19,
+      "responsavel": "Leiliana",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-24 14:11:59",
+      "item": "Soro fisiológico 250ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 629,
       "item_id": 56,
@@ -21394,21 +21409,6 @@
       "obs": "Carga inicial Farmácia - linha 117",
       "criado_em": "13/08/2026 20:25:46",
       "item": "Sonda Uretral nº 10",
-      "usuario": "Carga inicial Farmácia"
-    },
-    {
-      "id": 130,
-      "item_id": 113,
-      "produto_nome": "Sonda Nasogástrica nº 14",
-      "tipo": "Entrada direta na Farmácia",
-      "origem": "Carga inicial",
-      "destino": "Farmácia",
-      "quantidade": 73,
-      "responsavel": "Carga inicial Farmácia",
-      "data": "13/08/2026",
-      "obs": "Carga inicial Farmácia - linha 116",
-      "criado_em": "13/08/2026 20:25:46",
-      "item": "Sonda Nasogástrica nº 14",
       "usuario": "Carga inicial Farmácia"
     }
   ]
