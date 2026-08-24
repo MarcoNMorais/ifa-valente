@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 15:21:13",
+  "atualizado_em": "24/08/2026 15:21:27",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 27400,
-    "total_geral": 117805,
+    "total_farmacia": 27390,
+    "total_geral": 117795,
     "perto_de_terminar": 0,
     "zerados": 7
   },
@@ -12476,19 +12476,19 @@
       "tipo": "Insumo",
       "unidade": "Unidade",
       "almoxarifado": 750,
-      "farmacia": 44,
+      "farmacia": 34,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 794,
+      "total": 784,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-24 15:09:01",
+      "atualizado_em": "2026-08-24 15:21:26",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -12502,7 +12502,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 44
+          "quantidade": 34
         }
       ],
       "minimo_manual": 0,
@@ -12510,9 +12510,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 8.83,
-      "total_saida_historica": 106,
-      "cobertura_dias": 89.9,
+      "media_diaria_saida": 9.67,
+      "total_saida_historica": 116,
+      "cobertura_dias": 81.1,
       "alerta_estoque": false
     },
     {
@@ -13865,6 +13865,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 765,
+      "item_id": 203,
+      "produto_nome": "Soro fisiológico 250ml",
+      "tipo": "Farmácia para Outro destino",
+      "origem": "Farmácia",
+      "destino": "Outro destino",
+      "quantidade": 10,
+      "responsavel": "Leiliana",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-24 15:21:26",
+      "item": "Soro fisiológico 250ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 764,
       "item_id": 194,
@@ -21348,21 +21363,6 @@
       "obs": "Importação Farmácia - linha 245 | validade: 11/27",
       "criado_em": "18/08/2026 09:14:00",
       "item": "Lactulose solução",
-      "usuario": "Importação Farmácia"
-    },
-    {
-      "id": 265,
-      "item_id": 240,
-      "produto_nome": "Tobramicina 10% spray",
-      "tipo": "Entrada direta na Farmácia",
-      "origem": "Importação lista Farmácia 227-288",
-      "destino": "Farmácia",
-      "quantidade": 2,
-      "responsavel": "Importação Farmácia",
-      "data": "18/08/2026",
-      "obs": "Importação Farmácia - linha 244 | validade: 02/28",
-      "criado_em": "18/08/2026 09:14:00",
-      "item": "Tobramicina 10% spray",
       "usuario": "Importação Farmácia"
     }
   ]
