@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 15:13:07",
+  "atualizado_em": "24/08/2026 15:13:21",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 27909,
-    "total_geral": 118314,
+    "total_farmacia": 27894,
+    "total_geral": 118299,
     "perto_de_terminar": 0,
     "zerados": 7
   },
@@ -2700,19 +2700,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 160,
+      "farmacia": 145,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 160,
+      "total": 145,
       "minimo": 0,
       "validade": "2028-01",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-24 15:06:32",
+      "atualizado_em": "2026-08-24 15:13:21",
       "validade_mais_proxima": "2028-01",
       "vencimento_mais_proximo": "2028-01",
       "lotes_validade": [
@@ -2720,7 +2720,7 @@
           "local": "farmacia",
           "validade": "2028-01",
           "lote": "",
-          "quantidade": 160
+          "quantidade": 145
         }
       ],
       "minimo_manual": 0,
@@ -2728,9 +2728,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 7.5,
-      "total_saida_historica": 90,
-      "cobertura_dias": 21.3,
+      "media_diaria_saida": 8.75,
+      "total_saida_historica": 105,
+      "cobertura_dias": 16.6,
       "alerta_estoque": false
     },
     {
@@ -13878,6 +13878,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 739,
+      "item_id": 60,
+      "produto_nome": "Cetoprofeno EV 100mg",
+      "tipo": "Farmácia para Outro destino",
+      "origem": "Farmácia",
+      "destino": "Outro destino",
+      "quantidade": 15,
+      "responsavel": "Leiliana",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-24 15:13:21",
+      "item": "Cetoprofeno EV 100mg",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 738,
       "item_id": 68,
       "produto_nome": "Dexametasona",
@@ -21360,21 +21375,6 @@
       "obs": "Carga inicial Farmácia - linha 223",
       "criado_em": "13/08/2026 20:25:46",
       "item": "Fio agulhado / sutura nº 6",
-      "usuario": "Carga inicial Farmácia"
-    },
-    {
-      "id": 239,
-      "item_id": 218,
-      "produto_nome": "Fio agulhado / sutura nº 5",
-      "tipo": "Entrada direta na Farmácia",
-      "origem": "Carga inicial",
-      "destino": "Farmácia",
-      "quantidade": 209,
-      "responsavel": "Carga inicial Farmácia",
-      "data": "13/08/2026",
-      "obs": "Carga inicial Farmácia - linha 222",
-      "criado_em": "13/08/2026 20:25:46",
-      "item": "Fio agulhado / sutura nº 5",
       "usuario": "Carga inicial Farmácia"
     }
   ]
