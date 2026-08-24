@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 15:24:15",
+  "atualizado_em": "24/08/2026 15:24:42",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 27280,
-    "total_geral": 117685,
+    "total_farmacia": 27279,
+    "total_geral": 117684,
     "perto_de_terminar": 0,
     "zerados": 8
   },
@@ -1121,19 +1121,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 7,
+      "farmacia": 6,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 7,
+      "total": 6,
       "minimo": 0,
       "validade": "2026-11",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-24 14:42:44",
+      "atualizado_em": "2026-08-24 15:24:41",
       "validade_mais_proxima": "2026-11",
       "vencimento_mais_proximo": "2026-11",
       "lotes_validade": [
@@ -1141,7 +1141,7 @@
           "local": "farmacia",
           "validade": "2026-11",
           "lote": "",
-          "quantidade": 7
+          "quantidade": 6
         }
       ],
       "minimo_manual": 0,
@@ -1149,9 +1149,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 0.58,
-      "total_saida_historica": 7,
-      "cobertura_dias": 12.0,
+      "media_diaria_saida": 0.67,
+      "total_saida_historica": 8,
+      "cobertura_dias": 9.0,
       "alerta_estoque": false
     },
     {
@@ -13859,6 +13859,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 777,
+      "item_id": 50,
+      "produto_nome": "Amiodarona 50mg",
+      "tipo": "Farmácia para Outro destino",
+      "origem": "Farmácia",
+      "destino": "Outro destino",
+      "quantidade": 1,
+      "responsavel": "Leiliana",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-24 15:24:41",
+      "item": "Amiodarona 50mg",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 776,
       "item_id": 14,
       "produto_nome": "Adenosina 3mg/ml 2ml",
@@ -21341,21 +21356,6 @@
       "obs": "Importação Farmácia - linha 255 | validade: 09/27",
       "criado_em": "18/08/2026 09:14:00",
       "item": "Dexclorfeniramina + Betametasona XPE",
-      "usuario": "Importação Farmácia"
-    },
-    {
-      "id": 277,
-      "item_id": 250,
-      "produto_nome": "Nistatina suspensão",
-      "tipo": "Entrada direta na Farmácia",
-      "origem": "Importação lista Farmácia 227-288",
-      "destino": "Farmácia",
-      "quantidade": 3,
-      "responsavel": "Importação Farmácia",
-      "data": "18/08/2026",
-      "obs": "Importação Farmácia - linha 254 | validade: 07/27",
-      "criado_em": "18/08/2026 09:14:00",
-      "item": "Nistatina suspensão",
       "usuario": "Importação Farmácia"
     }
   ]
