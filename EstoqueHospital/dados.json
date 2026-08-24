@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 14:45:16",
+  "atualizado_em": "24/08/2026 14:45:28",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 28516,
-    "total_geral": 118921,
+    "total_farmacia": 28515,
+    "total_geral": 118920,
     "perto_de_terminar": 0,
     "zerados": 6
   },
@@ -9377,19 +9377,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 83,
+      "farmacia": 82,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 83,
+      "total": 82,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga Farmácia 227-288",
       "obs": "Importação Farmácia 227-288",
-      "atualizado_em": "2026-08-20 13:12:54",
+      "atualizado_em": "2026-08-24 14:45:28",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -9397,7 +9397,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 83
+          "quantidade": 82
         }
       ],
       "minimo_manual": 0,
@@ -9405,9 +9405,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 7,
-      "media_diaria_saida": 0.0,
-      "total_saida_historica": 0,
-      "cobertura_dias": null,
+      "media_diaria_saida": 0.14,
+      "total_saida_historica": 1,
+      "cobertura_dias": 574.0,
       "alerta_estoque": false
     },
     {
@@ -13890,6 +13890,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 692,
+      "item_id": 260,
+      "produto_nome": "Paracetamol gotas",
+      "tipo": "Farmácia para Outro destino",
+      "origem": "Farmácia",
+      "destino": "Outro destino",
+      "quantidade": 1,
+      "responsavel": "Leiliana",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-24 14:45:28",
+      "item": "Paracetamol gotas",
+      "usuario": "Leiliana"
+    },
     {
       "id": 691,
       "item_id": 258,
@@ -21373,21 +21388,6 @@
       "obs": "Carga inicial Farmácia - linha 176",
       "criado_em": "13/08/2026 20:25:46",
       "item": "Sonda Foley nº 16 - 2 vias",
-      "usuario": "Carga inicial Farmácia"
-    },
-    {
-      "id": 192,
-      "item_id": 172,
-      "produto_nome": "Sonda Foley nº 18 - 2 vias",
-      "tipo": "Entrada direta na Farmácia",
-      "origem": "Carga inicial",
-      "destino": "Farmácia",
-      "quantidade": 21,
-      "responsavel": "Carga inicial Farmácia",
-      "data": "13/08/2026",
-      "obs": "Carga inicial Farmácia - linha 175",
-      "criado_em": "13/08/2026 20:25:46",
-      "item": "Sonda Foley nº 18 - 2 vias",
       "usuario": "Carga inicial Farmácia"
     }
   ]
