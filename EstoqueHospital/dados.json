@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 14:30:49",
+  "atualizado_em": "24/08/2026 14:31:14",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 28902,
-    "total_geral": 119307,
+    "total_farmacia": 28900,
+    "total_geral": 119305,
     "perto_de_terminar": 0,
     "zerados": 5
   },
@@ -12593,19 +12593,19 @@
       "tipo": "Insumo",
       "unidade": "Unidade",
       "almoxarifado": 48,
-      "farmacia": 35,
+      "farmacia": 33,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 83,
+      "total": 81,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-24 11:36:21",
+      "atualizado_em": "2026-08-24 14:31:13",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -12619,7 +12619,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 35
+          "quantidade": 33
         }
       ],
       "minimo_manual": 0,
@@ -12627,9 +12627,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 0.0,
-      "total_saida_historica": 0,
-      "cobertura_dias": null,
+      "media_diaria_saida": 0.17,
+      "total_saida_historica": 2,
+      "cobertura_dias": 486.0,
       "alerta_estoque": false
     },
     {
@@ -13897,6 +13897,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 659,
+      "item_id": 206,
+      "produto_nome": "Soro glicose 5% 250ml",
+      "tipo": "Farmácia para Outro destino",
+      "origem": "Farmácia",
+      "destino": "Outro destino",
+      "quantidade": 2,
+      "responsavel": "Leiliana",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-24 14:31:13",
+      "item": "Soro glicose 5% 250ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 658,
       "item_id": 28,
@@ -21380,21 +21395,6 @@
       "obs": "Carga inicial Farmácia - linha 143",
       "criado_em": "13/08/2026 20:25:46",
       "item": "Sonda Uretral nº 06",
-      "usuario": "Carga inicial Farmácia"
-    },
-    {
-      "id": 159,
-      "item_id": 139,
-      "produto_nome": "Oseltamivir 30mg CPR",
-      "tipo": "Entrada direta na Farmácia",
-      "origem": "Carga inicial",
-      "destino": "Farmácia",
-      "quantidade": 20,
-      "responsavel": "Carga inicial Farmácia",
-      "data": "13/08/2026",
-      "obs": "Carga inicial Farmácia - linha 142 | Validade: 2027-06",
-      "criado_em": "13/08/2026 20:25:46",
-      "item": "Oseltamivir 30mg CPR",
       "usuario": "Carga inicial Farmácia"
     }
   ]
