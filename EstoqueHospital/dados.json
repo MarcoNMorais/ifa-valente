@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 14:56:28",
+  "atualizado_em": "24/08/2026 14:56:44",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 28278,
-    "total_geral": 118683,
+    "total_farmacia": 28248,
+    "total_geral": 118653,
     "perto_de_terminar": 0,
     "zerados": 6
   },
@@ -3783,19 +3783,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 620,
+      "farmacia": 590,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 620,
+      "total": 590,
       "minimo": 0,
       "validade": "2027-03",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-24 14:38:25",
+      "atualizado_em": "2026-08-24 14:56:43",
       "validade_mais_proxima": "2027-03",
       "vencimento_mais_proximo": "2027-03",
       "lotes_validade": [
@@ -3803,7 +3803,7 @@
           "local": "farmacia",
           "validade": "2027-03",
           "lote": "",
-          "quantidade": 620
+          "quantidade": 590
         }
       ],
       "minimo_manual": 0,
@@ -3811,9 +3811,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 33.33,
-      "total_saida_historica": 400,
-      "cobertura_dias": 18.6,
+      "media_diaria_saida": 35.83,
+      "total_saida_historica": 430,
+      "cobertura_dias": 16.5,
       "alerta_estoque": false
     },
     {
@@ -13891,6 +13891,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 713,
+      "item_id": 70,
+      "produto_nome": "Dipirona",
+      "tipo": "Farmácia para Outro destino",
+      "origem": "Farmácia",
+      "destino": "Outro destino",
+      "quantidade": 30,
+      "responsavel": "Leiliana",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-24 14:56:43",
+      "item": "Dipirona",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 712,
       "item_id": 60,
       "produto_nome": "Cetoprofeno EV 100mg",
@@ -21373,21 +21388,6 @@
       "obs": "Carga inicial Farmácia - linha 197",
       "criado_em": "13/08/2026 20:25:46",
       "item": "Lanceta de segurança",
-      "usuario": "Carga inicial Farmácia"
-    },
-    {
-      "id": 213,
-      "item_id": 193,
-      "produto_nome": "Agulha hipodérmica tam. 26",
-      "tipo": "Entrada direta na Farmácia",
-      "origem": "Carga inicial",
-      "destino": "Farmácia",
-      "quantidade": 320,
-      "responsavel": "Carga inicial Farmácia",
-      "data": "13/08/2026",
-      "obs": "Carga inicial Farmácia - linha 196",
-      "criado_em": "13/08/2026 20:25:46",
-      "item": "Agulha hipodérmica tam. 26",
       "usuario": "Carga inicial Farmácia"
     }
   ]
