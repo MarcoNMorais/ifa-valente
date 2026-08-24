@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 14:16:07",
+  "atualizado_em": "24/08/2026 14:16:35",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 29279,
-    "total_geral": 119684,
+    "total_farmacia": 29272,
+    "total_geral": 119677,
     "perto_de_terminar": 0,
     "zerados": 3
   },
@@ -7320,19 +7320,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 350,
-      "farmacia": 22,
+      "farmacia": 15,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 372,
+      "total": 365,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-24 14:16:07",
+      "atualizado_em": "2026-08-24 14:16:35",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -7346,7 +7346,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 22
+          "quantidade": 15
         }
       ],
       "minimo_manual": 0,
@@ -7354,9 +7354,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 0.58,
-      "total_saida_historica": 7,
-      "cobertura_dias": 637.7,
+      "media_diaria_saida": 1.17,
+      "total_saida_historica": 14,
+      "cobertura_dias": 312.9,
       "alerta_estoque": false
     },
     {
@@ -13911,6 +13911,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 635,
+      "item_id": 185,
+      "produto_nome": "Luva cirúrgica tam. 7,5",
+      "tipo": "Farmácia para Outro destino",
+      "origem": "Farmácia",
+      "destino": "Outro destino",
+      "quantidade": 7,
+      "responsavel": "Leiliana",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-24 14:16:35",
+      "item": "Luva cirúrgica tam. 7,5",
+      "usuario": "Leiliana"
+    },
     {
       "id": 634,
       "item_id": 185,
@@ -21394,21 +21409,6 @@
       "obs": "Carga inicial Farmácia - linha 121 | Validade: 2027-09",
       "criado_em": "13/08/2026 20:25:46",
       "item": "Ondansetrona solução oral",
-      "usuario": "Carga inicial Farmácia"
-    },
-    {
-      "id": 135,
-      "item_id": 117,
-      "produto_nome": "Triancinolona acetonida bucal",
-      "tipo": "Entrada direta na Farmácia",
-      "origem": "Carga inicial",
-      "destino": "Farmácia",
-      "quantidade": 1,
-      "responsavel": "Carga inicial Farmácia",
-      "data": "13/08/2026",
-      "obs": "Carga inicial Farmácia - linha 120 | Validade: 2027-10",
-      "criado_em": "13/08/2026 20:25:46",
-      "item": "Triancinolona acetonida bucal",
       "usuario": "Carga inicial Farmácia"
     }
   ]
