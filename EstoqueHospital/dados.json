@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "24/08/2026 16:03:54",
+  "atualizado_em": "24/08/2026 16:04:29",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
-    "total_almoxarifado": 90386,
-    "total_farmacia": 25028,
+    "total_almoxarifado": 90378,
+    "total_farmacia": 25036,
     "total_geral": 115414,
     "perto_de_terminar": 0,
     "zerados": 11
@@ -182,8 +182,8 @@
       "nome": "Acetilcisteína XRP",
       "tipo": "Medicamento",
       "unidade": "Unidade",
-      "almoxarifado": 8,
-      "farmacia": 0,
+      "almoxarifado": 0,
+      "farmacia": 8,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -195,12 +195,12 @@
       "lote": "",
       "origem": "Carga Almoxerifado",
       "obs": "Importação Almoxerifado",
-      "atualizado_em": "2026-08-20 13:12:54",
+      "atualizado_em": "2026-08-24 16:04:29",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
         {
-          "local": "almoxarifado",
+          "local": "farmacia",
           "validade": "",
           "lote": "",
           "quantidade": 8
@@ -13808,6 +13808,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 910,
+      "item_id": 303,
+      "produto_nome": "Acetilcisteína XRP",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 8,
+      "responsavel": "Leiliana",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-24 16:04:29",
+      "item": "Acetilcisteína XRP",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 909,
       "item_id": 320,
       "produto_nome": "Acebrofilina 10mg/ml",
@@ -21290,21 +21305,6 @@
       "obs": "Importação Almoxerifado - linha 95",
       "criado_em": "18/08/2026 09:58:00",
       "item": "Espéculo",
-      "usuario": "Sistema"
-    },
-    {
-      "id": 410,
-      "item_id": 332,
-      "produto_nome": "Máscara nº 95",
-      "tipo": "entrada",
-      "origem": "Carga Almoxerifado",
-      "destino": "almoxarifado",
-      "quantidade": 100,
-      "responsavel": "Sistema",
-      "data": "18/08/2026 09:58:00",
-      "obs": "Importação Almoxerifado - linha 94",
-      "criado_em": "18/08/2026 09:58:00",
-      "item": "Máscara nº 95",
       "usuario": "Sistema"
     }
   ]
