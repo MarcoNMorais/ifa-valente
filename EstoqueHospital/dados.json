@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "24/08/2026 16:06:04",
+  "atualizado_em": "24/08/2026 16:06:20",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
-    "total_almoxarifado": 90354,
-    "total_farmacia": 25060,
+    "total_almoxarifado": 90330,
+    "total_farmacia": 25084,
     "total_geral": 115414,
     "perto_de_terminar": 0,
     "zerados": 11
@@ -12561,8 +12561,8 @@
       "nome": "Soro glicose 5% 500ml",
       "tipo": "Insumo",
       "unidade": "Unidade",
-      "almoxarifado": 90,
-      "farmacia": 0,
+      "almoxarifado": 66,
+      "farmacia": 24,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -12574,7 +12574,7 @@
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-24 15:31:21",
+      "atualizado_em": "2026-08-24 16:06:20",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -12582,7 +12582,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 90
+          "quantidade": 66
+        },
+        {
+          "local": "farmacia",
+          "validade": "",
+          "lote": "",
+          "quantidade": 24
         }
       ],
       "minimo_manual": 0,
@@ -13807,6 +13813,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 912,
+      "item_id": 205,
+      "produto_nome": "Soro glicose 5% 500ml",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 24,
+      "responsavel": "Leiliana",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-24 16:06:20",
+      "item": "Soro glicose 5% 500ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 911,
       "item_id": 201,
@@ -21290,21 +21311,6 @@
       "obs": "Importação Almoxerifado - linha 97",
       "criado_em": "18/08/2026 09:58:00",
       "item": "Bisturi nº 23",
-      "usuario": "Sistema"
-    },
-    {
-      "id": 412,
-      "item_id": 334,
-      "produto_nome": "Bisturi nº 15",
-      "tipo": "entrada",
-      "origem": "Carga Almoxerifado",
-      "destino": "almoxarifado",
-      "quantidade": 1000,
-      "responsavel": "Sistema",
-      "data": "18/08/2026 09:58:00",
-      "obs": "Importação Almoxerifado - linha 96",
-      "criado_em": "18/08/2026 09:58:00",
-      "item": "Bisturi nº 15",
       "usuario": "Sistema"
     }
   ]
