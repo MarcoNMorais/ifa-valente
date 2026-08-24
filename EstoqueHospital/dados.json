@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 14:32:57",
+  "atualizado_em": "24/08/2026 14:33:36",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 28879,
-    "total_geral": 119284,
+    "total_farmacia": 28874,
+    "total_geral": 119279,
     "perto_de_terminar": 0,
     "zerados": 5
   },
@@ -6238,19 +6238,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 78,
+      "farmacia": 73,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 78,
+      "total": 73,
       "minimo": 0,
       "validade": "2027-06",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-20 13:12:54",
+      "atualizado_em": "2026-08-24 14:33:35",
       "validade_mais_proxima": "2027-06",
       "vencimento_mais_proximo": "2027-06",
       "lotes_validade": [
@@ -6258,7 +6258,7 @@
           "local": "farmacia",
           "validade": "2027-06",
           "lote": "",
-          "quantidade": 78
+          "quantidade": 73
         }
       ],
       "minimo_manual": 0,
@@ -6266,9 +6266,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 0.0,
-      "total_saida_historica": 0,
-      "cobertura_dias": null,
+      "media_diaria_saida": 0.42,
+      "total_saida_historica": 5,
+      "cobertura_dias": 175.2,
       "alerta_estoque": false
     },
     {
@@ -13898,6 +13898,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 663,
+      "item_id": 89,
+      "produto_nome": "Hemitartarato de Norepinefrina",
+      "tipo": "Farmácia para Outro destino",
+      "origem": "Farmácia",
+      "destino": "Outro destino",
+      "quantidade": 5,
+      "responsavel": "Leiliana",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-24 14:33:35",
+      "item": "Hemitartarato de Norepinefrina",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 662,
       "item_id": 6,
       "produto_nome": "Nitroglicerina 5mg/ml",
@@ -21380,21 +21395,6 @@
       "obs": "Carga inicial Farmácia - linha 147",
       "criado_em": "13/08/2026 20:25:46",
       "item": "Sonda Uretral nº 16",
-      "usuario": "Carga inicial Farmácia"
-    },
-    {
-      "id": 163,
-      "item_id": 143,
-      "produto_nome": "Sonda Uretral nº 12",
-      "tipo": "Entrada direta na Farmácia",
-      "origem": "Carga inicial",
-      "destino": "Farmácia",
-      "quantidade": 36,
-      "responsavel": "Carga inicial Farmácia",
-      "data": "13/08/2026",
-      "obs": "Carga inicial Farmácia - linha 146",
-      "criado_em": "13/08/2026 20:25:46",
-      "item": "Sonda Uretral nº 12",
       "usuario": "Carga inicial Farmácia"
     }
   ]
