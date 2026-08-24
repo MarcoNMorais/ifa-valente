@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 14:32:46",
+  "atualizado_em": "24/08/2026 14:32:57",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 28881,
-    "total_geral": 119286,
+    "total_farmacia": 28879,
+    "total_geral": 119284,
     "perto_de_terminar": 0,
     "zerados": 5
   },
@@ -8741,19 +8741,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 16,
+      "farmacia": 14,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 16,
+      "total": 14,
       "minimo": 0,
       "validade": "2027-04",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-20 13:12:54",
+      "atualizado_em": "2026-08-24 14:32:57",
       "validade_mais_proxima": "2027-04",
       "vencimento_mais_proximo": "2027-04",
       "lotes_validade": [
@@ -8761,7 +8761,7 @@
           "local": "farmacia",
           "validade": "2027-04",
           "lote": "",
-          "quantidade": 9
+          "quantidade": 7
         },
         {
           "local": "farmacia",
@@ -8775,9 +8775,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 0.0,
-      "total_saida_historica": 0,
-      "cobertura_dias": null,
+      "media_diaria_saida": 0.17,
+      "total_saida_historica": 2,
+      "cobertura_dias": 84.0,
       "alerta_estoque": false
     },
     {
@@ -13897,6 +13897,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 662,
+      "item_id": 6,
+      "produto_nome": "Nitroglicerina 5mg/ml",
+      "tipo": "Farmácia para Outro destino",
+      "origem": "Farmácia",
+      "destino": "Outro destino",
+      "quantidade": 2,
+      "responsavel": "Leiliana",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-24 14:32:57",
+      "item": "Nitroglicerina 5mg/ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 661,
       "item_id": 73,
@@ -21380,21 +21395,6 @@
       "obs": "Carga inicial Farmácia - linha 146",
       "criado_em": "13/08/2026 20:25:46",
       "item": "Sonda Uretral nº 12",
-      "usuario": "Carga inicial Farmácia"
-    },
-    {
-      "id": 162,
-      "item_id": 142,
-      "produto_nome": "Sonda Uretral nº 08",
-      "tipo": "Entrada direta na Farmácia",
-      "origem": "Carga inicial",
-      "destino": "Farmácia",
-      "quantidade": 27,
-      "responsavel": "Carga inicial Farmácia",
-      "data": "13/08/2026",
-      "obs": "Carga inicial Farmácia - linha 145",
-      "criado_em": "13/08/2026 20:25:46",
-      "item": "Sonda Uretral nº 08",
       "usuario": "Carga inicial Farmácia"
     }
   ]
