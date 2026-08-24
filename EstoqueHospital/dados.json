@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 15:05:53",
+  "atualizado_em": "24/08/2026 15:06:05",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 28170,
-    "total_geral": 118575,
+    "total_farmacia": 28169,
+    "total_geral": 118574,
     "perto_de_terminar": 0,
     "zerados": 7
   },
@@ -9490,19 +9490,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 11,
+      "farmacia": 10,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 11,
+      "total": 10,
       "minimo": 0,
       "validade": "03/28",
       "lote": "",
       "origem": "Carga Farmácia 227-288",
       "obs": "Importação Farmácia 227-288",
-      "atualizado_em": "2026-08-24 14:46:01",
+      "atualizado_em": "2026-08-24 15:06:04",
       "validade_mais_proxima": "03/28",
       "vencimento_mais_proximo": "03/28",
       "lotes_validade": [
@@ -9511,12 +9511,6 @@
           "validade": "03/28",
           "lote": "",
           "quantidade": 10
-        },
-        {
-          "local": "farmacia",
-          "validade": "07/27",
-          "lote": "",
-          "quantidade": 1
         }
       ],
       "minimo_manual": 0,
@@ -9524,9 +9518,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 11,
-      "media_diaria_saida": 0.18,
-      "total_saida_historica": 2,
-      "cobertura_dias": 60.5,
+      "media_diaria_saida": 0.27,
+      "total_saida_historica": 3,
+      "cobertura_dias": 36.7,
       "alerta_estoque": false
     },
     {
@@ -13883,6 +13877,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 723,
+      "item_id": 249,
+      "produto_nome": "Prednisolona 3mg/ml",
+      "tipo": "Farmácia para Outro destino",
+      "origem": "Farmácia",
+      "destino": "Outro destino",
+      "quantidade": 1,
+      "responsavel": "Leiliana",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-24 15:06:04",
+      "item": "Prednisolona 3mg/ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 722,
       "item_id": 248,
@@ -21366,21 +21375,6 @@
       "obs": "Carga inicial Farmácia - linha 207",
       "criado_em": "13/08/2026 20:25:46",
       "item": "Soro fisiológico 500ml",
-      "usuario": "Carga inicial Farmácia"
-    },
-    {
-      "id": 223,
-      "item_id": 203,
-      "produto_nome": "Soro fisiológico 250ml",
-      "tipo": "Entrada direta na Farmácia",
-      "origem": "Carga inicial",
-      "destino": "Farmácia",
-      "quantidade": 50,
-      "responsavel": "Carga inicial Farmácia",
-      "data": "13/08/2026",
-      "obs": "Carga inicial Farmácia - linha 206",
-      "criado_em": "13/08/2026 20:25:46",
-      "item": "Soro fisiológico 250ml",
       "usuario": "Carga inicial Farmácia"
     }
   ]
