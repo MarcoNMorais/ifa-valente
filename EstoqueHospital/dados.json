@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 11:52:04",
+  "atualizado_em": "24/08/2026 11:52:37",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 29927,
-    "total_geral": 120332,
+    "total_farmacia": 29907,
+    "total_geral": 120312,
     "perto_de_terminar": 0,
     "zerados": 3
   },
@@ -675,19 +675,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 257,
+      "farmacia": 237,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 257,
+      "total": 237,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-24 11:51:41",
+      "atualizado_em": "2026-08-24 11:52:37",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -695,7 +695,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 257
+          "quantidade": 237
         }
       ],
       "minimo_manual": 0,
@@ -703,9 +703,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 8.33,
-      "total_saida_historica": 100,
-      "cobertura_dias": 30.8,
+      "media_diaria_saida": 10.0,
+      "total_saida_historica": 120,
+      "cobertura_dias": 23.7,
       "alerta_estoque": false
     },
     {
@@ -14365,6 +14365,21 @@
       "usuario": "Leiliana"
     },
     {
+      "id": 597,
+      "item_id": 188,
+      "produto_nome": "Agulha hipodérmica tam. 21",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 20,
+      "responsavel": "Assucena",
+      "data": "2026-08-17",
+      "obs": "",
+      "criado_em": "2026-08-24 11:52:37",
+      "item": "Agulha hipodérmica tam. 21",
+      "usuario": "Assucena"
+    },
+    {
       "id": 596,
       "item_id": 189,
       "produto_nome": "Agulha hipodérmica tam. 22",
@@ -21412,21 +21427,6 @@
       "obs": "Carga inicial Farmácia - linha 84 | Validade: 2027-10",
       "criado_em": "13/08/2026 20:25:46",
       "item": "Heparina",
-      "usuario": "Carga inicial Farmácia"
-    },
-    {
-      "id": 97,
-      "item_id": 80,
-      "produto_nome": "Hidralazina 20mg",
-      "tipo": "Entrada direta na Farmácia",
-      "origem": "Carga inicial",
-      "destino": "Farmácia",
-      "quantidade": 125,
-      "responsavel": "Carga inicial Farmácia",
-      "data": "13/08/2026",
-      "obs": "Carga inicial Farmácia - linha 83 | Validade: 2027-07",
-      "criado_em": "13/08/2026 20:25:46",
-      "item": "Hidralazina 20mg",
       "usuario": "Carga inicial Farmácia"
     }
   ]
