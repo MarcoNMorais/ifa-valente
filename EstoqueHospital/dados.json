@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 15:17:23",
+  "atualizado_em": "24/08/2026 15:17:37",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 27632,
-    "total_geral": 118037,
+    "total_farmacia": 27624,
+    "total_geral": 118029,
     "perto_de_terminar": 0,
     "zerados": 7
   },
@@ -12666,19 +12666,19 @@
       "tipo": "Insumo",
       "unidade": "Unidade",
       "almoxarifado": 264,
-      "farmacia": 82,
+      "farmacia": 74,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 346,
+      "total": 338,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-24 14:45:04",
+      "atualizado_em": "2026-08-24 15:17:37",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -12692,7 +12692,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 82
+          "quantidade": 74
         }
       ],
       "minimo_manual": 0,
@@ -12700,9 +12700,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 3.17,
-      "total_saida_historica": 38,
-      "cobertura_dias": 109.3,
+      "media_diaria_saida": 3.83,
+      "total_saida_historica": 46,
+      "cobertura_dias": 88.2,
       "alerta_estoque": false
     },
     {
@@ -13871,6 +13871,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 751,
+      "item_id": 201,
+      "produto_nome": "Soro Ringer Lactato 500ml",
+      "tipo": "Farmácia para Outro destino",
+      "origem": "Farmácia",
+      "destino": "Outro destino",
+      "quantidade": 8,
+      "responsavel": "Leiliana",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-24 15:17:37",
+      "item": "Soro Ringer Lactato 500ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 750,
       "item_id": 202,
@@ -21354,21 +21369,6 @@
       "obs": "Importação Farmácia - linha 234 | validade: 08/27",
       "criado_em": "18/08/2026 09:14:00",
       "item": "Ferropurum 20mg/ml",
-      "usuario": "Importação Farmácia"
-    },
-    {
-      "id": 251,
-      "item_id": 229,
-      "produto_nome": "Oxacilina 500mg pó injetável",
-      "tipo": "Entrada direta na Farmácia",
-      "origem": "Importação lista Farmácia 227-288",
-      "destino": "Farmácia",
-      "quantidade": 236,
-      "responsavel": "Importação Farmácia",
-      "data": "18/08/2026",
-      "obs": "Importação Farmácia - linha 233 | validade: 02/28",
-      "criado_em": "18/08/2026 09:14:00",
-      "item": "Oxacilina 500mg pó injetável",
       "usuario": "Importação Farmácia"
     }
   ]
