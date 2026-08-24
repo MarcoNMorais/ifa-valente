@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 14:46:15",
+  "atualizado_em": "24/08/2026 14:46:28",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 28512,
-    "total_geral": 118917,
+    "total_farmacia": 28502,
+    "total_geral": 118907,
     "perto_de_terminar": 0,
     "zerados": 6
   },
@@ -3823,19 +3823,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 290,
+      "farmacia": 280,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 290,
+      "total": 280,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-24 14:30:48",
+      "atualizado_em": "2026-08-24 14:46:28",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -3843,7 +3843,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 310
+          "quantidade": 300
         }
       ],
       "minimo_manual": 0,
@@ -3851,9 +3851,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 6.67,
-      "total_saida_historica": 80,
-      "cobertura_dias": 43.5,
+      "media_diaria_saida": 7.5,
+      "total_saida_historica": 90,
+      "cobertura_dias": 37.3,
       "alerta_estoque": false
     },
     {
@@ -13891,6 +13891,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 695,
+      "item_id": 28,
+      "produto_nome": "Dipirona 500mg",
+      "tipo": "Farmácia para Outro destino",
+      "origem": "Farmácia",
+      "destino": "Outro destino",
+      "quantidade": 10,
+      "responsavel": "Leiliana",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-24 14:46:28",
+      "item": "Dipirona 500mg",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 694,
       "item_id": 256,
       "produto_nome": "Simeticona gotas",
@@ -21373,21 +21388,6 @@
       "obs": "Carga inicial Farmácia - linha 179",
       "criado_em": "13/08/2026 20:25:46",
       "item": "Dispositivo intravenoso Gelco nº 24",
-      "usuario": "Carga inicial Farmácia"
-    },
-    {
-      "id": 195,
-      "item_id": 175,
-      "produto_nome": "Fita cirúrgica microporosa",
-      "tipo": "Entrada direta na Farmácia",
-      "origem": "Carga inicial",
-      "destino": "Farmácia",
-      "quantidade": 9,
-      "responsavel": "Carga inicial Farmácia",
-      "data": "13/08/2026",
-      "obs": "Carga inicial Farmácia - linha 178",
-      "criado_em": "13/08/2026 20:25:46",
-      "item": "Fita cirúrgica microporosa",
       "usuario": "Carga inicial Farmácia"
     }
   ]
