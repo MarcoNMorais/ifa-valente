@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 11:38:44",
+  "atualizado_em": "24/08/2026 11:38:53",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 31869,
-    "total_geral": 122274,
+    "total_farmacia": 31857,
+    "total_geral": 122262,
     "perto_de_terminar": 0,
     "zerados": 3
   },
@@ -2639,19 +2639,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 296,
+      "farmacia": 284,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 296,
+      "total": 284,
       "minimo": 0,
       "validade": "2028-01",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-24 11:30:05",
+      "atualizado_em": "2026-08-24 11:38:52",
       "validade_mais_proxima": "2028-01",
       "vencimento_mais_proximo": "2028-01",
       "lotes_validade": [
@@ -2659,7 +2659,7 @@
           "local": "farmacia",
           "validade": "2028-01",
           "lote": "",
-          "quantidade": 296
+          "quantidade": 284
         }
       ],
       "minimo_manual": 0,
@@ -2667,9 +2667,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 2.67,
-      "total_saida_historica": 32,
-      "cobertura_dias": 111.0,
+      "media_diaria_saida": 3.67,
+      "total_saida_historica": 44,
+      "cobertura_dias": 77.5,
       "alerta_estoque": false
     },
     {
@@ -14371,6 +14371,21 @@
       "usuario": "Leiliana"
     },
     {
+      "id": 543,
+      "item_id": 59,
+      "produto_nome": "Ceftriaxona 1g",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 12,
+      "responsavel": "Assucena",
+      "data": "2026-08-16",
+      "obs": "",
+      "criado_em": "2026-08-24 11:38:52",
+      "item": "Ceftriaxona 1g",
+      "usuario": "Assucena"
+    },
+    {
       "id": 542,
       "item_id": 68,
       "produto_nome": "Dexametasona",
@@ -21418,21 +21433,6 @@
       "obs": "Carga inicial Farmácia - linha 30 | Validade: 2027-01",
       "criado_em": "13/08/2026 20:25:46",
       "item": "Cilostazol 100mg comprimido",
-      "usuario": "Carga inicial Farmácia"
-    },
-    {
-      "id": 43,
-      "item_id": 29,
-      "produto_nome": "Oxynest / colírio anestésico",
-      "tipo": "Entrada direta na Farmácia",
-      "origem": "Carga inicial",
-      "destino": "Farmácia",
-      "quantidade": 1,
-      "responsavel": "Carga inicial Farmácia",
-      "data": "13/08/2026",
-      "obs": "Carga inicial Farmácia - linha 29b | Validade: 2027-04",
-      "criado_em": "13/08/2026 20:25:46",
-      "item": "Oxynest / colírio anestésico",
       "usuario": "Carga inicial Farmácia"
     }
   ]
