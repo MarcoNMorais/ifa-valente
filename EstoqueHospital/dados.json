@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 14:04:44",
+  "atualizado_em": "24/08/2026 14:04:59",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 29510,
-    "total_geral": 119915,
+    "total_farmacia": 29490,
+    "total_geral": 119895,
     "perto_de_terminar": 0,
     "zerados": 3
   },
@@ -3995,19 +3995,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 1500,
-      "farmacia": 148,
+      "farmacia": 128,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1648,
+      "total": 1628,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-08-24 11:45:36",
+      "atualizado_em": "2026-08-24 14:04:58",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -4021,7 +4021,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 148
+          "quantidade": 128
         }
       ],
       "minimo_manual": 0,
@@ -4029,9 +4029,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 8.33,
-      "total_saida_historica": 100,
-      "cobertura_dias": 197.8,
+      "media_diaria_saida": 10.0,
+      "total_saida_historica": 120,
+      "cobertura_dias": 162.8,
       "alerta_estoque": false
     },
     {
@@ -13918,6 +13918,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 620,
+      "item_id": 177,
+      "produto_nome": "Dispositivo intravenoso Gelco nº 22",
+      "tipo": "Farmácia para Outro destino",
+      "origem": "Farmácia",
+      "destino": "Outro destino",
+      "quantidade": 20,
+      "responsavel": "Leiliana",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-24 14:04:58",
+      "item": "Dispositivo intravenoso Gelco nº 22",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 619,
       "item_id": 98,
       "produto_nome": "Scalp nº 23",
@@ -21400,21 +21415,6 @@
       "obs": "Carga inicial Farmácia - linha 107",
       "criado_em": "13/08/2026 20:25:46",
       "item": "Seringa 3ml",
-      "usuario": "Carga inicial Farmácia"
-    },
-    {
-      "id": 120,
-      "item_id": 103,
-      "produto_nome": "Seringa 10ml",
-      "tipo": "Entrada direta na Farmácia",
-      "origem": "Carga inicial",
-      "destino": "Farmácia",
-      "quantidade": 24,
-      "responsavel": "Carga inicial Farmácia",
-      "data": "13/08/2026",
-      "obs": "Carga inicial Farmácia - linha 106",
-      "criado_em": "13/08/2026 20:25:46",
-      "item": "Seringa 10ml",
       "usuario": "Carga inicial Farmácia"
     }
   ]
