@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 15:15:42",
+  "atualizado_em": "24/08/2026 15:16:00",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 27774,
-    "total_geral": 118179,
+    "total_farmacia": 27772,
+    "total_geral": 118177,
     "perto_de_terminar": 0,
     "zerados": 7
   },
@@ -9954,19 +9954,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 900,
-      "farmacia": 2,
+      "farmacia": 0,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 902,
+      "total": 900,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-24 14:19:37",
+      "atualizado_em": "2026-08-24 15:16:00",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -9975,12 +9975,6 @@
           "validade": "",
           "lote": "",
           "quantidade": 900
-        },
-        {
-          "local": "farmacia",
-          "validade": "",
-          "lote": "",
-          "quantidade": 2
         }
       ],
       "minimo_manual": 0,
@@ -9988,9 +9982,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 5.0,
-      "total_saida_historica": 60,
-      "cobertura_dias": 180.4,
+      "media_diaria_saida": 5.17,
+      "total_saida_historica": 62,
+      "cobertura_dias": 174.2,
       "alerta_estoque": false
     },
     {
@@ -13877,6 +13871,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 747,
+      "item_id": 98,
+      "produto_nome": "Scalp nº 23",
+      "tipo": "Farmácia para Outro destino",
+      "origem": "Farmácia",
+      "destino": "Outro destino",
+      "quantidade": 2,
+      "responsavel": "Leiliana",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-24 15:16:00",
+      "item": "Scalp nº 23",
+      "usuario": "Leiliana"
+    },
     {
       "id": 746,
       "item_id": 176,
@@ -21360,21 +21369,6 @@
       "obs": "Importação Farmácia - linha 231 | validade: sem validade",
       "criado_em": "18/08/2026 09:14:00",
       "item": "Enoxaparina sódica 60mg",
-      "usuario": "Importação Farmácia"
-    },
-    {
-      "id": 247,
-      "item_id": 226,
-      "produto_nome": "Enoxaparina sódica 40mg",
-      "tipo": "Entrada direta na Farmácia",
-      "origem": "Importação lista Farmácia 227-288",
-      "destino": "Farmácia",
-      "quantidade": 190,
-      "responsavel": "Importação Farmácia",
-      "data": "18/08/2026",
-      "obs": "Importação Farmácia - linha 230 | validade: sem validade",
-      "criado_em": "18/08/2026 09:14:00",
-      "item": "Enoxaparina sódica 40mg",
       "usuario": "Importação Farmácia"
     }
   ]
