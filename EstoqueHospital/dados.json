@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 15:42:56",
+  "atualizado_em": "24/08/2026 15:43:10",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 25971,
-    "total_geral": 116376,
+    "total_farmacia": 25966,
+    "total_geral": 116371,
     "perto_de_terminar": 0,
     "zerados": 9
   },
@@ -6217,19 +6217,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 68,
+      "farmacia": 63,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 68,
+      "total": 63,
       "minimo": 0,
       "validade": "2027-06",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-24 15:37:17",
+      "atualizado_em": "2026-08-24 15:43:09",
       "validade_mais_proxima": "2027-06",
       "vencimento_mais_proximo": "2027-06",
       "lotes_validade": [
@@ -6237,7 +6237,7 @@
           "local": "farmacia",
           "validade": "2027-06",
           "lote": "",
-          "quantidade": 68
+          "quantidade": 63
         }
       ],
       "minimo_manual": 0,
@@ -6245,9 +6245,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 0.83,
-      "total_saida_historica": 10,
-      "cobertura_dias": 81.6,
+      "media_diaria_saida": 1.25,
+      "total_saida_historica": 15,
+      "cobertura_dias": 50.4,
       "alerta_estoque": false
     },
     {
@@ -13840,6 +13840,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 840,
+      "item_id": 89,
+      "produto_nome": "Hemitartarato de Norepinefrina",
+      "tipo": "Farmácia para Outro destino",
+      "origem": "Farmácia",
+      "destino": "Outro destino",
+      "quantidade": 5,
+      "responsavel": "Leiliana",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-24 15:43:09",
+      "item": "Hemitartarato de Norepinefrina",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 839,
       "item_id": 11,
       "produto_nome": "Midazolam 5mg/ml 10ml",
@@ -21322,21 +21337,6 @@
       "obs": "Importação Almoxerifado - linha 25",
       "criado_em": "18/08/2026 09:58:00",
       "item": "Luva de vinil P",
-      "usuario": "Sistema"
-    },
-    {
-      "id": 340,
-      "item_id": 277,
-      "produto_nome": "Luva de vinil M",
-      "tipo": "entrada",
-      "origem": "Carga Almoxerifado",
-      "destino": "almoxarifado",
-      "quantidade": 600,
-      "responsavel": "Sistema",
-      "data": "18/08/2026 09:58:00",
-      "obs": "Importação Almoxerifado - linha 24",
-      "criado_em": "18/08/2026 09:58:00",
-      "item": "Luva de vinil M",
       "usuario": "Sistema"
     }
   ]
