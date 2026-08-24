@@ -1,13 +1,13 @@
 {
-  "atualizado_em": "24/08/2026 16:01:20",
+  "atualizado_em": "24/08/2026 16:01:47",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 25024,
-    "total_geral": 115429,
+    "total_farmacia": 25023,
+    "total_geral": 115428,
     "perto_de_terminar": 0,
-    "zerados": 10
+    "zerados": 11
   },
   "itens": [
     {
@@ -1121,37 +1121,30 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 1,
+      "farmacia": 0,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1,
+      "total": 0,
       "minimo": 0,
-      "validade": "2026-11",
+      "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-24 15:33:57",
-      "validade_mais_proxima": "2026-11",
-      "vencimento_mais_proximo": "2026-11",
-      "lotes_validade": [
-        {
-          "local": "farmacia",
-          "validade": "2026-11",
-          "lote": "",
-          "quantidade": 1
-        }
-      ],
+      "atualizado_em": "2026-08-24 16:01:46",
+      "validade_mais_proxima": "",
+      "vencimento_mais_proximo": "",
+      "lotes_validade": [],
       "minimo_manual": 0,
       "minimo_alerta": 0,
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 1.08,
-      "total_saida_historica": 13,
-      "cobertura_dias": 0.9,
+      "media_diaria_saida": 1.17,
+      "total_saida_historica": 14,
+      "cobertura_dias": 0.0,
       "alerta_estoque": false
     },
     {
@@ -13821,6 +13814,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 903,
+      "item_id": 50,
+      "produto_nome": "Amiodarona 50mg",
+      "tipo": "Farmácia para Outro destino",
+      "origem": "Farmácia",
+      "destino": "Outro destino",
+      "quantidade": 1,
+      "responsavel": "Leiliana",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-24 16:01:46",
+      "item": "Amiodarona 50mg",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 902,
       "item_id": 73,
       "produto_nome": "Epinefrina 1mg",
@@ -21303,21 +21311,6 @@
       "obs": "Importação Almoxerifado - linha 88",
       "criado_em": "18/08/2026 09:58:00",
       "item": "Polifix",
-      "usuario": "Sistema"
-    },
-    {
-      "id": 403,
-      "item_id": 328,
-      "produto_nome": "Papel grau 15cm",
-      "tipo": "entrada",
-      "origem": "Carga Almoxerifado",
-      "destino": "almoxarifado",
-      "quantidade": 7,
-      "responsavel": "Sistema",
-      "data": "18/08/2026 09:58:00",
-      "obs": "Importação Almoxerifado - linha 87",
-      "criado_em": "18/08/2026 09:58:00",
-      "item": "Papel grau 15cm",
       "usuario": "Sistema"
     }
   ]
