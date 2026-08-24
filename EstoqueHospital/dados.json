@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 15:19:38",
+  "atualizado_em": "24/08/2026 15:19:53",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 27547,
-    "total_geral": 117952,
+    "total_farmacia": 27544,
+    "total_geral": 117949,
     "perto_de_terminar": 0,
     "zerados": 7
   },
@@ -11258,19 +11258,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 8,
+      "farmacia": 5,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 8,
+      "total": 5,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-20 13:12:54",
+      "atualizado_em": "2026-08-24 15:19:52",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -11278,7 +11278,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 8
+          "quantidade": 5
         }
       ],
       "minimo_manual": 0,
@@ -11286,9 +11286,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 0.0,
-      "total_saida_historica": 0,
-      "cobertura_dias": null,
+      "media_diaria_saida": 0.25,
+      "total_saida_historica": 3,
+      "cobertura_dias": 20.0,
       "alerta_estoque": false
     },
     {
@@ -13865,6 +13865,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 759,
+      "item_id": 164,
+      "produto_nome": "Sonda Foley nº 12 - 2 vias",
+      "tipo": "Farmácia para Outro destino",
+      "origem": "Farmácia",
+      "destino": "Outro destino",
+      "quantidade": 3,
+      "responsavel": "Leiliana",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-24 15:19:52",
+      "item": "Sonda Foley nº 12 - 2 vias",
+      "usuario": "Leiliana"
+    },
     {
       "id": 758,
       "item_id": 172,
@@ -21348,21 +21363,6 @@
       "obs": "Importação Farmácia - linha 240 | validade: 09/27",
       "criado_em": "18/08/2026 09:14:00",
       "item": "Cefepima 1g pó injetável",
-      "usuario": "Importação Farmácia"
-    },
-    {
-      "id": 259,
-      "item_id": 235,
-      "produto_nome": "Amicacina 100mg/ml",
-      "tipo": "Entrada direta na Farmácia",
-      "origem": "Importação lista Farmácia 227-288",
-      "destino": "Farmácia",
-      "quantidade": 40,
-      "responsavel": "Importação Farmácia",
-      "data": "18/08/2026",
-      "obs": "Importação Farmácia - linha 239 | validade: 03/27",
-      "criado_em": "18/08/2026 09:14:00",
-      "item": "Amicacina 100mg/ml",
       "usuario": "Importação Farmácia"
     }
   ]
