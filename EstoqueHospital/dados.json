@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 14:44:50",
+  "atualizado_em": "24/08/2026 14:45:04",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 28529,
-    "total_geral": 118934,
+    "total_farmacia": 28517,
+    "total_geral": 118922,
     "perto_de_terminar": 0,
     "zerados": 6
   },
@@ -12685,19 +12685,19 @@
       "tipo": "Insumo",
       "unidade": "Unidade",
       "almoxarifado": 264,
-      "farmacia": 94,
+      "farmacia": 82,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 358,
+      "total": 346,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-24 14:18:56",
+      "atualizado_em": "2026-08-24 14:45:04",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -12711,7 +12711,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 94
+          "quantidade": 82
         }
       ],
       "minimo_manual": 0,
@@ -12719,9 +12719,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 2.17,
-      "total_saida_historica": 26,
-      "cobertura_dias": 165.2,
+      "media_diaria_saida": 3.17,
+      "total_saida_historica": 38,
+      "cobertura_dias": 109.3,
       "alerta_estoque": false
     },
     {
@@ -13890,6 +13890,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 690,
+      "item_id": 201,
+      "produto_nome": "Soro Ringer Lactato 500ml",
+      "tipo": "Farmácia para Outro destino",
+      "origem": "Farmácia",
+      "destino": "Outro destino",
+      "quantidade": 12,
+      "responsavel": "Leiliana",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-24 14:45:04",
+      "item": "Soro Ringer Lactato 500ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 689,
       "item_id": 202,
@@ -21373,21 +21388,6 @@
       "obs": "Carga inicial Farmácia - linha 174",
       "criado_em": "13/08/2026 20:25:46",
       "item": "Sonda Foley nº 20 - 2 vias",
-      "usuario": "Carga inicial Farmácia"
-    },
-    {
-      "id": 190,
-      "item_id": 170,
-      "produto_nome": "Sonda Foley nº 10 - 2 vias",
-      "tipo": "Entrada direta na Farmácia",
-      "origem": "Carga inicial",
-      "destino": "Farmácia",
-      "quantidade": 3,
-      "responsavel": "Carga inicial Farmácia",
-      "data": "13/08/2026",
-      "obs": "Carga inicial Farmácia - linha 173",
-      "criado_em": "13/08/2026 20:25:46",
-      "item": "Sonda Foley nº 10 - 2 vias",
       "usuario": "Carga inicial Farmácia"
     }
   ]
