@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "24/08/2026 11:11:59",
+  "atualizado_em": "24/08/2026 11:12:56",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
-    "total_almoxarifado": 90333,
-    "total_farmacia": 31512,
+    "total_almoxarifado": 88433,
+    "total_farmacia": 33412,
     "total_geral": 121845,
     "perto_de_terminar": 0,
     "zerados": 2
@@ -10223,8 +10223,8 @@
       "nome": "Seringa 3ml",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 4400,
-      "farmacia": 358,
+      "almoxarifado": 2500,
+      "farmacia": 2258,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -10236,7 +10236,7 @@
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-21 10:56:24",
+      "atualizado_em": "2026-08-24 11:12:56",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -10244,13 +10244,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 4400
+          "quantidade": 2500
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 358
+          "quantidade": 2258
         }
       ],
       "minimo_manual": 0,
@@ -13942,6 +13942,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 472,
+      "item_id": 104,
+      "produto_nome": "Seringa 3ml",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 1900,
+      "responsavel": "Assucena",
+      "data": "2026-08-21",
+      "obs": "",
+      "criado_em": "2026-08-24 11:12:56",
+      "item": "Seringa 3ml",
+      "usuario": "Assucena"
+    },
     {
       "id": 471,
       "item_id": 103,
