@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 11:28:37",
+  "atualizado_em": "24/08/2026 11:28:51",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 91033,
-    "total_farmacia": 32434,
-    "total_geral": 123467,
+    "total_farmacia": 32409,
+    "total_geral": 123442,
     "perto_de_terminar": 0,
     "zerados": 3
   },
@@ -10263,19 +10263,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 1500,
-      "farmacia": 25,
+      "farmacia": 0,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1525,
+      "total": 1500,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-08-24 11:27:21",
+      "atualizado_em": "2026-08-24 11:28:50",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -10284,12 +10284,6 @@
           "validade": "",
           "lote": "",
           "quantidade": 1500
-        },
-        {
-          "local": "farmacia",
-          "validade": "",
-          "lote": "",
-          "quantidade": 25
         }
       ],
       "minimo_manual": 0,
@@ -10297,9 +10291,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 7.5,
-      "total_saida_historica": 90,
-      "cobertura_dias": 203.3,
+      "media_diaria_saida": 9.58,
+      "total_saida_historica": 115,
+      "cobertura_dias": 156.5,
       "alerta_estoque": false
     },
     {
@@ -14294,6 +14288,21 @@
       "criado_em": "2026-08-20 16:17:28",
       "item": "Captopril 25mg CPR",
       "usuario": "Leiliana"
+    },
+    {
+      "id": 506,
+      "item_id": 102,
+      "produto_nome": "Seringa 5ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 25,
+      "responsavel": "Assucena",
+      "data": "2026-08-15",
+      "obs": "",
+      "criado_em": "2026-08-24 11:28:50",
+      "item": "Seringa 5ml",
+      "usuario": "Assucena"
     },
     {
       "id": 505,
@@ -21418,21 +21427,6 @@
       "obs": "Carga inicial Farmácia - linha 5 | Validade: 2027-02",
       "criado_em": "13/08/2026 20:25:46",
       "item": "Etomidato 2mg/ml",
-      "usuario": "Carga inicial Farmácia"
-    },
-    {
-      "id": 6,
-      "item_id": 4,
-      "produto_nome": "Decanoato de haloperidol",
-      "tipo": "Entrada direta na Farmácia",
-      "origem": "Carga inicial",
-      "destino": "Farmácia",
-      "quantidade": 40,
-      "responsavel": "Carga inicial Farmácia",
-      "data": "13/08/2026",
-      "obs": "Carga inicial Farmácia - linha 4 | Validade: 2028-02",
-      "criado_em": "13/08/2026 20:25:46",
-      "item": "Decanoato de haloperidol",
       "usuario": "Carga inicial Farmácia"
     }
   ]
