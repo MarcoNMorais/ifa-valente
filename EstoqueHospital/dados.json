@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 14:41:25",
+  "atualizado_em": "24/08/2026 14:41:43",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 28678,
-    "total_geral": 119083,
+    "total_farmacia": 28670,
+    "total_geral": 119075,
     "perto_de_terminar": 0,
     "zerados": 6
   },
@@ -5288,19 +5288,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 56,
+      "farmacia": 48,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 56,
+      "total": 48,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-24 11:26:08",
+      "atualizado_em": "2026-08-24 14:41:43",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -5308,7 +5308,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 56
+          "quantidade": 48
         }
       ],
       "minimo_manual": 0,
@@ -5316,9 +5316,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 0.83,
-      "total_saida_historica": 10,
-      "cobertura_dias": 67.2,
+      "media_diaria_saida": 1.5,
+      "total_saida_historica": 18,
+      "cobertura_dias": 32.0,
       "alerta_estoque": false
     },
     {
@@ -13891,6 +13891,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 681,
+      "item_id": 216,
+      "produto_nome": "Fio agulhado / sutura nº 3",
+      "tipo": "Farmácia para Outro destino",
+      "origem": "Farmácia",
+      "destino": "Outro destino",
+      "quantidade": 8,
+      "responsavel": "Leiliana",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-24 14:41:43",
+      "item": "Fio agulhado / sutura nº 3",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 680,
       "item_id": 84,
       "produto_nome": "Lidocaína",
@@ -21373,21 +21388,6 @@
       "obs": "Carga inicial Farmácia - linha 165",
       "criado_em": "13/08/2026 20:25:46",
       "item": "Sonda Aliment. Enteral 120cm",
-      "usuario": "Carga inicial Farmácia"
-    },
-    {
-      "id": 181,
-      "item_id": 161,
-      "produto_nome": "Sonda Aliment. Enteral 110cm",
-      "tipo": "Entrada direta na Farmácia",
-      "origem": "Carga inicial",
-      "destino": "Farmácia",
-      "quantidade": 29,
-      "responsavel": "Carga inicial Farmácia",
-      "data": "13/08/2026",
-      "obs": "Carga inicial Farmácia - linha 164",
-      "criado_em": "13/08/2026 20:25:46",
-      "item": "Sonda Aliment. Enteral 110cm",
       "usuario": "Carga inicial Farmácia"
     }
   ]
