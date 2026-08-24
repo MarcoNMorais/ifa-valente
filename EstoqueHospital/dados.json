@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 11:46:00",
+  "atualizado_em": "24/08/2026 11:46:13",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 30916,
-    "total_geral": 121321,
+    "total_farmacia": 30856,
+    "total_geral": 121261,
     "perto_de_terminar": 0,
     "zerados": 3
   },
@@ -10091,19 +10091,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 2000,
-      "farmacia": 604,
+      "farmacia": 544,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 2604,
+      "total": 2544,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-24 11:41:33",
+      "atualizado_em": "2026-08-24 11:46:13",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -10117,7 +10117,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 604
+          "quantidade": 544
         }
       ],
       "minimo_manual": 0,
@@ -10125,9 +10125,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 35.0,
-      "total_saida_historica": 420,
-      "cobertura_dias": 74.4,
+      "media_diaria_saida": 40.0,
+      "total_saida_historica": 480,
+      "cobertura_dias": 63.6,
       "alerta_estoque": false
     },
     {
@@ -14369,6 +14369,21 @@
       "criado_em": "2026-08-20 16:17:28",
       "item": "Captopril 25mg CPR",
       "usuario": "Leiliana"
+    },
+    {
+      "id": 572,
+      "item_id": 103,
+      "produto_nome": "Seringa 10ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 60,
+      "responsavel": "Assucena",
+      "data": "2026-08-17",
+      "obs": "",
+      "criado_em": "2026-08-24 11:46:13",
+      "item": "Seringa 10ml",
+      "usuario": "Assucena"
     },
     {
       "id": 571,
@@ -21418,21 +21433,6 @@
       "obs": "Carga inicial Farmácia - linha 59 | Validade: 2027-06",
       "criado_em": "13/08/2026 20:25:46",
       "item": "Bromoprida 5mg",
-      "usuario": "Carga inicial Farmácia"
-    },
-    {
-      "id": 72,
-      "item_id": 56,
-      "produto_nome": "Benzilpenicilina 600 UI",
-      "tipo": "Entrada direta na Farmácia",
-      "origem": "Carga inicial",
-      "destino": "Farmácia",
-      "quantidade": 147,
-      "responsavel": "Carga inicial Farmácia",
-      "data": "13/08/2026",
-      "obs": "Carga inicial Farmácia - linha 58 | Validade: 2027-05",
-      "criado_em": "13/08/2026 20:25:46",
-      "item": "Benzilpenicilina 600 UI",
       "usuario": "Carga inicial Farmácia"
     }
   ]
