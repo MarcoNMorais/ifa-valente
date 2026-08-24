@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 11:44:52",
+  "atualizado_em": "24/08/2026 11:45:07",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 31116,
-    "total_geral": 121521,
+    "total_farmacia": 30986,
+    "total_geral": 121391,
     "perto_de_terminar": 0,
     "zerados": 3
   },
@@ -595,19 +595,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 870,
+      "farmacia": 740,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 870,
+      "total": 740,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-24 11:41:45",
+      "atualizado_em": "2026-08-24 11:45:07",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -615,7 +615,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 870
+          "quantidade": 740
         }
       ],
       "minimo_manual": 0,
@@ -623,9 +623,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 23.33,
-      "total_saida_historica": 280,
-      "cobertura_dias": 37.3,
+      "media_diaria_saida": 34.17,
+      "total_saida_historica": 410,
+      "cobertura_dias": 21.7,
       "alerta_estoque": false
     },
     {
@@ -14371,6 +14371,21 @@
       "usuario": "Leiliana"
     },
     {
+      "id": 566,
+      "item_id": 187,
+      "produto_nome": "Agulha hipodérmica tam. 18",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 130,
+      "responsavel": "Assucena",
+      "data": "2026-08-17",
+      "obs": "",
+      "criado_em": "2026-08-24 11:45:07",
+      "item": "Agulha hipodérmica tam. 18",
+      "usuario": "Assucena"
+    },
+    {
       "id": 565,
       "item_id": 239,
       "produto_nome": "Tramadol 50mg/ml 2ml",
@@ -21418,21 +21433,6 @@
       "obs": "Carga inicial Farmácia - linha 53 | Validade: 2027-11",
       "criado_em": "13/08/2026 20:25:46",
       "item": "Ácido Ascórbico 100mg",
-      "usuario": "Carga inicial Farmácia"
-    },
-    {
-      "id": 66,
-      "item_id": 51,
-      "produto_nome": "Ampicilina",
-      "tipo": "Entrada direta na Farmácia",
-      "origem": "Carga inicial",
-      "destino": "Farmácia",
-      "quantidade": 50,
-      "responsavel": "Carga inicial Farmácia",
-      "data": "13/08/2026",
-      "obs": "Carga inicial Farmácia - linha 52 | Validade: 2027-01",
-      "criado_em": "13/08/2026 20:25:46",
-      "item": "Ampicilina",
       "usuario": "Carga inicial Farmácia"
     }
   ]
