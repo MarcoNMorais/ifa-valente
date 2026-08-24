@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 15:39:00",
+  "atualizado_em": "24/08/2026 15:39:17",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 26499,
-    "total_geral": 116904,
+    "total_farmacia": 26469,
+    "total_geral": 116874,
     "perto_de_terminar": 0,
     "zerados": 9
   },
@@ -3437,19 +3437,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 1020,
+      "farmacia": 990,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1020,
+      "total": 990,
       "minimo": 0,
       "validade": "2027-10",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-24 15:29:06",
+      "atualizado_em": "2026-08-24 15:39:16",
       "validade_mais_proxima": "2027-10",
       "vencimento_mais_proximo": "2027-10",
       "lotes_validade": [
@@ -3457,7 +3457,7 @@
           "local": "farmacia",
           "validade": "2027-10",
           "lote": "",
-          "quantidade": 1020
+          "quantidade": 990
         }
       ],
       "minimo_manual": 0,
@@ -3465,9 +3465,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 20.83,
-      "total_saida_historica": 250,
-      "cobertura_dias": 49.0,
+      "media_diaria_saida": 23.33,
+      "total_saida_historica": 280,
+      "cobertura_dias": 42.4,
       "alerta_estoque": false
     },
     {
@@ -13846,6 +13846,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 825,
+      "item_id": 68,
+      "produto_nome": "Dexametasona",
+      "tipo": "Farmácia para Outro destino",
+      "origem": "Farmácia",
+      "destino": "Outro destino",
+      "quantidade": 30,
+      "responsavel": "Leiliana",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-24 15:39:16",
+      "item": "Dexametasona",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 824,
       "item_id": 238,
       "produto_nome": "Ondansetrona 2mg/ml 2ml",
@@ -21328,21 +21343,6 @@
       "obs": "Importação Almoxerifado - linha 10",
       "criado_em": "18/08/2026 09:58:00",
       "item": "Scalp 27",
-      "usuario": "Sistema"
-    },
-    {
-      "id": 325,
-      "item_id": 97,
-      "produto_nome": "Scalp nº 19",
-      "tipo": "entrada",
-      "origem": "Carga Almoxerifado",
-      "destino": "almoxarifado",
-      "quantidade": 200,
-      "responsavel": "Sistema",
-      "data": "18/08/2026 09:58:00",
-      "obs": "Importação Almoxerifado - linha 9",
-      "criado_em": "18/08/2026 09:58:00",
-      "item": "Scalp nº 19",
       "usuario": "Sistema"
     }
   ]
