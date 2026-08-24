@@ -39,11 +39,15 @@
 <div class="footer-shape"></div>
 </main>
 <script>
-const FALLBACK=["Você merece ser ouvido com respeito e sem julgamento. Procure alguém de confiança e converse se precisar.","Você não precisa ter todas as respostas hoje. Reserve um instante para respirar e perceber como você está.","Seu esforço de continuar já diz muita coisa sobre você. Cuide do que está ao seu alcance agora."];
+const messages={{ messages|tojson }};
 function hash(s){let h=2166136261;for(let i=0;i<s.length;i++){h^=s.charCodeAt(i);h=Math.imul(h,16777619)}return h>>>0}
 function setMessage(m){const el=document.getElementById('message');el.textContent=m;el.className=m.length>165?'long':m.length>105?'medium':''}
-const d=new Date(),key=`${d.getFullYear()}-${d.getMonth()+1}-${d.getDate()}`;let device=localStorage.getItem('msg_device');if(!device){device=Math.random().toString(36).slice(2)+Date.now();localStorage.setItem('msg_device',device)}
-fetch('/api/mensagem').then(r=>r.ok?r.json():Promise.reject()).then(data=>{const arr=Array.isArray(data)?data:(data.frases||data.mensagens||[]);setMessage(arr.length?arr[hash(device+key)%arr.length]:FALLBACK[hash(device+key)%FALLBACK.length])}).catch(()=>setMessage(FALLBACK[hash(device+key)%FALLBACK.length]));
+let device=localStorage.getItem('msg_device');
+if(!device){device=(crypto.randomUUID?crypto.randomUUID():Math.random().toString(36).slice(2)+Date.now()).replace(/[^a-zA-Z0-9_-]/g,'');localStorage.setItem('msg_device',device)}
+const d=new Date(),day=`${d.getFullYear()}-${d.getMonth()+1}-${d.getDate()}`;
+if(messages.length){setMessage(messages[hash(device+'|'+day)%messages.length].text)}else{setMessage('Você importa. Sua vida tem valor.')}
+const origem=(new URLSearchParams(location.search).get('origem')||'DIRETO').toUpperCase().replace(/[^A-Z0-9_-]/g,'').slice(0,60)||'DIRETO';
+fetch('/mensagem/registrar?origem='+encodeURIComponent(origem)+'&v='+encodeURIComponent(device),{cache:'no-store'}).catch(()=>{});
 </script>
 </body>
 </html>
