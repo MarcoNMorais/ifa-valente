@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 11:31:31",
+  "atualizado_em": "24/08/2026 11:31:43",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 91033,
-    "total_farmacia": 31935,
-    "total_geral": 122968,
+    "total_farmacia": 31932,
+    "total_geral": 122965,
     "perto_de_terminar": 0,
     "zerados": 3
   },
@@ -9827,19 +9827,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 36,
+      "farmacia": 33,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 36,
+      "total": 33,
       "minimo": 0,
       "validade": "12/26",
       "lote": "",
       "origem": "Carga Farmácia 227-288",
       "obs": "Importação Farmácia 227-288",
-      "atualizado_em": "2026-08-20 13:12:54",
+      "atualizado_em": "2026-08-24 11:31:43",
       "validade_mais_proxima": "12/26",
       "vencimento_mais_proximo": "12/26",
       "lotes_validade": [
@@ -9847,17 +9847,17 @@
           "local": "farmacia",
           "validade": "12/26",
           "lote": "",
-          "quantidade": 36
+          "quantidade": 33
         }
       ],
       "minimo_manual": 0,
       "minimo_alerta": 0,
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
-      "dias_historico": 7,
-      "media_diaria_saida": 0.0,
-      "total_saida_historica": 0,
-      "cobertura_dias": null,
+      "dias_historico": 10,
+      "media_diaria_saida": 0.3,
+      "total_saida_historica": 3,
+      "cobertura_dias": 110.0,
       "alerta_estoque": false
     },
     {
@@ -14288,6 +14288,21 @@
       "criado_em": "2026-08-20 16:17:28",
       "item": "Captopril 25mg CPR",
       "usuario": "Leiliana"
+    },
+    {
+      "id": 520,
+      "item_id": 252,
+      "produto_nome": "Salbutamol spray",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 3,
+      "responsavel": "Assucena",
+      "data": "2026-08-15",
+      "obs": "",
+      "criado_em": "2026-08-24 11:31:43",
+      "item": "Salbutamol spray",
+      "usuario": "Assucena"
     },
     {
       "id": 519,
@@ -21410,21 +21425,6 @@
       "responsavel": "Carga inicial Farmácia",
       "data": "13/08/2026",
       "obs": "Carga inicial Farmácia - linha 13b | Validade: 2027-09",
-      "criado_em": "13/08/2026 20:25:46",
-      "item": "Diazepam 10mg/2ml 2ml",
-      "usuario": "Carga inicial Farmácia"
-    },
-    {
-      "id": 20,
-      "item_id": 13,
-      "produto_nome": "Diazepam 10mg/2ml 2ml",
-      "tipo": "Entrada direta na Farmácia",
-      "origem": "Carga inicial",
-      "destino": "Farmácia",
-      "quantidade": 72,
-      "responsavel": "Carga inicial Farmácia",
-      "data": "13/08/2026",
-      "obs": "Carga inicial Farmácia - linha 13 | Validade: 2027-02",
       "criado_em": "13/08/2026 20:25:46",
       "item": "Diazepam 10mg/2ml 2ml",
       "usuario": "Carga inicial Farmácia"
