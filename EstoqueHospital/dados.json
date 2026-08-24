@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 15:29:21",
+  "atualizado_em": "24/08/2026 15:29:40",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 26890,
-    "total_geral": 117295,
+    "total_farmacia": 26880,
+    "total_geral": 117285,
     "perto_de_terminar": 0,
     "zerados": 8
   },
@@ -3603,19 +3603,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 109,
+      "farmacia": 99,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 109,
+      "total": 99,
       "minimo": 0,
       "validade": "2027-02",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-24 15:22:32",
+      "atualizado_em": "2026-08-24 15:29:40",
       "validade_mais_proxima": "2027-02",
       "vencimento_mais_proximo": "2027-02",
       "lotes_validade": [
@@ -3623,7 +3623,7 @@
           "local": "farmacia",
           "validade": "2027-02",
           "lote": "",
-          "quantidade": 55
+          "quantidade": 45
         },
         {
           "local": "farmacia",
@@ -3637,9 +3637,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 1.42,
-      "total_saida_historica": 17,
-      "cobertura_dias": 76.9,
+      "media_diaria_saida": 2.25,
+      "total_saida_historica": 27,
+      "cobertura_dias": 44.0,
       "alerta_estoque": false
     },
     {
@@ -13859,6 +13859,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 793,
+      "item_id": 13,
+      "produto_nome": "Diazepam 10mg/2ml 2ml",
+      "tipo": "Farmácia para Outro destino",
+      "origem": "Farmácia",
+      "destino": "Outro destino",
+      "quantidade": 10,
+      "responsavel": "Leiliana",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-24 15:29:40",
+      "item": "Diazepam 10mg/2ml 2ml",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 792,
       "item_id": 70,
       "produto_nome": "Dipirona",
@@ -21341,21 +21356,6 @@
       "obs": "Importação Farmácia - linha 269 | validade: 09/27",
       "criado_em": "18/08/2026 09:14:00",
       "item": "AAS",
-      "usuario": "Importação Farmácia"
-    },
-    {
-      "id": 293,
-      "item_id": 263,
-      "produto_nome": "Metronidazol 250mg CPR",
-      "tipo": "Entrada direta na Farmácia",
-      "origem": "Importação lista Farmácia 227-288",
-      "destino": "Farmácia",
-      "quantidade": 10,
-      "responsavel": "Importação Farmácia",
-      "data": "18/08/2026",
-      "obs": "Importação Farmácia - linha 268 | validade: 03/27",
-      "criado_em": "18/08/2026 09:14:00",
-      "item": "Metronidazol 250mg CPR",
       "usuario": "Importação Farmácia"
     }
   ]
