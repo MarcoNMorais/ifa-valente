@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 11:44:15",
+  "atualizado_em": "24/08/2026 11:44:26",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 31161,
-    "total_geral": 121566,
+    "total_farmacia": 31156,
+    "total_geral": 121561,
     "perto_de_terminar": 0,
     "zerados": 3
   },
@@ -9031,19 +9031,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 101,
+      "farmacia": 96,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 101,
+      "total": 96,
       "minimo": 0,
       "validade": "11/27",
       "lote": "",
       "origem": "Carga Farmácia 227-288",
       "obs": "Importação Farmácia 227-288",
-      "atualizado_em": "2026-08-24 11:41:55",
+      "atualizado_em": "2026-08-24 11:44:26",
       "validade_mais_proxima": "11/27",
       "vencimento_mais_proximo": "11/27",
       "lotes_validade": [
@@ -9051,7 +9051,7 @@
           "local": "farmacia",
           "validade": "11/27",
           "lote": "",
-          "quantidade": 61
+          "quantidade": 56
         },
         {
           "local": "farmacia",
@@ -9065,9 +9065,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 11,
-      "media_diaria_saida": 1.0,
-      "total_saida_historica": 11,
-      "cobertura_dias": 101.0,
+      "media_diaria_saida": 1.45,
+      "total_saida_historica": 16,
+      "cobertura_dias": 66.0,
       "alerta_estoque": false
     },
     {
@@ -14369,6 +14369,21 @@
       "criado_em": "2026-08-20 16:17:28",
       "item": "Captopril 25mg CPR",
       "usuario": "Leiliana"
+    },
+    {
+      "id": 564,
+      "item_id": 228,
+      "produto_nome": "Omeprazol sódico 40mg AMP",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 5,
+      "responsavel": "Assucena",
+      "data": "2026-08-17",
+      "obs": "",
+      "criado_em": "2026-08-24 11:44:26",
+      "item": "Omeprazol sódico 40mg AMP",
+      "usuario": "Assucena"
     },
     {
       "id": 563,
@@ -21418,21 +21433,6 @@
       "obs": "Carga inicial Farmácia - linha 51 | Validade: 2026-11",
       "criado_em": "13/08/2026 20:25:46",
       "item": "Amiodarona 50mg",
-      "usuario": "Carga inicial Farmácia"
-    },
-    {
-      "id": 64,
-      "item_id": 49,
-      "produto_nome": "Aminofilina 24mg",
-      "tipo": "Entrada direta na Farmácia",
-      "origem": "Carga inicial",
-      "destino": "Farmácia",
-      "quantidade": 131,
-      "responsavel": "Carga inicial Farmácia",
-      "data": "13/08/2026",
-      "obs": "Carga inicial Farmácia - linha 50 | Validade: 2026-12",
-      "criado_em": "13/08/2026 20:25:46",
-      "item": "Aminofilina 24mg",
       "usuario": "Carga inicial Farmácia"
     }
   ]
