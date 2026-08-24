@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 11:44:02",
+  "atualizado_em": "24/08/2026 11:44:15",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 31172,
-    "total_geral": 121577,
+    "total_farmacia": 31161,
+    "total_geral": 121566,
     "perto_de_terminar": 0,
     "zerados": 3
   },
@@ -2719,19 +2719,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 206,
+      "farmacia": 195,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 206,
+      "total": 195,
       "minimo": 0,
       "validade": "2028-01",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-24 11:38:16",
+      "atualizado_em": "2026-08-24 11:44:14",
       "validade_mais_proxima": "2028-01",
       "vencimento_mais_proximo": "2028-01",
       "lotes_validade": [
@@ -2739,7 +2739,7 @@
           "local": "farmacia",
           "validade": "2028-01",
           "lote": "",
-          "quantidade": 206
+          "quantidade": 195
         }
       ],
       "minimo_manual": 0,
@@ -2747,9 +2747,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 3.67,
-      "total_saida_historica": 44,
-      "cobertura_dias": 56.2,
+      "media_diaria_saida": 4.58,
+      "total_saida_historica": 55,
+      "cobertura_dias": 42.5,
       "alerta_estoque": false
     },
     {
@@ -14371,6 +14371,21 @@
       "usuario": "Leiliana"
     },
     {
+      "id": 563,
+      "item_id": 60,
+      "produto_nome": "Cetoprofeno EV 100mg",
+      "tipo": "Farmácia para Posto de Internamento",
+      "origem": "Farmácia",
+      "destino": "Posto de Internamento",
+      "quantidade": 11,
+      "responsavel": "Assucena",
+      "data": "2026-08-17",
+      "obs": "",
+      "criado_em": "2026-08-24 11:44:14",
+      "item": "Cetoprofeno EV 100mg",
+      "usuario": "Assucena"
+    },
+    {
       "id": 562,
       "item_id": 61,
       "produto_nome": "Cetoprofeno IM 50mg",
@@ -21418,21 +21433,6 @@
       "obs": "Carga inicial Farmácia - linha 50 | Validade: 2026-12",
       "criado_em": "13/08/2026 20:25:46",
       "item": "Aminofilina 24mg",
-      "usuario": "Carga inicial Farmácia"
-    },
-    {
-      "id": 63,
-      "item_id": 48,
-      "produto_nome": "Sulfato de Amicacina 250mg",
-      "tipo": "Entrada direta na Farmácia",
-      "origem": "Carga inicial",
-      "destino": "Farmácia",
-      "quantidade": 42,
-      "responsavel": "Carga inicial Farmácia",
-      "data": "13/08/2026",
-      "obs": "Carga inicial Farmácia - linha 49 | Validade: 2027-02",
-      "criado_em": "13/08/2026 20:25:46",
-      "item": "Sulfato de Amicacina 250mg",
       "usuario": "Carga inicial Farmácia"
     }
   ]
