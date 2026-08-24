@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 15:47:06",
+  "atualizado_em": "24/08/2026 15:47:24",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 25845,
-    "total_geral": 116250,
+    "total_farmacia": 25839,
+    "total_geral": 116244,
     "perto_de_terminar": 0,
     "zerados": 9
   },
@@ -2700,19 +2700,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 139,
+      "farmacia": 133,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 139,
+      "total": 133,
       "minimo": 0,
       "validade": "2028-01",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-24 15:43:33",
+      "atualizado_em": "2026-08-24 15:47:24",
       "validade_mais_proxima": "2028-01",
       "vencimento_mais_proximo": "2028-01",
       "lotes_validade": [
@@ -2720,7 +2720,7 @@
           "local": "farmacia",
           "validade": "2028-01",
           "lote": "",
-          "quantidade": 139
+          "quantidade": 133
         }
       ],
       "minimo_manual": 0,
@@ -2728,9 +2728,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 9.25,
-      "total_saida_historica": 111,
-      "cobertura_dias": 15.0,
+      "media_diaria_saida": 9.75,
+      "total_saida_historica": 117,
+      "cobertura_dias": 13.6,
       "alerta_estoque": false
     },
     {
@@ -13834,6 +13834,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 853,
+      "item_id": 60,
+      "produto_nome": "Cetoprofeno EV 100mg",
+      "tipo": "Farmácia para Outro destino",
+      "origem": "Farmácia",
+      "destino": "Outro destino",
+      "quantidade": 6,
+      "responsavel": "Leiliana",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-24 15:47:24",
+      "item": "Cetoprofeno EV 100mg",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 852,
       "item_id": 176,
       "produto_nome": "Dispositivo intravenoso Gelco nº 24",
@@ -21316,21 +21331,6 @@
       "obs": "Importação Almoxerifado - linha 38",
       "criado_em": "18/08/2026 09:58:00",
       "item": "Metronidazol 100ml",
-      "usuario": "Sistema"
-    },
-    {
-      "id": 353,
-      "item_id": 289,
-      "produto_nome": "Agulha 25x8",
-      "tipo": "entrada",
-      "origem": "Carga Almoxerifado",
-      "destino": "almoxarifado",
-      "quantidade": 2300,
-      "responsavel": "Sistema",
-      "data": "18/08/2026 09:58:00",
-      "obs": "Importação Almoxerifado - linha 37",
-      "criado_em": "18/08/2026 09:58:00",
-      "item": "Agulha 25x8",
       "usuario": "Sistema"
     }
   ]
