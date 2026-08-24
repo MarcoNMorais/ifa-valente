@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "24/08/2026 16:10:02",
+  "atualizado_em": "24/08/2026 16:10:41",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
-    "total_almoxarifado": 88822,
-    "total_farmacia": 26592,
+    "total_almoxarifado": 88572,
+    "total_farmacia": 26842,
     "total_geral": 115414,
     "perto_de_terminar": 0,
     "zerados": 11
@@ -10091,8 +10091,8 @@
       "nome": "Seringa 20ml",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 2500,
-      "farmacia": 250,
+      "almoxarifado": 2250,
+      "farmacia": 500,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -10104,7 +10104,7 @@
       "lote": "",
       "origem": "Carga Almoxerifado",
       "obs": "Importação Almoxerifado",
-      "atualizado_em": "2026-08-24 16:07:35",
+      "atualizado_em": "2026-08-24 16:10:40",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -10112,13 +10112,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 2500
+          "quantidade": 2250
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 250
+          "quantidade": 500
         }
       ],
       "minimo_manual": 0,
@@ -13843,6 +13843,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 922,
+      "item_id": 274,
+      "produto_nome": "Seringa 20ml",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 250,
+      "responsavel": "Leiliana",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-24 16:10:40",
+      "item": "Seringa 20ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 921,
       "item_id": 200,
@@ -21326,21 +21341,6 @@
       "obs": "",
       "criado_em": "2026-08-21 10:51:04",
       "item": "Seringa 10ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 437,
-      "item_id": 66,
-      "produto_nome": "Complexo B",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 20,
-      "responsavel": "Assucena",
-      "data": "2026-08-14",
-      "obs": "",
-      "criado_em": "2026-08-21 10:50:51",
-      "item": "Complexo B",
       "usuario": "Assucena"
     }
   ]
