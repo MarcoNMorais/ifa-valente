@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 14:33:52",
+  "atualizado_em": "24/08/2026 14:34:02",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 28870,
-    "total_geral": 119275,
+    "total_farmacia": 28859,
+    "total_geral": 119264,
     "perto_de_terminar": 0,
     "zerados": 5
   },
@@ -8283,19 +8283,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 99,
+      "farmacia": 88,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 99,
+      "total": 88,
       "minimo": 0,
       "validade": "2028-02",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-24 14:24:32",
+      "atualizado_em": "2026-08-24 14:34:02",
       "validade_mais_proxima": "2028-02",
       "vencimento_mais_proximo": "2028-02",
       "lotes_validade": [
@@ -8303,7 +8303,7 @@
           "local": "farmacia",
           "validade": "2028-02",
           "lote": "",
-          "quantidade": 69
+          "quantidade": 58
         },
         {
           "local": "farmacia",
@@ -8317,9 +8317,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 0.33,
-      "total_saida_historica": 4,
-      "cobertura_dias": 297.0,
+      "media_diaria_saida": 1.25,
+      "total_saida_historica": 15,
+      "cobertura_dias": 70.4,
       "alerta_estoque": false
     },
     {
@@ -13897,6 +13897,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 665,
+      "item_id": 11,
+      "produto_nome": "Midazolam 5mg/ml 10ml",
+      "tipo": "Farmácia para Outro destino",
+      "origem": "Farmácia",
+      "destino": "Outro destino",
+      "quantidade": 11,
+      "responsavel": "Leiliana",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-24 14:34:02",
+      "item": "Midazolam 5mg/ml 10ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 664,
       "item_id": 9,
@@ -21380,21 +21395,6 @@
       "obs": "Carga inicial Farmácia - linha 149",
       "criado_em": "13/08/2026 20:25:46",
       "item": "Sonda Nasogástrica nº 20",
-      "usuario": "Carga inicial Farmácia"
-    },
-    {
-      "id": 165,
-      "item_id": 145,
-      "produto_nome": "Sonda Uretral nº 18",
-      "tipo": "Entrada direta na Farmácia",
-      "origem": "Carga inicial",
-      "destino": "Farmácia",
-      "quantidade": 13,
-      "responsavel": "Carga inicial Farmácia",
-      "data": "13/08/2026",
-      "obs": "Carga inicial Farmácia - linha 148",
-      "criado_em": "13/08/2026 20:25:46",
-      "item": "Sonda Uretral nº 18",
       "usuario": "Carga inicial Farmácia"
     }
   ]
