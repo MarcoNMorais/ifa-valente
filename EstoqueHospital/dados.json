@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 14:39:36",
+  "atualizado_em": "24/08/2026 14:41:08",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 28701,
-    "total_geral": 119106,
+    "total_farmacia": 28681,
+    "total_geral": 119086,
     "perto_de_terminar": 0,
     "zerados": 6
   },
@@ -9583,19 +9583,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 89,
+      "farmacia": 69,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 89,
+      "total": 69,
       "minimo": 0,
       "validade": "04/27",
       "lote": "",
       "origem": "Carga Farmácia 227-288",
       "obs": "Importação Farmácia 227-288",
-      "atualizado_em": "2026-08-20 13:12:54",
+      "atualizado_em": "2026-08-24 14:41:07",
       "validade_mais_proxima": "04/27",
       "vencimento_mais_proximo": "04/27",
       "lotes_validade": [
@@ -9609,7 +9609,7 @@
           "local": "farmacia",
           "validade": "08/27",
           "lote": "",
-          "quantidade": 65
+          "quantidade": 45
         }
       ],
       "minimo_manual": 0,
@@ -9617,9 +9617,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 7,
-      "media_diaria_saida": 0.0,
-      "total_saida_historica": 0,
-      "cobertura_dias": null,
+      "media_diaria_saida": 2.86,
+      "total_saida_historica": 20,
+      "cobertura_dias": 24.1,
       "alerta_estoque": false
     },
     {
@@ -13890,6 +13890,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 679,
+      "item_id": 233,
+      "produto_nome": "Prometazina 25mg/ml",
+      "tipo": "Farmácia para Outro destino",
+      "origem": "Farmácia",
+      "destino": "Outro destino",
+      "quantidade": 20,
+      "responsavel": "Leiliana",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-24 14:41:07",
+      "item": "Prometazina 25mg/ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 678,
       "item_id": 68,
@@ -21373,21 +21388,6 @@
       "obs": "Carga inicial Farmácia - linha 163",
       "criado_em": "13/08/2026 20:25:46",
       "item": "Sonda Endot. nº 3,5",
-      "usuario": "Carga inicial Farmácia"
-    },
-    {
-      "id": 179,
-      "item_id": 159,
-      "produto_nome": "Sonda Endot. nº 4,5",
-      "tipo": "Entrada direta na Farmácia",
-      "origem": "Carga inicial",
-      "destino": "Farmácia",
-      "quantidade": 5,
-      "responsavel": "Carga inicial Farmácia",
-      "data": "13/08/2026",
-      "obs": "Carga inicial Farmácia - linha 162",
-      "criado_em": "13/08/2026 20:25:46",
-      "item": "Sonda Endot. nº 4,5",
       "usuario": "Carga inicial Farmácia"
     }
   ]
