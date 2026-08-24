@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 14:31:14",
+  "atualizado_em": "24/08/2026 14:31:36",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 28900,
-    "total_geral": 119305,
+    "total_farmacia": 28890,
+    "total_geral": 119295,
     "perto_de_terminar": 0,
     "zerados": 5
   },
@@ -4996,19 +4996,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 49,
+      "farmacia": 39,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 49,
+      "total": 39,
       "minimo": 0,
       "validade": "2027-05",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-24 14:24:13",
+      "atualizado_em": "2026-08-24 14:31:36",
       "validade_mais_proxima": "2027-05",
       "vencimento_mais_proximo": "2027-05",
       "lotes_validade": [
@@ -5016,7 +5016,7 @@
           "local": "farmacia",
           "validade": "2027-05",
           "lote": "",
-          "quantidade": 49
+          "quantidade": 39
         }
       ],
       "minimo_manual": 0,
@@ -5024,9 +5024,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 0.67,
-      "total_saida_historica": 8,
-      "cobertura_dias": 73.5,
+      "media_diaria_saida": 1.5,
+      "total_saida_historica": 18,
+      "cobertura_dias": 26.0,
       "alerta_estoque": false
     },
     {
@@ -13898,6 +13898,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 660,
+      "item_id": 9,
+      "produto_nome": "Fentanila 50mcg/ml",
+      "tipo": "Farmácia para Outro destino",
+      "origem": "Farmácia",
+      "destino": "Outro destino",
+      "quantidade": 10,
+      "responsavel": "Leiliana",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-24 14:31:36",
+      "item": "Fentanila 50mcg/ml",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 659,
       "item_id": 206,
       "produto_nome": "Soro glicose 5% 250ml",
@@ -21380,21 +21395,6 @@
       "obs": "Carga inicial Farmácia - linha 144",
       "criado_em": "13/08/2026 20:25:46",
       "item": "Sonda Uretral nº 14",
-      "usuario": "Carga inicial Farmácia"
-    },
-    {
-      "id": 160,
-      "item_id": 140,
-      "produto_nome": "Sonda Uretral nº 06",
-      "tipo": "Entrada direta na Farmácia",
-      "origem": "Carga inicial",
-      "destino": "Farmácia",
-      "quantidade": 316,
-      "responsavel": "Carga inicial Farmácia",
-      "data": "13/08/2026",
-      "obs": "Carga inicial Farmácia - linha 143",
-      "criado_em": "13/08/2026 20:25:46",
-      "item": "Sonda Uretral nº 06",
       "usuario": "Carga inicial Farmácia"
     }
   ]
