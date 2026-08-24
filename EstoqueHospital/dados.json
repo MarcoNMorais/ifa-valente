@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 11:47:40",
+  "atualizado_em": "24/08/2026 11:47:55",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 30461,
-    "total_geral": 120866,
+    "total_farmacia": 30456,
+    "total_geral": 120861,
     "perto_de_terminar": 0,
     "zerados": 3
   },
@@ -8275,19 +8275,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 12,
+      "farmacia": 7,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 12,
+      "total": 7,
       "minimo": 0,
       "validade": "2028-03",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-20 13:12:54",
+      "atualizado_em": "2026-08-24 11:47:54",
       "validade_mais_proxima": "2028-03",
       "vencimento_mais_proximo": "2028-03",
       "lotes_validade": [
@@ -8295,7 +8295,7 @@
           "local": "farmacia",
           "validade": "2028-03",
           "lote": "",
-          "quantidade": 12
+          "quantidade": 7
         }
       ],
       "minimo_manual": 0,
@@ -8303,9 +8303,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 0.0,
-      "total_saida_historica": 0,
-      "cobertura_dias": null,
+      "media_diaria_saida": 0.42,
+      "total_saida_historica": 5,
+      "cobertura_dias": 16.8,
       "alerta_estoque": false
     },
     {
@@ -14369,6 +14369,21 @@
       "criado_em": "2026-08-20 16:17:28",
       "item": "Captopril 25mg CPR",
       "usuario": "Leiliana"
+    },
+    {
+      "id": 579,
+      "item_id": 87,
+      "produto_nome": "Metronidazol 500mg",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 5,
+      "responsavel": "Assucena",
+      "data": "2026-08-17",
+      "obs": "",
+      "criado_em": "2026-08-24 11:47:54",
+      "item": "Metronidazol 500mg",
+      "usuario": "Assucena"
     },
     {
       "id": 578,
@@ -21418,21 +21433,6 @@
       "obs": "Carga inicial Farmácia - linha 66 | Validade: 2028-03",
       "criado_em": "13/08/2026 20:25:46",
       "item": "Fosfato de Clindamicina 150mg",
-      "usuario": "Carga inicial Farmácia"
-    },
-    {
-      "id": 79,
-      "item_id": 63,
-      "produto_nome": "Ciprofloxacino",
-      "tipo": "Entrada direta na Farmácia",
-      "origem": "Carga inicial",
-      "destino": "Farmácia",
-      "quantidade": 14,
-      "responsavel": "Carga inicial Farmácia",
-      "data": "13/08/2026",
-      "obs": "Carga inicial Farmácia - linha 65 | Validade: 2027-03",
-      "criado_em": "13/08/2026 20:25:46",
-      "item": "Ciprofloxacino",
       "usuario": "Carga inicial Farmácia"
     }
   ]
