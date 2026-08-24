@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 15:45:24",
+  "atualizado_em": "24/08/2026 15:45:43",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 25910,
-    "total_geral": 116315,
+    "total_farmacia": 25886,
+    "total_geral": 116291,
     "perto_de_terminar": 0,
     "zerados": 9
   },
@@ -10020,19 +10020,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 2000,
-      "farmacia": 24,
+      "farmacia": 0,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 2024,
+      "total": 2000,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-24 15:40:58",
+      "atualizado_em": "2026-08-24 15:45:43",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -10041,12 +10041,6 @@
           "validade": "",
           "lote": "",
           "quantidade": 2000
-        },
-        {
-          "local": "farmacia",
-          "validade": "",
-          "lote": "",
-          "quantidade": 24
         }
       ],
       "minimo_manual": 0,
@@ -10054,9 +10048,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 83.33,
-      "total_saida_historica": 1000,
-      "cobertura_dias": 24.3,
+      "media_diaria_saida": 85.33,
+      "total_saida_historica": 1024,
+      "cobertura_dias": 23.4,
       "alerta_estoque": false
     },
     {
@@ -13839,6 +13833,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 848,
+      "item_id": 103,
+      "produto_nome": "Seringa 10ml",
+      "tipo": "Farmácia para Outro destino",
+      "origem": "Farmácia",
+      "destino": "Outro destino",
+      "quantidade": 24,
+      "responsavel": "Leiliana",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-24 15:45:43",
+      "item": "Seringa 10ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 847,
       "item_id": 228,
@@ -21322,21 +21331,6 @@
       "obs": "Importação Almoxerifado - linha 33",
       "criado_em": "18/08/2026 09:58:00",
       "item": "Agulha 30x7",
-      "usuario": "Sistema"
-    },
-    {
-      "id": 348,
-      "item_id": 284,
-      "produto_nome": "Fio Nylon nº 5",
-      "tipo": "entrada",
-      "origem": "Carga Almoxerifado",
-      "destino": "almoxarifado",
-      "quantidade": 24,
-      "responsavel": "Sistema",
-      "data": "18/08/2026 09:58:00",
-      "obs": "Importação Almoxerifado - linha 32",
-      "criado_em": "18/08/2026 09:58:00",
-      "item": "Fio Nylon nº 5",
       "usuario": "Sistema"
     }
   ]
