@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 11:27:44",
+  "atualizado_em": "24/08/2026 11:28:01",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 91033,
-    "total_farmacia": 32549,
-    "total_geral": 123582,
+    "total_farmacia": 32529,
+    "total_geral": 123562,
     "perto_de_terminar": 0,
     "zerados": 3
   },
@@ -3835,19 +3835,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 360,
+      "farmacia": 340,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 360,
+      "total": 340,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-21 11:00:32",
+      "atualizado_em": "2026-08-24 11:28:00",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -3855,7 +3855,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 360
+          "quantidade": 340
         }
       ],
       "minimo_manual": 0,
@@ -3863,9 +3863,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 0.83,
-      "total_saida_historica": 10,
-      "cobertura_dias": 432.0,
+      "media_diaria_saida": 2.5,
+      "total_saida_historica": 30,
+      "cobertura_dias": 136.0,
       "alerta_estoque": false
     },
     {
@@ -14296,6 +14296,36 @@
       "usuario": "Leiliana"
     },
     {
+      "id": 503,
+      "item_id": 28,
+      "produto_nome": "Dipirona 500mg",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 20,
+      "responsavel": "Assucena",
+      "data": "2026-08-14",
+      "obs": "",
+      "criado_em": "2026-08-24 11:28:00",
+      "item": "Dipirona 500mg",
+      "usuario": "Assucena"
+    },
+    {
+      "id": 502,
+      "item_id": 28,
+      "produto_nome": "Dipirona 500mg",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 20,
+      "responsavel": "Assucena",
+      "data": "2026-08-14",
+      "obs": "",
+      "criado_em": "2026-08-24 11:28:00",
+      "item": "Dipirona 500mg",
+      "usuario": "Assucena"
+    },
+    {
       "id": 501,
       "item_id": 199,
       "produto_nome": "Lençol descartável papel",
@@ -21403,36 +21433,6 @@
       "obs": "Carga inicial Farmácia - linha 2b | Validade: 2027-05",
       "criado_em": "13/08/2026 20:25:46",
       "item": "Cloridrato de clorpromazina 25mg",
-      "usuario": "Carga inicial Farmácia"
-    },
-    {
-      "id": 3,
-      "item_id": 2,
-      "produto_nome": "Cloridrato de clorpromazina 25mg",
-      "tipo": "Entrada direta na Farmácia",
-      "origem": "Carga inicial",
-      "destino": "Farmácia",
-      "quantidade": 43,
-      "responsavel": "Carga inicial Farmácia",
-      "data": "13/08/2026",
-      "obs": "Carga inicial Farmácia - linha 2 | Validade: 2027-02",
-      "criado_em": "13/08/2026 20:25:46",
-      "item": "Cloridrato de clorpromazina 25mg",
-      "usuario": "Carga inicial Farmácia"
-    },
-    {
-      "id": 2,
-      "item_id": 1,
-      "produto_nome": "Fentanila solução 50mcg/ml",
-      "tipo": "Entrada direta na Farmácia",
-      "origem": "Carga inicial",
-      "destino": "Farmácia",
-      "quantidade": 49,
-      "responsavel": "Carga inicial Farmácia",
-      "data": "13/08/2026",
-      "obs": "Carga inicial Farmácia - linha 1b | Validade: 2027-05",
-      "criado_em": "13/08/2026 20:25:46",
-      "item": "Fentanila solução 50mcg/ml",
       "usuario": "Carga inicial Farmácia"
     }
   ]
