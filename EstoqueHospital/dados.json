@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 15:33:41",
+  "atualizado_em": "24/08/2026 15:33:58",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 26664,
-    "total_geral": 117069,
+    "total_farmacia": 26659,
+    "total_geral": 117064,
     "perto_de_terminar": 0,
     "zerados": 9
   },
@@ -1121,19 +1121,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 6,
+      "farmacia": 1,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 6,
+      "total": 1,
       "minimo": 0,
       "validade": "2026-11",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-24 15:24:41",
+      "atualizado_em": "2026-08-24 15:33:57",
       "validade_mais_proxima": "2026-11",
       "vencimento_mais_proximo": "2026-11",
       "lotes_validade": [
@@ -1141,7 +1141,7 @@
           "local": "farmacia",
           "validade": "2026-11",
           "lote": "",
-          "quantidade": 6
+          "quantidade": 1
         }
       ],
       "minimo_manual": 0,
@@ -1149,9 +1149,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 0.67,
-      "total_saida_historica": 8,
-      "cobertura_dias": 9.0,
+      "media_diaria_saida": 1.08,
+      "total_saida_historica": 13,
+      "cobertura_dias": 0.9,
       "alerta_estoque": false
     },
     {
@@ -13846,6 +13846,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 807,
+      "item_id": 50,
+      "produto_nome": "Amiodarona 50mg",
+      "tipo": "Farmácia para Outro destino",
+      "origem": "Farmácia",
+      "destino": "Outro destino",
+      "quantidade": 5,
+      "responsavel": "Leiliana",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-24 15:33:57",
+      "item": "Amiodarona 50mg",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 806,
       "item_id": 228,
       "produto_nome": "Omeprazol sódico 40mg AMP",
@@ -21328,21 +21343,6 @@
       "obs": "Importação Farmácia - linha 282 | validade: 03/28",
       "criado_em": "18/08/2026 09:14:00",
       "item": "Metformina 850mg CPR",
-      "usuario": "Importação Farmácia"
-    },
-    {
-      "id": 307,
-      "item_id": 31,
-      "produto_nome": "Omeprazol 20mg comprimido",
-      "tipo": "Entrada direta na Farmácia",
-      "origem": "Importação lista Farmácia 227-288",
-      "destino": "Farmácia",
-      "quantidade": 14,
-      "responsavel": "Importação Farmácia",
-      "data": "18/08/2026",
-      "obs": "Importação Farmácia - linha 281 | validade: sem validade",
-      "criado_em": "18/08/2026 09:14:00",
-      "item": "Omeprazol 20mg comprimido",
       "usuario": "Importação Farmácia"
     }
   ]
