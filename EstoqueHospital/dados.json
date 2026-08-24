@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 14:44:16",
+  "atualizado_em": "24/08/2026 14:44:33",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 28609,
-    "total_geral": 119014,
+    "total_farmacia": 28589,
+    "total_geral": 118994,
     "perto_de_terminar": 0,
     "zerados": 6
   },
@@ -4035,19 +4035,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 800,
-      "farmacia": 435,
+      "farmacia": 415,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1235,
+      "total": 1215,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-24 11:37:44",
+      "atualizado_em": "2026-08-24 14:44:33",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -4061,7 +4061,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 435
+          "quantidade": 415
         }
       ],
       "minimo_manual": 0,
@@ -4069,9 +4069,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 2.5,
-      "total_saida_historica": 30,
-      "cobertura_dias": 494.0,
+      "media_diaria_saida": 4.17,
+      "total_saida_historica": 50,
+      "cobertura_dias": 291.6,
       "alerta_estoque": false
     },
     {
@@ -13891,6 +13891,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 688,
+      "item_id": 176,
+      "produto_nome": "Dispositivo intravenoso Gelco nº 24",
+      "tipo": "Farmácia para Outro destino",
+      "origem": "Farmácia",
+      "destino": "Outro destino",
+      "quantidade": 20,
+      "responsavel": "Leiliana",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-24 14:44:33",
+      "item": "Dispositivo intravenoso Gelco nº 24",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 687,
       "item_id": 177,
       "produto_nome": "Dispositivo intravenoso Gelco nº 22",
@@ -21373,21 +21388,6 @@
       "obs": "Carga inicial Farmácia - linha 172",
       "criado_em": "13/08/2026 20:25:46",
       "item": "Sonda Foley nº 24 - 3 vias",
-      "usuario": "Carga inicial Farmácia"
-    },
-    {
-      "id": 188,
-      "item_id": 168,
-      "produto_nome": "Sonda Foley nº 22 - 2 vias",
-      "tipo": "Entrada direta na Farmácia",
-      "origem": "Carga inicial",
-      "destino": "Farmácia",
-      "quantidade": 15,
-      "responsavel": "Carga inicial Farmácia",
-      "data": "13/08/2026",
-      "obs": "Carga inicial Farmácia - linha 171",
-      "criado_em": "13/08/2026 20:25:46",
-      "item": "Sonda Foley nº 22 - 2 vias",
       "usuario": "Carga inicial Farmácia"
     }
   ]
