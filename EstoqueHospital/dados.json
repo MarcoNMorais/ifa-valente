@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 14:07:08",
+  "atualizado_em": "24/08/2026 14:09:51",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 29361,
-    "total_geral": 119766,
+    "total_farmacia": 29356,
+    "total_geral": 119761,
     "perto_de_terminar": 0,
     "zerados": 3
   },
@@ -5088,19 +5088,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 398,
+      "farmacia": 393,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 398,
+      "total": 393,
       "minimo": 0,
       "validade": "08/27",
       "lote": "",
       "origem": "Carga Farmácia 227-288",
       "obs": "Importação Farmácia 227-288",
-      "atualizado_em": "2026-08-24 11:21:37",
+      "atualizado_em": "2026-08-24 14:09:50",
       "validade_mais_proxima": "08/27",
       "vencimento_mais_proximo": "08/27",
       "lotes_validade": [
@@ -5108,7 +5108,7 @@
           "local": "farmacia",
           "validade": "08/27",
           "lote": "",
-          "quantidade": 398
+          "quantidade": 393
         }
       ],
       "minimo_manual": 0,
@@ -5116,9 +5116,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 11,
-      "media_diaria_saida": 0.18,
-      "total_saida_historica": 2,
-      "cobertura_dias": 2189.0,
+      "media_diaria_saida": 0.64,
+      "total_saida_historica": 7,
+      "cobertura_dias": 617.6,
       "alerta_estoque": false
     },
     {
@@ -13918,6 +13918,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 625,
+      "item_id": 230,
+      "produto_nome": "Ferropurum 20mg/ml",
+      "tipo": "Farmácia para Outro destino",
+      "origem": "Farmácia",
+      "destino": "Outro destino",
+      "quantidade": 5,
+      "responsavel": "Leiliana",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-24 14:09:50",
+      "item": "Ferropurum 20mg/ml",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 624,
       "item_id": 154,
       "produto_nome": "Equipo fotossensível",
@@ -21400,21 +21415,6 @@
       "obs": "Carga inicial Farmácia - linha 112",
       "criado_em": "13/08/2026 20:25:46",
       "item": "Sonda de Aspiração nº 16",
-      "usuario": "Carga inicial Farmácia"
-    },
-    {
-      "id": 125,
-      "item_id": 108,
-      "produto_nome": "Sonda de Aspiração nº 6",
-      "tipo": "Entrada direta na Farmácia",
-      "origem": "Carga inicial",
-      "destino": "Farmácia",
-      "quantidade": 16,
-      "responsavel": "Carga inicial Farmácia",
-      "data": "13/08/2026",
-      "obs": "Carga inicial Farmácia - linha 111",
-      "criado_em": "13/08/2026 20:25:46",
-      "item": "Sonda de Aspiração nº 6",
       "usuario": "Carga inicial Farmácia"
     }
   ]
