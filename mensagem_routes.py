@@ -1,8 +1,11 @@
 from __future__ import annotations
 
-from flask import flash, redirect, render_template, request, url_for
+from functools import wraps
 
-from app import admin_required, commit_with_backup, get_db, now_iso
+from flask import flash, redirect, render_template, request, session, url_for
+from werkzeug.security import check_password_hash
+
+from app import commit_with_backup, get_db, now_iso
 
 _STARTS = ['Hoje, lembre-se de que sua presença tem valor.', 'Você não precisa resolver tudo de uma vez.', 'Seu ritmo também merece respeito.', 'Há força em pedir ajuda quando o peso fica grande.', 'Mesmo um dia difícil pode terminar de um jeito mais leve.', 'Você merece cuidado, inclusive de si para si.', 'Pequenos passos continuam sendo passos.', 'Sua história não termina em um momento difícil.', 'Respirar, parar e recomeçar também é seguir em frente.', 'Você é mais importante do que qualquer problema de hoje.', 'Há pessoas que podem caminhar ao seu lado.', 'Seu bem-estar importa e merece atenção.', 'Nem todo cansaço precisa ser enfrentado sozinho.', 'Dar nome ao que você sente pode abrir espaço para o cuidado.', 'Você pode escolher tratar-se com mais gentileza hoje.', 'Há coragem em reconhecer que você precisa de apoio.', 'Um momento difícil não define toda a sua vida.', 'Você merece ser ouvido com respeito e sem julgamento.', 'Cuide de você como cuidaria de alguém que ama.', 'Seu valor não diminui nos dias em que você não está bem.', 'Você pode começar o dia novamente a qualquer hora.', 'Há caminhos que aparecem quando dividimos o que estamos sentindo.', 'Você não precisa ter todas as respostas hoje.', 'Seu esforço de continuar já diz muita coisa sobre você.', 'É possível atravessar momentos difíceis com apoio e cuidado.']
 _ENDS = ['Permita-se seguir um passo de cada vez.', 'Procure alguém de confiança e converse se precisar.', 'Reserve um instante para respirar e perceber como você está.', 'Você merece apoio, escuta e acolhimento.', 'Cuide do que está ao seu alcance agora.', 'Escolha uma pequena coisa que possa tornar seu dia mais leve.', 'Falar sobre o que sente pode ser o começo de uma mudança.', 'Não carregue sozinho aquilo que pode ser compartilhado.', 'Seu futuro pode guardar possibilidades que hoje ainda não aparecem.', 'Valorize cada avanço, mesmo os menores.', 'Se hoje estiver pesado, peça companhia para atravessar o dia.', 'Trate seus sentimentos com a mesma atenção que daria a alguém querido.', 'Uma conversa sincera pode fazer diferença.', 'Descansar também pode ser uma forma de cuidado.', 'Você não precisa provar força o tempo todo.', 'Recomeçar quantas vezes forem necessárias também faz parte da vida.', 'Procure apoio profissional quando sentir que precisa.', 'Há espaço para novos capítulos e novos encontros.', 'Seja paciente com o processo e gentil com você.', 'O importante agora pode ser apenas não enfrentar tudo sozinho.', 'Permita que alguém saiba como você realmente está.', 'Cuidar da mente é parte importante de cuidar da saúde.', 'Você merece tempo, apoio e oportunidade para se sentir melhor.', 'Hoje pode ser um bom dia para escolher o cuidado.']
@@ -37,6 +40,23 @@ def _clean_origin(value: str | None) -> str:
     return safe or 'DIRETO'
 
 
+def mensagem_admin_required(view):
+    @wraps(view)
+    def wrapped(*args, **kwargs):
+        user_id = session.get('mensagem_admin_user_id')
+        if not user_id:
+            return redirect(url_for('mensagem_admin_login', next=request.path))
+        user = get_db().execute(
+            "SELECT id, name, username, role, active FROM users WHERE id=?",
+            (user_id,),
+        ).fetchone()
+        if not user or not user['active'] or user['role'] != 'ADM':
+            session.pop('mensagem_admin_user_id', None)
+            return redirect(url_for('mensagem_admin_login'))
+        return view(*args, **kwargs)
+    return wrapped
+
+
 def register_mensagem_routes(app) -> None:
     @app.get('/mensagem')
     def mensagem_do_dia():
@@ -56,8 +76,33 @@ def register_mensagem_routes(app) -> None:
             db.commit()
         return ('', 204)
 
+    @app.route('/mensagem/admin/login', methods=['GET', 'POST'])
+    def mensagem_admin_login():
+        if session.get('mensagem_admin_user_id'):
+            return redirect(url_for('mensagem_admin'))
+        error = None
+        if request.method == 'POST':
+            username = (request.form.get('username') or '').strip()
+            password = request.form.get('password') or ''
+            user = get_db().execute(
+                "SELECT id, name, username, password_hash, role, active FROM users WHERE username=? COLLATE NOCASE",
+                (username,),
+            ).fetchone()
+            if user and user['active'] and user['role'] == 'ADM' and check_password_hash(user['password_hash'], password):
+                session['mensagem_admin_user_id'] = user['id']
+                session['mensagem_admin_name'] = user['name']
+                return redirect(url_for('mensagem_admin'))
+            error = 'Usuário ou senha inválidos para o painel de mensagens.'
+        return render_template('mensagem_admin_login.html', error=error)
+
+    @app.get('/mensagem/admin/sair')
+    def mensagem_admin_logout():
+        session.pop('mensagem_admin_user_id', None)
+        session.pop('mensagem_admin_name', None)
+        return redirect(url_for('mensagem_admin_login'))
+
     @app.route('/mensagem/admin', methods=['GET', 'POST'])
-    @admin_required
+    @mensagem_admin_required
     def mensagem_admin():
         _ensure_messages_table()
         db = get_db()
@@ -113,4 +158,12 @@ def register_mensagem_routes(app) -> None:
             COUNT(DISTINCT visitor_id) AS visitantes,
             MAX(accessed_at) AS ultimo
             FROM message_access GROUP BY origem ORDER BY acessos DESC, origem''').fetchall()
-        return render_template('mensagem_admin.html', rows=rows, stats=stats, access_stats=access_stats, today_stats=today_stats, origins=origins)
+        return render_template(
+            'mensagem_admin.html',
+            rows=rows,
+            stats=stats,
+            access_stats=access_stats,
+            today_stats=today_stats,
+            origins=origins,
+            admin_name=session.get('mensagem_admin_name') or 'Administrador',
+        )
