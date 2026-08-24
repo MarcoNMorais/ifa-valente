@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 15:27:20",
+  "atualizado_em": "24/08/2026 15:27:41",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 27095,
-    "total_geral": 117500,
+    "total_farmacia": 27085,
+    "total_geral": 117490,
     "perto_de_terminar": 0,
     "zerados": 8
   },
@@ -12515,19 +12515,19 @@
       "tipo": "Insumo",
       "unidade": "Unidade",
       "almoxarifado": 1033,
-      "farmacia": 78,
+      "farmacia": 68,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1111,
+      "total": 1101,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-24 14:14:59",
+      "atualizado_em": "2026-08-24 15:27:41",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -12541,7 +12541,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 78
+          "quantidade": 68
         }
       ],
       "minimo_manual": 0,
@@ -12549,9 +12549,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 5.0,
-      "total_saida_historica": 60,
-      "cobertura_dias": 222.2,
+      "media_diaria_saida": 5.83,
+      "total_saida_historica": 70,
+      "cobertura_dias": 188.7,
       "alerta_estoque": false
     },
     {
@@ -13858,6 +13858,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 786,
+      "item_id": 204,
+      "produto_nome": "Soro fisiológico 500ml",
+      "tipo": "Farmácia para Outro destino",
+      "origem": "Farmácia",
+      "destino": "Outro destino",
+      "quantidade": 10,
+      "responsavel": "Leiliana",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-24 15:27:41",
+      "item": "Soro fisiológico 500ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 785,
       "item_id": 103,
@@ -21341,21 +21356,6 @@
       "obs": "Importação Farmácia - linha 264 | validade: 03/27",
       "criado_em": "18/08/2026 09:14:00",
       "item": "Buscopan simples gotas",
-      "usuario": "Importação Farmácia"
-    },
-    {
-      "id": 286,
-      "item_id": 258,
-      "produto_nome": "Dipirona gotas",
-      "tipo": "Entrada direta na Farmácia",
-      "origem": "Importação lista Farmácia 227-288",
-      "destino": "Farmácia",
-      "quantidade": 14,
-      "responsavel": "Importação Farmácia",
-      "data": "18/08/2026",
-      "obs": "Importação Farmácia - linha 263 | validade: sem validade",
-      "criado_em": "18/08/2026 09:14:00",
-      "item": "Dipirona gotas",
       "usuario": "Importação Farmácia"
     }
   ]
