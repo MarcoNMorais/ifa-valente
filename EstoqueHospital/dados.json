@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 11:39:58",
+  "atualizado_em": "24/08/2026 11:40:10",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 31652,
-    "total_geral": 122057,
+    "total_farmacia": 31552,
+    "total_geral": 121957,
     "perto_de_terminar": 0,
     "zerados": 3
   },
@@ -7504,19 +7504,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 900,
+      "farmacia": 800,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 900,
+      "total": 800,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-20 13:12:54",
+      "atualizado_em": "2026-08-24 11:40:09",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -7524,7 +7524,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 900
+          "quantidade": 800
         }
       ],
       "minimo_manual": 0,
@@ -7532,9 +7532,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 0.0,
-      "total_saida_historica": 0,
-      "cobertura_dias": null,
+      "media_diaria_saida": 8.33,
+      "total_saida_historica": 100,
+      "cobertura_dias": 96.0,
       "alerta_estoque": false
     },
     {
@@ -14369,6 +14369,21 @@
       "criado_em": "2026-08-20 16:17:28",
       "item": "Captopril 25mg CPR",
       "usuario": "Leiliana"
+    },
+    {
+      "id": 547,
+      "item_id": 180,
+      "produto_nome": "Luva de látex tam. P",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 100,
+      "responsavel": "Assucena",
+      "data": "2026-08-16",
+      "obs": "",
+      "criado_em": "2026-08-24 11:40:09",
+      "item": "Luva de látex tam. P",
+      "usuario": "Assucena"
     },
     {
       "id": 546,
@@ -21416,21 +21431,6 @@
       "responsavel": "Carga inicial Farmácia",
       "data": "13/08/2026",
       "obs": "Carga inicial Farmácia - linha 33b",
-      "criado_em": "13/08/2026 20:25:46",
-      "item": "Atorvastatina 20mg CPR",
-      "usuario": "Carga inicial Farmácia"
-    },
-    {
-      "id": 47,
-      "item_id": 33,
-      "produto_nome": "Atorvastatina 20mg CPR",
-      "tipo": "Entrada direta na Farmácia",
-      "origem": "Carga inicial",
-      "destino": "Farmácia",
-      "quantidade": 45,
-      "responsavel": "Carga inicial Farmácia",
-      "data": "13/08/2026",
-      "obs": "Carga inicial Farmácia - linha 33 | Validade: 2027-09",
       "criado_em": "13/08/2026 20:25:46",
       "item": "Atorvastatina 20mg CPR",
       "usuario": "Carga inicial Farmácia"
