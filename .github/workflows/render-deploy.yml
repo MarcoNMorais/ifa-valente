@@ -4,6 +4,15 @@ on:
   push:
     branches:
       - main
+    paths-ignore:
+      - 'EstoqueHospital/**'
+      - '**/dados.json'
+      - '**/dados_relatorios.json'
+      - '**/*.db'
+      - '**/backups/**'
+      - '**/persistent/**'
+      - '**/__pycache__/**'
+      - '**/*.log'
 
 jobs:
   deploy:
