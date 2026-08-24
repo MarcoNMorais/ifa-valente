@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 14:56:13",
+  "atualizado_em": "24/08/2026 14:56:28",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 28283,
-    "total_geral": 118688,
+    "total_farmacia": 28278,
+    "total_geral": 118683,
     "perto_de_terminar": 0,
     "zerados": 6
   },
@@ -2707,19 +2707,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 177,
+      "farmacia": 172,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 177,
+      "total": 172,
       "minimo": 0,
       "validade": "2028-01",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-24 14:02:16",
+      "atualizado_em": "2026-08-24 14:56:28",
       "validade_mais_proxima": "2028-01",
       "vencimento_mais_proximo": "2028-01",
       "lotes_validade": [
@@ -2727,7 +2727,7 @@
           "local": "farmacia",
           "validade": "2028-01",
           "lote": "",
-          "quantidade": 177
+          "quantidade": 172
         }
       ],
       "minimo_manual": 0,
@@ -2735,9 +2735,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 6.08,
-      "total_saida_historica": 73,
-      "cobertura_dias": 29.1,
+      "media_diaria_saida": 6.5,
+      "total_saida_historica": 78,
+      "cobertura_dias": 26.5,
       "alerta_estoque": false
     },
     {
@@ -13891,6 +13891,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 712,
+      "item_id": 60,
+      "produto_nome": "Cetoprofeno EV 100mg",
+      "tipo": "Farmácia para Outro destino",
+      "origem": "Farmácia",
+      "destino": "Outro destino",
+      "quantidade": 5,
+      "responsavel": "Leiliana",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-24 14:56:28",
+      "item": "Cetoprofeno EV 100mg",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 711,
       "item_id": 233,
       "produto_nome": "Prometazina 25mg/ml",
@@ -21373,21 +21388,6 @@
       "obs": "Carga inicial Farmácia - linha 196",
       "criado_em": "13/08/2026 20:25:46",
       "item": "Agulha hipodérmica tam. 26",
-      "usuario": "Carga inicial Farmácia"
-    },
-    {
-      "id": 212,
-      "item_id": 192,
-      "produto_nome": "Agulha hipodérmica tam. 25",
-      "tipo": "Entrada direta na Farmácia",
-      "origem": "Carga inicial",
-      "destino": "Farmácia",
-      "quantidade": 100,
-      "responsavel": "Carga inicial Farmácia",
-      "data": "13/08/2026",
-      "obs": "Carga inicial Farmácia - linha 195",
-      "criado_em": "13/08/2026 20:25:46",
-      "item": "Agulha hipodérmica tam. 25",
       "usuario": "Carga inicial Farmácia"
     }
   ]
