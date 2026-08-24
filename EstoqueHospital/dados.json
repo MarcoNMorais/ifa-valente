@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 15:46:14",
+  "atualizado_em": "24/08/2026 15:46:25",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 25875,
-    "total_geral": 116280,
+    "total_farmacia": 25865,
+    "total_geral": 116270,
     "perto_de_terminar": 0,
     "zerados": 9
   },
@@ -3689,19 +3689,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 230,
+      "farmacia": 220,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 230,
+      "total": 220,
       "minimo": 0,
       "validade": "2028-02",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-24 15:12:07",
+      "atualizado_em": "2026-08-24 15:46:24",
       "validade_mais_proxima": "2028-02",
       "vencimento_mais_proximo": "2028-02",
       "lotes_validade": [
@@ -3709,7 +3709,7 @@
           "local": "farmacia",
           "validade": "2028-02",
           "lote": "",
-          "quantidade": 230
+          "quantidade": 220
         }
       ],
       "minimo_manual": 0,
@@ -3717,9 +3717,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 7.5,
-      "total_saida_historica": 90,
-      "cobertura_dias": 30.7,
+      "media_diaria_saida": 8.33,
+      "total_saida_historica": 100,
+      "cobertura_dias": 26.4,
       "alerta_estoque": false
     },
     {
@@ -13834,6 +13834,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 851,
+      "item_id": 69,
+      "produto_nome": "Diclofenaco 25mg",
+      "tipo": "Farmácia para Outro destino",
+      "origem": "Farmácia",
+      "destino": "Outro destino",
+      "quantidade": 10,
+      "responsavel": "Leiliana",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-24 15:46:24",
+      "item": "Diclofenaco 25mg",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 850,
       "item_id": 70,
       "produto_nome": "Dipirona",
@@ -21316,21 +21331,6 @@
       "obs": "Importação Almoxerifado - linha 36",
       "criado_em": "18/08/2026 09:58:00",
       "item": "Agulha 20x55",
-      "usuario": "Sistema"
-    },
-    {
-      "id": 351,
-      "item_id": 287,
-      "produto_nome": "Agulha 13x4,5",
-      "tipo": "entrada",
-      "origem": "Carga Almoxerifado",
-      "destino": "almoxarifado",
-      "quantidade": 1900,
-      "responsavel": "Sistema",
-      "data": "18/08/2026 09:58:00",
-      "obs": "Importação Almoxerifado - linha 35",
-      "criado_em": "18/08/2026 09:58:00",
-      "item": "Agulha 13x4,5",
       "usuario": "Sistema"
     }
   ]
