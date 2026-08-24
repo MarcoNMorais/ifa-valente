@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 15:56:29",
+  "atualizado_em": "24/08/2026 15:56:40",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 25204,
-    "total_geral": 115609,
+    "total_farmacia": 25202,
+    "total_geral": 115607,
     "perto_de_terminar": 0,
     "zerados": 9
   },
@@ -10306,19 +10306,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 26,
+      "farmacia": 24,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 26,
+      "total": 24,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga Farmácia 227-288",
       "obs": "Importação Farmácia 227-288",
-      "atualizado_em": "2026-08-24 15:30:43",
+      "atualizado_em": "2026-08-24 15:56:39",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -10326,7 +10326,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 26
+          "quantidade": 24
         }
       ],
       "minimo_manual": 0,
@@ -10334,9 +10334,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 11,
-      "media_diaria_saida": 1.0,
-      "total_saida_historica": 11,
-      "cobertura_dias": 26.0,
+      "media_diaria_saida": 1.18,
+      "total_saida_historica": 13,
+      "cobertura_dias": 20.3,
       "alerta_estoque": false
     },
     {
@@ -13827,6 +13827,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 888,
+      "item_id": 256,
+      "produto_nome": "Simeticona gotas",
+      "tipo": "Farmácia para Outro destino",
+      "origem": "Farmácia",
+      "destino": "Outro destino",
+      "quantidade": 2,
+      "responsavel": "Leiliana",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-24 15:56:39",
+      "item": "Simeticona gotas",
+      "usuario": "Leiliana"
+    },
     {
       "id": 887,
       "item_id": 59,
@@ -21310,21 +21325,6 @@
       "obs": "Importação Almoxerifado - linha 73",
       "criado_em": "18/08/2026 09:58:00",
       "item": "Sonda Foley nº 20",
-      "usuario": "Sistema"
-    },
-    {
-      "id": 388,
-      "item_id": 313,
-      "produto_nome": "Sonda Foley nº 16",
-      "tipo": "entrada",
-      "origem": "Carga Almoxerifado",
-      "destino": "almoxarifado",
-      "quantidade": 20,
-      "responsavel": "Sistema",
-      "data": "18/08/2026 09:58:00",
-      "obs": "Importação Almoxerifado - linha 72",
-      "criado_em": "18/08/2026 09:58:00",
-      "item": "Sonda Foley nº 16",
       "usuario": "Sistema"
     }
   ]
