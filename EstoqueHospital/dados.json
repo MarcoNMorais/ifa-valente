@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 11:37:46",
+  "atualizado_em": "24/08/2026 11:38:16",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 31969,
-    "total_geral": 122374,
+    "total_farmacia": 31959,
+    "total_geral": 122364,
     "perto_de_terminar": 0,
     "zerados": 3
   },
@@ -2719,19 +2719,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 216,
+      "farmacia": 206,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 216,
+      "total": 206,
       "minimo": 0,
       "validade": "2028-01",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-24 11:30:18",
+      "atualizado_em": "2026-08-24 11:38:16",
       "validade_mais_proxima": "2028-01",
       "vencimento_mais_proximo": "2028-01",
       "lotes_validade": [
@@ -2739,7 +2739,7 @@
           "local": "farmacia",
           "validade": "2028-01",
           "lote": "",
-          "quantidade": 216
+          "quantidade": 206
         }
       ],
       "minimo_manual": 0,
@@ -2747,9 +2747,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 2.83,
-      "total_saida_historica": 34,
-      "cobertura_dias": 76.2,
+      "media_diaria_saida": 3.67,
+      "total_saida_historica": 44,
+      "cobertura_dias": 56.2,
       "alerta_estoque": false
     },
     {
@@ -14371,6 +14371,21 @@
       "usuario": "Leiliana"
     },
     {
+      "id": 539,
+      "item_id": 60,
+      "produto_nome": "Cetoprofeno EV 100mg",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 10,
+      "responsavel": "Assucena",
+      "data": "2026-08-16",
+      "obs": "",
+      "criado_em": "2026-08-24 11:38:16",
+      "item": "Cetoprofeno EV 100mg",
+      "usuario": "Assucena"
+    },
+    {
       "id": 538,
       "item_id": 176,
       "produto_nome": "Dispositivo intravenoso Gelco nº 24",
@@ -21418,21 +21433,6 @@
       "obs": "Carga inicial Farmácia - linha 27",
       "criado_em": "13/08/2026 20:25:46",
       "item": "Paracetamol 500mg",
-      "usuario": "Carga inicial Farmácia"
-    },
-    {
-      "id": 39,
-      "item_id": 26,
-      "produto_nome": "Phosfo enema",
-      "tipo": "Entrada direta na Farmácia",
-      "origem": "Carga inicial",
-      "destino": "Farmácia",
-      "quantidade": 2,
-      "responsavel": "Carga inicial Farmácia",
-      "data": "13/08/2026",
-      "obs": "Carga inicial Farmácia - linha 26 | Validade: 2027-01",
-      "criado_em": "13/08/2026 20:25:46",
-      "item": "Phosfo enema",
       "usuario": "Carga inicial Farmácia"
     }
   ]
