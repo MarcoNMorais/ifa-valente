@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 11:41:46",
+  "atualizado_em": "24/08/2026 11:41:56",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 31368,
-    "total_geral": 121773,
+    "total_farmacia": 31362,
+    "total_geral": 121767,
     "perto_de_terminar": 0,
     "zerados": 3
   },
@@ -9031,19 +9031,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 107,
+      "farmacia": 101,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 107,
+      "total": 101,
       "minimo": 0,
       "validade": "11/27",
       "lote": "",
       "origem": "Carga Farmácia 227-288",
       "obs": "Importação Farmácia 227-288",
-      "atualizado_em": "2026-08-21 10:58:17",
+      "atualizado_em": "2026-08-24 11:41:55",
       "validade_mais_proxima": "11/27",
       "vencimento_mais_proximo": "11/27",
       "lotes_validade": [
@@ -9051,7 +9051,7 @@
           "local": "farmacia",
           "validade": "11/27",
           "lote": "",
-          "quantidade": 67
+          "quantidade": 61
         },
         {
           "local": "farmacia",
@@ -9065,9 +9065,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 11,
-      "media_diaria_saida": 0.45,
-      "total_saida_historica": 5,
-      "cobertura_dias": 235.4,
+      "media_diaria_saida": 1.0,
+      "total_saida_historica": 11,
+      "cobertura_dias": 101.0,
       "alerta_estoque": false
     },
     {
@@ -14369,6 +14369,21 @@
       "criado_em": "2026-08-20 16:17:28",
       "item": "Captopril 25mg CPR",
       "usuario": "Leiliana"
+    },
+    {
+      "id": 555,
+      "item_id": 228,
+      "produto_nome": "Omeprazol sódico 40mg AMP",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 6,
+      "responsavel": "Assucena",
+      "data": "2026-08-16",
+      "obs": "",
+      "criado_em": "2026-08-24 11:41:55",
+      "item": "Omeprazol sódico 40mg AMP",
+      "usuario": "Assucena"
     },
     {
       "id": 554,
@@ -21418,21 +21433,6 @@
       "obs": "Carga inicial Farmácia - linha 41 | Validade: 2027-06",
       "criado_em": "13/08/2026 20:25:46",
       "item": "Digoxina 0,25mg CPR",
-      "usuario": "Carga inicial Farmácia"
-    },
-    {
-      "id": 55,
-      "item_id": 40,
-      "produto_nome": "Succinato de metoprolol 25mg",
-      "tipo": "Entrada direta na Farmácia",
-      "origem": "Carga inicial",
-      "destino": "Farmácia",
-      "quantidade": 140,
-      "responsavel": "Carga inicial Farmácia",
-      "data": "13/08/2026",
-      "obs": "Carga inicial Farmácia - linha 40 | Validade: 2028-02",
-      "criado_em": "13/08/2026 20:25:46",
-      "item": "Succinato de metoprolol 25mg",
       "usuario": "Carga inicial Farmácia"
     }
   ]
