@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 11:49:18",
+  "atualizado_em": "24/08/2026 11:49:28",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 30163,
-    "total_geral": 120568,
+    "total_farmacia": 30153,
+    "total_geral": 120558,
     "perto_de_terminar": 0,
     "zerados": 3
   },
@@ -9369,19 +9369,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 280,
+      "farmacia": 270,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 280,
+      "total": 270,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-24 11:31:21",
+      "atualizado_em": "2026-08-24 11:49:21",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -9389,7 +9389,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 280
+          "quantidade": 270
         }
       ],
       "minimo_manual": 0,
@@ -9397,9 +9397,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 0.83,
-      "total_saida_historica": 10,
-      "cobertura_dias": 336.0,
+      "media_diaria_saida": 1.67,
+      "total_saida_historica": 20,
+      "cobertura_dias": 162.0,
       "alerta_estoque": false
     },
     {
@@ -14369,6 +14369,21 @@
       "criado_em": "2026-08-20 16:17:28",
       "item": "Captopril 25mg CPR",
       "usuario": "Leiliana"
+    },
+    {
+      "id": 587,
+      "item_id": 27,
+      "produto_nome": "Paracetamol 500mg",
+      "tipo": "Farmácia para Posto de Internamento",
+      "origem": "Farmácia",
+      "destino": "Posto de Internamento",
+      "quantidade": 10,
+      "responsavel": "Assucena",
+      "data": "2026-08-17",
+      "obs": "",
+      "criado_em": "2026-08-24 11:49:21",
+      "item": "Paracetamol 500mg",
+      "usuario": "Assucena"
     },
     {
       "id": 586,
@@ -21418,21 +21433,6 @@
       "obs": "Carga inicial Farmácia - linha 74 | Validade: 2027-03",
       "criado_em": "13/08/2026 20:25:46",
       "item": "Dopamina",
-      "usuario": "Carga inicial Farmácia"
-    },
-    {
-      "id": 87,
-      "item_id": 70,
-      "produto_nome": "Dipirona",
-      "tipo": "Entrada direta na Farmácia",
-      "origem": "Carga inicial",
-      "destino": "Farmácia",
-      "quantidade": 1020,
-      "responsavel": "Carga inicial Farmácia",
-      "data": "13/08/2026",
-      "obs": "Carga inicial Farmácia - linha 73 | Validade: 2027-03",
-      "criado_em": "13/08/2026 20:25:46",
-      "item": "Dipirona",
       "usuario": "Carga inicial Farmácia"
     }
   ]
