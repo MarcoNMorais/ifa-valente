@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 11:20:42",
+  "atualizado_em": "24/08/2026 11:20:53",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 91033,
-    "total_farmacia": 33171,
-    "total_geral": 124204,
+    "total_farmacia": 33170,
+    "total_geral": 124203,
     "perto_de_terminar": 0,
     "zerados": 2
   },
@@ -6863,19 +6863,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 120,
-      "farmacia": 6,
+      "farmacia": 5,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 126,
+      "total": 125,
       "minimo": 0,
       "validade": "11/27",
       "lote": "",
       "origem": "Carga Farmácia 227-288",
       "obs": "Importação Farmácia 227-288",
-      "atualizado_em": "2026-08-20 13:12:54",
+      "atualizado_em": "2026-08-24 11:20:53",
       "validade_mais_proxima": "11/27",
       "vencimento_mais_proximo": "11/27",
       "lotes_validade": [
@@ -6883,7 +6883,7 @@
           "local": "farmacia",
           "validade": "11/27",
           "lote": "",
-          "quantidade": 6
+          "quantidade": 5
         },
         {
           "local": "almoxarifado",
@@ -6896,10 +6896,10 @@
       "minimo_alerta": 0,
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
-      "dias_historico": 7,
-      "media_diaria_saida": 0.0,
-      "total_saida_historica": 0,
-      "cobertura_dias": null,
+      "dias_historico": 11,
+      "media_diaria_saida": 0.09,
+      "total_saida_historica": 1,
+      "cobertura_dias": 1375.0,
       "alerta_estoque": false
     },
     {
@@ -14301,6 +14301,21 @@
       "criado_em": "2026-08-20 16:17:28",
       "item": "Captopril 25mg CPR",
       "usuario": "Leiliana"
+    },
+    {
+      "id": 481,
+      "item_id": 241,
+      "produto_nome": "Lactulose solução",
+      "tipo": "Farmácia para Posto de Internamento",
+      "origem": "Farmácia",
+      "destino": "Posto de Internamento",
+      "quantidade": 1,
+      "responsavel": "Assucena",
+      "data": "2026-08-14",
+      "obs": "",
+      "criado_em": "2026-08-24 11:20:53",
+      "item": "Lactulose solução",
+      "usuario": "Assucena"
     },
     {
       "id": 480,
