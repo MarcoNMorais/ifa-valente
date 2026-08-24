@@ -1,13 +1,13 @@
 {
-  "atualizado_em": "24/08/2026 14:35:46",
+  "atualizado_em": "24/08/2026 14:37:09",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 28845,
-    "total_geral": 119250,
+    "total_farmacia": 28836,
+    "total_geral": 119241,
     "perto_de_terminar": 0,
-    "zerados": 5
+    "zerados": 6
   },
   "itens": [
     {
@@ -13383,37 +13383,30 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 9,
+      "farmacia": 0,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 9,
+      "total": 0,
       "minimo": 0,
-      "validade": "08/27",
+      "validade": "",
       "lote": "",
       "origem": "Carga Farmácia 227-288",
       "obs": "Importação Farmácia 227-288",
-      "atualizado_em": "2026-08-20 13:12:54",
-      "validade_mais_proxima": "08/27",
-      "vencimento_mais_proximo": "08/27",
-      "lotes_validade": [
-        {
-          "local": "farmacia",
-          "validade": "08/27",
-          "lote": "",
-          "quantidade": 9
-        }
-      ],
+      "atualizado_em": "2026-08-24 14:37:09",
+      "validade_mais_proxima": "",
+      "vencimento_mais_proximo": "",
+      "lotes_validade": [],
       "minimo_manual": 0,
       "minimo_alerta": 0,
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 7,
-      "media_diaria_saida": 0.0,
-      "total_saida_historica": 0,
-      "cobertura_dias": null,
+      "media_diaria_saida": 1.29,
+      "total_saida_historica": 9,
+      "cobertura_dias": 0.0,
       "alerta_estoque": false
     },
     {
@@ -13897,6 +13890,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 673,
+      "item_id": 267,
+      "produto_nome": "Transamin 250mg CPR",
+      "tipo": "Farmácia para Outro destino",
+      "origem": "Farmácia",
+      "destino": "Outro destino",
+      "quantidade": 9,
+      "responsavel": "Leiliana",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-24 14:37:09",
+      "item": "Transamin 250mg CPR",
+      "usuario": "Leiliana"
+    },
     {
       "id": 672,
       "item_id": 7,
@@ -21380,21 +21388,6 @@
       "obs": "Carga inicial Farmácia - linha 157",
       "criado_em": "13/08/2026 20:25:46",
       "item": "Equipo fotossensível",
-      "usuario": "Carga inicial Farmácia"
-    },
-    {
-      "id": 173,
-      "item_id": 153,
-      "produto_nome": "Atadura crepon nº 20",
-      "tipo": "Entrada direta na Farmácia",
-      "origem": "Carga inicial",
-      "destino": "Farmácia",
-      "quantidade": 72,
-      "responsavel": "Carga inicial Farmácia",
-      "data": "13/08/2026",
-      "obs": "Carga inicial Farmácia - linha 156",
-      "criado_em": "13/08/2026 20:25:46",
-      "item": "Atadura crepon nº 20",
       "usuario": "Carga inicial Farmácia"
     }
   ]
