@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 15:19:24",
+  "atualizado_em": "24/08/2026 15:19:38",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 27550,
-    "total_geral": 117955,
+    "total_farmacia": 27547,
+    "total_geral": 117952,
     "perto_de_terminar": 0,
     "zerados": 7
   },
@@ -11498,19 +11498,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 21,
+      "farmacia": 18,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 21,
+      "total": 18,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-20 13:12:54",
+      "atualizado_em": "2026-08-24 15:19:38",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -11518,7 +11518,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 21
+          "quantidade": 18
         }
       ],
       "minimo_manual": 0,
@@ -11526,9 +11526,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 0.0,
-      "total_saida_historica": 0,
-      "cobertura_dias": null,
+      "media_diaria_saida": 0.25,
+      "total_saida_historica": 3,
+      "cobertura_dias": 72.0,
       "alerta_estoque": false
     },
     {
@@ -13865,6 +13865,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 758,
+      "item_id": 172,
+      "produto_nome": "Sonda Foley nº 18 - 2 vias",
+      "tipo": "Farmácia para Outro destino",
+      "origem": "Farmácia",
+      "destino": "Outro destino",
+      "quantidade": 3,
+      "responsavel": "Leiliana",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-24 15:19:38",
+      "item": "Sonda Foley nº 18 - 2 vias",
+      "usuario": "Leiliana"
+    },
     {
       "id": 757,
       "item_id": 167,
@@ -21348,21 +21363,6 @@
       "obs": "Importação Farmácia - linha 239 | validade: 03/27",
       "criado_em": "18/08/2026 09:14:00",
       "item": "Amicacina 100mg/ml",
-      "usuario": "Importação Farmácia"
-    },
-    {
-      "id": 258,
-      "item_id": 234,
-      "produto_nome": "Vitamina K 10mg/ml",
-      "tipo": "Entrada direta na Farmácia",
-      "origem": "Importação lista Farmácia 227-288",
-      "destino": "Farmácia",
-      "quantidade": 75,
-      "responsavel": "Importação Farmácia",
-      "data": "18/08/2026",
-      "obs": "Importação Farmácia - linha 238 | validade: 04/27",
-      "criado_em": "18/08/2026 09:14:00",
-      "item": "Vitamina K 10mg/ml",
       "usuario": "Importação Farmácia"
     }
   ]
