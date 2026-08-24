@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 14:18:41",
+  "atualizado_em": "24/08/2026 14:18:56",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 29185,
-    "total_geral": 119590,
+    "total_farmacia": 29177,
+    "total_geral": 119582,
     "perto_de_terminar": 0,
     "zerados": 3
   },
@@ -12699,19 +12699,19 @@
       "tipo": "Insumo",
       "unidade": "Unidade",
       "almoxarifado": 264,
-      "farmacia": 102,
+      "farmacia": 94,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 366,
+      "total": 358,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-24 11:36:08",
+      "atualizado_em": "2026-08-24 14:18:56",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -12725,7 +12725,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 102
+          "quantidade": 94
         }
       ],
       "minimo_manual": 0,
@@ -12733,9 +12733,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 1.5,
-      "total_saida_historica": 18,
-      "cobertura_dias": 244.0,
+      "media_diaria_saida": 2.17,
+      "total_saida_historica": 26,
+      "cobertura_dias": 165.2,
       "alerta_estoque": false
     },
     {
@@ -13911,6 +13911,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 641,
+      "item_id": 201,
+      "produto_nome": "Soro Ringer Lactato 500ml",
+      "tipo": "Farmácia para Outro destino",
+      "origem": "Farmácia",
+      "destino": "Outro destino",
+      "quantidade": 8,
+      "responsavel": "Leiliana",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-24 14:18:56",
+      "item": "Soro Ringer Lactato 500ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 640,
       "item_id": 55,
@@ -21392,21 +21407,6 @@
       "responsavel": "Carga inicial Farmácia",
       "data": "13/08/2026",
       "obs": "Carga inicial Farmácia - linha 126b",
-      "criado_em": "13/08/2026 20:25:46",
-      "item": "Furosemida 40mg CPR",
-      "usuario": "Carga inicial Farmácia"
-    },
-    {
-      "id": 141,
-      "item_id": 123,
-      "produto_nome": "Furosemida 40mg CPR",
-      "tipo": "Entrada direta na Farmácia",
-      "origem": "Carga inicial",
-      "destino": "Farmácia",
-      "quantidade": 180,
-      "responsavel": "Carga inicial Farmácia",
-      "data": "13/08/2026",
-      "obs": "Carga inicial Farmácia - linha 126 | Validade: 2027-08",
       "criado_em": "13/08/2026 20:25:46",
       "item": "Furosemida 40mg CPR",
       "usuario": "Carga inicial Farmácia"
