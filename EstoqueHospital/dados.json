@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "24/08/2026 11:36:36",
+  "atualizado_em": "24/08/2026 11:37:04",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
-    "total_almoxarifado": 90645,
-    "total_farmacia": 31789,
+    "total_almoxarifado": 90405,
+    "total_farmacia": 32029,
     "total_geral": 122434,
     "perto_de_terminar": 0,
     "zerados": 3
@@ -12492,8 +12492,8 @@
       "nome": "Soro fisiológico 100ml",
       "tipo": "Insumo",
       "unidade": "Unidade",
-      "almoxarifado": 1320,
-      "farmacia": 120,
+      "almoxarifado": 1080,
+      "farmacia": 360,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -12505,7 +12505,7 @@
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-24 11:32:21",
+      "atualizado_em": "2026-08-24 11:37:03",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -12513,13 +12513,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 1320
+          "quantidade": 1080
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 120
+          "quantidade": 360
         }
       ],
       "minimo_manual": 0,
@@ -13935,6 +13935,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 536,
+      "item_id": 202,
+      "produto_nome": "Soro fisiológico 100ml",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 240,
+      "responsavel": "Assucena",
+      "data": "2026-08-21",
+      "obs": "",
+      "criado_em": "2026-08-24 11:37:03",
+      "item": "Soro fisiológico 100ml",
+      "usuario": "Assucena"
+    },
     {
       "id": 535,
       "item_id": 204,
@@ -21418,21 +21433,6 @@
       "obs": "Carga inicial Farmácia - linha 24",
       "criado_em": "13/08/2026 20:25:46",
       "item": "AAS",
-      "usuario": "Carga inicial Farmácia"
-    },
-    {
-      "id": 36,
-      "item_id": 23,
-      "produto_nome": "Sulfadiazina de prata",
-      "tipo": "Entrada direta na Farmácia",
-      "origem": "Carga inicial",
-      "destino": "Farmácia",
-      "quantidade": 5,
-      "responsavel": "Carga inicial Farmácia",
-      "data": "13/08/2026",
-      "obs": "Carga inicial Farmácia - linha 23 | Validade: 2027-03",
-      "criado_em": "13/08/2026 20:25:46",
-      "item": "Sulfadiazina de prata",
       "usuario": "Carga inicial Farmácia"
     }
   ]
