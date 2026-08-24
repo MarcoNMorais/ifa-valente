@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 14:52:12",
+  "atualizado_em": "24/08/2026 14:54:10",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 28420,
-    "total_geral": 118825,
+    "total_farmacia": 28370,
+    "total_geral": 118775,
     "perto_de_terminar": 0,
     "zerados": 6
   },
@@ -10053,19 +10053,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 2000,
-      "farmacia": 414,
+      "farmacia": 364,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 2414,
+      "total": 2364,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-24 14:46:47",
+      "atualizado_em": "2026-08-24 14:54:09",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -10079,7 +10079,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 414
+          "quantidade": 364
         }
       ],
       "minimo_manual": 0,
@@ -10087,9 +10087,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 50.83,
-      "total_saida_historica": 610,
-      "cobertura_dias": 47.5,
+      "media_diaria_saida": 55.0,
+      "total_saida_historica": 660,
+      "cobertura_dias": 43.0,
       "alerta_estoque": false
     },
     {
@@ -13890,6 +13890,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 705,
+      "item_id": 103,
+      "produto_nome": "Seringa 10ml",
+      "tipo": "Farmácia para Outro destino",
+      "origem": "Farmácia",
+      "destino": "Outro destino",
+      "quantidade": 50,
+      "responsavel": "Leiliana",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-24 14:54:09",
+      "item": "Seringa 10ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 704,
       "item_id": 155,
@@ -21373,21 +21388,6 @@
       "obs": "Carga inicial Farmácia - linha 189",
       "criado_em": "13/08/2026 20:25:46",
       "item": "Luva cirúrgica tam. 8",
-      "usuario": "Carga inicial Farmácia"
-    },
-    {
-      "id": 205,
-      "item_id": 185,
-      "produto_nome": "Luva cirúrgica tam. 7,5",
-      "tipo": "Entrada direta na Farmácia",
-      "origem": "Carga inicial",
-      "destino": "Farmácia",
-      "quantidade": 29,
-      "responsavel": "Carga inicial Farmácia",
-      "data": "13/08/2026",
-      "obs": "Carga inicial Farmácia - linha 188",
-      "criado_em": "13/08/2026 20:25:46",
-      "item": "Luva cirúrgica tam. 7,5",
       "usuario": "Carga inicial Farmácia"
     }
   ]
