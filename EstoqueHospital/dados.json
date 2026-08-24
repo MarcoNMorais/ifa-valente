@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 15:41:57",
+  "atualizado_em": "24/08/2026 15:42:26",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 26016,
-    "total_geral": 116421,
+    "total_farmacia": 25996,
+    "total_geral": 116401,
     "perto_de_terminar": 0,
     "zerados": 9
   },
@@ -3975,19 +3975,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 1500,
-      "farmacia": 38,
+      "farmacia": 18,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1538,
+      "total": 1518,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-08-24 15:40:23",
+      "atualizado_em": "2026-08-24 15:42:25",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -4001,7 +4001,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 38
+          "quantidade": 18
         }
       ],
       "minimo_manual": 0,
@@ -4009,9 +4009,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 17.5,
-      "total_saida_historica": 210,
-      "cobertura_dias": 87.9,
+      "media_diaria_saida": 19.17,
+      "total_saida_historica": 230,
+      "cobertura_dias": 79.2,
       "alerta_estoque": false
     },
     {
@@ -13840,6 +13840,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 837,
+      "item_id": 177,
+      "produto_nome": "Dispositivo intravenoso Gelco nº 22",
+      "tipo": "Farmácia para Outro destino",
+      "origem": "Farmácia",
+      "destino": "Outro destino",
+      "quantidade": 20,
+      "responsavel": "Leiliana",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-24 15:42:25",
+      "item": "Dispositivo intravenoso Gelco nº 22",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 836,
       "item_id": 202,
       "produto_nome": "Soro fisiológico 100ml",
@@ -21322,21 +21337,6 @@
       "obs": "Importação Almoxerifado - linha 22",
       "criado_em": "18/08/2026 09:58:00",
       "item": "Luva cirúrgica tam. 7,5",
-      "usuario": "Sistema"
-    },
-    {
-      "id": 337,
-      "item_id": 276,
-      "produto_nome": "Esparadrapo 10x4,5",
-      "tipo": "entrada",
-      "origem": "Carga Almoxerifado",
-      "destino": "almoxarifado",
-      "quantidade": 120,
-      "responsavel": "Sistema",
-      "data": "18/08/2026 09:58:00",
-      "obs": "Importação Almoxerifado - linha 21",
-      "criado_em": "18/08/2026 09:58:00",
-      "item": "Esparadrapo 10x4,5",
       "usuario": "Sistema"
     }
   ]
