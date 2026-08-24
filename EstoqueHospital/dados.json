@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 15:54:05",
+  "atualizado_em": "24/08/2026 15:54:23",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 25427,
-    "total_geral": 115832,
+    "total_farmacia": 25377,
+    "total_geral": 115782,
     "perto_de_terminar": 0,
     "zerados": 9
   },
@@ -13120,19 +13120,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 750,
+      "farmacia": 700,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 750,
+      "total": 700,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-24 15:40:10",
+      "atualizado_em": "2026-08-24 15:54:22",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -13140,7 +13140,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 750
+          "quantidade": 700
         }
       ],
       "minimo_manual": 0,
@@ -13148,9 +13148,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 25.0,
-      "total_saida_historica": 300,
-      "cobertura_dias": 30.0,
+      "media_diaria_saida": 29.17,
+      "total_saida_historica": 350,
+      "cobertura_dias": 24.0,
       "alerta_estoque": false
     },
     {
@@ -13827,6 +13827,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 879,
+      "item_id": 195,
+      "produto_nome": "Tira Reagente G-Tech",
+      "tipo": "Farmácia para Outro destino",
+      "origem": "Farmácia",
+      "destino": "Outro destino",
+      "quantidade": 50,
+      "responsavel": "Leiliana",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-24 15:54:22",
+      "item": "Tira Reagente G-Tech",
+      "usuario": "Leiliana"
+    },
     {
       "id": 878,
       "item_id": 155,
@@ -21310,21 +21325,6 @@
       "obs": "Importação Almoxerifado - linha 64",
       "criado_em": "18/08/2026 09:58:00",
       "item": "Atadura de algodão 10cm",
-      "usuario": "Sistema"
-    },
-    {
-      "id": 379,
-      "item_id": 151,
-      "produto_nome": "Atadura crepon nº 15",
-      "tipo": "entrada",
-      "origem": "Carga Almoxerifado",
-      "destino": "almoxarifado",
-      "quantidade": 288,
-      "responsavel": "Sistema",
-      "data": "18/08/2026 09:58:00",
-      "obs": "Importação Almoxerifado - linha 63",
-      "criado_em": "18/08/2026 09:58:00",
-      "item": "Atadura crepon nº 15",
       "usuario": "Sistema"
     }
   ]
