@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 15:16:00",
+  "atualizado_em": "24/08/2026 15:16:32",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 27772,
-    "total_geral": 118177,
+    "total_farmacia": 27712,
+    "total_geral": 118117,
     "perto_de_terminar": 0,
     "zerados": 7
   },
@@ -3106,19 +3106,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 330,
+      "farmacia": 270,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 330,
+      "total": 270,
       "minimo": 0,
       "validade": "04/27",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-20 13:12:54",
+      "atualizado_em": "2026-08-24 15:16:32",
       "validade_mais_proxima": "04/27",
       "vencimento_mais_proximo": "04/27",
       "lotes_validade": [
@@ -3132,7 +3132,7 @@
           "local": "farmacia",
           "validade": "2027-04",
           "lote": "",
-          "quantidade": 310
+          "quantidade": 250
         }
       ],
       "minimo_manual": 0,
@@ -3140,9 +3140,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 0.0,
-      "total_saida_historica": 0,
-      "cobertura_dias": null,
+      "media_diaria_saida": 5.0,
+      "total_saida_historica": 60,
+      "cobertura_dias": 54.0,
       "alerta_estoque": false
     },
     {
@@ -13872,6 +13872,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 748,
+      "item_id": 44,
+      "produto_nome": "Clopidogrel 75mg CP",
+      "tipo": "Farmácia para Outro destino",
+      "origem": "Farmácia",
+      "destino": "Outro destino",
+      "quantidade": 60,
+      "responsavel": "Leiliana",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-24 15:16:32",
+      "item": "Clopidogrel 75mg CP",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 747,
       "item_id": 98,
       "produto_nome": "Scalp nº 23",
@@ -21354,21 +21369,6 @@
       "obs": "Importação Farmácia - linha 232 | validade: 11/27",
       "criado_em": "18/08/2026 09:14:00",
       "item": "Omeprazol sódico 40mg AMP",
-      "usuario": "Importação Farmácia"
-    },
-    {
-      "id": 248,
-      "item_id": 227,
-      "produto_nome": "Enoxaparina sódica 60mg",
-      "tipo": "Entrada direta na Farmácia",
-      "origem": "Importação lista Farmácia 227-288",
-      "destino": "Farmácia",
-      "quantidade": 77,
-      "responsavel": "Importação Farmácia",
-      "data": "18/08/2026",
-      "obs": "Importação Farmácia - linha 231 | validade: sem validade",
-      "criado_em": "18/08/2026 09:14:00",
-      "item": "Enoxaparina sódica 60mg",
       "usuario": "Importação Farmácia"
     }
   ]
