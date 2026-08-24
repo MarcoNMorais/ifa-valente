@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 14:20:20",
+  "atualizado_em": "24/08/2026 14:23:28",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 29135,
-    "total_geral": 119540,
+    "total_farmacia": 29134,
+    "total_geral": 119539,
     "perto_de_terminar": 0,
     "zerados": 3
   },
@@ -7406,19 +7406,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 800,
+      "farmacia": 799,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 800,
+      "total": 799,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-24 11:49:49",
+      "atualizado_em": "2026-08-24 14:23:28",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -7426,7 +7426,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 800
+          "quantidade": 799
         }
       ],
       "minimo_manual": 0,
@@ -7434,9 +7434,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 8.33,
-      "total_saida_historica": 100,
-      "cobertura_dias": 96.0,
+      "media_diaria_saida": 8.42,
+      "total_saida_historica": 101,
+      "cobertura_dias": 94.9,
       "alerta_estoque": false
     },
     {
@@ -13911,6 +13911,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 646,
+      "item_id": 182,
+      "produto_nome": "Luva de látex tam. G",
+      "tipo": "Farmácia para Outro destino",
+      "origem": "Farmácia",
+      "destino": "Outro destino",
+      "quantidade": 1,
+      "responsavel": "Leiliana",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-24 14:23:28",
+      "item": "Luva de látex tam. G",
+      "usuario": "Leiliana"
+    },
     {
       "id": 645,
       "item_id": 181,
@@ -21394,21 +21409,6 @@
       "obs": "Carga inicial Farmácia - linha 131 | Validade: 2027-01",
       "criado_em": "13/08/2026 20:25:46",
       "item": "Sinvastatina 20mg CPR",
-      "usuario": "Carga inicial Farmácia"
-    },
-    {
-      "id": 146,
-      "item_id": 127,
-      "produto_nome": "Loratadina 10mg CPR",
-      "tipo": "Entrada direta na Farmácia",
-      "origem": "Carga inicial",
-      "destino": "Farmácia",
-      "quantidade": 45,
-      "responsavel": "Carga inicial Farmácia",
-      "data": "13/08/2026",
-      "obs": "Carga inicial Farmácia - linha 130 | Validade: 2028-01",
-      "criado_em": "13/08/2026 20:25:46",
-      "item": "Loratadina 10mg CPR",
       "usuario": "Carga inicial Farmácia"
     }
   ]
