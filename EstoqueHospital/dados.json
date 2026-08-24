@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 11:45:51",
+  "atualizado_em": "24/08/2026 11:46:00",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 30926,
-    "total_geral": 121331,
+    "total_farmacia": 30916,
+    "total_geral": 121321,
     "perto_de_terminar": 0,
     "zerados": 3
   },
@@ -10005,19 +10005,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 900,
-      "farmacia": 47,
+      "farmacia": 37,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 947,
+      "total": 937,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-24 11:23:04",
+      "atualizado_em": "2026-08-24 11:46:00",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -10031,7 +10031,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 47
+          "quantidade": 37
         }
       ],
       "minimo_manual": 0,
@@ -10039,9 +10039,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 1.25,
-      "total_saida_historica": 15,
-      "cobertura_dias": 757.6,
+      "media_diaria_saida": 2.08,
+      "total_saida_historica": 25,
+      "cobertura_dias": 449.8,
       "alerta_estoque": false
     },
     {
@@ -14369,6 +14369,21 @@
       "criado_em": "2026-08-20 16:17:28",
       "item": "Captopril 25mg CPR",
       "usuario": "Leiliana"
+    },
+    {
+      "id": 571,
+      "item_id": 98,
+      "produto_nome": "Scalp nº 23",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 10,
+      "responsavel": "Assucena",
+      "data": "2026-08-17",
+      "obs": "",
+      "criado_em": "2026-08-24 11:46:00",
+      "item": "Scalp nº 23",
+      "usuario": "Assucena"
     },
     {
       "id": 570,
@@ -21418,21 +21433,6 @@
       "obs": "Carga inicial Farmácia - linha 58 | Validade: 2027-05",
       "criado_em": "13/08/2026 20:25:46",
       "item": "Benzilpenicilina 600 UI",
-      "usuario": "Carga inicial Farmácia"
-    },
-    {
-      "id": 71,
-      "item_id": 55,
-      "produto_nome": "Benzilpenicilina 1.200",
-      "tipo": "Entrada direta na Farmácia",
-      "origem": "Carga inicial",
-      "destino": "Farmácia",
-      "quantidade": 204,
-      "responsavel": "Carga inicial Farmácia",
-      "data": "13/08/2026",
-      "obs": "Carga inicial Farmácia - linha 57 | Validade: 2027-07",
-      "criado_em": "13/08/2026 20:25:46",
-      "item": "Benzilpenicilina 1.200",
       "usuario": "Carga inicial Farmácia"
     }
   ]
