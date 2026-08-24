@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 14:49:37",
+  "atualizado_em": "24/08/2026 14:50:35",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 28426,
-    "total_geral": 118831,
+    "total_farmacia": 28425,
+    "total_geral": 118830,
     "perto_de_terminar": 0,
     "zerados": 6
   },
@@ -7439,19 +7439,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 999,
+      "farmacia": 998,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 999,
+      "total": 998,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-24 14:20:19",
+      "atualizado_em": "2026-08-24 14:50:35",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -7459,7 +7459,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 999
+          "quantidade": 998
         }
       ],
       "minimo_manual": 0,
@@ -7467,9 +7467,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 66.75,
-      "total_saida_historica": 801,
-      "cobertura_dias": 15.0,
+      "media_diaria_saida": 66.83,
+      "total_saida_historica": 802,
+      "cobertura_dias": 14.9,
       "alerta_estoque": false
     },
     {
@@ -13890,6 +13890,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 702,
+      "item_id": 181,
+      "produto_nome": "Luva de látex tam. M",
+      "tipo": "Farmácia para Outro destino",
+      "origem": "Farmácia",
+      "destino": "Outro destino",
+      "quantidade": 1,
+      "responsavel": "Leiliana",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-24 14:50:35",
+      "item": "Luva de látex tam. M",
+      "usuario": "Leiliana"
+    },
     {
       "id": 701,
       "item_id": 155,
@@ -21373,21 +21388,6 @@
       "obs": "Carga inicial Farmácia - linha 186",
       "criado_em": "13/08/2026 20:25:46",
       "item": "Luva cirúrgica tam. 6",
-      "usuario": "Carga inicial Farmácia"
-    },
-    {
-      "id": 202,
-      "item_id": 182,
-      "produto_nome": "Luva de látex tam. G",
-      "tipo": "Entrada direta na Farmácia",
-      "origem": "Carga inicial",
-      "destino": "Farmácia",
-      "quantidade": 900,
-      "responsavel": "Carga inicial Farmácia",
-      "data": "13/08/2026",
-      "obs": "Carga inicial Farmácia - linha 185",
-      "criado_em": "13/08/2026 20:25:46",
-      "item": "Luva de látex tam. G",
       "usuario": "Carga inicial Farmácia"
     }
   ]
