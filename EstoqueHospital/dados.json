@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 14:01:58",
+  "atualizado_em": "24/08/2026 14:02:17",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 29646,
-    "total_geral": 120051,
+    "total_farmacia": 29628,
+    "total_geral": 120033,
     "perto_de_terminar": 0,
     "zerados": 3
   },
@@ -2713,19 +2713,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 195,
+      "farmacia": 177,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 195,
+      "total": 177,
       "minimo": 0,
       "validade": "2028-01",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-24 11:44:14",
+      "atualizado_em": "2026-08-24 14:02:16",
       "validade_mais_proxima": "2028-01",
       "vencimento_mais_proximo": "2028-01",
       "lotes_validade": [
@@ -2733,7 +2733,7 @@
           "local": "farmacia",
           "validade": "2028-01",
           "lote": "",
-          "quantidade": 195
+          "quantidade": 177
         }
       ],
       "minimo_manual": 0,
@@ -2741,9 +2741,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 4.58,
-      "total_saida_historica": 55,
-      "cobertura_dias": 42.5,
+      "media_diaria_saida": 6.08,
+      "total_saida_historica": 73,
+      "cobertura_dias": 29.1,
       "alerta_estoque": false
     },
     {
@@ -13924,6 +13924,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 612,
+      "item_id": 60,
+      "produto_nome": "Cetoprofeno EV 100mg",
+      "tipo": "Farmácia para Outro destino",
+      "origem": "Farmácia",
+      "destino": "Outro destino",
+      "quantidade": 18,
+      "responsavel": "Leiliana",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-24 14:02:16",
+      "item": "Cetoprofeno EV 100mg",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 611,
       "item_id": 128,
       "produto_nome": "Sinvastatina 20mg CPR",
@@ -21406,21 +21421,6 @@
       "obs": "Carga inicial Farmácia - linha 99",
       "criado_em": "13/08/2026 20:25:46",
       "item": "Sonda Endot. nº 8,0",
-      "usuario": "Carga inicial Farmácia"
-    },
-    {
-      "id": 112,
-      "item_id": 95,
-      "produto_nome": "Sonda Endot. nº 10",
-      "tipo": "Entrada direta na Farmácia",
-      "origem": "Carga inicial",
-      "destino": "Farmácia",
-      "quantidade": 7,
-      "responsavel": "Carga inicial Farmácia",
-      "data": "13/08/2026",
-      "obs": "Carga inicial Farmácia - linha 98",
-      "criado_em": "13/08/2026 20:25:46",
-      "item": "Sonda Endot. nº 10",
       "usuario": "Carga inicial Farmácia"
     }
   ]
