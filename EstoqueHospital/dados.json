@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 15:49:43",
+  "atualizado_em": "24/08/2026 15:49:59",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 25732,
-    "total_geral": 116137,
+    "total_farmacia": 25682,
+    "total_geral": 116087,
     "perto_de_terminar": 0,
     "zerados": 9
   },
@@ -3769,19 +3769,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 450,
+      "farmacia": 400,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 450,
+      "total": 400,
       "minimo": 0,
       "validade": "2027-03",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-24 15:46:13",
+      "atualizado_em": "2026-08-24 15:49:59",
       "validade_mais_proxima": "2027-03",
       "vencimento_mais_proximo": "2027-03",
       "lotes_validade": [
@@ -3789,7 +3789,7 @@
           "local": "farmacia",
           "validade": "2027-03",
           "lote": "",
-          "quantidade": 450
+          "quantidade": 400
         }
       ],
       "minimo_manual": 0,
@@ -3797,9 +3797,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 47.5,
-      "total_saida_historica": 570,
-      "cobertura_dias": 9.5,
+      "media_diaria_saida": 51.67,
+      "total_saida_historica": 620,
+      "cobertura_dias": 7.7,
       "alerta_estoque": false
     },
     {
@@ -13834,6 +13834,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 864,
+      "item_id": 70,
+      "produto_nome": "Dipirona",
+      "tipo": "Farmácia para Outro destino",
+      "origem": "Farmácia",
+      "destino": "Outro destino",
+      "quantidade": 50,
+      "responsavel": "Leiliana",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-24 15:49:59",
+      "item": "Dipirona",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 863,
       "item_id": 60,
       "produto_nome": "Cetoprofeno EV 100mg",
@@ -21316,21 +21331,6 @@
       "obs": "Importação Almoxerifado - linha 49",
       "criado_em": "18/08/2026 09:58:00",
       "item": "Sulfadiazina de prata 400g",
-      "usuario": "Sistema"
-    },
-    {
-      "id": 364,
-      "item_id": 295,
-      "produto_nome": "Ciprofloxacino 100ml",
-      "tipo": "entrada",
-      "origem": "Carga Almoxerifado",
-      "destino": "almoxarifado",
-      "quantidade": 140,
-      "responsavel": "Sistema",
-      "data": "18/08/2026 09:58:00",
-      "obs": "Importação Almoxerifado - linha 48",
-      "criado_em": "18/08/2026 09:58:00",
-      "item": "Ciprofloxacino 100ml",
       "usuario": "Sistema"
     }
   ]
