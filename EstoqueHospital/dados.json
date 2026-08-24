@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 15:21:56",
+  "atualizado_em": "24/08/2026 15:22:17",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 27350,
-    "total_geral": 117755,
+    "total_farmacia": 27325,
+    "total_geral": 117730,
     "perto_de_terminar": 0,
     "zerados": 8
   },
@@ -6264,19 +6264,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 200,
+      "farmacia": 175,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 200,
+      "total": 175,
       "minimo": 0,
       "validade": "2027-10",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-20 13:12:54",
+      "atualizado_em": "2026-08-24 15:22:17",
       "validade_mais_proxima": "2027-10",
       "vencimento_mais_proximo": "2027-10",
       "lotes_validade": [
@@ -6284,7 +6284,7 @@
           "local": "farmacia",
           "validade": "2027-10",
           "lote": "",
-          "quantidade": 200
+          "quantidade": 175
         }
       ],
       "minimo_manual": 0,
@@ -6292,9 +6292,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 0.0,
-      "total_saida_historica": 0,
-      "cobertura_dias": null,
+      "media_diaria_saida": 2.08,
+      "total_saida_historica": 25,
+      "cobertura_dias": 84.0,
       "alerta_estoque": false
     },
     {
@@ -13859,6 +13859,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 768,
+      "item_id": 81,
+      "produto_nome": "Heparina",
+      "tipo": "Farmácia para Outro destino",
+      "origem": "Farmácia",
+      "destino": "Outro destino",
+      "quantidade": 25,
+      "responsavel": "Leiliana",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-24 15:22:17",
+      "item": "Heparina",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 767,
       "item_id": 66,
       "produto_nome": "Complexo B",
@@ -21341,21 +21356,6 @@
       "obs": "Importação Farmácia - linha 248 | validade: 06/27",
       "criado_em": "18/08/2026 09:14:00",
       "item": "Dexclorfeniramina 0,4mg/ml",
-      "usuario": "Importação Farmácia"
-    },
-    {
-      "id": 268,
-      "item_id": 243,
-      "produto_nome": "Ambroxol 15mg/5ml",
-      "tipo": "Entrada direta na Farmácia",
-      "origem": "Importação lista Farmácia 227-288",
-      "destino": "Farmácia",
-      "quantidade": 14,
-      "responsavel": "Importação Farmácia",
-      "data": "18/08/2026",
-      "obs": "Importação Farmácia - linha 247 | validade: 01/27",
-      "criado_em": "18/08/2026 09:14:00",
-      "item": "Ambroxol 15mg/5ml",
       "usuario": "Importação Farmácia"
     }
   ]
