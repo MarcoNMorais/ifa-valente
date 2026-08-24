@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 15:06:56",
+  "atualizado_em": "24/08/2026 15:07:08",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 28085,
-    "total_geral": 118490,
+    "total_farmacia": 28055,
+    "total_geral": 118460,
     "perto_de_terminar": 0,
     "zerados": 7
   },
@@ -9038,19 +9038,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 300,
+      "farmacia": 270,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 300,
+      "total": 270,
       "minimo": 0,
       "validade": "09/27",
       "lote": "",
       "origem": "Carga Farmácia 227-288",
       "obs": "Importação Farmácia 227-288",
-      "atualizado_em": "2026-08-24 14:55:18",
+      "atualizado_em": "2026-08-24 15:07:07",
       "validade_mais_proxima": "09/27",
       "vencimento_mais_proximo": "09/27",
       "lotes_validade": [
@@ -9058,7 +9058,7 @@
           "local": "farmacia",
           "validade": "09/27",
           "lote": "",
-          "quantidade": 300
+          "quantidade": 270
         }
       ],
       "minimo_manual": 0,
@@ -9066,9 +9066,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 9,
-      "media_diaria_saida": 11.11,
-      "total_saida_historica": 100,
-      "cobertura_dias": 27.0,
+      "media_diaria_saida": 14.44,
+      "total_saida_historica": 130,
+      "cobertura_dias": 18.7,
       "alerta_estoque": false
     },
     {
@@ -13877,6 +13877,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 728,
+      "item_id": 238,
+      "produto_nome": "Ondansetrona 2mg/ml 2ml",
+      "tipo": "Farmácia para Outro destino",
+      "origem": "Farmácia",
+      "destino": "Outro destino",
+      "quantidade": 30,
+      "responsavel": "Leiliana",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-24 15:07:07",
+      "item": "Ondansetrona 2mg/ml 2ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 727,
       "item_id": 68,
@@ -21360,21 +21375,6 @@
       "obs": "Carga inicial Farmácia - linha 212",
       "criado_em": "13/08/2026 20:25:46",
       "item": "Insulina NPH",
-      "usuario": "Carga inicial Farmácia"
-    },
-    {
-      "id": 228,
-      "item_id": 207,
-      "produto_nome": "Insulina Regular",
-      "tipo": "Entrada direta na Farmácia",
-      "origem": "Carga inicial",
-      "destino": "Farmácia",
-      "quantidade": 26,
-      "responsavel": "Carga inicial Farmácia",
-      "data": "13/08/2026",
-      "obs": "Carga inicial Farmácia - linha 211",
-      "criado_em": "13/08/2026 20:25:46",
-      "item": "Insulina Regular",
       "usuario": "Carga inicial Farmácia"
     }
   ]
