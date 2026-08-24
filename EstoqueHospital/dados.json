@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 14:37:09",
+  "atualizado_em": "24/08/2026 14:37:27",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 28836,
-    "total_geral": 119241,
+    "total_farmacia": 28826,
+    "total_geral": 119231,
     "perto_de_terminar": 0,
     "zerados": 6
   },
@@ -1975,19 +1975,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 118,
+      "farmacia": 108,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 118,
+      "total": 108,
       "minimo": 0,
       "validade": "2027-07",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-24 14:27:13",
+      "atualizado_em": "2026-08-24 14:37:26",
       "validade_mais_proxima": "2027-07",
       "vencimento_mais_proximo": "2027-07",
       "lotes_validade": [
@@ -1995,7 +1995,7 @@
           "local": "farmacia",
           "validade": "2027-07",
           "lote": "",
-          "quantidade": 118
+          "quantidade": 108
         }
       ],
       "minimo_manual": 0,
@@ -2003,9 +2003,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 7.17,
-      "total_saida_historica": 86,
-      "cobertura_dias": 16.5,
+      "media_diaria_saida": 8.0,
+      "total_saida_historica": 96,
+      "cobertura_dias": 13.5,
       "alerta_estoque": false
     },
     {
@@ -13891,6 +13891,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 674,
+      "item_id": 55,
+      "produto_nome": "Benzilpenicilina 1.200",
+      "tipo": "Farmácia para Outro destino",
+      "origem": "Farmácia",
+      "destino": "Outro destino",
+      "quantidade": 10,
+      "responsavel": "Leiliana",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-24 14:37:26",
+      "item": "Benzilpenicilina 1.200",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 673,
       "item_id": 267,
       "produto_nome": "Transamin 250mg CPR",
@@ -21373,21 +21388,6 @@
       "obs": "Carga inicial Farmácia - linha 158",
       "criado_em": "13/08/2026 20:25:46",
       "item": "Bolsa coletora",
-      "usuario": "Carga inicial Farmácia"
-    },
-    {
-      "id": 174,
-      "item_id": 154,
-      "produto_nome": "Equipo fotossensível",
-      "tipo": "Entrada direta na Farmácia",
-      "origem": "Carga inicial",
-      "destino": "Farmácia",
-      "quantidade": 18,
-      "responsavel": "Carga inicial Farmácia",
-      "data": "13/08/2026",
-      "obs": "Carga inicial Farmácia - linha 157",
-      "criado_em": "13/08/2026 20:25:46",
-      "item": "Equipo fotossensível",
       "usuario": "Carga inicial Farmácia"
     }
   ]
