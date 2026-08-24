@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 15:48:45",
+  "atualizado_em": "24/08/2026 15:49:10",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 25792,
-    "total_geral": 116197,
+    "total_farmacia": 25782,
+    "total_geral": 116187,
     "perto_de_terminar": 0,
     "zerados": 9
   },
@@ -1968,19 +1968,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 96,
+      "farmacia": 86,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 96,
+      "total": 86,
       "minimo": 0,
       "validade": "2027-07",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-24 15:26:29",
+      "atualizado_em": "2026-08-24 15:49:10",
       "validade_mais_proxima": "2027-07",
       "vencimento_mais_proximo": "2027-07",
       "lotes_validade": [
@@ -1988,7 +1988,7 @@
           "local": "farmacia",
           "validade": "2027-07",
           "lote": "",
-          "quantidade": 96
+          "quantidade": 86
         }
       ],
       "minimo_manual": 0,
@@ -1996,9 +1996,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 9.0,
-      "total_saida_historica": 108,
-      "cobertura_dias": 10.7,
+      "media_diaria_saida": 9.83,
+      "total_saida_historica": 118,
+      "cobertura_dias": 8.7,
       "alerta_estoque": false
     },
     {
@@ -13834,6 +13834,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 860,
+      "item_id": 55,
+      "produto_nome": "Benzilpenicilina 1.200",
+      "tipo": "Farmácia para Outro destino",
+      "origem": "Farmácia",
+      "destino": "Outro destino",
+      "quantidade": 10,
+      "responsavel": "Leiliana",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-24 15:49:10",
+      "item": "Benzilpenicilina 1.200",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 859,
       "item_id": 242,
       "produto_nome": "Óleo mineral solução",
@@ -21316,21 +21331,6 @@
       "obs": "Importação Almoxerifado - linha 45",
       "criado_em": "18/08/2026 09:58:00",
       "item": "Atadura gessada nº 20",
-      "usuario": "Sistema"
-    },
-    {
-      "id": 360,
-      "item_id": 197,
-      "produto_nome": "Atadura gessada nº 15",
-      "tipo": "entrada",
-      "origem": "Carga Almoxerifado",
-      "destino": "almoxarifado",
-      "quantidade": 140,
-      "responsavel": "Sistema",
-      "data": "18/08/2026 09:58:00",
-      "obs": "Importação Almoxerifado - linha 44",
-      "criado_em": "18/08/2026 09:58:00",
-      "item": "Atadura gessada nº 15",
       "usuario": "Sistema"
     }
   ]
