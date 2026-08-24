@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 15:30:13",
+  "atualizado_em": "24/08/2026 15:30:28",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 26859,
-    "total_geral": 117264,
+    "total_farmacia": 26829,
+    "total_geral": 117234,
     "perto_de_terminar": 0,
     "zerados": 8
   },
@@ -7167,19 +7167,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 120,
+      "farmacia": 90,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 120,
+      "total": 90,
       "minimo": 0,
       "validade": "2028-03",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-20 13:12:54",
+      "atualizado_em": "2026-08-24 15:30:28",
       "validade_mais_proxima": "2028-03",
       "vencimento_mais_proximo": "2028-03",
       "lotes_validade": [
@@ -7193,7 +7193,7 @@
           "local": "farmacia",
           "validade": "2028-06",
           "lote": "",
-          "quantidade": 60
+          "quantidade": 30
         }
       ],
       "minimo_manual": 0,
@@ -7201,9 +7201,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 0.0,
-      "total_saida_historica": 0,
-      "cobertura_dias": null,
+      "media_diaria_saida": 2.5,
+      "total_saida_historica": 30,
+      "cobertura_dias": 36.0,
       "alerta_estoque": false
     },
     {
@@ -13858,6 +13858,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 796,
+      "item_id": 115,
+      "produto_nome": "Losartana potássica 50mg CPR",
+      "tipo": "Farmácia para Outro destino",
+      "origem": "Farmácia",
+      "destino": "Outro destino",
+      "quantidade": 30,
+      "responsavel": "Leiliana",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-24 15:30:28",
+      "item": "Losartana potássica 50mg CPR",
+      "usuario": "Leiliana"
+    },
     {
       "id": 795,
       "item_id": 177,
@@ -21341,21 +21356,6 @@
       "obs": "Importação Farmácia - linha 271 | validade: 04/27",
       "criado_em": "18/08/2026 09:14:00",
       "item": "Clopidogrel 75mg CP",
-      "usuario": "Importação Farmácia"
-    },
-    {
-      "id": 296,
-      "item_id": 42,
-      "produto_nome": "Atenolol 25mg CPR",
-      "tipo": "Entrada direta na Farmácia",
-      "origem": "Importação lista Farmácia 227-288",
-      "destino": "Farmácia",
-      "quantidade": 15,
-      "responsavel": "Importação Farmácia",
-      "data": "18/08/2026",
-      "obs": "Importação Farmácia - linha 270b | validade: 10/27",
-      "criado_em": "18/08/2026 09:14:00",
-      "item": "Atenolol 25mg CPR",
       "usuario": "Importação Farmácia"
     }
   ]
