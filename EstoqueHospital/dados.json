@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 14:27:30",
+  "atualizado_em": "24/08/2026 14:28:15",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 29082,
-    "total_geral": 119487,
+    "total_farmacia": 29042,
+    "total_geral": 119447,
     "perto_de_terminar": 0,
     "zerados": 4
   },
@@ -9052,19 +9052,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 360,
+      "farmacia": 320,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 360,
+      "total": 320,
       "minimo": 0,
       "validade": "09/27",
       "lote": "",
       "origem": "Carga Farmácia 227-288",
       "obs": "Importação Farmácia 227-288",
-      "atualizado_em": "2026-08-24 11:38:25",
+      "atualizado_em": "2026-08-24 14:28:14",
       "validade_mais_proxima": "09/27",
       "vencimento_mais_proximo": "09/27",
       "lotes_validade": [
@@ -9072,7 +9072,7 @@
           "local": "farmacia",
           "validade": "09/27",
           "lote": "",
-          "quantidade": 360
+          "quantidade": 320
         }
       ],
       "minimo_manual": 0,
@@ -9080,9 +9080,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 9,
-      "media_diaria_saida": 4.44,
-      "total_saida_historica": 40,
-      "cobertura_dias": 81.0,
+      "media_diaria_saida": 8.89,
+      "total_saida_historica": 80,
+      "cobertura_dias": 36.0,
       "alerta_estoque": false
     },
     {
@@ -13904,6 +13904,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 653,
+      "item_id": 238,
+      "produto_nome": "Ondansetrona 2mg/ml 2ml",
+      "tipo": "Farmácia para Outro destino",
+      "origem": "Farmácia",
+      "destino": "Outro destino",
+      "quantidade": 40,
+      "responsavel": "Leiliana",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-24 14:28:14",
+      "item": "Ondansetrona 2mg/ml 2ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 652,
       "item_id": 61,
@@ -21387,21 +21402,6 @@
       "obs": "Carga inicial Farmácia - linha 138 | Validade: 2027-11",
       "criado_em": "13/08/2026 20:25:46",
       "item": "Quetiapina 25mg CPR",
-      "usuario": "Carga inicial Farmácia"
-    },
-    {
-      "id": 153,
-      "item_id": 134,
-      "produto_nome": "Metformina 500mg CPR",
-      "tipo": "Entrada direta na Farmácia",
-      "origem": "Carga inicial",
-      "destino": "Farmácia",
-      "quantidade": 20,
-      "responsavel": "Carga inicial Farmácia",
-      "data": "13/08/2026",
-      "obs": "Carga inicial Farmácia - linha 137 | Validade: 2027-11",
-      "criado_em": "13/08/2026 20:25:46",
-      "item": "Metformina 500mg CPR",
       "usuario": "Carga inicial Farmácia"
     }
   ]
