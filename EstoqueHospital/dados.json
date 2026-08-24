@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 11:21:27",
+  "atualizado_em": "24/08/2026 11:21:37",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 91033,
-    "total_farmacia": 33105,
-    "total_geral": 124138,
+    "total_farmacia": 33103,
+    "total_geral": 124136,
     "perto_de_terminar": 0,
     "zerados": 2
   },
@@ -5095,19 +5095,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 400,
+      "farmacia": 398,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 400,
+      "total": 398,
       "minimo": 0,
       "validade": "08/27",
       "lote": "",
       "origem": "Carga Farmácia 227-288",
       "obs": "Importação Farmácia 227-288",
-      "atualizado_em": "2026-08-20 13:12:54",
+      "atualizado_em": "2026-08-24 11:21:37",
       "validade_mais_proxima": "08/27",
       "vencimento_mais_proximo": "08/27",
       "lotes_validade": [
@@ -5115,17 +5115,17 @@
           "local": "farmacia",
           "validade": "08/27",
           "lote": "",
-          "quantidade": 400
+          "quantidade": 398
         }
       ],
       "minimo_manual": 0,
       "minimo_alerta": 0,
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
-      "dias_historico": 7,
-      "media_diaria_saida": 0.0,
-      "total_saida_historica": 0,
-      "cobertura_dias": null,
+      "dias_historico": 11,
+      "media_diaria_saida": 0.18,
+      "total_saida_historica": 2,
+      "cobertura_dias": 2189.0,
       "alerta_estoque": false
     },
     {
@@ -14301,6 +14301,21 @@
       "criado_em": "2026-08-20 16:17:28",
       "item": "Captopril 25mg CPR",
       "usuario": "Leiliana"
+    },
+    {
+      "id": 485,
+      "item_id": 230,
+      "produto_nome": "Ferropurum 20mg/ml",
+      "tipo": "Farmácia para Posto de Internamento",
+      "origem": "Farmácia",
+      "destino": "Posto de Internamento",
+      "quantidade": 2,
+      "responsavel": "Assucena",
+      "data": "2026-08-14",
+      "obs": "",
+      "criado_em": "2026-08-24 11:21:37",
+      "item": "Ferropurum 20mg/ml",
+      "usuario": "Assucena"
     },
     {
       "id": 484,
