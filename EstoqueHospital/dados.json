@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 11:48:17",
+  "atualizado_em": "24/08/2026 11:48:28",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 30244,
-    "total_geral": 120649,
+    "total_farmacia": 30224,
+    "total_geral": 120629,
     "perto_de_terminar": 0,
     "zerados": 3
   },
@@ -4630,19 +4630,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 161,
+      "farmacia": 141,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 161,
+      "total": 141,
       "minimo": 0,
       "validade": "2027-10",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-24 11:29:34",
+      "atualizado_em": "2026-08-24 11:48:27",
       "validade_mais_proxima": "2027-10",
       "vencimento_mais_proximo": "2027-10",
       "lotes_validade": [
@@ -4650,7 +4650,7 @@
           "local": "farmacia",
           "validade": "2027-10",
           "lote": "",
-          "quantidade": 161
+          "quantidade": 141
         }
       ],
       "minimo_manual": 0,
@@ -4658,9 +4658,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 2.5,
-      "total_saida_historica": 30,
-      "cobertura_dias": 64.4,
+      "media_diaria_saida": 4.17,
+      "total_saida_historica": 50,
+      "cobertura_dias": 33.8,
       "alerta_estoque": false
     },
     {
@@ -14371,6 +14371,21 @@
       "usuario": "Leiliana"
     },
     {
+      "id": 582,
+      "item_id": 76,
+      "produto_nome": "Escopolamina + Dipirona",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 20,
+      "responsavel": "Assucena",
+      "data": "2026-08-17",
+      "obs": "",
+      "criado_em": "2026-08-24 11:48:27",
+      "item": "Escopolamina + Dipirona",
+      "usuario": "Assucena"
+    },
+    {
       "id": 581,
       "item_id": 204,
       "produto_nome": "Soro fisiológico 500ml",
@@ -21418,21 +21433,6 @@
       "obs": "Carga inicial Farmácia - linha 69 | Validade: 2027-09",
       "criado_em": "13/08/2026 20:25:46",
       "item": "Complexo B",
-      "usuario": "Carga inicial Farmácia"
-    },
-    {
-      "id": 82,
-      "item_id": 65,
-      "produto_nome": "Clonidina",
-      "tipo": "Entrada direta na Farmácia",
-      "origem": "Carga inicial",
-      "destino": "Farmácia",
-      "quantidade": 4,
-      "responsavel": "Carga inicial Farmácia",
-      "data": "13/08/2026",
-      "obs": "Carga inicial Farmácia - linha 68 | Validade: 2027-11",
-      "criado_em": "13/08/2026 20:25:46",
-      "item": "Clonidina",
       "usuario": "Carga inicial Farmácia"
     }
   ]
