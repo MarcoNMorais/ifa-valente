@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 15:54:23",
+  "atualizado_em": "24/08/2026 15:54:34",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 25377,
-    "total_geral": 115782,
+    "total_farmacia": 25376,
+    "total_geral": 115781,
     "perto_de_terminar": 0,
     "zerados": 9
   },
@@ -5827,19 +5827,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 6,
-      "farmacia": 6,
+      "farmacia": 5,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 12,
+      "total": 11,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-24 15:23:22",
+      "atualizado_em": "2026-08-24 15:54:33",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -5853,7 +5853,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 6
+          "quantidade": 5
         }
       ],
       "minimo_manual": 0,
@@ -5861,9 +5861,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 0.25,
-      "total_saida_historica": 3,
-      "cobertura_dias": 48.0,
+      "media_diaria_saida": 0.33,
+      "total_saida_historica": 4,
+      "cobertura_dias": 33.0,
       "alerta_estoque": false
     },
     {
@@ -13828,6 +13828,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 880,
+      "item_id": 175,
+      "produto_nome": "Fita cirúrgica microporosa",
+      "tipo": "Farmácia para Outro destino",
+      "origem": "Farmácia",
+      "destino": "Outro destino",
+      "quantidade": 1,
+      "responsavel": "Leiliana",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-24 15:54:33",
+      "item": "Fita cirúrgica microporosa",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 879,
       "item_id": 195,
       "produto_nome": "Tira Reagente G-Tech",
@@ -21310,21 +21325,6 @@
       "obs": "Importação Almoxerifado - linha 65",
       "criado_em": "18/08/2026 09:58:00",
       "item": "Atadura de algodão 15cm",
-      "usuario": "Sistema"
-    },
-    {
-      "id": 380,
-      "item_id": 307,
-      "produto_nome": "Atadura de algodão 10cm",
-      "tipo": "entrada",
-      "origem": "Carga Almoxerifado",
-      "destino": "almoxarifado",
-      "quantidade": 732,
-      "responsavel": "Sistema",
-      "data": "18/08/2026 09:58:00",
-      "obs": "Importação Almoxerifado - linha 64",
-      "criado_em": "18/08/2026 09:58:00",
-      "item": "Atadura de algodão 10cm",
       "usuario": "Sistema"
     }
   ]
