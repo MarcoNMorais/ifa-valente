@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 11:49:49",
+  "atualizado_em": "24/08/2026 11:49:59",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 30053,
-    "total_geral": 120458,
+    "total_farmacia": 30051,
+    "total_geral": 120456,
     "perto_de_terminar": 0,
     "zerados": 3
   },
@@ -2639,19 +2639,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 274,
+      "farmacia": 272,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 274,
+      "total": 272,
       "minimo": 0,
       "validade": "2028-01",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-24 11:49:11",
+      "atualizado_em": "2026-08-24 11:49:59",
       "validade_mais_proxima": "2028-01",
       "vencimento_mais_proximo": "2028-01",
       "lotes_validade": [
@@ -2659,7 +2659,7 @@
           "local": "farmacia",
           "validade": "2028-01",
           "lote": "",
-          "quantidade": 274
+          "quantidade": 272
         }
       ],
       "minimo_manual": 0,
@@ -2667,9 +2667,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 4.5,
-      "total_saida_historica": 54,
-      "cobertura_dias": 60.9,
+      "media_diaria_saida": 4.67,
+      "total_saida_historica": 56,
+      "cobertura_dias": 58.3,
       "alerta_estoque": false
     },
     {
@@ -14371,6 +14371,21 @@
       "usuario": "Leiliana"
     },
     {
+      "id": 589,
+      "item_id": 59,
+      "produto_nome": "Ceftriaxona 1g",
+      "tipo": "Farmácia para Posto de Internamento",
+      "origem": "Farmácia",
+      "destino": "Posto de Internamento",
+      "quantidade": 2,
+      "responsavel": "Assucena",
+      "data": "2026-08-17",
+      "obs": "",
+      "criado_em": "2026-08-24 11:49:59",
+      "item": "Ceftriaxona 1g",
+      "usuario": "Assucena"
+    },
+    {
       "id": 588,
       "item_id": 182,
       "produto_nome": "Luva de látex tam. G",
@@ -21418,21 +21433,6 @@
       "obs": "Carga inicial Farmácia - linha 76 | Validade: 2027-12",
       "criado_em": "13/08/2026 20:25:46",
       "item": "Epinefrina 1mg",
-      "usuario": "Carga inicial Farmácia"
-    },
-    {
-      "id": 89,
-      "item_id": 72,
-      "produto_nome": "Dobutamina 250mg",
-      "tipo": "Entrada direta na Farmácia",
-      "origem": "Carga inicial",
-      "destino": "Farmácia",
-      "quantidade": 35,
-      "responsavel": "Carga inicial Farmácia",
-      "data": "13/08/2026",
-      "obs": "Carga inicial Farmácia - linha 75 | Validade: 2027-06",
-      "criado_em": "13/08/2026 20:25:46",
-      "item": "Dobutamina 250mg",
       "usuario": "Carga inicial Farmácia"
     }
   ]
