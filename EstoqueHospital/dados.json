@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "24/08/2026 16:07:51",
+  "atualizado_em": "24/08/2026 16:09:15",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
-    "total_almoxarifado": 89130,
-    "total_farmacia": 26284,
+    "total_almoxarifado": 89100,
+    "total_farmacia": 26314,
     "total_geral": 115414,
     "perto_de_terminar": 0,
     "zerados": 11
@@ -308,8 +308,8 @@
       "nome": "Agulha 13x4,5",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 1800,
-      "farmacia": 100,
+      "almoxarifado": 1770,
+      "farmacia": 130,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -321,7 +321,7 @@
       "lote": "",
       "origem": "Carga Almoxerifado",
       "obs": "Importação Almoxerifado",
-      "atualizado_em": "2026-08-24 16:06:44",
+      "atualizado_em": "2026-08-24 16:09:15",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -329,13 +329,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 1800
+          "quantidade": 1770
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 100
+          "quantidade": 130
         }
       ],
       "minimo_manual": 0,
@@ -13844,6 +13844,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 918,
+      "item_id": 287,
+      "produto_nome": "Agulha 13x4,5",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 30,
+      "responsavel": "Leiliana",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-24 16:09:15",
+      "item": "Agulha 13x4,5",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 917,
       "item_id": 103,
       "produto_nome": "Seringa 10ml",
@@ -21326,21 +21341,6 @@
       "obs": "",
       "criado_em": "2026-08-21 10:50:05",
       "item": "Cetoprofeno EV 100mg",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 433,
-      "item_id": 99,
-      "produto_nome": "Scalp nº 21",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 15,
-      "responsavel": "Assucena",
-      "data": "2026-08-14",
-      "obs": "",
-      "criado_em": "2026-08-21 10:49:52",
-      "item": "Scalp nº 21",
       "usuario": "Assucena"
     }
   ]
