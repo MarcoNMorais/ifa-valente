@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 15:17:37",
+  "atualizado_em": "24/08/2026 15:17:49",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 27624,
-    "total_geral": 118029,
+    "total_farmacia": 27616,
+    "total_geral": 118021,
     "perto_de_terminar": 0,
     "zerados": 7
   },
@@ -10080,19 +10080,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 850,
-      "farmacia": 8,
+      "farmacia": 0,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 858,
+      "total": 850,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-21 10:56:38",
+      "atualizado_em": "2026-08-24 15:17:48",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -10101,12 +10101,6 @@
           "validade": "",
           "lote": "",
           "quantidade": 850
-        },
-        {
-          "local": "farmacia",
-          "validade": "",
-          "lote": "",
-          "quantidade": 8
         }
       ],
       "minimo_manual": 0,
@@ -10114,9 +10108,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 1.67,
-      "total_saida_historica": 20,
-      "cobertura_dias": 514.8,
+      "media_diaria_saida": 2.33,
+      "total_saida_historica": 28,
+      "cobertura_dias": 364.3,
       "alerta_estoque": false
     },
     {
@@ -13871,6 +13865,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 752,
+      "item_id": 157,
+      "produto_nome": "Seringa 1ml",
+      "tipo": "Farmácia para Outro destino",
+      "origem": "Farmácia",
+      "destino": "Outro destino",
+      "quantidade": 8,
+      "responsavel": "Leiliana",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-24 15:17:48",
+      "item": "Seringa 1ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 751,
       "item_id": 201,
@@ -21354,21 +21363,6 @@
       "obs": "Importação Farmácia - linha 235 | validade: 03/27",
       "criado_em": "18/08/2026 09:14:00",
       "item": "Etilefrina 0,5mg/ml 1ml",
-      "usuario": "Importação Farmácia"
-    },
-    {
-      "id": 252,
-      "item_id": 230,
-      "produto_nome": "Ferropurum 20mg/ml",
-      "tipo": "Entrada direta na Farmácia",
-      "origem": "Importação lista Farmácia 227-288",
-      "destino": "Farmácia",
-      "quantidade": 400,
-      "responsavel": "Importação Farmácia",
-      "data": "18/08/2026",
-      "obs": "Importação Farmácia - linha 234 | validade: 08/27",
-      "criado_em": "18/08/2026 09:14:00",
-      "item": "Ferropurum 20mg/ml",
       "usuario": "Importação Farmácia"
     }
   ]
