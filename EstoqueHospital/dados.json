@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 11:37:04",
+  "atualizado_em": "24/08/2026 11:37:36",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 32029,
-    "total_geral": 122434,
+    "total_farmacia": 31989,
+    "total_geral": 122394,
     "perto_de_terminar": 0,
     "zerados": 3
   },
@@ -4001,19 +4001,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 1500,
-      "farmacia": 208,
+      "farmacia": 168,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1708,
+      "total": 1668,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-08-24 11:28:24",
+      "atualizado_em": "2026-08-24 11:37:35",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -4027,7 +4027,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 208
+          "quantidade": 168
         }
       ],
       "minimo_manual": 0,
@@ -4035,9 +4035,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 3.33,
-      "total_saida_historica": 40,
-      "cobertura_dias": 512.4,
+      "media_diaria_saida": 6.67,
+      "total_saida_historica": 80,
+      "cobertura_dias": 250.2,
       "alerta_estoque": false
     },
     {
@@ -14371,6 +14371,21 @@
       "usuario": "Leiliana"
     },
     {
+      "id": 537,
+      "item_id": 177,
+      "produto_nome": "Dispositivo intravenoso Gelco nº 22",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 40,
+      "responsavel": "Assucena",
+      "data": "2026-08-16",
+      "obs": "",
+      "criado_em": "2026-08-24 11:37:35",
+      "item": "Dispositivo intravenoso Gelco nº 22",
+      "usuario": "Assucena"
+    },
+    {
       "id": 531,
       "item_id": 199,
       "produto_nome": "Lençol descartável papel",
@@ -21418,21 +21433,6 @@
       "obs": "Carga inicial Farmácia - linha 25",
       "criado_em": "13/08/2026 20:25:46",
       "item": "Misoprostol / Citotec 200mcg",
-      "usuario": "Carga inicial Farmácia"
-    },
-    {
-      "id": 37,
-      "item_id": 24,
-      "produto_nome": "AAS",
-      "tipo": "Entrada direta na Farmácia",
-      "origem": "Carga inicial",
-      "destino": "Farmácia",
-      "quantidade": 690,
-      "responsavel": "Carga inicial Farmácia",
-      "data": "13/08/2026",
-      "obs": "Carga inicial Farmácia - linha 24",
-      "criado_em": "13/08/2026 20:25:46",
-      "item": "AAS",
       "usuario": "Carga inicial Farmácia"
     }
   ]
