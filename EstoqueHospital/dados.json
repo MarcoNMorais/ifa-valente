@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 15:28:40",
+  "atualizado_em": "24/08/2026 15:28:53",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 26960,
-    "total_geral": 117365,
+    "total_farmacia": 26940,
+    "total_geral": 117345,
     "perto_de_terminar": 0,
     "zerados": 8
   },
@@ -4604,19 +4604,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 81,
+      "farmacia": 61,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 81,
+      "total": 61,
       "minimo": 0,
       "validade": "2027-10",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-24 15:21:44",
+      "atualizado_em": "2026-08-24 15:28:52",
       "validade_mais_proxima": "2027-10",
       "vencimento_mais_proximo": "2027-10",
       "lotes_validade": [
@@ -4624,7 +4624,7 @@
           "local": "farmacia",
           "validade": "2027-10",
           "lote": "",
-          "quantidade": 81
+          "quantidade": 61
         }
       ],
       "minimo_manual": 0,
@@ -4632,9 +4632,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 9.17,
-      "total_saida_historica": 110,
-      "cobertura_dias": 8.8,
+      "media_diaria_saida": 10.83,
+      "total_saida_historica": 130,
+      "cobertura_dias": 5.6,
       "alerta_estoque": false
     },
     {
@@ -13859,6 +13859,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 790,
+      "item_id": 76,
+      "produto_nome": "Escopolamina + Dipirona",
+      "tipo": "Farmácia para Outro destino",
+      "origem": "Farmácia",
+      "destino": "Outro destino",
+      "quantidade": 20,
+      "responsavel": "Leiliana",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-24 15:28:52",
+      "item": "Escopolamina + Dipirona",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 789,
       "item_id": 57,
       "produto_nome": "Bromoprida 5mg",
@@ -21341,21 +21356,6 @@
       "obs": "Importação Farmácia - linha 267 | validade: 12/26",
       "criado_em": "18/08/2026 09:14:00",
       "item": "Amlodipino 5mg CPR",
-      "usuario": "Importação Farmácia"
-    },
-    {
-      "id": 290,
-      "item_id": 261,
-      "produto_nome": "Amiodarona 200mg CPR",
-      "tipo": "Entrada direta na Farmácia",
-      "origem": "Importação lista Farmácia 227-288",
-      "destino": "Farmácia",
-      "quantidade": 20,
-      "responsavel": "Importação Farmácia",
-      "data": "18/08/2026",
-      "obs": "Importação Farmácia - linha 266b | validade: 10/27",
-      "criado_em": "18/08/2026 09:14:00",
-      "item": "Amiodarona 200mg CPR",
       "usuario": "Importação Farmácia"
     }
   ]
