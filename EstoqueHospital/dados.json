@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 11:41:56",
+  "atualizado_em": "24/08/2026 11:42:07",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 31362,
-    "total_geral": 121767,
+    "total_farmacia": 31312,
+    "total_geral": 121717,
     "perto_de_terminar": 0,
     "zerados": 3
   },
@@ -3795,19 +3795,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 790,
+      "farmacia": 740,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 790,
+      "total": 740,
       "minimo": 0,
       "validade": "2027-03",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-24 11:29:55",
+      "atualizado_em": "2026-08-24 11:42:07",
       "validade_mais_proxima": "2027-03",
       "vencimento_mais_proximo": "2027-03",
       "lotes_validade": [
@@ -3815,7 +3815,7 @@
           "local": "farmacia",
           "validade": "2027-03",
           "lote": "",
-          "quantidade": 790
+          "quantidade": 740
         }
       ],
       "minimo_manual": 0,
@@ -3823,9 +3823,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 19.17,
-      "total_saida_historica": 230,
-      "cobertura_dias": 41.2,
+      "media_diaria_saida": 23.33,
+      "total_saida_historica": 280,
+      "cobertura_dias": 31.7,
       "alerta_estoque": false
     },
     {
@@ -14371,6 +14371,21 @@
       "usuario": "Leiliana"
     },
     {
+      "id": 556,
+      "item_id": 70,
+      "produto_nome": "Dipirona",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 50,
+      "responsavel": "Assucena",
+      "data": "2026-08-16",
+      "obs": "",
+      "criado_em": "2026-08-24 11:42:07",
+      "item": "Dipirona",
+      "usuario": "Assucena"
+    },
+    {
       "id": 555,
       "item_id": 228,
       "produto_nome": "Omeprazol sódico 40mg AMP",
@@ -21418,21 +21433,6 @@
       "obs": "Carga inicial Farmácia - linha 42 | Validade: 2026-12",
       "criado_em": "13/08/2026 20:25:46",
       "item": "Atenolol 25mg CPR",
-      "usuario": "Carga inicial Farmácia"
-    },
-    {
-      "id": 56,
-      "item_id": 41,
-      "produto_nome": "Digoxina 0,25mg CPR",
-      "tipo": "Entrada direta na Farmácia",
-      "origem": "Carga inicial",
-      "destino": "Farmácia",
-      "quantidade": 75,
-      "responsavel": "Carga inicial Farmácia",
-      "data": "13/08/2026",
-      "obs": "Carga inicial Farmácia - linha 41 | Validade: 2027-06",
-      "criado_em": "13/08/2026 20:25:46",
-      "item": "Digoxina 0,25mg CPR",
       "usuario": "Carga inicial Farmácia"
     }
   ]
