@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 11:43:52",
+  "atualizado_em": "24/08/2026 11:44:02",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 31192,
-    "total_geral": 121597,
+    "total_farmacia": 31172,
+    "total_geral": 121577,
     "perto_de_terminar": 0,
     "zerados": 3
   },
@@ -2759,19 +2759,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 299,
+      "farmacia": 279,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 299,
+      "total": 279,
       "minimo": 0,
       "validade": "2027-09",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-24 11:33:05",
+      "atualizado_em": "2026-08-24 11:44:02",
       "validade_mais_proxima": "2027-09",
       "vencimento_mais_proximo": "2027-09",
       "lotes_validade": [
@@ -2779,7 +2779,7 @@
           "local": "farmacia",
           "validade": "2027-09",
           "lote": "",
-          "quantidade": 299
+          "quantidade": 279
         }
       ],
       "minimo_manual": 0,
@@ -2787,9 +2787,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 2.5,
-      "total_saida_historica": 30,
-      "cobertura_dias": 119.6,
+      "media_diaria_saida": 4.17,
+      "total_saida_historica": 50,
+      "cobertura_dias": 67.0,
       "alerta_estoque": false
     },
     {
@@ -14371,6 +14371,21 @@
       "usuario": "Leiliana"
     },
     {
+      "id": 562,
+      "item_id": 61,
+      "produto_nome": "Cetoprofeno IM 50mg",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 20,
+      "responsavel": "Assucena",
+      "data": "2026-08-17",
+      "obs": "",
+      "criado_em": "2026-08-24 11:44:02",
+      "item": "Cetoprofeno IM 50mg",
+      "usuario": "Assucena"
+    },
+    {
       "id": 561,
       "item_id": 68,
       "produto_nome": "Dexametasona",
@@ -21418,21 +21433,6 @@
       "obs": "Carga inicial Farmácia - linha 49 | Validade: 2027-02",
       "criado_em": "13/08/2026 20:25:46",
       "item": "Sulfato de Amicacina 250mg",
-      "usuario": "Carga inicial Farmácia"
-    },
-    {
-      "id": 62,
-      "item_id": 47,
-      "produto_nome": "Sulfato de Amicacina 50mg",
-      "tipo": "Entrada direta na Farmácia",
-      "origem": "Carga inicial",
-      "destino": "Farmácia",
-      "quantidade": 50,
-      "responsavel": "Carga inicial Farmácia",
-      "data": "13/08/2026",
-      "obs": "Carga inicial Farmácia - linha 48 | Validade: 2027-01",
-      "criado_em": "13/08/2026 20:25:46",
-      "item": "Sulfato de Amicacina 50mg",
       "usuario": "Carga inicial Farmácia"
     }
   ]
