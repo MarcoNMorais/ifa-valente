@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 14:17:17",
+  "atualizado_em": "24/08/2026 14:18:07",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 29206,
-    "total_geral": 119611,
+    "total_farmacia": 29201,
+    "total_geral": 119606,
     "perto_de_terminar": 0,
     "zerados": 3
   },
@@ -4327,19 +4327,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 27,
+      "farmacia": 22,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 27,
+      "total": 22,
       "minimo": 0,
       "validade": "2027-12",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-24 11:19:37",
+      "atualizado_em": "2026-08-24 14:18:06",
       "validade_mais_proxima": "2027-12",
       "vencimento_mais_proximo": "2027-12",
       "lotes_validade": [
@@ -4347,7 +4347,7 @@
           "local": "farmacia",
           "validade": "2027-12",
           "lote": "",
-          "quantidade": 27
+          "quantidade": 22
         }
       ],
       "minimo_manual": 0,
@@ -4355,9 +4355,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 1.67,
-      "total_saida_historica": 20,
-      "cobertura_dias": 16.2,
+      "media_diaria_saida": 2.08,
+      "total_saida_historica": 25,
+      "cobertura_dias": 10.6,
       "alerta_estoque": false
     },
     {
@@ -13912,6 +13912,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 638,
+      "item_id": 73,
+      "produto_nome": "Epinefrina 1mg",
+      "tipo": "Farmácia para Outro destino",
+      "origem": "Farmácia",
+      "destino": "Outro destino",
+      "quantidade": 5,
+      "responsavel": "Leiliana",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-24 14:18:06",
+      "item": "Epinefrina 1mg",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 637,
       "item_id": 202,
       "produto_nome": "Soro fisiológico 100ml",
@@ -21394,21 +21409,6 @@
       "obs": "Carga inicial Farmácia - linha 125 | Validade: 2027-05",
       "criado_em": "13/08/2026 20:25:46",
       "item": "Propranolol 40mg CPR",
-      "usuario": "Carga inicial Farmácia"
-    },
-    {
-      "id": 138,
-      "item_id": 120,
-      "produto_nome": "Amitriptilina 25mg CPR",
-      "tipo": "Entrada direta na Farmácia",
-      "origem": "Carga inicial",
-      "destino": "Farmácia",
-      "quantidade": 30,
-      "responsavel": "Carga inicial Farmácia",
-      "data": "13/08/2026",
-      "obs": "Carga inicial Farmácia - linha 123 | Validade: 2027-01",
-      "criado_em": "13/08/2026 20:25:46",
-      "item": "Amitriptilina 25mg CPR",
       "usuario": "Carga inicial Farmácia"
     }
   ]
