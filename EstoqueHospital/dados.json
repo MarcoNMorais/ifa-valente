@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 16:02:34",
+  "atualizado_em": "24/08/2026 16:02:47",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 25012,
-    "total_geral": 115417,
+    "total_farmacia": 25011,
+    "total_geral": 115416,
     "perto_de_terminar": 0,
     "zerados": 11
   },
@@ -12694,19 +12694,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 14,
+      "farmacia": 13,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 14,
+      "total": 13,
       "minimo": 0,
       "validade": "2027-05",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-24 15:25:36",
+      "atualizado_em": "2026-08-24 16:02:47",
       "validade_mais_proxima": "2027-05",
       "vencimento_mais_proximo": "2027-05",
       "lotes_validade": [
@@ -12714,7 +12714,7 @@
           "local": "farmacia",
           "validade": "2027-05",
           "lote": "",
-          "quantidade": 14
+          "quantidade": 13
         }
       ],
       "minimo_manual": 0,
@@ -12722,9 +12722,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 0.25,
-      "total_saida_historica": 3,
-      "cobertura_dias": 56.0,
+      "media_diaria_saida": 0.33,
+      "total_saida_historica": 4,
+      "cobertura_dias": 39.0,
       "alerta_estoque": false
     },
     {
@@ -13813,6 +13813,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 907,
+      "item_id": 3,
+      "produto_nome": "Succinil 100mg",
+      "tipo": "Farmácia para Outro destino",
+      "origem": "Farmácia",
+      "destino": "Outro destino",
+      "quantidade": 1,
+      "responsavel": "Leiliana",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-24 16:02:47",
+      "item": "Succinil 100mg",
+      "usuario": "Leiliana"
+    },
     {
       "id": 906,
       "item_id": 11,
@@ -21296,21 +21311,6 @@
       "obs": "Importação Almoxerifado - linha 92",
       "criado_em": "18/08/2026 09:58:00",
       "item": "Agulha 30x8",
-      "usuario": "Sistema"
-    },
-    {
-      "id": 407,
-      "item_id": 200,
-      "produto_nome": "Caixa de perfurocortante",
-      "tipo": "entrada",
-      "origem": "Carga Almoxerifado",
-      "destino": "almoxarifado",
-      "quantidade": 4,
-      "responsavel": "Sistema",
-      "data": "18/08/2026 09:58:00",
-      "obs": "Importação Almoxerifado - linha 91",
-      "criado_em": "18/08/2026 09:58:00",
-      "item": "Caixa de perfurocortante",
       "usuario": "Sistema"
     }
   ]
