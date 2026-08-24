@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 15:29:53",
+  "atualizado_em": "24/08/2026 15:30:13",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 26879,
-    "total_geral": 117284,
+    "total_farmacia": 26859,
+    "total_geral": 117264,
     "perto_de_terminar": 0,
     "zerados": 8
   },
@@ -3975,19 +3975,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 1500,
-      "farmacia": 73,
+      "farmacia": 53,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1573,
+      "total": 1553,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-08-24 15:15:28",
+      "atualizado_em": "2026-08-24 15:30:12",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -4001,7 +4001,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 73
+          "quantidade": 53
         }
       ],
       "minimo_manual": 0,
@@ -4009,9 +4009,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 14.58,
-      "total_saida_historica": 175,
-      "cobertura_dias": 107.9,
+      "media_diaria_saida": 16.25,
+      "total_saida_historica": 195,
+      "cobertura_dias": 95.6,
       "alerta_estoque": false
     },
     {
@@ -13859,6 +13859,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 795,
+      "item_id": 177,
+      "produto_nome": "Dispositivo intravenoso Gelco nº 22",
+      "tipo": "Farmácia para Outro destino",
+      "origem": "Farmácia",
+      "destino": "Outro destino",
+      "quantidade": 20,
+      "responsavel": "Leiliana",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-24 15:30:12",
+      "item": "Dispositivo intravenoso Gelco nº 22",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 794,
       "item_id": 252,
       "produto_nome": "Salbutamol spray",
@@ -21339,21 +21354,6 @@
       "responsavel": "Importação Farmácia",
       "data": "18/08/2026",
       "obs": "Importação Farmácia - linha 270b | validade: 10/27",
-      "criado_em": "18/08/2026 09:14:00",
-      "item": "Atenolol 25mg CPR",
-      "usuario": "Importação Farmácia"
-    },
-    {
-      "id": 295,
-      "item_id": 42,
-      "produto_nome": "Atenolol 25mg CPR",
-      "tipo": "Entrada direta na Farmácia",
-      "origem": "Importação lista Farmácia 227-288",
-      "destino": "Farmácia",
-      "quantidade": 90,
-      "responsavel": "Importação Farmácia",
-      "data": "18/08/2026",
-      "obs": "Importação Farmácia - linha 270 | validade: 12/26",
       "criado_em": "18/08/2026 09:14:00",
       "item": "Atenolol 25mg CPR",
       "usuario": "Importação Farmácia"
