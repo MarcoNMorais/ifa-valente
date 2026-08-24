@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 15:58:06",
+  "atualizado_em": "24/08/2026 15:58:33",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 25191,
-    "total_geral": 115596,
+    "total_farmacia": 25186,
+    "total_geral": 115591,
     "perto_de_terminar": 0,
     "zerados": 9
   },
@@ -12622,19 +12622,19 @@
       "tipo": "Insumo",
       "unidade": "Unidade",
       "almoxarifado": 264,
-      "farmacia": 50,
+      "farmacia": 45,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 314,
+      "total": 309,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-24 15:31:34",
+      "atualizado_em": "2026-08-24 15:58:32",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -12648,7 +12648,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 50
+          "quantidade": 45
         }
       ],
       "minimo_manual": 0,
@@ -12656,9 +12656,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 5.83,
-      "total_saida_historica": 70,
-      "cobertura_dias": 53.8,
+      "media_diaria_saida": 6.25,
+      "total_saida_historica": 75,
+      "cobertura_dias": 49.4,
       "alerta_estoque": false
     },
     {
@@ -13827,6 +13827,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 893,
+      "item_id": 201,
+      "produto_nome": "Soro Ringer Lactato 500ml",
+      "tipo": "Farmácia para Outro destino",
+      "origem": "Farmácia",
+      "destino": "Outro destino",
+      "quantidade": 5,
+      "responsavel": "Leiliana",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-24 15:58:32",
+      "item": "Soro Ringer Lactato 500ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 892,
       "item_id": 320,
@@ -21310,21 +21325,6 @@
       "obs": "Importação Almoxerifado - linha 78",
       "criado_em": "18/08/2026 09:58:00",
       "item": "Agulha 25x7",
-      "usuario": "Sistema"
-    },
-    {
-      "id": 393,
-      "item_id": 318,
-      "produto_nome": "Fio Nylon nº 0",
-      "tipo": "entrada",
-      "origem": "Carga Almoxerifado",
-      "destino": "almoxarifado",
-      "quantidade": 48,
-      "responsavel": "Sistema",
-      "data": "18/08/2026 09:58:00",
-      "obs": "Importação Almoxerifado - linha 77",
-      "criado_em": "18/08/2026 09:58:00",
-      "item": "Fio Nylon nº 0",
       "usuario": "Sistema"
     }
   ]
