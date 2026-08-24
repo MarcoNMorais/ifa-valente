@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 15:53:08",
+  "atualizado_em": "24/08/2026 15:53:33",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 25442,
-    "total_geral": 115847,
+    "total_farmacia": 25438,
+    "total_geral": 115843,
     "perto_de_terminar": 0,
     "zerados": 9
   },
@@ -7452,19 +7452,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 490,
+      "farmacia": 486,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 490,
+      "total": 486,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-24 15:48:05",
+      "atualizado_em": "2026-08-24 15:53:33",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -7472,7 +7472,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 490
+          "quantidade": 486
         }
       ],
       "minimo_manual": 0,
@@ -7480,9 +7480,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 34.17,
-      "total_saida_historica": 410,
-      "cobertura_dias": 14.3,
+      "media_diaria_saida": 34.5,
+      "total_saida_historica": 414,
+      "cobertura_dias": 14.1,
       "alerta_estoque": false
     },
     {
@@ -13827,6 +13827,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 876,
+      "item_id": 180,
+      "produto_nome": "Luva de látex tam. P",
+      "tipo": "Farmácia para Outro destino",
+      "origem": "Farmácia",
+      "destino": "Outro destino",
+      "quantidade": 4,
+      "responsavel": "Leiliana",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-24 15:53:33",
+      "item": "Luva de látex tam. P",
+      "usuario": "Leiliana"
+    },
     {
       "id": 875,
       "item_id": 185,
@@ -21310,21 +21325,6 @@
       "obs": "Importação Almoxerifado - linha 61",
       "criado_em": "18/08/2026 09:58:00",
       "item": "Máscara nebulização adulto",
-      "usuario": "Sistema"
-    },
-    {
-      "id": 376,
-      "item_id": 305,
-      "produto_nome": "Máscara nebulização infantil",
-      "tipo": "entrada",
-      "origem": "Carga Almoxerifado",
-      "destino": "almoxarifado",
-      "quantidade": 10,
-      "responsavel": "Sistema",
-      "data": "18/08/2026 09:58:00",
-      "obs": "Importação Almoxerifado - linha 60",
-      "criado_em": "18/08/2026 09:58:00",
-      "item": "Máscara nebulização infantil",
       "usuario": "Sistema"
     }
   ]
