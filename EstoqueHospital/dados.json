@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 14:15:13",
+  "atualizado_em": "24/08/2026 14:15:31",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 29281,
-    "total_geral": 119686,
+    "total_farmacia": 29280,
+    "total_geral": 119685,
     "perto_de_terminar": 0,
     "zerados": 3
   },
@@ -5122,19 +5122,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 7,
-      "farmacia": 5,
+      "farmacia": 4,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 12,
+      "total": 11,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga Almoxerifado",
       "obs": "Importação Almoxerifado",
-      "atualizado_em": "2026-08-21 10:36:35",
+      "atualizado_em": "2026-08-24 14:15:31",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -5148,7 +5148,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 5
+          "quantidade": 4
         }
       ],
       "minimo_manual": 0,
@@ -5156,9 +5156,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 7,
-      "media_diaria_saida": 0.0,
-      "total_saida_historica": 0,
-      "cobertura_dias": null,
+      "media_diaria_saida": 0.14,
+      "total_saida_historica": 1,
+      "cobertura_dias": 77.0,
       "alerta_estoque": false
     },
     {
@@ -13912,6 +13912,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 633,
+      "item_id": 300,
+      "produto_nome": "Filtro HEPA adulto",
+      "tipo": "Farmácia para Outro destino",
+      "origem": "Farmácia",
+      "destino": "Outro destino",
+      "quantidade": 1,
+      "responsavel": "Leiliana",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-24 14:15:31",
+      "item": "Filtro HEPA adulto",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 632,
       "item_id": 205,
       "produto_nome": "Soro glicose 5% 500ml",
@@ -21394,21 +21409,6 @@
       "obs": "Carga inicial Farmácia - linha 119 | Validade: 2027-11",
       "criado_em": "13/08/2026 20:25:46",
       "item": "Cetoprofeno 150mg CPR",
-      "usuario": "Carga inicial Farmácia"
-    },
-    {
-      "id": 133,
-      "item_id": 115,
-      "produto_nome": "Losartana potássica 50mg CPR",
-      "tipo": "Entrada direta na Farmácia",
-      "origem": "Carga inicial",
-      "destino": "Farmácia",
-      "quantidade": 60,
-      "responsavel": "Carga inicial Farmácia",
-      "data": "13/08/2026",
-      "obs": "Carga inicial Farmácia - linha 118b | Validade: 2028-03",
-      "criado_em": "13/08/2026 20:25:46",
-      "item": "Losartana potássica 50mg CPR",
       "usuario": "Carga inicial Farmácia"
     }
   ]
