@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 15:31:22",
+  "atualizado_em": "24/08/2026 15:31:35",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 26824,
-    "total_geral": 117229,
+    "total_farmacia": 26800,
+    "total_geral": 117205,
     "perto_de_terminar": 0,
     "zerados": 8
   },
@@ -12647,19 +12647,19 @@
       "tipo": "Insumo",
       "unidade": "Unidade",
       "almoxarifado": 264,
-      "farmacia": 74,
+      "farmacia": 50,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 338,
+      "total": 314,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-24 15:17:37",
+      "atualizado_em": "2026-08-24 15:31:34",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -12673,7 +12673,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 74
+          "quantidade": 50
         }
       ],
       "minimo_manual": 0,
@@ -12681,9 +12681,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 3.83,
-      "total_saida_historica": 46,
-      "cobertura_dias": 88.2,
+      "media_diaria_saida": 5.83,
+      "total_saida_historica": 70,
+      "cobertura_dias": 53.8,
       "alerta_estoque": false
     },
     {
@@ -13852,6 +13852,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 800,
+      "item_id": 201,
+      "produto_nome": "Soro Ringer Lactato 500ml",
+      "tipo": "Farmácia para Outro destino",
+      "origem": "Farmácia",
+      "destino": "Outro destino",
+      "quantidade": 24,
+      "responsavel": "Leiliana",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-24 15:31:34",
+      "item": "Soro Ringer Lactato 500ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 799,
       "item_id": 205,
@@ -21335,21 +21350,6 @@
       "obs": "Importação Farmácia - linha 275 | validade: 03/27",
       "criado_em": "18/08/2026 09:14:00",
       "item": "Loratadina 10mg CPR",
-      "usuario": "Importação Farmácia"
-    },
-    {
-      "id": 300,
-      "item_id": 131,
-      "produto_nome": "Maleato de enalapril 10mg CPR",
-      "tipo": "Entrada direta na Farmácia",
-      "origem": "Importação lista Farmácia 227-288",
-      "destino": "Farmácia",
-      "quantidade": 20,
-      "responsavel": "Importação Farmácia",
-      "data": "18/08/2026",
-      "obs": "Importação Farmácia - linha 274 | validade: 03/27",
-      "criado_em": "18/08/2026 09:14:00",
-      "item": "Maleato de enalapril 10mg CPR",
       "usuario": "Importação Farmácia"
     }
   ]
