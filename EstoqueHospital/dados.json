@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 14:18:07",
+  "atualizado_em": "24/08/2026 14:18:21",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 29201,
-    "total_geral": 119606,
+    "total_farmacia": 29195,
+    "total_geral": 119600,
     "perto_de_terminar": 0,
     "zerados": 3
   },
@@ -9225,19 +9225,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 226,
+      "farmacia": 220,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 226,
+      "total": 220,
       "minimo": 0,
       "validade": "02/28",
       "lote": "",
       "origem": "Carga Farmácia 227-288",
       "obs": "Importação Farmácia 227-288",
-      "atualizado_em": "2026-08-24 11:49:03",
+      "atualizado_em": "2026-08-24 14:18:21",
       "validade_mais_proxima": "02/28",
       "vencimento_mais_proximo": "02/28",
       "lotes_validade": [
@@ -9245,7 +9245,7 @@
           "local": "farmacia",
           "validade": "02/28",
           "lote": "",
-          "quantidade": 226
+          "quantidade": 220
         }
       ],
       "minimo_manual": 0,
@@ -9253,9 +9253,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 8,
-      "media_diaria_saida": 1.25,
-      "total_saida_historica": 10,
-      "cobertura_dias": 180.8,
+      "media_diaria_saida": 2.0,
+      "total_saida_historica": 16,
+      "cobertura_dias": 110.0,
       "alerta_estoque": false
     },
     {
@@ -13911,6 +13911,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 639,
+      "item_id": 229,
+      "produto_nome": "Oxacilina 500mg pó injetável",
+      "tipo": "Farmácia para Outro destino",
+      "origem": "Farmácia",
+      "destino": "Outro destino",
+      "quantidade": 6,
+      "responsavel": "Leiliana",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-24 14:18:21",
+      "item": "Oxacilina 500mg pó injetável",
+      "usuario": "Leiliana"
+    },
     {
       "id": 638,
       "item_id": 73,
@@ -21392,21 +21407,6 @@
       "responsavel": "Carga inicial Farmácia",
       "data": "13/08/2026",
       "obs": "Carga inicial Farmácia - linha 125b | Validade: 2028-02",
-      "criado_em": "13/08/2026 20:25:46",
-      "item": "Propranolol 40mg CPR",
-      "usuario": "Carga inicial Farmácia"
-    },
-    {
-      "id": 139,
-      "item_id": 122,
-      "produto_nome": "Propranolol 40mg CPR",
-      "tipo": "Entrada direta na Farmácia",
-      "origem": "Carga inicial",
-      "destino": "Farmácia",
-      "quantidade": 180,
-      "responsavel": "Carga inicial Farmácia",
-      "data": "13/08/2026",
-      "obs": "Carga inicial Farmácia - linha 125 | Validade: 2027-05",
       "criado_em": "13/08/2026 20:25:46",
       "item": "Propranolol 40mg CPR",
       "usuario": "Carga inicial Farmácia"
