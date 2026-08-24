@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 14:58:26",
+  "atualizado_em": "24/08/2026 15:04:41",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 28189,
-    "total_geral": 118594,
+    "total_farmacia": 28179,
+    "total_geral": 118584,
     "perto_de_terminar": 0,
     "zerados": 7
   },
@@ -8276,19 +8276,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 88,
+      "farmacia": 78,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 88,
+      "total": 78,
       "minimo": 0,
       "validade": "2028-02",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-24 14:34:02",
+      "atualizado_em": "2026-08-24 15:04:40",
       "validade_mais_proxima": "2028-02",
       "vencimento_mais_proximo": "2028-02",
       "lotes_validade": [
@@ -8296,7 +8296,7 @@
           "local": "farmacia",
           "validade": "2028-02",
           "lote": "",
-          "quantidade": 58
+          "quantidade": 48
         },
         {
           "local": "farmacia",
@@ -8310,9 +8310,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 1.25,
-      "total_saida_historica": 15,
-      "cobertura_dias": 70.4,
+      "media_diaria_saida": 2.08,
+      "total_saida_historica": 25,
+      "cobertura_dias": 37.4,
       "alerta_estoque": false
     },
     {
@@ -13883,6 +13883,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 720,
+      "item_id": 11,
+      "produto_nome": "Midazolam 5mg/ml 10ml",
+      "tipo": "Farmácia para Outro destino",
+      "origem": "Farmácia",
+      "destino": "Outro destino",
+      "quantidade": 10,
+      "responsavel": "Leiliana",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-24 15:04:40",
+      "item": "Midazolam 5mg/ml 10ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 719,
       "item_id": 9,
@@ -21366,21 +21381,6 @@
       "obs": "Carga inicial Farmácia - linha 204",
       "criado_em": "13/08/2026 20:25:46",
       "item": "Soro Ringer Lactato 500ml",
-      "usuario": "Carga inicial Farmácia"
-    },
-    {
-      "id": 220,
-      "item_id": 200,
-      "produto_nome": "Caixa de perfurocortante",
-      "tipo": "Entrada direta na Farmácia",
-      "origem": "Carga inicial",
-      "destino": "Farmácia",
-      "quantidade": 4,
-      "responsavel": "Carga inicial Farmácia",
-      "data": "13/08/2026",
-      "obs": "Carga inicial Farmácia - linha 203",
-      "criado_em": "13/08/2026 20:25:46",
-      "item": "Caixa de perfurocortante",
       "usuario": "Carga inicial Farmácia"
     }
   ]
