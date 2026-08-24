@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 15:38:18",
+  "atualizado_em": "24/08/2026 15:38:30",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 26550,
-    "total_geral": 116955,
+    "total_farmacia": 26549,
+    "total_geral": 116954,
     "perto_de_terminar": 0,
     "zerados": 9
   },
@@ -2128,19 +2128,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 32,
-      "farmacia": 17,
+      "farmacia": 16,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 49,
+      "total": 48,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-24 14:52:11",
+      "atualizado_em": "2026-08-24 15:38:29",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -2154,7 +2154,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 17
+          "quantidade": 16
         }
       ],
       "minimo_manual": 0,
@@ -2162,9 +2162,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 0.83,
-      "total_saida_historica": 10,
-      "cobertura_dias": 58.8,
+      "media_diaria_saida": 0.92,
+      "total_saida_historica": 11,
+      "cobertura_dias": 52.4,
       "alerta_estoque": false
     },
     {
@@ -13846,6 +13846,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 822,
+      "item_id": 155,
+      "produto_nome": "Bolsa coletora",
+      "tipo": "Farmácia para Outro destino",
+      "origem": "Farmácia",
+      "destino": "Outro destino",
+      "quantidade": 1,
+      "responsavel": "Leiliana",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-24 15:38:29",
+      "item": "Bolsa coletora",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 821,
       "item_id": 181,
       "produto_nome": "Luva de látex tam. M",
@@ -21328,21 +21343,6 @@
       "obs": "Importação Almoxerifado - linha 7",
       "criado_em": "18/08/2026 09:58:00",
       "item": "Scalp nº 23",
-      "usuario": "Sistema"
-    },
-    {
-      "id": 322,
-      "item_id": 205,
-      "produto_nome": "Soro glicose 5% 500ml",
-      "tipo": "entrada",
-      "origem": "Carga Almoxerifado",
-      "destino": "almoxarifado",
-      "quantidade": 120,
-      "responsavel": "Sistema",
-      "data": "18/08/2026 09:58:00",
-      "obs": "Importação Almoxerifado - linha 6",
-      "criado_em": "18/08/2026 09:58:00",
-      "item": "Soro glicose 5% 500ml",
       "usuario": "Sistema"
     }
   ]
