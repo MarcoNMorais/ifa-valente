@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 15:38:30",
+  "atualizado_em": "24/08/2026 15:38:48",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 26549,
-    "total_geral": 116954,
+    "total_farmacia": 26529,
+    "total_geral": 116934,
     "perto_de_terminar": 0,
     "zerados": 9
   },
@@ -3198,19 +3198,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 269,
+      "farmacia": 249,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 269,
+      "total": 249,
       "minimo": 0,
       "validade": "2027-11",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-20 13:12:54",
+      "atualizado_em": "2026-08-24 15:38:48",
       "validade_mais_proxima": "2027-11",
       "vencimento_mais_proximo": "2027-11",
       "lotes_validade": [
@@ -3218,7 +3218,7 @@
           "local": "farmacia",
           "validade": "2027-11",
           "lote": "",
-          "quantidade": 269
+          "quantidade": 249
         }
       ],
       "minimo_manual": 0,
@@ -3226,9 +3226,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 0.0,
-      "total_saida_historica": 0,
-      "cobertura_dias": null,
+      "media_diaria_saida": 1.67,
+      "total_saida_historica": 20,
+      "cobertura_dias": 149.4,
       "alerta_estoque": false
     },
     {
@@ -13846,6 +13846,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 823,
+      "item_id": 86,
+      "produto_nome": "Cloridrato de Metoclopramida",
+      "tipo": "Farmácia para Outro destino",
+      "origem": "Farmácia",
+      "destino": "Outro destino",
+      "quantidade": 20,
+      "responsavel": "Leiliana",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-24 15:38:48",
+      "item": "Cloridrato de Metoclopramida",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 822,
       "item_id": 155,
       "produto_nome": "Bolsa coletora",
@@ -21328,21 +21343,6 @@
       "obs": "Importação Almoxerifado - linha 8",
       "criado_em": "18/08/2026 09:58:00",
       "item": "Scalp nº 21",
-      "usuario": "Sistema"
-    },
-    {
-      "id": 323,
-      "item_id": 98,
-      "produto_nome": "Scalp nº 23",
-      "tipo": "entrada",
-      "origem": "Carga Almoxerifado",
-      "destino": "almoxarifado",
-      "quantidade": 900,
-      "responsavel": "Sistema",
-      "data": "18/08/2026 09:58:00",
-      "obs": "Importação Almoxerifado - linha 7",
-      "criado_em": "18/08/2026 09:58:00",
-      "item": "Scalp nº 23",
       "usuario": "Sistema"
     }
   ]
