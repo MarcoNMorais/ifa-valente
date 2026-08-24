@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "24/08/2026 16:02:59",
+  "atualizado_em": "24/08/2026 16:03:54",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
-    "total_almoxarifado": 90405,
-    "total_farmacia": 25009,
+    "total_almoxarifado": 90386,
+    "total_farmacia": 25028,
     "total_geral": 115414,
     "perto_de_terminar": 0,
     "zerados": 11
@@ -62,8 +62,8 @@
       "nome": "Acebrofilina 10mg/ml",
       "tipo": "Medicamento",
       "unidade": "Unidade",
-      "almoxarifado": 19,
-      "farmacia": 4,
+      "almoxarifado": 0,
+      "farmacia": 23,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -75,21 +75,15 @@
       "lote": "",
       "origem": "Carga Almoxerifado",
       "obs": "Importação Almoxerifado",
-      "atualizado_em": "2026-08-24 15:58:05",
+      "atualizado_em": "2026-08-24 16:03:53",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
         {
-          "local": "almoxarifado",
-          "validade": "",
-          "lote": "",
-          "quantidade": 19
-        },
-        {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 4
+          "quantidade": 23
         }
       ],
       "minimo_manual": 0,
@@ -13814,6 +13808,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 909,
+      "item_id": 320,
+      "produto_nome": "Acebrofilina 10mg/ml",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 19,
+      "responsavel": "Leiliana",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-24 16:03:53",
+      "item": "Acebrofilina 10mg/ml",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 908,
       "item_id": 212,
       "produto_nome": "Vasopressina",
@@ -21296,21 +21305,6 @@
       "obs": "Importação Almoxerifado - linha 94",
       "criado_em": "18/08/2026 09:58:00",
       "item": "Máscara nº 95",
-      "usuario": "Sistema"
-    },
-    {
-      "id": 409,
-      "item_id": 194,
-      "produto_nome": "Lanceta de segurança",
-      "tipo": "entrada",
-      "origem": "Carga Almoxerifado",
-      "destino": "almoxarifado",
-      "quantidade": 4300,
-      "responsavel": "Sistema",
-      "data": "18/08/2026 09:58:00",
-      "obs": "Importação Almoxerifado - linha 93",
-      "criado_em": "18/08/2026 09:58:00",
-      "item": "Lanceta de segurança",
       "usuario": "Sistema"
     }
   ]
