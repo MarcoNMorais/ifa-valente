@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 11:26:19",
+  "atualizado_em": "24/08/2026 11:26:29",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 91033,
-    "total_farmacia": 32703,
-    "total_geral": 123736,
+    "total_farmacia": 32701,
+    "total_geral": 123734,
     "perto_de_terminar": 0,
     "zerados": 3
   },
@@ -4419,19 +4419,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 90,
-      "farmacia": 18,
+      "farmacia": 16,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 108,
+      "total": 106,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-20 13:12:54",
+      "atualizado_em": "2026-08-24 11:26:27",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -4445,7 +4445,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 18
+          "quantidade": 16
         }
       ],
       "minimo_manual": 0,
@@ -4453,9 +4453,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 0.0,
-      "total_saida_historica": 0,
-      "cobertura_dias": null,
+      "media_diaria_saida": 0.17,
+      "total_saida_historica": 2,
+      "cobertura_dias": 636.0,
       "alerta_estoque": false
     },
     {
@@ -14294,6 +14294,21 @@
       "criado_em": "2026-08-20 16:17:28",
       "item": "Captopril 25mg CPR",
       "usuario": "Leiliana"
+    },
+    {
+      "id": 497,
+      "item_id": 154,
+      "produto_nome": "Equipo fotossensível",
+      "tipo": "Farmácia para Posto de Internamento",
+      "origem": "Farmácia",
+      "destino": "Posto de Internamento",
+      "quantidade": 2,
+      "responsavel": "Assucena",
+      "data": "2026-08-14",
+      "obs": "",
+      "criado_em": "2026-08-24 11:26:27",
+      "item": "Equipo fotossensível",
+      "usuario": "Assucena"
     },
     {
       "id": 496,
