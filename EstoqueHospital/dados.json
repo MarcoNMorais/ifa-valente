@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 15:39:33",
+  "atualizado_em": "24/08/2026 15:39:45",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 26409,
-    "total_geral": 116814,
+    "total_farmacia": 26389,
+    "total_geral": 116794,
     "perto_de_terminar": 0,
     "zerados": 9
   },
@@ -9556,19 +9556,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 49,
+      "farmacia": 29,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 49,
+      "total": 29,
       "minimo": 0,
       "validade": "04/27",
       "lote": "",
       "origem": "Carga Farmácia 227-288",
       "obs": "Importação Farmácia 227-288",
-      "atualizado_em": "2026-08-24 14:56:13",
+      "atualizado_em": "2026-08-24 15:39:44",
       "validade_mais_proxima": "04/27",
       "vencimento_mais_proximo": "04/27",
       "lotes_validade": [
@@ -9582,7 +9582,7 @@
           "local": "farmacia",
           "validade": "08/27",
           "lote": "",
-          "quantidade": 25
+          "quantidade": 5
         }
       ],
       "minimo_manual": 0,
@@ -9590,9 +9590,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 7,
-      "media_diaria_saida": 5.71,
-      "total_saida_historica": 40,
-      "cobertura_dias": 8.6,
+      "media_diaria_saida": 8.57,
+      "total_saida_historica": 60,
+      "cobertura_dias": 3.4,
       "alerta_estoque": false
     },
     {
@@ -13845,6 +13845,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 827,
+      "item_id": 233,
+      "produto_nome": "Prometazina 25mg/ml",
+      "tipo": "Farmácia para Outro destino",
+      "origem": "Farmácia",
+      "destino": "Outro destino",
+      "quantidade": 20,
+      "responsavel": "Leiliana",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-24 15:39:44",
+      "item": "Prometazina 25mg/ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 826,
       "item_id": 70,
@@ -21328,21 +21343,6 @@
       "obs": "Importação Almoxerifado - linha 12",
       "criado_em": "18/08/2026 09:58:00",
       "item": "Dispositivo intravenoso Gelco nº 24",
-      "usuario": "Sistema"
-    },
-    {
-      "id": 327,
-      "item_id": 178,
-      "produto_nome": "Dispositivo intravenoso Gelco nº 20",
-      "tipo": "entrada",
-      "origem": "Carga Almoxerifado",
-      "destino": "almoxarifado",
-      "quantidade": 800,
-      "responsavel": "Sistema",
-      "data": "18/08/2026 09:58:00",
-      "obs": "Importação Almoxerifado - linha 11",
-      "criado_em": "18/08/2026 09:58:00",
-      "item": "Dispositivo intravenoso Gelco nº 20",
       "usuario": "Sistema"
     }
   ]
