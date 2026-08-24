@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 16:01:47",
+  "atualizado_em": "24/08/2026 16:02:04",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 25023,
-    "total_geral": 115428,
+    "total_farmacia": 25022,
+    "total_geral": 115427,
     "perto_de_terminar": 0,
     "zerados": 11
   },
@@ -3145,19 +3145,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 53,
+      "farmacia": 52,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 53,
+      "total": 52,
       "minimo": 0,
       "validade": "2027-02",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-20 13:12:54",
+      "atualizado_em": "2026-08-24 16:02:04",
       "validade_mais_proxima": "2027-02",
       "vencimento_mais_proximo": "2027-02",
       "lotes_validade": [
@@ -3165,7 +3165,7 @@
           "local": "farmacia",
           "validade": "2027-02",
           "lote": "",
-          "quantidade": 43
+          "quantidade": 42
         },
         {
           "local": "farmacia",
@@ -3179,9 +3179,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 0.0,
-      "total_saida_historica": 0,
-      "cobertura_dias": null,
+      "media_diaria_saida": 0.08,
+      "total_saida_historica": 1,
+      "cobertura_dias": 624.0,
       "alerta_estoque": false
     },
     {
@@ -13814,6 +13814,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 904,
+      "item_id": 2,
+      "produto_nome": "Cloridrato de clorpromazina 25mg",
+      "tipo": "Farmácia para Outro destino",
+      "origem": "Farmácia",
+      "destino": "Outro destino",
+      "quantidade": 1,
+      "responsavel": "Leiliana",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-24 16:02:04",
+      "item": "Cloridrato de clorpromazina 25mg",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 903,
       "item_id": 50,
       "produto_nome": "Amiodarona 50mg",
@@ -21296,21 +21311,6 @@
       "obs": "Importação Almoxerifado - linha 89",
       "criado_em": "18/08/2026 09:58:00",
       "item": "Máscara descartável",
-      "usuario": "Sistema"
-    },
-    {
-      "id": 404,
-      "item_id": 329,
-      "produto_nome": "Polifix",
-      "tipo": "entrada",
-      "origem": "Carga Almoxerifado",
-      "destino": "almoxarifado",
-      "quantidade": 1320,
-      "responsavel": "Sistema",
-      "data": "18/08/2026 09:58:00",
-      "obs": "Importação Almoxerifado - linha 88",
-      "criado_em": "18/08/2026 09:58:00",
-      "item": "Polifix",
       "usuario": "Sistema"
     }
   ]
