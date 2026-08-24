@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 15:40:59",
+  "atualizado_em": "24/08/2026 15:41:15",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 26147,
-    "total_geral": 116552,
+    "total_farmacia": 26097,
+    "total_geral": 116502,
     "perto_de_terminar": 0,
     "zerados": 9
   },
@@ -10146,19 +10146,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 2500,
-      "farmacia": 2003,
+      "farmacia": 1953,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 4503,
+      "total": 4453,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-24 15:32:20",
+      "atualizado_em": "2026-08-24 15:41:15",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -10172,7 +10172,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 2003
+          "quantidade": 1953
         }
       ],
       "minimo_manual": 0,
@@ -10180,9 +10180,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 22.92,
-      "total_saida_historica": 275,
-      "cobertura_dias": 196.5,
+      "media_diaria_saida": 27.08,
+      "total_saida_historica": 325,
+      "cobertura_dias": 164.4,
       "alerta_estoque": false
     },
     {
@@ -13845,6 +13845,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 833,
+      "item_id": 104,
+      "produto_nome": "Seringa 3ml",
+      "tipo": "Farmácia para Outro destino",
+      "origem": "Farmácia",
+      "destino": "Outro destino",
+      "quantidade": 50,
+      "responsavel": "Leiliana",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-24 15:41:15",
+      "item": "Seringa 3ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 832,
       "item_id": 103,
@@ -21328,21 +21343,6 @@
       "obs": "Importação Almoxerifado - linha 18",
       "criado_em": "18/08/2026 09:58:00",
       "item": "Seringa 5ml",
-      "usuario": "Sistema"
-    },
-    {
-      "id": 333,
-      "item_id": 104,
-      "produto_nome": "Seringa 3ml",
-      "tipo": "entrada",
-      "origem": "Carga Almoxerifado",
-      "destino": "almoxarifado",
-      "quantidade": 4400,
-      "responsavel": "Sistema",
-      "data": "18/08/2026 09:58:00",
-      "obs": "Importação Almoxerifado - linha 17",
-      "criado_em": "18/08/2026 09:58:00",
-      "item": "Seringa 3ml",
       "usuario": "Sistema"
     }
   ]
