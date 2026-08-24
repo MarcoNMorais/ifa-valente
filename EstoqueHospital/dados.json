@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "24/08/2026 16:06:59",
+  "atualizado_em": "24/08/2026 16:07:22",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
-    "total_almoxarifado": 90130,
-    "total_farmacia": 25284,
+    "total_almoxarifado": 89630,
+    "total_farmacia": 25784,
     "total_geral": 115414,
     "perto_de_terminar": 0,
     "zerados": 11
@@ -10171,8 +10171,8 @@
       "nome": "Seringa 5ml",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 1500,
-      "farmacia": 0,
+      "almoxarifado": 1000,
+      "farmacia": 500,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -10184,7 +10184,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-08-24 11:28:50",
+      "atualizado_em": "2026-08-24 16:07:21",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -10192,7 +10192,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 1500
+          "quantidade": 1000
+        },
+        {
+          "local": "farmacia",
+          "validade": "",
+          "lote": "",
+          "quantidade": 500
         }
       ],
       "minimo_manual": 0,
@@ -13825,6 +13831,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 915,
+      "item_id": 102,
+      "produto_nome": "Seringa 5ml",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 500,
+      "responsavel": "Leiliana",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-24 16:07:21",
+      "item": "Seringa 5ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 914,
       "item_id": 99,
@@ -21308,21 +21329,6 @@
       "obs": "Importação Almoxerifado - linha 100",
       "criado_em": "18/08/2026 09:58:00",
       "item": "Equipo para transfusão",
-      "usuario": "Sistema"
-    },
-    {
-      "id": 415,
-      "item_id": 147,
-      "produto_nome": "Sonda Nasogástrica nº 18",
-      "tipo": "entrada",
-      "origem": "Carga Almoxerifado",
-      "destino": "almoxarifado",
-      "quantidade": 30,
-      "responsavel": "Sistema",
-      "data": "18/08/2026 09:58:00",
-      "obs": "Importação Almoxerifado - linha 99",
-      "criado_em": "18/08/2026 09:58:00",
-      "item": "Sonda Nasogástrica nº 18",
       "usuario": "Sistema"
     }
   ]
