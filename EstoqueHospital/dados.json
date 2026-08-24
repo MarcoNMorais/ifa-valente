@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 15:30:28",
+  "atualizado_em": "24/08/2026 15:30:43",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 26829,
-    "total_geral": 117234,
+    "total_farmacia": 26827,
+    "total_geral": 117232,
     "perto_de_terminar": 0,
     "zerados": 8
   },
@@ -10325,19 +10325,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 28,
+      "farmacia": 26,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 28,
+      "total": 26,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga Farmácia 227-288",
       "obs": "Importação Farmácia 227-288",
-      "atualizado_em": "2026-08-24 15:22:49",
+      "atualizado_em": "2026-08-24 15:30:43",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -10345,7 +10345,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 28
+          "quantidade": 26
         }
       ],
       "minimo_manual": 0,
@@ -10353,9 +10353,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 11,
-      "media_diaria_saida": 0.82,
-      "total_saida_historica": 9,
-      "cobertura_dias": 34.2,
+      "media_diaria_saida": 1.0,
+      "total_saida_historica": 11,
+      "cobertura_dias": 26.0,
       "alerta_estoque": false
     },
     {
@@ -13858,6 +13858,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 797,
+      "item_id": 256,
+      "produto_nome": "Simeticona gotas",
+      "tipo": "Farmácia para Outro destino",
+      "origem": "Farmácia",
+      "destino": "Outro destino",
+      "quantidade": 2,
+      "responsavel": "Leiliana",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-24 15:30:43",
+      "item": "Simeticona gotas",
+      "usuario": "Leiliana"
+    },
     {
       "id": 796,
       "item_id": 115,
@@ -21341,21 +21356,6 @@
       "obs": "Importação Farmácia - linha 272 | validade: 08/27",
       "criado_em": "18/08/2026 09:14:00",
       "item": "Clonazepam 2mg CPR",
-      "usuario": "Importação Farmácia"
-    },
-    {
-      "id": 297,
-      "item_id": 44,
-      "produto_nome": "Clopidogrel 75mg CP",
-      "tipo": "Entrada direta na Farmácia",
-      "origem": "Importação lista Farmácia 227-288",
-      "destino": "Farmácia",
-      "quantidade": 20,
-      "responsavel": "Importação Farmácia",
-      "data": "18/08/2026",
-      "obs": "Importação Farmácia - linha 271 | validade: 04/27",
-      "criado_em": "18/08/2026 09:14:00",
-      "item": "Clopidogrel 75mg CP",
       "usuario": "Importação Farmácia"
     }
   ]
