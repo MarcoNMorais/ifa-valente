@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 11:40:51",
+  "atualizado_em": "24/08/2026 11:41:15",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 31536,
-    "total_geral": 121941,
+    "total_farmacia": 31518,
+    "total_geral": 121923,
     "perto_de_terminar": 0,
     "zerados": 3
   },
@@ -12585,19 +12585,19 @@
       "tipo": "Insumo",
       "unidade": "Unidade",
       "almoxarifado": 1033,
-      "farmacia": 132,
+      "farmacia": 114,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1165,
+      "total": 1147,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-24 11:36:36",
+      "atualizado_em": "2026-08-24 11:41:14",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -12611,7 +12611,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 132
+          "quantidade": 114
         }
       ],
       "minimo_manual": 0,
@@ -12619,9 +12619,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 0.5,
-      "total_saida_historica": 6,
-      "cobertura_dias": 2330.0,
+      "media_diaria_saida": 2.0,
+      "total_saida_historica": 24,
+      "cobertura_dias": 573.5,
       "alerta_estoque": false
     },
     {
@@ -14369,6 +14369,21 @@
       "criado_em": "2026-08-20 16:17:28",
       "item": "Captopril 25mg CPR",
       "usuario": "Leiliana"
+    },
+    {
+      "id": 551,
+      "item_id": 204,
+      "produto_nome": "Soro fisiológico 500ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 18,
+      "responsavel": "Assucena",
+      "data": "2026-08-16",
+      "obs": "",
+      "criado_em": "2026-08-24 11:41:14",
+      "item": "Soro fisiológico 500ml",
+      "usuario": "Assucena"
     },
     {
       "id": 550,
@@ -21418,21 +21433,6 @@
       "obs": "Carga inicial Farmácia - linha 37 | Validade: 2029-01",
       "criado_em": "13/08/2026 20:25:46",
       "item": "Atensina 0,100mg CPR",
-      "usuario": "Carga inicial Farmácia"
-    },
-    {
-      "id": 51,
-      "item_id": 36,
-      "produto_nome": "Prednisona 20mg CPR",
-      "tipo": "Entrada direta na Farmácia",
-      "origem": "Carga inicial",
-      "destino": "Farmácia",
-      "quantidade": 60,
-      "responsavel": "Carga inicial Farmácia",
-      "data": "13/08/2026",
-      "obs": "Carga inicial Farmácia - linha 36 | Validade: 2028-06",
-      "criado_em": "13/08/2026 20:25:46",
-      "item": "Prednisona 20mg CPR",
       "usuario": "Carga inicial Farmácia"
     }
   ]
