@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 11:50:10",
+  "atualizado_em": "24/08/2026 11:50:21",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 30039,
-    "total_geral": 120444,
+    "total_farmacia": 30027,
+    "total_geral": 120432,
     "perto_de_terminar": 0,
     "zerados": 3
   },
@@ -1287,19 +1287,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 1788,
-      "farmacia": 48,
+      "farmacia": 36,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1836,
+      "total": 1824,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-24 11:40:31",
+      "atualizado_em": "2026-08-24 11:50:21",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -1313,7 +1313,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 48
+          "quantidade": 36
         }
       ],
       "minimo_manual": 0,
@@ -1321,9 +1321,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 3.0,
-      "total_saida_historica": 36,
-      "cobertura_dias": 612.0,
+      "media_diaria_saida": 4.0,
+      "total_saida_historica": 48,
+      "cobertura_dias": 456.0,
       "alerta_estoque": false
     },
     {
@@ -14371,6 +14371,21 @@
       "usuario": "Leiliana"
     },
     {
+      "id": 591,
+      "item_id": 152,
+      "produto_nome": "Atadura crepon nº 10",
+      "tipo": "Farmácia para Posto de Internamento",
+      "origem": "Farmácia",
+      "destino": "Posto de Internamento",
+      "quantidade": 12,
+      "responsavel": "Assucena",
+      "data": "2026-08-17",
+      "obs": "",
+      "criado_em": "2026-08-24 11:50:21",
+      "item": "Atadura crepon nº 10",
+      "usuario": "Assucena"
+    },
+    {
       "id": 590,
       "item_id": 151,
       "produto_nome": "Atadura crepon nº 15",
@@ -21418,21 +21433,6 @@
       "obs": "Carga inicial Farmácia - linha 78 | Validade: 2027-06",
       "criado_em": "13/08/2026 20:25:46",
       "item": "Escopolamina 20mg",
-      "usuario": "Carga inicial Farmácia"
-    },
-    {
-      "id": 91,
-      "item_id": 74,
-      "produto_nome": "Ergometrina",
-      "tipo": "Entrada direta na Farmácia",
-      "origem": "Carga inicial",
-      "destino": "Farmácia",
-      "quantidade": 60,
-      "responsavel": "Carga inicial Farmácia",
-      "data": "13/08/2026",
-      "obs": "Carga inicial Farmácia - linha 77 | Validade: 2027-04",
-      "criado_em": "13/08/2026 20:25:46",
-      "item": "Ergometrina",
       "usuario": "Carga inicial Farmácia"
     }
   ]
