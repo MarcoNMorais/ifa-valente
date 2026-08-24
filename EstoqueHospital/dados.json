@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 15:34:43",
+  "atualizado_em": "24/08/2026 15:35:01",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 26645,
-    "total_geral": 117050,
+    "total_farmacia": 26640,
+    "total_geral": 117045,
     "perto_de_terminar": 0,
     "zerados": 9
   },
@@ -12554,19 +12554,19 @@
       "tipo": "Insumo",
       "unidade": "Unidade",
       "almoxarifado": 48,
-      "farmacia": 33,
+      "farmacia": 28,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 81,
+      "total": 76,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-24 14:31:13",
+      "atualizado_em": "2026-08-24 15:35:01",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -12580,7 +12580,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 33
+          "quantidade": 28
         }
       ],
       "minimo_manual": 0,
@@ -12588,9 +12588,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 0.17,
-      "total_saida_historica": 2,
-      "cobertura_dias": 486.0,
+      "media_diaria_saida": 0.58,
+      "total_saida_historica": 7,
+      "cobertura_dias": 130.3,
       "alerta_estoque": false
     },
     {
@@ -13845,6 +13845,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 811,
+      "item_id": 206,
+      "produto_nome": "Soro glicose 5% 250ml",
+      "tipo": "Farmácia para Outro destino",
+      "origem": "Farmácia",
+      "destino": "Outro destino",
+      "quantidade": 5,
+      "responsavel": "Leiliana",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-24 15:35:01",
+      "item": "Soro glicose 5% 250ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 810,
       "item_id": 181,
@@ -21328,21 +21343,6 @@
       "obs": "Importação Farmácia - linha 285 | validade: 03/27",
       "criado_em": "18/08/2026 09:14:00",
       "item": "Glibenclamida 5mg CPR",
-      "usuario": "Importação Farmácia"
-    },
-    {
-      "id": 311,
-      "item_id": 269,
-      "produto_nome": "Hidralazina 25mg CPR",
-      "tipo": "Entrada direta na Farmácia",
-      "origem": "Importação lista Farmácia 227-288",
-      "destino": "Farmácia",
-      "quantidade": 20,
-      "responsavel": "Importação Farmácia",
-      "data": "18/08/2026",
-      "obs": "Importação Farmácia - linha 284 | validade: 03/27",
-      "criado_em": "18/08/2026 09:14:00",
-      "item": "Hidralazina 25mg CPR",
       "usuario": "Importação Farmácia"
     }
   ]
