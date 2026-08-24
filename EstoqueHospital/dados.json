@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 11:31:43",
+  "atualizado_em": "24/08/2026 11:31:53",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 91033,
-    "total_farmacia": 31932,
-    "total_geral": 122965,
+    "total_farmacia": 31912,
+    "total_geral": 122945,
     "perto_de_terminar": 0,
     "zerados": 3
   },
@@ -2393,19 +2393,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 180,
+      "farmacia": 160,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 180,
+      "total": 160,
       "minimo": 0,
       "validade": "2027-09",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-20 16:17:28",
+      "atualizado_em": "2026-08-24 11:31:52",
       "validade_mais_proxima": "2027-09",
       "vencimento_mais_proximo": "2027-09",
       "lotes_validade": [
@@ -2413,7 +2413,7 @@
           "local": "farmacia",
           "validade": "2027-09",
           "lote": "",
-          "quantidade": 180
+          "quantidade": 160
         }
       ],
       "minimo_manual": 0,
@@ -2421,9 +2421,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 5.0,
-      "total_saida_historica": 60,
-      "cobertura_dias": 36.0,
+      "media_diaria_saida": 6.67,
+      "total_saida_historica": 80,
+      "cobertura_dias": 24.0,
       "alerta_estoque": false
     },
     {
@@ -14290,6 +14290,21 @@
       "usuario": "Leiliana"
     },
     {
+      "id": 521,
+      "item_id": 138,
+      "produto_nome": "Captopril 25mg CPR",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 20,
+      "responsavel": "Assucena",
+      "data": "2026-08-15",
+      "obs": "",
+      "criado_em": "2026-08-24 11:31:52",
+      "item": "Captopril 25mg CPR",
+      "usuario": "Assucena"
+    },
+    {
       "id": 520,
       "item_id": 252,
       "produto_nome": "Salbutamol spray",
@@ -21412,21 +21427,6 @@
       "obs": "Carga inicial Farmácia - linha 14 | Validade: 2026-09",
       "criado_em": "13/08/2026 20:25:46",
       "item": "Adenosina 3mg/ml 2ml",
-      "usuario": "Carga inicial Farmácia"
-    },
-    {
-      "id": 21,
-      "item_id": 13,
-      "produto_nome": "Diazepam 10mg/2ml 2ml",
-      "tipo": "Entrada direta na Farmácia",
-      "origem": "Carga inicial",
-      "destino": "Farmácia",
-      "quantidade": 54,
-      "responsavel": "Carga inicial Farmácia",
-      "data": "13/08/2026",
-      "obs": "Carga inicial Farmácia - linha 13b | Validade: 2027-09",
-      "criado_em": "13/08/2026 20:25:46",
-      "item": "Diazepam 10mg/2ml 2ml",
       "usuario": "Carga inicial Farmácia"
     }
   ]
