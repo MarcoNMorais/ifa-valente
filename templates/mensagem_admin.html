@@ -1,46 +1,22 @@
-{% extends "base.html" %}
-{% block title %}Mensagens do Dia{% endblock %}
-{% block content %}
-<div class="container py-4" style="max-width:1100px">
-  <div class="d-flex flex-wrap justify-content-between align-items-center gap-2 mb-3">
-    <div><h2 class="mb-1">Mensagens do Dia</h2><div class="text-muted">Estatísticas anônimas de QR Code e NFC</div></div>
-    <a href="{{ url_for('mensagem_do_dia') }}" target="_blank" class="btn btn-outline-primary">Abrir página pública</a>
-  </div>
-
-  <div class="row g-3 mb-4">
-    <div class="col-6 col-md-3"><div class="card h-100"><div class="card-body text-center"><div class="fs-2 fw-bold">{{ access_stats['acessos'] or 0 }}</div><div class="text-muted small">Acessos totais</div></div></div></div>
-    <div class="col-6 col-md-3"><div class="card h-100"><div class="card-body text-center"><div class="fs-2 fw-bold">{{ access_stats['visitantes'] or 0 }}</div><div class="text-muted small">Visitantes</div></div></div></div>
-    <div class="col-6 col-md-3"><div class="card h-100"><div class="card-body text-center"><div class="fs-2 fw-bold">{{ today_stats['acessos'] or 0 }}</div><div class="text-muted small">Acessos hoje</div></div></div></div>
-    <div class="col-6 col-md-3"><div class="card h-100"><div class="card-body text-center"><div class="fs-2 fw-bold">{{ today_stats['visitantes'] or 0 }}</div><div class="text-muted small">Visitantes hoje</div></div></div></div>
-  </div>
-
-  <div class="card mb-4">
-    <div class="card-body">
-      <div class="d-flex justify-content-between align-items-center mb-3"><h5 class="card-title mb-0">Origem dos acessos</h5><span class="badge text-bg-light">Sem IP • sem GPS • sem dados pessoais</span></div>
-      <div class="table-responsive">
-        <table class="table align-middle mb-0">
-          <thead><tr><th>Origem</th><th class="text-end">Acessos</th><th class="text-end">Visitantes</th><th>Último acesso</th></tr></thead>
-          <tbody>
-            {% for item in origins %}
-            <tr><td><strong>{{ item['origem'] }}</strong></td><td class="text-end">{{ item['acessos'] }}</td><td class="text-end">{{ item['visitantes'] }}</td><td>{{ item['ultimo'] or '-' }}</td></tr>
-            {% else %}
-            <tr><td colspan="4" class="text-center text-muted py-4">Nenhum acesso registrado ainda.</td></tr>
-            {% endfor %}
-          </tbody>
-        </table>
-      </div>
-      <div class="small text-muted mt-3">QR geral: <code>?origem=QR-GERAL</code> • NFC: use códigos como <code>?origem=SANTARITA-NFC-01</code>.</div>
-    </div>
-  </div>
-
-  <div class="row g-3 mb-4">
-    <div class="col-4"><div class="card h-100"><div class="card-body text-center"><div class="fs-4 fw-bold">{{ stats['total'] }}</div><div class="text-muted small">Frases</div></div></div></div>
-    <div class="col-4"><div class="card h-100"><div class="card-body text-center"><div class="fs-4 fw-bold">{{ stats['active'] or 0 }}</div><div class="text-muted small">Ativas</div></div></div></div>
-    <div class="col-4"><div class="card h-100"><div class="card-body text-center"><div class="fs-4 fw-bold">{{ stats['manual'] or 0 }}</div><div class="text-muted small">Adicionadas</div></div></div></div>
-  </div>
-
-  <div class="card mb-4"><div class="card-body"><h5 class="card-title">Adicionar nova frase</h5><form method="post"><input type="hidden" name="csrf_token" value="{{ csrf_token() }}"><input type="hidden" name="action" value="add"><textarea name="text" class="form-control mb-3" rows="3" maxlength="320" required placeholder="Digite a nova mensagem..."></textarea><button class="btn btn-primary">Adicionar frase</button></form></div></div>
-
-  <div class="card"><div class="card-body"><h5 class="card-title mb-3">Banco de frases</h5><div class="table-responsive"><table class="table align-middle"><thead><tr><th>ID</th><th>Mensagem</th><th>Origem</th><th>Status</th><th></th></tr></thead><tbody>{% for row in rows %}<tr><td>{{ row['id'] }}</td><td>{{ row['text'] }}</td><td><span class="badge text-bg-{{ 'info' if row['source']=='manual' else 'secondary' }}">{{ 'Manual' if row['source']=='manual' else 'Padrão' }}</span></td><td><span class="badge text-bg-{{ 'success' if row['active'] else 'light' }}">{{ 'Ativa' if row['active'] else 'Inativa' }}</span></td><td><div class="d-flex gap-1"><form method="post"><input type="hidden" name="csrf_token" value="{{ csrf_token() }}"><input type="hidden" name="action" value="toggle"><input type="hidden" name="id" value="{{ row['id'] }}"><button class="btn btn-sm btn-outline-secondary">{{ 'Desativar' if row['active'] else 'Ativar' }}</button></form>{% if row['source']=='manual' %}<form method="post" onsubmit="return confirm('Remover esta frase?')"><input type="hidden" name="csrf_token" value="{{ csrf_token() }}"><input type="hidden" name="action" value="delete"><input type="hidden" name="id" value="{{ row['id'] }}"><button class="btn btn-sm btn-outline-danger">Excluir</button></form>{% endif %}</div></td></tr>{% endfor %}</tbody></table></div></div></div>
-</div>
-{% endblock %}
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Painel Mensagem do Dia</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#f6f8fb;color:#263648;font-family:Arial,Helvetica,sans-serif}.top{background:#0d437d;color:#fff;padding:16px 20px}.topin{max-width:1100px;margin:auto;display:flex;justify-content:space-between;align-items:center;gap:12px}.top h1{font-size:22px;margin:0}.top small{opacity:.8}.actions{display:flex;gap:8px;flex-wrap:wrap}.btn{display:inline-block;border:1px solid #0d437d;background:#0d437d;color:#fff;text-decoration:none;border-radius:10px;padding:9px 13px;font-weight:700;cursor:pointer}.btn.alt{background:#fff;color:#0d437d}.btn.danger{background:#fff;color:#a12626;border-color:#e6b4b4}.wrap{max-width:1100px;margin:0 auto;padding:22px 14px}.grid4,.grid3{display:grid;gap:12px;margin-bottom:18px}.grid4{grid-template-columns:repeat(4,1fr)}.grid3{grid-template-columns:repeat(3,1fr)}.card{background:#fff;border:1px solid #e2e7ee;border-radius:16px;padding:18px;box-shadow:0 3px 12px rgba(34,52,73,.05);margin-bottom:18px}.metric{text-align:center}.metric strong{display:block;font-size:30px;color:#0d437d}.metric span{font-size:13px;color:#6e7884}h2,h3{color:#0d437d;margin-top:0}.muted{color:#6e7884;font-size:13px}.privacy{display:inline-block;background:#eef5ef;color:#356a42;padding:6px 9px;border-radius:999px;font-size:12px}.tablebox{overflow:auto}table{width:100%;border-collapse:collapse}th,td{padding:11px 9px;border-bottom:1px solid #edf0f4;text-align:left;vertical-align:top}th{font-size:12px;color:#6b7580;text-transform:uppercase}td.num,th.num{text-align:right}textarea{width:100%;border:1px solid #cfd6df;border-radius:10px;padding:12px;font:inherit;resize:vertical}.inline{display:flex;gap:7px;flex-wrap:wrap}.smallbtn{border:1px solid #c8d0da;background:#fff;border-radius:8px;padding:6px 9px;cursor:pointer}.smallbtn.red{color:#a12626;border-color:#e6b4b4}.flash{padding:10px 12px;border-radius:10px;background:#eef5ff;color:#174f88;margin-bottom:14px}.code{font-family:monospace;background:#f2f4f7;padding:2px 5px;border-radius:5px}@media(max-width:760px){.grid4{grid-template-columns:repeat(2,1fr)}.grid3{grid-template-columns:1fr}.topin{align-items:flex-start;flex-direction:column}.wrap{padding:14px 10px}.card{padding:14px}.metric strong{font-size:26px}}
+</style>
+</head>
+<body>
+<header class="top"><div class="topin"><div><h1>Painel Mensagem do Dia</h1><small>Olá, {{ admin_name }} • painel separado do IFA</small></div><div class="actions"><a class="btn alt" href="{{ url_for('mensagem_do_dia') }}" target="_blank">Abrir página pública</a><a class="btn danger" href="{{ url_for('mensagem_admin_logout') }}">Sair</a></div></div></header>
+<main class="wrap">
+{% with messages = get_flashed_messages() %}{% if messages %}{% for message in messages %}<div class="flash">{{ message }}</div>{% endfor %}{% endif %}{% endwith %}
+<div class="grid4"><div class="card metric"><strong>{{ access_stats['acessos'] or 0 }}</strong><span>Acessos totais</span></div><div class="card metric"><strong>{{ access_stats['visitantes'] or 0 }}</strong><span>Visitantes</span></div><div class="card metric"><strong>{{ today_stats['acessos'] or 0 }}</strong><span>Acessos hoje</span></div><div class="card metric"><strong>{{ today_stats['visitantes'] or 0 }}</strong><span>Visitantes hoje</span></div></div>
+<section class="card"><div style="display:flex;justify-content:space-between;gap:10px;align-items:center;flex-wrap:wrap"><h3 style="margin-bottom:0">Origem dos acessos</h3><span class="privacy">Sem IP • sem GPS • sem dados pessoais</span></div><div class="tablebox" style="margin-top:12px"><table><thead><tr><th>Origem</th><th class="num">Acessos</th><th class="num">Visitantes</th><th>Último acesso</th></tr></thead><tbody>{% for item in origins %}<tr><td><strong>{{ item['origem'] }}</strong></td><td class="num">{{ item['acessos'] }}</td><td class="num">{{ item['visitantes'] }}</td><td>{{ item['ultimo'] or '-' }}</td></tr>{% else %}<tr><td colspan="4" class="muted">Nenhum acesso registrado ainda.</td></tr>{% endfor %}</tbody></table></div><p class="muted">QR geral: <span class="code">?origem=QR-GERAL</span> • NFC: <span class="code">?origem=SANTARITA-NFC-01</span></p></section>
+<div class="grid3"><div class="card metric"><strong>{{ stats['total'] }}</strong><span>Frases</span></div><div class="card metric"><strong>{{ stats['active'] or 0 }}</strong><span>Ativas</span></div><div class="card metric"><strong>{{ stats['manual'] or 0 }}</strong><span>Adicionadas</span></div></div>
+<section class="card"><h3>Adicionar nova frase</h3><form method="post"><input type="hidden" name="csrf_token" value="{{ csrf_token() }}"><input type="hidden" name="action" value="add"><textarea name="text" rows="3" maxlength="320" required placeholder="Digite a nova mensagem..."></textarea><div style="margin-top:10px"><button class="btn" type="submit">Adicionar frase</button></div></form></section>
+<section class="card"><h3>Banco de frases</h3><div class="tablebox"><table><thead><tr><th>ID</th><th>Mensagem</th><th>Origem</th><th>Status</th><th>Ações</th></tr></thead><tbody>{% for row in rows %}<tr><td>{{ row['id'] }}</td><td>{{ row['text'] }}</td><td>{{ 'Manual' if row['source']=='manual' else 'Padrão' }}</td><td>{{ 'Ativa' if row['active'] else 'Inativa' }}</td><td><div class="inline"><form method="post"><input type="hidden" name="csrf_token" value="{{ csrf_token() }}"><input type="hidden" name="action" value="toggle"><input type="hidden" name="id" value="{{ row['id'] }}"><button class="smallbtn" type="submit">{{ 'Desativar' if row['active'] else 'Ativar' }}</button></form>{% if row['source']=='manual' %}<form method="post" onsubmit="return confirm('Remover esta frase?')"><input type="hidden" name="csrf_token" value="{{ csrf_token() }}"><input type="hidden" name="action" value="delete"><input type="hidden" name="id" value="{{ row['id'] }}"><button class="smallbtn red" type="submit">Excluir</button></form>{% endif %}</div></td></tr>{% endfor %}</tbody></table></div></section>
+</main>
+</body>
+</html>
