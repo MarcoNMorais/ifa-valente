@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 15:48:06",
+  "atualizado_em": "24/08/2026 15:48:17",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 25798,
-    "total_geral": 116203,
+    "total_farmacia": 25794,
+    "total_geral": 116199,
     "perto_de_terminar": 0,
     "zerados": 9
   },
@@ -9356,19 +9356,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 82,
+      "farmacia": 78,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 82,
+      "total": 78,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga Farmácia 227-288",
       "obs": "Importação Farmácia 227-288",
-      "atualizado_em": "2026-08-24 14:45:28",
+      "atualizado_em": "2026-08-24 15:48:17",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -9376,7 +9376,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 82
+          "quantidade": 78
         }
       ],
       "minimo_manual": 0,
@@ -9384,9 +9384,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 7,
-      "media_diaria_saida": 0.14,
-      "total_saida_historica": 1,
-      "cobertura_dias": 574.0,
+      "media_diaria_saida": 0.71,
+      "total_saida_historica": 5,
+      "cobertura_dias": 109.2,
       "alerta_estoque": false
     },
     {
@@ -13833,6 +13833,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 857,
+      "item_id": 260,
+      "produto_nome": "Paracetamol gotas",
+      "tipo": "Farmácia para Outro destino",
+      "origem": "Farmácia",
+      "destino": "Outro destino",
+      "quantidade": 4,
+      "responsavel": "Leiliana",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-24 15:48:17",
+      "item": "Paracetamol gotas",
+      "usuario": "Leiliana"
+    },
     {
       "id": 856,
       "item_id": 180,
@@ -21316,21 +21331,6 @@
       "obs": "Importação Almoxerifado - linha 42",
       "criado_em": "18/08/2026 09:58:00",
       "item": "Eletrodo ECG descartável",
-      "usuario": "Sistema"
-    },
-    {
-      "id": 357,
-      "item_id": 154,
-      "produto_nome": "Equipo fotossensível",
-      "tipo": "entrada",
-      "origem": "Carga Almoxerifado",
-      "destino": "almoxarifado",
-      "quantidade": 90,
-      "responsavel": "Sistema",
-      "data": "18/08/2026 09:58:00",
-      "obs": "Importação Almoxerifado - linha 41",
-      "criado_em": "18/08/2026 09:58:00",
-      "item": "Equipo fotossensível",
       "usuario": "Sistema"
     }
   ]
