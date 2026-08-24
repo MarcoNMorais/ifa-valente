@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 15:56:16",
+  "atualizado_em": "24/08/2026 15:56:29",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 25212,
-    "total_geral": 115617,
+    "total_farmacia": 25204,
+    "total_geral": 115609,
     "perto_de_terminar": 0,
     "zerados": 9
   },
@@ -2620,19 +2620,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 131,
+      "farmacia": 123,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 131,
+      "total": 123,
       "minimo": 0,
       "validade": "2028-01",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-24 15:47:53",
+      "atualizado_em": "2026-08-24 15:56:29",
       "validade_mais_proxima": "2028-01",
       "vencimento_mais_proximo": "2028-01",
       "lotes_validade": [
@@ -2640,7 +2640,7 @@
           "local": "farmacia",
           "validade": "2028-01",
           "lote": "",
-          "quantidade": 131
+          "quantidade": 123
         }
       ],
       "minimo_manual": 0,
@@ -2648,9 +2648,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 16.42,
-      "total_saida_historica": 197,
-      "cobertura_dias": 8.0,
+      "media_diaria_saida": 17.08,
+      "total_saida_historica": 205,
+      "cobertura_dias": 7.2,
       "alerta_estoque": false
     },
     {
@@ -13828,6 +13828,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 887,
+      "item_id": 59,
+      "produto_nome": "Ceftriaxona 1g",
+      "tipo": "Farmácia para Outro destino",
+      "origem": "Farmácia",
+      "destino": "Outro destino",
+      "quantidade": 8,
+      "responsavel": "Leiliana",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-24 15:56:29",
+      "item": "Ceftriaxona 1g",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 886,
       "item_id": 226,
       "produto_nome": "Enoxaparina sódica 40mg",
@@ -21310,21 +21325,6 @@
       "obs": "Importação Almoxerifado - linha 72",
       "criado_em": "18/08/2026 09:58:00",
       "item": "Sonda Foley nº 16",
-      "usuario": "Sistema"
-    },
-    {
-      "id": 387,
-      "item_id": 312,
-      "produto_nome": "Sonda Foley nº 18",
-      "tipo": "entrada",
-      "origem": "Carga Almoxerifado",
-      "destino": "almoxarifado",
-      "quantidade": 52,
-      "responsavel": "Sistema",
-      "data": "18/08/2026 09:58:00",
-      "obs": "Importação Almoxerifado - linha 71",
-      "criado_em": "18/08/2026 09:58:00",
-      "item": "Sonda Foley nº 18",
       "usuario": "Sistema"
     }
   ]
