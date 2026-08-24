@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 14:03:02",
+  "atualizado_em": "24/08/2026 14:03:30",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 29576,
-    "total_geral": 119981,
+    "total_farmacia": 29546,
+    "total_geral": 119951,
     "perto_de_terminar": 0,
     "zerados": 3
   },
@@ -3789,19 +3789,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 700,
+      "farmacia": 670,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 700,
+      "total": 670,
       "minimo": 0,
       "validade": "2027-03",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-24 11:48:40",
+      "atualizado_em": "2026-08-24 14:03:29",
       "validade_mais_proxima": "2027-03",
       "vencimento_mais_proximo": "2027-03",
       "lotes_validade": [
@@ -3809,7 +3809,7 @@
           "local": "farmacia",
           "validade": "2027-03",
           "lote": "",
-          "quantidade": 700
+          "quantidade": 670
         }
       ],
       "minimo_manual": 0,
@@ -3817,9 +3817,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 26.67,
-      "total_saida_historica": 320,
-      "cobertura_dias": 26.2,
+      "media_diaria_saida": 29.17,
+      "total_saida_historica": 350,
+      "cobertura_dias": 23.0,
       "alerta_estoque": false
     },
     {
@@ -13924,6 +13924,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 616,
+      "item_id": 70,
+      "produto_nome": "Dipirona",
+      "tipo": "Farmácia para Outro destino",
+      "origem": "Farmácia",
+      "destino": "Outro destino",
+      "quantidade": 30,
+      "responsavel": "Leiliana",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-24 14:03:29",
+      "item": "Dipirona",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 615,
       "item_id": 69,
       "produto_nome": "Diclofenaco 25mg",
@@ -21406,21 +21421,6 @@
       "obs": "Carga inicial Farmácia - linha 103",
       "criado_em": "13/08/2026 20:25:46",
       "item": "Scalp nº 25",
-      "usuario": "Carga inicial Farmácia"
-    },
-    {
-      "id": 116,
-      "item_id": 99,
-      "produto_nome": "Scalp nº 21",
-      "tipo": "Entrada direta na Farmácia",
-      "origem": "Carga inicial",
-      "destino": "Farmácia",
-      "quantidade": 46,
-      "responsavel": "Carga inicial Farmácia",
-      "data": "13/08/2026",
-      "obs": "Carga inicial Farmácia - linha 102",
-      "criado_em": "13/08/2026 20:25:46",
-      "item": "Scalp nº 21",
       "usuario": "Carga inicial Farmácia"
     }
   ]
