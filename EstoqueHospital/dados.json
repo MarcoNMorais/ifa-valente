@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "24/08/2026 16:10:41",
+  "atualizado_em": "24/08/2026 16:11:34",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
-    "total_almoxarifado": 88572,
-    "total_farmacia": 26842,
+    "total_almoxarifado": 88272,
+    "total_farmacia": 27142,
     "total_geral": 115414,
     "perto_de_terminar": 0,
     "zerados": 11
@@ -10051,8 +10051,8 @@
       "nome": "Seringa 1ml",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 850,
-      "farmacia": 0,
+      "almoxarifado": 550,
+      "farmacia": 300,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -10064,7 +10064,7 @@
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-24 15:17:48",
+      "atualizado_em": "2026-08-24 16:11:34",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -10072,7 +10072,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 850
+          "quantidade": 550
+        },
+        {
+          "local": "farmacia",
+          "validade": "",
+          "lote": "",
+          "quantidade": 300
         }
       ],
       "minimo_manual": 0,
@@ -13843,6 +13849,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 923,
+      "item_id": 157,
+      "produto_nome": "Seringa 1ml",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 300,
+      "responsavel": "Leiliana",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-24 16:11:34",
+      "item": "Seringa 1ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 922,
       "item_id": 274,
@@ -21326,21 +21347,6 @@
       "obs": "",
       "criado_em": "2026-08-21 10:51:18",
       "item": "Atadura crepon nº 10",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 438,
-      "item_id": 103,
-      "produto_nome": "Seringa 10ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 140,
-      "responsavel": "Assucena",
-      "data": "2026-08-14",
-      "obs": "",
-      "criado_em": "2026-08-21 10:51:04",
-      "item": "Seringa 10ml",
       "usuario": "Assucena"
     }
   ]
