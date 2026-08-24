@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 15:54:34",
+  "atualizado_em": "24/08/2026 15:54:54",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 25376,
-    "total_geral": 115781,
+    "total_farmacia": 25276,
+    "total_geral": 115681,
     "perto_de_terminar": 0,
     "zerados": 9
   },
@@ -6875,19 +6875,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 4300,
-      "farmacia": 350,
+      "farmacia": 250,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 4650,
+      "total": 4550,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-24 15:21:12",
+      "atualizado_em": "2026-08-24 15:54:54",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -6901,7 +6901,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 350
+          "quantidade": 250
         }
       ],
       "minimo_manual": 0,
@@ -6909,9 +6909,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 29.17,
-      "total_saida_historica": 350,
-      "cobertura_dias": 159.4,
+      "media_diaria_saida": 37.5,
+      "total_saida_historica": 450,
+      "cobertura_dias": 121.3,
       "alerta_estoque": false
     },
     {
@@ -13827,6 +13827,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 881,
+      "item_id": 194,
+      "produto_nome": "Lanceta de segurança",
+      "tipo": "Farmácia para Outro destino",
+      "origem": "Farmácia",
+      "destino": "Outro destino",
+      "quantidade": 100,
+      "responsavel": "Leiliana",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-24 15:54:54",
+      "item": "Lanceta de segurança",
+      "usuario": "Leiliana"
+    },
     {
       "id": 880,
       "item_id": 175,
@@ -21310,21 +21325,6 @@
       "obs": "Importação Almoxerifado - linha 66",
       "criado_em": "18/08/2026 09:58:00",
       "item": "Atadura crepon nº 20",
-      "usuario": "Sistema"
-    },
-    {
-      "id": 381,
-      "item_id": 308,
-      "produto_nome": "Atadura de algodão 15cm",
-      "tipo": "entrada",
-      "origem": "Carga Almoxerifado",
-      "destino": "almoxarifado",
-      "quantidade": 96,
-      "responsavel": "Sistema",
-      "data": "18/08/2026 09:58:00",
-      "obs": "Importação Almoxerifado - linha 65",
-      "criado_em": "18/08/2026 09:58:00",
-      "item": "Atadura de algodão 15cm",
       "usuario": "Sistema"
     }
   ]
