@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 15:37:18",
+  "atualizado_em": "24/08/2026 15:38:07",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 26564,
-    "total_geral": 116969,
+    "total_farmacia": 26554,
+    "total_geral": 116959,
     "perto_de_terminar": 0,
     "zerados": 9
   },
@@ -7292,19 +7292,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 350,
-      "farmacia": 15,
+      "farmacia": 5,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 365,
+      "total": 355,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-24 14:16:35",
+      "atualizado_em": "2026-08-24 15:38:06",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -7318,7 +7318,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 15
+          "quantidade": 5
         }
       ],
       "minimo_manual": 0,
@@ -7326,9 +7326,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 1.17,
-      "total_saida_historica": 14,
-      "cobertura_dias": 312.9,
+      "media_diaria_saida": 2.0,
+      "total_saida_historica": 24,
+      "cobertura_dias": 177.5,
       "alerta_estoque": false
     },
     {
@@ -13845,6 +13845,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 820,
+      "item_id": 185,
+      "produto_nome": "Luva cirúrgica tam. 7,5",
+      "tipo": "Farmácia para Outro destino",
+      "origem": "Farmácia",
+      "destino": "Outro destino",
+      "quantidade": 10,
+      "responsavel": "Leiliana",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-24 15:38:06",
+      "item": "Luva cirúrgica tam. 7,5",
+      "usuario": "Leiliana"
+    },
     {
       "id": 819,
       "item_id": 89,
@@ -21328,21 +21343,6 @@
       "obs": "Importação Almoxerifado - linha 5",
       "criado_em": "18/08/2026 09:58:00",
       "item": "Soro Ringer Lactato 500ml",
-      "usuario": "Sistema"
-    },
-    {
-      "id": 320,
-      "item_id": 204,
-      "produto_nome": "Soro fisiológico 500ml",
-      "tipo": "entrada",
-      "origem": "Carga Almoxerifado",
-      "destino": "almoxarifado",
-      "quantidade": 1153,
-      "responsavel": "Sistema",
-      "data": "18/08/2026 09:58:00",
-      "obs": "Importação Almoxerifado - linha 4",
-      "criado_em": "18/08/2026 09:58:00",
-      "item": "Soro fisiológico 500ml",
       "usuario": "Sistema"
     }
   ]
