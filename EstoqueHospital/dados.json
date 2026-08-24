@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 13:49:40",
+  "atualizado_em": "24/08/2026 13:49:59",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 29812,
-    "total_geral": 120217,
+    "total_farmacia": 29802,
+    "total_geral": 120207,
     "perto_de_terminar": 0,
     "zerados": 3
   },
@@ -10211,19 +10211,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 2500,
-      "farmacia": 2168,
+      "farmacia": 2158,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 4668,
+      "total": 4658,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-24 11:46:26",
+      "atualizado_em": "2026-08-24 13:49:58",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -10237,7 +10237,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 2168
+          "quantidade": 2158
         }
       ],
       "minimo_manual": 0,
@@ -10245,9 +10245,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 9.17,
-      "total_saida_historica": 110,
-      "cobertura_dias": 509.2,
+      "media_diaria_saida": 10.0,
+      "total_saida_historica": 120,
+      "cobertura_dias": 465.8,
       "alerta_estoque": false
     },
     {
@@ -13923,6 +13923,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 603,
+      "item_id": 104,
+      "produto_nome": "Seringa 3ml",
+      "tipo": "Farmácia para Outro destino",
+      "origem": "Farmácia",
+      "destino": "Outro destino",
+      "quantidade": 10,
+      "responsavel": "Leiliana",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-24 13:49:58",
+      "item": "Seringa 3ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 602,
       "item_id": 184,
@@ -21406,21 +21421,6 @@
       "obs": "Carga inicial Farmácia - linha 90 | Validade: 2028-03",
       "criado_em": "13/08/2026 20:25:46",
       "item": "Metronidazol 500mg",
-      "usuario": "Carga inicial Farmácia"
-    },
-    {
-      "id": 103,
-      "item_id": 86,
-      "produto_nome": "Cloridrato de Metoclopramida",
-      "tipo": "Entrada direta na Farmácia",
-      "origem": "Carga inicial",
-      "destino": "Farmácia",
-      "quantidade": 269,
-      "responsavel": "Carga inicial Farmácia",
-      "data": "13/08/2026",
-      "obs": "Carga inicial Farmácia - linha 89 | Validade: 2027-11",
-      "criado_em": "13/08/2026 20:25:46",
-      "item": "Cloridrato de Metoclopramida",
       "usuario": "Carga inicial Farmácia"
     }
   ]
