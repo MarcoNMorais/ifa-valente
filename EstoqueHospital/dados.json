@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 14:10:07",
+  "atualizado_em": "24/08/2026 14:10:21",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 29355,
-    "total_geral": 119760,
+    "total_farmacia": 29354,
+    "total_geral": 119759,
     "perto_de_terminar": 0,
     "zerados": 3
   },
@@ -2301,19 +2301,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 4,
-      "farmacia": 1,
+      "farmacia": 0,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 5,
+      "total": 4,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-24 11:33:50",
+      "atualizado_em": "2026-08-24 14:10:20",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -2322,12 +2322,6 @@
           "validade": "",
           "lote": "",
           "quantidade": 4
-        },
-        {
-          "local": "farmacia",
-          "validade": "",
-          "lote": "",
-          "quantidade": 1
         }
       ],
       "minimo_manual": 0,
@@ -2335,9 +2329,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 0.25,
-      "total_saida_historica": 3,
-      "cobertura_dias": 20.0,
+      "media_diaria_saida": 0.33,
+      "total_saida_historica": 4,
+      "cobertura_dias": 12.0,
       "alerta_estoque": false
     },
     {
@@ -13918,6 +13912,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 627,
+      "item_id": 200,
+      "produto_nome": "Caixa de perfurocortante",
+      "tipo": "Farmácia para Outro destino",
+      "origem": "Farmácia",
+      "destino": "Outro destino",
+      "quantidade": 1,
+      "responsavel": "Leiliana",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-24 14:10:20",
+      "item": "Caixa de perfurocortante",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 626,
       "item_id": 21,
       "produto_nome": "Clonazepam gotas 25mg/ml",
@@ -21400,21 +21409,6 @@
       "obs": "Carga inicial Farmácia - linha 114",
       "criado_em": "13/08/2026 20:25:46",
       "item": "Sonda de Aspiração nº 12",
-      "usuario": "Carga inicial Farmácia"
-    },
-    {
-      "id": 127,
-      "item_id": 110,
-      "produto_nome": "Sonda de Aspiração nº 14",
-      "tipo": "Entrada direta na Farmácia",
-      "origem": "Carga inicial",
-      "destino": "Farmácia",
-      "quantidade": 12,
-      "responsavel": "Carga inicial Farmácia",
-      "data": "13/08/2026",
-      "obs": "Carga inicial Farmácia - linha 113",
-      "criado_em": "13/08/2026 20:25:46",
-      "item": "Sonda de Aspiração nº 14",
       "usuario": "Carga inicial Farmácia"
     }
   ]
