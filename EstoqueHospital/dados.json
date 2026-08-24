@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 11:19:38",
+  "atualizado_em": "24/08/2026 11:19:50",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 91033,
-    "total_farmacia": 33192,
-    "total_geral": 124225,
+    "total_farmacia": 33172,
+    "total_geral": 124205,
     "perto_de_terminar": 0,
     "zerados": 2
   },
@@ -8442,19 +8442,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 280,
+      "farmacia": 260,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 280,
+      "total": 260,
       "minimo": 0,
       "validade": "2027-12",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-20 13:12:54",
+      "atualizado_em": "2026-08-24 11:19:50",
       "validade_mais_proxima": "2027-12",
       "vencimento_mais_proximo": "2027-12",
       "lotes_validade": [
@@ -8462,7 +8462,7 @@
           "local": "farmacia",
           "validade": "2027-12",
           "lote": "",
-          "quantidade": 40
+          "quantidade": 20
         },
         {
           "local": "farmacia",
@@ -8476,9 +8476,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 0.0,
-      "total_saida_historica": 0,
-      "cobertura_dias": null,
+      "media_diaria_saida": 1.67,
+      "total_saida_historica": 20,
+      "cobertura_dias": 156.0,
       "alerta_estoque": false
     },
     {
@@ -13942,6 +13942,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 479,
+      "item_id": 12,
+      "produto_nome": "Morfina 10mg/ml 1ml",
+      "tipo": "Farmácia para ATENÇÃO BÁSICA",
+      "origem": "Farmácia",
+      "destino": "ATENÇÃO BÁSICA",
+      "quantidade": 20,
+      "responsavel": "Assucena",
+      "data": "2026-08-21",
+      "obs": "",
+      "criado_em": "2026-08-24 11:19:50",
+      "item": "Morfina 10mg/ml 1ml",
+      "usuario": "Assucena"
+    },
     {
       "id": 478,
       "item_id": 73,
