@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 11:31:07",
+  "atualizado_em": "24/08/2026 11:31:21",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 91033,
-    "total_farmacia": 31955,
-    "total_geral": 122988,
+    "total_farmacia": 31945,
+    "total_geral": 122978,
     "perto_de_terminar": 0,
     "zerados": 3
   },
@@ -9363,19 +9363,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 290,
+      "farmacia": 280,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 290,
+      "total": 280,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-20 13:12:54",
+      "atualizado_em": "2026-08-24 11:31:21",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -9383,7 +9383,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 290
+          "quantidade": 280
         }
       ],
       "minimo_manual": 0,
@@ -9391,9 +9391,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 0.0,
-      "total_saida_historica": 0,
-      "cobertura_dias": null,
+      "media_diaria_saida": 0.83,
+      "total_saida_historica": 10,
+      "cobertura_dias": 336.0,
       "alerta_estoque": false
     },
     {
@@ -14288,6 +14288,21 @@
       "criado_em": "2026-08-20 16:17:28",
       "item": "Captopril 25mg CPR",
       "usuario": "Leiliana"
+    },
+    {
+      "id": 518,
+      "item_id": 27,
+      "produto_nome": "Paracetamol 500mg",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 10,
+      "responsavel": "Assucena",
+      "data": "2026-08-15",
+      "obs": "",
+      "criado_em": "2026-08-24 11:31:21",
+      "item": "Paracetamol 500mg",
+      "usuario": "Assucena"
     },
     {
       "id": 517,
@@ -21410,21 +21425,6 @@
       "responsavel": "Carga inicial Farmácia",
       "data": "13/08/2026",
       "obs": "Carga inicial Farmácia - linha 12b | Validade: 2028-01",
-      "criado_em": "13/08/2026 20:25:46",
-      "item": "Morfina 10mg/ml 1ml",
-      "usuario": "Carga inicial Farmácia"
-    },
-    {
-      "id": 18,
-      "item_id": 12,
-      "produto_nome": "Morfina 10mg/ml 1ml",
-      "tipo": "Entrada direta na Farmácia",
-      "origem": "Carga inicial",
-      "destino": "Farmácia",
-      "quantidade": 40,
-      "responsavel": "Carga inicial Farmácia",
-      "data": "13/08/2026",
-      "obs": "Carga inicial Farmácia - linha 12 | Validade: 2027-12",
       "criado_em": "13/08/2026 20:25:46",
       "item": "Morfina 10mg/ml 1ml",
       "usuario": "Carga inicial Farmácia"
