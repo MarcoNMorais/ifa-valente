@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 15:14:03",
+  "atualizado_em": "24/08/2026 15:14:46",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 27830,
-    "total_geral": 118235,
+    "total_farmacia": 27829,
+    "total_geral": 118234,
     "perto_de_terminar": 0,
     "zerados": 7
   },
@@ -9788,19 +9788,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 33,
+      "farmacia": 32,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 33,
+      "total": 32,
       "minimo": 0,
       "validade": "12/26",
       "lote": "",
       "origem": "Carga Farmácia 227-288",
       "obs": "Importação Farmácia 227-288",
-      "atualizado_em": "2026-08-24 11:31:43",
+      "atualizado_em": "2026-08-24 15:14:45",
       "validade_mais_proxima": "12/26",
       "vencimento_mais_proximo": "12/26",
       "lotes_validade": [
@@ -9808,7 +9808,7 @@
           "local": "farmacia",
           "validade": "12/26",
           "lote": "",
-          "quantidade": 33
+          "quantidade": 32
         }
       ],
       "minimo_manual": 0,
@@ -9816,9 +9816,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 10,
-      "media_diaria_saida": 0.3,
-      "total_saida_historica": 3,
-      "cobertura_dias": 110.0,
+      "media_diaria_saida": 0.4,
+      "total_saida_historica": 4,
+      "cobertura_dias": 80.0,
       "alerta_estoque": false
     },
     {
@@ -13877,6 +13877,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 743,
+      "item_id": 252,
+      "produto_nome": "Salbutamol spray",
+      "tipo": "Farmácia para Outro destino",
+      "origem": "Farmácia",
+      "destino": "Outro destino",
+      "quantidade": 1,
+      "responsavel": "Leiliana",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-24 15:14:45",
+      "item": "Salbutamol spray",
+      "usuario": "Leiliana"
+    },
     {
       "id": 742,
       "item_id": 228,
@@ -21361,21 +21376,6 @@
       "criado_em": "18/08/2026 09:14:00",
       "item": "Dramin B6 ampola 10ml",
       "usuario": "Importação Farmácia"
-    },
-    {
-      "id": 243,
-      "item_id": 222,
-      "produto_nome": "Touca descartável",
-      "tipo": "Entrada direta na Farmácia",
-      "origem": "Carga inicial",
-      "destino": "Farmácia",
-      "quantidade": 158,
-      "responsavel": "Carga inicial Farmácia",
-      "data": "13/08/2026",
-      "obs": "Carga inicial Farmácia - linha 226",
-      "criado_em": "13/08/2026 20:25:46",
-      "item": "Touca descartável",
-      "usuario": "Carga inicial Farmácia"
     }
   ]
 }
