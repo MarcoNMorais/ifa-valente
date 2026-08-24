@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 15:36:43",
+  "atualizado_em": "24/08/2026 15:36:57",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 26589,
-    "total_geral": 116994,
+    "total_farmacia": 26569,
+    "total_geral": 116974,
     "perto_de_terminar": 0,
     "zerados": 9
   },
@@ -8262,19 +8262,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 66,
+      "farmacia": 46,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 66,
+      "total": 46,
       "minimo": 0,
       "validade": "2028-02",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-24 15:23:37",
+      "atualizado_em": "2026-08-24 15:36:56",
       "validade_mais_proxima": "2028-02",
       "vencimento_mais_proximo": "2028-02",
       "lotes_validade": [
@@ -8282,7 +8282,7 @@
           "local": "farmacia",
           "validade": "2028-02",
           "lote": "",
-          "quantidade": 36
+          "quantidade": 16
         },
         {
           "local": "farmacia",
@@ -8296,9 +8296,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 3.08,
-      "total_saida_historica": 37,
-      "cobertura_dias": 21.4,
+      "media_diaria_saida": 4.75,
+      "total_saida_historica": 57,
+      "cobertura_dias": 9.7,
       "alerta_estoque": false
     },
     {
@@ -13845,6 +13845,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 818,
+      "item_id": 11,
+      "produto_nome": "Midazolam 5mg/ml 10ml",
+      "tipo": "Farmácia para Outro destino",
+      "origem": "Farmácia",
+      "destino": "Outro destino",
+      "quantidade": 20,
+      "responsavel": "Leiliana",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-24 15:36:56",
+      "item": "Midazolam 5mg/ml 10ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 817,
       "item_id": 9,
@@ -21328,21 +21343,6 @@
       "obs": "Importação Almoxerifado - linha 3",
       "criado_em": "18/08/2026 09:58:00",
       "item": "Álcool 70% líquido 5L",
-      "usuario": "Sistema"
-    },
-    {
-      "id": 318,
-      "item_id": 202,
-      "produto_nome": "Soro fisiológico 100ml",
-      "tipo": "entrada",
-      "origem": "Carga Almoxerifado",
-      "destino": "almoxarifado",
-      "quantidade": 1500,
-      "responsavel": "Sistema",
-      "data": "18/08/2026 09:58:00",
-      "obs": "Importação Almoxerifado - linha 2",
-      "criado_em": "18/08/2026 09:58:00",
-      "item": "Soro fisiológico 100ml",
       "usuario": "Sistema"
     }
   ]
