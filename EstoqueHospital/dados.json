@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 15:14:46",
+  "atualizado_em": "24/08/2026 15:15:17",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 27829,
-    "total_geral": 118234,
+    "total_farmacia": 27809,
+    "total_geral": 118214,
     "perto_de_terminar": 0,
     "zerados": 7
   },
@@ -3936,19 +3936,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 800,
-      "farmacia": 115,
+      "farmacia": 95,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 915,
+      "total": 895,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-24 11:45:27",
+      "atualizado_em": "2026-08-24 15:15:16",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -3962,7 +3962,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 115
+          "quantidade": 95
         }
       ],
       "minimo_manual": 0,
@@ -3970,9 +3970,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 2.92,
-      "total_saida_historica": 35,
-      "cobertura_dias": 313.7,
+      "media_diaria_saida": 4.58,
+      "total_saida_historica": 55,
+      "cobertura_dias": 195.3,
       "alerta_estoque": false
     },
     {
@@ -13878,6 +13878,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 744,
+      "item_id": 178,
+      "produto_nome": "Dispositivo intravenoso Gelco nº 20",
+      "tipo": "Farmácia para Outro destino",
+      "origem": "Farmácia",
+      "destino": "Outro destino",
+      "quantidade": 20,
+      "responsavel": "Leiliana",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-24 15:15:16",
+      "item": "Dispositivo intravenoso Gelco nº 20",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 743,
       "item_id": 252,
       "produto_nome": "Salbutamol spray",
@@ -21360,21 +21375,6 @@
       "obs": "Importação Farmácia - linha 228 | validade: 03/27",
       "criado_em": "18/08/2026 09:14:00",
       "item": "Meropenem 500mg",
-      "usuario": "Importação Farmácia"
-    },
-    {
-      "id": 244,
-      "item_id": 223,
-      "produto_nome": "Dramin B6 ampola 10ml",
-      "tipo": "Entrada direta na Farmácia",
-      "origem": "Importação lista Farmácia 227-288",
-      "destino": "Farmácia",
-      "quantidade": 110,
-      "responsavel": "Importação Farmácia",
-      "data": "18/08/2026",
-      "obs": "Importação Farmácia - linha 227 | validade: 05/28",
-      "criado_em": "18/08/2026 09:14:00",
-      "item": "Dramin B6 ampola 10ml",
       "usuario": "Importação Farmácia"
     }
   ]
