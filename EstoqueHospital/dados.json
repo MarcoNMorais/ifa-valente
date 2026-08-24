@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 11:21:37",
+  "atualizado_em": "24/08/2026 11:21:49",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 91033,
-    "total_farmacia": 33103,
-    "total_geral": 124136,
+    "total_farmacia": 33043,
+    "total_geral": 124076,
     "perto_de_terminar": 0,
     "zerados": 2
   },
@@ -12500,19 +12500,19 @@
       "tipo": "Insumo",
       "unidade": "Unidade",
       "almoxarifado": 1320,
-      "farmacia": 240,
+      "farmacia": 180,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1560,
+      "total": 1500,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-21 10:45:35",
+      "atualizado_em": "2026-08-24 11:21:49",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -12526,7 +12526,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 240
+          "quantidade": 180
         }
       ],
       "minimo_manual": 0,
@@ -12534,9 +12534,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 0.0,
-      "total_saida_historica": 0,
-      "cobertura_dias": null,
+      "media_diaria_saida": 5.0,
+      "total_saida_historica": 60,
+      "cobertura_dias": 300.0,
       "alerta_estoque": false
     },
     {
@@ -14301,6 +14301,21 @@
       "criado_em": "2026-08-20 16:17:28",
       "item": "Captopril 25mg CPR",
       "usuario": "Leiliana"
+    },
+    {
+      "id": 486,
+      "item_id": 202,
+      "produto_nome": "Soro fisiológico 100ml",
+      "tipo": "Farmácia para Posto de Internamento",
+      "origem": "Farmácia",
+      "destino": "Posto de Internamento",
+      "quantidade": 60,
+      "responsavel": "Assucena",
+      "data": "2026-08-14",
+      "obs": "",
+      "criado_em": "2026-08-24 11:21:49",
+      "item": "Soro fisiológico 100ml",
+      "usuario": "Assucena"
     },
     {
       "id": 485,
