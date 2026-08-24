@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "24/08/2026 16:07:22",
+  "atualizado_em": "24/08/2026 16:07:35",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
-    "total_almoxarifado": 89630,
-    "total_farmacia": 25784,
+    "total_almoxarifado": 89380,
+    "total_farmacia": 26034,
     "total_geral": 115414,
     "perto_de_terminar": 0,
     "zerados": 11
@@ -10085,8 +10085,8 @@
       "nome": "Seringa 20ml",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 2750,
-      "farmacia": 0,
+      "almoxarifado": 2500,
+      "farmacia": 250,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -10098,7 +10098,7 @@
       "lote": "",
       "origem": "Carga Almoxerifado",
       "obs": "Importação Almoxerifado",
-      "atualizado_em": "2026-08-20 13:12:54",
+      "atualizado_em": "2026-08-24 16:07:35",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -10106,7 +10106,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 2750
+          "quantidade": 2500
+        },
+        {
+          "local": "farmacia",
+          "validade": "",
+          "lote": "",
+          "quantidade": 250
         }
       ],
       "minimo_manual": 0,
@@ -13831,6 +13837,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 916,
+      "item_id": 274,
+      "produto_nome": "Seringa 20ml",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 250,
+      "responsavel": "Leiliana",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-24 16:07:35",
+      "item": "Seringa 20ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 915,
       "item_id": 102,
@@ -21315,21 +21336,6 @@
       "criado_em": "2026-08-21 10:49:18",
       "item": "Dispositivo intravenoso Gelco nº 20",
       "usuario": "Assucena"
-    },
-    {
-      "id": 416,
-      "item_id": 158,
-      "produto_nome": "Equipo para transfusão",
-      "tipo": "entrada",
-      "origem": "Carga Almoxerifado",
-      "destino": "almoxarifado",
-      "quantidade": 40,
-      "responsavel": "Sistema",
-      "data": "18/08/2026 09:58:00",
-      "obs": "Importação Almoxerifado - linha 100",
-      "criado_em": "18/08/2026 09:58:00",
-      "item": "Equipo para transfusão",
-      "usuario": "Sistema"
     }
   ]
 }
