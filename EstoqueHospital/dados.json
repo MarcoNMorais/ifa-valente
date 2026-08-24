@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "24/08/2026 11:34:01",
+  "atualizado_em": "24/08/2026 11:34:32",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
-    "total_almoxarifado": 91033,
-    "total_farmacia": 31401,
+    "total_almoxarifado": 90783,
+    "total_farmacia": 31651,
     "total_geral": 122434,
     "perto_de_terminar": 0,
     "zerados": 3
@@ -4497,8 +4497,8 @@
       "nome": "Equipo micro",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 1325,
-      "farmacia": 0,
+      "almoxarifado": 1075,
+      "farmacia": 250,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -4510,7 +4510,7 @@
       "lote": "",
       "origem": "Carga Almoxerifado",
       "obs": "Importação Almoxerifado",
-      "atualizado_em": "2026-08-20 13:12:54",
+      "atualizado_em": "2026-08-24 11:34:32",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -4518,7 +4518,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 1325
+          "quantidade": 1075
+        },
+        {
+          "local": "farmacia",
+          "validade": "",
+          "lote": "",
+          "quantidade": 250
         }
       ],
       "minimo_manual": 0,
@@ -13930,6 +13936,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 532,
+      "item_id": 275,
+      "produto_nome": "Equipo micro",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 250,
+      "responsavel": "Assucena",
+      "data": "2026-08-21",
+      "obs": "",
+      "criado_em": "2026-08-24 11:34:32",
+      "item": "Equipo micro",
+      "usuario": "Assucena"
+    },
+    {
       "id": 479,
       "item_id": 12,
       "produto_nome": "Morfina 10mg/ml 1ml",
@@ -21412,21 +21433,6 @@
       "obs": "Carga inicial Farmácia - linha 21 | Validade: 2028-01",
       "criado_em": "13/08/2026 20:25:46",
       "item": "Clonazepam gotas 25mg/ml",
-      "usuario": "Carga inicial Farmácia"
-    },
-    {
-      "id": 32,
-      "item_id": 20,
-      "produto_nome": "Nitroprussiato de sódio 25mg/ml",
-      "tipo": "Entrada direta na Farmácia",
-      "origem": "Carga inicial",
-      "destino": "Farmácia",
-      "quantidade": 8,
-      "responsavel": "Carga inicial Farmácia",
-      "data": "13/08/2026",
-      "obs": "Carga inicial Farmácia - linha 20b | Validade: 2027-10",
-      "criado_em": "13/08/2026 20:25:46",
-      "item": "Nitroprussiato de sódio 25mg/ml",
       "usuario": "Carga inicial Farmácia"
     }
   ]
