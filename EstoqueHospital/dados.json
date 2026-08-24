@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 15:28:53",
+  "atualizado_em": "24/08/2026 15:29:06",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 26940,
-    "total_geral": 117345,
+    "total_farmacia": 26920,
+    "total_geral": 117325,
     "perto_de_terminar": 0,
     "zerados": 8
   },
@@ -3437,19 +3437,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 1040,
+      "farmacia": 1020,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1040,
+      "total": 1020,
       "minimo": 0,
       "validade": "2027-10",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-24 15:26:18",
+      "atualizado_em": "2026-08-24 15:29:06",
       "validade_mais_proxima": "2027-10",
       "vencimento_mais_proximo": "2027-10",
       "lotes_validade": [
@@ -3457,7 +3457,7 @@
           "local": "farmacia",
           "validade": "2027-10",
           "lote": "",
-          "quantidade": 1040
+          "quantidade": 1020
         }
       ],
       "minimo_manual": 0,
@@ -3465,9 +3465,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 19.17,
-      "total_saida_historica": 230,
-      "cobertura_dias": 54.3,
+      "media_diaria_saida": 20.83,
+      "total_saida_historica": 250,
+      "cobertura_dias": 49.0,
       "alerta_estoque": false
     },
     {
@@ -13859,6 +13859,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 791,
+      "item_id": 68,
+      "produto_nome": "Dexametasona",
+      "tipo": "Farmácia para Outro destino",
+      "origem": "Farmácia",
+      "destino": "Outro destino",
+      "quantidade": 20,
+      "responsavel": "Leiliana",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-24 15:29:06",
+      "item": "Dexametasona",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 790,
       "item_id": 76,
       "produto_nome": "Escopolamina + Dipirona",
@@ -21339,21 +21354,6 @@
       "responsavel": "Importação Farmácia",
       "data": "18/08/2026",
       "obs": "Importação Farmácia - linha 267b | validade: 01/28",
-      "criado_em": "18/08/2026 09:14:00",
-      "item": "Amlodipino 5mg CPR",
-      "usuario": "Importação Farmácia"
-    },
-    {
-      "id": 291,
-      "item_id": 262,
-      "produto_nome": "Amlodipino 5mg CPR",
-      "tipo": "Entrada direta na Farmácia",
-      "origem": "Importação lista Farmácia 227-288",
-      "destino": "Farmácia",
-      "quantidade": 60,
-      "responsavel": "Importação Farmácia",
-      "data": "18/08/2026",
-      "obs": "Importação Farmácia - linha 267 | validade: 12/26",
       "criado_em": "18/08/2026 09:14:00",
       "item": "Amlodipino 5mg CPR",
       "usuario": "Importação Farmácia"
