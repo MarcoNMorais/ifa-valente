@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 15:06:19",
+  "atualizado_em": "24/08/2026 15:06:33",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 28129,
-    "total_geral": 118534,
+    "total_farmacia": 28117,
+    "total_geral": 118522,
     "perto_de_terminar": 0,
     "zerados": 7
   },
@@ -2700,19 +2700,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 172,
+      "farmacia": 160,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 172,
+      "total": 160,
       "minimo": 0,
       "validade": "2028-01",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-24 14:56:28",
+      "atualizado_em": "2026-08-24 15:06:32",
       "validade_mais_proxima": "2028-01",
       "vencimento_mais_proximo": "2028-01",
       "lotes_validade": [
@@ -2720,7 +2720,7 @@
           "local": "farmacia",
           "validade": "2028-01",
           "lote": "",
-          "quantidade": 172
+          "quantidade": 160
         }
       ],
       "minimo_manual": 0,
@@ -2728,9 +2728,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 6.5,
-      "total_saida_historica": 78,
-      "cobertura_dias": 26.5,
+      "media_diaria_saida": 7.5,
+      "total_saida_historica": 90,
+      "cobertura_dias": 21.3,
       "alerta_estoque": false
     },
     {
@@ -13878,6 +13878,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 725,
+      "item_id": 60,
+      "produto_nome": "Cetoprofeno EV 100mg",
+      "tipo": "Farmácia para Outro destino",
+      "origem": "Farmácia",
+      "destino": "Outro destino",
+      "quantidade": 12,
+      "responsavel": "Leiliana",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-24 15:06:32",
+      "item": "Cetoprofeno EV 100mg",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 724,
       "item_id": 66,
       "produto_nome": "Complexo B",
@@ -21360,21 +21375,6 @@
       "obs": "Carga inicial Farmácia - linha 209",
       "criado_em": "13/08/2026 20:25:46",
       "item": "Soro glicose 5% 250ml",
-      "usuario": "Carga inicial Farmácia"
-    },
-    {
-      "id": 225,
-      "item_id": 205,
-      "produto_nome": "Soro glicose 5% 500ml",
-      "tipo": "Entrada direta na Farmácia",
-      "origem": "Carga inicial",
-      "destino": "Farmácia",
-      "quantidade": 7,
-      "responsavel": "Carga inicial Farmácia",
-      "data": "13/08/2026",
-      "obs": "Carga inicial Farmácia - linha 208",
-      "criado_em": "13/08/2026 20:25:46",
-      "item": "Soro glicose 5% 500ml",
       "usuario": "Carga inicial Farmácia"
     }
   ]
