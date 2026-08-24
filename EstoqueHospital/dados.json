@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 14:31:36",
+  "atualizado_em": "24/08/2026 14:32:46",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 28890,
-    "total_geral": 119295,
+    "total_farmacia": 28881,
+    "total_geral": 119286,
     "perto_de_terminar": 0,
     "zerados": 5
   },
@@ -4327,19 +4327,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 22,
+      "farmacia": 13,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 22,
+      "total": 13,
       "minimo": 0,
       "validade": "2027-12",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-24 14:18:06",
+      "atualizado_em": "2026-08-24 14:32:45",
       "validade_mais_proxima": "2027-12",
       "vencimento_mais_proximo": "2027-12",
       "lotes_validade": [
@@ -4347,7 +4347,7 @@
           "local": "farmacia",
           "validade": "2027-12",
           "lote": "",
-          "quantidade": 22
+          "quantidade": 13
         }
       ],
       "minimo_manual": 0,
@@ -4355,9 +4355,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 2.08,
-      "total_saida_historica": 25,
-      "cobertura_dias": 10.6,
+      "media_diaria_saida": 2.83,
+      "total_saida_historica": 34,
+      "cobertura_dias": 4.6,
       "alerta_estoque": false
     },
     {
@@ -13898,6 +13898,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 661,
+      "item_id": 73,
+      "produto_nome": "Epinefrina 1mg",
+      "tipo": "Farmácia para Outro destino",
+      "origem": "Farmácia",
+      "destino": "Outro destino",
+      "quantidade": 9,
+      "responsavel": "Leiliana",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-24 14:32:45",
+      "item": "Epinefrina 1mg",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 660,
       "item_id": 9,
       "produto_nome": "Fentanila 50mcg/ml",
@@ -21380,21 +21395,6 @@
       "obs": "Carga inicial Farmácia - linha 145",
       "criado_em": "13/08/2026 20:25:46",
       "item": "Sonda Uretral nº 08",
-      "usuario": "Carga inicial Farmácia"
-    },
-    {
-      "id": 161,
-      "item_id": 141,
-      "produto_nome": "Sonda Uretral nº 14",
-      "tipo": "Entrada direta na Farmácia",
-      "origem": "Carga inicial",
-      "destino": "Farmácia",
-      "quantidade": 55,
-      "responsavel": "Carga inicial Farmácia",
-      "data": "13/08/2026",
-      "obs": "Carga inicial Farmácia - linha 144",
-      "criado_em": "13/08/2026 20:25:46",
-      "item": "Sonda Uretral nº 14",
       "usuario": "Carga inicial Farmácia"
     }
   ]
