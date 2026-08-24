@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 14:43:03",
+  "atualizado_em": "24/08/2026 14:43:20",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 28634,
-    "total_geral": 119039,
+    "total_farmacia": 28629,
+    "total_geral": 119034,
     "perto_de_terminar": 0,
     "zerados": 6
   },
@@ -5894,19 +5894,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 49,
+      "farmacia": 44,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 49,
+      "total": 44,
       "minimo": 0,
       "validade": "2027-02",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-20 13:12:54",
+      "atualizado_em": "2026-08-24 14:43:19",
       "validade_mais_proxima": "2027-02",
       "vencimento_mais_proximo": "2027-02",
       "lotes_validade": [
@@ -5914,7 +5914,7 @@
           "local": "farmacia",
           "validade": "2027-02",
           "lote": "",
-          "quantidade": 49
+          "quantidade": 44
         }
       ],
       "minimo_manual": 0,
@@ -5922,9 +5922,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 0.0,
-      "total_saida_historica": 0,
-      "cobertura_dias": null,
+      "media_diaria_saida": 0.42,
+      "total_saida_historica": 5,
+      "cobertura_dias": 105.6,
       "alerta_estoque": false
     },
     {
@@ -13891,6 +13891,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 686,
+      "item_id": 10,
+      "produto_nome": "Flumazenil 0,1mg/ml",
+      "tipo": "Farmácia para Outro destino",
+      "origem": "Farmácia",
+      "destino": "Outro destino",
+      "quantidade": 5,
+      "responsavel": "Leiliana",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-24 14:43:19",
+      "item": "Flumazenil 0,1mg/ml",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 685,
       "item_id": 223,
       "produto_nome": "Dramin B6 ampola 10ml",
@@ -21373,21 +21388,6 @@
       "obs": "Carga inicial Farmácia - linha 170",
       "criado_em": "13/08/2026 20:25:46",
       "item": "Sonda Foley nº 14 - 2 vias",
-      "usuario": "Carga inicial Farmácia"
-    },
-    {
-      "id": 186,
-      "item_id": 166,
-      "produto_nome": "Sonda Foley nº 20 - 3 vias",
-      "tipo": "Entrada direta na Farmácia",
-      "origem": "Carga inicial",
-      "destino": "Farmácia",
-      "quantidade": 14,
-      "responsavel": "Carga inicial Farmácia",
-      "data": "13/08/2026",
-      "obs": "Carga inicial Farmácia - linha 169",
-      "criado_em": "13/08/2026 20:25:46",
-      "item": "Sonda Foley nº 20 - 3 vias",
       "usuario": "Carga inicial Farmácia"
     }
   ]
