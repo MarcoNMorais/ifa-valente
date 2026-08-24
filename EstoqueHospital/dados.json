@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 13:48:58",
+  "atualizado_em": "24/08/2026 13:49:16",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 29832,
-    "total_geral": 120237,
+    "total_farmacia": 29822,
+    "total_geral": 120227,
     "perto_de_terminar": 0,
     "zerados": 3
   },
@@ -7372,19 +7372,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 230,
-      "farmacia": 10,
+      "farmacia": 0,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 240,
+      "total": 230,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-20 13:12:54",
+      "atualizado_em": "2026-08-24 13:49:15",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -7393,12 +7393,6 @@
           "validade": "",
           "lote": "",
           "quantidade": 230
-        },
-        {
-          "local": "farmacia",
-          "validade": "",
-          "lote": "",
-          "quantidade": 10
         }
       ],
       "minimo_manual": 0,
@@ -7406,9 +7400,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 0.0,
-      "total_saida_historica": 0,
-      "cobertura_dias": null,
+      "media_diaria_saida": 0.83,
+      "total_saida_historica": 10,
+      "cobertura_dias": 276.0,
       "alerta_estoque": false
     },
     {
@@ -13929,6 +13923,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 601,
+      "item_id": 186,
+      "produto_nome": "Luva cirúrgica tam. 8",
+      "tipo": "Farmácia para Outro destino",
+      "origem": "Farmácia",
+      "destino": "Outro destino",
+      "quantidade": 10,
+      "responsavel": "Leiliana",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-24 13:49:15",
+      "item": "Luva cirúrgica tam. 8",
+      "usuario": "Leiliana"
+    },
     {
       "id": 600,
       "item_id": 84,
@@ -21412,21 +21421,6 @@
       "obs": "Carga inicial Farmácia - linha 88 | Validade: 2027-04",
       "criado_em": "13/08/2026 20:25:46",
       "item": "Lidocaína Gel",
-      "usuario": "Carga inicial Farmácia"
-    },
-    {
-      "id": 101,
-      "item_id": 84,
-      "produto_nome": "Lidocaína",
-      "tipo": "Entrada direta na Farmácia",
-      "origem": "Carga inicial",
-      "destino": "Farmácia",
-      "quantidade": 59,
-      "responsavel": "Carga inicial Farmácia",
-      "data": "13/08/2026",
-      "obs": "Carga inicial Farmácia - linha 87 | Validade: 2027-02",
-      "criado_em": "13/08/2026 20:25:46",
-      "item": "Lidocaína",
       "usuario": "Carga inicial Farmácia"
     }
   ]
