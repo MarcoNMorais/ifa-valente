@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 11:45:27",
+  "atualizado_em": "24/08/2026 11:45:37",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 30956,
-    "total_geral": 121361,
+    "total_farmacia": 30936,
+    "total_geral": 121341,
     "perto_de_terminar": 0,
     "zerados": 3
   },
@@ -4001,19 +4001,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 1500,
-      "farmacia": 168,
+      "farmacia": 148,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1668,
+      "total": 1648,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-08-24 11:37:35",
+      "atualizado_em": "2026-08-24 11:45:36",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -4027,7 +4027,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 168
+          "quantidade": 148
         }
       ],
       "minimo_manual": 0,
@@ -4035,9 +4035,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 6.67,
-      "total_saida_historica": 80,
-      "cobertura_dias": 250.2,
+      "media_diaria_saida": 8.33,
+      "total_saida_historica": 100,
+      "cobertura_dias": 197.8,
       "alerta_estoque": false
     },
     {
@@ -14371,6 +14371,21 @@
       "usuario": "Leiliana"
     },
     {
+      "id": 569,
+      "item_id": 177,
+      "produto_nome": "Dispositivo intravenoso Gelco nº 22",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 20,
+      "responsavel": "Assucena",
+      "data": "2026-08-17",
+      "obs": "",
+      "criado_em": "2026-08-24 11:45:36",
+      "item": "Dispositivo intravenoso Gelco nº 22",
+      "usuario": "Assucena"
+    },
+    {
       "id": 568,
       "item_id": 178,
       "produto_nome": "Dispositivo intravenoso Gelco nº 20",
@@ -21418,21 +21433,6 @@
       "obs": "Carga inicial Farmácia - linha 56 | Validade: 2027-05",
       "criado_em": "13/08/2026 20:25:46",
       "item": "Atropina 0,25mg",
-      "usuario": "Carga inicial Farmácia"
-    },
-    {
-      "id": 69,
-      "item_id": 53,
-      "produto_nome": "Ácido Tranexâmico 50mg",
-      "tipo": "Entrada direta na Farmácia",
-      "origem": "Carga inicial",
-      "destino": "Farmácia",
-      "quantidade": 300,
-      "responsavel": "Carga inicial Farmácia",
-      "data": "13/08/2026",
-      "obs": "Carga inicial Farmácia - linha 55 | Validade: 2027-05",
-      "criado_em": "13/08/2026 20:25:46",
-      "item": "Ácido Tranexâmico 50mg",
       "usuario": "Carga inicial Farmácia"
     }
   ]
