@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 11:39:41",
+  "atualizado_em": "24/08/2026 11:39:58",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 31852,
-    "total_geral": 122257,
+    "total_farmacia": 31652,
+    "total_geral": 122057,
     "perto_de_terminar": 0,
     "zerados": 3
   },
@@ -7464,19 +7464,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 1200,
+      "farmacia": 1000,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1200,
+      "total": 1000,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-24 11:32:12",
+      "atualizado_em": "2026-08-24 11:39:58",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -7484,7 +7484,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 1200
+          "quantidade": 1000
         }
       ],
       "minimo_manual": 0,
@@ -7492,9 +7492,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 50.0,
-      "total_saida_historica": 600,
-      "cobertura_dias": 24.0,
+      "media_diaria_saida": 66.67,
+      "total_saida_historica": 800,
+      "cobertura_dias": 15.0,
       "alerta_estoque": false
     },
     {
@@ -14369,6 +14369,21 @@
       "criado_em": "2026-08-20 16:17:28",
       "item": "Captopril 25mg CPR",
       "usuario": "Leiliana"
+    },
+    {
+      "id": 546,
+      "item_id": 181,
+      "produto_nome": "Luva de látex tam. M",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 200,
+      "responsavel": "Assucena",
+      "data": "2026-08-16",
+      "obs": "",
+      "criado_em": "2026-08-24 11:39:58",
+      "item": "Luva de látex tam. M",
+      "usuario": "Assucena"
     },
     {
       "id": 545,
@@ -21418,21 +21433,6 @@
       "obs": "Carga inicial Farmácia - linha 33 | Validade: 2027-09",
       "criado_em": "13/08/2026 20:25:46",
       "item": "Atorvastatina 20mg CPR",
-      "usuario": "Carga inicial Farmácia"
-    },
-    {
-      "id": 46,
-      "item_id": 32,
-      "produto_nome": "Aciclovir 200mg comprimido",
-      "tipo": "Entrada direta na Farmácia",
-      "origem": "Carga inicial",
-      "destino": "Farmácia",
-      "quantidade": 60,
-      "responsavel": "Carga inicial Farmácia",
-      "data": "13/08/2026",
-      "obs": "Carga inicial Farmácia - linha 32 | Validade: 2027-07",
-      "criado_em": "13/08/2026 20:25:46",
-      "item": "Aciclovir 200mg comprimido",
       "usuario": "Carga inicial Farmácia"
     }
   ]
