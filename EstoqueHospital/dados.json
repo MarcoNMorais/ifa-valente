@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 14:43:20",
+  "atualizado_em": "24/08/2026 14:44:16",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 28629,
-    "total_geral": 119034,
+    "total_farmacia": 28609,
+    "total_geral": 119014,
     "perto_de_terminar": 0,
     "zerados": 6
   },
@@ -3989,19 +3989,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 1500,
-      "farmacia": 128,
+      "farmacia": 108,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1628,
+      "total": 1608,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-08-24 14:04:58",
+      "atualizado_em": "2026-08-24 14:44:16",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -4015,7 +4015,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 128
+          "quantidade": 108
         }
       ],
       "minimo_manual": 0,
@@ -4023,9 +4023,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 10.0,
-      "total_saida_historica": 120,
-      "cobertura_dias": 162.8,
+      "media_diaria_saida": 11.67,
+      "total_saida_historica": 140,
+      "cobertura_dias": 137.8,
       "alerta_estoque": false
     },
     {
@@ -13891,6 +13891,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 687,
+      "item_id": 177,
+      "produto_nome": "Dispositivo intravenoso Gelco nº 22",
+      "tipo": "Farmácia para Outro destino",
+      "origem": "Farmácia",
+      "destino": "Outro destino",
+      "quantidade": 20,
+      "responsavel": "Leiliana",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-24 14:44:16",
+      "item": "Dispositivo intravenoso Gelco nº 22",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 686,
       "item_id": 10,
       "produto_nome": "Flumazenil 0,1mg/ml",
@@ -21373,21 +21388,6 @@
       "obs": "Carga inicial Farmácia - linha 171",
       "criado_em": "13/08/2026 20:25:46",
       "item": "Sonda Foley nº 22 - 2 vias",
-      "usuario": "Carga inicial Farmácia"
-    },
-    {
-      "id": 187,
-      "item_id": 167,
-      "produto_nome": "Sonda Foley nº 14 - 2 vias",
-      "tipo": "Entrada direta na Farmácia",
-      "origem": "Carga inicial",
-      "destino": "Farmácia",
-      "quantidade": 24,
-      "responsavel": "Carga inicial Farmácia",
-      "data": "13/08/2026",
-      "obs": "Carga inicial Farmácia - linha 170",
-      "criado_em": "13/08/2026 20:25:46",
-      "item": "Sonda Foley nº 14 - 2 vias",
       "usuario": "Carga inicial Farmácia"
     }
   ]
