@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 15:43:34",
+  "atualizado_em": "24/08/2026 15:43:44",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 25955,
-    "total_geral": 116360,
+    "total_farmacia": 25949,
+    "total_geral": 116354,
     "perto_de_terminar": 0,
     "zerados": 9
   },
@@ -2620,19 +2620,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 147,
+      "farmacia": 141,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 147,
+      "total": 141,
       "minimo": 0,
       "validade": "2028-01",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-24 15:41:33",
+      "atualizado_em": "2026-08-24 15:43:44",
       "validade_mais_proxima": "2028-01",
       "vencimento_mais_proximo": "2028-01",
       "lotes_validade": [
@@ -2640,7 +2640,7 @@
           "local": "farmacia",
           "validade": "2028-01",
           "lote": "",
-          "quantidade": 147
+          "quantidade": 141
         }
       ],
       "minimo_manual": 0,
@@ -2648,9 +2648,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 15.08,
-      "total_saida_historica": 181,
-      "cobertura_dias": 9.7,
+      "media_diaria_saida": 15.58,
+      "total_saida_historica": 187,
+      "cobertura_dias": 9.0,
       "alerta_estoque": false
     },
     {
@@ -13840,6 +13840,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 843,
+      "item_id": 59,
+      "produto_nome": "Ceftriaxona 1g",
+      "tipo": "Farmácia para Outro destino",
+      "origem": "Farmácia",
+      "destino": "Outro destino",
+      "quantidade": 6,
+      "responsavel": "Leiliana",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-24 15:43:44",
+      "item": "Ceftriaxona 1g",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 842,
       "item_id": 60,
       "produto_nome": "Cetoprofeno EV 100mg",
@@ -21322,21 +21337,6 @@
       "obs": "Importação Almoxerifado - linha 28",
       "criado_em": "18/08/2026 09:58:00",
       "item": "Luva M procedimento",
-      "usuario": "Sistema"
-    },
-    {
-      "id": 343,
-      "item_id": 206,
-      "produto_nome": "Soro glicose 5% 250ml",
-      "tipo": "entrada",
-      "origem": "Carga Almoxerifado",
-      "destino": "almoxarifado",
-      "quantidade": 78,
-      "responsavel": "Sistema",
-      "data": "18/08/2026 09:58:00",
-      "obs": "Importação Almoxerifado - linha 27",
-      "criado_em": "18/08/2026 09:58:00",
-      "item": "Soro glicose 5% 250ml",
       "usuario": "Sistema"
     }
   ]
