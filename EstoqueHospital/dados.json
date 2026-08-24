@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 15:52:00",
+  "atualizado_em": "24/08/2026 15:52:11",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 25522,
-    "total_geral": 115927,
+    "total_farmacia": 25512,
+    "total_geral": 115917,
     "perto_de_terminar": 0,
     "zerados": 9
   },
@@ -3929,19 +3929,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 800,
-      "farmacia": 55,
+      "farmacia": 45,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 855,
+      "total": 845,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-24 15:42:38",
+      "atualizado_em": "2026-08-24 15:52:10",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -3955,7 +3955,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 55
+          "quantidade": 45
         }
       ],
       "minimo_manual": 0,
@@ -3963,9 +3963,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 7.92,
-      "total_saida_historica": 95,
-      "cobertura_dias": 108.0,
+      "media_diaria_saida": 8.75,
+      "total_saida_historica": 105,
+      "cobertura_dias": 96.6,
       "alerta_estoque": false
     },
     {
@@ -13834,6 +13834,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 872,
+      "item_id": 178,
+      "produto_nome": "Dispositivo intravenoso Gelco nº 20",
+      "tipo": "Farmácia para Outro destino",
+      "origem": "Farmácia",
+      "destino": "Outro destino",
+      "quantidade": 10,
+      "responsavel": "Leiliana",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-24 15:52:10",
+      "item": "Dispositivo intravenoso Gelco nº 20",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 871,
       "item_id": 177,
       "produto_nome": "Dispositivo intravenoso Gelco nº 22",
@@ -21316,21 +21331,6 @@
       "obs": "Importação Almoxerifado - linha 57",
       "criado_em": "18/08/2026 09:58:00",
       "item": "Acetilcisteína XRP",
-      "usuario": "Sistema"
-    },
-    {
-      "id": 372,
-      "item_id": 302,
-      "produto_nome": "Umidificador completo",
-      "tipo": "entrada",
-      "origem": "Carga Almoxerifado",
-      "destino": "almoxarifado",
-      "quantidade": 6,
-      "responsavel": "Sistema",
-      "data": "18/08/2026 09:58:00",
-      "obs": "Importação Almoxerifado - linha 56",
-      "criado_em": "18/08/2026 09:58:00",
-      "item": "Umidificador completo",
       "usuario": "Sistema"
     }
   ]
