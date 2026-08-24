@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 14:19:37",
+  "atualizado_em": "24/08/2026 14:19:51",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 29157,
-    "total_geral": 119562,
+    "total_farmacia": 29137,
+    "total_geral": 119542,
     "perto_de_terminar": 0,
     "zerados": 3
   },
@@ -10199,19 +10199,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 2500,
-      "farmacia": 2128,
+      "farmacia": 2108,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 4628,
+      "total": 4608,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-24 14:06:11",
+      "atualizado_em": "2026-08-24 14:19:50",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -10225,7 +10225,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 2128
+          "quantidade": 2108
         }
       ],
       "minimo_manual": 0,
@@ -10233,9 +10233,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 12.5,
-      "total_saida_historica": 150,
-      "cobertura_dias": 370.2,
+      "media_diaria_saida": 14.17,
+      "total_saida_historica": 170,
+      "cobertura_dias": 325.3,
       "alerta_estoque": false
     },
     {
@@ -13911,6 +13911,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 643,
+      "item_id": 104,
+      "produto_nome": "Seringa 3ml",
+      "tipo": "Farmácia para Outro destino",
+      "origem": "Farmácia",
+      "destino": "Outro destino",
+      "quantidade": 20,
+      "responsavel": "Leiliana",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-24 14:19:50",
+      "item": "Seringa 3ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 642,
       "item_id": 98,
@@ -21394,21 +21409,6 @@
       "obs": "Carga inicial Farmácia - linha 128 | Validade: 2027-06",
       "criado_em": "13/08/2026 20:25:46",
       "item": "Diazepam 5mg CPR",
-      "usuario": "Carga inicial Farmácia"
-    },
-    {
-      "id": 143,
-      "item_id": 124,
-      "produto_nome": "Sulfato ferroso 40mg de ferro",
-      "tipo": "Entrada direta na Farmácia",
-      "origem": "Carga inicial",
-      "destino": "Farmácia",
-      "quantidade": 220,
-      "responsavel": "Carga inicial Farmácia",
-      "data": "13/08/2026",
-      "obs": "Carga inicial Farmácia - linha 127 | Validade: 2027-04",
-      "criado_em": "13/08/2026 20:25:46",
-      "item": "Sulfato ferroso 40mg de ferro",
       "usuario": "Carga inicial Farmácia"
     }
   ]
