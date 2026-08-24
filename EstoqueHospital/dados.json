@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 14:57:24",
+  "atualizado_em": "24/08/2026 14:57:51",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 28217,
-    "total_geral": 118622,
+    "total_farmacia": 28207,
+    "total_geral": 118612,
     "perto_de_terminar": 0,
     "zerados": 7
   },
@@ -7128,19 +7128,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 95,
+      "farmacia": 85,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 95,
+      "total": 85,
       "minimo": 0,
       "validade": "03/27",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-20 13:12:54",
+      "atualizado_em": "2026-08-24 14:57:50",
       "validade_mais_proxima": "03/27",
       "vencimento_mais_proximo": "03/27",
       "lotes_validade": [
@@ -7154,7 +7154,7 @@
           "local": "farmacia",
           "validade": "2028-01",
           "lote": "",
-          "quantidade": 45
+          "quantidade": 35
         }
       ],
       "minimo_manual": 0,
@@ -7162,9 +7162,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 0.0,
-      "total_saida_historica": 0,
-      "cobertura_dias": null,
+      "media_diaria_saida": 0.83,
+      "total_saida_historica": 10,
+      "cobertura_dias": 102.0,
       "alerta_estoque": false
     },
     {
@@ -13883,6 +13883,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 717,
+      "item_id": 127,
+      "produto_nome": "Loratadina 10mg CPR",
+      "tipo": "Farmácia para Outro destino",
+      "origem": "Farmácia",
+      "destino": "Outro destino",
+      "quantidade": 10,
+      "responsavel": "Leiliana",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-24 14:57:50",
+      "item": "Loratadina 10mg CPR",
+      "usuario": "Leiliana"
+    },
     {
       "id": 716,
       "item_id": 28,
@@ -21366,21 +21381,6 @@
       "obs": "Carga inicial Farmácia - linha 201",
       "criado_em": "13/08/2026 20:25:46",
       "item": "Atadura gessada nº 20",
-      "usuario": "Carga inicial Farmácia"
-    },
-    {
-      "id": 217,
-      "item_id": 197,
-      "produto_nome": "Atadura gessada nº 15",
-      "tipo": "Entrada direta na Farmácia",
-      "origem": "Carga inicial",
-      "destino": "Farmácia",
-      "quantidade": 10,
-      "responsavel": "Carga inicial Farmácia",
-      "data": "13/08/2026",
-      "obs": "Carga inicial Farmácia - linha 200",
-      "criado_em": "13/08/2026 20:25:46",
-      "item": "Atadura gessada nº 15",
       "usuario": "Carga inicial Farmácia"
     }
   ]
