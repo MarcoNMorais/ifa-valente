@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 15:49:21",
+  "atualizado_em": "24/08/2026 15:49:31",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 25762,
-    "total_geral": 116167,
+    "total_farmacia": 25742,
+    "total_geral": 116147,
     "perto_de_terminar": 0,
     "zerados": 9
   },
@@ -3437,19 +3437,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 970,
+      "farmacia": 950,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 970,
+      "total": 950,
       "minimo": 0,
       "validade": "2027-10",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-24 15:44:51",
+      "atualizado_em": "2026-08-24 15:49:30",
       "validade_mais_proxima": "2027-10",
       "vencimento_mais_proximo": "2027-10",
       "lotes_validade": [
@@ -3457,7 +3457,7 @@
           "local": "farmacia",
           "validade": "2027-10",
           "lote": "",
-          "quantidade": 970
+          "quantidade": 950
         }
       ],
       "minimo_manual": 0,
@@ -3465,9 +3465,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 25.0,
-      "total_saida_historica": 300,
-      "cobertura_dias": 38.8,
+      "media_diaria_saida": 26.67,
+      "total_saida_historica": 320,
+      "cobertura_dias": 35.6,
       "alerta_estoque": false
     },
     {
@@ -13834,6 +13834,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 862,
+      "item_id": 68,
+      "produto_nome": "Dexametasona",
+      "tipo": "Farmácia para Outro destino",
+      "origem": "Farmácia",
+      "destino": "Outro destino",
+      "quantidade": 20,
+      "responsavel": "Leiliana",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-24 15:49:30",
+      "item": "Dexametasona",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 861,
       "item_id": 76,
       "produto_nome": "Escopolamina + Dipirona",
@@ -21316,21 +21331,6 @@
       "obs": "Importação Almoxerifado - linha 47",
       "criado_em": "18/08/2026 09:58:00",
       "item": "Glicerina 12%",
-      "usuario": "Sistema"
-    },
-    {
-      "id": 362,
-      "item_id": 293,
-      "produto_nome": "Clamp umbilical",
-      "tipo": "entrada",
-      "origem": "Carga Almoxerifado",
-      "destino": "almoxarifado",
-      "quantidade": 300,
-      "responsavel": "Sistema",
-      "data": "18/08/2026 09:58:00",
-      "obs": "Importação Almoxerifado - linha 46",
-      "criado_em": "18/08/2026 09:58:00",
-      "item": "Clamp umbilical",
       "usuario": "Sistema"
     }
   ]
