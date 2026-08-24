@@ -2,7 +2,7 @@ services:
   - type: web
     name: ifa-valente
     runtime: python
-    autoDeployTrigger: commit
+    autoDeployTrigger: off
     buildCommand: pip install -r requirements.txt
     startCommand: gunicorn server:app --bind 0.0.0.0:$PORT --workers 1 --threads 8 --timeout 120
     envVars:
