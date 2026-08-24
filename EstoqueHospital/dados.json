@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 15:23:22",
+  "atualizado_em": "24/08/2026 15:23:38",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 27304,
-    "total_geral": 117709,
+    "total_farmacia": 27292,
+    "total_geral": 117697,
     "perto_de_terminar": 0,
     "zerados": 8
   },
@@ -8269,19 +8269,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 78,
+      "farmacia": 66,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 78,
+      "total": 66,
       "minimo": 0,
       "validade": "2028-02",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-24 15:04:40",
+      "atualizado_em": "2026-08-24 15:23:37",
       "validade_mais_proxima": "2028-02",
       "vencimento_mais_proximo": "2028-02",
       "lotes_validade": [
@@ -8289,7 +8289,7 @@
           "local": "farmacia",
           "validade": "2028-02",
           "lote": "",
-          "quantidade": 48
+          "quantidade": 36
         },
         {
           "local": "farmacia",
@@ -8303,9 +8303,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 2.08,
-      "total_saida_historica": 25,
-      "cobertura_dias": 37.4,
+      "media_diaria_saida": 3.08,
+      "total_saida_historica": 37,
+      "cobertura_dias": 21.4,
       "alerta_estoque": false
     },
     {
@@ -13858,6 +13858,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 773,
+      "item_id": 11,
+      "produto_nome": "Midazolam 5mg/ml 10ml",
+      "tipo": "Farmácia para Outro destino",
+      "origem": "Farmácia",
+      "destino": "Outro destino",
+      "quantidade": 12,
+      "responsavel": "Leiliana",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-24 15:23:37",
+      "item": "Midazolam 5mg/ml 10ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 772,
       "item_id": 175,
@@ -21341,21 +21356,6 @@
       "obs": "Importação Farmácia - linha 252 | validade: 03/28",
       "criado_em": "18/08/2026 09:14:00",
       "item": "Acetilcisteína 2mg/ml",
-      "usuario": "Importação Farmácia"
-    },
-    {
-      "id": 273,
-      "item_id": 247,
-      "produto_nome": "Cefalexina 250mg/5ml 60ml",
-      "tipo": "Entrada direta na Farmácia",
-      "origem": "Importação lista Farmácia 227-288",
-      "destino": "Farmácia",
-      "quantidade": 1,
-      "responsavel": "Importação Farmácia",
-      "data": "18/08/2026",
-      "obs": "Importação Farmácia - linha 251 | validade: 11/26",
-      "criado_em": "18/08/2026 09:14:00",
-      "item": "Cefalexina 250mg/5ml 60ml",
       "usuario": "Importação Farmácia"
     }
   ]
