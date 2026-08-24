@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 15:54:54",
+  "atualizado_em": "24/08/2026 15:55:13",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 25276,
-    "total_geral": 115681,
+    "total_farmacia": 25256,
+    "total_geral": 115661,
     "perto_de_terminar": 0,
     "zerados": 9
   },
@@ -2214,19 +2214,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 100,
+      "farmacia": 80,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 100,
+      "total": 80,
       "minimo": 0,
       "validade": "2027-06",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-24 15:28:40",
+      "atualizado_em": "2026-08-24 15:55:12",
       "validade_mais_proxima": "2027-06",
       "vencimento_mais_proximo": "2027-06",
       "lotes_validade": [
@@ -2234,7 +2234,7 @@
           "local": "farmacia",
           "validade": "2027-06",
           "lote": "",
-          "quantidade": 100
+          "quantidade": 80
         }
       ],
       "minimo_manual": 0,
@@ -2242,9 +2242,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 10.83,
-      "total_saida_historica": 130,
-      "cobertura_dias": 9.2,
+      "media_diaria_saida": 12.5,
+      "total_saida_historica": 150,
+      "cobertura_dias": 6.4,
       "alerta_estoque": false
     },
     {
@@ -13828,6 +13828,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 882,
+      "item_id": 57,
+      "produto_nome": "Bromoprida 5mg",
+      "tipo": "Farmácia para Outro destino",
+      "origem": "Farmácia",
+      "destino": "Outro destino",
+      "quantidade": 20,
+      "responsavel": "Leiliana",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-24 15:55:12",
+      "item": "Bromoprida 5mg",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 881,
       "item_id": 194,
       "produto_nome": "Lanceta de segurança",
@@ -21310,21 +21325,6 @@
       "obs": "Importação Almoxerifado - linha 67",
       "criado_em": "18/08/2026 09:58:00",
       "item": "Campo operatório",
-      "usuario": "Sistema"
-    },
-    {
-      "id": 382,
-      "item_id": 153,
-      "produto_nome": "Atadura crepon nº 20",
-      "tipo": "entrada",
-      "origem": "Carga Almoxerifado",
-      "destino": "almoxarifado",
-      "quantidade": 60,
-      "responsavel": "Sistema",
-      "data": "18/08/2026 09:58:00",
-      "obs": "Importação Almoxerifado - linha 66",
-      "criado_em": "18/08/2026 09:58:00",
-      "item": "Atadura crepon nº 20",
       "usuario": "Sistema"
     }
   ]
