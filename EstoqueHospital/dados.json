@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 11:47:02",
+  "atualizado_em": "24/08/2026 11:47:20",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 30814,
-    "total_geral": 121219,
+    "total_farmacia": 30514,
+    "total_geral": 120919,
     "perto_de_terminar": 0,
     "zerados": 3
   },
@@ -7504,19 +7504,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 800,
+      "farmacia": 500,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 800,
+      "total": 500,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-24 11:40:09",
+      "atualizado_em": "2026-08-24 11:47:19",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -7524,7 +7524,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 800
+          "quantidade": 500
         }
       ],
       "minimo_manual": 0,
@@ -7532,9 +7532,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 8.33,
-      "total_saida_historica": 100,
-      "cobertura_dias": 96.0,
+      "media_diaria_saida": 33.33,
+      "total_saida_historica": 400,
+      "cobertura_dias": 15.0,
       "alerta_estoque": false
     },
     {
@@ -14369,6 +14369,21 @@
       "criado_em": "2026-08-20 16:17:28",
       "item": "Captopril 25mg CPR",
       "usuario": "Leiliana"
+    },
+    {
+      "id": 576,
+      "item_id": 180,
+      "produto_nome": "Luva de látex tam. P",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 300,
+      "responsavel": "Assucena",
+      "data": "2026-08-17",
+      "obs": "",
+      "criado_em": "2026-08-24 11:47:19",
+      "item": "Luva de látex tam. P",
+      "usuario": "Assucena"
     },
     {
       "id": 575,
@@ -21418,21 +21433,6 @@
       "obs": "Carga inicial Farmácia - linha 63 | Validade: 2027-09",
       "criado_em": "13/08/2026 20:25:46",
       "item": "Cetoprofeno IM 50mg",
-      "usuario": "Carga inicial Farmácia"
-    },
-    {
-      "id": 76,
-      "item_id": 60,
-      "produto_nome": "Cetoprofeno EV 100mg",
-      "tipo": "Entrada direta na Farmácia",
-      "origem": "Carga inicial",
-      "destino": "Farmácia",
-      "quantidade": 250,
-      "responsavel": "Carga inicial Farmácia",
-      "data": "13/08/2026",
-      "obs": "Carga inicial Farmácia - linha 62 | Validade: 2028-01",
-      "criado_em": "13/08/2026 20:25:46",
-      "item": "Cetoprofeno EV 100mg",
       "usuario": "Carga inicial Farmácia"
     }
   ]
