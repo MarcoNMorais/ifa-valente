@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 15:56:40",
+  "atualizado_em": "24/08/2026 15:57:18",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 25202,
-    "total_geral": 115607,
+    "total_farmacia": 25199,
+    "total_geral": 115604,
     "perto_de_terminar": 0,
     "zerados": 9
   },
@@ -9768,19 +9768,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 31,
+      "farmacia": 28,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 31,
+      "total": 28,
       "minimo": 0,
       "validade": "12/26",
       "lote": "",
       "origem": "Carga Farmácia 227-288",
       "obs": "Importação Farmácia 227-288",
-      "atualizado_em": "2026-08-24 15:29:52",
+      "atualizado_em": "2026-08-24 15:57:17",
       "validade_mais_proxima": "12/26",
       "vencimento_mais_proximo": "12/26",
       "lotes_validade": [
@@ -9788,7 +9788,7 @@
           "local": "farmacia",
           "validade": "12/26",
           "lote": "",
-          "quantidade": 31
+          "quantidade": 28
         }
       ],
       "minimo_manual": 0,
@@ -9796,9 +9796,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 10,
-      "media_diaria_saida": 0.5,
-      "total_saida_historica": 5,
-      "cobertura_dias": 62.0,
+      "media_diaria_saida": 0.8,
+      "total_saida_historica": 8,
+      "cobertura_dias": 35.0,
       "alerta_estoque": false
     },
     {
@@ -13827,6 +13827,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 889,
+      "item_id": 252,
+      "produto_nome": "Salbutamol spray",
+      "tipo": "Farmácia para Outro destino",
+      "origem": "Farmácia",
+      "destino": "Outro destino",
+      "quantidade": 3,
+      "responsavel": "Leiliana",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-24 15:57:17",
+      "item": "Salbutamol spray",
+      "usuario": "Leiliana"
+    },
     {
       "id": 888,
       "item_id": 256,
@@ -21310,21 +21325,6 @@
       "obs": "Importação Almoxerifado - linha 74",
       "criado_em": "18/08/2026 09:58:00",
       "item": "Sonda Foley nº 12",
-      "usuario": "Sistema"
-    },
-    {
-      "id": 389,
-      "item_id": 314,
-      "produto_nome": "Sonda Foley nº 20",
-      "tipo": "entrada",
-      "origem": "Carga Almoxerifado",
-      "destino": "almoxarifado",
-      "quantidade": 20,
-      "responsavel": "Sistema",
-      "data": "18/08/2026 09:58:00",
-      "obs": "Importação Almoxerifado - linha 73",
-      "criado_em": "18/08/2026 09:58:00",
-      "item": "Sonda Foley nº 20",
       "usuario": "Sistema"
     }
   ]
