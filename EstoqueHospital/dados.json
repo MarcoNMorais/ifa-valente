@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 14:02:32",
+  "atualizado_em": "24/08/2026 14:02:50",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 29616,
-    "total_geral": 120021,
+    "total_farmacia": 29596,
+    "total_geral": 120001,
     "perto_de_terminar": 0,
     "zerados": 3
   },
@@ -3457,19 +3457,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 1170,
+      "farmacia": 1150,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1170,
+      "total": 1150,
       "minimo": 0,
       "validade": "2027-10",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-24 11:43:50",
+      "atualizado_em": "2026-08-24 14:02:50",
       "validade_mais_proxima": "2027-10",
       "vencimento_mais_proximo": "2027-10",
       "lotes_validade": [
@@ -3477,7 +3477,7 @@
           "local": "farmacia",
           "validade": "2027-10",
           "lote": "",
-          "quantidade": 1170
+          "quantidade": 1150
         }
       ],
       "minimo_manual": 0,
@@ -3485,9 +3485,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 8.33,
-      "total_saida_historica": 100,
-      "cobertura_dias": 140.4,
+      "media_diaria_saida": 10.0,
+      "total_saida_historica": 120,
+      "cobertura_dias": 115.0,
       "alerta_estoque": false
     },
     {
@@ -13924,6 +13924,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 614,
+      "item_id": 68,
+      "produto_nome": "Dexametasona",
+      "tipo": "Farmácia para Outro destino",
+      "origem": "Farmácia",
+      "destino": "Outro destino",
+      "quantidade": 20,
+      "responsavel": "Leiliana",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-24 14:02:50",
+      "item": "Dexametasona",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 613,
       "item_id": 58,
       "produto_nome": "Cefalotina 1000mg",
@@ -21406,21 +21421,6 @@
       "obs": "Carga inicial Farmácia - linha 101",
       "criado_em": "13/08/2026 20:25:46",
       "item": "Scalp nº 23",
-      "usuario": "Carga inicial Farmácia"
-    },
-    {
-      "id": 114,
-      "item_id": 97,
-      "produto_nome": "Scalp nº 19",
-      "tipo": "Entrada direta na Farmácia",
-      "origem": "Carga inicial",
-      "destino": "Farmácia",
-      "quantidade": 48,
-      "responsavel": "Carga inicial Farmácia",
-      "data": "13/08/2026",
-      "obs": "Carga inicial Farmácia - linha 100",
-      "criado_em": "13/08/2026 20:25:46",
-      "item": "Scalp nº 19",
       "usuario": "Carga inicial Farmácia"
     }
   ]
