@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 14:19:51",
+  "atualizado_em": "24/08/2026 14:20:06",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 29137,
-    "total_geral": 119542,
+    "total_farmacia": 29136,
+    "total_geral": 119541,
     "perto_de_terminar": 0,
     "zerados": 3
   },
@@ -7486,19 +7486,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 500,
+      "farmacia": 499,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 500,
+      "total": 499,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-24 11:47:19",
+      "atualizado_em": "2026-08-24 14:20:05",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -7506,7 +7506,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 500
+          "quantidade": 499
         }
       ],
       "minimo_manual": 0,
@@ -7514,9 +7514,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 33.33,
-      "total_saida_historica": 400,
-      "cobertura_dias": 15.0,
+      "media_diaria_saida": 33.42,
+      "total_saida_historica": 401,
+      "cobertura_dias": 14.9,
       "alerta_estoque": false
     },
     {
@@ -13911,6 +13911,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 644,
+      "item_id": 180,
+      "produto_nome": "Luva de látex tam. P",
+      "tipo": "Farmácia para Outro destino",
+      "origem": "Farmácia",
+      "destino": "Outro destino",
+      "quantidade": 1,
+      "responsavel": "Leiliana",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-24 14:20:05",
+      "item": "Luva de látex tam. P",
+      "usuario": "Leiliana"
+    },
     {
       "id": 643,
       "item_id": 104,
@@ -21394,21 +21409,6 @@
       "obs": "Carga inicial Farmácia - linha 129 | Validade: 2027-09",
       "criado_em": "13/08/2026 20:25:46",
       "item": "Metildopa 25mg CPR",
-      "usuario": "Carga inicial Farmácia"
-    },
-    {
-      "id": 144,
-      "item_id": 125,
-      "produto_nome": "Diazepam 5mg CPR",
-      "tipo": "Entrada direta na Farmácia",
-      "origem": "Carga inicial",
-      "destino": "Farmácia",
-      "quantidade": 70,
-      "responsavel": "Carga inicial Farmácia",
-      "data": "13/08/2026",
-      "obs": "Carga inicial Farmácia - linha 128 | Validade: 2027-06",
-      "criado_em": "13/08/2026 20:25:46",
-      "item": "Diazepam 5mg CPR",
       "usuario": "Carga inicial Farmácia"
     }
   ]
