@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 15:23:51",
+  "atualizado_em": "24/08/2026 15:24:03",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 27284,
-    "total_geral": 117689,
+    "total_farmacia": 27282,
+    "total_geral": 117687,
     "perto_de_terminar": 0,
     "zerados": 8
   },
@@ -109,19 +109,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 7,
+      "farmacia": 5,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 7,
+      "total": 5,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-24 12:07:36",
+      "atualizado_em": "2026-08-24 15:24:02",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -129,7 +129,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 7
+          "quantidade": 5
         }
       ],
       "minimo_manual": 0,
@@ -137,9 +137,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 0.17,
-      "total_saida_historica": 2,
-      "cobertura_dias": 42.0,
+      "media_diaria_saida": 0.33,
+      "total_saida_historica": 4,
+      "cobertura_dias": 15.0,
       "alerta_estoque": false
     },
     {
@@ -13859,6 +13859,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 775,
+      "item_id": 101,
+      "produto_nome": "Acesso Central",
+      "tipo": "Farmácia para Outro destino",
+      "origem": "Farmácia",
+      "destino": "Outro destino",
+      "quantidade": 2,
+      "responsavel": "Leiliana",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-24 15:24:02",
+      "item": "Acesso Central",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 774,
       "item_id": 9,
       "produto_nome": "Fentanila 50mcg/ml",
@@ -21339,21 +21354,6 @@
       "responsavel": "Importação Farmácia",
       "data": "18/08/2026",
       "obs": "Importação Farmácia - linha 253b | validade: 03/28",
-      "criado_em": "18/08/2026 09:14:00",
-      "item": "Prednisolona 3mg/ml",
-      "usuario": "Importação Farmácia"
-    },
-    {
-      "id": 275,
-      "item_id": 249,
-      "produto_nome": "Prednisolona 3mg/ml",
-      "tipo": "Entrada direta na Farmácia",
-      "origem": "Importação lista Farmácia 227-288",
-      "destino": "Farmácia",
-      "quantidade": 3,
-      "responsavel": "Importação Farmácia",
-      "data": "18/08/2026",
-      "obs": "Importação Farmácia - linha 253 | validade: 07/27",
       "criado_em": "18/08/2026 09:14:00",
       "item": "Prednisolona 3mg/ml",
       "usuario": "Importação Farmácia"
