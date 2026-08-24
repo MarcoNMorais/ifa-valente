@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 15:20:13",
+  "atualizado_em": "24/08/2026 15:20:26",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 27532,
-    "total_geral": 117937,
+    "total_farmacia": 27520,
+    "total_geral": 117925,
     "perto_de_terminar": 0,
     "zerados": 7
   },
@@ -1333,19 +1333,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 278,
-      "farmacia": 46,
+      "farmacia": 34,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 324,
+      "total": 312,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-24 11:50:10",
+      "atualizado_em": "2026-08-24 15:20:26",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -1359,7 +1359,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 46
+          "quantidade": 34
         }
       ],
       "minimo_manual": 0,
@@ -1367,9 +1367,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 1.0,
-      "total_saida_historica": 12,
-      "cobertura_dias": 324.0,
+      "media_diaria_saida": 2.0,
+      "total_saida_historica": 24,
+      "cobertura_dias": 156.0,
       "alerta_estoque": false
     },
     {
@@ -13866,6 +13866,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 761,
+      "item_id": 151,
+      "produto_nome": "Atadura crepon nº 15",
+      "tipo": "Farmácia para Outro destino",
+      "origem": "Farmácia",
+      "destino": "Outro destino",
+      "quantidade": 12,
+      "responsavel": "Leiliana",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-24 15:20:26",
+      "item": "Atadura crepon nº 15",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 760,
       "item_id": 152,
       "produto_nome": "Atadura crepon nº 10",
@@ -21348,21 +21363,6 @@
       "obs": "Importação Farmácia - linha 241 | validade: 06/27",
       "criado_em": "18/08/2026 09:14:00",
       "item": "Cefazolina 500mg pó inj.",
-      "usuario": "Importação Farmácia"
-    },
-    {
-      "id": 261,
-      "item_id": 236,
-      "produto_nome": "Cefepima 1g pó injetável",
-      "tipo": "Entrada direta na Farmácia",
-      "origem": "Importação lista Farmácia 227-288",
-      "destino": "Farmácia",
-      "quantidade": 13,
-      "responsavel": "Importação Farmácia",
-      "data": "18/08/2026",
-      "obs": "Importação Farmácia - linha 240b | validade: 09/26",
-      "criado_em": "18/08/2026 09:14:00",
-      "item": "Cefepima 1g pó injetável",
       "usuario": "Importação Farmácia"
     }
   ]
