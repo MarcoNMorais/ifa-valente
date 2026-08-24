@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "24/08/2026 16:07:35",
+  "atualizado_em": "24/08/2026 16:07:51",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
-    "total_almoxarifado": 89380,
-    "total_farmacia": 26034,
+    "total_almoxarifado": 89130,
+    "total_farmacia": 26284,
     "total_geral": 115414,
     "perto_de_terminar": 0,
     "zerados": 11
@@ -10005,8 +10005,8 @@
       "nome": "Seringa 10ml",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 2000,
-      "farmacia": 0,
+      "almoxarifado": 1750,
+      "farmacia": 250,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -10018,7 +10018,7 @@
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-24 15:45:43",
+      "atualizado_em": "2026-08-24 16:07:50",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -10026,7 +10026,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 2000
+          "quantidade": 1750
+        },
+        {
+          "local": "farmacia",
+          "validade": "",
+          "lote": "",
+          "quantidade": 250
         }
       ],
       "minimo_manual": 0,
@@ -13837,6 +13843,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 917,
+      "item_id": 103,
+      "produto_nome": "Seringa 10ml",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 250,
+      "responsavel": "Leiliana",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-24 16:07:50",
+      "item": "Seringa 10ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 916,
       "item_id": 274,
@@ -21320,21 +21341,6 @@
       "obs": "",
       "criado_em": "2026-08-21 10:49:52",
       "item": "Scalp nº 21",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 432,
-      "item_id": 178,
-      "produto_nome": "Dispositivo intravenoso Gelco nº 20",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 10,
-      "responsavel": "Assucena",
-      "data": "2026-08-14",
-      "obs": "",
-      "criado_em": "2026-08-21 10:49:18",
-      "item": "Dispositivo intravenoso Gelco nº 20",
       "usuario": "Assucena"
     }
   ]
