@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 15:38:07",
+  "atualizado_em": "24/08/2026 15:38:18",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 26554,
-    "total_geral": 116959,
+    "total_farmacia": 26550,
+    "total_geral": 116955,
     "perto_de_terminar": 0,
     "zerados": 9
   },
@@ -7418,19 +7418,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 994,
+      "farmacia": 990,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 994,
+      "total": 990,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-24 15:34:42",
+      "atualizado_em": "2026-08-24 15:38:17",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -7438,7 +7438,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 994
+          "quantidade": 990
         }
       ],
       "minimo_manual": 0,
@@ -7446,9 +7446,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 67.17,
-      "total_saida_historica": 806,
-      "cobertura_dias": 14.8,
+      "media_diaria_saida": 67.5,
+      "total_saida_historica": 810,
+      "cobertura_dias": 14.7,
       "alerta_estoque": false
     },
     {
@@ -13845,6 +13845,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 821,
+      "item_id": 181,
+      "produto_nome": "Luva de látex tam. M",
+      "tipo": "Farmácia para Outro destino",
+      "origem": "Farmácia",
+      "destino": "Outro destino",
+      "quantidade": 4,
+      "responsavel": "Leiliana",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-24 15:38:17",
+      "item": "Luva de látex tam. M",
+      "usuario": "Leiliana"
+    },
     {
       "id": 820,
       "item_id": 185,
@@ -21328,21 +21343,6 @@
       "obs": "Importação Almoxerifado - linha 6",
       "criado_em": "18/08/2026 09:58:00",
       "item": "Soro glicose 5% 500ml",
-      "usuario": "Sistema"
-    },
-    {
-      "id": 321,
-      "item_id": 201,
-      "produto_nome": "Soro Ringer Lactato 500ml",
-      "tipo": "entrada",
-      "origem": "Carga Almoxerifado",
-      "destino": "almoxarifado",
-      "quantidade": 360,
-      "responsavel": "Sistema",
-      "data": "18/08/2026 09:58:00",
-      "obs": "Importação Almoxerifado - linha 5",
-      "criado_em": "18/08/2026 09:58:00",
-      "item": "Soro Ringer Lactato 500ml",
       "usuario": "Sistema"
     }
   ]
