@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 15:35:01",
+  "atualizado_em": "24/08/2026 15:35:27",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 26640,
-    "total_geral": 117045,
+    "total_farmacia": 26620,
+    "total_geral": 117025,
     "perto_de_terminar": 0,
     "zerados": 9
   },
@@ -3929,19 +3929,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 800,
-      "farmacia": 95,
+      "farmacia": 75,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 895,
+      "total": 875,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-24 15:15:16",
+      "atualizado_em": "2026-08-24 15:35:26",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -3955,7 +3955,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 95
+          "quantidade": 75
         }
       ],
       "minimo_manual": 0,
@@ -3963,9 +3963,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 4.58,
-      "total_saida_historica": 55,
-      "cobertura_dias": 195.3,
+      "media_diaria_saida": 6.25,
+      "total_saida_historica": 75,
+      "cobertura_dias": 140.0,
       "alerta_estoque": false
     },
     {
@@ -13846,6 +13846,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 812,
+      "item_id": 178,
+      "produto_nome": "Dispositivo intravenoso Gelco nº 20",
+      "tipo": "Farmácia para Outro destino",
+      "origem": "Farmácia",
+      "destino": "Outro destino",
+      "quantidade": 20,
+      "responsavel": "Leiliana",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-24 15:35:26",
+      "item": "Dispositivo intravenoso Gelco nº 20",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 811,
       "item_id": 206,
       "produto_nome": "Soro glicose 5% 250ml",
@@ -21326,21 +21341,6 @@
       "responsavel": "Importação Farmácia",
       "data": "18/08/2026",
       "obs": "Importação Farmácia - linha 285b | validade: 11/26",
-      "criado_em": "18/08/2026 09:14:00",
-      "item": "Glibenclamida 5mg CPR",
-      "usuario": "Importação Farmácia"
-    },
-    {
-      "id": 312,
-      "item_id": 270,
-      "produto_nome": "Glibenclamida 5mg CPR",
-      "tipo": "Entrada direta na Farmácia",
-      "origem": "Importação lista Farmácia 227-288",
-      "destino": "Farmácia",
-      "quantidade": 30,
-      "responsavel": "Importação Farmácia",
-      "data": "18/08/2026",
-      "obs": "Importação Farmácia - linha 285 | validade: 03/27",
       "criado_em": "18/08/2026 09:14:00",
       "item": "Glibenclamida 5mg CPR",
       "usuario": "Importação Farmácia"
