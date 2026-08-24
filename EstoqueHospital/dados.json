@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 11:45:37",
+  "atualizado_em": "24/08/2026 11:45:51",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 30936,
-    "total_geral": 121341,
+    "total_farmacia": 30926,
+    "total_geral": 121331,
     "perto_de_terminar": 0,
     "zerados": 3
   },
@@ -9959,19 +9959,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 900,
-      "farmacia": 16,
+      "farmacia": 6,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 916,
+      "total": 906,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-24 11:22:53",
+      "atualizado_em": "2026-08-24 11:45:50",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -9985,7 +9985,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 16
+          "quantidade": 6
         }
       ],
       "minimo_manual": 0,
@@ -9993,9 +9993,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 2.5,
-      "total_saida_historica": 30,
-      "cobertura_dias": 366.4,
+      "media_diaria_saida": 3.33,
+      "total_saida_historica": 40,
+      "cobertura_dias": 271.8,
       "alerta_estoque": false
     },
     {
@@ -14369,6 +14369,21 @@
       "criado_em": "2026-08-20 16:17:28",
       "item": "Captopril 25mg CPR",
       "usuario": "Leiliana"
+    },
+    {
+      "id": 570,
+      "item_id": 99,
+      "produto_nome": "Scalp nº 21",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 10,
+      "responsavel": "Assucena",
+      "data": "2026-08-17",
+      "obs": "",
+      "criado_em": "2026-08-24 11:45:50",
+      "item": "Scalp nº 21",
+      "usuario": "Assucena"
     },
     {
       "id": 569,
@@ -21418,21 +21433,6 @@
       "obs": "Carga inicial Farmácia - linha 57 | Validade: 2027-07",
       "criado_em": "13/08/2026 20:25:46",
       "item": "Benzilpenicilina 1.200",
-      "usuario": "Carga inicial Farmácia"
-    },
-    {
-      "id": 70,
-      "item_id": 54,
-      "produto_nome": "Atropina 0,25mg",
-      "tipo": "Entrada direta na Farmácia",
-      "origem": "Carga inicial",
-      "destino": "Farmácia",
-      "quantidade": 36,
-      "responsavel": "Carga inicial Farmácia",
-      "data": "13/08/2026",
-      "obs": "Carga inicial Farmácia - linha 56 | Validade: 2027-05",
-      "criado_em": "13/08/2026 20:25:46",
-      "item": "Atropina 0,25mg",
       "usuario": "Carga inicial Farmácia"
     }
   ]
