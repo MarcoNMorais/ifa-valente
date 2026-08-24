@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 15:55:44",
+  "atualizado_em": "24/08/2026 15:55:56",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 25226,
-    "total_geral": 115631,
+    "total_farmacia": 25216,
+    "total_geral": 115621,
     "perto_de_terminar": 0,
     "zerados": 9
   },
@@ -8972,19 +8972,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 62,
+      "farmacia": 52,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 62,
+      "total": 52,
       "minimo": 0,
       "validade": "11/27",
       "lote": "",
       "origem": "Carga Farmácia 227-288",
       "obs": "Importação Farmácia 227-288",
-      "atualizado_em": "2026-08-24 15:45:18",
+      "atualizado_em": "2026-08-24 15:55:55",
       "validade_mais_proxima": "11/27",
       "vencimento_mais_proximo": "11/27",
       "lotes_validade": [
@@ -8992,7 +8992,7 @@
           "local": "farmacia",
           "validade": "11/27",
           "lote": "",
-          "quantidade": 22
+          "quantidade": 12
         },
         {
           "local": "farmacia",
@@ -9006,9 +9006,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 11,
-      "media_diaria_saida": 4.55,
-      "total_saida_historica": 50,
-      "cobertura_dias": 13.6,
+      "media_diaria_saida": 5.45,
+      "total_saida_historica": 60,
+      "cobertura_dias": 9.5,
       "alerta_estoque": false
     },
     {
@@ -13827,6 +13827,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 885,
+      "item_id": 228,
+      "produto_nome": "Omeprazol sódico 40mg AMP",
+      "tipo": "Farmácia para Outro destino",
+      "origem": "Farmácia",
+      "destino": "Outro destino",
+      "quantidade": 10,
+      "responsavel": "Leiliana",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-24 15:55:55",
+      "item": "Omeprazol sódico 40mg AMP",
+      "usuario": "Leiliana"
+    },
     {
       "id": 884,
       "item_id": 53,
@@ -21310,21 +21325,6 @@
       "obs": "Importação Almoxerifado - linha 70",
       "criado_em": "18/08/2026 09:58:00",
       "item": "Sonda Foley nº 14",
-      "usuario": "Sistema"
-    },
-    {
-      "id": 385,
-      "item_id": 310,
-      "produto_nome": "Sonda Foley nº 22",
-      "tipo": "entrada",
-      "origem": "Carga Almoxerifado",
-      "destino": "almoxarifado",
-      "quantidade": 42,
-      "responsavel": "Sistema",
-      "data": "18/08/2026 09:58:00",
-      "obs": "Importação Almoxerifado - linha 69",
-      "criado_em": "18/08/2026 09:58:00",
-      "item": "Sonda Foley nº 22",
       "usuario": "Sistema"
     }
   ]
