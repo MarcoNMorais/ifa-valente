@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 11:33:50",
+  "atualizado_em": "24/08/2026 11:34:01",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 91033,
-    "total_farmacia": 31403,
-    "total_geral": 122436,
+    "total_farmacia": 31401,
+    "total_geral": 122434,
     "perto_de_terminar": 0,
     "zerados": 3
   },
@@ -6948,19 +6948,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 10,
+      "farmacia": 8,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 10,
+      "total": 8,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-24 11:27:43",
+      "atualizado_em": "2026-08-24 11:34:00",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -6968,7 +6968,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 10
+          "quantidade": 8
         }
       ],
       "minimo_manual": 0,
@@ -6976,9 +6976,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 0.17,
-      "total_saida_historica": 2,
-      "cobertura_dias": 60.0,
+      "media_diaria_saida": 0.33,
+      "total_saida_historica": 4,
+      "cobertura_dias": 24.0,
       "alerta_estoque": false
     },
     {
@@ -14290,6 +14290,21 @@
       "usuario": "Leiliana"
     },
     {
+      "id": 531,
+      "item_id": 199,
+      "produto_nome": "Lençol descartável papel",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 2,
+      "responsavel": "Assucena",
+      "data": "2026-08-15",
+      "obs": "",
+      "criado_em": "2026-08-24 11:34:00",
+      "item": "Lençol descartável papel",
+      "usuario": "Assucena"
+    },
+    {
       "id": 530,
       "item_id": 200,
       "produto_nome": "Caixa de perfurocortante",
@@ -21410,21 +21425,6 @@
       "responsavel": "Carga inicial Farmácia",
       "data": "13/08/2026",
       "obs": "Carga inicial Farmácia - linha 20b | Validade: 2027-10",
-      "criado_em": "13/08/2026 20:25:46",
-      "item": "Nitroprussiato de sódio 25mg/ml",
-      "usuario": "Carga inicial Farmácia"
-    },
-    {
-      "id": 31,
-      "item_id": 20,
-      "produto_nome": "Nitroprussiato de sódio 25mg/ml",
-      "tipo": "Entrada direta na Farmácia",
-      "origem": "Carga inicial",
-      "destino": "Farmácia",
-      "quantidade": 15,
-      "responsavel": "Carga inicial Farmácia",
-      "data": "13/08/2026",
-      "obs": "Carga inicial Farmácia - linha 20 | Validade: 2027-07",
       "criado_em": "13/08/2026 20:25:46",
       "item": "Nitroprussiato de sódio 25mg/ml",
       "usuario": "Carga inicial Farmácia"
