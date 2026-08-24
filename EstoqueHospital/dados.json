@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 11:32:46",
+  "atualizado_em": "24/08/2026 11:32:56",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 91033,
-    "total_farmacia": 31432,
-    "total_geral": 122465,
+    "total_farmacia": 31431,
+    "total_geral": 122464,
     "perto_de_terminar": 0,
     "zerados": 3
   },
@@ -6856,19 +6856,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 120,
-      "farmacia": 5,
+      "farmacia": 4,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 125,
+      "total": 124,
       "minimo": 0,
       "validade": "11/27",
       "lote": "",
       "origem": "Carga Farmácia 227-288",
       "obs": "Importação Farmácia 227-288",
-      "atualizado_em": "2026-08-24 11:20:53",
+      "atualizado_em": "2026-08-24 11:32:55",
       "validade_mais_proxima": "11/27",
       "vencimento_mais_proximo": "11/27",
       "lotes_validade": [
@@ -6876,7 +6876,7 @@
           "local": "farmacia",
           "validade": "11/27",
           "lote": "",
-          "quantidade": 5
+          "quantidade": 4
         },
         {
           "local": "almoxarifado",
@@ -6890,9 +6890,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 11,
-      "media_diaria_saida": 0.09,
-      "total_saida_historica": 1,
-      "cobertura_dias": 1375.0,
+      "media_diaria_saida": 0.18,
+      "total_saida_historica": 2,
+      "cobertura_dias": 682.0,
       "alerta_estoque": false
     },
     {
@@ -14290,6 +14290,21 @@
       "usuario": "Leiliana"
     },
     {
+      "id": 526,
+      "item_id": 241,
+      "produto_nome": "Lactulose solução",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 1,
+      "responsavel": "Assucena",
+      "data": "2026-08-15",
+      "obs": "",
+      "criado_em": "2026-08-24 11:32:55",
+      "item": "Lactulose solução",
+      "usuario": "Assucena"
+    },
+    {
       "id": 525,
       "item_id": 28,
       "produto_nome": "Dipirona 500mg",
@@ -21412,21 +21427,6 @@
       "obs": "Carga inicial Farmácia - linha 17 | Validade: 2026-11",
       "criado_em": "13/08/2026 20:25:46",
       "item": "Fenobarbital 200mg/2ml",
-      "usuario": "Carga inicial Farmácia"
-    },
-    {
-      "id": 26,
-      "item_id": 16,
-      "produto_nome": "Ketamina 50mg/ml 2ml",
-      "tipo": "Entrada direta na Farmácia",
-      "origem": "Carga inicial",
-      "destino": "Farmácia",
-      "quantidade": 12,
-      "responsavel": "Carga inicial Farmácia",
-      "data": "13/08/2026",
-      "obs": "Carga inicial Farmácia - linha 16b | Validade: 2027-08",
-      "criado_em": "13/08/2026 20:25:46",
-      "item": "Ketamina 50mg/ml 2ml",
       "usuario": "Carga inicial Farmácia"
     }
   ]
