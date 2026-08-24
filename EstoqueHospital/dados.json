@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 15:34:32",
+  "atualizado_em": "24/08/2026 15:34:43",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 26647,
-    "total_geral": 117052,
+    "total_farmacia": 26645,
+    "total_geral": 117050,
     "perto_de_terminar": 0,
     "zerados": 9
   },
@@ -7418,19 +7418,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 996,
+      "farmacia": 994,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 996,
+      "total": 994,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-24 15:19:04",
+      "atualizado_em": "2026-08-24 15:34:42",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -7438,7 +7438,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 996
+          "quantidade": 994
         }
       ],
       "minimo_manual": 0,
@@ -7446,9 +7446,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 67.0,
-      "total_saida_historica": 804,
-      "cobertura_dias": 14.9,
+      "media_diaria_saida": 67.17,
+      "total_saida_historica": 806,
+      "cobertura_dias": 14.8,
       "alerta_estoque": false
     },
     {
@@ -13845,6 +13845,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 810,
+      "item_id": 181,
+      "produto_nome": "Luva de látex tam. M",
+      "tipo": "Farmácia para Outro destino",
+      "origem": "Farmácia",
+      "destino": "Outro destino",
+      "quantidade": 2,
+      "responsavel": "Leiliana",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-24 15:34:42",
+      "item": "Luva de látex tam. M",
+      "usuario": "Leiliana"
+    },
     {
       "id": 809,
       "item_id": 64,
@@ -21328,21 +21343,6 @@
       "obs": "Importação Farmácia - linha 284 | validade: 03/27",
       "criado_em": "18/08/2026 09:14:00",
       "item": "Hidralazina 25mg CPR",
-      "usuario": "Importação Farmácia"
-    },
-    {
-      "id": 310,
-      "item_id": 268,
-      "produto_nome": "Metildopa 250mg CPR",
-      "tipo": "Entrada direta na Farmácia",
-      "origem": "Importação lista Farmácia 227-288",
-      "destino": "Farmácia",
-      "quantidade": 10,
-      "responsavel": "Importação Farmácia",
-      "data": "18/08/2026",
-      "obs": "Importação Farmácia - linha 283 | validade: 09/27",
-      "criado_em": "18/08/2026 09:14:00",
-      "item": "Metildopa 250mg CPR",
       "usuario": "Importação Farmácia"
     }
   ]
