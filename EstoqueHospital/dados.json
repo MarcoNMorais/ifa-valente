@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 15:59:14",
+  "atualizado_em": "24/08/2026 15:59:26",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 25116,
-    "total_geral": 115521,
+    "total_farmacia": 25106,
+    "total_geral": 115511,
     "perto_de_terminar": 0,
     "zerados": 9
   },
@@ -13280,19 +13280,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 545,
+      "farmacia": 535,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 545,
+      "total": 535,
       "minimo": 0,
       "validade": "12/27",
       "lote": "",
       "origem": "Carga Farmácia 227-288",
       "obs": "Importação Farmácia 227-288",
-      "atualizado_em": "2026-08-24 15:50:32",
+      "atualizado_em": "2026-08-24 15:59:25",
       "validade_mais_proxima": "12/27",
       "vencimento_mais_proximo": "12/27",
       "lotes_validade": [
@@ -13300,7 +13300,7 @@
           "local": "farmacia",
           "validade": "12/27",
           "lote": "",
-          "quantidade": 545
+          "quantidade": 535
         }
       ],
       "minimo_manual": 0,
@@ -13308,9 +13308,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 10,
-      "media_diaria_saida": 13.5,
-      "total_saida_historica": 135,
-      "cobertura_dias": 40.4,
+      "media_diaria_saida": 14.5,
+      "total_saida_historica": 145,
+      "cobertura_dias": 36.9,
       "alerta_estoque": false
     },
     {
@@ -13827,6 +13827,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 897,
+      "item_id": 239,
+      "produto_nome": "Tramadol 50mg/ml 2ml",
+      "tipo": "Farmácia para Outro destino",
+      "origem": "Farmácia",
+      "destino": "Outro destino",
+      "quantidade": 10,
+      "responsavel": "Leiliana",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-24 15:59:25",
+      "item": "Tramadol 50mg/ml 2ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 896,
       "item_id": 60,
@@ -21310,21 +21325,6 @@
       "obs": "Importação Almoxerifado - linha 82",
       "criado_em": "18/08/2026 09:58:00",
       "item": "Fio categute nº 2",
-      "usuario": "Sistema"
-    },
-    {
-      "id": 397,
-      "item_id": 322,
-      "produto_nome": "Fio categute nº 0",
-      "tipo": "entrada",
-      "origem": "Carga Almoxerifado",
-      "destino": "almoxarifado",
-      "quantidade": 72,
-      "responsavel": "Sistema",
-      "data": "18/08/2026 09:58:00",
-      "obs": "Importação Almoxerifado - linha 81",
-      "criado_em": "18/08/2026 09:58:00",
-      "item": "Fio categute nº 0",
       "usuario": "Sistema"
     }
   ]
