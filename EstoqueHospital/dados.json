@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 15:18:52",
+  "atualizado_em": "24/08/2026 15:19:05",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 27554,
-    "total_geral": 117959,
+    "total_farmacia": 27553,
+    "total_geral": 117958,
     "perto_de_terminar": 0,
     "zerados": 7
   },
@@ -7432,19 +7432,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 997,
+      "farmacia": 996,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 997,
+      "total": 996,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-24 15:08:34",
+      "atualizado_em": "2026-08-24 15:19:04",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -7452,7 +7452,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 997
+          "quantidade": 996
         }
       ],
       "minimo_manual": 0,
@@ -7460,8 +7460,8 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 66.92,
-      "total_saida_historica": 803,
+      "media_diaria_saida": 67.0,
+      "total_saida_historica": 804,
       "cobertura_dias": 14.9,
       "alerta_estoque": false
     },
@@ -13865,6 +13865,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 756,
+      "item_id": 181,
+      "produto_nome": "Luva de látex tam. M",
+      "tipo": "Farmácia para Outro destino",
+      "origem": "Farmácia",
+      "destino": "Outro destino",
+      "quantidade": 1,
+      "responsavel": "Leiliana",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-24 15:19:04",
+      "item": "Luva de látex tam. M",
+      "usuario": "Leiliana"
+    },
     {
       "id": 755,
       "item_id": 180,
@@ -21346,21 +21361,6 @@
       "responsavel": "Importação Farmácia",
       "data": "18/08/2026",
       "obs": "Importação Farmácia - linha 237b | validade: 04/27",
-      "criado_em": "18/08/2026 09:14:00",
-      "item": "Prometazina 25mg/ml",
-      "usuario": "Importação Farmácia"
-    },
-    {
-      "id": 256,
-      "item_id": 233,
-      "produto_nome": "Prometazina 25mg/ml",
-      "tipo": "Entrada direta na Farmácia",
-      "origem": "Importação lista Farmácia 227-288",
-      "destino": "Farmácia",
-      "quantidade": 65,
-      "responsavel": "Importação Farmácia",
-      "data": "18/08/2026",
-      "obs": "Importação Farmácia - linha 237 | validade: 08/27",
       "criado_em": "18/08/2026 09:14:00",
       "item": "Prometazina 25mg/ml",
       "usuario": "Importação Farmácia"
