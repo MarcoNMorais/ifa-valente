@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 14:06:13",
+  "atualizado_em": "24/08/2026 14:06:30",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 29370,
-    "total_geral": 119775,
+    "total_farmacia": 29366,
+    "total_geral": 119771,
     "perto_de_terminar": 0,
     "zerados": 3
   },
@@ -6948,19 +6948,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 5,
+      "farmacia": 1,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 5,
+      "total": 1,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-24 11:40:51",
+      "atualizado_em": "2026-08-24 14:06:29",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -6968,7 +6968,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 5
+          "quantidade": 1
         }
       ],
       "minimo_manual": 0,
@@ -6976,9 +6976,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 0.58,
-      "total_saida_historica": 7,
-      "cobertura_dias": 8.6,
+      "media_diaria_saida": 0.92,
+      "total_saida_historica": 11,
+      "cobertura_dias": 1.1,
       "alerta_estoque": false
     },
     {
@@ -13917,6 +13917,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 623,
+      "item_id": 199,
+      "produto_nome": "Lençol descartável papel",
+      "tipo": "Farmácia para Outro destino",
+      "origem": "Farmácia",
+      "destino": "Outro destino",
+      "quantidade": 4,
+      "responsavel": "Leiliana",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-24 14:06:29",
+      "item": "Lençol descartável papel",
+      "usuario": "Leiliana"
+    },
     {
       "id": 622,
       "item_id": 104,
@@ -21400,21 +21415,6 @@
       "obs": "Carga inicial Farmácia - linha 110",
       "criado_em": "13/08/2026 20:25:46",
       "item": "Sonda de Aspiração nº 18",
-      "usuario": "Carga inicial Farmácia"
-    },
-    {
-      "id": 123,
-      "item_id": 106,
-      "produto_nome": "Sonda de Aspiração nº 8",
-      "tipo": "Entrada direta na Farmácia",
-      "origem": "Carga inicial",
-      "destino": "Farmácia",
-      "quantidade": 4,
-      "responsavel": "Carga inicial Farmácia",
-      "data": "13/08/2026",
-      "obs": "Carga inicial Farmácia - linha 109",
-      "criado_em": "13/08/2026 20:25:46",
-      "item": "Sonda de Aspiração nº 8",
       "usuario": "Carga inicial Farmácia"
     }
   ]
