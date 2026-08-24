@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 11:33:40",
+  "atualizado_em": "24/08/2026 11:33:50",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 91033,
-    "total_farmacia": 31406,
-    "total_geral": 122439,
+    "total_farmacia": 31403,
+    "total_geral": 122436,
     "perto_de_terminar": 0,
     "zerados": 3
   },
@@ -2307,19 +2307,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 4,
-      "farmacia": 4,
+      "farmacia": 1,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 8,
+      "total": 5,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-20 13:12:54",
+      "atualizado_em": "2026-08-24 11:33:50",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -2333,7 +2333,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 4
+          "quantidade": 1
         }
       ],
       "minimo_manual": 0,
@@ -2341,9 +2341,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 0.0,
-      "total_saida_historica": 0,
-      "cobertura_dias": null,
+      "media_diaria_saida": 0.25,
+      "total_saida_historica": 3,
+      "cobertura_dias": 20.0,
       "alerta_estoque": false
     },
     {
@@ -14290,6 +14290,21 @@
       "usuario": "Leiliana"
     },
     {
+      "id": 530,
+      "item_id": 200,
+      "produto_nome": "Caixa de perfurocortante",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 3,
+      "responsavel": "Assucena",
+      "data": "2026-08-15",
+      "obs": "",
+      "criado_em": "2026-08-24 11:33:50",
+      "item": "Caixa de perfurocortante",
+      "usuario": "Assucena"
+    },
+    {
       "id": 529,
       "item_id": 239,
       "produto_nome": "Tramadol 50mg/ml 2ml",
@@ -21412,21 +21427,6 @@
       "obs": "Carga inicial Farmácia - linha 20 | Validade: 2027-07",
       "criado_em": "13/08/2026 20:25:46",
       "item": "Nitroprussiato de sódio 25mg/ml",
-      "usuario": "Carga inicial Farmácia"
-    },
-    {
-      "id": 30,
-      "item_id": 19,
-      "produto_nome": "Naloxona 0,4mg/ml 1ml",
-      "tipo": "Entrada direta na Farmácia",
-      "origem": "Carga inicial",
-      "destino": "Farmácia",
-      "quantidade": 20,
-      "responsavel": "Carga inicial Farmácia",
-      "data": "13/08/2026",
-      "obs": "Carga inicial Farmácia - linha 19 | Validade: 2027-02",
-      "criado_em": "13/08/2026 20:25:46",
-      "item": "Naloxona 0,4mg/ml 1ml",
       "usuario": "Carga inicial Farmácia"
     }
   ]
