@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 11:17:44",
+  "atualizado_em": "24/08/2026 11:18:29",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 91033,
-    "total_farmacia": 33412,
-    "total_geral": 124445,
+    "total_farmacia": 33312,
+    "total_geral": 124345,
     "perto_de_terminar": 0,
     "zerados": 2
   },
@@ -3795,19 +3795,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 960,
+      "farmacia": 860,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 960,
+      "total": 860,
       "minimo": 0,
       "validade": "2027-03",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-21 10:54:20",
+      "atualizado_em": "2026-08-24 11:18:29",
       "validade_mais_proxima": "2027-03",
       "vencimento_mais_proximo": "2027-03",
       "lotes_validade": [
@@ -3815,7 +3815,7 @@
           "local": "farmacia",
           "validade": "2027-03",
           "lote": "",
-          "quantidade": 960
+          "quantidade": 860
         }
       ],
       "minimo_manual": 0,
@@ -3823,9 +3823,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 5.0,
-      "total_saida_historica": 60,
-      "cobertura_dias": 192.0,
+      "media_diaria_saida": 13.33,
+      "total_saida_historica": 160,
+      "cobertura_dias": 64.5,
       "alerta_estoque": false
     },
     {
@@ -13942,6 +13942,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 475,
+      "item_id": 70,
+      "produto_nome": "Dipirona",
+      "tipo": "Farmácia para ATENÇÃO BÁSICA",
+      "origem": "Farmácia",
+      "destino": "ATENÇÃO BÁSICA",
+      "quantidade": 100,
+      "responsavel": "Assucena",
+      "data": "2026-08-21",
+      "obs": "",
+      "criado_em": "2026-08-24 11:18:29",
+      "item": "Dipirona",
+      "usuario": "Assucena"
+    },
     {
       "id": 474,
       "item_id": 177,
