@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "24/08/2026 11:36:08",
+  "atualizado_em": "24/08/2026 11:36:21",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
-    "total_almoxarifado": 90735,
-    "total_farmacia": 31699,
+    "total_almoxarifado": 90705,
+    "total_farmacia": 31729,
     "total_geral": 122434,
     "perto_de_terminar": 0,
     "zerados": 3
@@ -12630,8 +12630,8 @@
       "nome": "Soro glicose 5% 250ml",
       "tipo": "Insumo",
       "unidade": "Unidade",
-      "almoxarifado": 78,
-      "farmacia": 5,
+      "almoxarifado": 48,
+      "farmacia": 35,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -12643,7 +12643,7 @@
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-20 13:12:54",
+      "atualizado_em": "2026-08-24 11:36:21",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -12651,13 +12651,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 78
+          "quantidade": 48
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 5
+          "quantidade": 35
         }
       ],
       "minimo_manual": 0,
@@ -13935,6 +13935,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 534,
+      "item_id": 206,
+      "produto_nome": "Soro glicose 5% 250ml",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 30,
+      "responsavel": "Assucena",
+      "data": "2026-08-21",
+      "obs": "",
+      "criado_em": "2026-08-24 11:36:21",
+      "item": "Soro glicose 5% 250ml",
+      "usuario": "Assucena"
+    },
     {
       "id": 533,
       "item_id": 201,
@@ -21416,21 +21431,6 @@
       "responsavel": "Carga inicial Farmácia",
       "data": "13/08/2026",
       "obs": "Carga inicial Farmácia - linha 22b | Validade: 2028-01",
-      "criado_em": "13/08/2026 20:25:46",
-      "item": "Cloridrato tiamina 100mg/ml 1ml",
-      "usuario": "Carga inicial Farmácia"
-    },
-    {
-      "id": 34,
-      "item_id": 22,
-      "produto_nome": "Cloridrato tiamina 100mg/ml 1ml",
-      "tipo": "Entrada direta na Farmácia",
-      "origem": "Carga inicial",
-      "destino": "Farmácia",
-      "quantidade": 8,
-      "responsavel": "Carga inicial Farmácia",
-      "data": "13/08/2026",
-      "obs": "Carga inicial Farmácia - linha 22 | Validade: 2027-07",
       "criado_em": "13/08/2026 20:25:46",
       "item": "Cloridrato tiamina 100mg/ml 1ml",
       "usuario": "Carga inicial Farmácia"
