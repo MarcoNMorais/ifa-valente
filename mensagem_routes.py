@@ -10,108 +10,107 @@ _ENDS = ['Permita-se seguir um passo de cada vez.', 'Procure alguém de confian�
 
 def _ensure_messages_table() -> None:
     db = get_db()
-    db.execute(
-        """
-        CREATE TABLE IF NOT EXISTS daily_messages (
-            id INTEGER PRIMARY KEY AUTOINCREMENT,
-            text TEXT NOT NULL UNIQUE COLLATE NOCASE,
-            active INTEGER NOT NULL DEFAULT 1,
-            source TEXT NOT NULL DEFAULT 'padrao',
-            created_at TEXT NOT NULL
-        )
-        """
-    )
-    total = db.execute("SELECT COUNT(*) FROM daily_messages").fetchone()[0]
+    db.execute('''CREATE TABLE IF NOT EXISTS daily_messages (
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        text TEXT NOT NULL UNIQUE COLLATE NOCASE,
+        active INTEGER NOT NULL DEFAULT 1,
+        source TEXT NOT NULL DEFAULT 'padrao',
+        created_at TEXT NOT NULL)''')
+    db.execute('''CREATE TABLE IF NOT EXISTS message_access (
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        origem TEXT NOT NULL,
+        visitor_id TEXT NOT NULL,
+        accessed_at TEXT NOT NULL)''')
+    db.execute('CREATE INDEX IF NOT EXISTS idx_message_access_origem ON message_access(origem)')
+    db.execute('CREATE INDEX IF NOT EXISTS idx_message_access_visitor ON message_access(visitor_id)')
+    total = db.execute('SELECT COUNT(*) FROM daily_messages').fetchone()[0]
     if total == 0:
         stamp = now_iso()
-        rows = [(f"{start} {end}", 1, "padrao", stamp) for start in _STARTS for end in _ENDS]
-        db.executemany(
-            "INSERT OR IGNORE INTO daily_messages(text, active, source, created_at) VALUES(?,?,?,?)",
-            rows,
-        )
-        db.commit()
+        rows = [(f'{start} {end}', 1, 'padrao', stamp) for start in _STARTS for end in _ENDS]
+        db.executemany('INSERT OR IGNORE INTO daily_messages(text, active, source, created_at) VALUES(?,?,?,?)', rows)
+    db.commit()
+
+
+def _clean_origin(value: str | None) -> str:
+    raw = (value or 'DIRETO').strip().upper()
+    safe = ''.join(ch for ch in raw if ch.isalnum() or ch in '-_')[:60]
+    return safe or 'DIRETO'
 
 
 def register_mensagem_routes(app) -> None:
-    @app.get("/mensagem")
+    @app.get('/mensagem')
     def mensagem_do_dia():
         _ensure_messages_table()
-        rows = get_db().execute(
-            "SELECT id, text FROM daily_messages WHERE active=1 ORDER BY id"
-        ).fetchall()
-        messages = [{"id": row["id"], "text": row["text"]} for row in rows]
-        return render_template("mensagem_v2.html", messages=messages, total=len(messages))
+        rows = get_db().execute('SELECT id, text FROM daily_messages WHERE active=1 ORDER BY id').fetchall()
+        messages = [{'id': row['id'], 'text': row['text']} for row in rows]
+        return render_template('mensagem_v2.html', messages=messages, total=len(messages))
 
-    @app.route("/mensagem/admin", methods=["GET", "POST"])
+    @app.get('/mensagem/registrar')
+    def mensagem_registrar():
+        _ensure_messages_table()
+        origem = _clean_origin(request.args.get('origem'))
+        visitor = (request.args.get('v') or '').strip()[:80]
+        if 8 <= len(visitor) <= 80 and all(ch.isalnum() or ch in '-_' for ch in visitor):
+            db = get_db()
+            db.execute('INSERT INTO message_access(origem, visitor_id, accessed_at) VALUES(?,?,?)', (origem, visitor, now_iso()))
+            db.commit()
+        return ('', 204)
+
+    @app.route('/mensagem/admin', methods=['GET', 'POST'])
     @admin_required
     def mensagem_admin():
         _ensure_messages_table()
         db = get_db()
 
-        if request.method == "POST":
-            action = (request.form.get("action") or "add").strip()
-
-            if action == "add":
-                text = " ".join((request.form.get("text") or "").split())
+        if request.method == 'POST':
+            action = (request.form.get('action') or 'add').strip()
+            if action == 'add':
+                text = ' '.join((request.form.get('text') or '').split())
                 if len(text) < 10:
-                    flash("A frase precisa ter pelo menos 10 caracteres.", "warning")
+                    flash('A frase precisa ter pelo menos 10 caracteres.', 'warning')
                 elif len(text) > 320:
-                    flash("A frase pode ter no máximo 320 caracteres.", "warning")
+                    flash('A frase pode ter no máximo 320 caracteres.', 'warning')
                 else:
                     try:
-                        db.execute(
-                            "INSERT INTO daily_messages(text, active, source, created_at) VALUES(?,1,'manual',?)",
-                            (text, now_iso()),
-                        )
+                        db.execute("INSERT INTO daily_messages(text, active, source, created_at) VALUES(?,1,'manual',?)", (text, now_iso()))
                         commit_with_backup()
-                        flash("Frase adicionada com sucesso.", "success")
+                        flash('Frase adicionada com sucesso.', 'success')
                     except Exception:
                         db.rollback()
-                        flash("Essa frase já existe.", "warning")
-
-            elif action == "toggle":
+                        flash('Essa frase já existe.', 'warning')
+            elif action == 'toggle':
                 try:
-                    message_id = int(request.form.get("id") or 0)
-                    db.execute(
-                        "UPDATE daily_messages SET active=CASE active WHEN 1 THEN 0 ELSE 1 END WHERE id=?",
-                        (message_id,),
-                    )
+                    message_id = int(request.form.get('id') or 0)
+                    db.execute('UPDATE daily_messages SET active=CASE active WHEN 1 THEN 0 ELSE 1 END WHERE id=?', (message_id,))
                     commit_with_backup()
-                    flash("Status da frase atualizado.", "success")
+                    flash('Status da frase atualizado.', 'success')
                 except (TypeError, ValueError):
-                    flash("Frase inválida.", "danger")
-
-            elif action == "delete":
+                    flash('Frase inválida.', 'danger')
+            elif action == 'delete':
                 try:
-                    message_id = int(request.form.get("id") or 0)
-                    row = db.execute(
-                        "SELECT source FROM daily_messages WHERE id=?", (message_id,)
-                    ).fetchone()
-                    if row and row["source"] == "manual":
-                        db.execute("DELETE FROM daily_messages WHERE id=?", (message_id,))
+                    message_id = int(request.form.get('id') or 0)
+                    row = db.execute('SELECT source FROM daily_messages WHERE id=?', (message_id,)).fetchone()
+                    if row and row['source'] == 'manual':
+                        db.execute('DELETE FROM daily_messages WHERE id=?', (message_id,))
                         commit_with_backup()
-                        flash("Frase manual removida.", "success")
+                        flash('Frase manual removida.', 'success')
                     else:
-                        flash("As frases padrão não são excluídas; você pode apenas desativá-las.", "warning")
+                        flash('As frases padrão não são excluídas; você pode apenas desativá-las.', 'warning')
                 except (TypeError, ValueError):
-                    flash("Frase inválida.", "danger")
+                    flash('Frase inválida.', 'danger')
+            return redirect(url_for('mensagem_admin'))
 
-            return redirect(url_for("mensagem_admin"))
-
-        rows = db.execute(
-            """
-            SELECT id, text, active, source, created_at
-            FROM daily_messages
-            ORDER BY source DESC, id DESC
-            """
-        ).fetchall()
-        stats = db.execute(
-            """
-            SELECT
-              COUNT(*) AS total,
-              SUM(CASE WHEN active=1 THEN 1 ELSE 0 END) AS active,
-              SUM(CASE WHEN source='manual' THEN 1 ELSE 0 END) AS manual
-            FROM daily_messages
-            """
-        ).fetchone()
-        return render_template("mensagem_admin.html", rows=rows, stats=stats)
+        rows = db.execute('SELECT id, text, active, source, created_at FROM daily_messages ORDER BY source DESC, id DESC').fetchall()
+        stats = db.execute('''SELECT COUNT(*) AS total,
+            SUM(CASE WHEN active=1 THEN 1 ELSE 0 END) AS active,
+            SUM(CASE WHEN source='manual' THEN 1 ELSE 0 END) AS manual
+            FROM daily_messages''').fetchone()
+        access_stats = db.execute('''SELECT COUNT(*) AS acessos,
+            COUNT(DISTINCT visitor_id) AS visitantes
+            FROM message_access''').fetchone()
+        today_stats = db.execute("SELECT COUNT(*) AS acessos, COUNT(DISTINCT visitor_id) AS visitantes FROM message_access WHERE date(accessed_at)=date('now','localtime')").fetchone()
+        origins = db.execute('''SELECT origem, COUNT(*) AS acessos,
+            COUNT(DISTINCT visitor_id) AS visitantes,
+            MAX(accessed_at) AS ultimo
+            FROM message_access GROUP BY origem ORDER BY acessos DESC, origem''').fetchall()
+        return render_template('mensagem_admin.html', rows=rows, stats=stats, access_stats=access_stats, today_stats=today_stats, origins=origins)
