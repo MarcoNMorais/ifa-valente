@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 14:30:32",
+  "atualizado_em": "24/08/2026 14:30:49",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 28922,
-    "total_geral": 119327,
+    "total_farmacia": 28902,
+    "total_geral": 119307,
     "perto_de_terminar": 0,
     "zerados": 5
   },
@@ -3823,19 +3823,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 310,
+      "farmacia": 290,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 310,
+      "total": 290,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-24 11:32:45",
+      "atualizado_em": "2026-08-24 14:30:48",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -3843,7 +3843,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 330
+          "quantidade": 310
         }
       ],
       "minimo_manual": 0,
@@ -3851,9 +3851,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 5.0,
-      "total_saida_historica": 60,
-      "cobertura_dias": 62.0,
+      "media_diaria_saida": 6.67,
+      "total_saida_historica": 80,
+      "cobertura_dias": 43.5,
       "alerta_estoque": false
     },
     {
@@ -13898,6 +13898,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 658,
+      "item_id": 28,
+      "produto_nome": "Dipirona 500mg",
+      "tipo": "Farmácia para Outro destino",
+      "origem": "Farmácia",
+      "destino": "Outro destino",
+      "quantidade": 20,
+      "responsavel": "Leiliana",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-24 14:30:48",
+      "item": "Dipirona 500mg",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 657,
       "item_id": 134,
       "produto_nome": "Metformina 500mg CPR",
@@ -21380,21 +21395,6 @@
       "obs": "Carga inicial Farmácia - linha 142 | Validade: 2027-06",
       "criado_em": "13/08/2026 20:25:46",
       "item": "Oseltamivir 30mg CPR",
-      "usuario": "Carga inicial Farmácia"
-    },
-    {
-      "id": 158,
-      "item_id": 138,
-      "produto_nome": "Captopril 25mg CPR",
-      "tipo": "Entrada direta na Farmácia",
-      "origem": "Carga inicial",
-      "destino": "Farmácia",
-      "quantidade": 240,
-      "responsavel": "Carga inicial Farmácia",
-      "data": "13/08/2026",
-      "obs": "Carga inicial Farmácia - linha 141 | Validade: 2027-09",
-      "criado_em": "13/08/2026 20:25:46",
-      "item": "Captopril 25mg CPR",
       "usuario": "Carga inicial Farmácia"
     }
   ]
