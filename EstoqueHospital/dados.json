@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 15:13:21",
+  "atualizado_em": "24/08/2026 15:13:32",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 27894,
-    "total_geral": 118299,
+    "total_farmacia": 27874,
+    "total_geral": 118279,
     "perto_de_terminar": 0,
     "zerados": 7
   },
@@ -2740,19 +2740,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 249,
+      "farmacia": 229,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 249,
+      "total": 229,
       "minimo": 0,
       "validade": "2027-09",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-24 14:27:30",
+      "atualizado_em": "2026-08-24 15:13:32",
       "validade_mais_proxima": "2027-09",
       "vencimento_mais_proximo": "2027-09",
       "lotes_validade": [
@@ -2760,7 +2760,7 @@
           "local": "farmacia",
           "validade": "2027-09",
           "lote": "",
-          "quantidade": 249
+          "quantidade": 229
         }
       ],
       "minimo_manual": 0,
@@ -2768,9 +2768,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 6.67,
-      "total_saida_historica": 80,
-      "cobertura_dias": 37.4,
+      "media_diaria_saida": 8.33,
+      "total_saida_historica": 100,
+      "cobertura_dias": 27.5,
       "alerta_estoque": false
     },
     {
@@ -13878,6 +13878,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 740,
+      "item_id": 61,
+      "produto_nome": "Cetoprofeno IM 50mg",
+      "tipo": "Farmácia para Outro destino",
+      "origem": "Farmácia",
+      "destino": "Outro destino",
+      "quantidade": 20,
+      "responsavel": "Leiliana",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-24 15:13:32",
+      "item": "Cetoprofeno IM 50mg",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 739,
       "item_id": 60,
       "produto_nome": "Cetoprofeno EV 100mg",
@@ -21360,21 +21375,6 @@
       "obs": "Carga inicial Farmácia - linha 224",
       "criado_em": "13/08/2026 20:25:46",
       "item": "Equipo macrogotas",
-      "usuario": "Carga inicial Farmácia"
-    },
-    {
-      "id": 240,
-      "item_id": 219,
-      "produto_nome": "Fio agulhado / sutura nº 6",
-      "tipo": "Entrada direta na Farmácia",
-      "origem": "Carga inicial",
-      "destino": "Farmácia",
-      "quantidade": 38,
-      "responsavel": "Carga inicial Farmácia",
-      "data": "13/08/2026",
-      "obs": "Carga inicial Farmácia - linha 223",
-      "criado_em": "13/08/2026 20:25:46",
-      "item": "Fio agulhado / sutura nº 6",
       "usuario": "Carga inicial Farmácia"
     }
   ]
