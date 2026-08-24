@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 14:17:03",
+  "atualizado_em": "24/08/2026 14:17:17",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 29266,
-    "total_geral": 119671,
+    "total_farmacia": 29206,
+    "total_geral": 119611,
     "perto_de_terminar": 0,
     "zerados": 3
   },
@@ -12469,19 +12469,19 @@
       "tipo": "Insumo",
       "unidade": "Unidade",
       "almoxarifado": 1080,
-      "farmacia": 360,
+      "farmacia": 300,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1440,
+      "total": 1380,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-24 11:37:03",
+      "atualizado_em": "2026-08-24 14:17:17",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -12495,7 +12495,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 360
+          "quantidade": 300
         }
       ],
       "minimo_manual": 0,
@@ -12503,9 +12503,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 10.0,
-      "total_saida_historica": 120,
-      "cobertura_dias": 144.0,
+      "media_diaria_saida": 15.0,
+      "total_saida_historica": 180,
+      "cobertura_dias": 92.0,
       "alerta_estoque": false
     },
     {
@@ -13911,6 +13911,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 637,
+      "item_id": 202,
+      "produto_nome": "Soro fisiológico 100ml",
+      "tipo": "Farmácia para Outro destino",
+      "origem": "Farmácia",
+      "destino": "Outro destino",
+      "quantidade": 60,
+      "responsavel": "Leiliana",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-24 14:17:17",
+      "item": "Soro fisiológico 100ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 636,
       "item_id": 228,
@@ -21394,21 +21409,6 @@
       "obs": "Carga inicial Farmácia - linha 123 | Validade: 2027-01",
       "criado_em": "13/08/2026 20:25:46",
       "item": "Amitriptilina 25mg CPR",
-      "usuario": "Carga inicial Farmácia"
-    },
-    {
-      "id": 137,
-      "item_id": 119,
-      "produto_nome": "Atorvastatina 40mg CPR",
-      "tipo": "Entrada direta na Farmácia",
-      "origem": "Carga inicial",
-      "destino": "Farmácia",
-      "quantidade": 20,
-      "responsavel": "Carga inicial Farmácia",
-      "data": "13/08/2026",
-      "obs": "Carga inicial Farmácia - linha 122 | Validade: 2028-04",
-      "criado_em": "13/08/2026 20:25:46",
-      "item": "Atorvastatina 40mg CPR",
       "usuario": "Carga inicial Farmácia"
     }
   ]
