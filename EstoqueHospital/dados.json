@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 15:26:19",
+  "atualizado_em": "24/08/2026 15:26:29",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 27193,
-    "total_geral": 117598,
+    "total_farmacia": 27181,
+    "total_geral": 117586,
     "perto_de_terminar": 0,
     "zerados": 8
   },
@@ -1968,19 +1968,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 108,
+      "farmacia": 96,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 108,
+      "total": 96,
       "minimo": 0,
       "validade": "2027-07",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-24 14:37:26",
+      "atualizado_em": "2026-08-24 15:26:29",
       "validade_mais_proxima": "2027-07",
       "vencimento_mais_proximo": "2027-07",
       "lotes_validade": [
@@ -1988,7 +1988,7 @@
           "local": "farmacia",
           "validade": "2027-07",
           "lote": "",
-          "quantidade": 108
+          "quantidade": 96
         }
       ],
       "minimo_manual": 0,
@@ -1996,9 +1996,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 8.0,
-      "total_saida_historica": 96,
-      "cobertura_dias": 13.5,
+      "media_diaria_saida": 9.0,
+      "total_saida_historica": 108,
+      "cobertura_dias": 10.7,
       "alerta_estoque": false
     },
     {
@@ -13859,6 +13859,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 783,
+      "item_id": 55,
+      "produto_nome": "Benzilpenicilina 1.200",
+      "tipo": "Farmácia para Outro destino",
+      "origem": "Farmácia",
+      "destino": "Outro destino",
+      "quantidade": 12,
+      "responsavel": "Leiliana",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-24 15:26:29",
+      "item": "Benzilpenicilina 1.200",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 782,
       "item_id": 68,
       "produto_nome": "Dexametasona",
@@ -21341,21 +21356,6 @@
       "obs": "Importação Farmácia - linha 261 | validade: sem validade",
       "criado_em": "18/08/2026 09:14:00",
       "item": "Simeticona gotas",
-      "usuario": "Importação Farmácia"
-    },
-    {
-      "id": 283,
-      "item_id": 255,
-      "produto_nome": "Ibuprofeno gotas",
-      "tipo": "Entrada direta na Farmácia",
-      "origem": "Importação lista Farmácia 227-288",
-      "destino": "Farmácia",
-      "quantidade": 32,
-      "responsavel": "Importação Farmácia",
-      "data": "18/08/2026",
-      "obs": "Importação Farmácia - linha 260 | validade: sem validade",
-      "criado_em": "18/08/2026 09:14:00",
-      "item": "Ibuprofeno gotas",
       "usuario": "Importação Farmácia"
     }
   ]
