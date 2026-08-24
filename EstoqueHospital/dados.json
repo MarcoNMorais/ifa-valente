@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 11:30:39",
+  "atualizado_em": "24/08/2026 11:30:52",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 91033,
-    "total_farmacia": 32115,
-    "total_geral": 123148,
+    "total_farmacia": 32025,
+    "total_geral": 123058,
     "perto_de_terminar": 0,
     "zerados": 3
   },
@@ -595,19 +595,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 1030,
+      "farmacia": 940,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1030,
+      "total": 940,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-24 11:25:32",
+      "atualizado_em": "2026-08-24 11:30:52",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -615,7 +615,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 1030
+          "quantidade": 940
         }
       ],
       "minimo_manual": 0,
@@ -623,9 +623,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 10.0,
-      "total_saida_historica": 120,
-      "cobertura_dias": 103.0,
+      "media_diaria_saida": 17.5,
+      "total_saida_historica": 210,
+      "cobertura_dias": 53.7,
       "alerta_estoque": false
     },
     {
@@ -14290,6 +14290,21 @@
       "usuario": "Leiliana"
     },
     {
+      "id": 516,
+      "item_id": 187,
+      "produto_nome": "Agulha hipodérmica tam. 18",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 90,
+      "responsavel": "Assucena",
+      "data": "2026-08-15",
+      "obs": "",
+      "criado_em": "2026-08-24 11:30:52",
+      "item": "Agulha hipodérmica tam. 18",
+      "usuario": "Assucena"
+    },
+    {
       "id": 515,
       "item_id": 80,
       "produto_nome": "Hidralazina 20mg",
@@ -21410,21 +21425,6 @@
       "responsavel": "Carga inicial Farmácia",
       "data": "13/08/2026",
       "obs": "Carga inicial Farmácia - linha 11b | Validade: 2028-12",
-      "criado_em": "13/08/2026 20:25:46",
-      "item": "Midazolam 5mg/ml 10ml",
-      "usuario": "Carga inicial Farmácia"
-    },
-    {
-      "id": 16,
-      "item_id": 11,
-      "produto_nome": "Midazolam 5mg/ml 10ml",
-      "tipo": "Entrada direta na Farmácia",
-      "origem": "Carga inicial",
-      "destino": "Farmácia",
-      "quantidade": 73,
-      "responsavel": "Carga inicial Farmácia",
-      "data": "13/08/2026",
-      "obs": "Carga inicial Farmácia - linha 11 | Validade: 2028-02",
       "criado_em": "13/08/2026 20:25:46",
       "item": "Midazolam 5mg/ml 10ml",
       "usuario": "Carga inicial Farmácia"
