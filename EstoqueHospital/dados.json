@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 15:35:54",
+  "atualizado_em": "24/08/2026 15:36:18",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 26609,
-    "total_geral": 117014,
+    "total_farmacia": 26608,
+    "total_geral": 117013,
     "perto_de_terminar": 0,
     "zerados": 9
   },
@@ -13810,19 +13810,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 18,
+      "farmacia": 17,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 18,
+      "total": 17,
       "minimo": 0,
       "validade": "05/27",
       "lote": "",
       "origem": "Carga Farmácia 227-288",
       "obs": "Importação Farmácia 227-288",
-      "atualizado_em": "2026-08-20 13:12:54",
+      "atualizado_em": "2026-08-24 15:36:17",
       "validade_mais_proxima": "05/27",
       "vencimento_mais_proximo": "05/27",
       "lotes_validade": [
@@ -13830,7 +13830,7 @@
           "local": "farmacia",
           "validade": "05/27",
           "lote": "",
-          "quantidade": 18
+          "quantidade": 17
         }
       ],
       "minimo_manual": 0,
@@ -13838,13 +13838,28 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 7,
-      "media_diaria_saida": 0.0,
-      "total_saida_historica": 0,
-      "cobertura_dias": null,
+      "media_diaria_saida": 0.14,
+      "total_saida_historica": 1,
+      "cobertura_dias": 119.0,
       "alerta_estoque": false
     }
   ],
   "movimentacoes": [
+    {
+      "id": 815,
+      "item_id": 242,
+      "produto_nome": "Óleo mineral solução",
+      "tipo": "Farmácia para Outro destino",
+      "origem": "Farmácia",
+      "destino": "Outro destino",
+      "quantidade": 1,
+      "responsavel": "Leiliana",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-24 15:36:17",
+      "item": "Óleo mineral solução",
+      "usuario": "Leiliana"
+    },
     {
       "id": 814,
       "item_id": 241,
@@ -21328,21 +21343,6 @@
       "obs": "Importação Farmácia - linha 288 | validade: 05/27",
       "criado_em": "18/08/2026 09:14:00",
       "item": "Hidroclorotiazida 25mg CPR",
-      "usuario": "Importação Farmácia"
-    },
-    {
-      "id": 315,
-      "item_id": 271,
-      "produto_nome": "Risperidona 3mg CPR",
-      "tipo": "Entrada direta na Farmácia",
-      "origem": "Importação lista Farmácia 227-288",
-      "destino": "Farmácia",
-      "quantidade": 50,
-      "responsavel": "Importação Farmácia",
-      "data": "18/08/2026",
-      "obs": "Importação Farmácia - linha 287 | validade: 06/29",
-      "criado_em": "18/08/2026 09:14:00",
-      "item": "Risperidona 3mg CPR",
       "usuario": "Importação Farmácia"
     }
   ]
