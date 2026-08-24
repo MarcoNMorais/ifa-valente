@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 14:28:15",
+  "atualizado_em": "24/08/2026 14:28:35",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 29042,
-    "total_geral": 119447,
+    "total_farmacia": 29012,
+    "total_geral": 119417,
     "perto_de_terminar": 0,
     "zerados": 4
   },
@@ -10192,19 +10192,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 2500,
-      "farmacia": 2108,
+      "farmacia": 2078,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 4608,
+      "total": 4578,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-24 14:19:50",
+      "atualizado_em": "2026-08-24 14:28:35",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -10218,7 +10218,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 2108
+          "quantidade": 2078
         }
       ],
       "minimo_manual": 0,
@@ -10226,9 +10226,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 14.17,
-      "total_saida_historica": 170,
-      "cobertura_dias": 325.3,
+      "media_diaria_saida": 16.67,
+      "total_saida_historica": 200,
+      "cobertura_dias": 274.7,
       "alerta_estoque": false
     },
     {
@@ -13904,6 +13904,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 654,
+      "item_id": 104,
+      "produto_nome": "Seringa 3ml",
+      "tipo": "Farmácia para Outro destino",
+      "origem": "Farmácia",
+      "destino": "Outro destino",
+      "quantidade": 30,
+      "responsavel": "Leiliana",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-24 14:28:35",
+      "item": "Seringa 3ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 653,
       "item_id": 238,
@@ -21387,21 +21402,6 @@
       "obs": "Carga inicial Farmácia - linha 139 | Validade: 2027-05",
       "criado_em": "13/08/2026 20:25:46",
       "item": "Gabapentina 300mg CPR",
-      "usuario": "Carga inicial Farmácia"
-    },
-    {
-      "id": 154,
-      "item_id": 135,
-      "produto_nome": "Quetiapina 25mg CPR",
-      "tipo": "Entrada direta na Farmácia",
-      "origem": "Carga inicial",
-      "destino": "Farmácia",
-      "quantidade": 20,
-      "responsavel": "Carga inicial Farmácia",
-      "data": "13/08/2026",
-      "obs": "Carga inicial Farmácia - linha 138 | Validade: 2027-11",
-      "criado_em": "13/08/2026 20:25:46",
-      "item": "Quetiapina 25mg CPR",
       "usuario": "Carga inicial Farmácia"
     }
   ]
