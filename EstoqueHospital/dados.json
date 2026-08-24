@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 14:58:04",
+  "atualizado_em": "24/08/2026 14:58:26",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 28197,
-    "total_geral": 118602,
+    "total_farmacia": 28189,
+    "total_geral": 118594,
     "perto_de_terminar": 0,
     "zerados": 7
   },
@@ -4989,19 +4989,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 35,
+      "farmacia": 27,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 35,
+      "total": 27,
       "minimo": 0,
       "validade": "2027-05",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-24 14:33:51",
+      "atualizado_em": "2026-08-24 14:58:26",
       "validade_mais_proxima": "2027-05",
       "vencimento_mais_proximo": "2027-05",
       "lotes_validade": [
@@ -5009,7 +5009,7 @@
           "local": "farmacia",
           "validade": "2027-05",
           "lote": "",
-          "quantidade": 35
+          "quantidade": 27
         }
       ],
       "minimo_manual": 0,
@@ -5017,9 +5017,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 1.83,
-      "total_saida_historica": 22,
-      "cobertura_dias": 19.1,
+      "media_diaria_saida": 2.5,
+      "total_saida_historica": 30,
+      "cobertura_dias": 10.8,
       "alerta_estoque": false
     },
     {
@@ -13884,6 +13884,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 719,
+      "item_id": 9,
+      "produto_nome": "Fentanila 50mcg/ml",
+      "tipo": "Farmácia para Outro destino",
+      "origem": "Farmácia",
+      "destino": "Outro destino",
+      "quantidade": 8,
+      "responsavel": "Leiliana",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-24 14:58:26",
+      "item": "Fentanila 50mcg/ml",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 718,
       "item_id": 27,
       "produto_nome": "Paracetamol 500mg",
@@ -21366,21 +21381,6 @@
       "obs": "Carga inicial Farmácia - linha 203",
       "criado_em": "13/08/2026 20:25:46",
       "item": "Caixa de perfurocortante",
-      "usuario": "Carga inicial Farmácia"
-    },
-    {
-      "id": 219,
-      "item_id": 199,
-      "produto_nome": "Lençol descartável papel",
-      "tipo": "Entrada direta na Farmácia",
-      "origem": "Carga inicial",
-      "destino": "Farmácia",
-      "quantidade": 12,
-      "responsavel": "Carga inicial Farmácia",
-      "data": "13/08/2026",
-      "obs": "Carga inicial Farmácia - linha 202",
-      "criado_em": "13/08/2026 20:25:46",
-      "item": "Lençol descartável papel",
       "usuario": "Carga inicial Farmácia"
     }
   ]
