@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "24/08/2026 16:06:20",
+  "atualizado_em": "24/08/2026 16:06:44",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
-    "total_almoxarifado": 90330,
-    "total_farmacia": 25084,
+    "total_almoxarifado": 90230,
+    "total_farmacia": 25184,
     "total_geral": 115414,
     "perto_de_terminar": 0,
     "zerados": 11
@@ -308,8 +308,8 @@
       "nome": "Agulha 13x4,5",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 1900,
-      "farmacia": 0,
+      "almoxarifado": 1800,
+      "farmacia": 100,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -321,7 +321,7 @@
       "lote": "",
       "origem": "Carga Almoxerifado",
       "obs": "Importação Almoxerifado",
-      "atualizado_em": "2026-08-20 13:12:54",
+      "atualizado_em": "2026-08-24 16:06:44",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -329,7 +329,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 1900
+          "quantidade": 1800
+        },
+        {
+          "local": "farmacia",
+          "validade": "",
+          "lote": "",
+          "quantidade": 100
         }
       ],
       "minimo_manual": 0,
@@ -13814,6 +13820,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 913,
+      "item_id": 287,
+      "produto_nome": "Agulha 13x4,5",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 100,
+      "responsavel": "Leiliana",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-24 16:06:44",
+      "item": "Agulha 13x4,5",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 912,
       "item_id": 205,
       "produto_nome": "Soro glicose 5% 500ml",
@@ -21296,21 +21317,6 @@
       "obs": "Importação Almoxerifado - linha 98",
       "criado_em": "18/08/2026 09:58:00",
       "item": "Sonda Nasogástrica nº 16",
-      "usuario": "Sistema"
-    },
-    {
-      "id": 413,
-      "item_id": 335,
-      "produto_nome": "Bisturi nº 23",
-      "tipo": "entrada",
-      "origem": "Carga Almoxerifado",
-      "destino": "almoxarifado",
-      "quantidade": 300,
-      "responsavel": "Sistema",
-      "data": "18/08/2026 09:58:00",
-      "obs": "Importação Almoxerifado - linha 97",
-      "criado_em": "18/08/2026 09:58:00",
-      "item": "Bisturi nº 23",
       "usuario": "Sistema"
     }
   ]
