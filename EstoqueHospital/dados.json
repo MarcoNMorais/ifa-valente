@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 11:46:26",
+  "atualizado_em": "24/08/2026 11:46:52",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 30826,
-    "total_geral": 121231,
+    "total_farmacia": 30820,
+    "total_geral": 121225,
     "perto_de_terminar": 0,
     "zerados": 3
   },
@@ -7332,19 +7332,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 350,
-      "farmacia": 29,
+      "farmacia": 23,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 379,
+      "total": 373,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-20 13:12:54",
+      "atualizado_em": "2026-08-24 11:46:52",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -7358,7 +7358,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 29
+          "quantidade": 23
         }
       ],
       "minimo_manual": 0,
@@ -7366,9 +7366,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 0.0,
-      "total_saida_historica": 0,
-      "cobertura_dias": null,
+      "media_diaria_saida": 0.5,
+      "total_saida_historica": 6,
+      "cobertura_dias": 746.0,
       "alerta_estoque": false
     },
     {
@@ -14369,6 +14369,21 @@
       "criado_em": "2026-08-20 16:17:28",
       "item": "Captopril 25mg CPR",
       "usuario": "Leiliana"
+    },
+    {
+      "id": 574,
+      "item_id": 185,
+      "produto_nome": "Luva cirúrgica tam. 7,5",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 6,
+      "responsavel": "Assucena",
+      "data": "2026-08-17",
+      "obs": "",
+      "criado_em": "2026-08-24 11:46:52",
+      "item": "Luva cirúrgica tam. 7,5",
+      "usuario": "Assucena"
     },
     {
       "id": 573,
@@ -21418,21 +21433,6 @@
       "obs": "Carga inicial Farmácia - linha 61 | Validade: 2028-01",
       "criado_em": "13/08/2026 20:25:46",
       "item": "Ceftriaxona 1g",
-      "usuario": "Carga inicial Farmácia"
-    },
-    {
-      "id": 74,
-      "item_id": 58,
-      "produto_nome": "Cefalotina 1000mg",
-      "tipo": "Entrada direta na Farmácia",
-      "origem": "Carga inicial",
-      "destino": "Farmácia",
-      "quantidade": 100,
-      "responsavel": "Carga inicial Farmácia",
-      "data": "13/08/2026",
-      "obs": "Carga inicial Farmácia - linha 60 | Validade: 2027-01",
-      "criado_em": "13/08/2026 20:25:46",
-      "item": "Cefalotina 1000mg",
       "usuario": "Carga inicial Farmácia"
     }
   ]
