@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "24/08/2026 16:09:46",
+  "atualizado_em": "24/08/2026 16:10:02",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
-    "total_almoxarifado": 88826,
-    "total_farmacia": 26588,
+    "total_almoxarifado": 88822,
+    "total_farmacia": 26592,
     "total_geral": 115414,
     "perto_de_terminar": 0,
     "zerados": 11
@@ -2286,8 +2286,8 @@
       "nome": "Caixa de perfurocortante",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 4,
-      "farmacia": 0,
+      "almoxarifado": 0,
+      "farmacia": 4,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -2299,12 +2299,12 @@
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-24 14:10:20",
+      "atualizado_em": "2026-08-24 16:10:02",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
         {
-          "local": "almoxarifado",
+          "local": "farmacia",
           "validade": "",
           "lote": "",
           "quantidade": 4
@@ -13844,6 +13844,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 921,
+      "item_id": 200,
+      "produto_nome": "Caixa de perfurocortante",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 4,
+      "responsavel": "Leiliana",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-24 16:10:02",
+      "item": "Caixa de perfurocortante",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 920,
       "item_id": 287,
       "produto_nome": "Agulha 13x4,5",
@@ -21326,21 +21341,6 @@
       "obs": "",
       "criado_em": "2026-08-21 10:50:51",
       "item": "Complexo B",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 436,
-      "item_id": 76,
-      "produto_nome": "Escopolamina + Dipirona",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 10,
-      "responsavel": "Assucena",
-      "data": "2026-08-14",
-      "obs": "",
-      "criado_em": "2026-08-21 10:50:41",
-      "item": "Escopolamina + Dipirona",
       "usuario": "Assucena"
     }
   ]
