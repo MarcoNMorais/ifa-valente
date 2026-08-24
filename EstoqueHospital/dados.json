@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 11:46:52",
+  "atualizado_em": "24/08/2026 11:47:02",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 30820,
-    "total_geral": 121225,
+    "total_farmacia": 30814,
+    "total_geral": 121219,
     "perto_de_terminar": 0,
     "zerados": 3
   },
@@ -7286,19 +7286,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 450,
-      "farmacia": 60,
+      "farmacia": 54,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 510,
+      "total": 504,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-21 10:43:01",
+      "atualizado_em": "2026-08-24 11:47:02",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -7312,7 +7312,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 60
+          "quantidade": 54
         }
       ],
       "minimo_manual": 0,
@@ -7320,9 +7320,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 0.0,
-      "total_saida_historica": 0,
-      "cobertura_dias": null,
+      "media_diaria_saida": 0.5,
+      "total_saida_historica": 6,
+      "cobertura_dias": 1008.0,
       "alerta_estoque": false
     },
     {
@@ -14369,6 +14369,21 @@
       "criado_em": "2026-08-20 16:17:28",
       "item": "Captopril 25mg CPR",
       "usuario": "Leiliana"
+    },
+    {
+      "id": 575,
+      "item_id": 184,
+      "produto_nome": "Luva cirúrgica tam. 7",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 6,
+      "responsavel": "Assucena",
+      "data": "2026-08-17",
+      "obs": "",
+      "criado_em": "2026-08-24 11:47:02",
+      "item": "Luva cirúrgica tam. 7",
+      "usuario": "Assucena"
     },
     {
       "id": 574,
@@ -21418,21 +21433,6 @@
       "obs": "Carga inicial Farmácia - linha 62 | Validade: 2028-01",
       "criado_em": "13/08/2026 20:25:46",
       "item": "Cetoprofeno EV 100mg",
-      "usuario": "Carga inicial Farmácia"
-    },
-    {
-      "id": 75,
-      "item_id": 59,
-      "produto_nome": "Ceftriaxona 1g",
-      "tipo": "Entrada direta na Farmácia",
-      "origem": "Carga inicial",
-      "destino": "Farmácia",
-      "quantidade": 328,
-      "responsavel": "Carga inicial Farmácia",
-      "data": "13/08/2026",
-      "obs": "Carga inicial Farmácia - linha 61 | Validade: 2028-01",
-      "criado_em": "13/08/2026 20:25:46",
-      "item": "Ceftriaxona 1g",
       "usuario": "Carga inicial Farmácia"
     }
   ]
