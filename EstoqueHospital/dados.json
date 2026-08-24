@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 15:24:03",
+  "atualizado_em": "24/08/2026 15:24:15",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 27282,
-    "total_geral": 117687,
+    "total_farmacia": 27280,
+    "total_geral": 117685,
     "perto_de_terminar": 0,
     "zerados": 8
   },
@@ -269,19 +269,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 32,
+      "farmacia": 30,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 32,
+      "total": 30,
       "minimo": 0,
       "validade": "2026-09",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-20 13:12:54",
+      "atualizado_em": "2026-08-24 15:24:14",
       "validade_mais_proxima": "2026-09",
       "vencimento_mais_proximo": "2026-09",
       "lotes_validade": [
@@ -289,7 +289,7 @@
           "local": "farmacia",
           "validade": "2026-09",
           "lote": "",
-          "quantidade": 20
+          "quantidade": 18
         },
         {
           "local": "farmacia",
@@ -303,9 +303,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 0.0,
-      "total_saida_historica": 0,
-      "cobertura_dias": null,
+      "media_diaria_saida": 0.17,
+      "total_saida_historica": 2,
+      "cobertura_dias": 180.0,
       "alerta_estoque": false
     },
     {
@@ -13859,6 +13859,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 776,
+      "item_id": 14,
+      "produto_nome": "Adenosina 3mg/ml 2ml",
+      "tipo": "Farmácia para Outro destino",
+      "origem": "Farmácia",
+      "destino": "Outro destino",
+      "quantidade": 2,
+      "responsavel": "Leiliana",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-24 15:24:14",
+      "item": "Adenosina 3mg/ml 2ml",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 775,
       "item_id": 101,
       "produto_nome": "Acesso Central",
@@ -21341,21 +21356,6 @@
       "obs": "Importação Farmácia - linha 254 | validade: 07/27",
       "criado_em": "18/08/2026 09:14:00",
       "item": "Nistatina suspensão",
-      "usuario": "Importação Farmácia"
-    },
-    {
-      "id": 276,
-      "item_id": 249,
-      "produto_nome": "Prednisolona 3mg/ml",
-      "tipo": "Entrada direta na Farmácia",
-      "origem": "Importação lista Farmácia 227-288",
-      "destino": "Farmácia",
-      "quantidade": 10,
-      "responsavel": "Importação Farmácia",
-      "data": "18/08/2026",
-      "obs": "Importação Farmácia - linha 253b | validade: 03/28",
-      "criado_em": "18/08/2026 09:14:00",
-      "item": "Prednisolona 3mg/ml",
       "usuario": "Importação Farmácia"
     }
   ]
