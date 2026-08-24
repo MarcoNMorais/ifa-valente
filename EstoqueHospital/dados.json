@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 14:34:39",
+  "atualizado_em": "24/08/2026 14:34:53",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 28853,
-    "total_geral": 119258,
+    "total_farmacia": 28851,
+    "total_geral": 119256,
     "perto_de_terminar": 0,
     "zerados": 5
   },
@@ -4904,19 +4904,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 49,
+      "farmacia": 47,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 49,
+      "total": 47,
       "minimo": 0,
       "validade": "2027-02",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-20 13:12:54",
+      "atualizado_em": "2026-08-24 14:34:52",
       "validade_mais_proxima": "2027-02",
       "vencimento_mais_proximo": "2027-02",
       "lotes_validade": [
@@ -4924,7 +4924,7 @@
           "local": "farmacia",
           "validade": "2027-02",
           "lote": "",
-          "quantidade": 32
+          "quantidade": 30
         },
         {
           "local": "farmacia",
@@ -4938,9 +4938,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 0.0,
-      "total_saida_historica": 0,
-      "cobertura_dias": null,
+      "media_diaria_saida": 0.17,
+      "total_saida_historica": 2,
+      "cobertura_dias": 282.0,
       "alerta_estoque": false
     },
     {
@@ -13898,6 +13898,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 668,
+      "item_id": 5,
+      "produto_nome": "Etomidato 2mg/ml",
+      "tipo": "Farmácia para Outro destino",
+      "origem": "Farmácia",
+      "destino": "Outro destino",
+      "quantidade": 2,
+      "responsavel": "Leiliana",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-24 14:34:52",
+      "item": "Etomidato 2mg/ml",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 667,
       "item_id": 54,
       "produto_nome": "Atropina 0,25mg",
@@ -21380,21 +21395,6 @@
       "obs": "Carga inicial Farmácia - linha 152",
       "criado_em": "13/08/2026 20:25:46",
       "item": "Sonda Nasogástrica nº 08",
-      "usuario": "Carga inicial Farmácia"
-    },
-    {
-      "id": 168,
-      "item_id": 148,
-      "produto_nome": "Sonda Nasogástrica nº 10",
-      "tipo": "Entrada direta na Farmácia",
-      "origem": "Carga inicial",
-      "destino": "Farmácia",
-      "quantidade": 19,
-      "responsavel": "Carga inicial Farmácia",
-      "data": "13/08/2026",
-      "obs": "Carga inicial Farmácia - linha 151",
-      "criado_em": "13/08/2026 20:25:46",
-      "item": "Sonda Nasogástrica nº 10",
       "usuario": "Carga inicial Farmácia"
     }
   ]
