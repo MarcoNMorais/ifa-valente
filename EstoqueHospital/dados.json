@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 14:37:27",
+  "atualizado_em": "24/08/2026 14:37:49",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 28826,
-    "total_geral": 119231,
+    "total_farmacia": 28801,
+    "total_geral": 119206,
     "perto_de_terminar": 0,
     "zerados": 6
   },
@@ -4618,19 +4618,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 126,
+      "farmacia": 101,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 126,
+      "total": 101,
       "minimo": 0,
       "validade": "2027-10",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-24 14:03:54",
+      "atualizado_em": "2026-08-24 14:37:48",
       "validade_mais_proxima": "2027-10",
       "vencimento_mais_proximo": "2027-10",
       "lotes_validade": [
@@ -4638,7 +4638,7 @@
           "local": "farmacia",
           "validade": "2027-10",
           "lote": "",
-          "quantidade": 126
+          "quantidade": 101
         }
       ],
       "minimo_manual": 0,
@@ -4646,9 +4646,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 5.42,
-      "total_saida_historica": 65,
-      "cobertura_dias": 23.3,
+      "media_diaria_saida": 7.5,
+      "total_saida_historica": 90,
+      "cobertura_dias": 13.5,
       "alerta_estoque": false
     },
     {
@@ -13891,6 +13891,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 675,
+      "item_id": 76,
+      "produto_nome": "Escopolamina + Dipirona",
+      "tipo": "Farmácia para Outro destino",
+      "origem": "Farmácia",
+      "destino": "Outro destino",
+      "quantidade": 25,
+      "responsavel": "Leiliana",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-24 14:37:48",
+      "item": "Escopolamina + Dipirona",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 674,
       "item_id": 55,
       "produto_nome": "Benzilpenicilina 1.200",
@@ -21373,21 +21388,6 @@
       "obs": "Carga inicial Farmácia - linha 159",
       "criado_em": "13/08/2026 20:25:46",
       "item": "Seringa 60ml",
-      "usuario": "Carga inicial Farmácia"
-    },
-    {
-      "id": 175,
-      "item_id": 155,
-      "produto_nome": "Bolsa coletora",
-      "tipo": "Entrada direta na Farmácia",
-      "origem": "Carga inicial",
-      "destino": "Farmácia",
-      "quantidade": 12,
-      "responsavel": "Carga inicial Farmácia",
-      "data": "13/08/2026",
-      "obs": "Carga inicial Farmácia - linha 158",
-      "criado_em": "13/08/2026 20:25:46",
-      "item": "Bolsa coletora",
       "usuario": "Carga inicial Farmácia"
     }
   ]
