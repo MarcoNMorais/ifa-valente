@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 15:41:15",
+  "atualizado_em": "24/08/2026 15:41:34",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 26097,
-    "total_geral": 116502,
+    "total_farmacia": 26079,
+    "total_geral": 116484,
     "perto_de_terminar": 0,
     "zerados": 9
   },
@@ -2620,19 +2620,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 165,
+      "farmacia": 147,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 165,
+      "total": 147,
       "minimo": 0,
       "validade": "2028-01",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-24 15:35:41",
+      "atualizado_em": "2026-08-24 15:41:33",
       "validade_mais_proxima": "2028-01",
       "vencimento_mais_proximo": "2028-01",
       "lotes_validade": [
@@ -2640,7 +2640,7 @@
           "local": "farmacia",
           "validade": "2028-01",
           "lote": "",
-          "quantidade": 165
+          "quantidade": 147
         }
       ],
       "minimo_manual": 0,
@@ -2648,9 +2648,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 13.58,
-      "total_saida_historica": 163,
-      "cobertura_dias": 12.1,
+      "media_diaria_saida": 15.08,
+      "total_saida_historica": 181,
+      "cobertura_dias": 9.7,
       "alerta_estoque": false
     },
     {
@@ -13846,6 +13846,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 834,
+      "item_id": 59,
+      "produto_nome": "Ceftriaxona 1g",
+      "tipo": "Farmácia para Outro destino",
+      "origem": "Farmácia",
+      "destino": "Outro destino",
+      "quantidade": 18,
+      "responsavel": "Leiliana",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-24 15:41:33",
+      "item": "Ceftriaxona 1g",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 833,
       "item_id": 104,
       "produto_nome": "Seringa 3ml",
@@ -21328,21 +21343,6 @@
       "obs": "Importação Almoxerifado - linha 19",
       "criado_em": "18/08/2026 09:58:00",
       "item": "Seringa 10ml",
-      "usuario": "Sistema"
-    },
-    {
-      "id": 334,
-      "item_id": 102,
-      "produto_nome": "Seringa 5ml",
-      "tipo": "entrada",
-      "origem": "Carga Almoxerifado",
-      "destino": "almoxarifado",
-      "quantidade": 250,
-      "responsavel": "Sistema",
-      "data": "18/08/2026 09:58:00",
-      "obs": "Importação Almoxerifado - linha 18",
-      "criado_em": "18/08/2026 09:58:00",
-      "item": "Seringa 5ml",
       "usuario": "Sistema"
     }
   ]
