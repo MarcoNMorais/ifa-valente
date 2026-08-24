@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 15:39:56",
+  "atualizado_em": "24/08/2026 15:40:11",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 26387,
-    "total_geral": 116792,
+    "total_farmacia": 26287,
+    "total_geral": 116692,
     "perto_de_terminar": 0,
     "zerados": 9
   },
@@ -13138,19 +13138,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 850,
+      "farmacia": 750,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 850,
+      "total": 750,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-24 15:20:59",
+      "atualizado_em": "2026-08-24 15:40:10",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -13158,7 +13158,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 850
+          "quantidade": 750
         }
       ],
       "minimo_manual": 0,
@@ -13166,9 +13166,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 16.67,
-      "total_saida_historica": 200,
-      "cobertura_dias": 51.0,
+      "media_diaria_saida": 25.0,
+      "total_saida_historica": 300,
+      "cobertura_dias": 30.0,
       "alerta_estoque": false
     },
     {
@@ -13845,6 +13845,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 829,
+      "item_id": 195,
+      "produto_nome": "Tira Reagente G-Tech",
+      "tipo": "Farmácia para Outro destino",
+      "origem": "Farmácia",
+      "destino": "Outro destino",
+      "quantidade": 100,
+      "responsavel": "Leiliana",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-24 15:40:10",
+      "item": "Tira Reagente G-Tech",
+      "usuario": "Leiliana"
+    },
     {
       "id": 828,
       "item_id": 85,
@@ -21328,21 +21343,6 @@
       "obs": "Importação Almoxerifado - linha 14",
       "criado_em": "18/08/2026 09:58:00",
       "item": "Seringa 1ml",
-      "usuario": "Sistema"
-    },
-    {
-      "id": 329,
-      "item_id": 177,
-      "produto_nome": "Dispositivo intravenoso Gelco nº 22",
-      "tipo": "entrada",
-      "origem": "Carga Almoxerifado",
-      "destino": "almoxarifado",
-      "quantidade": 150,
-      "responsavel": "Sistema",
-      "data": "18/08/2026 09:58:00",
-      "obs": "Importação Almoxerifado - linha 13",
-      "criado_em": "18/08/2026 09:58:00",
-      "item": "Dispositivo intravenoso Gelco nº 22",
       "usuario": "Sistema"
     }
   ]
