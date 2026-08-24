@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 15:50:33",
+  "atualizado_em": "24/08/2026 15:50:45",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 25622,
-    "total_geral": 116027,
+    "total_farmacia": 25602,
+    "total_geral": 116007,
     "perto_de_terminar": 0,
     "zerados": 9
   },
@@ -17,19 +17,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 700,
+      "farmacia": 680,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 700,
+      "total": 680,
       "minimo": 0,
       "validade": "09/27",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-20 13:12:54",
+      "atualizado_em": "2026-08-24 15:50:45",
       "validade_mais_proxima": "09/27",
       "vencimento_mais_proximo": "09/27",
       "lotes_validade": [
@@ -43,7 +43,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 690
+          "quantidade": 670
         }
       ],
       "minimo_manual": 0,
@@ -51,9 +51,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 0.0,
-      "total_saida_historica": 0,
-      "cobertura_dias": null,
+      "media_diaria_saida": 1.67,
+      "total_saida_historica": 20,
+      "cobertura_dias": 408.0,
       "alerta_estoque": false
     },
     {
@@ -13834,6 +13834,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 867,
+      "item_id": 24,
+      "produto_nome": "AAS",
+      "tipo": "Farmácia para Outro destino",
+      "origem": "Farmácia",
+      "destino": "Outro destino",
+      "quantidade": 20,
+      "responsavel": "Leiliana",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-24 15:50:45",
+      "item": "AAS",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 866,
       "item_id": 239,
       "produto_nome": "Tramadol 50mg/ml 2ml",
@@ -21316,21 +21331,6 @@
       "obs": "Importação Almoxerifado - linha 52",
       "criado_em": "18/08/2026 09:58:00",
       "item": "Iodopovidona 10%",
-      "usuario": "Sistema"
-    },
-    {
-      "id": 367,
-      "item_id": 298,
-      "produto_nome": "Levofloxacino 100ml",
-      "tipo": "entrada",
-      "origem": "Carga Almoxerifado",
-      "destino": "almoxarifado",
-      "quantidade": 60,
-      "responsavel": "Sistema",
-      "data": "18/08/2026 09:58:00",
-      "obs": "Importação Almoxerifado - linha 51",
-      "criado_em": "18/08/2026 09:58:00",
-      "item": "Levofloxacino 100ml",
       "usuario": "Sistema"
     }
   ]
