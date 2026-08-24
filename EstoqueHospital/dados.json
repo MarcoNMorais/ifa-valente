@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 15:58:47",
+  "atualizado_em": "24/08/2026 15:59:04",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 25156,
-    "total_geral": 115561,
+    "total_farmacia": 25126,
+    "total_geral": 115531,
     "perto_de_terminar": 0,
     "zerados": 9
   },
@@ -2740,19 +2740,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 229,
+      "farmacia": 199,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 229,
+      "total": 199,
       "minimo": 0,
       "validade": "2027-09",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-24 15:13:32",
+      "atualizado_em": "2026-08-24 15:59:03",
       "validade_mais_proxima": "2027-09",
       "vencimento_mais_proximo": "2027-09",
       "lotes_validade": [
@@ -2760,7 +2760,7 @@
           "local": "farmacia",
           "validade": "2027-09",
           "lote": "",
-          "quantidade": 229
+          "quantidade": 199
         }
       ],
       "minimo_manual": 0,
@@ -2768,9 +2768,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 8.33,
-      "total_saida_historica": 100,
-      "cobertura_dias": 27.5,
+      "media_diaria_saida": 10.83,
+      "total_saida_historica": 130,
+      "cobertura_dias": 18.4,
       "alerta_estoque": false
     },
     {
@@ -13828,6 +13828,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 895,
+      "item_id": 61,
+      "produto_nome": "Cetoprofeno IM 50mg",
+      "tipo": "Farmácia para Outro destino",
+      "origem": "Farmácia",
+      "destino": "Outro destino",
+      "quantidade": 30,
+      "responsavel": "Leiliana",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-24 15:59:03",
+      "item": "Cetoprofeno IM 50mg",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 894,
       "item_id": 69,
       "produto_nome": "Diclofenaco 25mg",
@@ -21310,21 +21325,6 @@
       "obs": "Importação Almoxerifado - linha 80",
       "criado_em": "18/08/2026 09:58:00",
       "item": "Fio categute nº 1",
-      "usuario": "Sistema"
-    },
-    {
-      "id": 395,
-      "item_id": 320,
-      "produto_nome": "Acebrofilina 10mg/ml",
-      "tipo": "entrada",
-      "origem": "Carga Almoxerifado",
-      "destino": "almoxarifado",
-      "quantidade": 24,
-      "responsavel": "Sistema",
-      "data": "18/08/2026 09:58:00",
-      "obs": "Importação Almoxerifado - linha 79",
-      "criado_em": "18/08/2026 09:58:00",
-      "item": "Acebrofilina 10mg/ml",
       "usuario": "Sistema"
     }
   ]
