@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 15:08:34",
+  "atualizado_em": "24/08/2026 15:08:47",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 27974,
-    "total_geral": 118379,
+    "total_farmacia": 27969,
+    "total_geral": 118374,
     "perto_de_terminar": 0,
     "zerados": 7
   },
@@ -12626,19 +12626,19 @@
       "tipo": "Insumo",
       "unidade": "Unidade",
       "almoxarifado": 90,
-      "farmacia": 7,
+      "farmacia": 2,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 97,
+      "total": 92,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-24 14:15:13",
+      "atualizado_em": "2026-08-24 15:08:47",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -12652,7 +12652,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 7
+          "quantidade": 2
         }
       ],
       "minimo_manual": 0,
@@ -12660,9 +12660,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 2.5,
-      "total_saida_historica": 30,
-      "cobertura_dias": 38.8,
+      "media_diaria_saida": 2.92,
+      "total_saida_historica": 35,
+      "cobertura_dias": 31.5,
       "alerta_estoque": false
     },
     {
@@ -13877,6 +13877,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 733,
+      "item_id": 205,
+      "produto_nome": "Soro glicose 5% 500ml",
+      "tipo": "Farmácia para Outro destino",
+      "origem": "Farmácia",
+      "destino": "Outro destino",
+      "quantidade": 5,
+      "responsavel": "Leiliana",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-24 15:08:47",
+      "item": "Soro glicose 5% 500ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 732,
       "item_id": 181,
@@ -21360,21 +21375,6 @@
       "obs": "Carga inicial Farmácia - linha 217",
       "criado_em": "13/08/2026 20:25:46",
       "item": "Fio agulhado / sutura nº 0",
-      "usuario": "Carga inicial Farmácia"
-    },
-    {
-      "id": 233,
-      "item_id": 212,
-      "produto_nome": "Vasopressina",
-      "tipo": "Entrada direta na Farmácia",
-      "origem": "Carga inicial",
-      "destino": "Farmácia",
-      "quantidade": 10,
-      "responsavel": "Carga inicial Farmácia",
-      "data": "13/08/2026",
-      "obs": "Carga inicial Farmácia - linha 216",
-      "criado_em": "13/08/2026 20:25:46",
-      "item": "Vasopressina",
       "usuario": "Carga inicial Farmácia"
     }
   ]
