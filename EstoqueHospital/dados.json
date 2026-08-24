@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 15:08:15",
+  "atualizado_em": "24/08/2026 15:08:34",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 27975,
-    "total_geral": 118380,
+    "total_farmacia": 27974,
+    "total_geral": 118379,
     "perto_de_terminar": 0,
     "zerados": 7
   },
@@ -7432,19 +7432,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 998,
+      "farmacia": 997,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 998,
+      "total": 997,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-24 14:50:35",
+      "atualizado_em": "2026-08-24 15:08:34",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -7452,7 +7452,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 998
+          "quantidade": 997
         }
       ],
       "minimo_manual": 0,
@@ -7460,8 +7460,8 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 66.83,
-      "total_saida_historica": 802,
+      "media_diaria_saida": 66.92,
+      "total_saida_historica": 803,
       "cobertura_dias": 14.9,
       "alerta_estoque": false
     },
@@ -13877,6 +13877,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 732,
+      "item_id": 181,
+      "produto_nome": "Luva de látex tam. M",
+      "tipo": "Farmácia para Outro destino",
+      "origem": "Farmácia",
+      "destino": "Outro destino",
+      "quantidade": 1,
+      "responsavel": "Leiliana",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-24 15:08:34",
+      "item": "Luva de látex tam. M",
+      "usuario": "Leiliana"
+    },
     {
       "id": 731,
       "item_id": 103,
@@ -21360,21 +21375,6 @@
       "obs": "Carga inicial Farmácia - linha 216",
       "criado_em": "13/08/2026 20:25:46",
       "item": "Vasopressina",
-      "usuario": "Carga inicial Farmácia"
-    },
-    {
-      "id": 232,
-      "item_id": 211,
-      "produto_nome": "Metergin",
-      "tipo": "Entrada direta na Farmácia",
-      "origem": "Carga inicial",
-      "destino": "Farmácia",
-      "quantidade": 8,
-      "responsavel": "Carga inicial Farmácia",
-      "data": "13/08/2026",
-      "obs": "Carga inicial Farmácia - linha 215",
-      "criado_em": "13/08/2026 20:25:46",
-      "item": "Metergin",
       "usuario": "Carga inicial Farmácia"
     }
   ]
