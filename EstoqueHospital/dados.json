@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 14:48:45",
+  "atualizado_em": "24/08/2026 14:49:07",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 28432,
-    "total_geral": 118837,
+    "total_farmacia": 28430,
+    "total_geral": 118835,
     "perto_de_terminar": 0,
     "zerados": 6
   },
@@ -7479,19 +7479,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 499,
+      "farmacia": 497,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 499,
+      "total": 497,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-24 14:20:05",
+      "atualizado_em": "2026-08-24 14:49:06",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -7499,7 +7499,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 499
+          "quantidade": 497
         }
       ],
       "minimo_manual": 0,
@@ -7507,9 +7507,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 33.42,
-      "total_saida_historica": 401,
-      "cobertura_dias": 14.9,
+      "media_diaria_saida": 33.58,
+      "total_saida_historica": 403,
+      "cobertura_dias": 14.8,
       "alerta_estoque": false
     },
     {
@@ -13890,6 +13890,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 699,
+      "item_id": 180,
+      "produto_nome": "Luva de látex tam. P",
+      "tipo": "Farmácia para Outro destino",
+      "origem": "Farmácia",
+      "destino": "Outro destino",
+      "quantidade": 2,
+      "responsavel": "Leiliana",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-24 14:49:06",
+      "item": "Luva de látex tam. P",
+      "usuario": "Leiliana"
+    },
     {
       "id": 698,
       "item_id": 152,
@@ -21373,21 +21388,6 @@
       "obs": "Carga inicial Farmácia - linha 183",
       "criado_em": "13/08/2026 20:25:46",
       "item": "Luva de látex tam. P",
-      "usuario": "Carga inicial Farmácia"
-    },
-    {
-      "id": 199,
-      "item_id": 179,
-      "produto_nome": "Dispositivo intravenoso Gelco nº 14",
-      "tipo": "Entrada direta na Farmácia",
-      "origem": "Carga inicial",
-      "destino": "Farmácia",
-      "quantidade": 122,
-      "responsavel": "Carga inicial Farmácia",
-      "data": "13/08/2026",
-      "obs": "Carga inicial Farmácia - linha 182",
-      "criado_em": "13/08/2026 20:25:46",
-      "item": "Dispositivo intravenoso Gelco nº 14",
       "usuario": "Carga inicial Farmácia"
     }
   ]
