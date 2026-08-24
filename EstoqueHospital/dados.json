@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 11:46:13",
+  "atualizado_em": "24/08/2026 11:46:26",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 30856,
-    "total_geral": 121261,
+    "total_farmacia": 30826,
+    "total_geral": 121231,
     "perto_de_terminar": 0,
     "zerados": 3
   },
@@ -10223,19 +10223,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 2500,
-      "farmacia": 2198,
+      "farmacia": 2168,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 4698,
+      "total": 4668,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-24 11:28:37",
+      "atualizado_em": "2026-08-24 11:46:26",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -10249,7 +10249,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 2198
+          "quantidade": 2168
         }
       ],
       "minimo_manual": 0,
@@ -10257,9 +10257,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 6.67,
-      "total_saida_historica": 80,
-      "cobertura_dias": 704.7,
+      "media_diaria_saida": 9.17,
+      "total_saida_historica": 110,
+      "cobertura_dias": 509.2,
       "alerta_estoque": false
     },
     {
@@ -14369,6 +14369,21 @@
       "criado_em": "2026-08-20 16:17:28",
       "item": "Captopril 25mg CPR",
       "usuario": "Leiliana"
+    },
+    {
+      "id": 573,
+      "item_id": 104,
+      "produto_nome": "Seringa 3ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 30,
+      "responsavel": "Assucena",
+      "data": "2026-08-17",
+      "obs": "",
+      "criado_em": "2026-08-24 11:46:26",
+      "item": "Seringa 3ml",
+      "usuario": "Assucena"
     },
     {
       "id": 572,
@@ -21418,21 +21433,6 @@
       "obs": "Carga inicial Farmácia - linha 60 | Validade: 2027-01",
       "criado_em": "13/08/2026 20:25:46",
       "item": "Cefalotina 1000mg",
-      "usuario": "Carga inicial Farmácia"
-    },
-    {
-      "id": 73,
-      "item_id": 57,
-      "produto_nome": "Bromoprida 5mg",
-      "tipo": "Entrada direta na Farmácia",
-      "origem": "Carga inicial",
-      "destino": "Farmácia",
-      "quantidade": 230,
-      "responsavel": "Carga inicial Farmácia",
-      "data": "13/08/2026",
-      "obs": "Carga inicial Farmácia - linha 59 | Validade: 2027-06",
-      "criado_em": "13/08/2026 20:25:46",
-      "item": "Bromoprida 5mg",
       "usuario": "Carga inicial Farmácia"
     }
   ]
