@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 15:23:38",
+  "atualizado_em": "24/08/2026 15:23:51",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 27292,
-    "total_geral": 117697,
+    "total_farmacia": 27284,
+    "total_geral": 117689,
     "perto_de_terminar": 0,
     "zerados": 8
   },
@@ -4982,19 +4982,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 27,
+      "farmacia": 19,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 27,
+      "total": 19,
       "minimo": 0,
       "validade": "2027-05",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-24 14:58:26",
+      "atualizado_em": "2026-08-24 15:23:51",
       "validade_mais_proxima": "2027-05",
       "vencimento_mais_proximo": "2027-05",
       "lotes_validade": [
@@ -5002,7 +5002,7 @@
           "local": "farmacia",
           "validade": "2027-05",
           "lote": "",
-          "quantidade": 27
+          "quantidade": 19
         }
       ],
       "minimo_manual": 0,
@@ -5010,9 +5010,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 2.5,
-      "total_saida_historica": 30,
-      "cobertura_dias": 10.8,
+      "media_diaria_saida": 3.17,
+      "total_saida_historica": 38,
+      "cobertura_dias": 6.0,
       "alerta_estoque": false
     },
     {
@@ -13859,6 +13859,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 774,
+      "item_id": 9,
+      "produto_nome": "Fentanila 50mcg/ml",
+      "tipo": "Farmácia para Outro destino",
+      "origem": "Farmácia",
+      "destino": "Outro destino",
+      "quantidade": 8,
+      "responsavel": "Leiliana",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-24 15:23:51",
+      "item": "Fentanila 50mcg/ml",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 773,
       "item_id": 11,
       "produto_nome": "Midazolam 5mg/ml 10ml",
@@ -21341,21 +21356,6 @@
       "obs": "Importação Farmácia - linha 253 | validade: 07/27",
       "criado_em": "18/08/2026 09:14:00",
       "item": "Prednisolona 3mg/ml",
-      "usuario": "Importação Farmácia"
-    },
-    {
-      "id": 274,
-      "item_id": 248,
-      "produto_nome": "Acetilcisteína 2mg/ml",
-      "tipo": "Entrada direta na Farmácia",
-      "origem": "Importação lista Farmácia 227-288",
-      "destino": "Farmácia",
-      "quantidade": 8,
-      "responsavel": "Importação Farmácia",
-      "data": "18/08/2026",
-      "obs": "Importação Farmácia - linha 252 | validade: 03/28",
-      "criado_em": "18/08/2026 09:14:00",
-      "item": "Acetilcisteína 2mg/ml",
       "usuario": "Importação Farmácia"
     }
   ]
