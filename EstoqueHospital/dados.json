@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 15:23:04",
+  "atualizado_em": "24/08/2026 15:23:22",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 27305,
-    "total_geral": 117710,
+    "total_farmacia": 27304,
+    "total_geral": 117709,
     "perto_de_terminar": 0,
     "zerados": 8
   },
@@ -5834,19 +5834,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 6,
-      "farmacia": 7,
+      "farmacia": 6,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 13,
+      "total": 12,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-24 14:49:24",
+      "atualizado_em": "2026-08-24 15:23:22",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -5860,7 +5860,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 7
+          "quantidade": 6
         }
       ],
       "minimo_manual": 0,
@@ -5868,9 +5868,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 0.17,
-      "total_saida_historica": 2,
-      "cobertura_dias": 78.0,
+      "media_diaria_saida": 0.25,
+      "total_saida_historica": 3,
+      "cobertura_dias": 48.0,
       "alerta_estoque": false
     },
     {
@@ -13859,6 +13859,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 772,
+      "item_id": 175,
+      "produto_nome": "Fita cirúrgica microporosa",
+      "tipo": "Farmácia para Outro destino",
+      "origem": "Farmácia",
+      "destino": "Outro destino",
+      "quantidade": 1,
+      "responsavel": "Leiliana",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-24 15:23:22",
+      "item": "Fita cirúrgica microporosa",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 771,
       "item_id": 229,
       "produto_nome": "Oxacilina 500mg pó injetável",
@@ -21341,21 +21356,6 @@
       "obs": "Importação Farmácia - linha 251 | validade: 11/26",
       "criado_em": "18/08/2026 09:14:00",
       "item": "Cefalexina 250mg/5ml 60ml",
-      "usuario": "Importação Farmácia"
-    },
-    {
-      "id": 272,
-      "item_id": 246,
-      "produto_nome": "Alumínio + magnésio suspensão",
-      "tipo": "Entrada direta na Farmácia",
-      "origem": "Importação lista Farmácia 227-288",
-      "destino": "Farmácia",
-      "quantidade": 1,
-      "responsavel": "Importação Farmácia",
-      "data": "18/08/2026",
-      "obs": "Importação Farmácia - linha 250 | validade: 02/27",
-      "criado_em": "18/08/2026 09:14:00",
-      "item": "Alumínio + magnésio suspensão",
       "usuario": "Importação Farmácia"
     }
   ]
