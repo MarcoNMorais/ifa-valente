@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 11:47:55",
+  "atualizado_em": "24/08/2026 11:48:06",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 30456,
-    "total_geral": 120861,
+    "total_farmacia": 30256,
+    "total_geral": 120661,
     "perto_de_terminar": 0,
     "zerados": 3
   },
@@ -6908,19 +6908,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 4300,
-      "farmacia": 600,
+      "farmacia": 400,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 4900,
+      "total": 4700,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-24 11:22:40",
+      "atualizado_em": "2026-08-24 11:48:06",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -6934,7 +6934,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 600
+          "quantidade": 400
         }
       ],
       "minimo_manual": 0,
@@ -6942,9 +6942,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 8.33,
-      "total_saida_historica": 100,
-      "cobertura_dias": 588.0,
+      "media_diaria_saida": 25.0,
+      "total_saida_historica": 300,
+      "cobertura_dias": 188.0,
       "alerta_estoque": false
     },
     {
@@ -14371,6 +14371,21 @@
       "usuario": "Leiliana"
     },
     {
+      "id": 580,
+      "item_id": 194,
+      "produto_nome": "Lanceta de segurança",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 200,
+      "responsavel": "Assucena",
+      "data": "2026-08-17",
+      "obs": "",
+      "criado_em": "2026-08-24 11:48:06",
+      "item": "Lanceta de segurança",
+      "usuario": "Assucena"
+    },
+    {
       "id": 579,
       "item_id": 87,
       "produto_nome": "Metronidazol 500mg",
@@ -21416,21 +21431,6 @@
       "responsavel": "Carga inicial Farmácia",
       "data": "13/08/2026",
       "obs": "Carga inicial Farmácia - linha 67 | Validade: 2027-08",
-      "criado_em": "13/08/2026 20:25:46",
-      "item": "Fosfato de Clindamicina 150mg",
-      "usuario": "Carga inicial Farmácia"
-    },
-    {
-      "id": 80,
-      "item_id": 64,
-      "produto_nome": "Fosfato de Clindamicina 150mg",
-      "tipo": "Entrada direta na Farmácia",
-      "origem": "Carga inicial",
-      "destino": "Farmácia",
-      "quantidade": 100,
-      "responsavel": "Carga inicial Farmácia",
-      "data": "13/08/2026",
-      "obs": "Carga inicial Farmácia - linha 66 | Validade: 2028-03",
       "criado_em": "13/08/2026 20:25:46",
       "item": "Fosfato de Clindamicina 150mg",
       "usuario": "Carga inicial Farmácia"
