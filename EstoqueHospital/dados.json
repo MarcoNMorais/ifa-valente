@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 15:26:43",
+  "atualizado_em": "24/08/2026 15:27:20",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 27175,
-    "total_geral": 117580,
+    "total_farmacia": 27095,
+    "total_geral": 117500,
     "perto_de_terminar": 0,
     "zerados": 8
   },
@@ -10027,19 +10027,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 2000,
-      "farmacia": 274,
+      "farmacia": 194,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 2274,
+      "total": 2194,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-24 15:18:26",
+      "atualizado_em": "2026-08-24 15:27:19",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -10053,7 +10053,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 274
+          "quantidade": 194
         }
       ],
       "minimo_manual": 0,
@@ -10061,9 +10061,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 62.5,
-      "total_saida_historica": 750,
-      "cobertura_dias": 36.4,
+      "media_diaria_saida": 69.17,
+      "total_saida_historica": 830,
+      "cobertura_dias": 31.7,
       "alerta_estoque": false
     },
     {
@@ -13858,6 +13858,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 785,
+      "item_id": 103,
+      "produto_nome": "Seringa 10ml",
+      "tipo": "Farmácia para Outro destino",
+      "origem": "Farmácia",
+      "destino": "Outro destino",
+      "quantidade": 80,
+      "responsavel": "Leiliana",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-24 15:27:19",
+      "item": "Seringa 10ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 784,
       "item_id": 59,
@@ -21341,21 +21356,6 @@
       "obs": "Importação Farmácia - linha 263 | validade: sem validade",
       "criado_em": "18/08/2026 09:14:00",
       "item": "Dipirona gotas",
-      "usuario": "Importação Farmácia"
-    },
-    {
-      "id": 285,
-      "item_id": 257,
-      "produto_nome": "Brometo de ipratrópio gotas",
-      "tipo": "Entrada direta na Farmácia",
-      "origem": "Importação lista Farmácia 227-288",
-      "destino": "Farmácia",
-      "quantidade": 66,
-      "responsavel": "Importação Farmácia",
-      "data": "18/08/2026",
-      "obs": "Importação Farmácia - linha 262 | validade: sem validade",
-      "criado_em": "18/08/2026 09:14:00",
-      "item": "Brometo de ipratrópio gotas",
       "usuario": "Importação Farmácia"
     }
   ]
