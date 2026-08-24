@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 14:41:43",
+  "atualizado_em": "24/08/2026 14:42:03",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 28670,
-    "total_geral": 119075,
+    "total_farmacia": 28650,
+    "total_geral": 119055,
     "perto_de_terminar": 0,
     "zerados": 6
   },
@@ -13343,19 +13343,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 580,
+      "farmacia": 560,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 580,
+      "total": 560,
       "minimo": 0,
       "validade": "12/27",
       "lote": "",
       "origem": "Carga Farmácia 227-288",
       "obs": "Importação Farmácia 227-288",
-      "atualizado_em": "2026-08-24 11:44:52",
+      "atualizado_em": "2026-08-24 14:42:03",
       "validade_mais_proxima": "12/27",
       "vencimento_mais_proximo": "12/27",
       "lotes_validade": [
@@ -13363,7 +13363,7 @@
           "local": "farmacia",
           "validade": "12/27",
           "lote": "",
-          "quantidade": 580
+          "quantidade": 560
         }
       ],
       "minimo_manual": 0,
@@ -13371,9 +13371,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 10,
-      "media_diaria_saida": 10.0,
-      "total_saida_historica": 100,
-      "cobertura_dias": 58.0,
+      "media_diaria_saida": 12.0,
+      "total_saida_historica": 120,
+      "cobertura_dias": 46.7,
       "alerta_estoque": false
     },
     {
@@ -13890,6 +13890,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 682,
+      "item_id": 239,
+      "produto_nome": "Tramadol 50mg/ml 2ml",
+      "tipo": "Farmácia para Outro destino",
+      "origem": "Farmácia",
+      "destino": "Outro destino",
+      "quantidade": 20,
+      "responsavel": "Leiliana",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-24 14:42:03",
+      "item": "Tramadol 50mg/ml 2ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 681,
       "item_id": 216,
@@ -21373,21 +21388,6 @@
       "obs": "Carga inicial Farmácia - linha 166",
       "criado_em": "13/08/2026 20:25:46",
       "item": "Eletrodo ECG descartável",
-      "usuario": "Carga inicial Farmácia"
-    },
-    {
-      "id": 182,
-      "item_id": 162,
-      "produto_nome": "Sonda Aliment. Enteral 120cm",
-      "tipo": "Entrada direta na Farmácia",
-      "origem": "Carga inicial",
-      "destino": "Farmácia",
-      "quantidade": 14,
-      "responsavel": "Carga inicial Farmácia",
-      "data": "13/08/2026",
-      "obs": "Carga inicial Farmácia - linha 165",
-      "criado_em": "13/08/2026 20:25:46",
-      "item": "Sonda Aliment. Enteral 120cm",
       "usuario": "Carga inicial Farmácia"
     }
   ]
