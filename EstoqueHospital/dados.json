@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 15:18:26",
+  "atualizado_em": "24/08/2026 15:18:52",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 27556,
-    "total_geral": 117961,
+    "total_farmacia": 27554,
+    "total_geral": 117959,
     "perto_de_terminar": 0,
     "zerados": 7
   },
@@ -7472,19 +7472,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 494,
+      "farmacia": 492,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 494,
+      "total": 492,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-24 15:11:04",
+      "atualizado_em": "2026-08-24 15:18:52",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -7492,7 +7492,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 494
+          "quantidade": 492
         }
       ],
       "minimo_manual": 0,
@@ -7500,9 +7500,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 33.83,
-      "total_saida_historica": 406,
-      "cobertura_dias": 14.6,
+      "media_diaria_saida": 34.0,
+      "total_saida_historica": 408,
+      "cobertura_dias": 14.5,
       "alerta_estoque": false
     },
     {
@@ -13865,6 +13865,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 755,
+      "item_id": 180,
+      "produto_nome": "Luva de látex tam. P",
+      "tipo": "Farmácia para Outro destino",
+      "origem": "Farmácia",
+      "destino": "Outro destino",
+      "quantidade": 2,
+      "responsavel": "Leiliana",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-24 15:18:52",
+      "item": "Luva de látex tam. P",
+      "usuario": "Leiliana"
+    },
     {
       "id": 754,
       "item_id": 103,
@@ -21348,21 +21363,6 @@
       "obs": "Importação Farmácia - linha 237 | validade: 08/27",
       "criado_em": "18/08/2026 09:14:00",
       "item": "Prometazina 25mg/ml",
-      "usuario": "Importação Farmácia"
-    },
-    {
-      "id": 255,
-      "item_id": 232,
-      "produto_nome": "Kollagenase com Cloranfenicol pomada",
-      "tipo": "Entrada direta na Farmácia",
-      "origem": "Importação lista Farmácia 227-288",
-      "destino": "Farmácia",
-      "quantidade": 45,
-      "responsavel": "Importação Farmácia",
-      "data": "18/08/2026",
-      "obs": "Importação Farmácia - linha 236 | validade: 12/27",
-      "criado_em": "18/08/2026 09:14:00",
-      "item": "Kollagenase com Cloranfenicol pomada",
       "usuario": "Importação Farmácia"
     }
   ]
