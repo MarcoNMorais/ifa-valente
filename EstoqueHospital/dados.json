@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 16:02:47",
+  "atualizado_em": "24/08/2026 16:02:59",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 25011,
-    "total_geral": 115416,
+    "total_farmacia": 25009,
+    "total_geral": 115414,
     "perto_de_terminar": 0,
     "zerados": 11
   },
@@ -13459,19 +13459,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 10,
+      "farmacia": 8,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 10,
+      "total": 8,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-20 13:12:54",
+      "atualizado_em": "2026-08-24 16:02:59",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -13479,7 +13479,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 10
+          "quantidade": 8
         }
       ],
       "minimo_manual": 0,
@@ -13487,9 +13487,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 0.0,
-      "total_saida_historica": 0,
-      "cobertura_dias": null,
+      "media_diaria_saida": 0.17,
+      "total_saida_historica": 2,
+      "cobertura_dias": 48.0,
       "alerta_estoque": false
     },
     {
@@ -13813,6 +13813,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 908,
+      "item_id": 212,
+      "produto_nome": "Vasopressina",
+      "tipo": "Farmácia para Outro destino",
+      "origem": "Farmácia",
+      "destino": "Outro destino",
+      "quantidade": 2,
+      "responsavel": "Leiliana",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-24 16:02:59",
+      "item": "Vasopressina",
+      "usuario": "Leiliana"
+    },
     {
       "id": 907,
       "item_id": 3,
@@ -21296,21 +21311,6 @@
       "obs": "Importação Almoxerifado - linha 93",
       "criado_em": "18/08/2026 09:58:00",
       "item": "Lanceta de segurança",
-      "usuario": "Sistema"
-    },
-    {
-      "id": 408,
-      "item_id": 331,
-      "produto_nome": "Agulha 30x8",
-      "tipo": "entrada",
-      "origem": "Carga Almoxerifado",
-      "destino": "almoxarifado",
-      "quantidade": 17200,
-      "responsavel": "Sistema",
-      "data": "18/08/2026 09:58:00",
-      "obs": "Importação Almoxerifado - linha 92",
-      "criado_em": "18/08/2026 09:58:00",
-      "item": "Agulha 30x8",
       "usuario": "Sistema"
     }
   ]
