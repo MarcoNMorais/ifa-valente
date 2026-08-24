@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 15:20:45",
+  "atualizado_em": "24/08/2026 15:20:59",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 27500,
-    "total_geral": 117905,
+    "total_farmacia": 27450,
+    "total_geral": 117855,
     "perto_de_terminar": 0,
     "zerados": 7
   },
@@ -13158,19 +13158,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 900,
+      "farmacia": 850,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 900,
+      "total": 850,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-24 14:29:16",
+      "atualizado_em": "2026-08-24 15:20:59",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -13178,7 +13178,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 900
+          "quantidade": 850
         }
       ],
       "minimo_manual": 0,
@@ -13186,9 +13186,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 12.5,
-      "total_saida_historica": 150,
-      "cobertura_dias": 72.0,
+      "media_diaria_saida": 16.67,
+      "total_saida_historica": 200,
+      "cobertura_dias": 51.0,
       "alerta_estoque": false
     },
     {
@@ -13865,6 +13865,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 763,
+      "item_id": 195,
+      "produto_nome": "Tira Reagente G-Tech",
+      "tipo": "Farmácia para Outro destino",
+      "origem": "Farmácia",
+      "destino": "Outro destino",
+      "quantidade": 50,
+      "responsavel": "Leiliana",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-24 15:20:59",
+      "item": "Tira Reagente G-Tech",
+      "usuario": "Leiliana"
+    },
     {
       "id": 762,
       "item_id": 59,
@@ -21348,21 +21363,6 @@
       "obs": "Importação Farmácia - linha 243 | validade: 12/27",
       "criado_em": "18/08/2026 09:14:00",
       "item": "Tramadol 50mg/ml 2ml",
-      "usuario": "Importação Farmácia"
-    },
-    {
-      "id": 263,
-      "item_id": 238,
-      "produto_nome": "Ondansetrona 2mg/ml 2ml",
-      "tipo": "Entrada direta na Farmácia",
-      "origem": "Importação lista Farmácia 227-288",
-      "destino": "Farmácia",
-      "quantidade": 400,
-      "responsavel": "Importação Farmácia",
-      "data": "18/08/2026",
-      "obs": "Importação Farmácia - linha 242 | validade: 09/27",
-      "criado_em": "18/08/2026 09:14:00",
-      "item": "Ondansetrona 2mg/ml 2ml",
       "usuario": "Importação Farmácia"
     }
   ]
