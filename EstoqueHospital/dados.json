@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 14:46:47",
+  "atualizado_em": "24/08/2026 14:47:04",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 28462,
-    "total_geral": 118867,
+    "total_farmacia": 28442,
+    "total_geral": 118847,
     "perto_de_terminar": 0,
     "zerados": 6
   },
@@ -10185,19 +10185,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 2500,
-      "farmacia": 2078,
+      "farmacia": 2058,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 4578,
+      "total": 4558,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-24 14:28:35",
+      "atualizado_em": "2026-08-24 14:47:03",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -10211,7 +10211,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 2078
+          "quantidade": 2058
         }
       ],
       "minimo_manual": 0,
@@ -10219,9 +10219,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 16.67,
-      "total_saida_historica": 200,
-      "cobertura_dias": 274.7,
+      "media_diaria_saida": 18.33,
+      "total_saida_historica": 220,
+      "cobertura_dias": 248.6,
       "alerta_estoque": false
     },
     {
@@ -13890,6 +13890,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 697,
+      "item_id": 104,
+      "produto_nome": "Seringa 3ml",
+      "tipo": "Farmácia para Outro destino",
+      "origem": "Farmácia",
+      "destino": "Outro destino",
+      "quantidade": 20,
+      "responsavel": "Leiliana",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-24 14:47:03",
+      "item": "Seringa 3ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 696,
       "item_id": 103,
@@ -21373,21 +21388,6 @@
       "obs": "Carga inicial Farmácia - linha 181",
       "criado_em": "13/08/2026 20:25:46",
       "item": "Dispositivo intravenoso Gelco nº 20",
-      "usuario": "Carga inicial Farmácia"
-    },
-    {
-      "id": 197,
-      "item_id": 177,
-      "produto_nome": "Dispositivo intravenoso Gelco nº 22",
-      "tipo": "Entrada direta na Farmácia",
-      "origem": "Carga inicial",
-      "destino": "Farmácia",
-      "quantidade": 248,
-      "responsavel": "Carga inicial Farmácia",
-      "data": "13/08/2026",
-      "obs": "Carga inicial Farmácia - linha 180",
-      "criado_em": "13/08/2026 20:25:46",
-      "item": "Dispositivo intravenoso Gelco nº 22",
       "usuario": "Carga inicial Farmácia"
     }
   ]
