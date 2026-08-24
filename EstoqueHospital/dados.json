@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 11:33:05",
+  "atualizado_em": "24/08/2026 11:33:15",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 91033,
-    "total_farmacia": 31421,
-    "total_geral": 122454,
+    "total_farmacia": 31416,
+    "total_geral": 122449,
     "perto_de_terminar": 0,
     "zerados": 3
   },
@@ -12533,19 +12533,19 @@
       "tipo": "Insumo",
       "unidade": "Unidade",
       "almoxarifado": 750,
-      "farmacia": 128,
+      "farmacia": 123,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 878,
+      "total": 873,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-21 10:55:22",
+      "atualizado_em": "2026-08-24 11:33:15",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -12559,7 +12559,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 128
+          "quantidade": 123
         }
       ],
       "minimo_manual": 0,
@@ -12567,9 +12567,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 1.83,
-      "total_saida_historica": 22,
-      "cobertura_dias": 478.9,
+      "media_diaria_saida": 2.25,
+      "total_saida_historica": 27,
+      "cobertura_dias": 388.0,
       "alerta_estoque": false
     },
     {
@@ -14288,6 +14288,21 @@
       "criado_em": "2026-08-20 16:17:28",
       "item": "Captopril 25mg CPR",
       "usuario": "Leiliana"
+    },
+    {
+      "id": 528,
+      "item_id": 203,
+      "produto_nome": "Soro fisiológico 250ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 5,
+      "responsavel": "Assucena",
+      "data": "2026-08-15",
+      "obs": "",
+      "criado_em": "2026-08-24 11:33:15",
+      "item": "Soro fisiológico 250ml",
+      "usuario": "Assucena"
     },
     {
       "id": 527,
@@ -21412,21 +21427,6 @@
       "obs": "Carga inicial Farmácia - linha 18 | Validade: 2027-09",
       "criado_em": "13/08/2026 20:25:46",
       "item": "Morfina 10mg comprimido",
-      "usuario": "Carga inicial Farmácia"
-    },
-    {
-      "id": 28,
-      "item_id": 17,
-      "produto_nome": "Fenobarbital 200mg/2ml",
-      "tipo": "Entrada direta na Farmácia",
-      "origem": "Carga inicial",
-      "destino": "Farmácia",
-      "quantidade": 48,
-      "responsavel": "Carga inicial Farmácia",
-      "data": "13/08/2026",
-      "obs": "Carga inicial Farmácia - linha 17b | Validade: 2027-04",
-      "criado_em": "13/08/2026 20:25:46",
-      "item": "Fenobarbital 200mg/2ml",
       "usuario": "Carga inicial Farmácia"
     }
   ]
