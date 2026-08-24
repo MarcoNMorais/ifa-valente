@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "24/08/2026 16:04:29",
+  "atualizado_em": "24/08/2026 16:06:04",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
-    "total_almoxarifado": 90378,
-    "total_farmacia": 25036,
+    "total_almoxarifado": 90354,
+    "total_farmacia": 25060,
     "total_geral": 115414,
     "perto_de_terminar": 0,
     "zerados": 11
@@ -12601,8 +12601,8 @@
       "nome": "Soro Ringer Lactato 500ml",
       "tipo": "Insumo",
       "unidade": "Unidade",
-      "almoxarifado": 264,
-      "farmacia": 45,
+      "almoxarifado": 240,
+      "farmacia": 69,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -12614,7 +12614,7 @@
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-24 15:58:32",
+      "atualizado_em": "2026-08-24 16:06:03",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -12622,13 +12622,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 264
+          "quantidade": 240
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 45
+          "quantidade": 69
         }
       ],
       "minimo_manual": 0,
@@ -13807,6 +13807,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 911,
+      "item_id": 201,
+      "produto_nome": "Soro Ringer Lactato 500ml",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 24,
+      "responsavel": "Leiliana",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-24 16:06:03",
+      "item": "Soro Ringer Lactato 500ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 910,
       "item_id": 303,
@@ -21290,21 +21305,6 @@
       "obs": "Importação Almoxerifado - linha 96",
       "criado_em": "18/08/2026 09:58:00",
       "item": "Bisturi nº 15",
-      "usuario": "Sistema"
-    },
-    {
-      "id": 411,
-      "item_id": 333,
-      "produto_nome": "Espéculo",
-      "tipo": "entrada",
-      "origem": "Carga Almoxerifado",
-      "destino": "almoxarifado",
-      "quantidade": 30,
-      "responsavel": "Sistema",
-      "data": "18/08/2026 09:58:00",
-      "obs": "Importação Almoxerifado - linha 95",
-      "criado_em": "18/08/2026 09:58:00",
-      "item": "Espéculo",
       "usuario": "Sistema"
     }
   ]
