@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 11:40:32",
+  "atualizado_em": "24/08/2026 11:40:51",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 31539,
-    "total_geral": 121944,
+    "total_farmacia": 31536,
+    "total_geral": 121941,
     "perto_de_terminar": 0,
     "zerados": 3
   },
@@ -6954,19 +6954,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 8,
+      "farmacia": 5,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 8,
+      "total": 5,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-24 11:34:00",
+      "atualizado_em": "2026-08-24 11:40:51",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -6974,7 +6974,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 8
+          "quantidade": 5
         }
       ],
       "minimo_manual": 0,
@@ -6982,9 +6982,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 0.33,
-      "total_saida_historica": 4,
-      "cobertura_dias": 24.0,
+      "media_diaria_saida": 0.58,
+      "total_saida_historica": 7,
+      "cobertura_dias": 8.6,
       "alerta_estoque": false
     },
     {
@@ -14371,6 +14371,21 @@
       "usuario": "Leiliana"
     },
     {
+      "id": 550,
+      "item_id": 199,
+      "produto_nome": "Lençol descartável papel",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 3,
+      "responsavel": "Assucena",
+      "data": "2026-08-16",
+      "obs": "",
+      "criado_em": "2026-08-24 11:40:51",
+      "item": "Lençol descartável papel",
+      "usuario": "Assucena"
+    },
+    {
       "id": 549,
       "item_id": 152,
       "produto_nome": "Atadura crepon nº 10",
@@ -21418,21 +21433,6 @@
       "obs": "Carga inicial Farmácia - linha 36 | Validade: 2028-06",
       "criado_em": "13/08/2026 20:25:46",
       "item": "Prednisona 20mg CPR",
-      "usuario": "Carga inicial Farmácia"
-    },
-    {
-      "id": 50,
-      "item_id": 35,
-      "produto_nome": "Nifedipino 10mg CPR",
-      "tipo": "Entrada direta na Farmácia",
-      "origem": "Carga inicial",
-      "destino": "Farmácia",
-      "quantidade": 30,
-      "responsavel": "Carga inicial Farmácia",
-      "data": "13/08/2026",
-      "obs": "Carga inicial Farmácia - linha 35 | Validade: 2027-03",
-      "criado_em": "13/08/2026 20:25:46",
-      "item": "Nifedipino 10mg CPR",
       "usuario": "Carga inicial Farmácia"
     }
   ]
