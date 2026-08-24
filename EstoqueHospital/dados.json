@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 15:22:33",
+  "atualizado_em": "24/08/2026 15:22:50",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 27313,
-    "total_geral": 117718,
+    "total_farmacia": 27311,
+    "total_geral": 117716,
     "perto_de_terminar": 0,
     "zerados": 8
   },
@@ -10325,19 +10325,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 30,
+      "farmacia": 28,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 30,
+      "total": 28,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga Farmácia 227-288",
       "obs": "Importação Farmácia 227-288",
-      "atualizado_em": "2026-08-24 14:46:15",
+      "atualizado_em": "2026-08-24 15:22:49",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -10345,7 +10345,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 30
+          "quantidade": 28
         }
       ],
       "minimo_manual": 0,
@@ -10353,9 +10353,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 11,
-      "media_diaria_saida": 0.64,
-      "total_saida_historica": 7,
-      "cobertura_dias": 47.1,
+      "media_diaria_saida": 0.82,
+      "total_saida_historica": 9,
+      "cobertura_dias": 34.2,
       "alerta_estoque": false
     },
     {
@@ -13858,6 +13858,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 770,
+      "item_id": 256,
+      "produto_nome": "Simeticona gotas",
+      "tipo": "Farmácia para Outro destino",
+      "origem": "Farmácia",
+      "destino": "Outro destino",
+      "quantidade": 2,
+      "responsavel": "Leiliana",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-24 15:22:49",
+      "item": "Simeticona gotas",
+      "usuario": "Leiliana"
+    },
     {
       "id": 769,
       "item_id": 13,
@@ -21341,21 +21356,6 @@
       "obs": "Importação Farmácia - linha 249 | validade: 10/27",
       "criado_em": "18/08/2026 09:14:00",
       "item": "Hidróxido de alumínio 60mg/ml",
-      "usuario": "Importação Farmácia"
-    },
-    {
-      "id": 270,
-      "item_id": 244,
-      "produto_nome": "Dexclorfeniramina 0,4mg/ml",
-      "tipo": "Entrada direta na Farmácia",
-      "origem": "Importação lista Farmácia 227-288",
-      "destino": "Farmácia",
-      "quantidade": 21,
-      "responsavel": "Importação Farmácia",
-      "data": "18/08/2026",
-      "obs": "Importação Farmácia - linha 248b | validade: 04/28",
-      "criado_em": "18/08/2026 09:14:00",
-      "item": "Dexclorfeniramina 0,4mg/ml",
       "usuario": "Importação Farmácia"
     }
   ]
