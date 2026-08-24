@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "24/08/2026 16:06:44",
+  "atualizado_em": "24/08/2026 16:06:59",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
-    "total_almoxarifado": 90230,
-    "total_farmacia": 25184,
+    "total_almoxarifado": 90130,
+    "total_farmacia": 25284,
     "total_geral": 115414,
     "perto_de_terminar": 0,
     "zerados": 11
@@ -9879,8 +9879,8 @@
       "nome": "Scalp nº 21",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 900,
-      "farmacia": 0,
+      "almoxarifado": 800,
+      "farmacia": 100,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -9892,7 +9892,7 @@
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-24 14:04:29",
+      "atualizado_em": "2026-08-24 16:06:58",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -9900,7 +9900,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 900
+          "quantidade": 800
+        },
+        {
+          "local": "farmacia",
+          "validade": "",
+          "lote": "",
+          "quantidade": 100
         }
       ],
       "minimo_manual": 0,
@@ -13819,6 +13825,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 914,
+      "item_id": 99,
+      "produto_nome": "Scalp nº 21",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 100,
+      "responsavel": "Leiliana",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-24 16:06:58",
+      "item": "Scalp nº 21",
+      "usuario": "Leiliana"
+    },
     {
       "id": 913,
       "item_id": 287,
@@ -21302,21 +21323,6 @@
       "obs": "Importação Almoxerifado - linha 99",
       "criado_em": "18/08/2026 09:58:00",
       "item": "Sonda Nasogástrica nº 18",
-      "usuario": "Sistema"
-    },
-    {
-      "id": 414,
-      "item_id": 112,
-      "produto_nome": "Sonda Nasogástrica nº 16",
-      "tipo": "entrada",
-      "origem": "Carga Almoxerifado",
-      "destino": "almoxarifado",
-      "quantidade": 40,
-      "responsavel": "Sistema",
-      "data": "18/08/2026 09:58:00",
-      "obs": "Importação Almoxerifado - linha 98",
-      "criado_em": "18/08/2026 09:58:00",
-      "item": "Sonda Nasogástrica nº 16",
       "usuario": "Sistema"
     }
   ]
