@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 11:28:10",
+  "atualizado_em": "24/08/2026 11:28:24",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 91033,
-    "total_farmacia": 32509,
-    "total_geral": 123542,
+    "total_farmacia": 32494,
+    "total_geral": 123527,
     "perto_de_terminar": 0,
     "zerados": 3
   },
@@ -4001,19 +4001,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 1500,
-      "farmacia": 223,
+      "farmacia": 208,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1723,
+      "total": 1708,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-08-24 11:23:17",
+      "atualizado_em": "2026-08-24 11:28:24",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -4027,7 +4027,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 223
+          "quantidade": 208
         }
       ],
       "minimo_manual": 0,
@@ -4035,9 +4035,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 2.08,
-      "total_saida_historica": 25,
-      "cobertura_dias": 827.0,
+      "media_diaria_saida": 3.33,
+      "total_saida_historica": 40,
+      "cobertura_dias": 512.4,
       "alerta_estoque": false
     },
     {
@@ -14296,6 +14296,21 @@
       "usuario": "Leiliana"
     },
     {
+      "id": 504,
+      "item_id": 177,
+      "produto_nome": "Dispositivo intravenoso Gelco nº 22",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 15,
+      "responsavel": "Assucena",
+      "data": "2026-08-15",
+      "obs": "",
+      "criado_em": "2026-08-24 11:28:24",
+      "item": "Dispositivo intravenoso Gelco nº 22",
+      "usuario": "Assucena"
+    },
+    {
       "id": 503,
       "item_id": 28,
       "produto_nome": "Dipirona 500mg",
@@ -21418,21 +21433,6 @@
       "obs": "Carga inicial Farmácia - linha 3 | Validade: 2027-05",
       "criado_em": "13/08/2026 20:25:46",
       "item": "Succinil 100mg",
-      "usuario": "Carga inicial Farmácia"
-    },
-    {
-      "id": 4,
-      "item_id": 2,
-      "produto_nome": "Cloridrato de clorpromazina 25mg",
-      "tipo": "Entrada direta na Farmácia",
-      "origem": "Carga inicial",
-      "destino": "Farmácia",
-      "quantidade": 10,
-      "responsavel": "Carga inicial Farmácia",
-      "data": "13/08/2026",
-      "obs": "Carga inicial Farmácia - linha 2b | Validade: 2027-05",
-      "criado_em": "13/08/2026 20:25:46",
-      "item": "Cloridrato de clorpromazina 25mg",
       "usuario": "Carga inicial Farmácia"
     }
   ]
