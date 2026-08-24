@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 15:40:11",
+  "atualizado_em": "24/08/2026 15:40:23",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 26287,
-    "total_geral": 116692,
+    "total_farmacia": 26272,
+    "total_geral": 116677,
     "perto_de_terminar": 0,
     "zerados": 9
   },
@@ -3975,19 +3975,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 1500,
-      "farmacia": 53,
+      "farmacia": 38,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1553,
+      "total": 1538,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-08-24 15:30:12",
+      "atualizado_em": "2026-08-24 15:40:23",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -4001,7 +4001,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 53
+          "quantidade": 38
         }
       ],
       "minimo_manual": 0,
@@ -4009,9 +4009,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 16.25,
-      "total_saida_historica": 195,
-      "cobertura_dias": 95.6,
+      "media_diaria_saida": 17.5,
+      "total_saida_historica": 210,
+      "cobertura_dias": 87.9,
       "alerta_estoque": false
     },
     {
@@ -13846,6 +13846,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 830,
+      "item_id": 177,
+      "produto_nome": "Dispositivo intravenoso Gelco nº 22",
+      "tipo": "Farmácia para Outro destino",
+      "origem": "Farmácia",
+      "destino": "Outro destino",
+      "quantidade": 15,
+      "responsavel": "Leiliana",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-24 15:40:23",
+      "item": "Dispositivo intravenoso Gelco nº 22",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 829,
       "item_id": 195,
       "produto_nome": "Tira Reagente G-Tech",
@@ -21328,21 +21343,6 @@
       "obs": "Importação Almoxerifado - linha 15",
       "criado_em": "18/08/2026 09:58:00",
       "item": "Fita cirúrgica microporosa",
-      "usuario": "Sistema"
-    },
-    {
-      "id": 330,
-      "item_id": 157,
-      "produto_nome": "Seringa 1ml",
-      "tipo": "entrada",
-      "origem": "Carga Almoxerifado",
-      "destino": "almoxarifado",
-      "quantidade": 850,
-      "responsavel": "Sistema",
-      "data": "18/08/2026 09:58:00",
-      "obs": "Importação Almoxerifado - linha 14",
-      "criado_em": "18/08/2026 09:58:00",
-      "item": "Seringa 1ml",
       "usuario": "Sistema"
     }
   ]
