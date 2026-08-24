@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 15:06:45",
+  "atualizado_em": "24/08/2026 15:06:56",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 28105,
-    "total_geral": 118510,
+    "total_farmacia": 28085,
+    "total_geral": 118490,
     "perto_de_terminar": 0,
     "zerados": 7
   },
@@ -3444,19 +3444,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 1100,
+      "farmacia": 1080,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1100,
+      "total": 1080,
       "minimo": 0,
       "validade": "2027-10",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-24 14:56:57",
+      "atualizado_em": "2026-08-24 15:06:56",
       "validade_mais_proxima": "2027-10",
       "vencimento_mais_proximo": "2027-10",
       "lotes_validade": [
@@ -3464,7 +3464,7 @@
           "local": "farmacia",
           "validade": "2027-10",
           "lote": "",
-          "quantidade": 1100
+          "quantidade": 1080
         }
       ],
       "minimo_manual": 0,
@@ -3472,9 +3472,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 14.17,
-      "total_saida_historica": 170,
-      "cobertura_dias": 77.6,
+      "media_diaria_saida": 15.83,
+      "total_saida_historica": 190,
+      "cobertura_dias": 68.2,
       "alerta_estoque": false
     },
     {
@@ -13878,6 +13878,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 727,
+      "item_id": 68,
+      "produto_nome": "Dexametasona",
+      "tipo": "Farmácia para Outro destino",
+      "origem": "Farmácia",
+      "destino": "Outro destino",
+      "quantidade": 20,
+      "responsavel": "Leiliana",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-24 15:06:56",
+      "item": "Dexametasona",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 726,
       "item_id": 59,
       "produto_nome": "Ceftriaxona 1g",
@@ -21360,21 +21375,6 @@
       "obs": "Carga inicial Farmácia - linha 211",
       "criado_em": "13/08/2026 20:25:46",
       "item": "Insulina Regular",
-      "usuario": "Carga inicial Farmácia"
-    },
-    {
-      "id": 227,
-      "item_id": 63,
-      "produto_nome": "Ciprofloxacino",
-      "tipo": "Entrada direta na Farmácia",
-      "origem": "Carga inicial",
-      "destino": "Farmácia",
-      "quantidade": 59,
-      "responsavel": "Carga inicial Farmácia",
-      "data": "13/08/2026",
-      "obs": "Carga inicial Farmácia - linha 210",
-      "criado_em": "13/08/2026 20:25:46",
-      "item": "Ciprofloxacino",
       "usuario": "Carga inicial Farmácia"
     }
   ]
