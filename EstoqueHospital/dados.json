@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 11:13:30",
+  "atualizado_em": "24/08/2026 11:17:44",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
-    "total_almoxarifado": 89683,
+    "total_almoxarifado": 91033,
     "total_farmacia": 33412,
-    "total_geral": 123095,
+    "total_geral": 124445,
     "perto_de_terminar": 0,
     "zerados": 2
   },
@@ -4000,20 +4000,20 @@
       "nome": "Dispositivo intravenoso Gelco nº 22",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 150,
+      "almoxarifado": 1500,
       "farmacia": 238,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 388,
+      "total": 1738,
       "minimo": 0,
       "validade": "",
       "lote": "",
-      "origem": "Carga inicial Farmácia",
-      "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-21 10:54:52",
+      "origem": "Entrada externa",
+      "obs": "",
+      "atualizado_em": "2026-08-24 11:17:44",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -4021,7 +4021,7 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 150
+          "quantidade": 1500
         },
         {
           "local": "farmacia",
@@ -4037,7 +4037,7 @@
       "dias_historico": 12,
       "media_diaria_saida": 0.83,
       "total_saida_historica": 10,
-      "cobertura_dias": 465.6,
+      "cobertura_dias": 2085.6,
       "alerta_estoque": false
     },
     {
@@ -13942,6 +13942,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 474,
+      "item_id": 177,
+      "produto_nome": "Dispositivo intravenoso Gelco nº 22",
+      "tipo": "Entrada no Almoxarifado",
+      "origem": "Entrada externa",
+      "destino": "Almoxarifado",
+      "quantidade": 1350,
+      "responsavel": "Assucena",
+      "data": "2026-08-21",
+      "obs": "",
+      "criado_em": "2026-08-24 11:17:44",
+      "item": "Dispositivo intravenoso Gelco nº 22",
+      "usuario": "Assucena"
+    },
     {
       "id": 473,
       "item_id": 102,
