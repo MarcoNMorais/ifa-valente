@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "24/08/2026 11:36:21",
+  "atualizado_em": "24/08/2026 11:36:36",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
-    "total_almoxarifado": 90705,
-    "total_farmacia": 31729,
+    "total_almoxarifado": 90645,
+    "total_farmacia": 31789,
     "total_geral": 122434,
     "perto_de_terminar": 0,
     "zerados": 3
@@ -12584,8 +12584,8 @@
       "nome": "Soro fisiológico 500ml",
       "tipo": "Insumo",
       "unidade": "Unidade",
-      "almoxarifado": 1093,
-      "farmacia": 72,
+      "almoxarifado": 1033,
+      "farmacia": 132,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -12597,7 +12597,7 @@
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-21 10:53:38",
+      "atualizado_em": "2026-08-24 11:36:36",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -12605,13 +12605,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 1093
+          "quantidade": 1033
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 72
+          "quantidade": 132
         }
       ],
       "minimo_manual": 0,
@@ -13935,6 +13935,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 535,
+      "item_id": 204,
+      "produto_nome": "Soro fisiológico 500ml",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 60,
+      "responsavel": "Assucena",
+      "data": "2026-08-21",
+      "obs": "",
+      "criado_em": "2026-08-24 11:36:36",
+      "item": "Soro fisiológico 500ml",
+      "usuario": "Assucena"
+    },
     {
       "id": 534,
       "item_id": 206,
@@ -21418,21 +21433,6 @@
       "obs": "Carga inicial Farmácia - linha 23 | Validade: 2027-03",
       "criado_em": "13/08/2026 20:25:46",
       "item": "Sulfadiazina de prata",
-      "usuario": "Carga inicial Farmácia"
-    },
-    {
-      "id": 35,
-      "item_id": 22,
-      "produto_nome": "Cloridrato tiamina 100mg/ml 1ml",
-      "tipo": "Entrada direta na Farmácia",
-      "origem": "Carga inicial",
-      "destino": "Farmácia",
-      "quantidade": 15,
-      "responsavel": "Carga inicial Farmácia",
-      "data": "13/08/2026",
-      "obs": "Carga inicial Farmácia - linha 22b | Validade: 2028-01",
-      "criado_em": "13/08/2026 20:25:46",
-      "item": "Cloridrato tiamina 100mg/ml 1ml",
       "usuario": "Carga inicial Farmácia"
     }
   ]
