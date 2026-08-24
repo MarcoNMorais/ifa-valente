@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 11:48:06",
+  "atualizado_em": "24/08/2026 11:48:17",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 30256,
-    "total_geral": 120661,
+    "total_farmacia": 30244,
+    "total_geral": 120649,
     "perto_de_terminar": 0,
     "zerados": 3
   },
@@ -12585,19 +12585,19 @@
       "tipo": "Insumo",
       "unidade": "Unidade",
       "almoxarifado": 1033,
-      "farmacia": 114,
+      "farmacia": 102,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1147,
+      "total": 1135,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-24 11:41:14",
+      "atualizado_em": "2026-08-24 11:48:17",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -12611,7 +12611,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 114
+          "quantidade": 102
         }
       ],
       "minimo_manual": 0,
@@ -12619,9 +12619,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 2.0,
-      "total_saida_historica": 24,
-      "cobertura_dias": 573.5,
+      "media_diaria_saida": 3.0,
+      "total_saida_historica": 36,
+      "cobertura_dias": 378.3,
       "alerta_estoque": false
     },
     {
@@ -14369,6 +14369,21 @@
       "criado_em": "2026-08-20 16:17:28",
       "item": "Captopril 25mg CPR",
       "usuario": "Leiliana"
+    },
+    {
+      "id": 581,
+      "item_id": 204,
+      "produto_nome": "Soro fisiológico 500ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 12,
+      "responsavel": "Assucena",
+      "data": "2026-08-17",
+      "obs": "",
+      "criado_em": "2026-08-24 11:48:17",
+      "item": "Soro fisiológico 500ml",
+      "usuario": "Assucena"
     },
     {
       "id": 580,
@@ -21418,21 +21433,6 @@
       "obs": "Carga inicial Farmácia - linha 68 | Validade: 2027-11",
       "criado_em": "13/08/2026 20:25:46",
       "item": "Clonidina",
-      "usuario": "Carga inicial Farmácia"
-    },
-    {
-      "id": 81,
-      "item_id": 64,
-      "produto_nome": "Fosfato de Clindamicina 150mg",
-      "tipo": "Entrada direta na Farmácia",
-      "origem": "Carga inicial",
-      "destino": "Farmácia",
-      "quantidade": 100,
-      "responsavel": "Carga inicial Farmácia",
-      "data": "13/08/2026",
-      "obs": "Carga inicial Farmácia - linha 67 | Validade: 2027-08",
-      "criado_em": "13/08/2026 20:25:46",
-      "item": "Fosfato de Clindamicina 150mg",
       "usuario": "Carga inicial Farmácia"
     }
   ]
