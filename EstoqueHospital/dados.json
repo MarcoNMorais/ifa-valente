@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 15:52:57",
+  "atualizado_em": "24/08/2026 15:53:08",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 25447,
-    "total_geral": 115852,
+    "total_farmacia": 25442,
+    "total_geral": 115847,
     "perto_de_terminar": 0,
     "zerados": 9
   },
@@ -7292,19 +7292,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 350,
-      "farmacia": 5,
+      "farmacia": 0,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 355,
+      "total": 350,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-24 15:38:06",
+      "atualizado_em": "2026-08-24 15:53:07",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -7313,12 +7313,6 @@
           "validade": "",
           "lote": "",
           "quantidade": 350
-        },
-        {
-          "local": "farmacia",
-          "validade": "",
-          "lote": "",
-          "quantidade": 5
         }
       ],
       "minimo_manual": 0,
@@ -7326,9 +7320,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 2.0,
-      "total_saida_historica": 24,
-      "cobertura_dias": 177.5,
+      "media_diaria_saida": 2.42,
+      "total_saida_historica": 29,
+      "cobertura_dias": 144.8,
       "alerta_estoque": false
     },
     {
@@ -13833,6 +13827,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 875,
+      "item_id": 185,
+      "produto_nome": "Luva cirúrgica tam. 7,5",
+      "tipo": "Farmácia para Outro destino",
+      "origem": "Farmácia",
+      "destino": "Outro destino",
+      "quantidade": 5,
+      "responsavel": "Leiliana",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-24 15:53:07",
+      "item": "Luva cirúrgica tam. 7,5",
+      "usuario": "Leiliana"
+    },
     {
       "id": 874,
       "item_id": 184,
@@ -21316,21 +21325,6 @@
       "obs": "Importação Almoxerifado - linha 60",
       "criado_em": "18/08/2026 09:58:00",
       "item": "Máscara nebulização infantil",
-      "usuario": "Sistema"
-    },
-    {
-      "id": 375,
-      "item_id": 241,
-      "produto_nome": "Lactulose solução",
-      "tipo": "entrada",
-      "origem": "Carga Almoxerifado",
-      "destino": "almoxarifado",
-      "quantidade": 120,
-      "responsavel": "Sistema",
-      "data": "18/08/2026 09:58:00",
-      "obs": "Importação Almoxerifado - linha 59",
-      "criado_em": "18/08/2026 09:58:00",
-      "item": "Lactulose solução",
       "usuario": "Sistema"
     }
   ]
