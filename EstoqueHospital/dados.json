@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 11:42:29",
+  "atualizado_em": "24/08/2026 11:42:38",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 31272,
-    "total_geral": 121677,
+    "total_farmacia": 31242,
+    "total_geral": 121647,
     "perto_de_terminar": 0,
     "zerados": 3
   },
@@ -5992,19 +5992,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 300,
+      "farmacia": 270,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 300,
+      "total": 270,
       "minimo": 0,
       "validade": "2027-08",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-20 13:12:54",
+      "atualizado_em": "2026-08-24 11:42:38",
       "validade_mais_proxima": "2027-08",
       "vencimento_mais_proximo": "2027-08",
       "lotes_validade": [
@@ -6012,7 +6012,7 @@
           "local": "farmacia",
           "validade": "2027-08",
           "lote": "",
-          "quantidade": 300
+          "quantidade": 270
         }
       ],
       "minimo_manual": 0,
@@ -6020,9 +6020,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 0.0,
-      "total_saida_historica": 0,
-      "cobertura_dias": null,
+      "media_diaria_saida": 2.5,
+      "total_saida_historica": 30,
+      "cobertura_dias": 108.0,
       "alerta_estoque": false
     },
     {
@@ -14371,6 +14371,21 @@
       "usuario": "Leiliana"
     },
     {
+      "id": 558,
+      "item_id": 78,
+      "produto_nome": "Furosemida",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 30,
+      "responsavel": "Assucena",
+      "data": "2026-08-16",
+      "obs": "",
+      "criado_em": "2026-08-24 11:42:38",
+      "item": "Furosemida",
+      "usuario": "Assucena"
+    },
+    {
       "id": 557,
       "item_id": 57,
       "produto_nome": "Bromoprida 5mg",
@@ -21418,21 +21433,6 @@
       "obs": "Carga inicial Farmácia - linha 44 | Validade: 2027-04",
       "criado_em": "13/08/2026 20:25:46",
       "item": "Clopidogrel 75mg CP",
-      "usuario": "Carga inicial Farmácia"
-    },
-    {
-      "id": 58,
-      "item_id": 43,
-      "produto_nome": "Atenolol 50mg CPR",
-      "tipo": "Entrada direta na Farmácia",
-      "origem": "Carga inicial",
-      "destino": "Farmácia",
-      "quantidade": 30,
-      "responsavel": "Carga inicial Farmácia",
-      "data": "13/08/2026",
-      "obs": "Carga inicial Farmácia - linha 43 | Validade: 2026-09",
-      "criado_em": "13/08/2026 20:25:46",
-      "item": "Atenolol 50mg CPR",
       "usuario": "Carga inicial Farmácia"
     }
   ]
