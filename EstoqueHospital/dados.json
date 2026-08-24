@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 14:10:37",
+  "atualizado_em": "24/08/2026 14:10:49",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 29344,
-    "total_geral": 119749,
+    "total_farmacia": 29334,
+    "total_geral": 119739,
     "perto_de_terminar": 0,
     "zerados": 3
   },
@@ -2015,19 +2015,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 147,
+      "farmacia": 137,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 147,
+      "total": 137,
       "minimo": 0,
       "validade": "2027-05",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-20 13:12:54",
+      "atualizado_em": "2026-08-24 14:10:48",
       "validade_mais_proxima": "2027-05",
       "vencimento_mais_proximo": "2027-05",
       "lotes_validade": [
@@ -2035,7 +2035,7 @@
           "local": "farmacia",
           "validade": "2027-05",
           "lote": "",
-          "quantidade": 147
+          "quantidade": 137
         }
       ],
       "minimo_manual": 0,
@@ -2043,9 +2043,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 0.0,
-      "total_saida_historica": 0,
-      "cobertura_dias": null,
+      "media_diaria_saida": 0.83,
+      "total_saida_historica": 10,
+      "cobertura_dias": 164.4,
       "alerta_estoque": false
     },
     {
@@ -13912,6 +13912,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 629,
+      "item_id": 56,
+      "produto_nome": "Benzilpenicilina 600 UI",
+      "tipo": "Farmácia para Outro destino",
+      "origem": "Farmácia",
+      "destino": "Outro destino",
+      "quantidade": 10,
+      "responsavel": "Leiliana",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-24 14:10:48",
+      "item": "Benzilpenicilina 600 UI",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 628,
       "item_id": 27,
       "produto_nome": "Paracetamol 500mg",
@@ -21394,21 +21409,6 @@
       "obs": "Carga inicial Farmácia - linha 116",
       "criado_em": "13/08/2026 20:25:46",
       "item": "Sonda Nasogástrica nº 14",
-      "usuario": "Carga inicial Farmácia"
-    },
-    {
-      "id": 129,
-      "item_id": 112,
-      "produto_nome": "Sonda Nasogástrica nº 16",
-      "tipo": "Entrada direta na Farmácia",
-      "origem": "Carga inicial",
-      "destino": "Farmácia",
-      "quantidade": 12,
-      "responsavel": "Carga inicial Farmácia",
-      "data": "13/08/2026",
-      "obs": "Carga inicial Farmácia - linha 115",
-      "criado_em": "13/08/2026 20:25:46",
-      "item": "Sonda Nasogástrica nº 16",
       "usuario": "Carga inicial Farmácia"
     }
   ]
