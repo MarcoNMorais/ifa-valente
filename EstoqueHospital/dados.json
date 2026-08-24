@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "24/08/2026 11:34:32",
+  "atualizado_em": "24/08/2026 11:36:08",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
-    "total_almoxarifado": 90783,
-    "total_farmacia": 31651,
+    "total_almoxarifado": 90735,
+    "total_farmacia": 31699,
     "total_geral": 122434,
     "perto_de_terminar": 0,
     "zerados": 3
@@ -12722,8 +12722,8 @@
       "nome": "Soro Ringer Lactato 500ml",
       "tipo": "Insumo",
       "unidade": "Unidade",
-      "almoxarifado": 312,
-      "farmacia": 54,
+      "almoxarifado": 264,
+      "farmacia": 102,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -12735,7 +12735,7 @@
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-24 11:27:31",
+      "atualizado_em": "2026-08-24 11:36:08",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -12743,13 +12743,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 312
+          "quantidade": 264
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 54
+          "quantidade": 102
         }
       ],
       "minimo_manual": 0,
@@ -13935,6 +13935,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 533,
+      "item_id": 201,
+      "produto_nome": "Soro Ringer Lactato 500ml",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 48,
+      "responsavel": "Assucena",
+      "data": "2026-08-21",
+      "obs": "",
+      "criado_em": "2026-08-24 11:36:08",
+      "item": "Soro Ringer Lactato 500ml",
+      "usuario": "Assucena"
+    },
     {
       "id": 532,
       "item_id": 275,
@@ -21418,21 +21433,6 @@
       "obs": "Carga inicial Farmácia - linha 22 | Validade: 2027-07",
       "criado_em": "13/08/2026 20:25:46",
       "item": "Cloridrato tiamina 100mg/ml 1ml",
-      "usuario": "Carga inicial Farmácia"
-    },
-    {
-      "id": 33,
-      "item_id": 21,
-      "produto_nome": "Clonazepam gotas 25mg/ml",
-      "tipo": "Entrada direta na Farmácia",
-      "origem": "Carga inicial",
-      "destino": "Farmácia",
-      "quantidade": 14,
-      "responsavel": "Carga inicial Farmácia",
-      "data": "13/08/2026",
-      "obs": "Carga inicial Farmácia - linha 21 | Validade: 2028-01",
-      "criado_em": "13/08/2026 20:25:46",
-      "item": "Clonazepam gotas 25mg/ml",
       "usuario": "Carga inicial Farmácia"
     }
   ]
