@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 15:07:28",
+  "atualizado_em": "24/08/2026 15:07:40",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 28035,
-    "total_geral": 118440,
+    "total_farmacia": 28025,
+    "total_geral": 118430,
     "perto_de_terminar": 0,
     "zerados": 7
   },
@@ -9868,19 +9868,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 200,
-      "farmacia": 48,
+      "farmacia": 38,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 248,
+      "total": 238,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-20 13:12:54",
+      "atualizado_em": "2026-08-24 15:07:39",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -9894,7 +9894,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 48
+          "quantidade": 38
         }
       ],
       "minimo_manual": 0,
@@ -9902,9 +9902,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 0.0,
-      "total_saida_historica": 0,
-      "cobertura_dias": null,
+      "media_diaria_saida": 0.83,
+      "total_saida_historica": 10,
+      "cobertura_dias": 285.6,
       "alerta_estoque": false
     },
     {
@@ -13877,6 +13877,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 730,
+      "item_id": 97,
+      "produto_nome": "Scalp nº 19",
+      "tipo": "Farmácia para Outro destino",
+      "origem": "Farmácia",
+      "destino": "Outro destino",
+      "quantidade": 10,
+      "responsavel": "Leiliana",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-24 15:07:39",
+      "item": "Scalp nº 19",
+      "usuario": "Leiliana"
+    },
     {
       "id": 729,
       "item_id": 177,
@@ -21360,21 +21375,6 @@
       "obs": "Carga inicial Farmácia - linha 214",
       "criado_em": "13/08/2026 20:25:46",
       "item": "Ocitocina",
-      "usuario": "Carga inicial Farmácia"
-    },
-    {
-      "id": 230,
-      "item_id": 209,
-      "produto_nome": "Alfaepoetina",
-      "tipo": "Entrada direta na Farmácia",
-      "origem": "Carga inicial",
-      "destino": "Farmácia",
-      "quantidade": 46,
-      "responsavel": "Carga inicial Farmácia",
-      "data": "13/08/2026",
-      "obs": "Carga inicial Farmácia - linha 213",
-      "criado_em": "13/08/2026 20:25:46",
-      "item": "Alfaepoetina",
       "usuario": "Carga inicial Farmácia"
     }
   ]
