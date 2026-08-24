@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 15:50:45",
+  "atualizado_em": "24/08/2026 15:51:16",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 25602,
-    "total_geral": 116007,
+    "total_farmacia": 25572,
+    "total_geral": 115977,
     "perto_de_terminar": 0,
     "zerados": 9
   },
@@ -12674,19 +12674,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 140,
+      "farmacia": 110,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 140,
+      "total": 110,
       "minimo": 0,
       "validade": "2028-02",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-20 13:12:54",
+      "atualizado_em": "2026-08-24 15:51:15",
       "validade_mais_proxima": "2028-02",
       "vencimento_mais_proximo": "2028-02",
       "lotes_validade": [
@@ -12694,7 +12694,7 @@
           "local": "farmacia",
           "validade": "2028-02",
           "lote": "",
-          "quantidade": 140
+          "quantidade": 110
         }
       ],
       "minimo_manual": 0,
@@ -12702,9 +12702,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 0.0,
-      "total_saida_historica": 0,
-      "cobertura_dias": null,
+      "media_diaria_saida": 2.5,
+      "total_saida_historica": 30,
+      "cobertura_dias": 44.0,
       "alerta_estoque": false
     },
     {
@@ -13833,6 +13833,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 868,
+      "item_id": 40,
+      "produto_nome": "Succinato de metoprolol 25mg",
+      "tipo": "Farmácia para Outro destino",
+      "origem": "Farmácia",
+      "destino": "Outro destino",
+      "quantidade": 30,
+      "responsavel": "Leiliana",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-24 15:51:15",
+      "item": "Succinato de metoprolol 25mg",
+      "usuario": "Leiliana"
+    },
     {
       "id": 867,
       "item_id": 24,
@@ -21316,21 +21331,6 @@
       "obs": "Importação Almoxerifado - linha 53",
       "criado_em": "18/08/2026 09:58:00",
       "item": "Luva cirúrgica tam. 7",
-      "usuario": "Sistema"
-    },
-    {
-      "id": 368,
-      "item_id": 299,
-      "produto_nome": "Iodopovidona 10%",
-      "tipo": "entrada",
-      "origem": "Carga Almoxerifado",
-      "destino": "almoxarifado",
-      "quantidade": 12,
-      "responsavel": "Sistema",
-      "data": "18/08/2026 09:58:00",
-      "obs": "Importação Almoxerifado - linha 52",
-      "criado_em": "18/08/2026 09:58:00",
-      "item": "Iodopovidona 10%",
       "usuario": "Sistema"
     }
   ]
