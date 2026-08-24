@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 13:59:55",
+  "atualizado_em": "24/08/2026 14:00:45",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 29711,
-    "total_geral": 120116,
+    "total_farmacia": 29667,
+    "total_geral": 120072,
     "perto_de_terminar": 0,
     "zerados": 3
   },
@@ -2633,19 +2633,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 272,
+      "farmacia": 228,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 272,
+      "total": 228,
       "minimo": 0,
       "validade": "2028-01",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-24 11:49:59",
+      "atualizado_em": "2026-08-24 14:00:44",
       "validade_mais_proxima": "2028-01",
       "vencimento_mais_proximo": "2028-01",
       "lotes_validade": [
@@ -2653,7 +2653,7 @@
           "local": "farmacia",
           "validade": "2028-01",
           "lote": "",
-          "quantidade": 272
+          "quantidade": 228
         }
       ],
       "minimo_manual": 0,
@@ -2661,9 +2661,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 4.67,
-      "total_saida_historica": 56,
-      "cobertura_dias": 58.3,
+      "media_diaria_saida": 8.33,
+      "total_saida_historica": 100,
+      "cobertura_dias": 27.4,
       "alerta_estoque": false
     },
     {
@@ -13924,6 +13924,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 609,
+      "item_id": 59,
+      "produto_nome": "Ceftriaxona 1g",
+      "tipo": "Farmácia para Outro destino",
+      "origem": "Farmácia",
+      "destino": "Outro destino",
+      "quantidade": 44,
+      "responsavel": "Leiliana",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-24 14:00:44",
+      "item": "Ceftriaxona 1g",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 608,
       "item_id": 203,
       "produto_nome": "Soro fisiológico 250ml",
@@ -21406,21 +21421,6 @@
       "obs": "Carga inicial Farmácia - linha 96",
       "criado_em": "13/08/2026 20:25:46",
       "item": "Sonda Endot. nº 7,5",
-      "usuario": "Carga inicial Farmácia"
-    },
-    {
-      "id": 109,
-      "item_id": 92,
-      "produto_nome": "Sonda Endot. nº 7,0",
-      "tipo": "Entrada direta na Farmácia",
-      "origem": "Carga inicial",
-      "destino": "Farmácia",
-      "quantidade": 16,
-      "responsavel": "Carga inicial Farmácia",
-      "data": "13/08/2026",
-      "obs": "Carga inicial Farmácia - linha 95",
-      "criado_em": "13/08/2026 20:25:46",
-      "item": "Sonda Endot. nº 7,0",
       "usuario": "Carga inicial Farmácia"
     }
   ]
