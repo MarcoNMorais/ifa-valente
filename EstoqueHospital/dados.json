@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/08/2026 11:41:25",
+  "atualizado_em": "24/08/2026 11:41:34",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
     "total_almoxarifado": 90405,
-    "total_farmacia": 31498,
-    "total_geral": 121903,
+    "total_farmacia": 31438,
+    "total_geral": 121843,
     "perto_de_terminar": 0,
     "zerados": 3
   },
@@ -10091,19 +10091,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 2000,
-      "farmacia": 664,
+      "farmacia": 604,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 2664,
+      "total": 2604,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-24 11:29:05",
+      "atualizado_em": "2026-08-24 11:41:33",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -10117,7 +10117,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 664
+          "quantidade": 604
         }
       ],
       "minimo_manual": 0,
@@ -10125,9 +10125,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 30.0,
-      "total_saida_historica": 360,
-      "cobertura_dias": 88.8,
+      "media_diaria_saida": 35.0,
+      "total_saida_historica": 420,
+      "cobertura_dias": 74.4,
       "alerta_estoque": false
     },
     {
@@ -14369,6 +14369,21 @@
       "criado_em": "2026-08-20 16:17:28",
       "item": "Captopril 25mg CPR",
       "usuario": "Leiliana"
+    },
+    {
+      "id": 553,
+      "item_id": 103,
+      "produto_nome": "Seringa 10ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 60,
+      "responsavel": "Assucena",
+      "data": "2026-08-16",
+      "obs": "",
+      "criado_em": "2026-08-24 11:41:33",
+      "item": "Seringa 10ml",
+      "usuario": "Assucena"
     },
     {
       "id": 552,
@@ -21418,21 +21433,6 @@
       "obs": "Carga inicial Farmácia - linha 39 | Validade: 2027-04",
       "criado_em": "13/08/2026 20:25:46",
       "item": "Espironolactona 25mg",
-      "usuario": "Carga inicial Farmácia"
-    },
-    {
-      "id": 53,
-      "item_id": 38,
-      "produto_nome": "Atensina 0,150mg CPR",
-      "tipo": "Entrada direta na Farmácia",
-      "origem": "Carga inicial",
-      "destino": "Farmácia",
-      "quantidade": 200,
-      "responsavel": "Carga inicial Farmácia",
-      "data": "13/08/2026",
-      "obs": "Carga inicial Farmácia - linha 38 | Validade: 2027-11",
-      "criado_em": "13/08/2026 20:25:46",
-      "item": "Atensina 0,150mg CPR",
       "usuario": "Carga inicial Farmácia"
     }
   ]
