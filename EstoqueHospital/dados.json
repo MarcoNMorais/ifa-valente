@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "25/08/2026 10:20:12",
+  "atualizado_em": "25/08/2026 10:20:27",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
-    "total_almoxarifado": 88102,
-    "total_farmacia": 27312,
+    "total_almoxarifado": 88078,
+    "total_farmacia": 27336,
     "total_geral": 115414,
     "perto_de_terminar": 0,
     "zerados": 11
@@ -12649,8 +12649,8 @@
       "nome": "Soro Ringer Lactato 500ml",
       "tipo": "Insumo",
       "unidade": "Unidade",
-      "almoxarifado": 240,
-      "farmacia": 69,
+      "almoxarifado": 216,
+      "farmacia": 93,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -12662,7 +12662,7 @@
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-24 16:06:03",
+      "atualizado_em": "2026-08-25 10:20:27",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -12670,13 +12670,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 240
+          "quantidade": 216
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 69
+          "quantidade": 93
         }
       ],
       "minimo_manual": 0,
@@ -13855,6 +13855,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 926,
+      "item_id": 201,
+      "produto_nome": "Soro Ringer Lactato 500ml",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 24,
+      "responsavel": "Assucena",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-25 10:20:27",
+      "item": "Soro Ringer Lactato 500ml",
+      "usuario": "Assucena"
+    },
     {
       "id": 925,
       "item_id": 202,
@@ -21338,21 +21353,6 @@
       "obs": "",
       "criado_em": "2026-08-21 10:53:38",
       "item": "Soro fisiológico 500ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 441,
-      "item_id": 203,
-      "produto_nome": "Soro fisiológico 250ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 6,
-      "responsavel": "Assucena",
-      "data": "2026-08-14",
-      "obs": "",
-      "criado_em": "2026-08-21 10:53:25",
-      "item": "Soro fisiológico 250ml",
       "usuario": "Assucena"
     }
   ]
