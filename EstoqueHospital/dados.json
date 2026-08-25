@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "25/08/2026 11:35:06",
+  "atualizado_em": "25/08/2026 11:35:23",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 337,
     "total_almoxarifado": 89255,
-    "total_farmacia": 27402,
-    "total_geral": 116657,
+    "total_farmacia": 27392,
+    "total_geral": 116647,
     "perto_de_terminar": 0,
     "zerados": 11
   },
@@ -1961,19 +1961,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 86,
+      "farmacia": 76,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 86,
+      "total": 76,
       "minimo": 0,
       "validade": "2027-07",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-25 11:13:14",
+      "atualizado_em": "2026-08-25 11:35:23",
       "validade_mais_proxima": "2027-07",
       "vencimento_mais_proximo": "2027-07",
       "lotes_validade": [
@@ -1981,7 +1981,7 @@
           "local": "farmacia",
           "validade": "2027-07",
           "lote": "",
-          "quantidade": 86
+          "quantidade": 76
         }
       ],
       "minimo_manual": 0,
@@ -1989,9 +1989,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 13,
-      "media_diaria_saida": 9.08,
-      "total_saida_historica": 118,
-      "cobertura_dias": 9.5,
+      "media_diaria_saida": 9.85,
+      "total_saida_historica": 128,
+      "cobertura_dias": 7.7,
       "alerta_estoque": false
     },
     {
@@ -13908,6 +13908,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 947,
+      "item_id": 55,
+      "produto_nome": "Benzilpenicilina 1.200",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 10,
+      "responsavel": "Assucena",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-25 11:35:23",
+      "item": "Benzilpenicilina 1.200",
+      "usuario": "Assucena"
+    },
+    {
       "id": 946,
       "item_id": 215,
       "produto_nome": "Fio agulhado / sutura nº 2",
@@ -21390,21 +21405,6 @@
       "obs": "",
       "criado_em": "2026-08-21 10:58:40",
       "item": "Brometo de ipratrópio gotas",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 462,
-      "item_id": 205,
-      "produto_nome": "Soro glicose 5% 500ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 10,
-      "responsavel": "Assucena",
-      "data": "2026-08-14",
-      "obs": "",
-      "criado_em": "2026-08-21 10:58:30",
-      "item": "Soro glicose 5% 500ml",
       "usuario": "Assucena"
     }
   ]
