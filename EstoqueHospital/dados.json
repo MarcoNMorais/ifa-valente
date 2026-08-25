@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "25/08/2026 11:34:19",
+  "atualizado_em": "25/08/2026 11:34:46",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 337,
     "total_almoxarifado": 89255,
-    "total_farmacia": 27486,
-    "total_geral": 116741,
+    "total_farmacia": 27426,
+    "total_geral": 116681,
     "perto_de_terminar": 0,
     "zerados": 11
   },
@@ -1762,19 +1762,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 200,
+      "farmacia": 140,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 200,
+      "total": 140,
       "minimo": 0,
       "validade": "2027-11",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-25 11:13:14",
+      "atualizado_em": "2026-08-25 11:34:45",
       "validade_mais_proxima": "2027-11",
       "vencimento_mais_proximo": "2027-11",
       "lotes_validade": [
@@ -1782,7 +1782,7 @@
           "local": "farmacia",
           "validade": "2027-11",
           "lote": "",
-          "quantidade": 200
+          "quantidade": 140
         }
       ],
       "minimo_manual": 0,
@@ -1790,9 +1790,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 13,
-      "media_diaria_saida": 0.0,
-      "total_saida_historica": 0,
-      "cobertura_dias": null,
+      "media_diaria_saida": 4.62,
+      "total_saida_historica": 60,
+      "cobertura_dias": 30.3,
       "alerta_estoque": false
     },
     {
@@ -13908,6 +13908,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 945,
+      "item_id": 38,
+      "produto_nome": "Atensina 0,150mg CPR",
+      "tipo": "Farmácia para PSF VALILANDIA ",
+      "origem": "Farmácia",
+      "destino": "PSF VALILANDIA ",
+      "quantidade": 60,
+      "responsavel": "Assucena",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-25 11:34:45",
+      "item": "Atensina 0,150mg CPR",
+      "usuario": "Assucena"
+    },
+    {
       "id": 944,
       "item_id": 203,
       "produto_nome": "Soro fisiológico 250ml",
@@ -21390,21 +21405,6 @@
       "obs": "",
       "criado_em": "2026-08-21 10:58:17",
       "item": "Omeprazol sódico 40mg AMP",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 460,
-      "item_id": 59,
-      "produto_nome": "Ceftriaxona 1g",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 10,
-      "responsavel": "Assucena",
-      "data": "2026-08-14",
-      "obs": "",
-      "criado_em": "2026-08-21 10:58:06",
-      "item": "Ceftriaxona 1g",
       "usuario": "Assucena"
     }
   ]
