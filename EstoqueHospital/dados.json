@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "25/08/2026 11:18:47",
+  "atualizado_em": "25/08/2026 11:19:11",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 337,
-    "total_almoxarifado": 89268,
-    "total_farmacia": 27696,
+    "total_almoxarifado": 89255,
+    "total_farmacia": 27709,
     "total_geral": 116964,
     "perto_de_terminar": 0,
     "zerados": 11
@@ -4338,8 +4338,8 @@
       "nome": "EQUIPO BOMBA SAMTRONIC",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 50,
-      "farmacia": 0,
+      "almoxarifado": 37,
+      "farmacia": 13,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -4351,7 +4351,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-08-25 11:15:41",
+      "atualizado_em": "2026-08-25 11:19:10",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -4359,7 +4359,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 50
+          "quantidade": 37
+        },
+        {
+          "local": "farmacia",
+          "validade": "",
+          "lote": "",
+          "quantidade": 13
         }
       ],
       "minimo_manual": 10,
@@ -13902,6 +13908,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 934,
+      "item_id": 337,
+      "produto_nome": "EQUIPO BOMBA SAMTRONIC",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 13,
+      "responsavel": "Assucena",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-25 11:19:10",
+      "item": "EQUIPO BOMBA SAMTRONIC",
+      "usuario": "Assucena"
+    },
+    {
       "id": 933,
       "item_id": 102,
       "produto_nome": "Seringa 5ml",
@@ -21384,21 +21405,6 @@
       "obs": "",
       "criado_em": "2026-08-21 10:55:04",
       "item": "Dispositivo intravenoso Gelco nº 24",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 449,
-      "item_id": 177,
-      "produto_nome": "Dispositivo intravenoso Gelco nº 22",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 10,
-      "responsavel": "Assucena",
-      "data": "2026-08-14",
-      "obs": "",
-      "criado_em": "2026-08-21 10:54:52",
-      "item": "Dispositivo intravenoso Gelco nº 22",
       "usuario": "Assucena"
     }
   ]
