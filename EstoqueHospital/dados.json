@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "25/08/2026 11:19:11",
+  "atualizado_em": "25/08/2026 11:19:25",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 337,
     "total_almoxarifado": 89255,
-    "total_farmacia": 27709,
-    "total_geral": 116964,
+    "total_farmacia": 27706,
+    "total_geral": 116961,
     "perto_de_terminar": 0,
     "zerados": 11
   },
@@ -4339,19 +4339,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 37,
-      "farmacia": 13,
+      "farmacia": 10,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 50,
+      "total": 47,
       "minimo": 10,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-08-25 11:19:10",
+      "atualizado_em": "2026-08-25 11:19:25",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -4365,7 +4365,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 13
+          "quantidade": 10
         }
       ],
       "minimo_manual": 10,
@@ -4373,9 +4373,9 @@
       "previsao_20_dias": 10,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 2,
-      "media_diaria_saida": 0.0,
-      "total_saida_historica": 0,
-      "cobertura_dias": null,
+      "media_diaria_saida": 1.5,
+      "total_saida_historica": 3,
+      "cobertura_dias": 31.3,
       "alerta_estoque": false
     },
     {
@@ -13908,6 +13908,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 935,
+      "item_id": 337,
+      "produto_nome": "EQUIPO BOMBA SAMTRONIC",
+      "tipo": "Farmácia para Posto de Internamento",
+      "origem": "Farmácia",
+      "destino": "Posto de Internamento",
+      "quantidade": 3,
+      "responsavel": "Assucena",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-25 11:19:25",
+      "item": "EQUIPO BOMBA SAMTRONIC",
+      "usuario": "Assucena"
+    },
+    {
       "id": 934,
       "item_id": 337,
       "produto_nome": "EQUIPO BOMBA SAMTRONIC",
@@ -21390,21 +21405,6 @@
       "obs": "",
       "criado_em": "2026-08-21 10:55:22",
       "item": "Soro fisiológico 250ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 450,
-      "item_id": 176,
-      "produto_nome": "Dispositivo intravenoso Gelco nº 24",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 10,
-      "responsavel": "Assucena",
-      "data": "2026-08-14",
-      "obs": "",
-      "criado_em": "2026-08-21 10:55:04",
-      "item": "Dispositivo intravenoso Gelco nº 24",
       "usuario": "Assucena"
     }
   ]
