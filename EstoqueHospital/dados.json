@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "25/08/2026 11:36:26",
+  "atualizado_em": "25/08/2026 11:36:37",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 337,
     "total_almoxarifado": 89255,
-    "total_farmacia": 27288,
-    "total_geral": 116543,
+    "total_farmacia": 27268,
+    "total_geral": 116523,
     "perto_de_terminar": 0,
     "zerados": 11
   },
@@ -13360,19 +13360,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 535,
+      "farmacia": 515,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 535,
+      "total": 515,
       "minimo": 0,
       "validade": "12/27",
       "lote": "",
       "origem": "Carga Farmácia 227-288",
       "obs": "Importação Farmácia 227-288",
-      "atualizado_em": "2026-08-25 11:13:14",
+      "atualizado_em": "2026-08-25 11:36:37",
       "validade_mais_proxima": "12/27",
       "vencimento_mais_proximo": "12/27",
       "lotes_validade": [
@@ -13380,7 +13380,7 @@
           "local": "farmacia",
           "validade": "12/27",
           "lote": "",
-          "quantidade": 535
+          "quantidade": 515
         }
       ],
       "minimo_manual": 0,
@@ -13388,9 +13388,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 11,
-      "media_diaria_saida": 13.18,
-      "total_saida_historica": 145,
-      "cobertura_dias": 40.6,
+      "media_diaria_saida": 15.0,
+      "total_saida_historica": 165,
+      "cobertura_dias": 34.3,
       "alerta_estoque": false
     },
     {
@@ -13907,6 +13907,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 954,
+      "item_id": 239,
+      "produto_nome": "Tramadol 50mg/ml 2ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 20,
+      "responsavel": "Assucena",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-25 11:36:37",
+      "item": "Tramadol 50mg/ml 2ml",
+      "usuario": "Assucena"
+    },
     {
       "id": 953,
       "item_id": 75,
@@ -21390,21 +21405,6 @@
       "obs": "",
       "criado_em": "2026-08-21 11:01:06",
       "item": "Agulha hipodérmica tam. 18",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 469,
-      "item_id": 181,
-      "produto_nome": "Luva de látex tam. M",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 100,
-      "responsavel": "Assucena",
-      "data": "2026-08-14",
-      "obs": "",
-      "criado_em": "2026-08-21 11:00:52",
-      "item": "Luva de látex tam. M",
       "usuario": "Assucena"
     }
   ]
