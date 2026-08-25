@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "25/08/2026 11:46:14",
+  "atualizado_em": "25/08/2026 11:46:24",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 337,
     "total_almoxarifado": 89230,
-    "total_farmacia": 26361,
-    "total_geral": 115591,
+    "total_farmacia": 26351,
+    "total_geral": 115581,
     "perto_de_terminar": 0,
     "zerados": 11
   },
@@ -2613,19 +2613,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 123,
+      "farmacia": 113,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 123,
+      "total": 113,
       "minimo": 0,
       "validade": "2028-01",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-25 11:13:14",
+      "atualizado_em": "2026-08-25 11:46:23",
       "validade_mais_proxima": "2028-01",
       "vencimento_mais_proximo": "2028-01",
       "lotes_validade": [
@@ -2633,7 +2633,7 @@
           "local": "farmacia",
           "validade": "2028-01",
           "lote": "",
-          "quantidade": 123
+          "quantidade": 113
         }
       ],
       "minimo_manual": 0,
@@ -2641,9 +2641,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 13,
-      "media_diaria_saida": 15.77,
-      "total_saida_historica": 205,
-      "cobertura_dias": 7.8,
+      "media_diaria_saida": 16.54,
+      "total_saida_historica": 215,
+      "cobertura_dias": 6.8,
       "alerta_estoque": false
     },
     {
@@ -13908,6 +13908,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 988,
+      "item_id": 59,
+      "produto_nome": "Ceftriaxona 1g",
+      "tipo": "Farmácia para Posto de Internamento",
+      "origem": "Farmácia",
+      "destino": "Posto de Internamento",
+      "quantidade": 10,
+      "responsavel": "Assucena",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-25 11:46:23",
+      "item": "Ceftriaxona 1g",
+      "usuario": "Assucena"
+    },
+    {
       "id": 987,
       "item_id": 76,
       "produto_nome": "Escopolamina + Dipirona",
@@ -21390,21 +21405,6 @@
       "obs": "",
       "criado_em": "2026-08-24 11:30:18",
       "item": "Cetoprofeno EV 100mg",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 512,
-      "item_id": 59,
-      "produto_nome": "Ceftriaxona 1g",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 22,
-      "responsavel": "Assucena",
-      "data": "2026-08-15",
-      "obs": "",
-      "criado_em": "2026-08-24 11:30:05",
-      "item": "Ceftriaxona 1g",
       "usuario": "Assucena"
     }
   ]
