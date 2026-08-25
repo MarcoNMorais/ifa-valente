@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "25/08/2026 11:15:33",
+  "atualizado_em": "25/08/2026 11:15:43",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
-    "itens": 336,
-    "total_almoxarifado": 87718,
+    "itens": 337,
+    "total_almoxarifado": 87768,
     "total_farmacia": 27696,
-    "total_geral": 115414,
+    "total_geral": 115464,
     "perto_de_terminar": 0,
     "zerados": 11
   },
@@ -4330,6 +4330,46 @@
       "media_diaria_saida": 3.62,
       "total_saida_historica": 47,
       "cobertura_dias": 0.0,
+      "alerta_estoque": false
+    },
+    {
+      "id": 337,
+      "produto_id": 337,
+      "nome": "EQUIPO BOMBA SAMTRONIC",
+      "tipo": "Material",
+      "unidade": "Unidade",
+      "almoxarifado": 50,
+      "farmacia": 0,
+      "sala_medicacoes": 0,
+      "internamento": 0,
+      "sala_cirurgica": 0,
+      "baixa": 0,
+      "outro": 0,
+      "total": 50,
+      "minimo": 10,
+      "validade": "",
+      "lote": "",
+      "origem": "Entrada externa",
+      "obs": "",
+      "atualizado_em": "2026-08-25 11:15:41",
+      "validade_mais_proxima": "",
+      "vencimento_mais_proximo": "",
+      "lotes_validade": [
+        {
+          "local": "almoxarifado",
+          "validade": "",
+          "lote": "",
+          "quantidade": 50
+        }
+      ],
+      "minimo_manual": 10,
+      "minimo_alerta": 10,
+      "previsao_20_dias": 10,
+      "criterio_alerta": "estoque_minimo_manual_inicio",
+      "dias_historico": 2,
+      "media_diaria_saida": 0.0,
+      "total_saida_historica": 0,
+      "cobertura_dias": null,
       "alerta_estoque": false
     },
     {
@@ -13862,6 +13902,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 930,
+      "item_id": 337,
+      "produto_nome": "EQUIPO BOMBA SAMTRONIC",
+      "tipo": "Entrada no Almoxarifado",
+      "origem": "Entrada externa",
+      "destino": "Almoxarifado",
+      "quantidade": 50,
+      "responsavel": "Assucena",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-25 11:15:41",
+      "item": "EQUIPO BOMBA SAMTRONIC",
+      "usuario": "Assucena"
+    },
+    {
       "id": 929,
       "item_id": 290,
       "produto_nome": "Metronidazol 100ml",
@@ -21344,21 +21399,6 @@
       "obs": "",
       "criado_em": "2026-08-21 10:54:20",
       "item": "Dipirona",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 445,
-      "item_id": 69,
-      "produto_nome": "Diclofenaco 25mg",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 20,
-      "responsavel": "Assucena",
-      "data": "2026-08-14",
-      "obs": "",
-      "criado_em": "2026-08-21 10:54:11",
-      "item": "Diclofenaco 25mg",
       "usuario": "Assucena"
     }
   ]
