@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "25/08/2026 11:38:47",
+  "atualizado_em": "25/08/2026 11:40:33",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 337,
     "total_almoxarifado": 89255,
-    "total_farmacia": 27040,
-    "total_geral": 116295,
+    "total_farmacia": 27010,
+    "total_geral": 116265,
     "perto_de_terminar": 0,
     "zerados": 11
   },
@@ -10196,19 +10196,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 2500,
-      "farmacia": 1863,
+      "farmacia": 1833,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 4363,
+      "total": 4333,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-25 11:33:44",
+      "atualizado_em": "2026-08-25 11:40:33",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -10222,7 +10222,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 1863
+          "quantidade": 1833
         }
       ],
       "minimo_manual": 0,
@@ -10230,9 +10230,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 13,
-      "media_diaria_saida": 31.92,
-      "total_saida_historica": 415,
-      "cobertura_dias": 136.7,
+      "media_diaria_saida": 34.23,
+      "total_saida_historica": 445,
+      "cobertura_dias": 126.6,
       "alerta_estoque": false
     },
     {
@@ -13907,6 +13907,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 967,
+      "item_id": 104,
+      "produto_nome": "Seringa 3ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 30,
+      "responsavel": "Assucena",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-25 11:40:33",
+      "item": "Seringa 3ml",
+      "usuario": "Assucena"
+    },
     {
       "id": 966,
       "item_id": 204,
@@ -21390,21 +21405,6 @@
       "obs": "",
       "criado_em": "2026-08-24 11:23:17",
       "item": "Dispositivo intravenoso Gelco nº 22",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 491,
-      "item_id": 98,
-      "produto_nome": "Scalp nº 23",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 15,
-      "responsavel": "Assucena",
-      "data": "2026-08-14",
-      "obs": "",
-      "criado_em": "2026-08-24 11:23:04",
-      "item": "Scalp nº 23",
       "usuario": "Assucena"
     }
   ]
