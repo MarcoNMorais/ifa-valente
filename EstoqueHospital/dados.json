@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "25/08/2026 11:33:59",
+  "atualizado_em": "25/08/2026 11:34:08",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 337,
     "total_almoxarifado": 89255,
-    "total_farmacia": 27501,
-    "total_geral": 116756,
+    "total_farmacia": 27491,
+    "total_geral": 116746,
     "perto_de_terminar": 0,
     "zerados": 11
   },
@@ -12564,19 +12564,19 @@
       "tipo": "Insumo",
       "unidade": "Unidade",
       "almoxarifado": 1033,
-      "farmacia": 44,
+      "farmacia": 34,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1077,
+      "total": 1067,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-25 11:13:14",
+      "atualizado_em": "2026-08-25 11:34:07",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -12590,7 +12590,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 44
+          "quantidade": 34
         }
       ],
       "minimo_manual": 0,
@@ -12598,9 +12598,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 13,
-      "media_diaria_saida": 7.23,
-      "total_saida_historica": 94,
-      "cobertura_dias": 148.9,
+      "media_diaria_saida": 8.0,
+      "total_saida_historica": 104,
+      "cobertura_dias": 133.4,
       "alerta_estoque": false
     },
     {
@@ -13907,6 +13907,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 943,
+      "item_id": 204,
+      "produto_nome": "Soro fisiológico 500ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 10,
+      "responsavel": "Assucena",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-25 11:34:07",
+      "item": "Soro fisiológico 500ml",
+      "usuario": "Assucena"
+    },
     {
       "id": 942,
       "item_id": 275,
@@ -21390,21 +21405,6 @@
       "obs": "",
       "criado_em": "2026-08-21 10:57:56",
       "item": "Simeticona gotas",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 458,
-      "item_id": 57,
-      "produto_nome": "Bromoprida 5mg",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 20,
-      "responsavel": "Assucena",
-      "data": "2026-08-14",
-      "obs": "",
-      "criado_em": "2026-08-21 10:57:41",
-      "item": "Bromoprida 5mg",
       "usuario": "Assucena"
     }
   ]
