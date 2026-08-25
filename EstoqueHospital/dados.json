@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "25/08/2026 11:18:22",
+  "atualizado_em": "25/08/2026 11:18:32",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 337,
-    "total_almoxarifado": 88268,
+    "total_almoxarifado": 88768,
     "total_farmacia": 27696,
-    "total_geral": 115964,
+    "total_geral": 116464,
     "perto_de_terminar": 0,
     "zerados": 11
   },
@@ -10143,20 +10143,20 @@
       "nome": "Seringa 20ml",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 2250,
+      "almoxarifado": 2750,
       "farmacia": 500,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 2750,
+      "total": 3250,
       "minimo": 0,
       "validade": "",
       "lote": "",
-      "origem": "Carga Almoxerifado",
-      "obs": "Importação Almoxerifado",
-      "atualizado_em": "2026-08-25 11:13:14",
+      "origem": "Entrada externa",
+      "obs": "",
+      "atualizado_em": "2026-08-25 11:18:31",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -10164,7 +10164,7 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 2250
+          "quantidade": 2750
         },
         {
           "local": "farmacia",
@@ -13901,6 +13901,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 932,
+      "item_id": 274,
+      "produto_nome": "Seringa 20ml",
+      "tipo": "Entrada no Almoxarifado",
+      "origem": "Entrada externa",
+      "destino": "Almoxarifado",
+      "quantidade": 500,
+      "responsavel": "Assucena",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-25 11:18:31",
+      "item": "Seringa 20ml",
+      "usuario": "Assucena"
+    },
     {
       "id": 931,
       "item_id": 103,
@@ -21384,21 +21399,6 @@
       "obs": "",
       "criado_em": "2026-08-21 10:54:40",
       "item": "Dispositivo intravenoso Gelco nº 20",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 447,
-      "item_id": 13,
-      "produto_nome": "Diazepam 10mg/2ml 2ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 5,
-      "responsavel": "Assucena",
-      "data": "2026-08-14",
-      "obs": "",
-      "criado_em": "2026-08-21 10:54:30",
-      "item": "Diazepam 10mg/2ml 2ml",
       "usuario": "Assucena"
     }
   ]
