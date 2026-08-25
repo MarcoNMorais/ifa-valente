@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "25/08/2026 11:46:45",
+  "atualizado_em": "25/08/2026 11:46:56",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 337,
     "total_almoxarifado": 89230,
-    "total_farmacia": 26341,
-    "total_geral": 115571,
+    "total_farmacia": 26281,
+    "total_geral": 115511,
     "perto_de_terminar": 0,
     "zerados": 11
   },
@@ -12472,19 +12472,19 @@
       "tipo": "Insumo",
       "unidade": "Unidade",
       "almoxarifado": 960,
-      "farmacia": 180,
+      "farmacia": 120,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1140,
+      "total": 1080,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-25 11:13:14",
+      "atualizado_em": "2026-08-25 11:46:54",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -12498,7 +12498,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 180
+          "quantidade": 120
         }
       ],
       "minimo_manual": 0,
@@ -12506,9 +12506,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 13,
-      "media_diaria_saida": 32.31,
-      "total_saida_historica": 420,
-      "cobertura_dias": 35.3,
+      "media_diaria_saida": 36.92,
+      "total_saida_historica": 480,
+      "cobertura_dias": 29.3,
       "alerta_estoque": false
     },
     {
@@ -13907,6 +13907,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 990,
+      "item_id": 202,
+      "produto_nome": "Soro fisiológico 100ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 60,
+      "responsavel": "Assucena",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-25 11:46:54",
+      "item": "Soro fisiológico 100ml",
+      "usuario": "Assucena"
+    },
     {
       "id": 989,
       "item_id": 28,
@@ -21390,21 +21405,6 @@
       "obs": "",
       "criado_em": "2026-08-24 11:30:38",
       "item": "Hidralazina 20mg",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 514,
-      "item_id": 55,
-      "produto_nome": "Benzilpenicilina 1.200",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 10,
-      "responsavel": "Assucena",
-      "data": "2026-08-15",
-      "obs": "",
-      "criado_em": "2026-08-24 11:30:28",
-      "item": "Benzilpenicilina 1.200",
       "usuario": "Assucena"
     }
   ]
