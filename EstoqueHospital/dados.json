@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "25/08/2026 11:38:15",
+  "atualizado_em": "25/08/2026 11:38:27",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 337,
     "total_almoxarifado": 89255,
-    "total_farmacia": 27071,
-    "total_geral": 116326,
+    "total_farmacia": 27051,
+    "total_geral": 116306,
     "perto_de_terminar": 0,
     "zerados": 11
   },
@@ -12518,19 +12518,19 @@
       "tipo": "Insumo",
       "unidade": "Unidade",
       "almoxarifado": 700,
-      "farmacia": 45,
+      "farmacia": 25,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 745,
+      "total": 725,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-25 11:34:18",
+      "atualizado_em": "2026-08-25 11:38:27",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -12544,7 +12544,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 45
+          "quantidade": 25
         }
       ],
       "minimo_manual": 0,
@@ -12552,9 +12552,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 13,
-      "media_diaria_saida": 11.92,
-      "total_saida_historica": 155,
-      "cobertura_dias": 62.5,
+      "media_diaria_saida": 13.46,
+      "total_saida_historica": 175,
+      "cobertura_dias": 53.9,
       "alerta_estoque": false
     },
     {
@@ -13907,6 +13907,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 964,
+      "item_id": 203,
+      "produto_nome": "Soro fisiológico 250ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 20,
+      "responsavel": "Assucena",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-25 11:38:27",
+      "item": "Soro fisiológico 250ml",
+      "usuario": "Assucena"
+    },
     {
       "id": 963,
       "item_id": 201,
@@ -21390,21 +21405,6 @@
       "obs": "",
       "criado_em": "2026-08-24 11:22:40",
       "item": "Lanceta de segurança",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 488,
-      "item_id": 103,
-      "produto_nome": "Seringa 10ml",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 60,
-      "responsavel": "Assucena",
-      "data": "2026-08-14",
-      "obs": "",
-      "criado_em": "2026-08-24 11:22:19",
-      "item": "Seringa 10ml",
       "usuario": "Assucena"
     }
   ]
