@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "25/08/2026 10:20:59",
+  "atualizado_em": "25/08/2026 10:21:19",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
-    "total_almoxarifado": 87878,
-    "total_farmacia": 27536,
+    "total_almoxarifado": 87778,
+    "total_farmacia": 27636,
     "total_geral": 115414,
     "perto_de_terminar": 0,
     "zerados": 11
@@ -3967,8 +3967,8 @@
       "nome": "Dispositivo intravenoso Gelco nº 22",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 1500,
-      "farmacia": 8,
+      "almoxarifado": 1400,
+      "farmacia": 108,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -3980,7 +3980,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-08-24 15:52:00",
+      "atualizado_em": "2026-08-25 10:21:11",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -3988,13 +3988,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 1500
+          "quantidade": 1400
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 8
+          "quantidade": 108
         }
       ],
       "minimo_manual": 0,
@@ -13856,6 +13856,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 928,
+      "item_id": 177,
+      "produto_nome": "Dispositivo intravenoso Gelco nº 22",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 100,
+      "responsavel": "Assucena",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-25 10:21:11",
+      "item": "Dispositivo intravenoso Gelco nº 22",
+      "usuario": "Assucena"
+    },
+    {
       "id": 927,
       "item_id": 287,
       "produto_nome": "Agulha 13x4,5",
@@ -21338,21 +21353,6 @@
       "obs": "",
       "criado_em": "2026-08-21 10:53:59",
       "item": "Dexametasona",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 443,
-      "item_id": 201,
-      "produto_nome": "Soro Ringer Lactato 500ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 8,
-      "responsavel": "Assucena",
-      "data": "2026-08-14",
-      "obs": "",
-      "criado_em": "2026-08-21 10:53:49",
-      "item": "Soro Ringer Lactato 500ml",
       "usuario": "Assucena"
     }
   ]
