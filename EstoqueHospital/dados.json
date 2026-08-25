@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "25/08/2026 16:26:34",
+  "atualizado_em": "25/08/2026 16:26:46",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 337,
     "total_almoxarifado": 89230,
-    "total_farmacia": 26218,
-    "total_geral": 115448,
+    "total_farmacia": 26188,
+    "total_geral": 115418,
     "perto_de_terminar": 0,
     "zerados": 11
   },
@@ -3688,19 +3688,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 160,
+      "farmacia": 130,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 160,
+      "total": 130,
       "minimo": 0,
       "validade": "2028-02",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-25 16:12:46",
+      "atualizado_em": "2026-08-25 16:26:45",
       "validade_mais_proxima": "2028-02",
       "vencimento_mais_proximo": "2028-02",
       "lotes_validade": [
@@ -3708,7 +3708,7 @@
           "local": "farmacia",
           "validade": "2028-02",
           "lote": "",
-          "quantidade": 160
+          "quantidade": 130
         }
       ],
       "minimo_manual": 0,
@@ -3716,9 +3716,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 13,
-      "media_diaria_saida": 12.31,
-      "total_saida_historica": 160,
-      "cobertura_dias": 13.0,
+      "media_diaria_saida": 14.62,
+      "total_saida_historica": 190,
+      "cobertura_dias": 8.9,
       "alerta_estoque": false
     },
     {
@@ -13908,6 +13908,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 995,
+      "item_id": 69,
+      "produto_nome": "Diclofenaco 25mg",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 30,
+      "responsavel": "Assucena",
+      "data": "2026-08-25",
+      "obs": "",
+      "criado_em": "2026-08-25 16:26:45",
+      "item": "Diclofenaco 25mg",
+      "usuario": "Assucena"
+    },
+    {
       "id": 994,
       "item_id": 68,
       "produto_nome": "Dexametasona",
@@ -21390,21 +21405,6 @@
       "obs": "",
       "criado_em": "2026-08-24 11:31:43",
       "item": "Salbutamol spray",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 519,
-      "item_id": 36,
-      "produto_nome": "Prednisona 20mg CPR",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 10,
-      "responsavel": "Assucena",
-      "data": "2026-08-15",
-      "obs": "",
-      "criado_em": "2026-08-24 11:31:30",
-      "item": "Prednisona 20mg CPR",
       "usuario": "Assucena"
     }
   ]
