@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "25/08/2026 11:36:57",
+  "atualizado_em": "25/08/2026 11:37:07",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 337,
     "total_almoxarifado": 89255,
-    "total_farmacia": 27252,
-    "total_geral": 116507,
+    "total_farmacia": 27251,
+    "total_geral": 116506,
     "perto_de_terminar": 0,
     "zerados": 11
   },
@@ -2167,19 +2167,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 64,
+      "farmacia": 63,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 64,
+      "total": 63,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga Farmácia 227-288",
       "obs": "Importação Farmácia 227-288",
-      "atualizado_em": "2026-08-25 11:13:14",
+      "atualizado_em": "2026-08-25 11:37:05",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -2187,7 +2187,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 64
+          "quantidade": 63
         }
       ],
       "minimo_manual": 0,
@@ -2195,9 +2195,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 0.17,
-      "total_saida_historica": 2,
-      "cobertura_dias": 384.0,
+      "media_diaria_saida": 0.25,
+      "total_saida_historica": 3,
+      "cobertura_dias": 252.0,
       "alerta_estoque": false
     },
     {
@@ -13908,6 +13908,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 957,
+      "item_id": 257,
+      "produto_nome": "Brometo de ipratrópio gotas",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 1,
+      "responsavel": "Assucena",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-25 11:37:05",
+      "item": "Brometo de ipratrópio gotas",
+      "usuario": "Assucena"
+    },
+    {
       "id": 956,
       "item_id": 255,
       "produto_nome": "Ibuprofeno gotas",
@@ -21390,21 +21405,6 @@
       "obs": "",
       "criado_em": "2026-08-24 11:21:03",
       "item": "Omeprazol 20mg comprimido",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 481,
-      "item_id": 241,
-      "produto_nome": "Lactulose solução",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 1,
-      "responsavel": "Assucena",
-      "data": "2026-08-14",
-      "obs": "",
-      "criado_em": "2026-08-24 11:20:53",
-      "item": "Lactulose solução",
       "usuario": "Assucena"
     }
   ]
