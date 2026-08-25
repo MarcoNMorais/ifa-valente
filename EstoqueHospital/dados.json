@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "25/08/2026 10:20:27",
+  "atualizado_em": "25/08/2026 10:20:59",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
-    "total_almoxarifado": 88078,
-    "total_farmacia": 27336,
+    "total_almoxarifado": 87878,
+    "total_farmacia": 27536,
     "total_geral": 115414,
     "perto_de_terminar": 0,
     "zerados": 11
@@ -308,8 +308,8 @@
       "nome": "Agulha 13x4,5",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 1746,
-      "farmacia": 154,
+      "almoxarifado": 1546,
+      "farmacia": 354,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -321,7 +321,7 @@
       "lote": "",
       "origem": "Carga Almoxerifado",
       "obs": "Importação Almoxerifado",
-      "atualizado_em": "2026-08-24 16:09:45",
+      "atualizado_em": "2026-08-25 10:20:58",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -329,13 +329,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 1746
+          "quantidade": 1546
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 154
+          "quantidade": 354
         }
       ],
       "minimo_manual": 0,
@@ -13856,6 +13856,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 927,
+      "item_id": 287,
+      "produto_nome": "Agulha 13x4,5",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 200,
+      "responsavel": "Assucena",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-25 10:20:58",
+      "item": "Agulha 13x4,5",
+      "usuario": "Assucena"
+    },
+    {
       "id": 926,
       "item_id": 201,
       "produto_nome": "Soro Ringer Lactato 500ml",
@@ -21338,21 +21353,6 @@
       "obs": "",
       "criado_em": "2026-08-21 10:53:49",
       "item": "Soro Ringer Lactato 500ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 442,
-      "item_id": 204,
-      "produto_nome": "Soro fisiológico 500ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 6,
-      "responsavel": "Assucena",
-      "data": "2026-08-14",
-      "obs": "",
-      "criado_em": "2026-08-21 10:53:38",
-      "item": "Soro fisiológico 500ml",
       "usuario": "Assucena"
     }
   ]
