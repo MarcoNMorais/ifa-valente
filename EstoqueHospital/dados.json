@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "25/08/2026 11:32:50",
+  "atualizado_em": "25/08/2026 11:33:01",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 337,
     "total_almoxarifado": 89255,
-    "total_farmacia": 27676,
-    "total_geral": 116931,
+    "total_farmacia": 27626,
+    "total_geral": 116881,
     "perto_de_terminar": 0,
     "zerados": 11
   },
@@ -3430,19 +3430,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 950,
+      "farmacia": 900,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 950,
+      "total": 900,
       "minimo": 0,
       "validade": "2027-10",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-25 11:13:14",
+      "atualizado_em": "2026-08-25 11:33:01",
       "validade_mais_proxima": "2027-10",
       "vencimento_mais_proximo": "2027-10",
       "lotes_validade": [
@@ -3450,7 +3450,7 @@
           "local": "farmacia",
           "validade": "2027-10",
           "lote": "",
-          "quantidade": 950
+          "quantidade": 900
         }
       ],
       "minimo_manual": 0,
@@ -3458,9 +3458,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 13,
-      "media_diaria_saida": 24.62,
-      "total_saida_historica": 320,
-      "cobertura_dias": 38.6,
+      "media_diaria_saida": 28.46,
+      "total_saida_historica": 370,
+      "cobertura_dias": 31.6,
       "alerta_estoque": false
     },
     {
@@ -13908,6 +13908,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 937,
+      "item_id": 68,
+      "produto_nome": "Dexametasona",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 50,
+      "responsavel": "Assucena",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-25 11:33:01",
+      "item": "Dexametasona",
+      "usuario": "Assucena"
+    },
+    {
       "id": 936,
       "item_id": 69,
       "produto_nome": "Diclofenaco 25mg",
@@ -21390,21 +21405,6 @@
       "obs": "",
       "criado_em": "2026-08-21 10:56:14",
       "item": "Seringa 5ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 452,
-      "item_id": 103,
-      "produto_nome": "Seringa 10ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 70,
-      "responsavel": "Assucena",
-      "data": "2026-08-14",
-      "obs": "",
-      "criado_em": "2026-08-21 10:55:43",
-      "item": "Seringa 10ml",
       "usuario": "Assucena"
     }
   ]
