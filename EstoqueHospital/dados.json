@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "25/08/2026 11:43:51",
+  "atualizado_em": "25/08/2026 11:44:20",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 337,
-    "total_almoxarifado": 89255,
-    "total_farmacia": 26764,
+    "total_almoxarifado": 89230,
+    "total_farmacia": 26789,
     "total_geral": 116019,
     "perto_de_terminar": 0,
     "zerados": 11
@@ -4423,8 +4423,8 @@
       "nome": "Equipo fotossensível",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 90,
-      "farmacia": 2,
+      "almoxarifado": 65,
+      "farmacia": 27,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -4436,7 +4436,7 @@
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-25 11:13:14",
+      "atualizado_em": "2026-08-25 11:44:20",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -4444,13 +4444,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 90
+          "quantidade": 65
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 2
+          "quantidade": 27
         }
       ],
       "minimo_manual": 0,
@@ -13908,6 +13908,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 980,
+      "item_id": 154,
+      "produto_nome": "Equipo fotossensível",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 25,
+      "responsavel": "Assucena",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-25 11:44:20",
+      "item": "Equipo fotossensível",
+      "usuario": "Assucena"
+    },
+    {
       "id": 979,
       "item_id": 275,
       "produto_nome": "Equipo micro",
@@ -21390,21 +21405,6 @@
       "obs": "",
       "criado_em": "2026-08-24 11:28:37",
       "item": "Seringa 3ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 504,
-      "item_id": 177,
-      "produto_nome": "Dispositivo intravenoso Gelco nº 22",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 15,
-      "responsavel": "Assucena",
-      "data": "2026-08-15",
-      "obs": "",
-      "criado_em": "2026-08-24 11:28:24",
-      "item": "Dispositivo intravenoso Gelco nº 22",
       "usuario": "Assucena"
     }
   ]
