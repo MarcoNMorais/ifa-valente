@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "25/08/2026 16:28:07",
+  "atualizado_em": "25/08/2026 16:28:35",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 337,
     "total_almoxarifado": 89230,
-    "total_farmacia": 26053,
-    "total_geral": 115283,
+    "total_farmacia": 26052,
+    "total_geral": 115282,
     "perto_de_terminar": 0,
     "zerados": 11
   },
@@ -2287,19 +2287,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 4,
+      "farmacia": 3,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 4,
+      "total": 3,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-25 16:12:46",
+      "atualizado_em": "2026-08-25 16:28:34",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -2307,7 +2307,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 4
+          "quantidade": 3
         }
       ],
       "minimo_manual": 0,
@@ -2315,9 +2315,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 13,
-      "media_diaria_saida": 0.31,
-      "total_saida_historica": 4,
-      "cobertura_dias": 13.0,
+      "media_diaria_saida": 0.38,
+      "total_saida_historica": 5,
+      "cobertura_dias": 7.8,
       "alerta_estoque": false
     },
     {
@@ -13902,6 +13902,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 1001,
+      "item_id": 200,
+      "produto_nome": "Caixa de perfurocortante",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 1,
+      "responsavel": "Assucena",
+      "data": "2026-08-25",
+      "obs": "",
+      "criado_em": "2026-08-25 16:28:34",
+      "item": "Caixa de perfurocortante",
+      "usuario": "Assucena"
+    },
+    {
       "id": 1000,
       "item_id": 203,
       "produto_nome": "Soro fisiológico 250ml",
@@ -21384,21 +21399,6 @@
       "obs": "",
       "criado_em": "2026-08-24 11:32:55",
       "item": "Lactulose solução",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 525,
-      "item_id": 28,
-      "produto_nome": "Dipirona 500mg",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 10,
-      "responsavel": "Assucena",
-      "data": "2026-08-15",
-      "obs": "",
-      "criado_em": "2026-08-24 11:32:45",
-      "item": "Dipirona 500mg",
       "usuario": "Assucena"
     }
   ]
