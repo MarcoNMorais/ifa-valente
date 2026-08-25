@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "25/08/2026 11:42:32",
+  "atualizado_em": "25/08/2026 11:43:34",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 337,
     "total_almoxarifado": 89255,
-    "total_farmacia": 26801,
-    "total_geral": 116056,
+    "total_farmacia": 26789,
+    "total_geral": 116044,
     "perto_de_terminar": 0,
     "zerados": 11
   },
@@ -1372,19 +1372,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 60,
-      "farmacia": 72,
+      "farmacia": 60,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 132,
+      "total": 120,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-25 11:13:14",
+      "atualizado_em": "2026-08-25 11:43:34",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -1398,7 +1398,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 72
+          "quantidade": 60
         }
       ],
       "minimo_manual": 0,
@@ -1406,9 +1406,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 13,
-      "media_diaria_saida": 0.0,
-      "total_saida_historica": 0,
-      "cobertura_dias": null,
+      "media_diaria_saida": 0.92,
+      "total_saida_historica": 12,
+      "cobertura_dias": 130.0,
       "alerta_estoque": false
     },
     {
@@ -13908,6 +13908,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 978,
+      "item_id": 153,
+      "produto_nome": "Atadura crepon nº 20",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 12,
+      "responsavel": "Assucena",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-25 11:43:34",
+      "item": "Atadura crepon nº 20",
+      "usuario": "Assucena"
+    },
+    {
       "id": 977,
       "item_id": 151,
       "produto_nome": "Atadura crepon nº 15",
@@ -21379,21 +21394,6 @@
     },
     {
       "id": 503,
-      "item_id": 28,
-      "produto_nome": "Dipirona 500mg",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 20,
-      "responsavel": "Assucena",
-      "data": "2026-08-14",
-      "obs": "",
-      "criado_em": "2026-08-24 11:28:00",
-      "item": "Dipirona 500mg",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 502,
       "item_id": 28,
       "produto_nome": "Dipirona 500mg",
       "tipo": "Farmácia para Sala de Medicações",
