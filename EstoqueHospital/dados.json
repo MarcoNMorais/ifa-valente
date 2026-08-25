@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "25/08/2026 11:35:23",
+  "atualizado_em": "25/08/2026 11:35:33",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 337,
     "total_almoxarifado": 89255,
-    "total_farmacia": 27392,
-    "total_geral": 116647,
+    "total_farmacia": 27380,
+    "total_geral": 116635,
     "perto_de_terminar": 0,
     "zerados": 11
   },
@@ -2693,19 +2693,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 113,
+      "farmacia": 101,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 113,
+      "total": 101,
       "minimo": 0,
       "validade": "2028-01",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-25 11:13:14",
+      "atualizado_em": "2026-08-25 11:35:33",
       "validade_mais_proxima": "2028-01",
       "vencimento_mais_proximo": "2028-01",
       "lotes_validade": [
@@ -2713,7 +2713,7 @@
           "local": "farmacia",
           "validade": "2028-01",
           "lote": "",
-          "quantidade": 113
+          "quantidade": 101
         }
       ],
       "minimo_manual": 0,
@@ -2721,9 +2721,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 13,
-      "media_diaria_saida": 10.54,
-      "total_saida_historica": 137,
-      "cobertura_dias": 10.7,
+      "media_diaria_saida": 11.46,
+      "total_saida_historica": 149,
+      "cobertura_dias": 8.8,
       "alerta_estoque": false
     },
     {
@@ -13908,6 +13908,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 948,
+      "item_id": 60,
+      "produto_nome": "Cetoprofeno EV 100mg",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 12,
+      "responsavel": "Assucena",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-25 11:35:33",
+      "item": "Cetoprofeno EV 100mg",
+      "usuario": "Assucena"
+    },
+    {
       "id": 947,
       "item_id": 55,
       "produto_nome": "Benzilpenicilina 1.200",
@@ -21390,21 +21405,6 @@
       "obs": "",
       "criado_em": "2026-08-21 10:58:51",
       "item": "Ibuprofeno gotas",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 463,
-      "item_id": 257,
-      "produto_nome": "Brometo de ipratrópio gotas",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 2,
-      "responsavel": "Assucena",
-      "data": "2026-08-14",
-      "obs": "",
-      "criado_em": "2026-08-21 10:58:40",
-      "item": "Brometo de ipratrópio gotas",
       "usuario": "Assucena"
     }
   ]
