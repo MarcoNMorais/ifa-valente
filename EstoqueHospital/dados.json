@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "25/08/2026 11:40:33",
+  "atualizado_em": "25/08/2026 11:40:43",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 337,
     "total_almoxarifado": 89255,
-    "total_farmacia": 27010,
-    "total_geral": 116265,
+    "total_farmacia": 27000,
+    "total_geral": 116255,
     "perto_de_terminar": 0,
     "zerados": 11
   },
@@ -10196,19 +10196,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 2500,
-      "farmacia": 1833,
+      "farmacia": 1823,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 4333,
+      "total": 4323,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-25 11:40:33",
+      "atualizado_em": "2026-08-25 11:40:41",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -10222,7 +10222,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 1833
+          "quantidade": 1823
         }
       ],
       "minimo_manual": 0,
@@ -10230,9 +10230,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 13,
-      "media_diaria_saida": 34.23,
-      "total_saida_historica": 445,
-      "cobertura_dias": 126.6,
+      "media_diaria_saida": 35.0,
+      "total_saida_historica": 455,
+      "cobertura_dias": 123.5,
       "alerta_estoque": false
     },
     {
@@ -13907,6 +13907,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 968,
+      "item_id": 104,
+      "produto_nome": "Seringa 3ml",
+      "tipo": "Farmácia para Posto de Internamento",
+      "origem": "Farmácia",
+      "destino": "Posto de Internamento",
+      "quantidade": 10,
+      "responsavel": "Assucena",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-25 11:40:41",
+      "item": "Seringa 3ml",
+      "usuario": "Assucena"
+    },
     {
       "id": 967,
       "item_id": 104,
@@ -21390,21 +21405,6 @@
       "obs": "",
       "criado_em": "2026-08-24 11:25:32",
       "item": "Agulha hipodérmica tam. 18",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 492,
-      "item_id": 177,
-      "produto_nome": "Dispositivo intravenoso Gelco nº 22",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 15,
-      "responsavel": "Assucena",
-      "data": "2026-08-14",
-      "obs": "",
-      "criado_em": "2026-08-24 11:23:17",
-      "item": "Dispositivo intravenoso Gelco nº 22",
       "usuario": "Assucena"
     }
   ]
