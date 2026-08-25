@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "25/08/2026 11:19:25",
+  "atualizado_em": "25/08/2026 11:32:50",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 337,
     "total_almoxarifado": 89255,
-    "total_farmacia": 27706,
-    "total_geral": 116961,
+    "total_farmacia": 27676,
+    "total_geral": 116931,
     "perto_de_terminar": 0,
     "zerados": 11
   },
@@ -3682,19 +3682,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 190,
+      "farmacia": 160,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 190,
+      "total": 160,
       "minimo": 0,
       "validade": "2028-02",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-25 11:13:14",
+      "atualizado_em": "2026-08-25 11:32:50",
       "validade_mais_proxima": "2028-02",
       "vencimento_mais_proximo": "2028-02",
       "lotes_validade": [
@@ -3702,7 +3702,7 @@
           "local": "farmacia",
           "validade": "2028-02",
           "lote": "",
-          "quantidade": 190
+          "quantidade": 160
         }
       ],
       "minimo_manual": 0,
@@ -3710,9 +3710,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 13,
-      "media_diaria_saida": 10.0,
-      "total_saida_historica": 130,
-      "cobertura_dias": 19.0,
+      "media_diaria_saida": 12.31,
+      "total_saida_historica": 160,
+      "cobertura_dias": 13.0,
       "alerta_estoque": false
     },
     {
@@ -13908,6 +13908,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 936,
+      "item_id": 69,
+      "produto_nome": "Diclofenaco 25mg",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 30,
+      "responsavel": "Assucena",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-25 11:32:50",
+      "item": "Diclofenaco 25mg",
+      "usuario": "Assucena"
+    },
+    {
       "id": 935,
       "item_id": 337,
       "produto_nome": "EQUIPO BOMBA SAMTRONIC",
@@ -21390,21 +21405,6 @@
       "obs": "",
       "criado_em": "2026-08-21 10:55:43",
       "item": "Seringa 10ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 451,
-      "item_id": 203,
-      "produto_nome": "Soro fisiológico 250ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 16,
-      "responsavel": "Assucena",
-      "data": "2026-08-14",
-      "obs": "",
-      "criado_em": "2026-08-21 10:55:22",
-      "item": "Soro fisiológico 250ml",
       "usuario": "Assucena"
     }
   ]
