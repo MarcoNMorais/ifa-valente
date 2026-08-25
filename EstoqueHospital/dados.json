@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "25/08/2026 11:41:33",
+  "atualizado_em": "25/08/2026 11:41:43",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 337,
     "total_almoxarifado": 89255,
-    "total_farmacia": 26860,
-    "total_geral": 116115,
+    "total_farmacia": 26840,
+    "total_geral": 116095,
     "perto_de_terminar": 0,
     "zerados": 11
   },
@@ -10104,19 +10104,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 550,
-      "farmacia": 300,
+      "farmacia": 280,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 850,
+      "total": 830,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-25 11:13:14",
+      "atualizado_em": "2026-08-25 11:41:43",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -10130,7 +10130,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 300
+          "quantidade": 280
         }
       ],
       "minimo_manual": 0,
@@ -10138,9 +10138,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 13,
-      "media_diaria_saida": 2.15,
-      "total_saida_historica": 28,
-      "cobertura_dias": 394.6,
+      "media_diaria_saida": 3.69,
+      "total_saida_historica": 48,
+      "cobertura_dias": 224.8,
       "alerta_estoque": false
     },
     {
@@ -13907,6 +13907,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 974,
+      "item_id": 157,
+      "produto_nome": "Seringa 1ml",
+      "tipo": "Farmácia para Posto de Internamento",
+      "origem": "Farmácia",
+      "destino": "Posto de Internamento",
+      "quantidade": 20,
+      "responsavel": "Assucena",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-25 11:41:43",
+      "item": "Seringa 1ml",
+      "usuario": "Assucena"
+    },
     {
       "id": 973,
       "item_id": 274,
@@ -21390,21 +21405,6 @@
       "obs": "",
       "criado_em": "2026-08-24 11:27:21",
       "item": "Seringa 5ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 498,
-      "item_id": 181,
-      "produto_nome": "Luva de látex tam. M",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 100,
-      "responsavel": "Assucena",
-      "data": "2026-08-14",
-      "obs": "",
-      "criado_em": "2026-08-24 11:26:52",
-      "item": "Luva de látex tam. M",
       "usuario": "Assucena"
     }
   ]
