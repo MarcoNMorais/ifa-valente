@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "25/08/2026 11:36:07",
+  "atualizado_em": "25/08/2026 11:36:16",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 337,
     "total_almoxarifado": 89255,
-    "total_farmacia": 27315,
-    "total_geral": 116570,
+    "total_farmacia": 27308,
+    "total_geral": 116563,
     "perto_de_terminar": 0,
     "zerados": 11
   },
@@ -9016,28 +9016,22 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 47,
+      "farmacia": 40,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 47,
+      "total": 40,
       "minimo": 0,
-      "validade": "11/27",
+      "validade": "",
       "lote": "",
       "origem": "Carga Farmácia 227-288",
       "obs": "Importação Farmácia 227-288",
-      "atualizado_em": "2026-08-25 11:36:06",
-      "validade_mais_proxima": "11/27",
-      "vencimento_mais_proximo": "11/27",
+      "atualizado_em": "2026-08-25 11:36:13",
+      "validade_mais_proxima": "",
+      "vencimento_mais_proximo": "",
       "lotes_validade": [
-        {
-          "local": "farmacia",
-          "validade": "11/27",
-          "lote": "",
-          "quantidade": 7
-        },
         {
           "local": "farmacia",
           "validade": "",
@@ -9050,9 +9044,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 5.42,
-      "total_saida_historica": 65,
-      "cobertura_dias": 8.7,
+      "media_diaria_saida": 6.0,
+      "total_saida_historica": 72,
+      "cobertura_dias": 6.7,
       "alerta_estoque": false
     },
     {
@@ -13913,6 +13907,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 952,
+      "item_id": 228,
+      "produto_nome": "Omeprazol sódico 40mg AMP",
+      "tipo": "Farmácia para Posto de Internamento",
+      "origem": "Farmácia",
+      "destino": "Posto de Internamento",
+      "quantidade": 7,
+      "responsavel": "Assucena",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-25 11:36:13",
+      "item": "Omeprazol sódico 40mg AMP",
+      "usuario": "Assucena"
+    },
     {
       "id": 951,
       "item_id": 228,
@@ -21396,21 +21405,6 @@
       "obs": "",
       "criado_em": "2026-08-21 11:00:40",
       "item": "Prednisolona 3mg/ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 467,
-      "item_id": 28,
-      "produto_nome": "Dipirona 500mg",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 10,
-      "responsavel": "Assucena",
-      "data": "2026-08-14",
-      "obs": "",
-      "criado_em": "2026-08-21 11:00:32",
-      "item": "Dipirona 500mg",
       "usuario": "Assucena"
     }
   ]
