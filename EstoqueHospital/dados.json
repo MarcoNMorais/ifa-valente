@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "25/08/2026 11:33:26",
+  "atualizado_em": "25/08/2026 11:33:35",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 337,
     "total_almoxarifado": 89255,
-    "total_farmacia": 27576,
-    "total_geral": 116831,
+    "total_farmacia": 27556,
+    "total_geral": 116811,
     "perto_de_terminar": 0,
     "zerados": 11
   },
@@ -10242,19 +10242,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 1500,
-      "farmacia": 500,
+      "farmacia": 480,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 2000,
+      "total": 1980,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-08-25 11:18:47",
+      "atualizado_em": "2026-08-25 11:33:35",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -10268,7 +10268,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 500
+          "quantidade": 480
         }
       ],
       "minimo_manual": 0,
@@ -10276,9 +10276,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 13,
-      "media_diaria_saida": 8.85,
-      "total_saida_historica": 115,
-      "cobertura_dias": 226.1,
+      "media_diaria_saida": 10.38,
+      "total_saida_historica": 135,
+      "cobertura_dias": 190.7,
       "alerta_estoque": false
     },
     {
@@ -13907,6 +13907,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 940,
+      "item_id": 102,
+      "produto_nome": "Seringa 5ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 20,
+      "responsavel": "Assucena",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-25 11:33:35",
+      "item": "Seringa 5ml",
+      "usuario": "Assucena"
+    },
     {
       "id": 939,
       "item_id": 103,
@@ -21390,21 +21405,6 @@
       "obs": "",
       "criado_em": "2026-08-21 10:56:58",
       "item": "Equipo macrogotas",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 455,
-      "item_id": 157,
-      "produto_nome": "Seringa 1ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 20,
-      "responsavel": "Assucena",
-      "data": "2026-08-14",
-      "obs": "",
-      "criado_em": "2026-08-21 10:56:38",
-      "item": "Seringa 1ml",
       "usuario": "Assucena"
     }
   ]
