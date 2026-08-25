@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "25/08/2026 10:20:01",
+  "atualizado_em": "25/08/2026 10:20:12",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 336,
-    "total_almoxarifado": 88222,
-    "total_farmacia": 27192,
+    "total_almoxarifado": 88102,
+    "total_farmacia": 27312,
     "total_geral": 115414,
     "perto_de_terminar": 0,
     "zerados": 11
@@ -12419,8 +12419,8 @@
       "nome": "Soro fisiológico 100ml",
       "tipo": "Insumo",
       "unidade": "Unidade",
-      "almoxarifado": 1080,
-      "farmacia": 60,
+      "almoxarifado": 960,
+      "farmacia": 180,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -12432,7 +12432,7 @@
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-24 16:00:01",
+      "atualizado_em": "2026-08-25 10:20:11",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -12440,13 +12440,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 1080
+          "quantidade": 960
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 60
+          "quantidade": 180
         }
       ],
       "minimo_manual": 0,
@@ -13855,6 +13855,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 925,
+      "item_id": 202,
+      "produto_nome": "Soro fisiológico 100ml",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 120,
+      "responsavel": "Assucena",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-25 10:20:11",
+      "item": "Soro fisiológico 100ml",
+      "usuario": "Assucena"
+    },
     {
       "id": 924,
       "item_id": 203,
@@ -21338,21 +21353,6 @@
       "obs": "",
       "criado_em": "2026-08-21 10:53:25",
       "item": "Soro fisiológico 250ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 440,
-      "item_id": 75,
-      "produto_nome": "Escopolamina 20mg",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 30,
-      "responsavel": "Assucena",
-      "data": "2026-08-14",
-      "obs": "",
-      "criado_em": "2026-08-21 10:52:59",
-      "item": "Escopolamina 20mg",
       "usuario": "Assucena"
     }
   ]
