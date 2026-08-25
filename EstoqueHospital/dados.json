@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "25/08/2026 11:41:43",
+  "atualizado_em": "25/08/2026 11:42:01",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 337,
     "total_almoxarifado": 89255,
-    "total_farmacia": 26840,
-    "total_geral": 116095,
+    "total_farmacia": 26828,
+    "total_geral": 116083,
     "perto_de_terminar": 0,
     "zerados": 11
   },
@@ -1280,19 +1280,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 1788,
-      "farmacia": 14,
+      "farmacia": 2,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1802,
+      "total": 1790,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-25 11:13:14",
+      "atualizado_em": "2026-08-25 11:42:00",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -1306,7 +1306,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 14
+          "quantidade": 2
         }
       ],
       "minimo_manual": 0,
@@ -1314,9 +1314,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 13,
-      "media_diaria_saida": 5.38,
-      "total_saida_historica": 70,
-      "cobertura_dias": 334.7,
+      "media_diaria_saida": 6.31,
+      "total_saida_historica": 82,
+      "cobertura_dias": 283.8,
       "alerta_estoque": false
     },
     {
@@ -13908,6 +13908,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 975,
+      "item_id": 152,
+      "produto_nome": "Atadura crepon nº 10",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 12,
+      "responsavel": "Assucena",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-25 11:42:00",
+      "item": "Atadura crepon nº 10",
+      "usuario": "Assucena"
+    },
+    {
       "id": 974,
       "item_id": 157,
       "produto_nome": "Seringa 1ml",
@@ -21390,21 +21405,6 @@
       "obs": "",
       "criado_em": "2026-08-24 11:27:31",
       "item": "Soro Ringer Lactato 500ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 499,
-      "item_id": 102,
-      "produto_nome": "Seringa 5ml",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 40,
-      "responsavel": "Assucena",
-      "data": "2026-08-14",
-      "obs": "",
-      "criado_em": "2026-08-24 11:27:21",
-      "item": "Seringa 5ml",
       "usuario": "Assucena"
     }
   ]
