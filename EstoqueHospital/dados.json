@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "25/08/2026 11:37:55",
+  "atualizado_em": "25/08/2026 11:38:05",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 337,
     "total_almoxarifado": 89255,
-    "total_farmacia": 27091,
-    "total_geral": 116346,
+    "total_farmacia": 27081,
+    "total_geral": 116336,
     "perto_de_terminar": 0,
     "zerados": 11
   },
@@ -4020,19 +4020,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 800,
-      "farmacia": 350,
+      "farmacia": 340,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1150,
+      "total": 1140,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-25 11:13:14",
+      "atualizado_em": "2026-08-25 11:38:02",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -4046,7 +4046,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 350
+          "quantidade": 340
         }
       ],
       "minimo_manual": 0,
@@ -4054,9 +4054,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 13,
-      "media_diaria_saida": 8.85,
-      "total_saida_historica": 115,
-      "cobertura_dias": 130.0,
+      "media_diaria_saida": 9.62,
+      "total_saida_historica": 125,
+      "cobertura_dias": 118.6,
       "alerta_estoque": false
     },
     {
@@ -13908,6 +13908,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 962,
+      "item_id": 176,
+      "produto_nome": "Dispositivo intravenoso Gelco nº 24",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 10,
+      "responsavel": "Assucena",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-25 11:38:02",
+      "item": "Dispositivo intravenoso Gelco nº 24",
+      "usuario": "Assucena"
+    },
+    {
       "id": 961,
       "item_id": 178,
       "produto_nome": "Dispositivo intravenoso Gelco nº 20",
@@ -21390,21 +21405,6 @@
       "obs": "",
       "criado_em": "2026-08-24 11:22:03",
       "item": "Equipo macrogotas",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 486,
-      "item_id": 202,
-      "produto_nome": "Soro fisiológico 100ml",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 60,
-      "responsavel": "Assucena",
-      "data": "2026-08-14",
-      "obs": "",
-      "criado_em": "2026-08-24 11:21:49",
-      "item": "Soro fisiológico 100ml",
       "usuario": "Assucena"
     }
   ]
