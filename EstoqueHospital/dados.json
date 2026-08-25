@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "25/08/2026 11:35:33",
+  "atualizado_em": "25/08/2026 11:35:44",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 337,
     "total_almoxarifado": 89255,
-    "total_farmacia": 27380,
-    "total_geral": 116635,
+    "total_farmacia": 27360,
+    "total_geral": 116615,
     "perto_de_terminar": 0,
     "zerados": 11
   },
@@ -2733,19 +2733,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 199,
+      "farmacia": 179,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 199,
+      "total": 179,
       "minimo": 0,
       "validade": "2027-09",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-25 11:13:14",
+      "atualizado_em": "2026-08-25 11:35:41",
       "validade_mais_proxima": "2027-09",
       "vencimento_mais_proximo": "2027-09",
       "lotes_validade": [
@@ -2753,7 +2753,13 @@
           "local": "farmacia",
           "validade": "2027-09",
           "lote": "",
-          "quantidade": 199
+          "quantidade": 179
+        },
+        {
+          "local": "farmacia",
+          "validade": "",
+          "lote": "",
+          "quantidade": 20
         }
       ],
       "minimo_manual": 0,
@@ -2761,9 +2767,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 13,
-      "media_diaria_saida": 10.0,
-      "total_saida_historica": 130,
-      "cobertura_dias": 19.9,
+      "media_diaria_saida": 11.54,
+      "total_saida_historica": 150,
+      "cobertura_dias": 15.5,
       "alerta_estoque": false
     },
     {
@@ -13908,6 +13914,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 949,
+      "item_id": 61,
+      "produto_nome": "Cetoprofeno IM 50mg",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 20,
+      "responsavel": "Assucena",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-25 11:35:41",
+      "item": "Cetoprofeno IM 50mg",
+      "usuario": "Assucena"
+    },
+    {
       "id": 948,
       "item_id": 60,
       "produto_nome": "Cetoprofeno EV 100mg",
@@ -21389,21 +21410,6 @@
       "data": "2026-08-14",
       "obs": "",
       "criado_em": "2026-08-21 11:00:00",
-      "item": "Ibuprofeno gotas",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 464,
-      "item_id": 255,
-      "produto_nome": "Ibuprofeno gotas",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 1,
-      "responsavel": "Assucena",
-      "data": "2026-08-14",
-      "obs": "",
-      "criado_em": "2026-08-21 10:58:51",
       "item": "Ibuprofeno gotas",
       "usuario": "Assucena"
     }
