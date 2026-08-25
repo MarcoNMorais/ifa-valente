@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "25/08/2026 11:34:08",
+  "atualizado_em": "25/08/2026 11:34:19",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 337,
     "total_almoxarifado": 89255,
-    "total_farmacia": 27491,
-    "total_geral": 116746,
+    "total_farmacia": 27486,
+    "total_geral": 116741,
     "perto_de_terminar": 0,
     "zerados": 11
   },
@@ -12518,19 +12518,19 @@
       "tipo": "Insumo",
       "unidade": "Unidade",
       "almoxarifado": 700,
-      "farmacia": 50,
+      "farmacia": 45,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 750,
+      "total": 745,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-25 11:13:14",
+      "atualizado_em": "2026-08-25 11:34:18",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -12544,7 +12544,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 50
+          "quantidade": 45
         }
       ],
       "minimo_manual": 0,
@@ -12552,9 +12552,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 13,
-      "media_diaria_saida": 11.54,
-      "total_saida_historica": 150,
-      "cobertura_dias": 65.0,
+      "media_diaria_saida": 11.92,
+      "total_saida_historica": 155,
+      "cobertura_dias": 62.5,
       "alerta_estoque": false
     },
     {
@@ -13907,6 +13907,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 944,
+      "item_id": 203,
+      "produto_nome": "Soro fisiológico 250ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 5,
+      "responsavel": "Assucena",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-25 11:34:18",
+      "item": "Soro fisiológico 250ml",
+      "usuario": "Assucena"
+    },
     {
       "id": 943,
       "item_id": 204,
@@ -21390,21 +21405,6 @@
       "obs": "",
       "criado_em": "2026-08-21 10:58:06",
       "item": "Ceftriaxona 1g",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 459,
-      "item_id": 256,
-      "produto_nome": "Simeticona gotas",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 2,
-      "responsavel": "Assucena",
-      "data": "2026-08-14",
-      "obs": "",
-      "criado_em": "2026-08-21 10:57:56",
-      "item": "Simeticona gotas",
       "usuario": "Assucena"
     }
   ]
