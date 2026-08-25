@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "25/08/2026 16:27:18",
+  "atualizado_em": "25/08/2026 16:27:28",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 337,
     "total_almoxarifado": 89230,
-    "total_farmacia": 26138,
-    "total_geral": 115368,
+    "total_farmacia": 26088,
+    "total_geral": 115318,
     "perto_de_terminar": 0,
     "zerados": 11
   },
@@ -10196,19 +10196,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 2500,
-      "farmacia": 1823,
+      "farmacia": 1773,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 4323,
+      "total": 4273,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-25 16:12:46",
+      "atualizado_em": "2026-08-25 16:27:28",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -10222,7 +10222,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 1823
+          "quantidade": 1773
         }
       ],
       "minimo_manual": 0,
@@ -10230,9 +10230,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 13,
-      "media_diaria_saida": 35.0,
-      "total_saida_historica": 455,
-      "cobertura_dias": 123.5,
+      "media_diaria_saida": 38.85,
+      "total_saida_historica": 505,
+      "cobertura_dias": 110.0,
       "alerta_estoque": false
     },
     {
@@ -13907,6 +13907,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 998,
+      "item_id": 104,
+      "produto_nome": "Seringa 3ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 50,
+      "responsavel": "Assucena",
+      "data": "2026-08-25",
+      "obs": "",
+      "criado_em": "2026-08-25 16:27:28",
+      "item": "Seringa 3ml",
+      "usuario": "Assucena"
+    },
     {
       "id": 997,
       "item_id": 102,
@@ -21390,21 +21405,6 @@
       "obs": "",
       "criado_em": "2026-08-24 11:32:12",
       "item": "Luva de látex tam. M",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 522,
-      "item_id": 254,
-      "produto_nome": "Simeticona 40mg comprimido",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 10,
-      "responsavel": "Assucena",
-      "data": "2026-08-15",
-      "obs": "",
-      "criado_em": "2026-08-24 11:32:01",
-      "item": "Simeticona 40mg comprimido",
       "usuario": "Assucena"
     }
   ]
