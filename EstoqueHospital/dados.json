@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "25/08/2026 11:45:18",
+  "atualizado_em": "25/08/2026 11:45:29",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 337,
     "total_almoxarifado": 89230,
-    "total_farmacia": 26681,
-    "total_geral": 115911,
+    "total_farmacia": 26581,
+    "total_geral": 115811,
     "perto_de_terminar": 0,
     "zerados": 11
   },
@@ -7450,19 +7450,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 990,
+      "farmacia": 890,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 990,
+      "total": 890,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-25 11:13:14",
+      "atualizado_em": "2026-08-25 11:45:28",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -7470,7 +7470,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 990
+          "quantidade": 890
         }
       ],
       "minimo_manual": 0,
@@ -7478,9 +7478,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 13,
-      "media_diaria_saida": 62.31,
-      "total_saida_historica": 810,
-      "cobertura_dias": 15.9,
+      "media_diaria_saida": 70.0,
+      "total_saida_historica": 910,
+      "cobertura_dias": 12.7,
       "alerta_estoque": false
     },
     {
@@ -13907,6 +13907,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 984,
+      "item_id": 181,
+      "produto_nome": "Luva de látex tam. M",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 100,
+      "responsavel": "Assucena",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-25 11:45:28",
+      "item": "Luva de látex tam. M",
+      "usuario": "Assucena"
+    },
     {
       "id": 983,
       "item_id": 180,
@@ -21390,21 +21405,6 @@
       "obs": "",
       "criado_em": "2026-08-24 11:29:34",
       "item": "Escopolamina + Dipirona",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 508,
-      "item_id": 57,
-      "produto_nome": "Bromoprida 5mg",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 20,
-      "responsavel": "Assucena",
-      "data": "2026-08-15",
-      "obs": "",
-      "criado_em": "2026-08-24 11:29:21",
-      "item": "Bromoprida 5mg",
       "usuario": "Assucena"
     }
   ]
