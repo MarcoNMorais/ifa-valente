@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "25/08/2026 16:26:11",
+  "atualizado_em": "25/08/2026 16:26:23",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 337,
     "total_almoxarifado": 89230,
-    "total_farmacia": 26260,
-    "total_geral": 115490,
+    "total_farmacia": 26248,
+    "total_geral": 115478,
     "perto_de_terminar": 0,
     "zerados": 11
   },
@@ -2613,19 +2613,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 113,
+      "farmacia": 101,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 113,
+      "total": 101,
       "minimo": 0,
       "validade": "2028-01",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-25 16:12:46",
+      "atualizado_em": "2026-08-25 16:26:23",
       "validade_mais_proxima": "2028-01",
       "vencimento_mais_proximo": "2028-01",
       "lotes_validade": [
@@ -2633,7 +2633,7 @@
           "local": "farmacia",
           "validade": "2028-01",
           "lote": "",
-          "quantidade": 113
+          "quantidade": 101
         }
       ],
       "minimo_manual": 0,
@@ -2641,9 +2641,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 13,
-      "media_diaria_saida": 16.54,
-      "total_saida_historica": 215,
-      "cobertura_dias": 6.8,
+      "media_diaria_saida": 17.46,
+      "total_saida_historica": 227,
+      "cobertura_dias": 5.8,
       "alerta_estoque": false
     },
     {
@@ -13908,6 +13908,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 993,
+      "item_id": 59,
+      "produto_nome": "Ceftriaxona 1g",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 12,
+      "responsavel": "Assucena",
+      "data": "2026-08-25",
+      "obs": "",
+      "criado_em": "2026-08-25 16:26:23",
+      "item": "Ceftriaxona 1g",
+      "usuario": "Assucena"
+    },
+    {
       "id": 992,
       "item_id": 60,
       "produto_nome": "Cetoprofeno EV 100mg",
@@ -21390,21 +21405,6 @@
       "obs": "",
       "criado_em": "2026-08-24 11:31:21",
       "item": "Paracetamol 500mg",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 517,
-      "item_id": 188,
-      "produto_nome": "Agulha hipodérmica tam. 21",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 70,
-      "responsavel": "Assucena",
-      "data": "2026-08-15",
-      "obs": "",
-      "criado_em": "2026-08-24 11:31:07",
-      "item": "Agulha hipodérmica tam. 21",
       "usuario": "Assucena"
     }
   ]
