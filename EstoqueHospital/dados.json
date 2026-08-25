@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "25/08/2026 11:45:51",
+  "atualizado_em": "25/08/2026 11:46:14",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 337,
     "total_almoxarifado": 89230,
-    "total_farmacia": 26381,
-    "total_geral": 115611,
+    "total_farmacia": 26361,
+    "total_geral": 115591,
     "perto_de_terminar": 0,
     "zerados": 11
   },
@@ -4635,19 +4635,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 31,
+      "farmacia": 11,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 31,
+      "total": 11,
       "minimo": 0,
       "validade": "2027-10",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-25 11:13:14",
+      "atualizado_em": "2026-08-25 11:46:14",
       "validade_mais_proxima": "2027-10",
       "vencimento_mais_proximo": "2027-10",
       "lotes_validade": [
@@ -4655,7 +4655,7 @@
           "local": "farmacia",
           "validade": "2027-10",
           "lote": "",
-          "quantidade": 31
+          "quantidade": 11
         }
       ],
       "minimo_manual": 0,
@@ -4663,9 +4663,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 13,
-      "media_diaria_saida": 12.31,
-      "total_saida_historica": 160,
-      "cobertura_dias": 2.5,
+      "media_diaria_saida": 13.85,
+      "total_saida_historica": 180,
+      "cobertura_dias": 0.8,
       "alerta_estoque": false
     },
     {
@@ -13908,6 +13908,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 987,
+      "item_id": 76,
+      "produto_nome": "Escopolamina + Dipirona",
+      "tipo": "Farmácia para Posto de Internamento",
+      "origem": "Farmácia",
+      "destino": "Posto de Internamento",
+      "quantidade": 20,
+      "responsavel": "Assucena",
+      "data": "2026-08-24",
+      "obs": "",
+      "criado_em": "2026-08-25 11:46:14",
+      "item": "Escopolamina + Dipirona",
+      "usuario": "Assucena"
+    },
+    {
       "id": 986,
       "item_id": 181,
       "produto_nome": "Luva de látex tam. M",
@@ -21390,21 +21405,6 @@
       "obs": "",
       "criado_em": "2026-08-24 11:30:05",
       "item": "Ceftriaxona 1g",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 511,
-      "item_id": 70,
-      "produto_nome": "Dipirona",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 70,
-      "responsavel": "Assucena",
-      "data": "2026-08-15",
-      "obs": "",
-      "criado_em": "2026-08-24 11:29:55",
-      "item": "Dipirona",
       "usuario": "Assucena"
     }
   ]
