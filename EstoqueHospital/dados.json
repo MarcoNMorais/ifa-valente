@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "26/08/2026 10:18:19",
+  "atualizado_em": "26/08/2026 10:18:53",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 337,
-    "total_almoxarifado": 89230,
-    "total_farmacia": 24771,
+    "total_almoxarifado": 87730,
+    "total_farmacia": 26271,
     "total_geral": 114001,
     "perto_de_terminar": 0,
     "zerados": 11
@@ -4185,8 +4185,8 @@
       "nome": "Eletrodo ECG descartável",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 5100,
-      "farmacia": 300,
+      "almoxarifado": 3600,
+      "farmacia": 1800,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -4198,7 +4198,7 @@
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-25 16:12:46",
+      "atualizado_em": "2026-08-26 10:18:52",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -4206,13 +4206,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 5100
+          "quantidade": 3600
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 300
+          "quantidade": 1800
         }
       ],
       "minimo_manual": 0,
@@ -13890,6 +13890,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 1044,
+      "item_id": 163,
+      "produto_nome": "Eletrodo ECG descartável",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 1500,
+      "responsavel": "Assucena",
+      "data": "2026-08-25",
+      "obs": "",
+      "criado_em": "2026-08-26 10:18:52",
+      "item": "Eletrodo ECG descartável",
+      "usuario": "Assucena"
+    },
+    {
       "id": 1043,
       "item_id": 57,
       "produto_nome": "Bromoprida 5mg",
@@ -21372,21 +21387,6 @@
       "obs": "",
       "criado_em": "2026-08-24 11:46:52",
       "item": "Luva cirúrgica tam. 7,5",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 573,
-      "item_id": 104,
-      "produto_nome": "Seringa 3ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 30,
-      "responsavel": "Assucena",
-      "data": "2026-08-17",
-      "obs": "",
-      "criado_em": "2026-08-24 11:46:26",
-      "item": "Seringa 3ml",
       "usuario": "Assucena"
     }
   ]
