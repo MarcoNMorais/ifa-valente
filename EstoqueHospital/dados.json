@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "26/08/2026 10:32:15",
+  "atualizado_em": "26/08/2026 10:33:07",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 339,
-    "total_almoxarifado": 87813,
-    "total_farmacia": 24771,
+    "total_almoxarifado": 87773,
+    "total_farmacia": 24811,
     "total_geral": 112584,
     "perto_de_terminar": 0,
     "zerados": 11
@@ -13095,8 +13095,8 @@
       "nome": "SULFATO DE MAGNÉSIO 10% AMP 10ML",
       "tipo": "Medicamento",
       "unidade": "Unidade",
-      "almoxarifado": 40,
-      "farmacia": 0,
+      "almoxarifado": 0,
+      "farmacia": 40,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -13108,12 +13108,12 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-08-26 10:32:14",
+      "atualizado_em": "2026-08-26 10:33:07",
       "validade_mais_proxima": "2027-01",
       "vencimento_mais_proximo": "2027-01",
       "lotes_validade": [
         {
-          "local": "almoxarifado",
+          "local": "farmacia",
           "validade": "2027-01",
           "lote": "",
           "quantidade": 40
@@ -13975,6 +13975,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 1049,
+      "item_id": 339,
+      "produto_nome": "SULFATO DE MAGNÉSIO 10% AMP 10ML",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 40,
+      "responsavel": "Assucena",
+      "data": "2026-08-25",
+      "obs": "",
+      "criado_em": "2026-08-26 10:33:07",
+      "item": "SULFATO DE MAGNÉSIO 10% AMP 10ML",
+      "usuario": "Assucena"
+    },
     {
       "id": 1048,
       "item_id": 339,
@@ -21458,21 +21473,6 @@
       "obs": "",
       "criado_em": "2026-08-24 11:47:54",
       "item": "Metronidazol 500mg",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 578,
-      "item_id": 195,
-      "produto_nome": "Tira Reagente G-Tech",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 50,
-      "responsavel": "Assucena",
-      "data": "2026-08-17",
-      "obs": "",
-      "criado_em": "2026-08-24 11:47:39",
-      "item": "Tira Reagente G-Tech",
       "usuario": "Assucena"
     }
   ]
