@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "26/08/2026 10:50:06",
+  "atualizado_em": "26/08/2026 10:50:18",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 344,
-    "total_almoxarifado": 88030,
-    "total_farmacia": 25315,
+    "total_almoxarifado": 87730,
+    "total_farmacia": 25615,
     "total_geral": 113345,
     "perto_de_terminar": 0,
     "zerados": 11
@@ -2120,8 +2120,8 @@
       "nome": "Bisturi nº 23",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 600,
-      "farmacia": 0,
+      "almoxarifado": 300,
+      "farmacia": 300,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -2133,7 +2133,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-08-26 10:50:05",
+      "atualizado_em": "2026-08-26 10:50:17",
       "validade_mais_proxima": "2028-03",
       "vencimento_mais_proximo": "2028-03",
       "lotes_validade": [
@@ -2144,7 +2144,7 @@
           "quantidade": 300
         },
         {
-          "local": "almoxarifado",
+          "local": "farmacia",
           "validade": "",
           "lote": "",
           "quantidade": 300
@@ -14188,6 +14188,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 1064,
+      "item_id": 335,
+      "produto_nome": "Bisturi nº 23",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 300,
+      "responsavel": "Assucena",
+      "data": "2026-08-25",
+      "obs": "",
+      "criado_em": "2026-08-26 10:50:17",
+      "item": "Bisturi nº 23",
+      "usuario": "Assucena"
+    },
+    {
       "id": 1063,
       "item_id": 335,
       "produto_nome": "Bisturi nº 23",
@@ -21670,21 +21685,6 @@
       "obs": "",
       "criado_em": "2026-08-24 11:51:26",
       "item": "Agulha hipodérmica tam. 22",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 593,
-      "item_id": 197,
-      "produto_nome": "Atadura gessada nº 15",
-      "tipo": "Farmácia para SALA DE GESSO",
-      "origem": "Farmácia",
-      "destino": "SALA DE GESSO",
-      "quantidade": 10,
-      "responsavel": "Assucena",
-      "data": "2026-08-17",
-      "obs": "",
-      "criado_em": "2026-08-24 11:50:51",
-      "item": "Atadura gessada nº 15",
       "usuario": "Assucena"
     }
   ]
