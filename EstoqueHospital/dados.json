@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "26/08/2026 10:18:53",
+  "atualizado_em": "26/08/2026 10:19:11",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 337,
     "total_almoxarifado": 87730,
-    "total_farmacia": 26271,
-    "total_geral": 114001,
+    "total_farmacia": 24771,
+    "total_geral": 112501,
     "perto_de_terminar": 0,
     "zerados": 11
   },
@@ -4186,19 +4186,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 3600,
-      "farmacia": 1800,
+      "farmacia": 300,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 5400,
+      "total": 3900,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-26 10:18:52",
+      "atualizado_em": "2026-08-26 10:19:11",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -4212,7 +4212,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 1800
+          "quantidade": 300
         }
       ],
       "minimo_manual": 0,
@@ -4220,9 +4220,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 14,
-      "media_diaria_saida": 0.0,
-      "total_saida_historica": 0,
-      "cobertura_dias": null,
+      "media_diaria_saida": 107.14,
+      "total_saida_historica": 1500,
+      "cobertura_dias": 36.4,
       "alerta_estoque": false
     },
     {
@@ -13890,6 +13890,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 1045,
+      "item_id": 163,
+      "produto_nome": "Eletrodo ECG descartável",
+      "tipo": "Farmácia para CEMES - ELETRO ",
+      "origem": "Farmácia",
+      "destino": "CEMES - ELETRO ",
+      "quantidade": 1500,
+      "responsavel": "Assucena",
+      "data": "2026-08-25",
+      "obs": "",
+      "criado_em": "2026-08-26 10:19:11",
+      "item": "Eletrodo ECG descartável",
+      "usuario": "Assucena"
+    },
+    {
       "id": 1044,
       "item_id": 163,
       "produto_nome": "Eletrodo ECG descartável",
@@ -21372,21 +21387,6 @@
       "obs": "",
       "criado_em": "2026-08-24 11:47:02",
       "item": "Luva cirúrgica tam. 7",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 574,
-      "item_id": 185,
-      "produto_nome": "Luva cirúrgica tam. 7,5",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 6,
-      "responsavel": "Assucena",
-      "data": "2026-08-17",
-      "obs": "",
-      "criado_em": "2026-08-24 11:46:52",
-      "item": "Luva cirúrgica tam. 7,5",
       "usuario": "Assucena"
     }
   ]
