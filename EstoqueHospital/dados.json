@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "26/08/2026 10:44:12",
+  "atualizado_em": "26/08/2026 10:44:21",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 344,
-    "total_almoxarifado": 87755,
-    "total_farmacia": 25290,
+    "total_almoxarifado": 87730,
+    "total_farmacia": 25315,
     "total_geral": 113045,
     "perto_de_terminar": 0,
     "zerados": 11
@@ -6288,8 +6288,8 @@
       "nome": "Glicerina 12%",
       "tipo": "Medicamento",
       "unidade": "Unidade",
-      "almoxarifado": 97,
-      "farmacia": 0,
+      "almoxarifado": 72,
+      "farmacia": 25,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -6301,7 +6301,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-08-26 10:44:11",
+      "atualizado_em": "2026-08-26 10:44:19",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -6309,7 +6309,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 97
+          "quantidade": 72
+        },
+        {
+          "local": "farmacia",
+          "validade": "",
+          "lote": "",
+          "quantidade": 25
         }
       ],
       "minimo_manual": 0,
@@ -14176,6 +14182,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 1062,
+      "item_id": 294,
+      "produto_nome": "Glicerina 12%",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 25,
+      "responsavel": "Assucena",
+      "data": "2026-08-25",
+      "obs": "",
+      "criado_em": "2026-08-26 10:44:19",
+      "item": "Glicerina 12%",
+      "usuario": "Assucena"
+    },
+    {
       "id": 1061,
       "item_id": 294,
       "produto_nome": "Glicerina 12%",
@@ -21658,21 +21679,6 @@
       "obs": "",
       "criado_em": "2026-08-24 11:50:38",
       "item": "Atadura gessada nº 10",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 591,
-      "item_id": 152,
-      "produto_nome": "Atadura crepon nº 10",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 12,
-      "responsavel": "Assucena",
-      "data": "2026-08-17",
-      "obs": "",
-      "criado_em": "2026-08-24 11:50:21",
-      "item": "Atadura crepon nº 10",
       "usuario": "Assucena"
     }
   ]
