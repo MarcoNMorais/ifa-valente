@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "26/08/2026 10:12:54",
+  "atualizado_em": "26/08/2026 10:13:08",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 337,
     "total_almoxarifado": 89230,
-    "total_farmacia": 25544,
-    "total_geral": 114774,
+    "total_farmacia": 25494,
+    "total_geral": 114724,
     "perto_de_terminar": 0,
     "zerados": 11
   },
@@ -595,19 +595,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 610,
+      "farmacia": 560,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 610,
+      "total": 560,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-25 16:12:46",
+      "atualizado_em": "2026-08-26 10:13:07",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -615,7 +615,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 610
+          "quantidade": 560
         }
       ],
       "minimo_manual": 0,
@@ -623,9 +623,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 14,
-      "media_diaria_saida": 38.57,
-      "total_saida_historica": 540,
-      "cobertura_dias": 15.8,
+      "media_diaria_saida": 42.14,
+      "total_saida_historica": 590,
+      "cobertura_dias": 13.3,
       "alerta_estoque": false
     },
     {
@@ -13896,6 +13896,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 1018,
+      "item_id": 187,
+      "produto_nome": "Agulha hipodérmica tam. 18",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 50,
+      "responsavel": "Assucena",
+      "data": "2026-08-25",
+      "obs": "",
+      "criado_em": "2026-08-26 10:13:07",
+      "item": "Agulha hipodérmica tam. 18",
+      "usuario": "Assucena"
+    },
+    {
       "id": 1017,
       "item_id": 181,
       "produto_nome": "Luva de látex tam. M",
@@ -21378,21 +21393,6 @@
       "obs": "",
       "criado_em": "2026-08-24 11:40:18",
       "item": "Bolsa coletora",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 547,
-      "item_id": 180,
-      "produto_nome": "Luva de látex tam. P",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 100,
-      "responsavel": "Assucena",
-      "data": "2026-08-16",
-      "obs": "",
-      "criado_em": "2026-08-24 11:40:09",
-      "item": "Luva de látex tam. P",
       "usuario": "Assucena"
     }
   ]
