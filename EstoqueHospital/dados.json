@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "26/08/2026 10:16:56",
+  "atualizado_em": "26/08/2026 10:17:06",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 337,
     "total_almoxarifado": 89230,
-    "total_farmacia": 24854,
-    "total_geral": 114084,
+    "total_farmacia": 24844,
+    "total_geral": 114074,
     "perto_de_terminar": 0,
     "zerados": 11
   },
@@ -6209,19 +6209,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 75,
+      "farmacia": 65,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 75,
+      "total": 65,
       "minimo": 0,
       "validade": "2027-11",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-25 16:12:46",
+      "atualizado_em": "2026-08-26 10:17:05",
       "validade_mais_proxima": "2027-11",
       "vencimento_mais_proximo": "2027-11",
       "lotes_validade": [
@@ -6229,7 +6229,7 @@
           "local": "farmacia",
           "validade": "2027-11",
           "lote": "",
-          "quantidade": 50
+          "quantidade": 40
         },
         {
           "local": "farmacia",
@@ -6243,9 +6243,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 14,
-      "media_diaria_saida": 0.0,
-      "total_saida_historica": 0,
-      "cobertura_dias": null,
+      "media_diaria_saida": 0.71,
+      "total_saida_historica": 10,
+      "cobertura_dias": 91.0,
       "alerta_estoque": false
     },
     {
@@ -13890,6 +13890,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 1037,
+      "item_id": 8,
+      "produto_nome": "Haloperidol 5mg/ml",
+      "tipo": "Farmácia para Posto de Internamento",
+      "origem": "Farmácia",
+      "destino": "Posto de Internamento",
+      "quantidade": 10,
+      "responsavel": "Assucena",
+      "data": "2026-08-25",
+      "obs": "",
+      "criado_em": "2026-08-26 10:17:05",
+      "item": "Haloperidol 5mg/ml",
+      "usuario": "Assucena"
+    },
+    {
       "id": 1036,
       "item_id": 12,
       "produto_nome": "Morfina 10mg/ml 1ml",
@@ -21372,21 +21387,6 @@
       "obs": "",
       "criado_em": "2026-08-24 11:45:17",
       "item": "Dispositivo intravenoso Gelco nº 14",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 566,
-      "item_id": 187,
-      "produto_nome": "Agulha hipodérmica tam. 18",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 130,
-      "responsavel": "Assucena",
-      "data": "2026-08-17",
-      "obs": "",
-      "criado_em": "2026-08-24 11:45:07",
-      "item": "Agulha hipodérmica tam. 18",
       "usuario": "Assucena"
     }
   ]
