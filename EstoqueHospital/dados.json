@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "26/08/2026 10:59:53",
+  "atualizado_em": "26/08/2026 11:00:02",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 349,
-    "total_almoxarifado": 87735,
-    "total_farmacia": 27480,
+    "total_almoxarifado": 87730,
+    "total_farmacia": 27485,
     "total_geral": 115215,
     "perto_de_terminar": 0,
     "zerados": 11
@@ -8187,8 +8187,8 @@
       "nome": "MANITOL 250ML",
       "tipo": "Medicamento",
       "unidade": "Unidade",
-      "almoxarifado": 5,
-      "farmacia": 0,
+      "almoxarifado": 0,
+      "farmacia": 5,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -8200,12 +8200,12 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-08-26 10:59:48",
+      "atualizado_em": "2026-08-26 10:59:54",
       "validade_mais_proxima": "2026-11",
       "vencimento_mais_proximo": "2026-11",
       "lotes_validade": [
         {
-          "local": "almoxarifado",
+          "local": "farmacia",
           "validade": "2026-11",
           "lote": "",
           "quantidade": 5
@@ -14393,6 +14393,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 1076,
+      "item_id": 349,
+      "produto_nome": "MANITOL 250ML",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 5,
+      "responsavel": "Assucena",
+      "data": "2026-08-25",
+      "obs": "",
+      "criado_em": "2026-08-26 10:59:54",
+      "item": "MANITOL 250ML",
+      "usuario": "Assucena"
+    },
     {
       "id": 1075,
       "item_id": 349,
@@ -21876,21 +21891,6 @@
       "obs": "",
       "criado_em": "2026-08-21 10:42:42",
       "item": "Acebrofilina 10mg/ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 423,
-      "item_id": 151,
-      "produto_nome": "Atadura crepon nº 15",
-      "tipo": "Almoxarifado para Farmácia",
-      "origem": "Almoxarifado",
-      "destino": "Farmácia",
-      "quantidade": 10,
-      "responsavel": "Assucena",
-      "data": "2026-08-20",
-      "obs": "",
-      "criado_em": "2026-08-21 10:41:27",
-      "item": "Atadura crepon nº 15",
       "usuario": "Assucena"
     }
   ]
