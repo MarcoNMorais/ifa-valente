@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "26/08/2026 16:55:18",
+  "atualizado_em": "26/08/2026 16:55:47",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 349,
-    "total_almoxarifado": 88330,
-    "total_farmacia": 26874,
+    "total_almoxarifado": 88130,
+    "total_farmacia": 27074,
     "total_geral": 115204,
     "perto_de_terminar": 0,
     "zerados": 11
@@ -10343,8 +10343,8 @@
       "nome": "Scalp nº 23",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 1500,
-      "farmacia": 0,
+      "almoxarifado": 1300,
+      "farmacia": 200,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -10356,7 +10356,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-08-26 16:55:18",
+      "atualizado_em": "2026-08-26 16:55:47",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -10364,7 +10364,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 1500
+          "quantidade": 1300
+        },
+        {
+          "local": "farmacia",
+          "validade": "",
+          "lote": "",
+          "quantidade": 200
         }
       ],
       "minimo_manual": 0,
@@ -14387,6 +14393,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 1093,
+      "item_id": 98,
+      "produto_nome": "Scalp nº 23",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 200,
+      "responsavel": "Leiliana",
+      "data": "2026-08-26",
+      "obs": "",
+      "criado_em": "2026-08-26 16:55:47",
+      "item": "Scalp nº 23",
+      "usuario": "Leiliana"
+    },
     {
       "id": 1092,
       "item_id": 98,
@@ -21870,21 +21891,6 @@
       "obs": "",
       "criado_em": "2026-08-24 11:34:32",
       "item": "Equipo micro",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 479,
-      "item_id": 12,
-      "produto_nome": "Morfina 10mg/ml 1ml",
-      "tipo": "Farmácia para ATENÇÃO BÁSICA",
-      "origem": "Farmácia",
-      "destino": "ATENÇÃO BÁSICA",
-      "quantidade": 20,
-      "responsavel": "Assucena",
-      "data": "2026-08-21",
-      "obs": "",
-      "criado_em": "2026-08-24 11:19:50",
-      "item": "Morfina 10mg/ml 1ml",
       "usuario": "Assucena"
     }
   ]
