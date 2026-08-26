@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "26/08/2026 10:14:19",
+  "atualizado_em": "26/08/2026 10:14:31",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 337,
     "total_almoxarifado": 89230,
-    "total_farmacia": 25364,
-    "total_geral": 114594,
+    "total_farmacia": 25314,
+    "total_geral": 114544,
     "perto_de_terminar": 0,
     "zerados": 11
   },
@@ -675,19 +675,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 207,
+      "farmacia": 157,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 207,
+      "total": 157,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-26 10:13:38",
+      "atualizado_em": "2026-08-26 10:14:30",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -695,7 +695,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 207
+          "quantidade": 157
         }
       ],
       "minimo_manual": 0,
@@ -703,9 +703,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 14,
-      "media_diaria_saida": 10.71,
-      "total_saida_historica": 150,
-      "cobertura_dias": 19.3,
+      "media_diaria_saida": 14.29,
+      "total_saida_historica": 200,
+      "cobertura_dias": 11.0,
       "alerta_estoque": false
     },
     {
@@ -13896,6 +13896,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 1025,
+      "item_id": 188,
+      "produto_nome": "Agulha hipodérmica tam. 21",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 50,
+      "responsavel": "Assucena",
+      "data": "2026-08-25",
+      "obs": "",
+      "criado_em": "2026-08-26 10:14:30",
+      "item": "Agulha hipodérmica tam. 21",
+      "usuario": "Assucena"
+    },
+    {
       "id": 1024,
       "item_id": 191,
       "produto_nome": "Agulha hipodérmica tam. 23",
@@ -21378,21 +21393,6 @@
       "obs": "",
       "criado_em": "2026-08-24 11:41:55",
       "item": "Omeprazol sódico 40mg AMP",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 554,
-      "item_id": 187,
-      "produto_nome": "Agulha hipodérmica tam. 18",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 70,
-      "responsavel": "Assucena",
-      "data": "2026-08-16",
-      "obs": "",
-      "criado_em": "2026-08-24 11:41:45",
-      "item": "Agulha hipodérmica tam. 18",
       "usuario": "Assucena"
     }
   ]
