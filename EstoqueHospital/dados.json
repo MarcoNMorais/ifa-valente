@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "26/08/2026 10:42:34",
+  "atualizado_em": "26/08/2026 10:42:56",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 344,
-    "total_almoxarifado": 87975,
-    "total_farmacia": 25045,
+    "total_almoxarifado": 87730,
+    "total_farmacia": 25290,
     "total_geral": 113020,
     "perto_de_terminar": 0,
     "zerados": 11
@@ -13979,8 +13979,8 @@
       "nome": "ÁGUA  PARA INJETÁVEIS 10ML",
       "tipo": "Medicamento",
       "unidade": "Unidade",
-      "almoxarifado": 245,
-      "farmacia": 0,
+      "almoxarifado": 0,
+      "farmacia": 245,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -13992,12 +13992,12 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-08-26 10:42:34",
+      "atualizado_em": "2026-08-26 10:42:55",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
         {
-          "local": "almoxarifado",
+          "local": "farmacia",
           "validade": "",
           "lote": "",
           "quantidade": 245
@@ -14175,6 +14175,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 1060,
+      "item_id": 344,
+      "produto_nome": "ÁGUA  PARA INJETÁVEIS 10ML",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 245,
+      "responsavel": "Assucena",
+      "data": "2026-08-25",
+      "obs": "",
+      "criado_em": "2026-08-26 10:42:55",
+      "item": "ÁGUA  PARA INJETÁVEIS 10ML",
+      "usuario": "Assucena"
+    },
     {
       "id": 1059,
       "item_id": 344,
@@ -21658,21 +21673,6 @@
       "obs": "",
       "criado_em": "2026-08-24 11:50:10",
       "item": "Atadura crepon nº 15",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 589,
-      "item_id": 59,
-      "produto_nome": "Ceftriaxona 1g",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 2,
-      "responsavel": "Assucena",
-      "data": "2026-08-17",
-      "obs": "",
-      "criado_em": "2026-08-24 11:49:59",
-      "item": "Ceftriaxona 1g",
       "usuario": "Assucena"
     }
   ]
