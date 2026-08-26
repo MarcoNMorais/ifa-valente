@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "26/08/2026 10:14:07",
+  "atualizado_em": "26/08/2026 10:14:19",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 337,
     "total_almoxarifado": 89230,
-    "total_farmacia": 25404,
-    "total_geral": 114634,
+    "total_farmacia": 25364,
+    "total_geral": 114594,
     "perto_de_terminar": 0,
     "zerados": 11
   },
@@ -755,19 +755,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 80,
+      "farmacia": 40,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 80,
+      "total": 40,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-26 10:13:25",
+      "atualizado_em": "2026-08-26 10:14:19",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -775,7 +775,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 80
+          "quantidade": 40
         }
       ],
       "minimo_manual": 0,
@@ -783,9 +783,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 14,
-      "media_diaria_saida": 1.43,
-      "total_saida_historica": 20,
-      "cobertura_dias": 56.0,
+      "media_diaria_saida": 4.29,
+      "total_saida_historica": 60,
+      "cobertura_dias": 9.3,
       "alerta_estoque": false
     },
     {
@@ -13896,6 +13896,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 1024,
+      "item_id": 191,
+      "produto_nome": "Agulha hipodérmica tam. 23",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 40,
+      "responsavel": "Assucena",
+      "data": "2026-08-25",
+      "obs": "",
+      "criado_em": "2026-08-26 10:14:19",
+      "item": "Agulha hipodérmica tam. 23",
+      "usuario": "Assucena"
+    },
+    {
       "id": 1023,
       "item_id": 99,
       "produto_nome": "Scalp nº 21",
@@ -21378,21 +21393,6 @@
       "obs": "",
       "criado_em": "2026-08-24 11:41:45",
       "item": "Agulha hipodérmica tam. 18",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 553,
-      "item_id": 103,
-      "produto_nome": "Seringa 10ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 60,
-      "responsavel": "Assucena",
-      "data": "2026-08-16",
-      "obs": "",
-      "criado_em": "2026-08-24 11:41:33",
-      "item": "Seringa 10ml",
       "usuario": "Assucena"
     }
   ]
