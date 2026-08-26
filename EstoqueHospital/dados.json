@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "26/08/2026 10:40:42",
+  "atualizado_em": "26/08/2026 10:40:52",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 343,
-    "total_almoxarifado": 87795,
-    "total_farmacia": 24980,
+    "total_almoxarifado": 87730,
+    "total_farmacia": 25045,
     "total_geral": 112775,
     "perto_de_terminar": 0,
     "zerados": 11
@@ -3190,8 +3190,8 @@
       "nome": "CLORETO DE POTÁSSIO 19,1% AMP 10ML",
       "tipo": "Medicamento",
       "unidade": "Unidade",
-      "almoxarifado": 65,
-      "farmacia": 0,
+      "almoxarifado": 0,
+      "farmacia": 65,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -3203,12 +3203,12 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-08-26 10:40:41",
+      "atualizado_em": "2026-08-26 10:40:50",
       "validade_mais_proxima": "2027-08",
       "vencimento_mais_proximo": "2027-08",
       "lotes_validade": [
         {
-          "local": "almoxarifado",
+          "local": "farmacia",
           "validade": "2027-08",
           "lote": "",
           "quantidade": 65
@@ -14136,6 +14136,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 1058,
+      "item_id": 343,
+      "produto_nome": "CLORETO DE POTÁSSIO 19,1% AMP 10ML",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 65,
+      "responsavel": "Assucena",
+      "data": "2026-08-25",
+      "obs": "",
+      "criado_em": "2026-08-26 10:40:50",
+      "item": "CLORETO DE POTÁSSIO 19,1% AMP 10ML",
+      "usuario": "Assucena"
+    },
+    {
       "id": 1057,
       "item_id": 343,
       "produto_nome": "CLORETO DE POTÁSSIO 19,1% AMP 10ML",
@@ -21618,21 +21633,6 @@
       "obs": "",
       "criado_em": "2026-08-24 11:49:49",
       "item": "Luva de látex tam. G",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 587,
-      "item_id": 27,
-      "produto_nome": "Paracetamol 500mg",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 10,
-      "responsavel": "Assucena",
-      "data": "2026-08-17",
-      "obs": "",
-      "criado_em": "2026-08-24 11:49:21",
-      "item": "Paracetamol 500mg",
       "usuario": "Assucena"
     }
   ]
