@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "26/08/2026 10:10:49",
+  "atualizado_em": "26/08/2026 10:11:02",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 337,
     "total_almoxarifado": 89230,
-    "total_farmacia": 25897,
-    "total_geral": 115127,
+    "total_farmacia": 25847,
+    "total_geral": 115077,
     "perto_de_terminar": 0,
     "zerados": 11
   },
@@ -9050,19 +9050,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 190,
+      "farmacia": 140,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 190,
+      "total": 140,
       "minimo": 0,
       "validade": "09/27",
       "lote": "",
       "origem": "Carga Farmácia 227-288",
       "obs": "Importação Farmácia 227-288",
-      "atualizado_em": "2026-08-25 16:12:46",
+      "atualizado_em": "2026-08-26 10:10:58",
       "validade_mais_proxima": "09/27",
       "vencimento_mais_proximo": "09/27",
       "lotes_validade": [
@@ -9070,7 +9070,7 @@
           "local": "farmacia",
           "validade": "09/27",
           "lote": "",
-          "quantidade": 190
+          "quantidade": 140
         }
       ],
       "minimo_manual": 0,
@@ -9078,9 +9078,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 11,
-      "media_diaria_saida": 19.09,
-      "total_saida_historica": 210,
-      "cobertura_dias": 10.0,
+      "media_diaria_saida": 23.64,
+      "total_saida_historica": 260,
+      "cobertura_dias": 5.9,
       "alerta_estoque": false
     },
     {
@@ -13895,6 +13895,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 1009,
+      "item_id": 238,
+      "produto_nome": "Ondansetrona 2mg/ml 2ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 50,
+      "responsavel": "Assucena",
+      "data": "2026-08-25",
+      "obs": "",
+      "criado_em": "2026-08-26 10:10:58",
+      "item": "Ondansetrona 2mg/ml 2ml",
+      "usuario": "Assucena"
+    },
     {
       "id": 1008,
       "item_id": 70,
@@ -21378,21 +21393,6 @@
       "obs": "",
       "criado_em": "2026-08-24 11:38:16",
       "item": "Cetoprofeno EV 100mg",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 538,
-      "item_id": 176,
-      "produto_nome": "Dispositivo intravenoso Gelco nº 24",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 20,
-      "responsavel": "Assucena",
-      "data": "2026-08-16",
-      "obs": "",
-      "criado_em": "2026-08-24 11:37:44",
-      "item": "Dispositivo intravenoso Gelco nº 24",
       "usuario": "Assucena"
     }
   ]
