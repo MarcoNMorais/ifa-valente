@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "26/08/2026 10:16:19",
+  "atualizado_em": "26/08/2026 10:16:28",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 337,
     "total_almoxarifado": 89230,
-    "total_farmacia": 24949,
-    "total_geral": 114179,
+    "total_farmacia": 24929,
+    "total_geral": 114159,
     "perto_de_terminar": 0,
     "zerados": 11
   },
@@ -4020,19 +4020,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 800,
-      "farmacia": 330,
+      "farmacia": 310,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1130,
+      "total": 1110,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-26 10:13:57",
+      "atualizado_em": "2026-08-26 10:16:25",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -4046,7 +4046,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 330
+          "quantidade": 310
         }
       ],
       "minimo_manual": 0,
@@ -4054,9 +4054,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 14,
-      "media_diaria_saida": 9.64,
-      "total_saida_historica": 135,
-      "cobertura_dias": 117.2,
+      "media_diaria_saida": 11.07,
+      "total_saida_historica": 155,
+      "cobertura_dias": 100.3,
       "alerta_estoque": false
     },
     {
@@ -13896,6 +13896,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 1033,
+      "item_id": 176,
+      "produto_nome": "Dispositivo intravenoso Gelco nº 24",
+      "tipo": "Farmácia para Posto de Internamento",
+      "origem": "Farmácia",
+      "destino": "Posto de Internamento",
+      "quantidade": 20,
+      "responsavel": "Assucena",
+      "data": "2026-08-25",
+      "obs": "",
+      "criado_em": "2026-08-26 10:16:25",
+      "item": "Dispositivo intravenoso Gelco nº 24",
+      "usuario": "Assucena"
+    },
+    {
       "id": 1032,
       "item_id": 178,
       "produto_nome": "Dispositivo intravenoso Gelco nº 20",
@@ -21378,21 +21393,6 @@
       "obs": "",
       "criado_em": "2026-08-24 11:44:14",
       "item": "Cetoprofeno EV 100mg",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 562,
-      "item_id": 61,
-      "produto_nome": "Cetoprofeno IM 50mg",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 20,
-      "responsavel": "Assucena",
-      "data": "2026-08-17",
-      "obs": "",
-      "criado_em": "2026-08-24 11:44:02",
-      "item": "Cetoprofeno IM 50mg",
       "usuario": "Assucena"
     }
   ]
