@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "26/08/2026 10:58:02",
+  "atualizado_em": "26/08/2026 10:58:12",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 346,
-    "total_almoxarifado": 88280,
-    "total_farmacia": 26730,
+    "total_almoxarifado": 87730,
+    "total_farmacia": 27280,
     "total_geral": 115010,
     "perto_de_terminar": 0,
     "zerados": 11
@@ -2160,8 +2160,8 @@
       "nome": "Bisturi nº 15",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 1550,
-      "farmacia": 0,
+      "almoxarifado": 1000,
+      "farmacia": 550,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -2173,7 +2173,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-08-26 10:58:01",
+      "atualizado_em": "2026-08-26 10:58:08",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -2181,7 +2181,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 1550
+          "quantidade": 1000
+        },
+        {
+          "local": "farmacia",
+          "validade": "",
+          "lote": "",
+          "quantidade": 550
         }
       ],
       "minimo_manual": 100,
@@ -14268,6 +14274,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 1070,
+      "item_id": 334,
+      "produto_nome": "Bisturi nº 15",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 550,
+      "responsavel": "Assucena",
+      "data": "2026-08-25",
+      "obs": "",
+      "criado_em": "2026-08-26 10:58:08",
+      "item": "Bisturi nº 15",
+      "usuario": "Assucena"
+    },
+    {
       "id": 1069,
       "item_id": 334,
       "produto_nome": "Bisturi nº 15",
@@ -21750,21 +21771,6 @@
       "obs": "",
       "criado_em": "2026-08-20 16:25:46",
       "item": "Metergin",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 417,
-      "item_id": 138,
-      "produto_nome": "Captopril 25mg CPR",
-      "tipo": "Farmácia para Outro destino",
-      "origem": "Farmácia",
-      "destino": "Outro destino",
-      "quantidade": 60,
-      "responsavel": "Leiliana",
-      "data": "2026-08-20",
-      "obs": "",
-      "criado_em": "2026-08-20 16:17:28",
-      "item": "Captopril 25mg CPR",
       "usuario": "Leiliana"
     }
   ]
