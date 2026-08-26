@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "26/08/2026 10:13:58",
+  "atualizado_em": "26/08/2026 10:14:07",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 337,
     "total_almoxarifado": 89230,
-    "total_farmacia": 25414,
-    "total_geral": 114644,
+    "total_farmacia": 25404,
+    "total_geral": 114634,
     "perto_de_terminar": 0,
     "zerados": 11
   },
@@ -9926,19 +9926,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 800,
-      "farmacia": 85,
+      "farmacia": 75,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 885,
+      "total": 875,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-25 16:29:02",
+      "atualizado_em": "2026-08-26 10:14:06",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -9952,7 +9952,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 85
+          "quantidade": 75
         }
       ],
       "minimo_manual": 0,
@@ -9960,9 +9960,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 14,
-      "media_diaria_saida": 4.36,
-      "total_saida_historica": 61,
-      "cobertura_dias": 203.1,
+      "media_diaria_saida": 5.07,
+      "total_saida_historica": 71,
+      "cobertura_dias": 172.5,
       "alerta_estoque": false
     },
     {
@@ -13895,6 +13895,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 1023,
+      "item_id": 99,
+      "produto_nome": "Scalp nº 21",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 10,
+      "responsavel": "Assucena",
+      "data": "2026-08-25",
+      "obs": "",
+      "criado_em": "2026-08-26 10:14:06",
+      "item": "Scalp nº 21",
+      "usuario": "Assucena"
+    },
     {
       "id": 1022,
       "item_id": 176,
@@ -21378,21 +21393,6 @@
       "obs": "",
       "criado_em": "2026-08-24 11:41:33",
       "item": "Seringa 10ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 552,
-      "item_id": 203,
-      "produto_nome": "Soro fisiológico 250ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 20,
-      "responsavel": "Assucena",
-      "data": "2026-08-16",
-      "obs": "",
-      "criado_em": "2026-08-24 11:41:23",
-      "item": "Soro fisiológico 250ml",
       "usuario": "Assucena"
     }
   ]
