@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "26/08/2026 10:11:50",
+  "atualizado_em": "26/08/2026 10:12:00",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 337,
     "total_almoxarifado": 89230,
-    "total_farmacia": 25764,
-    "total_geral": 114994,
+    "total_farmacia": 25744,
+    "total_geral": 114974,
     "perto_de_terminar": 0,
     "zerados": 11
   },
@@ -13348,19 +13348,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 500,
+      "farmacia": 480,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 500,
+      "total": 480,
       "minimo": 0,
       "validade": "12/27",
       "lote": "",
       "origem": "Carga Farmácia 227-288",
       "obs": "Importação Farmácia 227-288",
-      "atualizado_em": "2026-08-25 16:12:46",
+      "atualizado_em": "2026-08-26 10:11:56",
       "validade_mais_proxima": "12/27",
       "vencimento_mais_proximo": "12/27",
       "lotes_validade": [
@@ -13368,7 +13368,7 @@
           "local": "farmacia",
           "validade": "12/27",
           "lote": "",
-          "quantidade": 500
+          "quantidade": 480
         }
       ],
       "minimo_manual": 0,
@@ -13376,9 +13376,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 15.0,
-      "total_saida_historica": 180,
-      "cobertura_dias": 33.3,
+      "media_diaria_saida": 16.67,
+      "total_saida_historica": 200,
+      "cobertura_dias": 28.8,
       "alerta_estoque": false
     },
     {
@@ -13895,6 +13895,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 1015,
+      "item_id": 239,
+      "produto_nome": "Tramadol 50mg/ml 2ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 20,
+      "responsavel": "Assucena",
+      "data": "2026-08-25",
+      "obs": "",
+      "criado_em": "2026-08-26 10:11:56",
+      "item": "Tramadol 50mg/ml 2ml",
+      "usuario": "Assucena"
+    },
     {
       "id": 1014,
       "item_id": 60,
@@ -21378,21 +21393,6 @@
       "obs": "",
       "criado_em": "2026-08-24 11:39:40",
       "item": "Equipo fotossensível",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 544,
-      "item_id": 85,
-      "produto_nome": "Lidocaína Gel",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 1,
-      "responsavel": "Assucena",
-      "data": "2026-08-16",
-      "obs": "",
-      "criado_em": "2026-08-24 11:39:01",
-      "item": "Lidocaína Gel",
       "usuario": "Assucena"
     }
   ]
