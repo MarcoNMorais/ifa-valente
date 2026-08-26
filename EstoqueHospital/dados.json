@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "26/08/2026 10:15:39",
+  "atualizado_em": "26/08/2026 10:15:49",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 337,
     "total_almoxarifado": 89230,
-    "total_farmacia": 25074,
-    "total_geral": 114304,
+    "total_farmacia": 25024,
+    "total_geral": 114254,
     "perto_de_terminar": 0,
     "zerados": 11
   },
@@ -10052,19 +10052,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 2000,
-      "farmacia": 410,
+      "farmacia": 360,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 2410,
+      "total": 2360,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-08-25 16:27:05",
+      "atualizado_em": "2026-08-26 10:15:48",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -10078,7 +10078,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 410
+          "quantidade": 360
         }
       ],
       "minimo_manual": 0,
@@ -10086,9 +10086,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 14,
-      "media_diaria_saida": 79.57,
-      "total_saida_historica": 1114,
-      "cobertura_dias": 30.3,
+      "media_diaria_saida": 83.14,
+      "total_saida_historica": 1164,
+      "cobertura_dias": 28.4,
       "alerta_estoque": false
     },
     {
@@ -13895,6 +13895,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 1029,
+      "item_id": 103,
+      "produto_nome": "Seringa 10ml",
+      "tipo": "Farmácia para Posto de Internamento",
+      "origem": "Farmácia",
+      "destino": "Posto de Internamento",
+      "quantidade": 50,
+      "responsavel": "Assucena",
+      "data": "2026-08-25",
+      "obs": "",
+      "criado_em": "2026-08-26 10:15:48",
+      "item": "Seringa 10ml",
+      "usuario": "Assucena"
+    },
     {
       "id": 1028,
       "item_id": 274,
@@ -21378,21 +21393,6 @@
       "obs": "",
       "criado_em": "2026-08-24 11:42:47",
       "item": "Complexo B",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 558,
-      "item_id": 78,
-      "produto_nome": "Furosemida",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 30,
-      "responsavel": "Assucena",
-      "data": "2026-08-16",
-      "obs": "",
-      "criado_em": "2026-08-24 11:42:38",
-      "item": "Furosemida",
       "usuario": "Assucena"
     }
   ]
