@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "26/08/2026 10:15:49",
+  "atualizado_em": "26/08/2026 10:16:00",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 337,
     "total_almoxarifado": 89230,
-    "total_farmacia": 25024,
-    "total_geral": 114254,
+    "total_farmacia": 25009,
+    "total_geral": 114239,
     "perto_de_terminar": 0,
     "zerados": 11
   },
@@ -10236,19 +10236,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 1500,
-      "farmacia": 370,
+      "farmacia": 355,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1870,
+      "total": 1855,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-08-26 10:10:39",
+      "atualizado_em": "2026-08-26 10:15:57",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -10262,7 +10262,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 370
+          "quantidade": 355
         }
       ],
       "minimo_manual": 0,
@@ -10270,9 +10270,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 14,
-      "media_diaria_saida": 17.5,
-      "total_saida_historica": 245,
-      "cobertura_dias": 106.9,
+      "media_diaria_saida": 18.57,
+      "total_saida_historica": 260,
+      "cobertura_dias": 99.9,
       "alerta_estoque": false
     },
     {
@@ -13895,6 +13895,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 1030,
+      "item_id": 102,
+      "produto_nome": "Seringa 5ml",
+      "tipo": "Farmácia para Posto de Internamento",
+      "origem": "Farmácia",
+      "destino": "Posto de Internamento",
+      "quantidade": 15,
+      "responsavel": "Assucena",
+      "data": "2026-08-25",
+      "obs": "",
+      "criado_em": "2026-08-26 10:15:57",
+      "item": "Seringa 5ml",
+      "usuario": "Assucena"
+    },
     {
       "id": 1029,
       "item_id": 103,
@@ -21378,21 +21393,6 @@
       "obs": "",
       "criado_em": "2026-08-24 11:43:42",
       "item": "Benzilpenicilina 1.200",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 559,
-      "item_id": 66,
-      "produto_nome": "Complexo B",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 10,
-      "responsavel": "Assucena",
-      "data": "2026-08-16",
-      "obs": "",
-      "criado_em": "2026-08-24 11:42:47",
-      "item": "Complexo B",
       "usuario": "Assucena"
     }
   ]
