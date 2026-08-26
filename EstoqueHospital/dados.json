@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "26/08/2026 10:33:07",
+  "atualizado_em": "26/08/2026 10:33:20",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 339,
-    "total_almoxarifado": 87773,
-    "total_farmacia": 24811,
+    "total_almoxarifado": 87730,
+    "total_farmacia": 24854,
     "total_geral": 112584,
     "perto_de_terminar": 0,
     "zerados": 11
@@ -13135,8 +13135,8 @@
       "nome": "SULFATO DE MAGNÉSIO 50% AMP 10ML",
       "tipo": "Medicamento",
       "unidade": "Unidade",
-      "almoxarifado": 43,
-      "farmacia": 0,
+      "almoxarifado": 0,
+      "farmacia": 43,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -13148,18 +13148,18 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-08-26 10:30:24",
+      "atualizado_em": "2026-08-26 10:33:20",
       "validade_mais_proxima": "2026-11",
       "vencimento_mais_proximo": "2026-11",
       "lotes_validade": [
         {
-          "local": "almoxarifado",
+          "local": "farmacia",
           "validade": "2026-11",
           "lote": "",
           "quantidade": 28
         },
         {
-          "local": "almoxarifado",
+          "local": "farmacia",
           "validade": "2027-12",
           "lote": "",
           "quantidade": 15
@@ -13975,6 +13975,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 1050,
+      "item_id": 338,
+      "produto_nome": "SULFATO DE MAGNÉSIO 50% AMP 10ML",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 43,
+      "responsavel": "Assucena",
+      "data": "2026-08-25",
+      "obs": "",
+      "criado_em": "2026-08-26 10:33:20",
+      "item": "SULFATO DE MAGNÉSIO 50% AMP 10ML",
+      "usuario": "Assucena"
+    },
     {
       "id": 1049,
       "item_id": 339,
@@ -21458,21 +21473,6 @@
       "obs": "",
       "criado_em": "2026-08-24 11:48:06",
       "item": "Lanceta de segurança",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 579,
-      "item_id": 87,
-      "produto_nome": "Metronidazol 500mg",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 5,
-      "responsavel": "Assucena",
-      "data": "2026-08-17",
-      "obs": "",
-      "criado_em": "2026-08-24 11:47:54",
-      "item": "Metronidazol 500mg",
       "usuario": "Assucena"
     }
   ]
