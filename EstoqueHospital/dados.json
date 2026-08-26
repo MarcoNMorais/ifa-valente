@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "26/08/2026 11:00:02",
+  "atualizado_em": "26/08/2026 16:50:02",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 349,
     "total_almoxarifado": 87730,
-    "total_farmacia": 27485,
-    "total_geral": 115215,
+    "total_farmacia": 27475,
+    "total_geral": 115205,
     "perto_de_terminar": 0,
     "zerados": 11
   },
@@ -12924,19 +12924,19 @@
       "tipo": "Insumo",
       "unidade": "Unidade",
       "almoxarifado": 1033,
-      "farmacia": 13,
+      "farmacia": 3,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1046,
+      "total": 1036,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-25 16:27:54",
+      "atualizado_em": "2026-08-26 16:50:01",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -12950,7 +12950,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 13
+          "quantidade": 3
         }
       ],
       "minimo_manual": 0,
@@ -12958,9 +12958,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 14,
-      "media_diaria_saida": 8.93,
-      "total_saida_historica": 125,
-      "cobertura_dias": 117.2,
+      "media_diaria_saida": 9.64,
+      "total_saida_historica": 135,
+      "cobertura_dias": 107.4,
       "alerta_estoque": false
     },
     {
@@ -14393,6 +14393,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 1077,
+      "item_id": 204,
+      "produto_nome": "Soro fisiológico 500ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 10,
+      "responsavel": "Leiliana",
+      "data": "2026-08-26",
+      "obs": "",
+      "criado_em": "2026-08-26 16:50:01",
+      "item": "Soro fisiológico 500ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 1076,
       "item_id": 349,
@@ -21876,21 +21891,6 @@
       "obs": "",
       "criado_em": "2026-08-21 10:43:01",
       "item": "Luva cirúrgica tam. 7",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 424,
-      "item_id": 320,
-      "produto_nome": "Acebrofilina 10mg/ml",
-      "tipo": "Almoxarifado para Farmácia",
-      "origem": "Almoxarifado",
-      "destino": "Farmácia",
-      "quantidade": 5,
-      "responsavel": "Assucena",
-      "data": "2026-08-20",
-      "obs": "",
-      "criado_em": "2026-08-21 10:42:42",
-      "item": "Acebrofilina 10mg/ml",
       "usuario": "Assucena"
     }
   ]
