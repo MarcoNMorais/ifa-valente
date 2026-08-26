@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "26/08/2026 10:17:18",
+  "atualizado_em": "26/08/2026 10:17:28",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 337,
     "total_almoxarifado": 89230,
-    "total_farmacia": 24834,
-    "total_geral": 114064,
+    "total_farmacia": 24824,
+    "total_geral": 114054,
     "perto_de_terminar": 0,
     "zerados": 11
   },
@@ -2613,19 +2613,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 101,
+      "farmacia": 91,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 101,
+      "total": 91,
       "minimo": 0,
       "validade": "2028-01",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-25 16:26:23",
+      "atualizado_em": "2026-08-26 10:17:27",
       "validade_mais_proxima": "2028-01",
       "vencimento_mais_proximo": "2028-01",
       "lotes_validade": [
@@ -2633,7 +2633,7 @@
           "local": "farmacia",
           "validade": "2028-01",
           "lote": "",
-          "quantidade": 101
+          "quantidade": 91
         }
       ],
       "minimo_manual": 0,
@@ -2641,9 +2641,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 14,
-      "media_diaria_saida": 16.21,
-      "total_saida_historica": 227,
-      "cobertura_dias": 6.2,
+      "media_diaria_saida": 16.93,
+      "total_saida_historica": 237,
+      "cobertura_dias": 5.4,
       "alerta_estoque": false
     },
     {
@@ -13890,6 +13890,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 1039,
+      "item_id": 59,
+      "produto_nome": "Ceftriaxona 1g",
+      "tipo": "Farmácia para Posto de Internamento",
+      "origem": "Farmácia",
+      "destino": "Posto de Internamento",
+      "quantidade": 10,
+      "responsavel": "Assucena",
+      "data": "2026-08-25",
+      "obs": "",
+      "criado_em": "2026-08-26 10:17:27",
+      "item": "Ceftriaxona 1g",
+      "usuario": "Assucena"
+    },
+    {
       "id": 1038,
       "item_id": 229,
       "produto_nome": "Oxacilina 500mg pó injetável",
@@ -21372,21 +21387,6 @@
       "obs": "",
       "criado_em": "2026-08-24 11:45:36",
       "item": "Dispositivo intravenoso Gelco nº 22",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 568,
-      "item_id": 178,
-      "produto_nome": "Dispositivo intravenoso Gelco nº 20",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 10,
-      "responsavel": "Assucena",
-      "data": "2026-08-17",
-      "obs": "",
-      "criado_em": "2026-08-24 11:45:27",
-      "item": "Dispositivo intravenoso Gelco nº 20",
       "usuario": "Assucena"
     }
   ]
