@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "26/08/2026 10:13:26",
+  "atualizado_em": "26/08/2026 10:13:39",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 337,
     "total_almoxarifado": 89230,
-    "total_farmacia": 25474,
-    "total_geral": 114704,
+    "total_farmacia": 25444,
+    "total_geral": 114674,
     "perto_de_terminar": 0,
     "zerados": 11
   },
@@ -675,19 +675,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 237,
+      "farmacia": 207,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 237,
+      "total": 207,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-25 16:12:46",
+      "atualizado_em": "2026-08-26 10:13:38",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -695,7 +695,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 237
+          "quantidade": 207
         }
       ],
       "minimo_manual": 0,
@@ -703,9 +703,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 14,
-      "media_diaria_saida": 8.57,
-      "total_saida_historica": 120,
-      "cobertura_dias": 27.7,
+      "media_diaria_saida": 10.71,
+      "total_saida_historica": 150,
+      "cobertura_dias": 19.3,
       "alerta_estoque": false
     },
     {
@@ -13896,6 +13896,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 1020,
+      "item_id": 188,
+      "produto_nome": "Agulha hipodérmica tam. 21",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 30,
+      "responsavel": "Assucena",
+      "data": "2026-08-25",
+      "obs": "",
+      "criado_em": "2026-08-26 10:13:38",
+      "item": "Agulha hipodérmica tam. 21",
+      "usuario": "Assucena"
+    },
+    {
       "id": 1019,
       "item_id": 191,
       "produto_nome": "Agulha hipodérmica tam. 23",
@@ -21378,21 +21393,6 @@
       "obs": "",
       "criado_em": "2026-08-24 11:40:51",
       "item": "Lençol descartável papel",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 549,
-      "item_id": 152,
-      "produto_nome": "Atadura crepon nº 10",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 12,
-      "responsavel": "Assucena",
-      "data": "2026-08-16",
-      "obs": "",
-      "criado_em": "2026-08-24 11:40:31",
-      "item": "Atadura crepon nº 10",
       "usuario": "Assucena"
     }
   ]
