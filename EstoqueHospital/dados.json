@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "26/08/2026 10:54:20",
+  "atualizado_em": "26/08/2026 10:54:34",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 345,
-    "total_almoxarifado": 88085,
-    "total_farmacia": 25615,
+    "total_almoxarifado": 87730,
+    "total_farmacia": 25970,
     "total_geral": 113700,
     "perto_de_terminar": 0,
     "zerados": 11
@@ -2080,8 +2080,8 @@
       "nome": "BISTURI N 11",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 355,
-      "farmacia": 0,
+      "almoxarifado": 0,
+      "farmacia": 355,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -2093,12 +2093,12 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-08-26 10:54:20",
+      "atualizado_em": "2026-08-26 10:54:33",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
         {
-          "local": "almoxarifado",
+          "local": "farmacia",
           "validade": "",
           "lote": "",
           "quantidade": 355
@@ -14228,6 +14228,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 1066,
+      "item_id": 345,
+      "produto_nome": "BISTURI N 11",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 355,
+      "responsavel": "Assucena",
+      "data": "2026-08-25",
+      "obs": "",
+      "criado_em": "2026-08-26 10:54:33",
+      "item": "BISTURI N 11",
+      "usuario": "Assucena"
+    },
+    {
       "id": 1065,
       "item_id": 345,
       "produto_nome": "BISTURI N 11",
@@ -21710,21 +21725,6 @@
       "obs": "",
       "criado_em": "2026-08-24 11:52:04",
       "item": "Agulha hipodérmica tam. 22",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 595,
-      "item_id": 188,
-      "produto_nome": "Agulha hipodérmica tam. 21",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 30,
-      "responsavel": "Assucena",
-      "data": "2026-08-17",
-      "obs": "",
-      "criado_em": "2026-08-24 11:51:41",
-      "item": "Agulha hipodérmica tam. 21",
       "usuario": "Assucena"
     }
   ]
