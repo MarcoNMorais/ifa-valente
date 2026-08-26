@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "26/08/2026 16:52:43",
+  "atualizado_em": "26/08/2026 16:53:17",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 349,
     "total_almoxarifado": 87730,
-    "total_farmacia": 27191,
-    "total_geral": 114921,
+    "total_farmacia": 27131,
+    "total_geral": 114861,
     "perto_de_terminar": 0,
     "zerados": 11
   },
@@ -12838,19 +12838,19 @@
       "tipo": "Insumo",
       "unidade": "Unidade",
       "almoxarifado": 960,
-      "farmacia": 60,
+      "farmacia": 0,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1020,
+      "total": 960,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-26 10:16:35",
+      "atualizado_em": "2026-08-26 16:53:17",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -12859,12 +12859,6 @@
           "validade": "",
           "lote": "",
           "quantidade": 960
-        },
-        {
-          "local": "farmacia",
-          "validade": "",
-          "lote": "",
-          "quantidade": 60
         }
       ],
       "minimo_manual": 0,
@@ -12872,9 +12866,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 14,
-      "media_diaria_saida": 38.57,
-      "total_saida_historica": 540,
-      "cobertura_dias": 26.4,
+      "media_diaria_saida": 42.86,
+      "total_saida_historica": 600,
+      "cobertura_dias": 22.4,
       "alerta_estoque": false
     },
     {
@@ -14393,6 +14387,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 1087,
+      "item_id": 202,
+      "produto_nome": "Soro fisiológico 100ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 60,
+      "responsavel": "Leiliana",
+      "data": "2026-08-26",
+      "obs": "",
+      "criado_em": "2026-08-26 16:53:17",
+      "item": "Soro fisiológico 100ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 1086,
       "item_id": 104,
@@ -21876,21 +21885,6 @@
       "obs": "",
       "criado_em": "2026-08-24 11:17:44",
       "item": "Dispositivo intravenoso Gelco nº 22",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 473,
-      "item_id": 102,
-      "produto_nome": "Seringa 5ml",
-      "tipo": "Entrada no Almoxarifado",
-      "origem": "Entrada externa",
-      "destino": "Almoxarifado",
-      "quantidade": 1250,
-      "responsavel": "Assucena",
-      "data": "2026-08-21",
-      "obs": "",
-      "criado_em": "2026-08-24 11:13:30",
-      "item": "Seringa 5ml",
       "usuario": "Assucena"
     }
   ]
