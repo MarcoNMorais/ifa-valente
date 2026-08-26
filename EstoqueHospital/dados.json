@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "26/08/2026 10:38:39",
+  "atualizado_em": "26/08/2026 10:38:48",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 342,
-    "total_almoxarifado": 87791,
-    "total_farmacia": 24919,
+    "total_almoxarifado": 87730,
+    "total_farmacia": 24980,
     "total_geral": 112710,
     "perto_de_terminar": 0,
     "zerados": 11
@@ -3190,8 +3190,8 @@
       "nome": "CLORETO DE SÓDIO 20% AMP 10ML",
       "tipo": "Medicamento",
       "unidade": "Unidade",
-      "almoxarifado": 61,
-      "farmacia": 0,
+      "almoxarifado": 0,
+      "farmacia": 61,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -3203,12 +3203,12 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-08-26 10:38:39",
+      "atualizado_em": "2026-08-26 10:38:46",
       "validade_mais_proxima": "2027-02",
       "vencimento_mais_proximo": "2027-02",
       "lotes_validade": [
         {
-          "local": "almoxarifado",
+          "local": "farmacia",
           "validade": "2027-02",
           "lote": "",
           "quantidade": 61
@@ -14096,6 +14096,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 1056,
+      "item_id": 342,
+      "produto_nome": "CLORETO DE SÓDIO 20% AMP 10ML",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 61,
+      "responsavel": "Assucena",
+      "data": "2026-08-25",
+      "obs": "",
+      "criado_em": "2026-08-26 10:38:46",
+      "item": "CLORETO DE SÓDIO 20% AMP 10ML",
+      "usuario": "Assucena"
+    },
+    {
       "id": 1055,
       "item_id": 342,
       "produto_nome": "CLORETO DE SÓDIO 20% AMP 10ML",
@@ -21578,21 +21593,6 @@
       "obs": "",
       "criado_em": "2026-08-24 11:49:11",
       "item": "Ceftriaxona 1g",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 585,
-      "item_id": 229,
-      "produto_nome": "Oxacilina 500mg pó injetável",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 10,
-      "responsavel": "Assucena",
-      "data": "2026-08-17",
-      "obs": "",
-      "criado_em": "2026-08-24 11:49:03",
-      "item": "Oxacilina 500mg pó injetável",
       "usuario": "Assucena"
     }
   ]
