@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "26/08/2026 10:54:10",
+  "atualizado_em": "26/08/2026 10:54:20",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
-    "itens": 344,
-    "total_almoxarifado": 87730,
+    "itens": 345,
+    "total_almoxarifado": 88085,
     "total_farmacia": 25615,
-    "total_geral": 113345,
+    "total_geral": 113700,
     "perto_de_terminar": 0,
     "zerados": 11
   },
@@ -2067,6 +2067,46 @@
       "minimo_manual": 0,
       "minimo_alerta": 0,
       "previsao_20_dias": 0,
+      "criterio_alerta": "estoque_minimo_manual_inicio",
+      "dias_historico": 2,
+      "media_diaria_saida": 0.0,
+      "total_saida_historica": 0,
+      "cobertura_dias": null,
+      "alerta_estoque": false
+    },
+    {
+      "id": 345,
+      "produto_id": 345,
+      "nome": "BISTURI N 11",
+      "tipo": "Material",
+      "unidade": "Unidade",
+      "almoxarifado": 355,
+      "farmacia": 0,
+      "sala_medicacoes": 0,
+      "internamento": 0,
+      "sala_cirurgica": 0,
+      "baixa": 0,
+      "outro": 0,
+      "total": 355,
+      "minimo": 100,
+      "validade": "",
+      "lote": "",
+      "origem": "Entrada externa",
+      "obs": "",
+      "atualizado_em": "2026-08-26 10:54:20",
+      "validade_mais_proxima": "",
+      "vencimento_mais_proximo": "",
+      "lotes_validade": [
+        {
+          "local": "almoxarifado",
+          "validade": "",
+          "lote": "",
+          "quantidade": 355
+        }
+      ],
+      "minimo_manual": 100,
+      "minimo_alerta": 100,
+      "previsao_20_dias": 100,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 2,
       "media_diaria_saida": 0.0,
@@ -14188,6 +14228,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 1065,
+      "item_id": 345,
+      "produto_nome": "BISTURI N 11",
+      "tipo": "Entrada no Almoxarifado",
+      "origem": "Entrada externa",
+      "destino": "Almoxarifado",
+      "quantidade": 355,
+      "responsavel": "Assucena",
+      "data": "2026-08-25",
+      "obs": "",
+      "criado_em": "2026-08-26 10:54:20",
+      "item": "BISTURI N 11",
+      "usuario": "Assucena"
+    },
+    {
       "id": 1064,
       "item_id": 335,
       "produto_nome": "Bisturi nº 23",
@@ -21670,21 +21725,6 @@
       "obs": "",
       "criado_em": "2026-08-24 11:51:41",
       "item": "Agulha hipodérmica tam. 21",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 594,
-      "item_id": 189,
-      "produto_nome": "Agulha hipodérmica tam. 22",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 30,
-      "responsavel": "Assucena",
-      "data": "2026-08-17",
-      "obs": "",
-      "criado_em": "2026-08-24 11:51:26",
-      "item": "Agulha hipodérmica tam. 22",
       "usuario": "Assucena"
     }
   ]
