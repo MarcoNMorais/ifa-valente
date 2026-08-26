@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "26/08/2026 10:10:11",
+  "atualizado_em": "26/08/2026 10:10:20",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 337,
     "total_almoxarifado": 89230,
-    "total_farmacia": 25997,
-    "total_geral": 115227,
+    "total_farmacia": 25987,
+    "total_geral": 115217,
     "perto_de_terminar": 0,
     "zerados": 11
   },
@@ -12690,19 +12690,19 @@
       "tipo": "Insumo",
       "unidade": "Unidade",
       "almoxarifado": 216,
-      "farmacia": 83,
+      "farmacia": 73,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 299,
+      "total": 289,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-25 16:12:46",
+      "atualizado_em": "2026-08-26 10:10:19",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -12716,7 +12716,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 83
+          "quantidade": 73
         }
       ],
       "minimo_manual": 0,
@@ -12724,9 +12724,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 14,
-      "media_diaria_saida": 6.07,
-      "total_saida_historica": 85,
-      "cobertura_dias": 49.2,
+      "media_diaria_saida": 6.79,
+      "total_saida_historica": 95,
+      "cobertura_dias": 42.6,
       "alerta_estoque": false
     },
     {
@@ -13895,6 +13895,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 1005,
+      "item_id": 201,
+      "produto_nome": "Soro Ringer Lactato 500ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 10,
+      "responsavel": "Assucena",
+      "data": "2026-08-25",
+      "obs": "",
+      "criado_em": "2026-08-26 10:10:19",
+      "item": "Soro Ringer Lactato 500ml",
+      "usuario": "Assucena"
+    },
     {
       "id": 1004,
       "item_id": 115,
@@ -21378,21 +21393,6 @@
       "obs": "",
       "criado_em": "2026-08-24 11:33:50",
       "item": "Caixa de perfurocortante",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 529,
-      "item_id": 239,
-      "produto_nome": "Tramadol 50mg/ml 2ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 10,
-      "responsavel": "Assucena",
-      "data": "2026-08-15",
-      "obs": "",
-      "criado_em": "2026-08-24 11:33:40",
-      "item": "Tramadol 50mg/ml 2ml",
       "usuario": "Assucena"
     }
   ]
