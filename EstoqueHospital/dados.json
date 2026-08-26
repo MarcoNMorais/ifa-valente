@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "26/08/2026 10:11:11",
+  "atualizado_em": "26/08/2026 10:11:21",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 337,
     "total_almoxarifado": 89230,
-    "total_farmacia": 25807,
-    "total_geral": 115037,
+    "total_farmacia": 25787,
+    "total_geral": 115017,
     "perto_de_terminar": 0,
     "zerados": 11
   },
@@ -13694,19 +13694,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 510,
+      "farmacia": 490,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 510,
+      "total": 490,
       "minimo": 0,
       "validade": "2027-05",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-25 16:12:46",
+      "atualizado_em": "2026-08-26 10:11:17",
       "validade_mais_proxima": "2027-05",
       "vencimento_mais_proximo": "2027-05",
       "lotes_validade": [
@@ -13720,7 +13720,7 @@
           "local": "farmacia",
           "validade": "2027-11",
           "lote": "",
-          "quantidade": 210
+          "quantidade": 190
         }
       ],
       "minimo_manual": 0,
@@ -13728,9 +13728,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 14,
-      "media_diaria_saida": 2.14,
-      "total_saida_historica": 30,
-      "cobertura_dias": 238.0,
+      "media_diaria_saida": 3.57,
+      "total_saida_historica": 50,
+      "cobertura_dias": 137.2,
       "alerta_estoque": false
     },
     {
@@ -13895,6 +13895,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 1011,
+      "item_id": 53,
+      "produto_nome": "Ácido Tranexâmico 50mg",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 20,
+      "responsavel": "Assucena",
+      "data": "2026-08-25",
+      "obs": "",
+      "criado_em": "2026-08-26 10:11:17",
+      "item": "Ácido Tranexâmico 50mg",
+      "usuario": "Assucena"
+    },
     {
       "id": 1010,
       "item_id": 62,
@@ -21378,21 +21393,6 @@
       "obs": "",
       "criado_em": "2026-08-24 11:38:34",
       "item": "Diclofenaco 25mg",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 540,
-      "item_id": 238,
-      "produto_nome": "Ondansetrona 2mg/ml 2ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 40,
-      "responsavel": "Assucena",
-      "data": "2026-08-16",
-      "obs": "",
-      "criado_em": "2026-08-24 11:38:25",
-      "item": "Ondansetrona 2mg/ml 2ml",
       "usuario": "Assucena"
     }
   ]
