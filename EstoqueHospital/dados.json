@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "26/08/2026 10:10:01",
+  "atualizado_em": "26/08/2026 10:10:11",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 337,
     "total_almoxarifado": 89230,
-    "total_farmacia": 26027,
-    "total_geral": 115257,
+    "total_farmacia": 25997,
+    "total_geral": 115227,
     "perto_de_terminar": 0,
     "zerados": 11
   },
@@ -7198,19 +7198,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 90,
+      "farmacia": 60,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 90,
+      "total": 60,
       "minimo": 0,
       "validade": "2028-03",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-25 16:12:46",
+      "atualizado_em": "2026-08-26 10:10:09",
       "validade_mais_proxima": "2028-03",
       "vencimento_mais_proximo": "2028-03",
       "lotes_validade": [
@@ -7219,12 +7219,6 @@
           "validade": "2028-03",
           "lote": "",
           "quantidade": 60
-        },
-        {
-          "local": "farmacia",
-          "validade": "2028-06",
-          "lote": "",
-          "quantidade": 30
         }
       ],
       "minimo_manual": 0,
@@ -7232,9 +7226,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 14,
-      "media_diaria_saida": 2.14,
-      "total_saida_historica": 30,
-      "cobertura_dias": 42.0,
+      "media_diaria_saida": 4.29,
+      "total_saida_historica": 60,
+      "cobertura_dias": 14.0,
       "alerta_estoque": false
     },
     {
@@ -13901,6 +13895,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 1004,
+      "item_id": 115,
+      "produto_nome": "Losartana potássica 50mg CPR",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 30,
+      "responsavel": "Assucena",
+      "data": "2026-08-25",
+      "obs": "",
+      "criado_em": "2026-08-26 10:10:09",
+      "item": "Losartana potássica 50mg CPR",
+      "usuario": "Assucena"
+    },
     {
       "id": 1003,
       "item_id": 38,
@@ -21384,21 +21393,6 @@
       "obs": "",
       "criado_em": "2026-08-24 11:33:40",
       "item": "Tramadol 50mg/ml 2ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 528,
-      "item_id": 203,
-      "produto_nome": "Soro fisiológico 250ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 5,
-      "responsavel": "Assucena",
-      "data": "2026-08-15",
-      "obs": "",
-      "criado_em": "2026-08-24 11:33:15",
-      "item": "Soro fisiológico 250ml",
       "usuario": "Assucena"
     }
   ]
