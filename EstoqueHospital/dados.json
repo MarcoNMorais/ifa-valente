@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "26/08/2026 10:36:55",
+  "atualizado_em": "26/08/2026 10:37:04",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 341,
-    "total_almoxarifado": 87760,
-    "total_farmacia": 24889,
+    "total_almoxarifado": 87730,
+    "total_farmacia": 24919,
     "total_geral": 112649,
     "perto_de_terminar": 0,
     "zerados": 11
@@ -6248,8 +6248,8 @@
       "nome": "GLUCONATO DE CÁLCIO 10%",
       "tipo": "Medicamento",
       "unidade": "Unidade",
-      "almoxarifado": 30,
-      "farmacia": 0,
+      "almoxarifado": 0,
+      "farmacia": 30,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -6261,12 +6261,12 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-08-26 10:36:53",
+      "atualizado_em": "2026-08-26 10:37:01",
       "validade_mais_proxima": "2026-12",
       "vencimento_mais_proximo": "2026-12",
       "lotes_validade": [
         {
-          "local": "almoxarifado",
+          "local": "farmacia",
           "validade": "2026-12",
           "lote": "",
           "quantidade": 30
@@ -14056,6 +14056,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 1054,
+      "item_id": 341,
+      "produto_nome": "GLUCONATO DE CÁLCIO 10%",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 30,
+      "responsavel": "Assucena",
+      "data": "2026-08-25",
+      "obs": "",
+      "criado_em": "2026-08-26 10:37:01",
+      "item": "GLUCONATO DE CÁLCIO 10%",
+      "usuario": "Assucena"
+    },
+    {
       "id": 1053,
       "item_id": 341,
       "produto_nome": "GLUCONATO DE CÁLCIO 10%",
@@ -21538,21 +21553,6 @@
       "obs": "",
       "criado_em": "2026-08-24 11:48:52",
       "item": "Clonazepam gotas 25mg/ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 583,
-      "item_id": 70,
-      "produto_nome": "Dipirona",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 40,
-      "responsavel": "Assucena",
-      "data": "2026-08-17",
-      "obs": "",
-      "criado_em": "2026-08-24 11:48:40",
-      "item": "Dipirona",
       "usuario": "Assucena"
     }
   ]
