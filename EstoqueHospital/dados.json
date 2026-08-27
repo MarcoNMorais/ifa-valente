@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "27/08/2026 16:28:52",
+  "atualizado_em": "27/08/2026 16:29:05",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
     "total_almoxarifado": 87814,
-    "total_farmacia": 26954,
-    "total_geral": 114768,
+    "total_farmacia": 26944,
+    "total_geral": 114758,
     "perto_de_terminar": 0,
     "zerados": 11
   },
@@ -13948,19 +13948,19 @@
       "tipo": "Insumo",
       "unidade": "Unidade",
       "almoxarifado": 1009,
-      "farmacia": 21,
+      "farmacia": 11,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1030,
+      "total": 1020,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-27 11:03:33",
+      "atualizado_em": "2026-08-27 16:29:05",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -13974,7 +13974,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 21
+          "quantidade": 11
         }
       ],
       "minimo_manual": 0,
@@ -13982,9 +13982,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 15,
-      "media_diaria_saida": 9.4,
-      "total_saida_historica": 141,
-      "cobertura_dias": 109.6,
+      "media_diaria_saida": 10.07,
+      "total_saida_historica": 151,
+      "cobertura_dias": 101.3,
       "alerta_estoque": false
     },
     {
@@ -15497,6 +15497,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 1201,
+      "item_id": 204,
+      "produto_nome": "Soro fisiológico 500ml",
+      "tipo": "Farmácia para Outro destino",
+      "origem": "Farmácia",
+      "destino": "Outro destino",
+      "quantidade": 10,
+      "responsavel": "Assucena",
+      "data": "2026-08-26",
+      "obs": "",
+      "criado_em": "2026-08-27 16:29:05",
+      "item": "Soro fisiológico 500ml",
+      "usuario": "Assucena"
+    },
     {
       "id": 1200,
       "item_id": 200,
@@ -22980,21 +22995,6 @@
       "obs": "",
       "criado_em": "2026-08-24 14:50:35",
       "item": "Luva de látex tam. M",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 701,
-      "item_id": 155,
-      "produto_nome": "Bolsa coletora",
-      "tipo": "Farmácia para Outro destino",
-      "origem": "Farmácia",
-      "destino": "Outro destino",
-      "quantidade": 3,
-      "responsavel": "Leiliana",
-      "data": "2026-08-24",
-      "obs": "",
-      "criado_em": "2026-08-24 14:49:37",
-      "item": "Bolsa coletora",
       "usuario": "Leiliana"
     }
   ]
