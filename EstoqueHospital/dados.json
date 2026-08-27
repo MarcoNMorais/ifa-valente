@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "27/08/2026 11:29:22",
+  "atualizado_em": "27/08/2026 11:29:32",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 360,
-    "total_almoxarifado": 87794,
-    "total_farmacia": 26685,
+    "total_almoxarifado": 87746,
+    "total_farmacia": 26733,
     "total_geral": 114479,
     "perto_de_terminar": 0,
     "zerados": 11
@@ -348,8 +348,8 @@
       "nome": "Agulha 13x4,5",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 1546,
-      "farmacia": 354,
+      "almoxarifado": 1498,
+      "farmacia": 402,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -361,7 +361,7 @@
       "lote": "",
       "origem": "Carga Almoxerifado",
       "obs": "Importação Almoxerifado",
-      "atualizado_em": "2026-08-25 16:12:46",
+      "atualizado_em": "2026-08-27 11:29:22",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -369,13 +369,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 1546
+          "quantidade": 1498
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 354
+          "quantidade": 402
         }
       ],
       "minimo_manual": 0,
@@ -14852,6 +14852,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 1163,
+      "item_id": 287,
+      "produto_nome": "Agulha 13x4,5",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 48,
+      "responsavel": "Assucena",
+      "data": "2026-08-26",
+      "obs": "",
+      "criado_em": "2026-08-27 11:29:22",
+      "item": "Agulha 13x4,5",
+      "usuario": "Assucena"
+    },
+    {
       "id": 1162,
       "item_id": 360,
       "produto_nome": "ATDURA ALGODÃO 10 CM",
@@ -22334,21 +22349,6 @@
       "obs": "",
       "criado_em": "2026-08-24 14:33:51",
       "item": "Fentanila 50mcg/ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 663,
-      "item_id": 89,
-      "produto_nome": "Hemitartarato de Norepinefrina",
-      "tipo": "Farmácia para Outro destino",
-      "origem": "Farmácia",
-      "destino": "Outro destino",
-      "quantidade": 5,
-      "responsavel": "Leiliana",
-      "data": "2026-08-24",
-      "obs": "",
-      "criado_em": "2026-08-24 14:33:35",
-      "item": "Hemitartarato de Norepinefrina",
       "usuario": "Leiliana"
     }
   ]
