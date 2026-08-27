@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "27/08/2026 11:00:12",
+  "atualizado_em": "27/08/2026 11:00:22",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 349,
     "total_almoxarifado": 87786,
-    "total_farmacia": 27263,
-    "total_geral": 115049,
+    "total_farmacia": 27253,
+    "total_geral": 115039,
     "perto_de_terminar": 0,
     "zerados": 11
   },
@@ -14204,19 +14204,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 245,
+      "farmacia": 235,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 245,
+      "total": 235,
       "minimo": 100,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-08-26 10:42:55",
+      "atualizado_em": "2026-08-27 11:00:20",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -14224,7 +14224,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 245
+          "quantidade": 235
         }
       ],
       "minimo_manual": 100,
@@ -14232,9 +14232,9 @@
       "previsao_20_dias": 100,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 3,
-      "media_diaria_saida": 0.0,
-      "total_saida_historica": 0,
-      "cobertura_dias": null,
+      "media_diaria_saida": 3.33,
+      "total_saida_historica": 10,
+      "cobertura_dias": 70.5,
       "alerta_estoque": false
     },
     {
@@ -14399,6 +14399,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 1104,
+      "item_id": 344,
+      "produto_nome": "ÁGUA  PARA INJETÁVEIS 10ML",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 10,
+      "responsavel": "Assucena",
+      "data": "2026-08-26",
+      "obs": "",
+      "criado_em": "2026-08-27 11:00:20",
+      "item": "ÁGUA  PARA INJETÁVEIS 10ML",
+      "usuario": "Assucena"
+    },
     {
       "id": 1103,
       "item_id": 52,
@@ -21882,21 +21897,6 @@
       "obs": "",
       "criado_em": "2026-08-24 13:51:10",
       "item": "Captopril 25mg CPR",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 604,
-      "item_id": 175,
-      "produto_nome": "Fita cirúrgica microporosa",
-      "tipo": "Farmácia para Outro destino",
-      "origem": "Farmácia",
-      "destino": "Outro destino",
-      "quantidade": 1,
-      "responsavel": "Leiliana",
-      "data": "2026-08-24",
-      "obs": "",
-      "criado_em": "2026-08-24 13:50:45",
-      "item": "Fita cirúrgica microporosa",
       "usuario": "Leiliana"
     }
   ]
