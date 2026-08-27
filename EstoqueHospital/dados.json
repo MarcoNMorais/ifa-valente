@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "27/08/2026 11:00:46",
+  "atualizado_em": "27/08/2026 11:00:55",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 349,
     "total_almoxarifado": 87786,
-    "total_farmacia": 27028,
-    "total_geral": 114814,
+    "total_farmacia": 26828,
+    "total_geral": 114614,
     "perto_de_terminar": 0,
     "zerados": 11
   },
@@ -7822,19 +7822,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 286,
+      "farmacia": 86,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 286,
+      "total": 86,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-26 10:15:19",
+      "atualizado_em": "2026-08-27 11:00:54",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -7842,7 +7842,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 286
+          "quantidade": 86
         }
       ],
       "minimo_manual": 0,
@@ -7850,9 +7850,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 15,
-      "media_diaria_saida": 40.93,
-      "total_saida_historica": 614,
-      "cobertura_dias": 7.0,
+      "media_diaria_saida": 54.27,
+      "total_saida_historica": 814,
+      "cobertura_dias": 1.6,
       "alerta_estoque": false
     },
     {
@@ -14399,6 +14399,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 1107,
+      "item_id": 180,
+      "produto_nome": "Luva de látex tam. P",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 200,
+      "responsavel": "Assucena",
+      "data": "2026-08-26",
+      "obs": "",
+      "criado_em": "2026-08-27 11:00:54",
+      "item": "Luva de látex tam. P",
+      "usuario": "Assucena"
+    },
     {
       "id": 1106,
       "item_id": 181,
@@ -21881,21 +21896,6 @@
       "data": "2026-08-24",
       "obs": "",
       "criado_em": "2026-08-24 13:59:54",
-      "item": "Soro fisiológico 250ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 607,
-      "item_id": 203,
-      "produto_nome": "Soro fisiológico 250ml",
-      "tipo": "Farmácia para Outro destino",
-      "origem": "Farmácia",
-      "destino": "Outro destino",
-      "quantidade": 10,
-      "responsavel": "Leiliana",
-      "data": "2026-08-24",
-      "obs": "",
-      "criado_em": "2026-08-24 13:51:39",
       "item": "Soro fisiológico 250ml",
       "usuario": "Leiliana"
     }
