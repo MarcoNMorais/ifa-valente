@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "27/08/2026 11:44:45",
+  "atualizado_em": "27/08/2026 11:44:58",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 374,
-    "total_almoxarifado": 87755,
-    "total_farmacia": 26935,
+    "total_almoxarifado": 87746,
+    "total_farmacia": 26944,
     "total_geral": 114690,
     "perto_de_terminar": 0,
     "zerados": 11
@@ -5578,8 +5578,8 @@
       "nome": "ESPECULO TAM P",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 9,
-      "farmacia": 0,
+      "almoxarifado": 0,
+      "farmacia": 9,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -5591,12 +5591,12 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-08-27 11:44:39",
+      "atualizado_em": "2026-08-27 11:44:46",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
         {
-          "local": "almoxarifado",
+          "local": "farmacia",
           "validade": "",
           "lote": "",
           "quantidade": 9
@@ -15412,6 +15412,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 1191,
+      "item_id": 374,
+      "produto_nome": "ESPECULO TAM P",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 9,
+      "responsavel": "Assucena",
+      "data": "2026-08-26",
+      "obs": "",
+      "criado_em": "2026-08-27 11:44:46",
+      "item": "ESPECULO TAM P",
+      "usuario": "Assucena"
+    },
+    {
       "id": 1190,
       "item_id": 374,
       "produto_nome": "ESPECULO TAM P",
@@ -22894,21 +22909,6 @@
       "obs": "",
       "criado_em": "2026-08-24 14:45:28",
       "item": "Paracetamol gotas",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 691,
-      "item_id": 258,
-      "produto_nome": "Dipirona gotas",
-      "tipo": "Farmácia para Outro destino",
-      "origem": "Farmácia",
-      "destino": "Outro destino",
-      "quantidade": 1,
-      "responsavel": "Leiliana",
-      "data": "2026-08-24",
-      "obs": "",
-      "criado_em": "2026-08-24 14:45:15",
-      "item": "Dipirona gotas",
       "usuario": "Leiliana"
     }
   ]
