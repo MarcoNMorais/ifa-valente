@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "27/08/2026 11:01:29",
+  "atualizado_em": "27/08/2026 11:01:50",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 349,
-    "total_almoxarifado": 87766,
-    "total_farmacia": 26845,
+    "total_almoxarifado": 87746,
+    "total_farmacia": 26865,
     "total_geral": 114611,
     "perto_de_terminar": 0,
     "zerados": 11
@@ -2618,8 +2618,8 @@
       "nome": "Cateter tipo óculos adulto",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 210,
-      "farmacia": 0,
+      "almoxarifado": 190,
+      "farmacia": 20,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -2631,7 +2631,7 @@
       "lote": "",
       "origem": "Carga Almoxerifado",
       "obs": "Importação Almoxerifado",
-      "atualizado_em": "2026-08-25 16:12:46",
+      "atualizado_em": "2026-08-27 11:01:50",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -2639,7 +2639,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 210
+          "quantidade": 190
+        },
+        {
+          "local": "farmacia",
+          "validade": "",
+          "lote": "",
+          "quantidade": 20
         }
       ],
       "minimo_manual": 0,
@@ -14406,6 +14412,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 1110,
+      "item_id": 291,
+      "produto_nome": "Cateter tipo óculos adulto",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 20,
+      "responsavel": "Assucena",
+      "data": "2026-08-26",
+      "obs": "",
+      "criado_em": "2026-08-27 11:01:50",
+      "item": "Cateter tipo óculos adulto",
+      "usuario": "Assucena"
+    },
+    {
       "id": 1109,
       "item_id": 276,
       "produto_nome": "Esparadrapo 10x4,5",
@@ -21888,21 +21909,6 @@
       "obs": "",
       "criado_em": "2026-08-24 14:01:58",
       "item": "Sinvastatina 20mg CPR",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 610,
-      "item_id": 243,
-      "produto_nome": "Ambroxol 15mg/5ml",
-      "tipo": "Farmácia para Outro destino",
-      "origem": "Farmácia",
-      "destino": "Outro destino",
-      "quantidade": 1,
-      "responsavel": "Leiliana",
-      "data": "2026-08-24",
-      "obs": "",
-      "criado_em": "2026-08-24 14:01:36",
-      "item": "Ambroxol 15mg/5ml",
       "usuario": "Leiliana"
     }
   ]
