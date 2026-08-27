@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "27/08/2026 11:21:11",
+  "atualizado_em": "27/08/2026 11:21:21",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 354,
-    "total_almoxarifado": 87748,
-    "total_farmacia": 26452,
+    "total_almoxarifado": 87746,
+    "total_farmacia": 26454,
     "total_geral": 114200,
     "perto_de_terminar": 0,
     "zerados": 11
@@ -2418,8 +2418,8 @@
       "nome": "BOLSA PARA COLOSTOMIA",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 2,
-      "farmacia": 0,
+      "almoxarifado": 0,
+      "farmacia": 2,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -2431,12 +2431,12 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-08-27 11:21:05",
+      "atualizado_em": "2026-08-27 11:21:13",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
         {
-          "local": "almoxarifado",
+          "local": "farmacia",
           "validade": "",
           "lote": "",
           "quantidade": 2
@@ -14612,6 +14612,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 1149,
+      "item_id": 354,
+      "produto_nome": "BOLSA PARA COLOSTOMIA",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 2,
+      "responsavel": "Assucena",
+      "data": "2026-08-26",
+      "obs": "",
+      "criado_em": "2026-08-27 11:21:13",
+      "item": "BOLSA PARA COLOSTOMIA",
+      "usuario": "Assucena"
+    },
+    {
       "id": 1148,
       "item_id": 354,
       "produto_nome": "BOLSA PARA COLOSTOMIA",
@@ -22094,21 +22109,6 @@
       "obs": "",
       "criado_em": "2026-08-24 14:25:20",
       "item": "Simeticona gotas",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 649,
-      "item_id": 11,
-      "produto_nome": "Midazolam 5mg/ml 10ml",
-      "tipo": "Farmácia para Outro destino",
-      "origem": "Farmácia",
-      "destino": "Outro destino",
-      "quantidade": 4,
-      "responsavel": "Leiliana",
-      "data": "2026-08-24",
-      "obs": "",
-      "criado_em": "2026-08-24 14:24:32",
-      "item": "Midazolam 5mg/ml 10ml",
       "usuario": "Leiliana"
     }
   ]
