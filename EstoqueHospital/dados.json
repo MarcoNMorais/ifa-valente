@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "27/08/2026 16:29:32",
+  "atualizado_em": "27/08/2026 16:29:53",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
     "total_almoxarifado": 87814,
-    "total_farmacia": 26916,
-    "total_geral": 114730,
+    "total_farmacia": 26914,
+    "total_geral": 114728,
     "perto_de_terminar": 0,
     "zerados": 11
   },
@@ -183,19 +183,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 6,
+      "farmacia": 4,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 6,
+      "total": 4,
       "minimo": 0,
       "validade": "03/28",
       "lote": "",
       "origem": "Carga Farmácia 227-288",
       "obs": "Importação Farmácia 227-288",
-      "atualizado_em": "2026-08-25 16:12:46",
+      "atualizado_em": "2026-08-27 16:29:52",
       "validade_mais_proxima": "03/28",
       "vencimento_mais_proximo": "03/28",
       "lotes_validade": [
@@ -203,7 +203,7 @@
           "local": "farmacia",
           "validade": "03/28",
           "lote": "",
-          "quantidade": 6
+          "quantidade": 4
         }
       ],
       "minimo_manual": 0,
@@ -211,9 +211,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 14,
-      "media_diaria_saida": 0.14,
-      "total_saida_historica": 2,
-      "cobertura_dias": 42.0,
+      "media_diaria_saida": 0.29,
+      "total_saida_historica": 4,
+      "cobertura_dias": 14.0,
       "alerta_estoque": false
     },
     {
@@ -15498,6 +15498,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 1204,
+      "item_id": 248,
+      "produto_nome": "Acetilcisteína 2mg/ml",
+      "tipo": "Farmácia para Outro destino",
+      "origem": "Farmácia",
+      "destino": "Outro destino",
+      "quantidade": 2,
+      "responsavel": "Assucena",
+      "data": "2026-08-26",
+      "obs": "",
+      "criado_em": "2026-08-27 16:29:52",
+      "item": "Acetilcisteína 2mg/ml",
+      "usuario": "Assucena"
+    },
+    {
       "id": 1203,
       "item_id": 27,
       "produto_nome": "Paracetamol 500mg",
@@ -22980,21 +22995,6 @@
       "obs": "",
       "criado_em": "2026-08-24 14:54:09",
       "item": "Seringa 10ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 704,
-      "item_id": 155,
-      "produto_nome": "Bolsa coletora",
-      "tipo": "Farmácia para Outro destino",
-      "origem": "Farmácia",
-      "destino": "Outro destino",
-      "quantidade": 3,
-      "responsavel": "Leiliana",
-      "data": "2026-08-24",
-      "obs": "",
-      "criado_em": "2026-08-24 14:52:11",
-      "item": "Bolsa coletora",
       "usuario": "Leiliana"
     }
   ]
