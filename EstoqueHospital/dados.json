@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "27/08/2026 16:27:48",
+  "atualizado_em": "27/08/2026 16:28:02",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
     "total_almoxarifado": 87814,
-    "total_farmacia": 26983,
-    "total_geral": 114797,
+    "total_farmacia": 26981,
+    "total_geral": 114795,
     "perto_de_terminar": 0,
     "zerados": 11
   },
@@ -8229,19 +8229,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 84,
-      "farmacia": 16,
+      "farmacia": 14,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 100,
+      "total": 98,
       "minimo": 50,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-08-27 16:27:48",
+      "atualizado_em": "2026-08-27 16:28:01",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -8255,7 +8255,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 16
+          "quantidade": 14
         }
       ],
       "minimo_manual": 50,
@@ -8263,9 +8263,9 @@
       "previsao_20_dias": 50,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 2,
-      "media_diaria_saida": 0.0,
-      "total_saida_historica": 0,
-      "cobertura_dias": null,
+      "media_diaria_saida": 1.0,
+      "total_saida_historica": 2,
+      "cobertura_dias": 98.0,
       "alerta_estoque": false
     },
     {
@@ -15497,6 +15497,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 1197,
+      "item_id": 376,
+      "produto_nome": "LENÇOL DESCARTAVEL PAPEL",
+      "tipo": "Farmácia para Outro destino",
+      "origem": "Farmácia",
+      "destino": "Outro destino",
+      "quantidade": 2,
+      "responsavel": "Assucena",
+      "data": "2026-08-26",
+      "obs": "",
+      "criado_em": "2026-08-27 16:28:01",
+      "item": "LENÇOL DESCARTAVEL PAPEL",
+      "usuario": "Assucena"
+    },
     {
       "id": 1196,
       "item_id": 376,
@@ -22980,21 +22995,6 @@
       "obs": "",
       "criado_em": "2026-08-24 14:48:44",
       "item": "Atadura crepon nº 10",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 697,
-      "item_id": 104,
-      "produto_nome": "Seringa 3ml",
-      "tipo": "Farmácia para Outro destino",
-      "origem": "Farmácia",
-      "destino": "Outro destino",
-      "quantidade": 20,
-      "responsavel": "Leiliana",
-      "data": "2026-08-24",
-      "obs": "",
-      "criado_em": "2026-08-24 14:47:03",
-      "item": "Seringa 3ml",
       "usuario": "Leiliana"
     }
   ]
