@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "27/08/2026 11:37:59",
+  "atualizado_em": "27/08/2026 11:38:09",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 367,
-    "total_almoxarifado": 87749,
-    "total_farmacia": 26902,
+    "total_almoxarifado": 87746,
+    "total_farmacia": 26905,
     "total_geral": 114651,
     "perto_de_terminar": 0,
     "zerados": 11
@@ -7690,8 +7690,8 @@
       "nome": "IODOPOVIDONA 1L",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 3,
-      "farmacia": 0,
+      "almoxarifado": 0,
+      "farmacia": 3,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -7703,12 +7703,12 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-08-27 11:37:51",
+      "atualizado_em": "2026-08-27 11:38:01",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
         {
-          "local": "almoxarifado",
+          "local": "farmacia",
           "validade": "",
           "lote": "",
           "quantidade": 3
@@ -15131,6 +15131,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 1177,
+      "item_id": 367,
+      "produto_nome": "IODOPOVIDONA 1L",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 3,
+      "responsavel": "Assucena",
+      "data": "2026-08-26",
+      "obs": "",
+      "criado_em": "2026-08-27 11:38:01",
+      "item": "IODOPOVIDONA 1L",
+      "usuario": "Assucena"
+    },
     {
       "id": 1176,
       "item_id": 367,
@@ -22614,21 +22629,6 @@
       "obs": "",
       "criado_em": "2026-08-24 14:39:36",
       "item": "Dexametasona",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 677,
-      "item_id": 70,
-      "produto_nome": "Dipirona",
-      "tipo": "Farmácia para Outro destino",
-      "origem": "Farmácia",
-      "destino": "Outro destino",
-      "quantidade": 50,
-      "responsavel": "Leiliana",
-      "data": "2026-08-24",
-      "obs": "",
-      "criado_em": "2026-08-24 14:38:25",
-      "item": "Dipirona",
       "usuario": "Leiliana"
     }
   ]
