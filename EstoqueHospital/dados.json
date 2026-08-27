@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "27/08/2026 11:04:51",
+  "atualizado_em": "27/08/2026 11:05:01",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 349,
     "total_almoxarifado": 87746,
-    "total_farmacia": 26545,
-    "total_geral": 114291,
+    "total_farmacia": 26530,
+    "total_geral": 114276,
     "perto_de_terminar": 0,
     "zerados": 11
   },
@@ -10488,19 +10488,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 550,
-      "farmacia": 260,
+      "farmacia": 245,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 810,
+      "total": 795,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-27 11:04:48",
+      "atualizado_em": "2026-08-27 11:04:56",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -10514,7 +10514,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 260
+          "quantidade": 245
         }
       ],
       "minimo_manual": 0,
@@ -10522,9 +10522,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 15,
-      "media_diaria_saida": 4.53,
-      "total_saida_historica": 68,
-      "cobertura_dias": 178.7,
+      "media_diaria_saida": 5.53,
+      "total_saida_historica": 83,
+      "cobertura_dias": 143.7,
       "alerta_estoque": false
     },
     {
@@ -14411,6 +14411,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 1127,
+      "item_id": 157,
+      "produto_nome": "Seringa 1ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 15,
+      "responsavel": "Assucena",
+      "data": "2026-08-26",
+      "obs": "",
+      "criado_em": "2026-08-27 11:04:56",
+      "item": "Seringa 1ml",
+      "usuario": "Assucena"
+    },
     {
       "id": 1126,
       "item_id": 157,
@@ -21894,21 +21909,6 @@
       "obs": "",
       "criado_em": "2026-08-24 14:10:36",
       "item": "Paracetamol 500mg",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 627,
-      "item_id": 200,
-      "produto_nome": "Caixa de perfurocortante",
-      "tipo": "Farmácia para Outro destino",
-      "origem": "Farmácia",
-      "destino": "Outro destino",
-      "quantidade": 1,
-      "responsavel": "Leiliana",
-      "data": "2026-08-24",
-      "obs": "",
-      "criado_em": "2026-08-24 14:10:20",
-      "item": "Caixa de perfurocortante",
       "usuario": "Leiliana"
     }
   ]
