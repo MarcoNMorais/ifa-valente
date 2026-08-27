@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "27/08/2026 11:36:01",
+  "atualizado_em": "27/08/2026 11:36:11",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 364,
-    "total_almoxarifado": 87750,
-    "total_farmacia": 26895,
+    "total_almoxarifado": 87746,
+    "total_farmacia": 26899,
     "total_geral": 114645,
     "perto_de_terminar": 0,
     "zerados": 11
@@ -3688,8 +3688,8 @@
       "nome": "CLOREXIDINA DEGERMANTE 2%",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 4,
-      "farmacia": 0,
+      "almoxarifado": 0,
+      "farmacia": 4,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -3701,12 +3701,12 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-08-27 11:35:57",
+      "atualizado_em": "2026-08-27 11:36:04",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
         {
-          "local": "almoxarifado",
+          "local": "farmacia",
           "validade": "",
           "lote": "",
           "quantidade": 4
@@ -15012,6 +15012,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 1171,
+      "item_id": 364,
+      "produto_nome": "CLOREXIDINA DEGERMANTE 2%",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 4,
+      "responsavel": "Assucena",
+      "data": "2026-08-26",
+      "obs": "",
+      "criado_em": "2026-08-27 11:36:04",
+      "item": "CLOREXIDINA DEGERMANTE 2%",
+      "usuario": "Assucena"
+    },
+    {
       "id": 1170,
       "item_id": 364,
       "produto_nome": "CLOREXIDINA DEGERMANTE 2%",
@@ -22494,21 +22509,6 @@
       "obs": "",
       "criado_em": "2026-08-24 14:35:45",
       "item": "Propofol 20ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 671,
-      "item_id": 71,
-      "produto_nome": "Dopamina",
-      "tipo": "Farmácia para Outro destino",
-      "origem": "Farmácia",
-      "destino": "Outro destino",
-      "quantidade": 1,
-      "responsavel": "Leiliana",
-      "data": "2026-08-24",
-      "obs": "",
-      "criado_em": "2026-08-24 14:35:29",
-      "item": "Dopamina",
       "usuario": "Leiliana"
     }
   ]
