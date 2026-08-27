@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "27/08/2026 10:54:55",
+  "atualizado_em": "27/08/2026 10:55:05",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 349,
-    "total_almoxarifado": 88106,
-    "total_farmacia": 27083,
+    "total_almoxarifado": 87856,
+    "total_farmacia": 27333,
     "total_geral": 115189,
     "perto_de_terminar": 0,
     "zerados": 11
@@ -10429,8 +10429,8 @@
       "nome": "Seringa 10ml",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 2000,
-      "farmacia": 310,
+      "almoxarifado": 1750,
+      "farmacia": 560,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -10442,7 +10442,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-08-26 16:52:17",
+      "atualizado_em": "2026-08-27 10:55:04",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -10450,13 +10450,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 2000
+          "quantidade": 1750
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 310
+          "quantidade": 560
         }
       ],
       "minimo_manual": 0,
@@ -14393,6 +14393,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 1096,
+      "item_id": 103,
+      "produto_nome": "Seringa 10ml",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 250,
+      "responsavel": "Assucena",
+      "data": "2026-08-26",
+      "obs": "",
+      "criado_em": "2026-08-27 10:55:04",
+      "item": "Seringa 10ml",
+      "usuario": "Assucena"
+    },
     {
       "id": 1095,
       "item_id": 204,
@@ -21876,21 +21891,6 @@
       "obs": "",
       "criado_em": "2026-08-24 11:36:36",
       "item": "Soro fisiológico 500ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 534,
-      "item_id": 206,
-      "produto_nome": "Soro glicose 5% 250ml",
-      "tipo": "Almoxarifado para Farmácia",
-      "origem": "Almoxarifado",
-      "destino": "Farmácia",
-      "quantidade": 30,
-      "responsavel": "Assucena",
-      "data": "2026-08-21",
-      "obs": "",
-      "criado_em": "2026-08-24 11:36:21",
-      "item": "Soro glicose 5% 250ml",
       "usuario": "Assucena"
     }
   ]
