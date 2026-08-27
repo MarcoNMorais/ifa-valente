@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "27/08/2026 11:34:39",
+  "atualizado_em": "27/08/2026 11:34:49",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 363,
-    "total_almoxarifado": 87751,
-    "total_farmacia": 26890,
+    "total_almoxarifado": 87746,
+    "total_farmacia": 26895,
     "total_geral": 114641,
     "perto_de_terminar": 0,
     "zerados": 11
@@ -14775,8 +14775,8 @@
       "nome": "ÁGUA OXIGENADA LITRO",
       "tipo": "Medicamento",
       "unidade": "Unidade",
-      "almoxarifado": 5,
-      "farmacia": 0,
+      "almoxarifado": 0,
+      "farmacia": 5,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -14788,12 +14788,12 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-08-27 11:34:37",
+      "atualizado_em": "2026-08-27 11:34:48",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
         {
-          "local": "almoxarifado",
+          "local": "farmacia",
           "validade": "",
           "lote": "",
           "quantidade": 5
@@ -14971,6 +14971,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 1169,
+      "item_id": 363,
+      "produto_nome": "ÁGUA OXIGENADA LITRO",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 5,
+      "responsavel": "Assucena",
+      "data": "2026-08-26",
+      "obs": "",
+      "criado_em": "2026-08-27 11:34:48",
+      "item": "ÁGUA OXIGENADA LITRO",
+      "usuario": "Assucena"
+    },
     {
       "id": 1168,
       "item_id": 363,
@@ -22454,21 +22469,6 @@
       "obs": "",
       "criado_em": "2026-08-24 14:35:16",
       "item": "Dobutamina 250mg",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 669,
-      "item_id": 50,
-      "produto_nome": "Amiodarona 50mg",
-      "tipo": "Farmácia para Outro destino",
-      "origem": "Farmácia",
-      "destino": "Outro destino",
-      "quantidade": 2,
-      "responsavel": "Leiliana",
-      "data": "2026-08-24",
-      "obs": "",
-      "criado_em": "2026-08-24 14:35:04",
-      "item": "Amiodarona 50mg",
       "usuario": "Leiliana"
     }
   ]
