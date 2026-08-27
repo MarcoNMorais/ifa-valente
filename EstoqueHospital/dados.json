@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "27/08/2026 11:02:30",
+  "atualizado_em": "27/08/2026 11:02:39",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 349,
     "total_almoxarifado": 87746,
-    "total_farmacia": 26810,
-    "total_geral": 114556,
+    "total_farmacia": 26809,
+    "total_geral": 114555,
     "perto_de_terminar": 0,
     "zerados": 11
   },
@@ -2379,19 +2379,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 63,
+      "farmacia": 62,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 63,
+      "total": 62,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga Farmácia 227-288",
       "obs": "Importação Farmácia 227-288",
-      "atualizado_em": "2026-08-25 16:12:46",
+      "atualizado_em": "2026-08-27 11:02:34",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -2399,7 +2399,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 63
+          "quantidade": 62
         }
       ],
       "minimo_manual": 0,
@@ -2407,9 +2407,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 14,
-      "media_diaria_saida": 0.21,
-      "total_saida_historica": 3,
-      "cobertura_dias": 294.0,
+      "media_diaria_saida": 0.29,
+      "total_saida_historica": 4,
+      "cobertura_dias": 217.0,
       "alerta_estoque": false
     },
     {
@@ -14412,6 +14412,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 1115,
+      "item_id": 257,
+      "produto_nome": "Brometo de ipratrópio gotas",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 1,
+      "responsavel": "Assucena",
+      "data": "2026-08-26",
+      "obs": "",
+      "criado_em": "2026-08-27 11:02:34",
+      "item": "Brometo de ipratrópio gotas",
+      "usuario": "Assucena"
+    },
+    {
       "id": 1114,
       "item_id": 102,
       "produto_nome": "Seringa 5ml",
@@ -21894,21 +21909,6 @@
       "obs": "",
       "criado_em": "2026-08-24 14:03:29",
       "item": "Dipirona",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 615,
-      "item_id": 69,
-      "produto_nome": "Diclofenaco 25mg",
-      "tipo": "Farmácia para Outro destino",
-      "origem": "Farmácia",
-      "destino": "Outro destino",
-      "quantidade": 20,
-      "responsavel": "Leiliana",
-      "data": "2026-08-24",
-      "obs": "",
-      "criado_em": "2026-08-24 14:03:00",
-      "item": "Diclofenaco 25mg",
       "usuario": "Leiliana"
     }
   ]
