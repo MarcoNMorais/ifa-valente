@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "27/08/2026 11:23:58",
+  "atualizado_em": "27/08/2026 11:24:08",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 356,
-    "total_almoxarifado": 87896,
-    "total_farmacia": 26516,
+    "total_almoxarifado": 87746,
+    "total_farmacia": 26666,
     "total_geral": 114412,
     "perto_de_terminar": 0,
     "zerados": 11
@@ -3740,8 +3740,8 @@
       "nome": "COLETOR DE URINA INFANTIL UNISSEX",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 150,
-      "farmacia": 0,
+      "almoxarifado": 0,
+      "farmacia": 150,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -3753,12 +3753,12 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-08-27 11:23:55",
+      "atualizado_em": "2026-08-27 11:24:05",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
         {
-          "local": "almoxarifado",
+          "local": "farmacia",
           "validade": "",
           "lote": "",
           "quantidade": 150
@@ -14692,6 +14692,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 1155,
+      "item_id": 356,
+      "produto_nome": "COLETOR DE URINA INFANTIL UNISSEX",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 150,
+      "responsavel": "Assucena",
+      "data": "2026-08-26",
+      "obs": "",
+      "criado_em": "2026-08-27 11:24:05",
+      "item": "COLETOR DE URINA INFANTIL UNISSEX",
+      "usuario": "Assucena"
+    },
+    {
       "id": 1154,
       "item_id": 356,
       "produto_nome": "COLETOR DE URINA INFANTIL UNISSEX",
@@ -22174,21 +22189,6 @@
       "obs": "",
       "criado_em": "2026-08-24 14:30:08",
       "item": "Furosemida 40mg CPR",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 655,
-      "item_id": 195,
-      "produto_nome": "Tira Reagente G-Tech",
-      "tipo": "Farmácia para Outro destino",
-      "origem": "Farmácia",
-      "destino": "Outro destino",
-      "quantidade": 50,
-      "responsavel": "Leiliana",
-      "data": "2026-08-24",
-      "obs": "",
-      "criado_em": "2026-08-24 14:29:16",
-      "item": "Tira Reagente G-Tech",
       "usuario": "Leiliana"
     }
   ]
