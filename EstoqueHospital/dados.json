@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "27/08/2026 11:40:35",
+  "atualizado_em": "27/08/2026 11:40:45",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 371,
-    "total_almoxarifado": 87748,
-    "total_farmacia": 26908,
+    "total_almoxarifado": 87746,
+    "total_farmacia": 26910,
     "total_geral": 114656,
     "perto_de_terminar": 0,
     "zerados": 11
@@ -3860,8 +3860,8 @@
       "nome": "COLAR CERVICAL ESPUMA M",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 2,
-      "farmacia": 0,
+      "almoxarifado": 0,
+      "farmacia": 2,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -3873,12 +3873,12 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-08-27 11:40:30",
+      "atualizado_em": "2026-08-27 11:40:36",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
         {
-          "local": "almoxarifado",
+          "local": "farmacia",
           "validade": "",
           "lote": "",
           "quantidade": 2
@@ -15292,6 +15292,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 1185,
+      "item_id": 371,
+      "produto_nome": "COLAR CERVICAL ESPUMA M",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 2,
+      "responsavel": "Assucena",
+      "data": "2026-08-26",
+      "obs": "",
+      "criado_em": "2026-08-27 11:40:36",
+      "item": "COLAR CERVICAL ESPUMA M",
+      "usuario": "Assucena"
+    },
+    {
       "id": 1184,
       "item_id": 371,
       "produto_nome": "COLAR CERVICAL ESPUMA M",
@@ -22774,21 +22789,6 @@
       "obs": "",
       "criado_em": "2026-08-24 14:43:19",
       "item": "Flumazenil 0,1mg/ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 685,
-      "item_id": 223,
-      "produto_nome": "Dramin B6 ampola 10ml",
-      "tipo": "Farmácia para Outro destino",
-      "origem": "Farmácia",
-      "destino": "Outro destino",
-      "quantidade": 10,
-      "responsavel": "Leiliana",
-      "data": "2026-08-24",
-      "obs": "",
-      "criado_em": "2026-08-24 14:43:03",
-      "item": "Dramin B6 ampola 10ml",
       "usuario": "Leiliana"
     }
   ]
