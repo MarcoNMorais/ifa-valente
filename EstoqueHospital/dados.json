@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "27/08/2026 11:03:05",
+  "atualizado_em": "27/08/2026 11:03:14",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 349,
     "total_almoxarifado": 87746,
-    "total_farmacia": 26688,
-    "total_geral": 114434,
+    "total_farmacia": 26678,
+    "total_geral": 114424,
     "perto_de_terminar": 0,
     "zerados": 11
   },
@@ -10310,19 +10310,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 800,
-      "farmacia": 65,
+      "farmacia": 55,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 865,
+      "total": 855,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-26 16:51:16",
+      "atualizado_em": "2026-08-27 11:03:13",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -10336,7 +10336,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 65
+          "quantidade": 55
         }
       ],
       "minimo_manual": 0,
@@ -10344,9 +10344,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 15,
-      "media_diaria_saida": 5.4,
-      "total_saida_historica": 81,
-      "cobertura_dias": 160.2,
+      "media_diaria_saida": 6.07,
+      "total_saida_historica": 91,
+      "cobertura_dias": 140.9,
       "alerta_estoque": false
     },
     {
@@ -14411,6 +14411,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 1119,
+      "item_id": 99,
+      "produto_nome": "Scalp nº 21",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 10,
+      "responsavel": "Assucena",
+      "data": "2026-08-26",
+      "obs": "",
+      "criado_em": "2026-08-27 11:03:13",
+      "item": "Scalp nº 21",
+      "usuario": "Assucena"
+    },
     {
       "id": 1118,
       "item_id": 187,
@@ -21894,21 +21909,6 @@
       "obs": "",
       "criado_em": "2026-08-24 14:04:58",
       "item": "Dispositivo intravenoso Gelco nº 22",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 619,
-      "item_id": 98,
-      "produto_nome": "Scalp nº 23",
-      "tipo": "Farmácia para Outro destino",
-      "origem": "Farmácia",
-      "destino": "Outro destino",
-      "quantidade": 15,
-      "responsavel": "Leiliana",
-      "data": "2026-08-24",
-      "obs": "",
-      "criado_em": "2026-08-24 14:04:44",
-      "item": "Scalp nº 23",
       "usuario": "Leiliana"
     }
   ]
