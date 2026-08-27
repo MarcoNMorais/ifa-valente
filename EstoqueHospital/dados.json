@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "27/08/2026 11:30:29",
+  "atualizado_em": "27/08/2026 11:30:39",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
-    "itens": 360,
-    "total_almoxarifado": 87746,
+    "itens": 361,
+    "total_almoxarifado": 87901,
     "total_farmacia": 26733,
-    "total_geral": 114479,
+    "total_geral": 114634,
     "perto_de_terminar": 0,
     "zerados": 11
   },
@@ -2072,6 +2072,46 @@
       "media_diaria_saida": 0.1,
       "total_saida_historica": 1,
       "cobertura_dias": 0.0,
+      "alerta_estoque": false
+    },
+    {
+      "id": 361,
+      "produto_id": 362,
+      "nome": "AZITROMICINA COMPRIMIDO",
+      "tipo": "Medicamento",
+      "unidade": "Unidade",
+      "almoxarifado": 155,
+      "farmacia": 0,
+      "sala_medicacoes": 0,
+      "internamento": 0,
+      "sala_cirurgica": 0,
+      "baixa": 0,
+      "outro": 0,
+      "total": 155,
+      "minimo": 0,
+      "validade": "",
+      "lote": "",
+      "origem": "Entrada externa",
+      "obs": "",
+      "atualizado_em": "2026-08-27 11:30:38",
+      "validade_mais_proxima": "",
+      "vencimento_mais_proximo": "",
+      "lotes_validade": [
+        {
+          "local": "almoxarifado",
+          "validade": "",
+          "lote": "",
+          "quantidade": 155
+        }
+      ],
+      "minimo_manual": 0,
+      "minimo_alerta": 0,
+      "previsao_20_dias": 0,
+      "criterio_alerta": "estoque_minimo_manual_inicio",
+      "dias_historico": 2,
+      "media_diaria_saida": 0.0,
+      "total_saida_historica": 0,
+      "cobertura_dias": null,
       "alerta_estoque": false
     },
     {
@@ -14852,6 +14892,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 1164,
+      "item_id": 361,
+      "produto_nome": "AZITROMICINA COMPRIMIDO",
+      "tipo": "Entrada no Almoxarifado",
+      "origem": "Entrada externa",
+      "destino": "Almoxarifado",
+      "quantidade": 155,
+      "responsavel": "Assucena",
+      "data": "2026-08-26",
+      "obs": "",
+      "criado_em": "2026-08-27 11:30:38",
+      "item": "AZITROMICINA COMPRIMIDO",
+      "usuario": "Assucena"
+    },
+    {
       "id": 1163,
       "item_id": 287,
       "produto_nome": "Agulha 13x4,5",
@@ -22334,21 +22389,6 @@
       "obs": "",
       "criado_em": "2026-08-24 14:34:02",
       "item": "Midazolam 5mg/ml 10ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 664,
-      "item_id": 9,
-      "produto_nome": "Fentanila 50mcg/ml",
-      "tipo": "Farmácia para Outro destino",
-      "origem": "Farmácia",
-      "destino": "Outro destino",
-      "quantidade": 4,
-      "responsavel": "Leiliana",
-      "data": "2026-08-24",
-      "obs": "",
-      "criado_em": "2026-08-24 14:33:51",
-      "item": "Fentanila 50mcg/ml",
       "usuario": "Leiliana"
     }
   ]
