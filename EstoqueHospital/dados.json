@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "27/08/2026 11:38:34",
+  "atualizado_em": "27/08/2026 11:38:44",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 368,
-    "total_almoxarifado": 87747,
-    "total_farmacia": 26905,
+    "total_almoxarifado": 87746,
+    "total_farmacia": 26906,
     "total_geral": 114652,
     "perto_de_terminar": 0,
     "zerados": 11
@@ -15055,8 +15055,8 @@
       "nome": "ÁLCOOL IODADO 1L",
       "tipo": "Medicamento",
       "unidade": "Unidade",
-      "almoxarifado": 1,
-      "farmacia": 0,
+      "almoxarifado": 0,
+      "farmacia": 1,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -15068,12 +15068,12 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-08-27 11:38:28",
+      "atualizado_em": "2026-08-27 11:38:40",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
         {
-          "local": "almoxarifado",
+          "local": "farmacia",
           "validade": "",
           "lote": "",
           "quantidade": 1
@@ -15171,6 +15171,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 1179,
+      "item_id": 368,
+      "produto_nome": "ÁLCOOL IODADO 1L",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 1,
+      "responsavel": "Assucena",
+      "data": "2026-08-26",
+      "obs": "",
+      "criado_em": "2026-08-27 11:38:40",
+      "item": "ÁLCOOL IODADO 1L",
+      "usuario": "Assucena"
+    },
     {
       "id": 1178,
       "item_id": 368,
@@ -22654,21 +22669,6 @@
       "obs": "",
       "criado_em": "2026-08-24 14:41:24",
       "item": "Lidocaína",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 679,
-      "item_id": 233,
-      "produto_nome": "Prometazina 25mg/ml",
-      "tipo": "Farmácia para Outro destino",
-      "origem": "Farmácia",
-      "destino": "Outro destino",
-      "quantidade": 20,
-      "responsavel": "Leiliana",
-      "data": "2026-08-24",
-      "obs": "",
-      "criado_em": "2026-08-24 14:41:07",
-      "item": "Prometazina 25mg/ml",
       "usuario": "Leiliana"
     }
   ]
