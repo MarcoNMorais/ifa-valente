@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "27/08/2026 11:05:12",
+  "atualizado_em": "27/08/2026 11:05:21",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 349,
     "total_almoxarifado": 87746,
-    "total_farmacia": 26480,
-    "total_geral": 114226,
+    "total_farmacia": 26470,
+    "total_geral": 114216,
     "perto_de_terminar": 0,
     "zerados": 11
   },
@@ -2911,19 +2911,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 76,
+      "farmacia": 66,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 76,
+      "total": 66,
       "minimo": 0,
       "validade": "2028-01",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-26 10:11:47",
+      "atualizado_em": "2026-08-27 11:05:15",
       "validade_mais_proxima": "2028-01",
       "vencimento_mais_proximo": "2028-01",
       "lotes_validade": [
@@ -2931,7 +2931,7 @@
           "local": "farmacia",
           "validade": "2028-01",
           "lote": "",
-          "quantidade": 76
+          "quantidade": 66
         }
       ],
       "minimo_manual": 0,
@@ -2939,9 +2939,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 15,
-      "media_diaria_saida": 11.6,
-      "total_saida_historica": 174,
-      "cobertura_dias": 6.6,
+      "media_diaria_saida": 12.27,
+      "total_saida_historica": 184,
+      "cobertura_dias": 5.4,
       "alerta_estoque": false
     },
     {
@@ -14412,6 +14412,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 1129,
+      "item_id": 60,
+      "produto_nome": "Cetoprofeno EV 100mg",
+      "tipo": "Farmácia para Posto de Internamento",
+      "origem": "Farmácia",
+      "destino": "Posto de Internamento",
+      "quantidade": 10,
+      "responsavel": "Assucena",
+      "data": "2026-08-26",
+      "obs": "",
+      "criado_em": "2026-08-27 11:05:15",
+      "item": "Cetoprofeno EV 100mg",
+      "usuario": "Assucena"
+    },
+    {
       "id": 1128,
       "item_id": 187,
       "produto_nome": "Agulha hipodérmica tam. 18",
@@ -21894,21 +21909,6 @@
       "obs": "",
       "criado_em": "2026-08-24 14:11:59",
       "item": "Soro fisiológico 250ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 629,
-      "item_id": 56,
-      "produto_nome": "Benzilpenicilina 600 UI",
-      "tipo": "Farmácia para Outro destino",
-      "origem": "Farmácia",
-      "destino": "Outro destino",
-      "quantidade": 10,
-      "responsavel": "Leiliana",
-      "data": "2026-08-24",
-      "obs": "",
-      "criado_em": "2026-08-24 14:10:48",
-      "item": "Benzilpenicilina 600 UI",
       "usuario": "Leiliana"
     }
   ]
