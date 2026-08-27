@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "27/08/2026 11:40:03",
+  "atualizado_em": "27/08/2026 11:40:13",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 370,
-    "total_almoxarifado": 87747,
-    "total_farmacia": 26907,
+    "total_almoxarifado": 87746,
+    "total_farmacia": 26908,
     "total_geral": 114654,
     "perto_de_terminar": 0,
     "zerados": 11
@@ -3860,8 +3860,8 @@
       "nome": "COLAR CERVICAL ESPUMA P",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 1,
-      "farmacia": 0,
+      "almoxarifado": 0,
+      "farmacia": 1,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -3873,12 +3873,12 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-08-27 11:39:59",
+      "atualizado_em": "2026-08-27 11:40:07",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
         {
-          "local": "almoxarifado",
+          "local": "farmacia",
           "validade": "",
           "lote": "",
           "quantidade": 1
@@ -15252,6 +15252,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 1183,
+      "item_id": 370,
+      "produto_nome": "COLAR CERVICAL ESPUMA P",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 1,
+      "responsavel": "Assucena",
+      "data": "2026-08-26",
+      "obs": "",
+      "criado_em": "2026-08-27 11:40:07",
+      "item": "COLAR CERVICAL ESPUMA P",
+      "usuario": "Assucena"
+    },
+    {
       "id": 1182,
       "item_id": 370,
       "produto_nome": "COLAR CERVICAL ESPUMA P",
@@ -22734,21 +22749,6 @@
       "obs": "",
       "criado_em": "2026-08-24 14:42:44",
       "item": "Amiodarona 50mg",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 683,
-      "item_id": 85,
-      "produto_nome": "Lidocaína Gel",
-      "tipo": "Farmácia para Outro destino",
-      "origem": "Farmácia",
-      "destino": "Outro destino",
-      "quantidade": 1,
-      "responsavel": "Leiliana",
-      "data": "2026-08-24",
-      "obs": "",
-      "criado_em": "2026-08-24 14:42:18",
-      "item": "Lidocaína Gel",
       "usuario": "Leiliana"
     }
   ]
