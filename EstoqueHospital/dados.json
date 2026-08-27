@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "27/08/2026 11:05:31",
+  "atualizado_em": "27/08/2026 11:05:41",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 349,
     "total_almoxarifado": 87746,
-    "total_farmacia": 26460,
-    "total_geral": 114206,
+    "total_farmacia": 26432,
+    "total_geral": 114178,
     "perto_de_terminar": 0,
     "zerados": 11
   },
@@ -9348,19 +9348,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 448,
+      "farmacia": 420,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 448,
+      "total": 420,
       "minimo": 0,
       "validade": "2028-02",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-26 16:50:59",
+      "atualizado_em": "2026-08-27 11:05:33",
       "validade_mais_proxima": "2028-02",
       "vencimento_mais_proximo": "2028-02",
       "lotes_validade": [
@@ -9368,7 +9368,7 @@
           "local": "farmacia",
           "validade": "2028-02",
           "lote": "",
-          "quantidade": 434
+          "quantidade": 406
         },
         {
           "local": "farmacia",
@@ -9382,9 +9382,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 15,
-      "media_diaria_saida": 1.87,
-      "total_saida_historica": 28,
-      "cobertura_dias": 240.0,
+      "media_diaria_saida": 3.73,
+      "total_saida_historica": 56,
+      "cobertura_dias": 112.5,
       "alerta_estoque": false
     },
     {
@@ -14411,6 +14411,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 1131,
+      "item_id": 31,
+      "produto_nome": "Omeprazol 20mg comprimido",
+      "tipo": "Farmácia para Posto de Internamento",
+      "origem": "Farmácia",
+      "destino": "Posto de Internamento",
+      "quantidade": 28,
+      "responsavel": "Assucena",
+      "data": "2026-08-26",
+      "obs": "",
+      "criado_em": "2026-08-27 11:05:33",
+      "item": "Omeprazol 20mg comprimido",
+      "usuario": "Assucena"
+    },
     {
       "id": 1130,
       "item_id": 64,
@@ -21894,21 +21909,6 @@
       "obs": "",
       "criado_em": "2026-08-24 14:15:13",
       "item": "Soro glicose 5% 500ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 631,
-      "item_id": 204,
-      "produto_nome": "Soro fisiológico 500ml",
-      "tipo": "Farmácia para Outro destino",
-      "origem": "Farmácia",
-      "destino": "Outro destino",
-      "quantidade": 14,
-      "responsavel": "Leiliana",
-      "data": "2026-08-24",
-      "obs": "",
-      "criado_em": "2026-08-24 14:14:59",
-      "item": "Soro fisiológico 500ml",
       "usuario": "Leiliana"
     }
   ]
