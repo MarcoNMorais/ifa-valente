@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "27/08/2026 11:12:49",
+  "atualizado_em": "27/08/2026 11:13:00",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
-    "itens": 349,
-    "total_almoxarifado": 87746,
+    "itens": 350,
+    "total_almoxarifado": 87934,
     "total_farmacia": 26145,
-    "total_geral": 113891,
+    "total_geral": 114079,
     "perto_de_terminar": 0,
     "zerados": 11
   },
@@ -6507,6 +6507,46 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 10,
+      "media_diaria_saida": 0.0,
+      "total_saida_historica": 0,
+      "cobertura_dias": null,
+      "alerta_estoque": false
+    },
+    {
+      "id": 350,
+      "produto_id": 350,
+      "nome": "GLICOSE 50% AMP 10ML",
+      "tipo": "Medicamento",
+      "unidade": "Unidade",
+      "almoxarifado": 188,
+      "farmacia": 0,
+      "sala_medicacoes": 0,
+      "internamento": 0,
+      "sala_cirurgica": 0,
+      "baixa": 0,
+      "outro": 0,
+      "total": 188,
+      "minimo": 50,
+      "validade": "",
+      "lote": "",
+      "origem": "Entrada externa",
+      "obs": "",
+      "atualizado_em": "2026-08-27 11:12:59",
+      "validade_mais_proxima": "",
+      "vencimento_mais_proximo": "",
+      "lotes_validade": [
+        {
+          "local": "almoxarifado",
+          "validade": "",
+          "lote": "",
+          "quantidade": 188
+        }
+      ],
+      "minimo_manual": 50,
+      "minimo_alerta": 50,
+      "previsao_20_dias": 50,
+      "criterio_alerta": "estoque_minimo_manual_inicio",
+      "dias_historico": 2,
       "media_diaria_saida": 0.0,
       "total_saida_historica": 0,
       "cobertura_dias": null,
@@ -14412,6 +14452,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 1140,
+      "item_id": 350,
+      "produto_nome": "GLICOSE 50% AMP 10ML",
+      "tipo": "Entrada no Almoxarifado",
+      "origem": "Entrada externa",
+      "destino": "Almoxarifado",
+      "quantidade": 188,
+      "responsavel": "Assucena",
+      "data": "2026-08-26",
+      "obs": "",
+      "criado_em": "2026-08-27 11:12:59",
+      "item": "GLICOSE 50% AMP 10ML",
+      "usuario": "Assucena"
+    },
+    {
       "id": 1139,
       "item_id": 181,
       "produto_nome": "Luva de látex tam. M",
@@ -21894,21 +21949,6 @@
       "obs": "",
       "criado_em": "2026-08-24 14:18:56",
       "item": "Soro Ringer Lactato 500ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 640,
-      "item_id": 55,
-      "produto_nome": "Benzilpenicilina 1.200",
-      "tipo": "Farmácia para Outro destino",
-      "origem": "Farmácia",
-      "destino": "Outro destino",
-      "quantidade": 10,
-      "responsavel": "Leiliana",
-      "data": "2026-08-24",
-      "obs": "",
-      "criado_em": "2026-08-24 14:18:41",
-      "item": "Benzilpenicilina 1.200",
       "usuario": "Leiliana"
     }
   ]
