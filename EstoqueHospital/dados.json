@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "27/08/2026 11:04:32",
+  "atualizado_em": "27/08/2026 11:04:41",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 349,
     "total_almoxarifado": 87746,
-    "total_farmacia": 26605,
-    "total_geral": 114351,
+    "total_farmacia": 26565,
+    "total_geral": 114311,
     "perto_de_terminar": 0,
     "zerados": 11
   },
@@ -10442,19 +10442,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 1750,
-      "farmacia": 540,
+      "farmacia": 500,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 2290,
+      "total": 2250,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-08-27 11:02:07",
+      "atualizado_em": "2026-08-27 11:04:39",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -10468,7 +10468,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 540
+          "quantidade": 500
         }
       ],
       "minimo_manual": 0,
@@ -10476,9 +10476,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 15,
-      "media_diaria_saida": 82.27,
-      "total_saida_historica": 1234,
-      "cobertura_dias": 27.8,
+      "media_diaria_saida": 84.93,
+      "total_saida_historica": 1274,
+      "cobertura_dias": 26.5,
       "alerta_estoque": false
     },
     {
@@ -14411,6 +14411,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 1125,
+      "item_id": 103,
+      "produto_nome": "Seringa 10ml",
+      "tipo": "Farmácia para Posto de Internamento",
+      "origem": "Farmácia",
+      "destino": "Posto de Internamento",
+      "quantidade": 40,
+      "responsavel": "Assucena",
+      "data": "2026-08-26",
+      "obs": "",
+      "criado_em": "2026-08-27 11:04:39",
+      "item": "Seringa 10ml",
+      "usuario": "Assucena"
+    },
     {
       "id": 1124,
       "item_id": 274,
@@ -21894,21 +21909,6 @@
       "obs": "",
       "criado_em": "2026-08-24 14:10:06",
       "item": "Clonazepam gotas 25mg/ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 625,
-      "item_id": 230,
-      "produto_nome": "Ferropurum 20mg/ml",
-      "tipo": "Farmácia para Outro destino",
-      "origem": "Farmácia",
-      "destino": "Outro destino",
-      "quantidade": 5,
-      "responsavel": "Leiliana",
-      "data": "2026-08-24",
-      "obs": "",
-      "criado_em": "2026-08-24 14:09:50",
-      "item": "Ferropurum 20mg/ml",
       "usuario": "Leiliana"
     }
   ]
