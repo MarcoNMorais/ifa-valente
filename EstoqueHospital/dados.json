@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "27/08/2026 11:05:21",
+  "atualizado_em": "27/08/2026 11:05:31",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 349,
     "total_almoxarifado": 87746,
-    "total_farmacia": 26470,
-    "total_geral": 114216,
+    "total_farmacia": 26460,
+    "total_geral": 114206,
     "perto_de_terminar": 0,
     "zerados": 11
   },
@@ -6255,19 +6255,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 170,
+      "farmacia": 160,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 170,
+      "total": 160,
       "minimo": 0,
       "validade": "2027-08",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-25 16:12:46",
+      "atualizado_em": "2026-08-27 11:05:24",
       "validade_mais_proxima": "2027-08",
       "vencimento_mais_proximo": "2027-08",
       "lotes_validade": [
@@ -6281,7 +6281,7 @@
           "local": "farmacia",
           "validade": "2028-03",
           "lote": "",
-          "quantidade": 70
+          "quantidade": 60
         }
       ],
       "minimo_manual": 0,
@@ -6289,9 +6289,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 15,
-      "media_diaria_saida": 2.0,
-      "total_saida_historica": 30,
-      "cobertura_dias": 85.0,
+      "media_diaria_saida": 2.67,
+      "total_saida_historica": 40,
+      "cobertura_dias": 60.0,
       "alerta_estoque": false
     },
     {
@@ -14412,6 +14412,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 1130,
+      "item_id": 64,
+      "produto_nome": "Fosfato de Clindamicina 150mg",
+      "tipo": "Farmácia para Posto de Internamento",
+      "origem": "Farmácia",
+      "destino": "Posto de Internamento",
+      "quantidade": 10,
+      "responsavel": "Assucena",
+      "data": "2026-08-26",
+      "obs": "",
+      "criado_em": "2026-08-27 11:05:24",
+      "item": "Fosfato de Clindamicina 150mg",
+      "usuario": "Assucena"
+    },
+    {
       "id": 1129,
       "item_id": 60,
       "produto_nome": "Cetoprofeno EV 100mg",
@@ -21894,21 +21909,6 @@
       "obs": "",
       "criado_em": "2026-08-24 14:14:59",
       "item": "Soro fisiológico 500ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 630,
-      "item_id": 203,
-      "produto_nome": "Soro fisiológico 250ml",
-      "tipo": "Farmácia para Outro destino",
-      "origem": "Farmácia",
-      "destino": "Outro destino",
-      "quantidade": 19,
-      "responsavel": "Leiliana",
-      "data": "2026-08-24",
-      "obs": "",
-      "criado_em": "2026-08-24 14:11:59",
-      "item": "Soro fisiológico 250ml",
       "usuario": "Leiliana"
     }
   ]
