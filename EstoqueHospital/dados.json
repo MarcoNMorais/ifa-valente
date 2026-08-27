@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "27/08/2026 11:41:05",
+  "atualizado_em": "27/08/2026 11:41:16",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 372,
-    "total_almoxarifado": 87748,
-    "total_farmacia": 26910,
+    "total_almoxarifado": 87746,
+    "total_farmacia": 26912,
     "total_geral": 114658,
     "perto_de_terminar": 0,
     "zerados": 11
@@ -3860,8 +3860,8 @@
       "nome": "COLAR CERVICAL ESPUMA G",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 2,
-      "farmacia": 0,
+      "almoxarifado": 0,
+      "farmacia": 2,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -3873,12 +3873,12 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-08-27 11:40:59",
+      "atualizado_em": "2026-08-27 11:41:07",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
         {
-          "local": "almoxarifado",
+          "local": "farmacia",
           "validade": "",
           "lote": "",
           "quantidade": 2
@@ -15332,6 +15332,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 1187,
+      "item_id": 372,
+      "produto_nome": "COLAR CERVICAL ESPUMA G",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 2,
+      "responsavel": "Assucena",
+      "data": "2026-08-26",
+      "obs": "",
+      "criado_em": "2026-08-27 11:41:07",
+      "item": "COLAR CERVICAL ESPUMA G",
+      "usuario": "Assucena"
+    },
+    {
       "id": 1186,
       "item_id": 372,
       "produto_nome": "COLAR CERVICAL ESPUMA G",
@@ -22814,21 +22829,6 @@
       "obs": "",
       "criado_em": "2026-08-24 14:44:33",
       "item": "Dispositivo intravenoso Gelco nº 24",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 687,
-      "item_id": 177,
-      "produto_nome": "Dispositivo intravenoso Gelco nº 22",
-      "tipo": "Farmácia para Outro destino",
-      "origem": "Farmácia",
-      "destino": "Outro destino",
-      "quantidade": 20,
-      "responsavel": "Leiliana",
-      "data": "2026-08-24",
-      "obs": "",
-      "criado_em": "2026-08-24 14:44:16",
-      "item": "Dispositivo intravenoso Gelco nº 22",
       "usuario": "Leiliana"
     }
   ]
