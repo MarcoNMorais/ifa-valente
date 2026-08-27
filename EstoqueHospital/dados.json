@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "27/08/2026 11:06:52",
+  "atualizado_em": "27/08/2026 11:07:02",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 349,
     "total_almoxarifado": 87746,
-    "total_farmacia": 26355,
-    "total_geral": 114101,
+    "total_farmacia": 26345,
+    "total_geral": 114091,
     "perto_de_terminar": 0,
     "zerados": 11
   },
@@ -13126,19 +13126,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 110,
+      "farmacia": 100,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 110,
+      "total": 100,
       "minimo": 0,
       "validade": "2028-02",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-25 16:12:46",
+      "atualizado_em": "2026-08-27 11:06:59",
       "validade_mais_proxima": "2028-02",
       "vencimento_mais_proximo": "2028-02",
       "lotes_validade": [
@@ -13146,7 +13146,7 @@
           "local": "farmacia",
           "validade": "2028-02",
           "lote": "",
-          "quantidade": 110
+          "quantidade": 100
         }
       ],
       "minimo_manual": 0,
@@ -13154,9 +13154,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 15,
-      "media_diaria_saida": 2.0,
-      "total_saida_historica": 30,
-      "cobertura_dias": 55.0,
+      "media_diaria_saida": 2.67,
+      "total_saida_historica": 40,
+      "cobertura_dias": 37.5,
       "alerta_estoque": false
     },
     {
@@ -14411,6 +14411,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 1138,
+      "item_id": 40,
+      "produto_nome": "Succinato de metoprolol 25mg",
+      "tipo": "Farmácia para Posto de Internamento",
+      "origem": "Farmácia",
+      "destino": "Posto de Internamento",
+      "quantidade": 10,
+      "responsavel": "Assucena",
+      "data": "2026-08-26",
+      "obs": "",
+      "criado_em": "2026-08-27 11:06:59",
+      "item": "Succinato de metoprolol 25mg",
+      "usuario": "Assucena"
+    },
     {
       "id": 1137,
       "item_id": 242,
@@ -21894,21 +21909,6 @@
       "obs": "",
       "criado_em": "2026-08-24 14:18:21",
       "item": "Oxacilina 500mg pó injetável",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 638,
-      "item_id": 73,
-      "produto_nome": "Epinefrina 1mg",
-      "tipo": "Farmácia para Outro destino",
-      "origem": "Farmácia",
-      "destino": "Outro destino",
-      "quantidade": 5,
-      "responsavel": "Leiliana",
-      "data": "2026-08-24",
-      "obs": "",
-      "criado_em": "2026-08-24 14:18:06",
-      "item": "Epinefrina 1mg",
       "usuario": "Leiliana"
     }
   ]
