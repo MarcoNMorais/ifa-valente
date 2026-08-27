@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "27/08/2026 16:29:17",
+  "atualizado_em": "27/08/2026 16:29:32",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
     "total_almoxarifado": 87814,
-    "total_farmacia": 26924,
-    "total_geral": 114738,
+    "total_farmacia": 26916,
+    "total_geral": 114730,
     "perto_de_terminar": 0,
     "zerados": 11
   },
@@ -10732,19 +10732,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 250,
+      "farmacia": 242,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 250,
+      "total": 242,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-25 16:12:46",
+      "atualizado_em": "2026-08-27 16:29:32",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -10752,7 +10752,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 250
+          "quantidade": 242
         }
       ],
       "minimo_manual": 0,
@@ -10760,9 +10760,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 15,
-      "media_diaria_saida": 2.67,
-      "total_saida_historica": 40,
-      "cobertura_dias": 93.8,
+      "media_diaria_saida": 3.2,
+      "total_saida_historica": 48,
+      "cobertura_dias": 75.6,
       "alerta_estoque": false
     },
     {
@@ -15497,6 +15497,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 1203,
+      "item_id": 27,
+      "produto_nome": "Paracetamol 500mg",
+      "tipo": "Farmácia para Outro destino",
+      "origem": "Farmácia",
+      "destino": "Outro destino",
+      "quantidade": 8,
+      "responsavel": "Assucena",
+      "data": "2026-08-26",
+      "obs": "",
+      "criado_em": "2026-08-27 16:29:32",
+      "item": "Paracetamol 500mg",
+      "usuario": "Assucena"
+    },
     {
       "id": 1202,
       "item_id": 102,
@@ -22980,21 +22995,6 @@
       "obs": "",
       "criado_em": "2026-08-24 14:52:11",
       "item": "Bolsa coletora",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 703,
-      "item_id": 180,
-      "produto_nome": "Luva de látex tam. P",
-      "tipo": "Farmácia para Outro destino",
-      "origem": "Farmácia",
-      "destino": "Outro destino",
-      "quantidade": 2,
-      "responsavel": "Leiliana",
-      "data": "2026-08-24",
-      "obs": "",
-      "criado_em": "2026-08-24 14:51:56",
-      "item": "Luva de látex tam. P",
       "usuario": "Leiliana"
     }
   ]
