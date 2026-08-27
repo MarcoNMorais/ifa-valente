@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "27/08/2026 11:31:46",
+  "atualizado_em": "27/08/2026 11:31:56",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 362,
-    "total_almoxarifado": 87748,
-    "total_farmacia": 26888,
+    "total_almoxarifado": 87746,
+    "total_farmacia": 26890,
     "total_geral": 114636,
     "perto_de_terminar": 0,
     "zerados": 11
@@ -10205,8 +10205,8 @@
       "nome": "PAPEL GRAU 25CM",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 2,
-      "farmacia": 0,
+      "almoxarifado": 0,
+      "farmacia": 2,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -10218,12 +10218,12 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-08-27 11:31:41",
+      "atualizado_em": "2026-08-27 11:31:49",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
         {
-          "local": "almoxarifado",
+          "local": "farmacia",
           "validade": "",
           "lote": "",
           "quantidade": 2
@@ -14931,6 +14931,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 1167,
+      "item_id": 362,
+      "produto_nome": "PAPEL GRAU 25CM",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 2,
+      "responsavel": "Assucena",
+      "data": "2026-08-26",
+      "obs": "",
+      "criado_em": "2026-08-27 11:31:49",
+      "item": "PAPEL GRAU 25CM",
+      "usuario": "Assucena"
+    },
     {
       "id": 1166,
       "item_id": 362,
@@ -22414,21 +22429,6 @@
       "obs": "",
       "criado_em": "2026-08-24 14:34:52",
       "item": "Etomidato 2mg/ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 667,
-      "item_id": 54,
-      "produto_nome": "Atropina 0,25mg",
-      "tipo": "Farmácia para Outro destino",
-      "origem": "Farmácia",
-      "destino": "Outro destino",
-      "quantidade": 4,
-      "responsavel": "Leiliana",
-      "data": "2026-08-24",
-      "obs": "",
-      "criado_em": "2026-08-24 14:34:38",
-      "item": "Atropina 0,25mg",
       "usuario": "Leiliana"
     }
   ]
