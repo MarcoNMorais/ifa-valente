@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "27/08/2026 11:30:39",
+  "atualizado_em": "27/08/2026 11:30:49",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 361,
-    "total_almoxarifado": 87901,
-    "total_farmacia": 26733,
+    "total_almoxarifado": 87746,
+    "total_farmacia": 26888,
     "total_geral": 114634,
     "perto_de_terminar": 0,
     "zerados": 11
@@ -2080,8 +2080,8 @@
       "nome": "AZITROMICINA COMPRIMIDO",
       "tipo": "Medicamento",
       "unidade": "Unidade",
-      "almoxarifado": 155,
-      "farmacia": 0,
+      "almoxarifado": 0,
+      "farmacia": 155,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -2093,12 +2093,12 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-08-27 11:30:38",
+      "atualizado_em": "2026-08-27 11:30:44",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
         {
-          "local": "almoxarifado",
+          "local": "farmacia",
           "validade": "",
           "lote": "",
           "quantidade": 155
@@ -14892,6 +14892,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 1165,
+      "item_id": 361,
+      "produto_nome": "AZITROMICINA COMPRIMIDO",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 155,
+      "responsavel": "Assucena",
+      "data": "2026-08-26",
+      "obs": "",
+      "criado_em": "2026-08-27 11:30:44",
+      "item": "AZITROMICINA COMPRIMIDO",
+      "usuario": "Assucena"
+    },
+    {
       "id": 1164,
       "item_id": 361,
       "produto_nome": "AZITROMICINA COMPRIMIDO",
@@ -22374,21 +22389,6 @@
       "obs": "",
       "criado_em": "2026-08-24 14:34:19",
       "item": "Succinil 100mg",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 665,
-      "item_id": 11,
-      "produto_nome": "Midazolam 5mg/ml 10ml",
-      "tipo": "Farmácia para Outro destino",
-      "origem": "Farmácia",
-      "destino": "Outro destino",
-      "quantidade": 11,
-      "responsavel": "Leiliana",
-      "data": "2026-08-24",
-      "obs": "",
-      "criado_em": "2026-08-24 14:34:02",
-      "item": "Midazolam 5mg/ml 10ml",
       "usuario": "Leiliana"
     }
   ]
