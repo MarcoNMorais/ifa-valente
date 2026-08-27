@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "27/08/2026 16:28:26",
+  "atualizado_em": "27/08/2026 16:28:38",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
     "total_almoxarifado": 87814,
-    "total_farmacia": 26961,
-    "total_geral": 114775,
+    "total_farmacia": 26955,
+    "total_geral": 114769,
     "perto_de_terminar": 0,
     "zerados": 11
   },
@@ -3071,19 +3071,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 67,
+      "farmacia": 61,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 67,
+      "total": 61,
       "minimo": 0,
       "validade": "2028-01",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-27 11:06:38",
+      "atualizado_em": "2026-08-27 16:28:37",
       "validade_mais_proxima": "2028-01",
       "vencimento_mais_proximo": "2028-01",
       "lotes_validade": [
@@ -3091,7 +3091,7 @@
           "local": "farmacia",
           "validade": "2028-01",
           "lote": "",
-          "quantidade": 67
+          "quantidade": 61
         }
       ],
       "minimo_manual": 0,
@@ -3099,9 +3099,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 15,
-      "media_diaria_saida": 17.4,
-      "total_saida_historica": 261,
-      "cobertura_dias": 3.9,
+      "media_diaria_saida": 17.8,
+      "total_saida_historica": 267,
+      "cobertura_dias": 3.4,
       "alerta_estoque": false
     },
     {
@@ -15498,6 +15498,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 1199,
+      "item_id": 59,
+      "produto_nome": "Ceftriaxona 1g",
+      "tipo": "Farmácia para Outro destino",
+      "origem": "Farmácia",
+      "destino": "Outro destino",
+      "quantidade": 6,
+      "responsavel": "Assucena",
+      "data": "2026-08-26",
+      "obs": "",
+      "criado_em": "2026-08-27 16:28:37",
+      "item": "Ceftriaxona 1g",
+      "usuario": "Assucena"
+    },
+    {
       "id": 1198,
       "item_id": 98,
       "produto_nome": "Scalp nº 23",
@@ -22980,21 +22995,6 @@
       "obs": "",
       "criado_em": "2026-08-24 14:49:24",
       "item": "Fita cirúrgica microporosa",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 699,
-      "item_id": 180,
-      "produto_nome": "Luva de látex tam. P",
-      "tipo": "Farmácia para Outro destino",
-      "origem": "Farmácia",
-      "destino": "Outro destino",
-      "quantidade": 2,
-      "responsavel": "Leiliana",
-      "data": "2026-08-24",
-      "obs": "",
-      "criado_em": "2026-08-24 14:49:06",
-      "item": "Luva de látex tam. P",
       "usuario": "Leiliana"
     }
   ]
