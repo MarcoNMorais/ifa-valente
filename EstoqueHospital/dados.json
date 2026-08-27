@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "27/08/2026 16:26:24",
+  "atualizado_em": "27/08/2026 16:27:48",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
-    "total_almoxarifado": 87830,
-    "total_farmacia": 26967,
+    "total_almoxarifado": 87814,
+    "total_farmacia": 26983,
     "total_geral": 114797,
     "perto_de_terminar": 0,
     "zerados": 11
@@ -8228,8 +8228,8 @@
       "nome": "LENÇOL DESCARTAVEL PAPEL",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 100,
-      "farmacia": 0,
+      "almoxarifado": 84,
+      "farmacia": 16,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -8241,7 +8241,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-08-27 16:26:04",
+      "atualizado_em": "2026-08-27 16:27:48",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -8249,7 +8249,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 100
+          "quantidade": 84
+        },
+        {
+          "local": "farmacia",
+          "validade": "",
+          "lote": "",
+          "quantidade": 16
         }
       ],
       "minimo_manual": 50,
@@ -15491,6 +15497,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 1196,
+      "item_id": 376,
+      "produto_nome": "LENÇOL DESCARTAVEL PAPEL",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 16,
+      "responsavel": "Assucena",
+      "data": "2026-08-26",
+      "obs": "",
+      "criado_em": "2026-08-27 16:27:48",
+      "item": "LENÇOL DESCARTAVEL PAPEL",
+      "usuario": "Assucena"
+    },
     {
       "id": 1195,
       "item_id": 287,
@@ -22974,21 +22995,6 @@
       "obs": "",
       "criado_em": "2026-08-24 14:47:03",
       "item": "Seringa 3ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 696,
-      "item_id": 103,
-      "produto_nome": "Seringa 10ml",
-      "tipo": "Farmácia para Outro destino",
-      "origem": "Farmácia",
-      "destino": "Outro destino",
-      "quantidade": 40,
-      "responsavel": "Leiliana",
-      "data": "2026-08-24",
-      "obs": "",
-      "criado_em": "2026-08-24 14:46:47",
-      "item": "Seringa 10ml",
       "usuario": "Leiliana"
     }
   ]
