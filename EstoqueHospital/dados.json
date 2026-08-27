@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "27/08/2026 11:18:03",
+  "atualizado_em": "27/08/2026 11:18:12",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 352,
-    "total_almoxarifado": 87747,
-    "total_farmacia": 26450,
+    "total_almoxarifado": 87746,
+    "total_farmacia": 26451,
     "total_geral": 114197,
     "perto_de_terminar": 0,
     "zerados": 11
@@ -62,8 +62,8 @@
       "nome": "ABAIXADOR DE LINGUA PCT COM 100UN",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 1,
-      "farmacia": 0,
+      "almoxarifado": 0,
+      "farmacia": 1,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -75,12 +75,12 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-08-27 11:17:58",
+      "atualizado_em": "2026-08-27 11:18:07",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
         {
-          "local": "almoxarifado",
+          "local": "farmacia",
           "validade": "",
           "lote": "",
           "quantidade": 1
@@ -14532,6 +14532,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 1145,
+      "item_id": 352,
+      "produto_nome": "ABAIXADOR DE LINGUA PCT COM 100UN",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 1,
+      "responsavel": "Assucena",
+      "data": "2026-08-26",
+      "obs": "",
+      "criado_em": "2026-08-27 11:18:07",
+      "item": "ABAIXADOR DE LINGUA PCT COM 100UN",
+      "usuario": "Assucena"
+    },
+    {
       "id": 1144,
       "item_id": 352,
       "produto_nome": "ABAIXADOR DE LINGUA PCT COM 100UN",
@@ -22014,21 +22029,6 @@
       "obs": "",
       "criado_em": "2026-08-24 14:23:28",
       "item": "Luva de látex tam. G",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 645,
-      "item_id": 181,
-      "produto_nome": "Luva de látex tam. M",
-      "tipo": "Farmácia para Outro destino",
-      "origem": "Farmácia",
-      "destino": "Outro destino",
-      "quantidade": 1,
-      "responsavel": "Leiliana",
-      "data": "2026-08-24",
-      "obs": "",
-      "criado_em": "2026-08-24 14:20:19",
-      "item": "Luva de látex tam. M",
       "usuario": "Leiliana"
     }
   ]
