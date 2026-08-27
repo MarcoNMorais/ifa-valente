@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "27/08/2026 11:36:32",
+  "atualizado_em": "27/08/2026 11:36:42",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 365,
-    "total_almoxarifado": 87748,
-    "total_farmacia": 26899,
+    "total_almoxarifado": 87746,
+    "total_farmacia": 26901,
     "total_geral": 114647,
     "perto_de_terminar": 0,
     "zerados": 11
@@ -6574,8 +6574,8 @@
       "nome": "FORMOL 1L",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 2,
-      "farmacia": 0,
+      "almoxarifado": 0,
+      "farmacia": 2,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -6587,12 +6587,12 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-08-27 11:36:27",
+      "atualizado_em": "2026-08-27 11:36:34",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
         {
-          "local": "almoxarifado",
+          "local": "farmacia",
           "validade": "",
           "lote": "",
           "quantidade": 2
@@ -15052,6 +15052,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 1173,
+      "item_id": 365,
+      "produto_nome": "FORMOL 1L",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 2,
+      "responsavel": "Assucena",
+      "data": "2026-08-26",
+      "obs": "",
+      "criado_em": "2026-08-27 11:36:34",
+      "item": "FORMOL 1L",
+      "usuario": "Assucena"
+    },
+    {
       "id": 1172,
       "item_id": 365,
       "produto_nome": "FORMOL 1L",
@@ -22534,21 +22549,6 @@
       "obs": "",
       "criado_em": "2026-08-24 14:37:26",
       "item": "Benzilpenicilina 1.200",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 673,
-      "item_id": 267,
-      "produto_nome": "Transamin 250mg CPR",
-      "tipo": "Farmácia para Outro destino",
-      "origem": "Farmácia",
-      "destino": "Outro destino",
-      "quantidade": 9,
-      "responsavel": "Leiliana",
-      "data": "2026-08-24",
-      "obs": "",
-      "criado_em": "2026-08-24 14:37:09",
-      "item": "Transamin 250mg CPR",
       "usuario": "Leiliana"
     }
   ]
