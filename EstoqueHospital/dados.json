@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "27/08/2026 16:29:05",
+  "atualizado_em": "27/08/2026 16:29:17",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
     "total_almoxarifado": 87814,
-    "total_farmacia": 26944,
-    "total_geral": 114758,
+    "total_farmacia": 26924,
+    "total_geral": 114738,
     "perto_de_terminar": 0,
     "zerados": 11
   },
@@ -11632,19 +11632,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 1500,
-      "farmacia": 285,
+      "farmacia": 265,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1785,
+      "total": 1765,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-08-27 11:02:25",
+      "atualizado_em": "2026-08-27 16:29:17",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -11658,7 +11658,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 285
+          "quantidade": 265
         }
       ],
       "minimo_manual": 0,
@@ -11666,9 +11666,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 15,
-      "media_diaria_saida": 22.0,
-      "total_saida_historica": 330,
-      "cobertura_dias": 81.1,
+      "media_diaria_saida": 23.33,
+      "total_saida_historica": 350,
+      "cobertura_dias": 75.6,
       "alerta_estoque": false
     },
     {
@@ -15497,6 +15497,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 1202,
+      "item_id": 102,
+      "produto_nome": "Seringa 5ml",
+      "tipo": "Farmácia para Outro destino",
+      "origem": "Farmácia",
+      "destino": "Outro destino",
+      "quantidade": 20,
+      "responsavel": "Assucena",
+      "data": "2026-08-26",
+      "obs": "",
+      "criado_em": "2026-08-27 16:29:17",
+      "item": "Seringa 5ml",
+      "usuario": "Assucena"
+    },
     {
       "id": 1201,
       "item_id": 204,
@@ -22980,21 +22995,6 @@
       "obs": "",
       "criado_em": "2026-08-24 14:51:56",
       "item": "Luva de látex tam. P",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 702,
-      "item_id": 181,
-      "produto_nome": "Luva de látex tam. M",
-      "tipo": "Farmácia para Outro destino",
-      "origem": "Farmácia",
-      "destino": "Outro destino",
-      "quantidade": 1,
-      "responsavel": "Leiliana",
-      "data": "2026-08-24",
-      "obs": "",
-      "criado_em": "2026-08-24 14:50:35",
-      "item": "Luva de látex tam. M",
       "usuario": "Leiliana"
     }
   ]
