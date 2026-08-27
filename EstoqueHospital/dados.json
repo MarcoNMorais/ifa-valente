@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "27/08/2026 11:22:10",
+  "atualizado_em": "27/08/2026 11:22:39",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 355,
-    "total_almoxarifado": 87746,
+    "total_almoxarifado": 87756,
     "total_farmacia": 26506,
-    "total_geral": 114252,
+    "total_geral": 114262,
     "perto_de_terminar": 0,
     "zerados": 11
   },
@@ -2458,23 +2458,29 @@
       "nome": "BOLSA PARA COLOSTOMIA DESCARTAVEL",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 0,
+      "almoxarifado": 10,
       "farmacia": 52,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 52,
+      "total": 62,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-08-27 11:22:08",
+      "atualizado_em": "2026-08-27 11:22:38",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
+        {
+          "local": "almoxarifado",
+          "validade": "",
+          "lote": "",
+          "quantidade": 10
+        },
         {
           "local": "farmacia",
           "validade": "",
@@ -14652,6 +14658,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 1152,
+      "item_id": 355,
+      "produto_nome": "BOLSA PARA COLOSTOMIA DESCARTAVEL",
+      "tipo": "Entrada no Almoxarifado",
+      "origem": "Entrada externa",
+      "destino": "Almoxarifado",
+      "quantidade": 10,
+      "responsavel": "Assucena",
+      "data": "2026-08-26",
+      "obs": "",
+      "criado_em": "2026-08-27 11:22:38",
+      "item": "BOLSA PARA COLOSTOMIA DESCARTAVEL",
+      "usuario": "Assucena"
+    },
+    {
       "id": 1151,
       "item_id": 355,
       "produto_nome": "BOLSA PARA COLOSTOMIA DESCARTAVEL",
@@ -22134,21 +22155,6 @@
       "obs": "",
       "criado_em": "2026-08-24 14:28:14",
       "item": "Ondansetrona 2mg/ml 2ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 652,
-      "item_id": 61,
-      "produto_nome": "Cetoprofeno IM 50mg",
-      "tipo": "Farmácia para Outro destino",
-      "origem": "Farmácia",
-      "destino": "Outro destino",
-      "quantidade": 30,
-      "responsavel": "Leiliana",
-      "data": "2026-08-24",
-      "obs": "",
-      "criado_em": "2026-08-24 14:27:30",
-      "item": "Cetoprofeno IM 50mg",
       "usuario": "Leiliana"
     }
   ]
