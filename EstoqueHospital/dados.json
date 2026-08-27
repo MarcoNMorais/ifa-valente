@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "27/08/2026 11:28:37",
+  "atualizado_em": "27/08/2026 11:28:47",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 359,
-    "total_almoxarifado": 87758,
-    "total_farmacia": 26673,
+    "total_almoxarifado": 87746,
+    "total_farmacia": 26685,
     "total_geral": 114431,
     "perto_de_terminar": 0,
     "zerados": 11
@@ -1669,8 +1669,8 @@
       "nome": "ATDURA ALGODÃO 15CM",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 12,
-      "farmacia": 0,
+      "almoxarifado": 0,
+      "farmacia": 12,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -1682,12 +1682,12 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-08-27 11:28:31",
+      "atualizado_em": "2026-08-27 11:28:38",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
         {
-          "local": "almoxarifado",
+          "local": "farmacia",
           "validade": "",
           "lote": "",
           "quantidade": 12
@@ -14812,6 +14812,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 1161,
+      "item_id": 359,
+      "produto_nome": "ATDURA ALGODÃO 15CM",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 12,
+      "responsavel": "Assucena",
+      "data": "2026-08-26",
+      "obs": "",
+      "criado_em": "2026-08-27 11:28:38",
+      "item": "ATDURA ALGODÃO 15CM",
+      "usuario": "Assucena"
+    },
+    {
       "id": 1160,
       "item_id": 359,
       "produto_nome": "ATDURA ALGODÃO 15CM",
@@ -22294,21 +22309,6 @@
       "obs": "",
       "criado_em": "2026-08-24 14:32:57",
       "item": "Nitroglicerina 5mg/ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 661,
-      "item_id": 73,
-      "produto_nome": "Epinefrina 1mg",
-      "tipo": "Farmácia para Outro destino",
-      "origem": "Farmácia",
-      "destino": "Outro destino",
-      "quantidade": 9,
-      "responsavel": "Leiliana",
-      "data": "2026-08-24",
-      "obs": "",
-      "criado_em": "2026-08-24 14:32:45",
-      "item": "Epinefrina 1mg",
       "usuario": "Leiliana"
     }
   ]
