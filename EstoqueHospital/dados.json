@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "27/08/2026 11:02:39",
+  "atualizado_em": "27/08/2026 11:03:05",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 349,
     "total_almoxarifado": 87746,
-    "total_farmacia": 26809,
-    "total_geral": 114555,
+    "total_farmacia": 26688,
+    "total_geral": 114434,
     "perto_de_terminar": 0,
     "zerados": 11
   },
@@ -595,19 +595,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 520,
+      "farmacia": 400,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 520,
+      "total": 400,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-26 10:16:06",
+      "atualizado_em": "2026-08-27 11:03:01",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -615,7 +615,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 520
+          "quantidade": 400
         }
       ],
       "minimo_manual": 0,
@@ -623,9 +623,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 15,
-      "media_diaria_saida": 42.0,
-      "total_saida_historica": 630,
-      "cobertura_dias": 12.4,
+      "media_diaria_saida": 50.0,
+      "total_saida_historica": 750,
+      "cobertura_dias": 8.0,
       "alerta_estoque": false
     },
     {
@@ -2579,19 +2579,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 40,
+      "farmacia": 39,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 40,
+      "total": 39,
       "minimo": 0,
       "validade": "2027-09",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-25 16:12:46",
+      "atualizado_em": "2026-08-27 11:02:45",
       "validade_mais_proxima": "2027-09",
       "vencimento_mais_proximo": "2027-09",
       "lotes_validade": [
@@ -2599,7 +2599,7 @@
           "local": "farmacia",
           "validade": "2027-09",
           "lote": "",
-          "quantidade": 40
+          "quantidade": 39
         }
       ],
       "minimo_manual": 0,
@@ -2607,9 +2607,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 15,
-      "media_diaria_saida": 13.33,
-      "total_saida_historica": 200,
-      "cobertura_dias": 3.0,
+      "media_diaria_saida": 13.4,
+      "total_saida_historica": 201,
+      "cobertura_dias": 2.9,
       "alerta_estoque": false
     },
     {
@@ -14412,6 +14412,51 @@
   ],
   "movimentacoes": [
     {
+      "id": 1118,
+      "item_id": 187,
+      "produto_nome": "Agulha hipodérmica tam. 18",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 60,
+      "responsavel": "Assucena",
+      "data": "2026-08-26",
+      "obs": "",
+      "criado_em": "2026-08-27 11:03:01",
+      "item": "Agulha hipodérmica tam. 18",
+      "usuario": "Assucena"
+    },
+    {
+      "id": 1117,
+      "item_id": 187,
+      "produto_nome": "Agulha hipodérmica tam. 18",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 60,
+      "responsavel": "Assucena",
+      "data": "2026-08-26",
+      "obs": "",
+      "criado_em": "2026-08-27 11:03:01",
+      "item": "Agulha hipodérmica tam. 18",
+      "usuario": "Assucena"
+    },
+    {
+      "id": 1116,
+      "item_id": 138,
+      "produto_nome": "Captopril 25mg CPR",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 1,
+      "responsavel": "Assucena",
+      "data": "2026-08-26",
+      "obs": "",
+      "criado_em": "2026-08-27 11:02:45",
+      "item": "Captopril 25mg CPR",
+      "usuario": "Assucena"
+    },
+    {
       "id": 1115,
       "item_id": 257,
       "produto_nome": "Brometo de ipratrópio gotas",
@@ -21864,51 +21909,6 @@
       "obs": "",
       "criado_em": "2026-08-24 14:04:44",
       "item": "Scalp nº 23",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 618,
-      "item_id": 99,
-      "produto_nome": "Scalp nº 21",
-      "tipo": "Farmácia para Outro destino",
-      "origem": "Farmácia",
-      "destino": "Outro destino",
-      "quantidade": 6,
-      "responsavel": "Leiliana",
-      "data": "2026-08-24",
-      "obs": "",
-      "criado_em": "2026-08-24 14:04:29",
-      "item": "Scalp nº 21",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 617,
-      "item_id": 76,
-      "produto_nome": "Escopolamina + Dipirona",
-      "tipo": "Farmácia para Outro destino",
-      "origem": "Farmácia",
-      "destino": "Outro destino",
-      "quantidade": 15,
-      "responsavel": "Leiliana",
-      "data": "2026-08-24",
-      "obs": "",
-      "criado_em": "2026-08-24 14:03:54",
-      "item": "Escopolamina + Dipirona",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 616,
-      "item_id": 70,
-      "produto_nome": "Dipirona",
-      "tipo": "Farmácia para Outro destino",
-      "origem": "Farmácia",
-      "destino": "Outro destino",
-      "quantidade": 30,
-      "responsavel": "Leiliana",
-      "data": "2026-08-24",
-      "obs": "",
-      "criado_em": "2026-08-24 14:03:29",
-      "item": "Dipirona",
       "usuario": "Leiliana"
     }
   ]
