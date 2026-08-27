@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "27/08/2026 11:45:08",
+  "atualizado_em": "27/08/2026 11:45:19",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 375,
-    "total_almoxarifado": 87753,
-    "total_farmacia": 26944,
+    "total_almoxarifado": 87746,
+    "total_farmacia": 26951,
     "total_geral": 114697,
     "perto_de_terminar": 0,
     "zerados": 11
@@ -5538,8 +5538,8 @@
       "nome": "ESPECULO TAM G",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 7,
-      "farmacia": 0,
+      "almoxarifado": 0,
+      "farmacia": 7,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -5551,12 +5551,12 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-08-27 11:45:07",
+      "atualizado_em": "2026-08-27 11:45:12",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
         {
-          "local": "almoxarifado",
+          "local": "farmacia",
           "validade": "",
           "lote": "",
           "quantidade": 7
@@ -15452,6 +15452,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 1193,
+      "item_id": 375,
+      "produto_nome": "ESPECULO TAM G",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 7,
+      "responsavel": "Assucena",
+      "data": "2026-08-26",
+      "obs": "",
+      "criado_em": "2026-08-27 11:45:12",
+      "item": "ESPECULO TAM G",
+      "usuario": "Assucena"
+    },
+    {
       "id": 1192,
       "item_id": 375,
       "produto_nome": "ESPECULO TAM G",
@@ -22934,21 +22949,6 @@
       "obs": "",
       "criado_em": "2026-08-24 14:46:15",
       "item": "Simeticona gotas",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 693,
-      "item_id": 249,
-      "produto_nome": "Prednisolona 3mg/ml",
-      "tipo": "Farmácia para Outro destino",
-      "origem": "Farmácia",
-      "destino": "Outro destino",
-      "quantidade": 1,
-      "responsavel": "Leiliana",
-      "data": "2026-08-24",
-      "obs": "",
-      "criado_em": "2026-08-24 14:46:01",
-      "item": "Prednisolona 3mg/ml",
       "usuario": "Leiliana"
     }
   ]
