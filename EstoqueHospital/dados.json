@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "27/08/2026 10:55:05",
+  "atualizado_em": "27/08/2026 10:55:15",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 349,
-    "total_almoxarifado": 87856,
-    "total_farmacia": 27333,
+    "total_almoxarifado": 87836,
+    "total_farmacia": 27353,
     "total_geral": 115189,
     "perto_de_terminar": 0,
     "zerados": 11
@@ -1497,8 +1497,8 @@
       "nome": "Atadura gessada nº 10",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 160,
-      "farmacia": 25,
+      "almoxarifado": 140,
+      "farmacia": 45,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -1510,7 +1510,7 @@
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-25 16:12:46",
+      "atualizado_em": "2026-08-27 10:55:13",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -1518,13 +1518,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 160
+          "quantidade": 140
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 25
+          "quantidade": 45
         }
       ],
       "minimo_manual": 0,
@@ -14394,6 +14394,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 1097,
+      "item_id": 196,
+      "produto_nome": "Atadura gessada nº 10",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 20,
+      "responsavel": "Assucena",
+      "data": "2026-08-26",
+      "obs": "",
+      "criado_em": "2026-08-27 10:55:13",
+      "item": "Atadura gessada nº 10",
+      "usuario": "Assucena"
+    },
+    {
       "id": 1096,
       "item_id": 103,
       "produto_nome": "Seringa 10ml",
@@ -21876,21 +21891,6 @@
       "obs": "",
       "criado_em": "2026-08-24 11:37:03",
       "item": "Soro fisiológico 100ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 535,
-      "item_id": 204,
-      "produto_nome": "Soro fisiológico 500ml",
-      "tipo": "Almoxarifado para Farmácia",
-      "origem": "Almoxarifado",
-      "destino": "Farmácia",
-      "quantidade": 60,
-      "responsavel": "Assucena",
-      "data": "2026-08-21",
-      "obs": "",
-      "criado_em": "2026-08-24 11:36:36",
-      "item": "Soro fisiológico 500ml",
       "usuario": "Assucena"
     }
   ]
