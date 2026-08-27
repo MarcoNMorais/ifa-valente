@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "27/08/2026 11:01:19",
+  "atualizado_em": "27/08/2026 11:01:29",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 349,
     "total_almoxarifado": 87766,
-    "total_farmacia": 26848,
-    "total_geral": 114614,
+    "total_farmacia": 26845,
+    "total_geral": 114611,
     "perto_de_terminar": 0,
     "zerados": 11
   },
@@ -5007,19 +5007,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 100,
-      "farmacia": 20,
+      "farmacia": 17,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 120,
+      "total": 117,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga Almoxerifado",
       "obs": "Importação Almoxerifado",
-      "atualizado_em": "2026-08-27 11:01:18",
+      "atualizado_em": "2026-08-27 11:01:28",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -5033,7 +5033,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 20
+          "quantidade": 17
         }
       ],
       "minimo_manual": 0,
@@ -5041,9 +5041,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 10,
-      "media_diaria_saida": 0.0,
-      "total_saida_historica": 0,
-      "cobertura_dias": null,
+      "media_diaria_saida": 0.3,
+      "total_saida_historica": 3,
+      "cobertura_dias": 390.0,
       "alerta_estoque": false
     },
     {
@@ -14406,6 +14406,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 1109,
+      "item_id": 276,
+      "produto_nome": "Esparadrapo 10x4,5",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 3,
+      "responsavel": "Assucena",
+      "data": "2026-08-26",
+      "obs": "",
+      "criado_em": "2026-08-27 11:01:28",
+      "item": "Esparadrapo 10x4,5",
+      "usuario": "Assucena"
+    },
+    {
       "id": 1108,
       "item_id": 276,
       "produto_nome": "Esparadrapo 10x4,5",
@@ -21888,21 +21903,6 @@
       "obs": "",
       "criado_em": "2026-08-24 14:01:36",
       "item": "Ambroxol 15mg/5ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 609,
-      "item_id": 59,
-      "produto_nome": "Ceftriaxona 1g",
-      "tipo": "Farmácia para Outro destino",
-      "origem": "Farmácia",
-      "destino": "Outro destino",
-      "quantidade": 44,
-      "responsavel": "Leiliana",
-      "data": "2026-08-24",
-      "obs": "",
-      "criado_em": "2026-08-24 14:00:44",
-      "item": "Ceftriaxona 1g",
       "usuario": "Leiliana"
     }
   ]
