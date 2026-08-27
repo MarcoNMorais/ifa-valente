@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "27/08/2026 11:01:50",
+  "atualizado_em": "27/08/2026 11:02:01",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 349,
     "total_almoxarifado": 87746,
-    "total_farmacia": 26865,
-    "total_geral": 114611,
+    "total_farmacia": 26860,
+    "total_geral": 114606,
     "perto_de_terminar": 0,
     "zerados": 11
   },
@@ -2619,19 +2619,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 190,
-      "farmacia": 20,
+      "farmacia": 15,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 210,
+      "total": 205,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga Almoxerifado",
       "obs": "Importação Almoxerifado",
-      "atualizado_em": "2026-08-27 11:01:50",
+      "atualizado_em": "2026-08-27 11:01:57",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -2645,7 +2645,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 20
+          "quantidade": 15
         }
       ],
       "minimo_manual": 0,
@@ -2653,9 +2653,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 10,
-      "media_diaria_saida": 0.0,
-      "total_saida_historica": 0,
-      "cobertura_dias": null,
+      "media_diaria_saida": 0.5,
+      "total_saida_historica": 5,
+      "cobertura_dias": 410.0,
       "alerta_estoque": false
     },
     {
@@ -14412,6 +14412,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 1111,
+      "item_id": 291,
+      "produto_nome": "Cateter tipo óculos adulto",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 5,
+      "responsavel": "Assucena",
+      "data": "2026-08-26",
+      "obs": "",
+      "criado_em": "2026-08-27 11:01:57",
+      "item": "Cateter tipo óculos adulto",
+      "usuario": "Assucena"
+    },
+    {
       "id": 1110,
       "item_id": 291,
       "produto_nome": "Cateter tipo óculos adulto",
@@ -21894,21 +21909,6 @@
       "obs": "",
       "criado_em": "2026-08-24 14:02:16",
       "item": "Cetoprofeno EV 100mg",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 611,
-      "item_id": 128,
-      "produto_nome": "Sinvastatina 20mg CPR",
-      "tipo": "Farmácia para Outro destino",
-      "origem": "Farmácia",
-      "destino": "Outro destino",
-      "quantidade": 20,
-      "responsavel": "Leiliana",
-      "data": "2026-08-24",
-      "obs": "",
-      "criado_em": "2026-08-24 14:01:58",
-      "item": "Sinvastatina 20mg CPR",
       "usuario": "Leiliana"
     }
   ]
