@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "27/08/2026 10:55:15",
+  "atualizado_em": "27/08/2026 10:58:01",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 349,
-    "total_almoxarifado": 87836,
-    "total_farmacia": 27353,
+    "total_almoxarifado": 87786,
+    "total_farmacia": 27403,
     "total_geral": 115189,
     "perto_de_terminar": 0,
     "zerados": 11
@@ -12883,8 +12883,8 @@
       "nome": "Soro fisiológico 250ml",
       "tipo": "Insumo",
       "unidade": "Unidade",
-      "almoxarifado": 700,
-      "farmacia": 0,
+      "almoxarifado": 650,
+      "farmacia": 50,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -12896,7 +12896,7 @@
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-25 16:28:07",
+      "atualizado_em": "2026-08-27 10:58:01",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -12904,7 +12904,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 700
+          "quantidade": 650
+        },
+        {
+          "local": "farmacia",
+          "validade": "",
+          "lote": "",
+          "quantidade": 50
         }
       ],
       "minimo_manual": 0,
@@ -14393,6 +14399,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 1098,
+      "item_id": 203,
+      "produto_nome": "Soro fisiológico 250ml",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 50,
+      "responsavel": "Assucena",
+      "data": "2026-08-26",
+      "obs": "",
+      "criado_em": "2026-08-27 10:58:01",
+      "item": "Soro fisiológico 250ml",
+      "usuario": "Assucena"
+    },
     {
       "id": 1097,
       "item_id": 196,
@@ -21876,21 +21897,6 @@
       "obs": "",
       "criado_em": "2026-08-24 12:07:36",
       "item": "Acesso Central",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 536,
-      "item_id": 202,
-      "produto_nome": "Soro fisiológico 100ml",
-      "tipo": "Almoxarifado para Farmácia",
-      "origem": "Almoxarifado",
-      "destino": "Farmácia",
-      "quantidade": 240,
-      "responsavel": "Assucena",
-      "data": "2026-08-21",
-      "obs": "",
-      "criado_em": "2026-08-24 11:37:03",
-      "item": "Soro fisiológico 100ml",
       "usuario": "Assucena"
     }
   ]
