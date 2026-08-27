@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "27/08/2026 11:22:39",
+  "atualizado_em": "27/08/2026 11:22:48",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 355,
-    "total_almoxarifado": 87756,
-    "total_farmacia": 26506,
+    "total_almoxarifado": 87746,
+    "total_farmacia": 26516,
     "total_geral": 114262,
     "perto_de_terminar": 0,
     "zerados": 11
@@ -2458,8 +2458,8 @@
       "nome": "BOLSA PARA COLOSTOMIA DESCARTAVEL",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 10,
-      "farmacia": 52,
+      "almoxarifado": 0,
+      "farmacia": 62,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -2471,21 +2471,15 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-08-27 11:22:38",
+      "atualizado_em": "2026-08-27 11:22:43",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
         {
-          "local": "almoxarifado",
-          "validade": "",
-          "lote": "",
-          "quantidade": 10
-        },
-        {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 52
+          "quantidade": 62
         }
       ],
       "minimo_manual": 0,
@@ -14658,6 +14652,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 1153,
+      "item_id": 355,
+      "produto_nome": "BOLSA PARA COLOSTOMIA DESCARTAVEL",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 10,
+      "responsavel": "Assucena",
+      "data": "2026-08-26",
+      "obs": "",
+      "criado_em": "2026-08-27 11:22:43",
+      "item": "BOLSA PARA COLOSTOMIA DESCARTAVEL",
+      "usuario": "Assucena"
+    },
+    {
       "id": 1152,
       "item_id": 355,
       "produto_nome": "BOLSA PARA COLOSTOMIA DESCARTAVEL",
@@ -22140,21 +22149,6 @@
       "obs": "",
       "criado_em": "2026-08-24 14:28:35",
       "item": "Seringa 3ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 653,
-      "item_id": 238,
-      "produto_nome": "Ondansetrona 2mg/ml 2ml",
-      "tipo": "Farmácia para Outro destino",
-      "origem": "Farmácia",
-      "destino": "Outro destino",
-      "quantidade": 40,
-      "responsavel": "Leiliana",
-      "data": "2026-08-24",
-      "obs": "",
-      "criado_em": "2026-08-24 14:28:14",
-      "item": "Ondansetrona 2mg/ml 2ml",
       "usuario": "Leiliana"
     }
   ]
