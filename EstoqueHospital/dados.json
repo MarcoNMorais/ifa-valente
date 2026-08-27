@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "27/08/2026 11:06:24",
+  "atualizado_em": "27/08/2026 11:06:34",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 349,
     "total_almoxarifado": 87746,
-    "total_farmacia": 26384,
-    "total_geral": 114130,
+    "total_farmacia": 26374,
+    "total_geral": 114120,
     "perto_de_terminar": 0,
     "zerados": 11
   },
@@ -4066,19 +4066,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 240,
+      "farmacia": 230,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 240,
+      "total": 230,
       "minimo": 0,
       "validade": "2027-03",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-27 10:59:42",
+      "atualizado_em": "2026-08-27 11:06:26",
       "validade_mais_proxima": "2027-03",
       "vencimento_mais_proximo": "2027-03",
       "lotes_validade": [
@@ -4086,7 +4086,7 @@
           "local": "farmacia",
           "validade": "2027-03",
           "lote": "",
-          "quantidade": 240
+          "quantidade": 230
         }
       ],
       "minimo_manual": 0,
@@ -4094,9 +4094,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 15,
-      "media_diaria_saida": 52.0,
-      "total_saida_historica": 780,
-      "cobertura_dias": 4.6,
+      "media_diaria_saida": 52.67,
+      "total_saida_historica": 790,
+      "cobertura_dias": 4.4,
       "alerta_estoque": false
     },
     {
@@ -14412,6 +14412,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 1135,
+      "item_id": 70,
+      "produto_nome": "Dipirona",
+      "tipo": "Farmácia para Posto de Internamento",
+      "origem": "Farmácia",
+      "destino": "Posto de Internamento",
+      "quantidade": 10,
+      "responsavel": "Assucena",
+      "data": "2026-08-26",
+      "obs": "",
+      "criado_em": "2026-08-27 11:06:26",
+      "item": "Dipirona",
+      "usuario": "Assucena"
+    },
+    {
       "id": 1134,
       "item_id": 78,
       "produto_nome": "Furosemida",
@@ -21894,21 +21909,6 @@
       "obs": "",
       "criado_em": "2026-08-24 14:17:03",
       "item": "Omeprazol sódico 40mg AMP",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 635,
-      "item_id": 185,
-      "produto_nome": "Luva cirúrgica tam. 7,5",
-      "tipo": "Farmácia para Outro destino",
-      "origem": "Farmácia",
-      "destino": "Outro destino",
-      "quantidade": 7,
-      "responsavel": "Leiliana",
-      "data": "2026-08-24",
-      "obs": "",
-      "criado_em": "2026-08-24 14:16:35",
-      "item": "Luva cirúrgica tam. 7,5",
       "usuario": "Leiliana"
     }
   ]
