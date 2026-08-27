@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "27/08/2026 16:28:38",
+  "atualizado_em": "27/08/2026 16:28:52",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
     "total_almoxarifado": 87814,
-    "total_farmacia": 26955,
-    "total_geral": 114769,
+    "total_farmacia": 26954,
+    "total_geral": 114768,
     "perto_de_terminar": 0,
     "zerados": 11
   },
@@ -2739,19 +2739,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 3,
+      "farmacia": 2,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 3,
+      "total": 2,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-25 16:28:34",
+      "atualizado_em": "2026-08-27 16:28:52",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -2759,7 +2759,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 3
+          "quantidade": 2
         }
       ],
       "minimo_manual": 0,
@@ -2767,9 +2767,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 15,
-      "media_diaria_saida": 0.33,
-      "total_saida_historica": 5,
-      "cobertura_dias": 9.0,
+      "media_diaria_saida": 0.4,
+      "total_saida_historica": 6,
+      "cobertura_dias": 5.0,
       "alerta_estoque": false
     },
     {
@@ -15498,6 +15498,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 1200,
+      "item_id": 200,
+      "produto_nome": "Caixa de perfurocortante",
+      "tipo": "Farmácia para Outro destino",
+      "origem": "Farmácia",
+      "destino": "Outro destino",
+      "quantidade": 1,
+      "responsavel": "Assucena",
+      "data": "2026-08-26",
+      "obs": "",
+      "criado_em": "2026-08-27 16:28:52",
+      "item": "Caixa de perfurocortante",
+      "usuario": "Assucena"
+    },
+    {
       "id": 1199,
       "item_id": 59,
       "produto_nome": "Ceftriaxona 1g",
@@ -22980,21 +22995,6 @@
       "obs": "",
       "criado_em": "2026-08-24 14:49:37",
       "item": "Bolsa coletora",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 700,
-      "item_id": 175,
-      "produto_nome": "Fita cirúrgica microporosa",
-      "tipo": "Farmácia para Outro destino",
-      "origem": "Farmácia",
-      "destino": "Outro destino",
-      "quantidade": 1,
-      "responsavel": "Leiliana",
-      "data": "2026-08-24",
-      "obs": "",
-      "criado_em": "2026-08-24 14:49:24",
-      "item": "Fita cirúrgica microporosa",
       "usuario": "Leiliana"
     }
   ]
