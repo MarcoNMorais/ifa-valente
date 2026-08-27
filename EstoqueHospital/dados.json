@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "27/08/2026 11:06:34",
+  "atualizado_em": "27/08/2026 11:06:44",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 349,
     "total_almoxarifado": 87746,
-    "total_farmacia": 26374,
-    "total_geral": 114120,
+    "total_farmacia": 26356,
+    "total_geral": 114102,
     "perto_de_terminar": 0,
     "zerados": 11
   },
@@ -2831,19 +2831,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 85,
+      "farmacia": 67,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 85,
+      "total": 67,
       "minimo": 0,
       "validade": "2028-01",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-26 16:53:40",
+      "atualizado_em": "2026-08-27 11:06:38",
       "validade_mais_proxima": "2028-01",
       "vencimento_mais_proximo": "2028-01",
       "lotes_validade": [
@@ -2851,7 +2851,7 @@
           "local": "farmacia",
           "validade": "2028-01",
           "lote": "",
-          "quantidade": 85
+          "quantidade": 67
         }
       ],
       "minimo_manual": 0,
@@ -2859,9 +2859,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 15,
-      "media_diaria_saida": 16.2,
-      "total_saida_historica": 243,
-      "cobertura_dias": 5.2,
+      "media_diaria_saida": 17.4,
+      "total_saida_historica": 261,
+      "cobertura_dias": 3.9,
       "alerta_estoque": false
     },
     {
@@ -14412,6 +14412,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 1136,
+      "item_id": 59,
+      "produto_nome": "Ceftriaxona 1g",
+      "tipo": "Farmácia para Posto de Internamento",
+      "origem": "Farmácia",
+      "destino": "Posto de Internamento",
+      "quantidade": 18,
+      "responsavel": "Assucena",
+      "data": "2026-08-26",
+      "obs": "",
+      "criado_em": "2026-08-27 11:06:38",
+      "item": "Ceftriaxona 1g",
+      "usuario": "Assucena"
+    },
+    {
       "id": 1135,
       "item_id": 70,
       "produto_nome": "Dipirona",
@@ -21894,21 +21909,6 @@
       "obs": "",
       "criado_em": "2026-08-24 14:17:17",
       "item": "Soro fisiológico 100ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 636,
-      "item_id": 228,
-      "produto_nome": "Omeprazol sódico 40mg AMP",
-      "tipo": "Farmácia para Outro destino",
-      "origem": "Farmácia",
-      "destino": "Outro destino",
-      "quantidade": 6,
-      "responsavel": "Leiliana",
-      "data": "2026-08-24",
-      "obs": "",
-      "criado_em": "2026-08-24 14:17:03",
-      "item": "Omeprazol sódico 40mg AMP",
       "usuario": "Leiliana"
     }
   ]
