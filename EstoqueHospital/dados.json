@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "27/08/2026 11:06:44",
+  "atualizado_em": "27/08/2026 11:06:52",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 349,
     "total_almoxarifado": 87746,
-    "total_farmacia": 26356,
-    "total_geral": 114102,
+    "total_farmacia": 26355,
+    "total_geral": 114101,
     "perto_de_terminar": 0,
     "zerados": 11
   },
@@ -14376,19 +14376,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 15,
+      "farmacia": 14,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 15,
+      "total": 14,
       "minimo": 0,
       "validade": "05/27",
       "lote": "",
       "origem": "Carga Farmácia 227-288",
       "obs": "Importação Farmácia 227-288",
-      "atualizado_em": "2026-08-26 10:17:51",
+      "atualizado_em": "2026-08-27 11:06:50",
       "validade_mais_proxima": "05/27",
       "vencimento_mais_proximo": "05/27",
       "lotes_validade": [
@@ -14396,7 +14396,7 @@
           "local": "farmacia",
           "validade": "05/27",
           "lote": "",
-          "quantidade": 15
+          "quantidade": 14
         }
       ],
       "minimo_manual": 0,
@@ -14404,13 +14404,28 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 10,
-      "media_diaria_saida": 0.3,
-      "total_saida_historica": 3,
-      "cobertura_dias": 50.0,
+      "media_diaria_saida": 0.4,
+      "total_saida_historica": 4,
+      "cobertura_dias": 35.0,
       "alerta_estoque": false
     }
   ],
   "movimentacoes": [
+    {
+      "id": 1137,
+      "item_id": 242,
+      "produto_nome": "Óleo mineral solução",
+      "tipo": "Farmácia para Posto de Internamento",
+      "origem": "Farmácia",
+      "destino": "Posto de Internamento",
+      "quantidade": 1,
+      "responsavel": "Assucena",
+      "data": "2026-08-26",
+      "obs": "",
+      "criado_em": "2026-08-27 11:06:50",
+      "item": "Óleo mineral solução",
+      "usuario": "Assucena"
+    },
     {
       "id": 1136,
       "item_id": 59,
@@ -21894,21 +21909,6 @@
       "obs": "",
       "criado_em": "2026-08-24 14:18:06",
       "item": "Epinefrina 1mg",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 637,
-      "item_id": 202,
-      "produto_nome": "Soro fisiológico 100ml",
-      "tipo": "Farmácia para Outro destino",
-      "origem": "Farmácia",
-      "destino": "Outro destino",
-      "quantidade": 60,
-      "responsavel": "Leiliana",
-      "data": "2026-08-24",
-      "obs": "",
-      "criado_em": "2026-08-24 14:17:17",
-      "item": "Soro fisiológico 100ml",
       "usuario": "Leiliana"
     }
   ]
