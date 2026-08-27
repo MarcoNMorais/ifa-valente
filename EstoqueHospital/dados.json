@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "27/08/2026 10:58:01",
+  "atualizado_em": "27/08/2026 10:59:28",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 349,
     "total_almoxarifado": 87786,
-    "total_farmacia": 27403,
-    "total_geral": 115189,
+    "total_farmacia": 27383,
+    "total_geral": 115169,
     "perto_de_terminar": 0,
     "zerados": 11
   },
@@ -3728,19 +3728,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 830,
+      "farmacia": 810,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 830,
+      "total": 810,
       "minimo": 0,
       "validade": "2027-10",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-26 16:50:14",
+      "atualizado_em": "2026-08-27 10:59:28",
       "validade_mais_proxima": "2027-10",
       "vencimento_mais_proximo": "2027-10",
       "lotes_validade": [
@@ -3748,7 +3748,7 @@
           "local": "farmacia",
           "validade": "2027-10",
           "lote": "",
-          "quantidade": 830
+          "quantidade": 810
         }
       ],
       "minimo_manual": 0,
@@ -3756,9 +3756,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 15,
-      "media_diaria_saida": 29.33,
-      "total_saida_historica": 440,
-      "cobertura_dias": 28.3,
+      "media_diaria_saida": 30.67,
+      "total_saida_historica": 460,
+      "cobertura_dias": 26.4,
       "alerta_estoque": false
     },
     {
@@ -14400,6 +14400,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 1099,
+      "item_id": 68,
+      "produto_nome": "Dexametasona",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 20,
+      "responsavel": "Assucena",
+      "data": "2026-08-26",
+      "obs": "",
+      "criado_em": "2026-08-27 10:59:28",
+      "item": "Dexametasona",
+      "usuario": "Assucena"
+    },
+    {
       "id": 1098,
       "item_id": 203,
       "produto_nome": "Soro fisiológico 250ml",
@@ -21883,21 +21898,6 @@
       "criado_em": "2026-08-24 13:48:57",
       "item": "Lidocaína",
       "usuario": "Leiliana"
-    },
-    {
-      "id": 599,
-      "item_id": 101,
-      "produto_nome": "Acesso Central",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 2,
-      "responsavel": "Assucena",
-      "data": "2026-08-21",
-      "obs": "",
-      "criado_em": "2026-08-24 12:07:36",
-      "item": "Acesso Central",
-      "usuario": "Assucena"
     }
   ]
 }
