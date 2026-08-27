@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "27/08/2026 16:26:04",
+  "atualizado_em": "27/08/2026 16:26:24",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
-    "total_almoxarifado": 87846,
-    "total_farmacia": 26951,
+    "total_almoxarifado": 87830,
+    "total_farmacia": 26967,
     "total_geral": 114797,
     "perto_de_terminar": 0,
     "zerados": 11
@@ -348,8 +348,8 @@
       "nome": "Agulha 13x4,5",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 1498,
-      "farmacia": 402,
+      "almoxarifado": 1482,
+      "farmacia": 418,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -361,7 +361,7 @@
       "lote": "",
       "origem": "Carga Almoxerifado",
       "obs": "Importação Almoxerifado",
-      "atualizado_em": "2026-08-27 11:29:22",
+      "atualizado_em": "2026-08-27 16:26:24",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -369,13 +369,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 1498
+          "quantidade": 1482
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 402
+          "quantidade": 418
         }
       ],
       "minimo_manual": 0,
@@ -15492,6 +15492,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 1195,
+      "item_id": 287,
+      "produto_nome": "Agulha 13x4,5",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 16,
+      "responsavel": "Assucena",
+      "data": "2026-08-26",
+      "obs": "",
+      "criado_em": "2026-08-27 16:26:24",
+      "item": "Agulha 13x4,5",
+      "usuario": "Assucena"
+    },
+    {
       "id": 1194,
       "item_id": 376,
       "produto_nome": "LENÇOL DESCARTAVEL PAPEL",
@@ -22974,21 +22989,6 @@
       "obs": "",
       "criado_em": "2026-08-24 14:46:47",
       "item": "Seringa 10ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 695,
-      "item_id": 28,
-      "produto_nome": "Dipirona 500mg",
-      "tipo": "Farmácia para Outro destino",
-      "origem": "Farmácia",
-      "destino": "Outro destino",
-      "quantidade": 10,
-      "responsavel": "Leiliana",
-      "data": "2026-08-24",
-      "obs": "",
-      "criado_em": "2026-08-24 14:46:28",
-      "item": "Dipirona 500mg",
       "usuario": "Leiliana"
     }
   ]
