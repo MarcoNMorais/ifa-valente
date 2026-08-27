@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "27/08/2026 11:03:14",
+  "atualizado_em": "27/08/2026 11:03:23",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 349,
     "total_almoxarifado": 87746,
-    "total_farmacia": 26678,
-    "total_geral": 114424,
+    "total_farmacia": 26668,
+    "total_geral": 114414,
     "perto_de_terminar": 0,
     "zerados": 11
   },
@@ -13080,19 +13080,19 @@
       "tipo": "Insumo",
       "unidade": "Unidade",
       "almoxarifado": 216,
-      "farmacia": 73,
+      "farmacia": 63,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 289,
+      "total": 279,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-26 10:10:19",
+      "atualizado_em": "2026-08-27 11:03:23",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -13106,7 +13106,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 73
+          "quantidade": 63
         }
       ],
       "minimo_manual": 0,
@@ -13114,9 +13114,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 15,
-      "media_diaria_saida": 6.33,
-      "total_saida_historica": 95,
-      "cobertura_dias": 45.6,
+      "media_diaria_saida": 7.0,
+      "total_saida_historica": 105,
+      "cobertura_dias": 39.9,
       "alerta_estoque": false
     },
     {
@@ -14411,6 +14411,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 1120,
+      "item_id": 201,
+      "produto_nome": "Soro Ringer Lactato 500ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 10,
+      "responsavel": "Assucena",
+      "data": "2026-08-26",
+      "obs": "",
+      "criado_em": "2026-08-27 11:03:23",
+      "item": "Soro Ringer Lactato 500ml",
+      "usuario": "Assucena"
+    },
     {
       "id": 1119,
       "item_id": 99,
@@ -21894,21 +21909,6 @@
       "obs": "",
       "criado_em": "2026-08-24 14:05:56",
       "item": "Seringa 10ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 620,
-      "item_id": 177,
-      "produto_nome": "Dispositivo intravenoso Gelco nº 22",
-      "tipo": "Farmácia para Outro destino",
-      "origem": "Farmácia",
-      "destino": "Outro destino",
-      "quantidade": 20,
-      "responsavel": "Leiliana",
-      "data": "2026-08-24",
-      "obs": "",
-      "criado_em": "2026-08-24 14:04:58",
-      "item": "Dispositivo intravenoso Gelco nº 22",
       "usuario": "Leiliana"
     }
   ]
