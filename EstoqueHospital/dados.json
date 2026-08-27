@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "27/08/2026 11:40:56",
+  "atualizado_em": "27/08/2026 11:41:05",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
-    "itens": 371,
-    "total_almoxarifado": 87746,
+    "itens": 372,
+    "total_almoxarifado": 87748,
     "total_farmacia": 26910,
-    "total_geral": 114656,
+    "total_geral": 114658,
     "perto_de_terminar": 0,
     "zerados": 11
   },
@@ -3849,6 +3849,46 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 15,
+      "media_diaria_saida": 0.0,
+      "total_saida_historica": 0,
+      "cobertura_dias": null,
+      "alerta_estoque": false
+    },
+    {
+      "id": 372,
+      "produto_id": 373,
+      "nome": "COLAR CERVICAL ESPUMA G",
+      "tipo": "Material",
+      "unidade": "Unidade",
+      "almoxarifado": 2,
+      "farmacia": 0,
+      "sala_medicacoes": 0,
+      "internamento": 0,
+      "sala_cirurgica": 0,
+      "baixa": 0,
+      "outro": 0,
+      "total": 2,
+      "minimo": 0,
+      "validade": "",
+      "lote": "",
+      "origem": "Entrada externa",
+      "obs": "",
+      "atualizado_em": "2026-08-27 11:40:59",
+      "validade_mais_proxima": "",
+      "vencimento_mais_proximo": "",
+      "lotes_validade": [
+        {
+          "local": "almoxarifado",
+          "validade": "",
+          "lote": "",
+          "quantidade": 2
+        }
+      ],
+      "minimo_manual": 0,
+      "minimo_alerta": 0,
+      "previsao_20_dias": 0,
+      "criterio_alerta": "estoque_minimo_manual_inicio",
+      "dias_historico": 2,
       "media_diaria_saida": 0.0,
       "total_saida_historica": 0,
       "cobertura_dias": null,
@@ -15292,6 +15332,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 1186,
+      "item_id": 372,
+      "produto_nome": "COLAR CERVICAL ESPUMA G",
+      "tipo": "Entrada no Almoxarifado",
+      "origem": "Entrada externa",
+      "destino": "Almoxarifado",
+      "quantidade": 2,
+      "responsavel": "Assucena",
+      "data": "2026-08-26",
+      "obs": "",
+      "criado_em": "2026-08-27 11:40:59",
+      "item": "COLAR CERVICAL ESPUMA G",
+      "usuario": "Assucena"
+    },
+    {
       "id": 1185,
       "item_id": 371,
       "produto_nome": "COLAR CERVICAL ESPUMA M",
@@ -22774,21 +22829,6 @@
       "obs": "",
       "criado_em": "2026-08-24 14:44:16",
       "item": "Dispositivo intravenoso Gelco nº 22",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 686,
-      "item_id": 10,
-      "produto_nome": "Flumazenil 0,1mg/ml",
-      "tipo": "Farmácia para Outro destino",
-      "origem": "Farmácia",
-      "destino": "Outro destino",
-      "quantidade": 5,
-      "responsavel": "Leiliana",
-      "data": "2026-08-24",
-      "obs": "",
-      "criado_em": "2026-08-24 14:43:19",
-      "item": "Flumazenil 0,1mg/ml",
       "usuario": "Leiliana"
     }
   ]
