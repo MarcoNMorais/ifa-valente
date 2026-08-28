@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "28/08/2026 10:51:42",
+  "atualizado_em": "28/08/2026 10:51:51",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
-    "total_almoxarifado": 87574,
-    "total_farmacia": 27123,
+    "total_almoxarifado": 87524,
+    "total_farmacia": 27173,
     "total_geral": 114697,
     "perto_de_terminar": 0,
     "zerados": 11
@@ -13907,8 +13907,8 @@
       "nome": "Soro fisiológico 250ml",
       "tipo": "Insumo",
       "unidade": "Unidade",
-      "almoxarifado": 650,
-      "farmacia": 50,
+      "almoxarifado": 600,
+      "farmacia": 100,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -13920,7 +13920,7 @@
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-27 10:58:01",
+      "atualizado_em": "2026-08-28 10:51:50",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -13928,13 +13928,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 650
+          "quantidade": 600
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 50
+          "quantidade": 100
         }
       ],
       "minimo_manual": 0,
@@ -15503,6 +15503,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 1208,
+      "item_id": 203,
+      "produto_nome": "Soro fisiológico 250ml",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 50,
+      "responsavel": "Assucena",
+      "data": "2026-08-27",
+      "obs": "",
+      "criado_em": "2026-08-28 10:51:50",
+      "item": "Soro fisiológico 250ml",
+      "usuario": "Assucena"
+    },
     {
       "id": 1207,
       "item_id": 202,
@@ -22986,21 +23001,6 @@
       "obs": "",
       "criado_em": "2026-08-24 14:55:18",
       "item": "Ondansetrona 2mg/ml 2ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 708,
-      "item_id": 228,
-      "produto_nome": "Omeprazol sódico 40mg AMP",
-      "tipo": "Farmácia para Outro destino",
-      "origem": "Farmácia",
-      "destino": "Outro destino",
-      "quantidade": 6,
-      "responsavel": "Leiliana",
-      "data": "2026-08-24",
-      "obs": "",
-      "criado_em": "2026-08-24 14:55:04",
-      "item": "Omeprazol sódico 40mg AMP",
       "usuario": "Leiliana"
     }
   ]
