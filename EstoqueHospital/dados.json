@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "28/08/2026 10:52:57",
+  "atualizado_em": "28/08/2026 10:53:09",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
-    "total_almoxarifado": 86975,
-    "total_farmacia": 27722,
+    "total_almoxarifado": 86725,
+    "total_farmacia": 27972,
     "total_geral": 114697,
     "perto_de_terminar": 0,
     "zerados": 11
@@ -11539,8 +11539,8 @@
       "nome": "Seringa 20ml",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 2750,
-      "farmacia": 300,
+      "almoxarifado": 2500,
+      "farmacia": 550,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -11552,7 +11552,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-08-27 11:04:31",
+      "atualizado_em": "2026-08-28 10:53:09",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -11560,13 +11560,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 2750
+          "quantidade": 2500
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 300
+          "quantidade": 550
         }
       ],
       "minimo_manual": 0,
@@ -15503,6 +15503,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 1213,
+      "item_id": 274,
+      "produto_nome": "Seringa 20ml",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 250,
+      "responsavel": "Assucena",
+      "data": "2026-08-27",
+      "obs": "",
+      "criado_em": "2026-08-28 10:53:09",
+      "item": "Seringa 20ml",
+      "usuario": "Assucena"
+    },
     {
       "id": 1212,
       "item_id": 177,
@@ -22986,21 +23001,6 @@
       "obs": "",
       "criado_em": "2026-08-24 14:56:57",
       "item": "Dexametasona",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 713,
-      "item_id": 70,
-      "produto_nome": "Dipirona",
-      "tipo": "Farmácia para Outro destino",
-      "origem": "Farmácia",
-      "destino": "Outro destino",
-      "quantidade": 30,
-      "responsavel": "Leiliana",
-      "data": "2026-08-24",
-      "obs": "",
-      "criado_em": "2026-08-24 14:56:43",
-      "item": "Dipirona",
       "usuario": "Leiliana"
     }
   ]
