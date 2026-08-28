@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "28/08/2026 10:59:50",
+  "atualizado_em": "28/08/2026 11:00:02",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
     "total_almoxarifado": 86723,
-    "total_farmacia": 27383,
-    "total_geral": 114106,
+    "total_farmacia": 27353,
+    "total_geral": 114076,
     "perto_de_terminar": 0,
     "zerados": 11
   },
@@ -3277,19 +3277,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 106,
+      "farmacia": 86,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 106,
+      "total": 86,
       "minimo": 0,
       "validade": "2027-06",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-26 10:11:06",
+      "atualizado_em": "2026-08-28 10:59:52",
       "validade_mais_proxima": "2027-06",
       "vencimento_mais_proximo": "2027-06",
       "lotes_validade": [
@@ -3297,7 +3297,7 @@
           "local": "farmacia",
           "validade": "2027-06",
           "lote": "",
-          "quantidade": 106
+          "quantidade": 86
         }
       ],
       "minimo_manual": 0,
@@ -3305,9 +3305,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 16,
-      "media_diaria_saida": 3.75,
-      "total_saida_historica": 60,
-      "cobertura_dias": 28.3,
+      "media_diaria_saida": 5.0,
+      "total_saida_historica": 80,
+      "cobertura_dias": 17.2,
       "alerta_estoque": false
     },
     {
@@ -6935,19 +6935,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 160,
+      "farmacia": 150,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 160,
+      "total": 150,
       "minimo": 0,
       "validade": "2027-08",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-27 11:05:24",
+      "atualizado_em": "2026-08-28 11:00:01",
       "validade_mais_proxima": "2027-08",
       "vencimento_mais_proximo": "2027-08",
       "lotes_validade": [
@@ -6961,7 +6961,7 @@
           "local": "farmacia",
           "validade": "2028-03",
           "lote": "",
-          "quantidade": 60
+          "quantidade": 50
         }
       ],
       "minimo_manual": 0,
@@ -6969,9 +6969,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 16,
-      "media_diaria_saida": 2.5,
-      "total_saida_historica": 40,
-      "cobertura_dias": 64.0,
+      "media_diaria_saida": 3.12,
+      "total_saida_historica": 50,
+      "cobertura_dias": 48.0,
       "alerta_estoque": false
     },
     {
@@ -15504,6 +15504,36 @@
   ],
   "movimentacoes": [
     {
+      "id": 1249,
+      "item_id": 64,
+      "produto_nome": "Fosfato de Clindamicina 150mg",
+      "tipo": "Farmácia para Posto de Internamento",
+      "origem": "Farmácia",
+      "destino": "Posto de Internamento",
+      "quantidade": 10,
+      "responsavel": "Assucena",
+      "data": "2026-08-27",
+      "obs": "",
+      "criado_em": "2026-08-28 11:00:01",
+      "item": "Fosfato de Clindamicina 150mg",
+      "usuario": "Assucena"
+    },
+    {
+      "id": 1248,
+      "item_id": 62,
+      "produto_nome": "Cimetidina 150mg",
+      "tipo": "Farmácia para Posto de Internamento",
+      "origem": "Farmácia",
+      "destino": "Posto de Internamento",
+      "quantidade": 20,
+      "responsavel": "Assucena",
+      "data": "2026-08-27",
+      "obs": "",
+      "criado_em": "2026-08-28 10:59:52",
+      "item": "Cimetidina 150mg",
+      "usuario": "Assucena"
+    },
+    {
       "id": 1247,
       "item_id": 239,
       "produto_nome": "Tramadol 50mg/ml 2ml",
@@ -22971,36 +23001,6 @@
       "obs": "",
       "criado_em": "2026-08-24 15:17:23",
       "item": "Soro fisiológico 100ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 749,
-      "item_id": 37,
-      "produto_nome": "Atensina 0,100mg CPR",
-      "tipo": "Farmácia para Outro destino",
-      "origem": "Farmácia",
-      "destino": "Outro destino",
-      "quantidade": 20,
-      "responsavel": "Leiliana",
-      "data": "2026-08-24",
-      "obs": "",
-      "criado_em": "2026-08-24 15:16:56",
-      "item": "Atensina 0,100mg CPR",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 748,
-      "item_id": 44,
-      "produto_nome": "Clopidogrel 75mg CP",
-      "tipo": "Farmácia para Outro destino",
-      "origem": "Farmácia",
-      "destino": "Outro destino",
-      "quantidade": 60,
-      "responsavel": "Leiliana",
-      "data": "2026-08-24",
-      "obs": "",
-      "criado_em": "2026-08-24 15:16:32",
-      "item": "Clopidogrel 75mg CP",
       "usuario": "Leiliana"
     }
   ]
