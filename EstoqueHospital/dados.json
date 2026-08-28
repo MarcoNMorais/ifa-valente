@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "28/08/2026 10:56:51",
+  "atualizado_em": "28/08/2026 10:57:01",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
     "total_almoxarifado": 86723,
-    "total_farmacia": 27674,
-    "total_geral": 114397,
+    "total_farmacia": 27654,
+    "total_geral": 114377,
     "perto_de_terminar": 0,
     "zerados": 11
   },
@@ -11448,19 +11448,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 1750,
-      "farmacia": 500,
+      "farmacia": 480,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 2250,
+      "total": 2230,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-08-27 11:04:39",
+      "atualizado_em": "2026-08-28 10:57:00",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -11474,7 +11474,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 500
+          "quantidade": 480
         }
       ],
       "minimo_manual": 0,
@@ -11482,9 +11482,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 16,
-      "media_diaria_saida": 79.62,
-      "total_saida_historica": 1274,
-      "cobertura_dias": 28.3,
+      "media_diaria_saida": 80.88,
+      "total_saida_historica": 1294,
+      "cobertura_dias": 27.6,
       "alerta_estoque": false
     },
     {
@@ -15503,6 +15503,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 1233,
+      "item_id": 103,
+      "produto_nome": "Seringa 10ml",
+      "tipo": "Farmácia para Posto de Internamento",
+      "origem": "Farmácia",
+      "destino": "Posto de Internamento",
+      "quantidade": 20,
+      "responsavel": "Assucena",
+      "data": "2026-08-27",
+      "obs": "",
+      "criado_em": "2026-08-28 10:57:00",
+      "item": "Seringa 10ml",
+      "usuario": "Assucena"
+    },
     {
       "id": 1232,
       "item_id": 274,
@@ -22986,21 +23001,6 @@
       "obs": "",
       "criado_em": "2026-08-24 15:09:01",
       "item": "Soro fisiológico 250ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 733,
-      "item_id": 205,
-      "produto_nome": "Soro glicose 5% 500ml",
-      "tipo": "Farmácia para Outro destino",
-      "origem": "Farmácia",
-      "destino": "Outro destino",
-      "quantidade": 5,
-      "responsavel": "Leiliana",
-      "data": "2026-08-24",
-      "obs": "",
-      "criado_em": "2026-08-24 15:08:47",
-      "item": "Soro glicose 5% 500ml",
       "usuario": "Leiliana"
     }
   ]
