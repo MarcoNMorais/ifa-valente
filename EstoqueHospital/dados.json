@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "28/08/2026 10:54:28",
+  "atualizado_em": "28/08/2026 10:54:43",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
     "total_almoxarifado": 86723,
-    "total_farmacia": 27904,
-    "total_geral": 114627,
+    "total_farmacia": 27854,
+    "total_geral": 114577,
     "perto_de_terminar": 0,
     "zerados": 11
   },
@@ -3151,19 +3151,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 66,
+      "farmacia": 56,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 66,
+      "total": 56,
       "minimo": 0,
       "validade": "2028-01",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-27 11:05:15",
+      "atualizado_em": "2026-08-28 10:54:33",
       "validade_mais_proxima": "2028-01",
       "vencimento_mais_proximo": "2028-01",
       "lotes_validade": [
@@ -3171,7 +3171,7 @@
           "local": "farmacia",
           "validade": "2028-01",
           "lote": "",
-          "quantidade": 66
+          "quantidade": 56
         }
       ],
       "minimo_manual": 0,
@@ -3179,9 +3179,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 16,
-      "media_diaria_saida": 11.5,
-      "total_saida_historica": 184,
-      "cobertura_dias": 5.7,
+      "media_diaria_saida": 12.12,
+      "total_saida_historica": 194,
+      "cobertura_dias": 4.6,
       "alerta_estoque": false
     },
     {
@@ -4546,19 +4546,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 230,
+      "farmacia": 190,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 230,
+      "total": 190,
       "minimo": 0,
       "validade": "2027-03",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-27 11:06:26",
+      "atualizado_em": "2026-08-28 10:54:41",
       "validade_mais_proxima": "2027-03",
       "vencimento_mais_proximo": "2027-03",
       "lotes_validade": [
@@ -4566,7 +4566,7 @@
           "local": "farmacia",
           "validade": "2027-03",
           "lote": "",
-          "quantidade": 230
+          "quantidade": 190
         }
       ],
       "minimo_manual": 0,
@@ -4574,9 +4574,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 16,
-      "media_diaria_saida": 49.38,
-      "total_saida_historica": 790,
-      "cobertura_dias": 4.7,
+      "media_diaria_saida": 51.88,
+      "total_saida_historica": 830,
+      "cobertura_dias": 3.7,
       "alerta_estoque": false
     },
     {
@@ -15504,6 +15504,36 @@
   ],
   "movimentacoes": [
     {
+      "id": 1219,
+      "item_id": 70,
+      "produto_nome": "Dipirona",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 40,
+      "responsavel": "Assucena",
+      "data": "2026-08-27",
+      "obs": "",
+      "criado_em": "2026-08-28 10:54:41",
+      "item": "Dipirona",
+      "usuario": "Assucena"
+    },
+    {
+      "id": 1218,
+      "item_id": 60,
+      "produto_nome": "Cetoprofeno EV 100mg",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 10,
+      "responsavel": "Assucena",
+      "data": "2026-08-27",
+      "obs": "",
+      "criado_em": "2026-08-28 10:54:33",
+      "item": "Cetoprofeno EV 100mg",
+      "usuario": "Assucena"
+    },
+    {
       "id": 1217,
       "item_id": 61,
       "produto_nome": "Cetoprofeno IM 50mg",
@@ -22971,36 +23001,6 @@
       "obs": "",
       "criado_em": "2026-08-24 15:04:40",
       "item": "Midazolam 5mg/ml 10ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 719,
-      "item_id": 9,
-      "produto_nome": "Fentanila 50mcg/ml",
-      "tipo": "Farmácia para Outro destino",
-      "origem": "Farmácia",
-      "destino": "Outro destino",
-      "quantidade": 8,
-      "responsavel": "Leiliana",
-      "data": "2026-08-24",
-      "obs": "",
-      "criado_em": "2026-08-24 14:58:26",
-      "item": "Fentanila 50mcg/ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 718,
-      "item_id": 27,
-      "produto_nome": "Paracetamol 500mg",
-      "tipo": "Farmácia para Outro destino",
-      "origem": "Farmácia",
-      "destino": "Outro destino",
-      "quantidade": 10,
-      "responsavel": "Leiliana",
-      "data": "2026-08-24",
-      "obs": "",
-      "criado_em": "2026-08-24 14:58:03",
-      "item": "Paracetamol 500mg",
       "usuario": "Leiliana"
     }
   ]
