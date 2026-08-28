@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "28/08/2026 10:52:01",
+  "atualizado_em": "28/08/2026 10:52:25",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
-    "total_almoxarifado": 87500,
-    "total_farmacia": 27197,
+    "total_almoxarifado": 87375,
+    "total_farmacia": 27322,
     "total_geral": 114697,
     "perto_de_terminar": 0,
     "zerados": 11
@@ -5280,8 +5280,8 @@
       "nome": "Equipo micro",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 1075,
-      "farmacia": 150,
+      "almoxarifado": 950,
+      "farmacia": 275,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -5293,7 +5293,7 @@
       "lote": "",
       "origem": "Carga Almoxerifado",
       "obs": "Importação Almoxerifado",
-      "atualizado_em": "2026-08-27 11:04:21",
+      "atualizado_em": "2026-08-28 10:52:24",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -5301,13 +5301,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 1075
+          "quantidade": 950
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 150
+          "quantidade": 275
         }
       ],
       "minimo_manual": 0,
@@ -15504,6 +15504,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 1210,
+      "item_id": 275,
+      "produto_nome": "Equipo micro",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 125,
+      "responsavel": "Assucena",
+      "data": "2026-08-27",
+      "obs": "",
+      "criado_em": "2026-08-28 10:52:24",
+      "item": "Equipo micro",
+      "usuario": "Assucena"
+    },
+    {
       "id": 1209,
       "item_id": 204,
       "produto_nome": "Soro fisiológico 500ml",
@@ -22986,21 +23001,6 @@
       "obs": "",
       "criado_em": "2026-08-24 14:56:13",
       "item": "Prometazina 25mg/ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 710,
-      "item_id": 53,
-      "produto_nome": "Ácido Tranexâmico 50mg",
-      "tipo": "Farmácia para Outro destino",
-      "origem": "Farmácia",
-      "destino": "Outro destino",
-      "quantidade": 20,
-      "responsavel": "Leiliana",
-      "data": "2026-08-24",
-      "obs": "",
-      "criado_em": "2026-08-24 14:55:36",
-      "item": "Ácido Tranexâmico 50mg",
       "usuario": "Leiliana"
     }
   ]
