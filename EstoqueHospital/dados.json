@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "28/08/2026 10:55:10",
+  "atualizado_em": "28/08/2026 10:55:20",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
     "total_almoxarifado": 86723,
-    "total_farmacia": 27810,
-    "total_geral": 114533,
+    "total_farmacia": 27800,
+    "total_geral": 114523,
     "perto_de_terminar": 0,
     "zerados": 11
   },
@@ -15228,19 +15228,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 225,
+      "farmacia": 215,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 225,
+      "total": 215,
       "minimo": 100,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-08-28 10:55:09",
+      "atualizado_em": "2026-08-28 10:55:15",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -15248,7 +15248,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 225
+          "quantidade": 215
         }
       ],
       "minimo_manual": 100,
@@ -15256,9 +15256,9 @@
       "previsao_20_dias": 100,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 4,
-      "media_diaria_saida": 5.0,
-      "total_saida_historica": 20,
-      "cobertura_dias": 45.0,
+      "media_diaria_saida": 7.5,
+      "total_saida_historica": 30,
+      "cobertura_dias": 28.7,
       "alerta_estoque": false
     },
     {
@@ -15503,6 +15503,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 1223,
+      "item_id": 344,
+      "produto_nome": "ÁGUA  PARA INJETÁVEIS 10ML",
+      "tipo": "Farmácia para Posto de Internamento",
+      "origem": "Farmácia",
+      "destino": "Posto de Internamento",
+      "quantidade": 10,
+      "responsavel": "Assucena",
+      "data": "2026-08-27",
+      "obs": "",
+      "criado_em": "2026-08-28 10:55:15",
+      "item": "ÁGUA  PARA INJETÁVEIS 10ML",
+      "usuario": "Assucena"
+    },
     {
       "id": 1222,
       "item_id": 344,
@@ -22986,21 +23001,6 @@
       "obs": "",
       "criado_em": "2026-08-24 15:06:18",
       "item": "Complexo B",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 723,
-      "item_id": 249,
-      "produto_nome": "Prednisolona 3mg/ml",
-      "tipo": "Farmácia para Outro destino",
-      "origem": "Farmácia",
-      "destino": "Outro destino",
-      "quantidade": 1,
-      "responsavel": "Leiliana",
-      "data": "2026-08-24",
-      "obs": "",
-      "criado_em": "2026-08-24 15:06:04",
-      "item": "Prednisolona 3mg/ml",
       "usuario": "Leiliana"
     }
   ]
