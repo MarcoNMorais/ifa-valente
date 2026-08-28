@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "28/08/2026 10:51:51",
+  "atualizado_em": "28/08/2026 10:52:01",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
-    "total_almoxarifado": 87524,
-    "total_farmacia": 27173,
+    "total_almoxarifado": 87500,
+    "total_farmacia": 27197,
     "total_geral": 114697,
     "perto_de_terminar": 0,
     "zerados": 11
@@ -13953,8 +13953,8 @@
       "nome": "Soro fisiológico 500ml",
       "tipo": "Insumo",
       "unidade": "Unidade",
-      "almoxarifado": 1009,
-      "farmacia": 11,
+      "almoxarifado": 985,
+      "farmacia": 35,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -13966,7 +13966,7 @@
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-27 16:29:05",
+      "atualizado_em": "2026-08-28 10:52:01",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -13974,13 +13974,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 1009
+          "quantidade": 985
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 11
+          "quantidade": 35
         }
       ],
       "minimo_manual": 0,
@@ -15503,6 +15503,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 1209,
+      "item_id": 204,
+      "produto_nome": "Soro fisiológico 500ml",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 24,
+      "responsavel": "Assucena",
+      "data": "2026-08-27",
+      "obs": "",
+      "criado_em": "2026-08-28 10:52:01",
+      "item": "Soro fisiológico 500ml",
+      "usuario": "Assucena"
+    },
     {
       "id": 1208,
       "item_id": 203,
@@ -22986,21 +23001,6 @@
       "obs": "",
       "criado_em": "2026-08-24 14:55:36",
       "item": "Ácido Tranexâmico 50mg",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 709,
-      "item_id": 238,
-      "produto_nome": "Ondansetrona 2mg/ml 2ml",
-      "tipo": "Farmácia para Outro destino",
-      "origem": "Farmácia",
-      "destino": "Outro destino",
-      "quantidade": 20,
-      "responsavel": "Leiliana",
-      "data": "2026-08-24",
-      "obs": "",
-      "criado_em": "2026-08-24 14:55:18",
-      "item": "Ondansetrona 2mg/ml 2ml",
       "usuario": "Leiliana"
     }
   ]
