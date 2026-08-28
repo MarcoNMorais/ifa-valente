@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "28/08/2026 10:54:43",
+  "atualizado_em": "28/08/2026 10:55:01",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
     "total_almoxarifado": 86723,
-    "total_farmacia": 27854,
-    "total_geral": 114577,
+    "total_farmacia": 27820,
+    "total_geral": 114543,
     "perto_de_terminar": 0,
     "zerados": 11
   },
@@ -2659,19 +2659,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 50,
+      "farmacia": 20,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 50,
+      "total": 20,
       "minimo": 0,
       "validade": "2027-06",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-26 10:18:17",
+      "atualizado_em": "2026-08-28 10:55:00",
       "validade_mais_proxima": "2027-06",
       "vencimento_mais_proximo": "2027-06",
       "lotes_validade": [
@@ -2679,7 +2679,7 @@
           "local": "farmacia",
           "validade": "2027-06",
           "lote": "",
-          "quantidade": 50
+          "quantidade": 20
         }
       ],
       "minimo_manual": 0,
@@ -2687,9 +2687,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 16,
-      "media_diaria_saida": 11.25,
-      "total_saida_historica": 180,
-      "cobertura_dias": 4.4,
+      "media_diaria_saida": 13.12,
+      "total_saida_historica": 210,
+      "cobertura_dias": 1.5,
       "alerta_estoque": false
     },
     {
@@ -8388,19 +8388,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 53,
+      "farmacia": 49,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 53,
+      "total": 49,
       "minimo": 0,
       "validade": "2027-02",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-25 16:12:46",
+      "atualizado_em": "2026-08-28 10:54:51",
       "validade_mais_proxima": "2027-02",
       "vencimento_mais_proximo": "2027-02",
       "lotes_validade": [
@@ -8408,7 +8408,7 @@
           "local": "farmacia",
           "validade": "2027-02",
           "lote": "",
-          "quantidade": 53
+          "quantidade": 49
         }
       ],
       "minimo_manual": 0,
@@ -8416,9 +8416,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 16,
-      "media_diaria_saida": 0.38,
-      "total_saida_historica": 6,
-      "cobertura_dias": 141.3,
+      "media_diaria_saida": 0.62,
+      "total_saida_historica": 10,
+      "cobertura_dias": 78.4,
       "alerta_estoque": false
     },
     {
@@ -15503,6 +15503,36 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 1221,
+      "item_id": 57,
+      "produto_nome": "Bromoprida 5mg",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 30,
+      "responsavel": "Assucena",
+      "data": "2026-08-27",
+      "obs": "",
+      "criado_em": "2026-08-28 10:55:00",
+      "item": "Bromoprida 5mg",
+      "usuario": "Assucena"
+    },
+    {
+      "id": 1220,
+      "item_id": 84,
+      "produto_nome": "Lidocaína",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 4,
+      "responsavel": "Assucena",
+      "data": "2026-08-27",
+      "obs": "",
+      "criado_em": "2026-08-28 10:54:51",
+      "item": "Lidocaína",
+      "usuario": "Assucena"
+    },
     {
       "id": 1219,
       "item_id": 70,
@@ -22971,36 +23001,6 @@
       "obs": "",
       "criado_em": "2026-08-24 15:05:53",
       "item": "Acetilcisteína 2mg/ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 721,
-      "item_id": 73,
-      "produto_nome": "Epinefrina 1mg",
-      "tipo": "Farmácia para Outro destino",
-      "origem": "Farmácia",
-      "destino": "Outro destino",
-      "quantidade": 8,
-      "responsavel": "Leiliana",
-      "data": "2026-08-24",
-      "obs": "",
-      "criado_em": "2026-08-24 15:04:59",
-      "item": "Epinefrina 1mg",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 720,
-      "item_id": 11,
-      "produto_nome": "Midazolam 5mg/ml 10ml",
-      "tipo": "Farmácia para Outro destino",
-      "origem": "Farmácia",
-      "destino": "Outro destino",
-      "quantidade": 10,
-      "responsavel": "Leiliana",
-      "data": "2026-08-24",
-      "obs": "",
-      "criado_em": "2026-08-24 15:04:40",
-      "item": "Midazolam 5mg/ml 10ml",
       "usuario": "Leiliana"
     }
   ]
