@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "31/08/2026 11:28:57",
+  "atualizado_em": "31/08/2026 11:29:06",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
     "total_almoxarifado": 86723,
-    "total_farmacia": 26153,
-    "total_geral": 112876,
+    "total_farmacia": 26150,
+    "total_geral": 112873,
     "perto_de_terminar": 0,
     "zerados": 13
   },
@@ -8210,19 +8210,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 84,
-      "farmacia": 14,
+      "farmacia": 11,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 98,
+      "total": 95,
       "minimo": 50,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-08-27 16:28:01",
+      "atualizado_em": "2026-08-31 11:29:02",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -8236,7 +8236,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 14
+          "quantidade": 11
         }
       ],
       "minimo_manual": 50,
@@ -8244,9 +8244,9 @@
       "previsao_20_dias": 50,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 6,
-      "media_diaria_saida": 0.33,
-      "total_saida_historica": 2,
-      "cobertura_dias": 294.0,
+      "media_diaria_saida": 0.83,
+      "total_saida_historica": 5,
+      "cobertura_dias": 114.0,
       "alerta_estoque": false
     },
     {
@@ -15514,6 +15514,21 @@
       "obs": "",
       "criado_em": "2026-08-31 11:16:44",
       "item": "Atadura gessada nº 10",
+      "usuario": "Assucena"
+    },
+    {
+      "id": 1299,
+      "item_id": 376,
+      "produto_nome": "LENÇOL DESCARTAVEL PAPEL",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 3,
+      "responsavel": "Assucena",
+      "data": "2026-08-30",
+      "obs": "",
+      "criado_em": "2026-08-31 11:29:02",
+      "item": "LENÇOL DESCARTAVEL PAPEL",
       "usuario": "Assucena"
     },
     {
@@ -22954,21 +22969,6 @@
       "obs": "",
       "criado_em": "2026-08-24 15:31:34",
       "item": "Soro Ringer Lactato 500ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 799,
-      "item_id": 205,
-      "produto_nome": "Soro glicose 5% 500ml",
-      "tipo": "Farmácia para Outro destino",
-      "origem": "Farmácia",
-      "destino": "Outro destino",
-      "quantidade": 2,
-      "responsavel": "Leiliana",
-      "data": "2026-08-24",
-      "obs": "",
-      "criado_em": "2026-08-24 15:31:21",
-      "item": "Soro glicose 5% 500ml",
       "usuario": "Leiliana"
     }
   ]
