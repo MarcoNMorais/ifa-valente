@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "31/08/2026 11:46:12",
+  "atualizado_em": "31/08/2026 11:46:22",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
     "total_almoxarifado": 86723,
-    "total_farmacia": 24722,
-    "total_geral": 111445,
+    "total_farmacia": 24716,
+    "total_geral": 111439,
     "perto_de_terminar": 0,
     "zerados": 14
   },
@@ -9498,19 +9498,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 79,
-      "farmacia": 46,
+      "farmacia": 40,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 125,
+      "total": 119,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga Almoxerifado",
       "obs": "Importação Almoxerifado",
-      "atualizado_em": "2026-08-31 11:34:35",
+      "atualizado_em": "2026-08-31 11:46:21",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -9524,7 +9524,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 46
+          "quantidade": 40
         }
       ],
       "minimo_manual": 0,
@@ -9532,9 +9532,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 14,
-      "media_diaria_saida": 1.0,
-      "total_saida_historica": 14,
-      "cobertura_dias": 125.0,
+      "media_diaria_saida": 1.43,
+      "total_saida_historica": 20,
+      "cobertura_dias": 83.3,
       "alerta_estoque": false
     },
     {
@@ -15458,6 +15458,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 1373,
+      "item_id": 290,
+      "produto_nome": "Metronidazol 100ml",
+      "tipo": "Farmácia para Posto de Internamento",
+      "origem": "Farmácia",
+      "destino": "Posto de Internamento",
+      "quantidade": 6,
+      "responsavel": "Assucena",
+      "data": "2026-08-31",
+      "obs": "",
+      "criado_em": "2026-08-31 11:46:21",
+      "item": "Metronidazol 100ml",
+      "usuario": "Assucena"
+    },
     {
       "id": 1372,
       "item_id": 275,
@@ -22941,21 +22956,6 @@
       "obs": "",
       "criado_em": "2026-08-24 15:52:57",
       "item": "Luva cirúrgica tam. 7",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 873,
-      "item_id": 104,
-      "produto_nome": "Seringa 3ml",
-      "tipo": "Farmácia para Outro destino",
-      "origem": "Farmácia",
-      "destino": "Outro destino",
-      "quantidade": 60,
-      "responsavel": "Leiliana",
-      "data": "2026-08-24",
-      "obs": "",
-      "criado_em": "2026-08-24 15:52:30",
-      "item": "Seringa 3ml",
       "usuario": "Leiliana"
     }
   ]
