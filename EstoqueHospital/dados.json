@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "31/08/2026 11:39:20",
+  "atualizado_em": "31/08/2026 11:39:32",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
     "total_almoxarifado": 86723,
-    "total_farmacia": 25261,
-    "total_geral": 111984,
+    "total_farmacia": 25253,
+    "total_geral": 111976,
     "perto_de_terminar": 0,
     "zerados": 13
   },
@@ -7684,19 +7684,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 231,
+      "farmacia": 223,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 231,
+      "total": 223,
       "minimo": 0,
       "validade": "2027-08",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-31 11:30:19",
+      "atualizado_em": "2026-08-31 11:39:31",
       "validade_mais_proxima": "2027-08",
       "vencimento_mais_proximo": "2027-08",
       "lotes_validade": [
@@ -7704,7 +7704,7 @@
           "local": "farmacia",
           "validade": "2027-08",
           "lote": "",
-          "quantidade": 231
+          "quantidade": 223
         }
       ],
       "minimo_manual": 0,
@@ -7712,9 +7712,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 19,
-      "media_diaria_saida": 0.53,
-      "total_saida_historica": 10,
-      "cobertura_dias": 438.9,
+      "media_diaria_saida": 0.95,
+      "total_saida_historica": 18,
+      "cobertura_dias": 235.4,
       "alerta_estoque": false
     },
     {
@@ -15472,6 +15472,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 1334,
+      "item_id": 82,
+      "produto_nome": "Hidrocortisona",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 8,
+      "responsavel": "Assucena",
+      "data": "2026-08-31",
+      "obs": "",
+      "criado_em": "2026-08-31 11:39:31",
+      "item": "Hidrocortisona",
+      "usuario": "Assucena"
+    },
+    {
       "id": 1333,
       "item_id": 69,
       "produto_nome": "Diclofenaco 25mg",
@@ -22954,21 +22969,6 @@
       "obs": "",
       "criado_em": "2026-08-24 15:41:45",
       "item": "Soro fisiológico 250ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 834,
-      "item_id": 59,
-      "produto_nome": "Ceftriaxona 1g",
-      "tipo": "Farmácia para Outro destino",
-      "origem": "Farmácia",
-      "destino": "Outro destino",
-      "quantidade": 18,
-      "responsavel": "Leiliana",
-      "data": "2026-08-24",
-      "obs": "",
-      "criado_em": "2026-08-24 15:41:33",
-      "item": "Ceftriaxona 1g",
       "usuario": "Leiliana"
     }
   ]
