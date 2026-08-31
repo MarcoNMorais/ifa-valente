@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "31/08/2026 11:26:48",
+  "atualizado_em": "31/08/2026 11:26:59",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
     "total_almoxarifado": 86723,
-    "total_farmacia": 26376,
-    "total_geral": 113099,
+    "total_farmacia": 26371,
+    "total_geral": 113094,
     "perto_de_terminar": 0,
     "zerados": 13
   },
@@ -2081,19 +2081,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 145,
+      "farmacia": 140,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 145,
+      "total": 140,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-08-28 11:01:06",
+      "atualizado_em": "2026-08-31 11:26:56",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -2101,7 +2101,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 145
+          "quantidade": 140
         }
       ],
       "minimo_manual": 0,
@@ -2109,9 +2109,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 6,
-      "media_diaria_saida": 1.67,
-      "total_saida_historica": 10,
-      "cobertura_dias": 87.0,
+      "media_diaria_saida": 2.5,
+      "total_saida_historica": 15,
+      "cobertura_dias": 56.0,
       "alerta_estoque": false
     },
     {
@@ -15523,6 +15523,21 @@
       "usuario": "Assucena"
     },
     {
+      "id": 1289,
+      "item_id": 361,
+      "produto_nome": "AZITROMICINA COMPRIMIDO",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 5,
+      "responsavel": "Assucena",
+      "data": "2026-08-29",
+      "obs": "",
+      "criado_em": "2026-08-31 11:26:56",
+      "item": "AZITROMICINA COMPRIMIDO",
+      "usuario": "Assucena"
+    },
+    {
       "id": 1288,
       "item_id": 176,
       "produto_nome": "Dispositivo intravenoso Gelco nº 24",
@@ -22960,21 +22975,6 @@
       "obs": "",
       "criado_em": "2026-08-24 15:28:52",
       "item": "Escopolamina + Dipirona",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 789,
-      "item_id": 57,
-      "produto_nome": "Bromoprida 5mg",
-      "tipo": "Farmácia para Outro destino",
-      "origem": "Farmácia",
-      "destino": "Outro destino",
-      "quantidade": 50,
-      "responsavel": "Leiliana",
-      "data": "2026-08-24",
-      "obs": "",
-      "criado_em": "2026-08-24 15:28:40",
-      "item": "Bromoprida 5mg",
       "usuario": "Leiliana"
     }
   ]
