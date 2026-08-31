@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "31/08/2026 11:34:02",
+  "atualizado_em": "31/08/2026 11:34:17",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
     "total_almoxarifado": 86723,
-    "total_farmacia": 25404,
-    "total_geral": 112127,
+    "total_farmacia": 25394,
+    "total_geral": 112117,
     "perto_de_terminar": 0,
     "zerados": 13
   },
@@ -14193,19 +14193,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 40,
+      "farmacia": 30,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 40,
+      "total": 30,
       "minimo": 0,
       "validade": "2027-09",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-25 16:12:46",
+      "atualizado_em": "2026-08-31 11:34:16",
       "validade_mais_proxima": "2027-09",
       "vencimento_mais_proximo": "2027-09",
       "lotes_validade": [
@@ -14213,7 +14213,7 @@
           "local": "farmacia",
           "validade": "2027-09",
           "lote": "",
-          "quantidade": 40
+          "quantidade": 30
         }
       ],
       "minimo_manual": 0,
@@ -14221,9 +14221,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 19,
-      "media_diaria_saida": 0.0,
-      "total_saida_historica": 0,
-      "cobertura_dias": null,
+      "media_diaria_saida": 0.53,
+      "total_saida_historica": 10,
+      "cobertura_dias": 57.0,
       "alerta_estoque": false
     },
     {
@@ -15514,6 +15514,21 @@
       "obs": "",
       "criado_em": "2026-08-31 11:16:44",
       "item": "Atadura gessada nº 10",
+      "usuario": "Assucena"
+    },
+    {
+      "id": 1326,
+      "item_id": 46,
+      "produto_nome": "Sulfa + Tri 400+80mg CPR",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 10,
+      "responsavel": "Assucena",
+      "data": "2026-08-30",
+      "obs": "",
+      "criado_em": "2026-08-31 11:34:16",
+      "item": "Sulfa + Tri 400+80mg CPR",
       "usuario": "Assucena"
     },
     {
@@ -22954,21 +22969,6 @@
       "obs": "",
       "criado_em": "2026-08-24 15:39:44",
       "item": "Prometazina 25mg/ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 826,
-      "item_id": 70,
-      "produto_nome": "Dipirona",
-      "tipo": "Farmácia para Outro destino",
-      "origem": "Farmácia",
-      "destino": "Outro destino",
-      "quantidade": 60,
-      "responsavel": "Leiliana",
-      "data": "2026-08-24",
-      "obs": "",
-      "criado_em": "2026-08-24 15:39:32",
-      "item": "Dipirona",
       "usuario": "Leiliana"
     }
   ]
