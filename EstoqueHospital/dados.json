@@ -1,13 +1,13 @@
 {
-  "atualizado_em": "31/08/2026 11:44:31",
+  "atualizado_em": "31/08/2026 11:44:41",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
     "total_almoxarifado": 86723,
-    "total_farmacia": 24853,
-    "total_geral": 111576,
+    "total_farmacia": 24833,
+    "total_geral": 111556,
     "perto_de_terminar": 0,
-    "zerados": 13
+    "zerados": 14
   },
   "itens": [
     {
@@ -2659,37 +2659,30 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 20,
+      "farmacia": 0,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 20,
+      "total": 0,
       "minimo": 0,
-      "validade": "2027-06",
+      "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-28 10:55:00",
-      "validade_mais_proxima": "2027-06",
-      "vencimento_mais_proximo": "2027-06",
-      "lotes_validade": [
-        {
-          "local": "farmacia",
-          "validade": "2027-06",
-          "lote": "",
-          "quantidade": 20
-        }
-      ],
+      "atualizado_em": "2026-08-31 11:44:38",
+      "validade_mais_proxima": "",
+      "vencimento_mais_proximo": "",
+      "lotes_validade": [],
       "minimo_manual": 0,
       "minimo_alerta": 0,
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 19,
-      "media_diaria_saida": 11.05,
-      "total_saida_historica": 210,
-      "cobertura_dias": 1.8,
+      "media_diaria_saida": 12.11,
+      "total_saida_historica": 230,
+      "cobertura_dias": 0.0,
       "alerta_estoque": false
     },
     {
@@ -15466,6 +15459,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 1364,
+      "item_id": 57,
+      "produto_nome": "Bromoprida 5mg",
+      "tipo": "Farmácia para Posto de Internamento",
+      "origem": "Farmácia",
+      "destino": "Posto de Internamento",
+      "quantidade": 20,
+      "responsavel": "Assucena",
+      "data": "2026-08-31",
+      "obs": "",
+      "criado_em": "2026-08-31 11:44:38",
+      "item": "Bromoprida 5mg",
+      "usuario": "Assucena"
+    },
+    {
       "id": 1363,
       "item_id": 70,
       "produto_nome": "Dipirona",
@@ -22948,21 +22956,6 @@
       "obs": "",
       "criado_em": "2026-08-24 15:50:11",
       "item": "Ondansetrona 2mg/ml 2ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 864,
-      "item_id": 70,
-      "produto_nome": "Dipirona",
-      "tipo": "Farmácia para Outro destino",
-      "origem": "Farmácia",
-      "destino": "Outro destino",
-      "quantidade": 50,
-      "responsavel": "Leiliana",
-      "data": "2026-08-24",
-      "obs": "",
-      "criado_em": "2026-08-24 15:49:59",
-      "item": "Dipirona",
       "usuario": "Leiliana"
     }
   ]
