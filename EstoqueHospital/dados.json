@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "31/08/2026 11:40:39",
+  "atualizado_em": "31/08/2026 11:40:49",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
     "total_almoxarifado": 86723,
-    "total_farmacia": 25184,
-    "total_geral": 111907,
+    "total_farmacia": 25183,
+    "total_geral": 111906,
     "perto_de_terminar": 0,
     "zerados": 13
   },
@@ -7764,19 +7764,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 29,
+      "farmacia": 28,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 29,
+      "total": 28,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga Farmácia 227-288",
       "obs": "Importação Farmácia 227-288",
-      "atualizado_em": "2026-08-25 16:12:46",
+      "atualizado_em": "2026-08-31 11:40:44",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -7784,7 +7784,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 29
+          "quantidade": 28
         }
       ],
       "minimo_manual": 0,
@@ -7792,9 +7792,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 18,
-      "media_diaria_saida": 0.17,
-      "total_saida_historica": 3,
-      "cobertura_dias": 174.0,
+      "media_diaria_saida": 0.22,
+      "total_saida_historica": 4,
+      "cobertura_dias": 126.0,
       "alerta_estoque": false
     },
     {
@@ -15472,6 +15472,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 1342,
+      "item_id": 255,
+      "produto_nome": "Ibuprofeno gotas",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 1,
+      "responsavel": "Assucena",
+      "data": "2026-08-31",
+      "obs": "",
+      "criado_em": "2026-08-31 11:40:44",
+      "item": "Ibuprofeno gotas",
+      "usuario": "Assucena"
+    },
+    {
       "id": 1341,
       "item_id": 344,
       "produto_nome": "ÁGUA  PARA INJETÁVEIS 10ML",
@@ -22954,21 +22969,6 @@
       "obs": "",
       "criado_em": "2026-08-24 15:43:44",
       "item": "Ceftriaxona 1g",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 842,
-      "item_id": 60,
-      "produto_nome": "Cetoprofeno EV 100mg",
-      "tipo": "Farmácia para Outro destino",
-      "origem": "Farmácia",
-      "destino": "Outro destino",
-      "quantidade": 6,
-      "responsavel": "Leiliana",
-      "data": "2026-08-24",
-      "obs": "",
-      "criado_em": "2026-08-24 15:43:33",
-      "item": "Cetoprofeno EV 100mg",
       "usuario": "Leiliana"
     }
   ]
