@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "31/08/2026 11:46:50",
+  "atualizado_em": "31/08/2026 11:54:59",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
     "total_almoxarifado": 86723,
-    "total_farmacia": 24714,
-    "total_geral": 111437,
+    "total_farmacia": 24689,
+    "total_geral": 111412,
     "perto_de_terminar": 0,
     "zerados": 14
   },
@@ -2931,19 +2931,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 74,
+      "farmacia": 49,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 74,
+      "total": 49,
       "minimo": 0,
       "validade": "2027-01",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-31 11:24:25",
+      "atualizado_em": "2026-08-31 11:54:58",
       "validade_mais_proxima": "2027-01",
       "vencimento_mais_proximo": "2027-01",
       "lotes_validade": [
@@ -2951,7 +2951,7 @@
           "local": "farmacia",
           "validade": "2027-01",
           "lote": "",
-          "quantidade": 74
+          "quantidade": 49
         }
       ],
       "minimo_manual": 0,
@@ -2959,9 +2959,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 19,
-      "media_diaria_saida": 1.37,
-      "total_saida_historica": 26,
-      "cobertura_dias": 54.1,
+      "media_diaria_saida": 2.68,
+      "total_saida_historica": 51,
+      "cobertura_dias": 18.3,
       "alerta_estoque": false
     },
     {
@@ -15459,6 +15459,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 1375,
+      "item_id": 58,
+      "produto_nome": "Cefalotina 1000mg",
+      "tipo": "Farmácia para Posto de Internamento",
+      "origem": "Farmácia",
+      "destino": "Posto de Internamento",
+      "quantidade": 25,
+      "responsavel": "Assucena",
+      "data": "2026-08-31",
+      "obs": "",
+      "criado_em": "2026-08-31 11:54:58",
+      "item": "Cefalotina 1000mg",
+      "usuario": "Assucena"
+    },
+    {
       "id": 1374,
       "item_id": 155,
       "produto_nome": "Bolsa coletora",
@@ -22941,21 +22956,6 @@
       "obs": "",
       "criado_em": "2026-08-24 15:53:33",
       "item": "Luva de látex tam. P",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 875,
-      "item_id": 185,
-      "produto_nome": "Luva cirúrgica tam. 7,5",
-      "tipo": "Farmácia para Outro destino",
-      "origem": "Farmácia",
-      "destino": "Outro destino",
-      "quantidade": 5,
-      "responsavel": "Leiliana",
-      "data": "2026-08-24",
-      "obs": "",
-      "criado_em": "2026-08-24 15:53:07",
-      "item": "Luva cirúrgica tam. 7,5",
       "usuario": "Leiliana"
     }
   ]
