@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "31/08/2026 11:41:52",
+  "atualizado_em": "31/08/2026 11:42:03",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
     "total_almoxarifado": 86723,
-    "total_farmacia": 25095,
-    "total_geral": 111818,
+    "total_farmacia": 25091,
+    "total_geral": 111814,
     "perto_de_terminar": 0,
     "zerados": 13
   },
@@ -8210,19 +8210,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 84,
-      "farmacia": 11,
+      "farmacia": 7,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 95,
+      "total": 91,
       "minimo": 50,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-08-31 11:29:02",
+      "atualizado_em": "2026-08-31 11:42:02",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -8236,7 +8236,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 11
+          "quantidade": 7
         }
       ],
       "minimo_manual": 50,
@@ -8244,9 +8244,9 @@
       "previsao_20_dias": 50,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 6,
-      "media_diaria_saida": 0.83,
-      "total_saida_historica": 5,
-      "cobertura_dias": 114.0,
+      "media_diaria_saida": 1.5,
+      "total_saida_historica": 9,
+      "cobertura_dias": 60.7,
       "alerta_estoque": false
     },
     {
@@ -15471,6 +15471,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 1350,
+      "item_id": 376,
+      "produto_nome": "LENÇOL DESCARTAVEL PAPEL",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 4,
+      "responsavel": "Assucena",
+      "data": "2026-08-31",
+      "obs": "",
+      "criado_em": "2026-08-31 11:42:02",
+      "item": "LENÇOL DESCARTAVEL PAPEL",
+      "usuario": "Assucena"
+    },
     {
       "id": 1349,
       "item_id": 176,
@@ -22954,21 +22969,6 @@
       "obs": "",
       "criado_em": "2026-08-24 15:46:24",
       "item": "Diclofenaco 25mg",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 850,
-      "item_id": 70,
-      "produto_nome": "Dipirona",
-      "tipo": "Farmácia para Outro destino",
-      "origem": "Farmácia",
-      "destino": "Outro destino",
-      "quantidade": 10,
-      "responsavel": "Leiliana",
-      "data": "2026-08-24",
-      "obs": "",
-      "criado_em": "2026-08-24 15:46:13",
-      "item": "Dipirona",
       "usuario": "Leiliana"
     }
   ]
