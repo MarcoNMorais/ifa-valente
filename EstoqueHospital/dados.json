@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "31/08/2026 11:42:03",
+  "atualizado_em": "31/08/2026 11:42:13",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
     "total_almoxarifado": 86723,
-    "total_farmacia": 25091,
-    "total_geral": 111814,
+    "total_farmacia": 25087,
+    "total_geral": 111810,
     "perto_de_terminar": 0,
     "zerados": 13
   },
@@ -13929,19 +13929,19 @@
       "tipo": "Insumo",
       "unidade": "Unidade",
       "almoxarifado": 985,
-      "farmacia": 4,
+      "farmacia": 0,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 989,
+      "total": 985,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-31 11:29:12",
+      "atualizado_em": "2026-08-31 11:42:12",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -13950,12 +13950,6 @@
           "validade": "",
           "lote": "",
           "quantidade": 985
-        },
-        {
-          "local": "farmacia",
-          "validade": "",
-          "lote": "",
-          "quantidade": 4
         }
       ],
       "minimo_manual": 0,
@@ -13963,9 +13957,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 19,
-      "media_diaria_saida": 9.58,
-      "total_saida_historica": 182,
-      "cobertura_dias": 103.2,
+      "media_diaria_saida": 9.79,
+      "total_saida_historica": 186,
+      "cobertura_dias": 100.6,
       "alerta_estoque": false
     },
     {
@@ -15471,6 +15465,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 1351,
+      "item_id": 204,
+      "produto_nome": "Soro fisiológico 500ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 4,
+      "responsavel": "Assucena",
+      "data": "2026-08-31",
+      "obs": "",
+      "criado_em": "2026-08-31 11:42:12",
+      "item": "Soro fisiológico 500ml",
+      "usuario": "Assucena"
+    },
     {
       "id": 1350,
       "item_id": 376,
@@ -22954,21 +22963,6 @@
       "obs": "",
       "criado_em": "2026-08-24 15:47:06",
       "item": "Dispositivo intravenoso Gelco nº 24",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 851,
-      "item_id": 69,
-      "produto_nome": "Diclofenaco 25mg",
-      "tipo": "Farmácia para Outro destino",
-      "origem": "Farmácia",
-      "destino": "Outro destino",
-      "quantidade": 10,
-      "responsavel": "Leiliana",
-      "data": "2026-08-24",
-      "obs": "",
-      "criado_em": "2026-08-24 15:46:24",
-      "item": "Diclofenaco 25mg",
       "usuario": "Leiliana"
     }
   ]
