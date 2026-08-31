@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "31/08/2026 11:27:52",
+  "atualizado_em": "31/08/2026 11:28:02",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
     "total_almoxarifado": 86723,
-    "total_farmacia": 26322,
-    "total_geral": 113045,
+    "total_farmacia": 26272,
+    "total_geral": 112995,
     "perto_de_terminar": 0,
     "zerados": 13
   },
@@ -8170,19 +8170,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 4300,
-      "farmacia": 50,
+      "farmacia": 0,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 4350,
+      "total": 4300,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-26 16:54:19",
+      "atualizado_em": "2026-08-31 11:27:57",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -8191,12 +8191,6 @@
           "validade": "",
           "lote": "",
           "quantidade": 4300
-        },
-        {
-          "local": "farmacia",
-          "validade": "",
-          "lote": "",
-          "quantidade": 50
         }
       ],
       "minimo_manual": 0,
@@ -8204,9 +8198,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 19,
-      "media_diaria_saida": 34.21,
-      "total_saida_historica": 650,
-      "cobertura_dias": 127.2,
+      "media_diaria_saida": 36.84,
+      "total_saida_historica": 700,
+      "cobertura_dias": 116.7,
       "alerta_estoque": false
     },
     {
@@ -15520,6 +15514,21 @@
       "obs": "",
       "criado_em": "2026-08-31 11:16:44",
       "item": "Atadura gessada nº 10",
+      "usuario": "Assucena"
+    },
+    {
+      "id": 1294,
+      "item_id": 194,
+      "produto_nome": "Lanceta de segurança",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 50,
+      "responsavel": "Assucena",
+      "data": "2026-08-29",
+      "obs": "",
+      "criado_em": "2026-08-31 11:27:57",
+      "item": "Lanceta de segurança",
       "usuario": "Assucena"
     },
     {
@@ -22960,21 +22969,6 @@
       "obs": "",
       "criado_em": "2026-08-24 15:30:12",
       "item": "Dispositivo intravenoso Gelco nº 22",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 794,
-      "item_id": 252,
-      "produto_nome": "Salbutamol spray",
-      "tipo": "Farmácia para Outro destino",
-      "origem": "Farmácia",
-      "destino": "Outro destino",
-      "quantidade": 1,
-      "responsavel": "Leiliana",
-      "data": "2026-08-24",
-      "obs": "",
-      "criado_em": "2026-08-24 15:29:52",
-      "item": "Salbutamol spray",
       "usuario": "Leiliana"
     }
   ]
