@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "31/08/2026 11:17:53",
+  "atualizado_em": "31/08/2026 11:18:03",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
     "total_almoxarifado": 86723,
-    "total_farmacia": 26995,
-    "total_geral": 113718,
+    "total_farmacia": 26955,
+    "total_geral": 113678,
     "perto_de_terminar": 0,
     "zerados": 11
   },
@@ -4752,19 +4752,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 1200,
-      "farmacia": 268,
+      "farmacia": 228,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1468,
+      "total": 1428,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-08-28 10:52:55",
+      "atualizado_em": "2026-08-31 11:18:02",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -4778,7 +4778,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 268
+          "quantidade": 228
         }
       ],
       "minimo_manual": 0,
@@ -4786,9 +4786,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 19,
-      "media_diaria_saida": 14.74,
-      "total_saida_historica": 280,
-      "cobertura_dias": 99.6,
+      "media_diaria_saida": 16.84,
+      "total_saida_historica": 320,
+      "cobertura_dias": 84.8,
       "alerta_estoque": false
     },
     {
@@ -15513,6 +15513,21 @@
       "usuario": "Assucena"
     },
     {
+      "id": 1263,
+      "item_id": 177,
+      "produto_nome": "Dispositivo intravenoso Gelco nº 22",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 40,
+      "responsavel": "Assucena",
+      "data": "2026-08-29",
+      "obs": "",
+      "criado_em": "2026-08-31 11:18:02",
+      "item": "Dispositivo intravenoso Gelco nº 22",
+      "usuario": "Assucena"
+    },
+    {
       "id": 1262,
       "item_id": 241,
       "produto_nome": "Lactulose solução",
@@ -22980,21 +22995,6 @@
       "obs": "",
       "criado_em": "2026-08-24 15:21:12",
       "item": "Lanceta de segurança",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 763,
-      "item_id": 195,
-      "produto_nome": "Tira Reagente G-Tech",
-      "tipo": "Farmácia para Outro destino",
-      "origem": "Farmácia",
-      "destino": "Outro destino",
-      "quantidade": 50,
-      "responsavel": "Leiliana",
-      "data": "2026-08-24",
-      "obs": "",
-      "criado_em": "2026-08-24 15:20:59",
-      "item": "Tira Reagente G-Tech",
       "usuario": "Leiliana"
     }
   ]
