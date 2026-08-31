@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "31/08/2026 16:30:38",
+  "atualizado_em": "31/08/2026 16:30:52",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
     "total_almoxarifado": 86723,
-    "total_farmacia": 24448,
-    "total_geral": 111171,
+    "total_farmacia": 24447,
+    "total_geral": 111170,
     "perto_de_terminar": 0,
     "zerados": 15
   },
@@ -8727,19 +8727,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 90,
+      "farmacia": 89,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 90,
+      "total": 89,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-27 11:07:11",
+      "atualizado_em": "2026-08-31 16:30:52",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -8747,7 +8747,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 90
+          "quantidade": 89
         }
       ],
       "minimo_manual": 0,
@@ -8755,8 +8755,8 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 19,
-      "media_diaria_saida": 90.0,
-      "total_saida_historica": 1710,
+      "media_diaria_saida": 90.05,
+      "total_saida_historica": 1711,
       "cobertura_dias": 1.0,
       "alerta_estoque": false
     },
@@ -15445,6 +15445,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 1386,
+      "item_id": 181,
+      "produto_nome": "Luva de látex tam. M",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 1,
+      "responsavel": "Leiliana",
+      "data": "2026-08-31",
+      "obs": "",
+      "criado_em": "2026-08-31 16:30:52",
+      "item": "Luva de látex tam. M",
+      "usuario": "Leiliana"
+    },
     {
       "id": 1385,
       "item_id": 203,
@@ -22928,21 +22943,6 @@
       "obs": "",
       "criado_em": "2026-08-24 15:56:29",
       "item": "Ceftriaxona 1g",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 886,
-      "item_id": 226,
-      "produto_nome": "Enoxaparina sódica 40mg",
-      "tipo": "Farmácia para Outro destino",
-      "origem": "Farmácia",
-      "destino": "Outro destino",
-      "quantidade": 4,
-      "responsavel": "Leiliana",
-      "data": "2026-08-24",
-      "obs": "",
-      "criado_em": "2026-08-24 15:56:15",
-      "item": "Enoxaparina sódica 40mg",
       "usuario": "Leiliana"
     }
   ]
