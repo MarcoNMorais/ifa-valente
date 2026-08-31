@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "31/08/2026 16:29:49",
+  "atualizado_em": "31/08/2026 16:30:02",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
     "total_almoxarifado": 86723,
-    "total_farmacia": 24502,
-    "total_geral": 111225,
+    "total_farmacia": 24472,
+    "total_geral": 111195,
     "perto_de_terminar": 0,
     "zerados": 15
   },
@@ -11547,19 +11547,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 2500,
-      "farmacia": 1533,
+      "farmacia": 1503,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 4033,
+      "total": 4003,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-31 11:43:17",
+      "atualizado_em": "2026-08-31 16:30:02",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -11573,7 +11573,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 1533
+          "quantidade": 1503
         }
       ],
       "minimo_manual": 0,
@@ -11581,9 +11581,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 19,
-      "media_diaria_saida": 39.21,
-      "total_saida_historica": 745,
-      "cobertura_dias": 102.9,
+      "media_diaria_saida": 40.79,
+      "total_saida_historica": 775,
+      "cobertura_dias": 98.1,
       "alerta_estoque": false
     },
     {
@@ -15445,6 +15445,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 1383,
+      "item_id": 104,
+      "produto_nome": "Seringa 3ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 30,
+      "responsavel": "Leiliana",
+      "data": "2026-08-31",
+      "obs": "",
+      "criado_em": "2026-08-31 16:30:02",
+      "item": "Seringa 3ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 1382,
       "item_id": 102,
@@ -22928,21 +22943,6 @@
       "obs": "",
       "criado_em": "2026-08-24 15:55:43",
       "item": "Ácido Tranexâmico 50mg",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 883,
-      "item_id": 64,
-      "produto_nome": "Fosfato de Clindamicina 150mg",
-      "tipo": "Farmácia para Outro destino",
-      "origem": "Farmácia",
-      "destino": "Outro destino",
-      "quantidade": 20,
-      "responsavel": "Leiliana",
-      "data": "2026-08-24",
-      "obs": "",
-      "criado_em": "2026-08-24 15:55:27",
-      "item": "Fosfato de Clindamicina 150mg",
       "usuario": "Leiliana"
     }
   ]
