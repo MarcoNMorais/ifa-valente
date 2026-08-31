@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "31/08/2026 11:25:54",
+  "atualizado_em": "31/08/2026 11:26:04",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
     "total_almoxarifado": 86723,
-    "total_farmacia": 26462,
-    "total_geral": 113185,
+    "total_farmacia": 26459,
+    "total_geral": 113182,
     "perto_de_terminar": 0,
     "zerados": 13
   },
@@ -7186,19 +7186,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 72,
-      "farmacia": 25,
+      "farmacia": 22,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 97,
+      "total": 94,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-08-26 10:44:19",
+      "atualizado_em": "2026-08-31 11:26:01",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -7212,7 +7212,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 25
+          "quantidade": 22
         }
       ],
       "minimo_manual": 0,
@@ -7220,9 +7220,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 14,
-      "media_diaria_saida": 0.0,
-      "total_saida_historica": 0,
-      "cobertura_dias": null,
+      "media_diaria_saida": 0.21,
+      "total_saida_historica": 3,
+      "cobertura_dias": 438.7,
       "alerta_estoque": false
     },
     {
@@ -15523,6 +15523,21 @@
       "usuario": "Assucena"
     },
     {
+      "id": 1284,
+      "item_id": 294,
+      "produto_nome": "Glicerina 12%",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 3,
+      "responsavel": "Assucena",
+      "data": "2026-08-29",
+      "obs": "",
+      "criado_em": "2026-08-31 11:26:01",
+      "item": "Glicerina 12%",
+      "usuario": "Assucena"
+    },
+    {
       "id": 1283,
       "item_id": 238,
       "produto_nome": "Ondansetrona 2mg/ml 2ml",
@@ -22960,21 +22975,6 @@
       "obs": "",
       "criado_em": "2026-08-24 15:27:19",
       "item": "Seringa 10ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 784,
-      "item_id": 59,
-      "produto_nome": "Ceftriaxona 1g",
-      "tipo": "Farmácia para Outro destino",
-      "origem": "Farmácia",
-      "destino": "Outro destino",
-      "quantidade": 6,
-      "responsavel": "Leiliana",
-      "data": "2026-08-24",
-      "obs": "",
-      "criado_em": "2026-08-24 15:26:42",
-      "item": "Ceftriaxona 1g",
       "usuario": "Leiliana"
     }
   ]
