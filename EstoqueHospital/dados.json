@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "31/08/2026 11:29:18",
+  "atualizado_em": "31/08/2026 11:29:36",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
     "total_almoxarifado": 86723,
-    "total_farmacia": 26125,
-    "total_geral": 112848,
+    "total_farmacia": 26050,
+    "total_geral": 112773,
     "perto_de_terminar": 0,
     "zerados": 13
   },
@@ -11607,19 +11607,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 1500,
-      "farmacia": 125,
+      "farmacia": 75,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1625,
+      "total": 1575,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-08-31 11:18:25",
+      "atualizado_em": "2026-08-31 11:29:30",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -11633,7 +11633,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 125
+          "quantidade": 75
         }
       ],
       "minimo_manual": 0,
@@ -11641,9 +11641,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 19,
-      "media_diaria_saida": 25.79,
-      "total_saida_historica": 490,
-      "cobertura_dias": 63.0,
+      "media_diaria_saida": 28.42,
+      "total_saida_historica": 540,
+      "cobertura_dias": 55.4,
       "alerta_estoque": false
     },
     {
@@ -13883,19 +13883,19 @@
       "tipo": "Insumo",
       "unidade": "Unidade",
       "almoxarifado": 600,
-      "farmacia": 68,
+      "farmacia": 43,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 668,
+      "total": 643,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-31 11:17:32",
+      "atualizado_em": "2026-08-31 11:29:21",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -13909,7 +13909,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 68
+          "quantidade": 43
         }
       ],
       "minimo_manual": 0,
@@ -13917,9 +13917,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 19,
-      "media_diaria_saida": 12.21,
-      "total_saida_historica": 232,
-      "cobertura_dias": 54.7,
+      "media_diaria_saida": 13.53,
+      "total_saida_historica": 257,
+      "cobertura_dias": 47.5,
       "alerta_estoque": false
     },
     {
@@ -15514,6 +15514,36 @@
       "obs": "",
       "criado_em": "2026-08-31 11:16:44",
       "item": "Atadura gessada nº 10",
+      "usuario": "Assucena"
+    },
+    {
+      "id": 1302,
+      "item_id": 102,
+      "produto_nome": "Seringa 5ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 50,
+      "responsavel": "Assucena",
+      "data": "2026-08-30",
+      "obs": "",
+      "criado_em": "2026-08-31 11:29:30",
+      "item": "Seringa 5ml",
+      "usuario": "Assucena"
+    },
+    {
+      "id": 1301,
+      "item_id": 203,
+      "produto_nome": "Soro fisiológico 250ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 25,
+      "responsavel": "Assucena",
+      "data": "2026-08-30",
+      "obs": "",
+      "criado_em": "2026-08-31 11:29:21",
+      "item": "Soro fisiológico 250ml",
       "usuario": "Assucena"
     },
     {
@@ -22939,36 +22969,6 @@
       "obs": "",
       "criado_em": "2026-08-24 15:32:51",
       "item": "Equipo de infusão",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 802,
-      "item_id": 104,
-      "produto_nome": "Seringa 3ml",
-      "tipo": "Farmácia para Outro destino",
-      "origem": "Farmácia",
-      "destino": "Outro destino",
-      "quantidade": 35,
-      "responsavel": "Leiliana",
-      "data": "2026-08-24",
-      "obs": "",
-      "criado_em": "2026-08-24 15:32:20",
-      "item": "Seringa 3ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 801,
-      "item_id": 103,
-      "produto_nome": "Seringa 10ml",
-      "tipo": "Farmácia para Outro destino",
-      "origem": "Farmácia",
-      "destino": "Outro destino",
-      "quantidade": 60,
-      "responsavel": "Leiliana",
-      "data": "2026-08-24",
-      "obs": "",
-      "criado_em": "2026-08-24 15:32:01",
-      "item": "Seringa 10ml",
       "usuario": "Leiliana"
     }
   ]
