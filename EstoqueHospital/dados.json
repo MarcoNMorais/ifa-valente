@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "31/08/2026 11:28:02",
+  "atualizado_em": "31/08/2026 11:28:20",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
     "total_almoxarifado": 86723,
-    "total_farmacia": 26272,
-    "total_geral": 112995,
+    "total_farmacia": 26258,
+    "total_geral": 112981,
     "perto_de_terminar": 0,
     "zerados": 13
   },
@@ -10295,19 +10295,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 420,
+      "farmacia": 406,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 420,
+      "total": 406,
       "minimo": 0,
       "validade": "2028-02",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-27 11:05:33",
+      "atualizado_em": "2026-08-31 11:28:20",
       "validade_mais_proxima": "2028-02",
       "vencimento_mais_proximo": "2028-02",
       "lotes_validade": [
@@ -10315,7 +10315,7 @@
           "local": "farmacia",
           "validade": "2028-02",
           "lote": "",
-          "quantidade": 406
+          "quantidade": 392
         },
         {
           "local": "farmacia",
@@ -10329,9 +10329,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 19,
-      "media_diaria_saida": 2.95,
-      "total_saida_historica": 56,
-      "cobertura_dias": 142.5,
+      "media_diaria_saida": 3.68,
+      "total_saida_historica": 70,
+      "cobertura_dias": 110.2,
       "alerta_estoque": false
     },
     {
@@ -15514,6 +15514,21 @@
       "obs": "",
       "criado_em": "2026-08-31 11:16:44",
       "item": "Atadura gessada nº 10",
+      "usuario": "Assucena"
+    },
+    {
+      "id": 1295,
+      "item_id": 31,
+      "produto_nome": "Omeprazol 20mg comprimido",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 14,
+      "responsavel": "Assucena",
+      "data": "2026-08-29",
+      "obs": "",
+      "criado_em": "2026-08-31 11:28:20",
+      "item": "Omeprazol 20mg comprimido",
       "usuario": "Assucena"
     },
     {
@@ -22954,21 +22969,6 @@
       "obs": "",
       "criado_em": "2026-08-24 15:30:28",
       "item": "Losartana potássica 50mg CPR",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 795,
-      "item_id": 177,
-      "produto_nome": "Dispositivo intravenoso Gelco nº 22",
-      "tipo": "Farmácia para Outro destino",
-      "origem": "Farmácia",
-      "destino": "Outro destino",
-      "quantidade": 20,
-      "responsavel": "Leiliana",
-      "data": "2026-08-24",
-      "obs": "",
-      "criado_em": "2026-08-24 15:30:12",
-      "item": "Dispositivo intravenoso Gelco nº 22",
       "usuario": "Leiliana"
     }
   ]
