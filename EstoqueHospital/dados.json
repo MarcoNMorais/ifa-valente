@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "31/08/2026 16:28:33",
+  "atualizado_em": "31/08/2026 16:28:46",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
     "total_almoxarifado": 86723,
-    "total_farmacia": 24677,
-    "total_geral": 111400,
+    "total_farmacia": 24662,
+    "total_geral": 111385,
     "perto_de_terminar": 0,
     "zerados": 15
   },
@@ -2931,19 +2931,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 49,
+      "farmacia": 34,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 49,
+      "total": 34,
       "minimo": 0,
       "validade": "2027-01",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-31 11:54:58",
+      "atualizado_em": "2026-08-31 16:28:45",
       "validade_mais_proxima": "2027-01",
       "vencimento_mais_proximo": "2027-01",
       "lotes_validade": [
@@ -2951,7 +2951,7 @@
           "local": "farmacia",
           "validade": "2027-01",
           "lote": "",
-          "quantidade": 49
+          "quantidade": 34
         }
       ],
       "minimo_manual": 0,
@@ -2959,9 +2959,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 19,
-      "media_diaria_saida": 2.68,
-      "total_saida_historica": 51,
-      "cobertura_dias": 18.3,
+      "media_diaria_saida": 3.47,
+      "total_saida_historica": 66,
+      "cobertura_dias": 9.8,
       "alerta_estoque": false
     },
     {
@@ -15452,6 +15452,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 1378,
+      "item_id": 58,
+      "produto_nome": "Cefalotina 1000mg",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 15,
+      "responsavel": "Leiliana",
+      "data": "2026-08-31",
+      "obs": "",
+      "criado_em": "2026-08-31 16:28:45",
+      "item": "Cefalotina 1000mg",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 1377,
       "item_id": 59,
       "produto_nome": "Ceftriaxona 1g",
@@ -22934,21 +22949,6 @@
       "obs": "",
       "criado_em": "2026-08-24 15:54:22",
       "item": "Tira Reagente G-Tech",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 878,
-      "item_id": 155,
-      "produto_nome": "Bolsa coletora",
-      "tipo": "Farmácia para Outro destino",
-      "origem": "Farmácia",
-      "destino": "Outro destino",
-      "quantidade": 1,
-      "responsavel": "Leiliana",
-      "data": "2026-08-24",
-      "obs": "",
-      "criado_em": "2026-08-24 15:54:05",
-      "item": "Bolsa coletora",
       "usuario": "Leiliana"
     }
   ]
