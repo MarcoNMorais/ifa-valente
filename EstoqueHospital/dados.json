@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "31/08/2026 11:17:04",
+  "atualizado_em": "31/08/2026 11:17:14",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
     "total_almoxarifado": 86723,
-    "total_farmacia": 27079,
-    "total_geral": 113802,
+    "total_farmacia": 27073,
+    "total_geral": 113796,
     "perto_de_terminar": 0,
     "zerados": 11
   },
@@ -13954,19 +13954,19 @@
       "tipo": "Insumo",
       "unidade": "Unidade",
       "almoxarifado": 985,
-      "farmacia": 35,
+      "farmacia": 29,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1020,
+      "total": 1014,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-28 10:52:01",
+      "atualizado_em": "2026-08-31 11:17:13",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -13980,7 +13980,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 35
+          "quantidade": 29
         }
       ],
       "minimo_manual": 0,
@@ -13988,9 +13988,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 19,
-      "media_diaria_saida": 7.95,
-      "total_saida_historica": 151,
-      "cobertura_dias": 128.3,
+      "media_diaria_saida": 8.26,
+      "total_saida_historica": 157,
+      "cobertura_dias": 122.7,
       "alerta_estoque": false
     },
     {
@@ -15516,6 +15516,21 @@
       "obs": "",
       "criado_em": "2026-08-31 11:16:44",
       "item": "Atadura gessada nº 10",
+      "usuario": "Assucena"
+    },
+    {
+      "id": 1259,
+      "item_id": 204,
+      "produto_nome": "Soro fisiológico 500ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 6,
+      "responsavel": "Assucena",
+      "data": "2026-08-29",
+      "obs": "",
+      "criado_em": "2026-08-31 11:17:13",
+      "item": "Soro fisiológico 500ml",
       "usuario": "Assucena"
     },
     {
@@ -22986,21 +23001,6 @@
       "obs": "",
       "criado_em": "2026-08-24 15:20:12",
       "item": "Atadura crepon nº 10",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 759,
-      "item_id": 164,
-      "produto_nome": "Sonda Foley nº 12 - 2 vias",
-      "tipo": "Farmácia para Outro destino",
-      "origem": "Farmácia",
-      "destino": "Outro destino",
-      "quantidade": 3,
-      "responsavel": "Leiliana",
-      "data": "2026-08-24",
-      "obs": "",
-      "criado_em": "2026-08-24 15:19:52",
-      "item": "Sonda Foley nº 12 - 2 vias",
       "usuario": "Leiliana"
     }
   ]
