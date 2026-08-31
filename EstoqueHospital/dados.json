@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "31/08/2026 11:26:24",
+  "atualizado_em": "31/08/2026 11:26:38",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
     "total_almoxarifado": 86723,
-    "total_farmacia": 26387,
-    "total_geral": 113110,
+    "total_farmacia": 26386,
+    "total_geral": 113109,
     "perto_de_terminar": 0,
     "zerados": 13
   },
@@ -3310,19 +3310,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 73,
+      "farmacia": 72,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 73,
+      "total": 72,
       "minimo": 0,
       "validade": "2027-03",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-25 16:12:46",
+      "atualizado_em": "2026-08-31 11:26:38",
       "validade_mais_proxima": "2027-03",
       "vencimento_mais_proximo": "2027-03",
       "lotes_validade": [
@@ -3330,7 +3330,7 @@
           "local": "farmacia",
           "validade": "2027-03",
           "lote": "",
-          "quantidade": 14
+          "quantidade": 13
         },
         {
           "local": "farmacia",
@@ -3344,9 +3344,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 19,
-      "media_diaria_saida": 0.0,
-      "total_saida_historica": 0,
-      "cobertura_dias": null,
+      "media_diaria_saida": 0.05,
+      "total_saida_historica": 1,
+      "cobertura_dias": 1368.0,
       "alerta_estoque": false
     },
     {
@@ -15523,6 +15523,21 @@
       "usuario": "Assucena"
     },
     {
+      "id": 1287,
+      "item_id": 63,
+      "produto_nome": "Ciprofloxacino",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 1,
+      "responsavel": "Assucena",
+      "data": "2026-08-29",
+      "obs": "",
+      "criado_em": "2026-08-31 11:26:38",
+      "item": "Ciprofloxacino",
+      "usuario": "Assucena"
+    },
+    {
       "id": 1286,
       "item_id": 201,
       "produto_nome": "Soro Ringer Lactato 500ml",
@@ -22960,21 +22975,6 @@
       "obs": "",
       "criado_em": "2026-08-24 15:28:17",
       "item": "Clopidogrel 75mg CP",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 787,
-      "item_id": 203,
-      "produto_nome": "Soro fisiológico 250ml",
-      "tipo": "Farmácia para Outro destino",
-      "origem": "Farmácia",
-      "destino": "Outro destino",
-      "quantidade": 15,
-      "responsavel": "Leiliana",
-      "data": "2026-08-24",
-      "obs": "",
-      "criado_em": "2026-08-24 15:27:52",
-      "item": "Soro fisiológico 250ml",
       "usuario": "Leiliana"
     }
   ]
