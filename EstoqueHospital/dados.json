@@ -1,13 +1,13 @@
 {
-  "atualizado_em": "31/08/2026 11:19:47",
+  "atualizado_em": "31/08/2026 11:19:58",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
     "total_almoxarifado": 86723,
-    "total_farmacia": 26670,
-    "total_geral": 113393,
+    "total_farmacia": 26668,
+    "total_geral": 113391,
     "perto_de_terminar": 0,
-    "zerados": 11
+    "zerados": 12
   },
   "itens": [
     {
@@ -2739,37 +2739,30 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 2,
+      "farmacia": 0,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 2,
+      "total": 0,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-27 16:28:52",
+      "atualizado_em": "2026-08-31 11:19:53",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
-      "lotes_validade": [
-        {
-          "local": "farmacia",
-          "validade": "",
-          "lote": "",
-          "quantidade": 2
-        }
-      ],
+      "lotes_validade": [],
       "minimo_manual": 0,
       "minimo_alerta": 0,
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 19,
-      "media_diaria_saida": 0.32,
-      "total_saida_historica": 6,
-      "cobertura_dias": 6.3,
+      "media_diaria_saida": 0.42,
+      "total_saida_historica": 8,
+      "cobertura_dias": 0.0,
       "alerta_estoque": false
     },
     {
@@ -15513,6 +15506,21 @@
       "usuario": "Assucena"
     },
     {
+      "id": 1273,
+      "item_id": 200,
+      "produto_nome": "Caixa de perfurocortante",
+      "tipo": "Farmácia para Posto de Internamento",
+      "origem": "Farmácia",
+      "destino": "Posto de Internamento",
+      "quantidade": 2,
+      "responsavel": "Assucena",
+      "data": "2026-08-29",
+      "obs": "",
+      "criado_em": "2026-08-31 11:19:53",
+      "item": "Caixa de perfurocortante",
+      "usuario": "Assucena"
+    },
+    {
       "id": 1272,
       "item_id": 184,
       "produto_nome": "Luva cirúrgica tam. 7",
@@ -22980,21 +22988,6 @@
       "obs": "",
       "criado_em": "2026-08-24 15:23:51",
       "item": "Fentanila 50mcg/ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 773,
-      "item_id": 11,
-      "produto_nome": "Midazolam 5mg/ml 10ml",
-      "tipo": "Farmácia para Outro destino",
-      "origem": "Farmácia",
-      "destino": "Outro destino",
-      "quantidade": 12,
-      "responsavel": "Leiliana",
-      "data": "2026-08-24",
-      "obs": "",
-      "criado_em": "2026-08-24 15:23:37",
-      "item": "Midazolam 5mg/ml 10ml",
       "usuario": "Leiliana"
     }
   ]
