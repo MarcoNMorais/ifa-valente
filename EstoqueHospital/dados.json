@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "31/08/2026 16:29:25",
+  "atualizado_em": "31/08/2026 16:29:39",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
     "total_almoxarifado": 86723,
-    "total_farmacia": 24562,
-    "total_geral": 111285,
+    "total_farmacia": 24532,
+    "total_geral": 111255,
     "perto_de_terminar": 0,
     "zerados": 15
   },
@@ -11409,19 +11409,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 1750,
-      "farmacia": 250,
+      "farmacia": 220,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 2000,
+      "total": 1970,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-08-31 11:42:51",
+      "atualizado_em": "2026-08-31 16:29:38",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -11435,7 +11435,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 250
+          "quantidade": 220
         }
       ],
       "minimo_manual": 0,
@@ -11443,9 +11443,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 19,
-      "media_diaria_saida": 80.21,
-      "total_saida_historica": 1524,
-      "cobertura_dias": 24.9,
+      "media_diaria_saida": 81.79,
+      "total_saida_historica": 1554,
+      "cobertura_dias": 24.1,
       "alerta_estoque": false
     },
     {
@@ -15445,6 +15445,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 1381,
+      "item_id": 103,
+      "produto_nome": "Seringa 10ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 30,
+      "responsavel": "Leiliana",
+      "data": "2026-08-31",
+      "obs": "",
+      "criado_em": "2026-08-31 16:29:38",
+      "item": "Seringa 10ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 1380,
       "item_id": 274,
@@ -22928,21 +22943,6 @@
       "obs": "",
       "criado_em": "2026-08-24 15:55:12",
       "item": "Bromoprida 5mg",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 881,
-      "item_id": 194,
-      "produto_nome": "Lanceta de segurança",
-      "tipo": "Farmácia para Outro destino",
-      "origem": "Farmácia",
-      "destino": "Outro destino",
-      "quantidade": 100,
-      "responsavel": "Leiliana",
-      "data": "2026-08-24",
-      "obs": "",
-      "criado_em": "2026-08-24 15:54:54",
-      "item": "Lanceta de segurança",
       "usuario": "Leiliana"
     }
   ]
