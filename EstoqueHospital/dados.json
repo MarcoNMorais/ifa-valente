@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "31/08/2026 11:40:29",
+  "atualizado_em": "31/08/2026 11:40:39",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
     "total_almoxarifado": 86723,
-    "total_farmacia": 25194,
-    "total_geral": 111917,
+    "total_farmacia": 25184,
+    "total_geral": 111907,
     "perto_de_terminar": 0,
     "zerados": 13
   },
@@ -15196,19 +15196,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 200,
+      "farmacia": 190,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 200,
+      "total": 190,
       "minimo": 100,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-08-31 11:31:00",
+      "atualizado_em": "2026-08-31 11:40:34",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -15216,7 +15216,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 200
+          "quantidade": 190
         }
       ],
       "minimo_manual": 100,
@@ -15224,9 +15224,9 @@
       "previsao_20_dias": 100,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 7,
-      "media_diaria_saida": 6.43,
-      "total_saida_historica": 45,
-      "cobertura_dias": 31.1,
+      "media_diaria_saida": 7.86,
+      "total_saida_historica": 55,
+      "cobertura_dias": 24.2,
       "alerta_estoque": false
     },
     {
@@ -15471,6 +15471,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 1341,
+      "item_id": 344,
+      "produto_nome": "ÁGUA  PARA INJETÁVEIS 10ML",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 10,
+      "responsavel": "Assucena",
+      "data": "2026-08-31",
+      "obs": "",
+      "criado_em": "2026-08-31 11:40:34",
+      "item": "ÁGUA  PARA INJETÁVEIS 10ML",
+      "usuario": "Assucena"
+    },
     {
       "id": 1340,
       "item_id": 239,
@@ -22954,21 +22969,6 @@
       "obs": "",
       "criado_em": "2026-08-24 15:43:33",
       "item": "Cetoprofeno EV 100mg",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 841,
-      "item_id": 239,
-      "produto_nome": "Tramadol 50mg/ml 2ml",
-      "tipo": "Farmácia para Outro destino",
-      "origem": "Farmácia",
-      "destino": "Outro destino",
-      "quantidade": 5,
-      "responsavel": "Leiliana",
-      "data": "2026-08-24",
-      "obs": "",
-      "criado_em": "2026-08-24 15:43:19",
-      "item": "Tramadol 50mg/ml 2ml",
       "usuario": "Leiliana"
     }
   ]
