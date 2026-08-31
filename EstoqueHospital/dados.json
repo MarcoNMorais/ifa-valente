@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "31/08/2026 11:19:58",
+  "atualizado_em": "31/08/2026 11:20:13",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
     "total_almoxarifado": 86723,
-    "total_farmacia": 26668,
-    "total_geral": 113391,
+    "total_farmacia": 26666,
+    "total_geral": 113389,
     "perto_de_terminar": 0,
     "zerados": 12
   },
@@ -5486,19 +5486,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 100,
-      "farmacia": 15,
+      "farmacia": 13,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 115,
+      "total": 113,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga Almoxerifado",
       "obs": "Importação Almoxerifado",
-      "atualizado_em": "2026-08-27 11:04:12",
+      "atualizado_em": "2026-08-31 11:20:12",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -5512,7 +5512,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 15
+          "quantidade": 13
         }
       ],
       "minimo_manual": 0,
@@ -5520,9 +5520,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 14,
-      "media_diaria_saida": 0.36,
-      "total_saida_historica": 5,
-      "cobertura_dias": 322.0,
+      "media_diaria_saida": 0.5,
+      "total_saida_historica": 7,
+      "cobertura_dias": 226.0,
       "alerta_estoque": false
     },
     {
@@ -15506,6 +15506,21 @@
       "usuario": "Assucena"
     },
     {
+      "id": 1274,
+      "item_id": 276,
+      "produto_nome": "Esparadrapo 10x4,5",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 2,
+      "responsavel": "Assucena",
+      "data": "2026-08-29",
+      "obs": "",
+      "criado_em": "2026-08-31 11:20:12",
+      "item": "Esparadrapo 10x4,5",
+      "usuario": "Assucena"
+    },
+    {
       "id": 1273,
       "item_id": 200,
       "produto_nome": "Caixa de perfurocortante",
@@ -22973,21 +22988,6 @@
       "obs": "",
       "criado_em": "2026-08-24 15:24:02",
       "item": "Acesso Central",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 774,
-      "item_id": 9,
-      "produto_nome": "Fentanila 50mcg/ml",
-      "tipo": "Farmácia para Outro destino",
-      "origem": "Farmácia",
-      "destino": "Outro destino",
-      "quantidade": 8,
-      "responsavel": "Leiliana",
-      "data": "2026-08-24",
-      "obs": "",
-      "criado_em": "2026-08-24 15:23:51",
-      "item": "Fentanila 50mcg/ml",
       "usuario": "Leiliana"
     }
   ]
