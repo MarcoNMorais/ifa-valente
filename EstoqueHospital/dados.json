@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "31/08/2026 16:30:52",
+  "atualizado_em": "31/08/2026 16:31:14",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
-    "total_almoxarifado": 86723,
-    "total_farmacia": 24447,
+    "total_almoxarifado": 86699,
+    "total_farmacia": 24471,
     "total_geral": 111170,
     "perto_de_terminar": 0,
     "zerados": 15
@@ -13908,8 +13908,8 @@
       "nome": "Soro fisiológico 500ml",
       "tipo": "Insumo",
       "unidade": "Unidade",
-      "almoxarifado": 985,
-      "farmacia": 0,
+      "almoxarifado": 961,
+      "farmacia": 24,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -13921,7 +13921,7 @@
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-31 11:42:12",
+      "atualizado_em": "2026-08-31 16:31:13",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -13929,7 +13929,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 985
+          "quantidade": 961
+        },
+        {
+          "local": "farmacia",
+          "validade": "",
+          "lote": "",
+          "quantidade": 24
         }
       ],
       "minimo_manual": 0,
@@ -15445,6 +15451,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 1387,
+      "item_id": 204,
+      "produto_nome": "Soro fisiológico 500ml",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 24,
+      "responsavel": "Leiliana",
+      "data": "2026-08-31",
+      "obs": "",
+      "criado_em": "2026-08-31 16:31:13",
+      "item": "Soro fisiológico 500ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 1386,
       "item_id": 181,
@@ -22928,21 +22949,6 @@
       "obs": "",
       "criado_em": "2026-08-24 15:56:39",
       "item": "Simeticona gotas",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 887,
-      "item_id": 59,
-      "produto_nome": "Ceftriaxona 1g",
-      "tipo": "Farmácia para Outro destino",
-      "origem": "Farmácia",
-      "destino": "Outro destino",
-      "quantidade": 8,
-      "responsavel": "Leiliana",
-      "data": "2026-08-24",
-      "obs": "",
-      "criado_em": "2026-08-24 15:56:29",
-      "item": "Ceftriaxona 1g",
       "usuario": "Leiliana"
     }
   ]
