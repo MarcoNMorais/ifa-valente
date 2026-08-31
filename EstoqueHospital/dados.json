@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "31/08/2026 11:31:37",
+  "atualizado_em": "31/08/2026 11:31:49",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
     "total_almoxarifado": 86723,
-    "total_farmacia": 25670,
-    "total_geral": 112393,
+    "total_farmacia": 25655,
+    "total_geral": 112378,
     "perto_de_terminar": 0,
     "zerados": 13
   },
@@ -4699,19 +4699,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 600,
-      "farmacia": 185,
+      "farmacia": 170,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 785,
+      "total": 770,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-31 11:27:12",
+      "atualizado_em": "2026-08-31 11:31:44",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -4725,7 +4725,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 185
+          "quantidade": 170
         }
       ],
       "minimo_manual": 0,
@@ -4733,9 +4733,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 19,
-      "media_diaria_saida": 8.68,
-      "total_saida_historica": 165,
-      "cobertura_dias": 90.4,
+      "media_diaria_saida": 9.47,
+      "total_saida_historica": 180,
+      "cobertura_dias": 81.3,
       "alerta_estoque": false
     },
     {
@@ -15517,6 +15517,21 @@
       "usuario": "Assucena"
     },
     {
+      "id": 1314,
+      "item_id": 178,
+      "produto_nome": "Dispositivo intravenoso Gelco nº 20",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 15,
+      "responsavel": "Assucena",
+      "data": "2026-08-30",
+      "obs": "",
+      "criado_em": "2026-08-31 11:31:44",
+      "item": "Dispositivo intravenoso Gelco nº 20",
+      "usuario": "Assucena"
+    },
+    {
       "id": 1313,
       "item_id": 187,
       "produto_nome": "Agulha hipodérmica tam. 18",
@@ -22954,21 +22969,6 @@
       "obs": "",
       "criado_em": "2026-08-24 15:36:17",
       "item": "Óleo mineral solução",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 814,
-      "item_id": 241,
-      "produto_nome": "Lactulose solução",
-      "tipo": "Farmácia para Outro destino",
-      "origem": "Farmácia",
-      "destino": "Outro destino",
-      "quantidade": 1,
-      "responsavel": "Leiliana",
-      "data": "2026-08-24",
-      "obs": "",
-      "criado_em": "2026-08-24 15:35:54",
-      "item": "Lactulose solução",
       "usuario": "Leiliana"
     }
   ]
