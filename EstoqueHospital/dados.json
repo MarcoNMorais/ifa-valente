@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "31/08/2026 11:42:13",
+  "atualizado_em": "31/08/2026 11:42:24",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
     "total_almoxarifado": 86723,
-    "total_farmacia": 25087,
-    "total_geral": 111810,
+    "total_farmacia": 25077,
+    "total_geral": 111800,
     "perto_de_terminar": 0,
     "zerados": 13
   },
@@ -14015,19 +14015,19 @@
       "tipo": "Insumo",
       "unidade": "Unidade",
       "almoxarifado": 66,
-      "farmacia": 24,
+      "farmacia": 14,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 90,
+      "total": 80,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-25 16:12:46",
+      "atualizado_em": "2026-08-31 11:42:24",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -14041,7 +14041,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 24
+          "quantidade": 14
         }
       ],
       "minimo_manual": 0,
@@ -14049,9 +14049,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 19,
-      "media_diaria_saida": 1.95,
-      "total_saida_historica": 37,
-      "cobertura_dias": 46.2,
+      "media_diaria_saida": 2.47,
+      "total_saida_historica": 47,
+      "cobertura_dias": 32.3,
       "alerta_estoque": false
     },
     {
@@ -15465,6 +15465,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 1352,
+      "item_id": 205,
+      "produto_nome": "Soro glicose 5% 500ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 10,
+      "responsavel": "Assucena",
+      "data": "2026-08-31",
+      "obs": "",
+      "criado_em": "2026-08-31 11:42:24",
+      "item": "Soro glicose 5% 500ml",
+      "usuario": "Assucena"
+    },
     {
       "id": 1351,
       "item_id": 204,
@@ -22948,21 +22963,6 @@
       "obs": "",
       "criado_em": "2026-08-24 15:47:24",
       "item": "Cetoprofeno EV 100mg",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 852,
-      "item_id": 176,
-      "produto_nome": "Dispositivo intravenoso Gelco nº 24",
-      "tipo": "Farmácia para Outro destino",
-      "origem": "Farmácia",
-      "destino": "Outro destino",
-      "quantidade": 20,
-      "responsavel": "Leiliana",
-      "data": "2026-08-24",
-      "obs": "",
-      "criado_em": "2026-08-24 15:47:06",
-      "item": "Dispositivo intravenoso Gelco nº 24",
       "usuario": "Leiliana"
     }
   ]
