@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "31/08/2026 11:45:31",
+  "atualizado_em": "31/08/2026 11:45:41",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
     "total_almoxarifado": 86723,
-    "total_farmacia": 24769,
-    "total_geral": 111492,
+    "total_farmacia": 24759,
+    "total_geral": 111482,
     "perto_de_terminar": 0,
     "zerados": 14
   },
@@ -11330,19 +11330,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 1300,
-      "farmacia": 135,
+      "farmacia": 125,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1435,
+      "total": 1425,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-08-31 11:32:29",
+      "atualizado_em": "2026-08-31 11:45:39",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -11356,7 +11356,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 135
+          "quantidade": 125
         }
       ],
       "minimo_manual": 0,
@@ -11364,9 +11364,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 19,
-      "media_diaria_saida": 6.68,
-      "total_saida_historica": 127,
-      "cobertura_dias": 214.7,
+      "media_diaria_saida": 7.21,
+      "total_saida_historica": 137,
+      "cobertura_dias": 197.6,
       "alerta_estoque": false
     },
     {
@@ -15458,6 +15458,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 1369,
+      "item_id": 98,
+      "produto_nome": "Scalp nº 23",
+      "tipo": "Farmácia para Posto de Internamento",
+      "origem": "Farmácia",
+      "destino": "Posto de Internamento",
+      "quantidade": 10,
+      "responsavel": "Assucena",
+      "data": "2026-08-31",
+      "obs": "",
+      "criado_em": "2026-08-31 11:45:39",
+      "item": "Scalp nº 23",
+      "usuario": "Assucena"
+    },
     {
       "id": 1368,
       "item_id": 31,
@@ -22941,21 +22956,6 @@
       "obs": "",
       "criado_em": "2026-08-24 15:51:48",
       "item": "Dispositivo intravenoso Gelco nº 24",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 869,
-      "item_id": 42,
-      "produto_nome": "Atenolol 25mg CPR",
-      "tipo": "Farmácia para Outro destino",
-      "origem": "Farmácia",
-      "destino": "Outro destino",
-      "quantidade": 30,
-      "responsavel": "Leiliana",
-      "data": "2026-08-24",
-      "obs": "",
-      "criado_em": "2026-08-24 15:51:38",
-      "item": "Atenolol 25mg CPR",
       "usuario": "Leiliana"
     }
   ]
