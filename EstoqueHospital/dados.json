@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "31/08/2026 11:38:54",
+  "atualizado_em": "31/08/2026 11:39:05",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
     "total_almoxarifado": 86723,
-    "total_farmacia": 25321,
-    "total_geral": 112044,
+    "total_farmacia": 25291,
+    "total_geral": 112014,
     "perto_de_terminar": 0,
     "zerados": 13
   },
@@ -4207,19 +4207,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 760,
+      "farmacia": 730,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 760,
+      "total": 730,
       "minimo": 0,
       "validade": "2027-10",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-31 11:31:09",
+      "atualizado_em": "2026-08-31 11:39:03",
       "validade_mais_proxima": "2027-10",
       "vencimento_mais_proximo": "2027-10",
       "lotes_validade": [
@@ -4227,7 +4227,7 @@
           "local": "farmacia",
           "validade": "2027-10",
           "lote": "",
-          "quantidade": 760
+          "quantidade": 730
         }
       ],
       "minimo_manual": 0,
@@ -4235,9 +4235,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 19,
-      "media_diaria_saida": 26.84,
-      "total_saida_historica": 510,
-      "cobertura_dias": 28.3,
+      "media_diaria_saida": 28.42,
+      "total_saida_historica": 540,
+      "cobertura_dias": 25.7,
       "alerta_estoque": false
     },
     {
@@ -15472,6 +15472,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 1331,
+      "item_id": 68,
+      "produto_nome": "Dexametasona",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 30,
+      "responsavel": "Assucena",
+      "data": "2026-08-31",
+      "obs": "",
+      "criado_em": "2026-08-31 11:39:03",
+      "item": "Dexametasona",
+      "usuario": "Assucena"
+    },
+    {
       "id": 1330,
       "item_id": 238,
       "produto_nome": "Ondansetrona 2mg/ml 2ml",
@@ -22954,21 +22969,6 @@
       "obs": "",
       "criado_em": "2026-08-24 15:40:58",
       "item": "Seringa 10ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 831,
-      "item_id": 176,
-      "produto_nome": "Dispositivo intravenoso Gelco nº 24",
-      "tipo": "Farmácia para Outro destino",
-      "origem": "Farmácia",
-      "destino": "Outro destino",
-      "quantidade": 15,
-      "responsavel": "Leiliana",
-      "data": "2026-08-24",
-      "obs": "",
-      "criado_em": "2026-08-24 15:40:34",
-      "item": "Dispositivo intravenoso Gelco nº 24",
       "usuario": "Leiliana"
     }
   ]
