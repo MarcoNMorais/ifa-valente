@@ -1,13 +1,13 @@
 {
-  "atualizado_em": "31/08/2026 11:24:26",
+  "atualizado_em": "31/08/2026 11:25:17",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
     "total_almoxarifado": 86723,
-    "total_farmacia": 26574,
-    "total_geral": 113297,
+    "total_farmacia": 26502,
+    "total_geral": 113225,
     "perto_de_terminar": 0,
-    "zerados": 12
+    "zerados": 13
   },
   "itens": [
     {
@@ -14445,37 +14445,30 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 72,
+      "farmacia": 0,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 72,
+      "total": 0,
       "minimo": 0,
-      "validade": "2026-08",
+      "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-25 16:12:46",
-      "validade_mais_proxima": "2026-08",
-      "vencimento_mais_proximo": "2026-08",
-      "lotes_validade": [
-        {
-          "local": "farmacia",
-          "validade": "2026-08",
-          "lote": "",
-          "quantidade": 72
-        }
-      ],
+      "atualizado_em": "2026-08-31 11:25:16",
+      "validade_mais_proxima": "",
+      "vencimento_mais_proximo": "",
+      "lotes_validade": [],
       "minimo_manual": 0,
       "minimo_alerta": 0,
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 19,
-      "media_diaria_saida": 0.0,
-      "total_saida_historica": 0,
-      "cobertura_dias": null,
+      "media_diaria_saida": 3.79,
+      "total_saida_historica": 72,
+      "cobertura_dias": 0.0,
       "alerta_estoque": false
     },
     {
@@ -15484,6 +15477,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 1281,
+      "item_id": 79,
+      "produto_nome": "Sulfato de Gentamicina 40mg",
+      "tipo": "Baixa Farmácia",
+      "origem": "Farmácia",
+      "destino": "Baixa/Perda/Vencimento",
+      "quantidade": 72,
+      "responsavel": "Assucena",
+      "data": "2026-08-31",
+      "obs": "",
+      "criado_em": "2026-08-31 11:25:16",
+      "item": "Sulfato de Gentamicina 40mg",
+      "usuario": "Assucena"
+    },
     {
       "id": 1280,
       "item_id": 58,
@@ -22967,21 +22975,6 @@
       "obs": "",
       "criado_em": "2026-08-24 15:26:18",
       "item": "Dexametasona",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 781,
-      "item_id": 138,
-      "produto_nome": "Captopril 25mg CPR",
-      "tipo": "Farmácia para Outro destino",
-      "origem": "Farmácia",
-      "destino": "Outro destino",
-      "quantidade": 60,
-      "responsavel": "Leiliana",
-      "data": "2026-08-24",
-      "obs": "",
-      "criado_em": "2026-08-24 15:26:09",
-      "item": "Captopril 25mg CPR",
       "usuario": "Leiliana"
     }
   ]
