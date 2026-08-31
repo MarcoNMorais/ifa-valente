@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "31/08/2026 11:31:11",
+  "atualizado_em": "31/08/2026 11:31:27",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
     "total_almoxarifado": 86723,
-    "total_farmacia": 25790,
-    "total_geral": 112513,
+    "total_farmacia": 25730,
+    "total_geral": 112453,
     "perto_de_terminar": 0,
     "zerados": 13
   },
@@ -635,19 +635,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 350,
+      "farmacia": 290,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 350,
+      "total": 290,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-27 11:05:05",
+      "atualizado_em": "2026-08-31 11:31:27",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -655,7 +655,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 350
+          "quantidade": 290
         }
       ],
       "minimo_manual": 0,
@@ -663,9 +663,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 19,
-      "media_diaria_saida": 42.11,
-      "total_saida_historica": 800,
-      "cobertura_dias": 8.3,
+      "media_diaria_saida": 45.26,
+      "total_saida_historica": 860,
+      "cobertura_dias": 6.4,
       "alerta_estoque": false
     },
     {
@@ -15517,6 +15517,21 @@
       "usuario": "Assucena"
     },
     {
+      "id": 1312,
+      "item_id": 187,
+      "produto_nome": "Agulha hipodérmica tam. 18",
+      "tipo": "Farmácia para Posto de Internamento",
+      "origem": "Farmácia",
+      "destino": "Posto de Internamento",
+      "quantidade": 60,
+      "responsavel": "Assucena",
+      "data": "2026-08-30",
+      "obs": "",
+      "criado_em": "2026-08-31 11:31:27",
+      "item": "Agulha hipodérmica tam. 18",
+      "usuario": "Assucena"
+    },
+    {
       "id": 1311,
       "item_id": 68,
       "produto_nome": "Dexametasona",
@@ -22954,21 +22969,6 @@
       "obs": "",
       "criado_em": "2026-08-24 15:35:41",
       "item": "Ceftriaxona 1g",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 812,
-      "item_id": 178,
-      "produto_nome": "Dispositivo intravenoso Gelco nº 20",
-      "tipo": "Farmácia para Outro destino",
-      "origem": "Farmácia",
-      "destino": "Outro destino",
-      "quantidade": 20,
-      "responsavel": "Leiliana",
-      "data": "2026-08-24",
-      "obs": "",
-      "criado_em": "2026-08-24 15:35:26",
-      "item": "Dispositivo intravenoso Gelco nº 20",
       "usuario": "Leiliana"
     }
   ]
