@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "31/08/2026 11:43:28",
+  "atualizado_em": "31/08/2026 11:43:39",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
     "total_almoxarifado": 86723,
-    "total_farmacia": 24907,
-    "total_geral": 111630,
+    "total_farmacia": 24904,
+    "total_geral": 111627,
     "perto_de_terminar": 0,
     "zerados": 13
   },
@@ -5195,19 +5195,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 65,
-      "farmacia": 21,
+      "farmacia": 18,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 86,
+      "total": 83,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-28 10:58:21",
+      "atualizado_em": "2026-08-31 11:43:38",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -5221,7 +5221,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 21
+          "quantidade": 18
         }
       ],
       "minimo_manual": 0,
@@ -5229,9 +5229,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 19,
-      "media_diaria_saida": 1.16,
-      "total_saida_historica": 22,
-      "cobertura_dias": 74.3,
+      "media_diaria_saida": 1.32,
+      "total_saida_historica": 25,
+      "cobertura_dias": 63.1,
       "alerta_estoque": false
     },
     {
@@ -15466,6 +15466,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 1359,
+      "item_id": 154,
+      "produto_nome": "Equipo fotossensível",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 3,
+      "responsavel": "Assucena",
+      "data": "2026-08-31",
+      "obs": "",
+      "criado_em": "2026-08-31 11:43:38",
+      "item": "Equipo fotossensível",
+      "usuario": "Assucena"
+    },
+    {
       "id": 1358,
       "item_id": 157,
       "produto_nome": "Seringa 1ml",
@@ -22948,21 +22963,6 @@
       "obs": "",
       "criado_em": "2026-08-24 15:49:10",
       "item": "Benzilpenicilina 1.200",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 859,
-      "item_id": 242,
-      "produto_nome": "Óleo mineral solução",
-      "tipo": "Farmácia para Outro destino",
-      "origem": "Farmácia",
-      "destino": "Outro destino",
-      "quantidade": 1,
-      "responsavel": "Leiliana",
-      "data": "2026-08-24",
-      "obs": "",
-      "criado_em": "2026-08-24 15:48:44",
-      "item": "Óleo mineral solução",
       "usuario": "Leiliana"
     }
   ]
