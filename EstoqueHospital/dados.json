@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "31/08/2026 11:46:22",
+  "atualizado_em": "31/08/2026 11:46:50",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
     "total_almoxarifado": 86723,
-    "total_farmacia": 24716,
-    "total_geral": 111439,
+    "total_farmacia": 24714,
+    "total_geral": 111437,
     "perto_de_terminar": 0,
     "zerados": 14
   },
@@ -2493,19 +2493,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 32,
-      "farmacia": 14,
+      "farmacia": 12,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 46,
+      "total": 44,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-25 16:12:46",
+      "atualizado_em": "2026-08-31 11:46:30",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -2519,7 +2519,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 14
+          "quantidade": 12
         }
       ],
       "minimo_manual": 0,
@@ -2527,9 +2527,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 19,
-      "media_diaria_saida": 0.68,
-      "total_saida_historica": 13,
-      "cobertura_dias": 67.2,
+      "media_diaria_saida": 0.79,
+      "total_saida_historica": 15,
+      "cobertura_dias": 55.7,
       "alerta_estoque": false
     },
     {
@@ -15459,6 +15459,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 1374,
+      "item_id": 155,
+      "produto_nome": "Bolsa coletora",
+      "tipo": "Farmácia para Posto de Internamento",
+      "origem": "Farmácia",
+      "destino": "Posto de Internamento",
+      "quantidade": 2,
+      "responsavel": "Assucena",
+      "data": "2026-08-31",
+      "obs": "",
+      "criado_em": "2026-08-31 11:46:30",
+      "item": "Bolsa coletora",
+      "usuario": "Assucena"
+    },
+    {
       "id": 1373,
       "item_id": 290,
       "produto_nome": "Metronidazol 100ml",
@@ -22941,21 +22956,6 @@
       "obs": "",
       "criado_em": "2026-08-24 15:53:07",
       "item": "Luva cirúrgica tam. 7,5",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 874,
-      "item_id": 184,
-      "produto_nome": "Luva cirúrgica tam. 7",
-      "tipo": "Farmácia para Outro destino",
-      "origem": "Farmácia",
-      "destino": "Outro destino",
-      "quantidade": 5,
-      "responsavel": "Leiliana",
-      "data": "2026-08-24",
-      "obs": "",
-      "criado_em": "2026-08-24 15:52:57",
-      "item": "Luva cirúrgica tam. 7",
       "usuario": "Leiliana"
     }
   ]
