@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "31/08/2026 11:42:45",
+  "atualizado_em": "31/08/2026 11:42:56",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
     "total_almoxarifado": 86723,
-    "total_farmacia": 25047,
-    "total_geral": 111770,
+    "total_farmacia": 24997,
+    "total_geral": 111720,
     "perto_de_terminar": 0,
     "zerados": 13
   },
@@ -11423,19 +11423,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 1750,
-      "farmacia": 300,
+      "farmacia": 250,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 2050,
+      "total": 2000,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-08-31 11:42:43",
+      "atualizado_em": "2026-08-31 11:42:51",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -11449,7 +11449,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 300
+          "quantidade": 250
         }
       ],
       "minimo_manual": 0,
@@ -11457,9 +11457,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 19,
-      "media_diaria_saida": 77.58,
-      "total_saida_historica": 1474,
-      "cobertura_dias": 26.4,
+      "media_diaria_saida": 80.21,
+      "total_saida_historica": 1524,
+      "cobertura_dias": 24.9,
       "alerta_estoque": false
     },
     {
@@ -15465,6 +15465,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 1355,
+      "item_id": 103,
+      "produto_nome": "Seringa 10ml",
+      "tipo": "Farmácia para Posto de Internamento",
+      "origem": "Farmácia",
+      "destino": "Posto de Internamento",
+      "quantidade": 50,
+      "responsavel": "Assucena",
+      "data": "2026-08-31",
+      "obs": "",
+      "criado_em": "2026-08-31 11:42:51",
+      "item": "Seringa 10ml",
+      "usuario": "Assucena"
+    },
     {
       "id": 1354,
       "item_id": 103,
@@ -22948,21 +22963,6 @@
       "obs": "",
       "criado_em": "2026-08-24 15:48:05",
       "item": "Luva de látex tam. P",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 855,
-      "item_id": 59,
-      "produto_nome": "Ceftriaxona 1g",
-      "tipo": "Farmácia para Outro destino",
-      "origem": "Farmácia",
-      "destino": "Outro destino",
-      "quantidade": 10,
-      "responsavel": "Leiliana",
-      "data": "2026-08-24",
-      "obs": "",
-      "criado_em": "2026-08-24 15:47:53",
-      "item": "Ceftriaxona 1g",
       "usuario": "Leiliana"
     }
   ]
