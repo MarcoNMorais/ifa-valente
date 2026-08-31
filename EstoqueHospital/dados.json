@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "31/08/2026 16:29:39",
+  "atualizado_em": "31/08/2026 16:29:49",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
     "total_almoxarifado": 86723,
-    "total_farmacia": 24532,
-    "total_geral": 111255,
+    "total_farmacia": 24502,
+    "total_geral": 111225,
     "perto_de_terminar": 0,
     "zerados": 15
   },
@@ -11593,19 +11593,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 1500,
-      "farmacia": 55,
+      "farmacia": 25,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1555,
+      "total": 1525,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-08-31 11:43:05",
+      "atualizado_em": "2026-08-31 16:29:49",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -11619,7 +11619,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 55
+          "quantidade": 25
         }
       ],
       "minimo_manual": 0,
@@ -11627,9 +11627,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 19,
-      "media_diaria_saida": 29.47,
-      "total_saida_historica": 560,
-      "cobertura_dias": 52.8,
+      "media_diaria_saida": 31.05,
+      "total_saida_historica": 590,
+      "cobertura_dias": 49.1,
       "alerta_estoque": false
     },
     {
@@ -15445,6 +15445,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 1382,
+      "item_id": 102,
+      "produto_nome": "Seringa 5ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 30,
+      "responsavel": "Leiliana",
+      "data": "2026-08-31",
+      "obs": "",
+      "criado_em": "2026-08-31 16:29:49",
+      "item": "Seringa 5ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 1381,
       "item_id": 103,
@@ -22928,21 +22943,6 @@
       "obs": "",
       "criado_em": "2026-08-24 15:55:27",
       "item": "Fosfato de Clindamicina 150mg",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 882,
-      "item_id": 57,
-      "produto_nome": "Bromoprida 5mg",
-      "tipo": "Farmácia para Outro destino",
-      "origem": "Farmácia",
-      "destino": "Outro destino",
-      "quantidade": 20,
-      "responsavel": "Leiliana",
-      "data": "2026-08-24",
-      "obs": "",
-      "criado_em": "2026-08-24 15:55:12",
-      "item": "Bromoprida 5mg",
       "usuario": "Leiliana"
     }
   ]
