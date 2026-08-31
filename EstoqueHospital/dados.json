@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "31/08/2026 11:39:43",
+  "atualizado_em": "31/08/2026 11:39:52",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
     "total_almoxarifado": 86723,
-    "total_farmacia": 25249,
-    "total_geral": 111972,
+    "total_farmacia": 25245,
+    "total_geral": 111968,
     "perto_de_terminar": 0,
     "zerados": 13
   },
@@ -6242,19 +6242,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 48,
+      "farmacia": 44,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 48,
+      "total": 44,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-25 16:12:46",
+      "atualizado_em": "2026-08-31 11:39:49",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -6262,7 +6262,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 48
+          "quantidade": 44
         }
       ],
       "minimo_manual": 0,
@@ -6270,9 +6270,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 19,
-      "media_diaria_saida": 0.95,
-      "total_saida_historica": 18,
-      "cobertura_dias": 50.7,
+      "media_diaria_saida": 1.16,
+      "total_saida_historica": 22,
+      "cobertura_dias": 38.0,
       "alerta_estoque": false
     },
     {
@@ -15472,6 +15472,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 1336,
+      "item_id": 216,
+      "produto_nome": "Fio agulhado / sutura nº 3",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 4,
+      "responsavel": "Assucena",
+      "data": "2026-08-31",
+      "obs": "",
+      "criado_em": "2026-08-31 11:39:49",
+      "item": "Fio agulhado / sutura nº 3",
+      "usuario": "Assucena"
+    },
+    {
       "id": 1335,
       "item_id": 215,
       "produto_nome": "Fio agulhado / sutura nº 2",
@@ -22954,21 +22969,6 @@
       "obs": "",
       "criado_em": "2026-08-24 15:42:25",
       "item": "Dispositivo intravenoso Gelco nº 22",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 836,
-      "item_id": 202,
-      "produto_nome": "Soro fisiológico 100ml",
-      "tipo": "Farmácia para Outro destino",
-      "origem": "Farmácia",
-      "destino": "Outro destino",
-      "quantidade": 60,
-      "responsavel": "Leiliana",
-      "data": "2026-08-24",
-      "obs": "",
-      "criado_em": "2026-08-24 15:41:56",
-      "item": "Soro fisiológico 100ml",
       "usuario": "Leiliana"
     }
   ]
