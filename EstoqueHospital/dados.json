@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "31/08/2026 11:45:19",
+  "atualizado_em": "31/08/2026 11:45:31",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
     "total_almoxarifado": 86723,
-    "total_farmacia": 24783,
-    "total_geral": 111506,
+    "total_farmacia": 24769,
+    "total_geral": 111492,
     "perto_de_terminar": 0,
     "zerados": 14
   },
@@ -10288,19 +10288,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 406,
+      "farmacia": 392,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 406,
+      "total": 392,
       "minimo": 0,
       "validade": "2028-02",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-31 11:28:20",
+      "atualizado_em": "2026-08-31 11:45:29",
       "validade_mais_proxima": "2028-02",
       "vencimento_mais_proximo": "2028-02",
       "lotes_validade": [
@@ -10308,7 +10308,7 @@
           "local": "farmacia",
           "validade": "2028-02",
           "lote": "",
-          "quantidade": 392
+          "quantidade": 378
         },
         {
           "local": "farmacia",
@@ -10322,9 +10322,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 19,
-      "media_diaria_saida": 3.68,
-      "total_saida_historica": 70,
-      "cobertura_dias": 110.2,
+      "media_diaria_saida": 4.42,
+      "total_saida_historica": 84,
+      "cobertura_dias": 88.7,
       "alerta_estoque": false
     },
     {
@@ -15458,6 +15458,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 1368,
+      "item_id": 31,
+      "produto_nome": "Omeprazol 20mg comprimido",
+      "tipo": "Farmácia para Posto de Internamento",
+      "origem": "Farmácia",
+      "destino": "Posto de Internamento",
+      "quantidade": 14,
+      "responsavel": "Assucena",
+      "data": "2026-08-31",
+      "obs": "",
+      "criado_em": "2026-08-31 11:45:29",
+      "item": "Omeprazol 20mg comprimido",
+      "usuario": "Assucena"
+    },
     {
       "id": 1367,
       "item_id": 42,
@@ -22941,21 +22956,6 @@
       "obs": "",
       "criado_em": "2026-08-24 15:51:38",
       "item": "Atenolol 25mg CPR",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 868,
-      "item_id": 40,
-      "produto_nome": "Succinato de metoprolol 25mg",
-      "tipo": "Farmácia para Outro destino",
-      "origem": "Farmácia",
-      "destino": "Outro destino",
-      "quantidade": 30,
-      "responsavel": "Leiliana",
-      "data": "2026-08-24",
-      "obs": "",
-      "criado_em": "2026-08-24 15:51:15",
-      "item": "Succinato de metoprolol 25mg",
       "usuario": "Leiliana"
     }
   ]
