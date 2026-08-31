@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "31/08/2026 11:26:59",
+  "atualizado_em": "31/08/2026 11:27:13",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
     "total_almoxarifado": 86723,
-    "total_farmacia": 26371,
-    "total_geral": 113094,
+    "total_farmacia": 26356,
+    "total_geral": 113079,
     "perto_de_terminar": 0,
     "zerados": 13
   },
@@ -4699,19 +4699,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 600,
-      "farmacia": 200,
+      "farmacia": 185,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 800,
+      "total": 785,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-28 10:56:02",
+      "atualizado_em": "2026-08-31 11:27:12",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -4725,7 +4725,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 200
+          "quantidade": 185
         }
       ],
       "minimo_manual": 0,
@@ -4733,9 +4733,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 19,
-      "media_diaria_saida": 7.89,
-      "total_saida_historica": 150,
-      "cobertura_dias": 101.3,
+      "media_diaria_saida": 8.68,
+      "total_saida_historica": 165,
+      "cobertura_dias": 90.4,
       "alerta_estoque": false
     },
     {
@@ -15523,6 +15523,21 @@
       "usuario": "Assucena"
     },
     {
+      "id": 1290,
+      "item_id": 178,
+      "produto_nome": "Dispositivo intravenoso Gelco nº 20",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 15,
+      "responsavel": "Assucena",
+      "data": "2026-08-29",
+      "obs": "",
+      "criado_em": "2026-08-31 11:27:12",
+      "item": "Dispositivo intravenoso Gelco nº 20",
+      "usuario": "Assucena"
+    },
+    {
       "id": 1289,
       "item_id": 361,
       "produto_nome": "AZITROMICINA COMPRIMIDO",
@@ -22960,21 +22975,6 @@
       "obs": "",
       "criado_em": "2026-08-24 15:29:06",
       "item": "Dexametasona",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 790,
-      "item_id": 76,
-      "produto_nome": "Escopolamina + Dipirona",
-      "tipo": "Farmácia para Outro destino",
-      "origem": "Farmácia",
-      "destino": "Outro destino",
-      "quantidade": 20,
-      "responsavel": "Leiliana",
-      "data": "2026-08-24",
-      "obs": "",
-      "criado_em": "2026-08-24 15:28:52",
-      "item": "Escopolamina + Dipirona",
       "usuario": "Leiliana"
     }
   ]
