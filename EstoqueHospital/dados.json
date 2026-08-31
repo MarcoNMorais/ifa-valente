@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "31/08/2026 11:17:33",
+  "atualizado_em": "31/08/2026 11:17:43",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
     "total_almoxarifado": 86723,
-    "total_farmacia": 27046,
-    "total_geral": 113769,
+    "total_farmacia": 26996,
+    "total_geral": 113719,
     "perto_de_terminar": 0,
     "zerados": 11
   },
@@ -5281,19 +5281,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 950,
-      "farmacia": 225,
+      "farmacia": 175,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1175,
+      "total": 1125,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga Almoxerifado",
       "obs": "Importação Almoxerifado",
-      "atualizado_em": "2026-08-28 10:58:11",
+      "atualizado_em": "2026-08-31 11:17:42",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -5307,7 +5307,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 225
+          "quantidade": 175
         }
       ],
       "minimo_manual": 0,
@@ -5315,9 +5315,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 14,
-      "media_diaria_saida": 10.71,
-      "total_saida_historica": 150,
-      "cobertura_dias": 109.7,
+      "media_diaria_saida": 14.29,
+      "total_saida_historica": 200,
+      "cobertura_dias": 78.8,
       "alerta_estoque": false
     },
     {
@@ -15519,6 +15519,21 @@
       "usuario": "Assucena"
     },
     {
+      "id": 1261,
+      "item_id": 275,
+      "produto_nome": "Equipo micro",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 50,
+      "responsavel": "Assucena",
+      "data": "2026-08-29",
+      "obs": "",
+      "criado_em": "2026-08-31 11:17:42",
+      "item": "Equipo micro",
+      "usuario": "Assucena"
+    },
+    {
       "id": 1260,
       "item_id": 203,
       "produto_nome": "Soro fisiológico 250ml",
@@ -22986,21 +23001,6 @@
       "obs": "",
       "criado_em": "2026-08-24 15:20:45",
       "item": "Ceftriaxona 1g",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 761,
-      "item_id": 151,
-      "produto_nome": "Atadura crepon nº 15",
-      "tipo": "Farmácia para Outro destino",
-      "origem": "Farmácia",
-      "destino": "Outro destino",
-      "quantidade": 12,
-      "responsavel": "Leiliana",
-      "data": "2026-08-24",
-      "obs": "",
-      "criado_em": "2026-08-24 15:20:26",
-      "item": "Atadura crepon nº 15",
       "usuario": "Leiliana"
     }
   ]
