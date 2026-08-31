@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "31/08/2026 11:39:52",
+  "atualizado_em": "31/08/2026 11:40:02",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
     "total_almoxarifado": 86723,
-    "total_farmacia": 25245,
-    "total_geral": 111968,
+    "total_farmacia": 25239,
+    "total_geral": 111962,
     "perto_de_terminar": 0,
     "zerados": 13
   },
@@ -3144,19 +3144,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 27,
+      "farmacia": 21,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 27,
+      "total": 21,
       "minimo": 0,
       "validade": "2028-01",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-31 11:30:42",
+      "atualizado_em": "2026-08-31 11:39:59",
       "validade_mais_proxima": "2028-01",
       "vencimento_mais_proximo": "2028-01",
       "lotes_validade": [
@@ -3164,7 +3164,7 @@
           "local": "farmacia",
           "validade": "2028-01",
           "lote": "",
-          "quantidade": 27
+          "quantidade": 21
         }
       ],
       "minimo_manual": 0,
@@ -3172,9 +3172,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 19,
-      "media_diaria_saida": 11.74,
-      "total_saida_historica": 223,
-      "cobertura_dias": 2.3,
+      "media_diaria_saida": 12.05,
+      "total_saida_historica": 229,
+      "cobertura_dias": 1.7,
       "alerta_estoque": false
     },
     {
@@ -15472,6 +15472,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 1337,
+      "item_id": 60,
+      "produto_nome": "Cetoprofeno EV 100mg",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 6,
+      "responsavel": "Assucena",
+      "data": "2026-08-31",
+      "obs": "",
+      "criado_em": "2026-08-31 11:39:59",
+      "item": "Cetoprofeno EV 100mg",
+      "usuario": "Assucena"
+    },
+    {
       "id": 1336,
       "item_id": 216,
       "produto_nome": "Fio agulhado / sutura nº 3",
@@ -22954,21 +22969,6 @@
       "obs": "",
       "criado_em": "2026-08-24 15:42:38",
       "item": "Dispositivo intravenoso Gelco nº 20",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 837,
-      "item_id": 177,
-      "produto_nome": "Dispositivo intravenoso Gelco nº 22",
-      "tipo": "Farmácia para Outro destino",
-      "origem": "Farmácia",
-      "destino": "Outro destino",
-      "quantidade": 20,
-      "responsavel": "Leiliana",
-      "data": "2026-08-24",
-      "obs": "",
-      "criado_em": "2026-08-24 15:42:25",
-      "item": "Dispositivo intravenoso Gelco nº 22",
       "usuario": "Leiliana"
     }
   ]
