@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "31/08/2026 11:43:08",
+  "atualizado_em": "31/08/2026 11:43:18",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
     "total_almoxarifado": 86723,
-    "total_farmacia": 24977,
-    "total_geral": 111700,
+    "total_farmacia": 24927,
+    "total_geral": 111650,
     "perto_de_terminar": 0,
     "zerados": 13
   },
@@ -11561,19 +11561,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 2500,
-      "farmacia": 1583,
+      "farmacia": 1533,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 4083,
+      "total": 4033,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-31 11:29:56",
+      "atualizado_em": "2026-08-31 11:43:17",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -11587,7 +11587,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 1583
+          "quantidade": 1533
         }
       ],
       "minimo_manual": 0,
@@ -11595,9 +11595,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 19,
-      "media_diaria_saida": 36.58,
-      "total_saida_historica": 695,
-      "cobertura_dias": 111.6,
+      "media_diaria_saida": 39.21,
+      "total_saida_historica": 745,
+      "cobertura_dias": 102.9,
       "alerta_estoque": false
     },
     {
@@ -15465,6 +15465,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 1357,
+      "item_id": 104,
+      "produto_nome": "Seringa 3ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 50,
+      "responsavel": "Assucena",
+      "data": "2026-08-31",
+      "obs": "",
+      "criado_em": "2026-08-31 11:43:17",
+      "item": "Seringa 3ml",
+      "usuario": "Assucena"
+    },
     {
       "id": 1356,
       "item_id": 102,
@@ -22948,21 +22963,6 @@
       "obs": "",
       "criado_em": "2026-08-24 15:48:29",
       "item": "Lactulose solução",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 857,
-      "item_id": 260,
-      "produto_nome": "Paracetamol gotas",
-      "tipo": "Farmácia para Outro destino",
-      "origem": "Farmácia",
-      "destino": "Outro destino",
-      "quantidade": 4,
-      "responsavel": "Leiliana",
-      "data": "2026-08-24",
-      "obs": "",
-      "criado_em": "2026-08-24 15:48:17",
-      "item": "Paracetamol gotas",
       "usuario": "Leiliana"
     }
   ]
