@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "31/08/2026 11:41:11",
+  "atualizado_em": "31/08/2026 11:41:21",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
     "total_almoxarifado": 86723,
-    "total_farmacia": 25160,
-    "total_geral": 111883,
+    "total_farmacia": 25150,
+    "total_geral": 111873,
     "perto_de_terminar": 0,
     "zerados": 13
   },
@@ -11291,19 +11291,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 800,
-      "farmacia": 27,
+      "farmacia": 17,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 827,
+      "total": 817,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-31 11:32:40",
+      "atualizado_em": "2026-08-31 11:41:18",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -11317,7 +11317,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 27
+          "quantidade": 17
         }
       ],
       "minimo_manual": 0,
@@ -11325,9 +11325,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 19,
-      "media_diaria_saida": 6.26,
-      "total_saida_historica": 119,
-      "cobertura_dias": 132.0,
+      "media_diaria_saida": 6.79,
+      "total_saida_historica": 129,
+      "cobertura_dias": 120.3,
       "alerta_estoque": false
     },
     {
@@ -15471,6 +15471,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 1346,
+      "item_id": 99,
+      "produto_nome": "Scalp nº 21",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 10,
+      "responsavel": "Assucena",
+      "data": "2026-08-31",
+      "obs": "",
+      "criado_em": "2026-08-31 11:41:18",
+      "item": "Scalp nº 21",
+      "usuario": "Assucena"
+    },
     {
       "id": 1345,
       "item_id": 138,
@@ -22954,21 +22969,6 @@
       "obs": "",
       "criado_em": "2026-08-24 15:45:18",
       "item": "Omeprazol sódico 40mg AMP",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 846,
-      "item_id": 155,
-      "produto_nome": "Bolsa coletora",
-      "tipo": "Farmácia para Outro destino",
-      "origem": "Farmácia",
-      "destino": "Outro destino",
-      "quantidade": 1,
-      "responsavel": "Leiliana",
-      "data": "2026-08-24",
-      "obs": "",
-      "criado_em": "2026-08-24 15:45:07",
-      "item": "Bolsa coletora",
       "usuario": "Leiliana"
     }
   ]
