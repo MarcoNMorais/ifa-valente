@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "31/08/2026 11:20:23",
+  "atualizado_em": "31/08/2026 11:20:34",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
     "total_almoxarifado": 86723,
-    "total_farmacia": 26646,
-    "total_geral": 113369,
+    "total_farmacia": 26626,
+    "total_geral": 113349,
     "perto_de_terminar": 0,
     "zerados": 12
   },
@@ -3768,19 +3768,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 229,
+      "farmacia": 209,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 229,
+      "total": 209,
       "minimo": 0,
       "validade": "2027-11",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-27 11:06:13",
+      "atualizado_em": "2026-08-31 11:20:32",
       "validade_mais_proxima": "2027-11",
       "vencimento_mais_proximo": "2027-11",
       "lotes_validade": [
@@ -3788,7 +3788,7 @@
           "local": "farmacia",
           "validade": "2027-11",
           "lote": "",
-          "quantidade": 229
+          "quantidade": 209
         }
       ],
       "minimo_manual": 0,
@@ -3796,9 +3796,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 19,
-      "media_diaria_saida": 2.11,
-      "total_saida_historica": 40,
-      "cobertura_dias": 108.8,
+      "media_diaria_saida": 3.16,
+      "total_saida_historica": 60,
+      "cobertura_dias": 66.2,
       "alerta_estoque": false
     },
     {
@@ -15500,6 +15500,21 @@
       "usuario": "Assucena"
     },
     {
+      "id": 1276,
+      "item_id": 86,
+      "produto_nome": "Cloridrato de Metoclopramida",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 20,
+      "responsavel": "Assucena",
+      "data": "2026-08-29",
+      "obs": "",
+      "criado_em": "2026-08-31 11:20:32",
+      "item": "Cloridrato de Metoclopramida",
+      "usuario": "Assucena"
+    },
+    {
       "id": 1275,
       "item_id": 233,
       "produto_nome": "Prometazina 25mg/ml",
@@ -22967,21 +22982,6 @@
       "obs": "",
       "criado_em": "2026-08-24 15:24:41",
       "item": "Amiodarona 50mg",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 776,
-      "item_id": 14,
-      "produto_nome": "Adenosina 3mg/ml 2ml",
-      "tipo": "Farmácia para Outro destino",
-      "origem": "Farmácia",
-      "destino": "Outro destino",
-      "quantidade": 2,
-      "responsavel": "Leiliana",
-      "data": "2026-08-24",
-      "obs": "",
-      "criado_em": "2026-08-24 15:24:14",
-      "item": "Adenosina 3mg/ml 2ml",
       "usuario": "Leiliana"
     }
   ]
