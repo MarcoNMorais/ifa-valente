@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "31/08/2026 16:29:10",
+  "atualizado_em": "31/08/2026 16:29:25",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
     "total_almoxarifado": 86723,
-    "total_farmacia": 24602,
-    "total_geral": 111325,
+    "total_farmacia": 24562,
+    "total_geral": 111285,
     "perto_de_terminar": 0,
     "zerados": 15
   },
@@ -11501,19 +11501,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 2500,
-      "farmacia": 345,
+      "farmacia": 305,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 2845,
+      "total": 2805,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-08-31 11:42:34",
+      "atualizado_em": "2026-08-31 16:29:25",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -11527,7 +11527,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 345
+          "quantidade": 305
         }
       ],
       "minimo_manual": 0,
@@ -11535,9 +11535,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 14,
-      "media_diaria_saida": 28.93,
-      "total_saida_historica": 405,
-      "cobertura_dias": 98.3,
+      "media_diaria_saida": 31.79,
+      "total_saida_historica": 445,
+      "cobertura_dias": 88.2,
       "alerta_estoque": false
     },
     {
@@ -15445,6 +15445,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 1380,
+      "item_id": 274,
+      "produto_nome": "Seringa 20ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 40,
+      "responsavel": "Leiliana",
+      "data": "2026-08-31",
+      "obs": "",
+      "criado_em": "2026-08-31 16:29:25",
+      "item": "Seringa 20ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 1379,
       "item_id": 202,
@@ -22928,21 +22943,6 @@
       "obs": "",
       "criado_em": "2026-08-24 15:54:54",
       "item": "Lanceta de segurança",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 880,
-      "item_id": 175,
-      "produto_nome": "Fita cirúrgica microporosa",
-      "tipo": "Farmácia para Outro destino",
-      "origem": "Farmácia",
-      "destino": "Outro destino",
-      "quantidade": 1,
-      "responsavel": "Leiliana",
-      "data": "2026-08-24",
-      "obs": "",
-      "criado_em": "2026-08-24 15:54:33",
-      "item": "Fita cirúrgica microporosa",
       "usuario": "Leiliana"
     }
   ]
