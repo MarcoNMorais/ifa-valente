@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "31/08/2026 11:27:13",
+  "atualizado_em": "31/08/2026 11:27:31",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
     "total_almoxarifado": 86723,
-    "total_farmacia": 26356,
-    "total_geral": 113079,
+    "total_farmacia": 26329,
+    "total_geral": 113052,
     "perto_de_terminar": 0,
     "zerados": 13
   },
@@ -3064,19 +3064,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 35,
+      "farmacia": 8,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 35,
+      "total": 8,
       "minimo": 0,
       "validade": "2028-01",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-28 10:27:18",
+      "atualizado_em": "2026-08-31 11:27:30",
       "validade_mais_proxima": "2028-01",
       "vencimento_mais_proximo": "2028-01",
       "lotes_validade": [
@@ -3084,7 +3084,7 @@
           "local": "farmacia",
           "validade": "2028-01",
           "lote": "",
-          "quantidade": 35
+          "quantidade": 8
         }
       ],
       "minimo_manual": 0,
@@ -3092,9 +3092,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 19,
-      "media_diaria_saida": 15.42,
-      "total_saida_historica": 293,
-      "cobertura_dias": 2.3,
+      "media_diaria_saida": 16.84,
+      "total_saida_historica": 320,
+      "cobertura_dias": 0.5,
       "alerta_estoque": false
     },
     {
@@ -15523,6 +15523,21 @@
       "usuario": "Assucena"
     },
     {
+      "id": 1291,
+      "item_id": 59,
+      "produto_nome": "Ceftriaxona 1g",
+      "tipo": "Farmácia para Posto de Internamento",
+      "origem": "Farmácia",
+      "destino": "Posto de Internamento",
+      "quantidade": 27,
+      "responsavel": "Assucena",
+      "data": "2026-08-29",
+      "obs": "",
+      "criado_em": "2026-08-31 11:27:30",
+      "item": "Ceftriaxona 1g",
+      "usuario": "Assucena"
+    },
+    {
       "id": 1290,
       "item_id": 178,
       "produto_nome": "Dispositivo intravenoso Gelco nº 20",
@@ -22960,21 +22975,6 @@
       "obs": "",
       "criado_em": "2026-08-24 15:29:20",
       "item": "Dipirona",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 791,
-      "item_id": 68,
-      "produto_nome": "Dexametasona",
-      "tipo": "Farmácia para Outro destino",
-      "origem": "Farmácia",
-      "destino": "Outro destino",
-      "quantidade": 20,
-      "responsavel": "Leiliana",
-      "data": "2026-08-24",
-      "obs": "",
-      "criado_em": "2026-08-24 15:29:06",
-      "item": "Dexametasona",
       "usuario": "Leiliana"
     }
   ]
