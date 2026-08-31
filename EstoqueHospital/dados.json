@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "31/08/2026 11:28:46",
+  "atualizado_em": "31/08/2026 11:28:57",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
     "total_almoxarifado": 86723,
-    "total_farmacia": 26178,
-    "total_geral": 112901,
+    "total_farmacia": 26153,
+    "total_geral": 112876,
     "perto_de_terminar": 0,
     "zerados": 13
   },
@@ -5274,19 +5274,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 950,
-      "farmacia": 175,
+      "farmacia": 150,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1125,
+      "total": 1100,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga Almoxerifado",
       "obs": "Importação Almoxerifado",
-      "atualizado_em": "2026-08-31 11:17:42",
+      "atualizado_em": "2026-08-31 11:28:54",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -5300,7 +5300,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 175
+          "quantidade": 150
         }
       ],
       "minimo_manual": 0,
@@ -5308,9 +5308,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 14,
-      "media_diaria_saida": 14.29,
-      "total_saida_historica": 200,
-      "cobertura_dias": 78.8,
+      "media_diaria_saida": 16.07,
+      "total_saida_historica": 225,
+      "cobertura_dias": 68.4,
       "alerta_estoque": false
     },
     {
@@ -15517,6 +15517,21 @@
       "usuario": "Assucena"
     },
     {
+      "id": 1298,
+      "item_id": 275,
+      "produto_nome": "Equipo micro",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 25,
+      "responsavel": "Assucena",
+      "data": "2026-08-30",
+      "obs": "",
+      "criado_em": "2026-08-31 11:28:54",
+      "item": "Equipo micro",
+      "usuario": "Assucena"
+    },
+    {
       "id": 1297,
       "item_id": 28,
       "produto_nome": "Dipirona 500mg",
@@ -22954,21 +22969,6 @@
       "obs": "",
       "criado_em": "2026-08-24 15:31:21",
       "item": "Soro glicose 5% 500ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 798,
-      "item_id": 21,
-      "produto_nome": "Clonazepam gotas 25mg/ml",
-      "tipo": "Farmácia para Outro destino",
-      "origem": "Farmácia",
-      "destino": "Outro destino",
-      "quantidade": 1,
-      "responsavel": "Leiliana",
-      "data": "2026-08-24",
-      "obs": "",
-      "criado_em": "2026-08-24 15:30:59",
-      "item": "Clonazepam gotas 25mg/ml",
       "usuario": "Leiliana"
     }
   ]
