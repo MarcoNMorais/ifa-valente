@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "31/08/2026 11:20:13",
+  "atualizado_em": "31/08/2026 11:20:23",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
     "total_almoxarifado": 86723,
-    "total_farmacia": 26666,
-    "total_geral": 113389,
+    "total_farmacia": 26646,
+    "total_geral": 113369,
     "perto_de_terminar": 0,
     "zerados": 12
   },
@@ -10959,19 +10959,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 29,
+      "farmacia": 9,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 29,
+      "total": 9,
       "minimo": 0,
       "validade": "04/27",
       "lote": "",
       "origem": "Carga Farmácia 227-288",
       "obs": "Importação Farmácia 227-288",
-      "atualizado_em": "2026-08-25 16:12:46",
+      "atualizado_em": "2026-08-31 11:20:22",
       "validade_mais_proxima": "04/27",
       "vencimento_mais_proximo": "04/27",
       "lotes_validade": [
@@ -10979,13 +10979,7 @@
           "local": "farmacia",
           "validade": "04/27",
           "lote": "",
-          "quantidade": 24
-        },
-        {
-          "local": "farmacia",
-          "validade": "08/27",
-          "lote": "",
-          "quantidade": 5
+          "quantidade": 9
         }
       ],
       "minimo_manual": 0,
@@ -10993,9 +10987,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 14,
-      "media_diaria_saida": 4.29,
-      "total_saida_historica": 60,
-      "cobertura_dias": 6.8,
+      "media_diaria_saida": 5.71,
+      "total_saida_historica": 80,
+      "cobertura_dias": 1.6,
       "alerta_estoque": false
     },
     {
@@ -15503,6 +15497,21 @@
       "obs": "",
       "criado_em": "2026-08-31 11:16:44",
       "item": "Atadura gessada nº 10",
+      "usuario": "Assucena"
+    },
+    {
+      "id": 1275,
+      "item_id": 233,
+      "produto_nome": "Prometazina 25mg/ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 20,
+      "responsavel": "Assucena",
+      "data": "2026-08-29",
+      "obs": "",
+      "criado_em": "2026-08-31 11:20:22",
+      "item": "Prometazina 25mg/ml",
       "usuario": "Assucena"
     },
     {
@@ -22973,21 +22982,6 @@
       "obs": "",
       "criado_em": "2026-08-24 15:24:14",
       "item": "Adenosina 3mg/ml 2ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 775,
-      "item_id": 101,
-      "produto_nome": "Acesso Central",
-      "tipo": "Farmácia para Outro destino",
-      "origem": "Farmácia",
-      "destino": "Outro destino",
-      "quantidade": 2,
-      "responsavel": "Leiliana",
-      "data": "2026-08-24",
-      "obs": "",
-      "criado_em": "2026-08-24 15:24:02",
-      "item": "Acesso Central",
       "usuario": "Leiliana"
     }
   ]
