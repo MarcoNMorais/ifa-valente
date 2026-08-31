@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "31/08/2026 11:40:49",
+  "atualizado_em": "31/08/2026 11:41:00",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
     "total_almoxarifado": 86723,
-    "total_farmacia": 25183,
-    "total_geral": 111906,
+    "total_farmacia": 25182,
+    "total_geral": 111905,
     "perto_de_terminar": 0,
     "zerados": 13
   },
@@ -11165,19 +11165,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 28,
+      "farmacia": 27,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 28,
+      "total": 27,
       "minimo": 0,
       "validade": "12/26",
       "lote": "",
       "origem": "Carga Farmácia 227-288",
       "obs": "Importação Farmácia 227-288",
-      "atualizado_em": "2026-08-25 16:12:46",
+      "atualizado_em": "2026-08-31 11:40:53",
       "validade_mais_proxima": "12/26",
       "vencimento_mais_proximo": "12/26",
       "lotes_validade": [
@@ -11185,7 +11185,7 @@
           "local": "farmacia",
           "validade": "12/26",
           "lote": "",
-          "quantidade": 28
+          "quantidade": 27
         }
       ],
       "minimo_manual": 0,
@@ -11193,9 +11193,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 17,
-      "media_diaria_saida": 0.47,
-      "total_saida_historica": 8,
-      "cobertura_dias": 59.5,
+      "media_diaria_saida": 0.53,
+      "total_saida_historica": 9,
+      "cobertura_dias": 51.0,
       "alerta_estoque": false
     },
     {
@@ -15471,6 +15471,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 1343,
+      "item_id": 252,
+      "produto_nome": "Salbutamol spray",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 1,
+      "responsavel": "Assucena",
+      "data": "2026-08-31",
+      "obs": "",
+      "criado_em": "2026-08-31 11:40:53",
+      "item": "Salbutamol spray",
+      "usuario": "Assucena"
+    },
     {
       "id": 1342,
       "item_id": 255,
@@ -22954,21 +22969,6 @@
       "obs": "",
       "criado_em": "2026-08-24 15:44:42",
       "item": "Escopolamina + Dipirona",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 843,
-      "item_id": 59,
-      "produto_nome": "Ceftriaxona 1g",
-      "tipo": "Farmácia para Outro destino",
-      "origem": "Farmácia",
-      "destino": "Outro destino",
-      "quantidade": 6,
-      "responsavel": "Leiliana",
-      "data": "2026-08-24",
-      "obs": "",
-      "criado_em": "2026-08-24 15:43:44",
-      "item": "Ceftriaxona 1g",
       "usuario": "Leiliana"
     }
   ]
