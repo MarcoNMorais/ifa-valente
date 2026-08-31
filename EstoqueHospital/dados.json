@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "31/08/2026 11:31:00",
+  "atualizado_em": "31/08/2026 11:31:11",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
     "total_almoxarifado": 86723,
-    "total_farmacia": 25810,
-    "total_geral": 112533,
+    "total_farmacia": 25790,
+    "total_geral": 112513,
     "perto_de_terminar": 0,
     "zerados": 13
   },
@@ -4207,19 +4207,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 780,
+      "farmacia": 760,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 780,
+      "total": 760,
       "minimo": 0,
       "validade": "2027-10",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-28 10:54:08",
+      "atualizado_em": "2026-08-31 11:31:09",
       "validade_mais_proxima": "2027-10",
       "vencimento_mais_proximo": "2027-10",
       "lotes_validade": [
@@ -4227,7 +4227,7 @@
           "local": "farmacia",
           "validade": "2027-10",
           "lote": "",
-          "quantidade": 780
+          "quantidade": 760
         }
       ],
       "minimo_manual": 0,
@@ -4235,9 +4235,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 19,
-      "media_diaria_saida": 25.79,
-      "total_saida_historica": 490,
-      "cobertura_dias": 30.2,
+      "media_diaria_saida": 26.84,
+      "total_saida_historica": 510,
+      "cobertura_dias": 28.3,
       "alerta_estoque": false
     },
     {
@@ -15517,6 +15517,21 @@
       "usuario": "Assucena"
     },
     {
+      "id": 1311,
+      "item_id": 68,
+      "produto_nome": "Dexametasona",
+      "tipo": "Farmácia para Posto de Internamento",
+      "origem": "Farmácia",
+      "destino": "Posto de Internamento",
+      "quantidade": 20,
+      "responsavel": "Assucena",
+      "data": "2026-08-30",
+      "obs": "",
+      "criado_em": "2026-08-31 11:31:09",
+      "item": "Dexametasona",
+      "usuario": "Assucena"
+    },
+    {
       "id": 1310,
       "item_id": 344,
       "produto_nome": "ÁGUA  PARA INJETÁVEIS 10ML",
@@ -22954,21 +22969,6 @@
       "obs": "",
       "criado_em": "2026-08-24 15:35:26",
       "item": "Dispositivo intravenoso Gelco nº 20",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 811,
-      "item_id": 206,
-      "produto_nome": "Soro glicose 5% 250ml",
-      "tipo": "Farmácia para Outro destino",
-      "origem": "Farmácia",
-      "destino": "Outro destino",
-      "quantidade": 5,
-      "responsavel": "Leiliana",
-      "data": "2026-08-24",
-      "obs": "",
-      "criado_em": "2026-08-24 15:35:01",
-      "item": "Soro glicose 5% 250ml",
       "usuario": "Leiliana"
     }
   ]
