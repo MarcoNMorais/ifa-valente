@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "31/08/2026 11:44:10",
+  "atualizado_em": "31/08/2026 11:44:20",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
     "total_almoxarifado": 86723,
-    "total_farmacia": 24879,
-    "total_geral": 111602,
+    "total_farmacia": 24873,
+    "total_geral": 111596,
     "perto_de_terminar": 0,
     "zerados": 13
   },
@@ -10341,19 +10341,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 7,
+      "farmacia": 1,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 7,
+      "total": 1,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga Farmácia 227-288",
       "obs": "Importação Farmácia 227-288",
-      "atualizado_em": "2026-08-31 11:33:08",
+      "atualizado_em": "2026-08-31 11:44:18",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -10361,7 +10361,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 7
+          "quantidade": 1
         }
       ],
       "minimo_manual": 0,
@@ -10369,9 +10369,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 18,
-      "media_diaria_saida": 5.83,
-      "total_saida_historica": 105,
-      "cobertura_dias": 1.2,
+      "media_diaria_saida": 6.17,
+      "total_saida_historica": 111,
+      "cobertura_dias": 0.2,
       "alerta_estoque": false
     },
     {
@@ -15465,6 +15465,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 1362,
+      "item_id": 228,
+      "produto_nome": "Omeprazol sódico 40mg AMP",
+      "tipo": "Farmácia para Posto de Internamento",
+      "origem": "Farmácia",
+      "destino": "Posto de Internamento",
+      "quantidade": 6,
+      "responsavel": "Assucena",
+      "data": "2026-08-31",
+      "obs": "",
+      "criado_em": "2026-08-31 11:44:18",
+      "item": "Omeprazol sódico 40mg AMP",
+      "usuario": "Assucena"
+    },
     {
       "id": 1361,
       "item_id": 64,
@@ -22948,21 +22963,6 @@
       "obs": "",
       "criado_em": "2026-08-24 15:49:42",
       "item": "Cetoprofeno EV 100mg",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 862,
-      "item_id": 68,
-      "produto_nome": "Dexametasona",
-      "tipo": "Farmácia para Outro destino",
-      "origem": "Farmácia",
-      "destino": "Outro destino",
-      "quantidade": 20,
-      "responsavel": "Leiliana",
-      "data": "2026-08-24",
-      "obs": "",
-      "criado_em": "2026-08-24 15:49:30",
-      "item": "Dexametasona",
       "usuario": "Leiliana"
     }
   ]
