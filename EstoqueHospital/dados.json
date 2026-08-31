@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "31/08/2026 11:26:38",
+  "atualizado_em": "31/08/2026 11:26:48",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
     "total_almoxarifado": 86723,
-    "total_farmacia": 26386,
-    "total_geral": 113109,
+    "total_farmacia": 26376,
+    "total_geral": 113099,
     "perto_de_terminar": 0,
     "zerados": 13
   },
@@ -4791,19 +4791,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 800,
-      "farmacia": 270,
+      "farmacia": 260,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1070,
+      "total": 1060,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-28 10:55:52",
+      "atualizado_em": "2026-08-31 11:26:47",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -4817,7 +4817,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 270
+          "quantidade": 260
         }
       ],
       "minimo_manual": 0,
@@ -4825,9 +4825,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 19,
-      "media_diaria_saida": 10.26,
-      "total_saida_historica": 195,
-      "cobertura_dias": 104.3,
+      "media_diaria_saida": 10.79,
+      "total_saida_historica": 205,
+      "cobertura_dias": 98.2,
       "alerta_estoque": false
     },
     {
@@ -15523,6 +15523,21 @@
       "usuario": "Assucena"
     },
     {
+      "id": 1288,
+      "item_id": 176,
+      "produto_nome": "Dispositivo intravenoso Gelco nº 24",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 10,
+      "responsavel": "Assucena",
+      "data": "2026-08-29",
+      "obs": "",
+      "criado_em": "2026-08-31 11:26:47",
+      "item": "Dispositivo intravenoso Gelco nº 24",
+      "usuario": "Assucena"
+    },
+    {
       "id": 1287,
       "item_id": 63,
       "produto_nome": "Ciprofloxacino",
@@ -22960,21 +22975,6 @@
       "obs": "",
       "criado_em": "2026-08-24 15:28:40",
       "item": "Bromoprida 5mg",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 788,
-      "item_id": 44,
-      "produto_nome": "Clopidogrel 75mg CP",
-      "tipo": "Farmácia para Outro destino",
-      "origem": "Farmácia",
-      "destino": "Outro destino",
-      "quantidade": 60,
-      "responsavel": "Leiliana",
-      "data": "2026-08-24",
-      "obs": "",
-      "criado_em": "2026-08-24 15:28:17",
-      "item": "Clopidogrel 75mg CP",
       "usuario": "Leiliana"
     }
   ]
