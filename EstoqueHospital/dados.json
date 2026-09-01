@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "01/09/2026 16:14:16",
+  "atualizado_em": "01/09/2026 16:18:09",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
-    "total_almoxarifado": 85400,
-    "total_farmacia": 24680,
+    "total_almoxarifado": 85200,
+    "total_farmacia": 24880,
     "total_geral": 110080,
     "perto_de_terminar": 32,
     "zerados": 17
@@ -8148,8 +8148,8 @@
       "nome": "Lanceta de segurança",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 4300,
-      "farmacia": 0,
+      "almoxarifado": 4100,
+      "farmacia": 200,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -8161,7 +8161,7 @@
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-31 11:27:57",
+      "atualizado_em": "2026-09-01 16:18:09",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -8169,7 +8169,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 4300
+          "quantidade": 4100
+        },
+        {
+          "local": "farmacia",
+          "validade": "",
+          "lote": "",
+          "quantidade": 200
         }
       ],
       "minimo_manual": 0,
@@ -15455,6 +15461,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 1458,
+      "item_id": 194,
+      "produto_nome": "Lanceta de segurança",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 200,
+      "responsavel": "Leiliana",
+      "data": "2026-09-01",
+      "obs": "",
+      "criado_em": "2026-09-01 16:18:09",
+      "item": "Lanceta de segurança",
+      "usuario": "Leiliana"
+    },
     {
       "id": 1457,
       "item_id": 230,
@@ -22937,21 +22958,6 @@
       "data": "2026-08-24",
       "obs": "",
       "criado_em": "2026-08-25 11:37:28",
-      "item": "Agulha hipodérmica tam. 18",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 958,
-      "item_id": 187,
-      "produto_nome": "Agulha hipodérmica tam. 18",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 80,
-      "responsavel": "Assucena",
-      "data": "2026-08-24",
-      "obs": "",
-      "criado_em": "2026-08-25 11:37:19",
       "item": "Agulha hipodérmica tam. 18",
       "usuario": "Assucena"
     }
