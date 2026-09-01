@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "01/09/2026 16:08:39",
+  "atualizado_em": "01/09/2026 16:08:49",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
     "total_almoxarifado": 85618,
-    "total_farmacia": 24743,
-    "total_geral": 110361,
+    "total_farmacia": 24740,
+    "total_geral": 110358,
     "perto_de_terminar": 32,
     "zerados": 17
   },
@@ -8189,19 +8189,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 84,
-      "farmacia": 7,
+      "farmacia": 4,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 91,
+      "total": 88,
       "minimo": 50,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-08-31 11:42:02",
+      "atualizado_em": "2026-09-01 16:08:48",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -8215,7 +8215,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 7
+          "quantidade": 4
         }
       ],
       "minimo_manual": 50,
@@ -8223,9 +8223,9 @@
       "previsao_20_dias": 50,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 7,
-      "media_diaria_saida": 1.29,
-      "total_saida_historica": 9,
-      "cobertura_dias": 70.8,
+      "media_diaria_saida": 1.71,
+      "total_saida_historica": 12,
+      "cobertura_dias": 51.3,
       "alerta_estoque": false
     },
     {
@@ -15455,6 +15455,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 1442,
+      "item_id": 376,
+      "produto_nome": "LENÇOL DESCARTAVEL PAPEL",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 3,
+      "responsavel": "Leiliana",
+      "data": "2026-09-01",
+      "obs": "",
+      "criado_em": "2026-09-01 16:08:48",
+      "item": "LENÇOL DESCARTAVEL PAPEL",
+      "usuario": "Leiliana"
+    },
     {
       "id": 1441,
       "item_id": 68,
@@ -22938,21 +22953,6 @@
       "obs": "",
       "criado_em": "2026-08-25 11:34:07",
       "item": "Soro fisiológico 500ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 942,
-      "item_id": 275,
-      "produto_nome": "Equipo micro",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 25,
-      "responsavel": "Assucena",
-      "data": "2026-08-24",
-      "obs": "",
-      "criado_em": "2026-08-25 11:33:58",
-      "item": "Equipo micro",
       "usuario": "Assucena"
     }
   ]
