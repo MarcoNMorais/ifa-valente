@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "01/09/2026 10:13:28",
+  "atualizado_em": "01/09/2026 10:17:01",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
     "total_almoxarifado": 86699,
-    "total_farmacia": 24389,
-    "total_geral": 111088,
+    "total_farmacia": 24388,
+    "total_geral": 111087,
     "perto_de_terminar": 32,
     "zerados": 15
   },
@@ -9173,19 +9173,19 @@
       "tipo": "Medicamento",
       "unidade": "Ampola",
       "almoxarifado": 0,
-      "farmacia": 6,
+      "farmacia": 5,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 6,
+      "total": 5,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-01 10:09:52",
+      "atualizado_em": "2026-09-01 10:17:00",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -9193,7 +9193,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 6
+          "quantidade": 5
         }
       ],
       "minimo_manual": 0,
@@ -9201,9 +9201,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 19,
-      "media_diaria_saida": 0.11,
-      "total_saida_historica": 2,
-      "cobertura_dias": 57.0,
+      "media_diaria_saida": 0.16,
+      "total_saida_historica": 3,
+      "cobertura_dias": 31.7,
       "alerta_estoque": false
     },
     {
@@ -15451,6 +15451,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 1396,
+      "item_id": 336,
+      "produto_nome": "Mathergan",
+      "tipo": "Farmácia para PACIENTE DA CLIMEV EMPRESTIMO - JAQUELINE LIBEROU",
+      "origem": "Farmácia",
+      "destino": "PACIENTE DA CLIMEV EMPRESTIMO - JAQUELINE LIBEROU",
+      "quantidade": 1,
+      "responsavel": "Assucena",
+      "data": "2026-09-01",
+      "obs": "",
+      "criado_em": "2026-09-01 10:17:00",
+      "item": "Mathergan",
+      "usuario": "Assucena"
+    },
     {
       "id": 1395,
       "item_id": 75,
@@ -22934,21 +22949,6 @@
       "obs": "",
       "criado_em": "2026-08-24 15:59:25",
       "item": "Tramadol 50mg/ml 2ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 896,
-      "item_id": 60,
-      "produto_nome": "Cetoprofeno EV 100mg",
-      "tipo": "Farmácia para Outro destino",
-      "origem": "Farmácia",
-      "destino": "Outro destino",
-      "quantidade": 10,
-      "responsavel": "Leiliana",
-      "data": "2026-08-24",
-      "obs": "",
-      "criado_em": "2026-08-24 15:59:13",
-      "item": "Cetoprofeno EV 100mg",
       "usuario": "Leiliana"
     }
   ]
