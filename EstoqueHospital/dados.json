@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "01/09/2026 10:09:42",
+  "atualizado_em": "01/09/2026 10:09:52",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
     "total_almoxarifado": 86699,
-    "total_farmacia": 24410,
-    "total_geral": 111109,
+    "total_farmacia": 24409,
+    "total_geral": 111108,
     "perto_de_terminar": 31,
     "zerados": 15
   },
@@ -9173,19 +9173,19 @@
       "tipo": "Medicamento",
       "unidade": "Ampola",
       "almoxarifado": 0,
-      "farmacia": 7,
+      "farmacia": 6,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 7,
+      "total": 6,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-08-25 16:12:46",
+      "atualizado_em": "2026-09-01 10:09:52",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -9193,7 +9193,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 7
+          "quantidade": 6
         }
       ],
       "minimo_manual": 0,
@@ -9201,9 +9201,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 19,
-      "media_diaria_saida": 0.05,
-      "total_saida_historica": 1,
-      "cobertura_dias": 133.0,
+      "media_diaria_saida": 0.11,
+      "total_saida_historica": 2,
+      "cobertura_dias": 57.0,
       "alerta_estoque": false
     },
     {
@@ -15451,6 +15451,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 1394,
+      "item_id": 336,
+      "produto_nome": "Mathergan",
+      "tipo": "Farmácia para PACIENTE ENCAMINHADA PARA RIACHÃO ",
+      "origem": "Farmácia",
+      "destino": "PACIENTE ENCAMINHADA PARA RIACHÃO ",
+      "quantidade": 1,
+      "responsavel": "Assucena",
+      "data": "2026-09-01",
+      "obs": "",
+      "criado_em": "2026-09-01 10:09:52",
+      "item": "Mathergan",
+      "usuario": "Assucena"
+    },
     {
       "id": 1393,
       "item_id": 25,
@@ -22934,21 +22949,6 @@
       "obs": "",
       "criado_em": "2026-08-24 15:59:03",
       "item": "Cetoprofeno IM 50mg",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 894,
-      "item_id": 69,
-      "produto_nome": "Diclofenaco 25mg",
-      "tipo": "Farmácia para Outro destino",
-      "origem": "Farmácia",
-      "destino": "Outro destino",
-      "quantidade": 30,
-      "responsavel": "Leiliana",
-      "data": "2026-08-24",
-      "obs": "",
-      "criado_em": "2026-08-24 15:58:47",
-      "item": "Diclofenaco 25mg",
       "usuario": "Leiliana"
     }
   ]
