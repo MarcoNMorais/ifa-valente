@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "01/09/2026 10:36:51",
+  "atualizado_em": "01/09/2026 10:37:13",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
     "total_almoxarifado": 86579,
-    "total_farmacia": 23873,
-    "total_geral": 110452,
+    "total_farmacia": 23869,
+    "total_geral": 110448,
     "perto_de_terminar": 32,
     "zerados": 17
   },
@@ -9484,19 +9484,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 79,
-      "farmacia": 40,
+      "farmacia": 36,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 119,
+      "total": 115,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga Almoxerifado",
       "obs": "Importação Almoxerifado",
-      "atualizado_em": "2026-08-31 11:46:21",
+      "atualizado_em": "2026-09-01 10:37:12",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -9510,7 +9510,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 40
+          "quantidade": 36
         }
       ],
       "minimo_manual": 0,
@@ -9518,9 +9518,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 15,
-      "media_diaria_saida": 1.33,
-      "total_saida_historica": 20,
-      "cobertura_dias": 89.2,
+      "media_diaria_saida": 1.6,
+      "total_saida_historica": 24,
+      "cobertura_dias": 71.9,
       "alerta_estoque": false
     },
     {
@@ -15443,6 +15443,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 1429,
+      "item_id": 290,
+      "produto_nome": "Metronidazol 100ml",
+      "tipo": "Farmácia para Posto de Internamento",
+      "origem": "Farmácia",
+      "destino": "Posto de Internamento",
+      "quantidade": 4,
+      "responsavel": "Assucena",
+      "data": "2026-09-01",
+      "obs": "",
+      "criado_em": "2026-09-01 10:37:12",
+      "item": "Metronidazol 100ml",
+      "usuario": "Assucena"
+    },
     {
       "id": 1428,
       "item_id": 329,
@@ -22926,21 +22941,6 @@
       "obs": "",
       "criado_em": "2026-08-25 11:15:41",
       "item": "EQUIPO BOMBA SAMTRONIC",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 929,
-      "item_id": 290,
-      "produto_nome": "Metronidazol 100ml",
-      "tipo": "Almoxarifado para Farmácia",
-      "origem": "Almoxarifado",
-      "destino": "Farmácia",
-      "quantidade": 60,
-      "responsavel": "Assucena",
-      "data": "2026-08-24",
-      "obs": "",
-      "criado_em": "2026-08-25 10:21:37",
-      "item": "Metronidazol 100ml",
       "usuario": "Assucena"
     }
   ]
