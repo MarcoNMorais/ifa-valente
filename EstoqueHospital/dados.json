@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "01/09/2026 16:14:02",
+  "atualizado_em": "01/09/2026 16:14:16",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
     "total_almoxarifado": 85400,
-    "total_farmacia": 24682,
-    "total_geral": 110082,
+    "total_farmacia": 24680,
+    "total_geral": 110080,
     "perto_de_terminar": 32,
     "zerados": 17
   },
@@ -6015,19 +6015,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 389,
+      "farmacia": 387,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 389,
+      "total": 387,
       "minimo": 0,
       "validade": "08/27",
       "lote": "",
       "origem": "Carga Farmácia 227-288",
       "obs": "Importação Farmácia 227-288",
-      "atualizado_em": "2026-08-28 10:55:22",
+      "atualizado_em": "2026-09-01 16:14:16",
       "validade_mais_proxima": "08/27",
       "vencimento_mais_proximo": "08/27",
       "lotes_validade": [
@@ -6035,7 +6035,7 @@
           "local": "farmacia",
           "validade": "08/27",
           "lote": "",
-          "quantidade": 389
+          "quantidade": 387
         }
       ],
       "minimo_manual": 0,
@@ -6043,9 +6043,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 19,
-      "media_diaria_saida": 0.58,
-      "total_saida_historica": 11,
-      "cobertura_dias": 671.9,
+      "media_diaria_saida": 0.68,
+      "total_saida_historica": 13,
+      "cobertura_dias": 565.6,
       "alerta_estoque": false
     },
     {
@@ -15456,6 +15456,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 1457,
+      "item_id": 230,
+      "produto_nome": "Ferropurum 20mg/ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 2,
+      "responsavel": "Leiliana",
+      "data": "2026-09-01",
+      "obs": "",
+      "criado_em": "2026-09-01 16:14:16",
+      "item": "Ferropurum 20mg/ml",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 1456,
       "item_id": 195,
       "produto_nome": "Tira Reagente G-Tech",
@@ -22938,21 +22953,6 @@
       "obs": "",
       "criado_em": "2026-08-25 11:37:19",
       "item": "Agulha hipodérmica tam. 18",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 957,
-      "item_id": 257,
-      "produto_nome": "Brometo de ipratrópio gotas",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 1,
-      "responsavel": "Assucena",
-      "data": "2026-08-24",
-      "obs": "",
-      "criado_em": "2026-08-25 11:37:05",
-      "item": "Brometo de ipratrópio gotas",
       "usuario": "Assucena"
     }
   ]
