@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "01/09/2026 11:50:41",
+  "atualizado_em": "01/09/2026 11:50:57",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
-    "total_almoxarifado": 86178,
-    "total_farmacia": 24226,
+    "total_almoxarifado": 85678,
+    "total_farmacia": 24726,
     "total_geral": 110404,
     "perto_de_terminar": 32,
     "zerados": 17
@@ -348,8 +348,8 @@
       "nome": "Agulha 13x4,5",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 1355,
-      "farmacia": 545,
+      "almoxarifado": 855,
+      "farmacia": 1045,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -361,7 +361,7 @@
       "lote": "",
       "origem": "Carga Almoxerifado",
       "obs": "Importação Almoxerifado",
-      "atualizado_em": "2026-09-01 11:50:19",
+      "atualizado_em": "2026-09-01 11:50:57",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -369,13 +369,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 1355
+          "quantidade": 855
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 545
+          "quantidade": 1045
         }
       ],
       "minimo_manual": 0,
@@ -15975,6 +15975,21 @@
       "usuario": "Assucena"
     },
     {
+      "id": 1437,
+      "item_id": 287,
+      "produto_nome": "Agulha 13x4,5",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 500,
+      "responsavel": "Assucena",
+      "data": "2026-08-31",
+      "obs": "",
+      "criado_em": "2026-09-01 11:50:57",
+      "item": "Agulha 13x4,5",
+      "usuario": "Assucena"
+    },
+    {
       "id": 1436,
       "item_id": 103,
       "produto_nome": "Seringa 10ml",
@@ -22932,21 +22947,6 @@
       "obs": "",
       "criado_em": "2026-08-25 11:33:14",
       "item": "Seringa 20ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 937,
-      "item_id": 68,
-      "produto_nome": "Dexametasona",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 50,
-      "responsavel": "Assucena",
-      "data": "2026-08-24",
-      "obs": "",
-      "criado_em": "2026-08-25 11:33:01",
-      "item": "Dexametasona",
       "usuario": "Assucena"
     }
   ]
