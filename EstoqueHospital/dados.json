@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "01/09/2026 16:12:51",
+  "atualizado_em": "01/09/2026 16:13:09",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
     "total_almoxarifado": 85400,
-    "total_farmacia": 24813,
-    "total_geral": 110213,
+    "total_farmacia": 24693,
+    "total_geral": 110093,
     "perto_de_terminar": 32,
     "zerados": 17
   },
@@ -13815,19 +13815,19 @@
       "tipo": "Insumo",
       "unidade": "Unidade",
       "almoxarifado": 540,
-      "farmacia": 180,
+      "farmacia": 60,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 720,
+      "total": 600,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-09-01 16:12:51",
+      "atualizado_em": "2026-09-01 16:13:09",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -13841,17 +13841,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 180
+          "quantidade": 60
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 840,
-      "previsao_20_dias": 840,
+      "minimo_alerta": 960,
+      "previsao_20_dias": 960,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 20,
-      "media_diaria_saida": 42.0,
-      "total_saida_historica": 840,
-      "cobertura_dias": 17.1,
+      "media_diaria_saida": 48.0,
+      "total_saida_historica": 960,
+      "cobertura_dias": 12.5,
       "alerta_estoque": true
     },
     {
@@ -15455,6 +15455,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 1454,
+      "item_id": 202,
+      "produto_nome": "Soro fisiológico 100ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 120,
+      "responsavel": "Leiliana",
+      "data": "2026-09-01",
+      "obs": "",
+      "criado_em": "2026-09-01 16:13:09",
+      "item": "Soro fisiológico 100ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 1453,
       "item_id": 202,
@@ -22937,21 +22952,6 @@
       "data": "2026-08-24",
       "obs": "",
       "criado_em": "2026-08-25 11:36:45",
-      "item": "Tramadol 50mg/ml 2ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 954,
-      "item_id": 239,
-      "produto_nome": "Tramadol 50mg/ml 2ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 20,
-      "responsavel": "Assucena",
-      "data": "2026-08-24",
-      "obs": "",
-      "criado_em": "2026-08-25 11:36:37",
       "item": "Tramadol 50mg/ml 2ml",
       "usuario": "Assucena"
     }
