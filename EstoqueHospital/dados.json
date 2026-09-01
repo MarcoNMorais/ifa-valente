@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "01/09/2026 10:33:09",
+  "atualizado_em": "01/09/2026 10:33:21",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
     "total_almoxarifado": 86579,
-    "total_farmacia": 24099,
-    "total_geral": 110678,
+    "total_farmacia": 24085,
+    "total_geral": 110664,
     "perto_de_terminar": 32,
     "zerados": 16
   },
@@ -10281,19 +10281,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 392,
+      "farmacia": 378,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 392,
+      "total": 378,
       "minimo": 0,
       "validade": "2028-02",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-31 11:45:29",
+      "atualizado_em": "2026-09-01 10:33:19",
       "validade_mais_proxima": "2028-02",
       "vencimento_mais_proximo": "2028-02",
       "lotes_validade": [
@@ -10301,7 +10301,7 @@
           "local": "farmacia",
           "validade": "2028-02",
           "lote": "",
-          "quantidade": 378
+          "quantidade": 364
         },
         {
           "local": "farmacia",
@@ -10311,13 +10311,13 @@
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 84,
-      "previsao_20_dias": 84,
+      "minimo_alerta": 98,
+      "previsao_20_dias": 98,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 20,
-      "media_diaria_saida": 4.2,
-      "total_saida_historica": 84,
-      "cobertura_dias": 93.3,
+      "media_diaria_saida": 4.9,
+      "total_saida_historica": 98,
+      "cobertura_dias": 77.1,
       "alerta_estoque": false
     },
     {
@@ -15450,6 +15450,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 1415,
+      "item_id": 31,
+      "produto_nome": "Omeprazol 20mg comprimido",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 14,
+      "responsavel": "Assucena",
+      "data": "2026-09-01",
+      "obs": "",
+      "criado_em": "2026-09-01 10:33:19",
+      "item": "Omeprazol 20mg comprimido",
+      "usuario": "Assucena"
+    },
     {
       "id": 1414,
       "item_id": 38,
@@ -22933,21 +22948,6 @@
       "obs": "",
       "criado_em": "2026-08-24 16:07:35",
       "item": "Seringa 20ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 915,
-      "item_id": 102,
-      "produto_nome": "Seringa 5ml",
-      "tipo": "Almoxarifado para Farmácia",
-      "origem": "Almoxarifado",
-      "destino": "Farmácia",
-      "quantidade": 500,
-      "responsavel": "Leiliana",
-      "data": "2026-08-24",
-      "obs": "",
-      "criado_em": "2026-08-24 16:07:21",
-      "item": "Seringa 5ml",
       "usuario": "Leiliana"
     }
   ]
