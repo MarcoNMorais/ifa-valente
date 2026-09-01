@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "01/09/2026 10:23:44",
+  "atualizado_em": "01/09/2026 10:23:55",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
     "total_almoxarifado": 86579,
-    "total_farmacia": 24463,
-    "total_geral": 111042,
+    "total_farmacia": 24433,
+    "total_geral": 111012,
     "perto_de_terminar": 32,
     "zerados": 15
   },
@@ -3170,19 +3170,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 129,
+      "farmacia": 99,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 129,
+      "total": 99,
       "minimo": 0,
       "validade": "2027-09",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-31 11:33:36",
+      "atualizado_em": "2026-09-01 10:23:49",
       "validade_mais_proxima": "2027-09",
       "vencimento_mais_proximo": "2027-09",
       "lotes_validade": [
@@ -3190,7 +3190,7 @@
           "local": "farmacia",
           "validade": "2027-09",
           "lote": "",
-          "quantidade": 129
+          "quantidade": 99
         },
         {
           "local": "farmacia",
@@ -3200,13 +3200,13 @@
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 200,
-      "previsao_20_dias": 200,
+      "minimo_alerta": 230,
+      "previsao_20_dias": 230,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 20,
-      "media_diaria_saida": 10.0,
-      "total_saida_historica": 200,
-      "cobertura_dias": 12.9,
+      "media_diaria_saida": 11.5,
+      "total_saida_historica": 230,
+      "cobertura_dias": 8.6,
       "alerta_estoque": true
     },
     {
@@ -15458,6 +15458,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 1400,
+      "item_id": 61,
+      "produto_nome": "Cetoprofeno IM 50mg",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 30,
+      "responsavel": "Assucena",
+      "data": "2026-09-01",
+      "obs": "",
+      "criado_em": "2026-09-01 10:23:49",
+      "item": "Cetoprofeno IM 50mg",
+      "usuario": "Assucena"
+    },
+    {
       "id": 1399,
       "item_id": 68,
       "produto_nome": "Dexametasona",
@@ -22940,21 +22955,6 @@
       "obs": "",
       "criado_em": "2026-08-24 16:01:01",
       "item": "Ketamina 50mg/ml 10ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 900,
-      "item_id": 300,
-      "produto_nome": "Filtro HEPA adulto",
-      "tipo": "Farmácia para Outro destino",
-      "origem": "Farmácia",
-      "destino": "Outro destino",
-      "quantidade": 1,
-      "responsavel": "Leiliana",
-      "data": "2026-08-24",
-      "obs": "",
-      "criado_em": "2026-08-24 16:00:16",
-      "item": "Filtro HEPA adulto",
       "usuario": "Leiliana"
     }
   ]
