@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "01/09/2026 10:23:55",
+  "atualizado_em": "01/09/2026 10:24:06",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
     "total_almoxarifado": 86579,
-    "total_farmacia": 24433,
-    "total_geral": 111012,
+    "total_farmacia": 24393,
+    "total_geral": 110972,
     "perto_de_terminar": 32,
     "zerados": 15
   },
@@ -4525,19 +4525,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 90,
+      "farmacia": 50,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 90,
+      "total": 50,
       "minimo": 0,
       "validade": "2027-03",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-31 11:44:29",
+      "atualizado_em": "2026-09-01 10:23:58",
       "validade_mais_proxima": "2027-03",
       "vencimento_mais_proximo": "2027-03",
       "lotes_validade": [
@@ -4545,17 +4545,17 @@
           "local": "farmacia",
           "validade": "2027-03",
           "lote": "",
-          "quantidade": 90
+          "quantidade": 50
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 930,
-      "previsao_20_dias": 930,
+      "minimo_alerta": 970,
+      "previsao_20_dias": 970,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 20,
-      "media_diaria_saida": 46.5,
-      "total_saida_historica": 930,
-      "cobertura_dias": 1.9,
+      "media_diaria_saida": 48.5,
+      "total_saida_historica": 970,
+      "cobertura_dias": 1.0,
       "alerta_estoque": true
     },
     {
@@ -15458,6 +15458,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 1401,
+      "item_id": 70,
+      "produto_nome": "Dipirona",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 40,
+      "responsavel": "Assucena",
+      "data": "2026-09-01",
+      "obs": "",
+      "criado_em": "2026-09-01 10:23:58",
+      "item": "Dipirona",
+      "usuario": "Assucena"
+    },
+    {
       "id": 1400,
       "item_id": 61,
       "produto_nome": "Cetoprofeno IM 50mg",
@@ -22940,21 +22955,6 @@
       "obs": "",
       "criado_em": "2026-08-24 16:01:19",
       "item": "Epinefrina 1mg",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 901,
-      "item_id": 15,
-      "produto_nome": "Ketamina 50mg/ml 10ml",
-      "tipo": "Farmácia para Outro destino",
-      "origem": "Farmácia",
-      "destino": "Outro destino",
-      "quantidade": 1,
-      "responsavel": "Leiliana",
-      "data": "2026-08-24",
-      "obs": "",
-      "criado_em": "2026-08-24 16:01:01",
-      "item": "Ketamina 50mg/ml 10ml",
       "usuario": "Leiliana"
     }
   ]
