@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "01/09/2026 10:34:34",
+  "atualizado_em": "01/09/2026 10:34:44",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
     "total_almoxarifado": 86579,
-    "total_farmacia": 23985,
-    "total_geral": 110564,
+    "total_farmacia": 23955,
+    "total_geral": 110534,
     "perto_de_terminar": 32,
     "zerados": 16
   },
@@ -11546,19 +11546,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 2500,
-      "farmacia": 1483,
+      "farmacia": 1453,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 3983,
+      "total": 3953,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-09-01 08:51:54",
+      "atualizado_em": "2026-09-01 10:34:41",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -11572,17 +11572,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 1483
+          "quantidade": 1453
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 795,
-      "previsao_20_dias": 795,
+      "minimo_alerta": 825,
+      "previsao_20_dias": 825,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 20,
-      "media_diaria_saida": 39.75,
-      "total_saida_historica": 795,
-      "cobertura_dias": 100.2,
+      "media_diaria_saida": 41.25,
+      "total_saida_historica": 825,
+      "cobertura_dias": 95.8,
       "alerta_estoque": false
     },
     {
@@ -15450,6 +15450,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 1420,
+      "item_id": 104,
+      "produto_nome": "Seringa 3ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 30,
+      "responsavel": "Assucena",
+      "data": "2026-09-01",
+      "obs": "",
+      "criado_em": "2026-09-01 10:34:41",
+      "item": "Seringa 3ml",
+      "usuario": "Assucena"
+    },
     {
       "id": 1419,
       "item_id": 102,
@@ -22933,21 +22948,6 @@
       "obs": "",
       "criado_em": "2026-08-24 16:10:02",
       "item": "Caixa de perfurocortante",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 920,
-      "item_id": 287,
-      "produto_nome": "Agulha 13x4,5",
-      "tipo": "Almoxarifado para Farmácia",
-      "origem": "Almoxarifado",
-      "destino": "Farmácia",
-      "quantidade": 24,
-      "responsavel": "Leiliana",
-      "data": "2026-08-24",
-      "obs": "",
-      "criado_em": "2026-08-24 16:09:45",
-      "item": "Agulha 13x4,5",
       "usuario": "Leiliana"
     }
   ]
