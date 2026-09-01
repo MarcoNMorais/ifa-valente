@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "01/09/2026 10:17:01",
+  "atualizado_em": "01/09/2026 10:22:58",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
-    "total_almoxarifado": 86699,
-    "total_farmacia": 24388,
+    "total_almoxarifado": 86579,
+    "total_farmacia": 24508,
     "total_geral": 111087,
     "perto_de_terminar": 32,
     "zerados": 15
@@ -10818,8 +10818,8 @@
       "nome": "Polifix",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 1320,
-      "farmacia": 0,
+      "almoxarifado": 1200,
+      "farmacia": 120,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -10831,7 +10831,7 @@
       "lote": "",
       "origem": "Carga Almoxerifado",
       "obs": "Importação Almoxerifado",
-      "atualizado_em": "2026-08-25 16:12:46",
+      "atualizado_em": "2026-09-01 10:22:58",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -10839,7 +10839,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 1320
+          "quantidade": 1200
+        },
+        {
+          "local": "farmacia",
+          "validade": "",
+          "lote": "",
+          "quantidade": 120
         }
       ],
       "minimo_manual": 0,
@@ -15451,6 +15457,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 1397,
+      "item_id": 329,
+      "produto_nome": "Polifix",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 120,
+      "responsavel": "Assucena",
+      "data": "2026-09-01",
+      "obs": "",
+      "criado_em": "2026-09-01 10:22:58",
+      "item": "Polifix",
+      "usuario": "Assucena"
+    },
     {
       "id": 1396,
       "item_id": 336,
@@ -22934,21 +22955,6 @@
       "obs": "",
       "criado_em": "2026-08-24 15:59:44",
       "item": "Morfina 10mg/ml 1ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 897,
-      "item_id": 239,
-      "produto_nome": "Tramadol 50mg/ml 2ml",
-      "tipo": "Farmácia para Outro destino",
-      "origem": "Farmácia",
-      "destino": "Outro destino",
-      "quantidade": 10,
-      "responsavel": "Leiliana",
-      "data": "2026-08-24",
-      "obs": "",
-      "criado_em": "2026-08-24 15:59:25",
-      "item": "Tramadol 50mg/ml 2ml",
       "usuario": "Leiliana"
     }
   ]
