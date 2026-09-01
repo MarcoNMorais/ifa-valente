@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "01/09/2026 16:09:02",
+  "atualizado_em": "01/09/2026 16:09:52",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
-    "total_almoxarifado": 85618,
-    "total_farmacia": 24710,
+    "total_almoxarifado": 85568,
+    "total_farmacia": 24760,
     "total_geral": 110328,
     "perto_de_terminar": 32,
     "zerados": 17
@@ -11584,8 +11584,8 @@
       "nome": "Seringa 5ml",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 1500,
-      "farmacia": 5,
+      "almoxarifado": 1450,
+      "farmacia": 55,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -11597,7 +11597,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-01 10:34:32",
+      "atualizado_em": "2026-09-01 16:09:51",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -11605,13 +11605,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 1500
+          "quantidade": 1450
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 5
+          "quantidade": 55
         }
       ],
       "minimo_manual": 0,
@@ -15455,6 +15455,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 1444,
+      "item_id": 102,
+      "produto_nome": "Seringa 5ml",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 50,
+      "responsavel": "Leiliana",
+      "data": "2026-09-01",
+      "obs": "",
+      "criado_em": "2026-09-01 16:09:51",
+      "item": "Seringa 5ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 1443,
       "item_id": 103,
@@ -22938,21 +22953,6 @@
       "obs": "",
       "criado_em": "2026-08-25 11:34:45",
       "item": "Atensina 0,150mg CPR",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 944,
-      "item_id": 203,
-      "produto_nome": "Soro fisiológico 250ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 5,
-      "responsavel": "Assucena",
-      "data": "2026-08-24",
-      "obs": "",
-      "criado_em": "2026-08-25 11:34:18",
-      "item": "Soro fisiológico 250ml",
       "usuario": "Assucena"
     }
   ]
