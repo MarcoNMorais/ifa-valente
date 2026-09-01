@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "01/09/2026 11:51:35",
+  "atualizado_em": "01/09/2026 16:08:07",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
     "total_almoxarifado": 85618,
-    "total_farmacia": 24786,
-    "total_geral": 110404,
+    "total_farmacia": 24783,
+    "total_geral": 110401,
     "perto_de_terminar": 32,
     "zerados": 17
   },
@@ -7165,19 +7165,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 72,
-      "farmacia": 22,
+      "farmacia": 19,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 94,
+      "total": 91,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-08-31 11:26:01",
+      "atualizado_em": "2026-09-01 16:08:06",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -7191,7 +7191,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 22
+          "quantidade": 19
         }
       ],
       "minimo_manual": 0,
@@ -7199,9 +7199,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 15,
-      "media_diaria_saida": 0.2,
-      "total_saida_historica": 3,
-      "cobertura_dias": 470.0,
+      "media_diaria_saida": 0.4,
+      "total_saida_historica": 6,
+      "cobertura_dias": 227.5,
       "alerta_estoque": false
     },
     {
@@ -15456,6 +15456,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 1439,
+      "item_id": 294,
+      "produto_nome": "Glicerina 12%",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 3,
+      "responsavel": "Leiliana",
+      "data": "2026-09-01",
+      "obs": "",
+      "criado_em": "2026-09-01 16:08:06",
+      "item": "Glicerina 12%",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 1429,
       "item_id": 290,
       "produto_nome": "Metronidazol 100ml",
@@ -22938,21 +22953,6 @@
       "obs": "",
       "criado_em": "2026-08-25 11:33:35",
       "item": "Seringa 5ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 939,
-      "item_id": 103,
-      "produto_nome": "Seringa 10ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 30,
-      "responsavel": "Assucena",
-      "data": "2026-08-24",
-      "obs": "",
-      "criado_em": "2026-08-25 11:33:26",
-      "item": "Seringa 10ml",
       "usuario": "Assucena"
     }
   ]
