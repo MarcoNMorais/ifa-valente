@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "01/09/2026 11:50:20",
+  "atualizado_em": "01/09/2026 11:50:31",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
-    "total_almoxarifado": 86430,
-    "total_farmacia": 23974,
+    "total_almoxarifado": 86428,
+    "total_farmacia": 23976,
     "total_geral": 110404,
     "perto_de_terminar": 32,
     "zerados": 17
@@ -15247,8 +15247,8 @@
       "nome": "Álcool 70% líquido 5L",
       "tipo": "Insumo",
       "unidade": "Unidade",
-      "almoxarifado": 10,
-      "farmacia": 0,
+      "almoxarifado": 8,
+      "farmacia": 2,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -15260,7 +15260,7 @@
       "lote": "",
       "origem": "Carga Almoxerifado",
       "obs": "Importação Almoxerifado",
-      "atualizado_em": "2026-08-25 16:12:46",
+      "atualizado_em": "2026-09-01 11:50:29",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -15268,7 +15268,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 10
+          "quantidade": 8
+        },
+        {
+          "local": "farmacia",
+          "validade": "",
+          "lote": "",
+          "quantidade": 2
         }
       ],
       "minimo_manual": 0,
@@ -15966,6 +15972,21 @@
       "obs": "",
       "criado_em": "2026-09-01 10:09:41",
       "item": "Misoprostol / Citotec 200mcg",
+      "usuario": "Assucena"
+    },
+    {
+      "id": 1435,
+      "item_id": 272,
+      "produto_nome": "Álcool 70% líquido 5L",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 2,
+      "responsavel": "Assucena",
+      "data": "2026-08-31",
+      "obs": "",
+      "criado_em": "2026-09-01 11:50:29",
+      "item": "Álcool 70% líquido 5L",
       "usuario": "Assucena"
     },
     {
@@ -22926,21 +22947,6 @@
       "obs": "",
       "criado_em": "2026-08-25 11:32:50",
       "item": "Diclofenaco 25mg",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 935,
-      "item_id": 337,
-      "produto_nome": "EQUIPO BOMBA SAMTRONIC",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 3,
-      "responsavel": "Assucena",
-      "data": "2026-08-24",
-      "obs": "",
-      "criado_em": "2026-08-25 11:19:25",
-      "item": "EQUIPO BOMBA SAMTRONIC",
       "usuario": "Assucena"
     }
   ]
