@@ -1,13 +1,13 @@
 {
-  "atualizado_em": "01/09/2026 10:24:16",
+  "atualizado_em": "01/09/2026 10:24:26",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
     "total_almoxarifado": 86579,
-    "total_farmacia": 24353,
-    "total_geral": 110932,
+    "total_farmacia": 24323,
+    "total_geral": 110902,
     "perto_de_terminar": 32,
-    "zerados": 15
+    "zerados": 16
   },
   "itens": [
     {
@@ -10367,37 +10367,30 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 30,
+      "farmacia": 0,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 30,
+      "total": 0,
       "minimo": 0,
-      "validade": "09/27",
+      "validade": "",
       "lote": "",
       "origem": "Carga Farmácia 227-288",
       "obs": "Importação Farmácia 227-288",
-      "atualizado_em": "2026-08-31 11:38:53",
-      "validade_mais_proxima": "09/27",
-      "vencimento_mais_proximo": "09/27",
-      "lotes_validade": [
-        {
-          "local": "farmacia",
-          "validade": "09/27",
-          "lote": "",
-          "quantidade": 30
-        }
-      ],
+      "atualizado_em": "2026-09-01 10:24:19",
+      "validade_mais_proxima": "",
+      "vencimento_mais_proximo": "",
+      "lotes_validade": [],
       "minimo_manual": 0,
       "minimo_alerta": 0,
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 17,
-      "media_diaria_saida": 21.76,
-      "total_saida_historica": 370,
-      "cobertura_dias": 1.4,
+      "media_diaria_saida": 23.53,
+      "total_saida_historica": 400,
+      "cobertura_dias": 0.0,
       "alerta_estoque": false
     },
     {
@@ -15457,6 +15450,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 1403,
+      "item_id": 238,
+      "produto_nome": "Ondansetrona 2mg/ml 2ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 30,
+      "responsavel": "Assucena",
+      "data": "2026-09-01",
+      "obs": "",
+      "criado_em": "2026-09-01 10:24:19",
+      "item": "Ondansetrona 2mg/ml 2ml",
+      "usuario": "Assucena"
+    },
     {
       "id": 1402,
       "item_id": 70,
@@ -22940,21 +22948,6 @@
       "obs": "",
       "criado_em": "2026-08-24 16:02:04",
       "item": "Cloridrato de clorpromazina 25mg",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 903,
-      "item_id": 50,
-      "produto_nome": "Amiodarona 50mg",
-      "tipo": "Farmácia para Outro destino",
-      "origem": "Farmácia",
-      "destino": "Outro destino",
-      "quantidade": 1,
-      "responsavel": "Leiliana",
-      "data": "2026-08-24",
-      "obs": "",
-      "criado_em": "2026-08-24 16:01:46",
-      "item": "Amiodarona 50mg",
       "usuario": "Leiliana"
     }
   ]
