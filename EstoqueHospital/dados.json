@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "01/09/2026 16:12:05",
+  "atualizado_em": "01/09/2026 16:12:19",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
     "total_almoxarifado": 85520,
-    "total_farmacia": 24703,
-    "total_geral": 110223,
+    "total_farmacia": 24693,
+    "total_geral": 110213,
     "perto_de_terminar": 32,
     "zerados": 17
   },
@@ -13861,19 +13861,19 @@
       "tipo": "Insumo",
       "unidade": "Unidade",
       "almoxarifado": 600,
-      "farmacia": 16,
+      "farmacia": 6,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 616,
+      "total": 606,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-09-01 10:35:56",
+      "atualizado_em": "2026-09-01 16:12:16",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -13887,17 +13887,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 16
+          "quantidade": 6
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 284,
-      "previsao_20_dias": 284,
+      "minimo_alerta": 294,
+      "previsao_20_dias": 294,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 20,
-      "media_diaria_saida": 14.2,
-      "total_saida_historica": 284,
-      "cobertura_dias": 43.4,
+      "media_diaria_saida": 14.7,
+      "total_saida_historica": 294,
+      "cobertura_dias": 41.2,
       "alerta_estoque": false
     },
     {
@@ -15455,6 +15455,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 1452,
+      "item_id": 203,
+      "produto_nome": "Soro fisiológico 250ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 10,
+      "responsavel": "Leiliana",
+      "data": "2026-09-01",
+      "obs": "",
+      "criado_em": "2026-09-01 16:12:16",
+      "item": "Soro fisiológico 250ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 1451,
       "item_id": 204,
@@ -22938,21 +22953,6 @@
       "obs": "",
       "criado_em": "2026-08-25 11:36:24",
       "item": "Escopolamina 20mg",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 952,
-      "item_id": 228,
-      "produto_nome": "Omeprazol sódico 40mg AMP",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 7,
-      "responsavel": "Assucena",
-      "data": "2026-08-24",
-      "obs": "",
-      "criado_em": "2026-08-25 11:36:13",
-      "item": "Omeprazol sódico 40mg AMP",
       "usuario": "Assucena"
     }
   ]
