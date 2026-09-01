@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "01/09/2026 16:12:19",
+  "atualizado_em": "01/09/2026 16:12:51",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
-    "total_almoxarifado": 85520,
-    "total_farmacia": 24693,
+    "total_almoxarifado": 85400,
+    "total_farmacia": 24813,
     "total_geral": 110213,
     "perto_de_terminar": 32,
     "zerados": 17
@@ -13814,8 +13814,8 @@
       "nome": "Soro fisiológico 100ml",
       "tipo": "Insumo",
       "unidade": "Unidade",
-      "almoxarifado": 660,
-      "farmacia": 60,
+      "almoxarifado": 540,
+      "farmacia": 180,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -13827,7 +13827,7 @@
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-09-01 11:51:34",
+      "atualizado_em": "2026-09-01 16:12:51",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -13835,13 +13835,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 660
+          "quantidade": 540
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 60
+          "quantidade": 180
         }
       ],
       "minimo_manual": 0,
@@ -15455,6 +15455,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 1453,
+      "item_id": 202,
+      "produto_nome": "Soro fisiológico 100ml",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 120,
+      "responsavel": "Leiliana",
+      "data": "2026-09-01",
+      "obs": "",
+      "criado_em": "2026-09-01 16:12:51",
+      "item": "Soro fisiológico 100ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 1452,
       "item_id": 203,
@@ -22938,21 +22953,6 @@
       "obs": "",
       "criado_em": "2026-08-25 11:36:37",
       "item": "Tramadol 50mg/ml 2ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 953,
-      "item_id": 75,
-      "produto_nome": "Escopolamina 20mg",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 20,
-      "responsavel": "Assucena",
-      "data": "2026-08-24",
-      "obs": "",
-      "criado_em": "2026-08-25 11:36:24",
-      "item": "Escopolamina 20mg",
       "usuario": "Assucena"
     }
   ]
