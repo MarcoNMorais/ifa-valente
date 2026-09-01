@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "01/09/2026 16:13:09",
+  "atualizado_em": "01/09/2026 16:13:49",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
     "total_almoxarifado": 85400,
-    "total_farmacia": 24693,
-    "total_geral": 110093,
+    "total_farmacia": 24683,
+    "total_geral": 110083,
     "perto_de_terminar": 32,
     "zerados": 17
   },
@@ -10805,19 +10805,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 1200,
-      "farmacia": 105,
+      "farmacia": 95,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1305,
+      "total": 1295,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga Almoxerifado",
       "obs": "Importação Almoxerifado",
-      "atualizado_em": "2026-09-01 10:36:50",
+      "atualizado_em": "2026-09-01 16:13:49",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -10831,7 +10831,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 105
+          "quantidade": 95
         }
       ],
       "minimo_manual": 0,
@@ -10839,9 +10839,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 15,
-      "media_diaria_saida": 1.0,
-      "total_saida_historica": 15,
-      "cobertura_dias": 1305.0,
+      "media_diaria_saida": 1.67,
+      "total_saida_historica": 25,
+      "cobertura_dias": 777.0,
       "alerta_estoque": false
     },
     {
@@ -15455,6 +15455,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 1455,
+      "item_id": 329,
+      "produto_nome": "Polifix",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 10,
+      "responsavel": "Leiliana",
+      "data": "2026-09-01",
+      "obs": "",
+      "criado_em": "2026-09-01 16:13:49",
+      "item": "Polifix",
+      "usuario": "Leiliana"
+    },
     {
       "id": 1454,
       "item_id": 202,
@@ -22938,21 +22953,6 @@
       "obs": "",
       "criado_em": "2026-08-25 11:36:56",
       "item": "Ibuprofeno gotas",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 955,
-      "item_id": 239,
-      "produto_nome": "Tramadol 50mg/ml 2ml",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 15,
-      "responsavel": "Assucena",
-      "data": "2026-08-24",
-      "obs": "",
-      "criado_em": "2026-08-25 11:36:45",
-      "item": "Tramadol 50mg/ml 2ml",
       "usuario": "Assucena"
     }
   ]
