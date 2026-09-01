@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "01/09/2026 10:23:31",
+  "atualizado_em": "01/09/2026 10:23:44",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
     "total_almoxarifado": 86579,
-    "total_farmacia": 24493,
-    "total_geral": 111072,
+    "total_farmacia": 24463,
+    "total_geral": 111042,
     "perto_de_terminar": 32,
     "zerados": 15
   },
@@ -4193,19 +4193,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 720,
+      "farmacia": 690,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 720,
+      "total": 690,
       "minimo": 0,
       "validade": "2027-10",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-31 11:39:10",
+      "atualizado_em": "2026-09-01 10:23:40",
       "validade_mais_proxima": "2027-10",
       "vencimento_mais_proximo": "2027-10",
       "lotes_validade": [
@@ -4213,17 +4213,17 @@
           "local": "farmacia",
           "validade": "2027-10",
           "lote": "",
-          "quantidade": 720
+          "quantidade": 690
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 550,
-      "previsao_20_dias": 550,
+      "minimo_alerta": 580,
+      "previsao_20_dias": 580,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 20,
-      "media_diaria_saida": 27.5,
-      "total_saida_historica": 550,
-      "cobertura_dias": 26.2,
+      "media_diaria_saida": 29.0,
+      "total_saida_historica": 580,
+      "cobertura_dias": 23.8,
       "alerta_estoque": false
     },
     {
@@ -15458,6 +15458,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 1399,
+      "item_id": 68,
+      "produto_nome": "Dexametasona",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 30,
+      "responsavel": "Assucena",
+      "data": "2026-09-01",
+      "obs": "",
+      "criado_em": "2026-09-01 10:23:40",
+      "item": "Dexametasona",
+      "usuario": "Assucena"
+    },
+    {
       "id": 1398,
       "item_id": 55,
       "produto_nome": "Benzilpenicilina 1.200",
@@ -22940,21 +22955,6 @@
       "obs": "",
       "criado_em": "2026-08-24 16:00:16",
       "item": "Filtro HEPA adulto",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 899,
-      "item_id": 202,
-      "produto_nome": "Soro fisiológico 100ml",
-      "tipo": "Farmácia para Outro destino",
-      "origem": "Farmácia",
-      "destino": "Outro destino",
-      "quantidade": 60,
-      "responsavel": "Leiliana",
-      "data": "2026-08-24",
-      "obs": "",
-      "criado_em": "2026-08-24 16:00:01",
-      "item": "Soro fisiológico 100ml",
       "usuario": "Leiliana"
     }
   ]
