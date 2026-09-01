@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "01/09/2026 10:22:58",
+  "atualizado_em": "01/09/2026 10:23:31",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
     "total_almoxarifado": 86579,
-    "total_farmacia": 24508,
-    "total_geral": 111087,
+    "total_farmacia": 24493,
+    "total_geral": 111072,
     "perto_de_terminar": 32,
     "zerados": 15
   },
@@ -2121,19 +2121,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 48,
+      "farmacia": 33,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 48,
+      "total": 33,
       "minimo": 0,
       "validade": "2027-07",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-31 11:38:44",
+      "atualizado_em": "2026-09-01 10:23:30",
       "validade_mais_proxima": "2027-07",
       "vencimento_mais_proximo": "2027-07",
       "lotes_validade": [
@@ -2141,17 +2141,17 @@
           "local": "farmacia",
           "validade": "2027-07",
           "lote": "",
-          "quantidade": 48
+          "quantidade": 33
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 156,
-      "previsao_20_dias": 156,
+      "minimo_alerta": 171,
+      "previsao_20_dias": 171,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 20,
-      "media_diaria_saida": 7.8,
-      "total_saida_historica": 156,
-      "cobertura_dias": 6.2,
+      "media_diaria_saida": 8.55,
+      "total_saida_historica": 171,
+      "cobertura_dias": 3.9,
       "alerta_estoque": true
     },
     {
@@ -15458,6 +15458,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 1398,
+      "item_id": 55,
+      "produto_nome": "Benzilpenicilina 1.200",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 15,
+      "responsavel": "Assucena",
+      "data": "2026-09-01",
+      "obs": "",
+      "criado_em": "2026-09-01 10:23:30",
+      "item": "Benzilpenicilina 1.200",
+      "usuario": "Assucena"
+    },
+    {
       "id": 1397,
       "item_id": 329,
       "produto_nome": "Polifix",
@@ -22940,21 +22955,6 @@
       "obs": "",
       "criado_em": "2026-08-24 16:00:01",
       "item": "Soro fisiológico 100ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 898,
-      "item_id": 12,
-      "produto_nome": "Morfina 10mg/ml 1ml",
-      "tipo": "Farmácia para Outro destino",
-      "origem": "Farmácia",
-      "destino": "Outro destino",
-      "quantidade": 15,
-      "responsavel": "Leiliana",
-      "data": "2026-08-24",
-      "obs": "",
-      "criado_em": "2026-08-24 15:59:44",
-      "item": "Morfina 10mg/ml 1ml",
       "usuario": "Leiliana"
     }
   ]
