@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "01/09/2026 10:36:30",
+  "atualizado_em": "01/09/2026 10:36:51",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
     "total_almoxarifado": 86579,
-    "total_farmacia": 23888,
-    "total_geral": 110467,
+    "total_farmacia": 23873,
+    "total_geral": 110452,
     "perto_de_terminar": 32,
     "zerados": 17
   },
@@ -10805,19 +10805,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 1200,
-      "farmacia": 120,
+      "farmacia": 105,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1320,
+      "total": 1305,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga Almoxerifado",
       "obs": "Importação Almoxerifado",
-      "atualizado_em": "2026-09-01 10:22:58",
+      "atualizado_em": "2026-09-01 10:36:50",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -10831,7 +10831,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 120
+          "quantidade": 105
         }
       ],
       "minimo_manual": 0,
@@ -10839,9 +10839,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 15,
-      "media_diaria_saida": 0.0,
-      "total_saida_historica": 0,
-      "cobertura_dias": null,
+      "media_diaria_saida": 1.0,
+      "total_saida_historica": 15,
+      "cobertura_dias": 1305.0,
       "alerta_estoque": false
     },
     {
@@ -15443,6 +15443,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 1428,
+      "item_id": 329,
+      "produto_nome": "Polifix",
+      "tipo": "Farmácia para Posto de Internamento",
+      "origem": "Farmácia",
+      "destino": "Posto de Internamento",
+      "quantidade": 15,
+      "responsavel": "Assucena",
+      "data": "2026-09-01",
+      "obs": "",
+      "criado_em": "2026-09-01 10:36:50",
+      "item": "Polifix",
+      "usuario": "Assucena"
+    },
     {
       "id": 1427,
       "item_id": 12,
@@ -22926,21 +22941,6 @@
       "obs": "",
       "criado_em": "2026-08-25 10:21:37",
       "item": "Metronidazol 100ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 928,
-      "item_id": 177,
-      "produto_nome": "Dispositivo intravenoso Gelco nº 22",
-      "tipo": "Almoxarifado para Farmácia",
-      "origem": "Almoxarifado",
-      "destino": "Farmácia",
-      "quantidade": 100,
-      "responsavel": "Assucena",
-      "data": "2026-08-24",
-      "obs": "",
-      "criado_em": "2026-08-25 10:21:11",
-      "item": "Dispositivo intravenoso Gelco nº 22",
       "usuario": "Assucena"
     }
   ]
