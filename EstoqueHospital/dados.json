@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "01/09/2026 16:18:09",
+  "atualizado_em": "01/09/2026 16:18:25",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
     "total_almoxarifado": 85200,
-    "total_farmacia": 24880,
-    "total_geral": 110080,
+    "total_farmacia": 24780,
+    "total_geral": 109980,
     "perto_de_terminar": 32,
     "zerados": 17
   },
@@ -8149,19 +8149,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 4100,
-      "farmacia": 200,
+      "farmacia": 100,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 4300,
+      "total": 4200,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-09-01 16:18:09",
+      "atualizado_em": "2026-09-01 16:18:24",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -8175,17 +8175,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 200
+          "quantidade": 100
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 700,
-      "previsao_20_dias": 700,
+      "minimo_alerta": 800,
+      "previsao_20_dias": 800,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 20,
-      "media_diaria_saida": 35.0,
-      "total_saida_historica": 700,
-      "cobertura_dias": 122.9,
+      "media_diaria_saida": 40.0,
+      "total_saida_historica": 800,
+      "cobertura_dias": 105.0,
       "alerta_estoque": false
     },
     {
@@ -15461,6 +15461,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 1459,
+      "item_id": 194,
+      "produto_nome": "Lanceta de segurança",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 100,
+      "responsavel": "Leiliana",
+      "data": "2026-09-01",
+      "obs": "",
+      "criado_em": "2026-09-01 16:18:24",
+      "item": "Lanceta de segurança",
+      "usuario": "Leiliana"
+    },
     {
       "id": 1458,
       "item_id": 194,
@@ -22944,21 +22959,6 @@
       "obs": "",
       "criado_em": "2026-08-25 11:37:43",
       "item": "Dispositivo intravenoso Gelco nº 22",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 959,
-      "item_id": 187,
-      "produto_nome": "Agulha hipodérmica tam. 18",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 50,
-      "responsavel": "Assucena",
-      "data": "2026-08-24",
-      "obs": "",
-      "criado_em": "2026-08-25 11:37:28",
-      "item": "Agulha hipodérmica tam. 18",
       "usuario": "Assucena"
     }
   ]
