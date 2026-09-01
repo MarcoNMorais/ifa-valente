@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "01/09/2026 10:24:38",
+  "atualizado_em": "01/09/2026 10:25:01",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
     "total_almoxarifado": 86579,
-    "total_farmacia": 24293,
-    "total_geral": 110872,
+    "total_farmacia": 24285,
+    "total_geral": 110864,
     "perto_de_terminar": 32,
     "zerados": 16
   },
@@ -14783,19 +14783,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 410,
+      "farmacia": 402,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 410,
+      "total": 402,
       "minimo": 0,
       "validade": "12/27",
       "lote": "",
       "origem": "Carga Farmácia 227-288",
       "obs": "Importação Farmácia 227-288",
-      "atualizado_em": "2026-09-01 10:24:36",
+      "atualizado_em": "2026-09-01 10:25:00",
       "validade_mais_proxima": "12/27",
       "vencimento_mais_proximo": "12/27",
       "lotes_validade": [
@@ -14803,7 +14803,7 @@
           "local": "farmacia",
           "validade": "12/27",
           "lote": "",
-          "quantidade": 410
+          "quantidade": 402
         }
       ],
       "minimo_manual": 0,
@@ -14811,9 +14811,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 18,
-      "media_diaria_saida": 15.0,
-      "total_saida_historica": 270,
-      "cobertura_dias": 27.3,
+      "media_diaria_saida": 15.44,
+      "total_saida_historica": 278,
+      "cobertura_dias": 26.0,
       "alerta_estoque": false
     },
     {
@@ -15643,6 +15643,21 @@
       "obs": "",
       "criado_em": "2026-09-01 10:09:41",
       "item": "Misoprostol / Citotec 200mcg",
+      "usuario": "Assucena"
+    },
+    {
+      "id": 1406,
+      "item_id": 239,
+      "produto_nome": "Tramadol 50mg/ml 2ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 8,
+      "responsavel": "Assucena",
+      "data": "2026-08-31",
+      "obs": "",
+      "criado_em": "2026-09-01 10:25:00",
+      "item": "Tramadol 50mg/ml 2ml",
       "usuario": "Assucena"
     },
     {
@@ -22933,21 +22948,6 @@
       "obs": "",
       "criado_em": "2026-08-24 16:02:47",
       "item": "Succinil 100mg",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 906,
-      "item_id": 11,
-      "produto_nome": "Midazolam 5mg/ml 10ml",
-      "tipo": "Farmácia para Outro destino",
-      "origem": "Farmácia",
-      "destino": "Outro destino",
-      "quantidade": 5,
-      "responsavel": "Leiliana",
-      "data": "2026-08-24",
-      "obs": "",
-      "criado_em": "2026-08-24 16:02:34",
-      "item": "Midazolam 5mg/ml 10ml",
       "usuario": "Leiliana"
     }
   ]
