@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "01/09/2026 10:24:26",
+  "atualizado_em": "01/09/2026 10:24:38",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
     "total_almoxarifado": 86579,
-    "total_farmacia": 24323,
-    "total_geral": 110902,
+    "total_farmacia": 24293,
+    "total_geral": 110872,
     "perto_de_terminar": 32,
     "zerados": 16
   },
@@ -7258,19 +7258,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 188,
+      "farmacia": 178,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 188,
+      "total": 178,
       "minimo": 50,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-08-27 11:13:09",
+      "atualizado_em": "2026-09-01 10:24:28",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -7278,7 +7278,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 188
+          "quantidade": 178
         }
       ],
       "minimo_manual": 50,
@@ -7286,9 +7286,9 @@
       "previsao_20_dias": 50,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 7,
-      "media_diaria_saida": 0.0,
-      "total_saida_historica": 0,
-      "cobertura_dias": null,
+      "media_diaria_saida": 1.43,
+      "total_saida_historica": 10,
+      "cobertura_dias": 124.6,
       "alerta_estoque": false
     },
     {
@@ -14783,19 +14783,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 430,
+      "farmacia": 410,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 430,
+      "total": 410,
       "minimo": 0,
       "validade": "12/27",
       "lote": "",
       "origem": "Carga Farmácia 227-288",
       "obs": "Importação Farmácia 227-288",
-      "atualizado_em": "2026-08-31 11:40:23",
+      "atualizado_em": "2026-09-01 10:24:36",
       "validade_mais_proxima": "12/27",
       "vencimento_mais_proximo": "12/27",
       "lotes_validade": [
@@ -14803,7 +14803,7 @@
           "local": "farmacia",
           "validade": "12/27",
           "lote": "",
-          "quantidade": 430
+          "quantidade": 410
         }
       ],
       "minimo_manual": 0,
@@ -14811,9 +14811,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 18,
-      "media_diaria_saida": 13.89,
-      "total_saida_historica": 250,
-      "cobertura_dias": 31.0,
+      "media_diaria_saida": 15.0,
+      "total_saida_historica": 270,
+      "cobertura_dias": 27.3,
       "alerta_estoque": false
     },
     {
@@ -15450,6 +15450,36 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 1405,
+      "item_id": 239,
+      "produto_nome": "Tramadol 50mg/ml 2ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 20,
+      "responsavel": "Assucena",
+      "data": "2026-09-01",
+      "obs": "",
+      "criado_em": "2026-09-01 10:24:36",
+      "item": "Tramadol 50mg/ml 2ml",
+      "usuario": "Assucena"
+    },
+    {
+      "id": 1404,
+      "item_id": 350,
+      "produto_nome": "GLICOSE 50% AMP 10ML",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 10,
+      "responsavel": "Assucena",
+      "data": "2026-09-01",
+      "obs": "",
+      "criado_em": "2026-09-01 10:24:28",
+      "item": "GLICOSE 50% AMP 10ML",
+      "usuario": "Assucena"
+    },
     {
       "id": 1403,
       "item_id": 238,
@@ -22918,36 +22948,6 @@
       "obs": "",
       "criado_em": "2026-08-24 16:02:34",
       "item": "Midazolam 5mg/ml 10ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 905,
-      "item_id": 1,
-      "produto_nome": "Fentanila solução 50mcg/ml",
-      "tipo": "Farmácia para Outro destino",
-      "origem": "Farmácia",
-      "destino": "Outro destino",
-      "quantidade": 5,
-      "responsavel": "Leiliana",
-      "data": "2026-08-24",
-      "obs": "",
-      "criado_em": "2026-08-24 16:02:21",
-      "item": "Fentanila solução 50mcg/ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 904,
-      "item_id": 2,
-      "produto_nome": "Cloridrato de clorpromazina 25mg",
-      "tipo": "Farmácia para Outro destino",
-      "origem": "Farmácia",
-      "destino": "Outro destino",
-      "quantidade": 1,
-      "responsavel": "Leiliana",
-      "data": "2026-08-24",
-      "obs": "",
-      "criado_em": "2026-08-24 16:02:04",
-      "item": "Cloridrato de clorpromazina 25mg",
       "usuario": "Leiliana"
     }
   ]
