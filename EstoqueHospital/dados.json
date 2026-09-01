@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "01/09/2026 16:10:59",
+  "atualizado_em": "01/09/2026 16:11:44",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
-    "total_almoxarifado": 85568,
-    "total_farmacia": 24670,
+    "total_almoxarifado": 85520,
+    "total_farmacia": 24718,
     "total_geral": 110238,
     "perto_de_terminar": 32,
     "zerados": 17
@@ -13906,8 +13906,8 @@
       "nome": "Soro fisiológico 500ml",
       "tipo": "Insumo",
       "unidade": "Unidade",
-      "almoxarifado": 961,
-      "farmacia": 14,
+      "almoxarifado": 913,
+      "farmacia": 62,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -13919,7 +13919,7 @@
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-31 16:31:27",
+      "atualizado_em": "2026-09-01 16:11:43",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -13927,13 +13927,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 961
+          "quantidade": 913
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 14
+          "quantidade": 62
         }
       ],
       "minimo_manual": 0,
@@ -15455,6 +15455,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 1450,
+      "item_id": 204,
+      "produto_nome": "Soro fisiológico 500ml",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 48,
+      "responsavel": "Leiliana",
+      "data": "2026-09-01",
+      "obs": "",
+      "criado_em": "2026-09-01 16:11:43",
+      "item": "Soro fisiológico 500ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 1449,
       "item_id": 12,
@@ -22938,21 +22953,6 @@
       "obs": "",
       "criado_em": "2026-08-25 11:36:06",
       "item": "Omeprazol sódico 40mg AMP",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 950,
-      "item_id": 70,
-      "produto_nome": "Dipirona",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 40,
-      "responsavel": "Assucena",
-      "data": "2026-08-24",
-      "obs": "",
-      "criado_em": "2026-08-25 11:35:55",
-      "item": "Dipirona",
       "usuario": "Assucena"
     }
   ]
