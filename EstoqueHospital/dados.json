@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "01/09/2026 16:08:07",
+  "atualizado_em": "01/09/2026 16:08:25",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
     "total_almoxarifado": 85618,
-    "total_farmacia": 24783,
-    "total_geral": 110401,
+    "total_farmacia": 24763,
+    "total_geral": 110381,
     "perto_de_terminar": 32,
     "zerados": 17
   },
@@ -4438,19 +4438,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 80,
+      "farmacia": 60,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 80,
+      "total": 60,
       "minimo": 0,
       "validade": "2028-02",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-31 11:39:19",
+      "atualizado_em": "2026-09-01 16:08:24",
       "validade_mais_proxima": "2028-02",
       "vencimento_mais_proximo": "2028-02",
       "lotes_validade": [
@@ -4458,17 +4458,17 @@
           "local": "farmacia",
           "validade": "2028-02",
           "lote": "",
-          "quantidade": 80
+          "quantidade": 60
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 240,
-      "previsao_20_dias": 240,
+      "minimo_alerta": 260,
+      "previsao_20_dias": 260,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 20,
-      "media_diaria_saida": 12.0,
-      "total_saida_historica": 240,
-      "cobertura_dias": 6.7,
+      "media_diaria_saida": 13.0,
+      "total_saida_historica": 260,
+      "cobertura_dias": 4.6,
       "alerta_estoque": true
     },
     {
@@ -15456,6 +15456,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 1440,
+      "item_id": 69,
+      "produto_nome": "Diclofenaco 25mg",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 20,
+      "responsavel": "Leiliana",
+      "data": "2026-09-01",
+      "obs": "",
+      "criado_em": "2026-09-01 16:08:24",
+      "item": "Diclofenaco 25mg",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 1439,
       "item_id": 294,
       "produto_nome": "Glicerina 12%",
@@ -22938,21 +22953,6 @@
       "obs": "",
       "criado_em": "2026-08-25 11:33:44",
       "item": "Seringa 3ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 940,
-      "item_id": 102,
-      "produto_nome": "Seringa 5ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 20,
-      "responsavel": "Assucena",
-      "data": "2026-08-24",
-      "obs": "",
-      "criado_em": "2026-08-25 11:33:35",
-      "item": "Seringa 5ml",
       "usuario": "Assucena"
     }
   ]
