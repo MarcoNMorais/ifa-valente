@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "01/09/2026 08:52:10",
+  "atualizado_em": "01/09/2026 08:52:23",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
     "total_almoxarifado": 86699,
-    "total_farmacia": 24435,
-    "total_geral": 111134,
+    "total_farmacia": 24415,
+    "total_geral": 111114,
     "perto_de_terminar": 31,
     "zerados": 15
   },
@@ -635,19 +635,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 230,
+      "farmacia": 210,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 230,
+      "total": 210,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-31 11:31:34",
+      "atualizado_em": "2026-09-01 08:52:22",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -655,17 +655,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 230
+          "quantidade": 210
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 920,
-      "previsao_20_dias": 920,
+      "minimo_alerta": 940,
+      "previsao_20_dias": 940,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 20,
-      "media_diaria_saida": 46.0,
-      "total_saida_historica": 920,
-      "cobertura_dias": 5.0,
+      "media_diaria_saida": 47.0,
+      "total_saida_historica": 940,
+      "cobertura_dias": 4.5,
       "alerta_estoque": true
     },
     {
@@ -15452,6 +15452,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 1392,
+      "item_id": 187,
+      "produto_nome": "Agulha hipodérmica tam. 18",
+      "tipo": "Farmácia para Sala Cirúrgica",
+      "origem": "Farmácia",
+      "destino": "Sala Cirúrgica",
+      "quantidade": 20,
+      "responsavel": "Assucena",
+      "data": "2026-08-31",
+      "obs": "",
+      "criado_em": "2026-09-01 08:52:22",
+      "item": "Agulha hipodérmica tam. 18",
+      "usuario": "Assucena"
+    },
+    {
       "id": 1391,
       "item_id": 175,
       "produto_nome": "Fita cirúrgica microporosa",
@@ -22934,21 +22949,6 @@
       "obs": "",
       "criado_em": "2026-08-24 15:58:32",
       "item": "Soro Ringer Lactato 500ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 892,
-      "item_id": 320,
-      "produto_nome": "Acebrofilina 10mg/ml",
-      "tipo": "Farmácia para Outro destino",
-      "origem": "Farmácia",
-      "destino": "Outro destino",
-      "quantidade": 1,
-      "responsavel": "Leiliana",
-      "data": "2026-08-24",
-      "obs": "",
-      "criado_em": "2026-08-24 15:58:05",
-      "item": "Acebrofilina 10mg/ml",
       "usuario": "Leiliana"
     }
   ]
