@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "01/09/2026 16:10:47",
+  "atualizado_em": "01/09/2026 16:10:59",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
     "total_almoxarifado": 85568,
-    "total_farmacia": 24680,
-    "total_geral": 110248,
+    "total_farmacia": 24670,
+    "total_geral": 110238,
     "perto_de_terminar": 32,
     "zerados": 17
   },
@@ -9736,19 +9736,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 220,
+      "farmacia": 210,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 220,
+      "total": 210,
       "minimo": 0,
       "validade": "2028-01",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-09-01 10:36:30",
+      "atualizado_em": "2026-09-01 16:10:59",
       "validade_mais_proxima": "2028-01",
       "vencimento_mais_proximo": "2028-01",
       "lotes_validade": [
@@ -9756,17 +9756,17 @@
           "local": "farmacia",
           "validade": "2028-01",
           "lote": "",
-          "quantidade": 220
+          "quantidade": 210
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 60,
-      "previsao_20_dias": 60,
+      "minimo_alerta": 70,
+      "previsao_20_dias": 70,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 20,
-      "media_diaria_saida": 3.0,
-      "total_saida_historica": 60,
-      "cobertura_dias": 73.3,
+      "media_diaria_saida": 3.5,
+      "total_saida_historica": 70,
+      "cobertura_dias": 60.0,
       "alerta_estoque": false
     },
     {
@@ -15455,6 +15455,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 1449,
+      "item_id": 12,
+      "produto_nome": "Morfina 10mg/ml 1ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 10,
+      "responsavel": "Leiliana",
+      "data": "2026-09-01",
+      "obs": "",
+      "criado_em": "2026-09-01 16:10:59",
+      "item": "Morfina 10mg/ml 1ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 1448,
       "item_id": 99,
@@ -22938,21 +22953,6 @@
       "obs": "",
       "criado_em": "2026-08-25 11:35:55",
       "item": "Dipirona",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 949,
-      "item_id": 61,
-      "produto_nome": "Cetoprofeno IM 50mg",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 20,
-      "responsavel": "Assucena",
-      "data": "2026-08-24",
-      "obs": "",
-      "criado_em": "2026-08-25 11:35:41",
-      "item": "Cetoprofeno IM 50mg",
       "usuario": "Assucena"
     }
   ]
