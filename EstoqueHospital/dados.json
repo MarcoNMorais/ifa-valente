@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "01/09/2026 10:25:27",
+  "atualizado_em": "01/09/2026 10:25:44",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
     "total_almoxarifado": 86579,
-    "total_farmacia": 24275,
-    "total_geral": 110854,
+    "total_farmacia": 24265,
+    "total_geral": 110844,
     "perto_de_terminar": 32,
     "zerados": 16
   },
@@ -15175,19 +15175,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 190,
+      "farmacia": 180,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 190,
+      "total": 180,
       "minimo": 100,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-08-31 11:40:34",
+      "atualizado_em": "2026-09-01 10:25:44",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -15195,7 +15195,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 190
+          "quantidade": 180
         }
       ],
       "minimo_manual": 100,
@@ -15203,9 +15203,9 @@
       "previsao_20_dias": 100,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 8,
-      "media_diaria_saida": 6.88,
-      "total_saida_historica": 55,
-      "cobertura_dias": 27.6,
+      "media_diaria_saida": 8.12,
+      "total_saida_historica": 65,
+      "cobertura_dias": 22.2,
       "alerta_estoque": false
     },
     {
@@ -15450,6 +15450,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 1408,
+      "item_id": 344,
+      "produto_nome": "ÁGUA  PARA INJETÁVEIS 10ML",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 10,
+      "responsavel": "Assucena",
+      "data": "2026-09-01",
+      "obs": "",
+      "criado_em": "2026-09-01 10:25:44",
+      "item": "ÁGUA  PARA INJETÁVEIS 10ML",
+      "usuario": "Assucena"
+    },
     {
       "id": 1405,
       "item_id": 239,
@@ -22933,21 +22948,6 @@
       "obs": "",
       "criado_em": "2026-08-24 16:03:53",
       "item": "Acebrofilina 10mg/ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 908,
-      "item_id": 212,
-      "produto_nome": "Vasopressina",
-      "tipo": "Farmácia para Outro destino",
-      "origem": "Farmácia",
-      "destino": "Outro destino",
-      "quantidade": 2,
-      "responsavel": "Leiliana",
-      "data": "2026-08-24",
-      "obs": "",
-      "criado_em": "2026-08-24 16:02:59",
-      "item": "Vasopressina",
       "usuario": "Leiliana"
     }
   ]
