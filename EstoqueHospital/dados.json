@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "02/09/2026 11:14:08",
+  "atualizado_em": "02/09/2026 11:14:20",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
-    "total_almoxarifado": 85080,
-    "total_farmacia": 24107,
+    "total_almoxarifado": 85079,
+    "total_farmacia": 24108,
     "total_geral": 109187,
     "perto_de_terminar": 34,
     "zerados": 19
@@ -10597,8 +10597,8 @@
       "nome": "Papel grau 15cm",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 7,
-      "farmacia": 0,
+      "almoxarifado": 6,
+      "farmacia": 1,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -10610,7 +10610,7 @@
       "lote": "",
       "origem": "Carga Almoxerifado",
       "obs": "Importação Almoxerifado",
-      "atualizado_em": "2026-08-25 16:12:46",
+      "atualizado_em": "2026-09-02 11:14:19",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -10618,7 +10618,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 7
+          "quantidade": 6
+        },
+        {
+          "local": "farmacia",
+          "validade": "",
+          "lote": "",
+          "quantidade": 1
         }
       ],
       "minimo_manual": 0,
@@ -15429,6 +15435,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 1504,
+      "item_id": 328,
+      "produto_nome": "Papel grau 15cm",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 1,
+      "responsavel": "Assucena",
+      "data": "2026-09-01",
+      "obs": "",
+      "criado_em": "2026-09-02 11:14:19",
+      "item": "Papel grau 15cm",
+      "usuario": "Assucena"
+    },
     {
       "id": 1503,
       "item_id": 152,
@@ -22912,21 +22933,6 @@
       "obs": "",
       "criado_em": "2026-08-26 10:10:19",
       "item": "Soro Ringer Lactato 500ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1004,
-      "item_id": 115,
-      "produto_nome": "Losartana potássica 50mg CPR",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 30,
-      "responsavel": "Assucena",
-      "data": "2026-08-25",
-      "obs": "",
-      "criado_em": "2026-08-26 10:10:09",
-      "item": "Losartana potássica 50mg CPR",
       "usuario": "Assucena"
     }
   ]
