@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "02/09/2026 11:06:44",
+  "atualizado_em": "02/09/2026 11:06:56",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
     "total_almoxarifado": 85200,
-    "total_farmacia": 24304,
-    "total_geral": 109504,
+    "total_farmacia": 24264,
+    "total_geral": 109464,
     "perto_de_terminar": 34,
     "zerados": 19
   },
@@ -11531,19 +11531,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 2500,
-      "farmacia": 1433,
+      "farmacia": 1393,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 3933,
+      "total": 3893,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-09-01 16:10:24",
+      "atualizado_em": "2026-09-02 11:06:54",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -11557,17 +11557,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 1433
+          "quantidade": 1393
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 805,
-      "previsao_20_dias": 805,
+      "minimo_alerta": 843,
+      "previsao_20_dias": 843,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 21,
-      "media_diaria_saida": 40.24,
-      "total_saida_historica": 845,
-      "cobertura_dias": 97.7,
+      "media_diaria_saida": 42.14,
+      "total_saida_historica": 885,
+      "cobertura_dias": 92.4,
       "alerta_estoque": false
     },
     {
@@ -15447,6 +15447,36 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 1484,
+      "item_id": 104,
+      "produto_nome": "Seringa 3ml",
+      "tipo": "Farmácia para Posto de Internamento",
+      "origem": "Farmácia",
+      "destino": "Posto de Internamento",
+      "quantidade": 10,
+      "responsavel": "Assucena",
+      "data": "2026-09-01",
+      "obs": "",
+      "criado_em": "2026-09-02 11:06:54",
+      "item": "Seringa 3ml",
+      "usuario": "Assucena"
+    },
+    {
+      "id": 1483,
+      "item_id": 104,
+      "produto_nome": "Seringa 3ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 30,
+      "responsavel": "Assucena",
+      "data": "2026-09-01",
+      "obs": "",
+      "criado_em": "2026-09-02 11:06:46",
+      "item": "Seringa 3ml",
+      "usuario": "Assucena"
+    },
     {
       "id": 1482,
       "item_id": 176,
@@ -22915,36 +22945,6 @@
       "obs": "",
       "criado_em": "2026-08-25 11:45:37",
       "item": "Luva de látex tam. M",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 984,
-      "item_id": 181,
-      "produto_nome": "Luva de látex tam. M",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 100,
-      "responsavel": "Assucena",
-      "data": "2026-08-24",
-      "obs": "",
-      "criado_em": "2026-08-25 11:45:28",
-      "item": "Luva de látex tam. M",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 983,
-      "item_id": 180,
-      "produto_nome": "Luva de látex tam. P",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 100,
-      "responsavel": "Assucena",
-      "data": "2026-08-24",
-      "obs": "",
-      "criado_em": "2026-08-25 11:45:18",
-      "item": "Luva de látex tam. P",
       "usuario": "Assucena"
     }
   ]
