@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "02/09/2026 11:29:00",
+  "atualizado_em": "02/09/2026 11:29:12",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
-    "total_almoxarifado": 84639,
-    "total_farmacia": 25007,
+    "total_almoxarifado": 84179,
+    "total_farmacia": 25467,
     "total_geral": 109646,
     "perto_de_terminar": 34,
     "zerados": 19
@@ -4510,8 +4510,8 @@
       "nome": "Dipirona",
       "tipo": "Medicamento",
       "unidade": "Unidade",
-      "almoxarifado": 460,
-      "farmacia": 10,
+      "almoxarifado": 0,
+      "farmacia": 470,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -4523,7 +4523,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "AJUSTE DE ESTOQUE ",
-      "atualizado_em": "2026-09-02 11:29:00",
+      "atualizado_em": "2026-09-02 11:29:07",
       "validade_mais_proxima": "2027-03",
       "vencimento_mais_proximo": "2027-03",
       "lotes_validade": [
@@ -4534,7 +4534,7 @@
           "quantidade": 10
         },
         {
-          "local": "almoxarifado",
+          "local": "farmacia",
           "validade": "",
           "lote": "",
           "quantidade": 460
@@ -15442,6 +15442,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 1509,
+      "item_id": 70,
+      "produto_nome": "Dipirona",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 460,
+      "responsavel": "Assucena",
+      "data": "2026-09-01",
+      "obs": "",
+      "criado_em": "2026-09-02 11:29:07",
+      "item": "Dipirona",
+      "usuario": "Assucena"
+    },
+    {
       "id": 1508,
       "item_id": 70,
       "produto_nome": "Dipirona",
@@ -22924,21 +22939,6 @@
       "obs": "",
       "criado_em": "2026-08-26 10:11:06",
       "item": "Cimetidina 150mg",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1009,
-      "item_id": 238,
-      "produto_nome": "Ondansetrona 2mg/ml 2ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 50,
-      "responsavel": "Assucena",
-      "data": "2026-08-25",
-      "obs": "",
-      "criado_em": "2026-08-26 10:10:58",
-      "item": "Ondansetrona 2mg/ml 2ml",
       "usuario": "Assucena"
     }
   ]
