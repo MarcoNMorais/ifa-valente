@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "02/09/2026 11:03:14",
+  "atualizado_em": "02/09/2026 11:04:17",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
     "total_almoxarifado": 85200,
-    "total_farmacia": 24620,
-    "total_geral": 109820,
+    "total_farmacia": 24619,
+    "total_geral": 109819,
     "perto_de_terminar": 33,
     "zerados": 18
   },
@@ -10731,19 +10731,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 76,
+      "farmacia": 75,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 76,
+      "total": 75,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga Farmácia 227-288",
       "obs": "Importação Farmácia 227-288",
-      "atualizado_em": "2026-08-31 11:27:51",
+      "atualizado_em": "2026-09-02 11:04:17",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -10751,7 +10751,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 76
+          "quantidade": 75
         }
       ],
       "minimo_manual": 0,
@@ -10759,9 +10759,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 16,
-      "media_diaria_saida": 0.44,
-      "total_saida_historica": 7,
-      "cobertura_dias": 173.7,
+      "media_diaria_saida": 0.5,
+      "total_saida_historica": 8,
+      "cobertura_dias": 150.0,
       "alerta_estoque": false
     },
     {
@@ -15454,6 +15454,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 1467,
+      "item_id": 260,
+      "produto_nome": "Paracetamol gotas",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 1,
+      "responsavel": "Assucena",
+      "data": "2026-09-01",
+      "obs": "",
+      "criado_em": "2026-09-02 11:04:17",
+      "item": "Paracetamol gotas",
+      "usuario": "Assucena"
+    },
     {
       "id": 1466,
       "item_id": 233,
@@ -22936,21 +22951,6 @@
       "data": "2026-08-24",
       "obs": "",
       "criado_em": "2026-08-25 11:40:41",
-      "item": "Seringa 3ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 967,
-      "item_id": 104,
-      "produto_nome": "Seringa 3ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 30,
-      "responsavel": "Assucena",
-      "data": "2026-08-24",
-      "obs": "",
-      "criado_em": "2026-08-25 11:40:33",
       "item": "Seringa 3ml",
       "usuario": "Assucena"
     }
