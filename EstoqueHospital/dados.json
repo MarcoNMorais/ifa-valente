@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "02/09/2026 16:24:43",
+  "atualizado_em": "02/09/2026 16:25:03",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
-    "total_almoxarifado": 84035,
-    "total_farmacia": 25681,
+    "total_almoxarifado": 84011,
+    "total_farmacia": 25705,
     "total_geral": 109716,
     "perto_de_terminar": 34,
     "zerados": 19
@@ -13892,8 +13892,8 @@
       "nome": "Soro fisiológico 500ml",
       "tipo": "Insumo",
       "unidade": "Unidade",
-      "almoxarifado": 913,
-      "farmacia": 42,
+      "almoxarifado": 889,
+      "farmacia": 66,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -13905,7 +13905,7 @@
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-09-02 11:11:44",
+      "atualizado_em": "2026-09-02 16:25:02",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -13913,13 +13913,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 913
+          "quantidade": 889
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 42
+          "quantidade": 66
         }
       ],
       "minimo_manual": 0,
@@ -15441,6 +15441,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 1514,
+      "item_id": 204,
+      "produto_nome": "Soro fisiológico 500ml",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 24,
+      "responsavel": "Leiliana",
+      "data": "2026-09-02",
+      "obs": "",
+      "criado_em": "2026-09-02 16:25:02",
+      "item": "Soro fisiológico 500ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 1513,
       "item_id": 287,
@@ -22924,21 +22939,6 @@
       "obs": "",
       "criado_em": "2026-08-26 10:11:56",
       "item": "Tramadol 50mg/ml 2ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1014,
-      "item_id": 60,
-      "produto_nome": "Cetoprofeno EV 100mg",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 10,
-      "responsavel": "Assucena",
-      "data": "2026-08-25",
-      "obs": "",
-      "criado_em": "2026-08-26 10:11:47",
-      "item": "Cetoprofeno EV 100mg",
       "usuario": "Assucena"
     }
   ]
