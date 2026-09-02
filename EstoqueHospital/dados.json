@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "02/09/2026 11:08:37",
+  "atualizado_em": "02/09/2026 11:11:30",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
     "total_almoxarifado": 85200,
-    "total_farmacia": 24084,
-    "total_geral": 109284,
+    "total_farmacia": 24082,
+    "total_geral": 109282,
     "perto_de_terminar": 34,
     "zerados": 19
   },
@@ -5458,19 +5458,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 100,
-      "farmacia": 7,
+      "farmacia": 5,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 107,
+      "total": 105,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga Almoxerifado",
       "obs": "Importação Almoxerifado",
-      "atualizado_em": "2026-09-01 10:35:46",
+      "atualizado_em": "2026-09-02 11:11:30",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -5484,7 +5484,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 7
+          "quantidade": 5
         }
       ],
       "minimo_manual": 0,
@@ -5492,9 +5492,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 16,
-      "media_diaria_saida": 0.81,
-      "total_saida_historica": 13,
-      "cobertura_dias": 131.7,
+      "media_diaria_saida": 0.94,
+      "total_saida_historica": 15,
+      "cobertura_dias": 112.0,
       "alerta_estoque": false
     },
     {
@@ -15442,6 +15442,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 1493,
+      "item_id": 276,
+      "produto_nome": "Esparadrapo 10x4,5",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 2,
+      "responsavel": "Assucena",
+      "data": "2026-09-01",
+      "obs": "",
+      "criado_em": "2026-09-02 11:11:30",
+      "item": "Esparadrapo 10x4,5",
+      "usuario": "Assucena"
+    },
+    {
       "id": 1492,
       "item_id": 184,
       "produto_nome": "Luva cirúrgica tam. 7",
@@ -22924,21 +22939,6 @@
       "obs": "",
       "criado_em": "2026-08-25 16:26:34",
       "item": "Dexametasona",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 993,
-      "item_id": 59,
-      "produto_nome": "Ceftriaxona 1g",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 12,
-      "responsavel": "Assucena",
-      "data": "2026-08-25",
-      "obs": "",
-      "criado_em": "2026-08-25 16:26:23",
-      "item": "Ceftriaxona 1g",
       "usuario": "Assucena"
     }
   ]
