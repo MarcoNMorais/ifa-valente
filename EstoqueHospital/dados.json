@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "02/09/2026 16:25:24",
+  "atualizado_em": "02/09/2026 16:25:41",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
-    "total_almoxarifado": 83761,
-    "total_farmacia": 25955,
+    "total_almoxarifado": 83261,
+    "total_farmacia": 26455,
     "total_geral": 109716,
     "perto_de_terminar": 34,
     "zerados": 19
@@ -11536,8 +11536,8 @@
       "nome": "Seringa 3ml",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 2500,
-      "farmacia": 1393,
+      "almoxarifado": 2000,
+      "farmacia": 1893,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -11549,7 +11549,7 @@
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-09-02 11:06:54",
+      "atualizado_em": "2026-09-02 16:25:40",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -11557,13 +11557,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 2500
+          "quantidade": 2000
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 1393
+          "quantidade": 1893
         }
       ],
       "minimo_manual": 0,
@@ -15441,6 +15441,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 1516,
+      "item_id": 104,
+      "produto_nome": "Seringa 3ml",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 500,
+      "responsavel": "Leiliana",
+      "data": "2026-09-02",
+      "obs": "",
+      "criado_em": "2026-09-02 16:25:40",
+      "item": "Seringa 3ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 1515,
       "item_id": 274,
@@ -22924,21 +22939,6 @@
       "obs": "",
       "criado_em": "2026-08-26 10:12:53",
       "item": "Luva de látex tam. M",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1016,
-      "item_id": 194,
-      "produto_nome": "Lanceta de segurança",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 100,
-      "responsavel": "Assucena",
-      "data": "2026-08-25",
-      "obs": "",
-      "criado_em": "2026-08-26 10:12:35",
-      "item": "Lanceta de segurança",
       "usuario": "Assucena"
     }
   ]
