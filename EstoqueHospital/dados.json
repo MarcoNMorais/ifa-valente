@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "02/09/2026 16:26:51",
+  "atualizado_em": "02/09/2026 16:27:11",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
     "total_almoxarifado": 82745,
-    "total_farmacia": 26969,
-    "total_geral": 109714,
+    "total_farmacia": 26959,
+    "total_geral": 109704,
     "perto_de_terminar": 34,
     "zerados": 19
   },
@@ -13991,19 +13991,19 @@
       "tipo": "Insumo",
       "unidade": "Unidade",
       "almoxarifado": 66,
-      "farmacia": 14,
+      "farmacia": 4,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 80,
+      "total": 70,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-31 11:42:24",
+      "atualizado_em": "2026-09-02 16:27:10",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -14021,13 +14021,13 @@
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 45,
-      "previsao_20_dias": 45,
+      "minimo_alerta": 55,
+      "previsao_20_dias": 55,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 21,
-      "media_diaria_saida": 2.24,
-      "total_saida_historica": 47,
-      "cobertura_dias": 35.7,
+      "media_diaria_saida": 2.71,
+      "total_saida_historica": 57,
+      "cobertura_dias": 25.8,
       "alerta_estoque": false
     },
     {
@@ -15447,6 +15447,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 1520,
+      "item_id": 205,
+      "produto_nome": "Soro glicose 5% 500ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 10,
+      "responsavel": "Leiliana",
+      "data": "2026-09-02",
+      "obs": "",
+      "criado_em": "2026-09-02 16:27:10",
+      "item": "Soro glicose 5% 500ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 1519,
       "item_id": 230,
@@ -22930,21 +22945,6 @@
       "obs": "",
       "criado_em": "2026-08-26 10:13:48",
       "item": "Dispositivo intravenoso Gelco nº 22",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1020,
-      "item_id": 188,
-      "produto_nome": "Agulha hipodérmica tam. 21",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 30,
-      "responsavel": "Assucena",
-      "data": "2026-08-25",
-      "obs": "",
-      "criado_em": "2026-08-26 10:13:38",
-      "item": "Agulha hipodérmica tam. 21",
       "usuario": "Assucena"
     }
   ]
