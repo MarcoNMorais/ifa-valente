@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "02/09/2026 11:30:19",
+  "atualizado_em": "02/09/2026 16:24:28",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
-    "total_almoxarifado": 84179,
-    "total_farmacia": 25537,
+    "total_almoxarifado": 84155,
+    "total_farmacia": 25561,
     "total_geral": 109716,
     "perto_de_terminar": 34,
     "zerados": 19
@@ -14030,8 +14030,8 @@
       "nome": "Soro Ringer Lactato 500ml",
       "tipo": "Insumo",
       "unidade": "Unidade",
-      "almoxarifado": 192,
-      "farmacia": 69,
+      "almoxarifado": 168,
+      "farmacia": 93,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -14043,7 +14043,7 @@
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-09-01 11:50:02",
+      "atualizado_em": "2026-09-02 16:24:27",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -14051,13 +14051,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 192
+          "quantidade": 168
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 69
+          "quantidade": 93
         }
       ],
       "minimo_manual": 0,
@@ -15441,6 +15441,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 1512,
+      "item_id": 201,
+      "produto_nome": "Soro Ringer Lactato 500ml",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 24,
+      "responsavel": "Leiliana",
+      "data": "2026-09-02",
+      "obs": "",
+      "criado_em": "2026-09-02 16:24:27",
+      "item": "Soro Ringer Lactato 500ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 1511,
       "item_id": 228,
@@ -22924,21 +22939,6 @@
       "obs": "",
       "criado_em": "2026-08-26 10:11:37",
       "item": "Benzilpenicilina 1.200",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1012,
-      "item_id": 228,
-      "produto_nome": "Omeprazol sódico 40mg AMP",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 5,
-      "responsavel": "Assucena",
-      "data": "2026-08-25",
-      "obs": "",
-      "criado_em": "2026-08-26 10:11:26",
-      "item": "Omeprazol sódico 40mg AMP",
       "usuario": "Assucena"
     }
   ]
