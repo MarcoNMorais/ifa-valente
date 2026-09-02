@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "02/09/2026 16:28:11",
+  "atualizado_em": "02/09/2026 16:28:53",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
-    "total_almoxarifado": 82745,
-    "total_farmacia": 26902,
+    "total_almoxarifado": 82730,
+    "total_farmacia": 26917,
     "total_geral": 109647,
     "perto_de_terminar": 35,
     "zerados": 19
@@ -8312,8 +8312,8 @@
       "nome": "Levofloxacino 100ml",
       "tipo": "Medicamento",
       "unidade": "Unidade",
-      "almoxarifado": 60,
-      "farmacia": 0,
+      "almoxarifado": 45,
+      "farmacia": 15,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -8325,7 +8325,7 @@
       "lote": "",
       "origem": "Carga Almoxerifado",
       "obs": "Importação Almoxerifado",
-      "atualizado_em": "2026-08-25 16:12:46",
+      "atualizado_em": "2026-09-02 16:28:53",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -8333,7 +8333,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 60
+          "quantidade": 45
+        },
+        {
+          "local": "farmacia",
+          "validade": "",
+          "lote": "",
+          "quantidade": 15
         }
       ],
       "minimo_manual": 0,
@@ -15447,6 +15453,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 1525,
+      "item_id": 298,
+      "produto_nome": "Levofloxacino 100ml",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 15,
+      "responsavel": "Leiliana",
+      "data": "2026-09-02",
+      "obs": "",
+      "criado_em": "2026-09-02 16:28:53",
+      "item": "Levofloxacino 100ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 1524,
       "item_id": 376,
@@ -22930,21 +22951,6 @@
       "obs": "",
       "criado_em": "2026-08-26 10:15:19",
       "item": "Luva de látex tam. P",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1025,
-      "item_id": 188,
-      "produto_nome": "Agulha hipodérmica tam. 21",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 50,
-      "responsavel": "Assucena",
-      "data": "2026-08-25",
-      "obs": "",
-      "criado_em": "2026-08-26 10:14:30",
-      "item": "Agulha hipodérmica tam. 21",
       "usuario": "Assucena"
     }
   ]
