@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "02/09/2026 11:04:52",
+  "atualizado_em": "02/09/2026 11:05:04",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
     "total_almoxarifado": 85200,
-    "total_farmacia": 24614,
-    "total_geral": 109814,
+    "total_farmacia": 24589,
+    "total_geral": 109789,
     "perto_de_terminar": 34,
     "zerados": 18
   },
@@ -2241,19 +2241,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 355,
+      "farmacia": 340,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 355,
+      "total": 340,
       "minimo": 100,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-08-26 10:54:33",
+      "atualizado_em": "2026-09-02 11:05:03",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -2261,7 +2261,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 355
+          "quantidade": 340
         }
       ],
       "minimo_manual": 100,
@@ -2269,9 +2269,9 @@
       "previsao_20_dias": 100,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 9,
-      "media_diaria_saida": 0.0,
-      "total_saida_historica": 0,
-      "cobertura_dias": null,
+      "media_diaria_saida": 1.67,
+      "total_saida_historica": 15,
+      "cobertura_dias": 204.0,
       "alerta_estoque": false
     },
     {
@@ -15173,19 +15173,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 180,
+      "farmacia": 170,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 180,
+      "total": 170,
       "minimo": 100,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-01 10:25:44",
+      "atualizado_em": "2026-09-02 11:04:55",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -15193,7 +15193,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 180
+          "quantidade": 170
         }
       ],
       "minimo_manual": 100,
@@ -15201,9 +15201,9 @@
       "previsao_20_dias": 100,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 9,
-      "media_diaria_saida": 7.22,
-      "total_saida_historica": 65,
-      "cobertura_dias": 24.9,
+      "media_diaria_saida": 8.33,
+      "total_saida_historica": 75,
+      "cobertura_dias": 20.4,
       "alerta_estoque": false
     },
     {
@@ -15454,6 +15454,36 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 1472,
+      "item_id": 345,
+      "produto_nome": "BISTURI N 11",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 15,
+      "responsavel": "Assucena",
+      "data": "2026-09-01",
+      "obs": "",
+      "criado_em": "2026-09-02 11:05:03",
+      "item": "BISTURI N 11",
+      "usuario": "Assucena"
+    },
+    {
+      "id": 1471,
+      "item_id": 344,
+      "produto_nome": "ÁGUA  PARA INJETÁVEIS 10ML",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 10,
+      "responsavel": "Assucena",
+      "data": "2026-09-01",
+      "obs": "",
+      "criado_em": "2026-09-02 11:04:55",
+      "item": "ÁGUA  PARA INJETÁVEIS 10ML",
+      "usuario": "Assucena"
+    },
     {
       "id": 1470,
       "item_id": 256,
@@ -22922,36 +22952,6 @@
       "obs": "",
       "criado_em": "2026-08-25 11:41:32",
       "item": "Seringa 20ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 972,
-      "item_id": 274,
-      "produto_nome": "Seringa 20ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 20,
-      "responsavel": "Assucena",
-      "data": "2026-08-24",
-      "obs": "",
-      "criado_em": "2026-08-25 11:41:23",
-      "item": "Seringa 20ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 971,
-      "item_id": 103,
-      "produto_nome": "Seringa 10ml",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 20,
-      "responsavel": "Assucena",
-      "data": "2026-08-24",
-      "obs": "",
-      "criado_em": "2026-08-25 11:41:11",
-      "item": "Seringa 10ml",
       "usuario": "Assucena"
     }
   ]
