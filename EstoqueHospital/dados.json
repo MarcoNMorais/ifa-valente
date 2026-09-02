@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "02/09/2026 16:25:54",
+  "atualizado_em": "02/09/2026 16:26:19",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
-    "total_almoxarifado": 82761,
-    "total_farmacia": 26955,
+    "total_almoxarifado": 82745,
+    "total_farmacia": 26971,
     "total_geral": 109716,
     "perto_de_terminar": 34,
     "zerados": 19
@@ -348,8 +348,8 @@
       "nome": "Agulha 13x4,5",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 735,
-      "farmacia": 1165,
+      "almoxarifado": 719,
+      "farmacia": 1181,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -361,7 +361,7 @@
       "lote": "",
       "origem": "Carga Almoxerifado",
       "obs": "Importação Almoxerifado",
-      "atualizado_em": "2026-09-02 16:24:42",
+      "atualizado_em": "2026-09-02 16:26:19",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -369,13 +369,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 735
+          "quantidade": 719
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 1165
+          "quantidade": 1181
         }
       ],
       "minimo_manual": 0,
@@ -15448,6 +15448,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 1518,
+      "item_id": 287,
+      "produto_nome": "Agulha 13x4,5",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 16,
+      "responsavel": "Leiliana",
+      "data": "2026-09-02",
+      "obs": "",
+      "criado_em": "2026-09-02 16:26:19",
+      "item": "Agulha 13x4,5",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 1517,
       "item_id": 102,
       "produto_nome": "Seringa 5ml",
@@ -22930,21 +22945,6 @@
       "obs": "",
       "criado_em": "2026-08-26 10:13:25",
       "item": "Agulha hipodérmica tam. 23",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1018,
-      "item_id": 187,
-      "produto_nome": "Agulha hipodérmica tam. 18",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 50,
-      "responsavel": "Assucena",
-      "data": "2026-08-25",
-      "obs": "",
-      "criado_em": "2026-08-26 10:13:07",
-      "item": "Agulha hipodérmica tam. 18",
       "usuario": "Assucena"
     }
   ]
