@@ -1,12 +1,12 @@
 {
-  "atualizado_em": "02/09/2026 11:04:41",
+  "atualizado_em": "02/09/2026 11:04:52",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
     "total_almoxarifado": 85200,
-    "total_farmacia": 24616,
-    "total_geral": 109816,
-    "perto_de_terminar": 33,
+    "total_farmacia": 24614,
+    "total_geral": 109814,
+    "perto_de_terminar": 34,
     "zerados": 18
   },
   "itens": [
@@ -11716,19 +11716,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 20,
+      "farmacia": 18,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 20,
+      "total": 18,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga Farmácia 227-288",
       "obs": "Importação Farmácia 227-288",
-      "atualizado_em": "2026-09-02 11:04:37",
+      "atualizado_em": "2026-09-02 11:04:43",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -11736,18 +11736,18 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 20
+          "quantidade": 18
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 17,
-      "previsao_20_dias": 17,
+      "minimo_alerta": 19,
+      "previsao_20_dias": 19,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 20,
-      "media_diaria_saida": 0.85,
-      "total_saida_historica": 17,
-      "cobertura_dias": 23.5,
-      "alerta_estoque": false
+      "media_diaria_saida": 0.95,
+      "total_saida_historica": 19,
+      "cobertura_dias": 18.9,
+      "alerta_estoque": true
     },
     {
       "id": 128,
@@ -15454,6 +15454,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 1470,
+      "item_id": 256,
+      "produto_nome": "Simeticona gotas",
+      "tipo": "Farmácia para Posto de Internamento",
+      "origem": "Farmácia",
+      "destino": "Posto de Internamento",
+      "quantidade": 2,
+      "responsavel": "Assucena",
+      "data": "2026-09-01",
+      "obs": "",
+      "criado_em": "2026-09-02 11:04:43",
+      "item": "Simeticona gotas",
+      "usuario": "Assucena"
+    },
     {
       "id": 1469,
       "item_id": 256,
@@ -22936,21 +22951,6 @@
       "data": "2026-08-24",
       "obs": "",
       "criado_em": "2026-08-25 11:41:11",
-      "item": "Seringa 10ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 970,
-      "item_id": 103,
-      "produto_nome": "Seringa 10ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 20,
-      "responsavel": "Assucena",
-      "data": "2026-08-24",
-      "obs": "",
-      "criado_em": "2026-08-25 11:41:03",
       "item": "Seringa 10ml",
       "usuario": "Assucena"
     }
