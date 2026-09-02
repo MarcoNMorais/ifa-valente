@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "02/09/2026 16:25:03",
+  "atualizado_em": "02/09/2026 16:25:24",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
-    "total_almoxarifado": 84011,
-    "total_farmacia": 25705,
+    "total_almoxarifado": 83761,
+    "total_farmacia": 25955,
     "total_geral": 109716,
     "perto_de_terminar": 34,
     "zerados": 19
@@ -11490,8 +11490,8 @@
       "nome": "Seringa 20ml",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 2500,
-      "farmacia": 225,
+      "almoxarifado": 2250,
+      "farmacia": 475,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -11503,7 +11503,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-02 11:07:46",
+      "atualizado_em": "2026-09-02 16:25:24",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -11511,13 +11511,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 2500
+          "quantidade": 2250
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 225
+          "quantidade": 475
         }
       ],
       "minimo_manual": 0,
@@ -15441,6 +15441,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 1515,
+      "item_id": 274,
+      "produto_nome": "Seringa 20ml",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 250,
+      "responsavel": "Leiliana",
+      "data": "2026-09-02",
+      "obs": "",
+      "criado_em": "2026-09-02 16:25:24",
+      "item": "Seringa 20ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 1514,
       "item_id": 204,
@@ -22924,21 +22939,6 @@
       "obs": "",
       "criado_em": "2026-08-26 10:12:35",
       "item": "Lanceta de segurança",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1015,
-      "item_id": 239,
-      "produto_nome": "Tramadol 50mg/ml 2ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 20,
-      "responsavel": "Assucena",
-      "data": "2026-08-25",
-      "obs": "",
-      "criado_em": "2026-08-26 10:11:56",
-      "item": "Tramadol 50mg/ml 2ml",
       "usuario": "Assucena"
     }
   ]
