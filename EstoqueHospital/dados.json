@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "02/09/2026 16:26:19",
+  "atualizado_em": "02/09/2026 16:26:51",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
     "total_almoxarifado": 82745,
-    "total_farmacia": 26971,
-    "total_geral": 109716,
+    "total_farmacia": 26969,
+    "total_geral": 109714,
     "perto_de_terminar": 34,
     "zerados": 19
   },
@@ -6014,19 +6014,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 387,
+      "farmacia": 385,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 387,
+      "total": 385,
       "minimo": 0,
       "validade": "08/27",
       "lote": "",
       "origem": "Carga Farmácia 227-288",
       "obs": "Importação Farmácia 227-288",
-      "atualizado_em": "2026-09-01 16:14:16",
+      "atualizado_em": "2026-09-02 16:26:51",
       "validade_mais_proxima": "08/27",
       "vencimento_mais_proximo": "08/27",
       "lotes_validade": [
@@ -6034,17 +6034,17 @@
           "local": "farmacia",
           "validade": "08/27",
           "lote": "",
-          "quantidade": 387
+          "quantidade": 385
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 13,
-      "previsao_20_dias": 13,
+      "minimo_alerta": 15,
+      "previsao_20_dias": 15,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 20,
-      "media_diaria_saida": 0.65,
-      "total_saida_historica": 13,
-      "cobertura_dias": 595.4,
+      "media_diaria_saida": 0.75,
+      "total_saida_historica": 15,
+      "cobertura_dias": 513.3,
       "alerta_estoque": false
     },
     {
@@ -15448,6 +15448,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 1519,
+      "item_id": 230,
+      "produto_nome": "Ferropurum 20mg/ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 2,
+      "responsavel": "Leiliana",
+      "data": "2026-09-02",
+      "obs": "",
+      "criado_em": "2026-09-02 16:26:51",
+      "item": "Ferropurum 20mg/ml",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 1518,
       "item_id": 287,
       "produto_nome": "Agulha 13x4,5",
@@ -22930,21 +22945,6 @@
       "obs": "",
       "criado_em": "2026-08-26 10:13:38",
       "item": "Agulha hipodérmica tam. 21",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1019,
-      "item_id": 191,
-      "produto_nome": "Agulha hipodérmica tam. 23",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 20,
-      "responsavel": "Assucena",
-      "data": "2026-08-25",
-      "obs": "",
-      "criado_em": "2026-08-26 10:13:25",
-      "item": "Agulha hipodérmica tam. 23",
       "usuario": "Assucena"
     }
   ]
