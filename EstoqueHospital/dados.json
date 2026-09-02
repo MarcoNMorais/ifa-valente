@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "02/09/2026 11:05:25",
+  "atualizado_em": "02/09/2026 11:05:36",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
     "total_almoxarifado": 85200,
-    "total_farmacia": 24559,
-    "total_geral": 109759,
+    "total_farmacia": 24544,
+    "total_geral": 109744,
     "perto_de_terminar": 34,
     "zerados": 18
   },
@@ -2447,19 +2447,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 300,
-      "farmacia": 300,
+      "farmacia": 285,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 600,
+      "total": 585,
       "minimo": 100,
       "validade": "2028-03",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-08-26 10:50:17",
+      "atualizado_em": "2026-09-02 11:05:25",
       "validade_mais_proxima": "2028-03",
       "vencimento_mais_proximo": "2028-03",
       "lotes_validade": [
@@ -2473,7 +2473,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 300
+          "quantidade": 285
         }
       ],
       "minimo_manual": 100,
@@ -2481,9 +2481,9 @@
       "previsao_20_dias": 100,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 16,
-      "media_diaria_saida": 0.0,
-      "total_saida_historica": 0,
-      "cobertura_dias": null,
+      "media_diaria_saida": 0.94,
+      "total_saida_historica": 15,
+      "cobertura_dias": 624.0,
       "alerta_estoque": false
     },
     {
