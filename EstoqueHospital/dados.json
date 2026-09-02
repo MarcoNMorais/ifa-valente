@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "02/09/2026 11:13:05",
+  "atualizado_em": "02/09/2026 11:13:38",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
     "total_almoxarifado": 85200,
-    "total_farmacia": 23998,
-    "total_geral": 109198,
+    "total_farmacia": 23997,
+    "total_geral": 109197,
     "perto_de_terminar": 34,
     "zerados": 19
   },
@@ -103,19 +103,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 22,
+      "farmacia": 21,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 22,
+      "total": 21,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga Almoxerifado",
       "obs": "Importação Almoxerifado",
-      "atualizado_em": "2026-08-31 11:34:01",
+      "atualizado_em": "2026-09-02 11:13:38",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -123,7 +123,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 22
+          "quantidade": 21
         }
       ],
       "minimo_manual": 0,
@@ -131,9 +131,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 16,
-      "media_diaria_saida": 0.12,
-      "total_saida_historica": 2,
-      "cobertura_dias": 176.0,
+      "media_diaria_saida": 0.19,
+      "total_saida_historica": 3,
+      "cobertura_dias": 112.0,
       "alerta_estoque": false
     },
     {
@@ -15430,6 +15430,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 1501,
+      "item_id": 320,
+      "produto_nome": "Acebrofilina 10mg/ml",
+      "tipo": "Farmácia para Posto de Internamento",
+      "origem": "Farmácia",
+      "destino": "Posto de Internamento",
+      "quantidade": 1,
+      "responsavel": "Assucena",
+      "data": "2026-09-01",
+      "obs": "",
+      "criado_em": "2026-09-02 11:13:38",
+      "item": "Acebrofilina 10mg/ml",
+      "usuario": "Assucena"
+    },
+    {
       "id": 1500,
       "item_id": 151,
       "produto_nome": "Atadura crepon nº 15",
@@ -22912,21 +22927,6 @@
       "obs": "",
       "criado_em": "2026-08-25 16:29:02",
       "item": "Scalp nº 21",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1001,
-      "item_id": 200,
-      "produto_nome": "Caixa de perfurocortante",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 1,
-      "responsavel": "Assucena",
-      "data": "2026-08-25",
-      "obs": "",
-      "criado_em": "2026-08-25 16:28:34",
-      "item": "Caixa de perfurocortante",
       "usuario": "Assucena"
     }
   ]
