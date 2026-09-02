@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "02/09/2026 11:14:33",
+  "atualizado_em": "02/09/2026 11:14:47",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
-    "total_almoxarifado": 85079,
-    "total_farmacia": 24107,
+    "total_almoxarifado": 84679,
+    "total_farmacia": 24507,
     "total_geral": 109186,
     "perto_de_terminar": 34,
     "zerados": 19
@@ -8135,8 +8135,8 @@
       "nome": "Lanceta de segurança",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 4100,
-      "farmacia": 100,
+      "almoxarifado": 3700,
+      "farmacia": 500,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -8148,7 +8148,7 @@
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-09-01 16:18:24",
+      "atualizado_em": "2026-09-02 11:14:46",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -8156,13 +8156,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 4100
+          "quantidade": 3700
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 100
+          "quantidade": 500
         }
       ],
       "minimo_manual": 0,
@@ -15429,6 +15429,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 1506,
+      "item_id": 194,
+      "produto_nome": "Lanceta de segurança",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 400,
+      "responsavel": "Assucena",
+      "data": "2026-09-01",
+      "obs": "",
+      "criado_em": "2026-09-02 11:14:46",
+      "item": "Lanceta de segurança",
+      "usuario": "Assucena"
+    },
     {
       "id": 1505,
       "item_id": 328,
@@ -22912,21 +22927,6 @@
       "obs": "",
       "criado_em": "2026-08-26 10:10:39",
       "item": "Seringa 5ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1006,
-      "item_id": 274,
-      "produto_nome": "Seringa 20ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 20,
-      "responsavel": "Assucena",
-      "data": "2026-08-25",
-      "obs": "",
-      "criado_em": "2026-08-26 10:10:29",
-      "item": "Seringa 20ml",
       "usuario": "Assucena"
     }
   ]
