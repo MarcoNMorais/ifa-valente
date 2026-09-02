@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "02/09/2026 11:30:08",
+  "atualizado_em": "02/09/2026 11:30:19",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
-    "total_almoxarifado": 84249,
-    "total_farmacia": 25467,
+    "total_almoxarifado": 84179,
+    "total_farmacia": 25537,
     "total_geral": 109716,
     "perto_de_terminar": 34,
     "zerados": 19
@@ -10324,8 +10324,8 @@
       "nome": "Omeprazol sódico 40mg AMP",
       "tipo": "Medicamento",
       "unidade": "Unidade",
-      "almoxarifado": 70,
-      "farmacia": 1,
+      "almoxarifado": 0,
+      "farmacia": 71,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -10337,21 +10337,15 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "AJUSTE DE ESTOQUE ",
-      "atualizado_em": "2026-09-02 11:30:07",
+      "atualizado_em": "2026-09-02 11:30:17",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
         {
-          "local": "almoxarifado",
-          "validade": "",
-          "lote": "",
-          "quantidade": 70
-        },
-        {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 1
+          "quantidade": 71
         }
       ],
       "minimo_manual": 0,
@@ -15447,6 +15441,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 1511,
+      "item_id": 228,
+      "produto_nome": "Omeprazol sódico 40mg AMP",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 70,
+      "responsavel": "Assucena",
+      "data": "2026-09-01",
+      "obs": "",
+      "criado_em": "2026-09-02 11:30:17",
+      "item": "Omeprazol sódico 40mg AMP",
+      "usuario": "Assucena"
+    },
     {
       "id": 1510,
       "item_id": 228,
@@ -22930,21 +22939,6 @@
       "obs": "",
       "criado_em": "2026-08-26 10:11:26",
       "item": "Omeprazol sódico 40mg AMP",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1011,
-      "item_id": 53,
-      "produto_nome": "Ácido Tranexâmico 50mg",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 20,
-      "responsavel": "Assucena",
-      "data": "2026-08-25",
-      "obs": "",
-      "criado_em": "2026-08-26 10:11:17",
-      "item": "Ácido Tranexâmico 50mg",
       "usuario": "Assucena"
     }
   ]
