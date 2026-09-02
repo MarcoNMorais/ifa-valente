@@ -38,6 +38,8 @@ def _ensure_messages_table() -> None:
     access_cols = {row[1] for row in db.execute('PRAGMA table_info(message_access)').fetchall()}
     if 'campaign_slug' not in access_cols:
         db.execute("ALTER TABLE message_access ADD COLUMN campaign_slug TEXT NOT NULL DEFAULT 'SETEMBRO_AMARELO'")
+    if 'site_variant' not in access_cols:
+        db.execute("ALTER TABLE message_access ADD COLUMN site_variant TEXT NOT NULL DEFAULT 'SAUDE'")
     db.execute('CREATE INDEX IF NOT EXISTS idx_message_access_origem ON message_access(origem)')
     db.execute('CREATE INDEX IF NOT EXISTS idx_message_access_visitor ON message_access(visitor_id)')
     db.execute('CREATE INDEX IF NOT EXISTS idx_message_access_campaign ON message_access(campaign_slug)')
@@ -93,7 +95,22 @@ def register_mensagem_routes(app) -> None:
         campaign = _active_campaign(db)
         rows = db.execute('SELECT id, text FROM daily_messages WHERE active=1 AND campaign_slug=? ORDER BY id', (campaign['slug'],)).fetchall()
         messages = [{'id': row['id'], 'text': row['text']} for row in rows]
-        return render_template('mensagem_v2.html', messages=messages, total=len(messages), campaign=campaign)
+        return render_template('mensagem_v2.html', messages=messages, total=len(messages), campaign=campaign,
+            logo_file='logo-cartaz-setembro-amarelo.svg?v=20260822-1623',
+            logo_alt='Secretaria da Saúde - Prefeitura de Valente',
+            register_url=url_for('mensagem_registrar'))
+
+    @app.get('/Consultoria')
+    def consultoria_mensagem_do_dia():
+        _ensure_messages_table()
+        db = get_db()
+        campaign = _active_campaign(db)
+        rows = db.execute('SELECT id, text FROM daily_messages WHERE active=1 AND campaign_slug=? ORDER BY id', (campaign['slug'],)).fetchall()
+        messages = [{'id': row['id'], 'text': row['text']} for row in rows]
+        return render_template('mensagem_v2.html', messages=messages, total=len(messages), campaign=campaign,
+            logo_file='logo-gestao-rh-consultoria.jpeg',
+            logo_alt='Gestão RH Consultoria',
+            register_url=url_for('consultoria_mensagem_registrar'))
 
     @app.get('/mensagem/registrar')
     def mensagem_registrar():
@@ -103,7 +120,19 @@ def register_mensagem_routes(app) -> None:
         if 8 <= len(visitor) <= 80 and all(ch.isalnum() or ch in '-_' for ch in visitor):
             db = get_db()
             campaign = _active_campaign(db)
-            db.execute('INSERT INTO message_access(origem, visitor_id, accessed_at, campaign_slug) VALUES(?,?,?,?)', (origem, visitor, now_iso(), campaign['slug']))
+            db.execute('INSERT INTO message_access(origem, visitor_id, accessed_at, campaign_slug, site_variant) VALUES(?,?,?,?,?)', (origem, visitor, now_iso(), campaign['slug'], 'SAUDE'))
+            db.commit()
+        return ('', 204)
+
+    @app.get('/Consultoria/registrar')
+    def consultoria_mensagem_registrar():
+        _ensure_messages_table()
+        origem = _clean_origin(request.args.get('origem'))
+        visitor = (request.args.get('v') or '').strip()[:80]
+        if 8 <= len(visitor) <= 80 and all(ch.isalnum() or ch in '-_' for ch in visitor):
+            db = get_db()
+            campaign = _active_campaign(db)
+            db.execute('INSERT INTO message_access(origem, visitor_id, accessed_at, campaign_slug, site_variant) VALUES(?,?,?,?,?)', (origem, visitor, now_iso(), campaign['slug'], 'CONSULTORIA'))
             db.commit()
         return ('', 204)
 
@@ -200,6 +229,10 @@ def register_mensagem_routes(app) -> None:
         origins = db.execute('''SELECT origem, COUNT(*) AS acessos, COUNT(DISTINCT visitor_id) AS visitantes,
             MAX(accessed_at) AS ultimo FROM message_access WHERE campaign_slug=?
             GROUP BY origem ORDER BY acessos DESC, origem''', (campaign['slug'],)).fetchall()
+        site_stats = db.execute('''SELECT site_variant, COUNT(*) AS acessos,
+            COUNT(DISTINCT visitor_id) AS visitantes, MAX(accessed_at) AS ultimo
+            FROM message_access WHERE campaign_slug=?
+            GROUP BY site_variant ORDER BY acessos DESC''', (campaign['slug'],)).fetchall()
         return render_template('mensagem_admin.html', rows=rows, stats=stats, access_stats=access_stats,
-            today_stats=today_stats, origins=origins, campaigns=campaigns, campaign=campaign,
+            today_stats=today_stats, origins=origins, site_stats=site_stats, campaigns=campaigns, campaign=campaign,
             admin_name=session.get('mensagem_admin_name') or 'Administrador')

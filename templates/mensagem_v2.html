@@ -24,7 +24,7 @@
 </head>
 <body>
 <main class="page">
-<img class="logo" src="/static/logo-cartaz-setembro-amarelo.svg?v=20260822-1623" alt="Secretaria da Saúde - Prefeitura de Valente">
+<img class="logo" src="{{ url_for('static', filename=logo_file.split('?')[0]) }}{% if '?' in logo_file %}?{{ logo_file.split('?', 1)[1] }}{% endif %}" alt="{{ logo_alt }}">
 <section class="hero">
 <h1><span>SETEMBRO</span><span>AMARELO</span></h1>
 <div class="rule"><b>♥</b></div>
@@ -47,7 +47,7 @@ if(!device){device=(crypto.randomUUID?crypto.randomUUID():Math.random().toString
 const d=new Date(),day=`${d.getFullYear()}-${d.getMonth()+1}-${d.getDate()}`;
 if(messages.length){setMessage(messages[hash(device+'|'+day)%messages.length].text)}else{setMessage('Você importa. Sua vida tem valor.')}
 const origem=(new URLSearchParams(location.search).get('origem')||'DIRETO').toUpperCase().replace(/[^A-Z0-9_-]/g,'').slice(0,60)||'DIRETO';
-fetch('/mensagem/registrar?origem='+encodeURIComponent(origem)+'&v='+encodeURIComponent(device),{cache:'no-store'}).catch(()=>{});
+fetch({{ register_url|tojson }}+'?origem='+encodeURIComponent(origem)+'&v='+encodeURIComponent(device),{cache:'no-store'}).catch(()=>{});
 </script>
 </body>
 </html>
