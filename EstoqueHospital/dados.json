@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "02/09/2026 11:13:54",
+  "atualizado_em": "02/09/2026 11:14:08",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
-    "total_almoxarifado": 85200,
-    "total_farmacia": 23987,
+    "total_almoxarifado": 85080,
+    "total_farmacia": 24107,
     "total_geral": 109187,
     "perto_de_terminar": 34,
     "zerados": 19
@@ -1312,8 +1312,8 @@
       "nome": "Atadura crepon nº 10",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 1788,
-      "farmacia": 2,
+      "almoxarifado": 1668,
+      "farmacia": 122,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -1325,7 +1325,7 @@
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-25 16:12:46",
+      "atualizado_em": "2026-09-02 11:14:07",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -1333,13 +1333,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 1788
+          "quantidade": 1668
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 2
+          "quantidade": 122
         }
       ],
       "minimo_manual": 0,
@@ -15430,6 +15430,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 1503,
+      "item_id": 152,
+      "produto_nome": "Atadura crepon nº 10",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 120,
+      "responsavel": "Assucena",
+      "data": "2026-09-01",
+      "obs": "",
+      "criado_em": "2026-09-02 11:14:07",
+      "item": "Atadura crepon nº 10",
+      "usuario": "Assucena"
+    },
+    {
       "id": 1502,
       "item_id": 28,
       "produto_nome": "Dipirona 500mg",
@@ -22912,21 +22927,6 @@
       "obs": "",
       "criado_em": "2026-08-26 10:10:09",
       "item": "Losartana potássica 50mg CPR",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1003,
-      "item_id": 38,
-      "produto_nome": "Atensina 0,150mg CPR",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 10,
-      "responsavel": "Assucena",
-      "data": "2026-08-25",
-      "obs": "",
-      "criado_em": "2026-08-26 10:10:00",
-      "item": "Atensina 0,150mg CPR",
       "usuario": "Assucena"
     }
   ]
