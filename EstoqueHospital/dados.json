@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "02/09/2026 11:05:14",
+  "atualizado_em": "02/09/2026 11:05:25",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
     "total_almoxarifado": 85200,
-    "total_farmacia": 24574,
-    "total_geral": 109774,
+    "total_farmacia": 24559,
+    "total_geral": 109759,
     "perto_de_terminar": 34,
     "zerados": 18
   },
@@ -2321,19 +2321,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 760,
+      "farmacia": 745,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 760,
+      "total": 745,
       "minimo": 100,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-08-26 10:56:23",
+      "atualizado_em": "2026-09-02 11:05:17",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -2341,7 +2341,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 760
+          "quantidade": 745
         }
       ],
       "minimo_manual": 100,
@@ -2349,9 +2349,9 @@
       "previsao_20_dias": 100,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 9,
-      "media_diaria_saida": 0.0,
-      "total_saida_historica": 0,
-      "cobertura_dias": null,
+      "media_diaria_saida": 1.67,
+      "total_saida_historica": 15,
+      "cobertura_dias": 447.0,
       "alerta_estoque": false
     },
     {
@@ -15455,6 +15455,36 @@
   ],
   "movimentacoes": [
     {
+      "id": 1475,
+      "item_id": 335,
+      "produto_nome": "Bisturi nº 23",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 15,
+      "responsavel": "Assucena",
+      "data": "2026-09-01",
+      "obs": "",
+      "criado_em": "2026-09-02 11:05:25",
+      "item": "Bisturi nº 23",
+      "usuario": "Assucena"
+    },
+    {
+      "id": 1474,
+      "item_id": 346,
+      "produto_nome": "BISTURI N 21",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 15,
+      "responsavel": "Assucena",
+      "data": "2026-09-01",
+      "obs": "",
+      "criado_em": "2026-09-02 11:05:17",
+      "item": "BISTURI N 21",
+      "usuario": "Assucena"
+    },
+    {
       "id": 1473,
       "item_id": 334,
       "produto_nome": "Bisturi nº 15",
@@ -22922,36 +22952,6 @@
       "obs": "",
       "criado_em": "2026-08-25 11:42:14",
       "item": "Atadura crepon nº 15",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 975,
-      "item_id": 152,
-      "produto_nome": "Atadura crepon nº 10",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 12,
-      "responsavel": "Assucena",
-      "data": "2026-08-24",
-      "obs": "",
-      "criado_em": "2026-08-25 11:42:00",
-      "item": "Atadura crepon nº 10",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 974,
-      "item_id": 157,
-      "produto_nome": "Seringa 1ml",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 20,
-      "responsavel": "Assucena",
-      "data": "2026-08-24",
-      "obs": "",
-      "criado_em": "2026-08-25 11:41:43",
-      "item": "Seringa 1ml",
       "usuario": "Assucena"
     }
   ]
