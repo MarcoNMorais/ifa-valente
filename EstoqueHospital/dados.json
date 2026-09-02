@@ -1,13 +1,13 @@
 {
-  "atualizado_em": "02/09/2026 11:03:02",
+  "atualizado_em": "02/09/2026 11:03:14",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
     "total_almoxarifado": 85200,
-    "total_farmacia": 24629,
-    "total_geral": 109829,
+    "total_farmacia": 24620,
+    "total_geral": 109820,
     "perto_de_terminar": 33,
-    "zerados": 17
+    "zerados": 18
   },
   "itens": [
     {
@@ -10937,37 +10937,30 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 9,
+      "farmacia": 0,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 9,
+      "total": 0,
       "minimo": 0,
-      "validade": "04/27",
+      "validade": "",
       "lote": "",
       "origem": "Carga Farmácia 227-288",
       "obs": "Importação Farmácia 227-288",
-      "atualizado_em": "2026-08-31 11:20:22",
-      "validade_mais_proxima": "04/27",
-      "vencimento_mais_proximo": "04/27",
-      "lotes_validade": [
-        {
-          "local": "farmacia",
-          "validade": "04/27",
-          "lote": "",
-          "quantidade": 9
-        }
-      ],
+      "atualizado_em": "2026-09-02 11:03:10",
+      "validade_mais_proxima": "",
+      "vencimento_mais_proximo": "",
+      "lotes_validade": [],
       "minimo_manual": 0,
       "minimo_alerta": 0,
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 16,
-      "media_diaria_saida": 5.0,
-      "total_saida_historica": 80,
-      "cobertura_dias": 1.8,
+      "media_diaria_saida": 5.56,
+      "total_saida_historica": 89,
+      "cobertura_dias": 0.0,
       "alerta_estoque": false
     },
     {
@@ -15461,6 +15454,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 1466,
+      "item_id": 233,
+      "produto_nome": "Prometazina 25mg/ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 9,
+      "responsavel": "Assucena",
+      "data": "2026-09-01",
+      "obs": "",
+      "criado_em": "2026-09-02 11:03:10",
+      "item": "Prometazina 25mg/ml",
+      "usuario": "Assucena"
+    },
     {
       "id": 1465,
       "item_id": 68,
@@ -22944,21 +22952,6 @@
       "obs": "",
       "criado_em": "2026-08-25 11:40:33",
       "item": "Seringa 3ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 966,
-      "item_id": 204,
-      "produto_nome": "Soro fisiológico 500ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 6,
-      "responsavel": "Assucena",
-      "data": "2026-08-24",
-      "obs": "",
-      "criado_em": "2026-08-25 11:38:46",
-      "item": "Soro fisiológico 500ml",
       "usuario": "Assucena"
     }
   ]
