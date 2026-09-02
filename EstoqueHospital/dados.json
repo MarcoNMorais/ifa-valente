@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "02/09/2026 11:14:47",
+  "atualizado_em": "02/09/2026 11:14:59",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
-    "total_almoxarifado": 84679,
-    "total_farmacia": 24507,
+    "total_almoxarifado": 84179,
+    "total_farmacia": 25007,
     "total_geral": 109186,
     "perto_de_terminar": 34,
     "zerados": 19
@@ -594,8 +594,8 @@
       "nome": "Agulha 40x12",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 5800,
-      "farmacia": 0,
+      "almoxarifado": 5300,
+      "farmacia": 500,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -607,7 +607,7 @@
       "lote": "",
       "origem": "Carga Almoxerifado",
       "obs": "Importação Almoxerifado",
-      "atualizado_em": "2026-08-25 16:12:46",
+      "atualizado_em": "2026-09-02 11:14:58",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -615,7 +615,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 5800
+          "quantidade": 5300
+        },
+        {
+          "local": "farmacia",
+          "validade": "",
+          "lote": "",
+          "quantidade": 500
         }
       ],
       "minimo_manual": 0,
@@ -15430,6 +15436,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 1507,
+      "item_id": 286,
+      "produto_nome": "Agulha 40x12",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 500,
+      "responsavel": "Assucena",
+      "data": "2026-09-01",
+      "obs": "",
+      "criado_em": "2026-09-02 11:14:58",
+      "item": "Agulha 40x12",
+      "usuario": "Assucena"
+    },
+    {
       "id": 1506,
       "item_id": 194,
       "produto_nome": "Lanceta de segurança",
@@ -22912,21 +22933,6 @@
       "obs": "",
       "criado_em": "2026-08-26 10:10:49",
       "item": "Dipirona",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1007,
-      "item_id": 102,
-      "produto_nome": "Seringa 5ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 30,
-      "responsavel": "Assucena",
-      "data": "2026-08-25",
-      "obs": "",
-      "criado_em": "2026-08-26 10:10:39",
-      "item": "Seringa 5ml",
       "usuario": "Assucena"
     }
   ]
