@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "02/09/2026 16:27:56",
+  "atualizado_em": "02/09/2026 16:28:11",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
     "total_almoxarifado": 82745,
-    "total_farmacia": 26904,
-    "total_geral": 109649,
+    "total_farmacia": 26902,
+    "total_geral": 109647,
     "perto_de_terminar": 35,
     "zerados": 19
   },
@@ -8194,19 +8194,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 84,
-      "farmacia": 4,
+      "farmacia": 2,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 88,
+      "total": 86,
       "minimo": 50,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-01 16:08:48",
+      "atualizado_em": "2026-09-02 16:28:06",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -8220,7 +8220,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 4
+          "quantidade": 2
         }
       ],
       "minimo_manual": 50,
@@ -8228,9 +8228,9 @@
       "previsao_20_dias": 50,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 8,
-      "media_diaria_saida": 1.5,
-      "total_saida_historica": 12,
-      "cobertura_dias": 58.7,
+      "media_diaria_saida": 1.75,
+      "total_saida_historica": 14,
+      "cobertura_dias": 49.1,
       "alerta_estoque": false
     },
     {
@@ -15447,6 +15447,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 1524,
+      "item_id": 376,
+      "produto_nome": "LENÇOL DESCARTAVEL PAPEL",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 2,
+      "responsavel": "Leiliana",
+      "data": "2026-09-02",
+      "obs": "",
+      "criado_em": "2026-09-02 16:28:06",
+      "item": "LENÇOL DESCARTAVEL PAPEL",
+      "usuario": "Leiliana"
+    },
     {
       "id": 1523,
       "item_id": 69,
@@ -22930,21 +22945,6 @@
       "obs": "",
       "criado_em": "2026-08-26 10:14:30",
       "item": "Agulha hipodérmica tam. 21",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1024,
-      "item_id": 191,
-      "produto_nome": "Agulha hipodérmica tam. 23",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 40,
-      "responsavel": "Assucena",
-      "data": "2026-08-25",
-      "obs": "",
-      "criado_em": "2026-08-26 10:14:19",
-      "item": "Agulha hipodérmica tam. 23",
       "usuario": "Assucena"
     }
   ]
