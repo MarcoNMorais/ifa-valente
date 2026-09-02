@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "02/09/2026 11:14:20",
+  "atualizado_em": "02/09/2026 11:14:33",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
     "total_almoxarifado": 85079,
-    "total_farmacia": 24108,
-    "total_geral": 109187,
+    "total_farmacia": 24107,
+    "total_geral": 109186,
     "perto_de_terminar": 34,
     "zerados": 19
   },
@@ -10598,19 +10598,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 6,
-      "farmacia": 1,
+      "farmacia": 0,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 7,
+      "total": 6,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga Almoxerifado",
       "obs": "Importação Almoxerifado",
-      "atualizado_em": "2026-09-02 11:14:19",
+      "atualizado_em": "2026-09-02 11:14:31",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -10619,12 +10619,6 @@
           "validade": "",
           "lote": "",
           "quantidade": 6
-        },
-        {
-          "local": "farmacia",
-          "validade": "",
-          "lote": "",
-          "quantidade": 1
         }
       ],
       "minimo_manual": 0,
@@ -10632,9 +10626,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 16,
-      "media_diaria_saida": 0.0,
-      "total_saida_historica": 0,
-      "cobertura_dias": null,
+      "media_diaria_saida": 0.06,
+      "total_saida_historica": 1,
+      "cobertura_dias": 96.0,
       "alerta_estoque": false
     },
     {
@@ -15435,6 +15429,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 1505,
+      "item_id": 328,
+      "produto_nome": "Papel grau 15cm",
+      "tipo": "Farmácia para CME",
+      "origem": "Farmácia",
+      "destino": "CME",
+      "quantidade": 1,
+      "responsavel": "Assucena",
+      "data": "2026-09-01",
+      "obs": "",
+      "criado_em": "2026-09-02 11:14:31",
+      "item": "Papel grau 15cm",
+      "usuario": "Assucena"
+    },
     {
       "id": 1504,
       "item_id": 328,
@@ -22918,21 +22927,6 @@
       "obs": "",
       "criado_em": "2026-08-26 10:10:29",
       "item": "Seringa 20ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1005,
-      "item_id": 201,
-      "produto_nome": "Soro Ringer Lactato 500ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 10,
-      "responsavel": "Assucena",
-      "data": "2026-08-25",
-      "obs": "",
-      "criado_em": "2026-08-26 10:10:19",
-      "item": "Soro Ringer Lactato 500ml",
       "usuario": "Assucena"
     }
   ]
