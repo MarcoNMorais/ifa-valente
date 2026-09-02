@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "02/09/2026 16:24:28",
+  "atualizado_em": "02/09/2026 16:24:43",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
-    "total_almoxarifado": 84155,
-    "total_farmacia": 25561,
+    "total_almoxarifado": 84035,
+    "total_farmacia": 25681,
     "total_geral": 109716,
     "perto_de_terminar": 34,
     "zerados": 19
@@ -348,8 +348,8 @@
       "nome": "Agulha 13x4,5",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 855,
-      "farmacia": 1045,
+      "almoxarifado": 735,
+      "farmacia": 1165,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -361,7 +361,7 @@
       "lote": "",
       "origem": "Carga Almoxerifado",
       "obs": "Importação Almoxerifado",
-      "atualizado_em": "2026-09-01 11:50:57",
+      "atualizado_em": "2026-09-02 16:24:42",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -369,13 +369,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 855
+          "quantidade": 735
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 1045
+          "quantidade": 1165
         }
       ],
       "minimo_manual": 0,
@@ -15442,6 +15442,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 1513,
+      "item_id": 287,
+      "produto_nome": "Agulha 13x4,5",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 120,
+      "responsavel": "Leiliana",
+      "data": "2026-09-02",
+      "obs": "",
+      "criado_em": "2026-09-02 16:24:42",
+      "item": "Agulha 13x4,5",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 1512,
       "item_id": 201,
       "produto_nome": "Soro Ringer Lactato 500ml",
@@ -22924,21 +22939,6 @@
       "obs": "",
       "criado_em": "2026-08-26 10:11:47",
       "item": "Cetoprofeno EV 100mg",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1013,
-      "item_id": 55,
-      "produto_nome": "Benzilpenicilina 1.200",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 8,
-      "responsavel": "Assucena",
-      "data": "2026-08-25",
-      "obs": "",
-      "criado_em": "2026-08-26 10:11:37",
-      "item": "Benzilpenicilina 1.200",
       "usuario": "Assucena"
     }
   ]
