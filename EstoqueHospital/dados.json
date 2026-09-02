@@ -1,12 +1,12 @@
 {
-  "atualizado_em": "02/09/2026 16:27:26",
+  "atualizado_em": "02/09/2026 16:27:41",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
     "total_almoxarifado": 82745,
-    "total_farmacia": 26954,
-    "total_geral": 109699,
-    "perto_de_terminar": 34,
+    "total_farmacia": 26924,
+    "total_geral": 109669,
+    "perto_de_terminar": 35,
     "zerados": 19
   },
   "itens": [
@@ -4179,19 +4179,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 650,
+      "farmacia": 620,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 650,
+      "total": 620,
       "minimo": 0,
       "validade": "2027-10",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-09-02 11:03:01",
+      "atualizado_em": "2026-09-02 16:27:40",
       "validade_mais_proxima": "2027-10",
       "vencimento_mais_proximo": "2027-10",
       "lotes_validade": [
@@ -4199,18 +4199,18 @@
           "local": "farmacia",
           "validade": "2027-10",
           "lote": "",
-          "quantidade": 650
+          "quantidade": 620
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 591,
-      "previsao_20_dias": 591,
+      "minimo_alerta": 620,
+      "previsao_20_dias": 620,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 21,
-      "media_diaria_saida": 29.52,
-      "total_saida_historica": 620,
-      "cobertura_dias": 22.0,
-      "alerta_estoque": false
+      "media_diaria_saida": 30.95,
+      "total_saida_historica": 650,
+      "cobertura_dias": 20.0,
+      "alerta_estoque": true
     },
     {
       "id": 251,
@@ -15448,6 +15448,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 1522,
+      "item_id": 68,
+      "produto_nome": "Dexametasona",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 30,
+      "responsavel": "Leiliana",
+      "data": "2026-09-02",
+      "obs": "",
+      "criado_em": "2026-09-02 16:27:40",
+      "item": "Dexametasona",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 1521,
       "item_id": 201,
       "produto_nome": "Soro Ringer Lactato 500ml",
@@ -22930,21 +22945,6 @@
       "obs": "",
       "criado_em": "2026-08-26 10:14:06",
       "item": "Scalp nº 21",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1022,
-      "item_id": 176,
-      "produto_nome": "Dispositivo intravenoso Gelco nº 24",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 10,
-      "responsavel": "Assucena",
-      "data": "2026-08-25",
-      "obs": "",
-      "criado_em": "2026-08-26 10:13:57",
-      "item": "Dispositivo intravenoso Gelco nº 24",
       "usuario": "Assucena"
     }
   ]
