@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "02/09/2026 16:25:41",
+  "atualizado_em": "02/09/2026 16:25:54",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
-    "total_almoxarifado": 83261,
-    "total_farmacia": 26455,
+    "total_almoxarifado": 82761,
+    "total_farmacia": 26955,
     "total_geral": 109716,
     "perto_de_terminar": 34,
     "zerados": 19
@@ -11582,8 +11582,8 @@
       "nome": "Seringa 5ml",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 1450,
-      "farmacia": 0,
+      "almoxarifado": 950,
+      "farmacia": 500,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -11595,7 +11595,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-02 11:07:11",
+      "atualizado_em": "2026-09-02 16:25:51",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -11603,7 +11603,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 1450
+          "quantidade": 950
+        },
+        {
+          "local": "farmacia",
+          "validade": "",
+          "lote": "",
+          "quantidade": 500
         }
       ],
       "minimo_manual": 0,
@@ -15441,6 +15447,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 1517,
+      "item_id": 102,
+      "produto_nome": "Seringa 5ml",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 500,
+      "responsavel": "Leiliana",
+      "data": "2026-09-02",
+      "obs": "",
+      "criado_em": "2026-09-02 16:25:51",
+      "item": "Seringa 5ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 1516,
       "item_id": 104,
@@ -22924,21 +22945,6 @@
       "obs": "",
       "criado_em": "2026-08-26 10:13:07",
       "item": "Agulha hipodérmica tam. 18",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1017,
-      "item_id": 181,
-      "produto_nome": "Luva de látex tam. M",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 100,
-      "responsavel": "Assucena",
-      "data": "2026-08-25",
-      "obs": "",
-      "criado_em": "2026-08-26 10:12:53",
-      "item": "Luva de látex tam. M",
       "usuario": "Assucena"
     }
   ]
