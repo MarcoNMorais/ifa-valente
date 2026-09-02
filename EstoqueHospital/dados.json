@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "02/09/2026 11:02:36",
+  "atualizado_em": "02/09/2026 11:03:02",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
     "total_almoxarifado": 85200,
-    "total_farmacia": 24649,
-    "total_geral": 109849,
+    "total_farmacia": 24629,
+    "total_geral": 109829,
     "perto_de_terminar": 33,
     "zerados": 17
   },
@@ -4186,19 +4186,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 670,
+      "farmacia": 650,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 670,
+      "total": 650,
       "minimo": 0,
       "validade": "2027-10",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-09-01 16:08:33",
+      "atualizado_em": "2026-09-02 11:03:01",
       "validade_mais_proxima": "2027-10",
       "vencimento_mais_proximo": "2027-10",
       "lotes_validade": [
@@ -4206,17 +4206,17 @@
           "local": "farmacia",
           "validade": "2027-10",
           "lote": "",
-          "quantidade": 670
+          "quantidade": 650
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 572,
-      "previsao_20_dias": 572,
+      "minimo_alerta": 591,
+      "previsao_20_dias": 591,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 21,
-      "media_diaria_saida": 28.57,
-      "total_saida_historica": 600,
-      "cobertura_dias": 23.4,
+      "media_diaria_saida": 29.52,
+      "total_saida_historica": 620,
+      "cobertura_dias": 22.0,
       "alerta_estoque": false
     },
     {
@@ -15462,6 +15462,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 1465,
+      "item_id": 68,
+      "produto_nome": "Dexametasona",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 20,
+      "responsavel": "Assucena",
+      "data": "2026-09-01",
+      "obs": "",
+      "criado_em": "2026-09-02 11:03:01",
+      "item": "Dexametasona",
+      "usuario": "Assucena"
+    },
+    {
       "id": 1464,
       "item_id": 61,
       "produto_nome": "Cetoprofeno IM 50mg",
@@ -22944,21 +22959,6 @@
       "obs": "",
       "criado_em": "2026-08-25 11:38:46",
       "item": "Soro fisiológico 500ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 965,
-      "item_id": 203,
-      "produto_nome": "Soro fisiológico 250ml",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 5,
-      "responsavel": "Assucena",
-      "data": "2026-08-24",
-      "obs": "",
-      "criado_em": "2026-08-25 11:38:36",
-      "item": "Soro fisiológico 250ml",
       "usuario": "Assucena"
     }
   ]
