@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "02/09/2026 11:07:45",
+  "atualizado_em": "02/09/2026 11:07:56",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
     "total_almoxarifado": 85200,
-    "total_farmacia": 24139,
-    "total_geral": 109339,
+    "total_farmacia": 24119,
+    "total_geral": 109319,
     "perto_de_terminar": 34,
     "zerados": 19
   },
@@ -11485,19 +11485,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 2500,
-      "farmacia": 245,
+      "farmacia": 225,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 2745,
+      "total": 2725,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-02 11:07:38",
+      "atualizado_em": "2026-09-02 11:07:46",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -11511,7 +11511,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 245
+          "quantidade": 225
         }
       ],
       "minimo_manual": 0,
@@ -11519,9 +11519,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 16,
-      "media_diaria_saida": 31.56,
-      "total_saida_historica": 505,
-      "cobertura_dias": 87.0,
+      "media_diaria_saida": 32.81,
+      "total_saida_historica": 525,
+      "cobertura_dias": 83.0,
       "alerta_estoque": false
     },
     {
@@ -15441,6 +15441,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 1489,
+      "item_id": 274,
+      "produto_nome": "Seringa 20ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 20,
+      "responsavel": "Assucena",
+      "data": "2026-09-01",
+      "obs": "",
+      "criado_em": "2026-09-02 11:07:46",
+      "item": "Seringa 20ml",
+      "usuario": "Assucena"
+    },
     {
       "id": 1488,
       "item_id": 274,
@@ -22924,21 +22939,6 @@
       "obs": "",
       "criado_em": "2026-08-25 11:46:54",
       "item": "Soro fisiológico 100ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 989,
-      "item_id": 28,
-      "produto_nome": "Dipirona 500mg",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 10,
-      "responsavel": "Assucena",
-      "data": "2026-08-24",
-      "obs": "",
-      "criado_em": "2026-08-25 11:46:45",
-      "item": "Dipirona 500mg",
       "usuario": "Assucena"
     }
   ]
