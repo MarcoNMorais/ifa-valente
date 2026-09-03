@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "03/09/2026 11:44:07",
+  "atualizado_em": "03/09/2026 11:53:55",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
     "total_almoxarifado": 82262,
-    "total_farmacia": 26455,
-    "total_geral": 108717,
+    "total_farmacia": 26447,
+    "total_geral": 108709,
     "perto_de_terminar": 36,
     "zerados": 20
   },
@@ -13858,19 +13858,19 @@
       "tipo": "Insumo",
       "unidade": "Unidade",
       "almoxarifado": 550,
-      "farmacia": 50,
+      "farmacia": 42,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 600,
+      "total": 592,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-09-03 11:26:04",
+      "atualizado_em": "2026-09-03 11:53:54",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -13884,17 +13884,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 50
+          "quantidade": 42
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 273,
-      "previsao_20_dias": 273,
+      "minimo_alerta": 280,
+      "previsao_20_dias": 280,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 22,
-      "media_diaria_saida": 13.64,
-      "total_saida_historica": 300,
-      "cobertura_dias": 44.0,
+      "media_diaria_saida": 14.0,
+      "total_saida_historica": 308,
+      "cobertura_dias": 42.3,
       "alerta_estoque": false
     },
     {
@@ -15452,6 +15452,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 1576,
+      "item_id": 203,
+      "produto_nome": "Soro fisiológico 250ml",
+      "tipo": "Farmácia para Posto de Internamento",
+      "origem": "Farmácia",
+      "destino": "Posto de Internamento",
+      "quantidade": 8,
+      "responsavel": "Assucena",
+      "data": "2026-09-02",
+      "obs": "",
+      "criado_em": "2026-09-03 11:53:54",
+      "item": "Soro fisiológico 250ml",
+      "usuario": "Assucena"
+    },
     {
       "id": 1575,
       "item_id": 82,
@@ -22936,21 +22951,6 @@
       "criado_em": "2026-08-26 16:50:01",
       "item": "Soro fisiológico 500ml",
       "usuario": "Leiliana"
-    },
-    {
-      "id": 1076,
-      "item_id": 349,
-      "produto_nome": "MANITOL 250ML",
-      "tipo": "Almoxarifado para Farmácia",
-      "origem": "Almoxarifado",
-      "destino": "Farmácia",
-      "quantidade": 5,
-      "responsavel": "Assucena",
-      "data": "2026-08-25",
-      "obs": "",
-      "criado_em": "2026-08-26 10:59:54",
-      "item": "MANITOL 250ML",
-      "usuario": "Assucena"
     }
   ]
 }
