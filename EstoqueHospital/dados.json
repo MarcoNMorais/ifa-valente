@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "03/09/2026 11:53:55",
+  "atualizado_em": "03/09/2026 11:54:11",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
-    "total_almoxarifado": 82262,
-    "total_farmacia": 26447,
+    "total_almoxarifado": 82212,
+    "total_farmacia": 26497,
     "total_geral": 108709,
     "perto_de_terminar": 36,
     "zerados": 20
@@ -348,8 +348,8 @@
       "nome": "Agulha 13x4,5",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 719,
-      "farmacia": 1181,
+      "almoxarifado": 669,
+      "farmacia": 1231,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -361,7 +361,7 @@
       "lote": "",
       "origem": "Carga Almoxerifado",
       "obs": "Importação Almoxerifado",
-      "atualizado_em": "2026-09-02 16:26:19",
+      "atualizado_em": "2026-09-03 11:54:07",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -369,13 +369,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 719
+          "quantidade": 669
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 1181
+          "quantidade": 1231
         }
       ],
       "minimo_manual": 0,
@@ -15453,6 +15453,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 1577,
+      "item_id": 287,
+      "produto_nome": "Agulha 13x4,5",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 50,
+      "responsavel": "Assucena",
+      "data": "2026-09-02",
+      "obs": "",
+      "criado_em": "2026-09-03 11:54:07",
+      "item": "Agulha 13x4,5",
+      "usuario": "Assucena"
+    },
+    {
       "id": 1576,
       "item_id": 203,
       "produto_nome": "Soro fisiológico 250ml",
@@ -22935,21 +22950,6 @@
       "obs": "",
       "criado_em": "2026-08-26 16:50:14",
       "item": "Dexametasona",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 1077,
-      "item_id": 204,
-      "produto_nome": "Soro fisiológico 500ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 10,
-      "responsavel": "Leiliana",
-      "data": "2026-08-26",
-      "obs": "",
-      "criado_em": "2026-08-26 16:50:01",
-      "item": "Soro fisiológico 500ml",
       "usuario": "Leiliana"
     }
   ]
