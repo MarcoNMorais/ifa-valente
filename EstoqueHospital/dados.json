@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "03/09/2026 11:29:00",
+  "atualizado_em": "03/09/2026 11:29:13",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
     "total_almoxarifado": 82262,
-    "total_farmacia": 27096,
-    "total_geral": 109358,
+    "total_farmacia": 27076,
+    "total_geral": 109338,
     "perto_de_terminar": 35,
     "zerados": 19
   },
@@ -17,19 +17,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 660,
+      "farmacia": 640,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 660,
+      "total": 640,
       "minimo": 0,
       "validade": "09/27",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-28 11:00:27",
+      "atualizado_em": "2026-09-03 11:29:07",
       "validade_mais_proxima": "09/27",
       "vencimento_mais_proximo": "09/27",
       "lotes_validade": [
@@ -43,17 +43,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 650
+          "quantidade": 630
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 37,
-      "previsao_20_dias": 37,
+      "minimo_alerta": 55,
+      "previsao_20_dias": 55,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 22,
-      "media_diaria_saida": 1.82,
-      "total_saida_historica": 40,
-      "cobertura_dias": 363.0,
+      "media_diaria_saida": 2.73,
+      "total_saida_historica": 60,
+      "cobertura_dias": 234.7,
       "alerta_estoque": false
     },
     {
@@ -15466,6 +15466,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 1546,
+      "item_id": 24,
+      "produto_nome": "AAS",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 20,
+      "responsavel": "Assucena",
+      "data": "2026-09-02",
+      "obs": "",
+      "criado_em": "2026-09-03 11:29:07",
+      "item": "AAS",
+      "usuario": "Assucena"
+    },
+    {
       "id": 1545,
       "item_id": 138,
       "produto_nome": "Captopril 25mg CPR",
@@ -22947,21 +22962,6 @@
       "data": "2026-08-25",
       "obs": "Validade: 2026-11",
       "criado_em": "2026-08-26 10:30:24",
-      "item": "SULFATO DE MAGNÉSIO 50% AMP 10ML",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1046,
-      "item_id": 338,
-      "produto_nome": "SULFATO DE MAGNÉSIO 50% AMP 10ML",
-      "tipo": "Entrada no Almoxarifado",
-      "origem": "Entrada externa",
-      "destino": "Almoxarifado",
-      "quantidade": 15,
-      "responsavel": "Assucena",
-      "data": "2026-08-25",
-      "obs": "Validade: 2027-12",
-      "criado_em": "2026-08-26 10:29:48",
       "item": "SULFATO DE MAGNÉSIO 50% AMP 10ML",
       "usuario": "Assucena"
     }
