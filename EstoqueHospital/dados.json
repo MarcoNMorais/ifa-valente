@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "03/09/2026 11:24:27",
+  "atualizado_em": "03/09/2026 11:24:42",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
-    "total_almoxarifado": 82610,
-    "total_farmacia": 27031,
+    "total_almoxarifado": 82580,
+    "total_farmacia": 27061,
     "total_geral": 109641,
     "perto_de_terminar": 34,
     "zerados": 19
@@ -13996,8 +13996,8 @@
       "nome": "Soro glicose 5% 500ml",
       "tipo": "Insumo",
       "unidade": "Unidade",
-      "almoxarifado": 66,
-      "farmacia": 4,
+      "almoxarifado": 36,
+      "farmacia": 34,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -14009,7 +14009,7 @@
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-09-02 16:27:10",
+      "atualizado_em": "2026-09-03 11:24:36",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -14023,7 +14023,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 14
+          "quantidade": 44
         }
       ],
       "minimo_manual": 0,
@@ -15453,6 +15453,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 1528,
+      "item_id": 205,
+      "produto_nome": "Soro glicose 5% 500ml",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 30,
+      "responsavel": "Assucena",
+      "data": "2026-09-02",
+      "obs": "",
+      "criado_em": "2026-09-03 11:24:36",
+      "item": "Soro glicose 5% 500ml",
+      "usuario": "Assucena"
+    },
     {
       "id": 1527,
       "item_id": 202,
@@ -22936,21 +22951,6 @@
       "obs": "",
       "criado_em": "2026-08-26 10:15:48",
       "item": "Seringa 10ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1028,
-      "item_id": 274,
-      "produto_nome": "Seringa 20ml",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 40,
-      "responsavel": "Assucena",
-      "data": "2026-08-25",
-      "obs": "",
-      "criado_em": "2026-08-26 10:15:38",
-      "item": "Seringa 20ml",
       "usuario": "Assucena"
     }
   ]
