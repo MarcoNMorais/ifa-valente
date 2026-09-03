@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "03/09/2026 11:25:46",
+  "atualizado_em": "03/09/2026 11:26:05",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
-    "total_almoxarifado": 82312,
-    "total_farmacia": 27329,
+    "total_almoxarifado": 82262,
+    "total_farmacia": 27379,
     "total_geral": 109641,
     "perto_de_terminar": 34,
     "zerados": 19
@@ -13876,8 +13876,8 @@
       "nome": "Soro fisiológico 250ml",
       "tipo": "Insumo",
       "unidade": "Unidade",
-      "almoxarifado": 600,
-      "farmacia": 0,
+      "almoxarifado": 550,
+      "farmacia": 50,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -13889,7 +13889,7 @@
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-09-02 11:11:59",
+      "atualizado_em": "2026-09-03 11:26:04",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -13897,7 +13897,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 600
+          "quantidade": 550
+        },
+        {
+          "local": "farmacia",
+          "validade": "",
+          "lote": "",
+          "quantidade": 50
         }
       ],
       "minimo_manual": 0,
@@ -15465,6 +15471,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 1534,
+      "item_id": 203,
+      "produto_nome": "Soro fisiológico 250ml",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 50,
+      "responsavel": "Assucena",
+      "data": "2026-09-02",
+      "obs": "",
+      "criado_em": "2026-09-03 11:26:04",
+      "item": "Soro fisiológico 250ml",
+      "usuario": "Assucena"
+    },
     {
       "id": 1533,
       "item_id": 313,
@@ -22948,21 +22969,6 @@
       "obs": "",
       "criado_em": "2026-08-26 10:16:45",
       "item": "Soro glicose 5% 250ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1034,
-      "item_id": 202,
-      "produto_nome": "Soro fisiológico 100ml",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 60,
-      "responsavel": "Assucena",
-      "data": "2026-08-25",
-      "obs": "",
-      "criado_em": "2026-08-26 10:16:35",
-      "item": "Soro fisiológico 100ml",
       "usuario": "Assucena"
     }
   ]
