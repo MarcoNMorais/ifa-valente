@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "03/09/2026 11:31:42",
+  "atualizado_em": "03/09/2026 11:31:56",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
     "total_almoxarifado": 82262,
-    "total_farmacia": 26705,
-    "total_geral": 108967,
+    "total_farmacia": 26677,
+    "total_geral": 108939,
     "perto_de_terminar": 35,
     "zerados": 19
   },
@@ -5179,19 +5179,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 65,
-      "farmacia": 16,
+      "farmacia": 13,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 81,
+      "total": 78,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-09-01 10:34:50",
+      "atualizado_em": "2026-09-03 11:31:45",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -5205,17 +5205,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 16
+          "quantidade": 13
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 25,
-      "previsao_20_dias": 25,
+      "minimo_alerta": 28,
+      "previsao_20_dias": 28,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 22,
-      "media_diaria_saida": 1.23,
-      "total_saida_historica": 27,
-      "cobertura_dias": 66.0,
+      "media_diaria_saida": 1.36,
+      "total_saida_historica": 30,
+      "cobertura_dias": 57.2,
       "alerta_estoque": false
     },
     {
@@ -5258,19 +5258,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 950,
-      "farmacia": 50,
+      "farmacia": 25,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1000,
+      "total": 975,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga Almoxerifado",
       "obs": "Importação Almoxerifado",
-      "atualizado_em": "2026-09-02 11:12:19",
+      "atualizado_em": "2026-09-03 11:31:51",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -5284,7 +5284,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 50
+          "quantidade": 25
         }
       ],
       "minimo_manual": 0,
@@ -5292,9 +5292,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 17,
-      "media_diaria_saida": 19.12,
-      "total_saida_historica": 325,
-      "cobertura_dias": 52.3,
+      "media_diaria_saida": 20.59,
+      "total_saida_historica": 350,
+      "cobertura_dias": 47.4,
       "alerta_estoque": false
     },
     {
@@ -15466,6 +15466,36 @@
   ],
   "movimentacoes": [
     {
+      "id": 1560,
+      "item_id": 275,
+      "produto_nome": "Equipo micro",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 25,
+      "responsavel": "Assucena",
+      "data": "2026-09-02",
+      "obs": "",
+      "criado_em": "2026-09-03 11:31:51",
+      "item": "Equipo micro",
+      "usuario": "Assucena"
+    },
+    {
+      "id": 1559,
+      "item_id": 154,
+      "produto_nome": "Equipo fotossensível",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 3,
+      "responsavel": "Assucena",
+      "data": "2026-09-02",
+      "obs": "",
+      "criado_em": "2026-09-03 11:31:45",
+      "item": "Equipo fotossensível",
+      "usuario": "Assucena"
+    },
+    {
       "id": 1558,
       "item_id": 329,
       "produto_nome": "Polifix",
@@ -22933,36 +22963,6 @@
       "obs": "",
       "criado_em": "2026-08-26 10:44:11",
       "item": "Glicerina 12%",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1060,
-      "item_id": 344,
-      "produto_nome": "ÁGUA  PARA INJETÁVEIS 10ML",
-      "tipo": "Almoxarifado para Farmácia",
-      "origem": "Almoxarifado",
-      "destino": "Farmácia",
-      "quantidade": 245,
-      "responsavel": "Assucena",
-      "data": "2026-08-25",
-      "obs": "",
-      "criado_em": "2026-08-26 10:42:55",
-      "item": "ÁGUA  PARA INJETÁVEIS 10ML",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1059,
-      "item_id": 344,
-      "produto_nome": "ÁGUA  PARA INJETÁVEIS 10ML",
-      "tipo": "Entrada no Almoxarifado",
-      "origem": "Entrada externa",
-      "destino": "Almoxarifado",
-      "quantidade": 245,
-      "responsavel": "Assucena",
-      "data": "2026-08-25",
-      "obs": "",
-      "criado_em": "2026-08-26 10:42:34",
-      "item": "ÁGUA  PARA INJETÁVEIS 10ML",
       "usuario": "Assucena"
     }
   ]
