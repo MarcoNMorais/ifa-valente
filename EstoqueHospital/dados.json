@@ -1,12 +1,12 @@
 {
-  "atualizado_em": "03/09/2026 11:26:22",
+  "atualizado_em": "03/09/2026 11:26:38",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
     "total_almoxarifado": 82262,
-    "total_farmacia": 27349,
-    "total_geral": 109611,
-    "perto_de_terminar": 34,
+    "total_farmacia": 27329,
+    "total_geral": 109591,
+    "perto_de_terminar": 35,
     "zerados": 19
   },
   "itens": [
@@ -3254,19 +3254,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 86,
+      "farmacia": 66,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 86,
+      "total": 66,
       "minimo": 0,
       "validade": "2027-06",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-28 10:59:52",
+      "atualizado_em": "2026-09-03 11:26:38",
       "validade_mais_proxima": "2027-06",
       "vencimento_mais_proximo": "2027-06",
       "lotes_validade": [
@@ -3274,18 +3274,18 @@
           "local": "farmacia",
           "validade": "2027-06",
           "lote": "",
-          "quantidade": 86
+          "quantidade": 66
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 73,
-      "previsao_20_dias": 73,
+      "minimo_alerta": 91,
+      "previsao_20_dias": 91,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 22,
-      "media_diaria_saida": 3.64,
-      "total_saida_historica": 80,
-      "cobertura_dias": 23.7,
-      "alerta_estoque": false
+      "media_diaria_saida": 4.55,
+      "total_saida_historica": 100,
+      "cobertura_dias": 14.5,
+      "alerta_estoque": true
     },
     {
       "id": 63,
@@ -15472,6 +15472,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 1536,
+      "item_id": 62,
+      "produto_nome": "Cimetidina 150mg",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 20,
+      "responsavel": "Assucena",
+      "data": "2026-09-02",
+      "obs": "",
+      "criado_em": "2026-09-03 11:26:38",
+      "item": "Cimetidina 150mg",
+      "usuario": "Assucena"
+    },
+    {
       "id": 1535,
       "item_id": 53,
       "produto_nome": "Ácido Tranexâmico 50mg",
@@ -22954,21 +22969,6 @@
       "obs": "",
       "criado_em": "2026-08-26 10:17:05",
       "item": "Haloperidol 5mg/ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1036,
-      "item_id": 12,
-      "produto_nome": "Morfina 10mg/ml 1ml",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 10,
-      "responsavel": "Assucena",
-      "data": "2026-08-25",
-      "obs": "",
-      "criado_em": "2026-08-26 10:16:54",
-      "item": "Morfina 10mg/ml 1ml",
       "usuario": "Assucena"
     }
   ]
