@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "03/09/2026 11:43:22",
+  "atualizado_em": "03/09/2026 11:43:38",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
     "total_almoxarifado": 82262,
-    "total_farmacia": 26472,
-    "total_geral": 108734,
+    "total_farmacia": 26467,
+    "total_geral": 108729,
     "perto_de_terminar": 36,
     "zerados": 20
   },
@@ -10331,19 +10331,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 71,
+      "farmacia": 66,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 71,
+      "total": 66,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "AJUSTE DE ESTOQUE ",
-      "atualizado_em": "2026-09-02 11:30:17",
+      "atualizado_em": "2026-09-03 11:43:28",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -10351,17 +10351,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 71
+          "quantidade": 66
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 106,
-      "previsao_20_dias": 106,
+      "minimo_alerta": 111,
+      "previsao_20_dias": 111,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 21,
-      "media_diaria_saida": 5.29,
-      "total_saida_historica": 111,
-      "cobertura_dias": 13.4,
+      "media_diaria_saida": 5.52,
+      "total_saida_historica": 116,
+      "cobertura_dias": 11.9,
       "alerta_estoque": true
     },
     {
@@ -15452,6 +15452,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 1573,
+      "item_id": 228,
+      "produto_nome": "Omeprazol sódico 40mg AMP",
+      "tipo": "Farmácia para Posto de Internamento",
+      "origem": "Farmácia",
+      "destino": "Posto de Internamento",
+      "quantidade": 5,
+      "responsavel": "Assucena",
+      "data": "2026-09-02",
+      "obs": "",
+      "criado_em": "2026-09-03 11:43:28",
+      "item": "Omeprazol sódico 40mg AMP",
+      "usuario": "Assucena"
+    },
     {
       "id": 1572,
       "item_id": 230,
@@ -22934,21 +22949,6 @@
       "data": "2026-08-25",
       "obs": "",
       "criado_em": "2026-08-26 10:59:18",
-      "item": "BISTURI N24",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1073,
-      "item_id": 348,
-      "produto_nome": "BISTURI N24",
-      "tipo": "Entrada no Almoxarifado",
-      "origem": "Entrada externa",
-      "destino": "Almoxarifado",
-      "quantidade": 100,
-      "responsavel": "Assucena",
-      "data": "2026-08-25",
-      "obs": "",
-      "criado_em": "2026-08-26 10:59:13",
       "item": "BISTURI N24",
       "usuario": "Assucena"
     }
