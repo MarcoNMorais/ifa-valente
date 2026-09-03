@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "03/09/2026 11:25:09",
+  "atualizado_em": "03/09/2026 11:25:23",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
-    "total_almoxarifado": 82380,
-    "total_farmacia": 27261,
+    "total_almoxarifado": 82332,
+    "total_farmacia": 27309,
     "total_geral": 109641,
     "perto_de_terminar": 34,
     "zerados": 19
@@ -1450,8 +1450,8 @@
       "nome": "Atadura de algodão 10cm",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 732,
-      "farmacia": 0,
+      "almoxarifado": 708,
+      "farmacia": 24,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -1463,7 +1463,7 @@
       "lote": "",
       "origem": "Carga Almoxerifado",
       "obs": "Importação Almoxerifado",
-      "atualizado_em": "2026-08-25 16:12:46",
+      "atualizado_em": "2026-09-03 11:25:20",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -1471,7 +1471,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 732
+          "quantidade": 708
+        },
+        {
+          "local": "farmacia",
+          "validade": "",
+          "lote": "",
+          "quantidade": 24
         }
       ],
       "minimo_manual": 0,
@@ -1490,8 +1496,8 @@
       "nome": "Atadura de algodão 15cm",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 96,
-      "farmacia": 0,
+      "almoxarifado": 72,
+      "farmacia": 24,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -1503,7 +1509,7 @@
       "lote": "",
       "origem": "Carga Almoxerifado",
       "obs": "Importação Almoxerifado",
-      "atualizado_em": "2026-08-25 16:12:46",
+      "atualizado_em": "2026-09-03 11:25:12",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -1511,7 +1517,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 96
+          "quantidade": 72
+        },
+        {
+          "local": "farmacia",
+          "validade": "",
+          "lote": "",
+          "quantidade": 24
         }
       ],
       "minimo_manual": 0,
@@ -15454,6 +15466,36 @@
   ],
   "movimentacoes": [
     {
+      "id": 1532,
+      "item_id": 307,
+      "produto_nome": "Atadura de algodão 10cm",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 24,
+      "responsavel": "Assucena",
+      "data": "2026-09-02",
+      "obs": "",
+      "criado_em": "2026-09-03 11:25:20",
+      "item": "Atadura de algodão 10cm",
+      "usuario": "Assucena"
+    },
+    {
+      "id": 1531,
+      "item_id": 308,
+      "produto_nome": "Atadura de algodão 15cm",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 24,
+      "responsavel": "Assucena",
+      "data": "2026-09-02",
+      "obs": "",
+      "criado_em": "2026-09-03 11:25:12",
+      "item": "Atadura de algodão 15cm",
+      "usuario": "Assucena"
+    },
+    {
       "id": 1530,
       "item_id": 98,
       "produto_nome": "Scalp nº 23",
@@ -22921,36 +22963,6 @@
       "obs": "",
       "criado_em": "2026-08-26 10:16:25",
       "item": "Dispositivo intravenoso Gelco nº 24",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1032,
-      "item_id": 178,
-      "produto_nome": "Dispositivo intravenoso Gelco nº 20",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 20,
-      "responsavel": "Assucena",
-      "data": "2026-08-25",
-      "obs": "",
-      "criado_em": "2026-08-26 10:16:16",
-      "item": "Dispositivo intravenoso Gelco nº 20",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1031,
-      "item_id": 187,
-      "produto_nome": "Agulha hipodérmica tam. 18",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 40,
-      "responsavel": "Assucena",
-      "data": "2026-08-25",
-      "obs": "",
-      "criado_em": "2026-08-26 10:16:06",
-      "item": "Agulha hipodérmica tam. 18",
       "usuario": "Assucena"
     }
   ]
