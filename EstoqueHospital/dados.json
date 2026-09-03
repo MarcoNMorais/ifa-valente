@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "03/09/2026 11:26:05",
+  "atualizado_em": "03/09/2026 11:26:22",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
     "total_almoxarifado": 82262,
-    "total_farmacia": 27379,
-    "total_geral": 109641,
+    "total_farmacia": 27349,
+    "total_geral": 109611,
     "perto_de_terminar": 34,
     "zerados": 19
   },
@@ -15144,19 +15144,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 490,
+      "farmacia": 460,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 490,
+      "total": 460,
       "minimo": 0,
       "validade": "2027-05",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-26 10:11:17",
+      "atualizado_em": "2026-09-03 11:26:21",
       "validade_mais_proxima": "2027-05",
       "vencimento_mais_proximo": "2027-05",
       "lotes_validade": [
@@ -15170,17 +15170,17 @@
           "local": "farmacia",
           "validade": "2027-11",
           "lote": "",
-          "quantidade": 190
+          "quantidade": 160
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 46,
-      "previsao_20_dias": 46,
+      "minimo_alerta": 73,
+      "previsao_20_dias": 73,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 22,
-      "media_diaria_saida": 2.27,
-      "total_saida_historica": 50,
-      "cobertura_dias": 215.6,
+      "media_diaria_saida": 3.64,
+      "total_saida_historica": 80,
+      "cobertura_dias": 126.5,
       "alerta_estoque": false
     },
     {
@@ -15471,6 +15471,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 1535,
+      "item_id": 53,
+      "produto_nome": "Ácido Tranexâmico 50mg",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 30,
+      "responsavel": "Assucena",
+      "data": "2026-09-02",
+      "obs": "",
+      "criado_em": "2026-09-03 11:26:21",
+      "item": "Ácido Tranexâmico 50mg",
+      "usuario": "Assucena"
+    },
     {
       "id": 1534,
       "item_id": 203,
@@ -22954,21 +22969,6 @@
       "obs": "",
       "criado_em": "2026-08-26 10:16:54",
       "item": "Morfina 10mg/ml 1ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1035,
-      "item_id": 206,
-      "produto_nome": "Soro glicose 5% 250ml",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 5,
-      "responsavel": "Assucena",
-      "data": "2026-08-25",
-      "obs": "",
-      "criado_em": "2026-08-26 10:16:45",
-      "item": "Soro glicose 5% 250ml",
       "usuario": "Assucena"
     }
   ]
