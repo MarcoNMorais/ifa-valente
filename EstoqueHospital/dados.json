@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "03/09/2026 11:54:11",
+  "atualizado_em": "03/09/2026 11:54:27",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
-    "total_almoxarifado": 82212,
-    "total_farmacia": 26497,
+    "total_almoxarifado": 82162,
+    "total_farmacia": 26547,
     "total_geral": 108709,
     "perto_de_terminar": 36,
     "zerados": 20
@@ -8610,8 +8610,8 @@
       "nome": "Luva cirúrgica tam. 7,5",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 350,
-      "farmacia": 0,
+      "almoxarifado": 300,
+      "farmacia": 50,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -8623,7 +8623,7 @@
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-25 16:12:46",
+      "atualizado_em": "2026-09-03 11:54:27",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -8631,7 +8631,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 350
+          "quantidade": 300
+        },
+        {
+          "local": "farmacia",
+          "validade": "",
+          "lote": "",
+          "quantidade": 50
         }
       ],
       "minimo_manual": 0,
@@ -15452,6 +15458,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 1578,
+      "item_id": 185,
+      "produto_nome": "Luva cirúrgica tam. 7,5",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 50,
+      "responsavel": "Assucena",
+      "data": "2026-09-02",
+      "obs": "",
+      "criado_em": "2026-09-03 11:54:27",
+      "item": "Luva cirúrgica tam. 7,5",
+      "usuario": "Assucena"
+    },
     {
       "id": 1577,
       "item_id": 287,
@@ -22935,21 +22956,6 @@
       "obs": "",
       "criado_em": "2026-08-26 16:50:27",
       "item": "Dipirona",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 1078,
-      "item_id": 68,
-      "produto_nome": "Dexametasona",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 40,
-      "responsavel": "Leiliana",
-      "data": "2026-08-26",
-      "obs": "",
-      "criado_em": "2026-08-26 16:50:14",
-      "item": "Dexametasona",
       "usuario": "Leiliana"
     }
   ]
