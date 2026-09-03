@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "03/09/2026 11:27:32",
+  "atualizado_em": "03/09/2026 11:28:29",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
     "total_almoxarifado": 82262,
-    "total_farmacia": 27207,
-    "total_geral": 109469,
+    "total_farmacia": 27197,
+    "total_geral": 109459,
     "perto_de_terminar": 35,
     "zerados": 19
   },
@@ -15184,19 +15184,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 170,
+      "farmacia": 160,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 170,
+      "total": 160,
       "minimo": 100,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-02 11:04:55",
+      "atualizado_em": "2026-09-03 11:28:28",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -15204,7 +15204,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 170
+          "quantidade": 160
         }
       ],
       "minimo_manual": 100,
@@ -15212,9 +15212,9 @@
       "previsao_20_dias": 100,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 10,
-      "media_diaria_saida": 7.5,
-      "total_saida_historica": 75,
-      "cobertura_dias": 22.7,
+      "media_diaria_saida": 8.5,
+      "total_saida_historica": 85,
+      "cobertura_dias": 18.8,
       "alerta_estoque": false
     },
     {
@@ -15465,6 +15465,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 1543,
+      "item_id": 344,
+      "produto_nome": "ÁGUA  PARA INJETÁVEIS 10ML",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 10,
+      "responsavel": "Assucena",
+      "data": "2026-09-02",
+      "obs": "",
+      "criado_em": "2026-09-03 11:28:28",
+      "item": "ÁGUA  PARA INJETÁVEIS 10ML",
+      "usuario": "Assucena"
+    },
     {
       "id": 1542,
       "item_id": 84,
@@ -22948,21 +22963,6 @@
       "obs": "",
       "criado_em": "2026-08-26 10:18:52",
       "item": "Eletrodo ECG descartável",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1043,
-      "item_id": 57,
-      "produto_nome": "Bromoprida 5mg",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 30,
-      "responsavel": "Assucena",
-      "data": "2026-08-25",
-      "obs": "",
-      "criado_em": "2026-08-26 10:18:17",
-      "item": "Bromoprida 5mg",
       "usuario": "Assucena"
     }
   ]
