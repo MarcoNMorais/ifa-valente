@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "03/09/2026 11:25:23",
+  "atualizado_em": "03/09/2026 11:25:46",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
-    "total_almoxarifado": 82332,
-    "total_farmacia": 27309,
+    "total_almoxarifado": 82312,
+    "total_farmacia": 27329,
     "total_geral": 109641,
     "perto_de_terminar": 34,
     "zerados": 19
@@ -12778,8 +12778,8 @@
       "nome": "Sonda Foley nº 16",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 20,
-      "farmacia": 0,
+      "almoxarifado": 0,
+      "farmacia": 20,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -12791,12 +12791,12 @@
       "lote": "",
       "origem": "Carga Almoxerifado",
       "obs": "Importação Almoxerifado",
-      "atualizado_em": "2026-08-25 16:12:46",
+      "atualizado_em": "2026-09-03 11:25:46",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
         {
-          "local": "almoxarifado",
+          "local": "farmacia",
           "validade": "",
           "lote": "",
           "quantidade": 20
@@ -15465,6 +15465,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 1533,
+      "item_id": 313,
+      "produto_nome": "Sonda Foley nº 16",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 20,
+      "responsavel": "Assucena",
+      "data": "2026-09-02",
+      "obs": "",
+      "criado_em": "2026-09-03 11:25:46",
+      "item": "Sonda Foley nº 16",
+      "usuario": "Assucena"
+    },
     {
       "id": 1532,
       "item_id": 307,
@@ -22948,21 +22963,6 @@
       "obs": "",
       "criado_em": "2026-08-26 10:16:35",
       "item": "Soro fisiológico 100ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1033,
-      "item_id": 176,
-      "produto_nome": "Dispositivo intravenoso Gelco nº 24",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 20,
-      "responsavel": "Assucena",
-      "data": "2026-08-25",
-      "obs": "",
-      "criado_em": "2026-08-26 10:16:25",
-      "item": "Dispositivo intravenoso Gelco nº 24",
       "usuario": "Assucena"
     }
   ]
