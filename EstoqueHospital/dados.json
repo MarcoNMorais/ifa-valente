@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "03/09/2026 11:54:46",
+  "atualizado_em": "03/09/2026 16:52:07",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
-    "total_almoxarifado": 82162,
-    "total_farmacia": 26541,
+    "total_almoxarifado": 81912,
+    "total_farmacia": 26791,
     "total_geral": 108703,
     "perto_de_terminar": 36,
     "zerados": 20
@@ -11403,8 +11403,8 @@
       "nome": "Seringa 10ml",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 1500,
-      "farmacia": 230,
+      "almoxarifado": 1250,
+      "farmacia": 480,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -11416,7 +11416,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-03 11:30:40",
+      "atualizado_em": "2026-09-03 16:52:06",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -11424,13 +11424,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 1500
+          "quantidade": 1250
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 230
+          "quantidade": 480
         }
       ],
       "minimo_manual": 0,
@@ -15458,6 +15458,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 1580,
+      "item_id": 103,
+      "produto_nome": "Seringa 10ml",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 250,
+      "responsavel": "Leiliana",
+      "data": "2026-09-03",
+      "obs": "",
+      "criado_em": "2026-09-03 16:52:06",
+      "item": "Seringa 10ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 1579,
       "item_id": 185,
@@ -22941,21 +22956,6 @@
       "obs": "",
       "criado_em": "2026-08-26 16:51:16",
       "item": "Scalp nº 21",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 1080,
-      "item_id": 31,
-      "produto_nome": "Omeprazol 20mg comprimido",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 14,
-      "responsavel": "Leiliana",
-      "data": "2026-08-26",
-      "obs": "",
-      "criado_em": "2026-08-26 16:50:59",
-      "item": "Omeprazol 20mg comprimido",
       "usuario": "Leiliana"
     }
   ]
