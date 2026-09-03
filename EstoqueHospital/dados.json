@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "03/09/2026 11:32:39",
+  "atualizado_em": "03/09/2026 11:32:52",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
     "total_almoxarifado": 82262,
-    "total_farmacia": 26668,
-    "total_geral": 108930,
+    "total_farmacia": 26658,
+    "total_geral": 108920,
     "perto_de_terminar": 36,
     "zerados": 20
   },
@@ -1114,19 +1114,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 30,
+      "farmacia": 20,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 30,
+      "total": 20,
       "minimo": 0,
       "validade": "10/27",
       "lote": "",
       "origem": "Carga Farmácia 227-288",
       "obs": "Importação Farmácia 227-288",
-      "atualizado_em": "2026-08-25 16:12:46",
+      "atualizado_em": "2026-09-03 11:32:41",
       "validade_mais_proxima": "10/27",
       "vencimento_mais_proximo": "10/27",
       "lotes_validade": [
@@ -1135,12 +1135,6 @@
           "validade": "10/27",
           "lote": "",
           "quantidade": 20
-        },
-        {
-          "local": "farmacia",
-          "validade": "12/26",
-          "lote": "",
-          "quantidade": 10
         }
       ],
       "minimo_manual": 0,
@@ -1148,9 +1142,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 17,
-      "media_diaria_saida": 0.0,
-      "total_saida_historica": 0,
-      "cobertura_dias": null,
+      "media_diaria_saida": 0.59,
+      "total_saida_historica": 10,
+      "cobertura_dias": 34.0,
       "alerta_estoque": false
     },
     {
@@ -15459,6 +15453,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 1564,
+      "item_id": 261,
+      "produto_nome": "Amiodarona 200mg CPR",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 10,
+      "responsavel": "Assucena",
+      "data": "2026-09-02",
+      "obs": "",
+      "criado_em": "2026-09-03 11:32:41",
+      "item": "Amiodarona 200mg CPR",
+      "usuario": "Assucena"
+    },
+    {
       "id": 1563,
       "item_id": 118,
       "produto_nome": "Ondansetrona solução oral",
@@ -22941,21 +22950,6 @@
       "obs": "",
       "criado_em": "2026-08-26 10:54:20",
       "item": "BISTURI N 11",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1064,
-      "item_id": 335,
-      "produto_nome": "Bisturi nº 23",
-      "tipo": "Almoxarifado para Farmácia",
-      "origem": "Almoxarifado",
-      "destino": "Farmácia",
-      "quantidade": 300,
-      "responsavel": "Assucena",
-      "data": "2026-08-25",
-      "obs": "",
-      "criado_em": "2026-08-26 10:50:17",
-      "item": "Bisturi nº 23",
       "usuario": "Assucena"
     }
   ]
