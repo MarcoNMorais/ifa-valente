@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "03/09/2026 11:24:55",
+  "atualizado_em": "03/09/2026 11:25:09",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
-    "total_almoxarifado": 82480,
-    "total_farmacia": 27161,
+    "total_almoxarifado": 82380,
+    "total_farmacia": 27261,
     "total_geral": 109641,
     "perto_de_terminar": 34,
     "zerados": 19
@@ -11318,8 +11318,8 @@
       "nome": "Scalp nº 23",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 1300,
-      "farmacia": 95,
+      "almoxarifado": 1200,
+      "farmacia": 195,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -11331,7 +11331,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-02 11:12:30",
+      "atualizado_em": "2026-09-03 11:24:56",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -11339,13 +11339,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 1300
+          "quantidade": 1200
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 95
+          "quantidade": 195
         }
       ],
       "minimo_manual": 0,
@@ -15453,6 +15453,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 1530,
+      "item_id": 98,
+      "produto_nome": "Scalp nº 23",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 100,
+      "responsavel": "Assucena",
+      "data": "2026-09-02",
+      "obs": "",
+      "criado_em": "2026-09-03 11:24:56",
+      "item": "Scalp nº 23",
+      "usuario": "Assucena"
+    },
     {
       "id": 1529,
       "item_id": 99,
@@ -22936,21 +22951,6 @@
       "obs": "",
       "criado_em": "2026-08-26 10:16:06",
       "item": "Agulha hipodérmica tam. 18",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1030,
-      "item_id": 102,
-      "produto_nome": "Seringa 5ml",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 15,
-      "responsavel": "Assucena",
-      "data": "2026-08-25",
-      "obs": "",
-      "criado_em": "2026-08-26 10:15:57",
-      "item": "Seringa 5ml",
       "usuario": "Assucena"
     }
   ]
