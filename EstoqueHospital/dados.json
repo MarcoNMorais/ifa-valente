@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "03/09/2026 11:54:27",
+  "atualizado_em": "03/09/2026 11:54:46",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
     "total_almoxarifado": 82162,
-    "total_farmacia": 26547,
-    "total_geral": 108709,
+    "total_farmacia": 26541,
+    "total_geral": 108703,
     "perto_de_terminar": 36,
     "zerados": 20
   },
@@ -8611,19 +8611,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 300,
-      "farmacia": 50,
+      "farmacia": 44,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 350,
+      "total": 344,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-09-03 11:54:27",
+      "atualizado_em": "2026-09-03 11:54:45",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -8637,17 +8637,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 50
+          "quantidade": 44
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 27,
-      "previsao_20_dias": 27,
+      "minimo_alerta": 32,
+      "previsao_20_dias": 32,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 22,
-      "media_diaria_saida": 1.32,
-      "total_saida_historica": 29,
-      "cobertura_dias": 265.5,
+      "media_diaria_saida": 1.59,
+      "total_saida_historica": 35,
+      "cobertura_dias": 216.2,
       "alerta_estoque": false
     },
     {
@@ -15458,6 +15458,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 1579,
+      "item_id": 185,
+      "produto_nome": "Luva cirúrgica tam. 7,5",
+      "tipo": "Farmácia para SALA DE PARTO",
+      "origem": "Farmácia",
+      "destino": "SALA DE PARTO",
+      "quantidade": 6,
+      "responsavel": "Assucena",
+      "data": "2026-09-02",
+      "obs": "",
+      "criado_em": "2026-09-03 11:54:45",
+      "item": "Luva cirúrgica tam. 7,5",
+      "usuario": "Assucena"
+    },
     {
       "id": 1578,
       "item_id": 185,
@@ -22941,21 +22956,6 @@
       "obs": "",
       "criado_em": "2026-08-26 16:50:59",
       "item": "Omeprazol 20mg comprimido",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 1079,
-      "item_id": 70,
-      "produto_nome": "Dipirona",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 30,
-      "responsavel": "Leiliana",
-      "data": "2026-08-26",
-      "obs": "",
-      "criado_em": "2026-08-26 16:50:27",
-      "item": "Dipirona",
       "usuario": "Leiliana"
     }
   ]
