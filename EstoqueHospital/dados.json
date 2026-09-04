@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "04/09/2026 11:23:36",
+  "atualizado_em": "04/09/2026 11:23:57",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
-    "total_almoxarifado": 80418,
-    "total_farmacia": 27434,
+    "total_almoxarifado": 79818,
+    "total_farmacia": 28034,
     "total_geral": 107852,
     "perto_de_terminar": 39,
     "zerados": 21
@@ -348,8 +348,8 @@
       "nome": "Agulha 13x4,5",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 639,
-      "farmacia": 1261,
+      "almoxarifado": 39,
+      "farmacia": 1861,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -361,7 +361,7 @@
       "lote": "",
       "origem": "Carga Almoxerifado",
       "obs": "Importação Almoxerifado",
-      "atualizado_em": "2026-09-04 11:22:01",
+      "atualizado_em": "2026-09-04 11:23:57",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -369,13 +369,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 639
+          "quantidade": 39
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 1261
+          "quantidade": 1861
         }
       ],
       "minimo_manual": 0,
@@ -15446,6 +15446,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 1633,
+      "item_id": 287,
+      "produto_nome": "Agulha 13x4,5",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 600,
+      "responsavel": "Assucena",
+      "data": "2026-09-03",
+      "obs": "",
+      "criado_em": "2026-09-04 11:23:57",
+      "item": "Agulha 13x4,5",
+      "usuario": "Assucena"
+    },
+    {
       "id": 1632,
       "item_id": 286,
       "produto_nome": "Agulha 40x12",
@@ -22928,21 +22943,6 @@
       "obs": "",
       "criado_em": "2026-08-27 11:06:21",
       "item": "Furosemida",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1133,
-      "item_id": 86,
-      "produto_nome": "Cloridrato de Metoclopramida",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 20,
-      "responsavel": "Assucena",
-      "data": "2026-08-26",
-      "obs": "",
-      "criado_em": "2026-08-27 11:06:13",
-      "item": "Cloridrato de Metoclopramida",
       "usuario": "Assucena"
     }
   ]
