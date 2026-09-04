@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "04/09/2026 11:16:30",
+  "atualizado_em": "04/09/2026 11:16:45",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
     "total_almoxarifado": 81912,
-    "total_farmacia": 26210,
-    "total_geral": 108122,
+    "total_farmacia": 26185,
+    "total_geral": 108097,
     "perto_de_terminar": 39,
     "zerados": 21
   },
@@ -5252,19 +5252,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 950,
-      "farmacia": 25,
+      "farmacia": 0,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 975,
+      "total": 950,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga Almoxerifado",
       "obs": "Importação Almoxerifado",
-      "atualizado_em": "2026-09-03 11:31:51",
+      "atualizado_em": "2026-09-04 11:16:36",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -5273,12 +5273,6 @@
           "validade": "",
           "lote": "",
           "quantidade": 950
-        },
-        {
-          "local": "farmacia",
-          "validade": "",
-          "lote": "",
-          "quantidade": 25
         }
       ],
       "minimo_manual": 0,
@@ -5286,9 +5280,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 18,
-      "media_diaria_saida": 19.44,
-      "total_saida_historica": 350,
-      "cobertura_dias": 50.1,
+      "media_diaria_saida": 20.83,
+      "total_saida_historica": 375,
+      "cobertura_dias": 45.6,
       "alerta_estoque": false
     },
     {
@@ -15452,6 +15446,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 1612,
+      "item_id": 275,
+      "produto_nome": "Equipo micro",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 25,
+      "responsavel": "Assucena",
+      "data": "2026-09-03",
+      "obs": "",
+      "criado_em": "2026-09-04 11:16:36",
+      "item": "Equipo micro",
+      "usuario": "Assucena"
+    },
+    {
       "id": 1611,
       "item_id": 203,
       "produto_nome": "Soro fisiológico 250ml",
@@ -22934,21 +22943,6 @@
       "obs": "",
       "criado_em": "2026-08-27 11:02:16",
       "item": "Seringa 20ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1112,
-      "item_id": 103,
-      "produto_nome": "Seringa 10ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 20,
-      "responsavel": "Assucena",
-      "data": "2026-08-26",
-      "obs": "",
-      "criado_em": "2026-08-27 11:02:07",
-      "item": "Seringa 10ml",
       "usuario": "Assucena"
     }
   ]
