@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "04/09/2026 11:20:52",
+  "atualizado_em": "04/09/2026 11:21:06",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
     "total_almoxarifado": 81912,
-    "total_farmacia": 26070,
-    "total_geral": 107982,
+    "total_farmacia": 26050,
+    "total_geral": 107962,
     "perto_de_terminar": 39,
     "zerados": 21
   },
@@ -4723,19 +4723,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 1200,
-      "farmacia": 118,
+      "farmacia": 98,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1318,
+      "total": 1298,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-03 11:29:34",
+      "atualizado_em": "2026-09-04 11:20:52",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -4749,17 +4749,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 118
+          "quantidade": 98
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 374,
-      "previsao_20_dias": 374,
+      "minimo_alerta": 392,
+      "previsao_20_dias": 392,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 23,
-      "media_diaria_saida": 18.7,
-      "total_saida_historica": 430,
-      "cobertura_dias": 70.5,
+      "media_diaria_saida": 19.57,
+      "total_saida_historica": 450,
+      "cobertura_dias": 66.3,
       "alerta_estoque": false
     },
     {
@@ -15440,6 +15440,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 1620,
+      "item_id": 177,
+      "produto_nome": "Dispositivo intravenoso Gelco nº 22",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 20,
+      "responsavel": "Assucena",
+      "data": "2026-09-03",
+      "obs": "",
+      "criado_em": "2026-09-04 11:20:52",
+      "item": "Dispositivo intravenoso Gelco nº 22",
+      "usuario": "Assucena"
+    },
+    {
       "id": 1619,
       "item_id": 178,
       "produto_nome": "Dispositivo intravenoso Gelco nº 20",
@@ -22922,21 +22937,6 @@
       "obs": "",
       "criado_em": "2026-08-27 11:03:33",
       "item": "Soro fisiológico 500ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1120,
-      "item_id": 201,
-      "produto_nome": "Soro Ringer Lactato 500ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 10,
-      "responsavel": "Assucena",
-      "data": "2026-08-26",
-      "obs": "",
-      "criado_em": "2026-08-27 11:03:23",
-      "item": "Soro Ringer Lactato 500ml",
       "usuario": "Assucena"
     }
   ]
