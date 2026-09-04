@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "04/09/2026 11:15:49",
+  "atualizado_em": "04/09/2026 11:16:02",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
     "total_almoxarifado": 81912,
-    "total_farmacia": 26310,
-    "total_geral": 108222,
+    "total_farmacia": 26300,
+    "total_geral": 108212,
     "perto_de_terminar": 39,
     "zerados": 21
   },
@@ -6213,19 +6213,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 44,
+      "farmacia": 34,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 44,
+      "total": 34,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-31 11:39:49",
+      "atualizado_em": "2026-09-04 11:15:57",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -6233,17 +6233,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 44
+          "quantidade": 34
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 20,
-      "previsao_20_dias": 20,
+      "minimo_alerta": 28,
+      "previsao_20_dias": 28,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 23,
-      "media_diaria_saida": 0.96,
-      "total_saida_historica": 22,
-      "cobertura_dias": 46.0,
+      "media_diaria_saida": 1.39,
+      "total_saida_historica": 32,
+      "cobertura_dias": 24.4,
       "alerta_estoque": false
     },
     {
@@ -15452,6 +15452,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 1608,
+      "item_id": 216,
+      "produto_nome": "Fio agulhado / sutura nº 3",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 10,
+      "responsavel": "Assucena",
+      "data": "2026-09-03",
+      "obs": "",
+      "criado_em": "2026-09-04 11:15:57",
+      "item": "Fio agulhado / sutura nº 3",
+      "usuario": "Assucena"
+    },
+    {
       "id": 1607,
       "item_id": 70,
       "produto_nome": "Dipirona",
@@ -22933,21 +22948,6 @@
       "data": "2026-08-26",
       "obs": "",
       "criado_em": "2026-08-27 11:01:28",
-      "item": "Esparadrapo 10x4,5",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1108,
-      "item_id": 276,
-      "produto_nome": "Esparadrapo 10x4,5",
-      "tipo": "Almoxarifado para Farmácia",
-      "origem": "Almoxarifado",
-      "destino": "Farmácia",
-      "quantidade": 20,
-      "responsavel": "Assucena",
-      "data": "2026-08-26",
-      "obs": "",
-      "criado_em": "2026-08-27 11:01:18",
       "item": "Esparadrapo 10x4,5",
       "usuario": "Assucena"
     }
