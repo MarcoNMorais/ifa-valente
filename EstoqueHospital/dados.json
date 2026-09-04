@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "04/09/2026 11:17:14",
+  "atualizado_em": "04/09/2026 11:17:28",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
     "total_almoxarifado": 81912,
-    "total_farmacia": 26164,
-    "total_geral": 108076,
+    "total_farmacia": 26134,
+    "total_geral": 108046,
     "perto_de_terminar": 39,
     "zerados": 21
   },
@@ -11569,19 +11569,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 950,
-      "farmacia": 400,
+      "farmacia": 370,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1350,
+      "total": 1320,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-04 11:12:53",
+      "atualizado_em": "2026-09-04 11:17:15",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -11595,17 +11595,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 400
+          "quantidade": 370
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 666,
-      "previsao_20_dias": 666,
+      "minimo_alerta": 692,
+      "previsao_20_dias": 692,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 23,
-      "media_diaria_saida": 33.26,
-      "total_saida_historica": 765,
-      "cobertura_dias": 40.6,
+      "media_diaria_saida": 34.57,
+      "total_saida_historica": 795,
+      "cobertura_dias": 38.2,
       "alerta_estoque": false
     },
     {
@@ -15439,6 +15439,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 1616,
+      "item_id": 102,
+      "produto_nome": "Seringa 5ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 30,
+      "responsavel": "Assucena",
+      "data": "2026-09-03",
+      "obs": "",
+      "criado_em": "2026-09-04 11:17:15",
+      "item": "Seringa 5ml",
+      "usuario": "Assucena"
+    },
     {
       "id": 1615,
       "item_id": 103,
@@ -22922,21 +22937,6 @@
       "obs": "",
       "criado_em": "2026-08-27 11:03:01",
       "item": "Agulha hipodérmica tam. 18",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1116,
-      "item_id": 138,
-      "produto_nome": "Captopril 25mg CPR",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 1,
-      "responsavel": "Assucena",
-      "data": "2026-08-26",
-      "obs": "",
-      "criado_em": "2026-08-27 11:02:45",
-      "item": "Captopril 25mg CPR",
       "usuario": "Assucena"
     }
   ]
