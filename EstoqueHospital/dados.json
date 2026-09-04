@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "04/09/2026 11:21:40",
+  "atualizado_em": "04/09/2026 11:21:55",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
-    "total_almoxarifado": 81732,
-    "total_farmacia": 26120,
+    "total_almoxarifado": 81632,
+    "total_farmacia": 26220,
     "total_geral": 107852,
     "perto_de_terminar": 39,
     "zerados": 21
@@ -13844,8 +13844,8 @@
       "nome": "Soro fisiológico 250ml",
       "tipo": "Insumo",
       "unidade": "Unidade",
-      "almoxarifado": 550,
-      "farmacia": 14,
+      "almoxarifado": 450,
+      "farmacia": 114,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -13857,7 +13857,7 @@
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-09-04 11:16:28",
+      "atualizado_em": "2026-09-04 11:21:47",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -13865,13 +13865,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 550
+          "quantidade": 450
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 14
+          "quantidade": 114
         }
       ],
       "minimo_manual": 0,
@@ -15439,6 +15439,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 1624,
+      "item_id": 203,
+      "produto_nome": "Soro fisiológico 250ml",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 100,
+      "responsavel": "Assucena",
+      "data": "2026-09-03",
+      "obs": "",
+      "criado_em": "2026-09-04 11:21:47",
+      "item": "Soro fisiológico 250ml",
+      "usuario": "Assucena"
+    },
     {
       "id": 1623,
       "item_id": 202,
@@ -22922,21 +22937,6 @@
       "obs": "",
       "criado_em": "2026-08-27 11:04:39",
       "item": "Seringa 10ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1124,
-      "item_id": 274,
-      "produto_nome": "Seringa 20ml",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 30,
-      "responsavel": "Assucena",
-      "data": "2026-08-26",
-      "obs": "",
-      "criado_em": "2026-08-27 11:04:31",
-      "item": "Seringa 20ml",
       "usuario": "Assucena"
     }
   ]
