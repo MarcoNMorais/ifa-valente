@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "04/09/2026 11:24:12",
+  "atualizado_em": "04/09/2026 11:24:26",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
-    "total_almoxarifado": 79218,
-    "total_farmacia": 28634,
+    "total_almoxarifado": 78318,
+    "total_farmacia": 29534,
     "total_geral": 107852,
     "perto_de_terminar": 39,
     "zerados": 21
@@ -474,8 +474,8 @@
       "nome": "Agulha 25x8",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 2300,
-      "farmacia": 0,
+      "almoxarifado": 2000,
+      "farmacia": 300,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -487,7 +487,7 @@
       "lote": "",
       "origem": "Carga Almoxerifado",
       "obs": "Importação Almoxerifado",
-      "atualizado_em": "2026-08-25 16:12:46",
+      "atualizado_em": "2026-09-04 11:24:21",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -495,7 +495,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 2300
+          "quantidade": 2000
+        },
+        {
+          "local": "farmacia",
+          "validade": "",
+          "lote": "",
+          "quantidade": 300
         }
       ],
       "minimo_manual": 0,
@@ -560,8 +566,8 @@
       "nome": "Agulha 30x8",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 17200,
-      "farmacia": 0,
+      "almoxarifado": 16600,
+      "farmacia": 600,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -573,7 +579,7 @@
       "lote": "",
       "origem": "Carga Almoxerifado",
       "obs": "Importação Almoxerifado",
-      "atualizado_em": "2026-08-25 16:12:46",
+      "atualizado_em": "2026-09-04 11:24:14",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -581,7 +587,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 17200
+          "quantidade": 16600
+        },
+        {
+          "local": "farmacia",
+          "validade": "",
+          "lote": "",
+          "quantidade": 600
         }
       ],
       "minimo_manual": 0,
@@ -15452,6 +15464,36 @@
   ],
   "movimentacoes": [
     {
+      "id": 1636,
+      "item_id": 289,
+      "produto_nome": "Agulha 25x8",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 300,
+      "responsavel": "Assucena",
+      "data": "2026-09-03",
+      "obs": "",
+      "criado_em": "2026-09-04 11:24:21",
+      "item": "Agulha 25x8",
+      "usuario": "Assucena"
+    },
+    {
+      "id": 1635,
+      "item_id": 331,
+      "produto_nome": "Agulha 30x8",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 600,
+      "responsavel": "Assucena",
+      "data": "2026-09-03",
+      "obs": "",
+      "criado_em": "2026-09-04 11:24:14",
+      "item": "Agulha 30x8",
+      "usuario": "Assucena"
+    },
+    {
       "id": 1634,
       "item_id": 285,
       "produto_nome": "Agulha 30x7",
@@ -22919,36 +22961,6 @@
       "obs": "",
       "criado_em": "2026-08-27 11:06:50",
       "item": "Óleo mineral solução",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1136,
-      "item_id": 59,
-      "produto_nome": "Ceftriaxona 1g",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 18,
-      "responsavel": "Assucena",
-      "data": "2026-08-26",
-      "obs": "",
-      "criado_em": "2026-08-27 11:06:38",
-      "item": "Ceftriaxona 1g",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1135,
-      "item_id": 70,
-      "produto_nome": "Dipirona",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 10,
-      "responsavel": "Assucena",
-      "data": "2026-08-26",
-      "obs": "",
-      "criado_em": "2026-08-27 11:06:26",
-      "item": "Dipirona",
       "usuario": "Assucena"
     }
   ]
