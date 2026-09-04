@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "04/09/2026 11:22:21",
+  "atualizado_em": "04/09/2026 11:22:38",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
-    "total_almoxarifado": 81572,
-    "total_farmacia": 26280,
+    "total_almoxarifado": 81548,
+    "total_farmacia": 26304,
     "total_geral": 107852,
     "perto_de_terminar": 39,
     "zerados": 21
@@ -14028,8 +14028,8 @@
       "nome": "Soro Ringer Lactato 500ml",
       "tipo": "Insumo",
       "unidade": "Unidade",
-      "almoxarifado": 168,
-      "farmacia": 72,
+      "almoxarifado": 144,
+      "farmacia": 96,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -14041,7 +14041,7 @@
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-09-03 16:54:50",
+      "atualizado_em": "2026-09-04 11:22:37",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -14049,13 +14049,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 168
+          "quantidade": 144
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 72
+          "quantidade": 96
         }
       ],
       "minimo_manual": 0,
@@ -15439,6 +15439,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 1627,
+      "item_id": 201,
+      "produto_nome": "Soro Ringer Lactato 500ml",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 24,
+      "responsavel": "Assucena",
+      "data": "2026-09-03",
+      "obs": "",
+      "criado_em": "2026-09-04 11:22:37",
+      "item": "Soro Ringer Lactato 500ml",
+      "usuario": "Assucena"
+    },
     {
       "id": 1626,
       "item_id": 204,
@@ -22922,21 +22937,6 @@
       "obs": "",
       "criado_em": "2026-08-27 11:05:05",
       "item": "Agulha hipodérmica tam. 18",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1127,
-      "item_id": 157,
-      "produto_nome": "Seringa 1ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 15,
-      "responsavel": "Assucena",
-      "data": "2026-08-26",
-      "obs": "",
-      "criado_em": "2026-08-27 11:04:56",
-      "item": "Seringa 1ml",
       "usuario": "Assucena"
     }
   ]
