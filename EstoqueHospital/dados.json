@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "04/09/2026 11:15:35",
+  "atualizado_em": "04/09/2026 11:15:49",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
     "total_almoxarifado": 81912,
-    "total_farmacia": 26340,
-    "total_geral": 108252,
+    "total_farmacia": 26310,
+    "total_geral": 108222,
     "perto_de_terminar": 39,
     "zerados": 21
   },
@@ -4517,19 +4517,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 370,
+      "farmacia": 350,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 370,
+      "total": 350,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "AJUSTE DE ESTOQUE ",
-      "atualizado_em": "2026-09-04 11:13:26",
+      "atualizado_em": "2026-09-04 11:15:46",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -4537,17 +4537,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 370
+          "quantidade": 350
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 966,
-      "previsao_20_dias": 966,
+      "minimo_alerta": 983,
+      "previsao_20_dias": 983,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 23,
-      "media_diaria_saida": 48.26,
-      "total_saida_historica": 1110,
-      "cobertura_dias": 7.7,
+      "media_diaria_saida": 49.13,
+      "total_saida_historica": 1130,
+      "cobertura_dias": 7.1,
       "alerta_estoque": true
     },
     {
@@ -7243,19 +7243,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 178,
+      "farmacia": 168,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 178,
+      "total": 168,
       "minimo": 50,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-01 10:24:28",
+      "atualizado_em": "2026-09-04 11:15:38",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -7263,7 +7263,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 178
+          "quantidade": 168
         }
       ],
       "minimo_manual": 50,
@@ -7271,9 +7271,9 @@
       "previsao_20_dias": 50,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 10,
-      "media_diaria_saida": 1.0,
-      "total_saida_historica": 10,
-      "cobertura_dias": 178.0,
+      "media_diaria_saida": 2.0,
+      "total_saida_historica": 20,
+      "cobertura_dias": 84.0,
       "alerta_estoque": false
     },
     {
@@ -15452,6 +15452,36 @@
   ],
   "movimentacoes": [
     {
+      "id": 1607,
+      "item_id": 70,
+      "produto_nome": "Dipirona",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 20,
+      "responsavel": "Assucena",
+      "data": "2026-09-03",
+      "obs": "",
+      "criado_em": "2026-09-04 11:15:46",
+      "item": "Dipirona",
+      "usuario": "Assucena"
+    },
+    {
+      "id": 1606,
+      "item_id": 350,
+      "produto_nome": "GLICOSE 50% AMP 10ML",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 10,
+      "responsavel": "Assucena",
+      "data": "2026-09-03",
+      "obs": "",
+      "criado_em": "2026-09-04 11:15:38",
+      "item": "GLICOSE 50% AMP 10ML",
+      "usuario": "Assucena"
+    },
+    {
       "id": 1605,
       "item_id": 68,
       "produto_nome": "Dexametasona",
@@ -22919,36 +22949,6 @@
       "obs": "",
       "criado_em": "2026-08-27 11:01:18",
       "item": "Esparadrapo 10x4,5",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1107,
-      "item_id": 180,
-      "produto_nome": "Luva de látex tam. P",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 200,
-      "responsavel": "Assucena",
-      "data": "2026-08-26",
-      "obs": "",
-      "criado_em": "2026-08-27 11:00:54",
-      "item": "Luva de látex tam. P",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1106,
-      "item_id": 181,
-      "produto_nome": "Luva de látex tam. M",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 200,
-      "responsavel": "Assucena",
-      "data": "2026-08-26",
-      "obs": "",
-      "criado_em": "2026-08-27 11:00:45",
-      "item": "Luva de látex tam. M",
       "usuario": "Assucena"
     }
   ]
