@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "04/09/2026 11:22:08",
+  "atualizado_em": "04/09/2026 11:22:21",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
-    "total_almoxarifado": 81602,
-    "total_farmacia": 26250,
+    "total_almoxarifado": 81572,
+    "total_farmacia": 26280,
     "total_geral": 107852,
     "perto_de_terminar": 39,
     "zerados": 21
@@ -13890,8 +13890,8 @@
       "nome": "Soro fisiológico 500ml",
       "tipo": "Insumo",
       "unidade": "Unidade",
-      "almoxarifado": 889,
-      "farmacia": 51,
+      "almoxarifado": 859,
+      "farmacia": 81,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -13903,7 +13903,7 @@
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-09-03 16:53:53",
+      "atualizado_em": "2026-09-04 11:22:17",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -13911,13 +13911,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 889
+          "quantidade": 859
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 51
+          "quantidade": 81
         }
       ],
       "minimo_manual": 0,
@@ -15439,6 +15439,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 1626,
+      "item_id": 204,
+      "produto_nome": "Soro fisiológico 500ml",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 30,
+      "responsavel": "Assucena",
+      "data": "2026-09-03",
+      "obs": "",
+      "criado_em": "2026-09-04 11:22:17",
+      "item": "Soro fisiológico 500ml",
+      "usuario": "Assucena"
+    },
     {
       "id": 1625,
       "item_id": 287,
@@ -22921,21 +22936,6 @@
       "data": "2026-08-26",
       "obs": "",
       "criado_em": "2026-08-27 11:04:56",
-      "item": "Seringa 1ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1126,
-      "item_id": 157,
-      "produto_nome": "Seringa 1ml",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 20,
-      "responsavel": "Assucena",
-      "data": "2026-08-26",
-      "obs": "",
-      "criado_em": "2026-08-27 11:04:48",
       "item": "Seringa 1ml",
       "usuario": "Assucena"
     }
