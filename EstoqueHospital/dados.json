@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "04/09/2026 11:16:02",
+  "atualizado_em": "04/09/2026 11:16:17",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
     "total_almoxarifado": 81912,
-    "total_farmacia": 26300,
-    "total_geral": 108212,
+    "total_farmacia": 26270,
+    "total_geral": 108182,
     "perto_de_terminar": 39,
     "zerados": 21
   },
@@ -3746,19 +3746,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 209,
+      "farmacia": 179,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 209,
+      "total": 179,
       "minimo": 0,
       "validade": "2027-11",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-31 11:20:32",
+      "atualizado_em": "2026-09-04 11:16:08",
       "validade_mais_proxima": "2027-11",
       "vencimento_mais_proximo": "2027-11",
       "lotes_validade": [
@@ -3766,17 +3766,17 @@
           "local": "farmacia",
           "validade": "2027-11",
           "lote": "",
-          "quantidade": 209
+          "quantidade": 179
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 53,
-      "previsao_20_dias": 53,
+      "minimo_alerta": 79,
+      "previsao_20_dias": 79,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 23,
-      "media_diaria_saida": 2.61,
-      "total_saida_historica": 60,
-      "cobertura_dias": 80.1,
+      "media_diaria_saida": 3.91,
+      "total_saida_historica": 90,
+      "cobertura_dias": 45.7,
       "alerta_estoque": false
     },
     {
@@ -15452,6 +15452,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 1609,
+      "item_id": 86,
+      "produto_nome": "Cloridrato de Metoclopramida",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 30,
+      "responsavel": "Assucena",
+      "data": "2026-09-03",
+      "obs": "",
+      "criado_em": "2026-09-04 11:16:08",
+      "item": "Cloridrato de Metoclopramida",
+      "usuario": "Assucena"
+    },
+    {
       "id": 1608,
       "item_id": 216,
       "produto_nome": "Fio agulhado / sutura nº 3",
@@ -22934,21 +22949,6 @@
       "obs": "",
       "criado_em": "2026-08-27 11:01:50",
       "item": "Cateter tipo óculos adulto",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1109,
-      "item_id": 276,
-      "produto_nome": "Esparadrapo 10x4,5",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 3,
-      "responsavel": "Assucena",
-      "data": "2026-08-26",
-      "obs": "",
-      "criado_em": "2026-08-27 11:01:28",
-      "item": "Esparadrapo 10x4,5",
       "usuario": "Assucena"
     }
   ]
