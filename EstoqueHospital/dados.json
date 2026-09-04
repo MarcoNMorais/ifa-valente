@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "04/09/2026 11:22:52",
+  "atualizado_em": "04/09/2026 11:23:07",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
-    "total_almoxarifado": 81298,
-    "total_farmacia": 26554,
+    "total_almoxarifado": 81218,
+    "total_farmacia": 26634,
     "total_geral": 107852,
     "perto_de_terminar": 39,
     "zerados": 21
@@ -10801,8 +10801,8 @@
       "nome": "Polifix",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 1200,
-      "farmacia": 60,
+      "almoxarifado": 1120,
+      "farmacia": 140,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -10814,7 +10814,7 @@
       "lote": "",
       "origem": "Carga Almoxerifado",
       "obs": "Importação Almoxerifado",
-      "atualizado_em": "2026-09-03 11:31:34",
+      "atualizado_em": "2026-09-04 11:23:01",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -10822,13 +10822,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 1200
+          "quantidade": 1120
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 60
+          "quantidade": 140
         }
       ],
       "minimo_manual": 0,
@@ -15445,6 +15445,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 1629,
+      "item_id": 329,
+      "produto_nome": "Polifix",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 80,
+      "responsavel": "Assucena",
+      "data": "2026-09-03",
+      "obs": "",
+      "criado_em": "2026-09-04 11:23:01",
+      "item": "Polifix",
+      "usuario": "Assucena"
+    },
     {
       "id": 1628,
       "item_id": 275,
@@ -22928,21 +22943,6 @@
       "obs": "",
       "criado_em": "2026-08-27 11:05:24",
       "item": "Fosfato de Clindamicina 150mg",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1129,
-      "item_id": 60,
-      "produto_nome": "Cetoprofeno EV 100mg",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 10,
-      "responsavel": "Assucena",
-      "data": "2026-08-26",
-      "obs": "",
-      "criado_em": "2026-08-27 11:05:15",
-      "item": "Cetoprofeno EV 100mg",
       "usuario": "Assucena"
     }
   ]
