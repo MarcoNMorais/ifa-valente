@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "04/09/2026 11:24:26",
+  "atualizado_em": "04/09/2026 11:24:40",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
-    "total_almoxarifado": 78318,
-    "total_farmacia": 29534,
+    "total_almoxarifado": 78294,
+    "total_farmacia": 29558,
     "total_geral": 107852,
     "perto_de_terminar": 39,
     "zerados": 21
@@ -5474,8 +5474,8 @@
       "nome": "Esparadrapo 10x4,5",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 100,
-      "farmacia": 0,
+      "almoxarifado": 76,
+      "farmacia": 24,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -5487,7 +5487,7 @@
       "lote": "",
       "origem": "Carga Almoxerifado",
       "obs": "Importação Almoxerifado",
-      "atualizado_em": "2026-09-04 11:16:51",
+      "atualizado_em": "2026-09-04 11:24:39",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -5495,7 +5495,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 100
+          "quantidade": 76
+        },
+        {
+          "local": "farmacia",
+          "validade": "",
+          "lote": "",
+          "quantidade": 24
         }
       ],
       "minimo_manual": 0,
@@ -15464,6 +15470,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 1637,
+      "item_id": 276,
+      "produto_nome": "Esparadrapo 10x4,5",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 24,
+      "responsavel": "Assucena",
+      "data": "2026-09-03",
+      "obs": "",
+      "criado_em": "2026-09-04 11:24:39",
+      "item": "Esparadrapo 10x4,5",
+      "usuario": "Assucena"
+    },
+    {
       "id": 1636,
       "item_id": 289,
       "produto_nome": "Agulha 25x8",
@@ -22946,21 +22967,6 @@
       "obs": "",
       "criado_em": "2026-08-27 11:06:59",
       "item": "Succinato de metoprolol 25mg",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1137,
-      "item_id": 242,
-      "produto_nome": "Óleo mineral solução",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 1,
-      "responsavel": "Assucena",
-      "data": "2026-08-26",
-      "obs": "",
-      "criado_em": "2026-08-27 11:06:50",
-      "item": "Óleo mineral solução",
       "usuario": "Assucena"
     }
   ]
