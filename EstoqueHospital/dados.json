@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "04/09/2026 11:15:09",
+  "atualizado_em": "04/09/2026 11:15:22",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
     "total_almoxarifado": 81912,
-    "total_farmacia": 26370,
-    "total_geral": 108282,
+    "total_farmacia": 26360,
+    "total_geral": 108272,
     "perto_de_terminar": 38,
     "zerados": 21
   },
@@ -2120,19 +2120,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 25,
+      "farmacia": 15,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 25,
+      "total": 15,
       "minimo": 0,
       "validade": "2027-07",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-09-02 11:02:09",
+      "atualizado_em": "2026-09-04 11:15:21",
       "validade_mais_proxima": "2027-07",
       "vencimento_mais_proximo": "2027-07",
       "lotes_validade": [
@@ -2140,17 +2140,17 @@
           "local": "farmacia",
           "validade": "2027-07",
           "lote": "",
-          "quantidade": 25
+          "quantidade": 15
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 156,
-      "previsao_20_dias": 156,
+      "minimo_alerta": 165,
+      "previsao_20_dias": 165,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 23,
-      "media_diaria_saida": 7.78,
-      "total_saida_historica": 179,
-      "cobertura_dias": 3.2,
+      "media_diaria_saida": 8.22,
+      "total_saida_historica": 189,
+      "cobertura_dias": 1.8,
       "alerta_estoque": true
     },
     {
@@ -15452,6 +15452,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 1604,
+      "item_id": 55,
+      "produto_nome": "Benzilpenicilina 1.200",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 10,
+      "responsavel": "Assucena",
+      "data": "2026-09-03",
+      "obs": "",
+      "criado_em": "2026-09-04 11:15:21",
+      "item": "Benzilpenicilina 1.200",
+      "usuario": "Assucena"
+    },
+    {
       "id": 1603,
       "item_id": 76,
       "produto_nome": "Escopolamina + Dipirona",
@@ -22934,21 +22949,6 @@
       "obs": "",
       "criado_em": "2026-08-27 11:00:30",
       "item": "Equipo micro",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1104,
-      "item_id": 344,
-      "produto_nome": "ÁGUA  PARA INJETÁVEIS 10ML",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 10,
-      "responsavel": "Assucena",
-      "data": "2026-08-26",
-      "obs": "",
-      "criado_em": "2026-08-27 11:00:20",
-      "item": "ÁGUA  PARA INJETÁVEIS 10ML",
       "usuario": "Assucena"
     }
   ]
