@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "04/09/2026 11:13:10",
+  "atualizado_em": "04/09/2026 11:13:25",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
     "total_almoxarifado": 81912,
-    "total_farmacia": 26493,
-    "total_geral": 108405,
+    "total_farmacia": 26483,
+    "total_geral": 108395,
     "perto_de_terminar": 38,
     "zerados": 20
   },
@@ -15177,19 +15177,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 160,
+      "farmacia": 150,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 160,
+      "total": 150,
       "minimo": 100,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-03 11:28:28",
+      "atualizado_em": "2026-09-04 11:13:15",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -15197,7 +15197,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 160
+          "quantidade": 150
         }
       ],
       "minimo_manual": 100,
@@ -15205,9 +15205,9 @@
       "previsao_20_dias": 100,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 11,
-      "media_diaria_saida": 7.73,
-      "total_saida_historica": 85,
-      "cobertura_dias": 20.7,
+      "media_diaria_saida": 8.64,
+      "total_saida_historica": 95,
+      "cobertura_dias": 17.4,
       "alerta_estoque": false
     },
     {
@@ -15458,6 +15458,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 1597,
+      "item_id": 344,
+      "produto_nome": "ÁGUA  PARA INJETÁVEIS 10ML",
+      "tipo": "Farmácia para Posto de Internamento",
+      "origem": "Farmácia",
+      "destino": "Posto de Internamento",
+      "quantidade": 10,
+      "responsavel": "Assucena",
+      "data": "2026-09-03",
+      "obs": "",
+      "criado_em": "2026-09-04 11:13:15",
+      "item": "ÁGUA  PARA INJETÁVEIS 10ML",
+      "usuario": "Assucena"
+    },
     {
       "id": 1596,
       "item_id": 104,
@@ -22941,21 +22956,6 @@
       "obs": "",
       "criado_em": "2026-08-27 10:58:01",
       "item": "Soro fisiológico 250ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1097,
-      "item_id": 196,
-      "produto_nome": "Atadura gessada nº 10",
-      "tipo": "Almoxarifado para Farmácia",
-      "origem": "Almoxarifado",
-      "destino": "Farmácia",
-      "quantidade": 20,
-      "responsavel": "Assucena",
-      "data": "2026-08-26",
-      "obs": "",
-      "criado_em": "2026-08-27 10:55:13",
-      "item": "Atadura gessada nº 10",
       "usuario": "Assucena"
     }
   ]
