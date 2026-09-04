@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "04/09/2026 11:23:57",
+  "atualizado_em": "04/09/2026 11:24:12",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
-    "total_almoxarifado": 79818,
-    "total_farmacia": 28034,
+    "total_almoxarifado": 79218,
+    "total_farmacia": 28634,
     "total_geral": 107852,
     "perto_de_terminar": 39,
     "zerados": 21
@@ -514,8 +514,8 @@
       "nome": "Agulha 30x7",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 12000,
-      "farmacia": 0,
+      "almoxarifado": 11400,
+      "farmacia": 600,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -527,7 +527,7 @@
       "lote": "",
       "origem": "Carga Almoxerifado",
       "obs": "Importação Almoxerifado",
-      "atualizado_em": "2026-08-25 16:12:46",
+      "atualizado_em": "2026-09-04 11:24:06",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -535,7 +535,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 12000
+          "quantidade": 11400
+        },
+        {
+          "local": "farmacia",
+          "validade": "",
+          "lote": "",
+          "quantidade": 600
         }
       ],
       "minimo_manual": 0,
@@ -15446,6 +15452,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 1634,
+      "item_id": 285,
+      "produto_nome": "Agulha 30x7",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 600,
+      "responsavel": "Assucena",
+      "data": "2026-09-03",
+      "obs": "",
+      "criado_em": "2026-09-04 11:24:06",
+      "item": "Agulha 30x7",
+      "usuario": "Assucena"
+    },
+    {
       "id": 1633,
       "item_id": 287,
       "produto_nome": "Agulha 13x4,5",
@@ -22928,21 +22949,6 @@
       "obs": "",
       "criado_em": "2026-08-27 11:06:26",
       "item": "Dipirona",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1134,
-      "item_id": 78,
-      "produto_nome": "Furosemida",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 20,
-      "responsavel": "Assucena",
-      "data": "2026-08-26",
-      "obs": "",
-      "criado_em": "2026-08-27 11:06:21",
-      "item": "Furosemida",
       "usuario": "Assucena"
     }
   ]
