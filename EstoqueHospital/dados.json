@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "04/09/2026 11:13:25",
+  "atualizado_em": "04/09/2026 11:13:39",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
     "total_almoxarifado": 81912,
-    "total_farmacia": 26483,
-    "total_geral": 108395,
+    "total_farmacia": 26433,
+    "total_geral": 108345,
     "perto_de_terminar": 38,
     "zerados": 20
   },
@@ -4517,19 +4517,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 400,
+      "farmacia": 370,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 400,
+      "total": 370,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "AJUSTE DE ESTOQUE ",
-      "atualizado_em": "2026-09-03 11:26:55",
+      "atualizado_em": "2026-09-04 11:13:26",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -4537,17 +4537,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 400
+          "quantidade": 370
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 940,
-      "previsao_20_dias": 940,
+      "minimo_alerta": 966,
+      "previsao_20_dias": 966,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 23,
-      "media_diaria_saida": 46.96,
-      "total_saida_historica": 1080,
-      "cobertura_dias": 8.5,
+      "media_diaria_saida": 48.26,
+      "total_saida_historica": 1110,
+      "cobertura_dias": 7.7,
       "alerta_estoque": true
     },
     {
@@ -15131,19 +15131,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 460,
+      "farmacia": 440,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 460,
+      "total": 440,
       "minimo": 0,
       "validade": "2027-05",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-09-03 11:26:21",
+      "atualizado_em": "2026-09-04 11:13:36",
       "validade_mais_proxima": "2027-05",
       "vencimento_mais_proximo": "2027-05",
       "lotes_validade": [
@@ -15157,17 +15157,17 @@
           "local": "farmacia",
           "validade": "2027-11",
           "lote": "",
-          "quantidade": 160
+          "quantidade": 140
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 70,
-      "previsao_20_dias": 70,
+      "minimo_alerta": 87,
+      "previsao_20_dias": 87,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 23,
-      "media_diaria_saida": 3.48,
-      "total_saida_historica": 80,
-      "cobertura_dias": 132.2,
+      "media_diaria_saida": 4.35,
+      "total_saida_historica": 100,
+      "cobertura_dias": 101.2,
       "alerta_estoque": false
     },
     {
@@ -15458,6 +15458,36 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 1599,
+      "item_id": 53,
+      "produto_nome": "Ácido Tranexâmico 50mg",
+      "tipo": "Farmácia para Posto de Internamento",
+      "origem": "Farmácia",
+      "destino": "Posto de Internamento",
+      "quantidade": 20,
+      "responsavel": "Assucena",
+      "data": "2026-09-03",
+      "obs": "",
+      "criado_em": "2026-09-04 11:13:36",
+      "item": "Ácido Tranexâmico 50mg",
+      "usuario": "Assucena"
+    },
+    {
+      "id": 1598,
+      "item_id": 70,
+      "produto_nome": "Dipirona",
+      "tipo": "Farmácia para Posto de Internamento",
+      "origem": "Farmácia",
+      "destino": "Posto de Internamento",
+      "quantidade": 30,
+      "responsavel": "Assucena",
+      "data": "2026-09-03",
+      "obs": "",
+      "criado_em": "2026-09-04 11:13:26",
+      "item": "Dipirona",
+      "usuario": "Assucena"
+    },
     {
       "id": 1597,
       "item_id": 344,
@@ -22926,36 +22956,6 @@
       "obs": "",
       "criado_em": "2026-08-27 10:59:42",
       "item": "Dipirona",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1099,
-      "item_id": 68,
-      "produto_nome": "Dexametasona",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 20,
-      "responsavel": "Assucena",
-      "data": "2026-08-26",
-      "obs": "",
-      "criado_em": "2026-08-27 10:59:28",
-      "item": "Dexametasona",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1098,
-      "item_id": 203,
-      "produto_nome": "Soro fisiológico 250ml",
-      "tipo": "Almoxarifado para Farmácia",
-      "origem": "Almoxarifado",
-      "destino": "Farmácia",
-      "quantidade": 50,
-      "responsavel": "Assucena",
-      "data": "2026-08-26",
-      "obs": "",
-      "criado_em": "2026-08-27 10:58:01",
-      "item": "Soro fisiológico 250ml",
       "usuario": "Assucena"
     }
   ]
