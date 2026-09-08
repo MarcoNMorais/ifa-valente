@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "08/09/2026 15:59:12",
+  "atualizado_em": "08/09/2026 15:59:23",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 395,
     "total_almoxarifado": 116868,
-    "total_farmacia": 30484,
-    "total_geral": 147352,
+    "total_farmacia": 30469,
+    "total_geral": 147337,
     "perto_de_terminar": 15,
     "zerados": 8
   },
@@ -15071,19 +15071,19 @@
       "tipo": "Insumo",
       "unidade": "Unidade",
       "almoxarifado": 931,
-      "farmacia": 81,
+      "farmacia": 66,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1012,
+      "total": 997,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-08 15:23:02",
+      "atualizado_em": "2026-09-08 15:59:21",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -15097,17 +15097,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 81
+          "quantidade": 66
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 172,
-      "previsao_20_dias": 172,
+      "minimo_alerta": 183,
+      "previsao_20_dias": 183,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 27,
-      "media_diaria_saida": 8.56,
-      "total_saida_historica": 231,
-      "cobertura_dias": 118.3,
+      "media_diaria_saida": 9.11,
+      "total_saida_historica": 246,
+      "cobertura_dias": 109.4,
       "alerta_estoque": false
     },
     {
@@ -16632,6 +16632,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 1790,
+      "item_id": 204,
+      "produto_nome": "Soro fisiológico 500ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 15,
+      "responsavel": "Leiliana",
+      "data": "2026-09-04",
+      "obs": "",
+      "criado_em": "2026-09-08 15:59:21",
+      "item": "Soro fisiológico 500ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 1789,
       "item_id": 203,
@@ -24115,21 +24130,6 @@
       "obs": "",
       "criado_em": "2026-08-31 11:27:57",
       "item": "Lanceta de segurança",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1293,
-      "item_id": 260,
-      "produto_nome": "Paracetamol gotas",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 1,
-      "responsavel": "Assucena",
-      "data": "2026-08-29",
-      "obs": "",
-      "criado_em": "2026-08-31 11:27:51",
-      "item": "Paracetamol gotas",
       "usuario": "Assucena"
     }
   ]
