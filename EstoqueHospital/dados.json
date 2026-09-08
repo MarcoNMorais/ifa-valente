@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "08/09/2026 15:56:08",
+  "atualizado_em": "08/09/2026 15:56:20",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 395,
     "total_almoxarifado": 117068,
-    "total_farmacia": 30597,
-    "total_geral": 147665,
+    "total_farmacia": 30585,
+    "total_geral": 147653,
     "perto_de_terminar": 14,
     "zerados": 8
   },
@@ -15203,19 +15203,19 @@
       "tipo": "Insumo",
       "unidade": "Unidade",
       "almoxarifado": 144,
-      "farmacia": 96,
+      "farmacia": 84,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 240,
+      "total": 228,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-09-04 11:22:37",
+      "atualizado_em": "2026-09-08 15:56:20",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -15229,17 +15229,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 96
+          "quantidade": 84
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 107,
-      "previsao_20_dias": 107,
+      "minimo_alerta": 116,
+      "previsao_20_dias": 116,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 27,
-      "media_diaria_saida": 5.33,
-      "total_saida_historica": 144,
-      "cobertura_dias": 45.0,
+      "media_diaria_saida": 5.78,
+      "total_saida_historica": 156,
+      "cobertura_dias": 39.5,
       "alerta_estoque": false
     },
     {
@@ -16626,6 +16626,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 1778,
+      "item_id": 201,
+      "produto_nome": "Soro Ringer Lactato 500ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 12,
+      "responsavel": "Leiliana",
+      "data": "2026-09-04",
+      "obs": "",
+      "criado_em": "2026-09-08 15:56:20",
+      "item": "Soro Ringer Lactato 500ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 1777,
       "item_id": 376,
@@ -24109,21 +24124,6 @@
       "obs": "",
       "criado_em": "2026-08-31 11:25:44",
       "item": "Escopolamina 20mg",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1279,
-      "item_id": 215,
-      "produto_nome": "Fio agulhado / sutura nº 2",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 12,
-      "responsavel": "Assucena",
-      "data": "2026-08-29",
-      "obs": "",
-      "criado_em": "2026-08-31 11:21:13",
-      "item": "Fio agulhado / sutura nº 2",
       "usuario": "Assucena"
     }
   ]
