@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "08/09/2026 16:05:49",
+  "atualizado_em": "08/09/2026 16:06:00",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 395,
     "total_almoxarifado": 115988,
-    "total_farmacia": 31148,
-    "total_geral": 147136,
+    "total_farmacia": 31144,
+    "total_geral": 147132,
     "perto_de_terminar": 15,
     "zerados": 8
   },
@@ -6592,19 +6592,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 382,
+      "farmacia": 378,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 382,
+      "total": 378,
       "minimo": 0,
       "validade": "08/27",
       "lote": "",
       "origem": "Carga Farmácia 227-288",
       "obs": "Importação Farmácia 227-288",
-      "atualizado_em": "2026-09-03 11:43:15",
+      "atualizado_em": "2026-09-08 16:05:58",
       "validade_mais_proxima": "08/27",
       "vencimento_mais_proximo": "08/27",
       "lotes_validade": [
@@ -6612,17 +6612,17 @@
           "local": "farmacia",
           "validade": "08/27",
           "lote": "",
-          "quantidade": 382
+          "quantidade": 378
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 14,
-      "previsao_20_dias": 14,
+      "minimo_alerta": 17,
+      "previsao_20_dias": 17,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 26,
-      "media_diaria_saida": 0.69,
-      "total_saida_historica": 18,
-      "cobertura_dias": 551.8,
+      "media_diaria_saida": 0.85,
+      "total_saida_historica": 22,
+      "cobertura_dias": 446.7,
       "alerta_estoque": false
     },
     {
@@ -16627,6 +16627,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 1801,
+      "item_id": 230,
+      "produto_nome": "Ferropurum 20mg/ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 4,
+      "responsavel": "Leiliana",
+      "data": "2026-09-04",
+      "obs": "",
+      "criado_em": "2026-09-08 16:05:58",
+      "item": "Ferropurum 20mg/ml",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 1800,
       "item_id": 228,
       "produto_nome": "Omeprazol sódico 40mg AMP",
@@ -24109,21 +24124,6 @@
       "obs": "",
       "criado_em": "2026-08-31 11:29:56",
       "item": "Seringa 3ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1304,
-      "item_id": 274,
-      "produto_nome": "Seringa 20ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 60,
-      "responsavel": "Assucena",
-      "data": "2026-08-30",
-      "obs": "",
-      "criado_em": "2026-08-31 11:29:47",
-      "item": "Seringa 20ml",
       "usuario": "Assucena"
     }
   ]
