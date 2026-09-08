@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "08/09/2026 16:07:22",
+  "atualizado_em": "08/09/2026 16:07:35",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 395,
     "total_almoxarifado": 115971,
-    "total_farmacia": 31159,
-    "total_geral": 147130,
+    "total_farmacia": 31158,
+    "total_geral": 147129,
     "perto_de_terminar": 15,
     "zerados": 8
   },
@@ -11310,19 +11310,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 9,
+      "farmacia": 8,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 9,
+      "total": 8,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-08 16:07:22",
+      "atualizado_em": "2026-09-08 16:07:35",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -11330,7 +11330,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 9
+          "quantidade": 8
         }
       ],
       "minimo_manual": 0,
@@ -11338,9 +11338,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 5,
-      "media_diaria_saida": 0.0,
-      "total_saida_historica": 0,
-      "cobertura_dias": null,
+      "media_diaria_saida": 0.2,
+      "total_saida_historica": 1,
+      "cobertura_dias": 40.0,
       "alerta_estoque": false
     },
     {
@@ -16632,6 +16632,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 1806,
+      "item_id": 380,
+      "produto_nome": "OLEO MINERAL",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 1,
+      "responsavel": "Leiliana",
+      "data": "2026-09-04",
+      "obs": "",
+      "criado_em": "2026-09-08 16:07:35",
+      "item": "OLEO MINERAL",
+      "usuario": "Leiliana"
+    },
     {
       "id": 1805,
       "item_id": 380,
@@ -24115,21 +24130,6 @@
       "obs": "",
       "criado_em": "2026-08-31 11:31:00",
       "item": "ÁGUA  PARA INJETÁVEIS 10ML",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1309,
-      "item_id": 60,
-      "produto_nome": "Cetoprofeno EV 100mg",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 13,
-      "responsavel": "Assucena",
-      "data": "2026-08-30",
-      "obs": "",
-      "criado_em": "2026-08-31 11:30:42",
-      "item": "Cetoprofeno EV 100mg",
       "usuario": "Assucena"
     }
   ]
