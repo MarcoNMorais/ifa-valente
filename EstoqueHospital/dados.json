@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "08/09/2026 16:42:31",
+  "atualizado_em": "08/09/2026 16:42:41",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 395,
     "total_almoxarifado": 113349,
-    "total_farmacia": 32275,
-    "total_geral": 145624,
+    "total_farmacia": 32265,
+    "total_geral": 145614,
     "perto_de_terminar": 17,
     "zerados": 8
   },
@@ -12427,19 +12427,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 1360,
-      "farmacia": 185,
+      "farmacia": 175,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1545,
+      "total": 1535,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-08 15:53:21",
+      "atualizado_em": "2026-09-08 16:42:37",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -12453,17 +12453,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 185
+          "quantidade": 175
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 132,
-      "previsao_20_dias": 132,
+      "minimo_alerta": 139,
+      "previsao_20_dias": 139,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 27,
-      "media_diaria_saida": 6.56,
-      "total_saida_historica": 177,
-      "cobertura_dias": 235.7,
+      "media_diaria_saida": 6.93,
+      "total_saida_historica": 187,
+      "cobertura_dias": 221.6,
       "alerta_estoque": false
     },
     {
@@ -16626,6 +16626,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 1891,
+      "item_id": 98,
+      "produto_nome": "Scalp nº 23",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 10,
+      "responsavel": "Leiliana",
+      "data": "2026-09-04",
+      "obs": "",
+      "criado_em": "2026-09-08 16:42:37",
+      "item": "Scalp nº 23",
+      "usuario": "Leiliana"
+    },
     {
       "id": 1890,
       "item_id": 329,
@@ -24109,21 +24124,6 @@
       "obs": "",
       "criado_em": "2026-09-01 08:52:09",
       "item": "Fita cirúrgica microporosa",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1390,
-      "item_id": 104,
-      "produto_nome": "Seringa 3ml",
-      "tipo": "Farmácia para Sala Cirúrgica",
-      "origem": "Farmácia",
-      "destino": "Sala Cirúrgica",
-      "quantidade": 20,
-      "responsavel": "Assucena",
-      "data": "2026-08-31",
-      "obs": "",
-      "criado_em": "2026-09-01 08:51:54",
-      "item": "Seringa 3ml",
       "usuario": "Assucena"
     }
   ]
