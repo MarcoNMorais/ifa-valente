@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "08/09/2026 16:25:28",
+  "atualizado_em": "08/09/2026 16:26:01",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 395,
     "total_almoxarifado": 114461,
-    "total_farmacia": 32315,
-    "total_geral": 146776,
+    "total_farmacia": 32265,
+    "total_geral": 146726,
     "perto_de_terminar": 15,
     "zerados": 8
   },
@@ -797,19 +797,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 4700,
-      "farmacia": 840,
+      "farmacia": 790,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 5540,
+      "total": 5490,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga Almoxerifado",
       "obs": "Importação Almoxerifado",
-      "atualizado_em": "2026-09-08 16:03:39",
+      "atualizado_em": "2026-09-08 16:26:00",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -823,17 +823,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 840
+          "quantidade": 790
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 237,
-      "previsao_20_dias": 237,
+      "minimo_alerta": 282,
+      "previsao_20_dias": 282,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 22,
-      "media_diaria_saida": 11.82,
-      "total_saida_historica": 260,
-      "cobertura_dias": 468.8,
+      "media_diaria_saida": 14.09,
+      "total_saida_historica": 310,
+      "cobertura_dias": 389.6,
       "alerta_estoque": false
     },
     {
@@ -16633,6 +16633,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 1825,
+      "item_id": 286,
+      "produto_nome": "Agulha 40x12",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 50,
+      "responsavel": "Leiliana",
+      "data": "2026-09-04",
+      "obs": "",
+      "criado_em": "2026-09-08 16:26:00",
+      "item": "Agulha 40x12",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 1824,
       "item_id": 55,
       "produto_nome": "Benzilpenicilina 1.200",
@@ -24115,21 +24130,6 @@
       "obs": "",
       "criado_em": "2026-08-31 11:16:44",
       "item": "Atadura gessada nº 10",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1407,
-      "item_id": 239,
-      "produto_nome": "Tramadol 50mg/ml 2ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 10,
-      "responsavel": "Assucena",
-      "data": "2026-08-30",
-      "obs": "",
-      "criado_em": "2026-09-01 10:25:26",
-      "item": "Tramadol 50mg/ml 2ml",
       "usuario": "Assucena"
     }
   ]
