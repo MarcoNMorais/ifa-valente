@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "08/09/2026 15:55:33",
+  "atualizado_em": "08/09/2026 15:55:45",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 395,
     "total_almoxarifado": 117068,
-    "total_farmacia": 30601,
-    "total_geral": 147669,
+    "total_farmacia": 30600,
+    "total_geral": 147668,
     "perto_de_terminar": 14,
     "zerados": 8
   },
@@ -12835,19 +12835,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 40,
-      "farmacia": 18,
+      "farmacia": 17,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 58,
+      "total": 57,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-08 14:50:58",
+      "atualizado_em": "2026-09-08 15:55:44",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -12861,17 +12861,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 18
+          "quantidade": 17
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 15,
-      "previsao_20_dias": 15,
+      "minimo_alerta": 16,
+      "previsao_20_dias": 16,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 26,
-      "media_diaria_saida": 0.73,
-      "total_saida_historica": 19,
-      "cobertura_dias": 79.4,
+      "media_diaria_saida": 0.77,
+      "total_saida_historica": 20,
+      "cobertura_dias": 74.1,
       "alerta_estoque": false
     },
     {
@@ -16632,6 +16632,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 1775,
+      "item_id": 256,
+      "produto_nome": "Simeticona gotas",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 1,
+      "responsavel": "Leiliana",
+      "data": "2026-09-04",
+      "obs": "",
+      "criado_em": "2026-09-08 15:55:44",
+      "item": "Simeticona gotas",
+      "usuario": "Leiliana"
+    },
     {
       "id": 1774,
       "item_id": 27,
@@ -24115,21 +24130,6 @@
       "obs": "",
       "criado_em": "2026-08-31 11:20:43",
       "item": "Dipirona",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1276,
-      "item_id": 86,
-      "produto_nome": "Cloridrato de Metoclopramida",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 20,
-      "responsavel": "Assucena",
-      "data": "2026-08-29",
-      "obs": "",
-      "criado_em": "2026-08-31 11:20:32",
-      "item": "Cloridrato de Metoclopramida",
       "usuario": "Assucena"
     }
   ]
