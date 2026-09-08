@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "08/09/2026 15:23:43",
+  "atualizado_em": "08/09/2026 15:23:55",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
-    "itens": 386,
-    "total_almoxarifado": 90244,
+    "itens": 387,
+    "total_almoxarifado": 90484,
     "total_farmacia": 29558,
-    "total_geral": 119802,
+    "total_geral": 120042,
     "perto_de_terminar": 18,
     "zerados": 9
   },
@@ -8070,6 +8070,46 @@
       "media_diaria_saida": 2.07,
       "total_saida_historica": 56,
       "cobertura_dias": 89.2,
+      "alerta_estoque": false
+    },
+    {
+      "id": 387,
+      "produto_id": 388,
+      "nome": "HIDROCORTIZONA",
+      "tipo": "Medicamento",
+      "unidade": "Unidade",
+      "almoxarifado": 240,
+      "farmacia": 0,
+      "sala_medicacoes": 0,
+      "internamento": 0,
+      "sala_cirurgica": 0,
+      "baixa": 0,
+      "outro": 0,
+      "total": 240,
+      "minimo": 0,
+      "validade": "",
+      "lote": "",
+      "origem": "Entrada externa",
+      "obs": "",
+      "atualizado_em": "2026-09-08 15:23:51",
+      "validade_mais_proxima": "",
+      "vencimento_mais_proximo": "",
+      "lotes_validade": [
+        {
+          "local": "almoxarifado",
+          "validade": "",
+          "lote": "",
+          "quantidade": 240
+        }
+      ],
+      "minimo_manual": 0,
+      "minimo_alerta": 0,
+      "previsao_20_dias": 0,
+      "criterio_alerta": "estoque_minimo_manual_inicio",
+      "dias_historico": 5,
+      "media_diaria_saida": 0.0,
+      "total_saida_historica": 0,
+      "cobertura_dias": null,
       "alerta_estoque": false
     },
     {
@@ -16194,6 +16234,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 1703,
+      "item_id": 387,
+      "produto_nome": "HIDROCORTIZONA",
+      "tipo": "Entrada no Almoxarifado",
+      "origem": "Entrada externa",
+      "destino": "Almoxarifado",
+      "quantidade": 240,
+      "responsavel": "Leiliana",
+      "data": "2026-09-04",
+      "obs": "",
+      "criado_em": "2026-09-08 15:23:51",
+      "item": "HIDROCORTIZONA",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 1702,
       "item_id": 204,
       "produto_nome": "Soro fisiológico 500ml",
@@ -23676,21 +23731,6 @@
       "obs": "",
       "criado_em": "2026-08-27 16:29:52",
       "item": "Acetilcisteína 2mg/ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1203,
-      "item_id": 27,
-      "produto_nome": "Paracetamol 500mg",
-      "tipo": "Farmácia para Outro destino",
-      "origem": "Farmácia",
-      "destino": "Outro destino",
-      "quantidade": 8,
-      "responsavel": "Assucena",
-      "data": "2026-08-26",
-      "obs": "",
-      "criado_em": "2026-08-27 16:29:32",
-      "item": "Paracetamol 500mg",
       "usuario": "Assucena"
     }
   ]
