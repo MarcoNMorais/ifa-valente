@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "08/09/2026 16:48:05",
+  "atualizado_em": "08/09/2026 16:48:19",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 395,
     "total_almoxarifado": 113316,
-    "total_farmacia": 32069,
-    "total_geral": 145385,
+    "total_farmacia": 32067,
+    "total_geral": 145383,
     "perto_de_terminar": 18,
     "zerados": 9
   },
@@ -9064,19 +9064,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 10,
+      "farmacia": 8,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 10,
+      "total": 8,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-08 16:36:22",
+      "atualizado_em": "2026-09-08 16:48:18",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -9084,7 +9084,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 10
+          "quantidade": 8
         }
       ],
       "minimo_manual": 0,
@@ -9092,9 +9092,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 5,
-      "media_diaria_saida": 0.4,
-      "total_saida_historica": 2,
-      "cobertura_dias": 25.0,
+      "media_diaria_saida": 0.8,
+      "total_saida_historica": 4,
+      "cobertura_dias": 10.0,
       "alerta_estoque": false
     },
     {
@@ -16620,6 +16620,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 1914,
+      "item_id": 385,
+      "produto_nome": "LIDOCAINA S/ VASO",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 2,
+      "responsavel": "Leiliana",
+      "data": "2026-09-04",
+      "obs": "",
+      "criado_em": "2026-09-08 16:48:18",
+      "item": "LIDOCAINA S/ VASO",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 1913,
       "item_id": 185,
       "produto_nome": "Luva cirúrgica tam. 7,5",
@@ -24102,21 +24117,6 @@
       "obs": "",
       "criado_em": "2026-09-01 10:24:28",
       "item": "GLICOSE 50% AMP 10ML",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1403,
-      "item_id": 238,
-      "produto_nome": "Ondansetrona 2mg/ml 2ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 30,
-      "responsavel": "Assucena",
-      "data": "2026-09-01",
-      "obs": "",
-      "criado_em": "2026-09-01 10:24:19",
-      "item": "Ondansetrona 2mg/ml 2ml",
       "usuario": "Assucena"
     }
   ]
