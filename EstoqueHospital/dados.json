@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "08/09/2026 16:26:22",
+  "atualizado_em": "08/09/2026 16:26:33",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 395,
     "total_almoxarifado": 114461,
-    "total_farmacia": 32195,
-    "total_geral": 146656,
+    "total_farmacia": 32175,
+    "total_geral": 146636,
     "perto_de_terminar": 15,
     "zerados": 8
   },
@@ -5251,19 +5251,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 1340,
-      "farmacia": 188,
+      "farmacia": 168,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1528,
+      "total": 1508,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-08 15:53:11",
+      "atualizado_em": "2026-09-08 16:26:30",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -5277,17 +5277,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 188
+          "quantidade": 168
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 341,
-      "previsao_20_dias": 341,
+      "minimo_alerta": 356,
+      "previsao_20_dias": 356,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 27,
-      "media_diaria_saida": 17.04,
-      "total_saida_historica": 460,
-      "cobertura_dias": 89.7,
+      "media_diaria_saida": 17.78,
+      "total_saida_historica": 480,
+      "cobertura_dias": 84.8,
       "alerta_estoque": false
     },
     {
@@ -16633,6 +16633,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 1828,
+      "item_id": 177,
+      "produto_nome": "Dispositivo intravenoso Gelco nº 22",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 20,
+      "responsavel": "Leiliana",
+      "data": "2026-09-04",
+      "obs": "",
+      "criado_em": "2026-09-08 16:26:30",
+      "item": "Dispositivo intravenoso Gelco nº 22",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 1827,
       "item_id": 331,
       "produto_nome": "Agulha 30x8",
@@ -24115,21 +24130,6 @@
       "obs": "",
       "criado_em": "2026-08-31 11:38:33",
       "item": "Benzilpenicilina 600 UI",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1281,
-      "item_id": 79,
-      "produto_nome": "Sulfato de Gentamicina 40mg",
-      "tipo": "Baixa Farmácia",
-      "origem": "Farmácia",
-      "destino": "Baixa/Perda/Vencimento",
-      "quantidade": 72,
-      "responsavel": "Assucena",
-      "data": "2026-08-31",
-      "obs": "",
-      "criado_em": "2026-08-31 11:25:16",
-      "item": "Sulfato de Gentamicina 40mg",
       "usuario": "Assucena"
     }
   ]
