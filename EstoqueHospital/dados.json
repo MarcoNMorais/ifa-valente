@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "08/09/2026 16:03:10",
+  "atualizado_em": "08/09/2026 16:03:27",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 395,
     "total_almoxarifado": 116868,
-    "total_farmacia": 30463,
-    "total_geral": 147331,
+    "total_farmacia": 30403,
+    "total_geral": 147271,
     "perto_de_terminar": 15,
     "zerados": 8
   },
@@ -14979,19 +14979,19 @@
       "tipo": "Insumo",
       "unidade": "Unidade",
       "almoxarifado": 240,
-      "farmacia": 240,
+      "farmacia": 180,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 480,
+      "total": 420,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-09-08 15:56:47",
+      "atualizado_em": "2026-09-08 16:03:26",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -15005,17 +15005,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 240
+          "quantidade": 180
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 800,
-      "previsao_20_dias": 800,
+      "minimo_alerta": 845,
+      "previsao_20_dias": 845,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 27,
-      "media_diaria_saida": 40.0,
-      "total_saida_historica": 1080,
-      "cobertura_dias": 12.0,
+      "media_diaria_saida": 42.22,
+      "total_saida_historica": 1140,
+      "cobertura_dias": 9.9,
       "alerta_estoque": true
     },
     {
@@ -16632,6 +16632,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 1793,
+      "item_id": 202,
+      "produto_nome": "Soro fisiológico 100ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 60,
+      "responsavel": "Leiliana",
+      "data": "2026-09-04",
+      "obs": "",
+      "criado_em": "2026-09-08 16:03:26",
+      "item": "Soro fisiológico 100ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 1792,
       "item_id": 101,
@@ -24115,21 +24130,6 @@
       "obs": "",
       "criado_em": "2026-08-31 11:28:44",
       "item": "Dipirona 500mg",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1296,
-      "item_id": 202,
-      "produto_nome": "Soro fisiológico 100ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 60,
-      "responsavel": "Assucena",
-      "data": "2026-08-30",
-      "obs": "",
-      "criado_em": "2026-08-31 11:28:36",
-      "item": "Soro fisiológico 100ml",
       "usuario": "Assucena"
     }
   ]
