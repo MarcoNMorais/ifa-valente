@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "08/09/2026 15:22:47",
+  "atualizado_em": "08/09/2026 15:23:02",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 386,
-    "total_almoxarifado": 90172,
+    "total_almoxarifado": 90244,
     "total_farmacia": 29558,
-    "total_geral": 119730,
+    "total_geral": 119802,
     "perto_de_terminar": 18,
     "zerados": 9
   },
@@ -14637,20 +14637,20 @@
       "nome": "Soro fisiológico 500ml",
       "tipo": "Insumo",
       "unidade": "Unidade",
-      "almoxarifado": 859,
+      "almoxarifado": 931,
       "farmacia": 81,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 940,
+      "total": 1012,
       "minimo": 0,
       "validade": "",
       "lote": "",
-      "origem": "Carga inicial Farmácia",
-      "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-09-04 11:22:17",
+      "origem": "Entrada externa",
+      "obs": "",
+      "atualizado_em": "2026-09-08 15:23:02",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -14658,7 +14658,7 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 859
+          "quantidade": 931
         },
         {
           "local": "farmacia",
@@ -14674,7 +14674,7 @@
       "dias_historico": 27,
       "media_diaria_saida": 8.56,
       "total_saida_historica": 231,
-      "cobertura_dias": 109.9,
+      "cobertura_dias": 118.3,
       "alerta_estoque": false
     },
     {
@@ -16193,6 +16193,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 1702,
+      "item_id": 204,
+      "produto_nome": "Soro fisiológico 500ml",
+      "tipo": "Entrada no Almoxarifado",
+      "origem": "Entrada externa",
+      "destino": "Almoxarifado",
+      "quantidade": 72,
+      "responsavel": "Leiliana",
+      "data": "2026-09-04",
+      "obs": "",
+      "criado_em": "2026-09-08 15:23:02",
+      "item": "Soro fisiológico 500ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 1701,
       "item_id": 206,
@@ -23676,21 +23691,6 @@
       "obs": "",
       "criado_em": "2026-08-27 16:29:32",
       "item": "Paracetamol 500mg",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1202,
-      "item_id": 102,
-      "produto_nome": "Seringa 5ml",
-      "tipo": "Farmácia para Outro destino",
-      "origem": "Farmácia",
-      "destino": "Outro destino",
-      "quantidade": 20,
-      "responsavel": "Assucena",
-      "data": "2026-08-26",
-      "obs": "",
-      "criado_em": "2026-08-27 16:29:17",
-      "item": "Seringa 5ml",
       "usuario": "Assucena"
     }
   ]
