@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "08/09/2026 14:57:06",
+  "atualizado_em": "08/09/2026 14:57:20",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 380,
-    "total_almoxarifado": 79740,
+    "total_almoxarifado": 79780,
     "total_farmacia": 29558,
-    "total_geral": 109298,
+    "total_geral": 109338,
     "perto_de_terminar": 36,
     "zerados": 19
   },
@@ -11181,20 +11181,20 @@
       "nome": "Prednisona 20mg CPR",
       "tipo": "Medicamento",
       "unidade": "Unidade",
-      "almoxarifado": 0,
+      "almoxarifado": 40,
       "farmacia": 50,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 50,
+      "total": 90,
       "minimo": 0,
       "validade": "2028-06",
       "lote": "",
-      "origem": "Carga inicial Farmácia",
-      "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-25 16:12:46",
+      "origem": "Entrada externa",
+      "obs": "",
+      "atualizado_em": "2026-09-08 14:57:19",
       "validade_mais_proxima": "2028-06",
       "vencimento_mais_proximo": "2028-06",
       "lotes_validade": [
@@ -11203,6 +11203,12 @@
           "validade": "2028-06",
           "lote": "",
           "quantidade": 50
+        },
+        {
+          "local": "almoxarifado",
+          "validade": "",
+          "lote": "",
+          "quantidade": 40
         }
       ],
       "minimo_manual": 0,
@@ -11212,7 +11218,7 @@
       "dias_historico": 27,
       "media_diaria_saida": 0.37,
       "total_saida_historica": 10,
-      "cobertura_dias": 135.0,
+      "cobertura_dias": 243.0,
       "alerta_estoque": false
     },
     {
@@ -15745,6 +15751,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 1661,
+      "item_id": 36,
+      "produto_nome": "Prednisona 20mg CPR",
+      "tipo": "Entrada no Almoxarifado",
+      "origem": "Entrada externa",
+      "destino": "Almoxarifado",
+      "quantidade": 40,
+      "responsavel": "Leiliana",
+      "data": "2026-09-04",
+      "obs": "",
+      "criado_em": "2026-09-08 14:57:19",
+      "item": "Prednisona 20mg CPR",
+      "usuario": "Leiliana"
+    },
     {
       "id": 1660,
       "item_id": 249,
@@ -23228,21 +23249,6 @@
       "obs": "",
       "criado_em": "2026-08-27 11:29:16",
       "item": "ATDURA ALGODÃO 10 CM",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1161,
-      "item_id": 359,
-      "produto_nome": "ATDURA ALGODÃO 15CM",
-      "tipo": "Almoxarifado para Farmácia",
-      "origem": "Almoxarifado",
-      "destino": "Farmácia",
-      "quantidade": 12,
-      "responsavel": "Assucena",
-      "data": "2026-08-26",
-      "obs": "",
-      "criado_em": "2026-08-27 11:28:38",
-      "item": "ATDURA ALGODÃO 15CM",
       "usuario": "Assucena"
     }
   ]
