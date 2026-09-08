@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "08/09/2026 16:06:52",
+  "atualizado_em": "08/09/2026 16:07:02",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 395,
     "total_almoxarifado": 115980,
-    "total_farmacia": 31151,
-    "total_geral": 147131,
+    "total_farmacia": 31150,
+    "total_geral": 147130,
     "perto_de_terminar": 15,
     "zerados": 8
   },
@@ -8826,19 +8826,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 112,
-      "farmacia": 8,
+      "farmacia": 7,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 120,
+      "total": 119,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga Farmácia 227-288",
       "obs": "Importação Farmácia 227-288",
-      "atualizado_em": "2026-09-08 16:06:51",
+      "atualizado_em": "2026-09-08 16:07:02",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -8852,17 +8852,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 8
+          "quantidade": 7
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 5,
-      "previsao_20_dias": 5,
+      "minimo_alerta": 6,
+      "previsao_20_dias": 6,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 26,
-      "media_diaria_saida": 0.23,
-      "total_saida_historica": 6,
-      "cobertura_dias": 520.0,
+      "media_diaria_saida": 0.27,
+      "total_saida_historica": 7,
+      "cobertura_dias": 442.0,
       "alerta_estoque": false
     },
     {
@@ -16633,6 +16633,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 1804,
+      "item_id": 241,
+      "produto_nome": "Lactulose solução",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 1,
+      "responsavel": "Leiliana",
+      "data": "2026-09-04",
+      "obs": "",
+      "criado_em": "2026-09-08 16:07:02",
+      "item": "Lactulose solução",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 1803,
       "item_id": 241,
       "produto_nome": "Lactulose solução",
@@ -24115,21 +24130,6 @@
       "obs": "",
       "criado_em": "2026-08-31 11:30:34",
       "item": "Cetoprofeno EV 100mg",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1307,
-      "item_id": 82,
-      "produto_nome": "Hidrocortisona",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 10,
-      "responsavel": "Assucena",
-      "data": "2026-08-30",
-      "obs": "",
-      "criado_em": "2026-08-31 11:30:19",
-      "item": "Hidrocortisona",
       "usuario": "Assucena"
     }
   ]
