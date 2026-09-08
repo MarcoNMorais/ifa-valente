@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "08/09/2026 15:53:00",
+  "atualizado_em": "08/09/2026 15:53:12",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 395,
     "total_almoxarifado": 117068,
-    "total_farmacia": 30658,
-    "total_geral": 147726,
+    "total_farmacia": 30648,
+    "total_geral": 147716,
     "perto_de_terminar": 14,
     "zerados": 8
   },
@@ -5257,19 +5257,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 1340,
-      "farmacia": 198,
+      "farmacia": 188,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1538,
+      "total": 1528,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-08 15:38:29",
+      "atualizado_em": "2026-09-08 15:53:11",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -5283,17 +5283,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 198
+          "quantidade": 188
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 334,
-      "previsao_20_dias": 334,
+      "minimo_alerta": 341,
+      "previsao_20_dias": 341,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 27,
-      "media_diaria_saida": 16.67,
-      "total_saida_historica": 450,
-      "cobertura_dias": 92.3,
+      "media_diaria_saida": 17.04,
+      "total_saida_historica": 460,
+      "cobertura_dias": 89.7,
       "alerta_estoque": false
     },
     {
@@ -16633,6 +16633,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 1767,
+      "item_id": 177,
+      "produto_nome": "Dispositivo intravenoso Gelco nº 22",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 10,
+      "responsavel": "Leiliana",
+      "data": "2026-09-04",
+      "obs": "",
+      "criado_em": "2026-09-08 15:53:11",
+      "item": "Dispositivo intravenoso Gelco nº 22",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 1766,
       "item_id": 176,
       "produto_nome": "Dispositivo intravenoso Gelco nº 24",
@@ -24114,21 +24129,6 @@
       "data": "2026-08-29",
       "obs": "",
       "criado_em": "2026-08-31 11:19:12",
-      "item": "Seringa 20ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1268,
-      "item_id": 274,
-      "produto_nome": "Seringa 20ml",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 60,
-      "responsavel": "Assucena",
-      "data": "2026-08-29",
-      "obs": "",
-      "criado_em": "2026-08-31 11:19:04",
       "item": "Seringa 20ml",
       "usuario": "Assucena"
     }
