@@ -1,12 +1,12 @@
 {
-  "atualizado_em": "08/09/2026 15:03:15",
+  "atualizado_em": "08/09/2026 15:03:33",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 384,
-    "total_almoxarifado": 82426,
+    "total_almoxarifado": 82826,
     "total_farmacia": 29558,
-    "total_geral": 111984,
-    "perto_de_terminar": 30,
+    "total_geral": 112384,
+    "perto_de_terminar": 29,
     "zerados": 15
   },
   "itens": [
@@ -3369,20 +3369,20 @@
       "nome": "Cetoprofeno IM 50mg",
       "tipo": "Medicamento",
       "unidade": "Unidade",
-      "almoxarifado": 0,
+      "almoxarifado": 400,
       "farmacia": 59,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 59,
+      "total": 459,
       "minimo": 0,
       "validade": "2027-09",
       "lote": "",
-      "origem": "Carga inicial Farmácia",
-      "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-09-03 11:27:15",
+      "origem": "Entrada externa",
+      "obs": "",
+      "atualizado_em": "2026-09-08 15:03:33",
       "validade_mais_proxima": "2027-09",
       "vencimento_mais_proximo": "2027-09",
       "lotes_validade": [
@@ -3391,6 +3391,12 @@
           "validade": "2027-09",
           "lote": "",
           "quantidade": 59
+        },
+        {
+          "local": "almoxarifado",
+          "validade": "",
+          "lote": "",
+          "quantidade": 400
         },
         {
           "local": "farmacia",
@@ -3406,8 +3412,8 @@
       "dias_historico": 27,
       "media_diaria_saida": 10.0,
       "total_saida_historica": 270,
-      "cobertura_dias": 5.9,
-      "alerta_estoque": true
+      "cobertura_dias": 45.9,
+      "alerta_estoque": false
     },
     {
       "id": 30,
@@ -15970,6 +15976,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 1675,
+      "item_id": 61,
+      "produto_nome": "Cetoprofeno IM 50mg",
+      "tipo": "Entrada no Almoxarifado",
+      "origem": "Entrada externa",
+      "destino": "Almoxarifado",
+      "quantidade": 400,
+      "responsavel": "Leiliana",
+      "data": "2026-09-04",
+      "obs": "",
+      "criado_em": "2026-09-08 15:03:33",
+      "item": "Cetoprofeno IM 50mg",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 1674,
       "item_id": 60,
       "produto_nome": "Cetoprofeno EV 100mg",
@@ -23452,21 +23473,6 @@
       "obs": "",
       "criado_em": "2026-08-27 11:37:51",
       "item": "IODOPOVIDONA 1L",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1175,
-      "item_id": 366,
-      "produto_nome": "ETER 1L",
-      "tipo": "Almoxarifado para Farmácia",
-      "origem": "Almoxarifado",
-      "destino": "Farmácia",
-      "quantidade": 1,
-      "responsavel": "Assucena",
-      "data": "2026-08-26",
-      "obs": "",
-      "criado_em": "2026-08-27 11:37:14",
-      "item": "ETER 1L",
       "usuario": "Assucena"
     }
   ]
