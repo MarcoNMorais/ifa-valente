@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "08/09/2026 16:27:28",
+  "atualizado_em": "08/09/2026 16:27:39",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 395,
     "total_almoxarifado": 114461,
-    "total_farmacia": 32129,
-    "total_geral": 146590,
+    "total_farmacia": 32089,
+    "total_geral": 146550,
     "perto_de_terminar": 15,
     "zerados": 8
   },
@@ -12513,19 +12513,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 4250,
-      "farmacia": 310,
+      "farmacia": 270,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 4560,
+      "total": 4520,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-08 15:57:21",
+      "atualizado_em": "2026-09-08 16:27:31",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -12539,17 +12539,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 310
+          "quantidade": 270
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 1455,
-      "previsao_20_dias": 1455,
+      "minimo_alerta": 1485,
+      "previsao_20_dias": 1485,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 27,
-      "media_diaria_saida": 72.74,
-      "total_saida_historica": 1964,
-      "cobertura_dias": 62.7,
+      "media_diaria_saida": 74.22,
+      "total_saida_historica": 2004,
+      "cobertura_dias": 60.9,
       "alerta_estoque": false
     },
     {
@@ -16626,6 +16626,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 1834,
+      "item_id": 103,
+      "produto_nome": "Seringa 10ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 40,
+      "responsavel": "Leiliana",
+      "data": "2026-09-04",
+      "obs": "",
+      "criado_em": "2026-09-08 16:27:31",
+      "item": "Seringa 10ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 1833,
       "item_id": 274,
@@ -24109,21 +24124,6 @@
       "obs": "",
       "criado_em": "2026-08-31 11:39:31",
       "item": "Hidrocortisona",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1333,
-      "item_id": 69,
-      "produto_nome": "Diclofenaco 25mg",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 20,
-      "responsavel": "Assucena",
-      "data": "2026-08-31",
-      "obs": "",
-      "criado_em": "2026-08-31 11:39:19",
-      "item": "Diclofenaco 25mg",
       "usuario": "Assucena"
     }
   ]
