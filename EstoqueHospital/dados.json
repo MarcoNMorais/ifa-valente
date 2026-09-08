@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "08/09/2026 15:29:32",
+  "atualizado_em": "08/09/2026 15:29:56",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 389,
-    "total_almoxarifado": 91164,
+    "total_almoxarifado": 91664,
     "total_farmacia": 29558,
-    "total_geral": 120722,
+    "total_geral": 121222,
     "perto_de_terminar": 16,
     "zerados": 9
   },
@@ -486,20 +486,20 @@
       "nome": "Agulha 13x4,5",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 39,
+      "almoxarifado": 539,
       "farmacia": 1861,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1900,
+      "total": 2400,
       "minimo": 0,
       "validade": "",
       "lote": "",
-      "origem": "Carga Almoxerifado",
-      "obs": "Importação Almoxerifado",
-      "atualizado_em": "2026-09-04 11:23:57",
+      "origem": "Entrada externa",
+      "obs": "",
+      "atualizado_em": "2026-09-08 15:29:55",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -507,7 +507,7 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 39
+          "quantidade": 539
         },
         {
           "local": "farmacia",
@@ -16356,6 +16356,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 1713,
+      "item_id": 287,
+      "produto_nome": "Agulha 13x4,5",
+      "tipo": "Entrada no Almoxarifado",
+      "origem": "Entrada externa",
+      "destino": "Almoxarifado",
+      "quantidade": 500,
+      "responsavel": "Leiliana",
+      "data": "2026-09-04",
+      "obs": "",
+      "criado_em": "2026-09-08 15:29:55",
+      "item": "Agulha 13x4,5",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 1712,
       "item_id": 389,
       "produto_nome": "CLOREXIDINA 2% ALCOOLICA",
@@ -23838,21 +23853,6 @@
       "obs": "",
       "criado_em": "2026-08-28 10:53:33",
       "item": "Agulha 13x4,5",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1213,
-      "item_id": 274,
-      "produto_nome": "Seringa 20ml",
-      "tipo": "Almoxarifado para Farmácia",
-      "origem": "Almoxarifado",
-      "destino": "Farmácia",
-      "quantidade": 250,
-      "responsavel": "Assucena",
-      "data": "2026-08-27",
-      "obs": "",
-      "criado_em": "2026-08-28 10:53:09",
-      "item": "Seringa 20ml",
       "usuario": "Assucena"
     }
   ]
