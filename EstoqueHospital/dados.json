@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "08/09/2026 16:42:08",
+  "atualizado_em": "08/09/2026 16:42:19",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 395,
     "total_almoxarifado": 113349,
-    "total_farmacia": 32310,
-    "total_geral": 145659,
+    "total_farmacia": 32285,
+    "total_geral": 145634,
     "perto_de_terminar": 17,
     "zerados": 8
   },
@@ -5748,19 +5748,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 1400,
-      "farmacia": 150,
+      "farmacia": 125,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1550,
+      "total": 1525,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-08 16:28:03",
+      "atualizado_em": "2026-09-08 16:42:15",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -5774,17 +5774,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 150
+          "quantidade": 125
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 93,
-      "previsao_20_dias": 93,
+      "minimo_alerta": 112,
+      "previsao_20_dias": 112,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 27,
-      "media_diaria_saida": 4.63,
-      "total_saida_historica": 125,
-      "cobertura_dias": 334.8,
+      "media_diaria_saida": 5.56,
+      "total_saida_historica": 150,
+      "cobertura_dias": 274.5,
       "alerta_estoque": false
     },
     {
@@ -16627,6 +16627,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 1889,
+      "item_id": 220,
+      "produto_nome": "Equipo macrogotas",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 25,
+      "responsavel": "Leiliana",
+      "data": "2026-09-04",
+      "obs": "",
+      "criado_em": "2026-09-08 16:42:15",
+      "item": "Equipo macrogotas",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 1888,
       "item_id": 180,
       "produto_nome": "Luva de látex tam. P",
@@ -24110,21 +24125,6 @@
       "criado_em": "2026-09-01 08:51:40",
       "item": "Luva cirúrgica tam. 7",
       "usuario": "Assucena"
-    },
-    {
-      "id": 1388,
-      "item_id": 204,
-      "produto_nome": "Soro fisiológico 500ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 10,
-      "responsavel": "Leiliana",
-      "data": "2026-08-31",
-      "obs": "",
-      "criado_em": "2026-08-31 16:31:27",
-      "item": "Soro fisiológico 500ml",
-      "usuario": "Leiliana"
     }
   ]
 }
