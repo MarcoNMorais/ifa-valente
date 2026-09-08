@@ -1,12 +1,12 @@
 {
-  "atualizado_em": "08/09/2026 15:20:37",
+  "atualizado_em": "08/09/2026 15:20:52",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 386,
-    "total_almoxarifado": 88567,
+    "total_almoxarifado": 88727,
     "total_farmacia": 29558,
-    "total_geral": 118125,
-    "perto_de_terminar": 20,
+    "total_geral": 118285,
+    "perto_de_terminar": 19,
     "zerados": 10
   },
   "itens": [
@@ -10995,23 +10995,29 @@
       "nome": "Omeprazol sódico 40mg AMP",
       "tipo": "Medicamento",
       "unidade": "Unidade",
-      "almoxarifado": 0,
+      "almoxarifado": 160,
       "farmacia": 66,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 66,
+      "total": 226,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
-      "obs": "AJUSTE DE ESTOQUE ",
-      "atualizado_em": "2026-09-03 11:43:28",
+      "obs": "",
+      "atualizado_em": "2026-09-08 15:20:51",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
+        {
+          "local": "almoxarifado",
+          "validade": "",
+          "lote": "",
+          "quantidade": 160
+        },
         {
           "local": "farmacia",
           "validade": "",
@@ -11026,8 +11032,8 @@
       "dias_historico": 26,
       "media_diaria_saida": 4.46,
       "total_saida_historica": 116,
-      "cobertura_dias": 14.8,
-      "alerta_estoque": true
+      "cobertura_dias": 50.7,
+      "alerta_estoque": false
     },
     {
       "id": 238,
@@ -16168,6 +16174,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 1696,
+      "item_id": 228,
+      "produto_nome": "Omeprazol sódico 40mg AMP",
+      "tipo": "Entrada no Almoxarifado",
+      "origem": "Entrada externa",
+      "destino": "Almoxarifado",
+      "quantidade": 160,
+      "responsavel": "Leiliana",
+      "data": "2026-09-04",
+      "obs": "",
+      "criado_em": "2026-09-08 15:20:51",
+      "item": "Omeprazol sódico 40mg AMP",
+      "usuario": "Leiliana"
+    },
     {
       "id": 1695,
       "item_id": 386,
@@ -23650,21 +23671,6 @@
       "data": "2026-08-26",
       "obs": "",
       "criado_em": "2026-08-27 16:28:01",
-      "item": "LENÇOL DESCARTAVEL PAPEL",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1196,
-      "item_id": 376,
-      "produto_nome": "LENÇOL DESCARTAVEL PAPEL",
-      "tipo": "Almoxarifado para Farmácia",
-      "origem": "Almoxarifado",
-      "destino": "Farmácia",
-      "quantidade": 16,
-      "responsavel": "Assucena",
-      "data": "2026-08-26",
-      "obs": "",
-      "criado_em": "2026-08-27 16:27:48",
       "item": "LENÇOL DESCARTAVEL PAPEL",
       "usuario": "Assucena"
     }
