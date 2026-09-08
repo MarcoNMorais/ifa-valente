@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "08/09/2026 15:51:57",
+  "atualizado_em": "08/09/2026 15:52:08",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 395,
     "total_almoxarifado": 117388,
-    "total_farmacia": 30368,
-    "total_geral": 147756,
+    "total_farmacia": 30358,
+    "total_geral": 147746,
     "perto_de_terminar": 14,
     "zerados": 8
   },
@@ -15952,19 +15952,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 372,
+      "farmacia": 362,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 372,
+      "total": 362,
       "minimo": 0,
       "validade": "12/27",
       "lote": "",
       "origem": "Carga Farmácia 227-288",
       "obs": "Importação Farmácia 227-288",
-      "atualizado_em": "2026-09-03 11:27:22",
+      "atualizado_em": "2026-09-08 15:52:07",
       "validade_mais_proxima": "12/27",
       "vencimento_mais_proximo": "12/27",
       "lotes_validade": [
@@ -15972,17 +15972,17 @@
           "local": "farmacia",
           "validade": "12/27",
           "lote": "",
-          "quantidade": 372
+          "quantidade": 362
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 247,
-      "previsao_20_dias": 247,
+      "minimo_alerta": 255,
+      "previsao_20_dias": 255,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 25,
-      "media_diaria_saida": 12.32,
-      "total_saida_historica": 308,
-      "cobertura_dias": 30.2,
+      "media_diaria_saida": 12.72,
+      "total_saida_historica": 318,
+      "cobertura_dias": 28.5,
       "alerta_estoque": false
     },
     {
@@ -16632,6 +16632,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 1763,
+      "item_id": 239,
+      "produto_nome": "Tramadol 50mg/ml 2ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 10,
+      "responsavel": "Leiliana",
+      "data": "2026-09-04",
+      "obs": "",
+      "criado_em": "2026-09-08 15:52:07",
+      "item": "Tramadol 50mg/ml 2ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 1762,
       "item_id": 57,
@@ -24114,21 +24129,6 @@
       "data": "2026-08-29",
       "obs": "",
       "criado_em": "2026-08-31 11:18:25",
-      "item": "Seringa 5ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1264,
-      "item_id": 102,
-      "produto_nome": "Seringa 5ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 60,
-      "responsavel": "Assucena",
-      "data": "2026-08-29",
-      "obs": "",
-      "criado_em": "2026-08-31 11:18:15",
       "item": "Seringa 5ml",
       "usuario": "Assucena"
     }
