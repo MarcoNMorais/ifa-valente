@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "08/09/2026 15:15:06",
+  "atualizado_em": "08/09/2026 15:16:07",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 384,
-    "total_almoxarifado": 85946,
+    "total_almoxarifado": 87546,
     "total_farmacia": 29558,
-    "total_geral": 115504,
+    "total_geral": 117104,
     "perto_de_terminar": 23,
     "zerados": 12
   },
@@ -4463,20 +4463,20 @@
       "nome": "Dexametasona",
       "tipo": "Medicamento",
       "unidade": "Unidade",
-      "almoxarifado": 0,
+      "almoxarifado": 1600,
       "farmacia": 580,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 580,
+      "total": 2180,
       "minimo": 0,
       "validade": "2027-10",
       "lote": "",
-      "origem": "Carga inicial Farmácia",
-      "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-09-04 11:15:30",
+      "origem": "Entrada externa",
+      "obs": "",
+      "atualizado_em": "2026-09-08 15:16:06",
       "validade_mais_proxima": "2027-10",
       "vencimento_mais_proximo": "2027-10",
       "lotes_validade": [
@@ -4485,6 +4485,12 @@
           "validade": "2027-10",
           "lote": "",
           "quantidade": 580
+        },
+        {
+          "local": "almoxarifado",
+          "validade": "",
+          "lote": "",
+          "quantidade": 1600
         }
       ],
       "minimo_manual": 0,
@@ -4494,7 +4500,7 @@
       "dias_historico": 27,
       "media_diaria_saida": 25.56,
       "total_saida_historica": 690,
-      "cobertura_dias": 22.7,
+      "cobertura_dias": 85.3,
       "alerta_estoque": false
     },
     {
@@ -16027,6 +16033,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 1684,
+      "item_id": 68,
+      "produto_nome": "Dexametasona",
+      "tipo": "Entrada no Almoxarifado",
+      "origem": "Entrada externa",
+      "destino": "Almoxarifado",
+      "quantidade": 1600,
+      "responsavel": "Leiliana",
+      "data": "2026-09-04",
+      "obs": "",
+      "criado_em": "2026-09-08 15:16:06",
+      "item": "Dexametasona",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 1683,
       "item_id": 64,
       "produto_nome": "Fosfato de Clindamicina 150mg",
@@ -23508,21 +23529,6 @@
       "data": "2026-08-26",
       "obs": "",
       "criado_em": "2026-08-27 11:40:36",
-      "item": "COLAR CERVICAL ESPUMA M",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1184,
-      "item_id": 371,
-      "produto_nome": "COLAR CERVICAL ESPUMA M",
-      "tipo": "Entrada no Almoxarifado",
-      "origem": "Entrada externa",
-      "destino": "Almoxarifado",
-      "quantidade": 2,
-      "responsavel": "Assucena",
-      "data": "2026-08-26",
-      "obs": "",
-      "criado_em": "2026-08-27 11:40:30",
       "item": "COLAR CERVICAL ESPUMA M",
       "usuario": "Assucena"
     }
