@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "08/09/2026 15:16:24",
+  "atualizado_em": "08/09/2026 15:16:38",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 384,
-    "total_almoxarifado": 87706,
+    "total_almoxarifado": 87786,
     "total_farmacia": 29558,
-    "total_geral": 117264,
+    "total_geral": 117344,
     "perto_de_terminar": 23,
     "zerados": 12
   },
@@ -7535,23 +7535,29 @@
       "nome": "GLICOSE 25% AMP 10ML",
       "tipo": "Medicamento",
       "unidade": "Unidade",
-      "almoxarifado": 0,
+      "almoxarifado": 80,
       "farmacia": 117,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 117,
+      "total": 197,
       "minimo": 50,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-08-27 11:16:06",
+      "atualizado_em": "2026-09-08 15:16:37",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
+        {
+          "local": "almoxarifado",
+          "validade": "",
+          "lote": "",
+          "quantidade": 80
+        },
         {
           "local": "farmacia",
           "validade": "",
@@ -16039,6 +16045,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 1686,
+      "item_id": 351,
+      "produto_nome": "GLICOSE 25% AMP 10ML",
+      "tipo": "Entrada no Almoxarifado",
+      "origem": "Entrada externa",
+      "destino": "Almoxarifado",
+      "quantidade": 80,
+      "responsavel": "Leiliana",
+      "data": "2026-09-04",
+      "obs": "",
+      "criado_em": "2026-09-08 15:16:37",
+      "item": "GLICOSE 25% AMP 10ML",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 1685,
       "item_id": 78,
       "produto_nome": "Furosemida",
@@ -23520,21 +23541,6 @@
       "data": "2026-08-26",
       "obs": "",
       "criado_em": "2026-08-27 11:41:07",
-      "item": "COLAR CERVICAL ESPUMA G",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1186,
-      "item_id": 372,
-      "produto_nome": "COLAR CERVICAL ESPUMA G",
-      "tipo": "Entrada no Almoxarifado",
-      "origem": "Entrada externa",
-      "destino": "Almoxarifado",
-      "quantidade": 2,
-      "responsavel": "Assucena",
-      "data": "2026-08-26",
-      "obs": "",
-      "criado_em": "2026-08-27 11:40:59",
       "item": "COLAR CERVICAL ESPUMA G",
       "usuario": "Assucena"
     }
