@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "08/09/2026 16:50:38",
+  "atualizado_em": "08/09/2026 16:50:49",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 395,
     "total_almoxarifado": 113236,
-    "total_farmacia": 32007,
-    "total_geral": 145243,
+    "total_farmacia": 31987,
+    "total_geral": 145223,
     "perto_de_terminar": 18,
     "zerados": 9
   },
@@ -5239,19 +5239,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 1340,
-      "farmacia": 158,
+      "farmacia": 138,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1498,
+      "total": 1478,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-08 16:39:42",
+      "atualizado_em": "2026-09-08 16:50:46",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -5265,17 +5265,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 158
+          "quantidade": 138
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 363,
-      "previsao_20_dias": 363,
+      "minimo_alerta": 378,
+      "previsao_20_dias": 378,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 27,
-      "media_diaria_saida": 18.15,
-      "total_saida_historica": 490,
-      "cobertura_dias": 82.5,
+      "media_diaria_saida": 18.89,
+      "total_saida_historica": 510,
+      "cobertura_dias": 78.2,
       "alerta_estoque": false
     },
     {
@@ -16620,6 +16620,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 1923,
+      "item_id": 177,
+      "produto_nome": "Dispositivo intravenoso Gelco nº 22",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 20,
+      "responsavel": "Leiliana",
+      "data": "2026-09-04",
+      "obs": "",
+      "criado_em": "2026-09-08 16:50:46",
+      "item": "Dispositivo intravenoso Gelco nº 22",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 1922,
       "item_id": 70,
       "produto_nome": "Dipirona",
@@ -24102,21 +24117,6 @@
       "obs": "",
       "criado_em": "2026-09-01 10:33:19",
       "item": "Omeprazol 20mg comprimido",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1414,
-      "item_id": 38,
-      "produto_nome": "Atensina 0,150mg CPR",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 10,
-      "responsavel": "Assucena",
-      "data": "2026-09-01",
-      "obs": "",
-      "criado_em": "2026-09-01 10:33:08",
-      "item": "Atensina 0,150mg CPR",
       "usuario": "Assucena"
     }
   ]
