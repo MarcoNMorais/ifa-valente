@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "08/09/2026 16:41:14",
+  "atualizado_em": "08/09/2026 16:41:26",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 395,
     "total_almoxarifado": 113349,
-    "total_farmacia": 32331,
-    "total_geral": 145680,
+    "total_farmacia": 32330,
+    "total_geral": 145679,
     "perto_de_terminar": 17,
     "zerados": 8
   },
@@ -7352,19 +7352,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 86,
-      "farmacia": 2,
+      "farmacia": 1,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 88,
+      "total": 87,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-08 16:34:07",
+      "atualizado_em": "2026-09-08 16:41:22",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -7378,7 +7378,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 2
+          "quantidade": 1
         }
       ],
       "minimo_manual": 0,
@@ -7386,9 +7386,9 @@
       "previsao_20_dias": 6,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 27,
-      "media_diaria_saida": 0.26,
-      "total_saida_historica": 7,
-      "cobertura_dias": 339.4,
+      "media_diaria_saida": 0.3,
+      "total_saida_historica": 8,
+      "cobertura_dias": 293.6,
       "alerta_estoque": false
     },
     {
@@ -16627,6 +16627,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 1884,
+      "item_id": 175,
+      "produto_nome": "Fita cirúrgica microporosa",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 1,
+      "responsavel": "Leiliana",
+      "data": "2026-09-04",
+      "obs": "",
+      "criado_em": "2026-09-08 16:41:22",
+      "item": "Fita cirúrgica microporosa",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 1883,
       "item_id": 181,
       "produto_nome": "Luva de látex tam. M",
@@ -24109,21 +24124,6 @@
       "obs": "",
       "criado_em": "2026-08-31 16:30:21",
       "item": "Ampicilina",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 1383,
-      "item_id": 104,
-      "produto_nome": "Seringa 3ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 30,
-      "responsavel": "Leiliana",
-      "data": "2026-08-31",
-      "obs": "",
-      "criado_em": "2026-08-31 16:30:02",
-      "item": "Seringa 3ml",
       "usuario": "Leiliana"
     }
   ]
