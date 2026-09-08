@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "08/09/2026 15:36:37",
+  "atualizado_em": "08/09/2026 15:36:47",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
-    "itens": 391,
-    "total_almoxarifado": 100996,
+    "itens": 392,
+    "total_almoxarifado": 101156,
     "total_farmacia": 29558,
-    "total_geral": 130554,
+    "total_geral": 130714,
     "perto_de_terminar": 16,
     "zerados": 9
   },
@@ -4502,6 +4502,46 @@
       "media_diaria_saida": 4.44,
       "total_saida_historica": 120,
       "cobertura_dias": 90.0,
+      "alerta_estoque": false
+    },
+    {
+      "id": 392,
+      "produto_id": 393,
+      "nome": "COMPRESSA DE GAZES",
+      "tipo": "Material",
+      "unidade": "Unidade",
+      "almoxarifado": 160,
+      "farmacia": 0,
+      "sala_medicacoes": 0,
+      "internamento": 0,
+      "sala_cirurgica": 0,
+      "baixa": 0,
+      "outro": 0,
+      "total": 160,
+      "minimo": 0,
+      "validade": "",
+      "lote": "",
+      "origem": "Entrada externa",
+      "obs": "",
+      "atualizado_em": "2026-09-08 15:36:41",
+      "validade_mais_proxima": "",
+      "vencimento_mais_proximo": "",
+      "lotes_validade": [
+        {
+          "local": "almoxarifado",
+          "validade": "",
+          "lote": "",
+          "quantidade": 160
+        }
+      ],
+      "minimo_manual": 0,
+      "minimo_alerta": 0,
+      "previsao_20_dias": 0,
+      "criterio_alerta": "estoque_minimo_manual_inicio",
+      "dias_historico": 5,
+      "media_diaria_saida": 0.0,
+      "total_saida_historica": 0,
+      "cobertura_dias": null,
       "alerta_estoque": false
     },
     {
@@ -16436,6 +16476,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 1724,
+      "item_id": 392,
+      "produto_nome": "COMPRESSA DE GAZES",
+      "tipo": "Entrada no Almoxarifado",
+      "origem": "Entrada externa",
+      "destino": "Almoxarifado",
+      "quantidade": 160,
+      "responsavel": "Leiliana",
+      "data": "2026-09-04",
+      "obs": "",
+      "criado_em": "2026-09-08 15:36:41",
+      "item": "COMPRESSA DE GAZES",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 1723,
       "item_id": 155,
       "produto_nome": "Bolsa coletora",
@@ -23918,21 +23973,6 @@
       "obs": "",
       "criado_em": "2026-08-28 10:55:41",
       "item": "Lidocaína Gel",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1224,
-      "item_id": 230,
-      "produto_nome": "Ferropurum 20mg/ml",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 4,
-      "responsavel": "Assucena",
-      "data": "2026-08-27",
-      "obs": "",
-      "criado_em": "2026-08-28 10:55:22",
-      "item": "Ferropurum 20mg/ml",
       "usuario": "Assucena"
     }
   ]
