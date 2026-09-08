@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "08/09/2026 16:37:18",
+  "atualizado_em": "08/09/2026 16:37:29",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 395,
     "total_almoxarifado": 113849,
-    "total_farmacia": 32306,
-    "total_geral": 146155,
+    "total_farmacia": 32296,
+    "total_geral": 146145,
     "perto_de_terminar": 17,
     "zerados": 8
   },
@@ -453,19 +453,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 310,
+      "farmacia": 300,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 310,
+      "total": 300,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-08 15:52:48",
+      "atualizado_em": "2026-09-08 16:37:28",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -473,7 +473,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 310
+          "quantidade": 300
         }
       ],
       "minimo_manual": 0,
@@ -481,9 +481,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 5,
-      "media_diaria_saida": 2.0,
-      "total_saida_historica": 10,
-      "cobertura_dias": 155.0,
+      "media_diaria_saida": 4.0,
+      "total_saida_historica": 20,
+      "cobertura_dias": 75.0,
       "alerta_estoque": false
     },
     {
@@ -16621,6 +16621,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 1865,
+      "item_id": 382,
+      "produto_nome": "AGUA P/ INJ",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 10,
+      "responsavel": "Leiliana",
+      "data": "2026-09-04",
+      "obs": "",
+      "criado_em": "2026-09-08 16:37:28",
+      "item": "AGUA P/ INJ",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 1864,
       "item_id": 70,
       "produto_nome": "Dipirona",
@@ -24103,21 +24118,6 @@
       "obs": "",
       "criado_em": "2026-08-31 11:44:48",
       "item": "Furosemida",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1364,
-      "item_id": 57,
-      "produto_nome": "Bromoprida 5mg",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 20,
-      "responsavel": "Assucena",
-      "data": "2026-08-31",
-      "obs": "",
-      "criado_em": "2026-08-31 11:44:38",
-      "item": "Bromoprida 5mg",
       "usuario": "Assucena"
     }
   ]
