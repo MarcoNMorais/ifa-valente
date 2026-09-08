@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "08/09/2026 16:46:37",
+  "atualizado_em": "08/09/2026 16:46:48",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 395,
     "total_almoxarifado": 113325,
-    "total_farmacia": 32077,
-    "total_geral": 145402,
+    "total_farmacia": 32075,
+    "total_geral": 145400,
     "perto_de_terminar": 18,
     "zerados": 9
   },
@@ -9638,19 +9638,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 56,
-      "farmacia": 84,
+      "farmacia": 82,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 140,
+      "total": 138,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-08 16:42:05",
+      "atualizado_em": "2026-09-08 16:46:45",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -9664,16 +9664,16 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 84
+          "quantidade": 82
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 605,
-      "previsao_20_dias": 605,
+      "minimo_alerta": 606,
+      "previsao_20_dias": 606,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 27,
-      "media_diaria_saida": 30.22,
-      "total_saida_historica": 816,
+      "media_diaria_saida": 30.3,
+      "total_saida_historica": 818,
       "cobertura_dias": 4.6,
       "alerta_estoque": true
     },
@@ -16625,6 +16625,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 1910,
+      "item_id": 180,
+      "produto_nome": "Luva de látex tam. P",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 2,
+      "responsavel": "Leiliana",
+      "data": "2026-09-04",
+      "obs": "",
+      "criado_em": "2026-09-08 16:46:45",
+      "item": "Luva de látex tam. P",
+      "usuario": "Leiliana"
+    },
     {
       "id": 1909,
       "item_id": 215,
@@ -24108,21 +24123,6 @@
       "obs": "",
       "criado_em": "2026-09-01 10:23:49",
       "item": "Cetoprofeno IM 50mg",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1399,
-      "item_id": 68,
-      "produto_nome": "Dexametasona",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 30,
-      "responsavel": "Assucena",
-      "data": "2026-09-01",
-      "obs": "",
-      "criado_em": "2026-09-01 10:23:40",
-      "item": "Dexametasona",
       "usuario": "Assucena"
     }
   ]
