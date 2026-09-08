@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "08/09/2026 15:18:31",
+  "atualizado_em": "08/09/2026 15:19:11",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 384,
-    "total_almoxarifado": 88546,
+    "total_almoxarifado": 88554,
     "total_farmacia": 29558,
-    "total_geral": 118104,
+    "total_geral": 118112,
     "perto_de_terminar": 20,
     "zerados": 10
   },
@@ -8826,20 +8826,20 @@
       "nome": "Lidocaína Gel",
       "tipo": "Medicamento",
       "unidade": "Unidade",
-      "almoxarifado": 0,
+      "almoxarifado": 8,
       "farmacia": 22,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 22,
+      "total": 30,
       "minimo": 0,
       "validade": "2027-04",
       "lote": "",
-      "origem": "Carga inicial Farmácia",
-      "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-09-01 11:46:37",
+      "origem": "Entrada externa",
+      "obs": "",
+      "atualizado_em": "2026-09-08 15:19:11",
       "validade_mais_proxima": "2027-04",
       "vencimento_mais_proximo": "2027-04",
       "lotes_validade": [
@@ -8848,6 +8848,12 @@
           "validade": "2027-04",
           "lote": "",
           "quantidade": 22
+        },
+        {
+          "local": "almoxarifado",
+          "validade": "",
+          "lote": "",
+          "quantidade": 8
         }
       ],
       "minimo_manual": 0,
@@ -8857,7 +8863,7 @@
       "dias_historico": 27,
       "media_diaria_saida": 0.22,
       "total_saida_historica": 6,
-      "cobertura_dias": 99.0,
+      "cobertura_dias": 135.0,
       "alerta_estoque": false
     },
     {
@@ -16082,6 +16088,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 1693,
+      "item_id": 85,
+      "produto_nome": "Lidocaína Gel",
+      "tipo": "Entrada no Almoxarifado",
+      "origem": "Entrada externa",
+      "destino": "Almoxarifado",
+      "quantidade": 8,
+      "responsavel": "Leiliana",
+      "data": "2026-09-04",
+      "obs": "",
+      "criado_em": "2026-09-08 15:19:11",
+      "item": "Lidocaína Gel",
+      "usuario": "Leiliana"
+    },
     {
       "id": 1692,
       "item_id": 84,
@@ -23565,21 +23586,6 @@
       "obs": "",
       "criado_em": "2026-08-27 16:26:04",
       "item": "LENÇOL DESCARTAVEL PAPEL",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1193,
-      "item_id": 375,
-      "produto_nome": "ESPECULO TAM G",
-      "tipo": "Almoxarifado para Farmácia",
-      "origem": "Almoxarifado",
-      "destino": "Farmácia",
-      "quantidade": 7,
-      "responsavel": "Assucena",
-      "data": "2026-08-26",
-      "obs": "",
-      "criado_em": "2026-08-27 11:45:12",
-      "item": "ESPECULO TAM G",
       "usuario": "Assucena"
     }
   ]
