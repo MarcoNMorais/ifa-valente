@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "08/09/2026 16:51:37",
+  "atualizado_em": "08/09/2026 16:51:47",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 395,
     "total_almoxarifado": 113236,
-    "total_farmacia": 31797,
-    "total_geral": 145033,
+    "total_farmacia": 31787,
+    "total_geral": 145023,
     "perto_de_terminar": 18,
     "zerados": 9
   },
@@ -447,19 +447,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 300,
+      "farmacia": 290,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 300,
+      "total": 290,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-08 16:37:28",
+      "atualizado_em": "2026-09-08 16:51:45",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -467,7 +467,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 300
+          "quantidade": 290
         }
       ],
       "minimo_manual": 0,
@@ -475,9 +475,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 5,
-      "media_diaria_saida": 4.0,
-      "total_saida_historica": 20,
-      "cobertura_dias": 75.0,
+      "media_diaria_saida": 6.0,
+      "total_saida_historica": 30,
+      "cobertura_dias": 48.3,
       "alerta_estoque": false
     },
     {
@@ -16620,6 +16620,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 1928,
+      "item_id": 382,
+      "produto_nome": "AGUA P/ INJ",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 10,
+      "responsavel": "Leiliana",
+      "data": "2026-09-04",
+      "obs": "",
+      "criado_em": "2026-09-08 16:51:45",
+      "item": "AGUA P/ INJ",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 1927,
       "item_id": 289,
       "produto_nome": "Agulha 25x8",
@@ -24102,21 +24117,6 @@
       "obs": "",
       "criado_em": "2026-09-01 10:34:41",
       "item": "Seringa 3ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1419,
-      "item_id": 102,
-      "produto_nome": "Seringa 5ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 20,
-      "responsavel": "Assucena",
-      "data": "2026-09-01",
-      "obs": "",
-      "criado_em": "2026-09-01 10:34:32",
-      "item": "Seringa 5ml",
       "usuario": "Assucena"
     }
   ]
