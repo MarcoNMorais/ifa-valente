@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "08/09/2026 14:55:40",
+  "atualizado_em": "08/09/2026 14:55:52",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
-    "itens": 378,
-    "total_almoxarifado": 79440,
+    "itens": 379,
+    "total_almoxarifado": 79470,
     "total_farmacia": 29558,
-    "total_geral": 108998,
+    "total_geral": 109028,
     "perto_de_terminar": 36,
     "zerados": 19
   },
@@ -10216,6 +10216,46 @@
       "alerta_estoque": false
     },
     {
+      "id": 379,
+      "produto_id": 380,
+      "nome": "NIMESULIDA COMP",
+      "tipo": "Medicamento",
+      "unidade": "Unidade",
+      "almoxarifado": 30,
+      "farmacia": 0,
+      "sala_medicacoes": 0,
+      "internamento": 0,
+      "sala_cirurgica": 0,
+      "baixa": 0,
+      "outro": 0,
+      "total": 30,
+      "minimo": 0,
+      "validade": "",
+      "lote": "",
+      "origem": "Entrada externa",
+      "obs": "",
+      "atualizado_em": "2026-09-08 14:55:47",
+      "validade_mais_proxima": "",
+      "vencimento_mais_proximo": "",
+      "lotes_validade": [
+        {
+          "local": "almoxarifado",
+          "validade": "",
+          "lote": "",
+          "quantidade": 30
+        }
+      ],
+      "minimo_manual": 0,
+      "minimo_alerta": 0,
+      "previsao_20_dias": 0,
+      "criterio_alerta": "estoque_minimo_manual_inicio",
+      "dias_historico": 5,
+      "media_diaria_saida": 0.0,
+      "total_saida_historica": 0,
+      "cobertura_dias": null,
+      "alerta_estoque": false
+    },
+    {
       "id": 250,
       "produto_id": 250,
       "nome": "Nistatina suspensão",
@@ -15647,6 +15687,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 1656,
+      "item_id": 379,
+      "produto_nome": "NIMESULIDA COMP",
+      "tipo": "Entrada no Almoxarifado",
+      "origem": "Entrada externa",
+      "destino": "Almoxarifado",
+      "quantidade": 30,
+      "responsavel": "Leiliana",
+      "data": "2026-09-04",
+      "obs": "",
+      "criado_em": "2026-09-08 14:55:47",
+      "item": "NIMESULIDA COMP",
+      "usuario": "Leiliana"
+    },
     {
       "id": 1655,
       "item_id": 134,
@@ -23129,21 +23184,6 @@
       "data": "2026-08-26",
       "obs": "",
       "criado_em": "2026-08-27 11:26:48",
-      "item": "GLICOSIMETRO GTECH FREE",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1156,
-      "item_id": 357,
-      "produto_nome": "GLICOSIMETRO GTECH FREE",
-      "tipo": "Entrada no Almoxarifado",
-      "origem": "Entrada externa",
-      "destino": "Almoxarifado",
-      "quantidade": 4,
-      "responsavel": "Assucena",
-      "data": "2026-08-26",
-      "obs": "",
-      "criado_em": "2026-08-27 11:26:40",
       "item": "GLICOSIMETRO GTECH FREE",
       "usuario": "Assucena"
     }
