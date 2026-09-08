@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "08/09/2026 14:55:52",
+  "atualizado_em": "08/09/2026 14:56:06",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 379,
-    "total_almoxarifado": 79470,
+    "total_almoxarifado": 79475,
     "total_farmacia": 29558,
-    "total_geral": 109028,
+    "total_geral": 109033,
     "perto_de_terminar": 36,
     "zerados": 19
   },
@@ -10261,20 +10261,20 @@
       "nome": "Nistatina suspensão",
       "tipo": "Medicamento",
       "unidade": "Unidade",
-      "almoxarifado": 0,
+      "almoxarifado": 5,
       "farmacia": 3,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 3,
+      "total": 8,
       "minimo": 0,
       "validade": "07/27",
       "lote": "",
-      "origem": "Carga Farmácia 227-288",
-      "obs": "Importação Farmácia 227-288",
-      "atualizado_em": "2026-08-25 16:12:46",
+      "origem": "Entrada externa",
+      "obs": "",
+      "atualizado_em": "2026-09-08 14:56:05",
       "validade_mais_proxima": "07/27",
       "vencimento_mais_proximo": "07/27",
       "lotes_validade": [
@@ -10283,6 +10283,12 @@
           "validade": "07/27",
           "lote": "",
           "quantidade": 3
+        },
+        {
+          "local": "almoxarifado",
+          "validade": "",
+          "lote": "",
+          "quantidade": 5
         }
       ],
       "minimo_manual": 0,
@@ -15687,6 +15693,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 1657,
+      "item_id": 250,
+      "produto_nome": "Nistatina suspensão",
+      "tipo": "Entrada no Almoxarifado",
+      "origem": "Entrada externa",
+      "destino": "Almoxarifado",
+      "quantidade": 5,
+      "responsavel": "Leiliana",
+      "data": "2026-09-04",
+      "obs": "",
+      "criado_em": "2026-09-08 14:56:05",
+      "item": "Nistatina suspensão",
+      "usuario": "Leiliana"
+    },
     {
       "id": 1656,
       "item_id": 379,
@@ -23170,21 +23191,6 @@
       "obs": "",
       "criado_em": "2026-08-27 11:27:16",
       "item": "GLICOSIMETRO GTECH LITE",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1157,
-      "item_id": 357,
-      "produto_nome": "GLICOSIMETRO GTECH FREE",
-      "tipo": "Almoxarifado para Farmácia",
-      "origem": "Almoxarifado",
-      "destino": "Farmácia",
-      "quantidade": 4,
-      "responsavel": "Assucena",
-      "data": "2026-08-26",
-      "obs": "",
-      "criado_em": "2026-08-27 11:26:48",
-      "item": "GLICOSIMETRO GTECH FREE",
       "usuario": "Assucena"
     }
   ]
