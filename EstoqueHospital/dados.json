@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "08/09/2026 16:30:35",
+  "atualizado_em": "08/09/2026 16:30:46",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 395,
     "total_almoxarifado": 114421,
-    "total_farmacia": 31985,
-    "total_geral": 146406,
+    "total_farmacia": 31955,
+    "total_geral": 146376,
     "perto_de_terminar": 15,
     "zerados": 8
   },
@@ -11436,19 +11436,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 540,
+      "farmacia": 510,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 540,
+      "total": 510,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-08 15:51:21",
+      "atualizado_em": "2026-09-08 16:30:45",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -11456,17 +11456,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 540
+          "quantidade": 510
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 350,
-      "previsao_20_dias": 350,
+      "minimo_alerta": 375,
+      "previsao_20_dias": 375,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 24,
-      "media_diaria_saida": 17.5,
-      "total_saida_historica": 420,
-      "cobertura_dias": 30.9,
+      "media_diaria_saida": 18.75,
+      "total_saida_historica": 450,
+      "cobertura_dias": 27.2,
       "alerta_estoque": false
     },
     {
@@ -16626,6 +16626,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 1846,
+      "item_id": 238,
+      "produto_nome": "Ondansetrona 2mg/ml 2ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 30,
+      "responsavel": "Leiliana",
+      "data": "2026-09-04",
+      "obs": "",
+      "criado_em": "2026-09-08 16:30:45",
+      "item": "Ondansetrona 2mg/ml 2ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 1845,
       "item_id": 203,
@@ -24109,21 +24124,6 @@
       "obs": "",
       "criado_em": "2026-08-31 11:41:18",
       "item": "Scalp nº 21",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1345,
-      "item_id": 138,
-      "produto_nome": "Captopril 25mg CPR",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 20,
-      "responsavel": "Assucena",
-      "data": "2026-08-31",
-      "obs": "",
-      "criado_em": "2026-08-31 11:41:09",
-      "item": "Captopril 25mg CPR",
       "usuario": "Assucena"
     }
   ]
