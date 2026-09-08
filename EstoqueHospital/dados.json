@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "08/09/2026 15:26:38",
+  "atualizado_em": "08/09/2026 15:26:49",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
-    "itens": 387,
-    "total_almoxarifado": 90794,
+    "itens": 388,
+    "total_almoxarifado": 90874,
     "total_farmacia": 29558,
-    "total_geral": 120352,
+    "total_geral": 120432,
     "perto_de_terminar": 18,
     "zerados": 9
   },
@@ -4729,6 +4729,46 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 27,
+      "media_diaria_saida": 0.0,
+      "total_saida_historica": 0,
+      "cobertura_dias": null,
+      "alerta_estoque": false
+    },
+    {
+      "id": 388,
+      "produto_id": 389,
+      "nome": "DIAZEPAN 10MG",
+      "tipo": "Medicamento",
+      "unidade": "Unidade",
+      "almoxarifado": 80,
+      "farmacia": 0,
+      "sala_medicacoes": 0,
+      "internamento": 0,
+      "sala_cirurgica": 0,
+      "baixa": 0,
+      "outro": 0,
+      "total": 80,
+      "minimo": 0,
+      "validade": "",
+      "lote": "",
+      "origem": "Entrada externa",
+      "obs": "",
+      "atualizado_em": "2026-09-08 15:26:43",
+      "validade_mais_proxima": "",
+      "vencimento_mais_proximo": "",
+      "lotes_validade": [
+        {
+          "local": "almoxarifado",
+          "validade": "",
+          "lote": "",
+          "quantidade": 80
+        }
+      ],
+      "minimo_manual": 0,
+      "minimo_alerta": 0,
+      "previsao_20_dias": 0,
+      "criterio_alerta": "estoque_minimo_manual_inicio",
+      "dias_historico": 5,
       "media_diaria_saida": 0.0,
       "total_saida_historica": 0,
       "cobertura_dias": null,
@@ -16246,6 +16286,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 1706,
+      "item_id": 388,
+      "produto_nome": "DIAZEPAN 10MG",
+      "tipo": "Entrada no Almoxarifado",
+      "origem": "Entrada externa",
+      "destino": "Almoxarifado",
+      "quantidade": 80,
+      "responsavel": "Leiliana",
+      "data": "2026-09-04",
+      "obs": "",
+      "criado_em": "2026-09-08 15:26:43",
+      "item": "DIAZEPAN 10MG",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 1705,
       "item_id": 125,
       "produto_nome": "Diazepam 5mg CPR",
@@ -23728,21 +23783,6 @@
       "obs": "",
       "criado_em": "2026-08-28 10:51:41",
       "item": "Soro fisiológico 100ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1206,
-      "item_id": 59,
-      "produto_nome": "Ceftriaxona 1g",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 26,
-      "responsavel": "Assucena",
-      "data": "2026-08-27",
-      "obs": "SAIDA PARA INTERNAMENTO + AJUSTE DE ESTOQUE ",
-      "criado_em": "2026-08-28 10:27:18",
-      "item": "Ceftriaxona 1g",
       "usuario": "Assucena"
     }
   ]
