@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "08/09/2026 16:26:11",
+  "atualizado_em": "08/09/2026 16:26:22",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 395,
     "total_almoxarifado": 114461,
-    "total_farmacia": 32245,
-    "total_geral": 146706,
+    "total_farmacia": 32195,
+    "total_geral": 146656,
     "perto_de_terminar": 15,
     "zerados": 8
   },
@@ -751,19 +751,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 16600,
-      "farmacia": 600,
+      "farmacia": 550,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 17200,
+      "total": 17150,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga Almoxerifado",
       "obs": "Importação Almoxerifado",
-      "atualizado_em": "2026-09-04 11:24:14",
+      "atualizado_em": "2026-09-08 16:26:19",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -777,17 +777,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 600
+          "quantidade": 550
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 0,
-      "previsao_20_dias": 0,
+      "minimo_alerta": 46,
+      "previsao_20_dias": 46,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 22,
-      "media_diaria_saida": 0.0,
-      "total_saida_historica": 0,
-      "cobertura_dias": null,
+      "media_diaria_saida": 2.27,
+      "total_saida_historica": 50,
+      "cobertura_dias": 7546.0,
       "alerta_estoque": false
     },
     {
@@ -16633,6 +16633,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 1827,
+      "item_id": 331,
+      "produto_nome": "Agulha 30x8",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 50,
+      "responsavel": "Leiliana",
+      "data": "2026-09-04",
+      "obs": "",
+      "criado_em": "2026-09-08 16:26:19",
+      "item": "Agulha 30x8",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 1826,
       "item_id": 285,
       "produto_nome": "Agulha 30x7",
@@ -24115,21 +24130,6 @@
       "obs": "",
       "criado_em": "2026-08-31 11:25:16",
       "item": "Sulfato de Gentamicina 40mg",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1280,
-      "item_id": 58,
-      "produto_nome": "Cefalotina 1000mg",
-      "tipo": "Baixa Farmácia",
-      "origem": "Farmácia",
-      "destino": "Baixa/Perda/Vencimento",
-      "quantidade": 14,
-      "responsavel": "Assucena",
-      "data": "2026-08-31",
-      "obs": "",
-      "criado_em": "2026-08-31 11:24:25",
-      "item": "Cefalotina 1000mg",
       "usuario": "Assucena"
     }
   ]
