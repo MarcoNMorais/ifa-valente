@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "08/09/2026 14:51:20",
+  "atualizado_em": "08/09/2026 14:51:36",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
-    "total_almoxarifado": 79011,
+    "total_almoxarifado": 79041,
     "total_farmacia": 29558,
-    "total_geral": 108569,
+    "total_geral": 108599,
     "perto_de_terminar": 37,
     "zerados": 20
   },
@@ -5683,20 +5683,20 @@
       "nome": "Espironolactona 25mg",
       "tipo": "Medicamento",
       "unidade": "Unidade",
-      "almoxarifado": 0,
+      "almoxarifado": 30,
       "farmacia": 90,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 90,
+      "total": 120,
       "minimo": 0,
       "validade": "2027-04",
       "lote": "",
-      "origem": "Carga inicial Farmácia",
-      "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-25 16:12:46",
+      "origem": "Entrada externa",
+      "obs": "",
+      "atualizado_em": "2026-09-08 14:51:35",
       "validade_mais_proxima": "2027-04",
       "vencimento_mais_proximo": "2027-04",
       "lotes_validade": [
@@ -5705,6 +5705,12 @@
           "validade": "2027-04",
           "lote": "",
           "quantidade": 90
+        },
+        {
+          "local": "almoxarifado",
+          "validade": "",
+          "lote": "",
+          "quantidade": 30
         }
       ],
       "minimo_manual": 0,
@@ -15519,6 +15525,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 1646,
+      "item_id": 39,
+      "produto_nome": "Espironolactona 25mg",
+      "tipo": "Entrada no Almoxarifado",
+      "origem": "Entrada externa",
+      "destino": "Almoxarifado",
+      "quantidade": 30,
+      "responsavel": "Leiliana",
+      "data": "2026-09-04",
+      "obs": "",
+      "criado_em": "2026-09-08 14:51:35",
+      "item": "Espironolactona 25mg",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 1645,
       "item_id": 28,
       "produto_nome": "Dipirona 500mg",
@@ -23000,21 +23021,6 @@
       "data": "2026-08-26",
       "obs": "",
       "criado_em": "2026-08-27 11:19:26",
-      "item": "GEL ULTRA CONDUTOR",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1146,
-      "item_id": 353,
-      "produto_nome": "GEL ULTRA CONDUTOR",
-      "tipo": "Entrada no Almoxarifado",
-      "origem": "Entrada externa",
-      "destino": "Almoxarifado",
-      "quantidade": 1,
-      "responsavel": "Assucena",
-      "data": "2026-08-26",
-      "obs": "",
-      "criado_em": "2026-08-27 11:19:20",
       "item": "GEL ULTRA CONDUTOR",
       "usuario": "Assucena"
     }
