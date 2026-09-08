@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "08/09/2026 16:33:35",
+  "atualizado_em": "08/09/2026 16:33:46",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 395,
     "total_almoxarifado": 114181,
-    "total_farmacia": 32175,
-    "total_geral": 146356,
+    "total_farmacia": 32165,
+    "total_geral": 146346,
     "perto_de_terminar": 15,
     "zerados": 8
   },
@@ -15946,19 +15946,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 362,
+      "farmacia": 352,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 362,
+      "total": 352,
       "minimo": 0,
       "validade": "12/27",
       "lote": "",
       "origem": "Carga Farmácia 227-288",
       "obs": "Importação Farmácia 227-288",
-      "atualizado_em": "2026-09-08 15:52:07",
+      "atualizado_em": "2026-09-08 16:33:45",
       "validade_mais_proxima": "12/27",
       "vencimento_mais_proximo": "12/27",
       "lotes_validade": [
@@ -15966,17 +15966,17 @@
           "local": "farmacia",
           "validade": "12/27",
           "lote": "",
-          "quantidade": 362
+          "quantidade": 352
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 255,
-      "previsao_20_dias": 255,
+      "minimo_alerta": 263,
+      "previsao_20_dias": 263,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 25,
-      "media_diaria_saida": 12.72,
-      "total_saida_historica": 318,
-      "cobertura_dias": 28.5,
+      "media_diaria_saida": 13.12,
+      "total_saida_historica": 328,
+      "cobertura_dias": 26.8,
       "alerta_estoque": false
     },
     {
@@ -16626,6 +16626,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 1850,
+      "item_id": 239,
+      "produto_nome": "Tramadol 50mg/ml 2ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 10,
+      "responsavel": "Leiliana",
+      "data": "2026-09-04",
+      "obs": "",
+      "criado_em": "2026-09-08 16:33:45",
+      "item": "Tramadol 50mg/ml 2ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 1849,
       "item_id": 387,
@@ -24109,21 +24124,6 @@
       "obs": "",
       "criado_em": "2026-08-31 11:42:02",
       "item": "LENÇOL DESCARTAVEL PAPEL",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1349,
-      "item_id": 176,
-      "produto_nome": "Dispositivo intravenoso Gelco nº 24",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 20,
-      "responsavel": "Assucena",
-      "data": "2026-08-31",
-      "obs": "",
-      "criado_em": "2026-08-31 11:41:49",
-      "item": "Dispositivo intravenoso Gelco nº 24",
       "usuario": "Assucena"
     }
   ]
