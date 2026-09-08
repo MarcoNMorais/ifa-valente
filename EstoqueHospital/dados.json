@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "08/09/2026 16:07:02",
+  "atualizado_em": "08/09/2026 16:07:22",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 395,
-    "total_almoxarifado": 115980,
-    "total_farmacia": 31150,
+    "total_almoxarifado": 115971,
+    "total_farmacia": 31159,
     "total_geral": 147130,
     "perto_de_terminar": 15,
     "zerados": 8
@@ -11309,8 +11309,8 @@
       "nome": "OLEO MINERAL",
       "tipo": "Medicamento",
       "unidade": "Unidade",
-      "almoxarifado": 9,
-      "farmacia": 0,
+      "almoxarifado": 0,
+      "farmacia": 9,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -11322,12 +11322,12 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-08 14:56:37",
+      "atualizado_em": "2026-09-08 16:07:22",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
         {
-          "local": "almoxarifado",
+          "local": "farmacia",
           "validade": "",
           "lote": "",
           "quantidade": 9
@@ -16632,6 +16632,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 1805,
+      "item_id": 380,
+      "produto_nome": "OLEO MINERAL",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 9,
+      "responsavel": "Leiliana",
+      "data": "2026-09-04",
+      "obs": "",
+      "criado_em": "2026-09-08 16:07:22",
+      "item": "OLEO MINERAL",
+      "usuario": "Leiliana"
+    },
     {
       "id": 1804,
       "item_id": 241,
@@ -24114,21 +24129,6 @@
       "data": "2026-08-30",
       "obs": "",
       "criado_em": "2026-08-31 11:30:42",
-      "item": "Cetoprofeno EV 100mg",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1308,
-      "item_id": 60,
-      "produto_nome": "Cetoprofeno EV 100mg",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 10,
-      "responsavel": "Assucena",
-      "data": "2026-08-30",
-      "obs": "",
-      "criado_em": "2026-08-31 11:30:34",
       "item": "Cetoprofeno EV 100mg",
       "usuario": "Assucena"
     }
