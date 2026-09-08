@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "08/09/2026 16:38:48",
+  "atualizado_em": "08/09/2026 16:39:18",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 395,
-    "total_almoxarifado": 113849,
-    "total_farmacia": 32093,
+    "total_almoxarifado": 113349,
+    "total_farmacia": 32593,
     "total_geral": 145942,
     "perto_de_terminar": 17,
     "zerados": 8
@@ -618,8 +618,8 @@
       "nome": "Agulha 25x7",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 900,
-      "farmacia": 0,
+      "almoxarifado": 400,
+      "farmacia": 500,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -631,7 +631,7 @@
       "lote": "",
       "origem": "Carga Almoxerifado",
       "obs": "Importação Almoxerifado",
-      "atualizado_em": "2026-08-25 16:12:46",
+      "atualizado_em": "2026-09-08 16:39:17",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -639,7 +639,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 900
+          "quantidade": 400
+        },
+        {
+          "local": "farmacia",
+          "validade": "",
+          "lote": "",
+          "quantidade": 500
         }
       ],
       "minimo_manual": 0,
@@ -16621,6 +16627,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 1873,
+      "item_id": 319,
+      "produto_nome": "Agulha 25x7",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 500,
+      "responsavel": "Leiliana",
+      "data": "2026-09-04",
+      "obs": "",
+      "criado_em": "2026-09-08 16:39:17",
+      "item": "Agulha 25x7",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 1872,
       "item_id": 331,
       "produto_nome": "Agulha 30x8",
@@ -24103,21 +24124,6 @@
       "obs": "",
       "criado_em": "2026-08-31 11:46:21",
       "item": "Metronidazol 100ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1372,
-      "item_id": 275,
-      "produto_nome": "Equipo micro",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 25,
-      "responsavel": "Assucena",
-      "data": "2026-08-31",
-      "obs": "",
-      "criado_em": "2026-08-31 11:46:08",
-      "item": "Equipo micro",
       "usuario": "Assucena"
     }
   ]
