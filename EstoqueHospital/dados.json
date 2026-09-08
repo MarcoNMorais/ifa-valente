@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "08/09/2026 16:37:07",
+  "atualizado_em": "08/09/2026 16:37:18",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 395,
     "total_almoxarifado": 113849,
-    "total_farmacia": 32356,
-    "total_geral": 146205,
+    "total_farmacia": 32306,
+    "total_geral": 146155,
     "perto_de_terminar": 17,
     "zerados": 8
   },
@@ -5021,19 +5021,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 1600,
-      "farmacia": 250,
+      "farmacia": 200,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1850,
+      "total": 1800,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-08 16:33:56",
+      "atualizado_em": "2026-09-08 16:37:17",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -5047,17 +5047,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 250
+          "quantidade": 200
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 912,
-      "previsao_20_dias": 912,
+      "minimo_alerta": 949,
+      "previsao_20_dias": 949,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 27,
-      "media_diaria_saida": 45.56,
-      "total_saida_historica": 1230,
-      "cobertura_dias": 40.6,
+      "media_diaria_saida": 47.41,
+      "total_saida_historica": 1280,
+      "cobertura_dias": 38.0,
       "alerta_estoque": false
     },
     {
@@ -16621,6 +16621,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 1864,
+      "item_id": 70,
+      "produto_nome": "Dipirona",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 50,
+      "responsavel": "Leiliana",
+      "data": "2026-09-04",
+      "obs": "",
+      "criado_em": "2026-09-08 16:37:17",
+      "item": "Dipirona",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 1863,
       "item_id": 216,
       "produto_nome": "Fio agulhado / sutura nº 3",
@@ -24103,21 +24118,6 @@
       "obs": "",
       "criado_em": "2026-08-31 11:44:38",
       "item": "Bromoprida 5mg",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1363,
-      "item_id": 70,
-      "produto_nome": "Dipirona",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 20,
-      "responsavel": "Assucena",
-      "data": "2026-08-31",
-      "obs": "",
-      "criado_em": "2026-08-31 11:44:29",
-      "item": "Dipirona",
       "usuario": "Assucena"
     }
   ]
