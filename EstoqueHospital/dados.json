@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "08/09/2026 16:45:27",
+  "atualizado_em": "08/09/2026 16:45:38",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 395,
     "total_almoxarifado": 113349,
-    "total_farmacia": 32131,
-    "total_geral": 145480,
+    "total_farmacia": 32121,
+    "total_geral": 145470,
     "perto_de_terminar": 17,
     "zerados": 8
   },
@@ -15946,19 +15946,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 352,
+      "farmacia": 342,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 352,
+      "total": 342,
       "minimo": 0,
       "validade": "12/27",
       "lote": "",
       "origem": "Carga Farmácia 227-288",
       "obs": "Importação Farmácia 227-288",
-      "atualizado_em": "2026-09-08 16:33:45",
+      "atualizado_em": "2026-09-08 16:45:36",
       "validade_mais_proxima": "12/27",
       "vencimento_mais_proximo": "12/27",
       "lotes_validade": [
@@ -15966,17 +15966,17 @@
           "local": "farmacia",
           "validade": "12/27",
           "lote": "",
-          "quantidade": 352
+          "quantidade": 342
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 263,
-      "previsao_20_dias": 263,
+      "minimo_alerta": 271,
+      "previsao_20_dias": 271,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 25,
-      "media_diaria_saida": 13.12,
-      "total_saida_historica": 328,
-      "cobertura_dias": 26.8,
+      "media_diaria_saida": 13.52,
+      "total_saida_historica": 338,
+      "cobertura_dias": 25.3,
       "alerta_estoque": false
     },
     {
@@ -16626,6 +16626,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 1905,
+      "item_id": 239,
+      "produto_nome": "Tramadol 50mg/ml 2ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 10,
+      "responsavel": "Leiliana",
+      "data": "2026-09-04",
+      "obs": "",
+      "criado_em": "2026-09-08 16:45:36",
+      "item": "Tramadol 50mg/ml 2ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 1904,
       "item_id": 61,
@@ -24109,21 +24124,6 @@
       "obs": "",
       "criado_em": "2026-09-01 10:13:27",
       "item": "Escopolamina 20mg",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1394,
-      "item_id": 336,
-      "produto_nome": "Mathergan",
-      "tipo": "Farmácia para PACIENTE ENCAMINHADA PARA RIACHÃO ",
-      "origem": "Farmácia",
-      "destino": "PACIENTE ENCAMINHADA PARA RIACHÃO ",
-      "quantidade": 1,
-      "responsavel": "Assucena",
-      "data": "2026-09-01",
-      "obs": "",
-      "criado_em": "2026-09-01 10:09:52",
-      "item": "Mathergan",
       "usuario": "Assucena"
     }
   ]
