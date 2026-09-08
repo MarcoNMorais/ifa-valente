@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "08/09/2026 15:56:36",
+  "atualizado_em": "08/09/2026 15:56:48",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 395,
     "total_almoxarifado": 117068,
-    "total_farmacia": 30575,
-    "total_geral": 147643,
+    "total_farmacia": 30515,
+    "total_geral": 147583,
     "perto_de_terminar": 15,
     "zerados": 8
   },
@@ -14973,19 +14973,19 @@
       "tipo": "Insumo",
       "unidade": "Unidade",
       "almoxarifado": 240,
-      "farmacia": 300,
+      "farmacia": 240,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 540,
+      "total": 480,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-09-04 11:21:39",
+      "atualizado_em": "2026-09-08 15:56:47",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -14999,17 +14999,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 300
+          "quantidade": 240
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 756,
-      "previsao_20_dias": 756,
+      "minimo_alerta": 800,
+      "previsao_20_dias": 800,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 27,
-      "media_diaria_saida": 37.78,
-      "total_saida_historica": 1020,
-      "cobertura_dias": 14.3,
+      "media_diaria_saida": 40.0,
+      "total_saida_historica": 1080,
+      "cobertura_dias": 12.0,
       "alerta_estoque": true
     },
     {
@@ -16626,6 +16626,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 1780,
+      "item_id": 202,
+      "produto_nome": "Soro fisiológico 100ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 60,
+      "responsavel": "Leiliana",
+      "data": "2026-09-04",
+      "obs": "",
+      "criado_em": "2026-09-08 15:56:47",
+      "item": "Soro fisiológico 100ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 1779,
       "item_id": 205,
@@ -24109,21 +24124,6 @@
       "obs": "",
       "criado_em": "2026-08-31 11:26:01",
       "item": "Glicerina 12%",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1283,
-      "item_id": 238,
-      "produto_nome": "Ondansetrona 2mg/ml 2ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 20,
-      "responsavel": "Assucena",
-      "data": "2026-08-29",
-      "obs": "",
-      "criado_em": "2026-08-31 11:25:53",
-      "item": "Ondansetrona 2mg/ml 2ml",
       "usuario": "Assucena"
     }
   ]
