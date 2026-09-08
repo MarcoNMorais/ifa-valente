@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "08/09/2026 16:23:41",
+  "atualizado_em": "08/09/2026 16:24:02",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 395,
-    "total_almoxarifado": 115251,
-    "total_farmacia": 31715,
+    "total_almoxarifado": 115011,
+    "total_farmacia": 31955,
     "total_geral": 146966,
     "perto_de_terminar": 15,
     "zerados": 8
@@ -326,8 +326,8 @@
       "nome": "ACIDO ASCORBICO",
       "tipo": "Medicamento",
       "unidade": "Ampola",
-      "almoxarifado": 240,
-      "farmacia": 0,
+      "almoxarifado": 0,
+      "farmacia": 240,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -339,12 +339,12 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-08 15:00:52",
+      "atualizado_em": "2026-09-08 16:24:01",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
         {
-          "local": "almoxarifado",
+          "local": "farmacia",
           "validade": "",
           "lote": "",
           "quantidade": 240
@@ -16633,6 +16633,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 1817,
+      "item_id": 384,
+      "produto_nome": "ACIDO ASCORBICO",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 240,
+      "responsavel": "Leiliana",
+      "data": "2026-09-04",
+      "obs": "",
+      "criado_em": "2026-09-08 16:24:01",
+      "item": "ACIDO ASCORBICO",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 1816,
       "item_id": 66,
       "produto_nome": "Complexo B",
@@ -24114,21 +24129,6 @@
       "data": "2026-08-30",
       "obs": "",
       "criado_em": "2026-08-31 11:33:26",
-      "item": "Dipirona",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1320,
-      "item_id": 70,
-      "produto_nome": "Dipirona",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 30,
-      "responsavel": "Assucena",
-      "data": "2026-08-30",
-      "obs": "",
-      "criado_em": "2026-08-31 11:33:18",
       "item": "Dipirona",
       "usuario": "Assucena"
     }
