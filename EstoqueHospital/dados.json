@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "08/09/2026 16:27:39",
+  "atualizado_em": "08/09/2026 16:27:49",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 395,
     "total_almoxarifado": 114461,
-    "total_farmacia": 32089,
-    "total_geral": 146550,
+    "total_farmacia": 32059,
+    "total_geral": 146520,
     "perto_de_terminar": 15,
     "zerados": 8
   },
@@ -12697,19 +12697,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 3950,
-      "farmacia": 340,
+      "farmacia": 310,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 4290,
+      "total": 4260,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-08 15:57:33",
+      "atualizado_em": "2026-09-08 16:27:42",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -12723,17 +12723,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 340
+          "quantidade": 310
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 612,
-      "previsao_20_dias": 612,
+      "minimo_alerta": 634,
+      "previsao_20_dias": 634,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 27,
-      "media_diaria_saida": 30.56,
-      "total_saida_historica": 825,
-      "cobertura_dias": 140.4,
+      "media_diaria_saida": 31.67,
+      "total_saida_historica": 855,
+      "cobertura_dias": 134.5,
       "alerta_estoque": false
     },
     {
@@ -16626,6 +16626,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 1835,
+      "item_id": 102,
+      "produto_nome": "Seringa 5ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 30,
+      "responsavel": "Leiliana",
+      "data": "2026-09-04",
+      "obs": "",
+      "criado_em": "2026-09-08 16:27:42",
+      "item": "Seringa 5ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 1834,
       "item_id": 103,
@@ -24109,21 +24124,6 @@
       "obs": "",
       "criado_em": "2026-08-31 11:39:42",
       "item": "Fio agulhado / sutura nº 2",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1334,
-      "item_id": 82,
-      "produto_nome": "Hidrocortisona",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 8,
-      "responsavel": "Assucena",
-      "data": "2026-08-31",
-      "obs": "",
-      "criado_em": "2026-08-31 11:39:31",
-      "item": "Hidrocortisona",
       "usuario": "Assucena"
     }
   ]
