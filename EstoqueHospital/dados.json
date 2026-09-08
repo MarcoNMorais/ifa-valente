@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "08/09/2026 14:56:42",
+  "atualizado_em": "08/09/2026 14:56:53",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 380,
-    "total_almoxarifado": 79484,
+    "total_almoxarifado": 79724,
     "total_farmacia": 29558,
-    "total_geral": 109042,
+    "total_geral": 109282,
     "perto_de_terminar": 36,
     "zerados": 19
   },
@@ -10963,23 +10963,29 @@
       "nome": "Paracetamol 500mg",
       "tipo": "Medicamento",
       "unidade": "Unidade",
-      "almoxarifado": 0,
+      "almoxarifado": 240,
       "farmacia": 242,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 242,
+      "total": 482,
       "minimo": 0,
       "validade": "",
       "lote": "",
-      "origem": "Carga inicial Farmácia",
-      "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-27 16:29:32",
+      "origem": "Entrada externa",
+      "obs": "",
+      "atualizado_em": "2026-09-08 14:56:52",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
+        {
+          "local": "almoxarifado",
+          "validade": "",
+          "lote": "",
+          "quantidade": 240
+        },
         {
           "local": "farmacia",
           "validade": "",
@@ -10994,7 +11000,7 @@
       "dias_historico": 27,
       "media_diaria_saida": 1.78,
       "total_saida_historica": 48,
-      "cobertura_dias": 136.1,
+      "cobertura_dias": 271.1,
       "alerta_estoque": false
     },
     {
@@ -15733,6 +15739,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 1659,
+      "item_id": 27,
+      "produto_nome": "Paracetamol 500mg",
+      "tipo": "Entrada no Almoxarifado",
+      "origem": "Entrada externa",
+      "destino": "Almoxarifado",
+      "quantidade": 240,
+      "responsavel": "Leiliana",
+      "data": "2026-09-04",
+      "obs": "",
+      "criado_em": "2026-09-08 14:56:52",
+      "item": "Paracetamol 500mg",
+      "usuario": "Leiliana"
+    },
     {
       "id": 1658,
       "item_id": 380,
@@ -23216,21 +23237,6 @@
       "obs": "",
       "criado_em": "2026-08-27 11:28:31",
       "item": "ATDURA ALGODÃO 15CM",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1159,
-      "item_id": 358,
-      "produto_nome": "GLICOSIMETRO GTECH LITE",
-      "tipo": "Almoxarifado para Farmácia",
-      "origem": "Almoxarifado",
-      "destino": "Farmácia",
-      "quantidade": 3,
-      "responsavel": "Assucena",
-      "data": "2026-08-26",
-      "obs": "",
-      "criado_em": "2026-08-27 11:27:23",
-      "item": "GLICOSIMETRO GTECH LITE",
       "usuario": "Assucena"
     }
   ]
