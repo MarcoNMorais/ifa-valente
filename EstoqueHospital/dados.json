@@ -1,12 +1,12 @@
 {
-  "atualizado_em": "08/09/2026 15:03:33",
+  "atualizado_em": "08/09/2026 15:10:02",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 384,
-    "total_almoxarifado": 82826,
+    "total_almoxarifado": 82986,
     "total_farmacia": 29558,
-    "total_geral": 112384,
-    "perto_de_terminar": 29,
+    "total_geral": 112544,
+    "perto_de_terminar": 28,
     "zerados": 15
   },
   "itens": [
@@ -3461,20 +3461,20 @@
       "nome": "Cimetidina 150mg",
       "tipo": "Medicamento",
       "unidade": "Unidade",
-      "almoxarifado": 0,
+      "almoxarifado": 160,
       "farmacia": 66,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 66,
+      "total": 226,
       "minimo": 0,
       "validade": "2027-06",
       "lote": "",
-      "origem": "Carga inicial Farmácia",
-      "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-09-03 11:26:38",
+      "origem": "Entrada externa",
+      "obs": "",
+      "atualizado_em": "2026-09-08 15:10:01",
       "validade_mais_proxima": "2027-06",
       "vencimento_mais_proximo": "2027-06",
       "lotes_validade": [
@@ -3483,6 +3483,12 @@
           "validade": "2027-06",
           "lote": "",
           "quantidade": 66
+        },
+        {
+          "local": "almoxarifado",
+          "validade": "",
+          "lote": "",
+          "quantidade": 160
         }
       ],
       "minimo_manual": 0,
@@ -3492,8 +3498,8 @@
       "dias_historico": 27,
       "media_diaria_saida": 3.7,
       "total_saida_historica": 100,
-      "cobertura_dias": 17.8,
-      "alerta_estoque": true
+      "cobertura_dias": 61.0,
+      "alerta_estoque": false
     },
     {
       "id": 63,
@@ -15976,6 +15982,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 1676,
+      "item_id": 62,
+      "produto_nome": "Cimetidina 150mg",
+      "tipo": "Entrada no Almoxarifado",
+      "origem": "Entrada externa",
+      "destino": "Almoxarifado",
+      "quantidade": 160,
+      "responsavel": "Leiliana",
+      "data": "2026-09-04",
+      "obs": "",
+      "criado_em": "2026-09-08 15:10:01",
+      "item": "Cimetidina 150mg",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 1675,
       "item_id": 61,
       "produto_nome": "Cetoprofeno IM 50mg",
@@ -23457,21 +23478,6 @@
       "data": "2026-08-26",
       "obs": "",
       "criado_em": "2026-08-27 11:38:01",
-      "item": "IODOPOVIDONA 1L",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1176,
-      "item_id": 367,
-      "produto_nome": "IODOPOVIDONA 1L",
-      "tipo": "Entrada no Almoxarifado",
-      "origem": "Entrada externa",
-      "destino": "Almoxarifado",
-      "quantidade": 3,
-      "responsavel": "Assucena",
-      "data": "2026-08-26",
-      "obs": "",
-      "criado_em": "2026-08-27 11:37:51",
       "item": "IODOPOVIDONA 1L",
       "usuario": "Assucena"
     }
