@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "08/09/2026 15:41:50",
+  "atualizado_em": "08/09/2026 15:42:00",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
-    "itens": 392,
-    "total_almoxarifado": 105964,
+    "itens": 393,
+    "total_almoxarifado": 106156,
     "total_farmacia": 29558,
-    "total_geral": 135522,
+    "total_geral": 135714,
     "perto_de_terminar": 15,
     "zerados": 8
   },
@@ -11132,6 +11132,46 @@
       "alerta_estoque": false
     },
     {
+      "id": 393,
+      "produto_id": 394,
+      "nome": "NYLON N°3",
+      "tipo": "Medicamento",
+      "unidade": "Unidade",
+      "almoxarifado": 192,
+      "farmacia": 0,
+      "sala_medicacoes": 0,
+      "internamento": 0,
+      "sala_cirurgica": 0,
+      "baixa": 0,
+      "outro": 0,
+      "total": 192,
+      "minimo": 0,
+      "validade": "",
+      "lote": "",
+      "origem": "Entrada externa",
+      "obs": "",
+      "atualizado_em": "2026-09-08 15:41:51",
+      "validade_mais_proxima": "",
+      "vencimento_mais_proximo": "",
+      "lotes_validade": [
+        {
+          "local": "almoxarifado",
+          "validade": "",
+          "lote": "",
+          "quantidade": 192
+        }
+      ],
+      "minimo_manual": 0,
+      "minimo_alerta": 0,
+      "previsao_20_dias": 0,
+      "criterio_alerta": "estoque_minimo_manual_inicio",
+      "dias_historico": 5,
+      "media_diaria_saida": 0.0,
+      "total_saida_historica": 0,
+      "cobertura_dias": null,
+      "alerta_estoque": false
+    },
+    {
       "id": 210,
       "produto_id": 210,
       "nome": "Ocitocina",
@@ -16494,6 +16534,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 1740,
+      "item_id": 393,
+      "produto_nome": "NYLON N°3",
+      "tipo": "Entrada no Almoxarifado",
+      "origem": "Entrada externa",
+      "destino": "Almoxarifado",
+      "quantidade": 192,
+      "responsavel": "Leiliana",
+      "data": "2026-09-04",
+      "obs": "",
+      "criado_em": "2026-09-08 15:41:51",
+      "item": "NYLON N°3",
+      "usuario": "Leiliana"
+    },
     {
       "id": 1739,
       "item_id": 317,
@@ -23977,21 +24032,6 @@
       "obs": "",
       "criado_em": "2026-08-28 10:58:21",
       "item": "Equipo fotossensível",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1240,
-      "item_id": 275,
-      "produto_nome": "Equipo micro",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 25,
-      "responsavel": "Assucena",
-      "data": "2026-08-27",
-      "obs": "",
-      "criado_em": "2026-08-28 10:58:11",
-      "item": "Equipo micro",
       "usuario": "Assucena"
     }
   ]
