@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "08/09/2026 15:49:06",
+  "atualizado_em": "08/09/2026 15:49:17",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 395,
     "total_almoxarifado": 118348,
-    "total_farmacia": 29521,
-    "total_geral": 147869,
+    "total_farmacia": 29501,
+    "total_geral": 147849,
     "perto_de_terminar": 14,
     "zerados": 8
   },
@@ -4637,19 +4637,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 1600,
-      "farmacia": 580,
+      "farmacia": 560,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 2180,
+      "total": 2160,
       "minimo": 0,
       "validade": "2027-10",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-08 15:16:06",
+      "atualizado_em": "2026-09-08 15:49:14",
       "validade_mais_proxima": "2027-10",
       "vencimento_mais_proximo": "2027-10",
       "lotes_validade": [
@@ -4657,7 +4657,7 @@
           "local": "farmacia",
           "validade": "2027-10",
           "lote": "",
-          "quantidade": 580
+          "quantidade": 560
         },
         {
           "local": "almoxarifado",
@@ -4667,13 +4667,13 @@
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 512,
-      "previsao_20_dias": 512,
+      "minimo_alerta": 526,
+      "previsao_20_dias": 526,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 27,
-      "media_diaria_saida": 25.56,
-      "total_saida_historica": 690,
-      "cobertura_dias": 85.3,
+      "media_diaria_saida": 26.3,
+      "total_saida_historica": 710,
+      "cobertura_dias": 82.1,
       "alerta_estoque": false
     },
     {
@@ -16633,6 +16633,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 1755,
+      "item_id": 68,
+      "produto_nome": "Dexametasona",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 20,
+      "responsavel": "Leiliana",
+      "data": "2026-09-04",
+      "obs": "",
+      "criado_em": "2026-09-08 15:49:14",
+      "item": "Dexametasona",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 1754,
       "item_id": 97,
       "produto_nome": "Scalp nº 19",
@@ -24115,21 +24130,6 @@
       "obs": "",
       "criado_em": "2026-08-28 11:01:55",
       "item": "Kollagenase com Cloranfenicol pomada",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1255,
-      "item_id": 361,
-      "produto_nome": "AZITROMICINA COMPRIMIDO",
-      "tipo": "Farmácia para ELETRO",
-      "origem": "Farmácia",
-      "destino": "ELETRO",
-      "quantidade": 5,
-      "responsavel": "Assucena",
-      "data": "2026-08-27",
-      "obs": "",
-      "criado_em": "2026-08-28 11:01:06",
-      "item": "AZITROMICINA COMPRIMIDO",
       "usuario": "Assucena"
     }
   ]
