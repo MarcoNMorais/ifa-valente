@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "08/09/2026 16:55:39",
+  "atualizado_em": "08/09/2026 16:55:51",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 395,
     "total_almoxarifado": 112524,
-    "total_farmacia": 32156,
-    "total_geral": 144680,
+    "total_farmacia": 32151,
+    "total_geral": 144675,
     "perto_de_terminar": 18,
     "zerados": 9
   },
@@ -15196,19 +15196,19 @@
       "tipo": "Insumo",
       "unidade": "Unidade",
       "almoxarifado": 144,
-      "farmacia": 78,
+      "farmacia": 73,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 222,
+      "total": 217,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-09-08 16:34:32",
+      "atualizado_em": "2026-09-08 16:55:50",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -15222,17 +15222,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 78
+          "quantidade": 73
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 120,
-      "previsao_20_dias": 120,
+      "minimo_alerta": 124,
+      "previsao_20_dias": 124,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 27,
-      "media_diaria_saida": 6.0,
-      "total_saida_historica": 162,
-      "cobertura_dias": 37.0,
+      "media_diaria_saida": 6.19,
+      "total_saida_historica": 167,
+      "cobertura_dias": 35.1,
       "alerta_estoque": false
     },
     {
@@ -16619,6 +16619,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 1940,
+      "item_id": 201,
+      "produto_nome": "Soro Ringer Lactato 500ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 5,
+      "responsavel": "Leiliana",
+      "data": "2026-09-04",
+      "obs": "",
+      "criado_em": "2026-09-08 16:55:50",
+      "item": "Soro Ringer Lactato 500ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 1939,
       "item_id": 194,
@@ -24102,21 +24117,6 @@
       "obs": "",
       "criado_em": "2026-09-01 16:08:33",
       "item": "Dexametasona",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 1440,
-      "item_id": 69,
-      "produto_nome": "Diclofenaco 25mg",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 20,
-      "responsavel": "Leiliana",
-      "data": "2026-09-01",
-      "obs": "",
-      "criado_em": "2026-09-01 16:08:24",
-      "item": "Diclofenaco 25mg",
       "usuario": "Leiliana"
     }
   ]
