@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "08/09/2026 16:31:10",
+  "atualizado_em": "08/09/2026 16:33:16",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 395,
-    "total_almoxarifado": 114421,
-    "total_farmacia": 31945,
+    "total_almoxarifado": 114181,
+    "total_farmacia": 32185,
     "total_geral": 146366,
     "perto_de_terminar": 15,
     "zerados": 8
@@ -8321,8 +8321,8 @@
       "nome": "HIDROCORTIZONA",
       "tipo": "Medicamento",
       "unidade": "Unidade",
-      "almoxarifado": 240,
-      "farmacia": 0,
+      "almoxarifado": 0,
+      "farmacia": 240,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -8334,12 +8334,12 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-08 15:23:51",
+      "atualizado_em": "2026-09-08 16:33:16",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
         {
-          "local": "almoxarifado",
+          "local": "farmacia",
           "validade": "",
           "lote": "",
           "quantidade": 240
@@ -16627,6 +16627,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 1848,
+      "item_id": 387,
+      "produto_nome": "HIDROCORTIZONA",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 240,
+      "responsavel": "Leiliana",
+      "data": "2026-09-04",
+      "obs": "",
+      "criado_em": "2026-09-08 16:33:16",
+      "item": "HIDROCORTIZONA",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 1847,
       "item_id": 82,
       "produto_nome": "Hidrocortisona",
@@ -24109,21 +24124,6 @@
       "obs": "",
       "criado_em": "2026-08-31 11:41:41",
       "item": "Dispositivo intravenoso Gelco nº 22",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1347,
-      "item_id": 178,
-      "produto_nome": "Dispositivo intravenoso Gelco nº 20",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 15,
-      "responsavel": "Assucena",
-      "data": "2026-08-31",
-      "obs": "",
-      "criado_em": "2026-08-31 11:41:32",
-      "item": "Dispositivo intravenoso Gelco nº 20",
       "usuario": "Assucena"
     }
   ]
