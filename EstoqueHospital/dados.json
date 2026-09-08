@@ -1,13 +1,13 @@
 {
-  "atualizado_em": "08/09/2026 15:02:38",
+  "atualizado_em": "08/09/2026 15:02:52",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 384,
-    "total_almoxarifado": 81396,
+    "total_almoxarifado": 81946,
     "total_farmacia": 29558,
-    "total_geral": 110954,
-    "perto_de_terminar": 32,
-    "zerados": 17
+    "total_geral": 111504,
+    "perto_de_terminar": 31,
+    "zerados": 16
   },
   "itens": [
     {
@@ -3249,23 +3249,30 @@
       "nome": "Ceftriaxona 1g",
       "tipo": "Medicamento",
       "unidade": "Unidade",
-      "almoxarifado": 0,
+      "almoxarifado": 550,
       "farmacia": 0,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 0,
+      "total": 550,
       "minimo": 0,
       "validade": "",
       "lote": "",
-      "origem": "Carga inicial Farmácia",
-      "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-31 16:28:31",
+      "origem": "Entrada externa",
+      "obs": "",
+      "atualizado_em": "2026-09-08 15:02:51",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
-      "lotes_validade": [],
+      "lotes_validade": [
+        {
+          "local": "almoxarifado",
+          "validade": "",
+          "lote": "",
+          "quantidade": 550
+        }
+      ],
       "minimo_manual": 0,
       "minimo_alerta": 243,
       "previsao_20_dias": 243,
@@ -3273,8 +3280,8 @@
       "dias_historico": 27,
       "media_diaria_saida": 12.15,
       "total_saida_historica": 328,
-      "cobertura_dias": 0.0,
-      "alerta_estoque": true
+      "cobertura_dias": 45.3,
+      "alerta_estoque": false
     },
     {
       "id": 116,
@@ -15956,6 +15963,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 1673,
+      "item_id": 59,
+      "produto_nome": "Ceftriaxona 1g",
+      "tipo": "Entrada no Almoxarifado",
+      "origem": "Entrada externa",
+      "destino": "Almoxarifado",
+      "quantidade": 550,
+      "responsavel": "Leiliana",
+      "data": "2026-09-04",
+      "obs": "",
+      "criado_em": "2026-09-08 15:02:51",
+      "item": "Ceftriaxona 1g",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 1672,
       "item_id": 58,
       "produto_nome": "Cefalotina 1000mg",
@@ -23438,21 +23460,6 @@
       "obs": "",
       "criado_em": "2026-08-27 11:37:06",
       "item": "ETER 1L",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1173,
-      "item_id": 365,
-      "produto_nome": "FORMOL 1L",
-      "tipo": "Almoxarifado para Farmácia",
-      "origem": "Almoxarifado",
-      "destino": "Farmácia",
-      "quantidade": 2,
-      "responsavel": "Assucena",
-      "data": "2026-08-26",
-      "obs": "",
-      "criado_em": "2026-08-27 11:36:34",
-      "item": "FORMOL 1L",
       "usuario": "Assucena"
     }
   ]
