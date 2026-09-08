@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "08/09/2026 16:47:35",
+  "atualizado_em": "08/09/2026 16:48:05",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 395,
     "total_almoxarifado": 113316,
-    "total_farmacia": 32079,
-    "total_geral": 145395,
+    "total_farmacia": 32069,
+    "total_geral": 145385,
     "perto_de_terminar": 18,
     "zerados": 9
   },
@@ -9460,19 +9460,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 380,
-      "farmacia": 39,
+      "farmacia": 29,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 419,
+      "total": 409,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-08 16:41:00",
+      "atualizado_em": "2026-09-08 16:48:04",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -9486,17 +9486,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 39
+          "quantidade": 29
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 30,
-      "previsao_20_dias": 30,
+      "minimo_alerta": 38,
+      "previsao_20_dias": 38,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 27,
-      "media_diaria_saida": 1.48,
-      "total_saida_historica": 40,
-      "cobertura_dias": 282.8,
+      "media_diaria_saida": 1.85,
+      "total_saida_historica": 50,
+      "cobertura_dias": 220.9,
       "alerta_estoque": false
     },
     {
@@ -16619,6 +16619,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 1913,
+      "item_id": 185,
+      "produto_nome": "Luva cirúrgica tam. 7,5",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 10,
+      "responsavel": "Leiliana",
+      "data": "2026-09-04",
+      "obs": "",
+      "criado_em": "2026-09-08 16:48:04",
+      "item": "Luva cirúrgica tam. 7,5",
+      "usuario": "Leiliana"
+    },
     {
       "id": 1912,
       "item_id": 320,
@@ -24102,21 +24117,6 @@
       "obs": "",
       "criado_em": "2026-09-01 10:24:19",
       "item": "Ondansetrona 2mg/ml 2ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1402,
-      "item_id": 70,
-      "produto_nome": "Dipirona",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 40,
-      "responsavel": "Assucena",
-      "data": "2026-09-01",
-      "obs": "",
-      "criado_em": "2026-09-01 10:24:08",
-      "item": "Dipirona",
       "usuario": "Assucena"
     }
   ]
