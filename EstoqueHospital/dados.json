@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "08/09/2026 15:49:52",
+  "atualizado_em": "08/09/2026 15:51:04",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 395,
-    "total_almoxarifado": 118348,
-    "total_farmacia": 29448,
+    "total_almoxarifado": 117788,
+    "total_farmacia": 30008,
     "total_geral": 147796,
     "perto_de_terminar": 14,
     "zerados": 8
@@ -11441,8 +11441,8 @@
       "nome": "Ondansetrona 2mg/ml 2ml",
       "tipo": "Medicamento",
       "unidade": "Unidade",
-      "almoxarifado": 560,
-      "farmacia": 0,
+      "almoxarifado": 0,
+      "farmacia": 560,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -11454,12 +11454,12 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-08 15:12:44",
+      "atualizado_em": "2026-09-08 15:51:03",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
         {
-          "local": "almoxarifado",
+          "local": "farmacia",
           "validade": "",
           "lote": "",
           "quantidade": 560
@@ -16632,6 +16632,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 1759,
+      "item_id": 238,
+      "produto_nome": "Ondansetrona 2mg/ml 2ml",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 560,
+      "responsavel": "Leiliana",
+      "data": "2026-09-04",
+      "obs": "",
+      "criado_em": "2026-09-08 15:51:03",
+      "item": "Ondansetrona 2mg/ml 2ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 1758,
       "item_id": 228,
@@ -24115,21 +24130,6 @@
       "obs": "",
       "criado_em": "2026-08-31 11:17:42",
       "item": "Equipo micro",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1260,
-      "item_id": 203,
-      "produto_nome": "Soro fisiológico 250ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 27,
-      "responsavel": "Assucena",
-      "data": "2026-08-29",
-      "obs": "",
-      "criado_em": "2026-08-31 11:17:32",
-      "item": "Soro fisiológico 250ml",
       "usuario": "Assucena"
     }
   ]
