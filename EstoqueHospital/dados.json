@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "08/09/2026 15:52:08",
+  "atualizado_em": "08/09/2026 15:52:36",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 395,
-    "total_almoxarifado": 117388,
-    "total_farmacia": 30358,
+    "total_almoxarifado": 117068,
+    "total_farmacia": 30678,
     "total_geral": 147746,
     "perto_de_terminar": 14,
     "zerados": 8
@@ -452,8 +452,8 @@
       "nome": "AGUA P/ INJ",
       "tipo": "Medicamento",
       "unidade": "Unidade",
-      "almoxarifado": 320,
-      "farmacia": 0,
+      "almoxarifado": 0,
+      "farmacia": 320,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -465,12 +465,12 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-08 14:59:06",
+      "atualizado_em": "2026-09-08 15:52:35",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
         {
-          "local": "almoxarifado",
+          "local": "farmacia",
           "validade": "",
           "lote": "",
           "quantidade": 320
@@ -16633,6 +16633,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 1764,
+      "item_id": 382,
+      "produto_nome": "AGUA P/ INJ",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 320,
+      "responsavel": "Leiliana",
+      "data": "2026-09-04",
+      "obs": "",
+      "criado_em": "2026-09-08 15:52:35",
+      "item": "AGUA P/ INJ",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 1763,
       "item_id": 239,
       "produto_nome": "Tramadol 50mg/ml 2ml",
@@ -24115,21 +24130,6 @@
       "obs": "",
       "criado_em": "2026-08-31 11:18:42",
       "item": "Seringa 10ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1265,
-      "item_id": 102,
-      "produto_nome": "Seringa 5ml",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 20,
-      "responsavel": "Assucena",
-      "data": "2026-08-29",
-      "obs": "",
-      "criado_em": "2026-08-31 11:18:25",
-      "item": "Seringa 5ml",
       "usuario": "Assucena"
     }
   ]
