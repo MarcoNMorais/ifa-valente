@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "08/09/2026 16:36:36",
+  "atualizado_em": "08/09/2026 16:36:47",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 395,
     "total_almoxarifado": 113849,
-    "total_farmacia": 32375,
-    "total_geral": 146224,
+    "total_farmacia": 32370,
+    "total_geral": 146219,
     "perto_de_terminar": 16,
     "zerados": 8
   },
@@ -3331,19 +3331,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 545,
+      "farmacia": 540,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 545,
+      "total": 540,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-08 16:25:14",
+      "atualizado_em": "2026-09-08 16:36:43",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -3351,17 +3351,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 545
+          "quantidade": 540
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 247,
-      "previsao_20_dias": 247,
+      "minimo_alerta": 251,
+      "previsao_20_dias": 251,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 27,
-      "media_diaria_saida": 12.33,
-      "total_saida_historica": 333,
-      "cobertura_dias": 44.2,
+      "media_diaria_saida": 12.52,
+      "total_saida_historica": 338,
+      "cobertura_dias": 43.1,
       "alerta_estoque": false
     },
     {
@@ -16621,6 +16621,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 1862,
+      "item_id": 59,
+      "produto_nome": "Ceftriaxona 1g",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 5,
+      "responsavel": "Leiliana",
+      "data": "2026-09-04",
+      "obs": "",
+      "criado_em": "2026-09-08 16:36:43",
+      "item": "Ceftriaxona 1g",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 1861,
       "item_id": 69,
       "produto_nome": "Diclofenaco 25mg",
@@ -24103,21 +24118,6 @@
       "obs": "",
       "criado_em": "2026-08-31 11:44:18",
       "item": "Omeprazol sódico 40mg AMP",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1361,
-      "item_id": 64,
-      "produto_nome": "Fosfato de Clindamicina 150mg",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 20,
-      "responsavel": "Assucena",
-      "data": "2026-08-31",
-      "obs": "",
-      "criado_em": "2026-08-31 11:44:10",
-      "item": "Fosfato de Clindamicina 150mg",
       "usuario": "Assucena"
     }
   ]
