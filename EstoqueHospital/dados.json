@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "08/09/2026 16:30:13",
+  "atualizado_em": "08/09/2026 16:30:35",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 395,
     "total_almoxarifado": 114421,
-    "total_farmacia": 31997,
-    "total_geral": 146418,
+    "total_farmacia": 31985,
+    "total_geral": 146406,
     "perto_de_terminar": 15,
     "zerados": 8
   },
@@ -15019,19 +15019,19 @@
       "tipo": "Insumo",
       "unidade": "Unidade",
       "almoxarifado": 1337,
-      "farmacia": 99,
+      "farmacia": 87,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1436,
+      "total": 1424,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-08 15:59:09",
+      "atualizado_em": "2026-09-08 16:30:35",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -15045,17 +15045,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 99
+          "quantidade": 87
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 260,
-      "previsao_20_dias": 260,
+      "minimo_alerta": 269,
+      "previsao_20_dias": 269,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 27,
-      "media_diaria_saida": 13.0,
-      "total_saida_historica": 351,
-      "cobertura_dias": 110.5,
+      "media_diaria_saida": 13.44,
+      "total_saida_historica": 363,
+      "cobertura_dias": 105.9,
       "alerta_estoque": false
     },
     {
@@ -16626,6 +16626,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 1845,
+      "item_id": 203,
+      "produto_nome": "Soro fisiológico 250ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 12,
+      "responsavel": "Leiliana",
+      "data": "2026-09-04",
+      "obs": "",
+      "criado_em": "2026-09-08 16:30:35",
+      "item": "Soro fisiológico 250ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 1844,
       "item_id": 204,
@@ -24109,21 +24124,6 @@
       "obs": "",
       "criado_em": "2026-08-31 11:41:09",
       "item": "Captopril 25mg CPR",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1344,
-      "item_id": 256,
-      "produto_nome": "Simeticona gotas",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 2,
-      "responsavel": "Assucena",
-      "data": "2026-08-31",
-      "obs": "",
-      "criado_em": "2026-08-31 11:41:01",
-      "item": "Simeticona gotas",
       "usuario": "Assucena"
     }
   ]
