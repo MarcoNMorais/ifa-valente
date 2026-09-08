@@ -1,13 +1,13 @@
 {
-  "atualizado_em": "08/09/2026 15:02:01",
+  "atualizado_em": "08/09/2026 15:02:17",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 384,
-    "total_almoxarifado": 80916,
+    "total_almoxarifado": 81316,
     "total_farmacia": 29558,
-    "total_geral": 110474,
-    "perto_de_terminar": 34,
-    "zerados": 18
+    "total_geral": 110874,
+    "perto_de_terminar": 33,
+    "zerados": 17
   },
   "itens": [
     {
@@ -2832,23 +2832,30 @@
       "nome": "Bromoprida 5mg",
       "tipo": "Medicamento",
       "unidade": "Unidade",
-      "almoxarifado": 0,
+      "almoxarifado": 400,
       "farmacia": 0,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 0,
+      "total": 400,
       "minimo": 0,
       "validade": "",
       "lote": "",
-      "origem": "Carga inicial Farmácia",
-      "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-31 11:44:38",
+      "origem": "Entrada externa",
+      "obs": "",
+      "atualizado_em": "2026-09-08 15:02:16",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
-      "lotes_validade": [],
+      "lotes_validade": [
+        {
+          "local": "almoxarifado",
+          "validade": "",
+          "lote": "",
+          "quantidade": 400
+        }
+      ],
       "minimo_manual": 0,
       "minimo_alerta": 171,
       "previsao_20_dias": 171,
@@ -2856,8 +2863,8 @@
       "dias_historico": 27,
       "media_diaria_saida": 8.52,
       "total_saida_historica": 230,
-      "cobertura_dias": 0.0,
-      "alerta_estoque": true
+      "cobertura_dias": 47.0,
+      "alerta_estoque": false
     },
     {
       "id": 259,
@@ -15943,6 +15950,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 1671,
+      "item_id": 57,
+      "produto_nome": "Bromoprida 5mg",
+      "tipo": "Entrada no Almoxarifado",
+      "origem": "Entrada externa",
+      "destino": "Almoxarifado",
+      "quantidade": 400,
+      "responsavel": "Leiliana",
+      "data": "2026-09-04",
+      "obs": "",
+      "criado_em": "2026-09-08 15:02:16",
+      "item": "Bromoprida 5mg",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 1670,
       "item_id": 44,
       "produto_nome": "Clopidogrel 75mg CP",
@@ -23425,21 +23447,6 @@
       "obs": "",
       "criado_em": "2026-08-27 11:36:27",
       "item": "FORMOL 1L",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1171,
-      "item_id": 364,
-      "produto_nome": "CLOREXIDINA DEGERMANTE 2%",
-      "tipo": "Almoxarifado para Farmácia",
-      "origem": "Almoxarifado",
-      "destino": "Farmácia",
-      "quantidade": 4,
-      "responsavel": "Assucena",
-      "data": "2026-08-26",
-      "obs": "",
-      "criado_em": "2026-08-27 11:36:04",
-      "item": "CLOREXIDINA DEGERMANTE 2%",
       "usuario": "Assucena"
     }
   ]
