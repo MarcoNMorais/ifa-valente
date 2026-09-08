@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "08/09/2026 14:56:31",
+  "atualizado_em": "08/09/2026 14:56:42",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
-    "itens": 379,
-    "total_almoxarifado": 79475,
+    "itens": 380,
+    "total_almoxarifado": 79484,
     "total_farmacia": 29558,
-    "total_geral": 109033,
+    "total_geral": 109042,
     "perto_de_terminar": 36,
     "zerados": 19
   },
@@ -10514,6 +10514,46 @@
       "alerta_estoque": false
     },
     {
+      "id": 380,
+      "produto_id": 381,
+      "nome": "OLEO MINERAL",
+      "tipo": "Medicamento",
+      "unidade": "Unidade",
+      "almoxarifado": 9,
+      "farmacia": 0,
+      "sala_medicacoes": 0,
+      "internamento": 0,
+      "sala_cirurgica": 0,
+      "baixa": 0,
+      "outro": 0,
+      "total": 9,
+      "minimo": 0,
+      "validade": "",
+      "lote": "",
+      "origem": "Entrada externa",
+      "obs": "",
+      "atualizado_em": "2026-09-08 14:56:37",
+      "validade_mais_proxima": "",
+      "vencimento_mais_proximo": "",
+      "lotes_validade": [
+        {
+          "local": "almoxarifado",
+          "validade": "",
+          "lote": "",
+          "quantidade": 9
+        }
+      ],
+      "minimo_manual": 0,
+      "minimo_alerta": 0,
+      "previsao_20_dias": 0,
+      "criterio_alerta": "estoque_minimo_manual_inicio",
+      "dias_historico": 5,
+      "media_diaria_saida": 0.0,
+      "total_saida_historica": 0,
+      "cobertura_dias": null,
+      "alerta_estoque": false
+    },
+    {
       "id": 31,
       "produto_id": 31,
       "nome": "Omeprazol 20mg comprimido",
@@ -15693,6 +15733,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 1658,
+      "item_id": 380,
+      "produto_nome": "OLEO MINERAL",
+      "tipo": "Entrada no Almoxarifado",
+      "origem": "Entrada externa",
+      "destino": "Almoxarifado",
+      "quantidade": 9,
+      "responsavel": "Leiliana",
+      "data": "2026-09-04",
+      "obs": "",
+      "criado_em": "2026-09-08 14:56:37",
+      "item": "OLEO MINERAL",
+      "usuario": "Leiliana"
+    },
     {
       "id": 1657,
       "item_id": 250,
@@ -23175,21 +23230,6 @@
       "data": "2026-08-26",
       "obs": "",
       "criado_em": "2026-08-27 11:27:23",
-      "item": "GLICOSIMETRO GTECH LITE",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1158,
-      "item_id": 358,
-      "produto_nome": "GLICOSIMETRO GTECH LITE",
-      "tipo": "Entrada no Almoxarifado",
-      "origem": "Entrada externa",
-      "destino": "Almoxarifado",
-      "quantidade": 3,
-      "responsavel": "Assucena",
-      "data": "2026-08-26",
-      "obs": "",
-      "criado_em": "2026-08-27 11:27:16",
       "item": "GLICOSIMETRO GTECH LITE",
       "usuario": "Assucena"
     }
