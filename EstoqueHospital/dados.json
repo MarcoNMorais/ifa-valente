@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "08/09/2026 15:29:02",
+  "atualizado_em": "08/09/2026 15:29:32",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
-    "itens": 388,
-    "total_almoxarifado": 91159,
+    "itens": 389,
+    "total_almoxarifado": 91164,
     "total_farmacia": 29558,
-    "total_geral": 120717,
+    "total_geral": 120722,
     "perto_de_terminar": 16,
     "zerados": 9
   },
@@ -3881,6 +3881,46 @@
       "previsao_20_dias": 15,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 15,
+      "media_diaria_saida": 0.0,
+      "total_saida_historica": 0,
+      "cobertura_dias": null,
+      "alerta_estoque": false
+    },
+    {
+      "id": 389,
+      "produto_id": 390,
+      "nome": "CLOREXIDINA 2% ALCOOLICA",
+      "tipo": "Medicamento",
+      "unidade": "Unidade",
+      "almoxarifado": 5,
+      "farmacia": 0,
+      "sala_medicacoes": 0,
+      "internamento": 0,
+      "sala_cirurgica": 0,
+      "baixa": 0,
+      "outro": 0,
+      "total": 5,
+      "minimo": 0,
+      "validade": "",
+      "lote": "",
+      "origem": "Entrada externa",
+      "obs": "",
+      "atualizado_em": "2026-09-08 15:29:31",
+      "validade_mais_proxima": "",
+      "vencimento_mais_proximo": "",
+      "lotes_validade": [
+        {
+          "local": "almoxarifado",
+          "validade": "",
+          "lote": "",
+          "quantidade": 5
+        }
+      ],
+      "minimo_manual": 0,
+      "minimo_alerta": 0,
+      "previsao_20_dias": 0,
+      "criterio_alerta": "estoque_minimo_manual_inicio",
+      "dias_historico": 5,
       "media_diaria_saida": 0.0,
       "total_saida_historica": 0,
       "cobertura_dias": null,
@@ -16316,6 +16356,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 1712,
+      "item_id": 389,
+      "produto_nome": "CLOREXIDINA 2% ALCOOLICA",
+      "tipo": "Entrada no Almoxarifado",
+      "origem": "Entrada externa",
+      "destino": "Almoxarifado",
+      "quantidade": 5,
+      "responsavel": "Leiliana",
+      "data": "2026-09-04",
+      "obs": "",
+      "criado_em": "2026-09-08 15:29:31",
+      "item": "CLOREXIDINA 2% ALCOOLICA",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 1711,
       "item_id": 11,
       "produto_nome": "Midazolam 5mg/ml 10ml",
@@ -23798,21 +23853,6 @@
       "obs": "",
       "criado_em": "2026-08-28 10:53:09",
       "item": "Seringa 20ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1212,
-      "item_id": 177,
-      "produto_nome": "Dispositivo intravenoso Gelco nº 22",
-      "tipo": "Almoxarifado para Farmácia",
-      "origem": "Almoxarifado",
-      "destino": "Farmácia",
-      "quantidade": 200,
-      "responsavel": "Assucena",
-      "data": "2026-08-27",
-      "obs": "",
-      "criado_em": "2026-08-28 10:52:55",
-      "item": "Dispositivo intravenoso Gelco nº 22",
       "usuario": "Assucena"
     }
   ]
