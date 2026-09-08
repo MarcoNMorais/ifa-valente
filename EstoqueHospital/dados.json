@@ -1,13 +1,13 @@
 {
-  "atualizado_em": "08/09/2026 15:11:47",
+  "atualizado_em": "08/09/2026 15:12:45",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 384,
-    "total_almoxarifado": 83066,
+    "total_almoxarifado": 83626,
     "total_farmacia": 29558,
-    "total_geral": 112624,
-    "perto_de_terminar": 27,
-    "zerados": 14
+    "total_geral": 113184,
+    "perto_de_terminar": 26,
+    "zerados": 13
   },
   "itens": [
     {
@@ -10875,23 +10875,30 @@
       "nome": "Ondansetrona 2mg/ml 2ml",
       "tipo": "Medicamento",
       "unidade": "Unidade",
-      "almoxarifado": 0,
+      "almoxarifado": 560,
       "farmacia": 0,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 0,
+      "total": 560,
       "minimo": 0,
       "validade": "",
       "lote": "",
-      "origem": "Carga Farmácia 227-288",
-      "obs": "Importação Farmácia 227-288",
-      "atualizado_em": "2026-09-01 10:24:19",
+      "origem": "Entrada externa",
+      "obs": "",
+      "atualizado_em": "2026-09-08 15:12:44",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
-      "lotes_validade": [],
+      "lotes_validade": [
+        {
+          "local": "almoxarifado",
+          "validade": "",
+          "lote": "",
+          "quantidade": 560
+        }
+      ],
       "minimo_manual": 0,
       "minimo_alerta": 334,
       "previsao_20_dias": 334,
@@ -10899,8 +10906,8 @@
       "dias_historico": 24,
       "media_diaria_saida": 16.67,
       "total_saida_historica": 400,
-      "cobertura_dias": 0.0,
-      "alerta_estoque": true
+      "cobertura_dias": 33.6,
+      "alerta_estoque": false
     },
     {
       "id": 118,
@@ -15994,6 +16001,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 1679,
+      "item_id": 238,
+      "produto_nome": "Ondansetrona 2mg/ml 2ml",
+      "tipo": "Entrada no Almoxarifado",
+      "origem": "Entrada externa",
+      "destino": "Almoxarifado",
+      "quantidade": 560,
+      "responsavel": "Leiliana",
+      "data": "2026-09-04",
+      "obs": "",
+      "criado_em": "2026-09-08 15:12:44",
+      "item": "Ondansetrona 2mg/ml 2ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 1678,
       "item_id": 80,
@@ -23477,21 +23499,6 @@
       "obs": "",
       "criado_em": "2026-08-27 11:39:23",
       "item": "COLAR CERVICAL PARA RESGATE TAM M",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1179,
-      "item_id": 368,
-      "produto_nome": "ÁLCOOL IODADO 1L",
-      "tipo": "Almoxarifado para Farmácia",
-      "origem": "Almoxarifado",
-      "destino": "Farmácia",
-      "quantidade": 1,
-      "responsavel": "Assucena",
-      "data": "2026-08-26",
-      "obs": "",
-      "criado_em": "2026-08-27 11:38:40",
-      "item": "ÁLCOOL IODADO 1L",
       "usuario": "Assucena"
     }
   ]
