@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "08/09/2026 14:49:10",
+  "atualizado_em": "08/09/2026 14:49:32",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 376,
-    "total_almoxarifado": 78303,
+    "total_almoxarifado": 78333,
     "total_farmacia": 29558,
-    "total_geral": 107861,
+    "total_geral": 107891,
     "perto_de_terminar": 40,
     "zerados": 21
   },
@@ -268,20 +268,20 @@
       "nome": "Aciclovir 200mg comprimido",
       "tipo": "Medicamento",
       "unidade": "Unidade",
-      "almoxarifado": 0,
+      "almoxarifado": 30,
       "farmacia": 60,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 60,
+      "total": 90,
       "minimo": 0,
       "validade": "2027-07",
       "lote": "",
-      "origem": "Carga inicial Farmácia",
-      "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-25 16:12:46",
+      "origem": "Entrada externa",
+      "obs": "",
+      "atualizado_em": "2026-09-08 14:49:31",
       "validade_mais_proxima": "2027-07",
       "vencimento_mais_proximo": "2027-07",
       "lotes_validade": [
@@ -290,6 +290,12 @@
           "validade": "2027-07",
           "lote": "",
           "quantidade": 60
+        },
+        {
+          "local": "almoxarifado",
+          "validade": "",
+          "lote": "",
+          "quantidade": 30
         }
       ],
       "minimo_manual": 0,
@@ -15476,6 +15482,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 1639,
+      "item_id": 32,
+      "produto_nome": "Aciclovir 200mg comprimido",
+      "tipo": "Entrada no Almoxarifado",
+      "origem": "Entrada externa",
+      "destino": "Almoxarifado",
+      "quantidade": 30,
+      "responsavel": "Leiliana",
+      "data": "2026-09-04",
+      "obs": "",
+      "criado_em": "2026-09-08 14:49:31",
+      "item": "Aciclovir 200mg comprimido",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 1638,
       "item_id": 320,
       "produto_nome": "Acebrofilina 10mg/ml",
@@ -22958,21 +22979,6 @@
       "obs": "",
       "criado_em": "2026-08-27 11:12:59",
       "item": "GLICOSE 50% AMP 10ML",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1139,
-      "item_id": 181,
-      "produto_nome": "Luva de látex tam. M",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 200,
-      "responsavel": "Assucena",
-      "data": "2026-08-26",
-      "obs": "",
-      "criado_em": "2026-08-27 11:07:11",
-      "item": "Luva de látex tam. M",
       "usuario": "Assucena"
     }
   ]
