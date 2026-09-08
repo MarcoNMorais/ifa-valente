@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "08/09/2026 15:26:02",
+  "atualizado_em": "08/09/2026 15:26:25",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 387,
-    "total_almoxarifado": 90724,
+    "total_almoxarifado": 90794,
     "total_farmacia": 29558,
-    "total_geral": 120282,
+    "total_geral": 120352,
     "perto_de_terminar": 18,
     "zerados": 9
   },
@@ -4694,26 +4694,32 @@
       "nome": "Diazepam 5mg CPR",
       "tipo": "Medicamento",
       "unidade": "Unidade",
-      "almoxarifado": 0,
+      "almoxarifado": 70,
       "farmacia": 70,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 70,
+      "total": 140,
       "minimo": 0,
       "validade": "2027-06",
       "lote": "",
-      "origem": "Carga inicial Farmácia",
-      "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-25 16:12:46",
+      "origem": "Entrada externa",
+      "obs": "",
+      "atualizado_em": "2026-09-08 15:26:20",
       "validade_mais_proxima": "2027-06",
       "vencimento_mais_proximo": "2027-06",
       "lotes_validade": [
         {
           "local": "farmacia",
           "validade": "2027-06",
+          "lote": "",
+          "quantidade": 70
+        },
+        {
+          "local": "almoxarifado",
+          "validade": "",
           "lote": "",
           "quantidade": 70
         }
@@ -16240,6 +16246,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 1705,
+      "item_id": 125,
+      "produto_nome": "Diazepam 5mg CPR",
+      "tipo": "Entrada no Almoxarifado",
+      "origem": "Entrada externa",
+      "destino": "Almoxarifado",
+      "quantidade": 70,
+      "responsavel": "Leiliana",
+      "data": "2026-09-04",
+      "obs": "",
+      "criado_em": "2026-09-08 15:26:20",
+      "item": "Diazepam 5mg CPR",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 1704,
       "item_id": 82,
       "produto_nome": "Hidrocortisona",
@@ -23722,21 +23743,6 @@
       "obs": "SAIDA PARA INTERNAMENTO + AJUSTE DE ESTOQUE ",
       "criado_em": "2026-08-28 10:27:18",
       "item": "Ceftriaxona 1g",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1205,
-      "item_id": 361,
-      "produto_nome": "AZITROMICINA COMPRIMIDO",
-      "tipo": "Farmácia para Outro destino",
-      "origem": "Farmácia",
-      "destino": "Outro destino",
-      "quantidade": 5,
-      "responsavel": "Assucena",
-      "data": "2026-08-26",
-      "obs": "",
-      "criado_em": "2026-08-27 16:30:02",
-      "item": "AZITROMICINA COMPRIMIDO",
       "usuario": "Assucena"
     }
   ]
