@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "08/09/2026 16:04:43",
+  "atualizado_em": "08/09/2026 16:05:16",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 395,
-    "total_almoxarifado": 116388,
-    "total_farmacia": 30783,
+    "total_almoxarifado": 115988,
+    "total_farmacia": 31183,
     "total_geral": 147171,
     "perto_de_terminar": 15,
     "zerados": 8
@@ -3462,8 +3462,8 @@
       "nome": "Cetoprofeno IM 50mg",
       "tipo": "Medicamento",
       "unidade": "Unidade",
-      "almoxarifado": 400,
-      "farmacia": 39,
+      "almoxarifado": 0,
+      "farmacia": 439,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -3475,7 +3475,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-08 15:49:26",
+      "atualizado_em": "2026-09-08 16:05:15",
       "validade_mais_proxima": "2027-09",
       "vencimento_mais_proximo": "2027-09",
       "lotes_validade": [
@@ -3486,16 +3486,10 @@
           "quantidade": 39
         },
         {
-          "local": "almoxarifado",
-          "validade": "",
-          "lote": "",
-          "quantidade": 400
-        },
-        {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 20
+          "quantidade": 420
         }
       ],
       "minimo_manual": 0,
@@ -16633,6 +16627,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 1797,
+      "item_id": 61,
+      "produto_nome": "Cetoprofeno IM 50mg",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 400,
+      "responsavel": "Leiliana",
+      "data": "2026-09-04",
+      "obs": "",
+      "criado_em": "2026-09-08 16:05:15",
+      "item": "Cetoprofeno IM 50mg",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 1796,
       "item_id": 60,
       "produto_nome": "Cetoprofeno EV 100mg",
@@ -24115,21 +24124,6 @@
       "obs": "",
       "criado_em": "2026-08-31 11:29:21",
       "item": "Soro fisiológico 250ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1300,
-      "item_id": 204,
-      "produto_nome": "Soro fisiológico 500ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 25,
-      "responsavel": "Assucena",
-      "data": "2026-08-30",
-      "obs": "",
-      "criado_em": "2026-08-31 11:29:12",
-      "item": "Soro fisiológico 500ml",
       "usuario": "Assucena"
     }
   ]
