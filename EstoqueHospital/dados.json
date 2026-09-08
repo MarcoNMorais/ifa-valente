@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "08/09/2026 15:59:01",
+  "atualizado_em": "08/09/2026 15:59:12",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 395,
     "total_almoxarifado": 116868,
-    "total_farmacia": 30499,
-    "total_geral": 147367,
+    "total_farmacia": 30484,
+    "total_geral": 147352,
     "perto_de_terminar": 15,
     "zerados": 8
   },
@@ -15025,19 +15025,19 @@
       "tipo": "Insumo",
       "unidade": "Unidade",
       "almoxarifado": 1337,
-      "farmacia": 114,
+      "farmacia": 99,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1451,
+      "total": 1436,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-08 15:22:28",
+      "atualizado_em": "2026-09-08 15:59:09",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -15051,17 +15051,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 114
+          "quantidade": 99
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 249,
-      "previsao_20_dias": 249,
+      "minimo_alerta": 260,
+      "previsao_20_dias": 260,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 27,
-      "media_diaria_saida": 12.44,
-      "total_saida_historica": 336,
-      "cobertura_dias": 116.6,
+      "media_diaria_saida": 13.0,
+      "total_saida_historica": 351,
+      "cobertura_dias": 110.5,
       "alerta_estoque": false
     },
     {
@@ -16632,6 +16632,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 1789,
+      "item_id": 203,
+      "produto_nome": "Soro fisiológico 250ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 15,
+      "responsavel": "Leiliana",
+      "data": "2026-09-04",
+      "obs": "",
+      "criado_em": "2026-09-08 15:59:09",
+      "item": "Soro fisiológico 250ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 1788,
       "item_id": 181,
@@ -24115,21 +24130,6 @@
       "obs": "",
       "criado_em": "2026-08-31 11:27:51",
       "item": "Paracetamol gotas",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1292,
-      "item_id": 59,
-      "produto_nome": "Ceftriaxona 1g",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 6,
-      "responsavel": "Assucena",
-      "data": "2026-08-29",
-      "obs": "",
-      "criado_em": "2026-08-31 11:27:39",
-      "item": "Ceftriaxona 1g",
       "usuario": "Assucena"
     }
   ]
