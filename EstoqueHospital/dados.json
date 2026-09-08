@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "08/09/2026 16:40:20",
+  "atualizado_em": "08/09/2026 16:40:32",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 395,
     "total_almoxarifado": 113349,
-    "total_farmacia": 32443,
-    "total_geral": 145792,
+    "total_farmacia": 32388,
+    "total_geral": 145737,
     "perto_de_terminar": 17,
     "zerados": 8
   },
@@ -12697,19 +12697,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 3950,
-      "farmacia": 310,
+      "farmacia": 255,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 4260,
+      "total": 4205,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-08 16:27:42",
+      "atualizado_em": "2026-09-08 16:40:30",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -12723,17 +12723,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 310
+          "quantidade": 255
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 634,
-      "previsao_20_dias": 634,
+      "minimo_alerta": 675,
+      "previsao_20_dias": 675,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 27,
-      "media_diaria_saida": 31.67,
-      "total_saida_historica": 855,
-      "cobertura_dias": 134.5,
+      "media_diaria_saida": 33.7,
+      "total_saida_historica": 910,
+      "cobertura_dias": 124.8,
       "alerta_estoque": false
     },
     {
@@ -16626,6 +16626,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 1879,
+      "item_id": 102,
+      "produto_nome": "Seringa 5ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 55,
+      "responsavel": "Leiliana",
+      "data": "2026-09-04",
+      "obs": "",
+      "criado_em": "2026-09-08 16:40:30",
+      "item": "Seringa 5ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 1878,
       "item_id": 103,
@@ -24109,21 +24124,6 @@
       "obs": "",
       "criado_em": "2026-08-31 16:29:09",
       "item": "Soro fisiológico 100ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 1378,
-      "item_id": 58,
-      "produto_nome": "Cefalotina 1000mg",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 15,
-      "responsavel": "Leiliana",
-      "data": "2026-08-31",
-      "obs": "",
-      "criado_em": "2026-08-31 16:28:45",
-      "item": "Cefalotina 1000mg",
       "usuario": "Leiliana"
     }
   ]
