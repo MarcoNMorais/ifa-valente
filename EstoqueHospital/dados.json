@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "08/09/2026 16:39:32",
+  "atualizado_em": "08/09/2026 16:39:44",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 395,
     "total_almoxarifado": 113349,
-    "total_farmacia": 32573,
-    "total_geral": 145922,
+    "total_farmacia": 32563,
+    "total_geral": 145912,
     "perto_de_terminar": 17,
     "zerados": 8
   },
@@ -5245,19 +5245,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 1340,
-      "farmacia": 168,
+      "farmacia": 158,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1508,
+      "total": 1498,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-08 16:26:30",
+      "atualizado_em": "2026-09-08 16:39:42",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -5271,17 +5271,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 168
+          "quantidade": 158
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 356,
-      "previsao_20_dias": 356,
+      "minimo_alerta": 363,
+      "previsao_20_dias": 363,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 27,
-      "media_diaria_saida": 17.78,
-      "total_saida_historica": 480,
-      "cobertura_dias": 84.8,
+      "media_diaria_saida": 18.15,
+      "total_saida_historica": 490,
+      "cobertura_dias": 82.5,
       "alerta_estoque": false
     },
     {
@@ -16627,6 +16627,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 1875,
+      "item_id": 177,
+      "produto_nome": "Dispositivo intravenoso Gelco nº 22",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 10,
+      "responsavel": "Leiliana",
+      "data": "2026-09-04",
+      "obs": "",
+      "criado_em": "2026-09-08 16:39:42",
+      "item": "Dispositivo intravenoso Gelco nº 22",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 1874,
       "item_id": 319,
       "produto_nome": "Agulha 25x7",
@@ -24109,21 +24124,6 @@
       "obs": "",
       "criado_em": "2026-08-31 11:54:58",
       "item": "Cefalotina 1000mg",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1374,
-      "item_id": 155,
-      "produto_nome": "Bolsa coletora",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 2,
-      "responsavel": "Assucena",
-      "data": "2026-08-31",
-      "obs": "",
-      "criado_em": "2026-08-31 11:46:30",
-      "item": "Bolsa coletora",
       "usuario": "Assucena"
     }
   ]
