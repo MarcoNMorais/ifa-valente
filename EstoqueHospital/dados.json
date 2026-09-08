@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "08/09/2026 15:49:29",
+  "atualizado_em": "08/09/2026 15:49:41",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 395,
     "total_almoxarifado": 118348,
-    "total_farmacia": 29481,
-    "total_geral": 147829,
+    "total_farmacia": 29451,
+    "total_geral": 147799,
     "perto_de_terminar": 14,
     "zerados": 8
   },
@@ -5039,19 +5039,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 1600,
-      "farmacia": 350,
+      "farmacia": 320,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1950,
+      "total": 1920,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-08 15:14:00",
+      "atualizado_em": "2026-09-08 15:49:38",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -5065,17 +5065,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 350
+          "quantidade": 320
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 838,
-      "previsao_20_dias": 838,
+      "minimo_alerta": 860,
+      "previsao_20_dias": 860,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 27,
-      "media_diaria_saida": 41.85,
-      "total_saida_historica": 1130,
-      "cobertura_dias": 46.6,
+      "media_diaria_saida": 42.96,
+      "total_saida_historica": 1160,
+      "cobertura_dias": 44.7,
       "alerta_estoque": false
     },
     {
@@ -16633,6 +16633,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 1757,
+      "item_id": 70,
+      "produto_nome": "Dipirona",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 30,
+      "responsavel": "Leiliana",
+      "data": "2026-09-04",
+      "obs": "",
+      "criado_em": "2026-09-08 15:49:38",
+      "item": "Dipirona",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 1756,
       "item_id": 61,
       "produto_nome": "Cetoprofeno IM 50mg",
@@ -24115,21 +24130,6 @@
       "obs": "",
       "criado_em": "2026-08-31 11:17:13",
       "item": "Soro fisiológico 500ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1258,
-      "item_id": 69,
-      "produto_nome": "Diclofenaco 25mg",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 30,
-      "responsavel": "Assucena",
-      "data": "2026-08-29",
-      "obs": "",
-      "criado_em": "2026-08-31 11:17:04",
-      "item": "Diclofenaco 25mg",
       "usuario": "Assucena"
     }
   ]
