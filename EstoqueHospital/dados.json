@@ -1,12 +1,12 @@
 {
-  "atualizado_em": "08/09/2026 16:46:27",
+  "atualizado_em": "08/09/2026 16:46:37",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 395,
     "total_almoxarifado": 113325,
-    "total_farmacia": 32101,
-    "total_geral": 145426,
-    "perto_de_terminar": 17,
+    "total_farmacia": 32077,
+    "total_geral": 145402,
+    "perto_de_terminar": 18,
     "zerados": 9
   },
   "itens": [
@@ -6752,19 +6752,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 40,
+      "farmacia": 16,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 40,
+      "total": 16,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-31 11:39:42",
+      "atualizado_em": "2026-09-08 16:46:36",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -6772,18 +6772,18 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 40
+          "quantidade": 16
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 30,
-      "previsao_20_dias": 30,
+      "minimo_alerta": 48,
+      "previsao_20_dias": 48,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 27,
-      "media_diaria_saida": 1.48,
-      "total_saida_historica": 40,
-      "cobertura_dias": 27.0,
-      "alerta_estoque": false
+      "media_diaria_saida": 2.37,
+      "total_saida_historica": 64,
+      "cobertura_dias": 6.8,
+      "alerta_estoque": true
     },
     {
       "id": 216,
@@ -16626,6 +16626,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 1909,
+      "item_id": 215,
+      "produto_nome": "Fio agulhado / sutura nº 2",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 24,
+      "responsavel": "Leiliana",
+      "data": "2026-09-04",
+      "obs": "",
+      "criado_em": "2026-09-08 16:46:36",
+      "item": "Fio agulhado / sutura nº 2",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 1908,
       "item_id": 217,
       "produto_nome": "Fio agulhado / sutura nº 4",
@@ -24108,21 +24123,6 @@
       "obs": "",
       "criado_em": "2026-09-01 10:23:40",
       "item": "Dexametasona",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1398,
-      "item_id": 55,
-      "produto_nome": "Benzilpenicilina 1.200",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 15,
-      "responsavel": "Assucena",
-      "data": "2026-09-01",
-      "obs": "",
-      "criado_em": "2026-09-01 10:23:30",
-      "item": "Benzilpenicilina 1.200",
       "usuario": "Assucena"
     }
   ]
