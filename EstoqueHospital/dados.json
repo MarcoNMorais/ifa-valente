@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "08/09/2026 16:10:06",
+  "atualizado_em": "08/09/2026 16:23:29",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 395,
-    "total_almoxarifado": 115651,
-    "total_farmacia": 31415,
+    "total_almoxarifado": 115251,
+    "total_farmacia": 31815,
     "total_geral": 147066,
     "perto_de_terminar": 15,
     "zerados": 8
@@ -4470,8 +4470,8 @@
       "nome": "Complexo B",
       "tipo": "Medicamento",
       "unidade": "Unidade",
-      "almoxarifado": 400,
-      "farmacia": 0,
+      "almoxarifado": 0,
+      "farmacia": 400,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -4483,12 +4483,12 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-08 15:21:19",
+      "atualizado_em": "2026-09-08 16:23:28",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
         {
-          "local": "almoxarifado",
+          "local": "farmacia",
           "validade": "",
           "lote": "",
           "quantidade": 400
@@ -16633,6 +16633,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 1815,
+      "item_id": 66,
+      "produto_nome": "Complexo B",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 400,
+      "responsavel": "Leiliana",
+      "data": "2026-09-04",
+      "obs": "",
+      "criado_em": "2026-09-08 16:23:28",
+      "item": "Complexo B",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 1814,
       "item_id": 380,
       "produto_nome": "OLEO MINERAL",
@@ -24114,21 +24129,6 @@
       "data": "2026-08-30",
       "obs": "",
       "criado_em": "2026-08-31 11:33:08",
-      "item": "Omeprazol sódico 40mg AMP",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1318,
-      "item_id": 228,
-      "produto_nome": "Omeprazol sódico 40mg AMP",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 4,
-      "responsavel": "Assucena",
-      "data": "2026-08-30",
-      "obs": "",
-      "criado_em": "2026-08-31 11:33:00",
       "item": "Omeprazol sódico 40mg AMP",
       "usuario": "Assucena"
     }
