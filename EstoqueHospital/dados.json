@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "08/09/2026 16:44:16",
+  "atualizado_em": "08/09/2026 16:44:28",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 395,
     "total_almoxarifado": 113349,
-    "total_farmacia": 32196,
-    "total_geral": 145545,
+    "total_farmacia": 32195,
+    "total_geral": 145544,
     "perto_de_terminar": 17,
     "zerados": 8
   },
@@ -11304,19 +11304,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 7,
+      "farmacia": 6,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 7,
+      "total": 6,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-08 16:10:03",
+      "atualizado_em": "2026-09-08 16:44:23",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -11324,7 +11324,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 7
+          "quantidade": 6
         }
       ],
       "minimo_manual": 0,
@@ -11332,9 +11332,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 5,
-      "media_diaria_saida": 0.4,
-      "total_saida_historica": 2,
-      "cobertura_dias": 17.5,
+      "media_diaria_saida": 0.6,
+      "total_saida_historica": 3,
+      "cobertura_dias": 10.0,
       "alerta_estoque": false
     },
     {
@@ -16626,6 +16626,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 1900,
+      "item_id": 380,
+      "produto_nome": "OLEO MINERAL",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 1,
+      "responsavel": "Leiliana",
+      "data": "2026-09-04",
+      "obs": "",
+      "criado_em": "2026-09-08 16:44:23",
+      "item": "OLEO MINERAL",
+      "usuario": "Leiliana"
+    },
     {
       "id": 1899,
       "item_id": 241,
@@ -24109,21 +24124,6 @@
       "obs": "",
       "criado_em": "2026-09-01 11:50:39",
       "item": "Seringa 10ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1435,
-      "item_id": 272,
-      "produto_nome": "Álcool 70% líquido 5L",
-      "tipo": "Almoxarifado para Farmácia",
-      "origem": "Almoxarifado",
-      "destino": "Farmácia",
-      "quantidade": 2,
-      "responsavel": "Assucena",
-      "data": "2026-08-31",
-      "obs": "",
-      "criado_em": "2026-09-01 11:50:29",
-      "item": "Álcool 70% líquido 5L",
       "usuario": "Assucena"
     }
   ]
