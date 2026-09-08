@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "08/09/2026 16:45:55",
+  "atualizado_em": "08/09/2026 16:46:13",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 395,
-    "total_almoxarifado": 113349,
-    "total_farmacia": 32101,
+    "total_almoxarifado": 113325,
+    "total_farmacia": 32125,
     "total_geral": 145450,
     "perto_de_terminar": 17,
     "zerados": 9
@@ -7064,8 +7064,8 @@
       "nome": "Fio categute nº 3",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 624,
-      "farmacia": 0,
+      "almoxarifado": 600,
+      "farmacia": 24,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -7077,7 +7077,7 @@
       "lote": "",
       "origem": "Carga Almoxerifado",
       "obs": "Importação Almoxerifado",
-      "atualizado_em": "2026-08-25 16:12:46",
+      "atualizado_em": "2026-09-08 16:46:13",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -7085,7 +7085,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 624
+          "quantidade": 600
+        },
+        {
+          "local": "farmacia",
+          "validade": "",
+          "lote": "",
+          "quantidade": 24
         }
       ],
       "minimo_manual": 0,
@@ -16620,6 +16626,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 1907,
+      "item_id": 324,
+      "produto_nome": "Fio categute nº 3",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 24,
+      "responsavel": "Leiliana",
+      "data": "2026-09-04",
+      "obs": "",
+      "criado_em": "2026-09-08 16:46:13",
+      "item": "Fio categute nº 3",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 1906,
       "item_id": 216,
       "produto_nome": "Fio agulhado / sutura nº 3",
@@ -24102,21 +24123,6 @@
       "obs": "",
       "criado_em": "2026-09-01 10:22:58",
       "item": "Polifix",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1396,
-      "item_id": 336,
-      "produto_nome": "Mathergan",
-      "tipo": "Farmácia para PACIENTE DA CLIMEV EMPRESTIMO - JAQUELINE LIBEROU",
-      "origem": "Farmácia",
-      "destino": "PACIENTE DA CLIMEV EMPRESTIMO - JAQUELINE LIBEROU",
-      "quantidade": 1,
-      "responsavel": "Assucena",
-      "data": "2026-09-01",
-      "obs": "",
-      "criado_em": "2026-09-01 10:17:00",
-      "item": "Mathergan",
       "usuario": "Assucena"
     }
   ]
