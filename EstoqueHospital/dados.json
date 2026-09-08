@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "08/09/2026 16:30:46",
+  "atualizado_em": "08/09/2026 16:31:10",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 395,
     "total_almoxarifado": 114421,
-    "total_farmacia": 31955,
-    "total_geral": 146376,
+    "total_farmacia": 31945,
+    "total_geral": 146366,
     "perto_de_terminar": 15,
     "zerados": 8
   },
@@ -8276,19 +8276,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 240,
-      "farmacia": 185,
+      "farmacia": 175,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 425,
+      "total": 415,
       "minimo": 0,
       "validade": "2027-08",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-08 15:26:02",
+      "atualizado_em": "2026-09-08 16:31:09",
       "validade_mais_proxima": "2027-08",
       "vencimento_mais_proximo": "2027-08",
       "lotes_validade": [
@@ -8296,7 +8296,7 @@
           "local": "farmacia",
           "validade": "2027-08",
           "lote": "",
-          "quantidade": 185
+          "quantidade": 175
         },
         {
           "local": "almoxarifado",
@@ -8306,13 +8306,13 @@
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 42,
-      "previsao_20_dias": 42,
+      "minimo_alerta": 49,
+      "previsao_20_dias": 49,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 27,
-      "media_diaria_saida": 2.07,
-      "total_saida_historica": 56,
-      "cobertura_dias": 204.9,
+      "media_diaria_saida": 2.44,
+      "total_saida_historica": 66,
+      "cobertura_dias": 169.8,
       "alerta_estoque": false
     },
     {
@@ -16627,6 +16627,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 1847,
+      "item_id": 82,
+      "produto_nome": "Hidrocortisona",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 10,
+      "responsavel": "Leiliana",
+      "data": "2026-09-04",
+      "obs": "",
+      "criado_em": "2026-09-08 16:31:09",
+      "item": "Hidrocortisona",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 1846,
       "item_id": 238,
       "produto_nome": "Ondansetrona 2mg/ml 2ml",
@@ -24109,21 +24124,6 @@
       "obs": "",
       "criado_em": "2026-08-31 11:41:32",
       "item": "Dispositivo intravenoso Gelco nº 20",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1346,
-      "item_id": 99,
-      "produto_nome": "Scalp nº 21",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 10,
-      "responsavel": "Assucena",
-      "data": "2026-08-31",
-      "obs": "",
-      "criado_em": "2026-08-31 11:41:18",
-      "item": "Scalp nº 21",
       "usuario": "Assucena"
     }
   ]
