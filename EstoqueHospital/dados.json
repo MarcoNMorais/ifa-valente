@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "08/09/2026 15:21:20",
+  "atualizado_em": "08/09/2026 15:21:37",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 386,
-    "total_almoxarifado": 89207,
+    "total_almoxarifado": 89237,
     "total_farmacia": 29558,
-    "total_geral": 118765,
+    "total_geral": 118795,
     "perto_de_terminar": 18,
     "zerados": 9
   },
@@ -9715,20 +9715,20 @@
       "nome": "MANITOL 250ML",
       "tipo": "Medicamento",
       "unidade": "Unidade",
-      "almoxarifado": 0,
+      "almoxarifado": 30,
       "farmacia": 5,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 5,
+      "total": 35,
       "minimo": 0,
       "validade": "2026-11",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-08-26 10:59:54",
+      "atualizado_em": "2026-09-08 15:21:36",
       "validade_mais_proxima": "2026-11",
       "vencimento_mais_proximo": "2026-11",
       "lotes_validade": [
@@ -9737,6 +9737,12 @@
           "validade": "2026-11",
           "lote": "",
           "quantidade": 5
+        },
+        {
+          "local": "almoxarifado",
+          "validade": "",
+          "lote": "",
+          "quantidade": 30
         }
       ],
       "minimo_manual": 0,
@@ -16187,6 +16193,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 1699,
+      "item_id": 349,
+      "produto_nome": "MANITOL 250ML",
+      "tipo": "Entrada no Almoxarifado",
+      "origem": "Entrada externa",
+      "destino": "Almoxarifado",
+      "quantidade": 30,
+      "responsavel": "Leiliana",
+      "data": "2026-09-04",
+      "obs": "",
+      "criado_em": "2026-09-08 15:21:36",
+      "item": "MANITOL 250ML",
+      "usuario": "Leiliana"
+    },
     {
       "id": 1698,
       "item_id": 66,
@@ -23670,21 +23691,6 @@
       "obs": "",
       "criado_em": "2026-08-27 16:28:52",
       "item": "Caixa de perfurocortante",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1199,
-      "item_id": 59,
-      "produto_nome": "Ceftriaxona 1g",
-      "tipo": "Farmácia para Outro destino",
-      "origem": "Farmácia",
-      "destino": "Outro destino",
-      "quantidade": 6,
-      "responsavel": "Assucena",
-      "data": "2026-08-26",
-      "obs": "",
-      "criado_em": "2026-08-27 16:28:37",
-      "item": "Ceftriaxona 1g",
       "usuario": "Assucena"
     }
   ]
