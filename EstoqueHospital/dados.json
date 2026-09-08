@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "08/09/2026 16:33:16",
+  "atualizado_em": "08/09/2026 16:33:35",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 395,
     "total_almoxarifado": 114181,
-    "total_farmacia": 32185,
-    "total_geral": 146366,
+    "total_farmacia": 32175,
+    "total_geral": 146356,
     "perto_de_terminar": 15,
     "zerados": 8
   },
@@ -8322,19 +8322,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 240,
+      "farmacia": 230,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 240,
+      "total": 230,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-08 16:33:16",
+      "atualizado_em": "2026-09-08 16:33:34",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -8342,7 +8342,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 240
+          "quantidade": 230
         }
       ],
       "minimo_manual": 0,
@@ -8350,9 +8350,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 5,
-      "media_diaria_saida": 0.0,
-      "total_saida_historica": 0,
-      "cobertura_dias": null,
+      "media_diaria_saida": 2.0,
+      "total_saida_historica": 10,
+      "cobertura_dias": 115.0,
       "alerta_estoque": false
     },
     {
@@ -16627,6 +16627,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 1849,
+      "item_id": 387,
+      "produto_nome": "HIDROCORTIZONA",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 10,
+      "responsavel": "Leiliana",
+      "data": "2026-09-04",
+      "obs": "",
+      "criado_em": "2026-09-08 16:33:34",
+      "item": "HIDROCORTIZONA",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 1848,
       "item_id": 387,
       "produto_nome": "HIDROCORTIZONA",
@@ -24109,21 +24124,6 @@
       "obs": "",
       "criado_em": "2026-08-31 11:41:49",
       "item": "Dispositivo intravenoso Gelco nº 24",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1348,
-      "item_id": 177,
-      "produto_nome": "Dispositivo intravenoso Gelco nº 22",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 20,
-      "responsavel": "Assucena",
-      "data": "2026-08-31",
-      "obs": "",
-      "criado_em": "2026-08-31 11:41:41",
-      "item": "Dispositivo intravenoso Gelco nº 22",
       "usuario": "Assucena"
     }
   ]
