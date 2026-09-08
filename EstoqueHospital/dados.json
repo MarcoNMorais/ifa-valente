@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "08/09/2026 16:26:44",
+  "atualizado_em": "08/09/2026 16:26:55",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 395,
     "total_almoxarifado": 114461,
-    "total_farmacia": 32174,
-    "total_geral": 146635,
+    "total_farmacia": 32173,
+    "total_geral": 146634,
     "perto_de_terminar": 15,
     "zerados": 8
   },
@@ -8454,19 +8454,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 32,
-      "farmacia": 27,
+      "farmacia": 26,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 59,
+      "total": 58,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-08 14:52:39",
+      "atualizado_em": "2026-09-08 16:26:50",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -8480,17 +8480,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 27
+          "quantidade": 26
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 4,
-      "previsao_20_dias": 4,
+      "minimo_alerta": 5,
+      "previsao_20_dias": 5,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 26,
-      "media_diaria_saida": 0.19,
-      "total_saida_historica": 5,
-      "cobertura_dias": 306.8,
+      "media_diaria_saida": 0.23,
+      "total_saida_historica": 6,
+      "cobertura_dias": 251.3,
       "alerta_estoque": false
     },
     {
@@ -16633,6 +16633,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 1830,
+      "item_id": 255,
+      "produto_nome": "Ibuprofeno gotas",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 1,
+      "responsavel": "Leiliana",
+      "data": "2026-09-04",
+      "obs": "",
+      "criado_em": "2026-09-08 16:26:50",
+      "item": "Ibuprofeno gotas",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 1829,
       "item_id": 252,
       "produto_nome": "Salbutamol spray",
@@ -24115,21 +24130,6 @@
       "obs": "",
       "criado_em": "2026-08-31 11:38:53",
       "item": "Ondansetrona 2mg/ml 2ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1329,
-      "item_id": 55,
-      "produto_nome": "Benzilpenicilina 1.200",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 10,
-      "responsavel": "Assucena",
-      "data": "2026-08-31",
-      "obs": "",
-      "criado_em": "2026-08-31 11:38:44",
-      "item": "Benzilpenicilina 1.200",
       "usuario": "Assucena"
     }
   ]
