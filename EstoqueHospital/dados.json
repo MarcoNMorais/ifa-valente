@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "08/09/2026 15:32:07",
+  "atualizado_em": "08/09/2026 15:32:36",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
-    "itens": 390,
-    "total_almoxarifado": 99564,
+    "itens": 391,
+    "total_almoxarifado": 99624,
     "total_farmacia": 29558,
-    "total_geral": 129122,
+    "total_geral": 129182,
     "perto_de_terminar": 16,
     "zerados": 9
   },
@@ -1513,6 +1513,46 @@
       "media_diaria_saida": 0.67,
       "total_saida_historica": 18,
       "cobertura_dias": 48.0,
+      "alerta_estoque": false
+    },
+    {
+      "id": 391,
+      "produto_id": 392,
+      "nome": "ATADURA ALGODÃO 20CM",
+      "tipo": "Medicamento",
+      "unidade": "Unidade",
+      "almoxarifado": 60,
+      "farmacia": 0,
+      "sala_medicacoes": 0,
+      "internamento": 0,
+      "sala_cirurgica": 0,
+      "baixa": 0,
+      "outro": 0,
+      "total": 60,
+      "minimo": 0,
+      "validade": "",
+      "lote": "",
+      "origem": "Entrada externa",
+      "obs": "",
+      "atualizado_em": "2026-09-08 15:32:35",
+      "validade_mais_proxima": "",
+      "vencimento_mais_proximo": "",
+      "lotes_validade": [
+        {
+          "local": "almoxarifado",
+          "validade": "",
+          "lote": "",
+          "quantidade": 60
+        }
+      ],
+      "minimo_manual": 0,
+      "minimo_alerta": 0,
+      "previsao_20_dias": 0,
+      "criterio_alerta": "estoque_minimo_manual_inicio",
+      "dias_historico": 5,
+      "media_diaria_saida": 0.0,
+      "total_saida_historica": 0,
+      "cobertura_dias": null,
       "alerta_estoque": false
     },
     {
@@ -16396,6 +16436,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 1717,
+      "item_id": 391,
+      "produto_nome": "ATADURA ALGODÃO 20CM",
+      "tipo": "Entrada no Almoxarifado",
+      "origem": "Entrada externa",
+      "destino": "Almoxarifado",
+      "quantidade": 60,
+      "responsavel": "Leiliana",
+      "data": "2026-09-04",
+      "obs": "",
+      "criado_em": "2026-09-08 15:32:35",
+      "item": "ATADURA ALGODÃO 20CM",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 1716,
       "item_id": 390,
       "produto_nome": "AGULHA  40X1,2",
@@ -23878,21 +23933,6 @@
       "obs": "",
       "criado_em": "2026-08-28 10:54:33",
       "item": "Cetoprofeno EV 100mg",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1217,
-      "item_id": 61,
-      "produto_nome": "Cetoprofeno IM 50mg",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 30,
-      "responsavel": "Assucena",
-      "data": "2026-08-27",
-      "obs": "",
-      "criado_em": "2026-08-28 10:54:24",
-      "item": "Cetoprofeno IM 50mg",
       "usuario": "Assucena"
     }
   ]
