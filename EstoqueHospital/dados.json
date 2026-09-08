@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "08/09/2026 16:25:05",
+  "atualizado_em": "08/09/2026 16:25:17",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 395,
     "total_almoxarifado": 114461,
-    "total_farmacia": 32325,
-    "total_geral": 146786,
+    "total_farmacia": 32320,
+    "total_geral": 146781,
     "perto_de_terminar": 15,
     "zerados": 8
   },
@@ -3343,19 +3343,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 550,
+      "farmacia": 545,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 550,
+      "total": 545,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-08 16:25:05",
+      "atualizado_em": "2026-09-08 16:25:14",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -3363,17 +3363,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 550
+          "quantidade": 545
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 243,
-      "previsao_20_dias": 243,
+      "minimo_alerta": 247,
+      "previsao_20_dias": 247,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 27,
-      "media_diaria_saida": 12.15,
-      "total_saida_historica": 328,
-      "cobertura_dias": 45.3,
+      "media_diaria_saida": 12.33,
+      "total_saida_historica": 333,
+      "cobertura_dias": 44.2,
       "alerta_estoque": false
     },
     {
@@ -16633,6 +16633,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 1823,
+      "item_id": 59,
+      "produto_nome": "Ceftriaxona 1g",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 5,
+      "responsavel": "Leiliana",
+      "data": "2026-09-04",
+      "obs": "",
+      "criado_em": "2026-09-08 16:25:14",
+      "item": "Ceftriaxona 1g",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 1822,
       "item_id": 59,
       "produto_nome": "Ceftriaxona 1g",
@@ -24115,21 +24130,6 @@
       "obs": "",
       "criado_em": "2026-08-31 11:34:35",
       "item": "Metronidazol 100ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1326,
-      "item_id": 46,
-      "produto_nome": "Sulfa + Tri 400+80mg CPR",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 10,
-      "responsavel": "Assucena",
-      "data": "2026-08-30",
-      "obs": "",
-      "criado_em": "2026-08-31 11:34:16",
-      "item": "Sulfa + Tri 400+80mg CPR",
       "usuario": "Assucena"
     }
   ]
