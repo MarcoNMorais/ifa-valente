@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "08/09/2026 15:59:23",
+  "atualizado_em": "08/09/2026 16:02:58",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 395,
     "total_almoxarifado": 116868,
-    "total_farmacia": 30469,
-    "total_geral": 147337,
+    "total_farmacia": 30464,
+    "total_geral": 147332,
     "perto_de_terminar": 15,
     "zerados": 8
   },
@@ -3601,19 +3601,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 66,
+      "farmacia": 61,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 66,
+      "total": 61,
       "minimo": 0,
       "validade": "2027-03",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-09-03 11:42:43",
+      "atualizado_em": "2026-09-08 16:02:57",
       "validade_mais_proxima": "2027-03",
       "vencimento_mais_proximo": "2027-03",
       "lotes_validade": [
@@ -3621,7 +3621,7 @@
           "local": "farmacia",
           "validade": "2027-03",
           "lote": "",
-          "quantidade": 7
+          "quantidade": 2
         },
         {
           "local": "farmacia",
@@ -3631,13 +3631,13 @@
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 6,
-      "previsao_20_dias": 6,
+      "minimo_alerta": 9,
+      "previsao_20_dias": 9,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 27,
-      "media_diaria_saida": 0.26,
-      "total_saida_historica": 7,
-      "cobertura_dias": 254.6,
+      "media_diaria_saida": 0.44,
+      "total_saida_historica": 12,
+      "cobertura_dias": 137.2,
       "alerta_estoque": false
     },
     {
@@ -16633,6 +16633,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 1791,
+      "item_id": 63,
+      "produto_nome": "Ciprofloxacino",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 5,
+      "responsavel": "Leiliana",
+      "data": "2026-09-04",
+      "obs": "",
+      "criado_em": "2026-09-08 16:02:57",
+      "item": "Ciprofloxacino",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 1790,
       "item_id": 204,
       "produto_nome": "Soro fisiológico 500ml",
@@ -24115,21 +24130,6 @@
       "obs": "",
       "criado_em": "2026-08-31 11:28:20",
       "item": "Omeprazol 20mg comprimido",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1294,
-      "item_id": 194,
-      "produto_nome": "Lanceta de segurança",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 50,
-      "responsavel": "Assucena",
-      "data": "2026-08-29",
-      "obs": "",
-      "criado_em": "2026-08-31 11:27:57",
-      "item": "Lanceta de segurança",
       "usuario": "Assucena"
     }
   ]
