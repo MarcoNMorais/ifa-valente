@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "08/09/2026 16:03:55",
+  "atualizado_em": "08/09/2026 16:04:43",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 395,
-    "total_almoxarifado": 116868,
-    "total_farmacia": 30303,
+    "total_almoxarifado": 116388,
+    "total_farmacia": 30783,
     "total_geral": 147171,
     "perto_de_terminar": 15,
     "zerados": 8
@@ -3422,8 +3422,8 @@
       "nome": "Cetoprofeno EV 100mg",
       "tipo": "Medicamento",
       "unidade": "Unidade",
-      "almoxarifado": 480,
-      "farmacia": 0,
+      "almoxarifado": 0,
+      "farmacia": 480,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -3435,12 +3435,12 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-08 15:03:14",
+      "atualizado_em": "2026-09-08 16:04:43",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
         {
-          "local": "almoxarifado",
+          "local": "farmacia",
           "validade": "",
           "lote": "",
           "quantidade": 480
@@ -16633,6 +16633,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 1796,
+      "item_id": 60,
+      "produto_nome": "Cetoprofeno EV 100mg",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 480,
+      "responsavel": "Leiliana",
+      "data": "2026-09-04",
+      "obs": "",
+      "criado_em": "2026-09-08 16:04:43",
+      "item": "Cetoprofeno EV 100mg",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 1795,
       "item_id": 289,
       "produto_nome": "Agulha 25x8",
@@ -24115,21 +24130,6 @@
       "obs": "",
       "criado_em": "2026-08-31 11:29:12",
       "item": "Soro fisiológico 500ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1299,
-      "item_id": 376,
-      "produto_nome": "LENÇOL DESCARTAVEL PAPEL",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 3,
-      "responsavel": "Assucena",
-      "data": "2026-08-30",
-      "obs": "",
-      "criado_em": "2026-08-31 11:29:02",
-      "item": "LENÇOL DESCARTAVEL PAPEL",
       "usuario": "Assucena"
     }
   ]
