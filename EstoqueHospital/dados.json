@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "08/09/2026 16:34:10",
+  "atualizado_em": "08/09/2026 16:34:23",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 395,
     "total_almoxarifado": 114181,
-    "total_farmacia": 32144,
-    "total_geral": 146325,
+    "total_farmacia": 32139,
+    "total_geral": 146320,
     "perto_de_terminar": 15,
     "zerados": 8
   },
@@ -3119,19 +3119,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 190,
-      "farmacia": 5,
+      "farmacia": 0,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 195,
+      "total": 190,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga Almoxerifado",
       "obs": "Importação Almoxerifado",
-      "atualizado_em": "2026-08-31 11:43:49",
+      "atualizado_em": "2026-09-08 16:34:23",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -3140,22 +3140,16 @@
           "validade": "",
           "lote": "",
           "quantidade": 190
-        },
-        {
-          "local": "farmacia",
-          "validade": "",
-          "lote": "",
-          "quantidade": 5
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 14,
-      "previsao_20_dias": 14,
+      "minimo_alerta": 19,
+      "previsao_20_dias": 19,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 22,
-      "media_diaria_saida": 0.68,
-      "total_saida_historica": 15,
-      "cobertura_dias": 286.0,
+      "media_diaria_saida": 0.91,
+      "total_saida_historica": 20,
+      "cobertura_dias": 209.0,
       "alerta_estoque": false
     },
     {
@@ -16627,6 +16621,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 1853,
+      "item_id": 291,
+      "produto_nome": "Cateter tipo óculos adulto",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 5,
+      "responsavel": "Leiliana",
+      "data": "2026-09-04",
+      "obs": "",
+      "criado_em": "2026-09-08 16:34:23",
+      "item": "Cateter tipo óculos adulto",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 1852,
       "item_id": 175,
       "produto_nome": "Fita cirúrgica microporosa",
@@ -24109,21 +24118,6 @@
       "obs": "",
       "criado_em": "2026-08-31 11:42:34",
       "item": "Seringa 20ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1352,
-      "item_id": 205,
-      "produto_nome": "Soro glicose 5% 500ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 10,
-      "responsavel": "Assucena",
-      "data": "2026-08-31",
-      "obs": "",
-      "criado_em": "2026-08-31 11:42:24",
-      "item": "Soro glicose 5% 500ml",
       "usuario": "Assucena"
     }
   ]
