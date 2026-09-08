@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "08/09/2026 16:35:07",
+  "atualizado_em": "08/09/2026 16:35:17",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 395,
     "total_almoxarifado": 114181,
-    "total_farmacia": 32113,
-    "total_geral": 146294,
+    "total_farmacia": 32073,
+    "total_geral": 146254,
     "perto_de_terminar": 16,
     "zerados": 8
   },
@@ -4619,19 +4619,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 1600,
-      "farmacia": 560,
+      "farmacia": 520,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 2160,
+      "total": 2120,
       "minimo": 0,
       "validade": "2027-10",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-08 15:49:14",
+      "atualizado_em": "2026-09-08 16:35:15",
       "validade_mais_proxima": "2027-10",
       "vencimento_mais_proximo": "2027-10",
       "lotes_validade": [
@@ -4639,7 +4639,7 @@
           "local": "farmacia",
           "validade": "2027-10",
           "lote": "",
-          "quantidade": 560
+          "quantidade": 520
         },
         {
           "local": "almoxarifado",
@@ -4649,13 +4649,13 @@
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 526,
-      "previsao_20_dias": 526,
+      "minimo_alerta": 556,
+      "previsao_20_dias": 556,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 27,
-      "media_diaria_saida": 26.3,
-      "total_saida_historica": 710,
-      "cobertura_dias": 82.1,
+      "media_diaria_saida": 27.78,
+      "total_saida_historica": 750,
+      "cobertura_dias": 76.3,
       "alerta_estoque": false
     },
     {
@@ -16621,6 +16621,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 1856,
+      "item_id": 68,
+      "produto_nome": "Dexametasona",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 40,
+      "responsavel": "Leiliana",
+      "data": "2026-09-04",
+      "obs": "",
+      "criado_em": "2026-09-08 16:35:15",
+      "item": "Dexametasona",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 1855,
       "item_id": 76,
       "produto_nome": "Escopolamina + Dipirona",
@@ -24103,21 +24118,6 @@
       "obs": "",
       "criado_em": "2026-08-31 11:43:05",
       "item": "Seringa 5ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1355,
-      "item_id": 103,
-      "produto_nome": "Seringa 10ml",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 50,
-      "responsavel": "Assucena",
-      "data": "2026-08-31",
-      "obs": "",
-      "criado_em": "2026-08-31 11:42:51",
-      "item": "Seringa 10ml",
       "usuario": "Assucena"
     }
   ]
