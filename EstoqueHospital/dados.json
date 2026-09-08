@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "08/09/2026 16:48:19",
+  "atualizado_em": "08/09/2026 16:49:20",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 395,
-    "total_almoxarifado": 113316,
-    "total_farmacia": 32067,
+    "total_almoxarifado": 113236,
+    "total_farmacia": 32147,
     "total_geral": 145383,
     "perto_de_terminar": 18,
     "zerados": 9
@@ -5576,8 +5576,8 @@
       "nome": "Epinefrina 1mg",
       "tipo": "Medicamento",
       "unidade": "Unidade",
-      "almoxarifado": 80,
-      "farmacia": 0,
+      "almoxarifado": 0,
+      "farmacia": 80,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -5589,12 +5589,12 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-08 15:17:29",
+      "atualizado_em": "2026-09-08 16:49:19",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
         {
-          "local": "almoxarifado",
+          "local": "farmacia",
           "validade": "",
           "lote": "",
           "quantidade": 80
@@ -16620,6 +16620,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 1915,
+      "item_id": 73,
+      "produto_nome": "Epinefrina 1mg",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 80,
+      "responsavel": "Leiliana",
+      "data": "2026-09-04",
+      "obs": "",
+      "criado_em": "2026-09-08 16:49:19",
+      "item": "Epinefrina 1mg",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 1914,
       "item_id": 385,
       "produto_nome": "LIDOCAINA S/ VASO",
@@ -24102,21 +24117,6 @@
       "obs": "",
       "criado_em": "2026-09-01 10:24:36",
       "item": "Tramadol 50mg/ml 2ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1404,
-      "item_id": 350,
-      "produto_nome": "GLICOSE 50% AMP 10ML",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 10,
-      "responsavel": "Assucena",
-      "data": "2026-09-01",
-      "obs": "",
-      "criado_em": "2026-09-01 10:24:28",
-      "item": "GLICOSE 50% AMP 10ML",
       "usuario": "Assucena"
     }
   ]
