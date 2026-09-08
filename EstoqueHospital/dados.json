@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "08/09/2026 16:29:02",
+  "atualizado_em": "08/09/2026 16:29:34",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 395,
     "total_almoxarifado": 114421,
-    "total_farmacia": 32011,
-    "total_geral": 146432,
+    "total_farmacia": 32010,
+    "total_geral": 146431,
     "perto_de_terminar": 15,
     "zerados": 8
   },
@@ -9639,19 +9639,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 56,
-      "farmacia": 86,
+      "farmacia": 85,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 142,
+      "total": 141,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-08 15:40:39",
+      "atualizado_em": "2026-09-08 16:29:34",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -9665,16 +9665,16 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 86
+          "quantidade": 85
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 603,
-      "previsao_20_dias": 603,
+      "minimo_alerta": 604,
+      "previsao_20_dias": 604,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 27,
-      "media_diaria_saida": 30.15,
-      "total_saida_historica": 814,
+      "media_diaria_saida": 30.19,
+      "total_saida_historica": 815,
       "cobertura_dias": 4.7,
       "alerta_estoque": true
     },
@@ -16626,6 +16626,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 1841,
+      "item_id": 180,
+      "produto_nome": "Luva de látex tam. P",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 1,
+      "responsavel": "Leiliana",
+      "data": "2026-09-04",
+      "obs": "",
+      "criado_em": "2026-09-08 16:29:34",
+      "item": "Luva de látex tam. P",
+      "usuario": "Leiliana"
+    },
     {
       "id": 1840,
       "item_id": 186,
@@ -24109,21 +24124,6 @@
       "obs": "",
       "criado_em": "2026-08-31 11:40:34",
       "item": "ÁGUA  PARA INJETÁVEIS 10ML",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1340,
-      "item_id": 239,
-      "produto_nome": "Tramadol 50mg/ml 2ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 20,
-      "responsavel": "Assucena",
-      "data": "2026-08-31",
-      "obs": "",
-      "criado_em": "2026-08-31 11:40:23",
-      "item": "Tramadol 50mg/ml 2ml",
       "usuario": "Assucena"
     }
   ]
