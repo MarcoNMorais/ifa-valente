@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "09/09/2026 11:10:16",
+  "atualizado_em": "09/09/2026 11:10:35",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 395,
-    "total_almoxarifado": 109848,
-    "total_farmacia": 34807,
+    "total_almoxarifado": 109448,
+    "total_farmacia": 35207,
     "total_geral": 144655,
     "perto_de_terminar": 17,
     "zerados": 9
@@ -4928,8 +4928,8 @@
       "nome": "Diclofenaco 25mg",
       "tipo": "Medicamento",
       "unidade": "Unidade",
-      "almoxarifado": 400,
-      "farmacia": 20,
+      "almoxarifado": 0,
+      "farmacia": 420,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -4941,7 +4941,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-08 16:36:32",
+      "atualizado_em": "2026-09-09 11:10:34",
       "validade_mais_proxima": "2028-02",
       "vencimento_mais_proximo": "2028-02",
       "lotes_validade": [
@@ -4952,7 +4952,7 @@
           "quantidade": 20
         },
         {
-          "local": "almoxarifado",
+          "local": "farmacia",
           "validade": "",
           "lote": "",
           "quantidade": 400
@@ -16638,6 +16638,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 1949,
+      "item_id": 69,
+      "produto_nome": "Diclofenaco 25mg",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 400,
+      "responsavel": "Assucena",
+      "data": "2026-09-08",
+      "obs": "",
+      "criado_em": "2026-09-09 11:10:34",
+      "item": "Diclofenaco 25mg",
+      "usuario": "Assucena"
+    },
+    {
       "id": 1948,
       "item_id": 68,
       "produto_nome": "Dexametasona",
@@ -24120,21 +24135,6 @@
       "obs": "",
       "criado_em": "2026-09-01 16:11:43",
       "item": "Soro fisiológico 500ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 1449,
-      "item_id": 12,
-      "produto_nome": "Morfina 10mg/ml 1ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 10,
-      "responsavel": "Leiliana",
-      "data": "2026-09-01",
-      "obs": "",
-      "criado_em": "2026-09-01 16:10:59",
-      "item": "Morfina 10mg/ml 1ml",
       "usuario": "Leiliana"
     }
   ]
