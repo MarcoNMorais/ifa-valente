@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "09/09/2026 10:47:05",
+  "atualizado_em": "09/09/2026 10:47:17",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 395,
-    "total_almoxarifado": 111544,
-    "total_farmacia": 33131,
+    "total_almoxarifado": 111496,
+    "total_farmacia": 33179,
     "total_geral": 144675,
     "perto_de_terminar": 17,
     "zerados": 9
@@ -11182,8 +11182,8 @@
       "nome": "NYLON N°3",
       "tipo": "Medicamento",
       "unidade": "Unidade",
-      "almoxarifado": 192,
-      "farmacia": 0,
+      "almoxarifado": 144,
+      "farmacia": 48,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -11195,7 +11195,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-08 15:41:51",
+      "atualizado_em": "2026-09-09 10:47:16",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -11203,7 +11203,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 192
+          "quantidade": 144
+        },
+        {
+          "local": "farmacia",
+          "validade": "",
+          "lote": "",
+          "quantidade": 48
         }
       ],
       "minimo_manual": 0,
@@ -16625,6 +16631,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 1945,
+      "item_id": 393,
+      "produto_nome": "NYLON N°3",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 48,
+      "responsavel": "Assucena",
+      "data": "2026-09-08",
+      "obs": "",
+      "criado_em": "2026-09-09 10:47:16",
+      "item": "NYLON N°3",
+      "usuario": "Assucena"
+    },
     {
       "id": 1944,
       "item_id": 323,
@@ -24108,21 +24129,6 @@
       "obs": "",
       "criado_em": "2026-09-01 16:10:24",
       "item": "Seringa 3ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 1445,
-      "item_id": 102,
-      "produto_nome": "Seringa 5ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 30,
-      "responsavel": "Leiliana",
-      "data": "2026-09-01",
-      "obs": "",
-      "criado_em": "2026-09-01 16:10:09",
-      "item": "Seringa 5ml",
       "usuario": "Leiliana"
     }
   ]
