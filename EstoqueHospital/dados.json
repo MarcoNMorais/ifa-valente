@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "09/09/2026 14:23:05",
+  "atualizado_em": "09/09/2026 14:23:16",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 395,
     "total_almoxarifado": 107688,
-    "total_farmacia": 35880,
-    "total_geral": 143568,
+    "total_farmacia": 35879,
+    "total_geral": 143567,
     "perto_de_terminar": 17,
     "zerados": 9
   },
@@ -5758,19 +5758,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 740,
-      "farmacia": 200,
+      "farmacia": 199,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 940,
+      "total": 939,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-09 11:33:11",
+      "atualizado_em": "2026-09-09 14:23:16",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -5784,17 +5784,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 200
+          "quantidade": 199
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 370,
-      "previsao_20_dias": 370,
+      "minimo_alerta": 371,
+      "previsao_20_dias": 371,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 23,
-      "media_diaria_saida": 18.48,
-      "total_saida_historica": 425,
-      "cobertura_dias": 50.9,
+      "media_diaria_saida": 18.52,
+      "total_saida_historica": 426,
+      "cobertura_dias": 50.7,
       "alerta_estoque": false
     },
     {
@@ -16614,6 +16614,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 2005,
+      "item_id": 275,
+      "produto_nome": "Equipo micro",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 1,
+      "responsavel": "Assucena",
+      "data": "2026-09-09",
+      "obs": "",
+      "criado_em": "2026-09-09 14:23:16",
+      "item": "Equipo micro",
+      "usuario": "Assucena"
+    },
+    {
       "id": 2004,
       "item_id": 298,
       "produto_nome": "Levofloxacino 100ml",
@@ -24096,21 +24111,6 @@
       "obs": "",
       "criado_em": "2026-09-02 11:14:46",
       "item": "Lanceta de segurança",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1505,
-      "item_id": 328,
-      "produto_nome": "Papel grau 15cm",
-      "tipo": "Farmácia para CME",
-      "origem": "Farmácia",
-      "destino": "CME",
-      "quantidade": 1,
-      "responsavel": "Assucena",
-      "data": "2026-09-01",
-      "obs": "",
-      "criado_em": "2026-09-02 11:14:31",
-      "item": "Papel grau 15cm",
       "usuario": "Assucena"
     }
   ]
