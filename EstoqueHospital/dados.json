@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "09/09/2026 11:19:10",
+  "atualizado_em": "09/09/2026 11:19:22",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 395,
     "total_almoxarifado": 107848,
-    "total_farmacia": 36260,
-    "total_geral": 144108,
+    "total_farmacia": 36210,
+    "total_geral": 144058,
     "perto_de_terminar": 17,
     "zerados": 9
   },
@@ -12644,19 +12644,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 4500,
-      "farmacia": 1683,
+      "farmacia": 1633,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 6183,
+      "total": 6133,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-08 16:52:53",
+      "atualizado_em": "2026-09-09 11:19:19",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -12670,17 +12670,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 1683
+          "quantidade": 1633
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 783,
-      "previsao_20_dias": 783,
+      "minimo_alerta": 818,
+      "previsao_20_dias": 818,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 28,
-      "media_diaria_saida": 39.11,
-      "total_saida_historica": 1095,
-      "cobertura_dias": 158.1,
+      "media_diaria_saida": 40.89,
+      "total_saida_historica": 1145,
+      "cobertura_dias": 150.0,
       "alerta_estoque": false
     },
     {
@@ -16619,6 +16619,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 1977,
+      "item_id": 104,
+      "produto_nome": "Seringa 3ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 50,
+      "responsavel": "Assucena",
+      "data": "2026-09-08",
+      "obs": "",
+      "criado_em": "2026-09-09 11:19:19",
+      "item": "Seringa 3ml",
+      "usuario": "Assucena"
+    },
     {
       "id": 1976,
       "item_id": 102,
@@ -24102,21 +24117,6 @@
       "obs": "",
       "criado_em": "2026-09-02 11:06:02",
       "item": "Dispositivo intravenoso Gelco nº 20",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1477,
-      "item_id": 188,
-      "produto_nome": "Agulha hipodérmica tam. 21",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 60,
-      "responsavel": "Assucena",
-      "data": "2026-09-01",
-      "obs": "",
-      "criado_em": "2026-09-02 11:05:52",
-      "item": "Agulha hipodérmica tam. 21",
       "usuario": "Assucena"
     }
   ]
