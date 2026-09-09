@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "09/09/2026 10:41:15",
+  "atualizado_em": "09/09/2026 10:42:05",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 395,
-    "total_almoxarifado": 111724,
-    "total_farmacia": 32951,
+    "total_almoxarifado": 111640,
+    "total_farmacia": 33035,
     "total_geral": 144675,
     "perto_de_terminar": 17,
     "zerados": 9
@@ -1561,8 +1561,8 @@
       "nome": "Atadura crepon nº 10",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 2148,
-      "farmacia": 98,
+      "almoxarifado": 2064,
+      "farmacia": 182,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -1574,7 +1574,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-08 15:33:04",
+      "atualizado_em": "2026-09-09 10:42:04",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -1582,13 +1582,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 2148
+          "quantidade": 2064
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 98
+          "quantidade": 182
         }
       ],
       "minimo_manual": 0,
@@ -16620,6 +16620,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 1942,
+      "item_id": 152,
+      "produto_nome": "Atadura crepon nº 10",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 84,
+      "responsavel": "Assucena",
+      "data": "2026-09-08",
+      "obs": "",
+      "criado_em": "2026-09-09 10:42:04",
+      "item": "Atadura crepon nº 10",
+      "usuario": "Assucena"
+    },
+    {
       "id": 1941,
       "item_id": 194,
       "produto_nome": "Lanceta de segurança",
@@ -24102,21 +24117,6 @@
       "obs": "",
       "criado_em": "2026-09-01 16:09:01",
       "item": "Seringa 10ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 1442,
-      "item_id": 376,
-      "produto_nome": "LENÇOL DESCARTAVEL PAPEL",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 3,
-      "responsavel": "Leiliana",
-      "data": "2026-09-01",
-      "obs": "",
-      "criado_em": "2026-09-01 16:08:48",
-      "item": "LENÇOL DESCARTAVEL PAPEL",
       "usuario": "Leiliana"
     }
   ]
