@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "09/09/2026 11:19:56",
+  "atualizado_em": "09/09/2026 11:20:07",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 395,
     "total_almoxarifado": 107848,
-    "total_farmacia": 36156,
-    "total_geral": 144004,
+    "total_farmacia": 36131,
+    "total_geral": 143979,
     "perto_de_terminar": 17,
     "zerados": 9
   },
@@ -5718,19 +5718,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 1400,
-      "farmacia": 100,
+      "farmacia": 75,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1500,
+      "total": 1475,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-08 16:49:42",
+      "atualizado_em": "2026-09-09 11:20:02",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -5744,17 +5744,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 100
+          "quantidade": 75
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 125,
-      "previsao_20_dias": 125,
+      "minimo_alerta": 143,
+      "previsao_20_dias": 143,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 28,
-      "media_diaria_saida": 6.25,
-      "total_saida_historica": 175,
-      "cobertura_dias": 240.0,
+      "media_diaria_saida": 7.14,
+      "total_saida_historica": 200,
+      "cobertura_dias": 206.5,
       "alerta_estoque": false
     },
     {
@@ -16620,6 +16620,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 1982,
+      "item_id": 220,
+      "produto_nome": "Equipo macrogotas",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 25,
+      "responsavel": "Assucena",
+      "data": "2026-09-08",
+      "obs": "",
+      "criado_em": "2026-09-09 11:20:02",
+      "item": "Equipo macrogotas",
+      "usuario": "Assucena"
+    },
+    {
       "id": 1981,
       "item_id": 153,
       "produto_nome": "Atadura crepon nº 20",
@@ -24102,21 +24117,6 @@
       "obs": "",
       "criado_em": "2026-09-02 11:06:46",
       "item": "Seringa 3ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1482,
-      "item_id": 176,
-      "produto_nome": "Dispositivo intravenoso Gelco nº 24",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 10,
-      "responsavel": "Assucena",
-      "data": "2026-09-01",
-      "obs": "",
-      "criado_em": "2026-09-02 11:06:35",
-      "item": "Dispositivo intravenoso Gelco nº 24",
       "usuario": "Assucena"
     }
   ]
