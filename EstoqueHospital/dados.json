@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "09/09/2026 16:24:30",
+  "atualizado_em": "09/09/2026 16:24:57",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 395,
     "total_almoxarifado": 107688,
-    "total_farmacia": 35706,
-    "total_geral": 143394,
+    "total_farmacia": 35636,
+    "total_geral": 143324,
     "perto_de_terminar": 18,
     "zerados": 9
   },
@@ -12500,19 +12500,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 4250,
-      "farmacia": 120,
+      "farmacia": 90,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 4370,
+      "total": 4340,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-09 11:33:11",
+      "atualizado_em": "2026-09-09 16:24:41",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -12526,17 +12526,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 120
+          "quantidade": 90
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 1539,
-      "previsao_20_dias": 1539,
+      "minimo_alerta": 1560,
+      "previsao_20_dias": 1560,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 28,
-      "media_diaria_saida": 76.93,
-      "total_saida_historica": 2154,
-      "cobertura_dias": 56.8,
+      "media_diaria_saida": 78.0,
+      "total_saida_historica": 2184,
+      "cobertura_dias": 55.6,
       "alerta_estoque": false
     },
     {
@@ -12684,19 +12684,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 3950,
-      "farmacia": 175,
+      "farmacia": 135,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 4125,
+      "total": 4085,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-09 11:33:11",
+      "atualizado_em": "2026-09-09 16:24:54",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -12710,17 +12710,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 175
+          "quantidade": 135
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 708,
-      "previsao_20_dias": 708,
+      "minimo_alerta": 736,
+      "previsao_20_dias": 736,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 28,
-      "media_diaria_saida": 35.36,
-      "total_saida_historica": 990,
-      "cobertura_dias": 116.7,
+      "media_diaria_saida": 36.79,
+      "total_saida_historica": 1030,
+      "cobertura_dias": 111.0,
       "alerta_estoque": false
     },
     {
@@ -16613,6 +16613,36 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 2020,
+      "item_id": 102,
+      "produto_nome": "Seringa 5ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 40,
+      "responsavel": "Assucena",
+      "data": "2026-09-09",
+      "obs": "",
+      "criado_em": "2026-09-09 16:24:54",
+      "item": "Seringa 5ml",
+      "usuario": "Assucena"
+    },
+    {
+      "id": 2019,
+      "item_id": 103,
+      "produto_nome": "Seringa 10ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 30,
+      "responsavel": "Assucena",
+      "data": "2026-09-09",
+      "obs": "",
+      "criado_em": "2026-09-09 16:24:41",
+      "item": "Seringa 10ml",
+      "usuario": "Assucena"
+    },
     {
       "id": 2018,
       "item_id": 274,
@@ -24081,36 +24111,6 @@
       "obs": "",
       "criado_em": "2026-09-02 16:27:26",
       "item": "Soro Ringer Lactato 500ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 1520,
-      "item_id": 205,
-      "produto_nome": "Soro glicose 5% 500ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 10,
-      "responsavel": "Leiliana",
-      "data": "2026-09-02",
-      "obs": "",
-      "criado_em": "2026-09-02 16:27:10",
-      "item": "Soro glicose 5% 500ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 1519,
-      "item_id": 230,
-      "produto_nome": "Ferropurum 20mg/ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 2,
-      "responsavel": "Leiliana",
-      "data": "2026-09-02",
-      "obs": "",
-      "criado_em": "2026-09-02 16:26:51",
-      "item": "Ferropurum 20mg/ml",
       "usuario": "Leiliana"
     }
   ]
