@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "09/09/2026 16:23:18",
+  "atualizado_em": "09/09/2026 16:23:31",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 395,
     "total_almoxarifado": 107688,
-    "total_farmacia": 35830,
-    "total_geral": 143518,
+    "total_farmacia": 35818,
+    "total_geral": 143506,
     "perto_de_terminar": 18,
     "zerados": 9
   },
@@ -8251,19 +8251,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 240,
-      "farmacia": 165,
+      "farmacia": 153,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 405,
+      "total": 393,
       "minimo": 0,
       "validade": "2027-08",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-09 11:33:11",
+      "atualizado_em": "2026-09-09 16:23:30",
       "validade_mais_proxima": "2027-08",
       "vencimento_mais_proximo": "2027-08",
       "lotes_validade": [
@@ -8271,7 +8271,7 @@
           "local": "farmacia",
           "validade": "2027-08",
           "lote": "",
-          "quantidade": 165
+          "quantidade": 153
         },
         {
           "local": "almoxarifado",
@@ -8281,13 +8281,13 @@
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 55,
-      "previsao_20_dias": 55,
+      "minimo_alerta": 63,
+      "previsao_20_dias": 63,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 28,
-      "media_diaria_saida": 2.71,
-      "total_saida_historica": 76,
-      "cobertura_dias": 149.2,
+      "media_diaria_saida": 3.14,
+      "total_saida_historica": 88,
+      "cobertura_dias": 125.0,
       "alerta_estoque": false
     },
     {
@@ -16614,6 +16614,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 2013,
+      "item_id": 82,
+      "produto_nome": "Hidrocortisona",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 12,
+      "responsavel": "Assucena",
+      "data": "2026-09-09",
+      "obs": "",
+      "criado_em": "2026-09-09 16:23:30",
+      "item": "Hidrocortisona",
+      "usuario": "Assucena"
+    },
+    {
       "id": 2012,
       "item_id": 68,
       "produto_nome": "Dexametasona",
@@ -24096,21 +24111,6 @@
       "obs": "",
       "criado_em": "2026-09-02 16:25:02",
       "item": "Soro fisiológico 500ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 1513,
-      "item_id": 287,
-      "produto_nome": "Agulha 13x4,5",
-      "tipo": "Almoxarifado para Farmácia",
-      "origem": "Almoxarifado",
-      "destino": "Farmácia",
-      "quantidade": 120,
-      "responsavel": "Leiliana",
-      "data": "2026-09-02",
-      "obs": "",
-      "criado_em": "2026-09-02 16:24:42",
-      "item": "Agulha 13x4,5",
       "usuario": "Leiliana"
     }
   ]
