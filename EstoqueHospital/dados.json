@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "09/09/2026 11:17:37",
+  "atualizado_em": "09/09/2026 11:17:48",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 395,
     "total_almoxarifado": 107848,
-    "total_farmacia": 36435,
-    "total_geral": 144283,
+    "total_farmacia": 36385,
+    "total_geral": 144233,
     "perto_de_terminar": 17,
     "zerados": 9
   },
@@ -745,19 +745,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 16600,
-      "farmacia": 470,
+      "farmacia": 420,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 17070,
+      "total": 17020,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga Almoxerifado",
       "obs": "Importação Almoxerifado",
-      "atualizado_em": "2026-09-08 16:51:24",
+      "atualizado_em": "2026-09-09 11:17:38",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -771,17 +771,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 470
+          "quantidade": 420
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 114,
-      "previsao_20_dias": 114,
+      "minimo_alerta": 157,
+      "previsao_20_dias": 157,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 23,
-      "media_diaria_saida": 5.65,
-      "total_saida_historica": 130,
-      "cobertura_dias": 3020.1,
+      "media_diaria_saida": 7.83,
+      "total_saida_historica": 180,
+      "cobertura_dias": 2174.8,
       "alerta_estoque": false
     },
     {
@@ -16620,6 +16620,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 1967,
+      "item_id": 331,
+      "produto_nome": "Agulha 30x8",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 50,
+      "responsavel": "Assucena",
+      "data": "2026-09-08",
+      "obs": "",
+      "criado_em": "2026-09-09 11:17:38",
+      "item": "Agulha 30x8",
+      "usuario": "Assucena"
+    },
+    {
       "id": 1966,
       "item_id": 285,
       "produto_nome": "Agulha 30x7",
@@ -24102,21 +24117,6 @@
       "obs": "",
       "criado_em": "2026-09-02 11:04:25",
       "item": "Dipirona gotas",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1467,
-      "item_id": 260,
-      "produto_nome": "Paracetamol gotas",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 1,
-      "responsavel": "Assucena",
-      "data": "2026-09-01",
-      "obs": "",
-      "criado_em": "2026-09-02 11:04:17",
-      "item": "Paracetamol gotas",
       "usuario": "Assucena"
     }
   ]
