@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "09/09/2026 16:22:10",
+  "atualizado_em": "09/09/2026 16:23:18",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 395,
     "total_almoxarifado": 107688,
-    "total_farmacia": 35850,
-    "total_geral": 143538,
+    "total_farmacia": 35830,
+    "total_geral": 143518,
     "perto_de_terminar": 18,
     "zerados": 9
   },
@@ -4607,19 +4607,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 2080,
+      "farmacia": 2060,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 2080,
+      "total": 2060,
       "minimo": 0,
       "validade": "2027-10",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-09 11:33:11",
+      "atualizado_em": "2026-09-09 16:23:17",
       "validade_mais_proxima": "2027-10",
       "vencimento_mais_proximo": "2027-10",
       "lotes_validade": [
@@ -4627,7 +4627,7 @@
           "local": "farmacia",
           "validade": "2027-10",
           "lote": "",
-          "quantidade": 480
+          "quantidade": 460
         },
         {
           "local": "farmacia",
@@ -4637,13 +4637,13 @@
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 565,
-      "previsao_20_dias": 565,
+      "minimo_alerta": 579,
+      "previsao_20_dias": 579,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 28,
-      "media_diaria_saida": 28.21,
-      "total_saida_historica": 790,
-      "cobertura_dias": 73.7,
+      "media_diaria_saida": 28.93,
+      "total_saida_historica": 810,
+      "cobertura_dias": 71.2,
       "alerta_estoque": false
     },
     {
@@ -16614,6 +16614,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 2012,
+      "item_id": 68,
+      "produto_nome": "Dexametasona",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 20,
+      "responsavel": "Assucena",
+      "data": "2026-09-09",
+      "obs": "",
+      "criado_em": "2026-09-09 16:23:17",
+      "item": "Dexametasona",
+      "usuario": "Assucena"
+    },
+    {
       "id": 2011,
       "item_id": 59,
       "produto_nome": "Ceftriaxona 1g",
@@ -24096,21 +24111,6 @@
       "obs": "",
       "criado_em": "2026-09-02 16:24:42",
       "item": "Agulha 13x4,5",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 1512,
-      "item_id": 201,
-      "produto_nome": "Soro Ringer Lactato 500ml",
-      "tipo": "Almoxarifado para Farmácia",
-      "origem": "Almoxarifado",
-      "destino": "Farmácia",
-      "quantidade": 24,
-      "responsavel": "Leiliana",
-      "data": "2026-09-02",
-      "obs": "",
-      "criado_em": "2026-09-02 16:24:27",
-      "item": "Soro Ringer Lactato 500ml",
       "usuario": "Leiliana"
     }
   ]
