@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "09/09/2026 14:51:43",
+  "atualizado_em": "09/09/2026 16:21:57",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 395,
     "total_almoxarifado": 107688,
-    "total_farmacia": 35874,
-    "total_geral": 143562,
+    "total_farmacia": 35862,
+    "total_geral": 143550,
     "perto_de_terminar": 18,
     "zerados": 9
   },
@@ -3399,19 +3399,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 420,
+      "farmacia": 408,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 420,
+      "total": 408,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-09 11:33:11",
+      "atualizado_em": "2026-09-09 16:21:57",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -3419,17 +3419,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 420
+          "quantidade": 408
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 222,
-      "previsao_20_dias": 222,
+      "minimo_alerta": 230,
+      "previsao_20_dias": 230,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 28,
-      "media_diaria_saida": 11.07,
-      "total_saida_historica": 310,
-      "cobertura_dias": 37.9,
+      "media_diaria_saida": 11.5,
+      "total_saida_historica": 322,
+      "cobertura_dias": 35.5,
       "alerta_estoque": false
     },
     {
@@ -16614,6 +16614,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 2010,
+      "item_id": 60,
+      "produto_nome": "Cetoprofeno EV 100mg",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 12,
+      "responsavel": "Assucena",
+      "data": "2026-09-09",
+      "obs": "",
+      "criado_em": "2026-09-09 16:21:57",
+      "item": "Cetoprofeno EV 100mg",
+      "usuario": "Assucena"
+    },
+    {
       "id": 2009,
       "item_id": 116,
       "produto_nome": "Cetoprofeno 150mg CPR",
@@ -24095,21 +24110,6 @@
       "data": "2026-09-01",
       "obs": "",
       "criado_em": "2026-09-02 11:30:17",
-      "item": "Omeprazol sódico 40mg AMP",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1510,
-      "item_id": 228,
-      "produto_nome": "Omeprazol sódico 40mg AMP",
-      "tipo": "Entrada no Almoxarifado",
-      "origem": "Entrada externa",
-      "destino": "Almoxarifado",
-      "quantidade": 70,
-      "responsavel": "Assucena",
-      "data": "2026-09-01",
-      "obs": "AJUSTE DE ESTOQUE ",
-      "criado_em": "2026-09-02 11:30:07",
       "item": "Omeprazol sódico 40mg AMP",
       "usuario": "Assucena"
     }
