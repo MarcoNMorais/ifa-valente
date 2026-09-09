@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "09/09/2026 16:21:57",
+  "atualizado_em": "09/09/2026 16:22:10",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 395,
     "total_almoxarifado": 107688,
-    "total_farmacia": 35862,
-    "total_geral": 143550,
+    "total_farmacia": 35850,
+    "total_geral": 143538,
     "perto_de_terminar": 18,
     "zerados": 9
   },
@@ -3319,19 +3319,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 478,
+      "farmacia": 466,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 478,
+      "total": 466,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-09 11:33:11",
+      "atualizado_em": "2026-09-09 16:22:07",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -3339,17 +3339,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 478
+          "quantidade": 466
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 286,
-      "previsao_20_dias": 286,
+      "minimo_alerta": 295,
+      "previsao_20_dias": 295,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 28,
-      "media_diaria_saida": 14.29,
-      "total_saida_historica": 400,
-      "cobertura_dias": 33.5,
+      "media_diaria_saida": 14.71,
+      "total_saida_historica": 412,
+      "cobertura_dias": 31.7,
       "alerta_estoque": false
     },
     {
@@ -16614,6 +16614,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 2011,
+      "item_id": 59,
+      "produto_nome": "Ceftriaxona 1g",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 12,
+      "responsavel": "Assucena",
+      "data": "2026-09-09",
+      "obs": "",
+      "criado_em": "2026-09-09 16:22:07",
+      "item": "Ceftriaxona 1g",
+      "usuario": "Assucena"
+    },
+    {
       "id": 2010,
       "item_id": 60,
       "produto_nome": "Cetoprofeno EV 100mg",
@@ -24097,21 +24112,6 @@
       "criado_em": "2026-09-02 16:24:27",
       "item": "Soro Ringer Lactato 500ml",
       "usuario": "Leiliana"
-    },
-    {
-      "id": 1511,
-      "item_id": 228,
-      "produto_nome": "Omeprazol sódico 40mg AMP",
-      "tipo": "Almoxarifado para Farmácia",
-      "origem": "Almoxarifado",
-      "destino": "Farmácia",
-      "quantidade": 70,
-      "responsavel": "Assucena",
-      "data": "2026-09-01",
-      "obs": "",
-      "criado_em": "2026-09-02 11:30:17",
-      "item": "Omeprazol sódico 40mg AMP",
-      "usuario": "Assucena"
     }
   ]
 }
