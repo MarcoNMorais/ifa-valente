@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "09/09/2026 11:12:11",
+  "atualizado_em": "09/09/2026 11:13:23",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 395,
-    "total_almoxarifado": 109448,
-    "total_farmacia": 35082,
+    "total_almoxarifado": 107848,
+    "total_farmacia": 36682,
     "total_geral": 144530,
     "perto_de_terminar": 17,
     "zerados": 9
@@ -5008,8 +5008,8 @@
       "nome": "Dipirona",
       "tipo": "Medicamento",
       "unidade": "Unidade",
-      "almoxarifado": 1600,
-      "farmacia": 180,
+      "almoxarifado": 0,
+      "farmacia": 1780,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -5021,21 +5021,15 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-08 16:50:36",
+      "atualizado_em": "2026-09-09 11:13:22",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
         {
-          "local": "almoxarifado",
-          "validade": "",
-          "lote": "",
-          "quantidade": 1600
-        },
-        {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 180
+          "quantidade": 1780
         }
       ],
       "minimo_manual": 0,
@@ -16632,6 +16626,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 1957,
+      "item_id": 70,
+      "produto_nome": "Dipirona",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 1600,
+      "responsavel": "Assucena",
+      "data": "2026-09-08",
+      "obs": "",
+      "criado_em": "2026-09-09 11:13:22",
+      "item": "Dipirona",
+      "usuario": "Assucena"
+    },
+    {
       "id": 1956,
       "item_id": 138,
       "produto_nome": "Captopril 25mg CPR",
@@ -24114,21 +24123,6 @@
       "obs": "",
       "criado_em": "2026-09-01 16:18:09",
       "item": "Lanceta de segurança",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 1457,
-      "item_id": 230,
-      "produto_nome": "Ferropurum 20mg/ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 2,
-      "responsavel": "Leiliana",
-      "data": "2026-09-01",
-      "obs": "",
-      "criado_em": "2026-09-01 16:14:16",
-      "item": "Ferropurum 20mg/ml",
       "usuario": "Leiliana"
     }
   ]
