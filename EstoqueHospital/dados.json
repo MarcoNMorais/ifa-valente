@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "09/09/2026 11:24:47",
+  "atualizado_em": "09/09/2026 11:25:04",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 395,
     "total_almoxarifado": 107688,
-    "total_farmacia": 36002,
-    "total_geral": 143690,
+    "total_farmacia": 35972,
+    "total_geral": 143660,
     "perto_de_terminar": 17,
     "zerados": 9
   },
@@ -15681,19 +15681,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 260,
+      "farmacia": 230,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 260,
+      "total": 230,
       "minimo": 0,
       "validade": "08/27",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-25 16:12:46",
+      "atualizado_em": "2026-09-09 11:25:01",
       "validade_mais_proxima": "08/27",
       "vencimento_mais_proximo": "08/27",
       "lotes_validade": [
@@ -15707,17 +15707,17 @@
           "local": "farmacia",
           "validade": "2027-04",
           "lote": "",
-          "quantidade": 220
+          "quantidade": 190
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 0,
-      "previsao_20_dias": 0,
+      "minimo_alerta": 22,
+      "previsao_20_dias": 22,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 28,
-      "media_diaria_saida": 0.0,
-      "total_saida_historica": 0,
-      "cobertura_dias": null,
+      "media_diaria_saida": 1.07,
+      "total_saida_historica": 30,
+      "cobertura_dias": 214.7,
       "alerta_estoque": false
     },
     {
@@ -16613,6 +16613,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 1999,
+      "item_id": 124,
+      "produto_nome": "Sulfato ferroso 40mg de ferro",
+      "tipo": "Farmácia para Posto de Internamento",
+      "origem": "Farmácia",
+      "destino": "Posto de Internamento",
+      "quantidade": 30,
+      "responsavel": "Assucena",
+      "data": "2026-09-08",
+      "obs": "",
+      "criado_em": "2026-09-09 11:25:01",
+      "item": "Sulfato ferroso 40mg de ferro",
+      "usuario": "Assucena"
+    },
     {
       "id": 1998,
       "item_id": 361,
@@ -24096,21 +24111,6 @@
       "obs": "",
       "criado_em": "2026-09-02 11:13:04",
       "item": "Atadura crepon nº 15",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1499,
-      "item_id": 290,
-      "produto_nome": "Metronidazol 100ml",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 6,
-      "responsavel": "Assucena",
-      "data": "2026-09-01",
-      "obs": "",
-      "criado_em": "2026-09-02 11:12:50",
-      "item": "Metronidazol 100ml",
       "usuario": "Assucena"
     }
   ]
