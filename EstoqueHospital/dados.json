@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "09/09/2026 16:24:57",
+  "atualizado_em": "09/09/2026 16:25:08",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 395,
     "total_almoxarifado": 107688,
-    "total_farmacia": 35636,
-    "total_geral": 143324,
+    "total_farmacia": 35606,
+    "total_geral": 143294,
     "perto_de_terminar": 18,
     "zerados": 9
   },
@@ -12638,19 +12638,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 4500,
-      "farmacia": 1633,
+      "farmacia": 1603,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 6133,
+      "total": 6103,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-09 11:33:11",
+      "atualizado_em": "2026-09-09 16:25:06",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -12664,17 +12664,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 1633
+          "quantidade": 1603
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 818,
-      "previsao_20_dias": 818,
+      "minimo_alerta": 840,
+      "previsao_20_dias": 840,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 28,
-      "media_diaria_saida": 40.89,
-      "total_saida_historica": 1145,
-      "cobertura_dias": 150.0,
+      "media_diaria_saida": 41.96,
+      "total_saida_historica": 1175,
+      "cobertura_dias": 145.4,
       "alerta_estoque": false
     },
     {
@@ -16613,6 +16613,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 2021,
+      "item_id": 104,
+      "produto_nome": "Seringa 3ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 30,
+      "responsavel": "Assucena",
+      "data": "2026-09-09",
+      "obs": "",
+      "criado_em": "2026-09-09 16:25:06",
+      "item": "Seringa 3ml",
+      "usuario": "Assucena"
+    },
     {
       "id": 2020,
       "item_id": 102,
@@ -24096,21 +24111,6 @@
       "obs": "",
       "criado_em": "2026-09-02 16:27:40",
       "item": "Dexametasona",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 1521,
-      "item_id": 201,
-      "produto_nome": "Soro Ringer Lactato 500ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 5,
-      "responsavel": "Leiliana",
-      "data": "2026-09-02",
-      "obs": "",
-      "criado_em": "2026-09-02 16:27:26",
-      "item": "Soro Ringer Lactato 500ml",
       "usuario": "Leiliana"
     }
   ]
