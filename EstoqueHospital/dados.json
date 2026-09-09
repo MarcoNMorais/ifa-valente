@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "09/09/2026 11:18:44",
+  "atualizado_em": "09/09/2026 11:19:10",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 395,
     "total_almoxarifado": 107848,
-    "total_farmacia": 36320,
-    "total_geral": 144168,
+    "total_farmacia": 36260,
+    "total_geral": 144108,
     "perto_de_terminar": 17,
     "zerados": 9
   },
@@ -12506,19 +12506,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 4250,
-      "farmacia": 140,
+      "farmacia": 120,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 4390,
+      "total": 4370,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-08 16:52:32",
+      "atualizado_em": "2026-09-09 11:19:01",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -12532,17 +12532,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 140
+          "quantidade": 120
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 1525,
-      "previsao_20_dias": 1525,
+      "minimo_alerta": 1539,
+      "previsao_20_dias": 1539,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 28,
-      "media_diaria_saida": 76.21,
-      "total_saida_historica": 2134,
-      "cobertura_dias": 57.6,
+      "media_diaria_saida": 76.93,
+      "total_saida_historica": 2154,
+      "cobertura_dias": 56.8,
       "alerta_estoque": false
     },
     {
@@ -12690,19 +12690,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 3950,
-      "farmacia": 215,
+      "farmacia": 175,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 4165,
+      "total": 4125,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-08 16:52:42",
+      "atualizado_em": "2026-09-09 11:19:10",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -12716,17 +12716,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 215
+          "quantidade": 175
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 679,
-      "previsao_20_dias": 679,
+      "minimo_alerta": 708,
+      "previsao_20_dias": 708,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 28,
-      "media_diaria_saida": 33.93,
-      "total_saida_historica": 950,
-      "cobertura_dias": 122.8,
+      "media_diaria_saida": 35.36,
+      "total_saida_historica": 990,
+      "cobertura_dias": 116.7,
       "alerta_estoque": false
     },
     {
@@ -16619,6 +16619,36 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 1976,
+      "item_id": 102,
+      "produto_nome": "Seringa 5ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 40,
+      "responsavel": "Assucena",
+      "data": "2026-09-08",
+      "obs": "",
+      "criado_em": "2026-09-09 11:19:10",
+      "item": "Seringa 5ml",
+      "usuario": "Assucena"
+    },
+    {
+      "id": 1975,
+      "item_id": 103,
+      "produto_nome": "Seringa 10ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 20,
+      "responsavel": "Assucena",
+      "data": "2026-09-08",
+      "obs": "",
+      "criado_em": "2026-09-09 11:19:01",
+      "item": "Seringa 10ml",
+      "usuario": "Assucena"
+    },
     {
       "id": 1974,
       "item_id": 201,
@@ -24087,36 +24117,6 @@
       "obs": "",
       "criado_em": "2026-09-02 11:05:52",
       "item": "Agulha hipodérmica tam. 21",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1476,
-      "item_id": 187,
-      "produto_nome": "Agulha hipodérmica tam. 18",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 90,
-      "responsavel": "Assucena",
-      "data": "2026-09-01",
-      "obs": "",
-      "criado_em": "2026-09-02 11:05:37",
-      "item": "Agulha hipodérmica tam. 18",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1475,
-      "item_id": 335,
-      "produto_nome": "Bisturi nº 23",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 15,
-      "responsavel": "Assucena",
-      "data": "2026-09-01",
-      "obs": "",
-      "criado_em": "2026-09-02 11:05:25",
-      "item": "Bisturi nº 23",
       "usuario": "Assucena"
     }
   ]
