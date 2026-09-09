@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "09/09/2026 11:10:01",
+  "atualizado_em": "09/09/2026 11:10:16",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 395,
-    "total_almoxarifado": 111448,
-    "total_farmacia": 33207,
+    "total_almoxarifado": 109848,
+    "total_farmacia": 34807,
     "total_geral": 144655,
     "perto_de_terminar": 17,
     "zerados": 9
@@ -4612,8 +4612,8 @@
       "nome": "Dexametasona",
       "tipo": "Medicamento",
       "unidade": "Unidade",
-      "almoxarifado": 1600,
-      "farmacia": 500,
+      "almoxarifado": 0,
+      "farmacia": 2100,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -4625,7 +4625,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-09 11:10:00",
+      "atualizado_em": "2026-09-09 11:10:15",
       "validade_mais_proxima": "2027-10",
       "vencimento_mais_proximo": "2027-10",
       "lotes_validade": [
@@ -4636,7 +4636,7 @@
           "quantidade": 500
         },
         {
-          "local": "almoxarifado",
+          "local": "farmacia",
           "validade": "",
           "lote": "",
           "quantidade": 1600
@@ -16638,6 +16638,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 1948,
+      "item_id": 68,
+      "produto_nome": "Dexametasona",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 1600,
+      "responsavel": "Assucena",
+      "data": "2026-09-08",
+      "obs": "",
+      "criado_em": "2026-09-09 11:10:15",
+      "item": "Dexametasona",
+      "usuario": "Assucena"
+    },
+    {
       "id": 1947,
       "item_id": 68,
       "produto_nome": "Dexametasona",
@@ -24120,21 +24135,6 @@
       "obs": "",
       "criado_em": "2026-09-01 16:10:59",
       "item": "Morfina 10mg/ml 1ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 1448,
-      "item_id": 99,
-      "produto_nome": "Scalp nº 21",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 10,
-      "responsavel": "Leiliana",
-      "data": "2026-09-01",
-      "obs": "",
-      "criado_em": "2026-09-01 16:10:45",
-      "item": "Scalp nº 21",
       "usuario": "Leiliana"
     }
   ]
