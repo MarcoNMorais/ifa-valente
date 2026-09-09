@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "09/09/2026 16:23:42",
+  "atualizado_em": "09/09/2026 16:23:53",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 395,
     "total_almoxarifado": 107688,
-    "total_farmacia": 35806,
-    "total_geral": 143494,
+    "total_farmacia": 35796,
+    "total_geral": 143484,
     "perto_de_terminar": 18,
     "zerados": 9
   },
@@ -10661,19 +10661,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 210,
+      "farmacia": 200,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 210,
+      "total": 200,
       "minimo": 0,
       "validade": "2028-01",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-09-09 11:33:11",
+      "atualizado_em": "2026-09-09 16:23:50",
       "validade_mais_proxima": "2028-01",
       "vencimento_mais_proximo": "2028-01",
       "lotes_validade": [
@@ -10681,17 +10681,17 @@
           "local": "farmacia",
           "validade": "2028-01",
           "lote": "",
-          "quantidade": 210
+          "quantidade": 200
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 50,
-      "previsao_20_dias": 50,
+      "minimo_alerta": 58,
+      "previsao_20_dias": 58,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 28,
-      "media_diaria_saida": 2.5,
-      "total_saida_historica": 70,
-      "cobertura_dias": 84.0,
+      "media_diaria_saida": 2.86,
+      "total_saida_historica": 80,
+      "cobertura_dias": 70.0,
       "alerta_estoque": false
     },
     {
@@ -16613,6 +16613,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 2015,
+      "item_id": 12,
+      "produto_nome": "Morfina 10mg/ml 1ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 10,
+      "responsavel": "Assucena",
+      "data": "2026-09-09",
+      "obs": "",
+      "criado_em": "2026-09-09 16:23:50",
+      "item": "Morfina 10mg/ml 1ml",
+      "usuario": "Assucena"
+    },
     {
       "id": 2014,
       "item_id": 387,
@@ -24096,21 +24111,6 @@
       "obs": "",
       "criado_em": "2026-09-02 16:25:40",
       "item": "Seringa 3ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 1515,
-      "item_id": 274,
-      "produto_nome": "Seringa 20ml",
-      "tipo": "Almoxarifado para Farmácia",
-      "origem": "Almoxarifado",
-      "destino": "Farmácia",
-      "quantidade": 250,
-      "responsavel": "Leiliana",
-      "data": "2026-09-02",
-      "obs": "",
-      "criado_em": "2026-09-02 16:25:24",
-      "item": "Seringa 20ml",
       "usuario": "Leiliana"
     }
   ]
