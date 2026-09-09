@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "09/09/2026 11:13:57",
+  "atualizado_em": "09/09/2026 11:16:01",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 395,
     "total_almoxarifado": 107848,
-    "total_farmacia": 36642,
-    "total_geral": 144490,
+    "total_farmacia": 36632,
+    "total_geral": 144480,
     "perto_de_terminar": 17,
     "zerados": 9
   },
@@ -7833,19 +7833,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 80,
-      "farmacia": 168,
+      "farmacia": 158,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 248,
+      "total": 238,
       "minimo": 50,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-08 15:16:53",
+      "atualizado_em": "2026-09-09 11:16:00",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -7859,7 +7859,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 168
+          "quantidade": 158
         }
       ],
       "minimo_manual": 50,
@@ -7867,9 +7867,9 @@
       "previsao_20_dias": 50,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 15,
-      "media_diaria_saida": 1.33,
-      "total_saida_historica": 20,
-      "cobertura_dias": 186.0,
+      "media_diaria_saida": 2.0,
+      "total_saida_historica": 30,
+      "cobertura_dias": 119.0,
       "alerta_estoque": false
     },
     {
@@ -16626,6 +16626,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 1959,
+      "item_id": 350,
+      "produto_nome": "GLICOSE 50% AMP 10ML",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 10,
+      "responsavel": "Assucena",
+      "data": "2026-09-08",
+      "obs": "",
+      "criado_em": "2026-09-09 11:16:00",
+      "item": "GLICOSE 50% AMP 10ML",
+      "usuario": "Assucena"
+    },
+    {
       "id": 1958,
       "item_id": 70,
       "produto_nome": "Dipirona",
@@ -24108,21 +24123,6 @@
       "obs": "",
       "criado_em": "2026-09-01 16:18:40",
       "item": "Tira Reagente G-Tech",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 1459,
-      "item_id": 194,
-      "produto_nome": "Lanceta de segurança",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 100,
-      "responsavel": "Leiliana",
-      "data": "2026-09-01",
-      "obs": "",
-      "criado_em": "2026-09-01 16:18:24",
-      "item": "Lanceta de segurança",
       "usuario": "Leiliana"
     }
   ]
