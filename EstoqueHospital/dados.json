@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "09/09/2026 11:10:35",
+  "atualizado_em": "09/09/2026 11:10:46",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 395,
     "total_almoxarifado": 109448,
-    "total_farmacia": 35207,
-    "total_geral": 144655,
+    "total_farmacia": 35187,
+    "total_geral": 144635,
     "perto_de_terminar": 17,
     "zerados": 9
   },
@@ -4929,28 +4929,22 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 420,
+      "farmacia": 400,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 420,
+      "total": 400,
       "minimo": 0,
-      "validade": "2028-02",
+      "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-09 11:10:34",
-      "validade_mais_proxima": "2028-02",
-      "vencimento_mais_proximo": "2028-02",
+      "atualizado_em": "2026-09-09 11:10:44",
+      "validade_mais_proxima": "",
+      "vencimento_mais_proximo": "",
       "lotes_validade": [
-        {
-          "local": "farmacia",
-          "validade": "2028-02",
-          "lote": "",
-          "quantidade": 20
-        },
         {
           "local": "farmacia",
           "validade": "",
@@ -4959,13 +4953,13 @@
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 215,
-      "previsao_20_dias": 215,
+      "minimo_alerta": 229,
+      "previsao_20_dias": 229,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 28,
-      "media_diaria_saida": 10.71,
-      "total_saida_historica": 300,
-      "cobertura_dias": 39.2,
+      "media_diaria_saida": 11.43,
+      "total_saida_historica": 320,
+      "cobertura_dias": 35.0,
       "alerta_estoque": false
     },
     {
@@ -16638,6 +16632,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 1950,
+      "item_id": 69,
+      "produto_nome": "Diclofenaco 25mg",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 20,
+      "responsavel": "Assucena",
+      "data": "2026-09-08",
+      "obs": "",
+      "criado_em": "2026-09-09 11:10:44",
+      "item": "Diclofenaco 25mg",
+      "usuario": "Assucena"
+    },
+    {
       "id": 1949,
       "item_id": 69,
       "produto_nome": "Diclofenaco 25mg",
@@ -24119,21 +24128,6 @@
       "data": "2026-09-01",
       "obs": "",
       "criado_em": "2026-09-01 16:12:04",
-      "item": "Soro fisiológico 500ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 1450,
-      "item_id": 204,
-      "produto_nome": "Soro fisiológico 500ml",
-      "tipo": "Almoxarifado para Farmácia",
-      "origem": "Almoxarifado",
-      "destino": "Farmácia",
-      "quantidade": 48,
-      "responsavel": "Leiliana",
-      "data": "2026-09-01",
-      "obs": "",
-      "criado_em": "2026-09-01 16:11:43",
       "item": "Soro fisiológico 500ml",
       "usuario": "Leiliana"
     }
