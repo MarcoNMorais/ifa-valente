@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "09/09/2026 11:20:30",
+  "atualizado_em": "09/09/2026 11:20:41",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 395,
     "total_almoxarifado": 107848,
-    "total_farmacia": 36075,
-    "total_geral": 143923,
+    "total_farmacia": 35975,
+    "total_geral": 143823,
     "perto_de_terminar": 17,
     "zerados": 9
   },
@@ -5427,19 +5427,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 3600,
-      "farmacia": 100,
+      "farmacia": 0,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 3700,
+      "total": 3600,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-08-28 11:00:55",
+      "atualizado_em": "2026-09-09 11:20:38",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -5448,22 +5448,16 @@
           "validade": "",
           "lote": "",
           "quantidade": 3600
-        },
-        {
-          "local": "farmacia",
-          "validade": "",
-          "lote": "",
-          "quantidade": 100
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 1215,
-      "previsao_20_dias": 1215,
+      "minimo_alerta": 1286,
+      "previsao_20_dias": 1286,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 28,
-      "media_diaria_saida": 60.71,
-      "total_saida_historica": 1700,
-      "cobertura_dias": 60.9,
+      "media_diaria_saida": 64.29,
+      "total_saida_historica": 1800,
+      "cobertura_dias": 56.0,
       "alerta_estoque": false
     },
     {
@@ -16620,6 +16614,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 1985,
+      "item_id": 163,
+      "produto_nome": "Eletrodo ECG descartável",
+      "tipo": "Farmácia para ELETRO",
+      "origem": "Farmácia",
+      "destino": "ELETRO",
+      "quantidade": 100,
+      "responsavel": "Assucena",
+      "data": "2026-09-08",
+      "obs": "",
+      "criado_em": "2026-09-09 11:20:38",
+      "item": "Eletrodo ECG descartável",
+      "usuario": "Assucena"
+    },
+    {
       "id": 1984,
       "item_id": 184,
       "produto_nome": "Luva cirúrgica tam. 7",
@@ -24102,21 +24111,6 @@
       "obs": "",
       "criado_em": "2026-09-02 11:07:22",
       "item": "Seringa 10ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1485,
-      "item_id": 102,
-      "produto_nome": "Seringa 5ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 25,
-      "responsavel": "Assucena",
-      "data": "2026-09-01",
-      "obs": "",
-      "criado_em": "2026-09-02 11:07:11",
-      "item": "Seringa 5ml",
       "usuario": "Assucena"
     }
   ]
