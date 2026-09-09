@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "09/09/2026 11:16:53",
+  "atualizado_em": "09/09/2026 11:17:04",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 395,
     "total_almoxarifado": 107848,
-    "total_farmacia": 36595,
-    "total_geral": 144443,
+    "total_farmacia": 36575,
+    "total_geral": 144423,
     "perto_de_terminar": 17,
     "zerados": 9
   },
@@ -16338,19 +16338,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 150,
+      "farmacia": 130,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 150,
+      "total": 130,
       "minimo": 100,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-04 11:13:15",
+      "atualizado_em": "2026-09-09 11:16:55",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -16358,7 +16358,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 150
+          "quantidade": 130
         }
       ],
       "minimo_manual": 100,
@@ -16366,9 +16366,9 @@
       "previsao_20_dias": 100,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 16,
-      "media_diaria_saida": 5.94,
-      "total_saida_historica": 95,
-      "cobertura_dias": 25.3,
+      "media_diaria_saida": 7.19,
+      "total_saida_historica": 115,
+      "cobertura_dias": 18.1,
       "alerta_estoque": false
     },
     {
@@ -16619,6 +16619,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 1963,
+      "item_id": 344,
+      "produto_nome": "ÁGUA  PARA INJETÁVEIS 10ML",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 20,
+      "responsavel": "Assucena",
+      "data": "2026-09-08",
+      "obs": "",
+      "criado_em": "2026-09-09 11:16:55",
+      "item": "ÁGUA  PARA INJETÁVEIS 10ML",
+      "usuario": "Assucena"
+    },
     {
       "id": 1962,
       "item_id": 239,
@@ -24102,21 +24117,6 @@
       "obs": "",
       "criado_em": "2026-09-02 11:02:36",
       "item": "Cetoprofeno IM 50mg",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1463,
-      "item_id": 55,
-      "produto_nome": "Benzilpenicilina 1.200",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 8,
-      "responsavel": "Assucena",
-      "data": "2026-09-01",
-      "obs": "",
-      "criado_em": "2026-09-02 11:02:09",
-      "item": "Benzilpenicilina 1.200",
       "usuario": "Assucena"
     }
   ]
