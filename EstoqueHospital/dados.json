@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "09/09/2026 11:16:42",
+  "atualizado_em": "09/09/2026 11:16:53",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 395,
     "total_almoxarifado": 107848,
-    "total_farmacia": 36615,
-    "total_geral": 144463,
+    "total_farmacia": 36595,
+    "total_geral": 144443,
     "perto_de_terminar": 17,
     "zerados": 9
   },
@@ -15939,19 +15939,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 342,
+      "farmacia": 322,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 342,
+      "total": 322,
       "minimo": 0,
       "validade": "12/27",
       "lote": "",
       "origem": "Carga Farmácia 227-288",
       "obs": "Importação Farmácia 227-288",
-      "atualizado_em": "2026-09-08 16:45:36",
+      "atualizado_em": "2026-09-09 11:16:46",
       "validade_mais_proxima": "12/27",
       "vencimento_mais_proximo": "12/27",
       "lotes_validade": [
@@ -15959,17 +15959,17 @@
           "local": "farmacia",
           "validade": "12/27",
           "lote": "",
-          "quantidade": 342
+          "quantidade": 322
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 260,
-      "previsao_20_dias": 260,
+      "minimo_alerta": 276,
+      "previsao_20_dias": 276,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 26,
-      "media_diaria_saida": 13.0,
-      "total_saida_historica": 338,
-      "cobertura_dias": 26.3,
+      "media_diaria_saida": 13.77,
+      "total_saida_historica": 358,
+      "cobertura_dias": 23.4,
       "alerta_estoque": false
     },
     {
@@ -16619,6 +16619,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 1962,
+      "item_id": 239,
+      "produto_nome": "Tramadol 50mg/ml 2ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 20,
+      "responsavel": "Assucena",
+      "data": "2026-09-08",
+      "obs": "",
+      "criado_em": "2026-09-09 11:16:46",
+      "item": "Tramadol 50mg/ml 2ml",
+      "usuario": "Assucena"
+    },
     {
       "id": 1961,
       "item_id": 59,
@@ -24102,21 +24117,6 @@
       "obs": "",
       "criado_em": "2026-09-02 11:02:09",
       "item": "Benzilpenicilina 1.200",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1462,
-      "item_id": 210,
-      "produto_nome": "Ocitocina",
-      "tipo": "Farmácia para SALA DE PARTO",
-      "origem": "Farmácia",
-      "destino": "SALA DE PARTO",
-      "quantidade": 2,
-      "responsavel": "Assucena",
-      "data": "2026-09-01",
-      "obs": "",
-      "criado_em": "2026-09-02 11:01:48",
-      "item": "Ocitocina",
       "usuario": "Assucena"
     }
   ]
