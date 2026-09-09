@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "09/09/2026 14:21:39",
+  "atualizado_em": "09/09/2026 14:21:51",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 395,
     "total_almoxarifado": 107688,
-    "total_farmacia": 35916,
-    "total_geral": 143604,
+    "total_farmacia": 35886,
+    "total_geral": 143574,
     "perto_de_terminar": 17,
     "zerados": 9
   },
@@ -2164,19 +2164,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 65,
+      "farmacia": 35,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 65,
+      "total": 35,
       "minimo": 0,
       "validade": "2027-09",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-09-09 11:33:11",
+      "atualizado_em": "2026-09-09 14:21:50",
       "validade_mais_proxima": "2027-09",
       "vencimento_mais_proximo": "2027-09",
       "lotes_validade": [
@@ -2184,7 +2184,7 @@
           "local": "farmacia",
           "validade": "2027-09",
           "lote": "",
-          "quantidade": 45
+          "quantidade": 15
         },
         {
           "local": "farmacia",
@@ -2194,13 +2194,13 @@
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 0,
-      "previsao_20_dias": 0,
+      "minimo_alerta": 22,
+      "previsao_20_dias": 22,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 28,
-      "media_diaria_saida": 0.0,
-      "total_saida_historica": 0,
-      "cobertura_dias": null,
+      "media_diaria_saida": 1.07,
+      "total_saida_historica": 30,
+      "cobertura_dias": 32.7,
       "alerta_estoque": false
     },
     {
@@ -16614,6 +16614,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 2001,
+      "item_id": 33,
+      "produto_nome": "Atorvastatina 20mg CPR",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 30,
+      "responsavel": "Assucena",
+      "data": "2026-09-09",
+      "obs": "",
+      "criado_em": "2026-09-09 14:21:50",
+      "item": "Atorvastatina 20mg CPR",
+      "usuario": "Assucena"
+    },
+    {
       "id": 2000,
       "item_id": 31,
       "produto_nome": "Omeprazol 20mg comprimido",
@@ -24096,21 +24111,6 @@
       "obs": "",
       "criado_em": "2026-09-02 11:13:47",
       "item": "Dipirona 500mg",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1501,
-      "item_id": 320,
-      "produto_nome": "Acebrofilina 10mg/ml",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 1,
-      "responsavel": "Assucena",
-      "data": "2026-09-01",
-      "obs": "",
-      "criado_em": "2026-09-02 11:13:38",
-      "item": "Acebrofilina 10mg/ml",
       "usuario": "Assucena"
     }
   ]
