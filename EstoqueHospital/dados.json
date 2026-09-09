@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "09/09/2026 11:21:11",
+  "atualizado_em": "09/09/2026 11:21:24",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 395,
-    "total_almoxarifado": 107848,
-    "total_farmacia": 35961,
+    "total_almoxarifado": 107688,
+    "total_farmacia": 36121,
     "total_geral": 143809,
     "perto_de_terminar": 17,
     "zerados": 9
@@ -12017,8 +12017,8 @@
       "nome": "Prometazina 25mg/ml",
       "tipo": "Medicamento",
       "unidade": "Unidade",
-      "almoxarifado": 160,
-      "farmacia": 0,
+      "almoxarifado": 0,
+      "farmacia": 160,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -12030,12 +12030,12 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-08 15:13:04",
+      "atualizado_em": "2026-09-09 11:21:24",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
         {
-          "local": "almoxarifado",
+          "local": "farmacia",
           "validade": "",
           "lote": "",
           "quantidade": 160
@@ -16613,6 +16613,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 1988,
+      "item_id": 233,
+      "produto_nome": "Prometazina 25mg/ml",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 160,
+      "responsavel": "Assucena",
+      "data": "2026-09-08",
+      "obs": "",
+      "criado_em": "2026-09-09 11:21:24",
+      "item": "Prometazina 25mg/ml",
+      "usuario": "Assucena"
+    },
     {
       "id": 1987,
       "item_id": 228,
@@ -24095,21 +24110,6 @@
       "data": "2026-09-01",
       "obs": "",
       "criado_em": "2026-09-02 11:07:46",
-      "item": "Seringa 20ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1488,
-      "item_id": 274,
-      "produto_nome": "Seringa 20ml",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 30,
-      "responsavel": "Assucena",
-      "data": "2026-09-01",
-      "obs": "",
-      "criado_em": "2026-09-02 11:07:38",
       "item": "Seringa 20ml",
       "usuario": "Assucena"
     }
