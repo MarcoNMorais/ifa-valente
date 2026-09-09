@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "09/09/2026 14:21:51",
+  "atualizado_em": "09/09/2026 14:22:18",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 395,
     "total_almoxarifado": 107688,
-    "total_farmacia": 35886,
-    "total_geral": 143574,
+    "total_farmacia": 35885,
+    "total_geral": 143573,
     "perto_de_terminar": 17,
     "zerados": 9
   },
@@ -11291,19 +11291,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 6,
+      "farmacia": 5,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 6,
+      "total": 5,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-09 11:33:11",
+      "atualizado_em": "2026-09-09 14:22:17",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -11311,7 +11311,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 6
+          "quantidade": 5
         }
       ],
       "minimo_manual": 0,
@@ -11319,9 +11319,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 6,
-      "media_diaria_saida": 0.5,
-      "total_saida_historica": 3,
-      "cobertura_dias": 12.0,
+      "media_diaria_saida": 0.67,
+      "total_saida_historica": 4,
+      "cobertura_dias": 7.5,
       "alerta_estoque": false
     },
     {
@@ -16613,6 +16613,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 2002,
+      "item_id": 380,
+      "produto_nome": "OLEO MINERAL",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 1,
+      "responsavel": "Assucena",
+      "data": "2026-09-09",
+      "obs": "",
+      "criado_em": "2026-09-09 14:22:17",
+      "item": "OLEO MINERAL",
+      "usuario": "Assucena"
+    },
     {
       "id": 2001,
       "item_id": 33,
@@ -24096,21 +24111,6 @@
       "obs": "",
       "criado_em": "2026-09-02 11:14:07",
       "item": "Atadura crepon nº 10",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1502,
-      "item_id": 28,
-      "produto_nome": "Dipirona 500mg",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 10,
-      "responsavel": "Assucena",
-      "data": "2026-09-01",
-      "obs": "",
-      "criado_em": "2026-09-02 11:13:47",
-      "item": "Dipirona 500mg",
       "usuario": "Assucena"
     }
   ]
