@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "10/09/2026 14:20:48",
+  "atualizado_em": "10/09/2026 14:21:00",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 395,
     "total_almoxarifado": 104988,
-    "total_farmacia": 37739,
-    "total_geral": 142727,
+    "total_farmacia": 37719,
+    "total_geral": 142707,
     "perto_de_terminar": 17,
     "zerados": 9
   },
@@ -527,19 +527,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 539,
-      "farmacia": 1861,
+      "farmacia": 1841,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 2400,
+      "total": 2380,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-10 09:00:36",
+      "atualizado_em": "2026-09-10 14:20:59",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -553,17 +553,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 1861
+          "quantidade": 1841
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 0,
-      "previsao_20_dias": 0,
+      "minimo_alerta": 17,
+      "previsao_20_dias": 17,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 24,
-      "media_diaria_saida": 0.0,
-      "total_saida_historica": 0,
-      "cobertura_dias": null,
+      "media_diaria_saida": 0.83,
+      "total_saida_historica": 20,
+      "cobertura_dias": 2856.0,
       "alerta_estoque": false
     },
     {
@@ -16614,6 +16614,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 2052,
+      "item_id": 287,
+      "produto_nome": "Agulha 13x4,5",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 20,
+      "responsavel": "Leiliana",
+      "data": "2026-09-10",
+      "obs": "",
+      "criado_em": "2026-09-10 14:20:59",
+      "item": "Agulha 13x4,5",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 2051,
       "item_id": 319,
       "produto_nome": "Agulha 25x7",
@@ -24096,21 +24111,6 @@
       "obs": "",
       "criado_em": "2026-09-03 11:30:49",
       "item": "Seringa 20ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1552,
-      "item_id": 103,
-      "produto_nome": "Seringa 10ml",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 70,
-      "responsavel": "Assucena",
-      "data": "2026-09-02",
-      "obs": "",
-      "criado_em": "2026-09-03 11:30:40",
-      "item": "Seringa 10ml",
       "usuario": "Assucena"
     }
   ]
