@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "10/09/2026 14:58:06",
+  "atualizado_em": "10/09/2026 14:58:19",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 397,
     "total_almoxarifado": 105038,
-    "total_farmacia": 37529,
-    "total_geral": 142567,
+    "total_farmacia": 37521,
+    "total_geral": 142559,
     "perto_de_terminar": 18,
     "zerados": 9
   },
@@ -15282,19 +15282,19 @@
       "tipo": "Insumo",
       "unidade": "Unidade",
       "almoxarifado": 144,
-      "farmacia": 65,
+      "farmacia": 57,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 209,
+      "total": 201,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-09-10 09:00:36",
+      "atualizado_em": "2026-09-10 14:58:18",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -15308,17 +15308,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 65
+          "quantidade": 57
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 121,
-      "previsao_20_dias": 121,
+      "minimo_alerta": 127,
+      "previsao_20_dias": 127,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 29,
-      "media_diaria_saida": 6.03,
-      "total_saida_historica": 175,
-      "cobertura_dias": 34.6,
+      "media_diaria_saida": 6.31,
+      "total_saida_historica": 183,
+      "cobertura_dias": 31.9,
       "alerta_estoque": false
     },
     {
@@ -16705,6 +16705,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 2077,
+      "item_id": 201,
+      "produto_nome": "Soro Ringer Lactato 500ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 8,
+      "responsavel": "Leiliana",
+      "data": "2026-09-10",
+      "obs": "",
+      "criado_em": "2026-09-10 14:58:18",
+      "item": "Soro Ringer Lactato 500ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 2076,
       "item_id": 203,
@@ -24188,21 +24203,6 @@
       "obs": "",
       "criado_em": "2026-09-03 11:54:27",
       "item": "Luva cirúrgica tam. 7,5",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1577,
-      "item_id": 287,
-      "produto_nome": "Agulha 13x4,5",
-      "tipo": "Almoxarifado para Farmácia",
-      "origem": "Almoxarifado",
-      "destino": "Farmácia",
-      "quantidade": 50,
-      "responsavel": "Assucena",
-      "data": "2026-09-02",
-      "obs": "",
-      "criado_em": "2026-09-03 11:54:07",
-      "item": "Agulha 13x4,5",
       "usuario": "Assucena"
     }
   ]
