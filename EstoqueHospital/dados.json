@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "10/09/2026 16:28:42",
+  "atualizado_em": "10/09/2026 16:28:58",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 397,
     "total_almoxarifado": 105038,
-    "total_farmacia": 37310,
-    "total_geral": 142348,
+    "total_farmacia": 37280,
+    "total_geral": 142318,
     "perto_de_terminar": 18,
     "zerados": 9
   },
@@ -751,19 +751,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 16600,
-      "farmacia": 420,
+      "farmacia": 390,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 17020,
+      "total": 16990,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga Almoxerifado",
       "obs": "Importação Almoxerifado",
-      "atualizado_em": "2026-09-10 09:00:36",
+      "atualizado_em": "2026-09-10 16:28:57",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -777,17 +777,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 420
+          "quantidade": 390
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 150,
-      "previsao_20_dias": 150,
+      "minimo_alerta": 175,
+      "previsao_20_dias": 175,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 24,
-      "media_diaria_saida": 7.5,
-      "total_saida_historica": 180,
-      "cobertura_dias": 2269.3,
+      "media_diaria_saida": 8.75,
+      "total_saida_historica": 210,
+      "cobertura_dias": 1941.7,
       "alerta_estoque": false
     },
     {
@@ -16706,6 +16706,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 2090,
+      "item_id": 331,
+      "produto_nome": "Agulha 30x8",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 30,
+      "responsavel": "Leiliana",
+      "data": "2026-09-10",
+      "obs": "",
+      "criado_em": "2026-09-10 16:28:57",
+      "item": "Agulha 30x8",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 2089,
       "item_id": 98,
       "produto_nome": "Scalp nº 23",
@@ -24188,21 +24203,6 @@
       "obs": "",
       "criado_em": "2026-09-04 11:12:05",
       "item": "Soro fisiológico 250ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1590,
-      "item_id": 290,
-      "produto_nome": "Metronidazol 100ml",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 6,
-      "responsavel": "Assucena",
-      "data": "2026-09-03",
-      "obs": "",
-      "criado_em": "2026-09-04 11:11:55",
-      "item": "Metronidazol 100ml",
       "usuario": "Assucena"
     }
   ]
