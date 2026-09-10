@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "10/09/2026 14:56:57",
+  "atualizado_em": "10/09/2026 14:57:03",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
-    "itens": 396,
-    "total_almoxarifado": 104988,
+    "itens": 397,
+    "total_almoxarifado": 105088,
     "total_farmacia": 37539,
-    "total_geral": 142527,
+    "total_geral": 142627,
     "perto_de_terminar": 18,
     "zerados": 9
   },
@@ -5206,6 +5206,46 @@
       "media_diaria_saida": 10.0,
       "total_saida_historica": 10,
       "cobertura_dias": 9.0,
+      "alerta_estoque": false
+    },
+    {
+      "id": 397,
+      "produto_id": 398,
+      "nome": "Dispositivo intravenoso Gelco nº 18",
+      "tipo": "Material",
+      "unidade": "Unidade",
+      "almoxarifado": 100,
+      "farmacia": 0,
+      "sala_medicacoes": 0,
+      "internamento": 0,
+      "sala_cirurgica": 0,
+      "baixa": 0,
+      "outro": 0,
+      "total": 100,
+      "minimo": 0,
+      "validade": "",
+      "lote": "",
+      "origem": "Entrada externa",
+      "obs": "",
+      "atualizado_em": "2026-09-10 14:57:02",
+      "validade_mais_proxima": "",
+      "vencimento_mais_proximo": "",
+      "lotes_validade": [
+        {
+          "local": "almoxarifado",
+          "validade": "",
+          "lote": "",
+          "quantidade": 100
+        }
+      ],
+      "minimo_manual": 0,
+      "minimo_alerta": 0,
+      "previsao_20_dias": 0,
+      "criterio_alerta": "estoque_minimo_manual_inicio",
+      "dias_historico": 1,
+      "media_diaria_saida": 0.0,
+      "total_saida_historica": 0,
+      "cobertura_dias": null,
       "alerta_estoque": false
     },
     {
@@ -16660,6 +16700,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 2071,
+      "item_id": 397,
+      "produto_nome": "Dispositivo intravenoso Gelco nº 18",
+      "tipo": "Entrada no Almoxarifado",
+      "origem": "Entrada externa",
+      "destino": "Almoxarifado",
+      "quantidade": 100,
+      "responsavel": "Leiliana",
+      "data": "2026-09-10",
+      "obs": "",
+      "criado_em": "2026-09-10 14:57:02",
+      "item": "Dispositivo intravenoso Gelco nº 18",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 2070,
       "item_id": 396,
       "produto_nome": "Dispositivo intravenoso Gelco nº 16",
@@ -24142,21 +24197,6 @@
       "obs": "",
       "criado_em": "2026-09-03 11:43:15",
       "item": "Ferropurum 20mg/ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1571,
-      "item_id": 194,
-      "produto_nome": "Lanceta de segurança",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 100,
-      "responsavel": "Assucena",
-      "data": "2026-09-02",
-      "obs": "",
-      "criado_em": "2026-09-03 11:42:51",
-      "item": "Lanceta de segurança",
       "usuario": "Assucena"
     }
   ]
