@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "10/09/2026 14:18:52",
+  "atualizado_em": "10/09/2026 14:19:02",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 395,
     "total_almoxarifado": 104988,
-    "total_farmacia": 38115,
-    "total_geral": 143103,
+    "total_farmacia": 38102,
+    "total_geral": 143090,
     "perto_de_terminar": 17,
     "zerados": 9
   },
@@ -3405,19 +3405,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 408,
+      "farmacia": 395,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 408,
+      "total": 395,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-10 09:00:36",
+      "atualizado_em": "2026-09-10 14:19:02",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -3425,17 +3425,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 408
+          "quantidade": 395
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 223,
-      "previsao_20_dias": 223,
+      "minimo_alerta": 232,
+      "previsao_20_dias": 232,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 29,
-      "media_diaria_saida": 11.1,
-      "total_saida_historica": 322,
-      "cobertura_dias": 36.7,
+      "media_diaria_saida": 11.55,
+      "total_saida_historica": 335,
+      "cobertura_dias": 34.2,
       "alerta_estoque": false
     },
     {
@@ -16614,6 +16614,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 2042,
+      "item_id": 60,
+      "produto_nome": "Cetoprofeno EV 100mg",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 13,
+      "responsavel": "Leiliana",
+      "data": "2026-09-10",
+      "obs": "",
+      "criado_em": "2026-09-10 14:19:02",
+      "item": "Cetoprofeno EV 100mg",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 2041,
       "item_id": 61,
       "produto_nome": "Cetoprofeno IM 50mg",
@@ -24096,21 +24111,6 @@
       "obs": "",
       "criado_em": "2026-09-03 11:28:28",
       "item": "ÁGUA  PARA INJETÁVEIS 10ML",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1542,
-      "item_id": 84,
-      "produto_nome": "Lidocaína",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 2,
-      "responsavel": "Assucena",
-      "data": "2026-09-02",
-      "obs": "",
-      "criado_em": "2026-09-03 11:27:31",
-      "item": "Lidocaína",
       "usuario": "Assucena"
     }
   ]
