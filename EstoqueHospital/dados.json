@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "10/09/2026 16:30:31",
+  "atualizado_em": "10/09/2026 16:30:56",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 397,
-    "total_almoxarifado": 105038,
-    "total_farmacia": 37093,
+    "total_almoxarifado": 105035,
+    "total_farmacia": 37096,
     "total_geral": 142131,
     "perto_de_terminar": 18,
     "zerados": 9
@@ -9751,8 +9751,8 @@
       "nome": "Luva de vinil G",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 1300,
-      "farmacia": 0,
+      "almoxarifado": 1297,
+      "farmacia": 3,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -9764,7 +9764,7 @@
       "lote": "",
       "origem": "Carga Almoxerifado",
       "obs": "Importação Almoxerifado",
-      "atualizado_em": "2026-09-10 09:00:36",
+      "atualizado_em": "2026-09-10 16:30:55",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -9772,7 +9772,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 1300
+          "quantidade": 1297
+        },
+        {
+          "local": "farmacia",
+          "validade": "",
+          "lote": "",
+          "quantidade": 3
         }
       ],
       "minimo_manual": 0,
@@ -16705,6 +16711,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 2099,
+      "item_id": 279,
+      "produto_nome": "Luva de vinil G",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 3,
+      "responsavel": "Leiliana",
+      "data": "2026-09-10",
+      "obs": "",
+      "criado_em": "2026-09-10 16:30:55",
+      "item": "Luva de vinil G",
+      "usuario": "Leiliana"
+    },
     {
       "id": 2098,
       "item_id": 154,
@@ -24188,21 +24209,6 @@
       "obs": "",
       "criado_em": "2026-09-04 11:13:46",
       "item": "Dipirona gotas",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1599,
-      "item_id": 53,
-      "produto_nome": "Ácido Tranexâmico 50mg",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 20,
-      "responsavel": "Assucena",
-      "data": "2026-09-03",
-      "obs": "",
-      "criado_em": "2026-09-04 11:13:36",
-      "item": "Ácido Tranexâmico 50mg",
       "usuario": "Assucena"
     }
   ]
