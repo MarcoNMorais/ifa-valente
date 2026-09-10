@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "10/09/2026 14:53:24",
+  "atualizado_em": "10/09/2026 14:54:56",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 395,
     "total_almoxarifado": 104938,
-    "total_farmacia": 37509,
-    "total_geral": 142447,
+    "total_farmacia": 37499,
+    "total_geral": 142437,
     "perto_de_terminar": 18,
     "zerados": 9
   },
@@ -5129,19 +5129,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 87,
+      "farmacia": 77,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 87,
+      "total": 77,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-09-10 09:00:36",
+      "atualizado_em": "2026-09-10 14:54:55",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -5149,17 +5149,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 87
+          "quantidade": 77
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 25,
-      "previsao_20_dias": 25,
+      "minimo_alerta": 32,
+      "previsao_20_dias": 32,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 29,
-      "media_diaria_saida": 1.21,
-      "total_saida_historica": 35,
-      "cobertura_dias": 72.1,
+      "media_diaria_saida": 1.55,
+      "total_saida_historica": 45,
+      "cobertura_dias": 49.6,
       "alerta_estoque": false
     },
     {
@@ -16614,6 +16614,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 2067,
+      "item_id": 179,
+      "produto_nome": "Dispositivo intravenoso Gelco nº 14",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 10,
+      "responsavel": "Leiliana",
+      "data": "2026-09-10",
+      "obs": "",
+      "criado_em": "2026-09-10 14:54:55",
+      "item": "Dispositivo intravenoso Gelco nº 14",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 2066,
       "item_id": 181,
       "produto_nome": "Luva de látex tam. M",
@@ -24096,21 +24111,6 @@
       "obs": "",
       "criado_em": "2026-09-03 11:42:19",
       "item": "Tira Reagente G-Tech",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1567,
-      "item_id": 74,
-      "produto_nome": "Ergometrina",
-      "tipo": "Farmácia para SALA DE PARTO ",
-      "origem": "Farmácia",
-      "destino": "SALA DE PARTO ",
-      "quantidade": 5,
-      "responsavel": "Assucena",
-      "data": "2026-09-02",
-      "obs": "",
-      "criado_em": "2026-09-03 11:33:19",
-      "item": "Ergometrina",
       "usuario": "Assucena"
     }
   ]
