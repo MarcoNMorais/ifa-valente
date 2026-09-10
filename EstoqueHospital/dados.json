@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "10/09/2026 14:20:14",
+  "atualizado_em": "10/09/2026 14:20:27",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 395,
     "total_almoxarifado": 104988,
-    "total_farmacia": 37979,
-    "total_geral": 142967,
+    "total_farmacia": 37779,
+    "total_geral": 142767,
     "perto_de_terminar": 17,
     "zerados": 9
   },
@@ -481,19 +481,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 3200,
-      "farmacia": 800,
+      "farmacia": 600,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 4000,
+      "total": 3800,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-10 11:54:51",
+      "atualizado_em": "2026-09-10 14:20:26",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -507,7 +507,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 800
+          "quantidade": 600
         }
       ],
       "minimo_manual": 0,
@@ -515,9 +515,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 7,
-      "media_diaria_saida": 0.0,
-      "total_saida_historica": 0,
-      "cobertura_dias": null,
+      "media_diaria_saida": 28.57,
+      "total_saida_historica": 200,
+      "cobertura_dias": 133.0,
       "alerta_estoque": false
     },
     {
@@ -16614,6 +16614,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 2049,
+      "item_id": 390,
+      "produto_nome": "AGULHA  40X1,2",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 200,
+      "responsavel": "Leiliana",
+      "data": "2026-09-10",
+      "obs": "",
+      "criado_em": "2026-09-10 14:20:26",
+      "item": "AGULHA  40X1,2",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 2048,
       "item_id": 382,
       "produto_nome": "AGUA P/ INJ",
@@ -24096,21 +24111,6 @@
       "obs": "",
       "criado_em": "2026-09-03 11:30:03",
       "item": "Soro glicose 5% 500ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1549,
-      "item_id": 202,
-      "produto_nome": "Soro fisiológico 100ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 60,
-      "responsavel": "Assucena",
-      "data": "2026-09-02",
-      "obs": "",
-      "criado_em": "2026-09-03 11:29:51",
-      "item": "Soro fisiológico 100ml",
       "usuario": "Assucena"
     }
   ]
