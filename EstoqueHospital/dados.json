@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "10/09/2026 15:00:28",
+  "atualizado_em": "10/09/2026 16:28:13",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 397,
     "total_almoxarifado": 105038,
-    "total_farmacia": 37370,
-    "total_geral": 142408,
+    "total_farmacia": 37350,
+    "total_geral": 142388,
     "perto_de_terminar": 18,
     "zerados": 9
   },
@@ -4607,19 +4607,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 2060,
+      "farmacia": 2040,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 2060,
+      "total": 2040,
       "minimo": 0,
       "validade": "2027-10",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-10 09:00:36",
+      "atualizado_em": "2026-09-10 16:28:12",
       "validade_mais_proxima": "2027-10",
       "vencimento_mais_proximo": "2027-10",
       "lotes_validade": [
@@ -4627,7 +4627,7 @@
           "local": "farmacia",
           "validade": "2027-10",
           "lote": "",
-          "quantidade": 460
+          "quantidade": 440
         },
         {
           "local": "farmacia",
@@ -4637,13 +4637,13 @@
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 559,
-      "previsao_20_dias": 559,
+      "minimo_alerta": 573,
+      "previsao_20_dias": 573,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 29,
-      "media_diaria_saida": 27.93,
-      "total_saida_historica": 810,
-      "cobertura_dias": 73.8,
+      "media_diaria_saida": 28.62,
+      "total_saida_historica": 830,
+      "cobertura_dias": 71.3,
       "alerta_estoque": false
     },
     {
@@ -16706,6 +16706,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 2087,
+      "item_id": 68,
+      "produto_nome": "Dexametasona",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 20,
+      "responsavel": "Leiliana",
+      "data": "2026-09-10",
+      "obs": "",
+      "criado_em": "2026-09-10 16:28:12",
+      "item": "Dexametasona",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 2086,
       "item_id": 40,
       "produto_nome": "Succinato de metoprolol 25mg",
@@ -24188,21 +24203,6 @@
       "obs": "",
       "criado_em": "2026-09-03 16:54:38",
       "item": "Seringa 20ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 1587,
-      "item_id": 181,
-      "produto_nome": "Luva de látex tam. M",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 1,
-      "responsavel": "Leiliana",
-      "data": "2026-09-03",
-      "obs": "",
-      "criado_em": "2026-09-03 16:54:15",
-      "item": "Luva de látex tam. M",
       "usuario": "Leiliana"
     }
   ]
