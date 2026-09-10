@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "10/09/2026 11:54:23",
+  "atualizado_em": "10/09/2026 11:54:33",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 395,
-    "total_almoxarifado": 106188,
-    "total_farmacia": 37015,
+    "total_almoxarifado": 105938,
+    "total_farmacia": 37265,
     "total_geral": 143203,
     "perto_de_terminar": 16,
     "zerados": 9
@@ -12585,8 +12585,8 @@
       "nome": "Seringa 20ml",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 5250,
-      "farmacia": 175,
+      "almoxarifado": 5000,
+      "farmacia": 425,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -12598,7 +12598,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-10 09:00:36",
+      "atualizado_em": "2026-09-10 11:54:32",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -12606,13 +12606,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 5250
+          "quantidade": 5000
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 175
+          "quantidade": 425
         }
       ],
       "minimo_manual": 0,
@@ -16607,6 +16607,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 2033,
+      "item_id": 274,
+      "produto_nome": "Seringa 20ml",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 250,
+      "responsavel": "Assucena",
+      "data": "2026-09-10",
+      "obs": "",
+      "criado_em": "2026-09-10 11:54:32",
+      "item": "Seringa 20ml",
+      "usuario": "Assucena"
+    },
     {
       "id": 2032,
       "item_id": 103,
@@ -24090,21 +24105,6 @@
       "obs": "",
       "criado_em": "2026-09-03 11:26:04",
       "item": "Soro fisiológico 250ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1533,
-      "item_id": 313,
-      "produto_nome": "Sonda Foley nº 16",
-      "tipo": "Almoxarifado para Farmácia",
-      "origem": "Almoxarifado",
-      "destino": "Farmácia",
-      "quantidade": 20,
-      "responsavel": "Assucena",
-      "data": "2026-09-02",
-      "obs": "",
-      "criado_em": "2026-09-03 11:25:46",
-      "item": "Sonda Foley nº 16",
       "usuario": "Assucena"
     }
   ]
