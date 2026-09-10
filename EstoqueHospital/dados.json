@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "10/09/2026 14:59:34",
+  "atualizado_em": "10/09/2026 14:59:46",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 397,
     "total_almoxarifado": 105038,
-    "total_farmacia": 37392,
-    "total_geral": 142430,
+    "total_farmacia": 37382,
+    "total_geral": 142420,
     "perto_de_terminar": 18,
     "zerados": 9
   },
@@ -3325,19 +3325,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 461,
+      "farmacia": 451,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 461,
+      "total": 451,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-10 14:19:15",
+      "atualizado_em": "2026-09-10 14:59:45",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -3345,17 +3345,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 461
+          "quantidade": 451
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 288,
-      "previsao_20_dias": 288,
+      "minimo_alerta": 295,
+      "previsao_20_dias": 295,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 29,
-      "media_diaria_saida": 14.38,
-      "total_saida_historica": 417,
-      "cobertura_dias": 32.1,
+      "media_diaria_saida": 14.72,
+      "total_saida_historica": 427,
+      "cobertura_dias": 30.6,
       "alerta_estoque": false
     },
     {
@@ -16706,6 +16706,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 2084,
+      "item_id": 59,
+      "produto_nome": "Ceftriaxona 1g",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 10,
+      "responsavel": "Leiliana",
+      "data": "2026-09-10",
+      "obs": "",
+      "criado_em": "2026-09-10 14:59:45",
+      "item": "Ceftriaxona 1g",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 2083,
       "item_id": 229,
       "produto_nome": "Oxacilina 500mg pó injetável",
@@ -24188,21 +24203,6 @@
       "obs": "",
       "criado_em": "2026-09-03 16:53:53",
       "item": "Soro fisiológico 500ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 1584,
-      "item_id": 276,
-      "produto_nome": "Esparadrapo 10x4,5",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 2,
-      "responsavel": "Leiliana",
-      "data": "2026-09-03",
-      "obs": "",
-      "criado_em": "2026-09-03 16:53:37",
-      "item": "Esparadrapo 10x4,5",
       "usuario": "Leiliana"
     }
   ]
