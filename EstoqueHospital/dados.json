@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "10/09/2026 14:51:41",
+  "atualizado_em": "10/09/2026 14:52:49",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 395,
-    "total_almoxarifado": 104988,
-    "total_farmacia": 37466,
+    "total_almoxarifado": 104938,
+    "total_farmacia": 37516,
     "total_geral": 142454,
     "perto_de_terminar": 18,
     "zerados": 9
@@ -9395,8 +9395,8 @@
       "nome": "Luva cirúrgica tam. 7",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 450,
-      "farmacia": 3,
+      "almoxarifado": 400,
+      "farmacia": 53,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -9408,7 +9408,7 @@
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-09-10 09:00:36",
+      "atualizado_em": "2026-09-10 14:52:48",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -9416,13 +9416,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 450
+          "quantidade": 400
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 3
+          "quantidade": 53
         }
       ],
       "minimo_manual": 0,
@@ -16613,6 +16613,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 2064,
+      "item_id": 184,
+      "produto_nome": "Luva cirúrgica tam. 7",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 50,
+      "responsavel": "Leiliana",
+      "data": "2026-09-10",
+      "obs": "",
+      "criado_em": "2026-09-10 14:52:48",
+      "item": "Luva cirúrgica tam. 7",
+      "usuario": "Leiliana"
+    },
     {
       "id": 2063,
       "item_id": 220,
@@ -24096,21 +24111,6 @@
       "obs": "",
       "criado_em": "2026-09-03 11:33:01",
       "item": "Sonda Uretral nº 06",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1564,
-      "item_id": 261,
-      "produto_nome": "Amiodarona 200mg CPR",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 10,
-      "responsavel": "Assucena",
-      "data": "2026-09-02",
-      "obs": "",
-      "criado_em": "2026-09-03 11:32:41",
-      "item": "Amiodarona 200mg CPR",
       "usuario": "Assucena"
     }
   ]
