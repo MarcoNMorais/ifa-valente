@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "10/09/2026 14:18:15",
+  "atualizado_em": "10/09/2026 14:18:26",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 395,
     "total_almoxarifado": 104988,
-    "total_farmacia": 38185,
-    "total_geral": 143173,
+    "total_farmacia": 38155,
+    "total_geral": 143143,
     "perto_de_terminar": 16,
     "zerados": 9
   },
@@ -4447,19 +4447,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 300,
+      "farmacia": 270,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 300,
+      "total": 270,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-10 09:00:36",
+      "atualizado_em": "2026-09-10 14:18:25",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -4467,17 +4467,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 300
+          "quantidade": 270
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 152,
-      "previsao_20_dias": 152,
+      "minimo_alerta": 173,
+      "previsao_20_dias": 173,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 29,
-      "media_diaria_saida": 7.59,
-      "total_saida_historica": 220,
-      "cobertura_dias": 39.5,
+      "media_diaria_saida": 8.62,
+      "total_saida_historica": 250,
+      "cobertura_dias": 31.3,
       "alerta_estoque": false
     },
     {
@@ -16614,6 +16614,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 2039,
+      "item_id": 66,
+      "produto_nome": "Complexo B",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 30,
+      "responsavel": "Leiliana",
+      "data": "2026-09-10",
+      "obs": "",
+      "criado_em": "2026-09-10 14:18:25",
+      "item": "Complexo B",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 2038,
       "item_id": 55,
       "produto_nome": "Benzilpenicilina 1.200",
@@ -24096,21 +24111,6 @@
       "obs": "",
       "criado_em": "2026-09-03 11:27:15",
       "item": "Cetoprofeno IM 50mg",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1539,
-      "item_id": 82,
-      "produto_nome": "Hidrocortisona",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 10,
-      "responsavel": "Assucena",
-      "data": "2026-09-02",
-      "obs": "",
-      "criado_em": "2026-09-03 11:27:05",
-      "item": "Hidrocortisona",
       "usuario": "Assucena"
     }
   ]
