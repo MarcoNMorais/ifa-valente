@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "10/09/2026 16:30:04",
+  "atualizado_em": "10/09/2026 16:30:14",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 397,
     "total_almoxarifado": 105038,
-    "total_farmacia": 37102,
-    "total_geral": 142140,
+    "total_farmacia": 37097,
+    "total_geral": 142135,
     "perto_de_terminar": 18,
     "zerados": 9
   },
@@ -15282,19 +15282,19 @@
       "tipo": "Insumo",
       "unidade": "Unidade",
       "almoxarifado": 144,
-      "farmacia": 57,
+      "farmacia": 52,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 201,
+      "total": 196,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-09-10 14:58:18",
+      "atualizado_em": "2026-09-10 16:30:13",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -15308,17 +15308,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 57
+          "quantidade": 52
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 127,
-      "previsao_20_dias": 127,
+      "minimo_alerta": 130,
+      "previsao_20_dias": 130,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 29,
-      "media_diaria_saida": 6.31,
-      "total_saida_historica": 183,
-      "cobertura_dias": 31.9,
+      "media_diaria_saida": 6.48,
+      "total_saida_historica": 188,
+      "cobertura_dias": 30.2,
       "alerta_estoque": false
     },
     {
@@ -16705,6 +16705,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 2097,
+      "item_id": 201,
+      "produto_nome": "Soro Ringer Lactato 500ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 5,
+      "responsavel": "Leiliana",
+      "data": "2026-09-10",
+      "obs": "",
+      "criado_em": "2026-09-10 16:30:13",
+      "item": "Soro Ringer Lactato 500ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 2096,
       "item_id": 204,
@@ -24188,21 +24203,6 @@
       "obs": "",
       "criado_em": "2026-09-04 11:13:26",
       "item": "Dipirona",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1597,
-      "item_id": 344,
-      "produto_nome": "ÁGUA  PARA INJETÁVEIS 10ML",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 10,
-      "responsavel": "Assucena",
-      "data": "2026-09-03",
-      "obs": "",
-      "criado_em": "2026-09-04 11:13:15",
-      "item": "ÁGUA  PARA INJETÁVEIS 10ML",
       "usuario": "Assucena"
     }
   ]
