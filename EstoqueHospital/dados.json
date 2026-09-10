@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "10/09/2026 11:54:17",
+  "atualizado_em": "10/09/2026 11:54:23",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 395,
-    "total_almoxarifado": 106438,
-    "total_farmacia": 36765,
+    "total_almoxarifado": 106188,
+    "total_farmacia": 37015,
     "total_geral": 143203,
     "perto_de_terminar": 16,
     "zerados": 9
@@ -12493,8 +12493,8 @@
       "nome": "Seringa 10ml",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 4250,
-      "farmacia": 90,
+      "almoxarifado": 4000,
+      "farmacia": 340,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -12506,7 +12506,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-10 09:00:36",
+      "atualizado_em": "2026-09-10 11:54:22",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -12514,13 +12514,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 4250
+          "quantidade": 4000
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 90
+          "quantidade": 340
         }
       ],
       "minimo_manual": 0,
@@ -16607,6 +16607,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 2032,
+      "item_id": 103,
+      "produto_nome": "Seringa 10ml",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 250,
+      "responsavel": "Assucena",
+      "data": "2026-09-10",
+      "obs": "",
+      "criado_em": "2026-09-10 11:54:22",
+      "item": "Seringa 10ml",
+      "usuario": "Assucena"
+    },
     {
       "id": 2031,
       "item_id": 102,
@@ -24090,21 +24105,6 @@
       "obs": "",
       "criado_em": "2026-09-03 11:25:46",
       "item": "Sonda Foley nº 16",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1532,
-      "item_id": 307,
-      "produto_nome": "Atadura de algodão 10cm",
-      "tipo": "Almoxarifado para Farmácia",
-      "origem": "Almoxarifado",
-      "destino": "Farmácia",
-      "quantidade": 24,
-      "responsavel": "Assucena",
-      "data": "2026-09-02",
-      "obs": "",
-      "criado_em": "2026-09-03 11:25:20",
-      "item": "Atadura de algodão 10cm",
       "usuario": "Assucena"
     }
   ]
