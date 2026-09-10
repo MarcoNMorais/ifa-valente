@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "10/09/2026 11:55:04",
+  "atualizado_em": "10/09/2026 11:55:13",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 395,
-    "total_almoxarifado": 105108,
-    "total_farmacia": 38095,
+    "total_almoxarifado": 104988,
+    "total_farmacia": 38215,
     "total_geral": 143203,
     "perto_de_terminar": 16,
     "zerados": 9
@@ -14959,8 +14959,8 @@
       "nome": "Soro fisiológico 100ml",
       "tipo": "Insumo",
       "unidade": "Unidade",
-      "almoxarifado": 240,
-      "farmacia": 120,
+      "almoxarifado": 120,
+      "farmacia": 240,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -14972,7 +14972,7 @@
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-09-10 09:00:36",
+      "atualizado_em": "2026-09-10 11:55:12",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -14980,13 +14980,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 240
+          "quantidade": 120
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 120
+          "quantidade": 240
         }
       ],
       "minimo_manual": 0,
@@ -16613,6 +16613,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 2036,
+      "item_id": 202,
+      "produto_nome": "Soro fisiológico 100ml",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 120,
+      "responsavel": "Assucena",
+      "data": "2026-09-10",
+      "obs": "",
+      "criado_em": "2026-09-10 11:55:12",
+      "item": "Soro fisiológico 100ml",
+      "usuario": "Assucena"
+    },
     {
       "id": 2035,
       "item_id": 205,
@@ -24096,21 +24111,6 @@
       "obs": "",
       "criado_em": "2026-09-03 11:26:46",
       "item": "Dipirona",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1536,
-      "item_id": 62,
-      "produto_nome": "Cimetidina 150mg",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 20,
-      "responsavel": "Assucena",
-      "data": "2026-09-02",
-      "obs": "",
-      "criado_em": "2026-09-03 11:26:38",
-      "item": "Cimetidina 150mg",
       "usuario": "Assucena"
     }
   ]
