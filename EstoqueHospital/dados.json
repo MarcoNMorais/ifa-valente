@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "10/09/2026 14:56:05",
+  "atualizado_em": "10/09/2026 14:56:10",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
-    "itens": 395,
-    "total_almoxarifado": 104938,
+    "itens": 396,
+    "total_almoxarifado": 105038,
     "total_farmacia": 37499,
-    "total_geral": 142437,
+    "total_geral": 142537,
     "perto_de_terminar": 18,
     "zerados": 9
   },
@@ -5160,6 +5160,46 @@
       "media_diaria_saida": 1.55,
       "total_saida_historica": 45,
       "cobertura_dias": 49.6,
+      "alerta_estoque": false
+    },
+    {
+      "id": 396,
+      "produto_id": 397,
+      "nome": "Dispositivo intravenoso Gelco nº 16",
+      "tipo": "Material",
+      "unidade": "Unidade",
+      "almoxarifado": 100,
+      "farmacia": 0,
+      "sala_medicacoes": 0,
+      "internamento": 0,
+      "sala_cirurgica": 0,
+      "baixa": 0,
+      "outro": 0,
+      "total": 100,
+      "minimo": 0,
+      "validade": "",
+      "lote": "",
+      "origem": "Entrada externa",
+      "obs": "",
+      "atualizado_em": "2026-09-10 14:56:08",
+      "validade_mais_proxima": "",
+      "vencimento_mais_proximo": "",
+      "lotes_validade": [
+        {
+          "local": "almoxarifado",
+          "validade": "",
+          "lote": "",
+          "quantidade": 100
+        }
+      ],
+      "minimo_manual": 0,
+      "minimo_alerta": 0,
+      "previsao_20_dias": 0,
+      "criterio_alerta": "estoque_minimo_manual_inicio",
+      "dias_historico": 1,
+      "media_diaria_saida": 0.0,
+      "total_saida_historica": 0,
+      "cobertura_dias": null,
       "alerta_estoque": false
     },
     {
@@ -16614,6 +16654,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 2068,
+      "item_id": 396,
+      "produto_nome": "Dispositivo intravenoso Gelco nº 16",
+      "tipo": "Entrada no Almoxarifado",
+      "origem": "Entrada externa",
+      "destino": "Almoxarifado",
+      "quantidade": 100,
+      "responsavel": "Leiliana",
+      "data": "2026-09-10",
+      "obs": "",
+      "criado_em": "2026-09-10 14:56:08",
+      "item": "Dispositivo intravenoso Gelco nº 16",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 2067,
       "item_id": 179,
       "produto_nome": "Dispositivo intravenoso Gelco nº 14",
@@ -24096,21 +24151,6 @@
       "obs": "",
       "criado_em": "2026-09-03 11:42:34",
       "item": "Esparadrapo 10x4,5",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1568,
-      "item_id": 195,
-      "produto_nome": "Tira Reagente G-Tech",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 50,
-      "responsavel": "Assucena",
-      "data": "2026-09-02",
-      "obs": "",
-      "criado_em": "2026-09-03 11:42:19",
-      "item": "Tira Reagente G-Tech",
       "usuario": "Assucena"
     }
   ]
