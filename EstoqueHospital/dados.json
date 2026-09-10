@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "10/09/2026 11:54:11",
+  "atualizado_em": "10/09/2026 11:54:17",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 395,
-    "total_almoxarifado": 106938,
-    "total_farmacia": 36265,
+    "total_almoxarifado": 106438,
+    "total_farmacia": 36765,
     "total_geral": 143203,
     "perto_de_terminar": 16,
     "zerados": 9
@@ -12677,8 +12677,8 @@
       "nome": "Seringa 5ml",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 3950,
-      "farmacia": 135,
+      "almoxarifado": 3450,
+      "farmacia": 635,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -12690,7 +12690,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-10 09:00:36",
+      "atualizado_em": "2026-09-10 11:54:16",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -12698,13 +12698,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 3950
+          "quantidade": 3450
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 135
+          "quantidade": 635
         }
       ],
       "minimo_manual": 0,
@@ -16607,6 +16607,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 2031,
+      "item_id": 102,
+      "produto_nome": "Seringa 5ml",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 500,
+      "responsavel": "Assucena",
+      "data": "2026-09-10",
+      "obs": "",
+      "criado_em": "2026-09-10 11:54:16",
+      "item": "Seringa 5ml",
+      "usuario": "Assucena"
+    },
     {
       "id": 2030,
       "item_id": 104,
@@ -24090,21 +24105,6 @@
       "obs": "",
       "criado_em": "2026-09-03 11:25:20",
       "item": "Atadura de algodão 10cm",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1531,
-      "item_id": 308,
-      "produto_nome": "Atadura de algodão 15cm",
-      "tipo": "Almoxarifado para Farmácia",
-      "origem": "Almoxarifado",
-      "destino": "Farmácia",
-      "quantidade": 24,
-      "responsavel": "Assucena",
-      "data": "2026-09-02",
-      "obs": "",
-      "criado_em": "2026-09-03 11:25:12",
-      "item": "Atadura de algodão 15cm",
       "usuario": "Assucena"
     }
   ]
