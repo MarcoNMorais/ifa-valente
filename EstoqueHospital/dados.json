@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "10/09/2026 14:57:03",
+  "atualizado_em": "10/09/2026 14:57:15",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 397,
-    "total_almoxarifado": 105088,
-    "total_farmacia": 37539,
+    "total_almoxarifado": 105038,
+    "total_farmacia": 37589,
     "total_geral": 142627,
     "perto_de_terminar": 18,
     "zerados": 9
@@ -5214,8 +5214,8 @@
       "nome": "Dispositivo intravenoso Gelco nº 18",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 100,
-      "farmacia": 0,
+      "almoxarifado": 50,
+      "farmacia": 50,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -5227,7 +5227,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-10 14:57:02",
+      "atualizado_em": "2026-09-10 14:57:14",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -5235,7 +5235,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 100
+          "quantidade": 50
+        },
+        {
+          "local": "farmacia",
+          "validade": "",
+          "lote": "",
+          "quantidade": 50
         }
       ],
       "minimo_manual": 0,
@@ -16700,6 +16706,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 2072,
+      "item_id": 397,
+      "produto_nome": "Dispositivo intravenoso Gelco nº 18",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 50,
+      "responsavel": "Leiliana",
+      "data": "2026-09-10",
+      "obs": "",
+      "criado_em": "2026-09-10 14:57:14",
+      "item": "Dispositivo intravenoso Gelco nº 18",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 2071,
       "item_id": 397,
       "produto_nome": "Dispositivo intravenoso Gelco nº 18",
@@ -24182,21 +24203,6 @@
       "obs": "",
       "criado_em": "2026-09-03 11:43:28",
       "item": "Omeprazol sódico 40mg AMP",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1572,
-      "item_id": 230,
-      "produto_nome": "Ferropurum 20mg/ml",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 3,
-      "responsavel": "Assucena",
-      "data": "2026-09-02",
-      "obs": "",
-      "criado_em": "2026-09-03 11:43:15",
-      "item": "Ferropurum 20mg/ml",
       "usuario": "Assucena"
     }
   ]
