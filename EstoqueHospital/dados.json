@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "10/09/2026 11:53:59",
+  "atualizado_em": "10/09/2026 11:54:11",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 395,
-    "total_almoxarifado": 107438,
-    "total_farmacia": 35765,
+    "total_almoxarifado": 106938,
+    "total_farmacia": 36265,
     "total_geral": 143203,
     "perto_de_terminar": 16,
     "zerados": 9
@@ -12631,8 +12631,8 @@
       "nome": "Seringa 3ml",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 4500,
-      "farmacia": 1603,
+      "almoxarifado": 4000,
+      "farmacia": 2103,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -12644,7 +12644,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-10 09:00:36",
+      "atualizado_em": "2026-09-10 11:54:10",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -12652,13 +12652,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 4500
+          "quantidade": 4000
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 1603
+          "quantidade": 2103
         }
       ],
       "minimo_manual": 0,
@@ -16607,6 +16607,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 2030,
+      "item_id": 104,
+      "produto_nome": "Seringa 3ml",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 500,
+      "responsavel": "Assucena",
+      "data": "2026-09-10",
+      "obs": "",
+      "criado_em": "2026-09-10 11:54:10",
+      "item": "Seringa 3ml",
+      "usuario": "Assucena"
+    },
     {
       "id": 2029,
       "item_id": 220,
@@ -24090,21 +24105,6 @@
       "obs": "",
       "criado_em": "2026-09-03 11:25:12",
       "item": "Atadura de algodão 15cm",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1530,
-      "item_id": 98,
-      "produto_nome": "Scalp nº 23",
-      "tipo": "Almoxarifado para Farmácia",
-      "origem": "Almoxarifado",
-      "destino": "Farmácia",
-      "quantidade": 100,
-      "responsavel": "Assucena",
-      "data": "2026-09-02",
-      "obs": "",
-      "criado_em": "2026-09-03 11:24:56",
-      "item": "Scalp nº 23",
       "usuario": "Assucena"
     }
   ]
