@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "10/09/2026 14:56:10",
+  "atualizado_em": "10/09/2026 14:56:21",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 396,
-    "total_almoxarifado": 105038,
-    "total_farmacia": 37499,
+    "total_almoxarifado": 104988,
+    "total_farmacia": 37549,
     "total_geral": 142537,
     "perto_de_terminar": 18,
     "zerados": 9
@@ -5168,8 +5168,8 @@
       "nome": "Dispositivo intravenoso Gelco nº 16",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 100,
-      "farmacia": 0,
+      "almoxarifado": 50,
+      "farmacia": 50,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -5181,7 +5181,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-10 14:56:08",
+      "atualizado_em": "2026-09-10 14:56:20",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -5189,7 +5189,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 100
+          "quantidade": 50
+        },
+        {
+          "local": "farmacia",
+          "validade": "",
+          "lote": "",
+          "quantidade": 50
         }
       ],
       "minimo_manual": 0,
@@ -16654,6 +16660,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 2069,
+      "item_id": 396,
+      "produto_nome": "Dispositivo intravenoso Gelco nº 16",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 50,
+      "responsavel": "Leiliana",
+      "data": "2026-09-10",
+      "obs": "",
+      "criado_em": "2026-09-10 14:56:20",
+      "item": "Dispositivo intravenoso Gelco nº 16",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 2068,
       "item_id": 396,
       "produto_nome": "Dispositivo intravenoso Gelco nº 16",
@@ -24136,21 +24157,6 @@
       "obs": "",
       "criado_em": "2026-09-03 11:42:43",
       "item": "Ciprofloxacino",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1569,
-      "item_id": 276,
-      "produto_nome": "Esparadrapo 10x4,5",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 2,
-      "responsavel": "Assucena",
-      "data": "2026-09-02",
-      "obs": "",
-      "criado_em": "2026-09-03 11:42:34",
-      "item": "Esparadrapo 10x4,5",
       "usuario": "Assucena"
     }
   ]
