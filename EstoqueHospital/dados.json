@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "10/09/2026 14:20:04",
+  "atualizado_em": "10/09/2026 14:20:14",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 395,
     "total_almoxarifado": 104988,
-    "total_farmacia": 37994,
-    "total_geral": 142982,
+    "total_farmacia": 37979,
+    "total_geral": 142967,
     "perto_de_terminar": 17,
     "zerados": 9
   },
@@ -441,19 +441,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 290,
+      "farmacia": 275,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 290,
+      "total": 275,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-10 09:00:36",
+      "atualizado_em": "2026-09-10 14:20:13",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -461,7 +461,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 290
+          "quantidade": 275
         }
       ],
       "minimo_manual": 0,
@@ -469,9 +469,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 7,
-      "media_diaria_saida": 4.29,
-      "total_saida_historica": 30,
-      "cobertura_dias": 67.7,
+      "media_diaria_saida": 6.43,
+      "total_saida_historica": 45,
+      "cobertura_dias": 42.8,
       "alerta_estoque": false
     },
     {
@@ -16614,6 +16614,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 2048,
+      "item_id": 382,
+      "produto_nome": "AGUA P/ INJ",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 15,
+      "responsavel": "Leiliana",
+      "data": "2026-09-10",
+      "obs": "",
+      "criado_em": "2026-09-10 14:20:13",
+      "item": "AGUA P/ INJ",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 2047,
       "item_id": 239,
       "produto_nome": "Tramadol 50mg/ml 2ml",
@@ -24096,21 +24111,6 @@
       "obs": "",
       "criado_em": "2026-09-03 11:29:51",
       "item": "Soro fisiológico 100ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1548,
-      "item_id": 176,
-      "produto_nome": "Dispositivo intravenoso Gelco nº 24",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 20,
-      "responsavel": "Assucena",
-      "data": "2026-09-02",
-      "obs": "",
-      "criado_em": "2026-09-03 11:29:42",
-      "item": "Dispositivo intravenoso Gelco nº 24",
       "usuario": "Assucena"
     }
   ]
