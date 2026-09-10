@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "10/09/2026 11:54:33",
+  "atualizado_em": "10/09/2026 11:54:52",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 395,
-    "total_almoxarifado": 105938,
-    "total_farmacia": 37265,
+    "total_almoxarifado": 105138,
+    "total_farmacia": 38065,
     "total_geral": 143203,
     "perto_de_terminar": 16,
     "zerados": 9
@@ -480,8 +480,8 @@
       "nome": "AGULHA  40X1,2",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 4000,
-      "farmacia": 0,
+      "almoxarifado": 3200,
+      "farmacia": 800,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -493,7 +493,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-10 09:00:36",
+      "atualizado_em": "2026-09-10 11:54:51",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -501,7 +501,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 4000
+          "quantidade": 3200
+        },
+        {
+          "local": "farmacia",
+          "validade": "",
+          "lote": "",
+          "quantidade": 800
         }
       ],
       "minimo_manual": 0,
@@ -16608,6 +16614,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 2034,
+      "item_id": 390,
+      "produto_nome": "AGULHA  40X1,2",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 800,
+      "responsavel": "Assucena",
+      "data": "2026-09-10",
+      "obs": "",
+      "criado_em": "2026-09-10 11:54:51",
+      "item": "AGULHA  40X1,2",
+      "usuario": "Assucena"
+    },
+    {
       "id": 2033,
       "item_id": 274,
       "produto_nome": "Seringa 20ml",
@@ -24090,21 +24111,6 @@
       "obs": "",
       "criado_em": "2026-09-03 11:26:21",
       "item": "Ácido Tranexâmico 50mg",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1534,
-      "item_id": 203,
-      "produto_nome": "Soro fisiológico 250ml",
-      "tipo": "Almoxarifado para Farmácia",
-      "origem": "Almoxarifado",
-      "destino": "Farmácia",
-      "quantidade": 50,
-      "responsavel": "Assucena",
-      "data": "2026-09-02",
-      "obs": "",
-      "criado_em": "2026-09-03 11:26:04",
-      "item": "Soro fisiológico 250ml",
       "usuario": "Assucena"
     }
   ]
