@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "10/09/2026 14:50:23",
+  "atualizado_em": "10/09/2026 14:51:16",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 395,
     "total_almoxarifado": 104988,
-    "total_farmacia": 37519,
-    "total_geral": 142507,
+    "total_farmacia": 37491,
+    "total_geral": 142479,
     "perto_de_terminar": 18,
     "zerados": 9
   },
@@ -11880,19 +11880,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 1920,
-      "farmacia": 90,
+      "farmacia": 62,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 2010,
+      "total": 1982,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-10 09:00:36",
+      "atualizado_em": "2026-09-10 14:51:15",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -11906,17 +11906,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 90
+          "quantidade": 62
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 92,
-      "previsao_20_dias": 92,
+      "minimo_alerta": 115,
+      "previsao_20_dias": 115,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 24,
-      "media_diaria_saida": 4.58,
-      "total_saida_historica": 110,
-      "cobertura_dias": 438.5,
+      "media_diaria_saida": 5.75,
+      "total_saida_historica": 138,
+      "cobertura_dias": 344.7,
       "alerta_estoque": false
     },
     {
@@ -16613,6 +16613,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 2062,
+      "item_id": 329,
+      "produto_nome": "Polifix",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 28,
+      "responsavel": "Leiliana",
+      "data": "2026-09-10",
+      "obs": "",
+      "criado_em": "2026-09-10 14:51:15",
+      "item": "Polifix",
+      "usuario": "Leiliana"
+    },
     {
       "id": 2061,
       "item_id": 104,
@@ -24096,21 +24111,6 @@
       "obs": "",
       "criado_em": "2026-09-03 11:32:31",
       "item": "Ondansetrona solução oral",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1562,
-      "item_id": 155,
-      "produto_nome": "Bolsa coletora",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 3,
-      "responsavel": "Assucena",
-      "data": "2026-09-02",
-      "obs": "",
-      "criado_em": "2026-09-03 11:32:21",
-      "item": "Bolsa coletora",
       "usuario": "Assucena"
     }
   ]
