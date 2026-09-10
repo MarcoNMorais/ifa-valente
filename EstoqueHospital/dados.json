@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "10/09/2026 14:56:21",
+  "atualizado_em": "10/09/2026 14:56:33",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 396,
     "total_almoxarifado": 104988,
-    "total_farmacia": 37549,
-    "total_geral": 142537,
+    "total_farmacia": 37539,
+    "total_geral": 142527,
     "perto_de_terminar": 18,
     "zerados": 9
   },
@@ -5169,19 +5169,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 50,
-      "farmacia": 50,
+      "farmacia": 40,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 100,
+      "total": 90,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-10 14:56:20",
+      "atualizado_em": "2026-09-10 14:56:33",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -5195,7 +5195,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 50
+          "quantidade": 40
         }
       ],
       "minimo_manual": 0,
@@ -5203,9 +5203,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 1,
-      "media_diaria_saida": 0.0,
-      "total_saida_historica": 0,
-      "cobertura_dias": null,
+      "media_diaria_saida": 10.0,
+      "total_saida_historica": 10,
+      "cobertura_dias": 9.0,
       "alerta_estoque": false
     },
     {
@@ -16660,6 +16660,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 2070,
+      "item_id": 396,
+      "produto_nome": "Dispositivo intravenoso Gelco nº 16",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 10,
+      "responsavel": "Leiliana",
+      "data": "2026-09-10",
+      "obs": "",
+      "criado_em": "2026-09-10 14:56:33",
+      "item": "Dispositivo intravenoso Gelco nº 16",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 2069,
       "item_id": 396,
       "produto_nome": "Dispositivo intravenoso Gelco nº 16",
@@ -24142,21 +24157,6 @@
       "obs": "",
       "criado_em": "2026-09-03 11:42:51",
       "item": "Lanceta de segurança",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1570,
-      "item_id": 63,
-      "produto_nome": "Ciprofloxacino",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 6,
-      "responsavel": "Assucena",
-      "data": "2026-09-02",
-      "obs": "",
-      "criado_em": "2026-09-03 11:42:43",
-      "item": "Ciprofloxacino",
       "usuario": "Assucena"
     }
   ]
