@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "10/09/2026 10:20:26",
+  "atualizado_em": "10/09/2026 11:53:59",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 395,
-    "total_almoxarifado": 107688,
-    "total_farmacia": 35515,
+    "total_almoxarifado": 107438,
+    "total_farmacia": 35765,
     "total_geral": 143203,
     "perto_de_terminar": 16,
     "zerados": 9
@@ -5705,8 +5705,8 @@
       "nome": "Equipo macrogotas",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 1400,
-      "farmacia": 50,
+      "almoxarifado": 1150,
+      "farmacia": 300,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -5718,7 +5718,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-10 09:00:36",
+      "atualizado_em": "2026-09-10 11:53:58",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -5726,13 +5726,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 1400
+          "quantidade": 1150
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 50
+          "quantidade": 300
         }
       ],
       "minimo_manual": 0,
@@ -16608,6 +16608,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 2029,
+      "item_id": 220,
+      "produto_nome": "Equipo macrogotas",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 250,
+      "responsavel": "Assucena",
+      "data": "2026-09-10",
+      "obs": "",
+      "criado_em": "2026-09-10 11:53:58",
+      "item": "Equipo macrogotas",
+      "usuario": "Assucena"
+    },
+    {
       "id": 2028,
       "item_id": 152,
       "produto_nome": "Atadura crepon nº 10",
@@ -24090,21 +24105,6 @@
       "obs": "",
       "criado_em": "2026-09-03 11:24:56",
       "item": "Scalp nº 23",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1529,
-      "item_id": 99,
-      "produto_nome": "Scalp nº 21",
-      "tipo": "Almoxarifado para Farmácia",
-      "origem": "Almoxarifado",
-      "destino": "Farmácia",
-      "quantidade": 100,
-      "responsavel": "Assucena",
-      "data": "2026-09-02",
-      "obs": "",
-      "criado_em": "2026-09-03 11:24:48",
-      "item": "Scalp nº 21",
       "usuario": "Assucena"
     }
   ]
