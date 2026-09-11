@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "11/09/2026 11:27:55",
+  "atualizado_em": "11/09/2026 11:28:06",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 397,
-    "total_almoxarifado": 103911,
-    "total_farmacia": 37586,
+    "total_almoxarifado": 103891,
+    "total_farmacia": 37606,
     "total_geral": 141497,
     "perto_de_terminar": 19,
     "zerados": 9
@@ -5889,8 +5889,8 @@
       "nome": "Equipo para transfusão",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 40,
-      "farmacia": 17,
+      "almoxarifado": 20,
+      "farmacia": 37,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -5902,7 +5902,7 @@
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-09-11 11:17:03",
+      "atualizado_em": "2026-09-11 11:28:05",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -5910,13 +5910,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 40
+          "quantidade": 20
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 17
+          "quantidade": 37
         }
       ],
       "minimo_manual": 0,
@@ -16706,6 +16706,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 2143,
+      "item_id": 158,
+      "produto_nome": "Equipo para transfusão",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 20,
+      "responsavel": "Assucena",
+      "data": "2026-09-11",
+      "obs": "",
+      "criado_em": "2026-09-11 11:28:05",
+      "item": "Equipo para transfusão",
+      "usuario": "Assucena"
+    },
+    {
       "id": 2142,
       "item_id": 178,
       "produto_nome": "Dispositivo intravenoso Gelco nº 20",
@@ -24188,21 +24203,6 @@
       "obs": "",
       "criado_em": "2026-09-08 14:50:58",
       "item": "Simeticona gotas",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 1643,
-      "item_id": 261,
-      "produto_nome": "Amiodarona 200mg CPR",
-      "tipo": "Entrada no Almoxarifado",
-      "origem": "Entrada externa",
-      "destino": "Almoxarifado",
-      "quantidade": 20,
-      "responsavel": "Leiliana",
-      "data": "2026-09-04",
-      "obs": "",
-      "criado_em": "2026-09-08 14:50:37",
-      "item": "Amiodarona 200mg CPR",
       "usuario": "Leiliana"
     }
   ]
