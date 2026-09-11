@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "11/09/2026 11:24:38",
+  "atualizado_em": "11/09/2026 11:24:51",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 397,
     "total_almoxarifado": 105035,
-    "total_farmacia": 36574,
-    "total_geral": 141609,
+    "total_farmacia": 36564,
+    "total_geral": 141599,
     "perto_de_terminar": 19,
     "zerados": 9
   },
@@ -3869,19 +3869,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 65,
+      "farmacia": 55,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 65,
+      "total": 55,
       "minimo": 15,
       "validade": "2027-08",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-11 11:17:03",
+      "atualizado_em": "2026-09-11 11:24:50",
       "validade_mais_proxima": "2027-08",
       "vencimento_mais_proximo": "2027-08",
       "lotes_validade": [
@@ -3889,7 +3889,7 @@
           "local": "farmacia",
           "validade": "2027-08",
           "lote": "",
-          "quantidade": 65
+          "quantidade": 55
         }
       ],
       "minimo_manual": 15,
@@ -3897,9 +3897,9 @@
       "previsao_20_dias": 15,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 18,
-      "media_diaria_saida": 0.0,
-      "total_saida_historica": 0,
-      "cobertura_dias": null,
+      "media_diaria_saida": 0.56,
+      "total_saida_historica": 10,
+      "cobertura_dias": 99.0,
       "alerta_estoque": false
     },
     {
@@ -16706,6 +16706,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 2130,
+      "item_id": 343,
+      "produto_nome": "CLORETO DE POTÁSSIO 19,1% AMP 10ML",
+      "tipo": "Farmácia para Posto de Internamento",
+      "origem": "Farmácia",
+      "destino": "Posto de Internamento",
+      "quantidade": 10,
+      "responsavel": "Assucena",
+      "data": "2026-09-11",
+      "obs": "",
+      "criado_em": "2026-09-11 11:24:50",
+      "item": "CLORETO DE POTÁSSIO 19,1% AMP 10ML",
+      "usuario": "Assucena"
+    },
+    {
       "id": 2129,
       "item_id": 70,
       "produto_nome": "Dipirona",
@@ -24188,21 +24203,6 @@
       "obs": "",
       "criado_em": "2026-09-04 11:23:20",
       "item": "Dispositivo intravenoso Gelco nº 24",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1630,
-      "item_id": 177,
-      "produto_nome": "Dispositivo intravenoso Gelco nº 22",
-      "tipo": "Almoxarifado para Farmácia",
-      "origem": "Almoxarifado",
-      "destino": "Farmácia",
-      "quantidade": 100,
-      "responsavel": "Assucena",
-      "data": "2026-09-03",
-      "obs": "",
-      "criado_em": "2026-09-04 11:23:12",
-      "item": "Dispositivo intravenoso Gelco nº 22",
       "usuario": "Assucena"
     }
   ]
