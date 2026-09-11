@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "11/09/2026 11:26:10",
+  "atualizado_em": "11/09/2026 11:26:30",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 397,
-    "total_almoxarifado": 105035,
-    "total_farmacia": 36462,
+    "total_almoxarifado": 104235,
+    "total_farmacia": 37262,
     "total_geral": 141497,
     "perto_de_terminar": 19,
     "zerados": 9
@@ -10786,8 +10786,8 @@
       "nome": "Máscara descartável",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 2300,
-      "farmacia": 0,
+      "almoxarifado": 1500,
+      "farmacia": 800,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -10799,7 +10799,7 @@
       "lote": "",
       "origem": "Carga Almoxerifado",
       "obs": "Importação Almoxerifado",
-      "atualizado_em": "2026-09-11 11:17:03",
+      "atualizado_em": "2026-09-11 11:26:29",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -10807,7 +10807,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 2300
+          "quantidade": 1500
+        },
+        {
+          "local": "farmacia",
+          "validade": "",
+          "lote": "",
+          "quantidade": 800
         }
       ],
       "minimo_manual": 0,
@@ -16699,6 +16705,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 2138,
+      "item_id": 330,
+      "produto_nome": "Máscara descartável",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 800,
+      "responsavel": "Assucena",
+      "data": "2026-09-11",
+      "obs": "",
+      "criado_em": "2026-09-11 11:26:29",
+      "item": "Máscara descartável",
+      "usuario": "Assucena"
+    },
     {
       "id": 2137,
       "item_id": 244,
@@ -24182,21 +24203,6 @@
       "obs": "",
       "criado_em": "2026-09-08 14:49:31",
       "item": "Aciclovir 200mg comprimido",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 1638,
-      "item_id": 320,
-      "produto_nome": "Acebrofilina 10mg/ml",
-      "tipo": "Entrada no Almoxarifado",
-      "origem": "Entrada externa",
-      "destino": "Almoxarifado",
-      "quantidade": 9,
-      "responsavel": "Leiliana",
-      "data": "2026-09-04",
-      "obs": "",
-      "criado_em": "2026-09-08 14:49:10",
-      "item": "Acebrofilina 10mg/ml",
       "usuario": "Leiliana"
     }
   ]
