@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "11/09/2026 11:23:53",
+  "atualizado_em": "11/09/2026 11:24:01",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 397,
     "total_almoxarifado": 105035,
-    "total_farmacia": 36606,
-    "total_geral": 141641,
+    "total_farmacia": 36596,
+    "total_geral": 141631,
     "perto_de_terminar": 19,
     "zerados": 9
   },
@@ -11972,19 +11972,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 1920,
-      "farmacia": 52,
+      "farmacia": 42,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1972,
+      "total": 1962,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-11 11:23:52",
+      "atualizado_em": "2026-09-11 11:24:00",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -11998,17 +11998,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 52
+          "quantidade": 42
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 119,
-      "previsao_20_dias": 119,
+      "minimo_alerta": 127,
+      "previsao_20_dias": 127,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 25,
-      "media_diaria_saida": 5.92,
-      "total_saida_historica": 148,
-      "cobertura_dias": 333.1,
+      "media_diaria_saida": 6.32,
+      "total_saida_historica": 158,
+      "cobertura_dias": 310.4,
       "alerta_estoque": false
     },
     {
@@ -16705,6 +16705,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 2127,
+      "item_id": 329,
+      "produto_nome": "Polifix",
+      "tipo": "Farmácia para Posto de Internamento",
+      "origem": "Farmácia",
+      "destino": "Posto de Internamento",
+      "quantidade": 10,
+      "responsavel": "Assucena",
+      "data": "2026-09-11",
+      "obs": "",
+      "criado_em": "2026-09-11 11:24:00",
+      "item": "Polifix",
+      "usuario": "Assucena"
+    },
     {
       "id": 2126,
       "item_id": 329,
@@ -24188,21 +24203,6 @@
       "obs": "",
       "criado_em": "2026-09-04 11:22:51",
       "item": "Equipo micro",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1627,
-      "item_id": 201,
-      "produto_nome": "Soro Ringer Lactato 500ml",
-      "tipo": "Almoxarifado para Farmácia",
-      "origem": "Almoxarifado",
-      "destino": "Farmácia",
-      "quantidade": 24,
-      "responsavel": "Assucena",
-      "data": "2026-09-03",
-      "obs": "",
-      "criado_em": "2026-09-04 11:22:37",
-      "item": "Soro Ringer Lactato 500ml",
       "usuario": "Assucena"
     }
   ]
