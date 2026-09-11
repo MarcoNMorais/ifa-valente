@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "11/09/2026 11:20:24",
+  "atualizado_em": "11/09/2026 11:20:34",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 397,
     "total_almoxarifado": 105035,
-    "total_farmacia": 37026,
-    "total_geral": 142061,
+    "total_farmacia": 36976,
+    "total_geral": 142011,
     "perto_de_terminar": 19,
     "zerados": 9
   },
@@ -481,19 +481,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 3200,
-      "farmacia": 600,
+      "farmacia": 550,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 3800,
+      "total": 3750,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-11 11:17:03",
+      "atualizado_em": "2026-09-11 11:20:33",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -507,7 +507,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 600
+          "quantidade": 550
         }
       ],
       "minimo_manual": 0,
@@ -515,9 +515,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 8,
-      "media_diaria_saida": 25.0,
-      "total_saida_historica": 200,
-      "cobertura_dias": 152.0,
+      "media_diaria_saida": 31.25,
+      "total_saida_historica": 250,
+      "cobertura_dias": 120.0,
       "alerta_estoque": false
     },
     {
@@ -16706,6 +16706,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 2108,
+      "item_id": 390,
+      "produto_nome": "AGULHA  40X1,2",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 50,
+      "responsavel": "Assucena",
+      "data": "2026-09-11",
+      "obs": "",
+      "criado_em": "2026-09-11 11:20:33",
+      "item": "AGULHA  40X1,2",
+      "usuario": "Assucena"
+    },
+    {
       "id": 2107,
       "item_id": 255,
       "produto_nome": "Ibuprofeno gotas",
@@ -24188,21 +24203,6 @@
       "obs": "",
       "criado_em": "2026-09-04 11:16:08",
       "item": "Cloridrato de Metoclopramida",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1608,
-      "item_id": 216,
-      "produto_nome": "Fio agulhado / sutura nº 3",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 10,
-      "responsavel": "Assucena",
-      "data": "2026-09-03",
-      "obs": "",
-      "criado_em": "2026-09-04 11:15:57",
-      "item": "Fio agulhado / sutura nº 3",
       "usuario": "Assucena"
     }
   ]
