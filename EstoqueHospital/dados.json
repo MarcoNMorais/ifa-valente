@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "11/09/2026 11:26:30",
+  "atualizado_em": "11/09/2026 11:27:01",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 397,
-    "total_almoxarifado": 104235,
-    "total_farmacia": 37262,
+    "total_almoxarifado": 104135,
+    "total_farmacia": 37362,
     "total_geral": 141497,
     "perto_de_terminar": 19,
     "zerados": 9
@@ -15097,8 +15097,8 @@
       "nome": "Soro fisiológico 250ml",
       "tipo": "Insumo",
       "unidade": "Unidade",
-      "almoxarifado": 1337,
-      "farmacia": 22,
+      "almoxarifado": 1237,
+      "farmacia": 122,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -15110,7 +15110,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-11 11:17:03",
+      "atualizado_em": "2026-09-11 11:27:00",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -15118,13 +15118,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 1337
+          "quantidade": 1237
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 22
+          "quantidade": 122
         }
       ],
       "minimo_manual": 0,
@@ -16705,6 +16705,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 2139,
+      "item_id": 203,
+      "produto_nome": "Soro fisiológico 250ml",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 100,
+      "responsavel": "Assucena",
+      "data": "2026-09-11",
+      "obs": "",
+      "criado_em": "2026-09-11 11:27:00",
+      "item": "Soro fisiológico 250ml",
+      "usuario": "Assucena"
+    },
     {
       "id": 2138,
       "item_id": 330,
@@ -24188,21 +24203,6 @@
       "obs": "",
       "criado_em": "2026-09-08 14:49:46",
       "item": "Acetilcisteína 2mg/ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 1639,
-      "item_id": 32,
-      "produto_nome": "Aciclovir 200mg comprimido",
-      "tipo": "Entrada no Almoxarifado",
-      "origem": "Entrada externa",
-      "destino": "Almoxarifado",
-      "quantidade": 30,
-      "responsavel": "Leiliana",
-      "data": "2026-09-04",
-      "obs": "",
-      "criado_em": "2026-09-08 14:49:31",
-      "item": "Aciclovir 200mg comprimido",
       "usuario": "Leiliana"
     }
   ]
