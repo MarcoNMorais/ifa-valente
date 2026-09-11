@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "11/09/2026 11:27:47",
+  "atualizado_em": "11/09/2026 11:27:55",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 397,
-    "total_almoxarifado": 104011,
-    "total_farmacia": 37486,
+    "total_almoxarifado": 103911,
+    "total_farmacia": 37586,
     "total_geral": 141497,
     "perto_de_terminar": 19,
     "zerados": 9
@@ -5254,8 +5254,8 @@
       "nome": "Dispositivo intravenoso Gelco nº 20",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 600,
-      "farmacia": 30,
+      "almoxarifado": 500,
+      "farmacia": 130,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -5267,7 +5267,7 @@
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-09-11 11:21:27",
+      "atualizado_em": "2026-09-11 11:27:54",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -5275,13 +5275,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 600
+          "quantidade": 500
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 30
+          "quantidade": 130
         }
       ],
       "minimo_manual": 0,
@@ -16706,6 +16706,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 2142,
+      "item_id": 178,
+      "produto_nome": "Dispositivo intravenoso Gelco nº 20",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 100,
+      "responsavel": "Assucena",
+      "data": "2026-09-11",
+      "obs": "",
+      "criado_em": "2026-09-11 11:27:54",
+      "item": "Dispositivo intravenoso Gelco nº 20",
+      "usuario": "Assucena"
+    },
+    {
       "id": 2141,
       "item_id": 177,
       "produto_nome": "Dispositivo intravenoso Gelco nº 22",
@@ -24188,21 +24203,6 @@
       "obs": "",
       "criado_em": "2026-09-08 14:50:37",
       "item": "Amiodarona 200mg CPR",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 1642,
-      "item_id": 138,
-      "produto_nome": "Captopril 25mg CPR",
-      "tipo": "Entrada no Almoxarifado",
-      "origem": "Entrada externa",
-      "destino": "Almoxarifado",
-      "quantidade": 400,
-      "responsavel": "Leiliana",
-      "data": "2026-09-04",
-      "obs": "",
-      "criado_em": "2026-09-08 14:50:20",
-      "item": "Captopril 25mg CPR",
       "usuario": "Leiliana"
     }
   ]
