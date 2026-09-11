@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "11/09/2026 11:28:06",
+  "atualizado_em": "11/09/2026 11:28:19",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 397,
-    "total_almoxarifado": 103891,
-    "total_farmacia": 37606,
+    "total_almoxarifado": 103871,
+    "total_farmacia": 37626,
     "total_geral": 141497,
     "perto_de_terminar": 19,
     "zerados": 9
@@ -15858,8 +15858,8 @@
       "nome": "Tira Reagente G-Tech",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 40,
-      "farmacia": 297,
+      "almoxarifado": 20,
+      "farmacia": 317,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -15871,7 +15871,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-11 11:17:03",
+      "atualizado_em": "2026-09-11 11:28:18",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -15879,13 +15879,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 40
+          "quantidade": 20
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 297
+          "quantidade": 317
         }
       ],
       "minimo_manual": 0,
@@ -16705,6 +16705,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 2144,
+      "item_id": 195,
+      "produto_nome": "Tira Reagente G-Tech",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 20,
+      "responsavel": "Assucena",
+      "data": "2026-09-11",
+      "obs": "",
+      "criado_em": "2026-09-11 11:28:18",
+      "item": "Tira Reagente G-Tech",
+      "usuario": "Assucena"
+    },
     {
       "id": 2143,
       "item_id": 158,
@@ -24188,21 +24203,6 @@
       "obs": "",
       "criado_em": "2026-09-08 14:51:20",
       "item": "Dipirona 500mg",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 1644,
-      "item_id": 256,
-      "produto_nome": "Simeticona gotas",
-      "tipo": "Entrada no Almoxarifado",
-      "origem": "Entrada externa",
-      "destino": "Almoxarifado",
-      "quantidade": 40,
-      "responsavel": "Leiliana",
-      "data": "2026-09-04",
-      "obs": "",
-      "criado_em": "2026-09-08 14:50:58",
-      "item": "Simeticona gotas",
       "usuario": "Leiliana"
     }
   ]
