@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "11/09/2026 11:24:22",
+  "atualizado_em": "11/09/2026 11:24:38",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 397,
     "total_almoxarifado": 105035,
-    "total_farmacia": 36594,
-    "total_geral": 141629,
+    "total_farmacia": 36574,
+    "total_geral": 141609,
     "perto_de_terminar": 19,
     "zerados": 9
   },
@@ -5003,19 +5003,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 1680,
+      "farmacia": 1660,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1680,
+      "total": 1660,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-11 11:17:03",
+      "atualizado_em": "2026-09-11 11:24:37",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -5023,17 +5023,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 1680
+          "quantidade": 1660
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 934,
-      "previsao_20_dias": 934,
+      "minimo_alerta": 947,
+      "previsao_20_dias": 947,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 30,
-      "media_diaria_saida": 46.67,
-      "total_saida_historica": 1400,
-      "cobertura_dias": 36.0,
+      "media_diaria_saida": 47.33,
+      "total_saida_historica": 1420,
+      "cobertura_dias": 35.1,
       "alerta_estoque": false
     },
     {
@@ -16706,6 +16706,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 2129,
+      "item_id": 70,
+      "produto_nome": "Dipirona",
+      "tipo": "Farmácia para Posto de Internamento",
+      "origem": "Farmácia",
+      "destino": "Posto de Internamento",
+      "quantidade": 20,
+      "responsavel": "Assucena",
+      "data": "2026-09-11",
+      "obs": "",
+      "criado_em": "2026-09-11 11:24:37",
+      "item": "Dipirona",
+      "usuario": "Assucena"
+    },
+    {
       "id": 2128,
       "item_id": 276,
       "produto_nome": "Esparadrapo 10x4,5",
@@ -24188,21 +24203,6 @@
       "obs": "",
       "criado_em": "2026-09-04 11:23:12",
       "item": "Dispositivo intravenoso Gelco nº 22",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1629,
-      "item_id": 329,
-      "produto_nome": "Polifix",
-      "tipo": "Almoxarifado para Farmácia",
-      "origem": "Almoxarifado",
-      "destino": "Farmácia",
-      "quantidade": 80,
-      "responsavel": "Assucena",
-      "data": "2026-09-03",
-      "obs": "",
-      "criado_em": "2026-09-04 11:23:01",
-      "item": "Polifix",
       "usuario": "Assucena"
     }
   ]
