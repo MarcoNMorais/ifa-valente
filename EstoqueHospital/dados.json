@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "11/09/2026 11:28:19",
+  "atualizado_em": "11/09/2026 11:28:31",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 397,
-    "total_almoxarifado": 103871,
-    "total_farmacia": 37626,
+    "total_almoxarifado": 103771,
+    "total_farmacia": 37726,
     "total_geral": 141497,
     "perto_de_terminar": 19,
     "zerados": 9
@@ -12637,8 +12637,8 @@
       "nome": "Seringa 1ml",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 950,
-      "farmacia": 115,
+      "almoxarifado": 850,
+      "farmacia": 215,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -12650,7 +12650,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-11 11:22:19",
+      "atualizado_em": "2026-09-11 11:28:30",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -12658,13 +12658,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 950
+          "quantidade": 850
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 115
+          "quantidade": 215
         }
       ],
       "minimo_manual": 0,
@@ -16705,6 +16705,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 2145,
+      "item_id": 157,
+      "produto_nome": "Seringa 1ml",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 100,
+      "responsavel": "Assucena",
+      "data": "2026-09-11",
+      "obs": "",
+      "criado_em": "2026-09-11 11:28:30",
+      "item": "Seringa 1ml",
+      "usuario": "Assucena"
+    },
     {
       "id": 2144,
       "item_id": 195,
@@ -24188,21 +24203,6 @@
       "obs": "",
       "criado_em": "2026-09-08 14:51:35",
       "item": "Espironolactona 25mg",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 1645,
-      "item_id": 28,
-      "produto_nome": "Dipirona 500mg",
-      "tipo": "Entrada no Almoxarifado",
-      "origem": "Entrada externa",
-      "destino": "Almoxarifado",
-      "quantidade": 200,
-      "responsavel": "Leiliana",
-      "data": "2026-09-04",
-      "obs": "",
-      "criado_em": "2026-09-08 14:51:20",
-      "item": "Dipirona 500mg",
       "usuario": "Leiliana"
     }
   ]
