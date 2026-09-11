@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "11/09/2026 11:27:01",
+  "atualizado_em": "11/09/2026 11:27:08",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 397,
-    "total_almoxarifado": 104135,
-    "total_farmacia": 37362,
+    "total_almoxarifado": 104111,
+    "total_farmacia": 37386,
     "total_geral": 141497,
     "perto_de_terminar": 19,
     "zerados": 9
@@ -15143,8 +15143,8 @@
       "nome": "Soro fisiológico 500ml",
       "tipo": "Insumo",
       "unidade": "Unidade",
-      "almoxarifado": 931,
-      "farmacia": 14,
+      "almoxarifado": 907,
+      "farmacia": 38,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -15156,7 +15156,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-11 11:17:03",
+      "atualizado_em": "2026-09-11 11:27:07",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -15164,13 +15164,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 931
+          "quantidade": 907
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 14
+          "quantidade": 38
         }
       ],
       "minimo_manual": 0,
@@ -16705,6 +16705,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 2140,
+      "item_id": 204,
+      "produto_nome": "Soro fisiológico 500ml",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 24,
+      "responsavel": "Assucena",
+      "data": "2026-09-11",
+      "obs": "",
+      "criado_em": "2026-09-11 11:27:07",
+      "item": "Soro fisiológico 500ml",
+      "usuario": "Assucena"
+    },
     {
       "id": 2139,
       "item_id": 203,
@@ -24188,21 +24203,6 @@
       "obs": "",
       "criado_em": "2026-09-08 14:50:04",
       "item": "Azitromicina 600mg suspensão",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 1640,
-      "item_id": 248,
-      "produto_nome": "Acetilcisteína 2mg/ml",
-      "tipo": "Entrada no Almoxarifado",
-      "origem": "Entrada externa",
-      "destino": "Almoxarifado",
-      "quantidade": 9,
-      "responsavel": "Leiliana",
-      "data": "2026-09-04",
-      "obs": "",
-      "criado_em": "2026-09-08 14:49:46",
-      "item": "Acetilcisteína 2mg/ml",
       "usuario": "Leiliana"
     }
   ]
