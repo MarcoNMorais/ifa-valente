@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "11/09/2026 11:27:08",
+  "atualizado_em": "11/09/2026 11:27:47",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 397,
-    "total_almoxarifado": 104111,
-    "total_farmacia": 37386,
+    "total_almoxarifado": 104011,
+    "total_farmacia": 37486,
     "total_geral": 141497,
     "perto_de_terminar": 19,
     "zerados": 9
@@ -5300,8 +5300,8 @@
       "nome": "Dispositivo intravenoso Gelco nº 22",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 1340,
-      "farmacia": 88,
+      "almoxarifado": 1240,
+      "farmacia": 188,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -5313,7 +5313,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-11 11:21:45",
+      "atualizado_em": "2026-09-11 11:27:46",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -5321,13 +5321,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 1340
+          "quantidade": 1240
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 88
+          "quantidade": 188
         }
       ],
       "minimo_manual": 0,
@@ -16706,6 +16706,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 2141,
+      "item_id": 177,
+      "produto_nome": "Dispositivo intravenoso Gelco nº 22",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 100,
+      "responsavel": "Assucena",
+      "data": "2026-09-11",
+      "obs": "",
+      "criado_em": "2026-09-11 11:27:46",
+      "item": "Dispositivo intravenoso Gelco nº 22",
+      "usuario": "Assucena"
+    },
+    {
       "id": 2140,
       "item_id": 204,
       "produto_nome": "Soro fisiológico 500ml",
@@ -24188,21 +24203,6 @@
       "obs": "",
       "criado_em": "2026-09-08 14:50:20",
       "item": "Captopril 25mg CPR",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 1641,
-      "item_id": 253,
-      "produto_nome": "Azitromicina 600mg suspensão",
-      "tipo": "Entrada no Almoxarifado",
-      "origem": "Entrada externa",
-      "destino": "Almoxarifado",
-      "quantidade": 9,
-      "responsavel": "Leiliana",
-      "data": "2026-09-04",
-      "obs": "",
-      "criado_em": "2026-09-08 14:50:04",
-      "item": "Azitromicina 600mg suspensão",
       "usuario": "Leiliana"
     }
   ]
