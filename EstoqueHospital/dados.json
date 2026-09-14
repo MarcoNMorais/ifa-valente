@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "14/09/2026 11:24:36",
+  "atualizado_em": "14/09/2026 11:24:46",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 397,
     "total_almoxarifado": 103611,
-    "total_farmacia": 37276,
-    "total_geral": 140887,
+    "total_farmacia": 37236,
+    "total_geral": 140847,
     "perto_de_terminar": 17,
     "zerados": 9
   },
@@ -12678,19 +12678,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 5000,
-      "farmacia": 335,
+      "farmacia": 295,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 5335,
+      "total": 5295,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-11 11:22:37",
+      "atualizado_em": "2026-09-14 11:24:46",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -12704,17 +12704,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 335
+          "quantidade": 295
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 654,
-      "previsao_20_dias": 654,
+      "minimo_alerta": 683,
+      "previsao_20_dias": 683,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 28,
-      "media_diaria_saida": 32.68,
-      "total_saida_historica": 915,
-      "cobertura_dias": 163.3,
+      "media_diaria_saida": 34.11,
+      "total_saida_historica": 955,
+      "cobertura_dias": 155.2,
       "alerta_estoque": false
     },
     {
@@ -16699,6 +16699,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 2170,
+      "item_id": 274,
+      "produto_nome": "Seringa 20ml",
+      "tipo": "Farmácia para Posto de Internamento",
+      "origem": "Farmácia",
+      "destino": "Posto de Internamento",
+      "quantidade": 40,
+      "responsavel": "Assucena",
+      "data": "2026-09-12",
+      "obs": "",
+      "criado_em": "2026-09-14 11:24:46",
+      "item": "Seringa 20ml",
+      "usuario": "Assucena"
+    },
     {
       "id": 2169,
       "item_id": 204,
@@ -24182,21 +24197,6 @@
       "obs": "",
       "criado_em": "2026-09-08 15:02:16",
       "item": "Bromoprida 5mg",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 1670,
-      "item_id": 44,
-      "produto_nome": "Clopidogrel 75mg CP",
-      "tipo": "Entrada no Almoxarifado",
-      "origem": "Entrada externa",
-      "destino": "Almoxarifado",
-      "quantidade": 70,
-      "responsavel": "Leiliana",
-      "data": "2026-09-04",
-      "obs": "",
-      "criado_em": "2026-09-08 15:02:00",
-      "item": "Clopidogrel 75mg CP",
       "usuario": "Leiliana"
     }
   ]
