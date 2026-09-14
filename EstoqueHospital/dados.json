@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "14/09/2026 11:26:02",
+  "atualizado_em": "14/09/2026 11:26:17",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 397,
-    "total_almoxarifado": 103611,
-    "total_farmacia": 36869,
+    "total_almoxarifado": 103602,
+    "total_farmacia": 36878,
     "total_geral": 140480,
     "perto_de_terminar": 17,
     "zerados": 9
@@ -2295,8 +2295,8 @@
       "nome": "Azitromicina 600mg suspensão",
       "tipo": "Medicamento",
       "unidade": "Unidade",
-      "almoxarifado": 9,
-      "farmacia": 0,
+      "almoxarifado": 0,
+      "farmacia": 9,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -2308,12 +2308,12 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-11 11:17:03",
+      "atualizado_em": "2026-09-14 11:26:16",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
         {
-          "local": "almoxarifado",
+          "local": "farmacia",
           "validade": "",
           "lote": "",
           "quantidade": 9
@@ -17135,6 +17135,21 @@
       "usuario": "Assucena"
     },
     {
+      "id": 2176,
+      "item_id": 253,
+      "produto_nome": "Azitromicina 600mg suspensão",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 9,
+      "responsavel": "Assucena",
+      "data": "2026-09-11",
+      "obs": "",
+      "criado_em": "2026-09-14 11:26:16",
+      "item": "Azitromicina 600mg suspensão",
+      "usuario": "Assucena"
+    },
+    {
       "id": 2155,
       "item_id": 228,
       "produto_nome": "Omeprazol sódico 40mg AMP",
@@ -24182,21 +24197,6 @@
       "obs": "",
       "criado_em": "2026-09-08 15:10:35",
       "item": "Amiodarona 50mg",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 1676,
-      "item_id": 62,
-      "produto_nome": "Cimetidina 150mg",
-      "tipo": "Entrada no Almoxarifado",
-      "origem": "Entrada externa",
-      "destino": "Almoxarifado",
-      "quantidade": 160,
-      "responsavel": "Leiliana",
-      "data": "2026-09-04",
-      "obs": "",
-      "criado_em": "2026-09-08 15:10:01",
-      "item": "Cimetidina 150mg",
       "usuario": "Leiliana"
     }
   ]
