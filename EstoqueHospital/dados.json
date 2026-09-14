@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "14/09/2026 11:27:37",
+  "atualizado_em": "14/09/2026 11:27:46",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 397,
     "total_almoxarifado": 103602,
-    "total_farmacia": 36841,
-    "total_geral": 140443,
+    "total_farmacia": 36821,
+    "total_geral": 140423,
     "perto_de_terminar": 17,
     "zerados": 9
   },
@@ -2914,19 +2914,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 340,
+      "farmacia": 320,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 340,
+      "total": 320,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-11 11:25:09",
+      "atualizado_em": "2026-09-14 11:27:45",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -2934,17 +2934,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 340
+          "quantidade": 320
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 176,
-      "previsao_20_dias": 176,
+      "minimo_alerta": 188,
+      "previsao_20_dias": 188,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 33,
-      "media_diaria_saida": 8.79,
-      "total_saida_historica": 290,
-      "cobertura_dias": 38.7,
+      "media_diaria_saida": 9.39,
+      "total_saida_historica": 310,
+      "cobertura_dias": 34.1,
       "alerta_estoque": false
     },
     {
@@ -16694,6 +16694,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 2183,
+      "item_id": 57,
+      "produto_nome": "Bromoprida 5mg",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 20,
+      "responsavel": "Assucena",
+      "data": "2026-09-12",
+      "obs": "",
+      "criado_em": "2026-09-14 11:27:45",
+      "item": "Bromoprida 5mg",
+      "usuario": "Assucena"
+    },
+    {
       "id": 2182,
       "item_id": 385,
       "produto_nome": "LIDOCAINA S/ VASO",
@@ -24176,21 +24191,6 @@
       "obs": "",
       "criado_em": "2026-09-08 15:16:06",
       "item": "Dexametasona",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 1683,
-      "item_id": 64,
-      "produto_nome": "Fosfato de Clindamicina 150mg",
-      "tipo": "Entrada no Almoxarifado",
-      "origem": "Entrada externa",
-      "destino": "Almoxarifado",
-      "quantidade": 160,
-      "responsavel": "Leiliana",
-      "data": "2026-09-04",
-      "obs": "",
-      "criado_em": "2026-09-08 15:15:06",
-      "item": "Fosfato de Clindamicina 150mg",
       "usuario": "Leiliana"
     }
   ]
