@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "14/09/2026 11:21:43",
+  "atualizado_em": "14/09/2026 11:21:53",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 397,
     "total_almoxarifado": 103771,
-    "total_farmacia": 37361,
-    "total_geral": 141132,
+    "total_farmacia": 37349,
+    "total_geral": 141120,
     "perto_de_terminar": 17,
     "zerados": 9
   },
@@ -3405,19 +3405,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 395,
+      "farmacia": 383,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 395,
+      "total": 383,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-11 11:17:03",
+      "atualizado_em": "2026-09-14 11:21:52",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -3425,17 +3425,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 395
+          "quantidade": 383
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 204,
-      "previsao_20_dias": 204,
+      "minimo_alerta": 211,
+      "previsao_20_dias": 211,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 33,
-      "media_diaria_saida": 10.15,
-      "total_saida_historica": 335,
-      "cobertura_dias": 38.9,
+      "media_diaria_saida": 10.52,
+      "total_saida_historica": 347,
+      "cobertura_dias": 36.4,
       "alerta_estoque": false
     },
     {
@@ -16706,6 +16706,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 2152,
+      "item_id": 60,
+      "produto_nome": "Cetoprofeno EV 100mg",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 12,
+      "responsavel": "Assucena",
+      "data": "2026-09-12",
+      "obs": "",
+      "criado_em": "2026-09-14 11:21:52",
+      "item": "Cetoprofeno EV 100mg",
+      "usuario": "Assucena"
+    },
+    {
       "id": 2151,
       "item_id": 104,
       "produto_nome": "Seringa 3ml",
@@ -24188,21 +24203,6 @@
       "obs": "",
       "criado_em": "2026-09-08 14:54:35",
       "item": "Losartana potássica 50mg CPR",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 1652,
-      "item_id": 127,
-      "produto_nome": "Loratadina 10mg CPR",
-      "tipo": "Entrada no Almoxarifado",
-      "origem": "Entrada externa",
-      "destino": "Almoxarifado",
-      "quantidade": 100,
-      "responsavel": "Leiliana",
-      "data": "2026-09-04",
-      "obs": "",
-      "criado_em": "2026-09-08 14:54:19",
-      "item": "Loratadina 10mg CPR",
       "usuario": "Leiliana"
     }
   ]
