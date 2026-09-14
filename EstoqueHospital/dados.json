@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "14/09/2026 11:21:01",
+  "atualizado_em": "14/09/2026 11:21:17",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 397,
     "total_almoxarifado": 103771,
-    "total_farmacia": 37536,
-    "total_geral": 141307,
+    "total_farmacia": 37521,
+    "total_geral": 141292,
     "perto_de_terminar": 17,
     "zerados": 9
   },
@@ -5347,19 +5347,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 980,
-      "farmacia": 240,
+      "farmacia": 225,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1220,
+      "total": 1205,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-11 11:21:57",
+      "atualizado_em": "2026-09-14 11:21:16",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -5373,17 +5373,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 240
+          "quantidade": 225
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 197,
-      "previsao_20_dias": 197,
+      "minimo_alerta": 207,
+      "previsao_20_dias": 207,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 33,
-      "media_diaria_saida": 9.85,
-      "total_saida_historica": 325,
-      "cobertura_dias": 123.9,
+      "media_diaria_saida": 10.3,
+      "total_saida_historica": 340,
+      "cobertura_dias": 117.0,
       "alerta_estoque": false
     },
     {
@@ -16706,6 +16706,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 2149,
+      "item_id": 176,
+      "produto_nome": "Dispositivo intravenoso Gelco nº 24",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 15,
+      "responsavel": "Assucena",
+      "data": "2026-09-12",
+      "obs": "",
+      "criado_em": "2026-09-14 11:21:16",
+      "item": "Dispositivo intravenoso Gelco nº 24",
+      "usuario": "Assucena"
+    },
+    {
       "id": 2148,
       "item_id": 177,
       "produto_nome": "Dispositivo intravenoso Gelco nº 22",
@@ -24188,21 +24203,6 @@
       "obs": "",
       "criado_em": "2026-09-08 14:53:20",
       "item": "LORATADINA SUSPENSÃO",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 1649,
-      "item_id": 255,
-      "produto_nome": "Ibuprofeno gotas",
-      "tipo": "Entrada no Almoxarifado",
-      "origem": "Entrada externa",
-      "destino": "Almoxarifado",
-      "quantidade": 32,
-      "responsavel": "Leiliana",
-      "data": "2026-09-04",
-      "obs": "",
-      "criado_em": "2026-09-08 14:52:39",
-      "item": "Ibuprofeno gotas",
       "usuario": "Leiliana"
     }
   ]
