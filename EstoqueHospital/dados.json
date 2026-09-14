@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "14/09/2026 11:44:23",
+  "atualizado_em": "14/09/2026 11:44:58",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 397,
-    "total_almoxarifado": 103602,
-    "total_farmacia": 36519,
+    "total_almoxarifado": 103601,
+    "total_farmacia": 36520,
     "total_geral": 140121,
     "perto_de_terminar": 17,
     "zerados": 9
@@ -9159,8 +9159,8 @@
       "nome": "LIDOCAINA SPAY",
       "tipo": "Medicamento",
       "unidade": "Unidade",
-      "almoxarifado": 1,
-      "farmacia": 0,
+      "almoxarifado": 0,
+      "farmacia": 1,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -9172,12 +9172,12 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-11 11:17:03",
+      "atualizado_em": "2026-09-14 11:44:57",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
         {
-          "local": "almoxarifado",
+          "local": "farmacia",
           "validade": "",
           "lote": "",
           "quantidade": 1
@@ -17549,6 +17549,21 @@
       "usuario": "Assucena"
     },
     {
+      "id": 2205,
+      "item_id": 386,
+      "produto_nome": "LIDOCAINA SPAY",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 1,
+      "responsavel": "Assucena",
+      "data": "2026-09-11",
+      "obs": "",
+      "criado_em": "2026-09-14 11:44:57",
+      "item": "LIDOCAINA SPAY",
+      "usuario": "Assucena"
+    },
+    {
       "id": 2176,
       "item_id": 253,
       "produto_nome": "Azitromicina 600mg suspensão",
@@ -24176,21 +24191,6 @@
       "obs": "",
       "criado_em": "2026-09-08 15:26:43",
       "item": "DIAZEPAN 10MG",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 1705,
-      "item_id": 125,
-      "produto_nome": "Diazepam 5mg CPR",
-      "tipo": "Entrada no Almoxarifado",
-      "origem": "Entrada externa",
-      "destino": "Almoxarifado",
-      "quantidade": 70,
-      "responsavel": "Leiliana",
-      "data": "2026-09-04",
-      "obs": "",
-      "criado_em": "2026-09-08 15:26:20",
-      "item": "Diazepam 5mg CPR",
       "usuario": "Leiliana"
     }
   ]
