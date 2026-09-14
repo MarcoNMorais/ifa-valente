@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "14/09/2026 11:23:29",
+  "atualizado_em": "14/09/2026 11:23:39",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 397,
     "total_almoxarifado": 103611,
-    "total_farmacia": 37351,
-    "total_geral": 140962,
+    "total_farmacia": 37341,
+    "total_geral": 140952,
     "perto_de_terminar": 17,
     "zerados": 9
   },
@@ -11257,19 +11257,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 144,
-      "farmacia": 48,
+      "farmacia": 38,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 192,
+      "total": 182,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-11 11:17:03",
+      "atualizado_em": "2026-09-14 11:23:38",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -11283,7 +11283,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 48
+          "quantidade": 38
         }
       ],
       "minimo_manual": 0,
@@ -11291,9 +11291,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 11,
-      "media_diaria_saida": 0.0,
-      "total_saida_historica": 0,
-      "cobertura_dias": null,
+      "media_diaria_saida": 0.91,
+      "total_saida_historica": 10,
+      "cobertura_dias": 200.2,
       "alerta_estoque": false
     },
     {
@@ -16699,6 +16699,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 2163,
+      "item_id": 393,
+      "produto_nome": "NYLON N°3",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 10,
+      "responsavel": "Assucena",
+      "data": "2026-09-12",
+      "obs": "",
+      "criado_em": "2026-09-14 11:23:38",
+      "item": "NYLON N°3",
+      "usuario": "Assucena"
+    },
     {
       "id": 2162,
       "item_id": 69,
@@ -24182,21 +24197,6 @@
       "obs": "",
       "criado_em": "2026-09-08 14:59:06",
       "item": "AGUA P/ INJ",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 1663,
-      "item_id": 381,
-      "produto_nome": "AGUA OXIGENADA VOL 10",
-      "tipo": "Entrada no Almoxarifado",
-      "origem": "Entrada externa",
-      "destino": "Almoxarifado",
-      "quantidade": 4,
-      "responsavel": "Leiliana",
-      "data": "2026-09-04",
-      "obs": "",
-      "criado_em": "2026-09-08 14:58:47",
-      "item": "AGUA OXIGENADA VOL 10",
       "usuario": "Leiliana"
     }
   ]
