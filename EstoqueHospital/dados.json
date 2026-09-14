@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "14/09/2026 11:22:31",
+  "atualizado_em": "14/09/2026 11:22:38",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 397,
     "total_almoxarifado": 103611,
-    "total_farmacia": 37451,
-    "total_geral": 141062,
+    "total_farmacia": 37441,
+    "total_geral": 141052,
     "perto_de_terminar": 17,
     "zerados": 9
   },
@@ -3325,19 +3325,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 426,
+      "farmacia": 416,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 426,
+      "total": 416,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-14 11:22:30",
+      "atualizado_em": "2026-09-14 11:22:38",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -3345,17 +3345,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 426
+          "quantidade": 416
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 274,
-      "previsao_20_dias": 274,
+      "minimo_alerta": 280,
+      "previsao_20_dias": 280,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 33,
-      "media_diaria_saida": 13.7,
-      "total_saida_historica": 452,
-      "cobertura_dias": 31.1,
+      "media_diaria_saida": 14.0,
+      "total_saida_historica": 462,
+      "cobertura_dias": 29.7,
       "alerta_estoque": false
     },
     {
@@ -16700,6 +16700,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 2157,
+      "item_id": 59,
+      "produto_nome": "Ceftriaxona 1g",
+      "tipo": "Farmácia para Posto de Internamento",
+      "origem": "Farmácia",
+      "destino": "Posto de Internamento",
+      "quantidade": 10,
+      "responsavel": "Assucena",
+      "data": "2026-09-12",
+      "obs": "",
+      "criado_em": "2026-09-14 11:22:38",
+      "item": "Ceftriaxona 1g",
+      "usuario": "Assucena"
+    },
+    {
       "id": 2156,
       "item_id": 59,
       "produto_nome": "Ceftriaxona 1g",
@@ -24182,21 +24197,6 @@
       "obs": "",
       "criado_em": "2026-09-08 14:56:37",
       "item": "OLEO MINERAL",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 1657,
-      "item_id": 250,
-      "produto_nome": "Nistatina suspensão",
-      "tipo": "Entrada no Almoxarifado",
-      "origem": "Entrada externa",
-      "destino": "Almoxarifado",
-      "quantidade": 5,
-      "responsavel": "Leiliana",
-      "data": "2026-09-04",
-      "obs": "",
-      "criado_em": "2026-09-08 14:56:05",
-      "item": "Nistatina suspensão",
       "usuario": "Leiliana"
     }
   ]
