@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "14/09/2026 11:24:24",
+  "atualizado_em": "14/09/2026 11:24:36",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 397,
     "total_almoxarifado": 103611,
-    "total_farmacia": 37281,
-    "total_geral": 140892,
+    "total_farmacia": 37276,
+    "total_geral": 140887,
     "perto_de_terminar": 17,
     "zerados": 9
   },
@@ -15138,19 +15138,19 @@
       "tipo": "Insumo",
       "unidade": "Unidade",
       "almoxarifado": 907,
-      "farmacia": 38,
+      "farmacia": 33,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 945,
+      "total": 940,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-11 11:27:07",
+      "atualizado_em": "2026-09-14 11:24:35",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -15164,17 +15164,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 38
+          "quantidade": 33
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 181,
-      "previsao_20_dias": 181,
+      "minimo_alerta": 184,
+      "previsao_20_dias": 184,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 33,
-      "media_diaria_saida": 9.03,
-      "total_saida_historica": 298,
-      "cobertura_dias": 104.6,
+      "media_diaria_saida": 9.18,
+      "total_saida_historica": 303,
+      "cobertura_dias": 102.4,
       "alerta_estoque": false
     },
     {
@@ -16699,6 +16699,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 2169,
+      "item_id": 204,
+      "produto_nome": "Soro fisiológico 500ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 5,
+      "responsavel": "Assucena",
+      "data": "2026-09-12",
+      "obs": "",
+      "criado_em": "2026-09-14 11:24:35",
+      "item": "Soro fisiológico 500ml",
+      "usuario": "Assucena"
+    },
     {
       "id": 2168,
       "item_id": 203,
@@ -24182,21 +24197,6 @@
       "obs": "",
       "criado_em": "2026-09-08 15:02:00",
       "item": "Clopidogrel 75mg CP",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 1669,
-      "item_id": 55,
-      "produto_nome": "Benzilpenicilina 1.200",
-      "tipo": "Entrada no Almoxarifado",
-      "origem": "Entrada externa",
-      "destino": "Almoxarifado",
-      "quantidade": 320,
-      "responsavel": "Leiliana",
-      "data": "2026-09-04",
-      "obs": "",
-      "criado_em": "2026-09-08 15:01:45",
-      "item": "Benzilpenicilina 1.200",
       "usuario": "Leiliana"
     }
   ]
