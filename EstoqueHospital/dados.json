@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "14/09/2026 11:20:40",
+  "atualizado_em": "14/09/2026 11:20:52",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 397,
     "total_almoxarifado": 103771,
-    "total_farmacia": 37616,
-    "total_geral": 141387,
+    "total_farmacia": 37556,
+    "total_geral": 141327,
     "perto_de_terminar": 17,
     "zerados": 9
   },
@@ -705,19 +705,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 13800,
-      "farmacia": 370,
+      "farmacia": 310,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 14170,
+      "total": 14110,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-11 11:20:54",
+      "atualizado_em": "2026-09-14 11:20:51",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -731,17 +731,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 370
+          "quantidade": 310
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 165,
-      "previsao_20_dias": 165,
+      "minimo_alerta": 208,
+      "previsao_20_dias": 208,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 28,
-      "media_diaria_saida": 8.21,
-      "total_saida_historica": 230,
-      "cobertura_dias": 1725.0,
+      "media_diaria_saida": 10.36,
+      "total_saida_historica": 290,
+      "cobertura_dias": 1362.3,
       "alerta_estoque": false
     },
     {
@@ -16706,6 +16706,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 2147,
+      "item_id": 285,
+      "produto_nome": "Agulha 30x7",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 60,
+      "responsavel": "Assucena",
+      "data": "2026-09-12",
+      "obs": "",
+      "criado_em": "2026-09-14 11:20:51",
+      "item": "Agulha 30x7",
+      "usuario": "Assucena"
+    },
+    {
       "id": 2146,
       "item_id": 390,
       "produto_nome": "AGULHA  40X1,2",
@@ -24188,21 +24203,6 @@
       "obs": "",
       "criado_em": "2026-09-08 14:52:07",
       "item": "Hidróxido de alumínio 60mg/ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 1647,
-      "item_id": 123,
-      "produto_nome": "Furosemida 40mg CPR",
-      "tipo": "Entrada no Almoxarifado",
-      "origem": "Entrada externa",
-      "destino": "Almoxarifado",
-      "quantidade": 120,
-      "responsavel": "Leiliana",
-      "data": "2026-09-04",
-      "obs": "",
-      "criado_em": "2026-09-08 14:51:51",
-      "item": "Furosemida 40mg CPR",
       "usuario": "Leiliana"
     }
   ]
