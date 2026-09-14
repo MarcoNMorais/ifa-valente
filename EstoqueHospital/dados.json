@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "14/09/2026 11:22:14",
+  "atualizado_em": "14/09/2026 11:22:21",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 397,
-    "total_almoxarifado": 103771,
-    "total_farmacia": 37301,
+    "total_almoxarifado": 103611,
+    "total_farmacia": 37461,
     "total_geral": 141072,
     "perto_de_terminar": 17,
     "zerados": 9
@@ -11468,8 +11468,8 @@
       "nome": "Omeprazol sódico 40mg AMP",
       "tipo": "Medicamento",
       "unidade": "Unidade",
-      "almoxarifado": 160,
-      "farmacia": 26,
+      "almoxarifado": 0,
+      "farmacia": 186,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -11481,21 +11481,15 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-14 11:22:13",
+      "atualizado_em": "2026-09-14 11:22:20",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
         {
-          "local": "almoxarifado",
-          "validade": "",
-          "lote": "",
-          "quantidade": 160
-        },
-        {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 26
+          "quantidade": 186
         }
       ],
       "minimo_manual": 0,
@@ -16838,6 +16832,21 @@
       "obs": "",
       "criado_em": "2026-09-14 11:20:39",
       "item": "AGULHA  40X1,2",
+      "usuario": "Assucena"
+    },
+    {
+      "id": 2155,
+      "item_id": 228,
+      "produto_nome": "Omeprazol sódico 40mg AMP",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 160,
+      "responsavel": "Assucena",
+      "data": "2026-09-11",
+      "obs": "",
+      "criado_em": "2026-09-14 11:22:20",
+      "item": "Omeprazol sódico 40mg AMP",
       "usuario": "Assucena"
     },
     {
@@ -24188,21 +24197,6 @@
       "obs": "",
       "criado_em": "2026-09-08 14:55:47",
       "item": "NIMESULIDA COMP",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 1655,
-      "item_id": 134,
-      "produto_nome": "Metformina 500mg CPR",
-      "tipo": "Entrada no Almoxarifado",
-      "origem": "Entrada externa",
-      "destino": "Almoxarifado",
-      "quantidade": 80,
-      "responsavel": "Leiliana",
-      "data": "2026-09-04",
-      "obs": "",
-      "criado_em": "2026-09-08 14:55:06",
-      "item": "Metformina 500mg CPR",
       "usuario": "Leiliana"
     }
   ]
