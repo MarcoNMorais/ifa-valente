@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "14/09/2026 11:43:39",
+  "atualizado_em": "14/09/2026 11:43:48",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 397,
     "total_almoxarifado": 103602,
-    "total_farmacia": 36550,
-    "total_geral": 140152,
+    "total_farmacia": 36549,
+    "total_geral": 140151,
     "perto_de_terminar": 17,
     "zerados": 9
   },
@@ -9120,19 +9120,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 4,
+      "farmacia": 3,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 4,
+      "total": 3,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-14 11:27:37",
+      "atualizado_em": "2026-09-14 11:43:47",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -9140,7 +9140,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 4
+          "quantidade": 3
         }
       ],
       "minimo_manual": 0,
@@ -9148,9 +9148,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 11,
-      "media_diaria_saida": 0.73,
-      "total_saida_historica": 8,
-      "cobertura_dias": 5.5,
+      "media_diaria_saida": 0.82,
+      "total_saida_historica": 9,
+      "cobertura_dias": 3.7,
       "alerta_estoque": false
     },
     {
@@ -16694,6 +16694,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 2200,
+      "item_id": 385,
+      "produto_nome": "LIDOCAINA S/ VASO",
+      "tipo": "Farmácia para SALA DE PARTO",
+      "origem": "Farmácia",
+      "destino": "SALA DE PARTO",
+      "quantidade": 1,
+      "responsavel": "Assucena",
+      "data": "2026-09-14",
+      "obs": "",
+      "criado_em": "2026-09-14 11:43:47",
+      "item": "LIDOCAINA S/ VASO",
+      "usuario": "Assucena"
+    },
+    {
       "id": 2199,
       "item_id": 204,
       "produto_nome": "Soro fisiológico 500ml",
@@ -24176,21 +24191,6 @@
       "obs": "",
       "criado_em": "2026-09-08 15:22:47",
       "item": "Soro glicose 5% 250ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 1700,
-      "item_id": 203,
-      "produto_nome": "Soro fisiológico 250ml",
-      "tipo": "Entrada no Almoxarifado",
-      "origem": "Entrada externa",
-      "destino": "Almoxarifado",
-      "quantidade": 887,
-      "responsavel": "Leiliana",
-      "data": "2026-09-04",
-      "obs": "",
-      "criado_em": "2026-09-08 15:22:28",
-      "item": "Soro fisiológico 250ml",
       "usuario": "Leiliana"
     }
   ]
