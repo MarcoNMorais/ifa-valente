@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "14/09/2026 11:27:09",
+  "atualizado_em": "14/09/2026 11:27:37",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 397,
     "total_almoxarifado": 103602,
-    "total_farmacia": 36843,
-    "total_geral": 140445,
+    "total_farmacia": 36841,
+    "total_geral": 140443,
     "perto_de_terminar": 17,
     "zerados": 9
   },
@@ -9120,19 +9120,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 6,
+      "farmacia": 4,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 6,
+      "total": 4,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-11 11:19:57",
+      "atualizado_em": "2026-09-14 11:27:37",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -9140,7 +9140,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 6
+          "quantidade": 4
         }
       ],
       "minimo_manual": 0,
@@ -9148,9 +9148,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 11,
-      "media_diaria_saida": 0.55,
-      "total_saida_historica": 6,
-      "cobertura_dias": 11.0,
+      "media_diaria_saida": 0.73,
+      "total_saida_historica": 8,
+      "cobertura_dias": 5.5,
       "alerta_estoque": false
     },
     {
@@ -16694,6 +16694,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 2182,
+      "item_id": 385,
+      "produto_nome": "LIDOCAINA S/ VASO",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 2,
+      "responsavel": "Assucena",
+      "data": "2026-09-12",
+      "obs": "",
+      "criado_em": "2026-09-14 11:27:37",
+      "item": "LIDOCAINA S/ VASO",
+      "usuario": "Assucena"
+    },
+    {
       "id": 2181,
       "item_id": 276,
       "produto_nome": "Esparadrapo 10x4,5",
@@ -24176,21 +24191,6 @@
       "obs": "",
       "criado_em": "2026-09-08 15:15:06",
       "item": "Fosfato de Clindamicina 150mg",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 1682,
-      "item_id": 70,
-      "produto_nome": "Dipirona",
-      "tipo": "Entrada no Almoxarifado",
-      "origem": "Entrada externa",
-      "destino": "Almoxarifado",
-      "quantidade": 1600,
-      "responsavel": "Leiliana",
-      "data": "2026-09-04",
-      "obs": "",
-      "criado_em": "2026-09-08 15:14:00",
-      "item": "Dipirona",
       "usuario": "Leiliana"
     }
   ]
