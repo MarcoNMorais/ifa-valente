@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "14/09/2026 11:24:46",
+  "atualizado_em": "14/09/2026 11:24:55",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 397,
     "total_almoxarifado": 103611,
-    "total_farmacia": 37236,
-    "total_geral": 140847,
+    "total_farmacia": 37176,
+    "total_geral": 140787,
     "perto_de_terminar": 17,
     "zerados": 9
   },
@@ -15046,19 +15046,19 @@
       "tipo": "Insumo",
       "unidade": "Unidade",
       "almoxarifado": 120,
-      "farmacia": 120,
+      "farmacia": 60,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 240,
+      "total": 180,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-09-11 11:17:03",
+      "atualizado_em": "2026-09-14 11:24:54",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -15072,17 +15072,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 120
+          "quantidade": 60
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 800,
-      "previsao_20_dias": 800,
+      "minimo_alerta": 837,
+      "previsao_20_dias": 837,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 33,
-      "media_diaria_saida": 40.0,
-      "total_saida_historica": 1320,
-      "cobertura_dias": 6.0,
+      "media_diaria_saida": 41.82,
+      "total_saida_historica": 1380,
+      "cobertura_dias": 4.3,
       "alerta_estoque": true
     },
     {
@@ -16699,6 +16699,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 2171,
+      "item_id": 202,
+      "produto_nome": "Soro fisiológico 100ml",
+      "tipo": "Farmácia para Posto de Internamento",
+      "origem": "Farmácia",
+      "destino": "Posto de Internamento",
+      "quantidade": 60,
+      "responsavel": "Assucena",
+      "data": "2026-09-12",
+      "obs": "",
+      "criado_em": "2026-09-14 11:24:54",
+      "item": "Soro fisiológico 100ml",
+      "usuario": "Assucena"
+    },
     {
       "id": 2170,
       "item_id": 274,
@@ -24182,21 +24197,6 @@
       "obs": "",
       "criado_em": "2026-09-08 15:02:37",
       "item": "Cefalotina 1000mg",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 1671,
-      "item_id": 57,
-      "produto_nome": "Bromoprida 5mg",
-      "tipo": "Entrada no Almoxarifado",
-      "origem": "Entrada externa",
-      "destino": "Almoxarifado",
-      "quantidade": 400,
-      "responsavel": "Leiliana",
-      "data": "2026-09-04",
-      "obs": "",
-      "criado_em": "2026-09-08 15:02:16",
-      "item": "Bromoprida 5mg",
       "usuario": "Leiliana"
     }
   ]
