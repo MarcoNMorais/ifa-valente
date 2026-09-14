@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "14/09/2026 11:44:58",
+  "atualizado_em": "14/09/2026 11:45:05",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 397,
-    "total_almoxarifado": 103601,
-    "total_farmacia": 36520,
+    "total_almoxarifado": 103581,
+    "total_farmacia": 36540,
     "total_geral": 140121,
     "perto_de_terminar": 17,
     "zerados": 9
@@ -9199,8 +9199,8 @@
       "nome": "Lidocaína",
       "tipo": "Medicamento",
       "unidade": "Unidade",
-      "almoxarifado": 20,
-      "farmacia": 47,
+      "almoxarifado": 0,
+      "farmacia": 67,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -9212,7 +9212,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-11 11:17:03",
+      "atualizado_em": "2026-09-14 11:45:04",
       "validade_mais_proxima": "2027-02",
       "vencimento_mais_proximo": "2027-02",
       "lotes_validade": [
@@ -9223,7 +9223,7 @@
           "quantidade": 47
         },
         {
-          "local": "almoxarifado",
+          "local": "farmacia",
           "validade": "",
           "lote": "",
           "quantidade": 20
@@ -17549,6 +17549,21 @@
       "usuario": "Assucena"
     },
     {
+      "id": 2206,
+      "item_id": 84,
+      "produto_nome": "Lidocaína",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 20,
+      "responsavel": "Assucena",
+      "data": "2026-09-11",
+      "obs": "",
+      "criado_em": "2026-09-14 11:45:04",
+      "item": "Lidocaína",
+      "usuario": "Assucena"
+    },
+    {
       "id": 2205,
       "item_id": 386,
       "produto_nome": "LIDOCAINA SPAY",
@@ -24176,21 +24191,6 @@
       "obs": "",
       "criado_em": "2026-09-08 15:26:56",
       "item": "Diazepam 10mg/2ml 2ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 1706,
-      "item_id": 388,
-      "produto_nome": "DIAZEPAN 10MG",
-      "tipo": "Entrada no Almoxarifado",
-      "origem": "Entrada externa",
-      "destino": "Almoxarifado",
-      "quantidade": 80,
-      "responsavel": "Leiliana",
-      "data": "2026-09-04",
-      "obs": "",
-      "criado_em": "2026-09-08 15:26:43",
-      "item": "DIAZEPAN 10MG",
       "usuario": "Leiliana"
     }
   ]
