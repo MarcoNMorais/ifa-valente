@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "14/09/2026 11:44:15",
+  "atualizado_em": "14/09/2026 11:44:23",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 397,
     "total_almoxarifado": 103602,
-    "total_farmacia": 36524,
-    "total_geral": 140126,
+    "total_farmacia": 36519,
+    "total_geral": 140121,
     "perto_de_terminar": 17,
     "zerados": 9
   },
@@ -7075,19 +7075,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 240,
-      "farmacia": 96,
+      "farmacia": 91,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 336,
+      "total": 331,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga Almoxerifado",
       "obs": "Importação Almoxerifado",
-      "atualizado_em": "2026-09-11 11:17:03",
+      "atualizado_em": "2026-09-14 11:44:22",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -7101,17 +7101,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 96
+          "quantidade": 91
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 0,
-      "previsao_20_dias": 0,
+      "minimo_alerta": 4,
+      "previsao_20_dias": 4,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 28,
-      "media_diaria_saida": 0.0,
-      "total_saida_historica": 0,
-      "cobertura_dias": null,
+      "media_diaria_saida": 0.18,
+      "total_saida_historica": 5,
+      "cobertura_dias": 1853.6,
       "alerta_estoque": false
     },
     {
@@ -16694,6 +16694,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 2204,
+      "item_id": 323,
+      "produto_nome": "Fio categute nº 2",
+      "tipo": "Farmácia para SALA DE PARTO",
+      "origem": "Farmácia",
+      "destino": "SALA DE PARTO",
+      "quantidade": 5,
+      "responsavel": "Assucena",
+      "data": "2026-09-14",
+      "obs": "",
+      "criado_em": "2026-09-14 11:44:22",
+      "item": "Fio categute nº 2",
+      "usuario": "Assucena"
+    },
+    {
       "id": 2203,
       "item_id": 344,
       "produto_nome": "ÁGUA  PARA INJETÁVEIS 10ML",
@@ -24176,21 +24191,6 @@
       "obs": "",
       "criado_em": "2026-09-08 15:26:20",
       "item": "Diazepam 5mg CPR",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 1704,
-      "item_id": 82,
-      "produto_nome": "Hidrocortisona",
-      "tipo": "Entrada no Almoxarifado",
-      "origem": "Entrada externa",
-      "destino": "Almoxarifado",
-      "quantidade": 240,
-      "responsavel": "Leiliana",
-      "data": "2026-09-04",
-      "obs": "",
-      "criado_em": "2026-09-08 15:26:02",
-      "item": "Hidrocortisona",
       "usuario": "Leiliana"
     }
   ]
