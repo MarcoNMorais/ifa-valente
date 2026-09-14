@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "14/09/2026 11:44:04",
+  "atualizado_em": "14/09/2026 11:44:15",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 397,
     "total_almoxarifado": 103602,
-    "total_farmacia": 36529,
-    "total_geral": 140131,
+    "total_farmacia": 36524,
+    "total_geral": 140126,
     "perto_de_terminar": 17,
     "zerados": 9
   },
@@ -16412,19 +16412,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 130,
+      "farmacia": 125,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 130,
+      "total": 125,
       "minimo": 100,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-11 11:17:03",
+      "atualizado_em": "2026-09-14 11:44:14",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -16432,17 +16432,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 130
+          "quantidade": 125
         }
       ],
       "minimo_manual": 100,
-      "minimo_alerta": 110,
-      "previsao_20_dias": 110,
+      "minimo_alerta": 115,
+      "previsao_20_dias": 115,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 21,
-      "media_diaria_saida": 5.48,
-      "total_saida_historica": 115,
-      "cobertura_dias": 23.7,
+      "media_diaria_saida": 5.71,
+      "total_saida_historica": 120,
+      "cobertura_dias": 21.9,
       "alerta_estoque": false
     },
     {
@@ -16693,6 +16693,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 2203,
+      "item_id": 344,
+      "produto_nome": "ÁGUA  PARA INJETÁVEIS 10ML",
+      "tipo": "Farmácia para SALA DE PARTO",
+      "origem": "Farmácia",
+      "destino": "SALA DE PARTO",
+      "quantidade": 5,
+      "responsavel": "Assucena",
+      "data": "2026-09-14",
+      "obs": "",
+      "criado_em": "2026-09-14 11:44:14",
+      "item": "ÁGUA  PARA INJETÁVEIS 10ML",
+      "usuario": "Assucena"
+    },
     {
       "id": 2202,
       "item_id": 157,
@@ -24176,21 +24191,6 @@
       "obs": "",
       "criado_em": "2026-09-08 15:26:02",
       "item": "Hidrocortisona",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 1703,
-      "item_id": 387,
-      "produto_nome": "HIDROCORTIZONA",
-      "tipo": "Entrada no Almoxarifado",
-      "origem": "Entrada externa",
-      "destino": "Almoxarifado",
-      "quantidade": 240,
-      "responsavel": "Leiliana",
-      "data": "2026-09-04",
-      "obs": "",
-      "criado_em": "2026-09-08 15:23:51",
-      "item": "HIDROCORTIZONA",
       "usuario": "Leiliana"
     }
   ]
