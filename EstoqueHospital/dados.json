@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "14/09/2026 11:20:52",
+  "atualizado_em": "14/09/2026 11:21:01",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 397,
     "total_almoxarifado": 103771,
-    "total_farmacia": 37556,
-    "total_geral": 141327,
+    "total_farmacia": 37536,
+    "total_geral": 141307,
     "perto_de_terminar": 17,
     "zerados": 9
   },
@@ -5301,19 +5301,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 1240,
-      "farmacia": 188,
+      "farmacia": 168,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1428,
+      "total": 1408,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-11 11:27:46",
+      "atualizado_em": "2026-09-14 11:21:00",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -5327,17 +5327,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 188
+          "quantidade": 168
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 340,
-      "previsao_20_dias": 340,
+      "minimo_alerta": 352,
+      "previsao_20_dias": 352,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 33,
-      "media_diaria_saida": 16.97,
-      "total_saida_historica": 560,
-      "cobertura_dias": 84.2,
+      "media_diaria_saida": 17.58,
+      "total_saida_historica": 580,
+      "cobertura_dias": 80.1,
       "alerta_estoque": false
     },
     {
@@ -16706,6 +16706,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 2148,
+      "item_id": 177,
+      "produto_nome": "Dispositivo intravenoso Gelco nº 22",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 20,
+      "responsavel": "Assucena",
+      "data": "2026-09-12",
+      "obs": "",
+      "criado_em": "2026-09-14 11:21:00",
+      "item": "Dispositivo intravenoso Gelco nº 22",
+      "usuario": "Assucena"
+    },
+    {
       "id": 2147,
       "item_id": 285,
       "produto_nome": "Agulha 30x7",
@@ -24188,21 +24203,6 @@
       "obs": "",
       "criado_em": "2026-09-08 14:52:39",
       "item": "Ibuprofeno gotas",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 1648,
-      "item_id": 245,
-      "produto_nome": "Hidróxido de alumínio 60mg/ml",
-      "tipo": "Entrada no Almoxarifado",
-      "origem": "Entrada externa",
-      "destino": "Almoxarifado",
-      "quantidade": 2,
-      "responsavel": "Leiliana",
-      "data": "2026-09-04",
-      "obs": "",
-      "criado_em": "2026-09-08 14:52:07",
-      "item": "Hidróxido de alumínio 60mg/ml",
       "usuario": "Leiliana"
     }
   ]
