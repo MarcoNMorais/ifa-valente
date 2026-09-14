@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "14/09/2026 11:24:55",
+  "atualizado_em": "14/09/2026 11:25:05",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 397,
     "total_almoxarifado": 103611,
-    "total_farmacia": 37176,
-    "total_geral": 140787,
+    "total_farmacia": 37076,
+    "total_geral": 140687,
     "perto_de_terminar": 17,
     "zerados": 9
   },
@@ -15853,19 +15853,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 20,
-      "farmacia": 317,
+      "farmacia": 217,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 337,
+      "total": 237,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-11 11:28:18",
+      "atualizado_em": "2026-09-14 11:25:04",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -15879,17 +15879,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 317
+          "quantidade": 217
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 457,
-      "previsao_20_dias": 457,
+      "minimo_alerta": 517,
+      "previsao_20_dias": 517,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 33,
-      "media_diaria_saida": 22.82,
-      "total_saida_historica": 753,
-      "cobertura_dias": 14.8,
+      "media_diaria_saida": 25.85,
+      "total_saida_historica": 853,
+      "cobertura_dias": 9.2,
       "alerta_estoque": true
     },
     {
@@ -16699,6 +16699,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 2172,
+      "item_id": 195,
+      "produto_nome": "Tira Reagente G-Tech",
+      "tipo": "Farmácia para Posto de Internamento",
+      "origem": "Farmácia",
+      "destino": "Posto de Internamento",
+      "quantidade": 100,
+      "responsavel": "Assucena",
+      "data": "2026-09-12",
+      "obs": "",
+      "criado_em": "2026-09-14 11:25:04",
+      "item": "Tira Reagente G-Tech",
+      "usuario": "Assucena"
+    },
     {
       "id": 2171,
       "item_id": 202,
@@ -24182,21 +24197,6 @@
       "obs": "",
       "criado_em": "2026-09-08 15:02:51",
       "item": "Ceftriaxona 1g",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 1672,
-      "item_id": 58,
-      "produto_nome": "Cefalotina 1000mg",
-      "tipo": "Entrada no Almoxarifado",
-      "origem": "Entrada externa",
-      "destino": "Almoxarifado",
-      "quantidade": 80,
-      "responsavel": "Leiliana",
-      "data": "2026-09-04",
-      "obs": "",
-      "criado_em": "2026-09-08 15:02:37",
-      "item": "Cefalotina 1000mg",
       "usuario": "Leiliana"
     }
   ]
