@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "15/09/2026 14:41:42",
+  "atualizado_em": "15/09/2026 14:42:23",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 402,
-    "total_almoxarifado": 128657,
-    "total_farmacia": 36273,
+    "total_almoxarifado": 128532,
+    "total_farmacia": 36398,
     "total_geral": 164930,
     "perto_de_terminar": 22,
     "zerados": 9
@@ -11849,8 +11849,8 @@
       "nome": "Oxacilina 500mg pó injetável",
       "tipo": "Medicamento",
       "unidade": "Unidade",
-      "almoxarifado": 125,
-      "farmacia": 135,
+      "almoxarifado": 0,
+      "farmacia": 260,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -11862,7 +11862,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-15 14:41:41",
+      "atualizado_em": "2026-09-15 14:42:22",
       "validade_mais_proxima": "02/28",
       "vencimento_mais_proximo": "02/28",
       "lotes_validade": [
@@ -11873,7 +11873,7 @@
           "quantidade": 135
         },
         {
-          "local": "almoxarifado",
+          "local": "farmacia",
           "validade": "",
           "lote": "",
           "quantidade": 125
@@ -16887,6 +16887,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 2362,
+      "item_id": 229,
+      "produto_nome": "Oxacilina 500mg pó injetável",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 125,
+      "responsavel": "Leiliana",
+      "data": "2026-09-15",
+      "obs": "ajuste de estoque",
+      "criado_em": "2026-09-15 14:42:22",
+      "item": "Oxacilina 500mg pó injetável",
+      "usuario": "Leiliana"
+    },
     {
       "id": 2361,
       "item_id": 229,
@@ -24370,21 +24385,6 @@
       "obs": "",
       "criado_em": "2026-09-08 16:37:06",
       "item": "Fio agulhado / sutura nº 3",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 1862,
-      "item_id": 59,
-      "produto_nome": "Ceftriaxona 1g",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 5,
-      "responsavel": "Leiliana",
-      "data": "2026-09-04",
-      "obs": "",
-      "criado_em": "2026-09-08 16:36:43",
-      "item": "Ceftriaxona 1g",
       "usuario": "Leiliana"
     }
   ]
