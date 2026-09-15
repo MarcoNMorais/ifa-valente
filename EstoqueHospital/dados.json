@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "15/09/2026 15:14:50",
+  "atualizado_em": "15/09/2026 15:14:58",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
-    "total_almoxarifado": 128542,
-    "total_farmacia": 34445,
+    "total_almoxarifado": 128532,
+    "total_farmacia": 34455,
     "total_geral": 162987,
     "perto_de_terminar": 23,
     "zerados": 8
@@ -2993,8 +2993,8 @@
       "nome": "Caixa de perfurocortante",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 10,
-      "farmacia": 0,
+      "almoxarifado": 0,
+      "farmacia": 10,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -3006,12 +3006,12 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-15 15:14:49",
+      "atualizado_em": "2026-09-15 15:14:57",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
         {
-          "local": "almoxarifado",
+          "local": "farmacia",
           "validade": "",
           "lote": "",
           "quantidade": 10
@@ -16935,6 +16935,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 2434,
+      "item_id": 200,
+      "produto_nome": "Caixa de perfurocortante",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 10,
+      "responsavel": "Leiliana",
+      "data": "2026-09-15",
+      "obs": "",
+      "criado_em": "2026-09-15 15:14:57",
+      "item": "Caixa de perfurocortante",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 2433,
       "item_id": 200,
       "produto_nome": "Caixa de perfurocortante",
@@ -24417,21 +24432,6 @@
       "obs": "",
       "criado_em": "2026-09-08 16:54:16",
       "item": "Luva de vinil P",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 1934,
-      "item_id": 101,
-      "produto_nome": "Acesso Central",
-      "tipo": "Almoxarifado para Farmácia",
-      "origem": "Almoxarifado",
-      "destino": "Farmácia",
-      "quantidade": 12,
-      "responsavel": "Leiliana",
-      "data": "2026-09-04",
-      "obs": "",
-      "criado_em": "2026-09-08 16:53:44",
-      "item": "Acesso Central",
       "usuario": "Leiliana"
     }
   ]
