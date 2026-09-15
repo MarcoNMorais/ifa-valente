@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "15/09/2026 15:15:11",
+  "atualizado_em": "15/09/2026 15:15:27",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 128532,
-    "total_farmacia": 34454,
-    "total_geral": 162986,
+    "total_farmacia": 34434,
+    "total_geral": 162966,
     "perto_de_terminar": 23,
     "zerados": 8
   },
@@ -7436,19 +7436,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 160,
-      "farmacia": 110,
+      "farmacia": 90,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 270,
+      "total": 250,
       "minimo": 0,
       "validade": "2027-08",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-11 11:17:03",
+      "atualizado_em": "2026-09-15 15:15:26",
       "validade_mais_proxima": "2027-08",
       "vencimento_mais_proximo": "2027-08",
       "lotes_validade": [
@@ -7456,13 +7456,7 @@
           "local": "farmacia",
           "validade": "2027-08",
           "lote": "",
-          "quantidade": 100
-        },
-        {
-          "local": "farmacia",
-          "validade": "2028-03",
-          "lote": "",
-          "quantidade": 10
+          "quantidade": 90
         },
         {
           "local": "almoxarifado",
@@ -7472,13 +7466,13 @@
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 53,
-      "previsao_20_dias": 53,
+      "minimo_alerta": 65,
+      "previsao_20_dias": 65,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 34,
-      "media_diaria_saida": 2.65,
-      "total_saida_historica": 90,
-      "cobertura_dias": 102.0,
+      "media_diaria_saida": 3.24,
+      "total_saida_historica": 110,
+      "cobertura_dias": 77.3,
       "alerta_estoque": false
     },
     {
@@ -16935,6 +16929,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 2436,
+      "item_id": 64,
+      "produto_nome": "Fosfato de Clindamicina 150mg",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 20,
+      "responsavel": "Leiliana",
+      "data": "2026-09-15",
+      "obs": "",
+      "criado_em": "2026-09-15 15:15:26",
+      "item": "Fosfato de Clindamicina 150mg",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 2435,
       "item_id": 200,
       "produto_nome": "Caixa de perfurocortante",
@@ -24417,21 +24426,6 @@
       "obs": "",
       "criado_em": "2026-09-08 16:55:15",
       "item": "Esparadrapo 10x4,5",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 1936,
-      "item_id": 278,
-      "produto_nome": "Luva de vinil P",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 100,
-      "responsavel": "Leiliana",
-      "data": "2026-09-04",
-      "obs": "",
-      "criado_em": "2026-09-08 16:55:04",
-      "item": "Luva de vinil P",
       "usuario": "Leiliana"
     }
   ]
