@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "15/09/2026 10:48:00",
+  "atualizado_em": "15/09/2026 10:48:19",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 397,
-    "total_almoxarifado": 102282,
-    "total_farmacia": 36237,
+    "total_almoxarifado": 102232,
+    "total_farmacia": 36287,
     "total_geral": 138519,
     "perto_de_terminar": 21,
     "zerados": 9
@@ -8370,8 +8370,8 @@
       "nome": "HIDROCORTIZONA 500MG",
       "tipo": "Medicamento",
       "unidade": "Unidade",
-      "almoxarifado": 50,
-      "farmacia": 218,
+      "almoxarifado": 0,
+      "farmacia": 268,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -8383,21 +8383,15 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-15 10:47:59",
+      "atualizado_em": "2026-09-15 10:48:18",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
         {
-          "local": "almoxarifado",
-          "validade": "",
-          "lote": "",
-          "quantidade": 50
-        },
-        {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 218
+          "quantidade": 268
         }
       ],
       "minimo_manual": 0,
@@ -17309,6 +17303,21 @@
       "usuario": "Assucena"
     },
     {
+      "id": 2304,
+      "item_id": 387,
+      "produto_nome": "HIDROCORTIZONA 500MG",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 50,
+      "responsavel": "Assucena",
+      "data": "2026-09-14",
+      "obs": "ajuste de estoque ",
+      "criado_em": "2026-09-15 10:48:18",
+      "item": "HIDROCORTIZONA 500MG",
+      "usuario": "Assucena"
+    },
+    {
       "id": 2303,
       "item_id": 387,
       "produto_nome": "HIDROCORTIZONA 500MG",
@@ -24176,21 +24185,6 @@
       "obs": "",
       "criado_em": "2026-09-08 16:07:22",
       "item": "OLEO MINERAL",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 1804,
-      "item_id": 241,
-      "produto_nome": "Lactulose solução",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 1,
-      "responsavel": "Leiliana",
-      "data": "2026-09-04",
-      "obs": "",
-      "criado_em": "2026-09-08 16:07:02",
-      "item": "Lactulose solução",
       "usuario": "Leiliana"
     }
   ]
