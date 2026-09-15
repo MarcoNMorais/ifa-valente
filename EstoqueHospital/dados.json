@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "15/09/2026 10:00:03",
+  "atualizado_em": "15/09/2026 10:00:14",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 397,
     "total_almoxarifado": 102822,
-    "total_farmacia": 36578,
-    "total_geral": 139400,
+    "total_farmacia": 36577,
+    "total_geral": 139399,
     "perto_de_terminar": 17,
     "zerados": 9
   },
@@ -9344,19 +9344,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 8,
+      "farmacia": 7,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 8,
+      "total": 7,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-15 10:00:02",
+      "atualizado_em": "2026-09-15 10:00:08",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -9364,7 +9364,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 8
+          "quantidade": 7
         }
       ],
       "minimo_manual": 0,
@@ -9372,9 +9372,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 0.08,
-      "total_saida_historica": 1,
-      "cobertura_dias": 96.0,
+      "media_diaria_saida": 0.17,
+      "total_saida_historica": 2,
+      "cobertura_dias": 42.0,
       "alerta_estoque": false
     },
     {
@@ -16693,6 +16693,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 2251,
+      "item_id": 377,
+      "produto_nome": "LORATADINA SUSPENSÃO",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 1,
+      "responsavel": "Assucena",
+      "data": "2026-09-14",
+      "obs": "",
+      "criado_em": "2026-09-15 10:00:08",
+      "item": "LORATADINA SUSPENSÃO",
+      "usuario": "Assucena"
+    },
     {
       "id": 2250,
       "item_id": 377,
@@ -24176,21 +24191,6 @@
       "obs": "",
       "criado_em": "2026-09-08 15:48:27",
       "item": "Scalp nº 21",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 1751,
-      "item_id": 373,
-      "produto_nome": "ESPECULO TAM M",
-      "tipo": "Entrada no Almoxarifado",
-      "origem": "Entrada externa",
-      "destino": "Almoxarifado",
-      "quantidade": 200,
-      "responsavel": "Leiliana",
-      "data": "2026-09-04",
-      "obs": "",
-      "criado_em": "2026-09-08 15:46:36",
-      "item": "ESPECULO TAM M",
       "usuario": "Leiliana"
     }
   ]
