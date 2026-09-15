@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "15/09/2026 15:00:30",
+  "atualizado_em": "15/09/2026 15:00:41",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 128532,
-    "total_farmacia": 35315,
-    "total_geral": 163847,
+    "total_farmacia": 35300,
+    "total_geral": 163832,
     "perto_de_terminar": 24,
     "zerados": 9
   },
@@ -441,19 +441,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 275,
+      "farmacia": 260,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 275,
+      "total": 260,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-11 11:17:03",
+      "atualizado_em": "2026-09-15 15:00:40",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -461,7 +461,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 275
+          "quantidade": 260
         }
       ],
       "minimo_manual": 0,
@@ -469,9 +469,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 3.75,
-      "total_saida_historica": 45,
-      "cobertura_dias": 73.3,
+      "media_diaria_saida": 5.0,
+      "total_saida_historica": 60,
+      "cobertura_dias": 52.0,
       "alerta_estoque": false
     },
     {
@@ -16934,6 +16934,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 2394,
+      "item_id": 382,
+      "produto_nome": "AGUA P/ INJ",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 15,
+      "responsavel": "Leiliana",
+      "data": "2026-09-15",
+      "obs": "",
+      "criado_em": "2026-09-15 15:00:40",
+      "item": "AGUA P/ INJ",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 2393,
       "item_id": 319,
       "produto_nome": "Agulha 25x7",
@@ -24416,21 +24431,6 @@
       "obs": "",
       "criado_em": "2026-09-08 16:43:23",
       "item": "Bromoprida 5mg",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 1894,
-      "item_id": 230,
-      "produto_nome": "Ferropurum 20mg/ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 3,
-      "responsavel": "Leiliana",
-      "data": "2026-09-04",
-      "obs": "",
-      "criado_em": "2026-09-08 16:43:14",
-      "item": "Ferropurum 20mg/ml",
       "usuario": "Leiliana"
     }
   ]
