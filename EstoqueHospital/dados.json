@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "15/09/2026 09:54:26",
+  "atualizado_em": "15/09/2026 09:54:35",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 397,
     "total_almoxarifado": 102831,
-    "total_farmacia": 37270,
-    "total_geral": 140101,
+    "total_farmacia": 37220,
+    "total_geral": 140051,
     "perto_de_terminar": 17,
     "zerados": 9
   },
@@ -705,19 +705,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 13800,
-      "farmacia": 310,
+      "farmacia": 260,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 14110,
+      "total": 14060,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-14 11:20:51",
+      "atualizado_em": "2026-09-15 09:54:35",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -731,17 +731,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 310
+          "quantidade": 260
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 200,
-      "previsao_20_dias": 200,
+      "minimo_alerta": 235,
+      "previsao_20_dias": 235,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 29,
-      "media_diaria_saida": 10.0,
-      "total_saida_historica": 290,
-      "cobertura_dias": 1411.0,
+      "media_diaria_saida": 11.72,
+      "total_saida_historica": 340,
+      "cobertura_dias": 1199.2,
       "alerta_estoque": false
     },
     {
@@ -16694,6 +16694,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 2217,
+      "item_id": 285,
+      "produto_nome": "Agulha 30x7",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 50,
+      "responsavel": "Assucena",
+      "data": "2026-09-14",
+      "obs": "",
+      "criado_em": "2026-09-15 09:54:35",
+      "item": "Agulha 30x7",
+      "usuario": "Assucena"
+    },
+    {
       "id": 2216,
       "item_id": 203,
       "produto_nome": "Soro fisiológico 250ml",
@@ -24176,21 +24191,6 @@
       "obs": "",
       "criado_em": "2026-09-08 15:33:04",
       "item": "Atadura crepon nº 10",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 1717,
-      "item_id": 391,
-      "produto_nome": "ATADURA ALGODÃO 20CM",
-      "tipo": "Entrada no Almoxarifado",
-      "origem": "Entrada externa",
-      "destino": "Almoxarifado",
-      "quantidade": 60,
-      "responsavel": "Leiliana",
-      "data": "2026-09-04",
-      "obs": "",
-      "criado_em": "2026-09-08 15:32:35",
-      "item": "ATADURA ALGODÃO 20CM",
       "usuario": "Leiliana"
     }
   ]
