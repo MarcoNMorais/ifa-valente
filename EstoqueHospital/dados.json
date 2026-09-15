@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "15/09/2026 16:26:29",
+  "atualizado_em": "15/09/2026 16:26:40",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 128532,
-    "total_farmacia": 34198,
-    "total_geral": 162730,
+    "total_farmacia": 34186,
+    "total_geral": 162718,
     "perto_de_terminar": 23,
     "zerados": 8
   },
@@ -3412,19 +3412,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 339,
+      "farmacia": 327,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 339,
+      "total": 327,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-15 16:24:57",
+      "atualizado_em": "2026-09-15 16:26:39",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -3432,17 +3432,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 339
+          "quantidade": 327
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 230,
-      "previsao_20_dias": 230,
+      "minimo_alerta": 238,
+      "previsao_20_dias": 238,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 34,
-      "media_diaria_saida": 11.5,
-      "total_saida_historica": 391,
-      "cobertura_dias": 29.5,
+      "media_diaria_saida": 11.85,
+      "total_saida_historica": 403,
+      "cobertura_dias": 27.6,
       "alerta_estoque": false
     },
     {
@@ -16929,6 +16929,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 2454,
+      "item_id": 60,
+      "produto_nome": "Cetoprofeno EV 100mg",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 12,
+      "responsavel": "Leiliana",
+      "data": "2026-09-15",
+      "obs": "",
+      "criado_em": "2026-09-15 16:26:39",
+      "item": "Cetoprofeno EV 100mg",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 2453,
       "item_id": 56,
       "produto_nome": "Benzilpenicilina 600 UI",
@@ -24411,21 +24426,6 @@
       "obs": "",
       "criado_em": "2026-09-09 11:11:38",
       "item": "Dexametasona",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1954,
-      "item_id": 195,
-      "produto_nome": "Tira Reagente G-Tech",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 50,
-      "responsavel": "Assucena",
-      "data": "2026-09-08",
-      "obs": "",
-      "criado_em": "2026-09-09 11:11:23",
-      "item": "Tira Reagente G-Tech",
       "usuario": "Assucena"
     }
   ]
