@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "15/09/2026 10:03:18",
+  "atualizado_em": "15/09/2026 10:03:37",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 397,
-    "total_almoxarifado": 102662,
-    "total_farmacia": 36493,
+    "total_almoxarifado": 102622,
+    "total_farmacia": 36533,
     "total_geral": 139155,
     "perto_de_terminar": 18,
     "zerados": 9
@@ -1361,8 +1361,8 @@
       "nome": "Amiodarona 50mg",
       "tipo": "Medicamento",
       "unidade": "Unidade",
-      "almoxarifado": 40,
-      "farmacia": 0,
+      "almoxarifado": 0,
+      "farmacia": 40,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -1374,12 +1374,12 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-11 11:17:03",
+      "atualizado_em": "2026-09-15 10:03:36",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
         {
-          "local": "almoxarifado",
+          "local": "farmacia",
           "validade": "",
           "lote": "",
           "quantidade": 40
@@ -16874,6 +16874,21 @@
       "usuario": "Assucena"
     },
     {
+      "id": 2269,
+      "item_id": 50,
+      "produto_nome": "Amiodarona 50mg",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 40,
+      "responsavel": "Assucena",
+      "data": "2026-09-14",
+      "obs": "",
+      "criado_em": "2026-09-15 10:03:36",
+      "item": "Amiodarona 50mg",
+      "usuario": "Assucena"
+    },
+    {
       "id": 2259,
       "item_id": 62,
       "produto_nome": "Cimetidina 150mg",
@@ -24165,21 +24180,6 @@
     },
     {
       "id": 1770,
-      "item_id": 257,
-      "produto_nome": "Brometo de ipratrópio gotas",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 1,
-      "responsavel": "Leiliana",
-      "data": "2026-09-04",
-      "obs": "",
-      "criado_em": "2026-09-08 15:53:37",
-      "item": "Brometo de ipratrópio gotas",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 1769,
       "item_id": 257,
       "produto_nome": "Brometo de ipratrópio gotas",
       "tipo": "Farmácia para Sala de Medicações",
