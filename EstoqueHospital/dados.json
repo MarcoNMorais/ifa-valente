@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "15/09/2026 10:01:47",
+  "atualizado_em": "15/09/2026 10:01:53",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 397,
-    "total_almoxarifado": 102822,
-    "total_farmacia": 36490,
+    "total_almoxarifado": 102662,
+    "total_farmacia": 36650,
     "total_geral": 139312,
     "perto_de_terminar": 17,
     "zerados": 9
@@ -3524,8 +3524,8 @@
       "nome": "Cimetidina 150mg",
       "tipo": "Medicamento",
       "unidade": "Unidade",
-      "almoxarifado": 160,
-      "farmacia": 6,
+      "almoxarifado": 0,
+      "farmacia": 166,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -3537,7 +3537,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-15 10:01:46",
+      "atualizado_em": "2026-09-15 10:01:52",
       "validade_mais_proxima": "2027-06",
       "vencimento_mais_proximo": "2027-06",
       "lotes_validade": [
@@ -3548,7 +3548,7 @@
           "quantidade": 6
         },
         {
-          "local": "almoxarifado",
+          "local": "farmacia",
           "validade": "",
           "lote": "",
           "quantidade": 160
@@ -16739,6 +16739,21 @@
       "usuario": "Assucena"
     },
     {
+      "id": 2259,
+      "item_id": 62,
+      "produto_nome": "Cimetidina 150mg",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 160,
+      "responsavel": "Assucena",
+      "data": "2026-09-14",
+      "obs": "",
+      "criado_em": "2026-09-15 10:01:52",
+      "item": "Cimetidina 150mg",
+      "usuario": "Assucena"
+    },
+    {
       "id": 2255,
       "item_id": 248,
       "produto_nome": "Acetilcisteína 2mg/ml",
@@ -24175,21 +24190,6 @@
       "data": "2026-09-04",
       "obs": "",
       "criado_em": "2026-09-08 15:51:21",
-      "item": "Ondansetrona 2mg/ml 2ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 1759,
-      "item_id": 238,
-      "produto_nome": "Ondansetrona 2mg/ml 2ml",
-      "tipo": "Almoxarifado para Farmácia",
-      "origem": "Almoxarifado",
-      "destino": "Farmácia",
-      "quantidade": 560,
-      "responsavel": "Leiliana",
-      "data": "2026-09-04",
-      "obs": "",
-      "criado_em": "2026-09-08 15:51:03",
       "item": "Ondansetrona 2mg/ml 2ml",
       "usuario": "Leiliana"
     }
