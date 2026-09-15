@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "15/09/2026 09:59:06",
+  "atualizado_em": "15/09/2026 09:59:13",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 397,
     "total_almoxarifado": 102831,
-    "total_farmacia": 36595,
-    "total_geral": 139426,
+    "total_farmacia": 36589,
+    "total_geral": 139420,
     "perto_de_terminar": 17,
     "zerados": 9
   },
@@ -3325,19 +3325,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 416,
+      "farmacia": 410,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 416,
+      "total": 410,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-14 11:22:38",
+      "atualizado_em": "2026-09-15 09:59:12",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -3345,17 +3345,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 416
+          "quantidade": 410
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 272,
-      "previsao_20_dias": 272,
+      "minimo_alerta": 276,
+      "previsao_20_dias": 276,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 34,
-      "media_diaria_saida": 13.59,
-      "total_saida_historica": 462,
-      "cobertura_dias": 30.6,
+      "media_diaria_saida": 13.76,
+      "total_saida_historica": 468,
+      "cobertura_dias": 29.8,
       "alerta_estoque": false
     },
     {
@@ -16694,6 +16694,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 2246,
+      "item_id": 59,
+      "produto_nome": "Ceftriaxona 1g",
+      "tipo": "Farmácia para Posto de Internamento",
+      "origem": "Farmácia",
+      "destino": "Posto de Internamento",
+      "quantidade": 6,
+      "responsavel": "Assucena",
+      "data": "2026-09-14",
+      "obs": "",
+      "criado_em": "2026-09-15 09:59:12",
+      "item": "Ceftriaxona 1g",
+      "usuario": "Assucena"
+    },
+    {
       "id": 2245,
       "item_id": 157,
       "produto_nome": "Seringa 1ml",
@@ -24176,21 +24191,6 @@
       "obs": "",
       "criado_em": "2026-09-08 15:44:11",
       "item": "Acesso Central",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 1746,
-      "item_id": 195,
-      "produto_nome": "Tira Reagente G-Tech",
-      "tipo": "Entrada no Almoxarifado",
-      "origem": "Entrada externa",
-      "destino": "Almoxarifado",
-      "quantidade": 40,
-      "responsavel": "Leiliana",
-      "data": "2026-09-04",
-      "obs": "",
-      "criado_em": "2026-09-08 15:43:36",
-      "item": "Tira Reagente G-Tech",
       "usuario": "Leiliana"
     }
   ]
