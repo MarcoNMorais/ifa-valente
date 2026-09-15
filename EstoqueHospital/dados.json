@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "15/09/2026 10:05:47",
+  "atualizado_em": "15/09/2026 10:05:57",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 397,
     "total_almoxarifado": 102622,
-    "total_farmacia": 36363,
-    "total_geral": 138985,
+    "total_farmacia": 36313,
+    "total_geral": 138935,
     "perto_de_terminar": 19,
     "zerados": 9
   },
@@ -481,19 +481,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 3200,
-      "farmacia": 395,
+      "farmacia": 345,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 3595,
+      "total": 3545,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-14 11:43:32",
+      "atualizado_em": "2026-09-15 10:05:56",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -507,7 +507,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 395
+          "quantidade": 345
         }
       ],
       "minimo_manual": 0,
@@ -515,9 +515,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 33.75,
-      "total_saida_historica": 405,
-      "cobertura_dias": 106.5,
+      "media_diaria_saida": 37.92,
+      "total_saida_historica": 455,
+      "cobertura_dias": 93.5,
       "alerta_estoque": false
     },
     {
@@ -16694,6 +16694,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 2277,
+      "item_id": 390,
+      "produto_nome": "AGULHA  40X1,2",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 50,
+      "responsavel": "Assucena",
+      "data": "2026-09-15",
+      "obs": "",
+      "criado_em": "2026-09-15 10:05:56",
+      "item": "AGULHA  40X1,2",
+      "usuario": "Assucena"
+    },
+    {
       "id": 2276,
       "item_id": 194,
       "produto_nome": "Lanceta de segurança",
@@ -24176,21 +24191,6 @@
       "obs": "",
       "criado_em": "2026-09-08 15:56:20",
       "item": "Soro Ringer Lactato 500ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 1777,
-      "item_id": 376,
-      "produto_nome": "LENÇOL DESCARTAVEL PAPEL",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 2,
-      "responsavel": "Leiliana",
-      "data": "2026-09-04",
-      "obs": "",
-      "criado_em": "2026-09-08 15:56:07",
-      "item": "LENÇOL DESCARTAVEL PAPEL",
       "usuario": "Leiliana"
     }
   ]
