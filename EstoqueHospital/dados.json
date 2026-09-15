@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "15/09/2026 11:03:40",
+  "atualizado_em": "15/09/2026 11:03:46",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 397,
-    "total_almoxarifado": 113644,
+    "total_almoxarifado": 113884,
     "total_farmacia": 36203,
-    "total_geral": 149847,
+    "total_geral": 150087,
     "perto_de_terminar": 22,
     "zerados": 9
   },
@@ -7710,20 +7710,20 @@
       "nome": "Gelco nº 22",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 1240,
+      "almoxarifado": 1480,
       "farmacia": 138,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1378,
+      "total": 1618,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-15 10:05:05",
+      "atualizado_em": "2026-09-15 11:03:45",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -7731,7 +7731,7 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 1240
+          "quantidade": 1480
         },
         {
           "local": "farmacia",
@@ -7747,7 +7747,7 @@
       "dias_historico": 34,
       "media_diaria_saida": 17.94,
       "total_saida_historica": 610,
-      "cobertura_dias": 76.8,
+      "cobertura_dias": 90.2,
       "alerta_estoque": false
     },
     {
@@ -17312,6 +17312,21 @@
       "usuario": "Assucena"
     },
     {
+      "id": 2324,
+      "item_id": 177,
+      "produto_nome": "Gelco nº 22",
+      "tipo": "Entrada no Almoxarifado",
+      "origem": "Entrada externa",
+      "destino": "Almoxarifado",
+      "quantidade": 240,
+      "responsavel": "Assucena",
+      "data": "2026-09-14",
+      "obs": "",
+      "criado_em": "2026-09-15 11:03:45",
+      "item": "Gelco nº 22",
+      "usuario": "Assucena"
+    },
+    {
       "id": 2323,
       "item_id": 175,
       "produto_nome": "Fita cirúrgica microporosa",
@@ -24164,21 +24179,6 @@
       "obs": "",
       "criado_em": "2026-09-08 16:26:00",
       "item": "Agulha 40x12",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 1824,
-      "item_id": 55,
-      "produto_nome": "Benzilpenicilina 1.200",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 5,
-      "responsavel": "Leiliana",
-      "data": "2026-09-04",
-      "obs": "",
-      "criado_em": "2026-09-08 16:25:27",
-      "item": "Benzilpenicilina 1.200",
       "usuario": "Leiliana"
     }
   ]
