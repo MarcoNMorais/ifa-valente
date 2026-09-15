@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "15/09/2026 11:21:47",
+  "atualizado_em": "15/09/2026 11:39:54",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 402,
-    "total_almoxarifado": 128665,
-    "total_farmacia": 36253,
+    "total_almoxarifado": 128662,
+    "total_farmacia": 36256,
     "total_geral": 164918,
     "perto_de_terminar": 22,
     "zerados": 9
@@ -3026,8 +3026,8 @@
       "nome": "Campo operatório",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 80,
-      "farmacia": 0,
+      "almoxarifado": 77,
+      "farmacia": 3,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -3039,7 +3039,7 @@
       "lote": "",
       "origem": "Carga Almoxerifado",
       "obs": "Importação Almoxerifado",
-      "atualizado_em": "2026-09-11 11:17:03",
+      "atualizado_em": "2026-09-15 11:39:53",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -3047,7 +3047,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 80
+          "quantidade": 77
+        },
+        {
+          "local": "farmacia",
+          "validade": "",
+          "lote": "",
+          "quantidade": 3
         }
       ],
       "minimo_manual": 0,
@@ -17533,6 +17539,21 @@
       "usuario": "Assucena"
     },
     {
+      "id": 2352,
+      "item_id": 309,
+      "produto_nome": "Campo operatório",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 3,
+      "responsavel": "Assucena",
+      "data": "2026-09-14",
+      "obs": "",
+      "criado_em": "2026-09-15 11:39:53",
+      "item": "Campo operatório",
+      "usuario": "Assucena"
+    },
+    {
       "id": 2351,
       "item_id": 73,
       "produto_nome": "Epinefrina 1mg",
@@ -24370,21 +24391,6 @@
       "obs": "",
       "criado_em": "2026-09-08 16:34:23",
       "item": "Cateter tipo óculos adulto",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 1852,
-      "item_id": 175,
-      "produto_nome": "Fita cirúrgica microporosa",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 1,
-      "responsavel": "Leiliana",
-      "data": "2026-09-04",
-      "obs": "",
-      "criado_em": "2026-09-08 16:34:07",
-      "item": "Fita cirúrgica microporosa",
       "usuario": "Leiliana"
     }
   ]
