@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "15/09/2026 15:17:02",
+  "atualizado_em": "15/09/2026 15:17:12",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 128532,
-    "total_farmacia": 34316,
-    "total_geral": 162848,
+    "total_farmacia": 34315,
+    "total_geral": 162847,
     "perto_de_terminar": 23,
     "zerados": 8
   },
@@ -3738,19 +3738,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 10,
+      "farmacia": 9,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 10,
+      "total": 9,
       "minimo": 0,
       "validade": "2028-01",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-09-11 11:17:03",
+      "atualizado_em": "2026-09-15 15:17:12",
       "validade_mais_proxima": "2028-01",
       "vencimento_mais_proximo": "2028-01",
       "lotes_validade": [
@@ -3758,7 +3758,7 @@
           "local": "farmacia",
           "validade": "2028-01",
           "lote": "",
-          "quantidade": 10
+          "quantidade": 9
         }
       ],
       "minimo_manual": 0,
@@ -3766,9 +3766,9 @@
       "previsao_20_dias": 3,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 34,
-      "media_diaria_saida": 0.12,
-      "total_saida_historica": 4,
-      "cobertura_dias": 85.0,
+      "media_diaria_saida": 0.15,
+      "total_saida_historica": 5,
+      "cobertura_dias": 61.2,
       "alerta_estoque": false
     },
     {
@@ -16929,6 +16929,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 2445,
+      "item_id": 21,
+      "produto_nome": "Clonazepam gotas 25mg/ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 1,
+      "responsavel": "Leiliana",
+      "data": "2026-09-15",
+      "obs": "",
+      "criado_em": "2026-09-15 15:17:12",
+      "item": "Clonazepam gotas 25mg/ml",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 2444,
       "item_id": 256,
       "produto_nome": "Simeticona gotas",
@@ -24411,21 +24426,6 @@
       "obs": "",
       "criado_em": "2026-09-09 10:47:31",
       "item": "Fio Nylon nº 2",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1945,
-      "item_id": 393,
-      "produto_nome": "NYLON N°3",
-      "tipo": "Almoxarifado para Farmácia",
-      "origem": "Almoxarifado",
-      "destino": "Farmácia",
-      "quantidade": 48,
-      "responsavel": "Assucena",
-      "data": "2026-09-08",
-      "obs": "",
-      "criado_em": "2026-09-09 10:47:16",
-      "item": "NYLON N°3",
       "usuario": "Assucena"
     }
   ]
