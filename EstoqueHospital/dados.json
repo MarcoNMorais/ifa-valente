@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "15/09/2026 11:21:32",
+  "atualizado_em": "15/09/2026 11:21:47",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 402,
-    "total_almoxarifado": 128730,
-    "total_farmacia": 36188,
+    "total_almoxarifado": 128665,
+    "total_farmacia": 36253,
     "total_geral": 164918,
     "perto_de_terminar": 22,
     "zerados": 9
@@ -5540,8 +5540,8 @@
       "nome": "Epinefrina 1mg",
       "tipo": "Medicamento",
       "unidade": "Unidade",
-      "almoxarifado": 65,
-      "farmacia": 60,
+      "almoxarifado": 0,
+      "farmacia": 125,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -5553,21 +5553,15 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-15 11:21:32",
+      "atualizado_em": "2026-09-15 11:21:46",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
         {
-          "local": "almoxarifado",
-          "validade": "",
-          "lote": "",
-          "quantidade": 65
-        },
-        {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 60
+          "quantidade": 125
         }
       ],
       "minimo_manual": 0,
@@ -17539,6 +17533,21 @@
       "usuario": "Assucena"
     },
     {
+      "id": 2351,
+      "item_id": 73,
+      "produto_nome": "Epinefrina 1mg",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 65,
+      "responsavel": "Assucena",
+      "data": "2026-09-14",
+      "obs": "AJUSTE DE ESTPOQUE",
+      "criado_em": "2026-09-15 11:21:46",
+      "item": "Epinefrina 1mg",
+      "usuario": "Assucena"
+    },
+    {
       "id": 2350,
       "item_id": 73,
       "produto_nome": "Epinefrina 1mg",
@@ -24376,21 +24385,6 @@
       "obs": "",
       "criado_em": "2026-09-08 16:34:07",
       "item": "Fita cirúrgica microporosa",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 1851,
-      "item_id": 70,
-      "produto_nome": "Dipirona",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 20,
-      "responsavel": "Leiliana",
-      "data": "2026-09-04",
-      "obs": "",
-      "criado_em": "2026-09-08 16:33:56",
-      "item": "Dipirona",
       "usuario": "Leiliana"
     }
   ]
