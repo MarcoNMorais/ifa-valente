@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "15/09/2026 09:59:42",
+  "atualizado_em": "15/09/2026 09:59:58",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 397,
-    "total_almoxarifado": 102831,
-    "total_farmacia": 36570,
+    "total_almoxarifado": 102822,
+    "total_farmacia": 36579,
     "total_geral": 139401,
     "perto_de_terminar": 17,
     "zerados": 9
@@ -9343,8 +9343,8 @@
       "nome": "LORATADINA SUSPENSÃO",
       "tipo": "Medicamento",
       "unidade": "Unidade",
-      "almoxarifado": 9,
-      "farmacia": 0,
+      "almoxarifado": 0,
+      "farmacia": 9,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -9356,12 +9356,12 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-11 11:17:03",
+      "atualizado_em": "2026-09-15 09:59:57",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
         {
-          "local": "almoxarifado",
+          "local": "farmacia",
           "validade": "",
           "lote": "",
           "quantidade": 9
@@ -16693,6 +16693,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 2249,
+      "item_id": 377,
+      "produto_nome": "LORATADINA SUSPENSÃO",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 9,
+      "responsavel": "Assucena",
+      "data": "2026-09-14",
+      "obs": "",
+      "criado_em": "2026-09-15 09:59:57",
+      "item": "LORATADINA SUSPENSÃO",
+      "usuario": "Assucena"
+    },
     {
       "id": 2248,
       "item_id": 44,
@@ -24176,21 +24191,6 @@
       "obs": "",
       "criado_em": "2026-09-08 15:46:07",
       "item": "MANGUITO DE TENSIOMETRO",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 1749,
-      "item_id": 300,
-      "produto_nome": "Filtro HEPA adulto",
-      "tipo": "Entrada no Almoxarifado",
-      "origem": "Entrada externa",
-      "destino": "Almoxarifado",
-      "quantidade": 16,
-      "responsavel": "Leiliana",
-      "data": "2026-09-04",
-      "obs": "",
-      "criado_em": "2026-09-08 15:45:26",
-      "item": "Filtro HEPA adulto",
       "usuario": "Leiliana"
     }
   ]
