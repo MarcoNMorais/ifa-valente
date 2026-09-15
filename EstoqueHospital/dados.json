@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "15/09/2026 10:59:33",
+  "atualizado_em": "15/09/2026 11:01:45",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 397,
-    "total_almoxarifado": 113824,
-    "total_farmacia": 36287,
+    "total_almoxarifado": 113084,
+    "total_farmacia": 37027,
     "total_geral": 150111,
     "perto_de_terminar": 21,
     "zerados": 9
@@ -5843,8 +5843,8 @@
       "nome": "Equipo micro",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 740,
-      "farmacia": 124,
+      "almoxarifado": 0,
+      "farmacia": 864,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -5856,21 +5856,15 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-14 11:27:55",
+      "atualizado_em": "2026-09-15 11:01:44",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
         {
-          "local": "almoxarifado",
-          "validade": "",
-          "lote": "",
-          "quantidade": 740
-        },
-        {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 124
+          "quantidade": 864
         }
       ],
       "minimo_manual": 0,
@@ -17303,6 +17297,21 @@
       "usuario": "Assucena"
     },
     {
+      "id": 2318,
+      "item_id": 275,
+      "produto_nome": "Equipo micro",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 740,
+      "responsavel": "Assucena",
+      "data": "2026-09-14",
+      "obs": "",
+      "criado_em": "2026-09-15 11:01:44",
+      "item": "Equipo micro",
+      "usuario": "Assucena"
+    },
+    {
       "id": 2317,
       "item_id": 220,
       "produto_nome": "Equipo macrogotas",
@@ -24170,21 +24179,6 @@
       "obs": "",
       "criado_em": "2026-09-08 16:24:23",
       "item": "Escopolamina + Dipirona",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 1818,
-      "item_id": 384,
-      "produto_nome": "ACIDO ASCORBICO",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 60,
-      "responsavel": "Leiliana",
-      "data": "2026-09-04",
-      "obs": "",
-      "criado_em": "2026-09-08 16:24:11",
-      "item": "ACIDO ASCORBICO",
       "usuario": "Leiliana"
     }
   ]
