@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "15/09/2026 14:58:41",
+  "atualizado_em": "15/09/2026 14:58:54",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 128532,
-    "total_farmacia": 35604,
-    "total_geral": 164136,
+    "total_farmacia": 35603,
+    "total_geral": 164135,
     "perto_de_terminar": 24,
     "zerados": 9
   },
@@ -9836,19 +9836,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 112,
-      "farmacia": 82,
+      "farmacia": 81,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 194,
+      "total": 193,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-15 11:06:55",
+      "atualizado_em": "2026-09-15 14:58:53",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -9862,7 +9862,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 82
+          "quantidade": 81
         }
       ],
       "minimo_manual": 0,
@@ -9870,9 +9870,9 @@
       "previsao_20_dias": 482,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 34,
-      "media_diaria_saida": 24.06,
-      "total_saida_historica": 818,
-      "cobertura_dias": 8.1,
+      "media_diaria_saida": 24.09,
+      "total_saida_historica": 819,
+      "cobertura_dias": 8.0,
       "alerta_estoque": true
     },
     {
@@ -16933,6 +16933,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 2386,
+      "item_id": 180,
+      "produto_nome": "Luva de látex tam. P",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 1,
+      "responsavel": "Leiliana",
+      "data": "2026-09-15",
+      "obs": "",
+      "criado_em": "2026-09-15 14:58:53",
+      "item": "Luva de látex tam. P",
+      "usuario": "Leiliana"
+    },
     {
       "id": 2385,
       "item_id": 181,
@@ -24416,21 +24431,6 @@
       "obs": "",
       "criado_em": "2026-09-08 16:41:54",
       "item": "Tira Reagente G-Tech",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 1886,
-      "item_id": 203,
-      "produto_nome": "Soro fisiológico 250ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 8,
-      "responsavel": "Leiliana",
-      "data": "2026-09-04",
-      "obs": "",
-      "criado_em": "2026-09-08 16:41:44",
-      "item": "Soro fisiológico 250ml",
       "usuario": "Leiliana"
     }
   ]
