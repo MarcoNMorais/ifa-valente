@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "15/09/2026 14:57:05",
+  "atualizado_em": "15/09/2026 14:57:17",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 128532,
-    "total_farmacia": 36006,
-    "total_geral": 164538,
+    "total_farmacia": 35886,
+    "total_geral": 164418,
     "perto_de_terminar": 24,
     "zerados": 9
   },
@@ -481,19 +481,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 7200,
-      "farmacia": 345,
+      "farmacia": 225,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 7545,
+      "total": 7425,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-15 10:56:07",
+      "atualizado_em": "2026-09-15 14:57:16",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -507,7 +507,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 345
+          "quantidade": 225
         }
       ],
       "minimo_manual": 0,
@@ -515,9 +515,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 37.92,
-      "total_saida_historica": 455,
-      "cobertura_dias": 199.0,
+      "media_diaria_saida": 47.92,
+      "total_saida_historica": 575,
+      "cobertura_dias": 155.0,
       "alerta_estoque": false
     },
     {
@@ -16934,6 +16934,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 2379,
+      "item_id": 390,
+      "produto_nome": "AGULHA  40X1,2",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 120,
+      "responsavel": "Leiliana",
+      "data": "2026-09-15",
+      "obs": "",
+      "criado_em": "2026-09-15 14:57:16",
+      "item": "AGULHA  40X1,2",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 2378,
       "item_id": 98,
       "produto_nome": "Scalp nº 23",
@@ -24416,21 +24431,6 @@
       "obs": "",
       "criado_em": "2026-09-08 16:40:40",
       "item": "Seringa 3ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 1879,
-      "item_id": 102,
-      "produto_nome": "Seringa 5ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 55,
-      "responsavel": "Leiliana",
-      "data": "2026-09-04",
-      "obs": "",
-      "criado_em": "2026-09-08 16:40:30",
-      "item": "Seringa 5ml",
       "usuario": "Leiliana"
     }
   ]
