@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "15/09/2026 10:07:21",
+  "atualizado_em": "15/09/2026 10:07:31",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 397,
     "total_almoxarifado": 102592,
-    "total_farmacia": 36201,
-    "total_geral": 138793,
+    "total_farmacia": 36196,
+    "total_geral": 138788,
     "perto_de_terminar": 19,
     "zerados": 9
   },
@@ -8337,19 +8337,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 240,
-      "farmacia": 133,
+      "farmacia": 128,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 373,
+      "total": 368,
       "minimo": 0,
       "validade": "2027-08",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-11 11:25:58",
+      "atualizado_em": "2026-09-15 10:07:31",
       "validade_mais_proxima": "2027-08",
       "vencimento_mais_proximo": "2027-08",
       "lotes_validade": [
@@ -8357,7 +8357,7 @@
           "local": "farmacia",
           "validade": "2027-08",
           "lote": "",
-          "quantidade": 133
+          "quantidade": 128
         },
         {
           "local": "almoxarifado",
@@ -8367,13 +8367,13 @@
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 64,
-      "previsao_20_dias": 64,
+      "minimo_alerta": 67,
+      "previsao_20_dias": 67,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 34,
-      "media_diaria_saida": 3.18,
-      "total_saida_historica": 108,
-      "cobertura_dias": 117.4,
+      "media_diaria_saida": 3.32,
+      "total_saida_historica": 113,
+      "cobertura_dias": 110.7,
       "alerta_estoque": false
     },
     {
@@ -16700,6 +16700,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 2287,
+      "item_id": 82,
+      "produto_nome": "Hidrocortisona",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 5,
+      "responsavel": "Assucena",
+      "data": "2026-09-15",
+      "obs": "",
+      "criado_em": "2026-09-15 10:07:31",
+      "item": "Hidrocortisona",
+      "usuario": "Assucena"
+    },
+    {
       "id": 2286,
       "item_id": 291,
       "produto_nome": "Cateter tipo óculos adulto",
@@ -24182,21 +24197,6 @@
       "obs": "",
       "criado_em": "2026-09-08 15:58:59",
       "item": "Luva de látex tam. M",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 1787,
-      "item_id": 329,
-      "produto_nome": "Polifix",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 30,
-      "responsavel": "Leiliana",
-      "data": "2026-09-04",
-      "obs": "",
-      "criado_em": "2026-09-08 15:58:48",
-      "item": "Polifix",
       "usuario": "Leiliana"
     }
   ]
