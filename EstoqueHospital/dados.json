@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "15/09/2026 15:07:34",
+  "atualizado_em": "15/09/2026 15:07:44",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 128532,
-    "total_farmacia": 35098,
-    "total_geral": 163630,
+    "total_farmacia": 35058,
+    "total_geral": 163590,
     "perto_de_terminar": 24,
     "zerados": 9
   },
@@ -4601,19 +4601,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 1940,
+      "farmacia": 1900,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1940,
+      "total": 1900,
       "minimo": 0,
       "validade": "2027-10",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-15 15:01:31",
+      "atualizado_em": "2026-09-15 15:07:43",
       "validade_mais_proxima": "2027-10",
       "vencimento_mais_proximo": "2027-10",
       "lotes_validade": [
@@ -4621,7 +4621,7 @@
           "local": "farmacia",
           "validade": "2027-10",
           "lote": "",
-          "quantidade": 340
+          "quantidade": 300
         },
         {
           "local": "farmacia",
@@ -4631,13 +4631,13 @@
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 548,
-      "previsao_20_dias": 548,
+      "minimo_alerta": 571,
+      "previsao_20_dias": 571,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 34,
-      "media_diaria_saida": 27.35,
-      "total_saida_historica": 930,
-      "cobertura_dias": 70.9,
+      "media_diaria_saida": 28.53,
+      "total_saida_historica": 970,
+      "cobertura_dias": 66.6,
       "alerta_estoque": false
     },
     {
@@ -16928,6 +16928,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 2408,
+      "item_id": 68,
+      "produto_nome": "Dexametasona",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 40,
+      "responsavel": "Leiliana",
+      "data": "2026-09-15",
+      "obs": "",
+      "criado_em": "2026-09-15 15:07:43",
+      "item": "Dexametasona",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 2407,
       "item_id": 55,
       "produto_nome": "Benzilpenicilina 1.200",
@@ -24410,21 +24425,6 @@
       "obs": "",
       "criado_em": "2026-09-08 16:46:36",
       "item": "Fio agulhado / sutura nº 2",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 1908,
-      "item_id": 217,
-      "produto_nome": "Fio agulhado / sutura nº 4",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 24,
-      "responsavel": "Leiliana",
-      "data": "2026-09-04",
-      "obs": "",
-      "criado_em": "2026-09-08 16:46:26",
-      "item": "Fio agulhado / sutura nº 4",
       "usuario": "Leiliana"
     }
   ]
