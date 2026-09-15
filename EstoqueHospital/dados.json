@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "15/09/2026 14:39:39",
+  "atualizado_em": "15/09/2026 14:39:59",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 402,
-    "total_almoxarifado": 128642,
-    "total_farmacia": 36243,
+    "total_almoxarifado": 128612,
+    "total_farmacia": 36273,
     "total_geral": 164885,
     "perto_de_terminar": 22,
     "zerados": 9
@@ -11650,8 +11650,8 @@
       "nome": "Omeprazol sódico 40mg AMP",
       "tipo": "Medicamento",
       "unidade": "Unidade",
-      "almoxarifado": 30,
-      "farmacia": 170,
+      "almoxarifado": 0,
+      "farmacia": 200,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -11663,21 +11663,15 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-15 14:39:38",
+      "atualizado_em": "2026-09-15 14:39:58",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
         {
-          "local": "almoxarifado",
-          "validade": "",
-          "lote": "",
-          "quantidade": 30
-        },
-        {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 170
+          "quantidade": 200
         }
       ],
       "minimo_manual": 0,
@@ -16893,6 +16887,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 2360,
+      "item_id": 228,
+      "produto_nome": "Omeprazol sódico 40mg AMP",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 30,
+      "responsavel": "Leiliana",
+      "data": "2026-09-15",
+      "obs": "ajuste de estoque",
+      "criado_em": "2026-09-15 14:39:58",
+      "item": "Omeprazol sódico 40mg AMP",
+      "usuario": "Leiliana"
+    },
     {
       "id": 2359,
       "item_id": 228,
@@ -24376,21 +24385,6 @@
       "obs": "",
       "criado_em": "2026-09-08 16:36:32",
       "item": "Diclofenaco 25mg",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 1860,
-      "item_id": 385,
-      "produto_nome": "LIDOCAINA S/ VASO",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 2,
-      "responsavel": "Leiliana",
-      "data": "2026-09-04",
-      "obs": "",
-      "criado_em": "2026-09-08 16:36:22",
-      "item": "LIDOCAINA S/ VASO",
       "usuario": "Leiliana"
     }
   ]
