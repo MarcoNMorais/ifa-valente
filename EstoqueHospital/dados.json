@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "15/09/2026 15:08:00",
+  "atualizado_em": "15/09/2026 15:08:12",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 128532,
-    "total_farmacia": 35051,
-    "total_geral": 163583,
+    "total_farmacia": 35021,
+    "total_geral": 163553,
     "perto_de_terminar": 24,
     "zerados": 9
   },
@@ -3445,19 +3445,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 329,
+      "farmacia": 299,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 329,
+      "total": 299,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-15 15:01:19",
+      "atualizado_em": "2026-09-15 15:08:11",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -3465,17 +3465,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 349
+          "quantidade": 319
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 236,
-      "previsao_20_dias": 236,
+      "minimo_alerta": 253,
+      "previsao_20_dias": 253,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 34,
-      "media_diaria_saida": 11.76,
-      "total_saida_historica": 400,
-      "cobertura_dias": 28.0,
+      "media_diaria_saida": 12.65,
+      "total_saida_historica": 430,
+      "cobertura_dias": 23.6,
       "alerta_estoque": false
     },
     {
@@ -16928,6 +16928,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 2410,
+      "item_id": 61,
+      "produto_nome": "Cetoprofeno IM 50mg",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 30,
+      "responsavel": "Leiliana",
+      "data": "2026-09-15",
+      "obs": "",
+      "criado_em": "2026-09-15 15:08:11",
+      "item": "Cetoprofeno IM 50mg",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 2409,
       "item_id": 82,
       "produto_nome": "Hidrocortisona 100MG",
@@ -24410,21 +24425,6 @@
       "obs": "",
       "criado_em": "2026-09-08 16:46:57",
       "item": "Luva cirúrgica tam. 7",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 1910,
-      "item_id": 180,
-      "produto_nome": "Luva de látex tam. P",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 2,
-      "responsavel": "Leiliana",
-      "data": "2026-09-04",
-      "obs": "",
-      "criado_em": "2026-09-08 16:46:45",
-      "item": "Luva de látex tam. P",
       "usuario": "Leiliana"
     }
   ]
