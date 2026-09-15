@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "15/09/2026 11:11:41",
+  "atualizado_em": "15/09/2026 11:11:47",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
-    "itens": 400,
-    "total_almoxarifado": 128608,
+    "itens": 401,
+    "total_almoxarifado": 128629,
     "total_farmacia": 36203,
-    "total_geral": 164811,
+    "total_geral": 164832,
     "perto_de_terminar": 22,
     "zerados": 9
   },
@@ -7508,6 +7508,46 @@
           "validade": "",
           "lote": "",
           "quantidade": 72
+        }
+      ],
+      "minimo_manual": 0,
+      "minimo_alerta": 0,
+      "previsao_20_dias": 0,
+      "criterio_alerta": "estoque_minimo_manual_inicio",
+      "dias_historico": 2,
+      "media_diaria_saida": 0.0,
+      "total_saida_historica": 0,
+      "cobertura_dias": null,
+      "alerta_estoque": false
+    },
+    {
+      "id": 401,
+      "produto_id": 402,
+      "nome": "FRALDA XG ADULTO PACOTE",
+      "tipo": "Material",
+      "unidade": "Pacote",
+      "almoxarifado": 21,
+      "farmacia": 0,
+      "sala_medicacoes": 0,
+      "internamento": 0,
+      "sala_cirurgica": 0,
+      "baixa": 0,
+      "outro": 0,
+      "total": 21,
+      "minimo": 0,
+      "validade": "",
+      "lote": "",
+      "origem": "Entrada externa",
+      "obs": "",
+      "atualizado_em": "2026-09-15 11:11:44",
+      "validade_mais_proxima": "",
+      "vencimento_mais_proximo": "",
+      "lotes_validade": [
+        {
+          "local": "almoxarifado",
+          "validade": "",
+          "lote": "",
+          "quantidade": 21
         }
       ],
       "minimo_manual": 0,
@@ -17438,6 +17478,21 @@
       "usuario": "Assucena"
     },
     {
+      "id": 2345,
+      "item_id": 401,
+      "produto_nome": "FRALDA XG ADULTO PACOTE",
+      "tipo": "Entrada no Almoxarifado",
+      "origem": "Entrada externa",
+      "destino": "Almoxarifado",
+      "quantidade": 21,
+      "responsavel": "Assucena",
+      "data": "2026-09-14",
+      "obs": "",
+      "criado_em": "2026-09-15 11:11:44",
+      "item": "FRALDA XG ADULTO PACOTE",
+      "usuario": "Assucena"
+    },
+    {
       "id": 2344,
       "item_id": 400,
       "produto_nome": "FRALDA XG INFANTIL",
@@ -24290,21 +24345,6 @@
       "obs": "",
       "criado_em": "2026-09-08 16:30:45",
       "item": "Ondansetrona 2mg/ml 2ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 1845,
-      "item_id": 203,
-      "produto_nome": "Soro fisiológico 250ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 12,
-      "responsavel": "Leiliana",
-      "data": "2026-09-04",
-      "obs": "",
-      "criado_em": "2026-09-08 16:30:35",
-      "item": "Soro fisiológico 250ml",
       "usuario": "Leiliana"
     }
   ]
