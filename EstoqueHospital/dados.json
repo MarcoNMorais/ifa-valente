@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "15/09/2026 10:58:57",
+  "atualizado_em": "15/09/2026 10:59:12",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 397,
-    "total_almoxarifado": 112064,
+    "total_almoxarifado": 112224,
     "total_farmacia": 36287,
-    "total_geral": 148351,
+    "total_geral": 148511,
     "perto_de_terminar": 21,
     "zerados": 9
   },
@@ -4486,20 +4486,20 @@
       "nome": "COMPRESSA DE GAZES",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 160,
+      "almoxarifado": 320,
       "farmacia": 0,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 160,
+      "total": 320,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-11 11:17:03",
+      "atualizado_em": "2026-09-15 10:59:11",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -4507,7 +4507,7 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 160
+          "quantidade": 320
         }
       ],
       "minimo_manual": 0,
@@ -17303,6 +17303,21 @@
       "usuario": "Assucena"
     },
     {
+      "id": 2316,
+      "item_id": 392,
+      "produto_nome": "COMPRESSA DE GAZES",
+      "tipo": "Entrada no Almoxarifado",
+      "origem": "Entrada externa",
+      "destino": "Almoxarifado",
+      "quantidade": 160,
+      "responsavel": "Assucena",
+      "data": "2026-09-14",
+      "obs": "",
+      "criado_em": "2026-09-15 10:59:11",
+      "item": "COMPRESSA DE GAZES",
+      "usuario": "Assucena"
+    },
+    {
       "id": 2315,
       "item_id": 155,
       "produto_nome": "Bolsa coletora",
@@ -24170,21 +24185,6 @@
       "obs": "",
       "criado_em": "2026-09-08 16:24:01",
       "item": "ACIDO ASCORBICO",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 1816,
-      "item_id": 66,
-      "produto_nome": "Complexo B",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 100,
-      "responsavel": "Leiliana",
-      "data": "2026-09-04",
-      "obs": "",
-      "criado_em": "2026-09-08 16:23:40",
-      "item": "Complexo B",
       "usuario": "Leiliana"
     }
   ]
