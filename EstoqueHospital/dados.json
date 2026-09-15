@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "15/09/2026 11:11:09",
+  "atualizado_em": "15/09/2026 11:11:24",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
-    "itens": 399,
-    "total_almoxarifado": 128524,
+    "itens": 400,
+    "total_almoxarifado": 128608,
     "total_farmacia": 36203,
-    "total_geral": 164727,
+    "total_geral": 164811,
     "perto_de_terminar": 22,
     "zerados": 9
   },
@@ -7508,6 +7508,46 @@
           "validade": "",
           "lote": "",
           "quantidade": 72
+        }
+      ],
+      "minimo_manual": 0,
+      "minimo_alerta": 0,
+      "previsao_20_dias": 0,
+      "criterio_alerta": "estoque_minimo_manual_inicio",
+      "dias_historico": 2,
+      "media_diaria_saida": 0.0,
+      "total_saida_historica": 0,
+      "cobertura_dias": null,
+      "alerta_estoque": false
+    },
+    {
+      "id": 400,
+      "produto_id": 401,
+      "nome": "FRALDA XG INFANTIL",
+      "tipo": "Material",
+      "unidade": "Unidade",
+      "almoxarifado": 84,
+      "farmacia": 0,
+      "sala_medicacoes": 0,
+      "internamento": 0,
+      "sala_cirurgica": 0,
+      "baixa": 0,
+      "outro": 0,
+      "total": 84,
+      "minimo": 0,
+      "validade": "",
+      "lote": "",
+      "origem": "Entrada externa",
+      "obs": "",
+      "atualizado_em": "2026-09-15 11:11:13",
+      "validade_mais_proxima": "",
+      "vencimento_mais_proximo": "",
+      "lotes_validade": [
+        {
+          "local": "almoxarifado",
+          "validade": "",
+          "lote": "",
+          "quantidade": 84
         }
       ],
       "minimo_manual": 0,
@@ -17398,6 +17438,21 @@
       "usuario": "Assucena"
     },
     {
+      "id": 2344,
+      "item_id": 400,
+      "produto_nome": "FRALDA XG INFANTIL",
+      "tipo": "Entrada no Almoxarifado",
+      "origem": "Entrada externa",
+      "destino": "Almoxarifado",
+      "quantidade": 84,
+      "responsavel": "Assucena",
+      "data": "2026-09-14",
+      "obs": "",
+      "criado_em": "2026-09-15 11:11:13",
+      "item": "FRALDA XG INFANTIL",
+      "usuario": "Assucena"
+    },
+    {
       "id": 2343,
       "item_id": 399,
       "produto_nome": "FRALDA M INFANTIL",
@@ -24250,21 +24305,6 @@
       "obs": "",
       "criado_em": "2026-09-08 16:30:35",
       "item": "Soro fisiológico 250ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 1844,
-      "item_id": 204,
-      "produto_nome": "Soro fisiológico 500ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 6,
-      "responsavel": "Leiliana",
-      "data": "2026-09-04",
-      "obs": "",
-      "criado_em": "2026-09-08 16:30:12",
-      "item": "Soro fisiológico 500ml",
       "usuario": "Leiliana"
     }
   ]
