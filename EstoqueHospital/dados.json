@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "15/09/2026 14:49:46",
+  "atualizado_em": "15/09/2026 14:51:44",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
-    "total_almoxarifado": 128627,
-    "total_farmacia": 36017,
+    "total_almoxarifado": 128532,
+    "total_farmacia": 36112,
     "total_geral": 164644,
     "perto_de_terminar": 24,
     "zerados": 9
@@ -16412,8 +16412,8 @@
       "nome": "vancomicina",
       "tipo": "Medicamento",
       "unidade": "Unidade",
-      "almoxarifado": 95,
-      "farmacia": 0,
+      "almoxarifado": 0,
+      "farmacia": 95,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -16425,12 +16425,12 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-15 14:49:45",
+      "atualizado_em": "2026-09-15 14:51:43",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
         {
-          "local": "almoxarifado",
+          "local": "farmacia",
           "validade": "",
           "lote": "",
           "quantidade": 95
@@ -16933,6 +16933,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 2372,
+      "item_id": 403,
+      "produto_nome": "vancomicina",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 95,
+      "responsavel": "Leiliana",
+      "data": "2026-09-15",
+      "obs": "ajuste de estoque",
+      "criado_em": "2026-09-15 14:51:43",
+      "item": "vancomicina",
+      "usuario": "Leiliana"
+    },
     {
       "id": 2371,
       "item_id": 403,
@@ -24416,21 +24431,6 @@
       "obs": "",
       "criado_em": "2026-09-08 16:39:17",
       "item": "Agulha 25x7",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 1872,
-      "item_id": 331,
-      "produto_nome": "Agulha 30x8",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 40,
-      "responsavel": "Leiliana",
-      "data": "2026-09-04",
-      "obs": "",
-      "criado_em": "2026-09-08 16:38:45",
-      "item": "Agulha 30x8",
       "usuario": "Leiliana"
     }
   ]
