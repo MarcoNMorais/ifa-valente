@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "15/09/2026 10:08:59",
+  "atualizado_em": "15/09/2026 10:09:16",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 397,
     "total_almoxarifado": 102592,
-    "total_farmacia": 36114,
-    "total_geral": 138706,
+    "total_farmacia": 36102,
+    "total_geral": 138694,
     "perto_de_terminar": 20,
     "zerados": 9
   },
@@ -8331,19 +8331,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 240,
-      "farmacia": 128,
+      "farmacia": 116,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 368,
+      "total": 356,
       "minimo": 0,
       "validade": "2027-08",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-15 10:07:31",
+      "atualizado_em": "2026-09-15 10:09:15",
       "validade_mais_proxima": "2027-08",
       "vencimento_mais_proximo": "2027-08",
       "lotes_validade": [
@@ -8351,7 +8351,7 @@
           "local": "farmacia",
           "validade": "2027-08",
           "lote": "",
-          "quantidade": 128
+          "quantidade": 116
         },
         {
           "local": "almoxarifado",
@@ -8361,13 +8361,13 @@
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 67,
-      "previsao_20_dias": 67,
+      "minimo_alerta": 74,
+      "previsao_20_dias": 74,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 34,
-      "media_diaria_saida": 3.32,
-      "total_saida_historica": 113,
-      "cobertura_dias": 110.7,
+      "media_diaria_saida": 3.68,
+      "total_saida_historica": 125,
+      "cobertura_dias": 96.8,
       "alerta_estoque": false
     },
     {
@@ -16694,6 +16694,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 2293,
+      "item_id": 82,
+      "produto_nome": "Hidrocortisona",
+      "tipo": "Farmácia para Posto de Internamento",
+      "origem": "Farmácia",
+      "destino": "Posto de Internamento",
+      "quantidade": 12,
+      "responsavel": "Assucena",
+      "data": "2026-09-15",
+      "obs": "",
+      "criado_em": "2026-09-15 10:09:15",
+      "item": "Hidrocortisona",
+      "usuario": "Assucena"
+    },
+    {
       "id": 2292,
       "item_id": 230,
       "produto_nome": "Ferropurum 20mg/ml",
@@ -24176,21 +24191,6 @@
       "obs": "",
       "criado_em": "2026-09-08 16:03:39",
       "item": "Agulha 40x12",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 1793,
-      "item_id": 202,
-      "produto_nome": "Soro fisiológico 100ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 60,
-      "responsavel": "Leiliana",
-      "data": "2026-09-04",
-      "obs": "",
-      "criado_em": "2026-09-08 16:03:26",
-      "item": "Soro fisiológico 100ml",
       "usuario": "Leiliana"
     }
   ]
