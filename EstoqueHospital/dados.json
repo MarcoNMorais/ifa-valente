@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "15/09/2026 09:57:46",
+  "atualizado_em": "15/09/2026 09:57:59",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 397,
     "total_almoxarifado": 102831,
-    "total_farmacia": 36829,
-    "total_geral": 139660,
+    "total_farmacia": 36827,
+    "total_geral": 139658,
     "perto_de_terminar": 17,
     "zerados": 9
   },
@@ -6062,19 +6062,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 236,
-      "farmacia": 6,
+      "farmacia": 4,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 242,
+      "total": 240,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-14 11:29:26",
+      "atualizado_em": "2026-09-15 09:57:58",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -6088,17 +6088,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 6
+          "quantidade": 4
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 27,
-      "previsao_20_dias": 27,
+      "minimo_alerta": 28,
+      "previsao_20_dias": 28,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 29,
-      "media_diaria_saida": 1.31,
-      "total_saida_historica": 38,
-      "cobertura_dias": 184.7,
+      "media_diaria_saida": 1.38,
+      "total_saida_historica": 40,
+      "cobertura_dias": 174.0,
       "alerta_estoque": false
     },
     {
@@ -16694,6 +16694,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 2237,
+      "item_id": 276,
+      "produto_nome": "Esparadrapo 10x4,5",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 2,
+      "responsavel": "Assucena",
+      "data": "2026-09-14",
+      "obs": "",
+      "criado_em": "2026-09-15 09:57:58",
+      "item": "Esparadrapo 10x4,5",
+      "usuario": "Assucena"
+    },
+    {
       "id": 2236,
       "item_id": 195,
       "produto_nome": "Tira Reagente G-Tech",
@@ -24176,21 +24191,6 @@
       "obs": "",
       "criado_em": "2026-09-08 15:40:39",
       "item": "Luva de látex tam. P",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 1737,
-      "item_id": 181,
-      "produto_nome": "Luva de látex tam. M",
-      "tipo": "Entrada no Almoxarifado",
-      "origem": "Entrada externa",
-      "destino": "Almoxarifado",
-      "quantidade": 80,
-      "responsavel": "Leiliana",
-      "data": "2026-09-04",
-      "obs": "",
-      "criado_em": "2026-09-08 15:40:19",
-      "item": "Luva de látex tam. M",
       "usuario": "Leiliana"
     }
   ]
