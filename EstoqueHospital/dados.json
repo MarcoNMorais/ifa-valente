@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "15/09/2026 09:57:01",
+  "atualizado_em": "15/09/2026 09:57:09",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 397,
     "total_almoxarifado": 102831,
-    "total_farmacia": 36891,
-    "total_geral": 139722,
+    "total_farmacia": 36881,
+    "total_geral": 139712,
     "perto_de_terminar": 17,
     "zerados": 9
   },
@@ -11251,19 +11251,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 144,
-      "farmacia": 38,
+      "farmacia": 28,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 182,
+      "total": 172,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-14 11:23:38",
+      "atualizado_em": "2026-09-15 09:57:09",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -11277,7 +11277,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 38
+          "quantidade": 28
         }
       ],
       "minimo_manual": 0,
@@ -11285,9 +11285,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 0.83,
-      "total_saida_historica": 10,
-      "cobertura_dias": 218.4,
+      "media_diaria_saida": 1.67,
+      "total_saida_historica": 20,
+      "cobertura_dias": 103.2,
       "alerta_estoque": false
     },
     {
@@ -16693,6 +16693,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 2233,
+      "item_id": 393,
+      "produto_nome": "NYLON N°3",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 10,
+      "responsavel": "Assucena",
+      "data": "2026-09-14",
+      "obs": "",
+      "criado_em": "2026-09-15 09:57:09",
+      "item": "NYLON N°3",
+      "usuario": "Assucena"
+    },
     {
       "id": 2232,
       "item_id": 60,
@@ -24176,21 +24191,6 @@
       "obs": "",
       "criado_em": "2026-09-08 15:39:16",
       "item": "Lanceta de segurança",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 1733,
-      "item_id": 329,
-      "produto_nome": "Polifix",
-      "tipo": "Entrada no Almoxarifado",
-      "origem": "Entrada externa",
-      "destino": "Almoxarifado",
-      "quantidade": 800,
-      "responsavel": "Leiliana",
-      "data": "2026-09-04",
-      "obs": "",
-      "criado_em": "2026-09-08 15:39:01",
-      "item": "Polifix",
       "usuario": "Leiliana"
     }
   ]
