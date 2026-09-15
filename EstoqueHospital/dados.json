@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "15/09/2026 10:05:57",
+  "atualizado_em": "15/09/2026 10:06:05",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 397,
     "total_almoxarifado": 102622,
-    "total_farmacia": 36313,
-    "total_geral": 138935,
+    "total_farmacia": 36293,
+    "total_geral": 138915,
     "perto_de_terminar": 19,
     "zerados": 9
   },
@@ -15086,19 +15086,19 @@
       "tipo": "Insumo",
       "unidade": "Unidade",
       "almoxarifado": 1237,
-      "farmacia": 77,
+      "farmacia": 57,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1314,
+      "total": 1294,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-15 09:54:26",
+      "atualizado_em": "2026-09-15 10:06:04",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -15112,17 +15112,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 77
+          "quantidade": 57
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 279,
-      "previsao_20_dias": 279,
+      "minimo_alerta": 290,
+      "previsao_20_dias": 290,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 34,
-      "media_diaria_saida": 13.91,
-      "total_saida_historica": 473,
-      "cobertura_dias": 94.5,
+      "media_diaria_saida": 14.5,
+      "total_saida_historica": 493,
+      "cobertura_dias": 89.2,
       "alerta_estoque": false
     },
     {
@@ -16693,6 +16693,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 2278,
+      "item_id": 203,
+      "produto_nome": "Soro fisiológico 250ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 20,
+      "responsavel": "Assucena",
+      "data": "2026-09-15",
+      "obs": "",
+      "criado_em": "2026-09-15 10:06:04",
+      "item": "Soro fisiológico 250ml",
+      "usuario": "Assucena"
+    },
     {
       "id": 2277,
       "item_id": 390,
@@ -24176,21 +24191,6 @@
       "obs": "",
       "criado_em": "2026-09-08 15:56:35",
       "item": "Soro glicose 5% 500ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 1778,
-      "item_id": 201,
-      "produto_nome": "Soro Ringer Lactato 500ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 12,
-      "responsavel": "Leiliana",
-      "data": "2026-09-04",
-      "obs": "",
-      "criado_em": "2026-09-08 15:56:20",
-      "item": "Soro Ringer Lactato 500ml",
       "usuario": "Leiliana"
     }
   ]
