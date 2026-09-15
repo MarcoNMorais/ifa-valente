@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "15/09/2026 09:55:45",
+  "atualizado_em": "15/09/2026 09:55:58",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 397,
     "total_almoxarifado": 102831,
-    "total_farmacia": 37030,
-    "total_geral": 139861,
+    "total_farmacia": 37020,
+    "total_geral": 139851,
     "perto_de_terminar": 17,
     "zerados": 9
   },
@@ -315,19 +315,19 @@
       "tipo": "Medicamento",
       "unidade": "Ampola",
       "almoxarifado": 0,
-      "farmacia": 150,
+      "farmacia": 140,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 150,
+      "total": 140,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-14 11:22:50",
+      "atualizado_em": "2026-09-15 09:55:57",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -335,7 +335,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 150
+          "quantidade": 140
         }
       ],
       "minimo_manual": 0,
@@ -343,9 +343,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 7.5,
-      "total_saida_historica": 90,
-      "cobertura_dias": 20.0,
+      "media_diaria_saida": 8.33,
+      "total_saida_historica": 100,
+      "cobertura_dias": 16.8,
       "alerta_estoque": false
     },
     {
@@ -16694,6 +16694,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 2225,
+      "item_id": 384,
+      "produto_nome": "ACIDO ASCORBICO",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 10,
+      "responsavel": "Assucena",
+      "data": "2026-09-14",
+      "obs": "",
+      "criado_em": "2026-09-15 09:55:57",
+      "item": "ACIDO ASCORBICO",
+      "usuario": "Assucena"
+    },
+    {
       "id": 2224,
       "item_id": 238,
       "produto_nome": "Ondansetrona 2mg/ml 2ml",
@@ -24176,21 +24191,6 @@
       "obs": "",
       "criado_em": "2026-09-08 15:37:21",
       "item": "Equipo micro",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 1725,
-      "item_id": 220,
-      "produto_nome": "Equipo macrogotas",
-      "tipo": "Entrada no Almoxarifado",
-      "origem": "Entrada externa",
-      "destino": "Almoxarifado",
-      "quantidade": 1600,
-      "responsavel": "Leiliana",
-      "data": "2026-09-04",
-      "obs": "",
-      "criado_em": "2026-09-08 15:37:05",
-      "item": "Equipo macrogotas",
       "usuario": "Leiliana"
     }
   ]
