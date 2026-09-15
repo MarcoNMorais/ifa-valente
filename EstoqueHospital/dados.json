@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "15/09/2026 14:44:31",
+  "atualizado_em": "15/09/2026 14:44:46",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 402,
     "total_almoxarifado": 128532,
-    "total_farmacia": 35922,
-    "total_geral": 164454,
+    "total_farmacia": 35917,
+    "total_geral": 164449,
     "perto_de_terminar": 24,
     "zerados": 9
   },
@@ -16447,19 +16447,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 75,
+      "farmacia": 70,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 75,
+      "total": 70,
       "minimo": 0,
       "validade": "04/27",
       "lote": "",
       "origem": "Carga Farmácia 227-288",
       "obs": "Importação Farmácia 227-288",
-      "atualizado_em": "2026-09-11 11:17:03",
+      "atualizado_em": "2026-09-15 14:44:45",
       "validade_mais_proxima": "04/27",
       "vencimento_mais_proximo": "04/27",
       "lotes_validade": [
@@ -16467,17 +16467,17 @@
           "local": "farmacia",
           "validade": "04/27",
           "lote": "",
-          "quantidade": 75
+          "quantidade": 70
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 0,
-      "previsao_20_dias": 0,
+      "minimo_alerta": 4,
+      "previsao_20_dias": 4,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 29,
-      "media_diaria_saida": 0.0,
-      "total_saida_historica": 0,
-      "cobertura_dias": null,
+      "media_diaria_saida": 0.17,
+      "total_saida_historica": 5,
+      "cobertura_dias": 406.0,
       "alerta_estoque": false
     },
     {
@@ -16887,6 +16887,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 2368,
+      "item_id": 234,
+      "produto_nome": "Vitamina K 10mg/ml",
+      "tipo": "Farmácia para AJUSTE DE ESTOQUE",
+      "origem": "Farmácia",
+      "destino": "AJUSTE DE ESTOQUE",
+      "quantidade": 5,
+      "responsavel": "Leiliana",
+      "data": "2026-09-15",
+      "obs": "",
+      "criado_em": "2026-09-15 14:44:45",
+      "item": "Vitamina K 10mg/ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 2367,
       "item_id": 233,
@@ -24370,21 +24385,6 @@
       "obs": "",
       "criado_em": "2026-09-08 16:38:13",
       "item": "Paracetamol gotas",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 1868,
-      "item_id": 252,
-      "produto_nome": "Salbutamol spray",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 1,
-      "responsavel": "Leiliana",
-      "data": "2026-09-04",
-      "obs": "",
-      "criado_em": "2026-09-08 16:37:58",
-      "item": "Salbutamol spray",
       "usuario": "Leiliana"
     }
   ]
