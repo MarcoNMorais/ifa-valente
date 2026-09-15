@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "15/09/2026 14:58:14",
+  "atualizado_em": "15/09/2026 14:58:29",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 128532,
-    "total_farmacia": 35626,
-    "total_geral": 164158,
+    "total_farmacia": 35607,
+    "total_geral": 164139,
     "perto_de_terminar": 24,
     "zerados": 9
   },
@@ -12154,19 +12154,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 2600,
-      "farmacia": 124,
+      "farmacia": 105,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 2724,
+      "total": 2705,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-15 11:05:06",
+      "atualizado_em": "2026-09-15 14:58:28",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -12180,17 +12180,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 124
+          "quantidade": 105
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 136,
-      "previsao_20_dias": 136,
+      "minimo_alerta": 149,
+      "previsao_20_dias": 149,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 29,
-      "media_diaria_saida": 6.76,
-      "total_saida_historica": 196,
-      "cobertura_dias": 403.0,
+      "media_diaria_saida": 7.41,
+      "total_saida_historica": 215,
+      "cobertura_dias": 364.9,
       "alerta_estoque": false
     },
     {
@@ -16933,6 +16933,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 2384,
+      "item_id": 329,
+      "produto_nome": "Polifix",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 19,
+      "responsavel": "Leiliana",
+      "data": "2026-09-15",
+      "obs": "",
+      "criado_em": "2026-09-15 14:58:28",
+      "item": "Polifix",
+      "usuario": "Leiliana"
+    },
     {
       "id": 2383,
       "item_id": 220,
@@ -24416,21 +24431,6 @@
       "obs": "",
       "criado_em": "2026-09-08 16:41:34",
       "item": "Soro fisiológico 500ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 1884,
-      "item_id": 175,
-      "produto_nome": "Fita cirúrgica microporosa",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 1,
-      "responsavel": "Leiliana",
-      "data": "2026-09-04",
-      "obs": "",
-      "criado_em": "2026-09-08 16:41:22",
-      "item": "Fita cirúrgica microporosa",
       "usuario": "Leiliana"
     }
   ]
