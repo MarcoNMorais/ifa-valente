@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "15/09/2026 10:00:14",
+  "atualizado_em": "15/09/2026 10:00:20",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 397,
     "total_almoxarifado": 102822,
-    "total_farmacia": 36577,
-    "total_geral": 139399,
+    "total_farmacia": 36557,
+    "total_geral": 139379,
     "perto_de_terminar": 17,
     "zerados": 9
   },
@@ -5037,19 +5037,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 200,
-      "farmacia": 210,
+      "farmacia": 190,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 410,
+      "total": 390,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-11 11:17:03",
+      "atualizado_em": "2026-09-15 10:00:19",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -5063,17 +5063,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 230
+          "quantidade": 210
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 95,
-      "previsao_20_dias": 95,
+      "minimo_alerta": 106,
+      "previsao_20_dias": 106,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 34,
-      "media_diaria_saida": 4.71,
-      "total_saida_historica": 160,
-      "cobertura_dias": 87.1,
+      "media_diaria_saida": 5.29,
+      "total_saida_historica": 180,
+      "cobertura_dias": 73.7,
       "alerta_estoque": false
     },
     {
@@ -16694,6 +16694,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 2252,
+      "item_id": 28,
+      "produto_nome": "Dipirona 500mg",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 20,
+      "responsavel": "Assucena",
+      "data": "2026-09-14",
+      "obs": "",
+      "criado_em": "2026-09-15 10:00:19",
+      "item": "Dipirona 500mg",
+      "usuario": "Assucena"
+    },
+    {
       "id": 2251,
       "item_id": 377,
       "produto_nome": "LORATADINA SUSPENSÃO",
@@ -24176,21 +24191,6 @@
       "obs": "",
       "criado_em": "2026-09-08 15:48:49",
       "item": "Glicerina 12%",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 1752,
-      "item_id": 99,
-      "produto_nome": "Scalp nº 21",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 20,
-      "responsavel": "Leiliana",
-      "data": "2026-09-04",
-      "obs": "",
-      "criado_em": "2026-09-08 15:48:27",
-      "item": "Scalp nº 21",
       "usuario": "Leiliana"
     }
   ]
