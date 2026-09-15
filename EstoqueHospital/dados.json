@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "15/09/2026 11:12:29",
+  "atualizado_em": "15/09/2026 11:19:50",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 402,
     "total_almoxarifado": 128665,
-    "total_farmacia": 36203,
-    "total_geral": 164868,
+    "total_farmacia": 36188,
+    "total_geral": 164853,
     "perto_de_terminar": 22,
     "zerados": 9
   },
@@ -15274,19 +15274,19 @@
       "tipo": "Insumo",
       "unidade": "Unidade",
       "almoxarifado": 1237,
-      "farmacia": 47,
+      "farmacia": 32,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1284,
+      "total": 1269,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-15 10:06:10",
+      "atualizado_em": "2026-09-15 11:19:49",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -15300,17 +15300,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 47
+          "quantidade": 32
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 296,
-      "previsao_20_dias": 296,
+      "minimo_alerta": 305,
+      "previsao_20_dias": 305,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 34,
-      "media_diaria_saida": 14.79,
-      "total_saida_historica": 503,
-      "cobertura_dias": 86.8,
+      "media_diaria_saida": 15.24,
+      "total_saida_historica": 518,
+      "cobertura_dias": 83.3,
       "alerta_estoque": false
     },
     {
@@ -16887,6 +16887,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 2349,
+      "item_id": 203,
+      "produto_nome": "Soro fisiológico 250ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 15,
+      "responsavel": "Assucena",
+      "data": "2026-09-15",
+      "obs": "",
+      "criado_em": "2026-09-15 11:19:49",
+      "item": "Soro fisiológico 250ml",
+      "usuario": "Assucena"
+    },
     {
       "id": 2319,
       "item_id": 275,
@@ -24370,21 +24385,6 @@
       "obs": "",
       "criado_em": "2026-09-08 16:33:45",
       "item": "Tramadol 50mg/ml 2ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 1849,
-      "item_id": 387,
-      "produto_nome": "HIDROCORTIZONA 500MG",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 10,
-      "responsavel": "Leiliana",
-      "data": "2026-09-04",
-      "obs": "",
-      "criado_em": "2026-09-08 16:33:34",
-      "item": "HIDROCORTIZONA 500MG",
       "usuario": "Leiliana"
     }
   ]
