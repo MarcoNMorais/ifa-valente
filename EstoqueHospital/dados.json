@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "15/09/2026 15:08:49",
+  "atualizado_em": "15/09/2026 15:09:04",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 128532,
-    "total_farmacia": 34961,
-    "total_geral": 163493,
+    "total_farmacia": 34941,
+    "total_geral": 163473,
     "perto_de_terminar": 24,
     "zerados": 9
   },
@@ -16207,19 +16207,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 260,
+      "farmacia": 240,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 260,
+      "total": 240,
       "minimo": 0,
       "validade": "12/27",
       "lote": "",
       "origem": "Carga Farmácia 227-288",
       "obs": "Importação Farmácia 227-288",
-      "atualizado_em": "2026-09-15 14:43:15",
+      "atualizado_em": "2026-09-15 15:09:03",
       "validade_mais_proxima": "12/27",
       "vencimento_mais_proximo": "12/27",
       "lotes_validade": [
@@ -16227,17 +16227,23 @@
           "local": "farmacia",
           "validade": "12/27",
           "lote": "",
-          "quantidade": 260
+          "quantidade": 240
+        },
+        {
+          "local": "farmacia",
+          "validade": "",
+          "lote": "",
+          "quantidade": 20
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 263,
-      "previsao_20_dias": 263,
+      "minimo_alerta": 275,
+      "previsao_20_dias": 275,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 32,
-      "media_diaria_saida": 13.12,
-      "total_saida_historica": 420,
-      "cobertura_dias": 19.8,
+      "media_diaria_saida": 13.75,
+      "total_saida_historica": 440,
+      "cobertura_dias": 17.5,
       "alerta_estoque": true
     },
     {
@@ -16927,6 +16933,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 2414,
+      "item_id": 239,
+      "produto_nome": "Tramadol 50mg/ml 2ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 20,
+      "responsavel": "Leiliana",
+      "data": "2026-09-15",
+      "obs": "",
+      "criado_em": "2026-09-15 15:09:03",
+      "item": "Tramadol 50mg/ml 2ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 2413,
       "item_id": 86,
@@ -24410,21 +24431,6 @@
       "obs": "",
       "criado_em": "2026-09-08 16:49:19",
       "item": "Epinefrina 1mg",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 1914,
-      "item_id": 385,
-      "produto_nome": "LIDOCAINA S/ VASO",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 2,
-      "responsavel": "Leiliana",
-      "data": "2026-09-04",
-      "obs": "",
-      "criado_em": "2026-09-08 16:48:18",
-      "item": "LIDOCAINA S/ VASO",
       "usuario": "Leiliana"
     }
   ]
