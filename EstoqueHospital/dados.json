@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "15/09/2026 15:09:14",
+  "atualizado_em": "15/09/2026 15:09:26",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 128532,
-    "total_farmacia": 34936,
-    "total_geral": 163468,
+    "total_farmacia": 34935,
+    "total_geral": 163467,
     "perto_de_terminar": 24,
     "zerados": 9
   },
@@ -9830,19 +9830,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 112,
-      "farmacia": 81,
+      "farmacia": 80,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 193,
+      "total": 192,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-15 14:58:53",
+      "atualizado_em": "2026-09-15 15:09:25",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -9856,16 +9856,16 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 81
+          "quantidade": 80
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 482,
-      "previsao_20_dias": 482,
+      "minimo_alerta": 483,
+      "previsao_20_dias": 483,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 34,
-      "media_diaria_saida": 24.09,
-      "total_saida_historica": 819,
+      "media_diaria_saida": 24.12,
+      "total_saida_historica": 820,
       "cobertura_dias": 8.0,
       "alerta_estoque": true
     },
@@ -16933,6 +16933,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 2416,
+      "item_id": 180,
+      "produto_nome": "Luva de látex tam. P",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 1,
+      "responsavel": "Leiliana",
+      "data": "2026-09-15",
+      "obs": "",
+      "criado_em": "2026-09-15 15:09:25",
+      "item": "Luva de látex tam. P",
+      "usuario": "Leiliana"
+    },
     {
       "id": 2415,
       "item_id": 184,
@@ -24416,21 +24431,6 @@
       "obs": "",
       "criado_em": "2026-09-08 16:49:42",
       "item": "Equipo macrogotas",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 1916,
-      "item_id": 73,
-      "produto_nome": "Epinefrina 1mg",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 10,
-      "responsavel": "Leiliana",
-      "data": "2026-09-04",
-      "obs": "",
-      "criado_em": "2026-09-08 16:49:30",
-      "item": "Epinefrina 1mg",
       "usuario": "Leiliana"
     }
   ]
