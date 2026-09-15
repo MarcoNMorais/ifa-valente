@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "15/09/2026 10:02:32",
+  "atualizado_em": "15/09/2026 10:02:43",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 397,
     "total_almoxarifado": 102662,
-    "total_farmacia": 36570,
-    "total_geral": 139232,
+    "total_farmacia": 36546,
+    "total_geral": 139208,
     "perto_de_terminar": 17,
     "zerados": 9
   },
@@ -4121,19 +4121,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 179,
+      "farmacia": 155,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 179,
+      "total": 155,
       "minimo": 0,
       "validade": "2027-11",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-09-11 11:17:03",
+      "atualizado_em": "2026-09-15 10:02:42",
       "validade_mais_proxima": "2027-11",
       "vencimento_mais_proximo": "2027-11",
       "lotes_validade": [
@@ -4141,17 +4141,17 @@
           "local": "farmacia",
           "validade": "2027-11",
           "lote": "",
-          "quantidade": 179
+          "quantidade": 155
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 53,
-      "previsao_20_dias": 53,
+      "minimo_alerta": 68,
+      "previsao_20_dias": 68,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 34,
-      "media_diaria_saida": 2.65,
-      "total_saida_historica": 90,
-      "cobertura_dias": 67.6,
+      "media_diaria_saida": 3.35,
+      "total_saida_historica": 114,
+      "cobertura_dias": 46.2,
       "alerta_estoque": false
     },
     {
@@ -16694,6 +16694,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 2264,
+      "item_id": 86,
+      "produto_nome": "Cloridrato de Metoclopramida",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 24,
+      "responsavel": "Assucena",
+      "data": "2026-09-15",
+      "obs": "",
+      "criado_em": "2026-09-15 10:02:42",
+      "item": "Cloridrato de Metoclopramida",
+      "usuario": "Assucena"
+    },
+    {
       "id": 2263,
       "item_id": 70,
       "produto_nome": "Dipirona",
@@ -24175,21 +24190,6 @@
       "data": "2026-09-04",
       "obs": "",
       "criado_em": "2026-09-08 15:52:48",
-      "item": "AGUA P/ INJ",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 1764,
-      "item_id": 382,
-      "produto_nome": "AGUA P/ INJ",
-      "tipo": "Almoxarifado para Farmácia",
-      "origem": "Almoxarifado",
-      "destino": "Farmácia",
-      "quantidade": 320,
-      "responsavel": "Leiliana",
-      "data": "2026-09-04",
-      "obs": "",
-      "criado_em": "2026-09-08 15:52:35",
       "item": "AGUA P/ INJ",
       "usuario": "Leiliana"
     }
