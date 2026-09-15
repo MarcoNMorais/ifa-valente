@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "15/09/2026 11:41:23",
+  "atualizado_em": "15/09/2026 14:31:50",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 402,
     "total_almoxarifado": 128612,
-    "total_farmacia": 36253,
-    "total_geral": 164865,
+    "total_farmacia": 36243,
+    "total_geral": 164855,
     "perto_de_terminar": 22,
     "zerados": 9
   },
@@ -5381,19 +5381,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 90,
+      "farmacia": 80,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 90,
+      "total": 80,
       "minimo": 0,
       "validade": "05/28",
       "lote": "",
       "origem": "Carga Farmácia 227-288",
       "obs": "Importação Farmácia 227-288",
-      "atualizado_em": "2026-09-11 11:17:03",
+      "atualizado_em": "2026-09-15 14:31:49",
       "validade_mais_proxima": "05/28",
       "vencimento_mais_proximo": "05/28",
       "lotes_validade": [
@@ -5401,17 +5401,17 @@
           "local": "farmacia",
           "validade": "05/28",
           "lote": "",
-          "quantidade": 90
+          "quantidade": 80
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 14,
-      "previsao_20_dias": 14,
+      "minimo_alerta": 21,
+      "previsao_20_dias": 21,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 29,
-      "media_diaria_saida": 0.69,
-      "total_saida_historica": 20,
-      "cobertura_dias": 130.5,
+      "media_diaria_saida": 1.03,
+      "total_saida_historica": 30,
+      "cobertura_dias": 77.3,
       "alerta_estoque": false
     },
     {
@@ -16888,6 +16888,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 2358,
+      "item_id": 223,
+      "produto_nome": "Dramin B6 ampola 10ml",
+      "tipo": "Farmácia para AJUSTE DE ESTOQUE",
+      "origem": "Farmácia",
+      "destino": "AJUSTE DE ESTOQUE",
+      "quantidade": 10,
+      "responsavel": "Leiliana",
+      "data": "2026-09-15",
+      "obs": "",
+      "criado_em": "2026-09-15 14:31:49",
+      "item": "Dramin B6 ampola 10ml",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 2357,
       "item_id": 185,
       "produto_nome": "Luva cirúrgica tam. 7,5",
@@ -24370,21 +24385,6 @@
       "obs": "",
       "criado_em": "2026-09-08 16:36:05",
       "item": "LIDOCAINA S/ VASO",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 1858,
-      "item_id": 55,
-      "produto_nome": "Benzilpenicilina 1.200",
-      "tipo": "Almoxarifado para Farmácia",
-      "origem": "Almoxarifado",
-      "destino": "Farmácia",
-      "quantidade": 320,
-      "responsavel": "Leiliana",
-      "data": "2026-09-04",
-      "obs": "",
-      "criado_em": "2026-09-08 16:35:39",
-      "item": "Benzilpenicilina 1.200",
       "usuario": "Leiliana"
     }
   ]
