@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "15/09/2026 09:57:19",
+  "atualizado_em": "15/09/2026 09:57:29",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 397,
     "total_almoxarifado": 102831,
-    "total_farmacia": 36851,
-    "total_geral": 139682,
+    "total_farmacia": 36831,
+    "total_geral": 139662,
     "perto_de_terminar": 17,
     "zerados": 9
   },
@@ -4607,19 +4607,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 2010,
+      "farmacia": 1990,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 2010,
+      "total": 1990,
       "minimo": 0,
       "validade": "2027-10",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-14 11:23:20",
+      "atualizado_em": "2026-09-15 09:57:29",
       "validade_mais_proxima": "2027-10",
       "vencimento_mais_proximo": "2027-10",
       "lotes_validade": [
@@ -4627,7 +4627,7 @@
           "local": "farmacia",
           "validade": "2027-10",
           "lote": "",
-          "quantidade": 410
+          "quantidade": 390
         },
         {
           "local": "farmacia",
@@ -4637,13 +4637,13 @@
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 506,
-      "previsao_20_dias": 506,
+      "minimo_alerta": 518,
+      "previsao_20_dias": 518,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 34,
-      "media_diaria_saida": 25.29,
-      "total_saida_historica": 860,
-      "cobertura_dias": 79.5,
+      "media_diaria_saida": 25.88,
+      "total_saida_historica": 880,
+      "cobertura_dias": 76.9,
       "alerta_estoque": false
     },
     {
@@ -16694,6 +16694,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 2235,
+      "item_id": 68,
+      "produto_nome": "Dexametasona",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 20,
+      "responsavel": "Assucena",
+      "data": "2026-09-14",
+      "obs": "",
+      "criado_em": "2026-09-15 09:57:29",
+      "item": "Dexametasona",
+      "usuario": "Assucena"
+    },
+    {
       "id": 2234,
       "item_id": 69,
       "produto_nome": "Diclofenaco 25mg",
@@ -24176,21 +24191,6 @@
       "obs": "",
       "criado_em": "2026-09-08 15:39:59",
       "item": "Luva cirúrgica tam. 8",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 1735,
-      "item_id": 185,
-      "produto_nome": "Luva cirúrgica tam. 7,5",
-      "tipo": "Entrada no Almoxarifado",
-      "origem": "Entrada externa",
-      "destino": "Almoxarifado",
-      "quantidade": 80,
-      "responsavel": "Leiliana",
-      "data": "2026-09-04",
-      "obs": "",
-      "criado_em": "2026-09-08 15:39:45",
-      "item": "Luva cirúrgica tam. 7,5",
       "usuario": "Leiliana"
     }
   ]
