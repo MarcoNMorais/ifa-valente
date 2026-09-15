@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "15/09/2026 11:09:57",
+  "atualizado_em": "15/09/2026 11:10:11",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 398,
-    "total_almoxarifado": 128444,
+    "total_almoxarifado": 128452,
     "total_farmacia": 36203,
-    "total_geral": 164647,
+    "total_geral": 164655,
     "perto_de_terminar": 22,
     "zerados": 9
   },
@@ -16000,23 +16000,29 @@
       "nome": "Touca descartável",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 0,
+      "almoxarifado": 8,
       "farmacia": 158,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 158,
+      "total": 166,
       "minimo": 0,
       "validade": "",
       "lote": "",
-      "origem": "Carga inicial Farmácia",
-      "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-09-11 11:17:03",
+      "origem": "Entrada externa",
+      "obs": "",
+      "atualizado_em": "2026-09-15 11:10:11",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
+        {
+          "local": "almoxarifado",
+          "validade": "",
+          "lote": "",
+          "quantidade": 8
+        },
         {
           "local": "farmacia",
           "validade": "",
@@ -17349,6 +17355,21 @@
       "obs": "",
       "criado_em": "2026-09-15 10:01:25",
       "item": "Esparadrapo 10x4,5",
+      "usuario": "Assucena"
+    },
+    {
+      "id": 2342,
+      "item_id": 222,
+      "produto_nome": "Touca descartável",
+      "tipo": "Entrada no Almoxarifado",
+      "origem": "Entrada externa",
+      "destino": "Almoxarifado",
+      "quantidade": 8,
+      "responsavel": "Assucena",
+      "data": "2026-09-14",
+      "obs": "",
+      "criado_em": "2026-09-15 11:10:11",
+      "item": "Touca descartável",
       "usuario": "Assucena"
     },
     {
@@ -24204,21 +24225,6 @@
       "obs": "",
       "criado_em": "2026-09-08 16:29:57",
       "item": "Esparadrapo 10x4,5",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 1842,
-      "item_id": 181,
-      "produto_nome": "Luva de látex tam. M",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 3,
-      "responsavel": "Leiliana",
-      "data": "2026-09-04",
-      "obs": "",
-      "criado_em": "2026-09-08 16:29:47",
-      "item": "Luva de látex tam. M",
       "usuario": "Leiliana"
     }
   ]
