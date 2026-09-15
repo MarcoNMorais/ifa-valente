@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "15/09/2026 15:17:59",
+  "atualizado_em": "15/09/2026 15:37:13",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 128532,
-    "total_farmacia": 34249,
-    "total_geral": 162781,
+    "total_farmacia": 34248,
+    "total_geral": 162780,
     "perto_de_terminar": 23,
     "zerados": 8
   },
@@ -6539,19 +6539,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 34,
+      "farmacia": 33,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 34,
+      "total": 33,
       "minimo": 0,
       "validade": "08/27",
       "lote": "",
       "origem": "Carga Farmácia 227-288",
       "obs": "Importação Farmácia 227-288",
-      "atualizado_em": "2026-09-15 15:16:13",
+      "atualizado_em": "2026-09-15 15:37:12",
       "validade_mais_proxima": "08/27",
       "vencimento_mais_proximo": "08/27",
       "lotes_validade": [
@@ -6559,17 +6559,17 @@
           "local": "farmacia",
           "validade": "08/27",
           "lote": "",
-          "quantidade": 34
+          "quantidade": 33
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 222,
-      "previsao_20_dias": 222,
+      "minimo_alerta": 223,
+      "previsao_20_dias": 223,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 33,
-      "media_diaria_saida": 11.09,
-      "total_saida_historica": 366,
-      "cobertura_dias": 3.1,
+      "media_diaria_saida": 11.12,
+      "total_saida_historica": 367,
+      "cobertura_dias": 3.0,
       "alerta_estoque": true
     },
     {
@@ -16929,6 +16929,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 2450,
+      "item_id": 230,
+      "produto_nome": "Ferropurum 20mg/ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 1,
+      "responsavel": "Leiliana",
+      "data": "2026-09-15",
+      "obs": "",
+      "criado_em": "2026-09-15 15:37:12",
+      "item": "Ferropurum 20mg/ml",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 2449,
       "item_id": 276,
       "produto_nome": "Esparadrapo 10x4,5",
@@ -24411,21 +24426,6 @@
       "obs": "",
       "criado_em": "2026-09-09 11:10:53",
       "item": "Cetoprofeno EV 100mg",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1950,
-      "item_id": 69,
-      "produto_nome": "Diclofenaco 25mg",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 20,
-      "responsavel": "Assucena",
-      "data": "2026-09-08",
-      "obs": "",
-      "criado_em": "2026-09-09 11:10:44",
-      "item": "Diclofenaco 25mg",
       "usuario": "Assucena"
     }
   ]
