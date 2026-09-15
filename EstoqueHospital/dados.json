@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "15/09/2026 15:00:54",
+  "atualizado_em": "15/09/2026 15:01:07",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 128532,
-    "total_farmacia": 35298,
-    "total_geral": 163830,
+    "total_farmacia": 35268,
+    "total_geral": 163800,
     "perto_de_terminar": 24,
     "zerados": 9
   },
@@ -4997,19 +4997,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 1560,
+      "farmacia": 1530,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1560,
+      "total": 1530,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-15 10:02:31",
+      "atualizado_em": "2026-09-15 15:01:06",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -5017,17 +5017,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 1560
+          "quantidade": 1530
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 895,
-      "previsao_20_dias": 895,
+      "minimo_alerta": 912,
+      "previsao_20_dias": 912,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 34,
-      "media_diaria_saida": 44.71,
-      "total_saida_historica": 1520,
-      "cobertura_dias": 34.9,
+      "media_diaria_saida": 45.59,
+      "total_saida_historica": 1550,
+      "cobertura_dias": 33.6,
       "alerta_estoque": false
     },
     {
@@ -16934,6 +16934,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 2396,
+      "item_id": 70,
+      "produto_nome": "Dipirona",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 30,
+      "responsavel": "Leiliana",
+      "data": "2026-09-15",
+      "obs": "",
+      "criado_em": "2026-09-15 15:01:06",
+      "item": "Dipirona",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 2395,
       "item_id": 385,
       "produto_nome": "LIDOCAINA S/ VASO",
@@ -24416,21 +24431,6 @@
       "obs": "",
       "criado_em": "2026-09-08 16:43:54",
       "item": "Sinvastatina 20mg CPR",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 1896,
-      "item_id": 60,
-      "produto_nome": "Cetoprofeno EV 100mg",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 10,
-      "responsavel": "Leiliana",
-      "data": "2026-09-04",
-      "obs": "",
-      "criado_em": "2026-09-08 16:43:35",
-      "item": "Cetoprofeno EV 100mg",
       "usuario": "Leiliana"
     }
   ]
