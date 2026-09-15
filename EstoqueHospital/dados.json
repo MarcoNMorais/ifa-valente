@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "15/09/2026 15:02:54",
+  "atualizado_em": "15/09/2026 15:03:11",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 128532,
-    "total_farmacia": 35131,
-    "total_geral": 163663,
+    "total_farmacia": 35119,
+    "total_geral": 163651,
     "perto_de_terminar": 24,
     "zerados": 9
   },
@@ -3067,28 +3067,22 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 400,
-      "farmacia": 12,
+      "farmacia": 0,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 412,
+      "total": 400,
       "minimo": 0,
-      "validade": "2027-09",
+      "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-11 11:17:03",
-      "validade_mais_proxima": "2027-09",
-      "vencimento_mais_proximo": "2027-09",
+      "atualizado_em": "2026-09-15 15:03:10",
+      "validade_mais_proxima": "",
+      "vencimento_mais_proximo": "",
       "lotes_validade": [
-        {
-          "local": "farmacia",
-          "validade": "2027-09",
-          "lote": "",
-          "quantidade": 12
-        },
         {
           "local": "almoxarifado",
           "validade": "",
@@ -3097,13 +3091,13 @@
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 135,
-      "previsao_20_dias": 135,
+      "minimo_alerta": 142,
+      "previsao_20_dias": 142,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 34,
-      "media_diaria_saida": 6.71,
-      "total_saida_historica": 228,
-      "cobertura_dias": 61.4,
+      "media_diaria_saida": 7.06,
+      "total_saida_historica": 240,
+      "cobertura_dias": 56.7,
       "alerta_estoque": false
     },
     {
@@ -16934,6 +16928,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 2403,
+      "item_id": 138,
+      "produto_nome": "Captopril 25mg CPR",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 12,
+      "responsavel": "Leiliana",
+      "data": "2026-09-15",
+      "obs": "",
+      "criado_em": "2026-09-15 15:03:10",
+      "item": "Captopril 25mg CPR",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 2402,
       "item_id": 210,
       "produto_nome": "Ocitocina",
@@ -24416,21 +24425,6 @@
       "obs": "",
       "criado_em": "2026-09-08 16:45:25",
       "item": "Cetoprofeno IM 50mg",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 1903,
-      "item_id": 238,
-      "produto_nome": "Ondansetrona 2mg/ml 2ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 40,
-      "responsavel": "Leiliana",
-      "data": "2026-09-04",
-      "obs": "",
-      "criado_em": "2026-09-08 16:45:15",
-      "item": "Ondansetrona 2mg/ml 2ml",
       "usuario": "Leiliana"
     }
   ]
