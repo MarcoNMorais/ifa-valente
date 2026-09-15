@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "15/09/2026 11:39:54",
+  "atualizado_em": "15/09/2026 11:40:01",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 402,
-    "total_almoxarifado": 128662,
-    "total_farmacia": 36256,
+    "total_almoxarifado": 128642,
+    "total_farmacia": 36276,
     "total_geral": 164918,
     "perto_de_terminar": 22,
     "zerados": 9
@@ -9623,8 +9623,8 @@
       "nome": "Luva cirúrgica tam. 7",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 400,
-      "farmacia": 48,
+      "almoxarifado": 380,
+      "farmacia": 68,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -9636,7 +9636,7 @@
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-09-11 11:17:03",
+      "atualizado_em": "2026-09-15 11:40:00",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -9644,13 +9644,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 400
+          "quantidade": 380
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 48
+          "quantidade": 68
         }
       ],
       "minimo_manual": 0,
@@ -17539,6 +17539,21 @@
       "usuario": "Assucena"
     },
     {
+      "id": 2353,
+      "item_id": 184,
+      "produto_nome": "Luva cirúrgica tam. 7",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 20,
+      "responsavel": "Assucena",
+      "data": "2026-09-14",
+      "obs": "",
+      "criado_em": "2026-09-15 11:40:00",
+      "item": "Luva cirúrgica tam. 7",
+      "usuario": "Assucena"
+    },
+    {
       "id": 2352,
       "item_id": 309,
       "produto_nome": "Campo operatório",
@@ -24376,21 +24391,6 @@
       "obs": "",
       "criado_em": "2026-09-08 16:34:32",
       "item": "Soro Ringer Lactato 500ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 1853,
-      "item_id": 291,
-      "produto_nome": "Cateter tipo óculos adulto",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 5,
-      "responsavel": "Leiliana",
-      "data": "2026-09-04",
-      "obs": "",
-      "criado_em": "2026-09-08 16:34:23",
-      "item": "Cateter tipo óculos adulto",
       "usuario": "Leiliana"
     }
   ]
