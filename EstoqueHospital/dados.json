@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "15/09/2026 10:02:23",
+  "atualizado_em": "15/09/2026 10:02:32",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 397,
     "total_almoxarifado": 102662,
-    "total_farmacia": 36600,
-    "total_geral": 139262,
+    "total_farmacia": 36570,
+    "total_geral": 139232,
     "perto_de_terminar": 17,
     "zerados": 9
   },
@@ -4997,19 +4997,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 1590,
+      "farmacia": 1560,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1590,
+      "total": 1560,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-15 09:56:41",
+      "atualizado_em": "2026-09-15 10:02:31",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -5017,17 +5017,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 1590
+          "quantidade": 1560
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 877,
-      "previsao_20_dias": 877,
+      "minimo_alerta": 895,
+      "previsao_20_dias": 895,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 34,
-      "media_diaria_saida": 43.82,
-      "total_saida_historica": 1490,
-      "cobertura_dias": 36.3,
+      "media_diaria_saida": 44.71,
+      "total_saida_historica": 1520,
+      "cobertura_dias": 34.9,
       "alerta_estoque": false
     },
     {
@@ -16694,6 +16694,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 2263,
+      "item_id": 70,
+      "produto_nome": "Dipirona",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 30,
+      "responsavel": "Assucena",
+      "data": "2026-09-15",
+      "obs": "",
+      "criado_em": "2026-09-15 10:02:31",
+      "item": "Dipirona",
+      "usuario": "Assucena"
+    },
+    {
       "id": 2262,
       "item_id": 55,
       "produto_nome": "Benzilpenicilina 1.200",
@@ -24176,21 +24191,6 @@
       "obs": "",
       "criado_em": "2026-09-08 15:52:35",
       "item": "AGUA P/ INJ",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 1763,
-      "item_id": 239,
-      "produto_nome": "Tramadol 50mg/ml 2ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 10,
-      "responsavel": "Leiliana",
-      "data": "2026-09-04",
-      "obs": "",
-      "criado_em": "2026-09-08 15:52:07",
-      "item": "Tramadol 50mg/ml 2ml",
       "usuario": "Leiliana"
     }
   ]
