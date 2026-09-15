@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "15/09/2026 10:05:26",
+  "atualizado_em": "15/09/2026 10:05:37",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 397,
     "total_almoxarifado": 102622,
-    "total_farmacia": 36478,
-    "total_geral": 139100,
+    "total_farmacia": 36463,
+    "total_geral": 139085,
     "perto_de_terminar": 19,
     "zerados": 9
   },
@@ -2616,19 +2616,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 100,
+      "farmacia": 85,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 100,
+      "total": 85,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-11 11:17:03",
+      "atualizado_em": "2026-09-15 10:05:36",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -2636,17 +2636,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 100
+          "quantidade": 85
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 0,
-      "previsao_20_dias": 0,
+      "minimo_alerta": 14,
+      "previsao_20_dias": 14,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 22,
-      "media_diaria_saida": 0.0,
-      "total_saida_historica": 0,
-      "cobertura_dias": null,
+      "media_diaria_saida": 0.68,
+      "total_saida_historica": 15,
+      "cobertura_dias": 124.7,
       "alerta_estoque": false
     },
     {
@@ -16694,6 +16694,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 2275,
+      "item_id": 348,
+      "produto_nome": "BISTURI N24",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 15,
+      "responsavel": "Assucena",
+      "data": "2026-09-15",
+      "obs": "",
+      "criado_em": "2026-09-15 10:05:36",
+      "item": "BISTURI N24",
+      "usuario": "Assucena"
+    },
+    {
       "id": 2274,
       "item_id": 98,
       "produto_nome": "Scalp nº 23",
@@ -24176,21 +24191,6 @@
       "obs": "",
       "criado_em": "2026-09-08 15:55:57",
       "item": "Clonazepam gotas 25mg/ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 1775,
-      "item_id": 256,
-      "produto_nome": "Simeticona gotas",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 1,
-      "responsavel": "Leiliana",
-      "data": "2026-09-04",
-      "obs": "",
-      "criado_em": "2026-09-08 15:55:44",
-      "item": "Simeticona gotas",
       "usuario": "Leiliana"
     }
   ]
