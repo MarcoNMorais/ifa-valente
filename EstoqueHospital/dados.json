@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "15/09/2026 15:03:48",
+  "atualizado_em": "15/09/2026 15:03:59",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 128532,
-    "total_farmacia": 35114,
-    "total_geral": 163646,
+    "total_farmacia": 35113,
+    "total_geral": 163645,
     "perto_de_terminar": 24,
     "zerados": 9
   },
@@ -2296,19 +2296,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 8,
+      "farmacia": 7,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 8,
+      "total": 7,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-14 11:26:24",
+      "atualizado_em": "2026-09-15 15:03:59",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -2316,17 +2316,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 8
+          "quantidade": 7
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 2,
-      "previsao_20_dias": 2,
+      "minimo_alerta": 3,
+      "previsao_20_dias": 3,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 29,
-      "media_diaria_saida": 0.07,
-      "total_saida_historica": 2,
-      "cobertura_dias": 116.0,
+      "media_diaria_saida": 0.1,
+      "total_saida_historica": 3,
+      "cobertura_dias": 67.7,
       "alerta_estoque": false
     },
     {
@@ -16928,6 +16928,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 2406,
+      "item_id": 253,
+      "produto_nome": "Azitromicina 600mg suspensão",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 1,
+      "responsavel": "Leiliana",
+      "data": "2026-09-15",
+      "obs": "",
+      "criado_em": "2026-09-15 15:03:59",
+      "item": "Azitromicina 600mg suspensão",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 2405,
       "item_id": 230,
       "produto_nome": "Ferropurum 20mg/ml",
@@ -24410,21 +24425,6 @@
       "obs": "",
       "criado_em": "2026-09-08 16:46:13",
       "item": "Fio categute nº 3",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 1906,
-      "item_id": 216,
-      "produto_nome": "Fio agulhado / sutura nº 3",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 20,
-      "responsavel": "Leiliana",
-      "data": "2026-09-04",
-      "obs": "",
-      "criado_em": "2026-09-08 16:45:54",
-      "item": "Fio agulhado / sutura nº 3",
       "usuario": "Leiliana"
     }
   ]
