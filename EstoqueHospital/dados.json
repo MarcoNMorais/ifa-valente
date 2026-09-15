@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "15/09/2026 11:11:58",
+  "atualizado_em": "15/09/2026 11:12:04",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
-    "itens": 401,
-    "total_almoxarifado": 128629,
+    "itens": 402,
+    "total_almoxarifado": 128641,
     "total_farmacia": 36203,
-    "total_geral": 164832,
+    "total_geral": 164844,
     "perto_de_terminar": 22,
     "zerados": 9
   },
@@ -8937,6 +8937,46 @@
       "alerta_estoque": false
     },
     {
+      "id": 402,
+      "produto_id": 403,
+      "nome": "KIT ACESSO CENTRAL",
+      "tipo": "Material",
+      "unidade": "Unidade",
+      "almoxarifado": 12,
+      "farmacia": 0,
+      "sala_medicacoes": 0,
+      "internamento": 0,
+      "sala_cirurgica": 0,
+      "baixa": 0,
+      "outro": 0,
+      "total": 12,
+      "minimo": 0,
+      "validade": "",
+      "lote": "",
+      "origem": "Entrada externa",
+      "obs": "",
+      "atualizado_em": "2026-09-15 11:12:02",
+      "validade_mais_proxima": "",
+      "vencimento_mais_proximo": "",
+      "lotes_validade": [
+        {
+          "local": "almoxarifado",
+          "validade": "",
+          "lote": "",
+          "quantidade": 12
+        }
+      ],
+      "minimo_manual": 0,
+      "minimo_alerta": 0,
+      "previsao_20_dias": 0,
+      "criterio_alerta": "estoque_minimo_manual_inicio",
+      "dias_historico": 2,
+      "media_diaria_saida": 0.0,
+      "total_saida_historica": 0,
+      "cobertura_dias": null,
+      "alerta_estoque": false
+    },
+    {
       "id": 232,
       "produto_id": 232,
       "nome": "Kollagenase com Cloranfenicol pomada",
@@ -17478,6 +17518,21 @@
       "usuario": "Assucena"
     },
     {
+      "id": 2346,
+      "item_id": 402,
+      "produto_nome": "KIT ACESSO CENTRAL",
+      "tipo": "Entrada no Almoxarifado",
+      "origem": "Entrada externa",
+      "destino": "Almoxarifado",
+      "quantidade": 12,
+      "responsavel": "Assucena",
+      "data": "2026-09-14",
+      "obs": "",
+      "criado_em": "2026-09-15 11:12:02",
+      "item": "KIT ACESSO CENTRAL",
+      "usuario": "Assucena"
+    },
+    {
       "id": 2345,
       "item_id": 401,
       "produto_nome": "FRALDA XG ADULTO PACOTE",
@@ -24330,21 +24385,6 @@
       "obs": "",
       "criado_em": "2026-09-08 16:31:09",
       "item": "Hidrocortisona 100MG",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 1846,
-      "item_id": 238,
-      "produto_nome": "Ondansetrona 2mg/ml 2ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 30,
-      "responsavel": "Leiliana",
-      "data": "2026-09-04",
-      "obs": "",
-      "criado_em": "2026-09-08 16:30:45",
-      "item": "Ondansetrona 2mg/ml 2ml",
       "usuario": "Leiliana"
     }
   ]
