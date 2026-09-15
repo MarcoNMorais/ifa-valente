@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "15/09/2026 09:56:33",
+  "atualizado_em": "15/09/2026 09:56:42",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 397,
     "total_almoxarifado": 102831,
-    "total_farmacia": 36957,
-    "total_geral": 139788,
+    "total_farmacia": 36927,
+    "total_geral": 139758,
     "perto_de_terminar": 17,
     "zerados": 9
   },
@@ -4997,19 +4997,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 1620,
+      "farmacia": 1590,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1620,
+      "total": 1590,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-14 11:22:02",
+      "atualizado_em": "2026-09-15 09:56:41",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -5017,17 +5017,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 1620
+          "quantidade": 1590
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 859,
-      "previsao_20_dias": 859,
+      "minimo_alerta": 877,
+      "previsao_20_dias": 877,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 34,
-      "media_diaria_saida": 42.94,
-      "total_saida_historica": 1460,
-      "cobertura_dias": 37.7,
+      "media_diaria_saida": 43.82,
+      "total_saida_historica": 1490,
+      "cobertura_dias": 36.3,
       "alerta_estoque": false
     },
     {
@@ -16694,6 +16694,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 2230,
+      "item_id": 70,
+      "produto_nome": "Dipirona",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 30,
+      "responsavel": "Assucena",
+      "data": "2026-09-14",
+      "obs": "",
+      "criado_em": "2026-09-15 09:56:41",
+      "item": "Dipirona",
+      "usuario": "Assucena"
+    },
+    {
       "id": 2229,
       "item_id": 154,
       "produto_nome": "Equipo fotossensível",
@@ -24176,21 +24191,6 @@
       "obs": "",
       "criado_em": "2026-09-08 15:38:29",
       "item": "Dispositivo intravenoso Gelco nº 22",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 1730,
-      "item_id": 175,
-      "produto_nome": "Fita cirúrgica microporosa",
-      "tipo": "Entrada no Almoxarifado",
-      "origem": "Entrada externa",
-      "destino": "Almoxarifado",
-      "quantidade": 80,
-      "responsavel": "Leiliana",
-      "data": "2026-09-04",
-      "obs": "",
-      "criado_em": "2026-09-08 15:38:16",
-      "item": "Fita cirúrgica microporosa",
       "usuario": "Leiliana"
     }
   ]
