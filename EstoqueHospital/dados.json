@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "15/09/2026 11:03:20",
+  "atualizado_em": "15/09/2026 11:03:40",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 397,
@@ -5295,52 +5295,6 @@
       "alerta_estoque": false
     },
     {
-      "id": 177,
-      "produto_id": 177,
-      "nome": "Dispositivo intravenoso Gelco nº 22",
-      "tipo": "Material",
-      "unidade": "Unidade",
-      "almoxarifado": 1240,
-      "farmacia": 138,
-      "sala_medicacoes": 0,
-      "internamento": 0,
-      "sala_cirurgica": 0,
-      "baixa": 0,
-      "outro": 0,
-      "total": 1378,
-      "minimo": 0,
-      "validade": "",
-      "lote": "",
-      "origem": "Entrada externa",
-      "obs": "",
-      "atualizado_em": "2026-09-15 10:05:05",
-      "validade_mais_proxima": "",
-      "vencimento_mais_proximo": "",
-      "lotes_validade": [
-        {
-          "local": "almoxarifado",
-          "validade": "",
-          "lote": "",
-          "quantidade": 1240
-        },
-        {
-          "local": "farmacia",
-          "validade": "",
-          "lote": "",
-          "quantidade": 138
-        }
-      ],
-      "minimo_manual": 0,
-      "minimo_alerta": 359,
-      "previsao_20_dias": 359,
-      "criterio_alerta": "media_uso_20_dias",
-      "dias_historico": 34,
-      "media_diaria_saida": 17.94,
-      "total_saida_historica": 610,
-      "cobertura_dias": 76.8,
-      "alerta_estoque": false
-    },
-    {
       "id": 176,
       "produto_id": 176,
       "nome": "Dispositivo intravenoso Gelco nº 24",
@@ -7748,6 +7702,52 @@
       "media_diaria_saida": 0.0,
       "total_saida_historica": 0,
       "cobertura_dias": null,
+      "alerta_estoque": false
+    },
+    {
+      "id": 177,
+      "produto_id": 177,
+      "nome": "Gelco nº 22",
+      "tipo": "Material",
+      "unidade": "Unidade",
+      "almoxarifado": 1240,
+      "farmacia": 138,
+      "sala_medicacoes": 0,
+      "internamento": 0,
+      "sala_cirurgica": 0,
+      "baixa": 0,
+      "outro": 0,
+      "total": 1378,
+      "minimo": 0,
+      "validade": "",
+      "lote": "",
+      "origem": "Entrada externa",
+      "obs": "",
+      "atualizado_em": "2026-09-15 10:05:05",
+      "validade_mais_proxima": "",
+      "vencimento_mais_proximo": "",
+      "lotes_validade": [
+        {
+          "local": "almoxarifado",
+          "validade": "",
+          "lote": "",
+          "quantidade": 1240
+        },
+        {
+          "local": "farmacia",
+          "validade": "",
+          "lote": "",
+          "quantidade": 138
+        }
+      ],
+      "minimo_manual": 0,
+      "minimo_alerta": 359,
+      "previsao_20_dias": 359,
+      "criterio_alerta": "media_uso_20_dias",
+      "dias_historico": 34,
+      "media_diaria_saida": 17.94,
+      "total_saida_historica": 610,
+      "cobertura_dias": 76.8,
       "alerta_estoque": false
     },
     {
@@ -17089,7 +17089,7 @@
     {
       "id": 2272,
       "item_id": 177,
-      "produto_nome": "Dispositivo intravenoso Gelco nº 22",
+      "produto_nome": "Gelco nº 22",
       "tipo": "Farmácia para Sala de Medicações",
       "origem": "Farmácia",
       "destino": "Sala de Medicações",
@@ -17098,7 +17098,7 @@
       "data": "2026-09-15",
       "obs": "",
       "criado_em": "2026-09-15 10:05:05",
-      "item": "Dispositivo intravenoso Gelco nº 22",
+      "item": "Gelco nº 22",
       "usuario": "Assucena"
     },
     {
@@ -18244,7 +18244,7 @@
     {
       "id": 2219,
       "item_id": 177,
-      "produto_nome": "Dispositivo intravenoso Gelco nº 22",
+      "produto_nome": "Gelco nº 22",
       "tipo": "Farmácia para Sala de Medicações",
       "origem": "Farmácia",
       "destino": "Sala de Medicações",
@@ -18253,7 +18253,7 @@
       "data": "2026-09-14",
       "obs": "",
       "criado_em": "2026-09-15 09:54:53",
-      "item": "Dispositivo intravenoso Gelco nº 22",
+      "item": "Gelco nº 22",
       "usuario": "Assucena"
     },
     {
@@ -19219,7 +19219,7 @@
     {
       "id": 2148,
       "item_id": 177,
-      "produto_nome": "Dispositivo intravenoso Gelco nº 22",
+      "produto_nome": "Gelco nº 22",
       "tipo": "Farmácia para Sala de Medicações",
       "origem": "Farmácia",
       "destino": "Sala de Medicações",
@@ -19228,7 +19228,7 @@
       "data": "2026-09-12",
       "obs": "",
       "criado_em": "2026-09-14 11:21:00",
-      "item": "Dispositivo intravenoso Gelco nº 22",
+      "item": "Gelco nº 22",
       "usuario": "Assucena"
     },
     {
@@ -19414,7 +19414,7 @@
     {
       "id": 2141,
       "item_id": 177,
-      "produto_nome": "Dispositivo intravenoso Gelco nº 22",
+      "produto_nome": "Gelco nº 22",
       "tipo": "Almoxarifado para Farmácia",
       "origem": "Almoxarifado",
       "destino": "Farmácia",
@@ -19423,7 +19423,7 @@
       "data": "2026-09-11",
       "obs": "",
       "criado_em": "2026-09-11 11:27:46",
-      "item": "Dispositivo intravenoso Gelco nº 22",
+      "item": "Gelco nº 22",
       "usuario": "Assucena"
     },
     {
@@ -19819,7 +19819,7 @@
     {
       "id": 2114,
       "item_id": 177,
-      "produto_nome": "Dispositivo intravenoso Gelco nº 22",
+      "produto_nome": "Gelco nº 22",
       "tipo": "Farmácia para Sala de Medicações",
       "origem": "Farmácia",
       "destino": "Sala de Medicações",
@@ -19828,7 +19828,7 @@
       "data": "2026-09-11",
       "obs": "",
       "criado_em": "2026-09-11 11:21:45",
-      "item": "Dispositivo intravenoso Gelco nº 22",
+      "item": "Gelco nº 22",
       "usuario": "Assucena"
     },
     {
@@ -20419,7 +20419,7 @@
     {
       "id": 2074,
       "item_id": 177,
-      "produto_nome": "Dispositivo intravenoso Gelco nº 22",
+      "produto_nome": "Gelco nº 22",
       "tipo": "Farmácia para Sala de Medicações",
       "origem": "Farmácia",
       "destino": "Sala de Medicações",
@@ -20428,7 +20428,7 @@
       "data": "2026-09-10",
       "obs": "",
       "criado_em": "2026-09-10 14:57:35",
-      "item": "Dispositivo intravenoso Gelco nº 22",
+      "item": "Gelco nº 22",
       "usuario": "Leiliana"
     },
     {
@@ -21979,7 +21979,7 @@
     {
       "id": 1970,
       "item_id": 177,
-      "produto_nome": "Dispositivo intravenoso Gelco nº 22",
+      "produto_nome": "Gelco nº 22",
       "tipo": "Farmácia para Sala de Medicações",
       "origem": "Farmácia",
       "destino": "Sala de Medicações",
@@ -21988,7 +21988,7 @@
       "data": "2026-09-08",
       "obs": "",
       "criado_em": "2026-09-09 11:18:06",
-      "item": "Dispositivo intravenoso Gelco nº 22",
+      "item": "Gelco nº 22",
       "usuario": "Assucena"
     },
     {
@@ -22684,7 +22684,7 @@
     {
       "id": 1923,
       "item_id": 177,
-      "produto_nome": "Dispositivo intravenoso Gelco nº 22",
+      "produto_nome": "Gelco nº 22",
       "tipo": "Farmácia para Sala de Medicações",
       "origem": "Farmácia",
       "destino": "Sala de Medicações",
@@ -22693,7 +22693,7 @@
       "data": "2026-09-04",
       "obs": "",
       "criado_em": "2026-09-08 16:50:46",
-      "item": "Dispositivo intravenoso Gelco nº 22",
+      "item": "Gelco nº 22",
       "usuario": "Leiliana"
     },
     {
@@ -23404,7 +23404,7 @@
     {
       "id": 1875,
       "item_id": 177,
-      "produto_nome": "Dispositivo intravenoso Gelco nº 22",
+      "produto_nome": "Gelco nº 22",
       "tipo": "Farmácia para Sala de Medicações",
       "origem": "Farmácia",
       "destino": "Sala de Medicações",
@@ -23413,7 +23413,7 @@
       "data": "2026-09-04",
       "obs": "",
       "criado_em": "2026-09-08 16:39:42",
-      "item": "Dispositivo intravenoso Gelco nº 22",
+      "item": "Gelco nº 22",
       "usuario": "Leiliana"
     },
     {
@@ -24109,7 +24109,7 @@
     {
       "id": 1828,
       "item_id": 177,
-      "produto_nome": "Dispositivo intravenoso Gelco nº 22",
+      "produto_nome": "Gelco nº 22",
       "tipo": "Farmácia para Sala de Medicações",
       "origem": "Farmácia",
       "destino": "Sala de Medicações",
@@ -24118,7 +24118,7 @@
       "data": "2026-09-04",
       "obs": "",
       "criado_em": "2026-09-08 16:26:30",
-      "item": "Dispositivo intravenoso Gelco nº 22",
+      "item": "Gelco nº 22",
       "usuario": "Leiliana"
     },
     {
