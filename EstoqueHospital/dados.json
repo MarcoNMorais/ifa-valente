@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "15/09/2026 15:00:00",
+  "atualizado_em": "15/09/2026 15:00:16",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 128532,
-    "total_farmacia": 35373,
-    "total_geral": 163905,
+    "total_farmacia": 35355,
+    "total_geral": 163887,
     "perto_de_terminar": 24,
     "zerados": 9
   },
@@ -3411,19 +3411,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 377,
+      "farmacia": 359,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 377,
+      "total": 359,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-15 09:57:01",
+      "atualizado_em": "2026-09-15 15:00:15",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -3431,17 +3431,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 377
+          "quantidade": 359
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 208,
-      "previsao_20_dias": 208,
+      "minimo_alerta": 219,
+      "previsao_20_dias": 219,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 34,
-      "media_diaria_saida": 10.38,
-      "total_saida_historica": 353,
-      "cobertura_dias": 36.3,
+      "media_diaria_saida": 10.91,
+      "total_saida_historica": 371,
+      "cobertura_dias": 32.9,
       "alerta_estoque": false
     },
     {
@@ -16934,6 +16934,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 2392,
+      "item_id": 60,
+      "produto_nome": "Cetoprofeno EV 100mg",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 18,
+      "responsavel": "Leiliana",
+      "data": "2026-09-15",
+      "obs": "",
+      "criado_em": "2026-09-15 15:00:15",
+      "item": "Cetoprofeno EV 100mg",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 2391,
       "item_id": 238,
       "produto_nome": "Ondansetrona 2mg/ml 2ml",
@@ -24416,21 +24431,6 @@
       "obs": "",
       "criado_em": "2026-09-08 16:43:05",
       "item": "Omeprazol sódico 40mg AMP",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 1892,
-      "item_id": 59,
-      "produto_nome": "Ceftriaxona 1g",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 10,
-      "responsavel": "Leiliana",
-      "data": "2026-09-04",
-      "obs": "",
-      "criado_em": "2026-09-08 16:42:47",
-      "item": "Ceftriaxona 1g",
       "usuario": "Leiliana"
     }
   ]
