@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "15/09/2026 14:48:54",
+  "atualizado_em": "15/09/2026 14:49:46",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
-    "itens": 402,
-    "total_almoxarifado": 128532,
+    "itens": 403,
+    "total_almoxarifado": 128627,
     "total_farmacia": 36017,
-    "total_geral": 164549,
+    "total_geral": 164644,
     "perto_de_terminar": 24,
     "zerados": 9
   },
@@ -16407,6 +16407,46 @@
       "alerta_estoque": false
     },
     {
+      "id": 403,
+      "produto_id": 404,
+      "nome": "vancomicina",
+      "tipo": "Medicamento",
+      "unidade": "Unidade",
+      "almoxarifado": 95,
+      "farmacia": 0,
+      "sala_medicacoes": 0,
+      "internamento": 0,
+      "sala_cirurgica": 0,
+      "baixa": 0,
+      "outro": 0,
+      "total": 95,
+      "minimo": 0,
+      "validade": "",
+      "lote": "",
+      "origem": "Entrada externa",
+      "obs": "",
+      "atualizado_em": "2026-09-15 14:49:45",
+      "validade_mais_proxima": "",
+      "vencimento_mais_proximo": "",
+      "lotes_validade": [
+        {
+          "local": "almoxarifado",
+          "validade": "",
+          "lote": "",
+          "quantidade": 95
+        }
+      ],
+      "minimo_manual": 0,
+      "minimo_alerta": 0,
+      "previsao_20_dias": 0,
+      "criterio_alerta": "estoque_minimo_manual_inicio",
+      "dias_historico": 1,
+      "media_diaria_saida": 0.0,
+      "total_saida_historica": 0,
+      "cobertura_dias": null,
+      "alerta_estoque": false
+    },
+    {
       "id": 212,
       "produto_id": 212,
       "nome": "Vasopressina",
@@ -16893,6 +16933,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 2371,
+      "item_id": 403,
+      "produto_nome": "vancomicina",
+      "tipo": "Entrada no Almoxarifado",
+      "origem": "Entrada externa",
+      "destino": "Almoxarifado",
+      "quantidade": 95,
+      "responsavel": "Leiliana",
+      "data": "2026-09-15",
+      "obs": "",
+      "criado_em": "2026-09-15 14:49:45",
+      "item": "vancomicina",
+      "usuario": "Leiliana"
+    },
     {
       "id": 2370,
       "item_id": 224,
@@ -24376,21 +24431,6 @@
       "obs": "",
       "criado_em": "2026-09-08 16:38:45",
       "item": "Agulha 30x8",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 1871,
-      "item_id": 285,
-      "produto_nome": "Agulha 30x7",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 50,
-      "responsavel": "Leiliana",
-      "data": "2026-09-04",
-      "obs": "",
-      "criado_em": "2026-09-08 16:38:34",
-      "item": "Agulha 30x7",
       "usuario": "Leiliana"
     }
   ]
