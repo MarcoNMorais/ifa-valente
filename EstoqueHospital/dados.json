@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "15/09/2026 15:15:37",
+  "atualizado_em": "15/09/2026 15:15:49",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 128532,
-    "total_farmacia": 34384,
-    "total_geral": 162916,
+    "total_farmacia": 34364,
+    "total_geral": 162896,
     "perto_de_terminar": 23,
     "zerados": 8
   },
@@ -2914,19 +2914,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 300,
+      "farmacia": 280,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 300,
+      "total": 280,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-15 10:02:04",
+      "atualizado_em": "2026-09-15 15:15:48",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -2934,17 +2934,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 300
+          "quantidade": 280
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 195,
-      "previsao_20_dias": 195,
+      "minimo_alerta": 206,
+      "previsao_20_dias": 206,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 34,
-      "media_diaria_saida": 9.71,
-      "total_saida_historica": 330,
-      "cobertura_dias": 30.9,
+      "media_diaria_saida": 10.29,
+      "total_saida_historica": 350,
+      "cobertura_dias": 27.2,
       "alerta_estoque": false
     },
     {
@@ -16929,6 +16929,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 2438,
+      "item_id": 57,
+      "produto_nome": "Bromoprida 5mg",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 20,
+      "responsavel": "Leiliana",
+      "data": "2026-09-15",
+      "obs": "",
+      "criado_em": "2026-09-15 15:15:48",
+      "item": "Bromoprida 5mg",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 2437,
       "item_id": 70,
       "produto_nome": "Dipirona",
@@ -24411,21 +24426,6 @@
       "obs": "",
       "criado_em": "2026-09-08 16:55:38",
       "item": "Lanceta de segurança",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 1938,
-      "item_id": 176,
-      "produto_nome": "Gelco nº 24",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 30,
-      "responsavel": "Leiliana",
-      "data": "2026-09-04",
-      "obs": "",
-      "criado_em": "2026-09-08 16:55:27",
-      "item": "Gelco nº 24",
       "usuario": "Leiliana"
     }
   ]
