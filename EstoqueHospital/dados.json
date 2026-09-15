@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "15/09/2026 09:53:11",
+  "atualizado_em": "15/09/2026 09:53:25",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 397,
     "total_almoxarifado": 102831,
-    "total_farmacia": 37286,
-    "total_geral": 140117,
+    "total_farmacia": 37283,
+    "total_geral": 140114,
     "perto_de_terminar": 17,
     "zerados": 9
   },
@@ -11377,19 +11377,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 5,
+      "farmacia": 2,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 5,
+      "total": 2,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-11 11:17:03",
+      "atualizado_em": "2026-09-15 09:53:24",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -11397,7 +11397,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 5
+          "quantidade": 2
         }
       ],
       "minimo_manual": 0,
@@ -11405,9 +11405,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 12,
-      "media_diaria_saida": 0.33,
-      "total_saida_historica": 4,
-      "cobertura_dias": 15.0,
+      "media_diaria_saida": 0.58,
+      "total_saida_historica": 7,
+      "cobertura_dias": 3.4,
       "alerta_estoque": false
     },
     {
@@ -16693,6 +16693,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 2212,
+      "item_id": 380,
+      "produto_nome": "OLEO MINERAL",
+      "tipo": "Farmácia para Posto de Internamento",
+      "origem": "Farmácia",
+      "destino": "Posto de Internamento",
+      "quantidade": 3,
+      "responsavel": "Assucena",
+      "data": "2026-09-14",
+      "obs": "",
+      "criado_em": "2026-09-15 09:53:24",
+      "item": "OLEO MINERAL",
+      "usuario": "Assucena"
+    },
     {
       "id": 2211,
       "item_id": 244,
@@ -24176,21 +24191,6 @@
       "obs": "",
       "criado_em": "2026-09-08 15:29:55",
       "item": "Agulha 13x4,5",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 1712,
-      "item_id": 389,
-      "produto_nome": "CLOREXIDINA 2% ALCOOLICA",
-      "tipo": "Entrada no Almoxarifado",
-      "origem": "Entrada externa",
-      "destino": "Almoxarifado",
-      "quantidade": 5,
-      "responsavel": "Leiliana",
-      "data": "2026-09-04",
-      "obs": "",
-      "criado_em": "2026-09-08 15:29:31",
-      "item": "CLOREXIDINA 2% ALCOOLICA",
       "usuario": "Leiliana"
     }
   ]
