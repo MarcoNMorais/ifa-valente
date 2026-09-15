@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "15/09/2026 09:55:28",
+  "atualizado_em": "15/09/2026 09:55:35",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 397,
     "total_almoxarifado": 102831,
-    "total_farmacia": 37095,
-    "total_geral": 139926,
+    "total_farmacia": 37070,
+    "total_geral": 139901,
     "perto_de_terminar": 17,
     "zerados": 9
   },
@@ -5798,19 +5798,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 1150,
-      "farmacia": 200,
+      "farmacia": 175,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1350,
+      "total": 1325,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-15 09:55:27",
+      "atualizado_em": "2026-09-15 09:55:34",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -5824,17 +5824,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 200
+          "quantidade": 175
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 192,
-      "previsao_20_dias": 192,
+      "minimo_alerta": 206,
+      "previsao_20_dias": 206,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 34,
-      "media_diaria_saida": 9.56,
-      "total_saida_historica": 325,
-      "cobertura_dias": 141.2,
+      "media_diaria_saida": 10.29,
+      "total_saida_historica": 350,
+      "cobertura_dias": 128.7,
       "alerta_estoque": false
     },
     {
@@ -16694,6 +16694,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 2223,
+      "item_id": 220,
+      "produto_nome": "Equipo macrogotas",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 25,
+      "responsavel": "Assucena",
+      "data": "2026-09-14",
+      "obs": "",
+      "criado_em": "2026-09-15 09:55:34",
+      "item": "Equipo macrogotas",
+      "usuario": "Assucena"
+    },
+    {
       "id": 2222,
       "item_id": 220,
       "produto_nome": "Equipo macrogotas",
@@ -24176,21 +24191,6 @@
       "obs": "",
       "criado_em": "2026-09-08 15:36:41",
       "item": "COMPRESSA DE GAZES",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 1723,
-      "item_id": 155,
-      "produto_nome": "Bolsa coletora",
-      "tipo": "Entrada no Almoxarifado",
-      "origem": "Entrada externa",
-      "destino": "Almoxarifado",
-      "quantidade": 60,
-      "responsavel": "Leiliana",
-      "data": "2026-09-04",
-      "obs": "",
-      "criado_em": "2026-09-08 15:35:55",
-      "item": "Bolsa coletora",
       "usuario": "Leiliana"
     }
   ]
