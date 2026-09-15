@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "15/09/2026 15:14:58",
+  "atualizado_em": "15/09/2026 15:15:11",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 128532,
-    "total_farmacia": 34455,
-    "total_geral": 162987,
+    "total_farmacia": 34454,
+    "total_geral": 162986,
     "perto_de_terminar": 23,
     "zerados": 8
   },
@@ -2994,19 +2994,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 10,
+      "farmacia": 9,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 10,
+      "total": 9,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-15 15:14:57",
+      "atualizado_em": "2026-09-15 15:15:10",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -3014,17 +3014,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 10
+          "quantidade": 9
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 5,
-      "previsao_20_dias": 5,
+      "minimo_alerta": 6,
+      "previsao_20_dias": 6,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 34,
-      "media_diaria_saida": 0.24,
-      "total_saida_historica": 8,
-      "cobertura_dias": 42.5,
+      "media_diaria_saida": 0.26,
+      "total_saida_historica": 9,
+      "cobertura_dias": 34.0,
       "alerta_estoque": false
     },
     {
@@ -16935,6 +16935,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 2435,
+      "item_id": 200,
+      "produto_nome": "Caixa de perfurocortante",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 1,
+      "responsavel": "Leiliana",
+      "data": "2026-09-15",
+      "obs": "",
+      "criado_em": "2026-09-15 15:15:10",
+      "item": "Caixa de perfurocortante",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 2434,
       "item_id": 200,
       "produto_nome": "Caixa de perfurocortante",
@@ -24416,21 +24431,6 @@
       "data": "2026-09-04",
       "obs": "",
       "criado_em": "2026-09-08 16:55:04",
-      "item": "Luva de vinil P",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 1935,
-      "item_id": 278,
-      "produto_nome": "Luva de vinil P",
-      "tipo": "Almoxarifado para Farmácia",
-      "origem": "Almoxarifado",
-      "destino": "Farmácia",
-      "quantidade": 700,
-      "responsavel": "Leiliana",
-      "data": "2026-09-04",
-      "obs": "",
-      "criado_em": "2026-09-08 16:54:16",
       "item": "Luva de vinil P",
       "usuario": "Leiliana"
     }
