@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "15/09/2026 10:44:56",
+  "atualizado_em": "15/09/2026 10:45:14",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 397,
-    "total_almoxarifado": 102539,
-    "total_farmacia": 36170,
+    "total_almoxarifado": 102232,
+    "total_farmacia": 36477,
     "total_geral": 138709,
     "perto_de_terminar": 20,
     "zerados": 9
@@ -8330,8 +8330,8 @@
       "nome": "Hidrocortisona 100MG",
       "tipo": "Medicamento",
       "unidade": "Unidade",
-      "almoxarifado": 307,
-      "farmacia": 116,
+      "almoxarifado": 0,
+      "farmacia": 423,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -8343,7 +8343,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "ajuste de estoque ",
-      "atualizado_em": "2026-09-15 10:44:55",
+      "atualizado_em": "2026-09-15 10:45:13",
       "validade_mais_proxima": "2027-08",
       "vencimento_mais_proximo": "2027-08",
       "lotes_validade": [
@@ -8354,7 +8354,7 @@
           "quantidade": 116
         },
         {
-          "local": "almoxarifado",
+          "local": "farmacia",
           "validade": "",
           "lote": "",
           "quantidade": 307
@@ -17294,6 +17294,21 @@
       "usuario": "Assucena"
     },
     {
+      "id": 2301,
+      "item_id": 82,
+      "produto_nome": "Hidrocortisona 100MG",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 307,
+      "responsavel": "Assucena",
+      "data": "2026-09-14",
+      "obs": "",
+      "criado_em": "2026-09-15 10:45:13",
+      "item": "Hidrocortisona 100MG",
+      "usuario": "Assucena"
+    },
+    {
       "id": 2300,
       "item_id": 82,
       "produto_nome": "Hidrocortisona 100MG",
@@ -24176,21 +24191,6 @@
       "obs": "",
       "criado_em": "2026-09-08 16:06:08",
       "item": "Prednisolona 3mg/ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 1801,
-      "item_id": 230,
-      "produto_nome": "Ferropurum 20mg/ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 4,
-      "responsavel": "Leiliana",
-      "data": "2026-09-04",
-      "obs": "",
-      "criado_em": "2026-09-08 16:05:58",
-      "item": "Ferropurum 20mg/ml",
       "usuario": "Leiliana"
     }
   ]
