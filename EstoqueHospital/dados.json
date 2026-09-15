@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "15/09/2026 15:12:03",
+  "atualizado_em": "15/09/2026 15:12:14",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 128532,
-    "total_farmacia": 34715,
-    "total_geral": 163247,
+    "total_farmacia": 34705,
+    "total_geral": 163237,
     "perto_de_terminar": 24,
     "zerados": 9
   },
@@ -7779,19 +7779,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 1480,
-      "farmacia": 123,
+      "farmacia": 113,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1603,
+      "total": 1593,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-15 14:56:37",
+      "atualizado_em": "2026-09-15 15:12:13",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -7805,17 +7805,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 123
+          "quantidade": 113
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 368,
-      "previsao_20_dias": 368,
+      "minimo_alerta": 374,
+      "previsao_20_dias": 374,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 34,
-      "media_diaria_saida": 18.38,
-      "total_saida_historica": 625,
-      "cobertura_dias": 87.2,
+      "media_diaria_saida": 18.68,
+      "total_saida_historica": 635,
+      "cobertura_dias": 85.3,
       "alerta_estoque": false
     },
     {
@@ -16934,6 +16934,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 2425,
+      "item_id": 177,
+      "produto_nome": "Gelco nº 22",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 10,
+      "responsavel": "Leiliana",
+      "data": "2026-09-15",
+      "obs": "",
+      "criado_em": "2026-09-15 15:12:13",
+      "item": "Gelco nº 22",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 2424,
       "item_id": 176,
       "produto_nome": "Gelco nº 24",
@@ -24416,21 +24431,6 @@
       "obs": "",
       "criado_em": "2026-09-08 16:51:24",
       "item": "Agulha 30x8",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 1925,
-      "item_id": 286,
-      "produto_nome": "Agulha 40x12",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 70,
-      "responsavel": "Leiliana",
-      "data": "2026-09-04",
-      "obs": "",
-      "criado_em": "2026-09-08 16:51:14",
-      "item": "Agulha 40x12",
       "usuario": "Leiliana"
     }
   ]
