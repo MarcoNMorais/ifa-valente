@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "16/09/2026 10:28:32",
+  "atualizado_em": "16/09/2026 10:28:45",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 125756,
-    "total_farmacia": 33133,
-    "total_geral": 158889,
+    "total_farmacia": 33113,
+    "total_geral": 158869,
     "perto_de_terminar": 20,
     "zerados": 7
   },
@@ -315,19 +315,19 @@
       "tipo": "Medicamento",
       "unidade": "Ampola",
       "almoxarifado": 0,
-      "farmacia": 140,
+      "farmacia": 120,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 140,
+      "total": 120,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-15 16:24:57",
+      "atualizado_em": "2026-09-16 10:28:44",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -335,7 +335,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 140
+          "quantidade": 120
         }
       ],
       "minimo_manual": 0,
@@ -343,9 +343,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 13,
-      "media_diaria_saida": 7.69,
-      "total_saida_historica": 100,
-      "cobertura_dias": 18.2,
+      "media_diaria_saida": 9.23,
+      "total_saida_historica": 120,
+      "cobertura_dias": 13.0,
       "alerta_estoque": false
     },
     {
@@ -16942,6 +16942,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 2480,
+      "item_id": 384,
+      "produto_nome": "ACIDO ASCORBICO",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 20,
+      "responsavel": "Assucena",
+      "data": "2026-09-16",
+      "obs": "",
+      "criado_em": "2026-09-16 10:28:44",
+      "item": "ACIDO ASCORBICO",
+      "usuario": "Assucena"
+    },
+    {
       "id": 2479,
       "item_id": 387,
       "produto_nome": "HIDROCORTIZONA 500MG",
@@ -24424,21 +24439,6 @@
       "obs": "",
       "criado_em": "2026-09-09 11:19:52",
       "item": "Atadura crepon nº 20",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1980,
-      "item_id": 152,
-      "produto_nome": "Atadura crepon nº 10",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 12,
-      "responsavel": "Assucena",
-      "data": "2026-09-08",
-      "obs": "",
-      "criado_em": "2026-09-09 11:19:46",
-      "item": "Atadura crepon nº 10",
       "usuario": "Assucena"
     }
   ]
