@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "16/09/2026 11:03:11",
+  "atualizado_em": "16/09/2026 11:03:23",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
-    "total_almoxarifado": 125776,
-    "total_farmacia": 32601,
+    "total_almoxarifado": 125756,
+    "total_farmacia": 32621,
     "total_geral": 158377,
     "perto_de_terminar": 20,
     "zerados": 7
@@ -16214,8 +16214,8 @@
       "nome": "Tramadol 50mg/ml 2ml",
       "tipo": "Medicamento",
       "unidade": "Unidade",
-      "almoxarifado": 20,
-      "farmacia": 240,
+      "almoxarifado": 0,
+      "farmacia": 260,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -16227,7 +16227,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-16 11:03:10",
+      "atualizado_em": "2026-09-16 11:03:23",
       "validade_mais_proxima": "12/27",
       "vencimento_mais_proximo": "12/27",
       "lotes_validade": [
@@ -16247,7 +16247,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 20
+          "quantidade": 40
         }
       ],
       "minimo_manual": 0,
@@ -17410,6 +17410,21 @@
       "obs": "",
       "criado_em": "2026-09-16 10:27:33",
       "item": "Escopolamina + Dipirona",
+      "usuario": "Assucena"
+    },
+    {
+      "id": 2505,
+      "item_id": 239,
+      "produto_nome": "Tramadol 50mg/ml 2ml",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 20,
+      "responsavel": "Assucena",
+      "data": "2026-09-15",
+      "obs": "ajuste de estoque",
+      "criado_em": "2026-09-16 11:03:23",
+      "item": "Tramadol 50mg/ml 2ml",
       "usuario": "Assucena"
     },
     {
@@ -24430,21 +24445,6 @@
       "obs": "",
       "criado_em": "2026-09-09 14:23:29",
       "item": "Insulina Regular",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2005,
-      "item_id": 275,
-      "produto_nome": "Equipo micro",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 1,
-      "responsavel": "Assucena",
-      "data": "2026-09-09",
-      "obs": "",
-      "criado_em": "2026-09-09 14:23:16",
-      "item": "Equipo micro",
       "usuario": "Assucena"
     }
   ]
