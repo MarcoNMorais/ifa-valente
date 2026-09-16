@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "16/09/2026 10:32:55",
+  "atualizado_em": "16/09/2026 10:33:06",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 125756,
-    "total_farmacia": 32611,
-    "total_geral": 158367,
+    "total_farmacia": 32601,
+    "total_geral": 158357,
     "perto_de_terminar": 20,
     "zerados": 7
   },
@@ -11864,19 +11864,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 175,
+      "farmacia": 165,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 175,
+      "total": 165,
       "minimo": 0,
       "validade": "02/28",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-15 16:24:57",
+      "atualizado_em": "2026-09-16 10:33:05",
       "validade_mais_proxima": "02/28",
       "vencimento_mais_proximo": "02/28",
       "lotes_validade": [
@@ -11884,7 +11884,7 @@
           "local": "farmacia",
           "validade": "02/28",
           "lote": "",
-          "quantidade": 50
+          "quantidade": 40
         },
         {
           "local": "farmacia",
@@ -11894,13 +11894,13 @@
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 120,
-      "previsao_20_dias": 120,
+      "minimo_alerta": 127,
+      "previsao_20_dias": 127,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 31,
-      "media_diaria_saida": 6.0,
-      "total_saida_historica": 186,
-      "cobertura_dias": 29.2,
+      "media_diaria_saida": 6.32,
+      "total_saida_historica": 196,
+      "cobertura_dias": 26.1,
       "alerta_estoque": false
     },
     {
@@ -16941,6 +16941,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 2503,
+      "item_id": 229,
+      "produto_nome": "Oxacilina 500mg pó injetável",
+      "tipo": "Farmácia para Posto de Internamento",
+      "origem": "Farmácia",
+      "destino": "Posto de Internamento",
+      "quantidade": 10,
+      "responsavel": "Assucena",
+      "data": "2026-09-16",
+      "obs": "",
+      "criado_em": "2026-09-16 10:33:05",
+      "item": "Oxacilina 500mg pó injetável",
+      "usuario": "Assucena"
+    },
     {
       "id": 2502,
       "item_id": 64,
@@ -24424,21 +24439,6 @@
       "obs": "",
       "criado_em": "2026-09-09 14:23:05",
       "item": "Levofloxacino 100ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2003,
-      "item_id": 241,
-      "produto_nome": "Lactulose solução",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 1,
-      "responsavel": "Assucena",
-      "data": "2026-09-09",
-      "obs": "",
-      "criado_em": "2026-09-09 14:22:33",
-      "item": "Lactulose solução",
       "usuario": "Assucena"
     }
   ]
