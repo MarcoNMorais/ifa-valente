@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "16/09/2026 10:30:23",
+  "atualizado_em": "16/09/2026 10:30:32",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 125756,
-    "total_farmacia": 32858,
-    "total_geral": 158614,
+    "total_farmacia": 32851,
+    "total_geral": 158607,
     "perto_de_terminar": 20,
     "zerados": 7
   },
@@ -12696,19 +12696,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 1520,
-      "farmacia": 80,
+      "farmacia": 73,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1600,
+      "total": 1593,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-16 10:30:23",
+      "atualizado_em": "2026-09-16 10:30:31",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -12722,17 +12722,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 90
+          "quantidade": 83
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 162,
-      "previsao_20_dias": 162,
+      "minimo_alerta": 166,
+      "previsao_20_dias": 166,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 35,
-      "media_diaria_saida": 8.06,
-      "total_saida_historica": 282,
-      "cobertura_dias": 198.6,
+      "media_diaria_saida": 8.26,
+      "total_saida_historica": 289,
+      "cobertura_dias": 192.9,
       "alerta_estoque": false
     },
     {
@@ -16941,6 +16941,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 2489,
+      "item_id": 98,
+      "produto_nome": "Scalp nº 23",
+      "tipo": "Farmácia para Posto de Internamento",
+      "origem": "Farmácia",
+      "destino": "Posto de Internamento",
+      "quantidade": 7,
+      "responsavel": "Assucena",
+      "data": "2026-09-16",
+      "obs": "",
+      "criado_em": "2026-09-16 10:30:31",
+      "item": "Scalp nº 23",
+      "usuario": "Assucena"
+    },
     {
       "id": 2488,
       "item_id": 98,
@@ -24424,21 +24439,6 @@
       "obs": "",
       "criado_em": "2026-09-09 11:21:46",
       "item": "Hidralazina 20mg",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1989,
-      "item_id": 53,
-      "produto_nome": "Ácido Tranexâmico 50mg",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 20,
-      "responsavel": "Assucena",
-      "data": "2026-09-08",
-      "obs": "",
-      "criado_em": "2026-09-09 11:21:36",
-      "item": "Ácido Tranexâmico 50mg",
       "usuario": "Assucena"
     }
   ]
