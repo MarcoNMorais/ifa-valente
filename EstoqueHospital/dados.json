@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "16/09/2026 11:03:23",
+  "atualizado_em": "16/09/2026 16:15:39",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 125756,
-    "total_farmacia": 32621,
-    "total_geral": 158377,
+    "total_farmacia": 32609,
+    "total_geral": 158365,
     "perto_de_terminar": 20,
     "zerados": 7
   },
@@ -2376,19 +2376,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 275,
+      "farmacia": 263,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 275,
+      "total": 263,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-15 16:24:57",
+      "atualizado_em": "2026-09-16 16:15:38",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -2396,17 +2396,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 275
+          "quantidade": 263
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 143,
-      "previsao_20_dias": 143,
+      "minimo_alerta": 150,
+      "previsao_20_dias": 150,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 35,
-      "media_diaria_saida": 7.11,
-      "total_saida_historica": 249,
-      "cobertura_dias": 38.7,
+      "media_diaria_saida": 7.46,
+      "total_saida_historica": 261,
+      "cobertura_dias": 35.3,
       "alerta_estoque": false
     },
     {
@@ -16948,6 +16948,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 2506,
+      "item_id": 55,
+      "produto_nome": "Benzilpenicilina 1.200",
+      "tipo": "Farmácia para Posto de Internamento",
+      "origem": "Farmácia",
+      "destino": "Posto de Internamento",
+      "quantidade": 12,
+      "responsavel": "Assucena",
+      "data": "2026-09-16",
+      "obs": "",
+      "criado_em": "2026-09-16 16:15:38",
+      "item": "Benzilpenicilina 1.200",
+      "usuario": "Assucena"
+    },
+    {
       "id": 2503,
       "item_id": 229,
       "produto_nome": "Oxacilina 500mg pó injetável",
@@ -24430,21 +24445,6 @@
       "obs": "",
       "criado_em": "2026-09-09 14:23:43",
       "item": "Insulina NPH",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2006,
-      "item_id": 207,
-      "produto_nome": "Insulina Regular",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 1,
-      "responsavel": "Assucena",
-      "data": "2026-09-09",
-      "obs": "",
-      "criado_em": "2026-09-09 14:23:29",
-      "item": "Insulina Regular",
       "usuario": "Assucena"
     }
   ]
