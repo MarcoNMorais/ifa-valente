@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "16/09/2026 10:30:04",
+  "atualizado_em": "16/09/2026 10:30:11",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 125756,
-    "total_farmacia": 32883,
-    "total_geral": 158639,
+    "total_farmacia": 32868,
+    "total_geral": 158624,
     "perto_de_terminar": 20,
     "zerados": 7
   },
@@ -7826,19 +7826,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 1260,
-      "farmacia": 185,
+      "farmacia": 170,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1445,
+      "total": 1430,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-15 16:24:57",
+      "atualizado_em": "2026-09-16 10:30:10",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -7852,17 +7852,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 185
+          "quantidade": 170
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 218,
-      "previsao_20_dias": 218,
+      "minimo_alerta": 226,
+      "previsao_20_dias": 226,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 35,
-      "media_diaria_saida": 10.86,
-      "total_saida_historica": 380,
-      "cobertura_dias": 133.1,
+      "media_diaria_saida": 11.29,
+      "total_saida_historica": 395,
+      "cobertura_dias": 126.7,
       "alerta_estoque": false
     },
     {
@@ -16942,6 +16942,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 2487,
+      "item_id": 176,
+      "produto_nome": "Gelco nº 24",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 15,
+      "responsavel": "Assucena",
+      "data": "2026-09-16",
+      "obs": "",
+      "criado_em": "2026-09-16 10:30:10",
+      "item": "Gelco nº 24",
+      "usuario": "Assucena"
+    },
+    {
       "id": 2486,
       "item_id": 177,
       "produto_nome": "Gelco nº 22",
@@ -24424,21 +24439,6 @@
       "obs": "",
       "criado_em": "2026-09-09 11:21:24",
       "item": "Prometazina 25mg/ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1987,
-      "item_id": 228,
-      "produto_nome": "Omeprazol sódico 40mg AMP",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 6,
-      "responsavel": "Assucena",
-      "data": "2026-09-08",
-      "obs": "",
-      "criado_em": "2026-09-09 11:21:10",
-      "item": "Omeprazol sódico 40mg AMP",
       "usuario": "Assucena"
     }
   ]
