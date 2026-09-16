@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "16/09/2026 10:26:51",
+  "atualizado_em": "16/09/2026 10:27:04",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
-    "total_almoxarifado": 125766,
-    "total_farmacia": 33281,
+    "total_almoxarifado": 125756,
+    "total_farmacia": 33291,
     "total_geral": 159047,
     "perto_de_terminar": 20,
     "zerados": 7
@@ -9063,8 +9063,8 @@
       "nome": "Lanceta de segurança",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 50,
-      "farmacia": 0,
+      "almoxarifado": 40,
+      "farmacia": 10,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -9076,7 +9076,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-16 10:26:50",
+      "atualizado_em": "2026-09-16 10:27:03",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -9084,7 +9084,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 50
+          "quantidade": 40
+        },
+        {
+          "local": "farmacia",
+          "validade": "",
+          "lote": "",
+          "quantidade": 10
         }
       ],
       "minimo_manual": 0,
@@ -16936,6 +16942,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 2472,
+      "item_id": 194,
+      "produto_nome": "Lanceta de segurança",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 10,
+      "responsavel": "Assucena",
+      "data": "2026-09-15",
+      "obs": "",
+      "criado_em": "2026-09-16 10:27:03",
+      "item": "Lanceta de segurança",
+      "usuario": "Assucena"
+    },
+    {
       "id": 2471,
       "item_id": 194,
       "produto_nome": "Lanceta de segurança",
@@ -24418,21 +24439,6 @@
       "obs": "",
       "criado_em": "2026-09-09 11:18:31",
       "item": "Simeticona gotas",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1972,
-      "item_id": 98,
-      "produto_nome": "Scalp nº 23",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 10,
-      "responsavel": "Assucena",
-      "data": "2026-09-08",
-      "obs": "",
-      "criado_em": "2026-09-09 11:18:23",
-      "item": "Scalp nº 23",
       "usuario": "Assucena"
     }
   ]
