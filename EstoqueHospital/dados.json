@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "16/09/2026 10:29:13",
+  "atualizado_em": "16/09/2026 10:29:29",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 125756,
-    "total_farmacia": 32998,
-    "total_geral": 158754,
+    "total_farmacia": 32948,
+    "total_geral": 158704,
     "perto_de_terminar": 20,
     "zerados": 7
   },
@@ -705,19 +705,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 16200,
-      "farmacia": 200,
+      "farmacia": 150,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 16400,
+      "total": 16350,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-15 16:24:57",
+      "atualizado_em": "2026-09-16 10:29:28",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -731,17 +731,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 200
+          "quantidade": 150
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 267,
-      "previsao_20_dias": 267,
+      "minimo_alerta": 300,
+      "previsao_20_dias": 300,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 30,
-      "media_diaria_saida": 13.33,
-      "total_saida_historica": 400,
-      "cobertura_dias": 1230.0,
+      "media_diaria_saida": 15.0,
+      "total_saida_historica": 450,
+      "cobertura_dias": 1090.0,
       "alerta_estoque": false
     },
     {
@@ -16942,6 +16942,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 2484,
+      "item_id": 285,
+      "produto_nome": "Agulha 30x7",
+      "tipo": "Farmácia para Posto de Internamento",
+      "origem": "Farmácia",
+      "destino": "Posto de Internamento",
+      "quantidade": 50,
+      "responsavel": "Assucena",
+      "data": "2026-09-16",
+      "obs": "",
+      "criado_em": "2026-09-16 10:29:28",
+      "item": "Agulha 30x7",
+      "usuario": "Assucena"
+    },
+    {
       "id": 2483,
       "item_id": 390,
       "produto_nome": "AGULHA  40X1,2",
@@ -24424,21 +24439,6 @@
       "obs": "",
       "criado_em": "2026-09-09 11:20:38",
       "item": "Eletrodo ECG descartável",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1984,
-      "item_id": 184,
-      "produto_nome": "Luva cirúrgica tam. 7",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 6,
-      "responsavel": "Assucena",
-      "data": "2026-09-08",
-      "obs": "",
-      "criado_em": "2026-09-09 11:20:19",
-      "item": "Luva cirúrgica tam. 7",
       "usuario": "Assucena"
     }
   ]
