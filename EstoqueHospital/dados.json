@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "16/09/2026 10:24:59",
+  "atualizado_em": "16/09/2026 10:25:52",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
-    "total_almoxarifado": 130216,
-    "total_farmacia": 34180,
+    "total_almoxarifado": 125716,
+    "total_farmacia": 38680,
     "total_geral": 164396,
     "perto_de_terminar": 19,
     "zerados": 7
@@ -9063,8 +9063,8 @@
       "nome": "Lanceta de segurança",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 4500,
-      "farmacia": 899,
+      "almoxarifado": 0,
+      "farmacia": 5399,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -9076,21 +9076,15 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-15 16:24:57",
+      "atualizado_em": "2026-09-16 10:25:51",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
         {
-          "local": "almoxarifado",
-          "validade": "",
-          "lote": "",
-          "quantidade": 4500
-        },
-        {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 899
+          "quantidade": 5399
         }
       ],
       "minimo_manual": 0,
@@ -16942,6 +16936,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 2469,
+      "item_id": 194,
+      "produto_nome": "Lanceta de segurança",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 4500,
+      "responsavel": "Assucena",
+      "data": "2026-09-15",
+      "obs": "",
+      "criado_em": "2026-09-16 10:25:51",
+      "item": "Lanceta de segurança",
+      "usuario": "Assucena"
+    },
+    {
       "id": 2468,
       "item_id": 349,
       "produto_nome": "MANITOL 250ML",
@@ -24424,21 +24433,6 @@
       "obs": "",
       "criado_em": "2026-09-09 11:18:06",
       "item": "Gelco nº 22",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1969,
-      "item_id": 176,
-      "produto_nome": "Gelco nº 24",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 10,
-      "responsavel": "Assucena",
-      "data": "2026-09-08",
-      "obs": "",
-      "criado_em": "2026-09-09 11:17:58",
-      "item": "Gelco nº 24",
       "usuario": "Assucena"
     }
   ]
