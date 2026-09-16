@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "16/09/2026 10:28:20",
+  "atualizado_em": "16/09/2026 10:28:32",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 125756,
-    "total_farmacia": 33141,
-    "total_geral": 158897,
+    "total_farmacia": 33133,
+    "total_geral": 158889,
     "perto_de_terminar": 20,
     "zerados": 7
   },
@@ -8480,19 +8480,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 258,
+      "farmacia": 250,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 258,
+      "total": 250,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-15 16:24:57",
+      "atualizado_em": "2026-09-16 10:28:31",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -8500,7 +8500,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 258
+          "quantidade": 250
         }
       ],
       "minimo_manual": 0,
@@ -8508,9 +8508,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 13,
-      "media_diaria_saida": 2.46,
-      "total_saida_historica": 32,
-      "cobertura_dias": 104.8,
+      "media_diaria_saida": 3.08,
+      "total_saida_historica": 40,
+      "cobertura_dias": 81.2,
       "alerta_estoque": false
     },
     {
@@ -16942,6 +16942,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 2479,
+      "item_id": 387,
+      "produto_nome": "HIDROCORTIZONA 500MG",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 8,
+      "responsavel": "Assucena",
+      "data": "2026-09-16",
+      "obs": "",
+      "criado_em": "2026-09-16 10:28:31",
+      "item": "HIDROCORTIZONA 500MG",
+      "usuario": "Assucena"
+    },
+    {
       "id": 2478,
       "item_id": 68,
       "produto_nome": "Dexametasona",
@@ -24424,21 +24439,6 @@
       "obs": "",
       "criado_em": "2026-09-09 11:19:46",
       "item": "Atadura crepon nº 10",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1979,
-      "item_id": 157,
-      "produto_nome": "Seringa 1ml",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 20,
-      "responsavel": "Assucena",
-      "data": "2026-09-08",
-      "obs": "",
-      "criado_em": "2026-09-09 11:19:36",
-      "item": "Seringa 1ml",
       "usuario": "Assucena"
     }
   ]
