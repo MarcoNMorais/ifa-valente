@@ -1,13 +1,13 @@
 {
-  "atualizado_em": "16/09/2026 10:26:10",
+  "atualizado_em": "16/09/2026 10:26:51",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
-    "total_almoxarifado": 125716,
+    "total_almoxarifado": 125766,
     "total_farmacia": 33281,
-    "total_geral": 158997,
+    "total_geral": 159047,
     "perto_de_terminar": 20,
-    "zerados": 8
+    "zerados": 7
   },
   "itens": [
     {
@@ -9063,23 +9063,30 @@
       "nome": "Lanceta de segurança",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 0,
+      "almoxarifado": 50,
       "farmacia": 0,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 0,
+      "total": 50,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-16 10:26:09",
+      "atualizado_em": "2026-09-16 10:26:50",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
-      "lotes_validade": [],
+      "lotes_validade": [
+        {
+          "local": "almoxarifado",
+          "validade": "",
+          "lote": "",
+          "quantidade": 50
+        }
+      ],
       "minimo_manual": 0,
       "minimo_alerta": 3772,
       "previsao_20_dias": 3772,
@@ -9087,7 +9094,7 @@
       "dias_historico": 35,
       "media_diaria_saida": 188.57,
       "total_saida_historica": 6600,
-      "cobertura_dias": 0.0,
+      "cobertura_dias": 0.3,
       "alerta_estoque": true
     },
     {
@@ -16929,6 +16936,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 2471,
+      "item_id": 194,
+      "produto_nome": "Lanceta de segurança",
+      "tipo": "Entrada no Almoxarifado",
+      "origem": "Entrada externa",
+      "destino": "Almoxarifado",
+      "quantidade": 50,
+      "responsavel": "Assucena",
+      "data": "2026-09-15",
+      "obs": "",
+      "criado_em": "2026-09-16 10:26:50",
+      "item": "Lanceta de segurança",
+      "usuario": "Assucena"
+    },
+    {
       "id": 2470,
       "item_id": 194,
       "produto_nome": "Lanceta de segurança",
@@ -24411,21 +24433,6 @@
       "obs": "",
       "criado_em": "2026-09-09 11:18:23",
       "item": "Scalp nº 23",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 1971,
-      "item_id": 99,
-      "produto_nome": "Scalp nº 21",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 10,
-      "responsavel": "Assucena",
-      "data": "2026-09-08",
-      "obs": "",
-      "criado_em": "2026-09-09 11:18:15",
-      "item": "Scalp nº 21",
       "usuario": "Assucena"
     }
   ]
