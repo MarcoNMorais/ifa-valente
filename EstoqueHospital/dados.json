@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "16/09/2026 10:32:28",
+  "atualizado_em": "16/09/2026 10:32:55",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 125756,
-    "total_farmacia": 32621,
-    "total_geral": 158377,
+    "total_farmacia": 32611,
+    "total_geral": 158367,
     "perto_de_terminar": 20,
     "zerados": 7
   },
@@ -7436,19 +7436,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 160,
-      "farmacia": 90,
+      "farmacia": 80,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 250,
+      "total": 240,
       "minimo": 0,
       "validade": "2027-08",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-15 16:24:57",
+      "atualizado_em": "2026-09-16 10:32:54",
       "validade_mais_proxima": "2027-08",
       "vencimento_mais_proximo": "2027-08",
       "lotes_validade": [
@@ -7456,7 +7456,7 @@
           "local": "farmacia",
           "validade": "2027-08",
           "lote": "",
-          "quantidade": 90
+          "quantidade": 80
         },
         {
           "local": "almoxarifado",
@@ -7466,13 +7466,13 @@
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 63,
-      "previsao_20_dias": 63,
+      "minimo_alerta": 69,
+      "previsao_20_dias": 69,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 35,
-      "media_diaria_saida": 3.14,
-      "total_saida_historica": 110,
-      "cobertura_dias": 79.5,
+      "media_diaria_saida": 3.43,
+      "total_saida_historica": 120,
+      "cobertura_dias": 70.0,
       "alerta_estoque": false
     },
     {
@@ -16942,6 +16942,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 2502,
+      "item_id": 64,
+      "produto_nome": "Fosfato de Clindamicina 150mg",
+      "tipo": "Farmácia para Posto de Internamento",
+      "origem": "Farmácia",
+      "destino": "Posto de Internamento",
+      "quantidade": 10,
+      "responsavel": "Assucena",
+      "data": "2026-09-16",
+      "obs": "",
+      "criado_em": "2026-09-16 10:32:54",
+      "item": "Fosfato de Clindamicina 150mg",
+      "usuario": "Assucena"
+    },
+    {
       "id": 2501,
       "item_id": 153,
       "produto_nome": "Atadura crepon nº 20",
@@ -24424,21 +24439,6 @@
       "obs": "",
       "criado_em": "2026-09-09 14:22:33",
       "item": "Lactulose solução",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2002,
-      "item_id": 380,
-      "produto_nome": "OLEO MINERAL",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 1,
-      "responsavel": "Assucena",
-      "data": "2026-09-09",
-      "obs": "",
-      "criado_em": "2026-09-09 14:22:17",
-      "item": "OLEO MINERAL",
       "usuario": "Assucena"
     }
   ]
