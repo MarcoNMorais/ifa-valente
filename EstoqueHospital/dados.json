@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "17/09/2026 11:34:21",
+  "atualizado_em": "17/09/2026 11:34:33",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
-    "total_almoxarifado": 123822,
-    "total_farmacia": 34411,
+    "total_almoxarifado": 123702,
+    "total_farmacia": 34531,
     "total_geral": 158233,
     "perto_de_terminar": 19,
     "zerados": 7
@@ -1567,8 +1567,8 @@
       "nome": "Atadura crepon nº 10",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 2544,
-      "farmacia": 98,
+      "almoxarifado": 2424,
+      "farmacia": 218,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -1580,7 +1580,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-16 10:32:21",
+      "atualizado_em": "2026-09-17 11:34:32",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -1588,13 +1588,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 2544
+          "quantidade": 2424
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 98
+          "quantidade": 218
         }
       ],
       "minimo_manual": 0,
@@ -16954,6 +16954,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 2524,
+      "item_id": 152,
+      "produto_nome": "Atadura crepon nº 10",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 120,
+      "responsavel": "Assucena",
+      "data": "2026-09-17",
+      "obs": "",
+      "criado_em": "2026-09-17 11:34:32",
+      "item": "Atadura crepon nº 10",
+      "usuario": "Assucena"
+    },
+    {
       "id": 2523,
       "item_id": 274,
       "produto_nome": "Seringa 20ml",
@@ -24436,21 +24451,6 @@
       "obs": "",
       "criado_em": "2026-09-09 16:25:47",
       "item": "Soro fisiológico 500ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2024,
-      "item_id": 203,
-      "produto_nome": "Soro fisiológico 250ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 12,
-      "responsavel": "Assucena",
-      "data": "2026-09-09",
-      "obs": "",
-      "criado_em": "2026-09-09 16:25:37",
-      "item": "Soro fisiológico 250ml",
       "usuario": "Assucena"
     }
   ]
