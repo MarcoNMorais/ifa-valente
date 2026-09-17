@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "17/09/2026 16:29:29",
+  "atualizado_em": "17/09/2026 16:30:00",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
-    "total_almoxarifado": 121234,
-    "total_farmacia": 35985,
+    "total_almoxarifado": 121054,
+    "total_farmacia": 36165,
     "total_geral": 157219,
     "perto_de_terminar": 22,
     "zerados": 8
@@ -15252,8 +15252,8 @@
       "nome": "Soro fisiológico 100ml",
       "tipo": "Insumo",
       "unidade": "Unidade",
-      "almoxarifado": 1680,
-      "farmacia": 0,
+      "almoxarifado": 1500,
+      "farmacia": 180,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -15265,7 +15265,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-15 17:14:49",
+      "atualizado_em": "2026-09-17 16:29:59",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -15273,7 +15273,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 1680
+          "quantidade": 1500
+        },
+        {
+          "local": "farmacia",
+          "validade": "",
+          "lote": "",
+          "quantidade": 180
         }
       ],
       "minimo_manual": 0,
@@ -16958,6 +16964,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 2582,
+      "item_id": 202,
+      "produto_nome": "Soro fisiológico 100ml",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 180,
+      "responsavel": "Leiliana",
+      "data": "2026-09-17",
+      "obs": "",
+      "criado_em": "2026-09-17 16:29:59",
+      "item": "Soro fisiológico 100ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 2581,
       "item_id": 104,
@@ -24441,21 +24462,6 @@
       "obs": "",
       "criado_em": "2026-09-10 14:59:33",
       "item": "Oxacilina 500mg pó injetável",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 2082,
-      "item_id": 230,
-      "produto_nome": "Ferropurum 20mg/ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 5,
-      "responsavel": "Leiliana",
-      "data": "2026-09-10",
-      "obs": "",
-      "criado_em": "2026-09-10 14:59:21",
-      "item": "Ferropurum 20mg/ml",
       "usuario": "Leiliana"
     }
   ]
