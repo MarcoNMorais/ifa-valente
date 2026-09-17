@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "17/09/2026 11:34:15",
+  "atualizado_em": "17/09/2026 11:34:21",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
-    "total_almoxarifado": 124072,
-    "total_farmacia": 34161,
+    "total_almoxarifado": 123822,
+    "total_farmacia": 34411,
     "total_geral": 158233,
     "perto_de_terminar": 19,
     "zerados": 7
@@ -12879,8 +12879,8 @@
       "nome": "Seringa 20ml",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 8000,
-      "farmacia": 65,
+      "almoxarifado": 7750,
+      "farmacia": 315,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -12892,7 +12892,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-16 16:15:55",
+      "atualizado_em": "2026-09-17 11:34:20",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -12900,13 +12900,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 8000
+          "quantidade": 7750
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 65
+          "quantidade": 315
         }
       ],
       "minimo_manual": 0,
@@ -16953,6 +16953,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 2523,
+      "item_id": 274,
+      "produto_nome": "Seringa 20ml",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 250,
+      "responsavel": "Assucena",
+      "data": "2026-09-17",
+      "obs": "",
+      "criado_em": "2026-09-17 11:34:20",
+      "item": "Seringa 20ml",
+      "usuario": "Assucena"
+    },
     {
       "id": 2522,
       "item_id": 176,
@@ -24436,21 +24451,6 @@
       "obs": "",
       "criado_em": "2026-09-09 16:25:37",
       "item": "Soro fisiológico 250ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2023,
-      "item_id": 276,
-      "produto_nome": "Esparadrapo 10x4,5",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 3,
-      "responsavel": "Assucena",
-      "data": "2026-09-09",
-      "obs": "",
-      "criado_em": "2026-09-09 16:25:26",
-      "item": "Esparadrapo 10x4,5",
       "usuario": "Assucena"
     }
   ]
