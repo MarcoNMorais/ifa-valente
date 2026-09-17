@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "17/09/2026 16:28:10",
+  "atualizado_em": "17/09/2026 16:28:20",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 121234,
-    "total_farmacia": 36211,
-    "total_geral": 157445,
+    "total_farmacia": 36205,
+    "total_geral": 157439,
     "perto_de_terminar": 22,
     "zerados": 8
   },
@@ -8479,19 +8479,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 250,
+      "farmacia": 244,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 250,
+      "total": 244,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-16 10:28:31",
+      "atualizado_em": "2026-09-17 16:28:19",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -8499,7 +8499,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 250
+          "quantidade": 244
         }
       ],
       "minimo_manual": 0,
@@ -8507,9 +8507,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 14,
-      "media_diaria_saida": 2.86,
-      "total_saida_historica": 40,
-      "cobertura_dias": 87.5,
+      "media_diaria_saida": 3.29,
+      "total_saida_historica": 46,
+      "cobertura_dias": 74.3,
       "alerta_estoque": false
     },
     {
@@ -16959,6 +16959,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 2574,
+      "item_id": 387,
+      "produto_nome": "HIDROCORTIZONA 500MG",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 6,
+      "responsavel": "Leiliana",
+      "data": "2026-09-17",
+      "obs": "",
+      "criado_em": "2026-09-17 16:28:19",
+      "item": "HIDROCORTIZONA 500MG",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 2573,
       "item_id": 82,
       "produto_nome": "Hidrocortisona 100MG",
@@ -24441,21 +24456,6 @@
       "obs": "",
       "criado_em": "2026-09-10 14:57:54",
       "item": "Scalp nº 23",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 2074,
-      "item_id": 177,
-      "produto_nome": "Gelco nº 22",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 20,
-      "responsavel": "Leiliana",
-      "data": "2026-09-10",
-      "obs": "",
-      "criado_em": "2026-09-10 14:57:35",
-      "item": "Gelco nº 22",
       "usuario": "Leiliana"
     }
   ]
