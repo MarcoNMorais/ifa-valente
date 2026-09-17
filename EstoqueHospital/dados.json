@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "17/09/2026 16:29:20",
+  "atualizado_em": "17/09/2026 16:29:29",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 121234,
-    "total_farmacia": 36035,
-    "total_geral": 157269,
+    "total_farmacia": 35985,
+    "total_geral": 157219,
     "perto_de_terminar": 22,
     "zerados": 8
   },
@@ -12931,19 +12931,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 6500,
-      "farmacia": 1793,
+      "farmacia": 1743,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 8293,
+      "total": 8243,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-17 13:58:37",
+      "atualizado_em": "2026-09-17 16:29:28",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -12957,17 +12957,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 1793
+          "quantidade": 1743
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 825,
-      "previsao_20_dias": 825,
+      "minimo_alerta": 853,
+      "previsao_20_dias": 853,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 36,
-      "media_diaria_saida": 41.25,
-      "total_saida_historica": 1485,
-      "cobertura_dias": 201.0,
+      "media_diaria_saida": 42.64,
+      "total_saida_historica": 1535,
+      "cobertura_dias": 193.3,
       "alerta_estoque": false
     },
     {
@@ -16958,6 +16958,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 2581,
+      "item_id": 104,
+      "produto_nome": "Seringa 3ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 50,
+      "responsavel": "Leiliana",
+      "data": "2026-09-17",
+      "obs": "",
+      "criado_em": "2026-09-17 16:29:28",
+      "item": "Seringa 3ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 2580,
       "item_id": 102,
@@ -24441,21 +24456,6 @@
       "obs": "",
       "criado_em": "2026-09-10 14:59:21",
       "item": "Ferropurum 20mg/ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 2081,
-      "item_id": 78,
-      "produto_nome": "Furosemida",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 20,
-      "responsavel": "Leiliana",
-      "data": "2026-09-10",
-      "obs": "",
-      "criado_em": "2026-09-10 14:59:09",
-      "item": "Furosemida",
       "usuario": "Leiliana"
     }
   ]
