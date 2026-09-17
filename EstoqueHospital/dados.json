@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "17/09/2026 11:51:21",
+  "atualizado_em": "17/09/2026 11:51:48",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
-    "total_almoxarifado": 122212,
-    "total_farmacia": 36021,
+    "total_almoxarifado": 121752,
+    "total_farmacia": 36481,
     "total_geral": 158233,
     "perto_de_terminar": 19,
     "zerados": 7
@@ -10009,8 +10009,8 @@
       "nome": "Luva G procedimento",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 500,
-      "farmacia": 0,
+      "almoxarifado": 40,
+      "farmacia": 460,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -10022,7 +10022,7 @@
       "lote": "",
       "origem": "Carga Almoxerifado",
       "obs": "Importação Almoxerifado",
-      "atualizado_em": "2026-09-15 16:24:57",
+      "atualizado_em": "2026-09-17 11:51:47",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -10030,7 +10030,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 500
+          "quantidade": 40
+        },
+        {
+          "local": "farmacia",
+          "validade": "",
+          "lote": "",
+          "quantidade": 460
         }
       ],
       "minimo_manual": 0,
@@ -16953,6 +16959,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 2529,
+      "item_id": 282,
+      "produto_nome": "Luva G procedimento",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 460,
+      "responsavel": "Assucena",
+      "data": "2026-09-17",
+      "obs": "AJUSTE DE ESTOQUE ",
+      "criado_em": "2026-09-17 11:51:47",
+      "item": "Luva G procedimento",
+      "usuario": "Assucena"
+    },
     {
       "id": 2528,
       "item_id": 281,
@@ -24436,21 +24457,6 @@
       "obs": "",
       "criado_em": "2026-09-10 11:54:10",
       "item": "Seringa 3ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2029,
-      "item_id": 220,
-      "produto_nome": "Equipo macrogotas",
-      "tipo": "Almoxarifado para Farmácia",
-      "origem": "Almoxarifado",
-      "destino": "Farmácia",
-      "quantidade": 250,
-      "responsavel": "Assucena",
-      "data": "2026-09-10",
-      "obs": "",
-      "criado_em": "2026-09-10 11:53:58",
-      "item": "Equipo macrogotas",
       "usuario": "Assucena"
     }
   ]
