@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "17/09/2026 11:33:56",
+  "atualizado_em": "17/09/2026 11:34:05",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
-    "total_almoxarifado": 124472,
-    "total_farmacia": 33761,
+    "total_almoxarifado": 124272,
+    "total_farmacia": 33961,
     "total_geral": 158233,
     "perto_de_terminar": 19,
     "zerados": 7
@@ -7779,8 +7779,8 @@
       "nome": "Gelco nº 22",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 1480,
-      "farmacia": 98,
+      "almoxarifado": 1280,
+      "farmacia": 298,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -7792,7 +7792,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-16 10:30:03",
+      "atualizado_em": "2026-09-17 11:34:04",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -7800,13 +7800,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 1480
+          "quantidade": 1280
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 98
+          "quantidade": 298
         }
       ],
       "minimo_manual": 0,
@@ -16954,6 +16954,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 2521,
+      "item_id": 177,
+      "produto_nome": "Gelco nº 22",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 200,
+      "responsavel": "Assucena",
+      "data": "2026-09-17",
+      "obs": "",
+      "criado_em": "2026-09-17 11:34:04",
+      "item": "Gelco nº 22",
+      "usuario": "Assucena"
+    },
+    {
       "id": 2520,
       "item_id": 178,
       "produto_nome": "Dispositivo intravenoso Gelco nº 20",
@@ -24436,21 +24451,6 @@
       "obs": "",
       "criado_em": "2026-09-09 16:25:16",
       "item": "Equipo macrogotas",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2021,
-      "item_id": 104,
-      "produto_nome": "Seringa 3ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 30,
-      "responsavel": "Assucena",
-      "data": "2026-09-09",
-      "obs": "",
-      "criado_em": "2026-09-09 16:25:06",
-      "item": "Seringa 3ml",
       "usuario": "Assucena"
     }
   ]
