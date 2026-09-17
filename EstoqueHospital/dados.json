@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "17/09/2026 13:56:24",
+  "atualizado_em": "17/09/2026 13:56:38",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 121252,
-    "total_farmacia": 36803,
-    "total_geral": 158055,
+    "total_farmacia": 36801,
+    "total_geral": 158053,
     "perto_de_terminar": 22,
     "zerados": 7
   },
@@ -9500,19 +9500,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 7,
+      "farmacia": 5,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 7,
+      "total": 5,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-15 16:24:57",
+      "atualizado_em": "2026-09-17 13:56:37",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -9520,7 +9520,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 7
+          "quantidade": 5
         }
       ],
       "minimo_manual": 0,
@@ -9528,9 +9528,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 14,
-      "media_diaria_saida": 0.14,
-      "total_saida_historica": 2,
-      "cobertura_dias": 49.0,
+      "media_diaria_saida": 0.29,
+      "total_saida_historica": 4,
+      "cobertura_dias": 17.5,
       "alerta_estoque": false
     },
     {
@@ -16959,6 +16959,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 2539,
+      "item_id": 377,
+      "produto_nome": "LORATADINA SUSPENSÃO",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 2,
+      "responsavel": "Leiliana",
+      "data": "2026-09-17",
+      "obs": "",
+      "criado_em": "2026-09-17 13:56:37",
+      "item": "LORATADINA SUSPENSÃO",
+      "usuario": "Leiliana"
+    },
     {
       "id": 2538,
       "item_id": 286,
@@ -24442,21 +24457,6 @@
       "obs": "",
       "criado_em": "2026-09-10 14:18:39",
       "item": "Escopolamina + Dipirona",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 2039,
-      "item_id": 66,
-      "produto_nome": "Complexo B",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 30,
-      "responsavel": "Leiliana",
-      "data": "2026-09-10",
-      "obs": "",
-      "criado_em": "2026-09-10 14:18:25",
-      "item": "Complexo B",
       "usuario": "Leiliana"
     }
   ]
