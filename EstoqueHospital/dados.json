@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "17/09/2026 13:59:37",
+  "atualizado_em": "17/09/2026 13:59:53",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 121252,
-    "total_farmacia": 36414,
-    "total_geral": 157666,
+    "total_farmacia": 36404,
+    "total_geral": 157656,
     "perto_de_terminar": 22,
     "zerados": 7
   },
@@ -15432,19 +15432,19 @@
       "tipo": "Insumo",
       "unidade": "Unidade",
       "almoxarifado": 6,
-      "farmacia": 30,
+      "farmacia": 20,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 36,
+      "total": 26,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-09-15 16:24:57",
+      "atualizado_em": "2026-09-17 13:59:52",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -15458,17 +15458,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 40
+          "quantidade": 30
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 51,
-      "previsao_20_dias": 51,
+      "minimo_alerta": 57,
+      "previsao_20_dias": 57,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 36,
-      "media_diaria_saida": 2.53,
-      "total_saida_historica": 91,
-      "cobertura_dias": 14.2,
+      "media_diaria_saida": 2.81,
+      "total_saida_historica": 101,
+      "cobertura_dias": 9.3,
       "alerta_estoque": true
     },
     {
@@ -16959,6 +16959,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 2553,
+      "item_id": 205,
+      "produto_nome": "Soro glicose 5% 500ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 10,
+      "responsavel": "Leiliana",
+      "data": "2026-09-17",
+      "obs": "",
+      "criado_em": "2026-09-17 13:59:52",
+      "item": "Soro glicose 5% 500ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 2552,
       "item_id": 185,
@@ -24442,21 +24457,6 @@
       "obs": "",
       "criado_em": "2026-09-10 14:21:26",
       "item": "Scalp nº 21",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 2053,
-      "item_id": 98,
-      "produto_nome": "Scalp nº 23",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 10,
-      "responsavel": "Leiliana",
-      "data": "2026-09-10",
-      "obs": "",
-      "criado_em": "2026-09-10 14:21:13",
-      "item": "Scalp nº 23",
       "usuario": "Leiliana"
     }
   ]
