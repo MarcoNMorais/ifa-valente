@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "17/09/2026 11:31:49",
+  "atualizado_em": "17/09/2026 11:33:46",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
-    "total_almoxarifado": 124674,
-    "total_farmacia": 33559,
+    "total_almoxarifado": 124672,
+    "total_farmacia": 33561,
     "total_geral": 158233,
     "perto_de_terminar": 19,
     "zerados": 7
@@ -16174,8 +16174,8 @@
       "nome": "Touca descartável",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 8,
-      "farmacia": 158,
+      "almoxarifado": 6,
+      "farmacia": 160,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -16187,7 +16187,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-15 16:24:57",
+      "atualizado_em": "2026-09-17 11:33:45",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -16195,13 +16195,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 8
+          "quantidade": 6
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 158
+          "quantidade": 160
         }
       ],
       "minimo_manual": 0,
@@ -16953,6 +16953,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 2519,
+      "item_id": 222,
+      "produto_nome": "Touca descartável",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 2,
+      "responsavel": "Assucena",
+      "data": "2026-09-17",
+      "obs": "",
+      "criado_em": "2026-09-17 11:33:45",
+      "item": "Touca descartável",
+      "usuario": "Assucena"
+    },
     {
       "id": 2518,
       "item_id": 281,
@@ -24436,21 +24451,6 @@
       "obs": "",
       "criado_em": "2026-09-09 16:24:54",
       "item": "Seringa 5ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2019,
-      "item_id": 103,
-      "produto_nome": "Seringa 10ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 30,
-      "responsavel": "Assucena",
-      "data": "2026-09-09",
-      "obs": "",
-      "criado_em": "2026-09-09 16:24:41",
-      "item": "Seringa 10ml",
       "usuario": "Assucena"
     }
   ]
