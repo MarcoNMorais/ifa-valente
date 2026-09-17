@@ -1,12 +1,12 @@
 {
-  "atualizado_em": "17/09/2026 13:53:28",
+  "atualizado_em": "17/09/2026 13:53:46",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 121752,
-    "total_farmacia": 36421,
-    "total_geral": 158173,
-    "perto_de_terminar": 20,
+    "total_farmacia": 36391,
+    "total_geral": 158143,
+    "perto_de_terminar": 21,
     "zerados": 7
   },
   "itens": [
@@ -3458,19 +3458,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 279,
+      "farmacia": 249,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 279,
+      "total": 249,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-16 10:27:43",
+      "atualizado_em": "2026-09-17 13:53:45",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -3478,18 +3478,18 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 299
+          "quantidade": 269
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 250,
-      "previsao_20_dias": 250,
+      "minimo_alerta": 267,
+      "previsao_20_dias": 267,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 36,
-      "media_diaria_saida": 12.5,
-      "total_saida_historica": 450,
-      "cobertura_dias": 22.3,
-      "alerta_estoque": false
+      "media_diaria_saida": 13.33,
+      "total_saida_historica": 480,
+      "cobertura_dias": 18.7,
+      "alerta_estoque": true
     },
     {
       "id": 30,
@@ -16960,6 +16960,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 2532,
+      "item_id": 61,
+      "produto_nome": "Cetoprofeno IM 50mg",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 30,
+      "responsavel": "Leiliana",
+      "data": "2026-09-17",
+      "obs": "",
+      "criado_em": "2026-09-17 13:53:45",
+      "item": "Cetoprofeno IM 50mg",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 2531,
       "item_id": 68,
       "produto_nome": "Dexametasona",
@@ -24442,21 +24457,6 @@
       "obs": "",
       "criado_em": "2026-09-10 11:54:32",
       "item": "Seringa 20ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2032,
-      "item_id": 103,
-      "produto_nome": "Seringa 10ml",
-      "tipo": "Almoxarifado para Farmácia",
-      "origem": "Almoxarifado",
-      "destino": "Farmácia",
-      "quantidade": 250,
-      "responsavel": "Assucena",
-      "data": "2026-09-10",
-      "obs": "",
-      "criado_em": "2026-09-10 11:54:22",
-      "item": "Seringa 10ml",
       "usuario": "Assucena"
     }
   ]
