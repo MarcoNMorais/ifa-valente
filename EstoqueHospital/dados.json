@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "17/09/2026 16:30:39",
+  "atualizado_em": "17/09/2026 16:30:48",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 121030,
-    "total_farmacia": 36122,
-    "total_geral": 157152,
+    "total_farmacia": 36121,
+    "total_geral": 157151,
     "perto_de_terminar": 22,
     "zerados": 8
   },
@@ -8691,19 +8691,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 39,
+      "farmacia": 38,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 39,
+      "total": 38,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-09-15 16:24:57",
+      "atualizado_em": "2026-09-17 16:30:48",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -8711,17 +8711,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 39
+          "quantidade": 38
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 1,
-      "previsao_20_dias": 1,
+      "minimo_alerta": 2,
+      "previsao_20_dias": 2,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 36,
-      "media_diaria_saida": 0.03,
-      "total_saida_historica": 1,
-      "cobertura_dias": 1404.0,
+      "media_diaria_saida": 0.06,
+      "total_saida_historica": 2,
+      "cobertura_dias": 684.0,
       "alerta_estoque": false
     },
     {
@@ -16965,6 +16965,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 2586,
+      "item_id": 208,
+      "produto_nome": "Insulina NPH",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 1,
+      "responsavel": "Leiliana",
+      "data": "2026-09-17",
+      "obs": "",
+      "criado_em": "2026-09-17 16:30:48",
+      "item": "Insulina NPH",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 2585,
       "item_id": 204,
       "produto_nome": "Soro fisiológico 500ml",
@@ -24447,21 +24462,6 @@
       "obs": "",
       "criado_em": "2026-09-10 16:28:12",
       "item": "Dexametasona",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 2086,
-      "item_id": 40,
-      "produto_nome": "Succinato de metoprolol 25mg",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 10,
-      "responsavel": "Leiliana",
-      "data": "2026-09-10",
-      "obs": "",
-      "criado_em": "2026-09-10 15:00:27",
-      "item": "Succinato de metoprolol 25mg",
       "usuario": "Leiliana"
     }
   ]
