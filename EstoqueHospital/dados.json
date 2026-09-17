@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "17/09/2026 14:01:13",
+  "atualizado_em": "17/09/2026 14:01:29",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 121234,
-    "total_farmacia": 36390,
-    "total_geral": 157624,
+    "total_farmacia": 36385,
+    "total_geral": 157619,
     "perto_de_terminar": 22,
     "zerados": 7
   },
@@ -10703,19 +10703,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 79,
-      "farmacia": 23,
+      "farmacia": 18,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 102,
+      "total": 97,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga Almoxerifado",
       "obs": "Importação Almoxerifado",
-      "atualizado_em": "2026-09-15 16:24:57",
+      "atualizado_em": "2026-09-17 14:01:28",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -10729,17 +10729,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 23
+          "quantidade": 18
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 24,
-      "previsao_20_dias": 24,
+      "minimo_alerta": 28,
+      "previsao_20_dias": 28,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 31,
-      "media_diaria_saida": 1.19,
-      "total_saida_historica": 37,
-      "cobertura_dias": 85.5,
+      "media_diaria_saida": 1.35,
+      "total_saida_historica": 42,
+      "cobertura_dias": 71.6,
       "alerta_estoque": false
     },
     {
@@ -16965,6 +16965,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 2559,
+      "item_id": 290,
+      "produto_nome": "Metronidazol 100ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 5,
+      "responsavel": "Leiliana",
+      "data": "2026-09-17",
+      "obs": "",
+      "criado_em": "2026-09-17 14:01:28",
+      "item": "Metronidazol 100ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 2558,
       "item_id": 203,
@@ -24448,21 +24463,6 @@
       "obs": "",
       "criado_em": "2026-09-10 14:50:12",
       "item": "Seringa 5ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 2059,
-      "item_id": 103,
-      "produto_nome": "Seringa 10ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 60,
-      "responsavel": "Leiliana",
-      "data": "2026-09-10",
-      "obs": "",
-      "criado_em": "2026-09-10 14:46:38",
-      "item": "Seringa 10ml",
       "usuario": "Leiliana"
     }
   ]
