@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "17/09/2026 11:50:43",
+  "atualizado_em": "17/09/2026 11:51:21",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
-    "total_almoxarifado": 123302,
-    "total_farmacia": 34931,
+    "total_almoxarifado": 122212,
+    "total_farmacia": 36021,
     "total_geral": 158233,
     "perto_de_terminar": 19,
     "zerados": 7
@@ -10095,8 +10095,8 @@
       "nome": "Luva P procedimento",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 1210,
-      "farmacia": 0,
+      "almoxarifado": 120,
+      "farmacia": 1090,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -10108,7 +10108,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-17 11:31:48",
+      "atualizado_em": "2026-09-17 11:51:20",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -10116,7 +10116,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 1210
+          "quantidade": 120
+        },
+        {
+          "local": "farmacia",
+          "validade": "",
+          "lote": "",
+          "quantidade": 1090
         }
       ],
       "minimo_manual": 0,
@@ -16947,6 +16953,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 2528,
+      "item_id": 281,
+      "produto_nome": "Luva P procedimento",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 1090,
+      "responsavel": "Assucena",
+      "data": "2026-09-17",
+      "obs": "AJUSTE DE ESTOQUE ",
+      "criado_em": "2026-09-17 11:51:20",
+      "item": "Luva P procedimento",
+      "usuario": "Assucena"
+    },
     {
       "id": 2527,
       "item_id": 181,
@@ -24430,21 +24451,6 @@
       "obs": "",
       "criado_em": "2026-09-10 11:53:58",
       "item": "Equipo macrogotas",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2028,
-      "item_id": 152,
-      "produto_nome": "Atadura crepon nº 10",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 24,
-      "responsavel": "Assucena",
-      "data": "2026-09-10",
-      "obs": "",
-      "criado_em": "2026-09-10 10:20:25",
-      "item": "Atadura crepon nº 10",
       "usuario": "Assucena"
     }
   ]
