@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "17/09/2026 14:02:51",
+  "atualizado_em": "17/09/2026 14:03:02",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 121234,
-    "total_farmacia": 36317,
-    "total_geral": 157551,
+    "total_farmacia": 36307,
+    "total_geral": 157541,
     "perto_de_terminar": 22,
     "zerados": 7
   },
@@ -5044,19 +5044,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 200,
-      "farmacia": 190,
+      "farmacia": 180,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 390,
+      "total": 380,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-15 16:24:57",
+      "atualizado_em": "2026-09-17 14:03:01",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -5070,17 +5070,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 210
+          "quantidade": 200
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 100,
-      "previsao_20_dias": 100,
+      "minimo_alerta": 106,
+      "previsao_20_dias": 106,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 36,
-      "media_diaria_saida": 5.0,
-      "total_saida_historica": 180,
-      "cobertura_dias": 78.0,
+      "media_diaria_saida": 5.28,
+      "total_saida_historica": 190,
+      "cobertura_dias": 72.0,
       "alerta_estoque": false
     },
     {
@@ -16966,6 +16966,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 2566,
+      "item_id": 28,
+      "produto_nome": "Dipirona 500mg",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 10,
+      "responsavel": "Leiliana",
+      "data": "2026-09-17",
+      "obs": "",
+      "criado_em": "2026-09-17 14:03:01",
+      "item": "Dipirona 500mg",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 2565,
       "item_id": 127,
       "produto_nome": "Loratadina 10mg CPR",
@@ -24448,21 +24463,6 @@
       "obs": "",
       "criado_em": "2026-09-10 14:54:55",
       "item": "Dispositivo intravenoso Gelco nº 14",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 2066,
-      "item_id": 181,
-      "produto_nome": "Luva de látex tam. M",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 2,
-      "responsavel": "Leiliana",
-      "data": "2026-09-10",
-      "obs": "",
-      "criado_em": "2026-09-10 14:53:23",
-      "item": "Luva de látex tam. M",
       "usuario": "Leiliana"
     }
   ]
