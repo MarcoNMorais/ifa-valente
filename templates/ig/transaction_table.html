@@ -1,0 +1,14 @@
+{% if recent_transactions %}
+  <div class="table-scroll"><table id="transactions-table"><thead><tr><th>Descrição</th><th>Pessoa / categoria</th><th>Data</th><th class="right">Valor</th></tr></thead><tbody>
+  {% for item in recent_transactions %}
+    <tr data-search="{{ (item['description'] ~ ' ' ~ (item['person_name'] or '') ~ ' ' ~ (item['paid_by_person_name'] or '') ~ ' ' ~ item['category_name'])|lower }}">
+      <td><span class="transaction-name"><i class="{{ item['type'] }}">{{ '↗' if item['type'] == 'entry' else '↘' }}</i><strong>{{ item['description'] }}</strong></span></td>
+      <td><span class="transaction-detail">{{ item['person_name'] or item['category_name'] }}{% if item['type'] == 'expense' and item['paid_by_person_name'] %}<small>Pago por {{ item['paid_by_person_name'] }}</small>{% endif %}</span></td>
+      <td>{{ item['transaction_date']|ig_date }}</td>
+      <td class="right amount {{ item['type'] }}">{{ '+' if item['type'] == 'entry' else '−' }} {{ item['amount_cents']|ig_money }}</td>
+    </tr>
+  {% endfor %}
+  </tbody></table></div>
+{% else %}
+  <div class="empty-state">Nenhuma movimentação lançada.</div>
+{% endif %}
