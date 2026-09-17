@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Financeiro | IG Integra Gestão</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='ig/ig.css') }}">
+</head>
+<body class="ig-app-body">
+  <aside class="sidebar" id="ig-sidebar">
+    <a class="sidebar-brand" href="{{ url_for('ig_dashboard') }}">
+      <img src="{{ url_for('static', filename='ig/logo.png') }}" alt="IG Integra Gestão">
+    </a>
+    <nav class="side-nav" aria-label="Menu financeiro">
+      <a class="{{ 'active' if active_tab == 'overview' }}" href="{{ url_for('ig_dashboard', tab='overview') }}"><span>⌂</span> Visão geral</a>
+      <a class="{{ 'active' if active_tab == 'movement' }}" href="{{ url_for('ig_dashboard', tab='movement') }}"><span>↕</span> Entradas e saídas</a>
+      <a class="{{ 'active' if active_tab == 'receivables' }}" href="{{ url_for('ig_dashboard', tab='receivables') }}"><span>◷</span> A receber</a>
+      <a class="{{ 'active' if active_tab == 'people' }}" href="{{ url_for('ig_dashboard', tab='people') }}"><span>♙</span> Quem pagou</a>
+      <a class="{{ 'active' if active_tab == 'categories' }}" href="{{ url_for('ig_dashboard', tab='categories') }}"><span>▦</span> Categorias</a>
+    </nav>
+    <div class="sidebar-user">
+      <span class="avatar">{{ user['name'][:1]|upper }}</span>
+      <span><strong>{{ user['name'] }}</strong><small>Administrador</small></span>
+      <a class="logout" href="{{ url_for('ig_logout') }}" title="Sair">↪</a>
+    </div>
+  </aside>
+
+  <button class="sidebar-overlay" id="sidebar-overlay" aria-label="Fechar menu"></button>
+
+  <main class="workspace">
+    <header class="topbar">
+      <button class="menu-button" id="menu-button" aria-label="Abrir menu">☰</button>
+      <div>
+        <span class="eyebrow">IG Integra Gestão</span>
+        <h1>Controle financeiro</h1>
+      </div>
+      <div class="top-actions">
+        <button class="button secondary" data-open="expense-dialog">↓ Nova saída</button>
+        <button class="button primary" data-open="entry-dialog">＋ Nova entrada</button>
+      </div>
+    </header>
+
+    {% with messages = get_flashed_messages(with_categories=true) %}
+      {% if messages %}
+        <section class="alerts">
+          {% for category, message in messages %}
+            <div class="alert {{ category }}">{{ message }}</div>
+          {% endfor %}
+        </section>
+      {% endif %}
+    {% endwith %}
+
+    {% if active_tab == 'overview' %}
+      <section class="summary-grid">
+        <article class="summary-card navy"><span class="summary-icon">◈</span><div><small>Saldo atual</small><strong>{{ totals.balance|ig_money }}</strong></div></article>
+        <article class="summary-card teal"><span class="summary-icon">↗</span><div><small>Total de entradas</small><strong>{{ totals.entries|ig_money }}</strong></div></article>
+        <article class="summary-card rose"><span class="summary-icon">↘</span><div><small>Total de saídas</small><strong>{{ totals.expenses|ig_money }}</strong></div></article>
+        <article class="summary-card gold"><span class="summary-icon">◷</span><div><small>A receber</small><strong>{{ totals.pending|ig_money }}</strong></div></article>
+      </section>
+
+      <section class="overview-grid">
+        <article class="panel panel-wide">
+          <div class="panel-title"><div><h2>Movimentações recentes</h2><p>Últimos lançamentos do caixa</p></div><a href="{{ url_for('ig_dashboard', tab='movement') }}">Ver todas</a></div>
+          {% set recent_transactions = transactions[:6] %}
+          {% include 'ig/transaction_table.html' %}
+        </article>
+        <article class="panel">
+          <div class="panel-title"><div><h2>Próximos recebimentos</h2><p>Valores ainda pendentes</p></div></div>
+          <div class="receivable-list">
+            {% for item in receivables if item['status'] == 'pending' %}
+              {% if loop.index <= 5 %}
+                <div class="receivable-item">
+                  <span class="date-box"><strong>{{ item['due_date'][8:10] }}</strong><small>{{ item['due_date'][5:7] }}/{{ item['due_date'][2:4] }}</small></span>
+                  <span><strong>{{ item['person_name'] }}</strong><small>{{ item['description'] }}</small></span>
+                  <b>{{ item['amount_cents']|ig_money }}</b>
+                </div>
+              {% endif %}
+            {% else %}
+              <div class="empty-state">Nenhum valor pendente.</div>
+            {% endfor %}
+          </div>
+        </article>
+      </section>
+
+    {% elif active_tab == 'movement' %}
+      <section class="section-heading">
+        <div><span class="eyebrow">Fluxo de caixa</span><h2>Entradas e saídas</h2><p>Todos os valores movimentados pela empresa.</p></div>
+        <div class="section-actions"><button class="button secondary" data-open="expense-dialog">↓ Adicionar saída</button><button class="button primary" data-open="entry-dialog">↑ Adicionar entrada</button></div>
+      </section>
+      <section class="panel">
+        <div class="table-toolbar"><input id="transaction-search" type="search" placeholder="Buscar descrição, pessoa ou categoria"></div>
+        {% set recent_transactions = transactions %}
+        {% include 'ig/transaction_table.html' %}
+      </section>
+
+    {% elif active_tab == 'receivables' %}
+      <section class="section-heading">
+        <div><span class="eyebrow">Contas</span><h2>A receber</h2><p>Acompanhe cobranças pendentes e confirme pagamentos.</p></div>
+        <button class="button primary" data-open="receivable-dialog">＋ Adicionar a receber</button>
+      </section>
+      <section class="panel table-scroll">
+        {% if receivables %}
+          <table><thead><tr><th>Pessoa</th><th>Descrição</th><th>Vencimento</th><th>Status</th><th class="right">Valor</th><th></th></tr></thead><tbody>
+          {% for item in receivables %}
+            <tr>
+              <td><strong>{{ item['person_name'] }}</strong></td><td>{{ item['description'] }}</td><td>{{ item['due_date']|ig_date }}</td>
+              <td>{% if item['status'] == 'paid' %}<span class="status paid">Recebido</span>{% elif item['due_date'] < today %}<span class="status late">Atrasado</span>{% else %}<span class="status pending">Pendente</span>{% endif %}</td>
+              <td class="right"><strong>{{ item['amount_cents']|ig_money }}</strong></td>
+              <td class="right">{% if item['status'] == 'pending' %}<form method="post" action="{{ url_for('ig_confirm_receivable', receivable_id=item['id']) }}"><input type="hidden" name="csrf_token" value="{{ ig_csrf_token() }}"><button class="button tiny secondary" type="submit">✓ Confirmar</button></form>{% endif %}</td>
+            </tr>
+          {% endfor %}
+          </tbody></table>
+        {% else %}<div class="empty-state">Nenhuma conta a receber cadastrada.</div>{% endif %}
+      </section>
+
+    {% elif active_tab == 'people' %}
+      <section class="section-heading">
+        <div><span class="eyebrow">Clientes e pagadores</span><h2>Quem pagou</h2><p>Cadastre pessoas e acompanhe o histórico de pagamentos.</p></div>
+        <button class="button primary" data-open="person-dialog">＋ Adicionar pessoa</button>
+      </section>
+      <section class="panel table-scroll">
+        {% if people %}
+          <table><thead><tr><th>Pessoa</th><th>Contato</th><th>Pagamentos</th><th>Último pagamento</th><th class="right">Total pago</th></tr></thead><tbody>
+          {% for person in people %}
+            <tr><td><span class="person-cell"><i>{{ person['name'][:1]|upper }}</i><strong>{{ person['name'] }}</strong></span></td><td>{{ person['phone'] or '—' }}</td><td>{{ person['payment_count'] }}</td><td>{{ person['last_payment_date']|ig_date }}</td><td class="right"><strong>{{ person['total_paid_cents']|ig_money }}</strong></td></tr>
+          {% endfor %}
+          </tbody></table>
+        {% else %}<div class="empty-state">Adicione a primeira pessoa para vincular pagamentos.</div>{% endif %}
+      </section>
+
+    {% elif active_tab == 'categories' %}
+      <section class="section-heading">
+        <div><span class="eyebrow">Organização</span><h2>Categorias</h2><p>Os lançamentos aceitam somente categorias cadastradas.</p></div>
+        <button class="button primary" data-open="category-dialog">＋ Adicionar categoria</button>
+      </section>
+      <section class="category-grid">
+        <article class="panel"><div class="panel-title"><div><h2>Categorias de entrada</h2><p>Valores recebidos</p></div></div><div class="tag-list">{% for item in categories if item['type'] == 'entry' %}<span>{{ item['name'] }}</span>{% endfor %}</div></article>
+        <article class="panel"><div class="panel-title"><div><h2>Categorias de saída</h2><p>Pagamentos e despesas</p></div></div><div class="tag-list">{% for item in categories if item['type'] == 'expense' %}<span>{{ item['name'] }}</span>{% endfor %}</div></article>
+      </section>
+    {% endif %}
+  </main>
+
+  <dialog id="person-dialog" class="finance-dialog">
+    <form method="post" action="{{ url_for('ig_add_person') }}" class="dialog-card">
+      <input type="hidden" name="csrf_token" value="{{ ig_csrf_token() }}">
+      <div class="dialog-head"><div><h2>Adicionar pessoa</h2><p>Cadastre quem paga ou tem valores a pagar.</p></div><button type="button" data-close>×</button></div>
+      <div class="form-stack"><label class="field-label"><span>Nome completo *</span><input name="name" maxlength="120" required></label><label class="field-label"><span>Telefone</span><input name="phone" maxlength="40" placeholder="(75) 99999-9999"></label><label class="field-label"><span>Observação</span><input name="notes" maxlength="300" placeholder="Informação opcional"></label></div>
+      <div class="dialog-actions"><button class="button secondary" type="button" data-close>Cancelar</button><button class="button primary" type="submit">Salvar</button></div>
+    </form>
+  </dialog>
+
+  <dialog id="category-dialog" class="finance-dialog">
+    <form method="post" action="{{ url_for('ig_add_category') }}" class="dialog-card">
+      <input type="hidden" name="csrf_token" value="{{ ig_csrf_token() }}"><input type="hidden" name="return_tab" value="{{ active_tab }}">
+      <div class="dialog-head"><div><h2>Adicionar categoria</h2><p>Crie uma opção para usar nos lançamentos.</p></div><button type="button" data-close>×</button></div>
+      <div class="form-stack"><label class="field-label"><span>Tipo *</span><select name="type" required><option value="entry">Entrada</option><option value="expense">Saída</option></select></label><label class="field-label"><span>Nome *</span><input name="name" maxlength="60" required></label></div>
+      <div class="dialog-actions"><button class="button secondary" type="button" data-close>Cancelar</button><button class="button primary" type="submit">Salvar categoria</button></div>
+    </form>
+  </dialog>
+
+  <dialog id="entry-dialog" class="finance-dialog">
+    <form method="post" action="{{ url_for('ig_add_transaction') }}" class="dialog-card">
+      <input type="hidden" name="csrf_token" value="{{ ig_csrf_token() }}"><input type="hidden" name="type" value="entry">
+      <div class="dialog-head"><div><h2>Nova entrada</h2><p>Registre um valor recebido pela empresa.</p></div><button type="button" data-close>×</button></div>
+      <div class="form-stack">
+        <label class="field-label"><span>Pessoa</span><div class="inline-field"><select name="person_id"><option value="">Sem pessoa vinculada</option>{% for person in people %}<option value="{{ person['id'] }}">{{ person['name'] }}</option>{% endfor %}</select><button class="button secondary" type="button" data-open="person-dialog">＋ Pessoa</button></div></label>
+        <label class="field-label"><span>Descrição *</span><input name="description" maxlength="160" placeholder="Ex.: Mensalidade do sistema" required></label>
+        <label class="field-label"><span>Categoria *</span><div class="inline-field"><select name="category_id" required><option value="">Selecione</option>{% for item in categories if item['type'] == 'entry' %}<option value="{{ item['id'] }}">{{ item['name'] }}</option>{% endfor %}</select><button class="button secondary" type="button" data-open="category-dialog">＋ Categoria</button></div></label>
+        <div class="form-grid"><label class="field-label"><span>Valor (R$) *</span><input name="amount" inputmode="decimal" placeholder="0,00" required></label><label class="field-label"><span>Data *</span><input name="transaction_date" type="date" value="{{ today }}" required></label></div>
+        <label class="field-label"><span>Observação</span><input name="notes" maxlength="300" placeholder="Informação opcional"></label>
+      </div>
+      <div class="dialog-actions"><button class="button secondary" type="button" data-close>Cancelar</button><button class="button primary" type="submit">Salvar</button></div>
+    </form>
+  </dialog>
+
+  <dialog id="expense-dialog" class="finance-dialog">
+    <form method="post" action="{{ url_for('ig_add_transaction') }}" class="dialog-card">
+      <input type="hidden" name="csrf_token" value="{{ ig_csrf_token() }}"><input type="hidden" name="type" value="expense">
+      <div class="dialog-head"><div><h2>Nova saída</h2><p>Registre um pagamento ou despesa da empresa.</p></div><button type="button" data-close>×</button></div>
+      <div class="form-stack">
+        <label class="field-label"><span>Descrição *</span><input name="description" maxlength="160" placeholder="Ex.: Hospedagem do sistema" required></label>
+        <label class="field-label"><span>Categoria *</span><div class="inline-field"><select name="category_id" required><option value="">Selecione</option>{% for item in categories if item['type'] == 'expense' %}<option value="{{ item['id'] }}">{{ item['name'] }}</option>{% endfor %}</select><button class="button secondary" type="button" data-open="category-dialog">＋ Categoria</button></div></label>
+        <label class="field-label"><span>Quem pagou</span><div class="inline-field"><select name="paid_by_person_id"><option value="">Não informado</option>{% for person in people %}<option value="{{ person['id'] }}">{{ person['name'] }}</option>{% endfor %}</select><button class="button secondary" type="button" data-open="person-dialog">＋ Pessoa</button></div></label>
+        <div class="form-grid"><label class="field-label"><span>Valor (R$) *</span><input name="amount" inputmode="decimal" placeholder="0,00" required></label><label class="field-label"><span>Data *</span><input name="transaction_date" type="date" value="{{ today }}" required></label></div>
+        <label class="field-label"><span>Observação</span><input name="notes" maxlength="300" placeholder="Informação opcional"></label>
+      </div>
+      <div class="dialog-actions"><button class="button secondary" type="button" data-close>Cancelar</button><button class="button primary" type="submit">Salvar</button></div>
+    </form>
+  </dialog>
+
+  <dialog id="receivable-dialog" class="finance-dialog">
+    <form method="post" action="{{ url_for('ig_add_receivable') }}" class="dialog-card">
+      <input type="hidden" name="csrf_token" value="{{ ig_csrf_token() }}">
+      <div class="dialog-head"><div><h2>Adicionar a receber</h2><p>Cadastre um valor que ainda será recebido.</p></div><button type="button" data-close>×</button></div>
+      <div class="form-stack">
+        <label class="field-label"><span>Pessoa *</span><div class="inline-field"><select name="person_id" required><option value="">Selecione</option>{% for person in people %}<option value="{{ person['id'] }}">{{ person['name'] }}</option>{% endfor %}</select><button class="button secondary" type="button" data-open="person-dialog">＋ Pessoa</button></div></label>
+        <label class="field-label"><span>Descrição *</span><input name="description" maxlength="160" placeholder="Ex.: Mensalidade do sistema" required></label>
+        <div class="form-grid"><label class="field-label"><span>Valor (R$) *</span><input name="amount" inputmode="decimal" placeholder="0,00" required></label><label class="field-label"><span>Vencimento *</span><input name="due_date" type="date" value="{{ today }}" required></label></div>
+      </div>
+      <div class="dialog-actions"><button class="button secondary" type="button" data-close>Cancelar</button><button class="button primary" type="submit">Salvar</button></div>
+    </form>
+  </dialog>
+
+  <script src="{{ url_for('static', filename='ig/ig.js') }}"></script>
+</body>
+</html>

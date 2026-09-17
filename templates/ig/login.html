@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Entrar | IG Integra Gestão</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='ig/ig.css') }}">
+</head>
+<body class="ig-login-body">
+  <main class="ig-login-card">
+    <div class="ig-login-brand">
+      <img src="{{ url_for('static', filename='ig/logo.png') }}" alt="IG Integra Gestão">
+    </div>
+    <div class="ig-login-copy">
+      <span class="eyebrow">Área restrita</span>
+      <h1>Controle financeiro</h1>
+      <p>Entre com o mesmo usuário administrador utilizado no sistema IFA.</p>
+    </div>
+
+    {% with messages = get_flashed_messages(with_categories=true) %}
+      {% for category, message in messages %}
+        <div class="alert {{ category }}">{{ message }}</div>
+      {% endfor %}
+    {% endwith %}
+
+    <form method="post" action="{{ url_for('ig_login') }}" class="form-stack">
+      <input type="hidden" name="csrf_token" value="{{ ig_csrf_token() }}">
+      <label class="field-label">
+        <span>Usuário</span>
+        <input name="username" autocomplete="username" required autofocus>
+      </label>
+      <label class="field-label">
+        <span>Senha</span>
+        <input name="password" type="password" autocomplete="current-password" required>
+      </label>
+      <button class="button primary login-button" type="submit">Entrar</button>
+    </form>
+    <p class="login-foot">IG Integra Gestão · Sistemas e Consultoria</p>
+  </main>
+</body>
+</html>
