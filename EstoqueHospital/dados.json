@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "17/09/2026 13:59:26",
+  "atualizado_em": "17/09/2026 13:59:37",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 121252,
-    "total_farmacia": 36419,
-    "total_geral": 157671,
+    "total_farmacia": 36414,
+    "total_geral": 157666,
     "perto_de_terminar": 22,
     "zerados": 7
   },
@@ -9672,19 +9672,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 430,
-      "farmacia": 19,
+      "farmacia": 14,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 449,
+      "total": 444,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-15 16:24:57",
+      "atualizado_em": "2026-09-17 13:59:36",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -9698,17 +9698,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 19
+          "quantidade": 14
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 50,
-      "previsao_20_dias": 50,
+      "minimo_alerta": 53,
+      "previsao_20_dias": 53,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 36,
-      "media_diaria_saida": 2.5,
-      "total_saida_historica": 90,
-      "cobertura_dias": 179.6,
+      "media_diaria_saida": 2.64,
+      "total_saida_historica": 95,
+      "cobertura_dias": 168.3,
       "alerta_estoque": false
     },
     {
@@ -16959,6 +16959,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 2552,
+      "item_id": 185,
+      "produto_nome": "Luva cirúrgica tam. 7,5",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 5,
+      "responsavel": "Leiliana",
+      "data": "2026-09-17",
+      "obs": "",
+      "criado_em": "2026-09-17 13:59:36",
+      "item": "Luva cirúrgica tam. 7,5",
+      "usuario": "Leiliana"
+    },
     {
       "id": 2551,
       "item_id": 184,
@@ -24442,21 +24457,6 @@
       "obs": "",
       "criado_em": "2026-09-10 14:21:13",
       "item": "Scalp nº 23",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 2052,
-      "item_id": 287,
-      "produto_nome": "Agulha 13x4,5",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 20,
-      "responsavel": "Leiliana",
-      "data": "2026-09-10",
-      "obs": "",
-      "criado_em": "2026-09-10 14:20:59",
-      "item": "Agulha 13x4,5",
       "usuario": "Leiliana"
     }
   ]
