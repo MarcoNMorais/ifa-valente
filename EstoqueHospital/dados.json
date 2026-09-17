@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "17/09/2026 14:01:29",
+  "atualizado_em": "17/09/2026 14:01:48",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 121234,
-    "total_farmacia": 36385,
-    "total_geral": 157619,
+    "total_farmacia": 36361,
+    "total_geral": 157595,
     "perto_de_terminar": 22,
     "zerados": 7
   },
@@ -1568,19 +1568,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 2424,
-      "farmacia": 194,
+      "farmacia": 170,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 2618,
+      "total": 2594,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-17 13:59:01",
+      "atualizado_em": "2026-09-17 14:01:47",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -1594,17 +1594,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 194
+          "quantidade": 170
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 119,
-      "previsao_20_dias": 119,
+      "minimo_alerta": 133,
+      "previsao_20_dias": 133,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 36,
-      "media_diaria_saida": 5.94,
-      "total_saida_historica": 214,
-      "cobertura_dias": 440.4,
+      "media_diaria_saida": 6.61,
+      "total_saida_historica": 238,
+      "cobertura_dias": 392.4,
       "alerta_estoque": false
     },
     {
@@ -16966,6 +16966,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 2560,
+      "item_id": 152,
+      "produto_nome": "Atadura crepon nº 10",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 24,
+      "responsavel": "Leiliana",
+      "data": "2026-09-17",
+      "obs": "",
+      "criado_em": "2026-09-17 14:01:47",
+      "item": "Atadura crepon nº 10",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 2559,
       "item_id": 290,
       "produto_nome": "Metronidazol 100ml",
@@ -24448,21 +24463,6 @@
       "obs": "",
       "criado_em": "2026-09-10 14:50:22",
       "item": "Seringa 3ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 2060,
-      "item_id": 102,
-      "produto_nome": "Seringa 5ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 40,
-      "responsavel": "Leiliana",
-      "data": "2026-09-10",
-      "obs": "",
-      "criado_em": "2026-09-10 14:50:12",
-      "item": "Seringa 5ml",
       "usuario": "Leiliana"
     }
   ]
