@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "17/09/2026 11:34:39",
+  "atualizado_em": "17/09/2026 11:50:16",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
-    "total_almoxarifado": 123582,
-    "total_farmacia": 34651,
+    "total_almoxarifado": 123462,
+    "total_farmacia": 34771,
     "total_geral": 158233,
     "perto_de_terminar": 19,
     "zerados": 7
@@ -9843,8 +9843,8 @@
       "nome": "Luva de látex tam. P",
       "tipo": "Material",
       "unidade": "Caixa",
-      "almoxarifado": 120,
-      "farmacia": 80,
+      "almoxarifado": 0,
+      "farmacia": 200,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -9856,21 +9856,15 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-17 11:25:59",
+      "atualizado_em": "2026-09-17 11:50:16",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
         {
-          "local": "almoxarifado",
-          "validade": "",
-          "lote": "",
-          "quantidade": 120
-        },
-        {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 80
+          "quantidade": 200
         }
       ],
       "minimo_manual": 0,
@@ -16959,6 +16953,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 2526,
+      "item_id": 180,
+      "produto_nome": "Luva de látex tam. P",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 120,
+      "responsavel": "Assucena",
+      "data": "2026-09-17",
+      "obs": "AJUSTE DE ESTOQUE ",
+      "criado_em": "2026-09-17 11:50:16",
+      "item": "Luva de látex tam. P",
+      "usuario": "Assucena"
+    },
     {
       "id": 2525,
       "item_id": 151,
@@ -24442,21 +24451,6 @@
       "obs": "",
       "criado_em": "2026-09-09 16:26:09",
       "item": "Cetoprofeno IM 50mg",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2026,
-      "item_id": 181,
-      "produto_nome": "Luva de látex tam. M",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 2,
-      "responsavel": "Assucena",
-      "data": "2026-09-09",
-      "obs": "",
-      "criado_em": "2026-09-09 16:25:57",
-      "item": "Luva de látex tam. M",
       "usuario": "Assucena"
     }
   ]
