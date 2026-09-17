@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "17/09/2026 11:25:55",
+  "atualizado_em": "17/09/2026 11:26:00",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
-    "total_almoxarifado": 124656,
+    "total_almoxarifado": 124664,
     "total_farmacia": 33559,
-    "total_geral": 158215,
+    "total_geral": 158223,
     "perto_de_terminar": 19,
     "zerados": 7
   },
@@ -9837,20 +9837,20 @@
       "nome": "Luva de látex tam. P",
       "tipo": "Material",
       "unidade": "Caixa",
-      "almoxarifado": 112,
+      "almoxarifado": 120,
       "farmacia": 80,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 192,
+      "total": 200,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-15 16:24:57",
+      "atualizado_em": "2026-09-17 11:25:59",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -9858,7 +9858,7 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 112
+          "quantidade": 120
         },
         {
           "local": "farmacia",
@@ -9874,7 +9874,7 @@
       "dias_historico": 36,
       "media_diaria_saida": 22.78,
       "total_saida_historica": 820,
-      "cobertura_dias": 8.4,
+      "cobertura_dias": 8.8,
       "alerta_estoque": true
     },
     {
@@ -16953,6 +16953,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 2517,
+      "item_id": 180,
+      "produto_nome": "Luva de látex tam. P",
+      "tipo": "Entrada no Almoxarifado",
+      "origem": "Entrada externa",
+      "destino": "Almoxarifado",
+      "quantidade": 8,
+      "responsavel": "Assucena",
+      "data": "2026-09-16",
+      "obs": "",
+      "criado_em": "2026-09-17 11:25:59",
+      "item": "Luva de látex tam. P",
+      "usuario": "Assucena"
+    },
     {
       "id": 2516,
       "item_id": 280,
@@ -24436,21 +24451,6 @@
       "obs": "",
       "criado_em": "2026-09-09 16:24:29",
       "item": "Seringa 20ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2017,
-      "item_id": 202,
-      "produto_nome": "Soro fisiológico 100ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 60,
-      "responsavel": "Assucena",
-      "data": "2026-09-09",
-      "obs": "",
-      "criado_em": "2026-09-09 16:24:16",
-      "item": "Soro fisiológico 100ml",
       "usuario": "Assucena"
     }
   ]
