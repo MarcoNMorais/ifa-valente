@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "17/09/2026 14:19:09",
+  "atualizado_em": "17/09/2026 14:19:17",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 121234,
-    "total_farmacia": 36297,
-    "total_geral": 157531,
+    "total_farmacia": 36287,
+    "total_geral": 157521,
     "perto_de_terminar": 22,
     "zerados": 7
   },
@@ -12054,19 +12054,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 240,
-      "farmacia": 212,
+      "farmacia": 202,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 452,
+      "total": 442,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-15 16:24:57",
+      "atualizado_em": "2026-09-17 14:19:16",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -12080,17 +12080,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 212
+          "quantidade": 202
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 44,
-      "previsao_20_dias": 44,
+      "minimo_alerta": 49,
+      "previsao_20_dias": 49,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 36,
-      "media_diaria_saida": 2.17,
-      "total_saida_historica": 78,
-      "cobertura_dias": 208.6,
+      "media_diaria_saida": 2.44,
+      "total_saida_historica": 88,
+      "cobertura_dias": 180.8,
       "alerta_estoque": false
     },
     {
@@ -16965,6 +16965,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 2568,
+      "item_id": 27,
+      "produto_nome": "Paracetamol 500mg",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 10,
+      "responsavel": "Leiliana",
+      "data": "2026-09-17",
+      "obs": "",
+      "criado_em": "2026-09-17 14:19:16",
+      "item": "Paracetamol 500mg",
+      "usuario": "Leiliana"
+    },
     {
       "id": 2567,
       "item_id": 28,
@@ -24447,21 +24462,6 @@
       "data": "2026-09-10",
       "obs": "",
       "criado_em": "2026-09-10 14:56:20",
-      "item": "Dispositivo intravenoso Gelco nº 16",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 2068,
-      "item_id": 396,
-      "produto_nome": "Dispositivo intravenoso Gelco nº 16",
-      "tipo": "Entrada no Almoxarifado",
-      "origem": "Entrada externa",
-      "destino": "Almoxarifado",
-      "quantidade": 100,
-      "responsavel": "Leiliana",
-      "data": "2026-09-10",
-      "obs": "",
-      "criado_em": "2026-09-10 14:56:08",
       "item": "Dispositivo intravenoso Gelco nº 16",
       "usuario": "Leiliana"
     }
