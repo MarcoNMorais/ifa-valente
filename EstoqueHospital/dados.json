@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "17/09/2026 14:00:20",
+  "atualizado_em": "17/09/2026 14:00:46",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
-    "total_almoxarifado": 121252,
-    "total_farmacia": 36400,
+    "total_almoxarifado": 121234,
+    "total_farmacia": 36418,
     "total_geral": 157652,
     "perto_de_terminar": 22,
     "zerados": 7
@@ -9155,8 +9155,8 @@
       "nome": "Lençol descartável papel",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 128,
-      "farmacia": 0,
+      "almoxarifado": 110,
+      "farmacia": 18,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -9168,7 +9168,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-15 17:15:18",
+      "atualizado_em": "2026-09-17 14:00:45",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -9176,7 +9176,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 128
+          "quantidade": 110
+        },
+        {
+          "local": "farmacia",
+          "validade": "",
+          "lote": "",
+          "quantidade": 18
         }
       ],
       "minimo_manual": 0,
@@ -16960,6 +16966,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 2556,
+      "item_id": 199,
+      "produto_nome": "Lençol descartável papel",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 18,
+      "responsavel": "Leiliana",
+      "data": "2026-09-17",
+      "obs": "",
+      "criado_em": "2026-09-17 14:00:45",
+      "item": "Lençol descartável papel",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 2555,
       "item_id": 276,
       "produto_nome": "Esparadrapo 10x4,5",
@@ -24442,21 +24463,6 @@
       "obs": "",
       "criado_em": "2026-09-10 14:41:51",
       "item": "Soro glicose 5% 500ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 2056,
-      "item_id": 255,
-      "produto_nome": "Ibuprofeno gotas",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 1,
-      "responsavel": "Leiliana",
-      "data": "2026-09-10",
-      "obs": "",
-      "criado_em": "2026-09-10 14:38:50",
-      "item": "Ibuprofeno gotas",
       "usuario": "Leiliana"
     }
   ]
