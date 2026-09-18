@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "18/09/2026 11:13:55",
+  "atualizado_em": "18/09/2026 11:14:04",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 119442,
-    "total_farmacia": 37658,
-    "total_geral": 157100,
+    "total_farmacia": 37638,
+    "total_geral": 157080,
     "perto_de_terminar": 22,
     "zerados": 8
   },
@@ -5924,28 +5924,22 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 240,
-      "farmacia": 20,
+      "farmacia": 0,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 260,
+      "total": 240,
       "minimo": 0,
-      "validade": "2027-06",
+      "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-15 16:24:57",
-      "validade_mais_proxima": "2027-06",
-      "vencimento_mais_proximo": "2027-06",
+      "atualizado_em": "2026-09-18 11:14:03",
+      "validade_mais_proxima": "",
+      "vencimento_mais_proximo": "",
       "lotes_validade": [
-        {
-          "local": "farmacia",
-          "validade": "2027-06",
-          "lote": "",
-          "quantidade": 20
-        },
         {
           "local": "almoxarifado",
           "validade": "",
@@ -5954,13 +5948,13 @@
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 76,
-      "previsao_20_dias": 76,
+      "minimo_alerta": 87,
+      "previsao_20_dias": 87,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 37,
-      "media_diaria_saida": 3.78,
-      "total_saida_historica": 140,
-      "cobertura_dias": 68.7,
+      "media_diaria_saida": 4.32,
+      "total_saida_historica": 160,
+      "cobertura_dias": 55.5,
       "alerta_estoque": false
     },
     {
@@ -16971,6 +16965,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 2599,
+      "item_id": 75,
+      "produto_nome": "Escopolamina 20mg",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 20,
+      "responsavel": "Assucena",
+      "data": "2026-09-17",
+      "obs": "",
+      "criado_em": "2026-09-18 11:14:03",
+      "item": "Escopolamina 20mg",
+      "usuario": "Assucena"
+    },
+    {
       "id": 2598,
       "item_id": 61,
       "produto_nome": "Cetoprofeno IM 50mg",
@@ -24452,21 +24461,6 @@
       "data": "2026-09-10",
       "obs": "",
       "criado_em": "2026-09-10 16:31:05",
-      "item": "Luva de vinil G",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 2099,
-      "item_id": 279,
-      "produto_nome": "Luva de vinil G",
-      "tipo": "Almoxarifado para Farmácia",
-      "origem": "Almoxarifado",
-      "destino": "Farmácia",
-      "quantidade": 3,
-      "responsavel": "Leiliana",
-      "data": "2026-09-10",
-      "obs": "",
-      "criado_em": "2026-09-10 16:30:55",
       "item": "Luva de vinil G",
       "usuario": "Leiliana"
     }
