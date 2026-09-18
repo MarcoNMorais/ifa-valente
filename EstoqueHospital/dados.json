@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "18/09/2026 15:34:48",
+  "atualizado_em": "18/09/2026 15:35:01",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 117900,
-    "total_farmacia": 38542,
-    "total_geral": 156442,
+    "total_farmacia": 38512,
+    "total_geral": 156412,
     "perto_de_terminar": 22,
     "zerados": 8
   },
@@ -659,19 +659,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 5000,
-      "farmacia": 110,
+      "farmacia": 80,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 5110,
+      "total": 5080,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-15 16:24:57",
+      "atualizado_em": "2026-09-18 15:35:00",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -685,17 +685,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 110
+          "quantidade": 80
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 119,
-      "previsao_20_dias": 119,
+      "minimo_alerta": 138,
+      "previsao_20_dias": 138,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 32,
-      "media_diaria_saida": 5.94,
-      "total_saida_historica": 190,
-      "cobertura_dias": 860.6,
+      "media_diaria_saida": 6.88,
+      "total_saida_historica": 220,
+      "cobertura_dias": 738.9,
       "alerta_estoque": false
     },
     {
@@ -16965,6 +16965,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 2640,
+      "item_id": 289,
+      "produto_nome": "Agulha 25x8",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 30,
+      "responsavel": "Leiliana",
+      "data": "2026-09-18",
+      "obs": "",
+      "criado_em": "2026-09-18 15:35:00",
+      "item": "Agulha 25x8",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 2639,
       "item_id": 60,
       "produto_nome": "Cetoprofeno EV 100mg",
@@ -24447,21 +24462,6 @@
       "obs": "",
       "criado_em": "2026-09-11 11:27:46",
       "item": "Gelco nº 22",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2140,
-      "item_id": 204,
-      "produto_nome": "Soro fisiológico 500ml",
-      "tipo": "Almoxarifado para Farmácia",
-      "origem": "Almoxarifado",
-      "destino": "Farmácia",
-      "quantidade": 24,
-      "responsavel": "Assucena",
-      "data": "2026-09-11",
-      "obs": "",
-      "criado_em": "2026-09-11 11:27:07",
-      "item": "Soro fisiológico 500ml",
       "usuario": "Assucena"
     }
   ]
