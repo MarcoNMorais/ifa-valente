@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "18/09/2026 11:19:33",
+  "atualizado_em": "18/09/2026 11:22:14",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 118300,
-    "total_farmacia": 38295,
-    "total_geral": 156595,
+    "total_farmacia": 38275,
+    "total_geral": 156575,
     "perto_de_terminar": 22,
     "zerados": 8
   },
@@ -7435,19 +7435,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 160,
-      "farmacia": 80,
+      "farmacia": 60,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 240,
+      "total": 220,
       "minimo": 0,
       "validade": "2027-08",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-16 10:32:54",
+      "atualizado_em": "2026-09-18 11:22:13",
       "validade_mais_proxima": "2027-08",
       "vencimento_mais_proximo": "2027-08",
       "lotes_validade": [
@@ -7455,7 +7455,7 @@
           "local": "farmacia",
           "validade": "2027-08",
           "lote": "",
-          "quantidade": 80
+          "quantidade": 60
         },
         {
           "local": "almoxarifado",
@@ -7465,13 +7465,13 @@
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 65,
-      "previsao_20_dias": 65,
+      "minimo_alerta": 76,
+      "previsao_20_dias": 76,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 37,
-      "media_diaria_saida": 3.24,
-      "total_saida_historica": 120,
-      "cobertura_dias": 74.0,
+      "media_diaria_saida": 3.78,
+      "total_saida_historica": 140,
+      "cobertura_dias": 58.1,
       "alerta_estoque": false
     },
     {
@@ -16965,6 +16965,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 2632,
+      "item_id": 64,
+      "produto_nome": "Fosfato de Clindamicina 150mg",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 20,
+      "responsavel": "Assucena",
+      "data": "2026-09-17",
+      "obs": "",
+      "criado_em": "2026-09-18 11:22:13",
+      "item": "Fosfato de Clindamicina 150mg",
+      "usuario": "Assucena"
+    },
+    {
       "id": 2631,
       "item_id": 200,
       "produto_nome": "Caixa de perfurocortante",
@@ -24447,21 +24462,6 @@
       "obs": "",
       "criado_em": "2026-09-11 11:25:19",
       "item": "Cimetidina 150mg",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2132,
-      "item_id": 57,
-      "produto_nome": "Bromoprida 5mg",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 20,
-      "responsavel": "Assucena",
-      "data": "2026-09-11",
-      "obs": "",
-      "criado_em": "2026-09-11 11:25:09",
-      "item": "Bromoprida 5mg",
       "usuario": "Assucena"
     }
   ]
