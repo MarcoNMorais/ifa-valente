@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "18/09/2026 11:11:27",
+  "atualizado_em": "18/09/2026 11:11:34",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
-    "total_almoxarifado": 119462,
-    "total_farmacia": 37688,
+    "total_almoxarifado": 119442,
+    "total_farmacia": 37708,
     "total_geral": 157150,
     "perto_de_terminar": 22,
     "zerados": 8
@@ -1843,8 +1843,8 @@
       "nome": "Atadura gessada nº 15",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 300,
-      "farmacia": 0,
+      "almoxarifado": 280,
+      "farmacia": 20,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -1856,7 +1856,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-15 16:24:57",
+      "atualizado_em": "2026-09-18 11:11:33",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -1864,7 +1864,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 300
+          "quantidade": 280
+        },
+        {
+          "local": "farmacia",
+          "validade": "",
+          "lote": "",
+          "quantidade": 20
         }
       ],
       "minimo_manual": 0,
@@ -16965,6 +16971,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 2596,
+      "item_id": 197,
+      "produto_nome": "Atadura gessada nº 15",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 20,
+      "responsavel": "Assucena",
+      "data": "2026-09-17",
+      "obs": "",
+      "criado_em": "2026-09-18 11:11:33",
+      "item": "Atadura gessada nº 15",
+      "usuario": "Assucena"
+    },
+    {
       "id": 2595,
       "item_id": 196,
       "produto_nome": "Atadura gessada nº 10",
@@ -24447,21 +24468,6 @@
       "obs": "",
       "criado_em": "2026-09-10 16:30:13",
       "item": "Soro Ringer Lactato 500ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 2096,
-      "item_id": 204,
-      "produto_nome": "Soro fisiológico 500ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 12,
-      "responsavel": "Leiliana",
-      "data": "2026-09-10",
-      "obs": "",
-      "criado_em": "2026-09-10 16:30:03",
-      "item": "Soro fisiológico 500ml",
       "usuario": "Leiliana"
     }
   ]
