@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "18/09/2026 11:16:51",
+  "atualizado_em": "18/09/2026 11:17:06",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 118300,
-    "total_farmacia": 38595,
-    "total_geral": 156895,
+    "total_farmacia": 38565,
+    "total_geral": 156865,
     "perto_de_terminar": 22,
     "zerados": 8
   },
@@ -751,19 +751,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 16600,
-      "farmacia": 110,
+      "farmacia": 80,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 16710,
+      "total": 16680,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga Almoxerifado",
       "obs": "Importação Almoxerifado",
-      "atualizado_em": "2026-09-17 13:57:23",
+      "atualizado_em": "2026-09-18 11:17:05",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -777,17 +777,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 110
+          "quantidade": 80
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 307,
-      "previsao_20_dias": 307,
+      "minimo_alerta": 325,
+      "previsao_20_dias": 325,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 32,
-      "media_diaria_saida": 15.31,
-      "total_saida_historica": 490,
-      "cobertura_dias": 1091.3,
+      "media_diaria_saida": 16.25,
+      "total_saida_historica": 520,
+      "cobertura_dias": 1026.5,
       "alerta_estoque": false
     },
     {
@@ -16965,6 +16965,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 2614,
+      "item_id": 331,
+      "produto_nome": "Agulha 30x8",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 30,
+      "responsavel": "Assucena",
+      "data": "2026-09-17",
+      "obs": "",
+      "criado_em": "2026-09-18 11:17:05",
+      "item": "Agulha 30x8",
+      "usuario": "Assucena"
+    },
+    {
       "id": 2613,
       "item_id": 285,
       "produto_nome": "Agulha 30x7",
@@ -24447,21 +24462,6 @@
       "obs": "",
       "criado_em": "2026-09-11 11:21:57",
       "item": "Gelco nº 24",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2114,
-      "item_id": 177,
-      "produto_nome": "Gelco nº 22",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 20,
-      "responsavel": "Assucena",
-      "data": "2026-09-11",
-      "obs": "",
-      "criado_em": "2026-09-11 11:21:45",
-      "item": "Gelco nº 22",
       "usuario": "Assucena"
     }
   ]
