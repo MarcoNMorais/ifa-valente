@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "18/09/2026 11:22:48",
+  "atualizado_em": "18/09/2026 11:23:21",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 117900,
-    "total_farmacia": 38615,
-    "total_geral": 156515,
+    "total_farmacia": 38585,
+    "total_geral": 156485,
     "perto_de_terminar": 22,
     "zerados": 8
   },
@@ -5003,19 +5003,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 1370,
+      "farmacia": 1340,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1370,
+      "total": 1340,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-17 13:54:24",
+      "atualizado_em": "2026-09-18 11:23:20",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -5023,17 +5023,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 1370
+          "quantidade": 1340
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 925,
-      "previsao_20_dias": 925,
+      "minimo_alerta": 941,
+      "previsao_20_dias": 941,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 37,
-      "media_diaria_saida": 46.22,
-      "total_saida_historica": 1710,
-      "cobertura_dias": 29.6,
+      "media_diaria_saida": 47.03,
+      "total_saida_historica": 1740,
+      "cobertura_dias": 28.5,
       "alerta_estoque": false
     },
     {
@@ -16965,6 +16965,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 2636,
+      "item_id": 70,
+      "produto_nome": "Dipirona",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 30,
+      "responsavel": "Assucena",
+      "data": "2026-09-17",
+      "obs": "",
+      "criado_em": "2026-09-18 11:23:20",
+      "item": "Dipirona",
+      "usuario": "Assucena"
+    },
+    {
       "id": 2635,
       "item_id": 202,
       "produto_nome": "Soro fisiológico 100ml",
@@ -24447,21 +24462,6 @@
       "obs": "",
       "criado_em": "2026-09-11 11:26:09",
       "item": "Dexclorfeniramina 0,4mg/ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2136,
-      "item_id": 82,
-      "produto_nome": "Hidrocortisona 100MG",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 20,
-      "responsavel": "Assucena",
-      "data": "2026-09-11",
-      "obs": "",
-      "criado_em": "2026-09-11 11:25:58",
-      "item": "Hidrocortisona 100MG",
       "usuario": "Assucena"
     }
   ]
