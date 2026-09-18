@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "18/09/2026 11:15:48",
+  "atualizado_em": "18/09/2026 11:16:18",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
-    "total_almoxarifado": 119200,
-    "total_farmacia": 37835,
+    "total_almoxarifado": 118300,
+    "total_farmacia": 38735,
     "total_geral": 157035,
     "perto_de_terminar": 22,
     "zerados": 8
@@ -480,8 +480,8 @@
       "nome": "AGULHA  40X1,2",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 7200,
-      "farmacia": 15,
+      "almoxarifado": 6300,
+      "farmacia": 915,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -493,7 +493,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-16 10:29:12",
+      "atualizado_em": "2026-09-18 11:16:17",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -501,13 +501,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 7200
+          "quantidade": 6300
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 15
+          "quantidade": 915
         }
       ],
       "minimo_manual": 0,
@@ -16965,6 +16965,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 2609,
+      "item_id": 390,
+      "produto_nome": "AGULHA  40X1,2",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 900,
+      "responsavel": "Assucena",
+      "data": "2026-09-17",
+      "obs": "",
+      "criado_em": "2026-09-18 11:16:17",
+      "item": "AGULHA  40X1,2",
+      "usuario": "Assucena"
+    },
+    {
       "id": 2608,
       "item_id": 378,
       "produto_nome": "HIDROXIDO DE ALUMINIU +MAGNESIO",
@@ -24447,21 +24462,6 @@
       "obs": "",
       "criado_em": "2026-09-11 11:20:54",
       "item": "Agulha 30x7",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2109,
-      "item_id": 390,
-      "produto_nome": "AGULHA  40X1,2",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 30,
-      "responsavel": "Assucena",
-      "data": "2026-09-11",
-      "obs": "",
-      "criado_em": "2026-09-11 11:20:40",
-      "item": "AGULHA  40X1,2",
       "usuario": "Assucena"
     }
   ]
