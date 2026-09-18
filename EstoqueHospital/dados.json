@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "18/09/2026 11:16:33",
+  "atualizado_em": "18/09/2026 11:16:43",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 118300,
-    "total_farmacia": 38645,
-    "total_geral": 156945,
+    "total_farmacia": 38625,
+    "total_geral": 156925,
     "perto_de_terminar": 22,
     "zerados": 8
   },
@@ -705,19 +705,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 15600,
-      "farmacia": 670,
+      "farmacia": 650,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 16270,
+      "total": 16250,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-18 11:11:15",
+      "atualizado_em": "2026-09-18 11:16:42",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -731,17 +731,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 670
+          "quantidade": 650
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 332,
-      "previsao_20_dias": 332,
+      "minimo_alerta": 344,
+      "previsao_20_dias": 344,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 32,
-      "media_diaria_saida": 16.56,
-      "total_saida_historica": 530,
-      "cobertura_dias": 982.3,
+      "media_diaria_saida": 17.19,
+      "total_saida_historica": 550,
+      "cobertura_dias": 945.5,
       "alerta_estoque": false
     },
     {
@@ -16965,6 +16965,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 2612,
+      "item_id": 285,
+      "produto_nome": "Agulha 30x7",
+      "tipo": "Farmácia para Posto de Internamento",
+      "origem": "Farmácia",
+      "destino": "Posto de Internamento",
+      "quantidade": 20,
+      "responsavel": "Assucena",
+      "data": "2026-09-17",
+      "obs": "",
+      "criado_em": "2026-09-18 11:16:42",
+      "item": "Agulha 30x7",
+      "usuario": "Assucena"
+    },
+    {
       "id": 2611,
       "item_id": 390,
       "produto_nome": "AGULHA  40X1,2",
@@ -24446,21 +24461,6 @@
       "data": "2026-09-11",
       "obs": "",
       "criado_em": "2026-09-11 11:21:27",
-      "item": "Dispositivo intravenoso Gelco nº 20",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2112,
-      "item_id": 178,
-      "produto_nome": "Dispositivo intravenoso Gelco nº 20",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 15,
-      "responsavel": "Assucena",
-      "data": "2026-09-11",
-      "obs": "",
-      "criado_em": "2026-09-11 11:21:16",
       "item": "Dispositivo intravenoso Gelco nº 20",
       "usuario": "Assucena"
     }
