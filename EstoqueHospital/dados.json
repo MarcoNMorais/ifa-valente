@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "18/09/2026 15:35:21",
+  "atualizado_em": "18/09/2026 15:35:37",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 117900,
-    "total_farmacia": 38472,
-    "total_geral": 156372,
+    "total_farmacia": 38432,
+    "total_geral": 156332,
     "perto_de_terminar": 22,
     "zerados": 8
   },
@@ -12977,19 +12977,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 5950,
-      "farmacia": 495,
+      "farmacia": 455,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 6445,
+      "total": 6405,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-18 11:18:23",
+      "atualizado_em": "2026-09-18 15:35:36",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -13003,17 +13003,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 495
+          "quantidade": 455
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 903,
-      "previsao_20_dias": 903,
+      "minimo_alerta": 925,
+      "previsao_20_dias": 925,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 37,
-      "media_diaria_saida": 45.14,
-      "total_saida_historica": 1670,
-      "cobertura_dias": 142.8,
+      "media_diaria_saida": 46.22,
+      "total_saida_historica": 1710,
+      "cobertura_dias": 138.6,
       "alerta_estoque": false
     },
     {
@@ -16964,6 +16964,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 2643,
+      "item_id": 102,
+      "produto_nome": "Seringa 5ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 40,
+      "responsavel": "Leiliana",
+      "data": "2026-09-18",
+      "obs": "",
+      "criado_em": "2026-09-18 15:35:36",
+      "item": "Seringa 5ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 2642,
       "item_id": 331,
@@ -24447,21 +24462,6 @@
       "obs": "",
       "criado_em": "2026-09-11 11:28:18",
       "item": "Tira Reagente G-Tech",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2143,
-      "item_id": 158,
-      "produto_nome": "Equipo para transfusão",
-      "tipo": "Almoxarifado para Farmácia",
-      "origem": "Almoxarifado",
-      "destino": "Farmácia",
-      "quantidade": 20,
-      "responsavel": "Assucena",
-      "data": "2026-09-11",
-      "obs": "",
-      "criado_em": "2026-09-11 11:28:05",
-      "item": "Equipo para transfusão",
       "usuario": "Assucena"
     }
   ]
