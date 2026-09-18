@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "18/09/2026 11:10:57",
+  "atualizado_em": "18/09/2026 11:11:06",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
-    "total_almoxarifado": 120130,
-    "total_farmacia": 37020,
+    "total_almoxarifado": 120082,
+    "total_farmacia": 37068,
     "total_geral": 157150,
     "perto_de_terminar": 22,
     "zerados": 8
@@ -15482,8 +15482,8 @@
       "nome": "Soro Ringer Lactato 500ml",
       "tipo": "Insumo",
       "unidade": "Unidade",
-      "almoxarifado": 264,
-      "farmacia": 22,
+      "almoxarifado": 216,
+      "farmacia": 70,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -15495,7 +15495,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-17 13:58:19",
+      "atualizado_em": "2026-09-18 11:11:05",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -15503,13 +15503,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 264
+          "quantidade": 216
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 22
+          "quantidade": 70
         }
       ],
       "minimo_manual": 0,
@@ -16964,6 +16964,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 2593,
+      "item_id": 201,
+      "produto_nome": "Soro Ringer Lactato 500ml",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 48,
+      "responsavel": "Assucena",
+      "data": "2026-09-17",
+      "obs": "",
+      "criado_em": "2026-09-18 11:11:05",
+      "item": "Soro Ringer Lactato 500ml",
+      "usuario": "Assucena"
+    },
     {
       "id": 2592,
       "item_id": 204,
@@ -24447,21 +24462,6 @@
       "obs": "",
       "criado_em": "2026-09-10 16:29:41",
       "item": "Soro fisiológico 100ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 2093,
-      "item_id": 102,
-      "produto_nome": "Seringa 5ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 40,
-      "responsavel": "Leiliana",
-      "data": "2026-09-10",
-      "obs": "",
-      "criado_em": "2026-09-10 16:29:30",
-      "item": "Seringa 5ml",
       "usuario": "Leiliana"
     }
   ]
