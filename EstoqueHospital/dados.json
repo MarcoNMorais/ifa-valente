@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "18/09/2026 11:15:08",
+  "atualizado_em": "18/09/2026 11:15:38",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
-    "total_almoxarifado": 119202,
-    "total_farmacia": 37834,
+    "total_almoxarifado": 119200,
+    "total_farmacia": 37836,
     "total_geral": 157036,
     "perto_de_terminar": 22,
     "zerados": 8
@@ -8518,8 +8518,8 @@
       "nome": "HIDROXIDO DE ALUMINIU +MAGNESIO",
       "tipo": "Medicamento",
       "unidade": "Unidade",
-      "almoxarifado": 2,
-      "farmacia": 0,
+      "almoxarifado": 0,
+      "farmacia": 2,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -8531,12 +8531,12 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-15 16:24:57",
+      "atualizado_em": "2026-09-18 11:15:37",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
         {
-          "local": "almoxarifado",
+          "local": "farmacia",
           "validade": "",
           "lote": "",
           "quantidade": 2
@@ -16965,6 +16965,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 2607,
+      "item_id": 378,
+      "produto_nome": "HIDROXIDO DE ALUMINIU +MAGNESIO",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 2,
+      "responsavel": "Assucena",
+      "data": "2026-09-17",
+      "obs": "",
+      "criado_em": "2026-09-18 11:15:37",
+      "item": "HIDROXIDO DE ALUMINIU +MAGNESIO",
+      "usuario": "Assucena"
+    },
+    {
       "id": 2606,
       "item_id": 27,
       "produto_nome": "Paracetamol 500mg",
@@ -24447,21 +24462,6 @@
       "obs": "",
       "criado_em": "2026-09-11 11:20:33",
       "item": "AGULHA  40X1,2",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2107,
-      "item_id": 255,
-      "produto_nome": "Ibuprofeno gotas",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 1,
-      "responsavel": "Assucena",
-      "data": "2026-09-11",
-      "obs": "",
-      "criado_em": "2026-09-11 11:20:23",
-      "item": "Ibuprofeno gotas",
       "usuario": "Assucena"
     }
   ]
