@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "18/09/2026 11:10:39",
+  "atualizado_em": "18/09/2026 11:10:46",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
-    "total_almoxarifado": 120678,
-    "total_farmacia": 36472,
+    "total_almoxarifado": 120178,
+    "total_farmacia": 36972,
     "total_geral": 157150,
     "perto_de_terminar": 22,
     "zerados": 8
@@ -12930,8 +12930,8 @@
       "nome": "Seringa 3ml",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 6500,
-      "farmacia": 1743,
+      "almoxarifado": 6000,
+      "farmacia": 2243,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -12943,7 +12943,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-17 16:29:28",
+      "atualizado_em": "2026-09-18 11:10:45",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -12951,13 +12951,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 6500
+          "quantidade": 6000
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 1743
+          "quantidade": 2243
         }
       ],
       "minimo_manual": 0,
@@ -16964,6 +16964,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 2591,
+      "item_id": 104,
+      "produto_nome": "Seringa 3ml",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 500,
+      "responsavel": "Assucena",
+      "data": "2026-09-17",
+      "obs": "",
+      "criado_em": "2026-09-18 11:10:45",
+      "item": "Seringa 3ml",
+      "usuario": "Assucena"
+    },
     {
       "id": 2590,
       "item_id": 103,
@@ -24447,21 +24462,6 @@
       "obs": "",
       "criado_em": "2026-09-10 16:29:18",
       "item": "Dipirona",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 2091,
-      "item_id": 285,
-      "produto_nome": "Agulha 30x7",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 30,
-      "responsavel": "Leiliana",
-      "data": "2026-09-10",
-      "obs": "",
-      "criado_em": "2026-09-10 16:29:06",
-      "item": "Agulha 30x7",
       "usuario": "Leiliana"
     }
   ]
