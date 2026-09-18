@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "18/09/2026 11:11:06",
+  "atualizado_em": "18/09/2026 11:11:16",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
-    "total_almoxarifado": 120082,
-    "total_farmacia": 37068,
+    "total_almoxarifado": 119482,
+    "total_farmacia": 37668,
     "total_geral": 157150,
     "perto_de_terminar": 22,
     "zerados": 8
@@ -704,8 +704,8 @@
       "nome": "Agulha 30x7",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 16200,
-      "farmacia": 70,
+      "almoxarifado": 15600,
+      "farmacia": 670,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -717,7 +717,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-17 16:28:31",
+      "atualizado_em": "2026-09-18 11:11:15",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -725,13 +725,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 16200
+          "quantidade": 15600
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 70
+          "quantidade": 670
         }
       ],
       "minimo_manual": 0,
@@ -16965,6 +16965,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 2594,
+      "item_id": 285,
+      "produto_nome": "Agulha 30x7",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 600,
+      "responsavel": "Assucena",
+      "data": "2026-09-17",
+      "obs": "",
+      "criado_em": "2026-09-18 11:11:15",
+      "item": "Agulha 30x7",
+      "usuario": "Assucena"
+    },
+    {
       "id": 2593,
       "item_id": 201,
       "produto_nome": "Soro Ringer Lactato 500ml",
@@ -24447,21 +24462,6 @@
       "obs": "",
       "criado_em": "2026-09-10 16:29:52",
       "item": "Soro fisiológico 250ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 2094,
-      "item_id": 202,
-      "produto_nome": "Soro fisiológico 100ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 60,
-      "responsavel": "Leiliana",
-      "data": "2026-09-10",
-      "obs": "",
-      "criado_em": "2026-09-10 16:29:41",
-      "item": "Soro fisiológico 100ml",
       "usuario": "Leiliana"
     }
   ]
