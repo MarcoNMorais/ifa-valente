@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "18/09/2026 11:14:23",
+  "atualizado_em": "18/09/2026 11:14:30",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 119202,
-    "total_farmacia": 37868,
-    "total_geral": 157070,
+    "total_farmacia": 37848,
+    "total_geral": 157050,
     "perto_de_terminar": 22,
     "zerados": 8
   },
@@ -441,19 +441,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 225,
+      "farmacia": 205,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 225,
+      "total": 205,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-18 11:14:22",
+      "atualizado_em": "2026-09-18 11:14:29",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -461,7 +461,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 225
+          "quantidade": 205
         }
       ],
       "minimo_manual": 0,
@@ -469,9 +469,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 15,
-      "media_diaria_saida": 6.33,
-      "total_saida_historica": 95,
-      "cobertura_dias": 35.5,
+      "media_diaria_saida": 7.67,
+      "total_saida_historica": 115,
+      "cobertura_dias": 26.7,
       "alerta_estoque": false
     },
     {
@@ -16965,6 +16965,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 2602,
+      "item_id": 382,
+      "produto_nome": "AGUA P/ INJ",
+      "tipo": "Farmácia para Posto de Internamento",
+      "origem": "Farmácia",
+      "destino": "Posto de Internamento",
+      "quantidade": 20,
+      "responsavel": "Assucena",
+      "data": "2026-09-17",
+      "obs": "",
+      "criado_em": "2026-09-18 11:14:29",
+      "item": "AGUA P/ INJ",
+      "usuario": "Assucena"
+    },
+    {
       "id": 2601,
       "item_id": 382,
       "produto_nome": "AGUA P/ INJ",
@@ -24448,21 +24463,6 @@
       "criado_em": "2026-09-11 11:19:44",
       "item": "Benzilpenicilina 600 UI",
       "usuario": "Assucena"
-    },
-    {
-      "id": 2102,
-      "item_id": 298,
-      "produto_nome": "Levofloxacino 100ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 5,
-      "responsavel": "Leiliana",
-      "data": "2026-09-10",
-      "obs": "",
-      "criado_em": "2026-09-10 16:31:33",
-      "item": "Levofloxacino 100ml",
-      "usuario": "Leiliana"
     }
   ]
 }
