@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "18/09/2026 11:10:12",
+  "atualizado_em": "18/09/2026 11:10:24",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
-    "total_almoxarifado": 121028,
-    "total_farmacia": 36122,
+    "total_almoxarifado": 120928,
+    "total_farmacia": 36222,
     "total_geral": 157150,
     "perto_de_terminar": 22,
     "zerados": 8
@@ -12706,8 +12706,8 @@
       "nome": "Scalp nº 23",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 1520,
-      "farmacia": 43,
+      "almoxarifado": 1420,
+      "farmacia": 143,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -12719,7 +12719,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-17 16:28:42",
+      "atualizado_em": "2026-09-18 11:10:23",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -12727,13 +12727,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 1520
+          "quantidade": 1420
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 53
+          "quantidade": 153
         }
       ],
       "minimo_manual": 0,
@@ -16964,6 +16964,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 2589,
+      "item_id": 98,
+      "produto_nome": "Scalp nº 23",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 100,
+      "responsavel": "Assucena",
+      "data": "2026-09-17",
+      "obs": "",
+      "criado_em": "2026-09-18 11:10:23",
+      "item": "Scalp nº 23",
+      "usuario": "Assucena"
+    },
     {
       "id": 2588,
       "item_id": 272,
@@ -24447,21 +24462,6 @@
       "obs": "",
       "criado_em": "2026-09-10 16:28:57",
       "item": "Agulha 30x8",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 2089,
-      "item_id": 98,
-      "produto_nome": "Scalp nº 23",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 20,
-      "responsavel": "Leiliana",
-      "data": "2026-09-10",
-      "obs": "",
-      "criado_em": "2026-09-10 16:28:41",
-      "item": "Scalp nº 23",
       "usuario": "Leiliana"
     }
   ]
