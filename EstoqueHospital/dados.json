@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "18/09/2026 11:17:32",
+  "atualizado_em": "18/09/2026 11:17:43",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 118300,
-    "total_farmacia": 38529,
-    "total_geral": 156829,
+    "total_farmacia": 38528,
+    "total_geral": 156828,
     "perto_de_terminar": 22,
     "zerados": 8
   },
@@ -9401,19 +9401,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 8,
-      "farmacia": 20,
+      "farmacia": 19,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 28,
+      "total": 27,
       "minimo": 0,
       "validade": "2027-04",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-18 11:17:31",
+      "atualizado_em": "2026-09-18 11:17:43",
       "validade_mais_proxima": "2027-04",
       "vencimento_mais_proximo": "2027-04",
       "lotes_validade": [
@@ -9421,7 +9421,7 @@
           "local": "farmacia",
           "validade": "2027-04",
           "lote": "",
-          "quantidade": 20
+          "quantidade": 19
         },
         {
           "local": "almoxarifado",
@@ -9435,9 +9435,9 @@
       "previsao_20_dias": 5,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 37,
-      "media_diaria_saida": 0.22,
-      "total_saida_historica": 8,
-      "cobertura_dias": 129.5,
+      "media_diaria_saida": 0.24,
+      "total_saida_historica": 9,
+      "cobertura_dias": 111.0,
       "alerta_estoque": false
     },
     {
@@ -16965,6 +16965,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 2618,
+      "item_id": 85,
+      "produto_nome": "Lidocaína Gel",
+      "tipo": "Farmácia para Posto de Internamento",
+      "origem": "Farmácia",
+      "destino": "Posto de Internamento",
+      "quantidade": 1,
+      "responsavel": "Assucena",
+      "data": "2026-09-17",
+      "obs": "",
+      "criado_em": "2026-09-18 11:17:43",
+      "item": "Lidocaína Gel",
+      "usuario": "Assucena"
+    },
+    {
       "id": 2617,
       "item_id": 85,
       "produto_nome": "Lidocaína Gel",
@@ -24446,21 +24461,6 @@
       "data": "2026-09-11",
       "obs": "",
       "criado_em": "2026-09-11 11:22:37",
-      "item": "Seringa 20ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2118,
-      "item_id": 274,
-      "produto_nome": "Seringa 20ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 20,
-      "responsavel": "Assucena",
-      "data": "2026-09-11",
-      "obs": "",
-      "criado_em": "2026-09-11 11:22:30",
       "item": "Seringa 20ml",
       "usuario": "Assucena"
     }
