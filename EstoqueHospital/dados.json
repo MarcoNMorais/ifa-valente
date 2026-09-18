@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "18/09/2026 15:36:25",
+  "atualizado_em": "18/09/2026 15:36:33",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 117900,
-    "total_farmacia": 38387,
-    "total_geral": 156287,
+    "total_farmacia": 38377,
+    "total_geral": 156277,
     "perto_de_terminar": 22,
     "zerados": 8
   },
@@ -4837,19 +4837,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 70,
-      "farmacia": 70,
+      "farmacia": 60,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 140,
+      "total": 130,
       "minimo": 0,
       "validade": "2027-06",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-15 16:24:57",
+      "atualizado_em": "2026-09-18 15:36:32",
       "validade_mais_proxima": "2027-06",
       "vencimento_mais_proximo": "2027-06",
       "lotes_validade": [
@@ -4857,7 +4857,7 @@
           "local": "farmacia",
           "validade": "2027-06",
           "lote": "",
-          "quantidade": 70
+          "quantidade": 60
         },
         {
           "local": "almoxarifado",
@@ -4867,13 +4867,13 @@
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 0,
-      "previsao_20_dias": 0,
+      "minimo_alerta": 6,
+      "previsao_20_dias": 6,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 37,
-      "media_diaria_saida": 0.0,
-      "total_saida_historica": 0,
-      "cobertura_dias": null,
+      "media_diaria_saida": 0.27,
+      "total_saida_historica": 10,
+      "cobertura_dias": 481.0,
       "alerta_estoque": false
     },
     {
@@ -16965,6 +16965,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 2648,
+      "item_id": 125,
+      "produto_nome": "Diazepam 5mg CPR",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 10,
+      "responsavel": "Leiliana",
+      "data": "2026-09-18",
+      "obs": "",
+      "criado_em": "2026-09-18 15:36:32",
+      "item": "Diazepam 5mg CPR",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 2647,
       "item_id": 27,
       "produto_nome": "Paracetamol 500mg",
@@ -24447,21 +24462,6 @@
       "obs": "",
       "criado_em": "2026-09-14 11:45:04",
       "item": "Lidocaína",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2205,
-      "item_id": 386,
-      "produto_nome": "LIDOCAINA SPAY",
-      "tipo": "Almoxarifado para Farmácia",
-      "origem": "Almoxarifado",
-      "destino": "Farmácia",
-      "quantidade": 1,
-      "responsavel": "Assucena",
-      "data": "2026-09-11",
-      "obs": "",
-      "criado_em": "2026-09-14 11:44:57",
-      "item": "LIDOCAINA SPAY",
       "usuario": "Assucena"
     }
   ]
