@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "18/09/2026 11:14:04",
+  "atualizado_em": "18/09/2026 11:14:13",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
-    "total_almoxarifado": 119442,
-    "total_farmacia": 37638,
+    "total_almoxarifado": 119202,
+    "total_farmacia": 37878,
     "total_geral": 157080,
     "perto_de_terminar": 22,
     "zerados": 8
@@ -5923,8 +5923,8 @@
       "nome": "Escopolamina 20mg",
       "tipo": "Medicamento",
       "unidade": "Unidade",
-      "almoxarifado": 240,
-      "farmacia": 0,
+      "almoxarifado": 0,
+      "farmacia": 240,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -5936,12 +5936,12 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-18 11:14:03",
+      "atualizado_em": "2026-09-18 11:14:12",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
         {
-          "local": "almoxarifado",
+          "local": "farmacia",
           "validade": "",
           "lote": "",
           "quantidade": 240
@@ -16965,6 +16965,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 2600,
+      "item_id": 75,
+      "produto_nome": "Escopolamina 20mg",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 240,
+      "responsavel": "Assucena",
+      "data": "2026-09-17",
+      "obs": "",
+      "criado_em": "2026-09-18 11:14:12",
+      "item": "Escopolamina 20mg",
+      "usuario": "Assucena"
+    },
+    {
       "id": 2599,
       "item_id": 75,
       "produto_nome": "Escopolamina 20mg",
@@ -24447,21 +24462,6 @@
       "obs": "",
       "criado_em": "2026-09-10 16:31:21",
       "item": "Seringa 10ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 2100,
-      "item_id": 279,
-      "produto_nome": "Luva de vinil G",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 1,
-      "responsavel": "Leiliana",
-      "data": "2026-09-10",
-      "obs": "",
-      "criado_em": "2026-09-10 16:31:05",
-      "item": "Luva de vinil G",
       "usuario": "Leiliana"
     }
   ]
