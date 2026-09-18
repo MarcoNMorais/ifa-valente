@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "18/09/2026 11:10:46",
+  "atualizado_em": "18/09/2026 11:10:57",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
-    "total_almoxarifado": 120178,
-    "total_farmacia": 36972,
+    "total_almoxarifado": 120130,
+    "total_farmacia": 37020,
     "total_geral": 157150,
     "perto_de_terminar": 22,
     "zerados": 8
@@ -15344,8 +15344,8 @@
       "nome": "Soro fisiológico 500ml",
       "tipo": "Insumo",
       "unidade": "Unidade",
-      "almoxarifado": 883,
-      "farmacia": 19,
+      "almoxarifado": 835,
+      "farmacia": 67,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -15357,7 +15357,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-17 16:30:38",
+      "atualizado_em": "2026-09-18 11:10:56",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -15365,13 +15365,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 883
+          "quantidade": 835
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 19
+          "quantidade": 67
         }
       ],
       "minimo_manual": 0,
@@ -16964,6 +16964,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 2592,
+      "item_id": 204,
+      "produto_nome": "Soro fisiológico 500ml",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 48,
+      "responsavel": "Assucena",
+      "data": "2026-09-17",
+      "obs": "",
+      "criado_em": "2026-09-18 11:10:56",
+      "item": "Soro fisiológico 500ml",
+      "usuario": "Assucena"
+    },
     {
       "id": 2591,
       "item_id": 104,
@@ -24447,21 +24462,6 @@
       "obs": "",
       "criado_em": "2026-09-10 16:29:30",
       "item": "Seringa 5ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 2092,
-      "item_id": 70,
-      "produto_nome": "Dipirona",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 30,
-      "responsavel": "Leiliana",
-      "data": "2026-09-10",
-      "obs": "",
-      "criado_em": "2026-09-10 16:29:18",
-      "item": "Dipirona",
       "usuario": "Leiliana"
     }
   ]
