@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "18/09/2026 15:36:33",
+  "atualizado_em": "18/09/2026 15:36:53",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 117900,
-    "total_farmacia": 38377,
-    "total_geral": 156277,
+    "total_farmacia": 38376,
+    "total_geral": 156276,
     "perto_de_terminar": 22,
     "zerados": 8
   },
@@ -9063,19 +9063,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 40,
-      "farmacia": 10,
+      "farmacia": 9,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 50,
+      "total": 49,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-16 10:27:03",
+      "atualizado_em": "2026-09-18 15:36:52",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -9089,16 +9089,16 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 10
+          "quantidade": 9
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 3568,
-      "previsao_20_dias": 3568,
+      "minimo_alerta": 3569,
+      "previsao_20_dias": 3569,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 37,
-      "media_diaria_saida": 178.38,
-      "total_saida_historica": 6600,
+      "media_diaria_saida": 178.41,
+      "total_saida_historica": 6601,
       "cobertura_dias": 0.3,
       "alerta_estoque": true
     },
@@ -16965,6 +16965,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 2649,
+      "item_id": 194,
+      "produto_nome": "Lanceta de segurança",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 1,
+      "responsavel": "Leiliana",
+      "data": "2026-09-18",
+      "obs": "",
+      "criado_em": "2026-09-18 15:36:52",
+      "item": "Lanceta de segurança",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 2648,
       "item_id": 125,
       "produto_nome": "Diazepam 5mg CPR",
@@ -24447,21 +24462,6 @@
       "obs": "",
       "criado_em": "2026-09-14 11:45:28",
       "item": "Seringa 10ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2206,
-      "item_id": 84,
-      "produto_nome": "Lidocaína",
-      "tipo": "Almoxarifado para Farmácia",
-      "origem": "Almoxarifado",
-      "destino": "Farmácia",
-      "quantidade": 20,
-      "responsavel": "Assucena",
-      "data": "2026-09-11",
-      "obs": "",
-      "criado_em": "2026-09-14 11:45:04",
-      "item": "Lidocaína",
       "usuario": "Assucena"
     }
   ]
