@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "18/09/2026 11:10:24",
+  "atualizado_em": "18/09/2026 11:10:39",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
-    "total_almoxarifado": 120928,
-    "total_farmacia": 36222,
+    "total_almoxarifado": 120678,
+    "total_farmacia": 36472,
     "total_geral": 157150,
     "perto_de_terminar": 22,
     "zerados": 8
@@ -12792,8 +12792,8 @@
       "nome": "Seringa 10ml",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 6750,
-      "farmacia": 60,
+      "almoxarifado": 6500,
+      "farmacia": 310,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -12805,7 +12805,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-17 16:29:10",
+      "atualizado_em": "2026-09-18 11:10:38",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -12813,13 +12813,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 6750
+          "quantidade": 6500
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 60
+          "quantidade": 310
         }
       ],
       "minimo_manual": 0,
@@ -16964,6 +16964,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 2590,
+      "item_id": 103,
+      "produto_nome": "Seringa 10ml",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 250,
+      "responsavel": "Assucena",
+      "data": "2026-09-17",
+      "obs": "",
+      "criado_em": "2026-09-18 11:10:38",
+      "item": "Seringa 10ml",
+      "usuario": "Assucena"
+    },
     {
       "id": 2589,
       "item_id": 98,
@@ -24447,21 +24462,6 @@
       "obs": "",
       "criado_em": "2026-09-10 16:29:06",
       "item": "Agulha 30x7",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 2090,
-      "item_id": 331,
-      "produto_nome": "Agulha 30x8",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 30,
-      "responsavel": "Leiliana",
-      "data": "2026-09-10",
-      "obs": "",
-      "criado_em": "2026-09-10 16:28:57",
-      "item": "Agulha 30x8",
       "usuario": "Leiliana"
     }
   ]
