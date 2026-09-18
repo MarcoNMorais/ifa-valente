@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "18/09/2026 11:22:14",
+  "atualizado_em": "18/09/2026 11:22:20",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
-    "total_almoxarifado": 118300,
-    "total_farmacia": 38275,
+    "total_almoxarifado": 118140,
+    "total_farmacia": 38435,
     "total_geral": 156575,
     "perto_de_terminar": 22,
     "zerados": 8
@@ -7434,8 +7434,8 @@
       "nome": "Fosfato de Clindamicina 150mg",
       "tipo": "Medicamento",
       "unidade": "Unidade",
-      "almoxarifado": 160,
-      "farmacia": 60,
+      "almoxarifado": 0,
+      "farmacia": 220,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -7447,7 +7447,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-18 11:22:13",
+      "atualizado_em": "2026-09-18 11:22:19",
       "validade_mais_proxima": "2027-08",
       "vencimento_mais_proximo": "2027-08",
       "lotes_validade": [
@@ -7458,7 +7458,7 @@
           "quantidade": 60
         },
         {
-          "local": "almoxarifado",
+          "local": "farmacia",
           "validade": "",
           "lote": "",
           "quantidade": 160
@@ -16965,6 +16965,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 2633,
+      "item_id": 64,
+      "produto_nome": "Fosfato de Clindamicina 150mg",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 160,
+      "responsavel": "Assucena",
+      "data": "2026-09-17",
+      "obs": "",
+      "criado_em": "2026-09-18 11:22:19",
+      "item": "Fosfato de Clindamicina 150mg",
+      "usuario": "Assucena"
+    },
+    {
       "id": 2632,
       "item_id": 64,
       "produto_nome": "Fosfato de Clindamicina 150mg",
@@ -24447,21 +24462,6 @@
       "obs": "",
       "criado_em": "2026-09-11 11:25:29",
       "item": "Oxacilina 500mg pó injetável",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2133,
-      "item_id": 62,
-      "produto_nome": "Cimetidina 150mg",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 20,
-      "responsavel": "Assucena",
-      "data": "2026-09-11",
-      "obs": "",
-      "criado_em": "2026-09-11 11:25:19",
-      "item": "Cimetidina 150mg",
       "usuario": "Assucena"
     }
   ]
