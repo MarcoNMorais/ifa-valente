@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "18/09/2026 11:11:16",
+  "atualizado_em": "18/09/2026 11:11:27",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
-    "total_almoxarifado": 119482,
-    "total_farmacia": 37668,
+    "total_almoxarifado": 119462,
+    "total_farmacia": 37688,
     "total_geral": 157150,
     "perto_de_terminar": 22,
     "zerados": 8
@@ -1797,8 +1797,8 @@
       "nome": "Atadura gessada nº 10",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 300,
-      "farmacia": 35,
+      "almoxarifado": 280,
+      "farmacia": 55,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -1810,7 +1810,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-15 16:24:57",
+      "atualizado_em": "2026-09-18 11:11:26",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -1818,13 +1818,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 300
+          "quantidade": 280
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 35
+          "quantidade": 55
         }
       ],
       "minimo_manual": 0,
@@ -16965,6 +16965,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 2595,
+      "item_id": 196,
+      "produto_nome": "Atadura gessada nº 10",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 20,
+      "responsavel": "Assucena",
+      "data": "2026-09-17",
+      "obs": "",
+      "criado_em": "2026-09-18 11:11:26",
+      "item": "Atadura gessada nº 10",
+      "usuario": "Assucena"
+    },
+    {
       "id": 2594,
       "item_id": 285,
       "produto_nome": "Agulha 30x7",
@@ -24447,21 +24462,6 @@
       "obs": "",
       "criado_em": "2026-09-10 16:30:03",
       "item": "Soro fisiológico 500ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 2095,
-      "item_id": 203,
-      "produto_nome": "Soro fisiológico 250ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 6,
-      "responsavel": "Leiliana",
-      "data": "2026-09-10",
-      "obs": "",
-      "criado_em": "2026-09-10 16:29:52",
-      "item": "Soro fisiológico 250ml",
       "usuario": "Leiliana"
     }
   ]
