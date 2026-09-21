@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "21/09/2026 11:25:09",
+  "atualizado_em": "21/09/2026 11:25:22",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
-    "total_almoxarifado": 117000,
-    "total_farmacia": 37025,
+    "total_almoxarifado": 116600,
+    "total_farmacia": 37425,
     "total_geral": 154025,
     "perto_de_terminar": 24,
     "zerados": 8
@@ -3085,8 +3085,8 @@
       "nome": "Captopril 25mg CPR",
       "tipo": "Medicamento",
       "unidade": "Unidade",
-      "almoxarifado": 400,
-      "farmacia": 0,
+      "almoxarifado": 0,
+      "farmacia": 400,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -3098,12 +3098,12 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-15 16:24:57",
+      "atualizado_em": "2026-09-21 11:25:21",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
         {
-          "local": "almoxarifado",
+          "local": "farmacia",
           "validade": "",
           "lote": "",
           "quantidade": 400
@@ -18726,6 +18726,21 @@
       "usuario": "Assucena"
     },
     {
+      "id": 2777,
+      "item_id": 138,
+      "produto_nome": "Captopril 25mg CPR",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 400,
+      "responsavel": "Assucena",
+      "data": "2026-09-18",
+      "obs": "",
+      "criado_em": "2026-09-21 11:25:21",
+      "item": "Captopril 25mg CPR",
+      "usuario": "Assucena"
+    },
+    {
       "id": 2765,
       "item_id": 99,
       "produto_nome": "Scalp nº 21",
@@ -24453,21 +24468,6 @@
       "obs": "",
       "criado_em": "2026-09-15 11:02:35",
       "item": "Scalp nº 21",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2318,
-      "item_id": 275,
-      "produto_nome": "Equipo micro",
-      "tipo": "Almoxarifado para Farmácia",
-      "origem": "Almoxarifado",
-      "destino": "Farmácia",
-      "quantidade": 740,
-      "responsavel": "Assucena",
-      "data": "2026-09-14",
-      "obs": "",
-      "criado_em": "2026-09-15 11:01:44",
-      "item": "Equipo micro",
       "usuario": "Assucena"
     }
   ]
