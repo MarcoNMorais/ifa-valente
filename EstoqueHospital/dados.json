@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "21/09/2026 11:08:05",
+  "atualizado_em": "21/09/2026 11:08:18",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 117500,
-    "total_farmacia": 37958,
-    "total_geral": 155458,
+    "total_farmacia": 37938,
+    "total_geral": 155438,
     "perto_de_terminar": 23,
     "zerados": 8
   },
@@ -315,19 +315,19 @@
       "tipo": "Medicamento",
       "unidade": "Ampola",
       "almoxarifado": 0,
-      "farmacia": 120,
+      "farmacia": 100,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 120,
+      "total": 100,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-16 10:28:44",
+      "atualizado_em": "2026-09-21 11:08:17",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -335,7 +335,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 120
+          "quantidade": 100
         }
       ],
       "minimo_manual": 0,
@@ -343,9 +343,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 18,
-      "media_diaria_saida": 6.67,
-      "total_saida_historica": 120,
-      "cobertura_dias": 18.0,
+      "media_diaria_saida": 7.78,
+      "total_saida_historica": 140,
+      "cobertura_dias": 12.9,
       "alerta_estoque": false
     },
     {
@@ -16971,6 +16971,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 2687,
+      "item_id": 384,
+      "produto_nome": "ACIDO ASCORBICO",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 20,
+      "responsavel": "Assucena",
+      "data": "2026-09-19",
+      "obs": "",
+      "criado_em": "2026-09-21 11:08:17",
+      "item": "ACIDO ASCORBICO",
+      "usuario": "Assucena"
+    },
+    {
       "id": 2686,
       "item_id": 55,
       "produto_nome": "Benzilpenicilina 1.200",
@@ -24453,21 +24468,6 @@
       "obs": "",
       "criado_em": "2026-09-14 11:27:55",
       "item": "Equipo micro",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2183,
-      "item_id": 57,
-      "produto_nome": "Bromoprida 5mg",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 20,
-      "responsavel": "Assucena",
-      "data": "2026-09-12",
-      "obs": "",
-      "criado_em": "2026-09-14 11:27:45",
-      "item": "Bromoprida 5mg",
       "usuario": "Assucena"
     }
   ]
