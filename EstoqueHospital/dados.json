@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "21/09/2026 11:02:32",
+  "atualizado_em": "21/09/2026 11:02:52",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 117500,
-    "total_farmacia": 38759,
-    "total_geral": 156259,
+    "total_farmacia": 38758,
+    "total_geral": 156258,
     "perto_de_terminar": 22,
     "zerados": 8
   },
@@ -103,19 +103,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 28,
+      "farmacia": 27,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 28,
+      "total": 27,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-15 16:24:57",
+      "atualizado_em": "2026-09-21 11:02:51",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -123,17 +123,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 28
+          "quantidade": 27
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 3,
-      "previsao_20_dias": 3,
+      "minimo_alerta": 4,
+      "previsao_20_dias": 4,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 35,
-      "media_diaria_saida": 0.14,
-      "total_saida_historica": 5,
-      "cobertura_dias": 196.0,
+      "media_diaria_saida": 0.17,
+      "total_saida_historica": 6,
+      "cobertura_dias": 157.5,
       "alerta_estoque": false
     },
     {
@@ -16971,6 +16971,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 2658,
+      "item_id": 320,
+      "produto_nome": "Acebrofilina 10mg/ml",
+      "tipo": "Farmácia para Posto de Internamento",
+      "origem": "Farmácia",
+      "destino": "Posto de Internamento",
+      "quantidade": 1,
+      "responsavel": "Assucena",
+      "data": "2026-09-19",
+      "obs": "",
+      "criado_em": "2026-09-21 11:02:51",
+      "item": "Acebrofilina 10mg/ml",
+      "usuario": "Assucena"
+    },
+    {
       "id": 2657,
       "item_id": 241,
       "produto_nome": "Lactulose solução",
@@ -24453,21 +24468,6 @@
       "obs": "",
       "criado_em": "2026-09-14 11:22:02",
       "item": "Dipirona",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2152,
-      "item_id": 60,
-      "produto_nome": "Cetoprofeno EV 100mg",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 12,
-      "responsavel": "Assucena",
-      "data": "2026-09-12",
-      "obs": "",
-      "criado_em": "2026-09-14 11:21:52",
-      "item": "Cetoprofeno EV 100mg",
       "usuario": "Assucena"
     }
   ]
