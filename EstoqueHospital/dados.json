@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "21/09/2026 11:01:49",
+  "atualizado_em": "21/09/2026 11:01:58",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
-    "total_almoxarifado": 117784,
-    "total_farmacia": 38475,
+    "total_almoxarifado": 117760,
+    "total_farmacia": 38499,
     "total_geral": 156259,
     "perto_de_terminar": 22,
     "zerados": 8
@@ -5963,8 +5963,8 @@
       "nome": "Esparadrapo 10x4,5",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 376,
-      "farmacia": 13,
+      "almoxarifado": 352,
+      "farmacia": 37,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -5976,7 +5976,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-18 15:35:58",
+      "atualizado_em": "2026-09-21 11:01:57",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -5984,13 +5984,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 376
+          "quantidade": 352
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 15
+          "quantidade": 39
         }
       ],
       "minimo_manual": 0,
@@ -16971,6 +16971,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 2654,
+      "item_id": 276,
+      "produto_nome": "Esparadrapo 10x4,5",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 24,
+      "responsavel": "Assucena",
+      "data": "2026-09-18",
+      "obs": "",
+      "criado_em": "2026-09-21 11:01:57",
+      "item": "Esparadrapo 10x4,5",
+      "usuario": "Assucena"
+    },
+    {
       "id": 2653,
       "item_id": 376,
       "produto_nome": "LENÇOL DESCARTAVEL PAPEL",
@@ -24453,21 +24468,6 @@
       "obs": "",
       "criado_em": "2026-09-14 11:21:16",
       "item": "Gelco nº 24",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2148,
-      "item_id": 177,
-      "produto_nome": "Gelco nº 22",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 20,
-      "responsavel": "Assucena",
-      "data": "2026-09-12",
-      "obs": "",
-      "criado_em": "2026-09-14 11:21:00",
-      "item": "Gelco nº 22",
       "usuario": "Assucena"
     }
   ]
