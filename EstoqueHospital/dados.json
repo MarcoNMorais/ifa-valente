@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "21/09/2026 11:22:57",
+  "atualizado_em": "21/09/2026 11:23:10",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
-    "total_almoxarifado": 117500,
-    "total_farmacia": 36720,
+    "total_almoxarifado": 117100,
+    "total_farmacia": 37120,
     "total_geral": 154220,
     "perto_de_terminar": 24,
     "zerados": 8
@@ -750,8 +750,8 @@
       "nome": "Agulha 30x8",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 16600,
-      "farmacia": 0,
+      "almoxarifado": 16200,
+      "farmacia": 400,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -763,7 +763,7 @@
       "lote": "",
       "origem": "Carga Almoxerifado",
       "obs": "Importação Almoxerifado",
-      "atualizado_em": "2026-09-21 11:22:57",
+      "atualizado_em": "2026-09-21 11:23:09",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -771,7 +771,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 16600
+          "quantidade": 16200
+        },
+        {
+          "local": "farmacia",
+          "validade": "",
+          "lote": "",
+          "quantidade": 400
         }
       ],
       "minimo_manual": 0,
@@ -18525,6 +18531,21 @@
       "usuario": "Assucena"
     },
     {
+      "id": 2762,
+      "item_id": 331,
+      "produto_nome": "Agulha 30x8",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 400,
+      "responsavel": "Assucena",
+      "data": "2026-09-18",
+      "obs": "",
+      "criado_em": "2026-09-21 11:23:09",
+      "item": "Agulha 30x8",
+      "usuario": "Assucena"
+    },
+    {
       "id": 2657,
       "item_id": 241,
       "produto_nome": "Lactulose solução",
@@ -24446,21 +24467,6 @@
       "data": "2026-09-14",
       "obs": "ajuste de estoque ",
       "criado_em": "2026-09-15 10:48:18",
-      "item": "HIDROCORTIZONA 500MG",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2303,
-      "item_id": 387,
-      "produto_nome": "HIDROCORTIZONA 500MG",
-      "tipo": "Entrada no Almoxarifado",
-      "origem": "Entrada externa",
-      "destino": "Almoxarifado",
-      "quantidade": 50,
-      "responsavel": "Assucena",
-      "data": "2026-09-14",
-      "obs": "",
-      "criado_em": "2026-09-15 10:47:59",
       "item": "HIDROCORTIZONA 500MG",
       "usuario": "Assucena"
     }
