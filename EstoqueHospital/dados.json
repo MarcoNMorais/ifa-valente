@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "21/09/2026 11:22:45",
+  "atualizado_em": "21/09/2026 11:22:57",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 117500,
-    "total_farmacia": 36740,
-    "total_geral": 154240,
+    "total_farmacia": 36720,
+    "total_geral": 154220,
     "perto_de_terminar": 24,
     "zerados": 8
   },
@@ -751,19 +751,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 16600,
-      "farmacia": 20,
+      "farmacia": 0,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 16620,
+      "total": 16600,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga Almoxerifado",
       "obs": "Importação Almoxerifado",
-      "atualizado_em": "2026-09-21 11:05:00",
+      "atualizado_em": "2026-09-21 11:22:57",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -772,22 +772,16 @@
           "validade": "",
           "lote": "",
           "quantidade": 16600
-        },
-        {
-          "local": "farmacia",
-          "validade": "",
-          "lote": "",
-          "quantidade": 20
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 332,
-      "previsao_20_dias": 332,
+      "minimo_alerta": 343,
+      "previsao_20_dias": 343,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 35,
-      "media_diaria_saida": 16.57,
-      "total_saida_historica": 580,
-      "cobertura_dias": 1002.9,
+      "media_diaria_saida": 17.14,
+      "total_saida_historica": 600,
+      "cobertura_dias": 968.3,
       "alerta_estoque": false
     },
     {
@@ -16971,6 +16965,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 2761,
+      "item_id": 331,
+      "produto_nome": "Agulha 30x8",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 20,
+      "responsavel": "Assucena",
+      "data": "2026-09-21",
+      "obs": "",
+      "criado_em": "2026-09-21 11:22:57",
+      "item": "Agulha 30x8",
+      "usuario": "Assucena"
+    },
+    {
       "id": 2760,
       "item_id": 285,
       "produto_nome": "Agulha 30x7",
@@ -24453,21 +24462,6 @@
       "obs": "",
       "criado_em": "2026-09-15 10:47:59",
       "item": "HIDROCORTIZONA 500MG",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2301,
-      "item_id": 82,
-      "produto_nome": "Hidrocortisona 100MG",
-      "tipo": "Almoxarifado para Farmácia",
-      "origem": "Almoxarifado",
-      "destino": "Farmácia",
-      "quantidade": 307,
-      "responsavel": "Assucena",
-      "data": "2026-09-14",
-      "obs": "",
-      "criado_em": "2026-09-15 10:45:13",
-      "item": "Hidrocortisona 100MG",
       "usuario": "Assucena"
     }
   ]
