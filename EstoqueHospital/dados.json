@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "21/09/2026 11:06:11",
+  "atualizado_em": "21/09/2026 11:06:21",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 117500,
-    "total_farmacia": 38204,
-    "total_geral": 155704,
+    "total_farmacia": 38144,
+    "total_geral": 155644,
     "perto_de_terminar": 22,
     "zerados": 8
   },
@@ -15259,19 +15259,19 @@
       "tipo": "Insumo",
       "unidade": "Unidade",
       "almoxarifado": 1260,
-      "farmacia": 300,
+      "farmacia": 240,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1560,
+      "total": 1500,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-18 11:22:47",
+      "atualizado_em": "2026-09-21 11:06:20",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -15285,17 +15285,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 300
+          "quantidade": 240
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 780,
-      "previsao_20_dias": 780,
+      "minimo_alerta": 810,
+      "previsao_20_dias": 810,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 40,
-      "media_diaria_saida": 39.0,
-      "total_saida_historica": 1560,
-      "cobertura_dias": 40.0,
+      "media_diaria_saida": 40.5,
+      "total_saida_historica": 1620,
+      "cobertura_dias": 37.0,
       "alerta_estoque": false
     },
     {
@@ -16970,6 +16970,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 2679,
+      "item_id": 202,
+      "produto_nome": "Soro fisiológico 100ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 60,
+      "responsavel": "Assucena",
+      "data": "2026-09-19",
+      "obs": "",
+      "criado_em": "2026-09-21 11:06:20",
+      "item": "Soro fisiológico 100ml",
+      "usuario": "Assucena"
+    },
     {
       "id": 2678,
       "item_id": 103,
@@ -24453,21 +24468,6 @@
       "obs": "",
       "criado_em": "2026-09-14 11:26:01",
       "item": "Equipo para transfusão",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2174,
-      "item_id": 20,
-      "produto_nome": "Nitroprussiato de sódio 25mg/ml",
-      "tipo": "Farmácia para emprestimo para retiro",
-      "origem": "Farmácia",
-      "destino": "emprestimo para retiro",
-      "quantidade": 3,
-      "responsavel": "Assucena",
-      "data": "2026-09-12",
-      "obs": "",
-      "criado_em": "2026-09-14 11:25:45",
-      "item": "Nitroprussiato de sódio 25mg/ml",
       "usuario": "Assucena"
     }
   ]
