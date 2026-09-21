@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "21/09/2026 16:16:25",
+  "atualizado_em": "21/09/2026 16:16:38",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 116600,
-    "total_farmacia": 37072,
-    "total_geral": 153672,
+    "total_farmacia": 37070,
+    "total_geral": 153670,
     "perto_de_terminar": 25,
     "zerados": 8
   },
@@ -5964,19 +5964,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 352,
-      "farmacia": 33,
+      "farmacia": 31,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 385,
+      "total": 383,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-21 11:14:22",
+      "atualizado_em": "2026-09-21 16:16:37",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -5990,17 +5990,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 35
+          "quantidade": 33
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 32,
-      "previsao_20_dias": 32,
+      "minimo_alerta": 33,
+      "previsao_20_dias": 33,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 35,
-      "media_diaria_saida": 1.57,
-      "total_saida_historica": 55,
-      "cobertura_dias": 245.0,
+      "media_diaria_saida": 1.63,
+      "total_saida_historica": 57,
+      "cobertura_dias": 235.2,
       "alerta_estoque": false
     },
     {
@@ -16971,6 +16971,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 2795,
+      "item_id": 276,
+      "produto_nome": "Esparadrapo 10x4,5",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 2,
+      "responsavel": "Leiliana",
+      "data": "2026-09-21",
+      "obs": "",
+      "criado_em": "2026-09-21 16:16:37",
+      "item": "Esparadrapo 10x4,5",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 2794,
       "item_id": 220,
       "produto_nome": "Equipo macrogotas",
@@ -24453,21 +24468,6 @@
       "obs": "",
       "criado_em": "2026-09-15 11:09:18",
       "item": "Seringa 5ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2337,
-      "item_id": 104,
-      "produto_nome": "Seringa 3ml",
-      "tipo": "Entrada no Almoxarifado",
-      "origem": "Entrada externa",
-      "destino": "Almoxarifado",
-      "quantidade": 2500,
-      "responsavel": "Assucena",
-      "data": "2026-09-14",
-      "obs": "",
-      "criado_em": "2026-09-15 11:09:05",
-      "item": "Seringa 3ml",
       "usuario": "Assucena"
     }
   ]
