@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "21/09/2026 11:05:46",
+  "atualizado_em": "21/09/2026 11:05:54",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 117500,
-    "total_farmacia": 38314,
-    "total_geral": 155814,
+    "total_farmacia": 38284,
+    "total_geral": 155784,
     "perto_de_terminar": 22,
     "zerados": 8
   },
@@ -12937,19 +12937,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 6000,
-      "farmacia": 2213,
+      "farmacia": 2183,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 8213,
+      "total": 8183,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-18 15:35:44",
+      "atualizado_em": "2026-09-21 11:05:52",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -12963,17 +12963,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 2213
+          "quantidade": 2183
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 783,
-      "previsao_20_dias": 783,
+      "minimo_alerta": 798,
+      "previsao_20_dias": 798,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 40,
-      "media_diaria_saida": 39.12,
-      "total_saida_historica": 1565,
-      "cobertura_dias": 209.9,
+      "media_diaria_saida": 39.88,
+      "total_saida_historica": 1595,
+      "cobertura_dias": 205.2,
       "alerta_estoque": false
     },
     {
@@ -16970,6 +16970,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 2676,
+      "item_id": 104,
+      "produto_nome": "Seringa 3ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 30,
+      "responsavel": "Assucena",
+      "data": "2026-09-19",
+      "obs": "",
+      "criado_em": "2026-09-21 11:05:52",
+      "item": "Seringa 3ml",
+      "usuario": "Assucena"
+    },
     {
       "id": 2675,
       "item_id": 102,
@@ -24453,21 +24468,6 @@
       "obs": "",
       "criado_em": "2026-09-14 11:25:04",
       "item": "Tira Reagente G-Tech",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2171,
-      "item_id": 202,
-      "produto_nome": "Soro fisiológico 100ml",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 60,
-      "responsavel": "Assucena",
-      "data": "2026-09-12",
-      "obs": "",
-      "criado_em": "2026-09-14 11:24:54",
-      "item": "Soro fisiológico 100ml",
       "usuario": "Assucena"
     }
   ]
