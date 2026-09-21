@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "21/09/2026 11:13:26",
+  "atualizado_em": "21/09/2026 11:13:36",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 117500,
-    "total_farmacia": 37500,
-    "total_geral": 155000,
+    "total_farmacia": 37499,
+    "total_geral": 154999,
     "perto_de_terminar": 24,
     "zerados": 8
   },
@@ -12535,19 +12535,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 16,
-      "farmacia": 22,
+      "farmacia": 21,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 38,
+      "total": 37,
       "minimo": 0,
       "validade": "12/26",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-21 11:03:26",
+      "atualizado_em": "2026-09-21 11:13:35",
       "validade_mais_proxima": "12/26",
       "vencimento_mais_proximo": "12/26",
       "lotes_validade": [
@@ -12555,7 +12555,7 @@
           "local": "farmacia",
           "validade": "12/26",
           "lote": "",
-          "quantidade": 22
+          "quantidade": 21
         },
         {
           "local": "almoxarifado",
@@ -12569,9 +12569,9 @@
       "previsao_20_dias": 8,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 38,
-      "media_diaria_saida": 0.37,
-      "total_saida_historica": 14,
-      "cobertura_dias": 103.1,
+      "media_diaria_saida": 0.39,
+      "total_saida_historica": 15,
+      "cobertura_dias": 93.7,
       "alerta_estoque": false
     },
     {
@@ -16970,6 +16970,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 2717,
+      "item_id": 252,
+      "produto_nome": "Salbutamol spray",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 1,
+      "responsavel": "Assucena",
+      "data": "2026-09-20",
+      "obs": "",
+      "criado_em": "2026-09-21 11:13:35",
+      "item": "Salbutamol spray",
+      "usuario": "Assucena"
+    },
     {
       "id": 2716,
       "item_id": 376,
@@ -24453,21 +24468,6 @@
       "obs": "",
       "criado_em": "2026-09-15 09:54:44",
       "item": "Agulha 30x8",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2217,
-      "item_id": 285,
-      "produto_nome": "Agulha 30x7",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 50,
-      "responsavel": "Assucena",
-      "data": "2026-09-14",
-      "obs": "",
-      "criado_em": "2026-09-15 09:54:35",
-      "item": "Agulha 30x7",
       "usuario": "Assucena"
     }
   ]
