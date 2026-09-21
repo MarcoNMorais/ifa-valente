@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "21/09/2026 11:25:01",
+  "atualizado_em": "21/09/2026 11:25:09",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 117000,
-    "total_farmacia": 37026,
-    "total_geral": 154026,
+    "total_farmacia": 37025,
+    "total_geral": 154025,
     "perto_de_terminar": 24,
     "zerados": 8
   },
@@ -2886,19 +2886,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 56,
+      "farmacia": 55,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 56,
+      "total": 55,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga Farmácia 227-288",
       "obs": "Importação Farmácia 227-288",
-      "atualizado_em": "2026-09-17 14:02:36",
+      "atualizado_em": "2026-09-21 11:25:08",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -2906,7 +2906,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 56
+          "quantidade": 55
         }
       ],
       "minimo_manual": 0,
@@ -2914,9 +2914,9 @@
       "previsao_20_dias": 6,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 39,
-      "media_diaria_saida": 0.26,
-      "total_saida_historica": 10,
-      "cobertura_dias": 218.4,
+      "media_diaria_saida": 0.28,
+      "total_saida_historica": 11,
+      "cobertura_dias": 195.0,
       "alerta_estoque": false
     },
     {
@@ -16971,6 +16971,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 2776,
+      "item_id": 257,
+      "produto_nome": "Brometo de ipratrópio gotas",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 1,
+      "responsavel": "Assucena",
+      "data": "2026-09-21",
+      "obs": "",
+      "criado_em": "2026-09-21 11:25:08",
+      "item": "Brometo de ipratrópio gotas",
+      "usuario": "Assucena"
+    },
+    {
       "id": 2775,
       "item_id": 260,
       "produto_nome": "Paracetamol gotas",
@@ -24453,21 +24468,6 @@
       "obs": "",
       "criado_em": "2026-09-15 11:01:44",
       "item": "Equipo micro",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2317,
-      "item_id": 220,
-      "produto_nome": "Equipo macrogotas",
-      "tipo": "Entrada no Almoxarifado",
-      "origem": "Entrada externa",
-      "destino": "Almoxarifado",
-      "quantidade": 1600,
-      "responsavel": "Assucena",
-      "data": "2026-09-14",
-      "obs": "",
-      "criado_em": "2026-09-15 10:59:32",
-      "item": "Equipo macrogotas",
       "usuario": "Assucena"
     }
   ]
