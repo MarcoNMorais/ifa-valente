@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "21/09/2026 16:15:16",
+  "atualizado_em": "21/09/2026 16:15:26",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 116600,
-    "total_farmacia": 37223,
-    "total_geral": 153823,
+    "total_farmacia": 37217,
+    "total_geral": 153817,
     "perto_de_terminar": 25,
     "zerados": 8
   },
@@ -8479,19 +8479,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 244,
+      "farmacia": 238,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 244,
+      "total": 238,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-17 16:28:19",
+      "atualizado_em": "2026-09-21 16:15:25",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -8499,7 +8499,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 244
+          "quantidade": 238
         }
       ],
       "minimo_manual": 0,
@@ -8507,9 +8507,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 18,
-      "media_diaria_saida": 2.56,
-      "total_saida_historica": 46,
-      "cobertura_dias": 95.5,
+      "media_diaria_saida": 2.89,
+      "total_saida_historica": 52,
+      "cobertura_dias": 82.4,
       "alerta_estoque": false
     },
     {
@@ -16971,6 +16971,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 2789,
+      "item_id": 387,
+      "produto_nome": "HIDROCORTIZONA 500MG",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 6,
+      "responsavel": "Leiliana",
+      "data": "2026-09-21",
+      "obs": "",
+      "criado_em": "2026-09-21 16:15:25",
+      "item": "HIDROCORTIZONA 500MG",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 2788,
       "item_id": 69,
       "produto_nome": "Diclofenaco 25mg",
@@ -24453,21 +24468,6 @@
       "obs": "",
       "criado_em": "2026-09-15 11:07:41",
       "item": "MASCARA DESCARTAVEL",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2331,
-      "item_id": 180,
-      "produto_nome": "Luva de látex tam. P",
-      "tipo": "Entrada no Almoxarifado",
-      "origem": "Entrada externa",
-      "destino": "Almoxarifado",
-      "quantidade": 56,
-      "responsavel": "Assucena",
-      "data": "2026-09-14",
-      "obs": "",
-      "criado_em": "2026-09-15 11:06:55",
-      "item": "Luva de látex tam. P",
       "usuario": "Assucena"
     }
   ]
