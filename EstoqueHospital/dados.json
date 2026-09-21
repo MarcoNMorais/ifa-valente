@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "21/09/2026 11:20:19",
+  "atualizado_em": "21/09/2026 11:20:29",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 117500,
-    "total_farmacia": 36996,
-    "total_geral": 154496,
+    "total_farmacia": 36995,
+    "total_geral": 154495,
     "perto_de_terminar": 24,
     "zerados": 8
   },
@@ -9843,19 +9843,19 @@
       "tipo": "Material",
       "unidade": "Caixa",
       "almoxarifado": 0,
-      "farmacia": 193,
+      "farmacia": 192,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 193,
+      "total": 192,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-21 11:20:18",
+      "atualizado_em": "2026-09-21 11:20:28",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -9863,7 +9863,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 193
+          "quantidade": 192
         }
       ],
       "minimo_manual": 0,
@@ -9871,8 +9871,8 @@
       "previsao_20_dias": 414,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 40,
-      "media_diaria_saida": 20.68,
-      "total_saida_historica": 827,
+      "media_diaria_saida": 20.7,
+      "total_saida_historica": 828,
       "cobertura_dias": 9.3,
       "alerta_estoque": true
     },
@@ -16970,6 +16970,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 2746,
+      "item_id": 180,
+      "produto_nome": "Luva de látex tam. P",
+      "tipo": "Farmácia para Posto de Internamento",
+      "origem": "Farmácia",
+      "destino": "Posto de Internamento",
+      "quantidade": 1,
+      "responsavel": "Assucena",
+      "data": "2026-09-21",
+      "obs": "",
+      "criado_em": "2026-09-21 11:20:28",
+      "item": "Luva de látex tam. P",
+      "usuario": "Assucena"
+    },
     {
       "id": 2745,
       "item_id": 180,
@@ -24453,21 +24468,6 @@
       "obs": "",
       "criado_em": "2026-09-15 09:59:24",
       "item": "Diazepam 10mg/2ml 2ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2246,
-      "item_id": 59,
-      "produto_nome": "Ceftriaxona 1g",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 6,
-      "responsavel": "Assucena",
-      "data": "2026-09-14",
-      "obs": "",
-      "criado_em": "2026-09-15 09:59:12",
-      "item": "Ceftriaxona 1g",
       "usuario": "Assucena"
     }
   ]
