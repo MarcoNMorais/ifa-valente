@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "21/09/2026 11:19:17",
+  "atualizado_em": "21/09/2026 11:19:24",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 117500,
-    "total_farmacia": 37162,
-    "total_geral": 154662,
+    "total_farmacia": 37032,
+    "total_geral": 154532,
     "perto_de_terminar": 24,
     "zerados": 8
   },
@@ -481,19 +481,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 6300,
-      "farmacia": 715,
+      "farmacia": 585,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 7015,
+      "total": 6885,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-21 11:19:16",
+      "atualizado_em": "2026-09-21 11:19:23",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -507,7 +507,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 715
+          "quantidade": 585
         }
       ],
       "minimo_manual": 0,
@@ -515,9 +515,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 18,
-      "media_diaria_saida": 54.72,
-      "total_saida_historica": 985,
-      "cobertura_dias": 128.2,
+      "media_diaria_saida": 61.94,
+      "total_saida_historica": 1115,
+      "cobertura_dias": 111.1,
       "alerta_estoque": false
     },
     {
@@ -16971,6 +16971,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 2739,
+      "item_id": 390,
+      "produto_nome": "AGULHA  40X1,2",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 130,
+      "responsavel": "Assucena",
+      "data": "2026-09-21",
+      "obs": "",
+      "criado_em": "2026-09-21 11:19:23",
+      "item": "AGULHA  40X1,2",
+      "usuario": "Assucena"
+    },
+    {
       "id": 2738,
       "item_id": 390,
       "produto_nome": "AGULHA  40X1,2",
@@ -24453,21 +24468,6 @@
       "obs": "",
       "criado_em": "2026-09-15 09:58:24",
       "item": "Seringa 5ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2239,
-      "item_id": 103,
-      "produto_nome": "Seringa 10ml",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 30,
-      "responsavel": "Assucena",
-      "data": "2026-09-14",
-      "obs": "",
-      "criado_em": "2026-09-15 09:58:14",
-      "item": "Seringa 10ml",
       "usuario": "Assucena"
     }
   ]
