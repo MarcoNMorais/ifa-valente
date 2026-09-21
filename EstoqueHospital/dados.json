@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "21/09/2026 11:01:58",
+  "atualizado_em": "21/09/2026 11:02:06",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
-    "total_almoxarifado": 117760,
-    "total_farmacia": 38499,
+    "total_almoxarifado": 117660,
+    "total_farmacia": 38599,
     "total_geral": 156259,
     "perto_de_terminar": 22,
     "zerados": 8
@@ -12844,8 +12844,8 @@
       "nome": "Seringa 1ml",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 1250,
-      "farmacia": 105,
+      "almoxarifado": 1150,
+      "farmacia": 205,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -12857,7 +12857,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-18 11:18:30",
+      "atualizado_em": "2026-09-21 11:02:05",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -12865,13 +12865,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 1250
+          "quantidade": 1150
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 105
+          "quantidade": 205
         }
       ],
       "minimo_manual": 0,
@@ -16970,6 +16970,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 2655,
+      "item_id": 157,
+      "produto_nome": "Seringa 1ml",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 100,
+      "responsavel": "Assucena",
+      "data": "2026-09-18",
+      "obs": "",
+      "criado_em": "2026-09-21 11:02:05",
+      "item": "Seringa 1ml",
+      "usuario": "Assucena"
+    },
     {
       "id": 2654,
       "item_id": 276,
@@ -24453,21 +24468,6 @@
       "obs": "",
       "criado_em": "2026-09-14 11:21:34",
       "item": "Seringa 10ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2149,
-      "item_id": 176,
-      "produto_nome": "Gelco nº 24",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 15,
-      "responsavel": "Assucena",
-      "data": "2026-09-12",
-      "obs": "",
-      "criado_em": "2026-09-14 11:21:16",
-      "item": "Gelco nº 24",
       "usuario": "Assucena"
     }
   ]
