@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "21/09/2026 11:24:56",
+  "atualizado_em": "21/09/2026 11:25:01",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 117000,
-    "total_farmacia": 37027,
-    "total_geral": 154027,
+    "total_farmacia": 37026,
+    "total_geral": 154026,
     "perto_de_terminar": 24,
     "zerados": 8
   },
@@ -12099,19 +12099,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 70,
+      "farmacia": 69,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 70,
+      "total": 69,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga Farmácia 227-288",
       "obs": "Importação Farmácia 227-288",
-      "atualizado_em": "2026-09-21 11:09:56",
+      "atualizado_em": "2026-09-21 11:25:00",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -12119,7 +12119,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 70
+          "quantidade": 69
         }
       ],
       "minimo_manual": 0,
@@ -12127,9 +12127,9 @@
       "previsao_20_dias": 8,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 35,
-      "media_diaria_saida": 0.37,
-      "total_saida_historica": 13,
-      "cobertura_dias": 188.5,
+      "media_diaria_saida": 0.4,
+      "total_saida_historica": 14,
+      "cobertura_dias": 172.5,
       "alerta_estoque": false
     },
     {
@@ -16970,6 +16970,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 2775,
+      "item_id": 260,
+      "produto_nome": "Paracetamol gotas",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 1,
+      "responsavel": "Assucena",
+      "data": "2026-09-21",
+      "obs": "",
+      "criado_em": "2026-09-21 11:25:00",
+      "item": "Paracetamol gotas",
+      "usuario": "Assucena"
+    },
     {
       "id": 2774,
       "item_id": 104,
@@ -24453,21 +24468,6 @@
       "obs": "",
       "criado_em": "2026-09-15 10:59:32",
       "item": "Equipo macrogotas",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2316,
-      "item_id": 392,
-      "produto_nome": "COMPRESSA DE GAZES",
-      "tipo": "Entrada no Almoxarifado",
-      "origem": "Entrada externa",
-      "destino": "Almoxarifado",
-      "quantidade": 160,
-      "responsavel": "Assucena",
-      "data": "2026-09-14",
-      "obs": "",
-      "criado_em": "2026-09-15 10:59:11",
-      "item": "COMPRESSA DE GAZES",
       "usuario": "Assucena"
     }
   ]
