@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "21/09/2026 11:10:28",
+  "atualizado_em": "21/09/2026 11:10:37",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 117500,
-    "total_farmacia": 37830,
-    "total_geral": 155330,
+    "total_farmacia": 37816,
+    "total_geral": 155316,
     "perto_de_terminar": 23,
     "zerados": 8
   },
@@ -15351,19 +15351,19 @@
       "tipo": "Insumo",
       "unidade": "Unidade",
       "almoxarifado": 835,
-      "farmacia": 67,
+      "farmacia": 53,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 902,
+      "total": 888,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-18 11:10:56",
+      "atualizado_em": "2026-09-21 11:10:36",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -15377,17 +15377,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 67
+          "quantidade": 53
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 171,
-      "previsao_20_dias": 171,
+      "minimo_alerta": 178,
+      "previsao_20_dias": 178,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 40,
-      "media_diaria_saida": 8.53,
-      "total_saida_historica": 341,
-      "cobertura_dias": 105.8,
+      "media_diaria_saida": 8.88,
+      "total_saida_historica": 355,
+      "cobertura_dias": 100.1,
       "alerta_estoque": false
     },
     {
@@ -16970,6 +16970,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 2699,
+      "item_id": 204,
+      "produto_nome": "Soro fisiológico 500ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 14,
+      "responsavel": "Assucena",
+      "data": "2026-09-19",
+      "obs": "",
+      "criado_em": "2026-09-21 11:10:36",
+      "item": "Soro fisiológico 500ml",
+      "usuario": "Assucena"
+    },
     {
       "id": 2698,
       "item_id": 31,
@@ -24453,21 +24468,6 @@
       "obs": "",
       "criado_em": "2026-09-14 11:29:44",
       "item": "Prometazina 25mg/ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2195,
-      "item_id": 289,
-      "produto_nome": "Agulha 25x8",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 40,
-      "responsavel": "Assucena",
-      "data": "2026-09-12",
-      "obs": "",
-      "criado_em": "2026-09-14 11:29:36",
-      "item": "Agulha 25x8",
       "usuario": "Assucena"
     }
   ]
