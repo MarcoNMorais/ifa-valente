@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "21/09/2026 11:17:18",
+  "atualizado_em": "21/09/2026 11:17:27",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 117500,
-    "total_farmacia": 37390,
-    "total_geral": 154890,
+    "total_farmacia": 37370,
+    "total_geral": 154870,
     "perto_de_terminar": 24,
     "zerados": 8
   },
@@ -4613,19 +4613,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 1740,
+      "farmacia": 1720,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1740,
+      "total": 1720,
       "minimo": 0,
       "validade": "2027-10",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-21 11:11:34",
+      "atualizado_em": "2026-09-21 11:17:26",
       "validade_mais_proxima": "2027-10",
       "vencimento_mais_proximo": "2027-10",
       "lotes_validade": [
@@ -4633,7 +4633,7 @@
           "local": "farmacia",
           "validade": "2027-10",
           "lote": "",
-          "quantidade": 140
+          "quantidade": 120
         },
         {
           "local": "farmacia",
@@ -4643,13 +4643,13 @@
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 565,
-      "previsao_20_dias": 565,
+      "minimo_alerta": 575,
+      "previsao_20_dias": 575,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 40,
-      "media_diaria_saida": 28.25,
-      "total_saida_historica": 1130,
-      "cobertura_dias": 61.6,
+      "media_diaria_saida": 28.75,
+      "total_saida_historica": 1150,
+      "cobertura_dias": 59.8,
       "alerta_estoque": false
     },
     {
@@ -16971,6 +16971,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 2725,
+      "item_id": 68,
+      "produto_nome": "Dexametasona",
+      "tipo": "Farmácia para Posto de Internamento",
+      "origem": "Farmácia",
+      "destino": "Posto de Internamento",
+      "quantidade": 20,
+      "responsavel": "Assucena",
+      "data": "2026-09-21",
+      "obs": "",
+      "criado_em": "2026-09-21 11:17:26",
+      "item": "Dexametasona",
+      "usuario": "Assucena"
+    },
+    {
       "id": 2724,
       "item_id": 70,
       "produto_nome": "Dipirona",
@@ -24453,21 +24468,6 @@
       "obs": "",
       "criado_em": "2026-09-15 09:56:05",
       "item": "Escopolamina + Dipirona",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2225,
-      "item_id": 384,
-      "produto_nome": "ACIDO ASCORBICO",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 10,
-      "responsavel": "Assucena",
-      "data": "2026-09-14",
-      "obs": "",
-      "criado_em": "2026-09-15 09:55:57",
-      "item": "ACIDO ASCORBICO",
       "usuario": "Assucena"
     }
   ]
