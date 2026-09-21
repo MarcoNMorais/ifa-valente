@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "21/09/2026 11:22:26",
+  "atualizado_em": "21/09/2026 11:22:36",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 117500,
-    "total_farmacia": 36790,
-    "total_geral": 154290,
+    "total_farmacia": 36770,
+    "total_geral": 154270,
     "perto_de_terminar": 24,
     "zerados": 8
   },
@@ -7825,19 +7825,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 1060,
-      "farmacia": 312,
+      "farmacia": 292,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1372,
+      "total": 1352,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-21 11:06:52",
+      "atualizado_em": "2026-09-21 11:22:35",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -7851,17 +7851,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 312
+          "quantidade": 292
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 227,
-      "previsao_20_dias": 227,
+      "minimo_alerta": 237,
+      "previsao_20_dias": 237,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 40,
-      "media_diaria_saida": 11.32,
-      "total_saida_historica": 453,
-      "cobertura_dias": 121.1,
+      "media_diaria_saida": 11.82,
+      "total_saida_historica": 473,
+      "cobertura_dias": 114.3,
       "alerta_estoque": false
     },
     {
@@ -16971,6 +16971,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 2759,
+      "item_id": 176,
+      "produto_nome": "Gelco nº 24",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 20,
+      "responsavel": "Assucena",
+      "data": "2026-09-21",
+      "obs": "",
+      "criado_em": "2026-09-21 11:22:35",
+      "item": "Gelco nº 24",
+      "usuario": "Assucena"
+    },
+    {
       "id": 2758,
       "item_id": 177,
       "produto_nome": "Gelco nº 22",
@@ -24453,21 +24468,6 @@
       "obs": "ajuste de estoque ",
       "criado_em": "2026-09-15 10:44:55",
       "item": "Hidrocortisona 100MG",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2295,
-      "item_id": 329,
-      "produto_nome": "Polifix",
-      "tipo": "Almoxarifado para Farmácia",
-      "origem": "Almoxarifado",
-      "destino": "Farmácia",
-      "quantidade": 120,
-      "responsavel": "Assucena",
-      "data": "2026-09-14",
-      "obs": "",
-      "criado_em": "2026-09-15 10:09:41",
-      "item": "Polifix",
       "usuario": "Assucena"
     }
   ]
