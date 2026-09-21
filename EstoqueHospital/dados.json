@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "21/09/2026 11:09:28",
+  "atualizado_em": "21/09/2026 11:09:37",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 117500,
-    "total_farmacia": 37849,
-    "total_geral": 155349,
+    "total_farmacia": 37847,
+    "total_geral": 155347,
     "perto_de_terminar": 23,
     "zerados": 8
   },
@@ -12225,19 +12225,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 16,
-      "farmacia": 5,
+      "farmacia": 3,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 21,
+      "total": 19,
       "minimo": 0,
       "validade": "03/28",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-18 11:14:56",
+      "atualizado_em": "2026-09-21 11:09:36",
       "validade_mais_proxima": "03/28",
       "vencimento_mais_proximo": "03/28",
       "lotes_validade": [
@@ -12245,7 +12245,7 @@
           "local": "farmacia",
           "validade": "03/28",
           "lote": "",
-          "quantidade": 5
+          "quantidade": 3
         },
         {
           "local": "almoxarifado",
@@ -12255,13 +12255,13 @@
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 5,
-      "previsao_20_dias": 5,
+      "minimo_alerta": 6,
+      "previsao_20_dias": 6,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 39,
-      "media_diaria_saida": 0.21,
-      "total_saida_historica": 8,
-      "cobertura_dias": 102.4,
+      "media_diaria_saida": 0.26,
+      "total_saida_historica": 10,
+      "cobertura_dias": 74.1,
       "alerta_estoque": false
     },
     {
@@ -16970,6 +16970,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 2694,
+      "item_id": 249,
+      "produto_nome": "Prednisolona 3mg/ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 2,
+      "responsavel": "Assucena",
+      "data": "2026-09-19",
+      "obs": "",
+      "criado_em": "2026-09-21 11:09:36",
+      "item": "Prednisolona 3mg/ml",
+      "usuario": "Assucena"
+    },
     {
       "id": 2693,
       "item_id": 203,
@@ -24453,21 +24468,6 @@
       "obs": "",
       "criado_em": "2026-09-14 11:28:59",
       "item": "MANITOL 250ML",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2190,
-      "item_id": 290,
-      "produto_nome": "Metronidazol 100ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 1,
-      "responsavel": "Assucena",
-      "data": "2026-09-12",
-      "obs": "",
-      "criado_em": "2026-09-14 11:28:50",
-      "item": "Metronidazol 100ml",
       "usuario": "Assucena"
     }
   ]
