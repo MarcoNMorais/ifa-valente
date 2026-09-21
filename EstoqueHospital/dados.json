@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "21/09/2026 11:13:45",
+  "atualizado_em": "21/09/2026 11:13:53",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 117500,
-    "total_farmacia": 37498,
-    "total_geral": 154998,
+    "total_farmacia": 37483,
+    "total_geral": 154983,
     "perto_de_terminar": 24,
     "zerados": 8
   },
@@ -16238,19 +16238,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 240,
+      "farmacia": 225,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 240,
+      "total": 225,
       "minimo": 0,
       "validade": "12/27",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-17 13:54:35",
+      "atualizado_em": "2026-09-21 11:13:52",
       "validade_mais_proxima": "12/27",
       "vencimento_mais_proximo": "12/27",
       "lotes_validade": [
@@ -16258,7 +16258,7 @@
           "local": "farmacia",
           "validade": "12/27",
           "lote": "",
-          "quantidade": 220
+          "quantidade": 205
         },
         {
           "local": "almoxarifado",
@@ -16274,13 +16274,13 @@
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 243,
-      "previsao_20_dias": 243,
+      "minimo_alerta": 250,
+      "previsao_20_dias": 250,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 38,
-      "media_diaria_saida": 12.11,
-      "total_saida_historica": 460,
-      "cobertura_dias": 19.8,
+      "media_diaria_saida": 12.5,
+      "total_saida_historica": 475,
+      "cobertura_dias": 18.0,
       "alerta_estoque": true
     },
     {
@@ -16970,6 +16970,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 2719,
+      "item_id": 239,
+      "produto_nome": "Tramadol 50mg/ml 2ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 15,
+      "responsavel": "Assucena",
+      "data": "2026-09-20",
+      "obs": "",
+      "criado_em": "2026-09-21 11:13:52",
+      "item": "Tramadol 50mg/ml 2ml",
+      "usuario": "Assucena"
+    },
     {
       "id": 2718,
       "item_id": 181,
@@ -24453,21 +24468,6 @@
       "obs": "",
       "criado_em": "2026-09-15 09:55:02",
       "item": "Dispositivo intravenoso Gelco nº 20",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2219,
-      "item_id": 177,
-      "produto_nome": "Gelco nº 22",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 15,
-      "responsavel": "Assucena",
-      "data": "2026-09-14",
-      "obs": "",
-      "criado_em": "2026-09-15 09:54:53",
-      "item": "Gelco nº 22",
       "usuario": "Assucena"
     }
   ]
