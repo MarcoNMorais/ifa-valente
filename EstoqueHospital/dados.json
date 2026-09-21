@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "21/09/2026 11:09:06",
+  "atualizado_em": "21/09/2026 11:09:28",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 117500,
-    "total_farmacia": 37899,
-    "total_geral": 155399,
+    "total_farmacia": 37849,
+    "total_geral": 155349,
     "perto_de_terminar": 23,
     "zerados": 8
   },
@@ -15305,19 +15305,19 @@
       "tipo": "Insumo",
       "unidade": "Unidade",
       "almoxarifado": 1037,
-      "farmacia": 147,
+      "farmacia": 97,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1184,
+      "total": 1134,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-21 11:09:05",
+      "atualizado_em": "2026-09-21 11:09:27",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -15331,17 +15331,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 147
+          "quantidade": 97
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 302,
-      "previsao_20_dias": 302,
+      "minimo_alerta": 327,
+      "previsao_20_dias": 327,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 40,
-      "media_diaria_saida": 15.07,
-      "total_saida_historica": 603,
-      "cobertura_dias": 78.5,
+      "media_diaria_saida": 16.32,
+      "total_saida_historica": 653,
+      "cobertura_dias": 69.5,
       "alerta_estoque": false
     },
     {
@@ -16970,6 +16970,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 2693,
+      "item_id": 203,
+      "produto_nome": "Soro fisiológico 250ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 50,
+      "responsavel": "Assucena",
+      "data": "2026-09-19",
+      "obs": "emprestimo para retiro",
+      "criado_em": "2026-09-21 11:09:27",
+      "item": "Soro fisiológico 250ml",
+      "usuario": "Assucena"
+    },
     {
       "id": 2692,
       "item_id": 203,
@@ -24453,21 +24468,6 @@
       "obs": "",
       "criado_em": "2026-09-14 11:28:50",
       "item": "Metronidazol 100ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2189,
-      "item_id": 294,
-      "produto_nome": "Glicerina 12%",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 1,
-      "responsavel": "Assucena",
-      "data": "2026-09-12",
-      "obs": "",
-      "criado_em": "2026-09-14 11:28:42",
-      "item": "Glicerina 12%",
       "usuario": "Assucena"
     }
   ]
