@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "21/09/2026 11:05:54",
+  "atualizado_em": "21/09/2026 11:06:00",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 117500,
-    "total_farmacia": 38284,
-    "total_geral": 155784,
+    "total_farmacia": 38244,
+    "total_geral": 155744,
     "perto_de_terminar": 22,
     "zerados": 8
   },
@@ -12891,19 +12891,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 7750,
-      "farmacia": 275,
+      "farmacia": 235,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 8025,
+      "total": 7985,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-18 11:17:52",
+      "atualizado_em": "2026-09-21 11:06:00",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -12917,17 +12917,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 275
+          "quantidade": 235
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 700,
-      "previsao_20_dias": 700,
+      "minimo_alerta": 723,
+      "previsao_20_dias": 723,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 35,
-      "media_diaria_saida": 35.0,
-      "total_saida_historica": 1225,
-      "cobertura_dias": 229.3,
+      "media_diaria_saida": 36.14,
+      "total_saida_historica": 1265,
+      "cobertura_dias": 220.9,
       "alerta_estoque": false
     },
     {
@@ -16970,6 +16970,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 2677,
+      "item_id": 274,
+      "produto_nome": "Seringa 20ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 40,
+      "responsavel": "Assucena",
+      "data": "2026-09-19",
+      "obs": "",
+      "criado_em": "2026-09-21 11:06:00",
+      "item": "Seringa 20ml",
+      "usuario": "Assucena"
+    },
     {
       "id": 2676,
       "item_id": 104,
@@ -24453,21 +24468,6 @@
       "obs": "",
       "criado_em": "2026-09-14 11:25:13",
       "item": "Lanceta de segurança",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2172,
-      "item_id": 195,
-      "produto_nome": "Tira Reagente G-Tech",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 100,
-      "responsavel": "Assucena",
-      "data": "2026-09-12",
-      "obs": "",
-      "criado_em": "2026-09-14 11:25:04",
-      "item": "Tira Reagente G-Tech",
       "usuario": "Assucena"
     }
   ]
