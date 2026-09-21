@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "21/09/2026 11:18:26",
+  "atualizado_em": "21/09/2026 11:18:34",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 117500,
-    "total_farmacia": 37297,
-    "total_geral": 154797,
+    "total_farmacia": 37272,
+    "total_geral": 154772,
     "perto_de_terminar": 24,
     "zerados": 8
   },
@@ -5712,19 +5712,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 2400,
-      "farmacia": 250,
+      "farmacia": 225,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 2650,
+      "total": 2625,
       "minimo": 300,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-21 11:12:27",
+      "atualizado_em": "2026-09-21 11:18:33",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -5738,17 +5738,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 275
+          "quantidade": 250
         }
       ],
       "minimo_manual": 300,
-      "minimo_alerta": 313,
-      "previsao_20_dias": 313,
+      "minimo_alerta": 325,
+      "previsao_20_dias": 325,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 40,
-      "media_diaria_saida": 15.62,
-      "total_saida_historica": 625,
-      "cobertura_dias": 169.6,
+      "media_diaria_saida": 16.25,
+      "total_saida_historica": 650,
+      "cobertura_dias": 161.5,
       "alerta_estoque": false
     },
     {
@@ -16971,6 +16971,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 2733,
+      "item_id": 220,
+      "produto_nome": "Equipo macrogotas",
+      "tipo": "Farmácia para Posto de Internamento",
+      "origem": "Farmácia",
+      "destino": "Posto de Internamento",
+      "quantidade": 25,
+      "responsavel": "Assucena",
+      "data": "2026-09-21",
+      "obs": "",
+      "criado_em": "2026-09-21 11:18:33",
+      "item": "Equipo macrogotas",
+      "usuario": "Assucena"
+    },
+    {
       "id": 2732,
       "item_id": 60,
       "produto_nome": "Cetoprofeno EV 100mg",
@@ -24453,21 +24468,6 @@
       "obs": "",
       "criado_em": "2026-09-15 09:57:18",
       "item": "Diclofenaco 25mg",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2233,
-      "item_id": 393,
-      "produto_nome": "NYLON N°3",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 10,
-      "responsavel": "Assucena",
-      "data": "2026-09-14",
-      "obs": "",
-      "criado_em": "2026-09-15 09:57:09",
-      "item": "NYLON N°3",
       "usuario": "Assucena"
     }
   ]
