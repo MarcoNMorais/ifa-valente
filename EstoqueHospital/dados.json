@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "21/09/2026 11:09:57",
+  "atualizado_em": "21/09/2026 11:10:11",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 117500,
-    "total_farmacia": 37846,
-    "total_geral": 155346,
+    "total_farmacia": 37845,
+    "total_geral": 155345,
     "perto_de_terminar": 23,
     "zerados": 8
   },
@@ -4705,19 +4705,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 20,
+      "farmacia": 19,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 20,
+      "total": 19,
       "minimo": 0,
       "validade": "04/28",
       "lote": "",
       "origem": "Carga Farmácia 227-288",
       "obs": "Importação Farmácia 227-288",
-      "atualizado_em": "2026-09-15 16:24:57",
+      "atualizado_em": "2026-09-21 11:10:11",
       "validade_mais_proxima": "04/28",
       "vencimento_mais_proximo": "04/28",
       "lotes_validade": [
@@ -4725,7 +4725,7 @@
           "local": "farmacia",
           "validade": "04/28",
           "lote": "",
-          "quantidade": 20
+          "quantidade": 19
         }
       ],
       "minimo_manual": 0,
@@ -4733,9 +4733,9 @@
       "previsao_20_dias": 2,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 35,
-      "media_diaria_saida": 0.06,
-      "total_saida_historica": 2,
-      "cobertura_dias": 350.0,
+      "media_diaria_saida": 0.09,
+      "total_saida_historica": 3,
+      "cobertura_dias": 221.7,
       "alerta_estoque": false
     },
     {
@@ -16971,6 +16971,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 2696,
+      "item_id": 244,
+      "produto_nome": "Dexclorfeniramina 0,4mg/ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 1,
+      "responsavel": "Assucena",
+      "data": "2026-09-19",
+      "obs": "",
+      "criado_em": "2026-09-21 11:10:11",
+      "item": "Dexclorfeniramina 0,4mg/ml",
+      "usuario": "Assucena"
+    },
+    {
       "id": 2695,
       "item_id": 260,
       "produto_nome": "Paracetamol gotas",
@@ -24453,21 +24468,6 @@
       "obs": "",
       "criado_em": "2026-09-14 11:29:17",
       "item": "Omeprazol sódico 40mg AMP",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2192,
-      "item_id": 331,
-      "produto_nome": "Agulha 30x8",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 40,
-      "responsavel": "Assucena",
-      "data": "2026-09-12",
-      "obs": "",
-      "criado_em": "2026-09-14 11:29:09",
-      "item": "Agulha 30x8",
       "usuario": "Assucena"
     }
   ]
