@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "21/09/2026 11:23:10",
+  "atualizado_em": "21/09/2026 11:23:20",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 117100,
-    "total_farmacia": 37120,
-    "total_geral": 154220,
+    "total_farmacia": 37119,
+    "total_geral": 154219,
     "perto_de_terminar": 24,
     "zerados": 8
   },
@@ -9407,19 +9407,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 8,
-      "farmacia": 19,
+      "farmacia": 18,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 27,
+      "total": 26,
       "minimo": 0,
       "validade": "2027-04",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-18 11:17:43",
+      "atualizado_em": "2026-09-21 11:23:20",
       "validade_mais_proxima": "2027-04",
       "vencimento_mais_proximo": "2027-04",
       "lotes_validade": [
@@ -9427,7 +9427,7 @@
           "local": "farmacia",
           "validade": "2027-04",
           "lote": "",
-          "quantidade": 19
+          "quantidade": 18
         },
         {
           "local": "almoxarifado",
@@ -9441,9 +9441,9 @@
       "previsao_20_dias": 5,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 40,
-      "media_diaria_saida": 0.23,
-      "total_saida_historica": 9,
-      "cobertura_dias": 120.0,
+      "media_diaria_saida": 0.25,
+      "total_saida_historica": 10,
+      "cobertura_dias": 104.0,
       "alerta_estoque": false
     },
     {
@@ -16971,6 +16971,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 2763,
+      "item_id": 85,
+      "produto_nome": "Lidocaína Gel",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 1,
+      "responsavel": "Assucena",
+      "data": "2026-09-21",
+      "obs": "",
+      "criado_em": "2026-09-21 11:23:20",
+      "item": "Lidocaína Gel",
+      "usuario": "Assucena"
+    },
+    {
       "id": 2761,
       "item_id": 331,
       "produto_nome": "Agulha 30x8",
@@ -24453,21 +24468,6 @@
       "obs": "",
       "criado_em": "2026-09-15 10:55:22",
       "item": "Agulha 13x4,5",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2304,
-      "item_id": 387,
-      "produto_nome": "HIDROCORTIZONA 500MG",
-      "tipo": "Almoxarifado para Farmácia",
-      "origem": "Almoxarifado",
-      "destino": "Farmácia",
-      "quantidade": 50,
-      "responsavel": "Assucena",
-      "data": "2026-09-14",
-      "obs": "ajuste de estoque ",
-      "criado_em": "2026-09-15 10:48:18",
-      "item": "HIDROCORTIZONA 500MG",
       "usuario": "Assucena"
     }
   ]
