@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "21/09/2026 11:12:11",
+  "atualizado_em": "21/09/2026 11:12:19",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 117500,
-    "total_farmacia": 37694,
-    "total_geral": 155194,
+    "total_farmacia": 37644,
+    "total_geral": 155144,
     "perto_de_terminar": 23,
     "zerados": 8
   },
@@ -11722,19 +11722,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 220,
+      "farmacia": 170,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 220,
+      "total": 170,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-16 10:28:11",
+      "atualizado_em": "2026-09-21 11:12:18",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -11742,17 +11742,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 220
+          "quantidade": 170
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 400,
-      "previsao_20_dias": 400,
+      "minimo_alerta": 428,
+      "previsao_20_dias": 428,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 37,
-      "media_diaria_saida": 20.0,
-      "total_saida_historica": 740,
-      "cobertura_dias": 11.0,
+      "media_diaria_saida": 21.35,
+      "total_saida_historica": 790,
+      "cobertura_dias": 8.0,
       "alerta_estoque": true
     },
     {
@@ -16970,6 +16970,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 2709,
+      "item_id": 238,
+      "produto_nome": "Ondansetrona 2mg/ml 2ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 50,
+      "responsavel": "Assucena",
+      "data": "2026-09-20",
+      "obs": "",
+      "criado_em": "2026-09-21 11:12:18",
+      "item": "Ondansetrona 2mg/ml 2ml",
+      "usuario": "Assucena"
+    },
     {
       "id": 2708,
       "item_id": 59,
@@ -24453,21 +24468,6 @@
       "obs": "",
       "criado_em": "2026-09-15 09:53:03",
       "item": "Prednisolona 3mg/ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2209,
-      "item_id": 320,
-      "produto_nome": "Acebrofilina 10mg/ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 2,
-      "responsavel": "Assucena",
-      "data": "2026-09-14",
-      "obs": "",
-      "criado_em": "2026-09-15 09:52:53",
-      "item": "Acebrofilina 10mg/ml",
       "usuario": "Assucena"
     }
   ]
