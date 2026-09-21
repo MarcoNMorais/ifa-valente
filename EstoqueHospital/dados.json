@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "21/09/2026 11:03:59",
+  "atualizado_em": "21/09/2026 11:04:09",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 117500,
-    "total_farmacia": 38702,
-    "total_geral": 156202,
+    "total_farmacia": 38652,
+    "total_geral": 156152,
     "perto_de_terminar": 22,
     "zerados": 8
   },
@@ -5712,19 +5712,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 2400,
-      "farmacia": 325,
+      "farmacia": 275,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 2725,
+      "total": 2675,
       "minimo": 300,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-21 11:02:20",
+      "atualizado_em": "2026-09-21 11:04:08",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -5738,17 +5738,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 350
+          "quantidade": 300
         }
       ],
       "minimo_manual": 300,
-      "minimo_alerta": 275,
-      "previsao_20_dias": 275,
+      "minimo_alerta": 300,
+      "previsao_20_dias": 300,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 40,
-      "media_diaria_saida": 13.75,
-      "total_saida_historica": 550,
-      "cobertura_dias": 198.2,
+      "media_diaria_saida": 15.0,
+      "total_saida_historica": 600,
+      "cobertura_dias": 178.3,
       "alerta_estoque": false
     },
     {
@@ -16971,6 +16971,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 2665,
+      "item_id": 220,
+      "produto_nome": "Equipo macrogotas",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 50,
+      "responsavel": "Assucena",
+      "data": "2026-09-19",
+      "obs": "",
+      "criado_em": "2026-09-21 11:04:08",
+      "item": "Equipo macrogotas",
+      "usuario": "Assucena"
+    },
+    {
       "id": 2664,
       "item_id": 376,
       "produto_nome": "LENÇOL DESCARTAVEL PAPEL",
@@ -24453,21 +24468,6 @@
       "obs": "",
       "criado_em": "2026-09-14 11:23:20",
       "item": "Dexametasona",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2160,
-      "item_id": 76,
-      "produto_nome": "Escopolamina + Dipirona",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 10,
-      "responsavel": "Assucena",
-      "data": "2026-09-12",
-      "obs": "",
-      "criado_em": "2026-09-14 11:23:10",
-      "item": "Escopolamina + Dipirona",
       "usuario": "Assucena"
     }
   ]
