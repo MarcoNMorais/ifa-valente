@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "21/09/2026 11:04:17",
+  "atualizado_em": "21/09/2026 11:04:30",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 117500,
-    "total_farmacia": 38637,
-    "total_geral": 156137,
+    "total_farmacia": 38634,
+    "total_geral": 156134,
     "perto_de_terminar": 22,
     "zerados": 8
   },
@@ -9361,19 +9361,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 67,
+      "farmacia": 64,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 67,
+      "total": 64,
       "minimo": 0,
       "validade": "2027-02",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-15 16:24:57",
+      "atualizado_em": "2026-09-21 11:04:29",
       "validade_mais_proxima": "2027-02",
       "vencimento_mais_proximo": "2027-02",
       "lotes_validade": [
@@ -9381,7 +9381,7 @@
           "local": "farmacia",
           "validade": "2027-02",
           "lote": "",
-          "quantidade": 47
+          "quantidade": 44
         },
         {
           "local": "farmacia",
@@ -9391,13 +9391,13 @@
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 6,
-      "previsao_20_dias": 6,
+      "minimo_alerta": 8,
+      "previsao_20_dias": 8,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 40,
-      "media_diaria_saida": 0.3,
-      "total_saida_historica": 12,
-      "cobertura_dias": 223.3,
+      "media_diaria_saida": 0.38,
+      "total_saida_historica": 15,
+      "cobertura_dias": 170.7,
       "alerta_estoque": false
     },
     {
@@ -16971,6 +16971,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 2667,
+      "item_id": 84,
+      "produto_nome": "Lidocaína",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 3,
+      "responsavel": "Assucena",
+      "data": "2026-09-19",
+      "obs": "",
+      "criado_em": "2026-09-21 11:04:29",
+      "item": "Lidocaína",
+      "usuario": "Assucena"
+    },
+    {
       "id": 2666,
       "item_id": 329,
       "produto_nome": "Polifix",
@@ -24453,21 +24468,6 @@
       "obs": "",
       "criado_em": "2026-09-14 11:23:38",
       "item": "NYLON N°3",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2162,
-      "item_id": 69,
-      "produto_nome": "Diclofenaco 25mg",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 20,
-      "responsavel": "Assucena",
-      "data": "2026-09-12",
-      "obs": "",
-      "criado_em": "2026-09-14 11:23:28",
-      "item": "Diclofenaco 25mg",
       "usuario": "Assucena"
     }
   ]
