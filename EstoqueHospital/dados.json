@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "21/09/2026 11:22:11",
+  "atualizado_em": "21/09/2026 11:22:18",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 117500,
-    "total_farmacia": 36830,
-    "total_geral": 154330,
+    "total_farmacia": 36820,
+    "total_geral": 154320,
     "perto_de_terminar": 24,
     "zerados": 8
   },
@@ -441,19 +441,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 205,
+      "farmacia": 195,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 205,
+      "total": 195,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-18 11:14:29",
+      "atualizado_em": "2026-09-21 11:22:17",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -461,7 +461,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 205
+          "quantidade": 195
         }
       ],
       "minimo_manual": 0,
@@ -469,9 +469,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 18,
-      "media_diaria_saida": 6.39,
-      "total_saida_historica": 115,
-      "cobertura_dias": 32.1,
+      "media_diaria_saida": 6.94,
+      "total_saida_historica": 125,
+      "cobertura_dias": 28.1,
       "alerta_estoque": false
     },
     {
@@ -16971,6 +16971,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 2757,
+      "item_id": 382,
+      "produto_nome": "AGUA P/ INJ",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 10,
+      "responsavel": "Assucena",
+      "data": "2026-09-21",
+      "obs": "",
+      "criado_em": "2026-09-21 11:22:17",
+      "item": "AGUA P/ INJ",
+      "usuario": "Assucena"
+    },
+    {
       "id": 2756,
       "item_id": 350,
       "produto_nome": "GLICOSE 50% AMP 10ML",
@@ -24453,21 +24468,6 @@
       "obs": "",
       "criado_em": "2026-09-15 10:07:13",
       "item": "Cateter tipo óculos adulto",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2269,
-      "item_id": 50,
-      "produto_nome": "Amiodarona 50mg",
-      "tipo": "Almoxarifado para Farmácia",
-      "origem": "Almoxarifado",
-      "destino": "Farmácia",
-      "quantidade": 40,
-      "responsavel": "Assucena",
-      "data": "2026-09-14",
-      "obs": "",
-      "criado_em": "2026-09-15 10:03:36",
-      "item": "Amiodarona 50mg",
       "usuario": "Assucena"
     }
   ]
