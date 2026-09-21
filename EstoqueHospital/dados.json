@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "21/09/2026 11:10:19",
+  "atualizado_em": "21/09/2026 11:10:28",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 117500,
-    "total_farmacia": 37844,
-    "total_geral": 155344,
+    "total_farmacia": 37830,
+    "total_geral": 155330,
     "perto_de_terminar": 23,
     "zerados": 8
   },
@@ -11636,19 +11636,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 294,
+      "farmacia": 280,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 294,
+      "total": 280,
       "minimo": 0,
       "validade": "2028-02",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-09-15 16:24:57",
+      "atualizado_em": "2026-09-21 11:10:27",
       "validade_mais_proxima": "2028-02",
       "vencimento_mais_proximo": "2028-02",
       "lotes_validade": [
@@ -11656,7 +11656,7 @@
           "local": "farmacia",
           "validade": "2028-02",
           "lote": "",
-          "quantidade": 280
+          "quantidade": 266
         },
         {
           "local": "farmacia",
@@ -11666,13 +11666,13 @@
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 91,
-      "previsao_20_dias": 91,
+      "minimo_alerta": 98,
+      "previsao_20_dias": 98,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 40,
-      "media_diaria_saida": 4.55,
-      "total_saida_historica": 182,
-      "cobertura_dias": 64.6,
+      "media_diaria_saida": 4.9,
+      "total_saida_historica": 196,
+      "cobertura_dias": 57.1,
       "alerta_estoque": false
     },
     {
@@ -16970,6 +16970,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 2698,
+      "item_id": 31,
+      "produto_nome": "Omeprazol 20mg comprimido",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 14,
+      "responsavel": "Assucena",
+      "data": "2026-09-19",
+      "obs": "",
+      "criado_em": "2026-09-21 11:10:27",
+      "item": "Omeprazol 20mg comprimido",
+      "usuario": "Assucena"
+    },
     {
       "id": 2697,
       "item_id": 232,
@@ -24453,21 +24468,6 @@
       "obs": "",
       "criado_em": "2026-09-14 11:29:36",
       "item": "Agulha 25x8",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2194,
-      "item_id": 276,
-      "produto_nome": "Esparadrapo 10x4,5",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 2,
-      "responsavel": "Assucena",
-      "data": "2026-09-12",
-      "obs": "",
-      "criado_em": "2026-09-14 11:29:26",
-      "item": "Esparadrapo 10x4,5",
       "usuario": "Assucena"
     }
   ]
