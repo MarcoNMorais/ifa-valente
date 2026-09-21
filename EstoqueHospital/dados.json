@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "21/09/2026 11:03:03",
+  "atualizado_em": "21/09/2026 11:03:12",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 117500,
-    "total_farmacia": 38752,
-    "total_geral": 156252,
+    "total_farmacia": 38746,
+    "total_geral": 156246,
     "perto_de_terminar": 22,
     "zerados": 8
   },
@@ -6538,19 +6538,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 33,
+      "farmacia": 27,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 33,
+      "total": 27,
       "minimo": 0,
       "validade": "08/27",
       "lote": "",
       "origem": "Carga Farmácia 227-288",
       "obs": "Importação Farmácia 227-288",
-      "atualizado_em": "2026-09-15 16:24:57",
+      "atualizado_em": "2026-09-21 11:03:11",
       "validade_mais_proxima": "08/27",
       "vencimento_mais_proximo": "08/27",
       "lotes_validade": [
@@ -6558,17 +6558,17 @@
           "local": "farmacia",
           "validade": "08/27",
           "lote": "",
-          "quantidade": 33
+          "quantidade": 27
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 189,
-      "previsao_20_dias": 189,
+      "minimo_alerta": 192,
+      "previsao_20_dias": 192,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 39,
-      "media_diaria_saida": 9.41,
-      "total_saida_historica": 367,
-      "cobertura_dias": 3.5,
+      "media_diaria_saida": 9.56,
+      "total_saida_historica": 373,
+      "cobertura_dias": 2.8,
       "alerta_estoque": true
     },
     {
@@ -16971,6 +16971,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 2660,
+      "item_id": 230,
+      "produto_nome": "Ferropurum 20mg/ml",
+      "tipo": "Farmácia para Posto de Internamento",
+      "origem": "Farmácia",
+      "destino": "Posto de Internamento",
+      "quantidade": 6,
+      "responsavel": "Assucena",
+      "data": "2026-09-19",
+      "obs": "",
+      "criado_em": "2026-09-21 11:03:11",
+      "item": "Ferropurum 20mg/ml",
+      "usuario": "Assucena"
+    },
+    {
       "id": 2659,
       "item_id": 236,
       "produto_nome": "Cefepima 1g pó injetável",
@@ -24453,21 +24468,6 @@
       "obs": "",
       "criado_em": "2026-09-14 11:22:30",
       "item": "Ceftriaxona 1g",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2154,
-      "item_id": 228,
-      "produto_nome": "Omeprazol sódico 40mg AMP",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 8,
-      "responsavel": "Assucena",
-      "data": "2026-09-12",
-      "obs": "",
-      "criado_em": "2026-09-14 11:22:13",
-      "item": "Omeprazol sódico 40mg AMP",
       "usuario": "Assucena"
     }
   ]
