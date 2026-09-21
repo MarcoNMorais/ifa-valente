@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "21/09/2026 11:04:30",
+  "atualizado_em": "21/09/2026 11:04:42",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 117500,
-    "total_farmacia": 38634,
-    "total_geral": 156134,
+    "total_farmacia": 38574,
+    "total_geral": 156074,
     "perto_de_terminar": 22,
     "zerados": 8
   },
@@ -481,19 +481,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 6300,
-      "farmacia": 825,
+      "farmacia": 765,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 7125,
+      "total": 7065,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-18 11:16:32",
+      "atualizado_em": "2026-09-21 11:04:42",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -507,7 +507,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 825
+          "quantidade": 765
         }
       ],
       "minimo_manual": 0,
@@ -515,9 +515,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 18,
-      "media_diaria_saida": 48.61,
-      "total_saida_historica": 875,
-      "cobertura_dias": 146.6,
+      "media_diaria_saida": 51.94,
+      "total_saida_historica": 935,
+      "cobertura_dias": 136.0,
       "alerta_estoque": false
     },
     {
@@ -16971,6 +16971,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 2668,
+      "item_id": 390,
+      "produto_nome": "AGULHA  40X1,2",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 60,
+      "responsavel": "Assucena",
+      "data": "2026-09-19",
+      "obs": "",
+      "criado_em": "2026-09-21 11:04:42",
+      "item": "AGULHA  40X1,2",
+      "usuario": "Assucena"
+    },
+    {
       "id": 2667,
       "item_id": 84,
       "produto_nome": "Lidocaína",
@@ -24453,21 +24468,6 @@
       "obs": "",
       "criado_em": "2026-09-14 11:23:48",
       "item": "Equipo micro",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2163,
-      "item_id": 393,
-      "produto_nome": "NYLON N°3",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 10,
-      "responsavel": "Assucena",
-      "data": "2026-09-12",
-      "obs": "",
-      "criado_em": "2026-09-14 11:23:38",
-      "item": "NYLON N°3",
       "usuario": "Assucena"
     }
   ]
