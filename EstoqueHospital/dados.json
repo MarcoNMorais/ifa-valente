@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "21/09/2026 16:15:49",
+  "atualizado_em": "21/09/2026 16:15:58",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 116600,
-    "total_farmacia": 37177,
-    "total_geral": 153777,
+    "total_farmacia": 37147,
+    "total_geral": 153747,
     "perto_de_terminar": 25,
     "zerados": 8
   },
@@ -12799,19 +12799,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 6500,
-      "farmacia": 70,
+      "farmacia": 40,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 6570,
+      "total": 6540,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-21 11:24:30",
+      "atualizado_em": "2026-09-21 16:15:57",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -12825,17 +12825,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 70
+          "quantidade": 40
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 1477,
-      "previsao_20_dias": 1477,
+      "minimo_alerta": 1492,
+      "previsao_20_dias": 1492,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 40,
-      "media_diaria_saida": 73.85,
-      "total_saida_historica": 2954,
-      "cobertura_dias": 89.0,
+      "media_diaria_saida": 74.6,
+      "total_saida_historica": 2984,
+      "cobertura_dias": 87.7,
       "alerta_estoque": false
     },
     {
@@ -16970,6 +16970,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 2792,
+      "item_id": 103,
+      "produto_nome": "Seringa 10ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 30,
+      "responsavel": "Leiliana",
+      "data": "2026-09-21",
+      "obs": "",
+      "criado_em": "2026-09-21 16:15:57",
+      "item": "Seringa 10ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 2791,
       "item_id": 274,
@@ -24453,21 +24468,6 @@
       "obs": "",
       "criado_em": "2026-09-15 11:08:34",
       "item": "Papel grau 15cm",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2334,
-      "item_id": 317,
-      "produto_nome": "Fio Nylon nº 2",
-      "tipo": "Entrada no Almoxarifado",
-      "origem": "Entrada externa",
-      "destino": "Almoxarifado",
-      "quantidade": 192,
-      "responsavel": "Assucena",
-      "data": "2026-09-14",
-      "obs": "",
-      "criado_em": "2026-09-15 11:08:18",
-      "item": "Fio Nylon nº 2",
       "usuario": "Assucena"
     }
   ]
