@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "21/09/2026 11:52:13",
+  "atualizado_em": "21/09/2026 16:14:48",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 116600,
-    "total_farmacia": 37295,
-    "total_geral": 153895,
+    "total_farmacia": 37285,
+    "total_geral": 153885,
     "perto_de_terminar": 24,
     "zerados": 8
   },
@@ -3344,19 +3344,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 313,
+      "farmacia": 303,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 313,
+      "total": 303,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-21 11:12:10",
+      "atualizado_em": "2026-09-21 16:14:47",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -3364,17 +3364,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 313
+          "quantidade": 303
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 283,
-      "previsao_20_dias": 283,
+      "minimo_alerta": 288,
+      "previsao_20_dias": 288,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 40,
-      "media_diaria_saida": 14.12,
-      "total_saida_historica": 565,
-      "cobertura_dias": 22.2,
+      "media_diaria_saida": 14.38,
+      "total_saida_historica": 575,
+      "cobertura_dias": 21.1,
       "alerta_estoque": false
     },
     {
@@ -16971,6 +16971,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 2785,
+      "item_id": 59,
+      "produto_nome": "Ceftriaxona 1g",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 10,
+      "responsavel": "Leiliana",
+      "data": "2026-09-21",
+      "obs": "",
+      "criado_em": "2026-09-21 16:14:47",
+      "item": "Ceftriaxona 1g",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 2784,
       "item_id": 200,
       "produto_nome": "Caixa de perfurocortante",
@@ -24453,21 +24468,6 @@
       "obs": "",
       "criado_em": "2026-09-15 11:05:45",
       "item": "Luva cirúrgica tam. 7,5",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2327,
-      "item_id": 194,
-      "produto_nome": "Lanceta de segurança",
-      "tipo": "Entrada no Almoxarifado",
-      "origem": "Entrada externa",
-      "destino": "Almoxarifado",
-      "quantidade": 800,
-      "responsavel": "Assucena",
-      "data": "2026-09-14",
-      "obs": "",
-      "criado_em": "2026-09-15 11:05:28",
-      "item": "Lanceta de segurança",
       "usuario": "Assucena"
     }
   ]
