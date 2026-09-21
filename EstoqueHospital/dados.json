@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "21/09/2026 11:05:01",
+  "atualizado_em": "21/09/2026 11:05:12",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 117500,
-    "total_farmacia": 38484,
-    "total_geral": 155984,
+    "total_farmacia": 38454,
+    "total_geral": 155954,
     "perto_de_terminar": 22,
     "zerados": 8
   },
@@ -659,19 +659,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 5000,
-      "farmacia": 80,
+      "farmacia": 50,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 5080,
+      "total": 5050,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-18 15:35:00",
+      "atualizado_em": "2026-09-21 11:05:11",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -685,17 +685,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 80
+          "quantidade": 50
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 126,
-      "previsao_20_dias": 126,
+      "minimo_alerta": 143,
+      "previsao_20_dias": 143,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 35,
-      "media_diaria_saida": 6.29,
-      "total_saida_historica": 220,
-      "cobertura_dias": 808.2,
+      "media_diaria_saida": 7.14,
+      "total_saida_historica": 250,
+      "cobertura_dias": 707.0,
       "alerta_estoque": false
     },
     {
@@ -16971,6 +16971,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 2671,
+      "item_id": 289,
+      "produto_nome": "Agulha 25x8",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 30,
+      "responsavel": "Assucena",
+      "data": "2026-09-19",
+      "obs": "",
+      "criado_em": "2026-09-21 11:05:11",
+      "item": "Agulha 25x8",
+      "usuario": "Assucena"
+    },
+    {
       "id": 2670,
       "item_id": 331,
       "produto_nome": "Agulha 30x8",
@@ -24453,21 +24468,6 @@
       "obs": "",
       "criado_em": "2026-09-14 11:24:17",
       "item": "Soro fisiológico 250ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2166,
-      "item_id": 276,
-      "produto_nome": "Esparadrapo 10x4,5",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 3,
-      "responsavel": "Assucena",
-      "data": "2026-09-12",
-      "obs": "",
-      "criado_em": "2026-09-14 11:24:06",
-      "item": "Esparadrapo 10x4,5",
       "usuario": "Assucena"
     }
   ]
