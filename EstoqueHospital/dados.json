@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "22/09/2026 16:53:35",
+  "atualizado_em": "22/09/2026 16:53:44",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 115398,
-    "total_farmacia": 37497,
-    "total_geral": 152895,
+    "total_farmacia": 37485,
+    "total_geral": 152883,
     "perto_de_terminar": 25,
     "zerados": 8
   },
@@ -2388,19 +2388,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 233,
+      "farmacia": 221,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 233,
+      "total": 221,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-22 10:22:15",
+      "atualizado_em": "2026-09-22 16:53:43",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -2408,17 +2408,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 233
+          "quantidade": 221
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 142,
-      "previsao_20_dias": 142,
+      "minimo_alerta": 148,
+      "previsao_20_dias": 148,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 41,
-      "media_diaria_saida": 7.1,
-      "total_saida_historica": 291,
-      "cobertura_dias": 32.8,
+      "media_diaria_saida": 7.39,
+      "total_saida_historica": 303,
+      "cobertura_dias": 29.9,
       "alerta_estoque": false
     },
     {
@@ -16971,6 +16971,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 2857,
+      "item_id": 55,
+      "produto_nome": "Benzilpenicilina 1.200",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 12,
+      "responsavel": "Leiliana",
+      "data": "2026-09-22",
+      "obs": "",
+      "criado_em": "2026-09-22 16:53:43",
+      "item": "Benzilpenicilina 1.200",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 2856,
       "item_id": 68,
       "produto_nome": "Dexametasona",
@@ -24454,21 +24469,6 @@
       "criado_em": "2026-09-15 14:31:49",
       "item": "Dramin B6 ampola 10ml",
       "usuario": "Leiliana"
-    },
-    {
-      "id": 2357,
-      "item_id": 185,
-      "produto_nome": "Luva cirúrgica tam. 7,5",
-      "tipo": "Farmácia para PERMUTA COM SANTA LUZ",
-      "origem": "Farmácia",
-      "destino": "PERMUTA COM SANTA LUZ",
-      "quantidade": 30,
-      "responsavel": "Assucena",
-      "data": "2026-09-15",
-      "obs": "",
-      "criado_em": "2026-09-15 11:41:22",
-      "item": "Luva cirúrgica tam. 7,5",
-      "usuario": "Assucena"
     }
   ]
 }
