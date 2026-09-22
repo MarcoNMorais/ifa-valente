@@ -1,13 +1,13 @@
 {
-  "atualizado_em": "22/09/2026 10:29:55",
+  "atualizado_em": "22/09/2026 10:30:17",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 116570,
-    "total_farmacia": 36336,
-    "total_geral": 152906,
-    "perto_de_terminar": 25,
-    "zerados": 8
+    "total_farmacia": 36317,
+    "total_geral": 152887,
+    "perto_de_terminar": 26,
+    "zerados": 9
   },
   "itens": [
     {
@@ -6658,38 +6658,31 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 19,
+      "farmacia": 0,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 19,
+      "total": 0,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-09-15 16:24:57",
+      "atualizado_em": "2026-09-22 10:30:16",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
-      "lotes_validade": [
-        {
-          "local": "farmacia",
-          "validade": "",
-          "lote": "",
-          "quantidade": 19
-        }
-      ],
+      "lotes_validade": [],
       "minimo_manual": 0,
-      "minimo_alerta": 0,
-      "previsao_20_dias": 0,
+      "minimo_alerta": 10,
+      "previsao_20_dias": 10,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 41,
-      "media_diaria_saida": 0.0,
-      "total_saida_historica": 0,
-      "cobertura_dias": null,
-      "alerta_estoque": false
+      "media_diaria_saida": 0.46,
+      "total_saida_historica": 19,
+      "cobertura_dias": 0.0,
+      "alerta_estoque": true
     },
     {
       "id": 215,
@@ -16965,6 +16958,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 2836,
+      "item_id": 214,
+      "produto_nome": "Fio agulhado / sutura nº 1",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 19,
+      "responsavel": "Leiliana",
+      "data": "2026-09-21",
+      "obs": "",
+      "criado_em": "2026-09-22 10:30:16",
+      "item": "Fio agulhado / sutura nº 1",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 2835,
       "item_id": 213,
       "produto_nome": "Fio agulhado / sutura nº 0",
@@ -24447,21 +24455,6 @@
       "obs": "",
       "criado_em": "2026-09-15 10:06:45",
       "item": "Seringa 3ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2282,
-      "item_id": 102,
-      "produto_nome": "Seringa 5ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 40,
-      "responsavel": "Assucena",
-      "data": "2026-09-15",
-      "obs": "",
-      "criado_em": "2026-09-15 10:06:36",
-      "item": "Seringa 5ml",
       "usuario": "Assucena"
     }
   ]
