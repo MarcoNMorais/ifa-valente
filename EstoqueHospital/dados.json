@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "22/09/2026 10:25:30",
+  "atualizado_em": "22/09/2026 10:25:45",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 116600,
-    "total_farmacia": 36631,
-    "total_geral": 153231,
+    "total_farmacia": 36591,
+    "total_geral": 153191,
     "perto_de_terminar": 24,
     "zerados": 8
   },
@@ -12799,19 +12799,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 6500,
-      "farmacia": 40,
+      "farmacia": 0,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 6540,
+      "total": 6500,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-21 16:15:57",
+      "atualizado_em": "2026-09-22 10:25:44",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -12820,22 +12820,16 @@
           "validade": "",
           "lote": "",
           "quantidade": 6500
-        },
-        {
-          "local": "farmacia",
-          "validade": "",
-          "lote": "",
-          "quantidade": 40
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 1456,
-      "previsao_20_dias": 1456,
+      "minimo_alerta": 1476,
+      "previsao_20_dias": 1476,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 41,
-      "media_diaria_saida": 72.78,
-      "total_saida_historica": 2984,
-      "cobertura_dias": 89.9,
+      "media_diaria_saida": 73.76,
+      "total_saida_historica": 3024,
+      "cobertura_dias": 88.1,
       "alerta_estoque": false
     },
     {
@@ -12917,7 +12911,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 150
+          "quantidade": 175
         }
       ],
       "minimo_manual": 0,
@@ -16970,6 +16964,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 2819,
+      "item_id": 103,
+      "produto_nome": "Seringa 10ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 40,
+      "responsavel": "Leiliana",
+      "data": "2026-09-21",
+      "obs": "",
+      "criado_em": "2026-09-22 10:25:44",
+      "item": "Seringa 10ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 2818,
       "item_id": 274,
@@ -24453,21 +24462,6 @@
       "obs": "",
       "criado_em": "2026-09-15 10:02:50",
       "item": "Omeprazol sódico 40mg AMP",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2264,
-      "item_id": 86,
-      "produto_nome": "Cloridrato de Metoclopramida",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 24,
-      "responsavel": "Assucena",
-      "data": "2026-09-15",
-      "obs": "",
-      "criado_em": "2026-09-15 10:02:42",
-      "item": "Cloridrato de Metoclopramida",
       "usuario": "Assucena"
     }
   ]
