@@ -1,12 +1,12 @@
 {
-  "atualizado_em": "22/09/2026 10:28:18",
+  "atualizado_em": "22/09/2026 10:28:38",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 116600,
-    "total_farmacia": 36420,
-    "total_geral": 153020,
-    "perto_de_terminar": 24,
+    "total_farmacia": 36408,
+    "total_geral": 153008,
+    "perto_de_terminar": 25,
     "zerados": 8
   },
   "itens": [
@@ -3344,19 +3344,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 296,
+      "farmacia": 284,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 296,
+      "total": 284,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-21 16:50:03",
+      "atualizado_em": "2026-09-22 10:28:37",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -3364,18 +3364,18 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 296
+          "quantidade": 284
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 284,
-      "previsao_20_dias": 284,
+      "minimo_alerta": 290,
+      "previsao_20_dias": 290,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 41,
-      "media_diaria_saida": 14.2,
-      "total_saida_historica": 582,
-      "cobertura_dias": 20.9,
-      "alerta_estoque": false
+      "media_diaria_saida": 14.49,
+      "total_saida_historica": 594,
+      "cobertura_dias": 19.6,
+      "alerta_estoque": true
     },
     {
       "id": 116,
@@ -16959,6 +16959,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 2830,
+      "item_id": 59,
+      "produto_nome": "Ceftriaxona 1g",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 12,
+      "responsavel": "Leiliana",
+      "data": "2026-09-21",
+      "obs": "",
+      "criado_em": "2026-09-22 10:28:37",
+      "item": "Ceftriaxona 1g",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 2829,
       "item_id": 21,
       "produto_nome": "Clonazepam gotas 25mg/ml",
@@ -24441,21 +24456,6 @@
       "obs": "",
       "criado_em": "2026-09-15 10:05:56",
       "item": "AGULHA  40X1,2",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2276,
-      "item_id": 194,
-      "produto_nome": "Lanceta de segurança",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 100,
-      "responsavel": "Assucena",
-      "data": "2026-09-15",
-      "obs": "",
-      "criado_em": "2026-09-15 10:05:46",
-      "item": "Lanceta de segurança",
       "usuario": "Assucena"
     }
   ]
