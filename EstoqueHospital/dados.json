@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "22/09/2026 10:35:45",
+  "atualizado_em": "22/09/2026 10:36:11",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 116474,
-    "total_farmacia": 36474,
-    "total_geral": 152948,
+    "total_farmacia": 36473,
+    "total_geral": 152947,
     "perto_de_terminar": 25,
     "zerados": 8
   },
@@ -6440,28 +6440,22 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 80,
-      "farmacia": 1,
+      "farmacia": 0,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 81,
+      "total": 80,
       "minimo": 0,
-      "validade": "2027-05",
+      "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-15 16:24:57",
-      "validade_mais_proxima": "2027-05",
-      "vencimento_mais_proximo": "2027-05",
+      "atualizado_em": "2026-09-22 10:36:10",
+      "validade_mais_proxima": "",
+      "vencimento_mais_proximo": "",
       "lotes_validade": [
-        {
-          "local": "farmacia",
-          "validade": "2027-05",
-          "lote": "",
-          "quantidade": 1
-        },
         {
           "local": "almoxarifado",
           "validade": "",
@@ -6474,9 +6468,9 @@
       "previsao_20_dias": 28,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 41,
-      "media_diaria_saida": 1.37,
-      "total_saida_historica": 56,
-      "cobertura_dias": 59.3,
+      "media_diaria_saida": 1.39,
+      "total_saida_historica": 57,
+      "cobertura_dias": 57.5,
       "alerta_estoque": false
     },
     {
@@ -16965,6 +16959,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 2845,
+      "item_id": 9,
+      "produto_nome": "Fentanila 50mcg/ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 1,
+      "responsavel": "Leiliana",
+      "data": "2026-09-21",
+      "obs": "",
+      "criado_em": "2026-09-22 10:36:10",
+      "item": "Fentanila 50mcg/ml",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 2844,
       "item_id": 3,
       "produto_nome": "Succinil 100mg",
@@ -24447,21 +24456,6 @@
       "obs": "",
       "criado_em": "2026-09-15 10:09:15",
       "item": "Hidrocortisona 100MG",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2292,
-      "item_id": 230,
-      "produto_nome": "Ferropurum 20mg/ml",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 2,
-      "responsavel": "Assucena",
-      "data": "2026-09-15",
-      "obs": "",
-      "criado_em": "2026-09-15 10:08:58",
-      "item": "Ferropurum 20mg/ml",
       "usuario": "Assucena"
     }
   ]
