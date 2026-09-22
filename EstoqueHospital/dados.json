@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "22/09/2026 10:32:05",
+  "atualizado_em": "22/09/2026 10:32:15",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 116474,
-    "total_farmacia": 36509,
-    "total_geral": 152983,
+    "total_farmacia": 36485,
+    "total_geral": 152959,
     "perto_de_terminar": 25,
     "zerados": 8
   },
@@ -6731,19 +6731,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 96,
+      "farmacia": 72,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 96,
+      "total": 72,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-22 10:32:04",
+      "atualizado_em": "2026-09-22 10:32:14",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -6751,17 +6751,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 96
+          "quantidade": 72
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 33,
-      "previsao_20_dias": 33,
+      "minimo_alerta": 44,
+      "previsao_20_dias": 44,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 41,
-      "media_diaria_saida": 1.61,
-      "total_saida_historica": 66,
-      "cobertura_dias": 59.6,
+      "media_diaria_saida": 2.2,
+      "total_saida_historica": 90,
+      "cobertura_dias": 32.8,
       "alerta_estoque": false
     },
     {
@@ -16965,6 +16965,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 2840,
+      "item_id": 216,
+      "produto_nome": "Fio agulhado / sutura nº 3",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 24,
+      "responsavel": "Leiliana",
+      "data": "2026-09-21",
+      "obs": "",
+      "criado_em": "2026-09-22 10:32:14",
+      "item": "Fio agulhado / sutura nº 3",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 2839,
       "item_id": 216,
       "produto_nome": "Fio agulhado / sutura nº 3",
@@ -24447,21 +24462,6 @@
       "obs": "",
       "criado_em": "2026-09-15 10:07:41",
       "item": "Complexo B",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2287,
-      "item_id": 82,
-      "produto_nome": "Hidrocortisona 100MG",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 5,
-      "responsavel": "Assucena",
-      "data": "2026-09-15",
-      "obs": "",
-      "criado_em": "2026-09-15 10:07:31",
-      "item": "Hidrocortisona 100MG",
       "usuario": "Assucena"
     }
   ]
