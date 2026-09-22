@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "22/09/2026 16:52:10",
+  "atualizado_em": "22/09/2026 16:52:22",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
-    "total_almoxarifado": 115408,
-    "total_farmacia": 37517,
+    "total_almoxarifado": 115398,
+    "total_farmacia": 37527,
     "total_geral": 152925,
     "perto_de_terminar": 25,
     "zerados": 8
@@ -5426,8 +5426,8 @@
       "nome": "Eletrodo ECG descartável",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 3600,
-      "farmacia": 0,
+      "almoxarifado": 3590,
+      "farmacia": 10,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -5439,7 +5439,7 @@
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-09-15 16:24:57",
+      "atualizado_em": "2026-09-22 16:52:21",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -5447,7 +5447,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 3600
+          "quantidade": 3590
+        },
+        {
+          "local": "farmacia",
+          "validade": "",
+          "lote": "",
+          "quantidade": 10
         }
       ],
       "minimo_manual": 0,
@@ -16965,6 +16971,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 2855,
+      "item_id": 163,
+      "produto_nome": "Eletrodo ECG descartável",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 10,
+      "responsavel": "Leiliana",
+      "data": "2026-09-22",
+      "obs": "",
+      "criado_em": "2026-09-22 16:52:21",
+      "item": "Eletrodo ECG descartável",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 2854,
       "item_id": 276,
       "produto_nome": "Esparadrapo 10x4,5",
@@ -24447,21 +24468,6 @@
       "obs": "",
       "criado_em": "2026-09-15 11:40:38",
       "item": "Luva cirúrgica tam. 7",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2355,
-      "item_id": 309,
-      "produto_nome": "Campo operatório",
-      "tipo": "Farmácia para PERMUTA COM SANTA LUZ",
-      "origem": "Farmácia",
-      "destino": "PERMUTA COM SANTA LUZ",
-      "quantidade": 3,
-      "responsavel": "Assucena",
-      "data": "2026-09-15",
-      "obs": "",
-      "criado_em": "2026-09-15 11:40:30",
-      "item": "Campo operatório",
       "usuario": "Assucena"
     }
   ]
