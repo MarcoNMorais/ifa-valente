@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "22/09/2026 16:55:50",
+  "atualizado_em": "22/09/2026 16:56:29",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
-    "total_almoxarifado": 115368,
+    "total_almoxarifado": 115390,
     "total_farmacia": 37343,
-    "total_geral": 152711,
+    "total_geral": 152733,
     "perto_de_terminar": 25,
     "zerados": 8
   },
@@ -5969,20 +5969,20 @@
       "nome": "Esparadrapo 10x4,5",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 328,
+      "almoxarifado": 350,
       "farmacia": 31,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 359,
+      "total": 381,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-22 16:55:49",
+      "atualizado_em": "2026-09-22 16:56:28",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -5990,7 +5990,7 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 328
+          "quantidade": 350
         },
         {
           "local": "farmacia",
@@ -6006,7 +6006,7 @@
       "dias_historico": 36,
       "media_diaria_saida": 2.25,
       "total_saida_historica": 81,
-      "cobertura_dias": 159.6,
+      "cobertura_dias": 169.3,
       "alerta_estoque": false
     },
     {
@@ -16977,6 +16977,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 2868,
+      "item_id": 276,
+      "produto_nome": "Esparadrapo 10x4,5",
+      "tipo": "Entrada no Almoxarifado",
+      "origem": "Entrada externa",
+      "destino": "Almoxarifado",
+      "quantidade": 22,
+      "responsavel": "Leiliana",
+      "data": "2026-09-22",
+      "obs": "",
+      "criado_em": "2026-09-22 16:56:28",
+      "item": "Esparadrapo 10x4,5",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 2867,
       "item_id": 276,
       "produto_nome": "Esparadrapo 10x4,5",
@@ -24459,21 +24474,6 @@
       "obs": "",
       "criado_em": "2026-09-15 14:46:13",
       "item": "Meropenem 500mg",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 2368,
-      "item_id": 234,
-      "produto_nome": "Vitamina K 10mg/ml",
-      "tipo": "Farmácia para AJUSTE DE ESTOQUE",
-      "origem": "Farmácia",
-      "destino": "AJUSTE DE ESTOQUE",
-      "quantidade": 5,
-      "responsavel": "Leiliana",
-      "data": "2026-09-15",
-      "obs": "",
-      "criado_em": "2026-09-15 14:44:45",
-      "item": "Vitamina K 10mg/ml",
       "usuario": "Leiliana"
     }
   ]
