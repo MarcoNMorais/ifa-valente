@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "22/09/2026 16:57:54",
+  "atualizado_em": "22/09/2026 16:58:01",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 115358,
-    "total_farmacia": 37375,
-    "total_geral": 152733,
+    "total_farmacia": 37374,
+    "total_geral": 152732,
     "perto_de_terminar": 25,
     "zerados": 8
   },
@@ -7315,19 +7315,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 156,
-      "farmacia": 10,
+      "farmacia": 9,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 166,
+      "total": 165,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-22 16:57:53",
+      "atualizado_em": "2026-09-22 16:58:00",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -7341,7 +7341,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 10
+          "quantidade": 9
         }
       ],
       "minimo_manual": 0,
@@ -7349,9 +7349,9 @@
       "previsao_20_dias": 5,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 41,
-      "media_diaria_saida": 0.22,
-      "total_saida_historica": 9,
-      "cobertura_dias": 756.2,
+      "media_diaria_saida": 0.24,
+      "total_saida_historica": 10,
+      "cobertura_dias": 676.5,
       "alerta_estoque": false
     },
     {
@@ -16983,6 +16983,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 2871,
+      "item_id": 175,
+      "produto_nome": "Fita cirúrgica microporosa",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 1,
+      "responsavel": "Leiliana",
+      "data": "2026-09-22",
+      "obs": "",
+      "criado_em": "2026-09-22 16:58:00",
+      "item": "Fita cirúrgica microporosa",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 2870,
       "item_id": 175,
       "produto_nome": "Fita cirúrgica microporosa",
@@ -24464,21 +24479,6 @@
       "data": "2026-09-15",
       "obs": "ajuste de estoque",
       "criado_em": "2026-09-15 14:51:43",
-      "item": "vancomicina",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 2371,
-      "item_id": 403,
-      "produto_nome": "vancomicina",
-      "tipo": "Entrada no Almoxarifado",
-      "origem": "Entrada externa",
-      "destino": "Almoxarifado",
-      "quantidade": 95,
-      "responsavel": "Leiliana",
-      "data": "2026-09-15",
-      "obs": "",
-      "criado_em": "2026-09-15 14:49:45",
       "item": "vancomicina",
       "usuario": "Leiliana"
     }
