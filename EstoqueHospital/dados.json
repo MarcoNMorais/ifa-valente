@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "22/09/2026 10:23:18",
+  "atualizado_em": "22/09/2026 10:23:29",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 116600,
-    "total_farmacia": 36932,
-    "total_geral": 153532,
+    "total_farmacia": 36931,
+    "total_geral": 153531,
     "perto_de_terminar": 24,
     "zerados": 8
   },
@@ -8605,19 +8605,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 32,
-      "farmacia": 19,
+      "farmacia": 18,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 51,
+      "total": 50,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-18 11:14:49",
+      "atualizado_em": "2026-09-22 10:23:28",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -8631,7 +8631,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 19
+          "quantidade": 18
         }
       ],
       "minimo_manual": 0,
@@ -8639,9 +8639,9 @@
       "previsao_20_dias": 7,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 40,
-      "media_diaria_saida": 0.33,
-      "total_saida_historica": 13,
-      "cobertura_dias": 156.9,
+      "media_diaria_saida": 0.35,
+      "total_saida_historica": 14,
+      "cobertura_dias": 142.9,
       "alerta_estoque": false
     },
     {
@@ -16971,6 +16971,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 2808,
+      "item_id": 255,
+      "produto_nome": "Ibuprofeno gotas",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 1,
+      "responsavel": "Leiliana",
+      "data": "2026-09-21",
+      "obs": "",
+      "criado_em": "2026-09-22 10:23:28",
+      "item": "Ibuprofeno gotas",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 2807,
       "item_id": 85,
       "produto_nome": "Lidocaína Gel",
@@ -24453,21 +24468,6 @@
       "obs": "",
       "criado_em": "2026-09-15 11:39:53",
       "item": "Campo operatório",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2351,
-      "item_id": 73,
-      "produto_nome": "Epinefrina 1mg",
-      "tipo": "Almoxarifado para Farmácia",
-      "origem": "Almoxarifado",
-      "destino": "Farmácia",
-      "quantidade": 65,
-      "responsavel": "Assucena",
-      "data": "2026-09-14",
-      "obs": "AJUSTE DE ESTPOQUE",
-      "criado_em": "2026-09-15 11:21:46",
-      "item": "Epinefrina 1mg",
       "usuario": "Assucena"
     }
   ]
