@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "22/09/2026 16:51:28",
+  "atualizado_em": "22/09/2026 16:51:38",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
-    "total_almoxarifado": 116076,
-    "total_farmacia": 36849,
+    "total_almoxarifado": 115576,
+    "total_farmacia": 37349,
     "total_geral": 152925,
     "perto_de_terminar": 25,
     "zerados": 8
@@ -12976,8 +12976,8 @@
       "nome": "Seringa 5ml",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 5950,
-      "farmacia": 215,
+      "almoxarifado": 5450,
+      "farmacia": 715,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -12989,7 +12989,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-22 10:26:00",
+      "atualizado_em": "2026-09-22 16:51:37",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -12997,13 +12997,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 5950
+          "quantidade": 5450
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 215
+          "quantidade": 715
         }
       ],
       "minimo_manual": 0,
@@ -16964,6 +16964,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 2852,
+      "item_id": 102,
+      "produto_nome": "Seringa 5ml",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 500,
+      "responsavel": "Leiliana",
+      "data": "2026-09-22",
+      "obs": "",
+      "criado_em": "2026-09-22 16:51:37",
+      "item": "Seringa 5ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 2851,
       "item_id": 103,
@@ -24447,21 +24462,6 @@
       "obs": "",
       "criado_em": "2026-09-15 11:02:18",
       "item": "Equipo micro",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2302,
-      "item_id": 82,
-      "produto_nome": "Hidrocortisona 100MG",
-      "tipo": "Farmácia para AJUSTE DE ESTOQUE",
-      "origem": "Farmácia",
-      "destino": "AJUSTE DE ESTOQUE",
-      "quantidade": 240,
-      "responsavel": "Assucena",
-      "data": "2026-09-15",
-      "obs": "",
-      "criado_em": "2026-09-15 10:46:05",
-      "item": "Hidrocortisona 100MG",
       "usuario": "Assucena"
     }
   ]
