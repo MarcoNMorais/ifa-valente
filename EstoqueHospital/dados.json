@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "22/09/2026 10:36:11",
+  "atualizado_em": "22/09/2026 10:37:17",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 116474,
-    "total_farmacia": 36473,
-    "total_geral": 152947,
+    "total_farmacia": 36472,
+    "total_geral": 152946,
     "perto_de_terminar": 25,
     "zerados": 8
   },
@@ -5547,19 +5547,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 115,
+      "farmacia": 114,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 115,
+      "total": 114,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-15 16:24:57",
+      "atualizado_em": "2026-09-22 10:37:16",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -5567,17 +5567,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 115
+          "quantidade": 114
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 38,
-      "previsao_20_dias": 38,
+      "minimo_alerta": 39,
+      "previsao_20_dias": 39,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 41,
-      "media_diaria_saida": 1.88,
-      "total_saida_historica": 77,
-      "cobertura_dias": 61.2,
+      "media_diaria_saida": 1.9,
+      "total_saida_historica": 78,
+      "cobertura_dias": 59.9,
       "alerta_estoque": false
     },
     {
@@ -16959,6 +16959,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 2846,
+      "item_id": 73,
+      "produto_nome": "Epinefrina 1mg",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 1,
+      "responsavel": "Leiliana",
+      "data": "2026-09-21",
+      "obs": "",
+      "criado_em": "2026-09-22 10:37:16",
+      "item": "Epinefrina 1mg",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 2845,
       "item_id": 9,
       "produto_nome": "Fentanila 50mcg/ml",
@@ -24441,21 +24456,6 @@
       "obs": "",
       "criado_em": "2026-09-15 10:09:23",
       "item": "Ibuprofeno gotas",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2293,
-      "item_id": 82,
-      "produto_nome": "Hidrocortisona 100MG",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 12,
-      "responsavel": "Assucena",
-      "data": "2026-09-15",
-      "obs": "",
-      "criado_em": "2026-09-15 10:09:15",
-      "item": "Hidrocortisona 100MG",
       "usuario": "Assucena"
     }
   ]
