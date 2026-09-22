@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "22/09/2026 10:25:20",
+  "atualizado_em": "22/09/2026 10:25:30",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 116600,
-    "total_farmacia": 36656,
-    "total_geral": 153256,
+    "total_farmacia": 36631,
+    "total_geral": 153231,
     "perto_de_terminar": 24,
     "zerados": 8
   },
@@ -12891,19 +12891,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 7750,
-      "farmacia": 175,
+      "farmacia": 150,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 7925,
+      "total": 7900,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-21 16:15:48",
+      "atualizado_em": "2026-09-22 10:25:29",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -12917,17 +12917,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 175
+          "quantidade": 150
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 737,
-      "previsao_20_dias": 737,
+      "minimo_alerta": 750,
+      "previsao_20_dias": 750,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 36,
-      "media_diaria_saida": 36.81,
-      "total_saida_historica": 1325,
-      "cobertura_dias": 215.3,
+      "media_diaria_saida": 37.5,
+      "total_saida_historica": 1350,
+      "cobertura_dias": 210.7,
       "alerta_estoque": false
     },
     {
@@ -16970,6 +16970,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 2818,
+      "item_id": 274,
+      "produto_nome": "Seringa 20ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 25,
+      "responsavel": "Leiliana",
+      "data": "2026-09-21",
+      "obs": "",
+      "criado_em": "2026-09-22 10:25:29",
+      "item": "Seringa 20ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 2817,
       "item_id": 157,
@@ -24453,21 +24468,6 @@
       "obs": "",
       "criado_em": "2026-09-15 10:02:42",
       "item": "Cloridrato de Metoclopramida",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2263,
-      "item_id": 70,
-      "produto_nome": "Dipirona",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 30,
-      "responsavel": "Assucena",
-      "data": "2026-09-15",
-      "obs": "",
-      "criado_em": "2026-09-15 10:02:31",
-      "item": "Dipirona",
       "usuario": "Assucena"
     }
   ]
