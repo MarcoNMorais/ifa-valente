@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "22/09/2026 16:55:14",
+  "atualizado_em": "22/09/2026 16:55:21",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 115368,
-    "total_farmacia": 37370,
-    "total_geral": 152738,
+    "total_farmacia": 37367,
+    "total_geral": 152735,
     "perto_de_terminar": 25,
     "zerados": 8
   },
@@ -5672,19 +5672,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 35,
-      "farmacia": 30,
+      "farmacia": 27,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 65,
+      "total": 62,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-09-22 16:55:13",
+      "atualizado_em": "2026-09-22 16:55:20",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -5698,17 +5698,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 30
+          "quantidade": 27
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 21,
-      "previsao_20_dias": 21,
+      "minimo_alerta": 23,
+      "previsao_20_dias": 23,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 41,
-      "media_diaria_saida": 1.05,
-      "total_saida_historica": 43,
-      "cobertura_dias": 62.0,
+      "media_diaria_saida": 1.12,
+      "total_saida_historica": 46,
+      "cobertura_dias": 55.3,
       "alerta_estoque": false
     },
     {
@@ -16977,6 +16977,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 2866,
+      "item_id": 154,
+      "produto_nome": "Equipo fotossensível",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 3,
+      "responsavel": "Leiliana",
+      "data": "2026-09-22",
+      "obs": "",
+      "criado_em": "2026-09-22 16:55:20",
+      "item": "Equipo fotossensível",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 2865,
       "item_id": 154,
       "produto_nome": "Equipo fotossensível",
@@ -24459,21 +24474,6 @@
       "obs": "",
       "criado_em": "2026-09-15 14:44:30",
       "item": "Prometazina 25mg/ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 2366,
-      "item_id": 230,
-      "produto_nome": "Ferropurum 20mg/ml",
-      "tipo": "Farmácia para AJUSTE DE ESTOQUE",
-      "origem": "Farmácia",
-      "destino": "AJUSTE DE ESTOQUE",
-      "quantidade": 324,
-      "responsavel": "Leiliana",
-      "data": "2026-09-15",
-      "obs": "",
-      "criado_em": "2026-09-15 14:44:13",
-      "item": "Ferropurum 20mg/ml",
       "usuario": "Leiliana"
     }
   ]
