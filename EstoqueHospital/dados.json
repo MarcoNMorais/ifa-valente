@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "22/09/2026 16:54:51",
+  "atualizado_em": "22/09/2026 16:55:14",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
-    "total_almoxarifado": 115398,
-    "total_farmacia": 37340,
+    "total_almoxarifado": 115368,
+    "total_farmacia": 37370,
     "total_geral": 152738,
     "perto_de_terminar": 25,
     "zerados": 8
@@ -5671,8 +5671,8 @@
       "nome": "Equipo fotossensível",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 65,
-      "farmacia": 0,
+      "almoxarifado": 35,
+      "farmacia": 30,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -5684,7 +5684,7 @@
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-09-22 10:26:41",
+      "atualizado_em": "2026-09-22 16:55:13",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -5692,7 +5692,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 65
+          "quantidade": 35
+        },
+        {
+          "local": "farmacia",
+          "validade": "",
+          "lote": "",
+          "quantidade": 30
         }
       ],
       "minimo_manual": 0,
@@ -16971,6 +16977,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 2865,
+      "item_id": 154,
+      "produto_nome": "Equipo fotossensível",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 30,
+      "responsavel": "Leiliana",
+      "data": "2026-09-22",
+      "obs": "",
+      "criado_em": "2026-09-22 16:55:13",
+      "item": "Equipo fotossensível",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 2864,
       "item_id": 102,
       "produto_nome": "Seringa 5ml",
@@ -24453,21 +24474,6 @@
       "obs": "",
       "criado_em": "2026-09-15 14:44:13",
       "item": "Ferropurum 20mg/ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 2365,
-      "item_id": 238,
-      "produto_nome": "Ondansetrona 2mg/ml 2ml",
-      "tipo": "Farmácia para AJUSTE DE ESTOQUE",
-      "origem": "Farmácia",
-      "destino": "AJUSTE DE ESTOQUE",
-      "quantidade": 50,
-      "responsavel": "Leiliana",
-      "data": "2026-09-15",
-      "obs": "",
-      "criado_em": "2026-09-15 14:43:39",
-      "item": "Ondansetrona 2mg/ml 2ml",
       "usuario": "Leiliana"
     }
   ]
