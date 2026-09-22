@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "22/09/2026 10:22:16",
+  "atualizado_em": "22/09/2026 10:22:25",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 116600,
-    "total_farmacia": 37029,
-    "total_geral": 153629,
+    "total_farmacia": 36989,
+    "total_geral": 153589,
     "perto_de_terminar": 24,
     "zerados": 8
   },
@@ -11722,19 +11722,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 170,
+      "farmacia": 130,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 170,
+      "total": 130,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-21 11:12:18",
+      "atualizado_em": "2026-09-22 10:22:24",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -11742,17 +11742,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 170
+          "quantidade": 130
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 416,
-      "previsao_20_dias": 416,
+      "minimo_alerta": 437,
+      "previsao_20_dias": 437,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 38,
-      "media_diaria_saida": 20.79,
-      "total_saida_historica": 790,
-      "cobertura_dias": 8.2,
+      "media_diaria_saida": 21.84,
+      "total_saida_historica": 830,
+      "cobertura_dias": 6.0,
       "alerta_estoque": true
     },
     {
@@ -16970,6 +16970,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 2802,
+      "item_id": 238,
+      "produto_nome": "Ondansetrona 2mg/ml 2ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 40,
+      "responsavel": "Leiliana",
+      "data": "2026-09-21",
+      "obs": "",
+      "criado_em": "2026-09-22 10:22:24",
+      "item": "Ondansetrona 2mg/ml 2ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 2801,
       "item_id": 55,
@@ -24453,21 +24468,6 @@
       "obs": "",
       "criado_em": "2026-09-15 11:11:44",
       "item": "FRALDA XG ADULTO PACOTE",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2344,
-      "item_id": 400,
-      "produto_nome": "FRALDA XG INFANTIL",
-      "tipo": "Entrada no Almoxarifado",
-      "origem": "Entrada externa",
-      "destino": "Almoxarifado",
-      "quantidade": 84,
-      "responsavel": "Assucena",
-      "data": "2026-09-14",
-      "obs": "",
-      "criado_em": "2026-09-15 11:11:13",
-      "item": "FRALDA XG INFANTIL",
       "usuario": "Assucena"
     }
   ]
