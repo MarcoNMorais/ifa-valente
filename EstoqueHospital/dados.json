@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "22/09/2026 10:30:17",
+  "atualizado_em": "22/09/2026 10:30:48",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
-    "total_almoxarifado": 116570,
-    "total_farmacia": 36317,
+    "total_almoxarifado": 116474,
+    "total_farmacia": 36413,
     "total_geral": 152887,
     "perto_de_terminar": 26,
     "zerados": 9
@@ -7009,8 +7009,8 @@
       "nome": "Fio categute nº 3",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 600,
-      "farmacia": 24,
+      "almoxarifado": 504,
+      "farmacia": 120,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -7022,7 +7022,7 @@
       "lote": "",
       "origem": "Carga Almoxerifado",
       "obs": "Importação Almoxerifado",
-      "atualizado_em": "2026-09-15 16:24:57",
+      "atualizado_em": "2026-09-22 10:30:47",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -7030,13 +7030,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 600
+          "quantidade": 504
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 24
+          "quantidade": 120
         }
       ],
       "minimo_manual": 0,
@@ -16958,6 +16958,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 2837,
+      "item_id": 324,
+      "produto_nome": "Fio categute nº 3",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 96,
+      "responsavel": "Leiliana",
+      "data": "2026-09-21",
+      "obs": "",
+      "criado_em": "2026-09-22 10:30:47",
+      "item": "Fio categute nº 3",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 2836,
       "item_id": 214,
       "produto_nome": "Fio agulhado / sutura nº 1",
@@ -24440,21 +24455,6 @@
       "obs": "",
       "criado_em": "2026-09-15 10:06:54",
       "item": "Equipo macrogotas",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2283,
-      "item_id": 104,
-      "produto_nome": "Seringa 3ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 20,
-      "responsavel": "Assucena",
-      "data": "2026-09-15",
-      "obs": "",
-      "criado_em": "2026-09-15 10:06:45",
-      "item": "Seringa 3ml",
       "usuario": "Assucena"
     }
   ]
