@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "22/09/2026 10:27:50",
+  "atualizado_em": "22/09/2026 10:28:18",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 116600,
-    "total_farmacia": 36421,
-    "total_geral": 153021,
+    "total_farmacia": 36420,
+    "total_geral": 153020,
     "perto_de_terminar": 24,
     "zerados": 8
   },
@@ -3743,19 +3743,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 8,
+      "farmacia": 7,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 8,
+      "total": 7,
       "minimo": 0,
       "validade": "2028-01",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-09-21 11:18:10",
+      "atualizado_em": "2026-09-22 10:28:17",
       "validade_mais_proxima": "2028-01",
       "vencimento_mais_proximo": "2028-01",
       "lotes_validade": [
@@ -3763,17 +3763,17 @@
           "local": "farmacia",
           "validade": "2028-01",
           "lote": "",
-          "quantidade": 8
+          "quantidade": 7
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 3,
-      "previsao_20_dias": 3,
+      "minimo_alerta": 4,
+      "previsao_20_dias": 4,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 41,
-      "media_diaria_saida": 0.15,
-      "total_saida_historica": 6,
-      "cobertura_dias": 54.7,
+      "media_diaria_saida": 0.17,
+      "total_saida_historica": 7,
+      "cobertura_dias": 41.0,
       "alerta_estoque": false
     },
     {
@@ -16959,6 +16959,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 2829,
+      "item_id": 21,
+      "produto_nome": "Clonazepam gotas 25mg/ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 1,
+      "responsavel": "Leiliana",
+      "data": "2026-09-21",
+      "obs": "",
+      "criado_em": "2026-09-22 10:28:17",
+      "item": "Clonazepam gotas 25mg/ml",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 2828,
       "item_id": 376,
       "produto_nome": "LENÇOL DESCARTAVEL PAPEL",
@@ -24441,21 +24456,6 @@
       "obs": "",
       "criado_em": "2026-09-15 10:05:46",
       "item": "Lanceta de segurança",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2275,
-      "item_id": 348,
-      "produto_nome": "BISTURI N24",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 15,
-      "responsavel": "Assucena",
-      "data": "2026-09-15",
-      "obs": "",
-      "criado_em": "2026-09-15 10:05:36",
-      "item": "BISTURI N24",
       "usuario": "Assucena"
     }
   ]
