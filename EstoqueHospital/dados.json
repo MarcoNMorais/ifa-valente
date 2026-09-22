@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "22/09/2026 16:56:29",
+  "atualizado_em": "22/09/2026 16:56:57",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
-    "total_almoxarifado": 115390,
-    "total_farmacia": 37343,
+    "total_almoxarifado": 115368,
+    "total_farmacia": 37365,
     "total_geral": 152733,
     "perto_de_terminar": 25,
     "zerados": 8
@@ -5969,8 +5969,8 @@
       "nome": "Esparadrapo 10x4,5",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 350,
-      "farmacia": 31,
+      "almoxarifado": 328,
+      "farmacia": 53,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -5982,7 +5982,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-22 16:56:28",
+      "atualizado_em": "2026-09-22 16:56:56",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -5990,13 +5990,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 350
+          "quantidade": 328
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 33
+          "quantidade": 55
         }
       ],
       "minimo_manual": 0,
@@ -16977,6 +16977,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 2869,
+      "item_id": 276,
+      "produto_nome": "Esparadrapo 10x4,5",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 22,
+      "responsavel": "Leiliana",
+      "data": "2026-09-22",
+      "obs": "",
+      "criado_em": "2026-09-22 16:56:56",
+      "item": "Esparadrapo 10x4,5",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 2868,
       "item_id": 276,
       "produto_nome": "Esparadrapo 10x4,5",
@@ -24458,21 +24473,6 @@
       "data": "2026-09-15",
       "obs": "ajuste de estoque",
       "criado_em": "2026-09-15 14:46:32",
-      "item": "Meropenem 500mg",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 2369,
-      "item_id": 224,
-      "produto_nome": "Meropenem 500mg",
-      "tipo": "Entrada no Almoxarifado",
-      "origem": "Entrada externa",
-      "destino": "Almoxarifado",
-      "quantidade": 100,
-      "responsavel": "Leiliana",
-      "data": "2026-09-15",
-      "obs": "",
-      "criado_em": "2026-09-15 14:46:13",
       "item": "Meropenem 500mg",
       "usuario": "Leiliana"
     }
