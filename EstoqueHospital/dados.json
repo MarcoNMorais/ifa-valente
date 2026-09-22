@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "22/09/2026 16:51:38",
+  "atualizado_em": "22/09/2026 16:52:01",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
-    "total_almoxarifado": 115576,
-    "total_farmacia": 37349,
+    "total_almoxarifado": 115432,
+    "total_farmacia": 37493,
     "total_geral": 152925,
     "perto_de_terminar": 25,
     "zerados": 8
@@ -5705,8 +5705,8 @@
       "nome": "Equipo macrogotas",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 2400,
-      "farmacia": 175,
+      "almoxarifado": 2256,
+      "farmacia": 319,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -5718,7 +5718,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-22 10:26:26",
+      "atualizado_em": "2026-09-22 16:52:00",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -5726,13 +5726,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 2400
+          "quantidade": 2256
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 200
+          "quantidade": 344
         }
       ],
       "minimo_manual": 300,
@@ -16965,6 +16965,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 2853,
+      "item_id": 220,
+      "produto_nome": "Equipo macrogotas",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 144,
+      "responsavel": "Leiliana",
+      "data": "2026-09-22",
+      "obs": "",
+      "criado_em": "2026-09-22 16:52:00",
+      "item": "Equipo macrogotas",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 2852,
       "item_id": 102,
       "produto_nome": "Seringa 5ml",
@@ -24447,21 +24462,6 @@
       "obs": "",
       "criado_em": "2026-09-15 11:19:49",
       "item": "Soro fisiológico 250ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2319,
-      "item_id": 275,
-      "produto_nome": "Equipo micro",
-      "tipo": "Farmácia para AJUSTE DE ESTOQUE",
-      "origem": "Farmácia",
-      "destino": "AJUSTE DE ESTOQUE",
-      "quantidade": 824,
-      "responsavel": "Assucena",
-      "data": "2026-09-15",
-      "obs": "",
-      "criado_em": "2026-09-15 11:02:18",
-      "item": "Equipo micro",
       "usuario": "Assucena"
     }
   ]
