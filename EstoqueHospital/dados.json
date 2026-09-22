@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "22/09/2026 10:32:15",
+  "atualizado_em": "22/09/2026 10:33:26",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 116474,
-    "total_farmacia": 36485,
-    "total_geral": 152959,
+    "total_farmacia": 36484,
+    "total_geral": 152958,
     "perto_de_terminar": 25,
     "zerados": 8
   },
@@ -3743,19 +3743,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 7,
+      "farmacia": 6,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 7,
+      "total": 6,
       "minimo": 0,
       "validade": "2028-01",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-09-22 10:28:17",
+      "atualizado_em": "2026-09-22 10:33:25",
       "validade_mais_proxima": "2028-01",
       "vencimento_mais_proximo": "2028-01",
       "lotes_validade": [
@@ -3763,7 +3763,7 @@
           "local": "farmacia",
           "validade": "2028-01",
           "lote": "",
-          "quantidade": 7
+          "quantidade": 6
         }
       ],
       "minimo_manual": 0,
@@ -3771,9 +3771,9 @@
       "previsao_20_dias": 4,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 41,
-      "media_diaria_saida": 0.17,
-      "total_saida_historica": 7,
-      "cobertura_dias": 41.0,
+      "media_diaria_saida": 0.2,
+      "total_saida_historica": 8,
+      "cobertura_dias": 30.8,
       "alerta_estoque": false
     },
     {
@@ -16965,6 +16965,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 2841,
+      "item_id": 21,
+      "produto_nome": "Clonazepam gotas 25mg/ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 1,
+      "responsavel": "Leiliana",
+      "data": "2026-09-21",
+      "obs": "",
+      "criado_em": "2026-09-22 10:33:25",
+      "item": "Clonazepam gotas 25mg/ml",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 2840,
       "item_id": 216,
       "produto_nome": "Fio agulhado / sutura nº 3",
@@ -24447,21 +24462,6 @@
       "obs": "",
       "criado_em": "2026-09-15 10:07:50",
       "item": "Cimetidina 150mg",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2288,
-      "item_id": 66,
-      "produto_nome": "Complexo B",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 30,
-      "responsavel": "Assucena",
-      "data": "2026-09-15",
-      "obs": "",
-      "criado_em": "2026-09-15 10:07:41",
-      "item": "Complexo B",
       "usuario": "Assucena"
     }
   ]
