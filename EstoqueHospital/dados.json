@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "22/09/2026 10:29:09",
+  "atualizado_em": "22/09/2026 10:29:34",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
-    "total_almoxarifado": 116600,
-    "total_farmacia": 36340,
+    "total_almoxarifado": 116570,
+    "total_farmacia": 36370,
     "total_geral": 152940,
     "perto_de_terminar": 25,
     "zerados": 8
@@ -9716,8 +9716,8 @@
       "nome": "Luva cirúrgica tam. 8",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 350,
-      "farmacia": 0,
+      "almoxarifado": 320,
+      "farmacia": 30,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -9729,7 +9729,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-15 16:24:57",
+      "atualizado_em": "2026-09-22 10:29:33",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -9737,7 +9737,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 350
+          "quantidade": 320
+        },
+        {
+          "local": "farmacia",
+          "validade": "",
+          "lote": "",
+          "quantidade": 30
         }
       ],
       "minimo_manual": 0,
@@ -16958,6 +16964,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 2833,
+      "item_id": 186,
+      "produto_nome": "Luva cirúrgica tam. 8",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 30,
+      "responsavel": "Leiliana",
+      "data": "2026-09-21",
+      "obs": "",
+      "criado_em": "2026-09-22 10:29:33",
+      "item": "Luva cirúrgica tam. 8",
+      "usuario": "Leiliana"
+    },
     {
       "id": 2832,
       "item_id": 202,
@@ -24441,21 +24462,6 @@
       "obs": "",
       "criado_em": "2026-09-15 10:06:20",
       "item": "Seringa 20ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2279,
-      "item_id": 203,
-      "produto_nome": "Soro fisiológico 250ml",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 10,
-      "responsavel": "Assucena",
-      "data": "2026-09-15",
-      "obs": "",
-      "criado_em": "2026-09-15 10:06:10",
-      "item": "Soro fisiológico 250ml",
       "usuario": "Assucena"
     }
   ]
