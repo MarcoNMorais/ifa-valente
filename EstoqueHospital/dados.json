@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "22/09/2026 10:28:53",
+  "atualizado_em": "22/09/2026 10:29:09",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 116600,
-    "total_farmacia": 36400,
-    "total_geral": 153000,
+    "total_farmacia": 36340,
+    "total_geral": 152940,
     "perto_de_terminar": 25,
     "zerados": 8
   },
@@ -15247,19 +15247,19 @@
       "tipo": "Insumo",
       "unidade": "Unidade",
       "almoxarifado": 1260,
-      "farmacia": 180,
+      "farmacia": 120,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1440,
+      "total": 1380,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-21 11:38:45",
+      "atualizado_em": "2026-09-22 10:29:03",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -15273,17 +15273,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 180
+          "quantidade": 120
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 820,
-      "previsao_20_dias": 820,
+      "minimo_alerta": 849,
+      "previsao_20_dias": 849,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 41,
-      "media_diaria_saida": 40.98,
-      "total_saida_historica": 1680,
-      "cobertura_dias": 35.1,
+      "media_diaria_saida": 42.44,
+      "total_saida_historica": 1740,
+      "cobertura_dias": 32.5,
       "alerta_estoque": false
     },
     {
@@ -16958,6 +16958,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 2832,
+      "item_id": 202,
+      "produto_nome": "Soro fisiológico 100ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 60,
+      "responsavel": "Leiliana",
+      "data": "2026-09-21",
+      "obs": "",
+      "criado_em": "2026-09-22 10:29:03",
+      "item": "Soro fisiológico 100ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 2831,
       "item_id": 201,
@@ -24440,21 +24455,6 @@
       "data": "2026-09-15",
       "obs": "",
       "criado_em": "2026-09-15 10:06:10",
-      "item": "Soro fisiológico 250ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2278,
-      "item_id": 203,
-      "produto_nome": "Soro fisiológico 250ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 20,
-      "responsavel": "Assucena",
-      "data": "2026-09-15",
-      "obs": "",
-      "criado_em": "2026-09-15 10:06:04",
       "item": "Soro fisiológico 250ml",
       "usuario": "Assucena"
     }
