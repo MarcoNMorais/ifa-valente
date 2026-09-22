@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "22/09/2026 16:50:45",
+  "atualizado_em": "22/09/2026 16:51:28",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
-    "total_almoxarifado": 116326,
-    "total_farmacia": 36599,
+    "total_almoxarifado": 116076,
+    "total_farmacia": 36849,
     "total_geral": 152925,
     "perto_de_terminar": 25,
     "zerados": 8
@@ -12792,8 +12792,8 @@
       "nome": "Seringa 10ml",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 6500,
-      "farmacia": 0,
+      "almoxarifado": 6250,
+      "farmacia": 250,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -12805,7 +12805,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-22 10:25:44",
+      "atualizado_em": "2026-09-22 16:51:27",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -12813,7 +12813,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 6500
+          "quantidade": 6250
+        },
+        {
+          "local": "farmacia",
+          "validade": "",
+          "lote": "",
+          "quantidade": 250
         }
       ],
       "minimo_manual": 0,
@@ -16958,6 +16964,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 2851,
+      "item_id": 103,
+      "produto_nome": "Seringa 10ml",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 250,
+      "responsavel": "Leiliana",
+      "data": "2026-09-22",
+      "obs": "",
+      "criado_em": "2026-09-22 16:51:27",
+      "item": "Seringa 10ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 2850,
       "item_id": 204,
@@ -24441,21 +24462,6 @@
       "obs": "",
       "criado_em": "2026-09-15 10:46:05",
       "item": "Hidrocortisona 100MG",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2299,
-      "item_id": 185,
-      "produto_nome": "Luva cirúrgica tam. 7,5",
-      "tipo": "Farmácia para Sala Cirúrgica",
-      "origem": "Farmácia",
-      "destino": "Sala Cirúrgica",
-      "quantidade": 10,
-      "responsavel": "Assucena",
-      "data": "2026-09-15",
-      "obs": "",
-      "criado_em": "2026-09-15 10:10:56",
-      "item": "Luva cirúrgica tam. 7,5",
       "usuario": "Assucena"
     }
   ]
