@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/09/2026 10:04:59",
+  "atualizado_em": "24/09/2026 10:05:06",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 115358,
-    "total_farmacia": 35542,
-    "total_geral": 150900,
+    "total_farmacia": 35522,
+    "total_geral": 150880,
     "perto_de_terminar": 34,
     "zerados": 9
   },
@@ -12792,19 +12792,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 6250,
-      "farmacia": 90,
+      "farmacia": 70,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 6340,
+      "total": 6320,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-24 09:58:46",
+      "atualizado_em": "2026-09-24 10:05:05",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -12818,17 +12818,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 90
+          "quantidade": 70
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 1481,
-      "previsao_20_dias": 1481,
+      "minimo_alerta": 1491,
+      "previsao_20_dias": 1491,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 43,
-      "media_diaria_saida": 74.05,
-      "total_saida_historica": 3184,
-      "cobertura_dias": 85.6,
+      "media_diaria_saida": 74.51,
+      "total_saida_historica": 3204,
+      "cobertura_dias": 84.8,
       "alerta_estoque": false
     },
     {
@@ -16963,6 +16963,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 2952,
+      "item_id": 103,
+      "produto_nome": "Seringa 10ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 20,
+      "responsavel": "Assucena",
+      "data": "2026-09-24",
+      "obs": "",
+      "criado_em": "2026-09-24 10:05:05",
+      "item": "Seringa 10ml",
+      "usuario": "Assucena"
+    },
     {
       "id": 2951,
       "item_id": 138,
@@ -24446,21 +24461,6 @@
       "obs": "",
       "criado_em": "2026-09-15 16:26:28",
       "item": "Benzilpenicilina 600 UI",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 2452,
-      "item_id": 68,
-      "produto_nome": "Dexametasona",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 20,
-      "responsavel": "Leiliana",
-      "data": "2026-09-15",
-      "obs": "",
-      "criado_em": "2026-09-15 16:26:17",
-      "item": "Dexametasona",
       "usuario": "Leiliana"
     }
   ]
