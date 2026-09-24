@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/09/2026 16:22:52",
+  "atualizado_em": "24/09/2026 16:23:01",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 115358,
-    "total_farmacia": 35211,
-    "total_geral": 150569,
+    "total_farmacia": 35195,
+    "total_geral": 150553,
     "perto_de_terminar": 34,
     "zerados": 9
   },
@@ -3417,19 +3417,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 225,
+      "farmacia": 209,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 225,
+      "total": 209,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-24 10:04:23",
+      "atualizado_em": "2026-09-24 16:23:00",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -3437,17 +3437,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 225
+          "quantidade": 209
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 235,
-      "previsao_20_dias": 235,
+      "minimo_alerta": 243,
+      "previsao_20_dias": 243,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 43,
-      "media_diaria_saida": 11.74,
-      "total_saida_historica": 505,
-      "cobertura_dias": 19.2,
+      "media_diaria_saida": 12.12,
+      "total_saida_historica": 521,
+      "cobertura_dias": 17.2,
       "alerta_estoque": true
     },
     {
@@ -16952,6 +16952,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 2978,
+      "item_id": 60,
+      "produto_nome": "Cetoprofeno EV 100mg",
+      "tipo": "Farmácia para Posto de Internamento",
+      "origem": "Farmácia",
+      "destino": "Posto de Internamento",
+      "quantidade": 16,
+      "responsavel": "Assucena",
+      "data": "2026-09-24",
+      "obs": "",
+      "criado_em": "2026-09-24 16:23:00",
+      "item": "Cetoprofeno EV 100mg",
+      "usuario": "Assucena"
+    },
+    {
       "id": 2977,
       "item_id": 55,
       "produto_nome": "Benzilpenicilina 1.200",
@@ -24434,21 +24449,6 @@
       "obs": "",
       "criado_em": "2026-09-16 10:28:11",
       "item": "Ondansetrona 2mg/ml 2ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2476,
-      "item_id": 70,
-      "produto_nome": "Dipirona",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 30,
-      "responsavel": "Assucena",
-      "data": "2026-09-16",
-      "obs": "",
-      "criado_em": "2026-09-16 10:27:59",
-      "item": "Dipirona",
       "usuario": "Assucena"
     }
   ]
