@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/09/2026 16:25:34",
+  "atualizado_em": "24/09/2026 16:25:45",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 115358,
-    "total_farmacia": 34951,
-    "total_geral": 150309,
+    "total_farmacia": 34945,
+    "total_geral": 150303,
     "perto_de_terminar": 35,
     "zerados": 9
   },
@@ -15280,19 +15280,19 @@
       "tipo": "Insumo",
       "unidade": "Unidade",
       "almoxarifado": 937,
-      "farmacia": 64,
+      "farmacia": 58,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1001,
+      "total": 995,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-24 10:06:26",
+      "atualizado_em": "2026-09-24 16:25:44",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -15306,17 +15306,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 64
+          "quantidade": 58
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 366,
-      "previsao_20_dias": 366,
+      "minimo_alerta": 369,
+      "previsao_20_dias": 369,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 43,
-      "media_diaria_saida": 18.28,
-      "total_saida_historica": 786,
-      "cobertura_dias": 54.8,
+      "media_diaria_saida": 18.42,
+      "total_saida_historica": 792,
+      "cobertura_dias": 54.0,
       "alerta_estoque": false
     },
     {
@@ -16945,6 +16945,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 2991,
+      "item_id": 203,
+      "produto_nome": "Soro fisiológico 250ml",
+      "tipo": "Farmácia para Posto de Internamento",
+      "origem": "Farmácia",
+      "destino": "Posto de Internamento",
+      "quantidade": 6,
+      "responsavel": "Assucena",
+      "data": "2026-09-24",
+      "obs": "",
+      "criado_em": "2026-09-24 16:25:44",
+      "item": "Soro fisiológico 250ml",
+      "usuario": "Assucena"
+    },
     {
       "id": 2990,
       "item_id": 103,
@@ -24428,21 +24443,6 @@
       "obs": "",
       "criado_em": "2026-09-16 10:30:42",
       "item": "Scalp nº 21",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2489,
-      "item_id": 98,
-      "produto_nome": "Scalp nº 23",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 7,
-      "responsavel": "Assucena",
-      "data": "2026-09-16",
-      "obs": "",
-      "criado_em": "2026-09-16 10:30:31",
-      "item": "Scalp nº 23",
       "usuario": "Assucena"
     }
   ]
