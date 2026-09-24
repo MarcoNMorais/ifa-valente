@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/09/2026 16:24:33",
+  "atualizado_em": "24/09/2026 16:24:47",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 115358,
-    "total_farmacia": 35018,
-    "total_geral": 150376,
+    "total_farmacia": 34993,
+    "total_geral": 150351,
     "perto_de_terminar": 34,
     "zerados": 9
   },
@@ -5712,19 +5712,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 2256,
-      "farmacia": 244,
+      "farmacia": 219,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 2500,
+      "total": 2475,
       "minimo": 300,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-24 10:05:27",
+      "atualizado_em": "2026-09-24 16:24:46",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -5738,17 +5738,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 269
+          "quantidade": 244
         }
       ],
       "minimo_manual": 300,
-      "minimo_alerta": 361,
-      "previsao_20_dias": 361,
+      "minimo_alerta": 373,
+      "previsao_20_dias": 373,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 43,
-      "media_diaria_saida": 18.02,
-      "total_saida_historica": 775,
-      "cobertura_dias": 138.7,
+      "media_diaria_saida": 18.6,
+      "total_saida_historica": 800,
+      "cobertura_dias": 133.0,
       "alerta_estoque": false
     },
     {
@@ -16946,6 +16946,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 2986,
+      "item_id": 220,
+      "produto_nome": "Equipo macrogotas",
+      "tipo": "Farmácia para Posto de Internamento",
+      "origem": "Farmácia",
+      "destino": "Posto de Internamento",
+      "quantidade": 25,
+      "responsavel": "Assucena",
+      "data": "2026-09-24",
+      "obs": "",
+      "criado_em": "2026-09-24 16:24:46",
+      "item": "Equipo macrogotas",
+      "usuario": "Assucena"
+    },
+    {
       "id": 2985,
       "item_id": 202,
       "produto_nome": "Soro fisiológico 100ml",
@@ -24428,21 +24443,6 @@
       "obs": "",
       "criado_em": "2026-09-16 10:29:54",
       "item": "Agulha 30x8",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2484,
-      "item_id": 285,
-      "produto_nome": "Agulha 30x7",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 50,
-      "responsavel": "Assucena",
-      "data": "2026-09-16",
-      "obs": "",
-      "criado_em": "2026-09-16 10:29:28",
-      "item": "Agulha 30x7",
       "usuario": "Assucena"
     }
   ]
