@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/09/2026 16:24:22",
+  "atualizado_em": "24/09/2026 16:24:33",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 115358,
-    "total_farmacia": 35078,
-    "total_geral": 150436,
+    "total_farmacia": 35018,
+    "total_geral": 150376,
     "perto_de_terminar": 34,
     "zerados": 9
   },
@@ -15240,19 +15240,19 @@
       "tipo": "Insumo",
       "unidade": "Unidade",
       "almoxarifado": 1260,
-      "farmacia": 60,
+      "farmacia": 0,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1320,
+      "total": 1260,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-24 09:56:46",
+      "atualizado_em": "2026-09-24 16:24:32",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -15261,22 +15261,16 @@
           "validade": "",
           "lote": "",
           "quantidade": 1260
-        },
-        {
-          "local": "farmacia",
-          "validade": "",
-          "lote": "",
-          "quantidade": 60
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 838,
-      "previsao_20_dias": 838,
+      "minimo_alerta": 866,
+      "previsao_20_dias": 866,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 43,
-      "media_diaria_saida": 41.86,
-      "total_saida_historica": 1800,
-      "cobertura_dias": 31.5,
+      "media_diaria_saida": 43.26,
+      "total_saida_historica": 1860,
+      "cobertura_dias": 29.1,
       "alerta_estoque": false
     },
     {
@@ -16951,6 +16945,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 2985,
+      "item_id": 202,
+      "produto_nome": "Soro fisiológico 100ml",
+      "tipo": "Farmácia para Posto de Internamento",
+      "origem": "Farmácia",
+      "destino": "Posto de Internamento",
+      "quantidade": 60,
+      "responsavel": "Assucena",
+      "data": "2026-09-24",
+      "obs": "",
+      "criado_em": "2026-09-24 16:24:32",
+      "item": "Soro fisiológico 100ml",
+      "usuario": "Assucena"
+    },
     {
       "id": 2984,
       "item_id": 104,
@@ -24434,21 +24443,6 @@
       "obs": "",
       "criado_em": "2026-09-16 10:29:28",
       "item": "Agulha 30x7",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2483,
-      "item_id": 390,
-      "produto_nome": "AGULHA  40X1,2",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 50,
-      "responsavel": "Assucena",
-      "data": "2026-09-16",
-      "obs": "",
-      "criado_em": "2026-09-16 10:29:12",
-      "item": "AGULHA  40X1,2",
       "usuario": "Assucena"
     }
   ]
