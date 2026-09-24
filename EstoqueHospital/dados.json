@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/09/2026 10:08:14",
+  "atualizado_em": "24/09/2026 16:22:32",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 115358,
-    "total_farmacia": 35257,
-    "total_geral": 150615,
+    "total_farmacia": 35237,
+    "total_geral": 150595,
     "perto_de_terminar": 34,
     "zerados": 9
   },
@@ -4917,19 +4917,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 220,
+      "farmacia": 200,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 220,
+      "total": 200,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-24 10:03:52",
+      "atualizado_em": "2026-09-24 16:22:31",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -4937,17 +4937,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 220
+          "quantidade": 200
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 233,
-      "previsao_20_dias": 233,
+      "minimo_alerta": 242,
+      "previsao_20_dias": 242,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 43,
-      "media_diaria_saida": 11.63,
-      "total_saida_historica": 500,
-      "cobertura_dias": 18.9,
+      "media_diaria_saida": 12.09,
+      "total_saida_historica": 520,
+      "cobertura_dias": 16.5,
       "alerta_estoque": true
     },
     {
@@ -16952,6 +16952,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 2975,
+      "item_id": 69,
+      "produto_nome": "Diclofenaco 25mg",
+      "tipo": "Farmácia para Posto de Internamento",
+      "origem": "Farmácia",
+      "destino": "Posto de Internamento",
+      "quantidade": 20,
+      "responsavel": "Assucena",
+      "data": "2026-09-24",
+      "obs": "",
+      "criado_em": "2026-09-24 16:22:31",
+      "item": "Diclofenaco 25mg",
+      "usuario": "Assucena"
+    },
+    {
       "id": 2974,
       "item_id": 28,
       "produto_nome": "Dipirona 500mg",
@@ -24434,21 +24449,6 @@
       "obs": "",
       "criado_em": "2026-09-16 10:27:43",
       "item": "Cetoprofeno IM 50mg",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2473,
-      "item_id": 76,
-      "produto_nome": "Escopolamina + Dipirona",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 20,
-      "responsavel": "Assucena",
-      "data": "2026-09-16",
-      "obs": "",
-      "criado_em": "2026-09-16 10:27:33",
-      "item": "Escopolamina + Dipirona",
       "usuario": "Assucena"
     }
   ]
