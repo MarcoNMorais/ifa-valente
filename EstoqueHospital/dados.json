@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/09/2026 16:23:55",
+  "atualizado_em": "24/09/2026 16:24:12",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 115358,
-    "total_farmacia": 35128,
-    "total_geral": 150486,
+    "total_farmacia": 35098,
+    "total_geral": 150456,
     "perto_de_terminar": 34,
     "zerados": 9
   },
@@ -12964,19 +12964,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 5450,
-      "farmacia": 575,
+      "farmacia": 545,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 6025,
+      "total": 5995,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-24 10:05:18",
+      "atualizado_em": "2026-09-24 16:24:11",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -12990,17 +12990,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 575
+          "quantidade": 545
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 973,
-      "previsao_20_dias": 973,
+      "minimo_alerta": 987,
+      "previsao_20_dias": 987,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 43,
-      "media_diaria_saida": 48.6,
-      "total_saida_historica": 2090,
-      "cobertura_dias": 124.0,
+      "media_diaria_saida": 49.3,
+      "total_saida_historica": 2120,
+      "cobertura_dias": 121.6,
       "alerta_estoque": false
     },
     {
@@ -16951,6 +16951,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 2983,
+      "item_id": 102,
+      "produto_nome": "Seringa 5ml",
+      "tipo": "Farmácia para Posto de Internamento",
+      "origem": "Farmácia",
+      "destino": "Posto de Internamento",
+      "quantidade": 30,
+      "responsavel": "Assucena",
+      "data": "2026-09-24",
+      "obs": "",
+      "criado_em": "2026-09-24 16:24:11",
+      "item": "Seringa 5ml",
+      "usuario": "Assucena"
+    },
     {
       "id": 2982,
       "item_id": 178,
@@ -24434,21 +24449,6 @@
       "obs": "",
       "criado_em": "2026-09-16 10:29:05",
       "item": "AGULHA  40X1,2",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2481,
-      "item_id": 382,
-      "produto_nome": "AGUA P/ INJ",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 15,
-      "responsavel": "Assucena",
-      "data": "2026-09-16",
-      "obs": "",
-      "criado_em": "2026-09-16 10:28:54",
-      "item": "AGUA P/ INJ",
       "usuario": "Assucena"
     }
   ]
