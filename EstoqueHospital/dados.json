@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/09/2026 10:05:58",
+  "atualizado_em": "24/09/2026 10:06:09",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 115358,
-    "total_farmacia": 35440,
-    "total_geral": 150798,
+    "total_farmacia": 35431,
+    "total_geral": 150789,
     "perto_de_terminar": 34,
     "zerados": 9
   },
@@ -9664,19 +9664,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 430,
-      "farmacia": 9,
+      "farmacia": 0,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 439,
+      "total": 430,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-24 10:05:49",
+      "atualizado_em": "2026-09-24 10:06:08",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -9685,22 +9685,16 @@
           "validade": "",
           "lote": "",
           "quantidade": 430
-        },
-        {
-          "local": "farmacia",
-          "validade": "",
-          "lote": "",
-          "quantidade": 9
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 47,
-      "previsao_20_dias": 47,
+      "minimo_alerta": 51,
+      "previsao_20_dias": 51,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 43,
-      "media_diaria_saida": 2.33,
-      "total_saida_historica": 100,
-      "cobertura_dias": 188.8,
+      "media_diaria_saida": 2.53,
+      "total_saida_historica": 109,
+      "cobertura_dias": 169.6,
       "alerta_estoque": false
     },
     {
@@ -16963,6 +16957,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 2960,
+      "item_id": 185,
+      "produto_nome": "Luva cirúrgica tam. 7,5",
+      "tipo": "Farmácia para SALA DE PARTO",
+      "origem": "Farmácia",
+      "destino": "SALA DE PARTO",
+      "quantidade": 9,
+      "responsavel": "Assucena",
+      "data": "2026-09-24",
+      "obs": "",
+      "criado_em": "2026-09-24 10:06:08",
+      "item": "Luva cirúrgica tam. 7,5",
+      "usuario": "Assucena"
+    },
     {
       "id": 2959,
       "item_id": 186,
@@ -24446,21 +24455,6 @@
       "obs": "",
       "criado_em": "2026-09-15 16:28:52",
       "item": "Ceftriaxona 1g",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 2460,
-      "item_id": 203,
-      "produto_nome": "Soro fisiológico 250ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 8,
-      "responsavel": "Leiliana",
-      "data": "2026-09-15",
-      "obs": "",
-      "criado_em": "2026-09-15 16:28:40",
-      "item": "Soro fisiológico 250ml",
       "usuario": "Leiliana"
     }
   ]
