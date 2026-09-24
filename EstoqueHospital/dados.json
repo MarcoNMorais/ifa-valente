@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/09/2026 09:55:59",
+  "atualizado_em": "24/09/2026 09:56:10",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 115358,
-    "total_farmacia": 36264,
-    "total_geral": 151622,
+    "total_farmacia": 36261,
+    "total_geral": 151619,
     "perto_de_terminar": 29,
     "zerados": 9
   },
@@ -9968,19 +9968,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 1300,
-      "farmacia": 600,
+      "farmacia": 597,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1900,
+      "total": 1897,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga Almoxerifado",
       "obs": "Importação Almoxerifado",
-      "atualizado_em": "2026-09-15 16:24:57",
+      "atualizado_em": "2026-09-24 09:56:10",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -9994,17 +9994,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 600
+          "quantidade": 597
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 53,
-      "previsao_20_dias": 53,
+      "minimo_alerta": 55,
+      "previsao_20_dias": 55,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 38,
-      "media_diaria_saida": 2.63,
-      "total_saida_historica": 100,
-      "cobertura_dias": 722.0,
+      "media_diaria_saida": 2.71,
+      "total_saida_historica": 103,
+      "cobertura_dias": 699.9,
       "alerta_estoque": false
     },
     {
@@ -16969,6 +16969,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 2910,
+      "item_id": 278,
+      "produto_nome": "Luva de vinil P",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 3,
+      "responsavel": "Assucena",
+      "data": "2026-09-23",
+      "obs": "",
+      "criado_em": "2026-09-24 09:56:10",
+      "item": "Luva de vinil P",
+      "usuario": "Assucena"
+    },
     {
       "id": 2909,
       "item_id": 252,
@@ -24452,21 +24467,6 @@
       "obs": "",
       "criado_em": "2026-09-15 15:08:23",
       "item": "Cetoprofeno EV 100mg",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 2410,
-      "item_id": 61,
-      "produto_nome": "Cetoprofeno IM 50mg",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 30,
-      "responsavel": "Leiliana",
-      "data": "2026-09-15",
-      "obs": "",
-      "criado_em": "2026-09-15 15:08:11",
-      "item": "Cetoprofeno IM 50mg",
       "usuario": "Leiliana"
     }
   ]
