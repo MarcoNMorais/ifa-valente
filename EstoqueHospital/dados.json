@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/09/2026 09:54:19",
+  "atualizado_em": "24/09/2026 09:54:31",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 115358,
-    "total_farmacia": 36368,
-    "total_geral": 151726,
+    "total_farmacia": 36367,
+    "total_geral": 151725,
     "perto_de_terminar": 29,
     "zerados": 9
   },
@@ -16734,19 +16734,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 5,
+      "farmacia": 4,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 5,
+      "total": 4,
       "minimo": 3,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-15 16:24:57",
+      "atualizado_em": "2026-09-24 09:54:30",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -16754,17 +16754,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 5
+          "quantidade": 4
         }
       ],
       "minimo_manual": 3,
-      "minimo_alerta": 0,
-      "previsao_20_dias": 0,
+      "minimo_alerta": 1,
+      "previsao_20_dias": 1,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 30,
-      "media_diaria_saida": 0.0,
-      "total_saida_historica": 0,
-      "cobertura_dias": null,
+      "media_diaria_saida": 0.03,
+      "total_saida_historica": 1,
+      "cobertura_dias": 120.0,
       "alerta_estoque": false
     },
     {
@@ -16975,6 +16975,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 2899,
+      "item_id": 363,
+      "produto_nome": "ÁGUA OXIGENADA LITRO",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 1,
+      "responsavel": "Assucena",
+      "data": "2026-09-23",
+      "obs": "",
+      "criado_em": "2026-09-24 09:54:30",
+      "item": "ÁGUA OXIGENADA LITRO",
+      "usuario": "Assucena"
+    },
     {
       "id": 2898,
       "item_id": 57,
@@ -24458,21 +24473,6 @@
       "obs": "",
       "criado_em": "2026-09-15 15:01:56",
       "item": "Seringa 10ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 2399,
-      "item_id": 387,
-      "produto_nome": "HIDROCORTIZONA 500MG",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 10,
-      "responsavel": "Leiliana",
-      "data": "2026-09-15",
-      "obs": "",
-      "criado_em": "2026-09-15 15:01:45",
-      "item": "HIDROCORTIZONA 500MG",
       "usuario": "Leiliana"
     }
   ]
