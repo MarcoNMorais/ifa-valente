@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/09/2026 10:03:16",
+  "atualizado_em": "24/09/2026 10:03:37",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 115358,
-    "total_farmacia": 35748,
-    "total_geral": 151106,
+    "total_farmacia": 35718,
+    "total_geral": 151076,
     "perto_de_terminar": 31,
     "zerados": 9
   },
@@ -5924,19 +5924,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 240,
+      "farmacia": 210,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 240,
+      "total": 210,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-18 11:14:12",
+      "atualizado_em": "2026-09-24 10:03:36",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -5944,17 +5944,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 240
+          "quantidade": 210
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 75,
-      "previsao_20_dias": 75,
+      "minimo_alerta": 89,
+      "previsao_20_dias": 89,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 43,
-      "media_diaria_saida": 3.72,
-      "total_saida_historica": 160,
-      "cobertura_dias": 64.5,
+      "media_diaria_saida": 4.42,
+      "total_saida_historica": 190,
+      "cobertura_dias": 47.5,
       "alerta_estoque": false
     },
     {
@@ -16970,6 +16970,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 2941,
+      "item_id": 75,
+      "produto_nome": "Escopolamina 20mg",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 30,
+      "responsavel": "Assucena",
+      "data": "2026-09-24",
+      "obs": "",
+      "criado_em": "2026-09-24 10:03:36",
+      "item": "Escopolamina 20mg",
+      "usuario": "Assucena"
+    },
+    {
       "id": 2940,
       "item_id": 55,
       "produto_nome": "Benzilpenicilina 1.200",
@@ -24452,21 +24467,6 @@
       "obs": "",
       "criado_em": "2026-09-15 15:16:38",
       "item": "Oxacilina 500mg pó injetável",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 2441,
-      "item_id": 53,
-      "produto_nome": "Ácido Tranexâmico 50mg",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 20,
-      "responsavel": "Leiliana",
-      "data": "2026-09-15",
-      "obs": "",
-      "criado_em": "2026-09-15 15:16:25",
-      "item": "Ácido Tranexâmico 50mg",
       "usuario": "Leiliana"
     }
   ]
