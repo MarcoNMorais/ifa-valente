@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/09/2026 10:07:20",
+  "atualizado_em": "24/09/2026 10:07:32",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 115358,
-    "total_farmacia": 35353,
-    "total_geral": 150711,
+    "total_farmacia": 35323,
+    "total_geral": 150681,
     "perto_de_terminar": 34,
     "zerados": 9
   },
@@ -15967,19 +15967,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 230,
+      "farmacia": 200,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 230,
+      "total": 200,
       "minimo": 0,
       "validade": "08/27",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-09-15 16:24:57",
+      "atualizado_em": "2026-09-24 10:07:31",
       "validade_mais_proxima": "08/27",
       "vencimento_mais_proximo": "08/27",
       "lotes_validade": [
@@ -15993,17 +15993,17 @@
           "local": "farmacia",
           "validade": "2027-04",
           "lote": "",
-          "quantidade": 190
+          "quantidade": 160
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 14,
-      "previsao_20_dias": 14,
+      "minimo_alerta": 28,
+      "previsao_20_dias": 28,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 43,
-      "media_diaria_saida": 0.7,
-      "total_saida_historica": 30,
-      "cobertura_dias": 329.7,
+      "media_diaria_saida": 1.4,
+      "total_saida_historica": 60,
+      "cobertura_dias": 143.3,
       "alerta_estoque": false
     },
     {
@@ -16957,6 +16957,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 2969,
+      "item_id": 124,
+      "produto_nome": "Sulfato ferroso 40mg de ferro",
+      "tipo": "Farmácia para Posto de Internamento",
+      "origem": "Farmácia",
+      "destino": "Posto de Internamento",
+      "quantidade": 30,
+      "responsavel": "Assucena",
+      "data": "2026-09-24",
+      "obs": "",
+      "criado_em": "2026-09-24 10:07:31",
+      "item": "Sulfato ferroso 40mg de ferro",
+      "usuario": "Assucena"
+    },
     {
       "id": 2968,
       "item_id": 24,
@@ -24439,21 +24454,6 @@
       "data": "2026-09-15",
       "obs": "",
       "criado_em": "2026-09-16 10:26:09",
-      "item": "Lanceta de segurança",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2469,
-      "item_id": 194,
-      "produto_nome": "Lanceta de segurança",
-      "tipo": "Almoxarifado para Farmácia",
-      "origem": "Almoxarifado",
-      "destino": "Farmácia",
-      "quantidade": 4500,
-      "responsavel": "Assucena",
-      "data": "2026-09-15",
-      "obs": "",
-      "criado_em": "2026-09-16 10:25:51",
       "item": "Lanceta de segurança",
       "usuario": "Assucena"
     }
