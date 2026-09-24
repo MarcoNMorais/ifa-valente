@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/09/2026 16:25:58",
+  "atualizado_em": "24/09/2026 16:28:15",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 115358,
-    "total_farmacia": 34944,
-    "total_geral": 150302,
+    "total_farmacia": 34943,
+    "total_geral": 150301,
     "perto_de_terminar": 35,
     "zerados": 9
   },
@@ -16041,19 +16041,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 60,
-      "farmacia": 207,
+      "farmacia": 206,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 267,
+      "total": 266,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-24 16:25:57",
+      "atualizado_em": "2026-09-24 16:28:15",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -16067,7 +16067,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 207
+          "quantidade": 206
         }
       ],
       "minimo_manual": 0,
@@ -16075,9 +16075,9 @@
       "previsao_20_dias": 402,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 43,
-      "media_diaria_saida": 20.07,
-      "total_saida_historica": 863,
-      "cobertura_dias": 13.3,
+      "media_diaria_saida": 20.09,
+      "total_saida_historica": 864,
+      "cobertura_dias": 13.2,
       "alerta_estoque": true
     },
     {
@@ -16945,6 +16945,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 2993,
+      "item_id": 195,
+      "produto_nome": "Tira Reagente G-Tech",
+      "tipo": "Farmácia para Posto de Internamento",
+      "origem": "Farmácia",
+      "destino": "Posto de Internamento",
+      "quantidade": 1,
+      "responsavel": "Assucena",
+      "data": "2026-09-24",
+      "obs": "",
+      "criado_em": "2026-09-24 16:28:15",
+      "item": "Tira Reagente G-Tech",
+      "usuario": "Assucena"
+    },
     {
       "id": 2992,
       "item_id": 195,
@@ -24428,21 +24443,6 @@
       "obs": "",
       "criado_em": "2026-09-16 10:31:01",
       "item": "Simeticona 40mg comprimido",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2491,
-      "item_id": 255,
-      "produto_nome": "Ibuprofeno gotas",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 1,
-      "responsavel": "Assucena",
-      "data": "2026-09-16",
-      "obs": "",
-      "criado_em": "2026-09-16 10:30:52",
-      "item": "Ibuprofeno gotas",
       "usuario": "Assucena"
     }
   ]
