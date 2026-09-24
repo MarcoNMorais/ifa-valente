@@ -1,12 +1,12 @@
 {
-  "atualizado_em": "24/09/2026 16:25:02",
+  "atualizado_em": "24/09/2026 16:25:12",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 115358,
-    "total_farmacia": 34981,
-    "total_geral": 150339,
-    "perto_de_terminar": 34,
+    "total_farmacia": 34980,
+    "total_geral": 150338,
+    "perto_de_terminar": 35,
     "zerados": 9
   },
   "itens": [
@@ -3743,19 +3743,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 6,
+      "farmacia": 5,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 6,
+      "total": 5,
       "minimo": 0,
       "validade": "2028-01",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-09-22 10:33:25",
+      "atualizado_em": "2026-09-24 16:25:11",
       "validade_mais_proxima": "2028-01",
       "vencimento_mais_proximo": "2028-01",
       "lotes_validade": [
@@ -3763,18 +3763,18 @@
           "local": "farmacia",
           "validade": "2028-01",
           "lote": "",
-          "quantidade": 6
+          "quantidade": 5
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 4,
-      "previsao_20_dias": 4,
+      "minimo_alerta": 5,
+      "previsao_20_dias": 5,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 43,
-      "media_diaria_saida": 0.19,
-      "total_saida_historica": 8,
-      "cobertura_dias": 32.2,
-      "alerta_estoque": false
+      "media_diaria_saida": 0.21,
+      "total_saida_historica": 9,
+      "cobertura_dias": 23.9,
+      "alerta_estoque": true
     },
     {
       "id": 65,
@@ -16946,6 +16946,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 2988,
+      "item_id": 21,
+      "produto_nome": "Clonazepam gotas 25mg/ml",
+      "tipo": "Farmácia para Posto de Internamento",
+      "origem": "Farmácia",
+      "destino": "Posto de Internamento",
+      "quantidade": 1,
+      "responsavel": "Assucena",
+      "data": "2026-09-24",
+      "obs": "",
+      "criado_em": "2026-09-24 16:25:11",
+      "item": "Clonazepam gotas 25mg/ml",
+      "usuario": "Assucena"
+    },
+    {
       "id": 2987,
       "item_id": 204,
       "produto_nome": "Soro fisiológico 500ml",
@@ -24428,21 +24443,6 @@
       "obs": "",
       "criado_em": "2026-09-16 10:30:10",
       "item": "Gelco nº 24",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2486,
-      "item_id": 177,
-      "produto_nome": "Gelco nº 22",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 15,
-      "responsavel": "Assucena",
-      "data": "2026-09-16",
-      "obs": "",
-      "criado_em": "2026-09-16 10:30:03",
-      "item": "Gelco nº 22",
       "usuario": "Assucena"
     }
   ]
