@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/09/2026 10:06:27",
+  "atualizado_em": "24/09/2026 10:06:35",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 115358,
-    "total_farmacia": 35411,
-    "total_geral": 150769,
+    "total_farmacia": 35401,
+    "total_geral": 150759,
     "perto_de_terminar": 34,
     "zerados": 9
   },
@@ -11457,19 +11457,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 336,
-      "farmacia": 28,
+      "farmacia": 18,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 364,
+      "total": 354,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-15 16:24:57",
+      "atualizado_em": "2026-09-24 10:06:34",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -11483,17 +11483,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 28
+          "quantidade": 18
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 20,
-      "previsao_20_dias": 20,
+      "minimo_alerta": 29,
+      "previsao_20_dias": 29,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 21,
-      "media_diaria_saida": 0.95,
-      "total_saida_historica": 20,
-      "cobertura_dias": 382.2,
+      "media_diaria_saida": 1.43,
+      "total_saida_historica": 30,
+      "cobertura_dias": 247.8,
       "alerta_estoque": false
     },
     {
@@ -16957,6 +16957,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 2963,
+      "item_id": 393,
+      "produto_nome": "NYLON N°3",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 10,
+      "responsavel": "Assucena",
+      "data": "2026-09-24",
+      "obs": "",
+      "criado_em": "2026-09-24 10:06:34",
+      "item": "NYLON N°3",
+      "usuario": "Assucena"
+    },
     {
       "id": 2962,
       "item_id": 203,
@@ -24440,21 +24455,6 @@
       "obs": "",
       "criado_em": "2026-09-15 16:29:55",
       "item": "Caixa de perfurocortante",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 2463,
-      "item_id": 276,
-      "produto_nome": "Esparadrapo 10x4,5",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 2,
-      "responsavel": "Leiliana",
-      "data": "2026-09-15",
-      "obs": "",
-      "criado_em": "2026-09-15 16:29:45",
-      "item": "Esparadrapo 10x4,5",
       "usuario": "Leiliana"
     }
   ]
