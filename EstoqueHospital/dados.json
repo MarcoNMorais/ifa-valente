@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/09/2026 16:23:42",
+  "atualizado_em": "24/09/2026 16:23:55",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 115358,
-    "total_farmacia": 35143,
-    "total_geral": 150501,
+    "total_farmacia": 35128,
+    "total_geral": 150486,
     "perto_de_terminar": 34,
     "zerados": 9
   },
@@ -5255,19 +5255,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 300,
-      "farmacia": 214,
+      "farmacia": 199,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 514,
+      "total": 499,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-09-24 09:59:03",
+      "atualizado_em": "2026-09-24 16:23:54",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -5281,17 +5281,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 214
+          "quantidade": 199
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 203,
-      "previsao_20_dias": 203,
+      "minimo_alerta": 210,
+      "previsao_20_dias": 210,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 43,
-      "media_diaria_saida": 10.14,
-      "total_saida_historica": 436,
-      "cobertura_dias": 50.7,
+      "media_diaria_saida": 10.49,
+      "total_saida_historica": 451,
+      "cobertura_dias": 47.6,
       "alerta_estoque": false
     },
     {
@@ -16952,6 +16952,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 2982,
+      "item_id": 178,
+      "produto_nome": "Dispositivo intravenoso Gelco nº 20",
+      "tipo": "Farmácia para Posto de Internamento",
+      "origem": "Farmácia",
+      "destino": "Posto de Internamento",
+      "quantidade": 15,
+      "responsavel": "Assucena",
+      "data": "2026-09-24",
+      "obs": "",
+      "criado_em": "2026-09-24 16:23:54",
+      "item": "Dispositivo intravenoso Gelco nº 20",
+      "usuario": "Assucena"
+    },
+    {
       "id": 2981,
       "item_id": 238,
       "produto_nome": "Ondansetrona 2mg/ml 2ml",
@@ -24434,21 +24449,6 @@
       "obs": "",
       "criado_em": "2026-09-16 10:28:54",
       "item": "AGUA P/ INJ",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2480,
-      "item_id": 384,
-      "produto_nome": "ACIDO ASCORBICO",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 20,
-      "responsavel": "Assucena",
-      "data": "2026-09-16",
-      "obs": "",
-      "criado_em": "2026-09-16 10:28:44",
-      "item": "ACIDO ASCORBICO",
       "usuario": "Assucena"
     }
   ]
