@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/09/2026 10:07:32",
+  "atualizado_em": "24/09/2026 10:07:41",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 115358,
-    "total_farmacia": 35323,
-    "total_geral": 150681,
+    "total_farmacia": 35313,
+    "total_geral": 150671,
     "perto_de_terminar": 34,
     "zerados": 9
   },
@@ -12166,19 +12166,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 2600,
-      "farmacia": 10,
+      "farmacia": 0,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 2610,
+      "total": 2600,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-24 09:53:03",
+      "atualizado_em": "2026-09-24 10:07:40",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -12187,22 +12187,16 @@
           "validade": "",
           "lote": "",
           "quantidade": 2600
-        },
-        {
-          "local": "farmacia",
-          "validade": "",
-          "lote": "",
-          "quantidade": 10
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 164,
-      "previsao_20_dias": 164,
+      "minimo_alerta": 169,
+      "previsao_20_dias": 169,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 38,
-      "media_diaria_saida": 8.16,
-      "total_saida_historica": 310,
-      "cobertura_dias": 319.9,
+      "media_diaria_saida": 8.42,
+      "total_saida_historica": 320,
+      "cobertura_dias": 308.8,
       "alerta_estoque": false
     },
     {
@@ -16957,6 +16951,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 2970,
+      "item_id": 329,
+      "produto_nome": "Polifix",
+      "tipo": "Farmácia para Posto de Internamento",
+      "origem": "Farmácia",
+      "destino": "Posto de Internamento",
+      "quantidade": 10,
+      "responsavel": "Assucena",
+      "data": "2026-09-24",
+      "obs": "",
+      "criado_em": "2026-09-24 10:07:40",
+      "item": "Polifix",
+      "usuario": "Assucena"
+    },
     {
       "id": 2969,
       "item_id": 124,
@@ -24439,21 +24448,6 @@
       "data": "2026-09-15",
       "obs": "",
       "criado_em": "2026-09-16 10:26:50",
-      "item": "Lanceta de segurança",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2470,
-      "item_id": 194,
-      "produto_nome": "Lanceta de segurança",
-      "tipo": "Farmácia para AJUSTE DE ESTOQUE",
-      "origem": "Farmácia",
-      "destino": "AJUSTE DE ESTOQUE",
-      "quantidade": 5399,
-      "responsavel": "Assucena",
-      "data": "2026-09-15",
-      "obs": "",
-      "criado_em": "2026-09-16 10:26:09",
       "item": "Lanceta de segurança",
       "usuario": "Assucena"
     }
