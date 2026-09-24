@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/09/2026 09:55:04",
+  "atualizado_em": "24/09/2026 09:55:12",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 115358,
-    "total_farmacia": 36320,
-    "total_geral": 151678,
+    "total_farmacia": 36290,
+    "total_geral": 151648,
     "perto_de_terminar": 29,
     "zerados": 9
   },
@@ -4613,28 +4613,22 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 1630,
+      "farmacia": 1600,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1630,
+      "total": 1600,
       "minimo": 0,
-      "validade": "2027-10",
+      "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-22 16:53:34",
-      "validade_mais_proxima": "2027-10",
-      "vencimento_mais_proximo": "2027-10",
+      "atualizado_em": "2026-09-24 09:55:11",
+      "validade_mais_proxima": "",
+      "vencimento_mais_proximo": "",
       "lotes_validade": [
-        {
-          "local": "farmacia",
-          "validade": "2027-10",
-          "lote": "",
-          "quantidade": 30
-        },
         {
           "local": "farmacia",
           "validade": "",
@@ -4643,13 +4637,13 @@
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 577,
-      "previsao_20_dias": 577,
+      "minimo_alerta": 591,
+      "previsao_20_dias": 591,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 43,
-      "media_diaria_saida": 28.84,
-      "total_saida_historica": 1240,
-      "cobertura_dias": 56.5,
+      "media_diaria_saida": 29.53,
+      "total_saida_historica": 1270,
+      "cobertura_dias": 54.2,
       "alerta_estoque": false
     },
     {
@@ -16976,6 +16970,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 2904,
+      "item_id": 68,
+      "produto_nome": "Dexametasona",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 30,
+      "responsavel": "Assucena",
+      "data": "2026-09-23",
+      "obs": "",
+      "criado_em": "2026-09-24 09:55:11",
+      "item": "Dexametasona",
+      "usuario": "Assucena"
+    },
+    {
       "id": 2903,
       "item_id": 203,
       "produto_nome": "Soro fisiológico 250ml",
@@ -24458,21 +24467,6 @@
       "obs": "",
       "criado_em": "2026-09-15 15:03:47",
       "item": "Ferropurum 20mg/ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 2404,
-      "item_id": 209,
-      "produto_nome": "Alfaepoetina",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 3,
-      "responsavel": "Leiliana",
-      "data": "2026-09-15",
-      "obs": "",
-      "criado_em": "2026-09-15 15:03:27",
-      "item": "Alfaepoetina",
       "usuario": "Leiliana"
     }
   ]
