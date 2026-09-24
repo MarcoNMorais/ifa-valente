@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/09/2026 10:05:06",
+  "atualizado_em": "24/09/2026 10:05:13",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 115358,
-    "total_farmacia": 35522,
-    "total_geral": 150880,
+    "total_farmacia": 35512,
+    "total_geral": 150870,
     "perto_de_terminar": 34,
     "zerados": 9
   },
@@ -12884,19 +12884,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 7750,
-      "farmacia": 50,
+      "farmacia": 40,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 7800,
+      "total": 7790,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-24 09:58:54",
+      "atualizado_em": "2026-09-24 10:05:12",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -12910,17 +12910,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 75
+          "quantidade": 65
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 764,
-      "previsao_20_dias": 764,
+      "minimo_alerta": 769,
+      "previsao_20_dias": 769,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 38,
-      "media_diaria_saida": 38.16,
-      "total_saida_historica": 1450,
-      "cobertura_dias": 204.4,
+      "media_diaria_saida": 38.42,
+      "total_saida_historica": 1460,
+      "cobertura_dias": 202.8,
       "alerta_estoque": false
     },
     {
@@ -16963,6 +16963,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 2953,
+      "item_id": 274,
+      "produto_nome": "Seringa 20ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 10,
+      "responsavel": "Assucena",
+      "data": "2026-09-24",
+      "obs": "",
+      "criado_em": "2026-09-24 10:05:12",
+      "item": "Seringa 20ml",
+      "usuario": "Assucena"
+    },
     {
       "id": 2952,
       "item_id": 103,
@@ -24446,21 +24461,6 @@
       "obs": "",
       "criado_em": "2026-09-15 16:26:39",
       "item": "Cetoprofeno EV 100mg",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 2453,
-      "item_id": 56,
-      "produto_nome": "Benzilpenicilina 600 UI",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 10,
-      "responsavel": "Leiliana",
-      "data": "2026-09-15",
-      "obs": "",
-      "criado_em": "2026-09-15 16:26:28",
-      "item": "Benzilpenicilina 600 UI",
       "usuario": "Leiliana"
     }
   ]
