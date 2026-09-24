@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/09/2026 10:07:13",
+  "atualizado_em": "24/09/2026 10:07:20",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 115358,
-    "total_farmacia": 35373,
-    "total_geral": 150731,
+    "total_farmacia": 35353,
+    "total_geral": 150711,
     "perto_de_terminar": 34,
     "zerados": 9
   },
@@ -17,19 +17,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 560,
+      "farmacia": 540,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 560,
+      "total": 540,
       "minimo": 0,
       "validade": "09/27",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-09-21 11:03:17",
+      "atualizado_em": "2026-09-24 10:07:19",
       "validade_mais_proxima": "09/27",
       "vencimento_mais_proximo": "09/27",
       "lotes_validade": [
@@ -43,17 +43,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 550
+          "quantidade": 530
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 66,
-      "previsao_20_dias": 66,
+      "minimo_alerta": 75,
+      "previsao_20_dias": 75,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 43,
-      "media_diaria_saida": 3.26,
-      "total_saida_historica": 140,
-      "cobertura_dias": 172.0,
+      "media_diaria_saida": 3.72,
+      "total_saida_historica": 160,
+      "cobertura_dias": 145.1,
       "alerta_estoque": false
     },
     {
@@ -16958,6 +16958,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 2968,
+      "item_id": 24,
+      "produto_nome": "AAS",
+      "tipo": "Farmácia para Posto de Internamento",
+      "origem": "Farmácia",
+      "destino": "Posto de Internamento",
+      "quantidade": 20,
+      "responsavel": "Assucena",
+      "data": "2026-09-24",
+      "obs": "",
+      "criado_em": "2026-09-24 10:07:19",
+      "item": "AAS",
+      "usuario": "Assucena"
+    },
+    {
       "id": 2967,
       "item_id": 380,
       "produto_nome": "OLEO MINERAL",
@@ -24440,21 +24455,6 @@
       "obs": "",
       "criado_em": "2026-09-16 10:25:51",
       "item": "Lanceta de segurança",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2468,
-      "item_id": 349,
-      "produto_nome": "MANITOL 250ML",
-      "tipo": "Almoxarifado para Farmácia",
-      "origem": "Almoxarifado",
-      "destino": "Farmácia",
-      "quantidade": 4,
-      "responsavel": "Assucena",
-      "data": "2026-09-15",
-      "obs": "",
-      "criado_em": "2026-09-16 10:24:58",
-      "item": "MANITOL 250ML",
       "usuario": "Assucena"
     }
   ]
