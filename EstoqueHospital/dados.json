@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/09/2026 10:00:42",
+  "atualizado_em": "24/09/2026 10:01:02",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 115358,
-    "total_farmacia": 35937,
-    "total_geral": 151295,
+    "total_farmacia": 35836,
+    "total_geral": 151194,
     "perto_de_terminar": 30,
     "zerados": 9
   },
@@ -8605,19 +8605,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 32,
-      "farmacia": 18,
+      "farmacia": 17,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 50,
+      "total": 49,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-22 10:23:28",
+      "atualizado_em": "2026-09-24 10:01:01",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -8631,17 +8631,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 18
+          "quantidade": 17
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 7,
-      "previsao_20_dias": 7,
+      "minimo_alerta": 8,
+      "previsao_20_dias": 8,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 42,
-      "media_diaria_saida": 0.33,
-      "total_saida_historica": 14,
-      "cobertura_dias": 150.0,
+      "media_diaria_saida": 0.36,
+      "total_saida_historica": 15,
+      "cobertura_dias": 137.2,
       "alerta_estoque": false
     },
     {
@@ -10999,19 +10999,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 1500,
-      "farmacia": 798,
+      "farmacia": 698,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 2298,
+      "total": 2198,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga Almoxerifado",
       "obs": "Importação Almoxerifado",
-      "atualizado_em": "2026-09-21 11:20:56",
+      "atualizado_em": "2026-09-24 10:00:53",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -11025,17 +11025,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 798
+          "quantidade": 698
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 2,
-      "previsao_20_dias": 2,
+      "minimo_alerta": 54,
+      "previsao_20_dias": 54,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 38,
-      "media_diaria_saida": 0.05,
-      "total_saida_historica": 2,
-      "cobertura_dias": 43662.0,
+      "media_diaria_saida": 2.68,
+      "total_saida_historica": 102,
+      "cobertura_dias": 818.9,
       "alerta_estoque": false
     },
     {
@@ -16969,6 +16969,36 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 2939,
+      "item_id": 255,
+      "produto_nome": "Ibuprofeno gotas",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 1,
+      "responsavel": "Assucena",
+      "data": "2026-09-23",
+      "obs": "",
+      "criado_em": "2026-09-24 10:01:01",
+      "item": "Ibuprofeno gotas",
+      "usuario": "Assucena"
+    },
+    {
+      "id": 2938,
+      "item_id": 330,
+      "produto_nome": "Máscara descartável",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 100,
+      "responsavel": "Assucena",
+      "data": "2026-09-23",
+      "obs": "",
+      "criado_em": "2026-09-24 10:00:53",
+      "item": "Máscara descartável",
+      "usuario": "Assucena"
+    },
     {
       "id": 2937,
       "item_id": 194,
@@ -24437,36 +24467,6 @@
       "obs": "",
       "criado_em": "2026-09-15 15:16:13",
       "item": "Ferropurum 20mg/ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 2439,
-      "item_id": 228,
-      "produto_nome": "Omeprazol sódico 40mg AMP",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 7,
-      "responsavel": "Leiliana",
-      "data": "2026-09-15",
-      "obs": "",
-      "criado_em": "2026-09-15 15:16:01",
-      "item": "Omeprazol sódico 40mg AMP",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 2438,
-      "item_id": 57,
-      "produto_nome": "Bromoprida 5mg",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 20,
-      "responsavel": "Leiliana",
-      "data": "2026-09-15",
-      "obs": "",
-      "criado_em": "2026-09-15 15:15:48",
-      "item": "Bromoprida 5mg",
       "usuario": "Leiliana"
     }
   ]
