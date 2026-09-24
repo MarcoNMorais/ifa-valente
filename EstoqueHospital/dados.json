@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/09/2026 09:52:47",
+  "atualizado_em": "24/09/2026 09:52:55",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 115358,
-    "total_farmacia": 36638,
-    "total_geral": 151996,
+    "total_farmacia": 36588,
+    "total_geral": 151946,
     "perto_de_terminar": 29,
     "zerados": 9
   },
@@ -5718,19 +5718,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 2256,
-      "farmacia": 319,
+      "farmacia": 269,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 2575,
+      "total": 2525,
       "minimo": 300,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-22 16:52:00",
+      "atualizado_em": "2026-09-24 09:52:54",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -5744,17 +5744,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 344
+          "quantidade": 294
         }
       ],
       "minimo_manual": 300,
-      "minimo_alerta": 326,
-      "previsao_20_dias": 326,
+      "minimo_alerta": 349,
+      "previsao_20_dias": 349,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 43,
-      "media_diaria_saida": 16.28,
-      "total_saida_historica": 700,
-      "cobertura_dias": 158.2,
+      "media_diaria_saida": 17.44,
+      "total_saida_historica": 750,
+      "cobertura_dias": 144.8,
       "alerta_estoque": false
     },
     {
@@ -16976,6 +16976,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 2890,
+      "item_id": 220,
+      "produto_nome": "Equipo macrogotas",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 50,
+      "responsavel": "Assucena",
+      "data": "2026-09-23",
+      "obs": "",
+      "criado_em": "2026-09-24 09:52:54",
+      "item": "Equipo macrogotas",
+      "usuario": "Assucena"
+    },
+    {
       "id": 2889,
       "item_id": 104,
       "produto_nome": "Seringa 3ml",
@@ -24458,21 +24473,6 @@
       "obs": "",
       "criado_em": "2026-09-15 14:59:59",
       "item": "Ondansetrona 2mg/ml 2ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 2390,
-      "item_id": 176,
-      "produto_nome": "Gelco nº 24",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 10,
-      "responsavel": "Leiliana",
-      "data": "2026-09-15",
-      "obs": "",
-      "criado_em": "2026-09-15 14:59:44",
-      "item": "Gelco nº 24",
       "usuario": "Leiliana"
     }
   ]
