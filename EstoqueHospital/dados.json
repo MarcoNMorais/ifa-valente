@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/09/2026 10:06:09",
+  "atualizado_em": "24/09/2026 10:06:17",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 115358,
-    "total_farmacia": 35431,
-    "total_geral": 150789,
+    "total_farmacia": 35426,
+    "total_geral": 150784,
     "perto_de_terminar": 34,
     "zerados": 9
   },
@@ -9704,19 +9704,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 320,
-      "farmacia": 15,
+      "farmacia": 10,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 335,
+      "total": 330,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-24 10:05:57",
+      "atualizado_em": "2026-09-24 10:06:16",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -9730,17 +9730,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 15
+          "quantidade": 10
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 31,
-      "previsao_20_dias": 31,
+      "minimo_alerta": 33,
+      "previsao_20_dias": 33,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 43,
-      "media_diaria_saida": 1.51,
-      "total_saida_historica": 65,
-      "cobertura_dias": 221.6,
+      "media_diaria_saida": 1.63,
+      "total_saida_historica": 70,
+      "cobertura_dias": 202.7,
       "alerta_estoque": false
     },
     {
@@ -16957,6 +16957,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 2961,
+      "item_id": 186,
+      "produto_nome": "Luva cirúrgica tam. 8",
+      "tipo": "Farmácia para SALA DE PARTO",
+      "origem": "Farmácia",
+      "destino": "SALA DE PARTO",
+      "quantidade": 5,
+      "responsavel": "Assucena",
+      "data": "2026-09-24",
+      "obs": "",
+      "criado_em": "2026-09-24 10:06:16",
+      "item": "Luva cirúrgica tam. 8",
+      "usuario": "Assucena"
+    },
     {
       "id": 2960,
       "item_id": 185,
@@ -24440,21 +24455,6 @@
       "obs": "",
       "criado_em": "2026-09-15 16:29:33",
       "item": "Esparadrapo 10x4,5",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 2461,
-      "item_id": 59,
-      "produto_nome": "Ceftriaxona 1g",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 10,
-      "responsavel": "Leiliana",
-      "data": "2026-09-15",
-      "obs": "",
-      "criado_em": "2026-09-15 16:28:52",
-      "item": "Ceftriaxona 1g",
       "usuario": "Leiliana"
     }
   ]
