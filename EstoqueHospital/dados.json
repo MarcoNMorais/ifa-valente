@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/09/2026 09:54:09",
+  "atualizado_em": "24/09/2026 09:54:19",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 115358,
-    "total_farmacia": 36388,
-    "total_geral": 151746,
+    "total_farmacia": 36368,
+    "total_geral": 151726,
     "perto_de_terminar": 29,
     "zerados": 9
   },
@@ -2926,19 +2926,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 280,
+      "farmacia": 260,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 280,
+      "total": 260,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-15 16:24:57",
+      "atualizado_em": "2026-09-24 09:54:19",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -2946,17 +2946,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 280
+          "quantidade": 260
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 163,
-      "previsao_20_dias": 163,
+      "minimo_alerta": 173,
+      "previsao_20_dias": 173,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 43,
-      "media_diaria_saida": 8.14,
-      "total_saida_historica": 350,
-      "cobertura_dias": 34.4,
+      "media_diaria_saida": 8.6,
+      "total_saida_historica": 370,
+      "cobertura_dias": 30.2,
       "alerta_estoque": false
     },
     {
@@ -16976,6 +16976,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 2898,
+      "item_id": 57,
+      "produto_nome": "Bromoprida 5mg",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 20,
+      "responsavel": "Assucena",
+      "data": "2026-09-23",
+      "obs": "",
+      "criado_em": "2026-09-24 09:54:19",
+      "item": "Bromoprida 5mg",
+      "usuario": "Assucena"
+    },
+    {
       "id": 2897,
       "item_id": 76,
       "produto_nome": "Escopolamina + Dipirona",
@@ -24458,21 +24473,6 @@
       "obs": "",
       "criado_em": "2026-09-15 15:01:45",
       "item": "HIDROCORTIZONA 500MG",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 2398,
-      "item_id": 68,
-      "produto_nome": "Dexametasona",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 30,
-      "responsavel": "Leiliana",
-      "data": "2026-09-15",
-      "obs": "",
-      "criado_em": "2026-09-15 15:01:31",
-      "item": "Dexametasona",
       "usuario": "Leiliana"
     }
   ]
