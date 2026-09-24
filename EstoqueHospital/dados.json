@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/09/2026 16:25:45",
+  "atualizado_em": "24/09/2026 16:25:58",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 115358,
-    "total_farmacia": 34945,
-    "total_geral": 150303,
+    "total_farmacia": 34944,
+    "total_geral": 150302,
     "perto_de_terminar": 35,
     "zerados": 9
   },
@@ -16041,19 +16041,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 60,
-      "farmacia": 208,
+      "farmacia": 207,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 268,
+      "total": 267,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-24 10:00:23",
+      "atualizado_em": "2026-09-24 16:25:57",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -16067,17 +16067,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 208
+          "quantidade": 207
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 401,
-      "previsao_20_dias": 401,
+      "minimo_alerta": 402,
+      "previsao_20_dias": 402,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 43,
-      "media_diaria_saida": 20.05,
-      "total_saida_historica": 862,
-      "cobertura_dias": 13.4,
+      "media_diaria_saida": 20.07,
+      "total_saida_historica": 863,
+      "cobertura_dias": 13.3,
       "alerta_estoque": true
     },
     {
@@ -16945,6 +16945,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 2992,
+      "item_id": 195,
+      "produto_nome": "Tira Reagente G-Tech",
+      "tipo": "Farmácia para Posto de Internamento",
+      "origem": "Farmácia",
+      "destino": "Posto de Internamento",
+      "quantidade": 1,
+      "responsavel": "Assucena",
+      "data": "2026-09-24",
+      "obs": "",
+      "criado_em": "2026-09-24 16:25:57",
+      "item": "Tira Reagente G-Tech",
+      "usuario": "Assucena"
+    },
     {
       "id": 2991,
       "item_id": 203,
@@ -24428,21 +24443,6 @@
       "obs": "",
       "criado_em": "2026-09-16 10:30:52",
       "item": "Ibuprofeno gotas",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2490,
-      "item_id": 99,
-      "produto_nome": "Scalp nº 21",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 10,
-      "responsavel": "Assucena",
-      "data": "2026-09-16",
-      "obs": "",
-      "criado_em": "2026-09-16 10:30:42",
-      "item": "Scalp nº 21",
       "usuario": "Assucena"
     }
   ]
