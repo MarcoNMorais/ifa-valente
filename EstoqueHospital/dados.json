@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/09/2026 09:59:44",
+  "atualizado_em": "24/09/2026 09:59:51",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 115358,
-    "total_farmacia": 35946,
-    "total_geral": 151304,
+    "total_farmacia": 35945,
+    "total_geral": 151303,
     "perto_de_terminar": 30,
     "zerados": 9
   },
@@ -1196,19 +1196,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 13,
+      "farmacia": 12,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 13,
+      "total": 12,
       "minimo": 0,
       "validade": "01/27",
       "lote": "",
       "origem": "Carga Farmácia 227-288",
       "obs": "Importação Farmácia 227-288",
-      "atualizado_em": "2026-09-15 16:24:57",
+      "atualizado_em": "2026-09-24 09:59:50",
       "validade_mais_proxima": "01/27",
       "vencimento_mais_proximo": "01/27",
       "lotes_validade": [
@@ -1216,17 +1216,17 @@
           "local": "farmacia",
           "validade": "01/27",
           "lote": "",
-          "quantidade": 13
+          "quantidade": 12
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 1,
-      "previsao_20_dias": 1,
+      "minimo_alerta": 2,
+      "previsao_20_dias": 2,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 38,
-      "media_diaria_saida": 0.03,
-      "total_saida_historica": 1,
-      "cobertura_dias": 494.0,
+      "media_diaria_saida": 0.05,
+      "total_saida_historica": 2,
+      "cobertura_dias": 228.0,
       "alerta_estoque": false
     },
     {
@@ -16970,6 +16970,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 2931,
+      "item_id": 243,
+      "produto_nome": "Ambroxol 15mg/5ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 1,
+      "responsavel": "Assucena",
+      "data": "2026-09-23",
+      "obs": "",
+      "criado_em": "2026-09-24 09:59:50",
+      "item": "Ambroxol 15mg/5ml",
+      "usuario": "Assucena"
+    },
+    {
       "id": 2930,
       "item_id": 85,
       "produto_nome": "Lidocaína Gel",
@@ -24452,21 +24467,6 @@
       "obs": "",
       "criado_em": "2026-09-15 15:13:48",
       "item": "Seringa 1ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 2431,
-      "item_id": 102,
-      "produto_nome": "Seringa 5ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 70,
-      "responsavel": "Leiliana",
-      "data": "2026-09-15",
-      "obs": "",
-      "criado_em": "2026-09-15 15:13:37",
-      "item": "Seringa 5ml",
       "usuario": "Leiliana"
     }
   ]
