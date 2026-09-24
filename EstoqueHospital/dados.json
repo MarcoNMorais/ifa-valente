@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/09/2026 09:55:50",
+  "atualizado_em": "24/09/2026 09:55:59",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 115358,
-    "total_farmacia": 36265,
-    "total_geral": 151623,
+    "total_farmacia": 36264,
+    "total_geral": 151622,
     "perto_de_terminar": 29,
     "zerados": 9
   },
@@ -12534,19 +12534,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 16,
-      "farmacia": 20,
+      "farmacia": 19,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 36,
+      "total": 35,
       "minimo": 0,
       "validade": "12/26",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-21 16:49:39",
+      "atualizado_em": "2026-09-24 09:55:58",
       "validade_mais_proxima": "12/26",
       "vencimento_mais_proximo": "12/26",
       "lotes_validade": [
@@ -12554,7 +12554,7 @@
           "local": "farmacia",
           "validade": "12/26",
           "lote": "",
-          "quantidade": 20
+          "quantidade": 19
         },
         {
           "local": "almoxarifado",
@@ -12564,13 +12564,13 @@
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 8,
-      "previsao_20_dias": 8,
+      "minimo_alerta": 9,
+      "previsao_20_dias": 9,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 41,
-      "media_diaria_saida": 0.39,
-      "total_saida_historica": 16,
-      "cobertura_dias": 92.2,
+      "media_diaria_saida": 0.41,
+      "total_saida_historica": 17,
+      "cobertura_dias": 84.4,
       "alerta_estoque": false
     },
     {
@@ -16969,6 +16969,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 2909,
+      "item_id": 252,
+      "produto_nome": "Salbutamol spray",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 1,
+      "responsavel": "Assucena",
+      "data": "2026-09-23",
+      "obs": "",
+      "criado_em": "2026-09-24 09:55:58",
+      "item": "Salbutamol spray",
+      "usuario": "Assucena"
+    },
     {
       "id": 2908,
       "item_id": 28,
@@ -24452,21 +24467,6 @@
       "obs": "",
       "criado_em": "2026-09-15 15:08:11",
       "item": "Cetoprofeno IM 50mg",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 2409,
-      "item_id": 82,
-      "produto_nome": "Hidrocortisona 100MG",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 7,
-      "responsavel": "Leiliana",
-      "data": "2026-09-15",
-      "obs": "",
-      "criado_em": "2026-09-15 15:08:00",
-      "item": "Hidrocortisona 100MG",
       "usuario": "Leiliana"
     }
   ]
