@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/09/2026 09:55:12",
+  "atualizado_em": "24/09/2026 09:55:22",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 115358,
-    "total_farmacia": 36290,
-    "total_geral": 151648,
+    "total_farmacia": 36280,
+    "total_geral": 151638,
     "perto_de_terminar": 29,
     "zerados": 9
   },
@@ -8221,19 +8221,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 20,
-      "farmacia": 63,
+      "farmacia": 53,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 83,
+      "total": 73,
       "minimo": 0,
       "validade": "2027-06",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-15 16:24:57",
+      "atualizado_em": "2026-09-24 09:55:21",
       "validade_mais_proxima": "2027-06",
       "vencimento_mais_proximo": "2027-06",
       "lotes_validade": [
@@ -8241,7 +8241,7 @@
           "local": "farmacia",
           "validade": "2027-06",
           "lote": "",
-          "quantidade": 63
+          "quantidade": 53
         },
         {
           "local": "almoxarifado",
@@ -8251,13 +8251,13 @@
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 7,
-      "previsao_20_dias": 7,
+      "minimo_alerta": 12,
+      "previsao_20_dias": 12,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 43,
-      "media_diaria_saida": 0.35,
-      "total_saida_historica": 15,
-      "cobertura_dias": 237.9,
+      "media_diaria_saida": 0.58,
+      "total_saida_historica": 25,
+      "cobertura_dias": 125.6,
       "alerta_estoque": false
     },
     {
@@ -16970,6 +16970,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 2905,
+      "item_id": 89,
+      "produto_nome": "Hemitartarato de Norepinefrina",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 10,
+      "responsavel": "Assucena",
+      "data": "2026-09-23",
+      "obs": "",
+      "criado_em": "2026-09-24 09:55:21",
+      "item": "Hemitartarato de Norepinefrina",
+      "usuario": "Assucena"
+    },
+    {
       "id": 2904,
       "item_id": 68,
       "produto_nome": "Dexametasona",
@@ -24452,21 +24467,6 @@
       "obs": "",
       "criado_em": "2026-09-15 15:03:59",
       "item": "Azitromicina 600mg suspensão",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 2405,
-      "item_id": 230,
-      "produto_nome": "Ferropurum 20mg/ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 2,
-      "responsavel": "Leiliana",
-      "data": "2026-09-15",
-      "obs": "",
-      "criado_em": "2026-09-15 15:03:47",
-      "item": "Ferropurum 20mg/ml",
       "usuario": "Leiliana"
     }
   ]
