@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/09/2026 09:53:21",
+  "atualizado_em": "24/09/2026 09:53:32",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 115358,
-    "total_farmacia": 36538,
-    "total_geral": 151896,
+    "total_farmacia": 36488,
+    "total_geral": 151846,
     "perto_de_terminar": 29,
     "zerados": 9
   },
@@ -5003,19 +5003,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 1180,
+      "farmacia": 1130,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1180,
+      "total": 1130,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-22 16:54:11",
+      "atualizado_em": "2026-09-24 09:53:31",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -5023,17 +5023,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 1180
+          "quantidade": 1130
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 884,
-      "previsao_20_dias": 884,
+      "minimo_alerta": 907,
+      "previsao_20_dias": 907,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 43,
-      "media_diaria_saida": 44.19,
-      "total_saida_historica": 1900,
-      "cobertura_dias": 26.7,
+      "media_diaria_saida": 45.35,
+      "total_saida_historica": 1950,
+      "cobertura_dias": 24.9,
       "alerta_estoque": false
     },
     {
@@ -16976,6 +16976,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 2893,
+      "item_id": 70,
+      "produto_nome": "Dipirona",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 50,
+      "responsavel": "Assucena",
+      "data": "2026-09-23",
+      "obs": "",
+      "criado_em": "2026-09-24 09:53:31",
+      "item": "Dipirona",
+      "usuario": "Assucena"
+    },
+    {
       "id": 2892,
       "item_id": 61,
       "produto_nome": "Cetoprofeno IM 50mg",
@@ -24458,21 +24473,6 @@
       "obs": "",
       "criado_em": "2026-09-15 15:00:40",
       "item": "AGUA P/ INJ",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 2393,
-      "item_id": 319,
-      "produto_nome": "Agulha 25x7",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 40,
-      "responsavel": "Leiliana",
-      "data": "2026-09-15",
-      "obs": "",
-      "criado_em": "2026-09-15 15:00:29",
-      "item": "Agulha 25x7",
       "usuario": "Leiliana"
     }
   ]
