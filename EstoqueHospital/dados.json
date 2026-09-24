@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/09/2026 16:24:47",
+  "atualizado_em": "24/09/2026 16:25:02",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 115358,
-    "total_farmacia": 34993,
-    "total_geral": 150351,
+    "total_farmacia": 34981,
+    "total_geral": 150339,
     "perto_de_terminar": 34,
     "zerados": 9
   },
@@ -15326,19 +15326,19 @@
       "tipo": "Insumo",
       "unidade": "Unidade",
       "almoxarifado": 787,
-      "farmacia": 75,
+      "farmacia": 63,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 862,
+      "total": 850,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-22 16:50:44",
+      "atualizado_em": "2026-09-24 16:25:01",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -15352,17 +15352,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 75
+          "quantidade": 63
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 178,
-      "previsao_20_dias": 178,
+      "minimo_alerta": 183,
+      "previsao_20_dias": 183,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 43,
-      "media_diaria_saida": 8.86,
-      "total_saida_historica": 381,
-      "cobertura_dias": 97.3,
+      "media_diaria_saida": 9.14,
+      "total_saida_historica": 393,
+      "cobertura_dias": 93.0,
       "alerta_estoque": false
     },
     {
@@ -16945,6 +16945,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 2987,
+      "item_id": 204,
+      "produto_nome": "Soro fisiológico 500ml",
+      "tipo": "Farmácia para Posto de Internamento",
+      "origem": "Farmácia",
+      "destino": "Posto de Internamento",
+      "quantidade": 12,
+      "responsavel": "Assucena",
+      "data": "2026-09-24",
+      "obs": "",
+      "criado_em": "2026-09-24 16:25:01",
+      "item": "Soro fisiológico 500ml",
+      "usuario": "Assucena"
+    },
     {
       "id": 2986,
       "item_id": 220,
@@ -24428,21 +24443,6 @@
       "obs": "",
       "criado_em": "2026-09-16 10:30:03",
       "item": "Gelco nº 22",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2485,
-      "item_id": 331,
-      "produto_nome": "Agulha 30x8",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 50,
-      "responsavel": "Assucena",
-      "data": "2026-09-16",
-      "obs": "",
-      "criado_em": "2026-09-16 10:29:54",
-      "item": "Agulha 30x8",
       "usuario": "Assucena"
     }
   ]
