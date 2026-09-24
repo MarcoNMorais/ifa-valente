@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/09/2026 10:00:16",
+  "atualizado_em": "24/09/2026 10:00:24",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 115358,
-    "total_farmacia": 35941,
-    "total_geral": 151299,
+    "total_farmacia": 35939,
+    "total_geral": 151297,
     "perto_de_terminar": 30,
     "zerados": 9
   },
@@ -16065,19 +16065,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 60,
-      "farmacia": 210,
+      "farmacia": 208,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 270,
+      "total": 268,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-22 10:22:33",
+      "atualizado_em": "2026-09-24 10:00:23",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -16091,17 +16091,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 210
+          "quantidade": 208
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 400,
-      "previsao_20_dias": 400,
+      "minimo_alerta": 401,
+      "previsao_20_dias": 401,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 43,
-      "media_diaria_saida": 20.0,
-      "total_saida_historica": 860,
-      "cobertura_dias": 13.5,
+      "media_diaria_saida": 20.05,
+      "total_saida_historica": 862,
+      "cobertura_dias": 13.4,
       "alerta_estoque": true
     },
     {
@@ -16969,6 +16969,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 2935,
+      "item_id": 195,
+      "produto_nome": "Tira Reagente G-Tech",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 2,
+      "responsavel": "Assucena",
+      "data": "2026-09-23",
+      "obs": "",
+      "criado_em": "2026-09-24 10:00:23",
+      "item": "Tira Reagente G-Tech",
+      "usuario": "Assucena"
+    },
     {
       "id": 2934,
       "item_id": 154,
@@ -24452,21 +24467,6 @@
       "obs": "",
       "criado_em": "2026-09-15 15:15:26",
       "item": "Fosfato de Clindamicina 150mg",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 2435,
-      "item_id": 200,
-      "produto_nome": "Caixa de perfurocortante",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 1,
-      "responsavel": "Leiliana",
-      "data": "2026-09-15",
-      "obs": "",
-      "criado_em": "2026-09-15 15:15:10",
-      "item": "Caixa de perfurocortante",
       "usuario": "Leiliana"
     }
   ]
