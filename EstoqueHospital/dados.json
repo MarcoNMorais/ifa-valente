@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "25/09/2026 10:39:47",
+  "atualizado_em": "25/09/2026 10:39:53",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 115118,
-    "total_farmacia": 34714,
-    "total_geral": 149832,
+    "total_farmacia": 34654,
+    "total_geral": 149772,
     "perto_de_terminar": 35,
     "zerados": 9
   },
@@ -481,19 +481,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 6300,
-      "farmacia": 255,
+      "farmacia": 195,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 6555,
+      "total": 6495,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-25 10:39:46",
+      "atualizado_em": "2026-09-25 10:39:52",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -507,17 +507,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 255
+          "quantidade": 195
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 1314,
-      "previsao_20_dias": 1314,
+      "minimo_alerta": 1369,
+      "previsao_20_dias": 1369,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 22,
-      "media_diaria_saida": 65.68,
-      "total_saida_historica": 1445,
-      "cobertura_dias": 99.8,
+      "media_diaria_saida": 68.41,
+      "total_saida_historica": 1505,
+      "cobertura_dias": 94.9,
       "alerta_estoque": false
     },
     {
@@ -16952,6 +16952,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 3031,
+      "item_id": 390,
+      "produto_nome": "AGULHA  40X1,2",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 60,
+      "responsavel": "Assucena",
+      "data": "2026-09-24",
+      "obs": "",
+      "criado_em": "2026-09-25 10:39:52",
+      "item": "AGULHA  40X1,2",
+      "usuario": "Assucena"
+    },
+    {
       "id": 3030,
       "item_id": 390,
       "produto_nome": "AGULHA  40X1,2",
@@ -24434,21 +24449,6 @@
       "obs": "",
       "criado_em": "2026-09-17 13:53:45",
       "item": "Cetoprofeno IM 50mg",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 2531,
-      "item_id": 68,
-      "produto_nome": "Dexametasona",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 30,
-      "responsavel": "Leiliana",
-      "data": "2026-09-17",
-      "obs": "",
-      "criado_em": "2026-09-17 13:53:28",
-      "item": "Dexametasona",
       "usuario": "Leiliana"
     }
   ]
