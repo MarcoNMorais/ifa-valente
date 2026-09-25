@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "25/09/2026 10:37:51",
+  "atualizado_em": "25/09/2026 10:37:58",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 115118,
-    "total_farmacia": 34814,
-    "total_geral": 149932,
+    "total_farmacia": 34804,
+    "total_geral": 149922,
     "perto_de_terminar": 35,
     "zerados": 9
   },
@@ -5884,19 +5884,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 50,
+      "farmacia": 40,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 50,
+      "total": 40,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-24 10:03:44",
+      "atualizado_em": "2026-09-25 10:37:57",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -5904,17 +5904,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 50
+          "quantidade": 40
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 210,
-      "previsao_20_dias": 210,
+      "minimo_alerta": 215,
+      "previsao_20_dias": 215,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 44,
-      "media_diaria_saida": 10.48,
-      "total_saida_historica": 461,
-      "cobertura_dias": 4.8,
+      "media_diaria_saida": 10.7,
+      "total_saida_historica": 471,
+      "cobertura_dias": 3.7,
       "alerta_estoque": true
     },
     {
@@ -16952,6 +16952,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 3026,
+      "item_id": 76,
+      "produto_nome": "Escopolamina + Dipirona",
+      "tipo": "Farmácia para Posto de Internamento",
+      "origem": "Farmácia",
+      "destino": "Posto de Internamento",
+      "quantidade": 10,
+      "responsavel": "Assucena",
+      "data": "2026-09-24",
+      "obs": "",
+      "criado_em": "2026-09-25 10:37:57",
+      "item": "Escopolamina + Dipirona",
+      "usuario": "Assucena"
+    },
+    {
       "id": 3025,
       "item_id": 176,
       "produto_nome": "Gelco nº 24",
@@ -24434,21 +24449,6 @@
       "obs": "AJUSTE DE ESTOQUE ",
       "criado_em": "2026-09-17 11:50:42",
       "item": "Luva de látex tam. M",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2526,
-      "item_id": 180,
-      "produto_nome": "Luva de látex tam. P",
-      "tipo": "Almoxarifado para Farmácia",
-      "origem": "Almoxarifado",
-      "destino": "Farmácia",
-      "quantidade": 120,
-      "responsavel": "Assucena",
-      "data": "2026-09-17",
-      "obs": "AJUSTE DE ESTOQUE ",
-      "criado_em": "2026-09-17 11:50:16",
-      "item": "Luva de látex tam. P",
       "usuario": "Assucena"
     }
   ]
