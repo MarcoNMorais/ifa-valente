@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "25/09/2026 10:35:02",
+  "atualizado_em": "25/09/2026 10:35:10",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 115358,
-    "total_farmacia": 34719,
-    "total_geral": 150077,
+    "total_farmacia": 34709,
+    "total_geral": 150067,
     "perto_de_terminar": 35,
     "zerados": 9
   },
@@ -12872,19 +12872,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 7750,
-      "farmacia": 40,
+      "farmacia": 30,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 7790,
+      "total": 7780,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-24 10:05:12",
+      "atualizado_em": "2026-09-25 10:35:09",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -12898,17 +12898,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 65
+          "quantidade": 55
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 749,
-      "previsao_20_dias": 749,
+      "minimo_alerta": 754,
+      "previsao_20_dias": 754,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 39,
-      "media_diaria_saida": 37.44,
-      "total_saida_historica": 1460,
-      "cobertura_dias": 208.1,
+      "media_diaria_saida": 37.69,
+      "total_saida_historica": 1470,
+      "cobertura_dias": 206.4,
       "alerta_estoque": false
     },
     {
@@ -16945,6 +16945,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 3011,
+      "item_id": 274,
+      "produto_nome": "Seringa 20ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 10,
+      "responsavel": "Assucena",
+      "data": "2026-09-24",
+      "obs": "",
+      "criado_em": "2026-09-25 10:35:09",
+      "item": "Seringa 20ml",
+      "usuario": "Assucena"
+    },
     {
       "id": 3010,
       "item_id": 104,
@@ -24428,21 +24443,6 @@
       "obs": "",
       "criado_em": "2026-09-16 16:17:23",
       "item": "Esparadrapo 10x4,5",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2511,
-      "item_id": 220,
-      "produto_nome": "Equipo macrogotas",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 25,
-      "responsavel": "Assucena",
-      "data": "2026-09-16",
-      "obs": "",
-      "criado_em": "2026-09-16 16:17:06",
-      "item": "Equipo macrogotas",
       "usuario": "Assucena"
     }
   ]
