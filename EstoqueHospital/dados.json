@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "25/09/2026 10:36:48",
+  "atualizado_em": "25/09/2026 10:37:16",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
-    "total_almoxarifado": 115358,
-    "total_farmacia": 34675,
+    "total_almoxarifado": 115118,
+    "total_farmacia": 34915,
     "total_geral": 150033,
     "perto_de_terminar": 35,
     "zerados": 9
@@ -15239,8 +15239,8 @@
       "nome": "Soro fisiológico 100ml",
       "tipo": "Insumo",
       "unidade": "Unidade",
-      "almoxarifado": 1260,
-      "farmacia": 0,
+      "almoxarifado": 1020,
+      "farmacia": 240,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -15252,7 +15252,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-24 16:24:32",
+      "atualizado_em": "2026-09-25 10:37:15",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -15260,7 +15260,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 1260
+          "quantidade": 1020
+        },
+        {
+          "local": "farmacia",
+          "validade": "",
+          "lote": "",
+          "quantidade": 240
         }
       ],
       "minimo_manual": 0,
@@ -16945,6 +16951,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 3021,
+      "item_id": 202,
+      "produto_nome": "Soro fisiológico 100ml",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 240,
+      "responsavel": "Assucena",
+      "data": "2026-09-24",
+      "obs": "",
+      "criado_em": "2026-09-25 10:37:15",
+      "item": "Soro fisiológico 100ml",
+      "usuario": "Assucena"
+    },
     {
       "id": 3020,
       "item_id": 107,
@@ -24428,21 +24449,6 @@
       "obs": "",
       "criado_em": "2026-09-17 11:34:14",
       "item": "Gelco nº 24",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2521,
-      "item_id": 177,
-      "produto_nome": "Gelco nº 22",
-      "tipo": "Almoxarifado para Farmácia",
-      "origem": "Almoxarifado",
-      "destino": "Farmácia",
-      "quantidade": 200,
-      "responsavel": "Assucena",
-      "data": "2026-09-17",
-      "obs": "",
-      "criado_em": "2026-09-17 11:34:04",
-      "item": "Gelco nº 22",
       "usuario": "Assucena"
     }
   ]
