@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "25/09/2026 10:34:54",
+  "atualizado_em": "25/09/2026 10:35:02",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 115358,
-    "total_farmacia": 34729,
-    "total_geral": 150087,
+    "total_farmacia": 34719,
+    "total_geral": 150077,
     "perto_de_terminar": 35,
     "zerados": 9
   },
@@ -12918,19 +12918,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 6000,
-      "farmacia": 2053,
+      "farmacia": 2043,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 8053,
+      "total": 8043,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-24 16:24:21",
+      "atualizado_em": "2026-09-25 10:35:01",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -12944,17 +12944,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 2053
+          "quantidade": 2043
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 785,
-      "previsao_20_dias": 785,
+      "minimo_alerta": 789,
+      "previsao_20_dias": 789,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 44,
-      "media_diaria_saida": 39.2,
-      "total_saida_historica": 1725,
-      "cobertura_dias": 205.4,
+      "media_diaria_saida": 39.43,
+      "total_saida_historica": 1735,
+      "cobertura_dias": 204.0,
       "alerta_estoque": false
     },
     {
@@ -16945,6 +16945,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 3010,
+      "item_id": 104,
+      "produto_nome": "Seringa 3ml",
+      "tipo": "Farmácia para Posto de Internamento",
+      "origem": "Farmácia",
+      "destino": "Posto de Internamento",
+      "quantidade": 10,
+      "responsavel": "Assucena",
+      "data": "2026-09-24",
+      "obs": "",
+      "criado_em": "2026-09-25 10:35:01",
+      "item": "Seringa 3ml",
+      "usuario": "Assucena"
+    },
     {
       "id": 3009,
       "item_id": 102,
@@ -24428,21 +24443,6 @@
       "obs": "",
       "criado_em": "2026-09-16 16:17:06",
       "item": "Equipo macrogotas",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2510,
-      "item_id": 104,
-      "produto_nome": "Seringa 3ml",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 40,
-      "responsavel": "Assucena",
-      "data": "2026-09-16",
-      "obs": "",
-      "criado_em": "2026-09-16 16:16:46",
-      "item": "Seringa 3ml",
       "usuario": "Assucena"
     }
   ]
