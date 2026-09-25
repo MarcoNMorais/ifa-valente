@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "25/09/2026 10:35:17",
+  "atualizado_em": "25/09/2026 10:35:31",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 115358,
-    "total_farmacia": 34689,
-    "total_geral": 150047,
+    "total_farmacia": 34687,
+    "total_geral": 150045,
     "perto_de_terminar": 35,
     "zerados": 9
   },
@@ -9103,19 +9103,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 68,
-      "farmacia": 4,
+      "farmacia": 2,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 72,
+      "total": 70,
       "minimo": 50,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-22 10:27:49",
+      "atualizado_em": "2026-09-25 10:35:30",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -9129,17 +9129,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 4
+          "quantidade": 2
         }
       ],
       "minimo_manual": 50,
-      "minimo_alerta": 19,
-      "previsao_20_dias": 19,
+      "minimo_alerta": 20,
+      "previsao_20_dias": 20,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 31,
-      "media_diaria_saida": 0.9,
-      "total_saida_historica": 28,
-      "cobertura_dias": 79.7,
+      "media_diaria_saida": 0.97,
+      "total_saida_historica": 30,
+      "cobertura_dias": 72.3,
       "alerta_estoque": false
     },
     {
@@ -16946,6 +16946,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 3013,
+      "item_id": 376,
+      "produto_nome": "LENÇOL DESCARTAVEL PAPEL",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 2,
+      "responsavel": "Assucena",
+      "data": "2026-09-24",
+      "obs": "",
+      "criado_em": "2026-09-25 10:35:30",
+      "item": "LENÇOL DESCARTAVEL PAPEL",
+      "usuario": "Assucena"
+    },
+    {
       "id": 3012,
       "item_id": 102,
       "produto_nome": "Seringa 5ml",
@@ -24428,21 +24443,6 @@
       "obs": "",
       "criado_em": "2026-09-16 16:17:56",
       "item": "Ceftriaxona 1g",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2513,
-      "item_id": 203,
-      "produto_nome": "Soro fisiológico 250ml",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 8,
-      "responsavel": "Assucena",
-      "data": "2026-09-16",
-      "obs": "",
-      "criado_em": "2026-09-16 16:17:40",
-      "item": "Soro fisiológico 250ml",
       "usuario": "Assucena"
     }
   ]
