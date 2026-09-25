@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "25/09/2026 10:40:25",
+  "atualizado_em": "25/09/2026 10:40:33",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
-    "total_almoxarifado": 115018,
-    "total_farmacia": 34754,
+    "total_almoxarifado": 114968,
+    "total_farmacia": 34804,
     "total_geral": 149772,
     "perto_de_terminar": 35,
     "zerados": 9
@@ -15285,8 +15285,8 @@
       "nome": "Soro fisiológico 250ml",
       "tipo": "Insumo",
       "unidade": "Unidade",
-      "almoxarifado": 937,
-      "farmacia": 58,
+      "almoxarifado": 887,
+      "farmacia": 108,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -15298,7 +15298,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-24 16:25:44",
+      "atualizado_em": "2026-09-25 10:40:32",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -15306,13 +15306,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 937
+          "quantidade": 887
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 58
+          "quantidade": 108
         }
       ],
       "minimo_manual": 0,
@@ -16951,6 +16951,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 3033,
+      "item_id": 203,
+      "produto_nome": "Soro fisiológico 250ml",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 50,
+      "responsavel": "Assucena",
+      "data": "2026-09-24",
+      "obs": "",
+      "criado_em": "2026-09-25 10:40:32",
+      "item": "Soro fisiológico 250ml",
+      "usuario": "Assucena"
+    },
     {
       "id": 3032,
       "item_id": 157,
@@ -24434,21 +24449,6 @@
       "obs": "",
       "criado_em": "2026-09-17 13:54:12",
       "item": "Ceftriaxona 1g",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 2533,
-      "item_id": 60,
-      "produto_nome": "Cetoprofeno EV 100mg",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 10,
-      "responsavel": "Leiliana",
-      "data": "2026-09-17",
-      "obs": "",
-      "criado_em": "2026-09-17 13:54:01",
-      "item": "Cetoprofeno EV 100mg",
       "usuario": "Leiliana"
     }
   ]
