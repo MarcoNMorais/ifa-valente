@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "25/09/2026 10:32:37",
+  "atualizado_em": "25/09/2026 10:32:43",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 115358,
-    "total_farmacia": 34859,
-    "total_geral": 150217,
+    "total_farmacia": 34858,
+    "total_geral": 150216,
     "perto_de_terminar": 35,
     "zerados": 9
   },
@@ -5964,19 +5964,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 328,
-      "farmacia": 50,
+      "farmacia": 49,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 378,
+      "total": 377,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-24 09:56:28",
+      "atualizado_em": "2026-09-25 10:32:41",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -5990,7 +5990,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 52
+          "quantidade": 51
         }
       ],
       "minimo_manual": 0,
@@ -5998,9 +5998,9 @@
       "previsao_20_dias": 44,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 39,
-      "media_diaria_saida": 2.15,
-      "total_saida_historica": 84,
-      "cobertura_dias": 175.5,
+      "media_diaria_saida": 2.18,
+      "total_saida_historica": 85,
+      "cobertura_dias": 173.0,
       "alerta_estoque": false
     },
     {
@@ -16946,6 +16946,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 2998,
+      "item_id": 276,
+      "produto_nome": "Esparadrapo 10x4,5",
+      "tipo": "Farmácia para SALA DE GESSO",
+      "origem": "Farmácia",
+      "destino": "SALA DE GESSO",
+      "quantidade": 1,
+      "responsavel": "Assucena",
+      "data": "2026-09-24",
+      "obs": "",
+      "criado_em": "2026-09-25 10:32:41",
+      "item": "Esparadrapo 10x4,5",
+      "usuario": "Assucena"
+    },
+    {
       "id": 2997,
       "item_id": 152,
       "produto_nome": "Atadura crepon nº 10",
@@ -24428,21 +24443,6 @@
       "obs": "",
       "criado_em": "2026-09-16 10:31:56",
       "item": "Seringa 5ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2496,
-      "item_id": 103,
-      "produto_nome": "Seringa 10ml",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 50,
-      "responsavel": "Assucena",
-      "data": "2026-09-16",
-      "obs": "",
-      "criado_em": "2026-09-16 10:31:45",
-      "item": "Seringa 10ml",
       "usuario": "Assucena"
     }
   ]
