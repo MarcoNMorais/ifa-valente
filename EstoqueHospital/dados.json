@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "25/09/2026 10:36:03",
+  "atualizado_em": "25/09/2026 10:36:17",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 115358,
-    "total_farmacia": 34682,
-    "total_geral": 150040,
+    "total_farmacia": 34680,
+    "total_geral": 150038,
     "perto_de_terminar": 35,
     "zerados": 9
   },
@@ -14148,19 +14148,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 21,
+      "farmacia": 19,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 21,
+      "total": 19,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-09-15 16:24:57",
+      "atualizado_em": "2026-09-25 10:36:16",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -14168,17 +14168,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 21
+          "quantidade": 19
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 2,
-      "previsao_20_dias": 2,
+      "minimo_alerta": 3,
+      "previsao_20_dias": 3,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 44,
-      "media_diaria_saida": 0.07,
-      "total_saida_historica": 3,
-      "cobertura_dias": 308.0,
+      "media_diaria_saida": 0.11,
+      "total_saida_historica": 5,
+      "cobertura_dias": 167.2,
       "alerta_estoque": false
     },
     {
@@ -16945,6 +16945,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 3017,
+      "item_id": 167,
+      "produto_nome": "Sonda Foley nº 14 - 2 vias",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 2,
+      "responsavel": "Assucena",
+      "data": "2026-09-24",
+      "obs": "",
+      "criado_em": "2026-09-25 10:36:16",
+      "item": "Sonda Foley nº 14 - 2 vias",
+      "usuario": "Assucena"
+    },
     {
       "id": 3016,
       "item_id": 168,
@@ -24428,21 +24443,6 @@
       "obs": "",
       "criado_em": "2026-09-17 11:31:48",
       "item": "Luva P procedimento",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2517,
-      "item_id": 180,
-      "produto_nome": "Luva de látex tam. P",
-      "tipo": "Entrada no Almoxarifado",
-      "origem": "Entrada externa",
-      "destino": "Almoxarifado",
-      "quantidade": 8,
-      "responsavel": "Assucena",
-      "data": "2026-09-16",
-      "obs": "",
-      "criado_em": "2026-09-17 11:25:59",
-      "item": "Luva de látex tam. P",
       "usuario": "Assucena"
     }
   ]
