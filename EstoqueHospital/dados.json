@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "25/09/2026 10:32:43",
+  "atualizado_em": "25/09/2026 10:32:49",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 115358,
-    "total_farmacia": 34858,
-    "total_geral": 150216,
+    "total_farmacia": 34857,
+    "total_geral": 150215,
     "perto_de_terminar": 35,
     "zerados": 9
   },
@@ -9790,19 +9790,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 226,
+      "farmacia": 225,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 226,
+      "total": 225,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-24 09:56:19",
+      "atualizado_em": "2026-09-25 10:32:48",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -9810,7 +9810,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 226
+          "quantidade": 225
         }
       ],
       "minimo_manual": 0,
@@ -9818,8 +9818,8 @@
       "previsao_20_dias": 789,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 44,
-      "media_diaria_saida": 39.41,
-      "total_saida_historica": 1734,
+      "media_diaria_saida": 39.43,
+      "total_saida_historica": 1735,
       "cobertura_dias": 5.7,
       "alerta_estoque": true
     },
@@ -16945,6 +16945,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 2999,
+      "item_id": 181,
+      "produto_nome": "Luva de látex tam. M",
+      "tipo": "Farmácia para SALA DE GESSO",
+      "origem": "Farmácia",
+      "destino": "SALA DE GESSO",
+      "quantidade": 1,
+      "responsavel": "Assucena",
+      "data": "2026-09-24",
+      "obs": "",
+      "criado_em": "2026-09-25 10:32:48",
+      "item": "Luva de látex tam. M",
+      "usuario": "Assucena"
+    },
     {
       "id": 2998,
       "item_id": 276,
@@ -24428,21 +24443,6 @@
       "obs": "",
       "criado_em": "2026-09-16 10:32:05",
       "item": "Seringa 3ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2497,
-      "item_id": 102,
-      "produto_nome": "Seringa 5ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 30,
-      "responsavel": "Assucena",
-      "data": "2026-09-16",
-      "obs": "",
-      "criado_em": "2026-09-16 10:31:56",
-      "item": "Seringa 5ml",
       "usuario": "Assucena"
     }
   ]
