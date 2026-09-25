@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "25/09/2026 10:32:57",
+  "atualizado_em": "25/09/2026 10:33:17",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 115358,
-    "total_farmacia": 34845,
-    "total_geral": 150203,
+    "total_farmacia": 34835,
+    "total_geral": 150193,
     "perto_de_terminar": 35,
     "zerados": 9
   },
@@ -1798,19 +1798,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 280,
-      "farmacia": 55,
+      "farmacia": 45,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 335,
+      "total": 325,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-18 11:11:26",
+      "atualizado_em": "2026-09-25 10:33:16",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -1824,17 +1824,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 55
+          "quantidade": 45
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 10,
-      "previsao_20_dias": 10,
+      "minimo_alerta": 14,
+      "previsao_20_dias": 14,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 44,
-      "media_diaria_saida": 0.45,
-      "total_saida_historica": 20,
-      "cobertura_dias": 737.0,
+      "media_diaria_saida": 0.68,
+      "total_saida_historica": 30,
+      "cobertura_dias": 476.7,
       "alerta_estoque": false
     },
     {
@@ -16946,6 +16946,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 3001,
+      "item_id": 196,
+      "produto_nome": "Atadura gessada nº 10",
+      "tipo": "Farmácia para SALA DE GESSO",
+      "origem": "Farmácia",
+      "destino": "SALA DE GESSO",
+      "quantidade": 10,
+      "responsavel": "Assucena",
+      "data": "2026-09-24",
+      "obs": "",
+      "criado_em": "2026-09-25 10:33:16",
+      "item": "Atadura gessada nº 10",
+      "usuario": "Assucena"
+    },
+    {
       "id": 3000,
       "item_id": 151,
       "produto_nome": "Atadura crepon nº 15",
@@ -24428,21 +24443,6 @@
       "obs": "",
       "criado_em": "2026-09-16 10:32:21",
       "item": "Atadura crepon nº 10",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2499,
-      "item_id": 157,
-      "produto_nome": "Seringa 1ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 20,
-      "responsavel": "Assucena",
-      "data": "2026-09-16",
-      "obs": "",
-      "criado_em": "2026-09-16 10:32:13",
-      "item": "Seringa 1ml",
       "usuario": "Assucena"
     }
   ]
