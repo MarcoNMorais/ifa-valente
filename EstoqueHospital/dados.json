@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "25/09/2026 10:36:27",
+  "atualizado_em": "25/09/2026 10:36:35",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 115358,
-    "total_farmacia": 34678,
-    "total_geral": 150036,
+    "total_farmacia": 34676,
+    "total_geral": 150034,
     "perto_de_terminar": 35,
     "zerados": 9
   },
@@ -14628,19 +14628,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 7,
+      "farmacia": 5,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 7,
+      "total": 5,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-09-15 16:24:57",
+      "atualizado_em": "2026-09-25 10:36:34",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -14648,17 +14648,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 7
+          "quantidade": 5
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 0,
-      "previsao_20_dias": 0,
+      "minimo_alerta": 1,
+      "previsao_20_dias": 1,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 44,
-      "media_diaria_saida": 0.0,
-      "total_saida_historica": 0,
-      "cobertura_dias": null,
+      "media_diaria_saida": 0.05,
+      "total_saida_historica": 2,
+      "cobertura_dias": 110.0,
       "alerta_estoque": false
     },
     {
@@ -16945,6 +16945,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 3019,
+      "item_id": 174,
+      "produto_nome": "Sonda Foley nº 8 - 2 vias",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 2,
+      "responsavel": "Assucena",
+      "data": "2026-09-24",
+      "obs": "",
+      "criado_em": "2026-09-25 10:36:34",
+      "item": "Sonda Foley nº 8 - 2 vias",
+      "usuario": "Assucena"
+    },
     {
       "id": 3018,
       "item_id": 169,
@@ -24428,21 +24443,6 @@
       "obs": "",
       "criado_em": "2026-09-17 11:33:55",
       "item": "Dispositivo intravenoso Gelco nº 20",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2519,
-      "item_id": 222,
-      "produto_nome": "Touca descartável",
-      "tipo": "Almoxarifado para Farmácia",
-      "origem": "Almoxarifado",
-      "destino": "Farmácia",
-      "quantidade": 2,
-      "responsavel": "Assucena",
-      "data": "2026-09-17",
-      "obs": "",
-      "criado_em": "2026-09-17 11:33:45",
-      "item": "Touca descartável",
       "usuario": "Assucena"
     }
   ]
