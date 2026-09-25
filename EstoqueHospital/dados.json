@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "25/09/2026 10:33:57",
+  "atualizado_em": "25/09/2026 10:34:10",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 115358,
-    "total_farmacia": 34799,
-    "total_geral": 150157,
+    "total_farmacia": 34789,
+    "total_geral": 150147,
     "perto_de_terminar": 35,
     "zerados": 9
   },
@@ -15418,19 +15418,19 @@
       "tipo": "Insumo",
       "unidade": "Unidade",
       "almoxarifado": 6,
-      "farmacia": 18,
+      "farmacia": 8,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 24,
+      "total": 14,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-09-21 11:11:00",
+      "atualizado_em": "2026-09-25 10:34:09",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -15444,17 +15444,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 28
+          "quantidade": 18
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 47,
-      "previsao_20_dias": 47,
+      "minimo_alerta": 52,
+      "previsao_20_dias": 52,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 44,
-      "media_diaria_saida": 2.34,
-      "total_saida_historica": 103,
-      "cobertura_dias": 10.3,
+      "media_diaria_saida": 2.57,
+      "total_saida_historica": 113,
+      "cobertura_dias": 5.5,
       "alerta_estoque": true
     },
     {
@@ -16945,6 +16945,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 3006,
+      "item_id": 205,
+      "produto_nome": "Soro glicose 5% 500ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 10,
+      "responsavel": "Assucena",
+      "data": "2026-09-24",
+      "obs": "",
+      "criado_em": "2026-09-25 10:34:09",
+      "item": "Soro glicose 5% 500ml",
+      "usuario": "Assucena"
+    },
     {
       "id": 3005,
       "item_id": 254,
@@ -24428,21 +24443,6 @@
       "obs": "",
       "criado_em": "2026-09-16 16:15:55",
       "item": "Seringa 20ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2506,
-      "item_id": 55,
-      "produto_nome": "Benzilpenicilina 1.200",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 12,
-      "responsavel": "Assucena",
-      "data": "2026-09-16",
-      "obs": "",
-      "criado_em": "2026-09-16 16:15:38",
-      "item": "Benzilpenicilina 1.200",
       "usuario": "Assucena"
     }
   ]
