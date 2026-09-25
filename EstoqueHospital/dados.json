@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "25/09/2026 10:40:33",
+  "atualizado_em": "25/09/2026 10:40:41",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
-    "total_almoxarifado": 114968,
-    "total_farmacia": 34804,
+    "total_almoxarifado": 114868,
+    "total_farmacia": 34904,
     "total_geral": 149772,
     "perto_de_terminar": 35,
     "zerados": 9
@@ -7818,8 +7818,8 @@
       "nome": "Gelco nº 24",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 1060,
-      "farmacia": 262,
+      "almoxarifado": 960,
+      "farmacia": 362,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -7831,7 +7831,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-25 10:37:50",
+      "atualizado_em": "2026-09-25 10:40:40",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -7839,13 +7839,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 1060
+          "quantidade": 960
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 262
+          "quantidade": 362
         }
       ],
       "minimo_manual": 0,
@@ -16952,6 +16952,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 3034,
+      "item_id": 176,
+      "produto_nome": "Gelco nº 24",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 100,
+      "responsavel": "Assucena",
+      "data": "2026-09-24",
+      "obs": "",
+      "criado_em": "2026-09-25 10:40:40",
+      "item": "Gelco nº 24",
+      "usuario": "Assucena"
+    },
+    {
       "id": 3033,
       "item_id": 203,
       "produto_nome": "Soro fisiológico 250ml",
@@ -24434,21 +24449,6 @@
       "obs": "",
       "criado_em": "2026-09-17 13:54:24",
       "item": "Dipirona",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 2534,
-      "item_id": 59,
-      "produto_nome": "Ceftriaxona 1g",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 8,
-      "responsavel": "Leiliana",
-      "data": "2026-09-17",
-      "obs": "",
-      "criado_em": "2026-09-17 13:54:12",
-      "item": "Ceftriaxona 1g",
       "usuario": "Leiliana"
     }
   ]
