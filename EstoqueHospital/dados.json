@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "25/09/2026 15:41:51",
+  "atualizado_em": "25/09/2026 15:42:01",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 114368,
-    "total_farmacia": 35353,
-    "total_geral": 149721,
+    "total_farmacia": 35347,
+    "total_geral": 149715,
     "perto_de_terminar": 35,
     "zerados": 9
   },
@@ -8433,19 +8433,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 137,
+      "farmacia": 131,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 137,
+      "total": 131,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "ajuste de estoque ",
-      "atualizado_em": "2026-09-24 16:23:25",
+      "atualizado_em": "2026-09-25 15:42:00",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -8453,17 +8453,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 137
+          "quantidade": 131
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 187,
-      "previsao_20_dias": 187,
+      "minimo_alerta": 190,
+      "previsao_20_dias": 190,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 44,
-      "media_diaria_saida": 9.34,
-      "total_saida_historica": 411,
-      "cobertura_dias": 14.7,
+      "media_diaria_saida": 9.48,
+      "total_saida_historica": 417,
+      "cobertura_dias": 13.8,
       "alerta_estoque": true
     },
     {
@@ -16952,6 +16952,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 3042,
+      "item_id": 82,
+      "produto_nome": "Hidrocortisona 100MG",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 6,
+      "responsavel": "Leiliana",
+      "data": "2026-09-25",
+      "obs": "",
+      "criado_em": "2026-09-25 15:42:00",
+      "item": "Hidrocortisona 100MG",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 3041,
       "item_id": 59,
       "produto_nome": "Ceftriaxona 1g",
@@ -24434,21 +24449,6 @@
       "obs": "",
       "criado_em": "2026-09-17 13:57:39",
       "item": "Dispositivo intravenoso Gelco nº 20",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 2542,
-      "item_id": 331,
-      "produto_nome": "Agulha 30x8",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 20,
-      "responsavel": "Leiliana",
-      "data": "2026-09-17",
-      "obs": "",
-      "criado_em": "2026-09-17 13:57:23",
-      "item": "Agulha 30x8",
       "usuario": "Leiliana"
     }
   ]
