@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "25/09/2026 15:42:17",
+  "atualizado_em": "25/09/2026 15:42:55",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
-    "total_almoxarifado": 114368,
-    "total_farmacia": 35267,
+    "total_almoxarifado": 114268,
+    "total_farmacia": 35367,
     "total_geral": 149635,
     "perto_de_terminar": 35,
     "zerados": 9
@@ -12779,8 +12779,8 @@
       "nome": "Seringa 10ml",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 6250,
-      "farmacia": 10,
+      "almoxarifado": 6150,
+      "farmacia": 110,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -12792,7 +12792,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-25 10:34:45",
+      "atualizado_em": "2026-09-25 15:42:54",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -12800,13 +12800,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 6250
+          "quantidade": 6150
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 30
+          "quantidade": 130
         }
       ],
       "minimo_manual": 0,
@@ -16951,6 +16951,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 3045,
+      "item_id": 103,
+      "produto_nome": "Seringa 10ml",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 100,
+      "responsavel": "Leiliana",
+      "data": "2026-09-25",
+      "obs": "",
+      "criado_em": "2026-09-25 15:42:54",
+      "item": "Seringa 10ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 3044,
       "item_id": 331,
@@ -24434,21 +24449,6 @@
       "obs": "",
       "criado_em": "2026-09-17 13:58:19",
       "item": "Soro Ringer Lactato 500ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 2545,
-      "item_id": 176,
-      "produto_nome": "Gelco nº 24",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 30,
-      "responsavel": "Leiliana",
-      "data": "2026-09-17",
-      "obs": "",
-      "criado_em": "2026-09-17 13:58:05",
-      "item": "Gelco nº 24",
       "usuario": "Leiliana"
     }
   ]
