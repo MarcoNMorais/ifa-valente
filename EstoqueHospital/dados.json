@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "25/09/2026 10:34:46",
+  "atualizado_em": "25/09/2026 10:34:54",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 115358,
-    "total_farmacia": 34749,
-    "total_geral": 150107,
+    "total_farmacia": 34729,
+    "total_geral": 150087,
     "perto_de_terminar": 35,
     "zerados": 9
   },
@@ -12964,19 +12964,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 5450,
-      "farmacia": 545,
+      "farmacia": 525,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 5995,
+      "total": 5975,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-24 16:24:11",
+      "atualizado_em": "2026-09-25 10:34:53",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -12990,17 +12990,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 545
+          "quantidade": 525
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 964,
-      "previsao_20_dias": 964,
+      "minimo_alerta": 973,
+      "previsao_20_dias": 973,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 44,
-      "media_diaria_saida": 48.18,
-      "total_saida_historica": 2120,
-      "cobertura_dias": 124.4,
+      "media_diaria_saida": 48.64,
+      "total_saida_historica": 2140,
+      "cobertura_dias": 122.9,
       "alerta_estoque": false
     },
     {
@@ -16945,6 +16945,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 3009,
+      "item_id": 102,
+      "produto_nome": "Seringa 5ml",
+      "tipo": "Farmácia para Posto de Internamento",
+      "origem": "Farmácia",
+      "destino": "Posto de Internamento",
+      "quantidade": 20,
+      "responsavel": "Assucena",
+      "data": "2026-09-24",
+      "obs": "",
+      "criado_em": "2026-09-25 10:34:53",
+      "item": "Seringa 5ml",
+      "usuario": "Assucena"
+    },
     {
       "id": 3008,
       "item_id": 103,
@@ -24428,21 +24443,6 @@
       "obs": "",
       "criado_em": "2026-09-16 16:16:46",
       "item": "Seringa 3ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2509,
-      "item_id": 102,
-      "produto_nome": "Seringa 5ml",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 30,
-      "responsavel": "Assucena",
-      "data": "2026-09-16",
-      "obs": "",
-      "criado_em": "2026-09-16 16:16:32",
-      "item": "Seringa 5ml",
       "usuario": "Assucena"
     }
   ]
