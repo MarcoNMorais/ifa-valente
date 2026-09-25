@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "25/09/2026 10:40:41",
+  "atualizado_em": "25/09/2026 10:40:50",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
-    "total_almoxarifado": 114868,
-    "total_farmacia": 34904,
+    "total_almoxarifado": 114368,
+    "total_farmacia": 35404,
     "total_geral": 149772,
     "perto_de_terminar": 35,
     "zerados": 9
@@ -480,8 +480,8 @@
       "nome": "AGULHA  40X1,2",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 6300,
-      "farmacia": 195,
+      "almoxarifado": 5800,
+      "farmacia": 695,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -493,7 +493,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-25 10:39:52",
+      "atualizado_em": "2026-09-25 10:40:49",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -501,13 +501,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 6300
+          "quantidade": 5800
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 195
+          "quantidade": 695
         }
       ],
       "minimo_manual": 0,
@@ -16952,6 +16952,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 3035,
+      "item_id": 390,
+      "produto_nome": "AGULHA  40X1,2",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 500,
+      "responsavel": "Assucena",
+      "data": "2026-09-24",
+      "obs": "",
+      "criado_em": "2026-09-25 10:40:49",
+      "item": "AGULHA  40X1,2",
+      "usuario": "Assucena"
+    },
+    {
       "id": 3034,
       "item_id": 176,
       "produto_nome": "Gelco nº 24",
@@ -24434,21 +24449,6 @@
       "obs": "",
       "criado_em": "2026-09-17 13:54:35",
       "item": "Tramadol 50mg/ml 2ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 2535,
-      "item_id": 70,
-      "produto_nome": "Dipirona",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 40,
-      "responsavel": "Leiliana",
-      "data": "2026-09-17",
-      "obs": "",
-      "criado_em": "2026-09-17 13:54:24",
-      "item": "Dipirona",
       "usuario": "Leiliana"
     }
   ]
