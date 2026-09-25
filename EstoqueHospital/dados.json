@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "25/09/2026 15:43:16",
+  "atualizado_em": "25/09/2026 15:43:27",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 114268,
-    "total_farmacia": 35332,
-    "total_geral": 149600,
+    "total_farmacia": 35312,
+    "total_geral": 149580,
     "perto_de_terminar": 35,
     "zerados": 9
   },
@@ -12918,19 +12918,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 6000,
-      "farmacia": 2043,
+      "farmacia": 2023,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 8043,
+      "total": 8023,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-25 10:35:01",
+      "atualizado_em": "2026-09-25 15:43:26",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -12944,17 +12944,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 2043
+          "quantidade": 2023
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 789,
-      "previsao_20_dias": 789,
+      "minimo_alerta": 798,
+      "previsao_20_dias": 798,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 44,
-      "media_diaria_saida": 39.43,
-      "total_saida_historica": 1735,
-      "cobertura_dias": 204.0,
+      "media_diaria_saida": 39.89,
+      "total_saida_historica": 1755,
+      "cobertura_dias": 201.1,
       "alerta_estoque": false
     },
     {
@@ -16951,6 +16951,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 3048,
+      "item_id": 104,
+      "produto_nome": "Seringa 3ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 20,
+      "responsavel": "Leiliana",
+      "data": "2026-09-25",
+      "obs": "",
+      "criado_em": "2026-09-25 15:43:26",
+      "item": "Seringa 3ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 3047,
       "item_id": 102,
@@ -24434,21 +24449,6 @@
       "obs": "",
       "criado_em": "2026-09-17 13:59:01",
       "item": "Atadura crepon nº 10",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 2548,
-      "item_id": 102,
-      "produto_nome": "Seringa 5ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 60,
-      "responsavel": "Leiliana",
-      "data": "2026-09-17",
-      "obs": "",
-      "criado_em": "2026-09-17 13:58:48",
-      "item": "Seringa 5ml",
       "usuario": "Leiliana"
     }
   ]
