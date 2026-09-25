@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "25/09/2026 15:41:18",
+  "atualizado_em": "25/09/2026 15:41:28",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 114368,
-    "total_farmacia": 35380,
-    "total_geral": 149748,
+    "total_farmacia": 35373,
+    "total_geral": 149741,
     "perto_de_terminar": 35,
     "zerados": 9
   },
@@ -2388,19 +2388,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 127,
+      "farmacia": 120,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 127,
+      "total": 120,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-24 16:22:51",
+      "atualizado_em": "2026-09-25 15:41:27",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -2408,17 +2408,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 127
+          "quantidade": 120
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 181,
-      "previsao_20_dias": 181,
+      "minimo_alerta": 184,
+      "previsao_20_dias": 184,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 44,
-      "media_diaria_saida": 9.02,
-      "total_saida_historica": 397,
-      "cobertura_dias": 14.1,
+      "media_diaria_saida": 9.18,
+      "total_saida_historica": 404,
+      "cobertura_dias": 13.1,
       "alerta_estoque": true
     },
     {
@@ -16952,6 +16952,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 3039,
+      "item_id": 55,
+      "produto_nome": "Benzilpenicilina 1.200",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 7,
+      "responsavel": "Leiliana",
+      "data": "2026-09-25",
+      "obs": "",
+      "criado_em": "2026-09-25 15:41:27",
+      "item": "Benzilpenicilina 1.200",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 3038,
       "item_id": 68,
       "produto_nome": "Dexametasona",
@@ -24434,21 +24449,6 @@
       "obs": "",
       "criado_em": "2026-09-17 13:57:00",
       "item": "Agulha 40x12",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 2539,
-      "item_id": 377,
-      "produto_nome": "LORATADINA SUSPENSÃO",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 2,
-      "responsavel": "Leiliana",
-      "data": "2026-09-17",
-      "obs": "",
-      "criado_em": "2026-09-17 13:56:37",
-      "item": "LORATADINA SUSPENSÃO",
       "usuario": "Leiliana"
     }
   ]
