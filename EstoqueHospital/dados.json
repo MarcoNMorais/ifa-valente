@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "25/09/2026 10:39:53",
+  "atualizado_em": "25/09/2026 10:40:25",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
-    "total_almoxarifado": 115118,
-    "total_farmacia": 34654,
+    "total_almoxarifado": 115018,
+    "total_farmacia": 34754,
     "total_geral": 149772,
     "perto_de_terminar": 35,
     "zerados": 9
@@ -12825,8 +12825,8 @@
       "nome": "Seringa 1ml",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 1150,
-      "farmacia": 140,
+      "almoxarifado": 1050,
+      "farmacia": 240,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -12838,7 +12838,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-24 10:07:48",
+      "atualizado_em": "2026-09-25 10:40:24",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -12846,13 +12846,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 1150
+          "quantidade": 1050
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 140
+          "quantidade": 240
         }
       ],
       "minimo_manual": 0,
@@ -16951,6 +16951,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 3032,
+      "item_id": 157,
+      "produto_nome": "Seringa 1ml",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 100,
+      "responsavel": "Assucena",
+      "data": "2026-09-24",
+      "obs": "",
+      "criado_em": "2026-09-25 10:40:24",
+      "item": "Seringa 1ml",
+      "usuario": "Assucena"
+    },
     {
       "id": 3031,
       "item_id": 390,
@@ -24434,21 +24449,6 @@
       "obs": "",
       "criado_em": "2026-09-17 13:54:01",
       "item": "Cetoprofeno EV 100mg",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 2532,
-      "item_id": 61,
-      "produto_nome": "Cetoprofeno IM 50mg",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 30,
-      "responsavel": "Leiliana",
-      "data": "2026-09-17",
-      "obs": "",
-      "criado_em": "2026-09-17 13:53:45",
-      "item": "Cetoprofeno IM 50mg",
       "usuario": "Leiliana"
     }
   ]
