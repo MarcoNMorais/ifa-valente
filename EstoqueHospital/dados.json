@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "25/09/2026 10:40:50",
+  "atualizado_em": "25/09/2026 15:40:57",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 114368,
-    "total_farmacia": 35404,
-    "total_geral": 149772,
+    "total_farmacia": 35401,
+    "total_geral": 149769,
     "perto_de_terminar": 35,
     "zerados": 9
   },
@@ -5964,19 +5964,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 328,
-      "farmacia": 49,
+      "farmacia": 46,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 377,
+      "total": 374,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-25 10:32:41",
+      "atualizado_em": "2026-09-25 15:40:56",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -5990,17 +5990,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 51
+          "quantidade": 48
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 44,
-      "previsao_20_dias": 44,
+      "minimo_alerta": 46,
+      "previsao_20_dias": 46,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 39,
-      "media_diaria_saida": 2.18,
-      "total_saida_historica": 85,
-      "cobertura_dias": 173.0,
+      "media_diaria_saida": 2.26,
+      "total_saida_historica": 88,
+      "cobertura_dias": 165.8,
       "alerta_estoque": false
     },
     {
@@ -16952,6 +16952,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 3036,
+      "item_id": 276,
+      "produto_nome": "Esparadrapo 10x4,5",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 3,
+      "responsavel": "Leiliana",
+      "data": "2026-09-25",
+      "obs": "",
+      "criado_em": "2026-09-25 15:40:56",
+      "item": "Esparadrapo 10x4,5",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 3035,
       "item_id": 390,
       "produto_nome": "AGULHA  40X1,2",
@@ -24434,21 +24449,6 @@
       "obs": "",
       "criado_em": "2026-09-17 13:54:58",
       "item": "AGUA P/ INJ",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 2536,
-      "item_id": 239,
-      "produto_nome": "Tramadol 50mg/ml 2ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 20,
-      "responsavel": "Leiliana",
-      "data": "2026-09-17",
-      "obs": "",
-      "criado_em": "2026-09-17 13:54:35",
-      "item": "Tramadol 50mg/ml 2ml",
       "usuario": "Leiliana"
     }
   ]
