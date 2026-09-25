@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "25/09/2026 15:41:08",
+  "atualizado_em": "25/09/2026 15:41:18",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 114368,
-    "total_farmacia": 35400,
-    "total_geral": 149768,
+    "total_farmacia": 35380,
+    "total_geral": 149748,
     "perto_de_terminar": 35,
     "zerados": 9
   },
@@ -4613,19 +4613,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 1560,
+      "farmacia": 1540,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1560,
+      "total": 1540,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-24 16:22:41",
+      "atualizado_em": "2026-09-25 15:41:17",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -4633,17 +4633,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 1560
+          "quantidade": 1540
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 596,
-      "previsao_20_dias": 596,
+      "minimo_alerta": 605,
+      "previsao_20_dias": 605,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 44,
-      "media_diaria_saida": 29.77,
-      "total_saida_historica": 1310,
-      "cobertura_dias": 52.4,
+      "media_diaria_saida": 30.23,
+      "total_saida_historica": 1330,
+      "cobertura_dias": 50.9,
       "alerta_estoque": false
     },
     {
@@ -16952,6 +16952,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 3038,
+      "item_id": 68,
+      "produto_nome": "Dexametasona",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 20,
+      "responsavel": "Leiliana",
+      "data": "2026-09-25",
+      "obs": "",
+      "criado_em": "2026-09-25 15:41:17",
+      "item": "Dexametasona",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 3037,
       "item_id": 181,
       "produto_nome": "Luva de látex tam. M",
@@ -24434,21 +24449,6 @@
       "obs": "",
       "criado_em": "2026-09-17 13:56:37",
       "item": "LORATADINA SUSPENSÃO",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 2538,
-      "item_id": 286,
-      "produto_nome": "Agulha 40x12",
-      "tipo": "Almoxarifado para Farmácia",
-      "origem": "Almoxarifado",
-      "destino": "Farmácia",
-      "quantidade": 500,
-      "responsavel": "Leiliana",
-      "data": "2026-09-17",
-      "obs": "",
-      "criado_em": "2026-09-17 13:56:23",
-      "item": "Agulha 40x12",
       "usuario": "Leiliana"
     }
   ]
