@@ -3,13 +3,14 @@ from __future__ import annotations
 import csv
 import io
 import json
+import math
 import os
 import re
 import secrets
-import shutil
 import sqlite3
 import tempfile
 import zipfile
+from contextlib import closing
 from datetime import datetime
 from decimal import Decimal, ROUND_HALF_UP
 from functools import wraps
@@ -45,7 +46,7 @@ for folder in (DATA_DIR, AUTO_BACKUP_DIR, MANUAL_BACKUP_DIR):
 
 app = Flask(__name__)
 app.config.update(
-    SECRET_KEY=os.environ.get("SECRET_KEY", "troque-esta-chave-em-producao-ifa-valente-2026"),
+    SECRET_KEY=os.environ["SECRET_KEY"],
     MAX_CONTENT_LENGTH=25 * 1024 * 1024,
     SESSION_COOKIE_HTTPONLY=True,
     SESSION_COOKIE_SAMESITE="Lax",
@@ -303,12 +304,17 @@ def init_database() -> None:
         )
 
     if db.execute("SELECT COUNT(*) FROM users").fetchone()[0] == 0:
+        admin_password = os.environ.get("IFA_INITIAL_ADMIN_PASSWORD", "")
+        regulator_password = os.environ.get("IFA_INITIAL_REGULATOR_PASSWORD", "")
+        if min(len(admin_password), len(regulator_password)) < 8:
+            db.close()
+            raise RuntimeError("Banco novo: configure IFA_INITIAL_ADMIN_PASSWORD e IFA_INITIAL_REGULATOR_PASSWORD com pelo menos 8 caracteres. Contas existentes não são alteradas.")
         stamp = now_iso()
         db.executemany(
             "INSERT INTO users(name, username, password_hash, role, active, created_at, updated_at) VALUES(?,?,?,?,1,?,?)",
             [
-                ("Administrador IFA", "admin", generate_password_hash("Admin@2026"), "ADM", stamp, stamp),
-                ("Regulador IFA", "regulador", generate_password_hash("Regula@2026"), "REGULADOR", stamp, stamp),
+                ("Administrador IFA", "admin", generate_password_hash(admin_password), "ADM", stamp, stamp),
+                ("Regulador IFA", "regulador", generate_password_hash(regulator_password), "REGULADOR", stamp, stamp),
             ],
         )
 
@@ -378,6 +384,11 @@ def csrf_token() -> str:
 app.jinja_env.globals["csrf_token"] = csrf_token
 
 
+@app.context_processor
+def evaluation_defaults():
+    return {"current_competence": datetime.now().strftime("%Y-%m")}
+
+
 def validate_csrf() -> None:
     if request.method == "POST":
         token = request.form.get("csrf_token") or request.headers.get("X-CSRF-Token")
@@ -438,6 +449,17 @@ def normalize_number(value: str | None) -> float:
         return float(value)
     except (TypeError, ValueError):
         return 0.0
+
+
+def evaluation_number(value: str) -> float:
+    """Reject invalid input instead of silently recording it as zero."""
+    value = value.strip()
+    if "," in value:
+        value = value.replace(".", "").replace(",", ".")
+    number = float(value)
+    if not math.isfinite(number):
+        raise ValueError("Número inválido")
+    return number
 
 
 def format_competence(value: str) -> str:
@@ -1031,7 +1053,8 @@ def build_unit_indicator_matrix(start: str, end: str, unit_id: int | None = None
 
 def competence_options_for_years() -> list[dict[str, Any]]:
     current_year = datetime.now().year
-    years = sorted({2026, current_year, current_year + 1})
+    saved_years = {int(row[0]) for row in get_db().execute("SELECT DISTINCT substr(competence,1,4) FROM evaluations") if str(row[0]).isdigit()}
+    years = sorted({2026, current_year, current_year + 1} | saved_years)
     options: list[dict[str, Any]] = []
     for year in years:
         for month in range(1, 13):
@@ -1126,7 +1149,7 @@ def build_acs_annual_report(agent_id: int | None, year: int, salary_value: float
             applicable = is_indicator_applicable(agent["category"], int(indicator["order_index"]), month["value"])
             if leave_discarded and month["month"] != 12:
                 applicable = False
-            if leave_discarded and month["month"] == 12 and int(indicator["order_index"]) not in {2, 3}:
+            if leave_discarded and month["month"] == 12 and not (agent["category"] == "ACS" and int(indicator["order_index"]) in {2, 3}):
                 applicable = False
             row = values.get((indicator["id"], month["value"])) if applicable else None
             percentage = float(row["percentage"]) if row and row["percentage"] is not None else None
@@ -1149,8 +1172,9 @@ def build_acs_annual_report(agent_id: int | None, year: int, salary_value: float
                     "denominator": float(row["denominator"]) if row and row["denominator"] is not None else None,
                 }
             )
-        annual_average = round(sum(valid_percentages) / len(valid_percentages), 2) if valid_percentages else None
-        annual_points = float(score_for_percentage(annual_average)) if annual_average is not None else None
+        raw_annual_average = sum(valid_percentages) / len(valid_percentages) if valid_percentages else None
+        annual_average = round(raw_annual_average, 2) if raw_annual_average is not None else None
+        annual_points = float(score_for_percentage(raw_annual_average)) if raw_annual_average is not None else None
         if annual_points is not None:
             annual_indicator_points.append(annual_points)
         indicator_rows.append(
@@ -1177,7 +1201,7 @@ def build_acs_annual_report(agent_id: int | None, year: int, salary_value: float
         percentages = monthly_percent_values[month["value"]]
         total_score = round(sum(scores) * 10.0 / len(scores), 2) if scores else None
         avg_percentage = round(sum(percentages) / len(percentages), 2) if percentages else None
-        if leave_discarded and month["month"] != 12:
+        if leave_discarded and not scores:
             discarded_months += 1
             total_score = None
             avg_percentage = None
@@ -1199,11 +1223,11 @@ def build_acs_annual_report(agent_id: int | None, year: int, salary_value: float
     # Regra final do IFA no relatório anual:
     # 80% a 100% = 10 pontos; 70% a 79,99% = 7 pontos; abaixo de 70% = 5 pontos.
     # A média final é a soma dos pontos anuais de cada índice dividida pela quantidade
-    # de indicadores da categoria. Para ACS, normalmente são 10 índices.
-    annual_denominator = len(indicators) if indicators else 0
+    # de indicadores efetivamente preenchidos. Brancos não entram no divisor.
+    annual_denominator = len(annual_indicator_points)
     annual_points_average = round(sum(annual_indicator_points) / annual_denominator, 2) if annual_denominator and annual_indicator_points else None
-    receive_percentage = round(annual_points_average * 10, 2) if annual_points_average is not None else None
-    estimated_value = round((salary_value or 0) * (receive_percentage or 0) / 100, 2) if salary_value else None
+    receive_percentage = round(sum(annual_indicator_points) * 10 / annual_denominator, 2) if annual_denominator else None
+    estimated_value = round(salary_value * receive_percentage / 100, 2) if salary_value and receive_percentage is not None else None
     return {
         "agent": agent,
         "year": year,
@@ -1217,6 +1241,7 @@ def build_acs_annual_report(agent_id: int | None, year: int, salary_value: float
         "salary_value": salary_value,
         "estimated_value": estimated_value,
         "months_counted": len(valid_total_scores),
+        "indicators_counted": annual_denominator,
         "months_discarded": discarded_months,
     }
 
@@ -1363,7 +1388,8 @@ def avaliacoes():
 def load_evaluation_form(evaluation_id: int | None = None):
     db = get_db()
     agents = db.execute(
-        "SELECT a.id, a.full_name, a.category, a.microarea, u.name AS unit_name FROM agents a JOIN units u ON u.id=a.unit_id WHERE a.active=1 ORDER BY a.full_name"
+        "SELECT a.id, a.full_name, a.category, a.microarea, u.name AS unit_name FROM agents a JOIN units u ON u.id=a.unit_id WHERE a.active=1 OR a.id=(SELECT agent_id FROM evaluations WHERE id=?) ORDER BY a.full_name",
+        (evaluation_id,),
     ).fetchall()
     indicators = db.execute("SELECT * FROM indicators WHERE active=1 ORDER BY category, order_index").fetchall()
     evaluation = None
@@ -1381,6 +1407,11 @@ def load_evaluation_form(evaluation_id: int | None = None):
             }
     existing_competences = existing_competences_by_agent(evaluation_id)
     competence_options = competence_options_for_years()
+    if request.method == "POST":
+        evaluation = dict(request.form)
+        evaluation["agent_id"] = request.form.get("agent_id", type=int)
+        evaluation["id"] = evaluation_id
+        item_values = {ind["id"]: {"numerator": request.form.get(f"num_{ind['id']}", ""), "denominator": request.form.get(f"den_{ind['id']}", "")} for ind in indicators}
     return agents, indicators, evaluation, item_values, existing_competences, competence_options
 
 
@@ -1388,6 +1419,8 @@ def load_evaluation_form(evaluation_id: int | None = None):
 def save_evaluation(evaluation_id: int | None = None):
     validate_csrf()
     db = get_db()
+    if evaluation_id and not db.execute("SELECT id FROM evaluations WHERE id=?", (evaluation_id,)).fetchone():
+        abort(404)
     agent_id = request.form.get("agent_id", type=int)
     competence = request.form.get("competence", "").strip()
     notes = request.form.get("notes", "").strip()
@@ -1399,14 +1432,22 @@ def save_evaluation(evaluation_id: int | None = None):
     if leave_type and not leave_justification:
         flash("Quando marcar férias ou licença, informe a justificativa.", "danger")
         return None
-    proportional_factor = normalize_number(request.form.get("proportional_factor")) or 100
-    proportional_factor = max(1.0, min(proportional_factor, 100.0))
-    if not re.fullmatch(r"\d{4}-\d{2}", competence):
+    try:
+        proportional_factor = evaluation_number(request.form.get("proportional_factor", "100") or "100")
+        if not 1 <= proportional_factor <= 100:
+            raise ValueError()
+    except ValueError:
+        flash("Informe um fator proporcional entre 1 e 100.", "danger")
+        return None
+    if not re.fullmatch(r"\d{4}-(0[1-9]|1[0-2])", competence) or not 2020 <= int(competence[:4]) <= 2100:
         flash("Informe uma competência válida.", "danger")
         return None
     agent = db.execute("SELECT * FROM agents WHERE id=?", (agent_id,)).fetchone()
     if not agent:
         flash("Selecione um profissional válido.", "danger")
+        return None
+    if not agent["active"] and not (evaluation_id and db.execute("SELECT id FROM evaluations WHERE id=? AND agent_id=?", (evaluation_id, agent_id)).fetchone()):
+        flash("Selecione um profissional ativo.", "danger")
         return None
     try:
         competence_month = int(competence[-2:])
@@ -1427,15 +1468,28 @@ def save_evaluation(evaluation_id: int | None = None):
                 continue
         elif not is_indicator_applicable(agent["category"], order_index, competence):
             continue
-        numerator = normalize_number(request.form.get(f"num_{ind['id']}"))
-        denominator = normalize_number(request.form.get(f"den_{ind['id']}"))
-        if denominator <= 0:
-            flash(f"O denominador do indicador “{ind['name']}” deve ser maior que zero.", "danger")
+        raw_numerator = request.form.get(f"num_{ind['id']}", "").strip()
+        raw_denominator = request.form.get(f"den_{ind['id']}", "").strip()
+        if not raw_numerator and not raw_denominator:
+            continue
+        if not raw_numerator or not raw_denominator:
+            flash(f"Indicador “{ind['name']}”: preencha realizado e meta, ou deixe ambos em branco.", "danger")
+            return None
+        try:
+            numerator = evaluation_number(raw_numerator)
+            denominator = evaluation_number(raw_denominator)
+            if numerator < 0 or denominator <= 0:
+                raise ValueError()
+        except ValueError:
+            flash(f"Indicador “{ind['name']}”: informe realizado maior ou igual a zero e meta maior que zero, com números válidos.", "danger")
             return None
         adjusted_denominator = denominator * (proportional_factor / 100.0)
         percentage = max(0, min((numerator / adjusted_denominator) * 100, 100))
         score = score_for_percentage(percentage)
         items.append((ind["id"], numerator, denominator, percentage, score))
+    if not items and not leave_type:
+        flash("Preencha pelo menos um indicador. Os demais podem ficar em branco.", "danger")
+        return None
     stamp = now_iso()
     try:
         if evaluation_id:
@@ -1667,6 +1721,12 @@ def agente_editar(agent_id: int):
     if not full_name or not unit_id or category not in ("ACS", "ACE"):
         flash("Preencha nome, categoria e unidade.", "danger")
         return redirect(url_for("cadastro", tab="agentes"))
+    agent = get_db().execute("SELECT category FROM agents WHERE id=?", (agent_id,)).fetchone()
+    if not agent:
+        abort(404)
+    if category != agent["category"] and get_db().execute("SELECT 1 FROM evaluations WHERE agent_id=? LIMIT 1", (agent_id,)).fetchone():
+        flash("Não é possível mudar a categoria de um profissional com avaliações. Isso alteraria os indicadores do histórico.", "danger")
+        return redirect(url_for("cadastro", tab="agentes"))
     try:
         get_db().execute(
             """
@@ -1842,20 +1902,28 @@ def restaurar_backup():
     if not upload.filename.lower().endswith(".db"):
         flash("O arquivo de restauração deve ter extensão .db.", "danger")
         return redirect(url_for("administracao"))
-    temp = Path(tempfile.mkstemp(suffix=".db")[1])
+    descriptor, filename = tempfile.mkstemp(suffix=".db")
+    os.close(descriptor)
+    temp = Path(filename)
     try:
         upload.save(temp)
-        test = sqlite3.connect(temp)
-        required = {"users", "units", "agents", "indicators", "evaluations", "evaluation_items"}
-        existing = {r[0] for r in test.execute("SELECT name FROM sqlite_master WHERE type='table'").fetchall()}
-        test.close()
-        if not required.issubset(existing):
-            raise ValueError("Estrutura incompatível")
-        create_backup("manual")
-        close_db()
-        shutil.copy2(temp, DATABASE)
-        flash("Backup restaurado. Faça login novamente para atualizar a sessão.", "success")
+        with closing(sqlite3.connect(temp)) as source:
+            if source.execute("PRAGMA integrity_check").fetchone()[0] != "ok" or source.execute("PRAGMA foreign_key_check").fetchall():
+                raise ValueError("Banco inválido")
+            for table in ("users", "units", "agents", "indicators", "evaluations", "evaluation_items", "audit_log"):
+                required_columns = {row[1] for row in get_db().execute(f"PRAGMA table_info({table})")}
+                if table == "evaluations":
+                    required_columns -= {"leave_type", "leave_justification", "leave_discarded"}
+                existing_columns = {row[1] for row in source.execute(f"PRAGMA table_info({table})")}
+                if not required_columns.issubset(existing_columns):
+                    raise ValueError("Estrutura incompatível")
+            create_backup("manual")
+            close_db()
+            with closing(sqlite3.connect(DATABASE)) as destination:
+                source.backup(destination)
+        init_database()
         session.clear()
+        flash("Backup restaurado. Faça login novamente para atualizar a sessão.", "success")
         return redirect(url_for("index"))
     except Exception:
         flash("Não foi possível restaurar: arquivo inválido ou incompatível.", "danger")

@@ -35,6 +35,8 @@ O banco inicia sem profissionais e sem avaliações cadastradas.
 
 ## Como iniciar no Windows
 
+Defina `SECRET_KEY` no ambiente antes de iniciar. Somente para um banco novo e sem usuários, defina também `IFA_INITIAL_ADMIN_PASSWORD` e `IFA_INITIAL_REGULATOR_PASSWORD`, ambas com pelo menos 8 caracteres. Não existem senhas padrão no código. Bancos existentes conservam seus usuários e senhas sem exigir essas duas variáveis iniciais.
+
 1. Instale Python 3.11 ou superior.
 2. Dê dois cliques em `iniciar.bat`.
 3. O navegador abrirá em `http://127.0.0.1:5000/ifa`.
@@ -86,7 +88,13 @@ o banco do IFA nem o arquivo do CIS. Consulte
 - 70% a 79,99%: **7 pontos**
 - Abaixo de 70%: **5 pontos**
 
-O documento possui duas linhas com “<79%”, que se sobrepõem à faixa 70–79%. No sistema, essas linhas foram normalizadas para “<70%”, mantendo a regra consistente. A pontuação mensal do ACS soma 10 indicadores, total máximo de 100 pontos.
+O documento possui duas linhas com “<79%”, que se sobrepõem à faixa 70–79%. No sistema, essas linhas foram normalizadas para “<70%”, mantendo a regra consistente.
+
+Realizado e meta podem ficar **ambos em branco**: o indicador não entra nas médias. Realizado igual a **zero**, com meta positiva, é preenchimento válido e entra no cálculo. Preencher apenas um dos dois campos é rejeitado. Fora de férias/licença, deve haver pelo menos um indicador preenchido.
+
+A pontuação mensal é a soma dos pontos dividida pela quantidade de indicadores preenchidos, multiplicada por 10 (escala de 0 a 100). No relatório anual, cada indicador recebe a pontuação correspondente à média dos seus percentuais disponíveis; o resultado final considera somente os indicadores com dados. Meses e indicadores sem dados não viram zero. Índices ACS 2 e 3 continuam exclusivos de dezembro, inclusive em afastamento.
+
+Revisão e testes: [REVISÃO IFA — 25/09/2026](docs/REVISAO_IFA_2026-09-25.md).
 
 ## Segurança e auditoria
 

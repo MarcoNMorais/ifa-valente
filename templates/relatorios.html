@@ -39,14 +39,14 @@
   <article><small>Ano</small><strong>{{ year }}</strong></article>
   <article><small>Meses válidos na média</small><strong>{{ report.months_counted }}{% if report.months_discarded %} de 12{% endif %}</strong></article>
   <article><small>Percentual final pelos pesos</small><strong class="percent-text {% if report.receive_percentage is not none %}{{ 'good' if report.receive_percentage>=80 else 'mid' if report.receive_percentage>=70 else 'low' }}{% endif %}">{{ report.receive_percentage|percent2 if report.receive_percentage is not none else '—' }}%</strong>{% if report.annual_points_average is not none %}<span class="summary-subvalue">{{ report.annual_points_average|percent2 }} pts de 10</span>{% endif %}</article>
-  <article><small>Valor estimado</small><strong class="money-green">{% if report.estimated_value is not none %}R$ {{ '%.2f'|format(report.estimated_value) }}{% else %}Informe o salário{% endif %}</strong></article>
+  <article><small>Valor estimado</small><strong class="money-green">{% if report.estimated_value is not none %}R$ {{ '%.2f'|format(report.estimated_value) }}{% elif not report.salary_value %}Informe o salário{% else %}Sem indicadores avaliados{% endif %}</strong></article>
 </div>
 
 <article class="panel acs-annual-panel">
   <div class="panel-head">
     <div>
       <h2>Índices do ACS no ano</h2>
-      <p>Cada linha mostra a média anual do índice e o percentual mês a mês. Os índices 2 e 3 só ficam disponíveis na competência 12.</p>
+      <p>Cada linha mostra a média anual do índice e o percentual mês a mês. Os índices 2 e 3 só ficam disponíveis na competência 12. Campos em branco não entram nas médias. O cálculo final considera {{ report.indicators_counted }} indicador(es) com dados.</p>
     </div>
   </div>
   <div class="table-wrap acs-annual-wrap">

@@ -1,6 +1,6 @@
 {% extends "base.html" %}
-{% block title %}{{ 'Editar' if evaluation else 'Nova' }} Avaliação{% endblock %}
-{% block page_title %}{{ 'Editar avaliação' if evaluation else 'Nova avaliação' }}{% endblock %}
+{% block title %}{{ 'Editar' if evaluation and evaluation.id else 'Nova' }} Avaliação{% endblock %}
+{% block page_title %}{{ 'Editar avaliação' if evaluation and evaluation.id else 'Nova avaliação' }}{% endblock %}
 {% block page_subtitle %}Informe numerador e denominador; o percentual e a pontuação serão calculados automaticamente{% endblock %}
 {% block top_actions %}<a class="btn secondary" href="{{ url_for('avaliacoes') }}">← Voltar</a>{% endblock %}
 {% block content %}
@@ -18,7 +18,7 @@
         <select name="competence" id="competenceSelect" required onchange="updateAnnualIndicatorLocks(); updateLeaveState(); recalculateEvaluation();">
           <option value="">Selecione</option>
           {% for opt in competence_options %}
-            <option value="{{ opt.value }}" data-month="{{ opt.month }}" {% if evaluation and evaluation.competence==opt.value %}selected{% elif not evaluation and opt.value=='2026-07' %}selected{% endif %}>{{ opt.label }}</option>
+            <option value="{{ opt.value }}" data-month="{{ opt.month }}" {% if evaluation and evaluation.competence==opt.value %}selected{% elif not evaluation and opt.value==current_competence %}selected{% endif %}>{{ opt.label }}</option>
           {% endfor %}
         </select>
         <small>Competências já cadastradas para o mesmo ACS ficam bloqueadas automaticamente.</small>
@@ -27,7 +27,8 @@
       <label>Categoria<div class="readonly-field" id="categoryDisplay">Selecione o profissional</div></label>
     </div>
   </article>
-  <div class="section-title"><div><h2>Indicadores da avaliação</h2><p>Faixas: 80%–100% = 10 pontos; 70%–79,99% = 7; abaixo de 70% = 5. Índices 2 e 3 são anuais e só abrem na competência 12.</p></div><div class="live-total">Pontuação estimada <strong id="liveTotal">0</strong></div></div>
+  <div class="section-title"><div><h2>Indicadores da avaliação</h2><p>Faixas: 80%–100% = 10 pontos; 70%–79,99% = 7; abaixo de 70% = 5. Índices 2 e 3 são anuais e só abrem na competência 12.</p></div><div class="live-total">Pontuação estimada <strong id="liveTotal">—</strong><small id="liveCount"></small></div></div>
+  <p class="notice info">Preencha somente os indicadores avaliados. Para não incluir um indicador nas médias mensal e anual, deixe realizado e meta em branco. Zero realizado com meta preenchida entra na média. Preencha ao menos um indicador, exceto em férias ou licença.</p>
   <div class="indicator-list">
   {% for ind in indicators %}
     {% set val = item_values.get(ind.id, {}) %}
@@ -53,13 +54,12 @@
     <p class="leave-alert" id="leaveAlert">Com férias/licença marcada, esta competência será descartada da média anual. Na competência 12, os índices 2 e 3 continuam habilitados e entram na média geral.</p>
   </article>
   <article class="panel"><label>Observações<textarea name="notes" rows="4" placeholder="Registre justificativas, afastamentos, fontes ou observações da competência.">{{ evaluation.notes if evaluation else '' }}</textarea></label></article>
-  <div class="form-actions"><a class="btn secondary" href="{{ url_for('avaliacoes') }}">Cancelar</a><button class="btn primary large" type="submit">{{ 'Salvar alterações' if evaluation else 'Cadastrar avaliação' }}</button></div>
+  <div class="form-actions"><a class="btn secondary" href="{{ url_for('avaliacoes') }}">Cancelar</a><button class="btn primary large" type="submit">{{ 'Salvar alterações' if evaluation and evaluation.id else 'Cadastrar avaliação' }}</button></div>
 </form>
 {% endblock %}
 {% block scripts %}
 <script>
   window.EXISTING_COMPETENCES = {{ existing_competences|tojson }};
-  window.CURRENT_EVALUATION_COMPETENCE = {{ (evaluation.competence if evaluation else '')|tojson }};
 </script>
 <script>updateCompetenceAvailability(); updateIndicatorVisibility(); updateAnnualIndicatorLocks(); updateLeaveState(); initEvaluationCalculator();</script>
 {% endblock %}
