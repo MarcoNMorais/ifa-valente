@@ -31,7 +31,7 @@
     <div class="sidebar-footer">
       <div class="user-chip">
         <span class="avatar">{{ g.user.name[:1]|upper }}</span>
-        <span><strong>{{ g.user.name }}</strong><small>{{ 'Administrador' if g.user.role=='ADM' else 'Regulador' }}</small></span>
+        <span><strong>{{ g.user.name }}</strong><small>{{ 'Administrador' if g.user.role=='ADM' else 'Endemias' if endemias_only else 'Coordenador / Regulador' }}</small></span>
       </div>
       <a class="logout" href="{{ url_for('logout') }}">Sair do sistema</a>
     </div>
@@ -55,6 +55,12 @@
           </div>
         {% endif %}
       {% endwith %}
+      {% if request.endpoint in ['principal','cadastro','avaliacoes','avaliacao_nova','avaliacao_editar','avaliacao_detalhe','relatorios','criterios'] %}
+      <nav class="tabs no-print" aria-label="Categoria dos profissionais">
+        {% if not endemias_only %}<a class="tab-btn {% if current_category=='ACS' %}active{% endif %}" href="{{ url_for(request.endpoint if request.endpoint in ['principal','cadastro','avaliacoes','relatorios','criterios'] else 'avaliacoes', categoria='ACS') }}" {% if current_category=='ACS' %}aria-current="page"{% endif %}>Agentes Comunitários (ACS)</a>{% endif %}
+        <a class="tab-btn {% if current_category=='ACE' %}active{% endif %}" href="{{ url_for(request.endpoint if request.endpoint in ['principal','cadastro','avaliacoes','relatorios','criterios'] else 'avaliacoes', categoria='ACE') }}" {% if current_category=='ACE' %}aria-current="page"{% endif %}>Endemias (ACE)</a>
+      </nav>
+      {% endif %}
       {% block content %}{% endblock %}
     </section>
   </main>

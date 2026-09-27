@@ -5,7 +5,7 @@
 {% block top_actions %}<a class="btn primary" href="{{ url_for('avaliacao_nova') }}">+ Nova avaliação</a>{% endblock %}
 {% block content %}
 <div class="stats-grid">
-  <article class="stat-card"><span class="stat-icon blue">ACS</span><div><small>ACS ativos</small><strong>{{ cards.agents }}</strong><em>Profissionais cadastrados</em></div></article>
+  <article class="stat-card"><span class="stat-icon blue">{{ current_category }}</span><div><small>{{ category_label }} ativos</small><strong>{{ cards.agents }}</strong><em>Profissionais cadastrados</em></div></article>
   <article class="stat-card"><span class="stat-icon green">USF</span><div><small>Unidades ativas</small><strong>{{ cards.units }}</strong><em>Unidades de lotação</em></div></article>
   <article class="stat-card"><span class="stat-icon gold">AV</span><div><small>Avaliações em {{ year }}</small><strong>{{ cards.evaluations }}</strong><em>Competências registradas</em></div></article>
   <article class="stat-card"><span class="stat-icon teal">%</span><div><small>Pontuação média</small><strong>{{ cards.avg_score|percent2 }}</strong><em>Escala dos indicadores</em></div></article>

@@ -23,6 +23,7 @@ from flask import (
     abort,
     flash,
     g,
+    has_request_context,
     jsonify,
     redirect,
     render_template,
@@ -179,6 +180,18 @@ def init_database() -> None:
     db = sqlite3.connect(DATABASE)
     db.row_factory = sqlite3.Row
     db.execute("PRAGMA foreign_keys = ON")
+    # Additive migration: preserve existing users, passwords and references.
+    user_columns = {row[1] for row in db.execute("PRAGMA table_info(users)")}
+    if user_columns and "access_scope" not in user_columns:
+        migration_dir = DATABASE.parent / "backups" / "migrations"
+        migration_dir.mkdir(parents=True, exist_ok=True)
+        backup_path = migration_dir / f"before-endemias-{datetime.now():%Y%m%dT%H%M%S}-{secrets.token_hex(4)}.db"
+        with closing(sqlite3.connect(backup_path)) as backup:
+            db.backup(backup)
+            if backup.execute("PRAGMA integrity_check").fetchone()[0] != "ok":
+                raise RuntimeError("Falha ao validar backup anterior à atualização de perfis.")
+        db.execute("ALTER TABLE users ADD COLUMN access_scope TEXT NOT NULL DEFAULT 'TODOS' CHECK(access_scope IN ('TODOS','ACE'))")
+        db.commit()
     db.executescript(
         """
         CREATE TABLE IF NOT EXISTS users (
@@ -187,6 +200,7 @@ def init_database() -> None:
             username TEXT NOT NULL UNIQUE COLLATE NOCASE,
             password_hash TEXT NOT NULL,
             role TEXT NOT NULL CHECK(role IN ('ADM','REGULADOR')),
+            access_scope TEXT NOT NULL DEFAULT 'TODOS' CHECK(access_scope IN ('TODOS','ACE')),
             active INTEGER NOT NULL DEFAULT 1,
             created_at TEXT NOT NULL,
             updated_at TEXT NOT NULL
@@ -401,12 +415,87 @@ def load_logged_user() -> None:
     g.user = None
     if session.get("user_id"):
         g.user = get_db().execute(
-            "SELECT id, name, username, role, active FROM users WHERE id=?",
+            "SELECT id, name, username, role, access_scope, active FROM users WHERE id=?",
             (session["user_id"],),
         ).fetchone()
         if g.user is None or not g.user["active"]:
             session.clear()
             g.user = None
+
+    g.category = "ACS"
+    if g.user:
+        if g.user["access_scope"] == "ACE":
+            g.category = "ACE"
+        else:
+            requested = request.args.get("categoria")
+            if requested in ("ACS", "ACE"):
+                session["ifa_category"] = requested
+            g.category = session.get("ifa_category", "ACS")
+            if g.category not in ("ACS", "ACE"):
+                g.category = "ACS"
+
+
+def require_category(category: str) -> None:
+    if g.user and g.user["access_scope"] == "ACE" and category != "ACE":
+        abort(403)
+
+
+def require_agent(agent_id: int):
+    agent = get_db().execute("SELECT * FROM agents WHERE id=?", (agent_id,)).fetchone()
+    if not agent:
+        abort(404)
+    require_category(agent["category"])
+    return agent
+
+
+def require_evaluation(evaluation_id: int):
+    evaluation = get_db().execute("SELECT * FROM evaluations WHERE id=?", (evaluation_id,)).fetchone()
+    if not evaluation:
+        abort(404)
+    agent = require_agent(evaluation["agent_id"])
+    g.category = agent["category"]
+    return evaluation
+
+
+@app.url_defaults
+def keep_category(endpoint, values):
+    if has_request_context() and getattr(g, "user", None) and endpoint in {
+        "principal", "cadastro", "avaliacoes", "avaliacao_nova", "avaliacao_editar",
+        "avaliacao_detalhe", "relatorios", "relatorios_csv", "criterios",
+        "agente_novo", "agente_editar", "agente_excluir", "avaliacao_excluir",
+    }:
+        values.setdefault("categoria", g.category)
+
+
+@app.context_processor
+def category_context():
+    return {"current_category": getattr(g, "category", "ACS"),
+            "category_label": "Endemias (ACE)" if getattr(g, "category", "ACS") == "ACE" else "ACS",
+            "endemias_only": bool(getattr(g, "user", None) and g.user["access_scope"] == "ACE")}
+
+
+@app.before_request
+def enforce_ifa_scope():
+    if not g.user or not request.endpoint:
+        return
+    if g.user["access_scope"] == "ACE" and request.endpoint in {"unidade_nova", "unidade_editar", "unidade_excluir"}:
+        abort(403)
+    if request.endpoint in {"avaliacao_editar", "avaliacao_detalhe", "avaliacao_excluir"}:
+        require_evaluation(request.view_args["evaluation_id"])
+    if request.endpoint in {"agente_editar", "agente_excluir"}:
+        agent = require_agent(request.view_args["agent_id"])
+        g.category = agent["category"]
+    if request.endpoint in {"relatorios", "relatorios_csv"}:
+        agent_id = request.args.get("agente", type=int)
+        if agent_id:
+            agent = require_agent(agent_id)
+            g.category = agent["category"]
+    if request.endpoint in {"avaliacao_nova", "avaliacao_editar"} and request.method == "POST":
+        agent_id = request.form.get("agent_id", type=int)
+        if agent_id:
+            require_agent(agent_id)
+    if request.endpoint in {"agente_novo", "agente_editar"} and request.method == "POST":
+        require_category(request.form.get("category", "ACS"))
 
 
 @app.after_request
@@ -527,22 +616,23 @@ def logout():
 @login_required
 def principal():
     db = get_db()
+    category = g.category
     current_year = str(datetime.now().year)
     cards = {
-        "agents": db.execute("SELECT COUNT(*) FROM agents WHERE active=1 AND category='ACS'").fetchone()[0],
+        "agents": db.execute("SELECT COUNT(*) FROM agents WHERE active=1 AND category=?", (category,)).fetchone()[0],
         "units": db.execute("SELECT COUNT(*) FROM units WHERE active=1").fetchone()[0],
-        "evaluations": db.execute("SELECT COUNT(*) FROM evaluations WHERE substr(competence,1,4)=?", (current_year,)).fetchone()[0],
+        "evaluations": db.execute("SELECT COUNT(*) FROM evaluations e JOIN agents a ON a.id=e.agent_id WHERE substr(e.competence,1,4)=? AND a.category=?", (current_year, category)).fetchone()[0],
         "avg_score": db.execute(
             """
             SELECT COALESCE(AVG(total_score),0) FROM (
                 SELECT e.id, (SUM(i.score) * 10.0 / COUNT(i.id)) AS total_score
                 FROM evaluations e
                 JOIN evaluation_items i ON i.evaluation_id=e.id
-                WHERE substr(e.competence,1,4)=?
+                WHERE substr(e.competence,1,4)=? AND e.agent_id IN (SELECT id FROM agents WHERE category=?)
                 GROUP BY e.id
             )
             """,
-            (current_year,),
+            (current_year, category),
         ).fetchone()[0],
     }
     recent = db.execute(
@@ -554,10 +644,11 @@ def principal():
         JOIN agents a ON a.id=e.agent_id
         JOIN units u ON u.id=a.unit_id
         LEFT JOIN evaluation_items i ON i.evaluation_id=e.id
+        WHERE a.category=?
         GROUP BY e.id
         ORDER BY e.competence DESC, e.updated_at DESC
         LIMIT 8
-        """
+        """, (category,)
     ).fetchall()
     monthly = db.execute(
         """
@@ -567,10 +658,10 @@ def principal():
             SELECT evaluation_id, SUM(score) * 10.0 / COUNT(*) total_score
             FROM evaluation_items GROUP BY evaluation_id
         ) scores ON scores.evaluation_id=e.id
-        WHERE substr(e.competence,1,4)=?
+        WHERE substr(e.competence,1,4)=? AND e.agent_id IN (SELECT id FROM agents WHERE category=?)
         GROUP BY e.competence ORDER BY e.competence
         """,
-        (current_year,),
+        (current_year, category),
     ).fetchall()
     unit_ranking = db.execute(
         """
@@ -582,10 +673,10 @@ def principal():
             SELECT evaluation_id, SUM(score) * 10.0 / COUNT(*) total_score
             FROM evaluation_items GROUP BY evaluation_id
         ) scores ON scores.evaluation_id=e.id
-        WHERE substr(e.competence,1,4)=?
+        WHERE substr(e.competence,1,4)=? AND e.agent_id IN (SELECT id FROM agents WHERE category=?)
         GROUP BY u.id ORDER BY avg_score DESC LIMIT 6
         """,
-        (current_year,),
+        (current_year, category),
     ).fetchall()
     return render_template(
         "principal.html",
@@ -1053,7 +1144,7 @@ def build_unit_indicator_matrix(start: str, end: str, unit_id: int | None = None
 
 def competence_options_for_years() -> list[dict[str, Any]]:
     current_year = datetime.now().year
-    saved_years = {int(row[0]) for row in get_db().execute("SELECT DISTINCT substr(competence,1,4) FROM evaluations") if str(row[0]).isdigit()}
+    saved_years = {int(row[0]) for row in get_db().execute("SELECT DISTINCT substr(competence,1,4) FROM evaluations WHERE agent_id IN (SELECT id FROM agents WHERE category=?)", (g.category,)) if str(row[0]).isdigit()}
     years = sorted({2026, current_year, current_year + 1} | saved_years)
     options: list[dict[str, Any]] = []
     for year in years:
@@ -1065,10 +1156,10 @@ def competence_options_for_years() -> list[dict[str, Any]]:
 
 def existing_competences_by_agent(exclude_evaluation_id: int | None = None) -> dict[str, list[str]]:
     db = get_db()
-    params: list[Any] = []
-    where = ""
+    params: list[Any] = [g.category]
+    where = "WHERE agent_id IN (SELECT id FROM agents WHERE category=?)"
     if exclude_evaluation_id:
-        where = "WHERE id<>?"
+        where += " AND id<>?"
         params.append(exclude_evaluation_id)
     rows = db.execute(f"SELECT agent_id, competence FROM evaluations {where} ORDER BY competence", params).fetchall()
     result: dict[str, list[str]] = {}
@@ -1296,9 +1387,9 @@ def relatorios():
         SELECT a.id, a.full_name, a.category, u.name AS unit_name
         FROM agents a
         JOIN units u ON u.id=a.unit_id
-        WHERE a.active=1 AND a.category='ACS'
+        WHERE a.active=1 AND a.category=?
         ORDER BY a.full_name
-        """
+        """, (g.category,)
     ).fetchall()
     report = build_acs_annual_report(agent_id, year, salary_value)
     return render_template(
@@ -1323,9 +1414,9 @@ def relatorios_csv():
     report = build_acs_annual_report(agent_id, year, salary_value)
     output = io.StringIO()
     writer = csv.writer(output, delimiter=";")
-    writer.writerow(["Relatório anual por ACS", year])
+    writer.writerow([f"Relatório anual por {g.category}", year])
     if not report:
-        writer.writerow(["Selecione um ACS para gerar o relatório."])
+        writer.writerow([f"Selecione um {g.category} para gerar o relatório."])
     else:
         writer.writerow(["Profissional", report["agent"]["full_name"]])
         writer.writerow(["Unidade", report["agent"]["unit_name"]])
@@ -1352,7 +1443,7 @@ def relatorios_csv():
             total_line.append(item["score"] if item["score"] is not None else "")
         writer.writerow(total_line)
     data = "\ufeff" + output.getvalue()
-    filename = f"relatorio_acs_{year}.csv"
+    filename = f"relatorio_{g.category.lower()}_{year}.csv"
     return Response(data, mimetype="text/csv; charset=utf-8", headers={"Content-Disposition": f"attachment; filename={filename}"})
 
 @app.route("/ifa/avaliacoes")
@@ -1360,12 +1451,12 @@ def relatorios_csv():
 def avaliacoes():
     db = get_db()
     query = request.args.get("q", "").strip()
-    params: list[Any] = []
-    where = ""
+    params: list[Any] = [g.category]
+    where = "WHERE a.category=?"
     if query:
-        where = "WHERE a.full_name LIKE ? OR u.name LIKE ? OR e.competence LIKE ?"
+        where += " AND (a.full_name LIKE ? OR u.name LIKE ? OR e.competence LIKE ?)"
         term = f"%{query}%"
-        params = [term, term, term]
+        params += [term, term, term]
     rows = db.execute(
         f"""
         SELECT e.id, e.competence, e.updated_at, e.leave_type, a.full_name, a.category, u.name AS unit_name,
@@ -1388,10 +1479,10 @@ def avaliacoes():
 def load_evaluation_form(evaluation_id: int | None = None):
     db = get_db()
     agents = db.execute(
-        "SELECT a.id, a.full_name, a.category, a.microarea, u.name AS unit_name FROM agents a JOIN units u ON u.id=a.unit_id WHERE a.active=1 OR a.id=(SELECT agent_id FROM evaluations WHERE id=?) ORDER BY a.full_name",
-        (evaluation_id,),
+        "SELECT a.id, a.full_name, a.category, a.microarea, u.name AS unit_name FROM agents a JOIN units u ON u.id=a.unit_id WHERE a.category=? AND (a.active=1 OR a.id=(SELECT agent_id FROM evaluations WHERE id=?)) ORDER BY a.full_name",
+        (g.category, evaluation_id),
     ).fetchall()
-    indicators = db.execute("SELECT * FROM indicators WHERE active=1 ORDER BY category, order_index").fetchall()
+    indicators = db.execute("SELECT * FROM indicators WHERE active=1 AND category=? ORDER BY order_index", (g.category,)).fetchall()
     evaluation = None
     item_values: dict[int, dict[str, float]] = {}
     if evaluation_id:
@@ -1606,12 +1697,12 @@ def avaliacao_excluir(evaluation_id: int):
 def cadastro():
     db = get_db()
     units = db.execute(
-        "SELECT u.*, COUNT(a.id) AS agents_count FROM units u LEFT JOIN agents a ON a.unit_id=u.id GROUP BY u.id ORDER BY u.name"
+        "SELECT u.*, COUNT(a.id) AS agents_count FROM units u LEFT JOIN agents a ON a.unit_id=u.id AND a.category=? GROUP BY u.id ORDER BY u.name", (g.category,)
     ).fetchall()
     agents = db.execute(
-        "SELECT a.*, u.name AS unit_name FROM agents a JOIN units u ON u.id=a.unit_id ORDER BY a.full_name"
+        "SELECT a.*, u.name AS unit_name FROM agents a JOIN units u ON u.id=a.unit_id WHERE a.category=? ORDER BY a.full_name", (g.category,)
     ).fetchall()
-    return render_template("cadastro.html", units=units, agents=agents, tab=request.args.get("tab", "agentes"))
+    return render_template("cadastro.html", units=units, agents=agents, tab="agentes" if g.user["access_scope"] == "ACE" else request.args.get("tab", "agentes"))
 
 
 @app.route("/ifa/cadastro/unidade/nova", methods=["POST"])
@@ -1765,7 +1856,7 @@ def agente_excluir(agent_id: int):
 @app.route("/ifa/criterios")
 @login_required
 def criterios():
-    rows = get_db().execute("SELECT * FROM indicators WHERE active=1 ORDER BY category, order_index").fetchall()
+    rows = get_db().execute("SELECT * FROM indicators WHERE active=1 AND category=? ORDER BY order_index", (g.category,)).fetchall()
     return render_template("criterios.html", rows=rows)
 
 
@@ -1773,7 +1864,7 @@ def criterios():
 @admin_required
 def administracao():
     db = get_db()
-    users = db.execute("SELECT id,name,username,role,active,created_at,updated_at FROM users ORDER BY name").fetchall()
+    users = db.execute("SELECT id,name,username,role,access_scope,active,created_at,updated_at FROM users ORDER BY name").fetchall()
     logs = db.execute(
         "SELECT l.*, u.name AS user_name FROM audit_log l LEFT JOIN users u ON u.id=l.user_id ORDER BY l.id DESC LIMIT 80"
     ).fetchall()
@@ -1793,14 +1884,16 @@ def usuario_novo():
     username = request.form.get("username", "").strip()
     password = request.form.get("password", "")
     role = request.form.get("role", "REGULADOR")
+    access_scope = "ACE" if role == "ENDEMIAS" else "TODOS"
+    role = "REGULADOR" if role == "ENDEMIAS" else role
     if not name or not username or len(password) < 8 or role not in ("ADM", "REGULADOR"):
         flash("Preencha os campos. A senha deve ter pelo menos 8 caracteres.", "danger")
         return redirect(url_for("administracao"))
     stamp = now_iso()
     try:
         cur = get_db().execute(
-            "INSERT INTO users(name,username,password_hash,role,active,created_at,updated_at) VALUES(?,?,?,?,1,?,?)",
-            (name, username, generate_password_hash(password), role, stamp, stamp),
+            "INSERT INTO users(name,username,password_hash,role,access_scope,active,created_at,updated_at) VALUES(?,?,?,?,?,1,?,?)",
+            (name, username, generate_password_hash(password), role, access_scope, stamp, stamp),
         )
         audit("CRIAR", "USUARIO", cur.lastrowid, f"Usuário criado: {username} ({role}).")
         commit_with_backup()
@@ -1821,6 +1914,8 @@ def usuario_editar(user_id: int):
         abort(404)
     name = request.form.get("name", "").strip()
     role = request.form.get("role", "REGULADOR")
+    access_scope = "ACE" if role == "ENDEMIAS" else "TODOS"
+    role = "REGULADOR" if role == "ENDEMIAS" else role
     active = 1 if request.form.get("active") == "1" else 0
     password = request.form.get("password", "")
     if user_id == g.user["id"] and not active:
@@ -1839,9 +1934,9 @@ def usuario_editar(user_id: int):
         flash("A nova senha deve ter pelo menos 8 caracteres.", "danger")
         return redirect(url_for("administracao"))
     if password:
-        db.execute("UPDATE users SET name=?, role=?, active=?, password_hash=?, updated_at=? WHERE id=?", (name, role, active, generate_password_hash(password), now_iso(), user_id))
+        db.execute("UPDATE users SET name=?, role=?, access_scope=?, active=?, password_hash=?, updated_at=? WHERE id=?", (name, role, access_scope, active, generate_password_hash(password), now_iso(), user_id))
     else:
-        db.execute("UPDATE users SET name=?, role=?, active=?, updated_at=? WHERE id=?", (name, role, active, now_iso(), user_id))
+        db.execute("UPDATE users SET name=?, role=?, access_scope=?, active=?, updated_at=? WHERE id=?", (name, role, access_scope, active, now_iso(), user_id))
     audit("ALTERAR", "USUARIO", user_id, f"Usuário atualizado: {user['username']} ({role}).")
     commit_with_backup()
     flash("Perfil atualizado.", "success")
@@ -1912,6 +2007,8 @@ def restaurar_backup():
                 raise ValueError("Banco inválido")
             for table in ("users", "units", "agents", "indicators", "evaluations", "evaluation_items", "audit_log"):
                 required_columns = {row[1] for row in get_db().execute(f"PRAGMA table_info({table})")}
+                if table == "users":
+                    required_columns -= {"access_scope"}
                 if table == "evaluations":
                     required_columns -= {"leave_type", "leave_justification", "leave_discarded"}
                 existing_columns = {row[1] for row in source.execute(f"PRAGMA table_info({table})")}
@@ -1937,11 +2034,17 @@ def restaurar_backup():
 def api_indicators(category: str):
     if category not in ("ACS", "ACE"):
         return jsonify([])
+    require_category(category)
     rows = get_db().execute(
         "SELECT id, code, name, description, order_index FROM indicators WHERE category=? AND active=1 ORDER BY order_index",
         (category,),
     ).fetchall()
     return jsonify([dict(row) for row in rows])
+
+
+@app.errorhandler(403)
+def forbidden(_):
+    return render_template("error.html", code=403, title="Acesso não permitido", message="Seu perfil não tem acesso a estes dados."), 403
 
 
 @app.errorhandler(400)

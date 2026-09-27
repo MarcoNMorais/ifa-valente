@@ -1,14 +1,14 @@
 {% extends "base.html" %}
 {% block title %}Relatórios{% endblock %}
-{% block page_title %}Relatório por ACS{% endblock %}
-{% block page_subtitle %}Busca simples por ACS, com média anual e evolução mês a mês por índice{% endblock %}
+{% block page_title %}Relatório por {{ category_label }}{% endblock %}
+{% block page_subtitle %}Busca simples por {{ category_label }}, com média anual e evolução mês a mês por índice{% endblock %}
 {% block top_actions %}<button class="btn secondary" onclick="window.print()">Imprimir</button><a class="btn primary" href="{{ url_for('relatorios_csv', **request.args) }}">Exportar CSV</a>{% endblock %}
 {% block content %}
 <article class="panel filter-panel no-print">
-  <form class="filter-grid acs-report-filter" method="get">
-    <label>ACS
+  <form class="filter-grid acs-report-filter" method="get"><input type="hidden" name="categoria" value="{{ current_category }}">
+    <label>{{ category_label }}
       <select name="agente" required>
-        <option value="">Selecione o ACS</option>
+        <option value="">Selecione o {{ category_label }}</option>
         {% for a in agents %}
           <option value="{{ a.id }}" {% if selected_agent==a.id %}selected{% endif %}>{{ a.full_name }} — {{ a.unit_name }}</option>
         {% endfor %}
@@ -20,20 +20,20 @@
     <label>Salário/base para simular o valor
       <input type="text" name="salario" value="{{ salary_text }}" placeholder="Ex.: 3036,00">
     </label>
-    <button class="btn primary" type="submit">Buscar ACS</button>
+    <button class="btn primary" type="submit">Buscar {{ category_label }}</button>
   </form>
 </article>
 
 {% if not report %}
 <article class="panel empty-state">
-  <h2>Selecione um ACS</h2>
+  <h2>Selecione um {{ category_label }}</h2>
   <p>Escolha o profissional e o ano para visualizar os índices, médias mensais e percentual final.</p>
 </article>
 {% else %}
-<div class="report-heading print-only"><img src="{{ url_for('static', filename='img/logo_valente_saude.png') }}"><h1>Relatório anual por ACS</h1><p>{{ report.agent.full_name }} — {{ year }}</p></div>
+<div class="report-heading print-only"><img src="{{ url_for('static', filename='img/logo_valente_saude.png') }}"><h1>Relatório anual por {{ category_label }}</h1><p>{{ report.agent.full_name }} — {{ year }}</p></div>
 
 <div class="summary-grid acs-summary-grid">
-  <article><small>ACS</small><strong>{{ report.agent.full_name }}</strong></article>
+  <article><small>{{ category_label }}</small><strong>{{ report.agent.full_name }}</strong></article>
   <article><small>Unidade</small><strong>{{ report.agent.unit_name }}</strong></article>
   <article><small>Microárea</small><strong>{{ report.agent.microarea or '—' }}</strong></article>
   <article><small>Ano</small><strong>{{ year }}</strong></article>
@@ -45,7 +45,7 @@
 <article class="panel acs-annual-panel">
   <div class="panel-head">
     <div>
-      <h2>Índices do ACS no ano</h2>
+      <h2>Índices do {{ category_label }} no ano</h2>
       <p>Cada linha mostra a média anual do índice e o percentual mês a mês. Os índices 2 e 3 só ficam disponíveis na competência 12. Campos em branco não entram nas médias. O cálculo final considera {{ report.indicators_counted }} indicador(es) com dados.</p>
     </div>
   </div>

@@ -22,7 +22,7 @@
       <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
       <div class="login-mark">IFA</div>
       <h2>Acesso ao sistema</h2>
-      <p>Entre com seu perfil de Administrador ou Regulador.</p>
+      <p>Entre com seu perfil de Administrador, Coordenador / Regulador ou Endemias.</p>
       {% with messages = get_flashed_messages(with_categories=true) %}
         {% for category, message in messages %}<div class="flash {{ category }}"><span>{{ message }}</span></div>{% endfor %}
       {% endwith %}
