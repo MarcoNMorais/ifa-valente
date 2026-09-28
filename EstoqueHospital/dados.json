@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "28/09/2026 11:18:19",
+  "atualizado_em": "28/09/2026 11:18:25",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 112572,
-    "total_farmacia": 35043,
-    "total_geral": 147615,
+    "total_farmacia": 35031,
+    "total_geral": 147603,
     "perto_de_terminar": 35,
     "zerados": 9
   },
@@ -1660,19 +1660,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 444,
-      "farmacia": 36,
+      "farmacia": 24,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 480,
+      "total": 468,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-16 10:32:27",
+      "atualizado_em": "2026-09-28 11:18:24",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -1686,17 +1686,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 36
+          "quantidade": 24
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 16,
-      "previsao_20_dias": 16,
+      "minimo_alerta": 21,
+      "previsao_20_dias": 21,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 47,
-      "media_diaria_saida": 0.77,
-      "total_saida_historica": 36,
-      "cobertura_dias": 626.7,
+      "media_diaria_saida": 1.02,
+      "total_saida_historica": 48,
+      "cobertura_dias": 458.3,
       "alerta_estoque": false
     },
     {
@@ -16940,6 +16940,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 3153,
+      "item_id": 153,
+      "produto_nome": "Atadura crepon nº 20",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 12,
+      "responsavel": "Assucena",
+      "data": "2026-09-28",
+      "obs": "",
+      "criado_em": "2026-09-28 11:18:24",
+      "item": "Atadura crepon nº 20",
+      "usuario": "Assucena"
+    },
+    {
       "id": 3152,
       "item_id": 151,
       "produto_nome": "Atadura crepon nº 15",
@@ -24422,21 +24437,6 @@
       "obs": "",
       "criado_em": "2026-09-21 11:01:57",
       "item": "Esparadrapo 10x4,5",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2653,
-      "item_id": 376,
-      "produto_nome": "LENÇOL DESCARTAVEL PAPEL",
-      "tipo": "Almoxarifado para Farmácia",
-      "origem": "Almoxarifado",
-      "destino": "Farmácia",
-      "quantidade": 16,
-      "responsavel": "Assucena",
-      "data": "2026-09-18",
-      "obs": "",
-      "criado_em": "2026-09-21 11:01:48",
-      "item": "LENÇOL DESCARTAVEL PAPEL",
       "usuario": "Assucena"
     }
   ]
