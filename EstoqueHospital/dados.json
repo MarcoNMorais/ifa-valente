@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "28/09/2026 10:47:39",
+  "atualizado_em": "28/09/2026 10:47:47",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 113736,
-    "total_farmacia": 35679,
-    "total_geral": 149415,
+    "total_farmacia": 35659,
+    "total_geral": 149395,
     "perto_de_terminar": 34,
     "zerados": 9
   },
@@ -12648,19 +12648,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 920,
-      "farmacia": 77,
+      "farmacia": 57,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 997,
+      "total": 977,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-24 09:51:33",
+      "atualizado_em": "2026-09-28 10:47:46",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -12674,17 +12674,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 77
+          "quantidade": 57
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 115,
-      "previsao_20_dias": 115,
+      "minimo_alerta": 123,
+      "previsao_20_dias": 123,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 47,
-      "media_diaria_saida": 5.72,
-      "total_saida_historica": 269,
-      "cobertura_dias": 174.2,
+      "media_diaria_saida": 6.15,
+      "total_saida_historica": 289,
+      "cobertura_dias": 158.9,
       "alerta_estoque": false
     },
     {
@@ -16951,6 +16951,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 3059,
+      "item_id": 99,
+      "produto_nome": "Scalp nº 21",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 20,
+      "responsavel": "Assucena",
+      "data": "2026-09-26",
+      "obs": "",
+      "criado_em": "2026-09-28 10:47:46",
+      "item": "Scalp nº 21",
+      "usuario": "Assucena"
+    },
     {
       "id": 3058,
       "item_id": 176,
@@ -24434,21 +24449,6 @@
       "obs": "",
       "criado_em": "2026-09-17 14:01:47",
       "item": "Atadura crepon nº 10",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 2559,
-      "item_id": 290,
-      "produto_nome": "Metronidazol 100ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 5,
-      "responsavel": "Leiliana",
-      "data": "2026-09-17",
-      "obs": "",
-      "criado_em": "2026-09-17 14:01:28",
-      "item": "Metronidazol 100ml",
       "usuario": "Leiliana"
     }
   ]
