@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "28/09/2026 10:46:54",
+  "atualizado_em": "28/09/2026 10:47:16",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
-    "total_almoxarifado": 114236,
-    "total_farmacia": 35274,
+    "total_almoxarifado": 113736,
+    "total_farmacia": 35774,
     "total_geral": 149510,
     "perto_de_terminar": 34,
     "zerados": 9
@@ -658,8 +658,8 @@
       "nome": "Agulha 25x8",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 5000,
-      "farmacia": 20,
+      "almoxarifado": 4500,
+      "farmacia": 520,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -671,7 +671,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-22 10:24:21",
+      "atualizado_em": "2026-09-28 10:47:15",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -679,13 +679,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 5000
+          "quantidade": 4500
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 20
+          "quantidade": 520
         }
       ],
       "minimo_manual": 0,
@@ -16967,6 +16967,21 @@
       "usuario": "Assucena"
     },
     {
+      "id": 3055,
+      "item_id": 289,
+      "produto_nome": "Agulha 25x8",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 500,
+      "responsavel": "Assucena",
+      "data": "2026-09-25",
+      "obs": "",
+      "criado_em": "2026-09-28 10:47:15",
+      "item": "Agulha 25x8",
+      "usuario": "Assucena"
+    },
+    {
       "id": 3053,
       "item_id": 195,
       "produto_nome": "Tira Reagente G-Tech",
@@ -24434,21 +24449,6 @@
       "obs": "",
       "criado_em": "2026-09-17 14:00:45",
       "item": "Lençol descartável papel",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 2555,
-      "item_id": 276,
-      "produto_nome": "Esparadrapo 10x4,5",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 2,
-      "responsavel": "Leiliana",
-      "data": "2026-09-17",
-      "obs": "",
-      "criado_em": "2026-09-17 14:00:19",
-      "item": "Esparadrapo 10x4,5",
       "usuario": "Leiliana"
     }
   ]
