@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "28/09/2026 10:51:11",
+  "atualizado_em": "28/09/2026 10:51:31",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
-    "total_almoxarifado": 113736,
-    "total_farmacia": 35405,
+    "total_almoxarifado": 113696,
+    "total_farmacia": 35445,
     "total_geral": 149141,
     "perto_de_terminar": 34,
     "zerados": 9
@@ -12153,8 +12153,8 @@
       "nome": "Polifix",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 2600,
-      "farmacia": 0,
+      "almoxarifado": 2560,
+      "farmacia": 40,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -12166,7 +12166,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-24 10:07:40",
+      "atualizado_em": "2026-09-28 10:51:30",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -12174,7 +12174,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 2600
+          "quantidade": 2560
+        },
+        {
+          "local": "farmacia",
+          "validade": "",
+          "lote": "",
+          "quantidade": 40
         }
       ],
       "minimo_manual": 0,
@@ -17282,6 +17288,21 @@
       "obs": "",
       "criado_em": "2026-09-28 10:46:53",
       "item": "AGULHA  40X1,2",
+      "usuario": "Assucena"
+    },
+    {
+      "id": 3078,
+      "item_id": 329,
+      "produto_nome": "Polifix",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 40,
+      "responsavel": "Assucena",
+      "data": "2026-09-25",
+      "obs": "",
+      "criado_em": "2026-09-28 10:51:30",
+      "item": "Polifix",
       "usuario": "Assucena"
     },
     {
@@ -24422,21 +24443,6 @@
       "obs": "",
       "criado_em": "2026-09-17 16:29:10",
       "item": "Seringa 10ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 2578,
-      "item_id": 274,
-      "produto_nome": "Seringa 20ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 20,
-      "responsavel": "Leiliana",
-      "data": "2026-09-17",
-      "obs": "",
-      "criado_em": "2026-09-17 16:29:03",
-      "item": "Seringa 20ml",
       "usuario": "Leiliana"
     }
   ]
