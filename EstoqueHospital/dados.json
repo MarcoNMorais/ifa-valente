@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "28/09/2026 11:10:45",
+  "atualizado_em": "28/09/2026 11:11:15",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
-    "total_almoxarifado": 113322,
+    "total_almoxarifado": 113348,
     "total_farmacia": 34765,
-    "total_geral": 148087,
+    "total_geral": 148113,
     "perto_de_terminar": 34,
     "zerados": 9
   },
@@ -3403,23 +3403,29 @@
       "nome": "Cetoprofeno EV 100mg",
       "tipo": "Medicamento",
       "unidade": "Unidade",
-      "almoxarifado": 0,
+      "almoxarifado": 26,
       "farmacia": 184,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 184,
+      "total": 210,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
-      "obs": "",
-      "atualizado_em": "2026-09-28 10:56:45",
+      "obs": "trooca com postinho cidade nova",
+      "atualizado_em": "2026-09-28 11:11:14",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
+        {
+          "local": "almoxarifado",
+          "validade": "",
+          "lote": "",
+          "quantidade": 26
+        },
         {
           "local": "farmacia",
           "validade": "",
@@ -3434,7 +3440,7 @@
       "dias_historico": 47,
       "media_diaria_saida": 11.62,
       "total_saida_historica": 546,
-      "cobertura_dias": 15.8,
+      "cobertura_dias": 18.1,
       "alerta_estoque": true
     },
     {
@@ -17885,6 +17891,21 @@
       "usuario": "Assucena"
     },
     {
+      "id": 3124,
+      "item_id": 60,
+      "produto_nome": "Cetoprofeno EV 100mg",
+      "tipo": "Entrada no Almoxarifado",
+      "origem": "Entrada externa",
+      "destino": "Almoxarifado",
+      "quantidade": 26,
+      "responsavel": "Assucena",
+      "data": "2026-09-25",
+      "obs": "trooca com postinho cidade nova",
+      "criado_em": "2026-09-28 11:11:14",
+      "item": "Cetoprofeno EV 100mg",
+      "usuario": "Assucena"
+    },
+    {
       "id": 3123,
       "item_id": 385,
       "produto_nome": "LIDOCAINA S/ VASO",
@@ -24422,21 +24443,6 @@
       "obs": "",
       "criado_em": "2026-09-18 11:18:42",
       "item": "Equipo macrogotas",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2624,
-      "item_id": 157,
-      "produto_nome": "Seringa 1ml",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 20,
-      "responsavel": "Assucena",
-      "data": "2026-09-17",
-      "obs": "",
-      "criado_em": "2026-09-18 11:18:30",
-      "item": "Seringa 1ml",
       "usuario": "Assucena"
     }
   ]
