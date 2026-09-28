@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "28/09/2026 11:40:51",
+  "atualizado_em": "28/09/2026 11:40:58",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 112557,
-    "total_farmacia": 34931,
-    "total_geral": 147488,
+    "total_farmacia": 34930,
+    "total_geral": 147487,
     "perto_de_terminar": 36,
     "zerados": 9
   },
@@ -12200,19 +12200,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 16,
-      "farmacia": 3,
+      "farmacia": 2,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 19,
+      "total": 18,
       "minimo": 0,
       "validade": "03/28",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-21 11:09:36",
+      "atualizado_em": "2026-09-28 11:40:56",
       "validade_mais_proxima": "03/28",
       "vencimento_mais_proximo": "03/28",
       "lotes_validade": [
@@ -12220,7 +12220,7 @@
           "local": "farmacia",
           "validade": "03/28",
           "lote": "",
-          "quantidade": 3
+          "quantidade": 2
         },
         {
           "local": "almoxarifado",
@@ -12234,9 +12234,9 @@
       "previsao_20_dias": 5,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 46,
-      "media_diaria_saida": 0.22,
-      "total_saida_historica": 10,
-      "cobertura_dias": 87.4,
+      "media_diaria_saida": 0.24,
+      "total_saida_historica": 11,
+      "cobertura_dias": 75.3,
       "alerta_estoque": false
     },
     {
@@ -16945,6 +16945,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 3173,
+      "item_id": 249,
+      "produto_nome": "Prednisolona 3mg/ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 1,
+      "responsavel": "Assucena",
+      "data": "2026-09-28",
+      "obs": "",
+      "criado_em": "2026-09-28 11:40:56",
+      "item": "Prednisolona 3mg/ml",
+      "usuario": "Assucena"
+    },
     {
       "id": 3172,
       "item_id": 377,
@@ -24428,21 +24443,6 @@
       "obs": "",
       "criado_em": "2026-09-21 11:05:11",
       "item": "Agulha 25x8",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2670,
-      "item_id": 331,
-      "produto_nome": "Agulha 30x8",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 40,
-      "responsavel": "Assucena",
-      "data": "2026-09-19",
-      "obs": "",
-      "criado_em": "2026-09-21 11:05:00",
-      "item": "Agulha 30x8",
       "usuario": "Assucena"
     }
   ]
