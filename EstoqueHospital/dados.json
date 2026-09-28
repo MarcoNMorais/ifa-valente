@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "28/09/2026 11:16:05",
+  "atualizado_em": "28/09/2026 11:16:27",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 113322,
-    "total_farmacia": 34550,
-    "total_geral": 147872,
+    "total_farmacia": 34500,
+    "total_geral": 147822,
     "perto_de_terminar": 35,
     "zerados": 9
   },
@@ -481,19 +481,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 5800,
-      "farmacia": 555,
+      "farmacia": 505,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 6355,
+      "total": 6305,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-28 10:51:56",
+      "atualizado_em": "2026-09-28 11:16:26",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -507,17 +507,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 555
+          "quantidade": 505
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 1316,
-      "previsao_20_dias": 1316,
+      "minimo_alerta": 1356,
+      "previsao_20_dias": 1356,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 25,
-      "media_diaria_saida": 65.8,
-      "total_saida_historica": 1645,
-      "cobertura_dias": 96.6,
+      "media_diaria_saida": 67.8,
+      "total_saida_historica": 1695,
+      "cobertura_dias": 93.0,
       "alerta_estoque": false
     },
     {
@@ -16940,6 +16940,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 3139,
+      "item_id": 390,
+      "produto_nome": "AGULHA  40X1,2",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 50,
+      "responsavel": "Assucena",
+      "data": "2026-09-28",
+      "obs": "",
+      "criado_em": "2026-09-28 11:16:26",
+      "item": "AGULHA  40X1,2",
+      "usuario": "Assucena"
+    },
+    {
       "id": 3138,
       "item_id": 202,
       "produto_nome": "Soro fisiológico 100ml",
@@ -24422,21 +24437,6 @@
       "obs": "",
       "criado_em": "2026-09-18 15:35:00",
       "item": "Agulha 25x8",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 2639,
-      "item_id": 60,
-      "produto_nome": "Cetoprofeno EV 100mg",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 18,
-      "responsavel": "Leiliana",
-      "data": "2026-09-18",
-      "obs": "",
-      "criado_em": "2026-09-18 15:34:47",
-      "item": "Cetoprofeno EV 100mg",
       "usuario": "Leiliana"
     }
   ]
