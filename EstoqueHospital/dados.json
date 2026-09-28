@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "28/09/2026 11:13:02",
+  "atualizado_em": "28/09/2026 11:13:10",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 113322,
-    "total_farmacia": 34721,
-    "total_geral": 148043,
+    "total_farmacia": 34691,
+    "total_geral": 148013,
     "perto_de_terminar": 34,
     "zerados": 9
   },
@@ -4600,19 +4600,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 1510,
+      "farmacia": 1480,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1510,
+      "total": 1480,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-28 10:57:21",
+      "atualizado_em": "2026-09-28 11:13:09",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -4620,17 +4620,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 1510
+          "quantidade": 1480
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 579,
-      "previsao_20_dias": 579,
+      "minimo_alerta": 592,
+      "previsao_20_dias": 592,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 47,
-      "media_diaria_saida": 28.94,
-      "total_saida_historica": 1360,
-      "cobertura_dias": 52.2,
+      "media_diaria_saida": 29.57,
+      "total_saida_historica": 1390,
+      "cobertura_dias": 50.0,
       "alerta_estoque": false
     },
     {
@@ -16940,6 +16940,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 3130,
+      "item_id": 68,
+      "produto_nome": "Dexametasona",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 30,
+      "responsavel": "Assucena",
+      "data": "2026-09-28",
+      "obs": "",
+      "criado_em": "2026-09-28 11:13:09",
+      "item": "Dexametasona",
+      "usuario": "Assucena"
+    },
+    {
       "id": 3129,
       "item_id": 69,
       "produto_nome": "Diclofenaco 25mg",
@@ -24422,21 +24437,6 @@
       "obs": "",
       "criado_em": "2026-09-18 11:19:32",
       "item": "Caixa de perfurocortante",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2630,
-      "item_id": 291,
-      "produto_nome": "Cateter tipo óculos adulto",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 10,
-      "responsavel": "Assucena",
-      "data": "2026-09-17",
-      "obs": "",
-      "criado_em": "2026-09-18 11:19:24",
-      "item": "Cateter tipo óculos adulto",
       "usuario": "Assucena"
     }
   ]
