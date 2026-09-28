@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "28/09/2026 11:16:35",
+  "atualizado_em": "28/09/2026 11:16:47",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 113322,
-    "total_farmacia": 34450,
-    "total_geral": 147772,
+    "total_farmacia": 34430,
+    "total_geral": 147752,
     "perto_de_terminar": 35,
     "zerados": 9
   },
@@ -751,19 +751,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 16200,
-      "farmacia": 190,
+      "farmacia": 170,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 16390,
+      "total": 16370,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga Almoxerifado",
       "obs": "Importação Almoxerifado",
-      "atualizado_em": "2026-09-28 10:52:16",
+      "atualizado_em": "2026-09-28 11:16:46",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -777,17 +777,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 190
+          "quantidade": 170
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 386,
-      "previsao_20_dias": 386,
+      "minimo_alerta": 396,
+      "previsao_20_dias": 396,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 42,
-      "media_diaria_saida": 19.29,
-      "total_saida_historica": 810,
-      "cobertura_dias": 849.9,
+      "media_diaria_saida": 19.76,
+      "total_saida_historica": 830,
+      "cobertura_dias": 828.4,
       "alerta_estoque": false
     },
     {
@@ -16940,6 +16940,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 3141,
+      "item_id": 331,
+      "produto_nome": "Agulha 30x8",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 20,
+      "responsavel": "Assucena",
+      "data": "2026-09-28",
+      "obs": "",
+      "criado_em": "2026-09-28 11:16:46",
+      "item": "Agulha 30x8",
+      "usuario": "Assucena"
+    },
+    {
       "id": 3140,
       "item_id": 390,
       "produto_nome": "AGULHA  40X1,2",
@@ -24422,21 +24437,6 @@
       "obs": "",
       "criado_em": "2026-09-18 15:35:20",
       "item": "Agulha 30x8",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 2641,
-      "item_id": 285,
-      "produto_nome": "Agulha 30x7",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 20,
-      "responsavel": "Leiliana",
-      "data": "2026-09-18",
-      "obs": "",
-      "criado_em": "2026-09-18 15:35:10",
-      "item": "Agulha 30x7",
       "usuario": "Leiliana"
     }
   ]
