@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "28/09/2026 10:51:57",
+  "atualizado_em": "28/09/2026 10:52:07",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 113696,
-    "total_farmacia": 35280,
-    "total_geral": 148976,
+    "total_farmacia": 35220,
+    "total_geral": 148916,
     "perto_de_terminar": 34,
     "zerados": 9
   },
@@ -705,19 +705,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 15600,
-      "farmacia": 340,
+      "farmacia": 280,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 15940,
+      "total": 15880,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-25 15:42:08",
+      "atualizado_em": "2026-09-28 10:52:06",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -731,17 +731,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 340
+          "quantidade": 280
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 410,
-      "previsao_20_dias": 410,
+      "minimo_alerta": 439,
+      "previsao_20_dias": 439,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 42,
-      "media_diaria_saida": 20.48,
-      "total_saida_historica": 860,
-      "cobertura_dias": 778.5,
+      "media_diaria_saida": 21.9,
+      "total_saida_historica": 920,
+      "cobertura_dias": 725.0,
       "alerta_estoque": false
     },
     {
@@ -16946,6 +16946,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 3082,
+      "item_id": 285,
+      "produto_nome": "Agulha 30x7",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 60,
+      "responsavel": "Assucena",
+      "data": "2026-09-27",
+      "obs": "",
+      "criado_em": "2026-09-28 10:52:06",
+      "item": "Agulha 30x7",
+      "usuario": "Assucena"
+    },
+    {
       "id": 3081,
       "item_id": 390,
       "produto_nome": "AGULHA  40X1,2",
@@ -24427,21 +24442,6 @@
       "data": "2026-09-17",
       "obs": "",
       "criado_em": "2026-09-17 16:30:06",
-      "item": "Soro fisiológico 100ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 2582,
-      "item_id": 202,
-      "produto_nome": "Soro fisiológico 100ml",
-      "tipo": "Almoxarifado para Farmácia",
-      "origem": "Almoxarifado",
-      "destino": "Farmácia",
-      "quantidade": 180,
-      "responsavel": "Leiliana",
-      "data": "2026-09-17",
-      "obs": "",
-      "criado_em": "2026-09-17 16:29:59",
       "item": "Soro fisiológico 100ml",
       "usuario": "Leiliana"
     }
