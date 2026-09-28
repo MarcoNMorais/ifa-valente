@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "28/09/2026 16:12:36",
+  "atualizado_em": "28/09/2026 16:12:47",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 112557,
-    "total_farmacia": 34813,
-    "total_geral": 147370,
+    "total_farmacia": 34783,
+    "total_geral": 147340,
     "perto_de_terminar": 36,
     "zerados": 9
   },
@@ -705,19 +705,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 15600,
-      "farmacia": 280,
+      "farmacia": 250,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 15880,
+      "total": 15850,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-28 10:52:06",
+      "atualizado_em": "2026-09-28 16:12:46",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -731,17 +731,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 280
+          "quantidade": 250
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 439,
-      "previsao_20_dias": 439,
+      "minimo_alerta": 453,
+      "previsao_20_dias": 453,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 42,
-      "media_diaria_saida": 21.9,
-      "total_saida_historica": 920,
-      "cobertura_dias": 725.0,
+      "media_diaria_saida": 22.62,
+      "total_saida_historica": 950,
+      "cobertura_dias": 700.7,
       "alerta_estoque": false
     },
     {
@@ -16946,6 +16946,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 3180,
+      "item_id": 285,
+      "produto_nome": "Agulha 30x7",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 30,
+      "responsavel": "Leiliana",
+      "data": "2026-09-28",
+      "obs": "",
+      "criado_em": "2026-09-28 16:12:46",
+      "item": "Agulha 30x7",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 3179,
       "item_id": 82,
       "produto_nome": "Hidrocortisona 100MG",
@@ -24428,21 +24443,6 @@
       "obs": "",
       "criado_em": "2026-09-21 11:06:10",
       "item": "Seringa 10ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2677,
-      "item_id": 274,
-      "produto_nome": "Seringa 20ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 40,
-      "responsavel": "Assucena",
-      "data": "2026-09-19",
-      "obs": "",
-      "criado_em": "2026-09-21 11:06:00",
-      "item": "Seringa 20ml",
       "usuario": "Assucena"
     }
   ]
