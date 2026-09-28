@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "28/09/2026 10:48:34",
+  "atualizado_em": "28/09/2026 10:48:42",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 113736,
-    "total_farmacia": 35547,
-    "total_geral": 149283,
+    "total_farmacia": 35527,
+    "total_geral": 149263,
     "perto_de_terminar": 34,
     "zerados": 9
   },
@@ -315,19 +315,19 @@
       "tipo": "Medicamento",
       "unidade": "Ampola",
       "almoxarifado": 0,
-      "farmacia": 70,
+      "farmacia": 50,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 70,
+      "total": 50,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-24 09:53:51",
+      "atualizado_em": "2026-09-28 10:48:41",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -335,17 +335,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 70
+          "quantidade": 50
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 136,
-      "previsao_20_dias": 136,
+      "minimo_alerta": 152,
+      "previsao_20_dias": 152,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 25,
-      "media_diaria_saida": 6.8,
-      "total_saida_historica": 170,
-      "cobertura_dias": 10.3,
+      "media_diaria_saida": 7.6,
+      "total_saida_historica": 190,
+      "cobertura_dias": 6.6,
       "alerta_estoque": true
     },
     {
@@ -16952,6 +16952,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 3066,
+      "item_id": 384,
+      "produto_nome": "ACIDO ASCORBICO",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 20,
+      "responsavel": "Assucena",
+      "data": "2026-09-26",
+      "obs": "",
+      "criado_em": "2026-09-28 10:48:41",
+      "item": "ACIDO ASCORBICO",
+      "usuario": "Assucena"
+    },
+    {
       "id": 3065,
       "item_id": 70,
       "produto_nome": "Dipirona",
@@ -24433,21 +24448,6 @@
       "data": "2026-09-17",
       "obs": "",
       "criado_em": "2026-09-17 14:19:08",
-      "item": "Dipirona 500mg",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 2566,
-      "item_id": 28,
-      "produto_nome": "Dipirona 500mg",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 10,
-      "responsavel": "Leiliana",
-      "data": "2026-09-17",
-      "obs": "",
-      "criado_em": "2026-09-17 14:03:01",
       "item": "Dipirona 500mg",
       "usuario": "Leiliana"
     }
