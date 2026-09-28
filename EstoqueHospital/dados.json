@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "28/09/2026 11:21:04",
+  "atualizado_em": "28/09/2026 11:21:12",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 112557,
-    "total_farmacia": 34953,
-    "total_geral": 147510,
+    "total_farmacia": 34952,
+    "total_geral": 147509,
     "perto_de_terminar": 35,
     "zerados": 9
   },
@@ -8998,19 +8998,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 102,
-      "farmacia": 10,
+      "farmacia": 9,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 112,
+      "total": 111,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga Farmácia 227-288",
       "obs": "Importação Farmácia 227-288",
-      "atualizado_em": "2026-09-24 09:55:38",
+      "atualizado_em": "2026-09-28 11:21:09",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -9024,7 +9024,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 10
+          "quantidade": 9
         }
       ],
       "minimo_manual": 0,
@@ -9032,9 +9032,9 @@
       "previsao_20_dias": 7,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 46,
-      "media_diaria_saida": 0.3,
-      "total_saida_historica": 14,
-      "cobertura_dias": 368.0,
+      "media_diaria_saida": 0.33,
+      "total_saida_historica": 15,
+      "cobertura_dias": 340.4,
       "alerta_estoque": false
     },
     {
@@ -16946,6 +16946,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 3168,
+      "item_id": 241,
+      "produto_nome": "Lactulose solução",
+      "tipo": "Farmácia para Posto de Internamento",
+      "origem": "Farmácia",
+      "destino": "Posto de Internamento",
+      "quantidade": 1,
+      "responsavel": "Assucena",
+      "data": "2026-09-28",
+      "obs": "",
+      "criado_em": "2026-09-28 11:21:09",
+      "item": "Lactulose solução",
+      "usuario": "Assucena"
+    },
+    {
       "id": 3167,
       "item_id": 320,
       "produto_nome": "Acebrofilina 10mg/ml",
@@ -24428,21 +24443,6 @@
       "obs": "",
       "criado_em": "2026-09-21 11:04:16",
       "item": "Polifix",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2665,
-      "item_id": 220,
-      "produto_nome": "Equipo macrogotas",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 50,
-      "responsavel": "Assucena",
-      "data": "2026-09-19",
-      "obs": "",
-      "criado_em": "2026-09-21 11:04:08",
-      "item": "Equipo macrogotas",
       "usuario": "Assucena"
     }
   ]
