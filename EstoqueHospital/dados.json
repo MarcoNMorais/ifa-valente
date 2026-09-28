@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "28/09/2026 11:18:25",
+  "atualizado_em": "28/09/2026 11:18:44",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 112572,
-    "total_farmacia": 35031,
-    "total_geral": 147603,
+    "total_farmacia": 35030,
+    "total_geral": 147602,
     "perto_de_terminar": 35,
     "zerados": 9
   },
@@ -9858,19 +9858,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 1297,
-      "farmacia": 2,
+      "farmacia": 1,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1299,
+      "total": 1298,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga Almoxerifado",
       "obs": "Importação Almoxerifado",
-      "atualizado_em": "2026-09-15 16:24:57",
+      "atualizado_em": "2026-09-28 11:18:43",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -9884,7 +9884,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 2
+          "quantidade": 1
         }
       ],
       "minimo_manual": 0,
@@ -9892,9 +9892,9 @@
       "previsao_20_dias": 1,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 42,
-      "media_diaria_saida": 0.02,
-      "total_saida_historica": 1,
-      "cobertura_dias": 54558.0,
+      "media_diaria_saida": 0.05,
+      "total_saida_historica": 2,
+      "cobertura_dias": 27258.0,
       "alerta_estoque": false
     },
     {
@@ -16939,6 +16939,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 3154,
+      "item_id": 279,
+      "produto_nome": "Luva de vinil G",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 1,
+      "responsavel": "Assucena",
+      "data": "2026-09-28",
+      "obs": "",
+      "criado_em": "2026-09-28 11:18:43",
+      "item": "Luva de vinil G",
+      "usuario": "Assucena"
+    },
     {
       "id": 3153,
       "item_id": 153,
@@ -24422,21 +24437,6 @@
       "obs": "",
       "criado_em": "2026-09-21 11:02:05",
       "item": "Seringa 1ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2654,
-      "item_id": 276,
-      "produto_nome": "Esparadrapo 10x4,5",
-      "tipo": "Almoxarifado para Farmácia",
-      "origem": "Almoxarifado",
-      "destino": "Farmácia",
-      "quantidade": 24,
-      "responsavel": "Assucena",
-      "data": "2026-09-18",
-      "obs": "",
-      "criado_em": "2026-09-21 11:01:57",
-      "item": "Esparadrapo 10x4,5",
       "usuario": "Assucena"
     }
   ]
