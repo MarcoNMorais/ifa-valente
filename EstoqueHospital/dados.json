@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "28/09/2026 11:10:37",
+  "atualizado_em": "28/09/2026 11:10:45",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
-    "total_almoxarifado": 113326,
-    "total_farmacia": 34761,
+    "total_almoxarifado": 113322,
+    "total_farmacia": 34765,
     "total_geral": 148087,
     "perto_de_terminar": 34,
     "zerados": 9
@@ -9255,8 +9255,8 @@
       "nome": "LIDOCAINA S/ VASO",
       "tipo": "Medicamento",
       "unidade": "Unidade",
-      "almoxarifado": 4,
-      "farmacia": 0,
+      "almoxarifado": 0,
+      "farmacia": 4,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -9268,12 +9268,12 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-28 11:10:36",
+      "atualizado_em": "2026-09-28 11:10:43",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
         {
-          "local": "almoxarifado",
+          "local": "farmacia",
           "validade": "",
           "lote": "",
           "quantidade": 4
@@ -17885,6 +17885,21 @@
       "usuario": "Assucena"
     },
     {
+      "id": 3123,
+      "item_id": 385,
+      "produto_nome": "LIDOCAINA S/ VASO",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 4,
+      "responsavel": "Assucena",
+      "data": "2026-09-25",
+      "obs": "",
+      "criado_em": "2026-09-28 11:10:43",
+      "item": "LIDOCAINA S/ VASO",
+      "usuario": "Assucena"
+    },
+    {
       "id": 3122,
       "item_id": 385,
       "produto_nome": "LIDOCAINA S/ VASO",
@@ -24422,21 +24437,6 @@
       "obs": "",
       "criado_em": "2026-09-18 11:18:30",
       "item": "Seringa 1ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2623,
-      "item_id": 102,
-      "produto_nome": "Seringa 5ml",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 10,
-      "responsavel": "Assucena",
-      "data": "2026-09-17",
-      "obs": "",
-      "criado_em": "2026-09-18 11:18:23",
-      "item": "Seringa 5ml",
       "usuario": "Assucena"
     }
   ]
