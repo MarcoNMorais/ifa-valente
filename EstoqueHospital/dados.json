@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "28/09/2026 10:57:05",
+  "atualizado_em": "28/09/2026 10:57:13",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 113322,
-    "total_farmacia": 34866,
-    "total_geral": 148188,
+    "total_farmacia": 34859,
+    "total_geral": 148181,
     "perto_de_terminar": 34,
     "zerados": 10
   },
@@ -11644,19 +11644,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 156,
+      "farmacia": 149,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 156,
+      "total": 149,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-24 10:06:45",
+      "atualizado_em": "2026-09-28 10:57:12",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -11664,17 +11664,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 156
+          "quantidade": 149
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 94,
-      "previsao_20_dias": 94,
+      "minimo_alerta": 97,
+      "previsao_20_dias": 97,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 46,
-      "media_diaria_saida": 4.7,
-      "total_saida_historica": 216,
-      "cobertura_dias": 33.2,
+      "media_diaria_saida": 4.85,
+      "total_saida_historica": 223,
+      "cobertura_dias": 30.7,
       "alerta_estoque": false
     },
     {
@@ -16932,6 +16932,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 3112,
+      "item_id": 228,
+      "produto_nome": "Omeprazol sódico 40mg AMP",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 7,
+      "responsavel": "Assucena",
+      "data": "2026-09-27",
+      "obs": "",
+      "criado_em": "2026-09-28 10:57:12",
+      "item": "Omeprazol sódico 40mg AMP",
+      "usuario": "Assucena"
+    },
     {
       "id": 3111,
       "item_id": 59,
@@ -24414,21 +24429,6 @@
       "data": "2026-09-17",
       "obs": "",
       "criado_em": "2026-09-18 11:16:50",
-      "item": "Agulha 30x7",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2612,
-      "item_id": 285,
-      "produto_nome": "Agulha 30x7",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 20,
-      "responsavel": "Assucena",
-      "data": "2026-09-17",
-      "obs": "",
-      "criado_em": "2026-09-18 11:16:42",
       "item": "Agulha 30x7",
       "usuario": "Assucena"
     }
