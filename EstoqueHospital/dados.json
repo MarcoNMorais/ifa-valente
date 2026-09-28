@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "28/09/2026 10:52:33",
+  "atualizado_em": "28/09/2026 10:52:54",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
-    "total_almoxarifado": 113696,
-    "total_farmacia": 35100,
+    "total_almoxarifado": 113596,
+    "total_farmacia": 35200,
     "total_geral": 148796,
     "perto_de_terminar": 34,
     "zerados": 9
@@ -7766,8 +7766,8 @@
       "nome": "Gelco nº 22",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 1280,
-      "farmacia": 28,
+      "almoxarifado": 1180,
+      "farmacia": 128,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -7779,7 +7779,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-28 10:47:29",
+      "atualizado_em": "2026-09-28 10:52:52",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -7787,13 +7787,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 1280
+          "quantidade": 1180
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 28
+          "quantidade": 128
         }
       ],
       "minimo_manual": 0,
@@ -17396,6 +17396,21 @@
       "usuario": "Assucena"
     },
     {
+      "id": 3086,
+      "item_id": 177,
+      "produto_nome": "Gelco nº 22",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 100,
+      "responsavel": "Assucena",
+      "data": "2026-09-25",
+      "obs": "",
+      "criado_em": "2026-09-28 10:52:52",
+      "item": "Gelco nº 22",
+      "usuario": "Assucena"
+    },
+    {
       "id": 3078,
       "item_id": 329,
       "produto_nome": "Polifix",
@@ -24428,21 +24443,6 @@
       "obs": "",
       "criado_em": "2026-09-17 16:30:54",
       "item": "Insulina Regular",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 2586,
-      "item_id": 208,
-      "produto_nome": "Insulina NPH",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 1,
-      "responsavel": "Leiliana",
-      "data": "2026-09-17",
-      "obs": "",
-      "criado_em": "2026-09-17 16:30:48",
-      "item": "Insulina NPH",
       "usuario": "Leiliana"
     }
   ]
