@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "28/09/2026 10:56:17",
+  "atualizado_em": "28/09/2026 10:56:28",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 113322,
-    "total_farmacia": 35007,
-    "total_geral": 148329,
+    "total_farmacia": 34979,
+    "total_geral": 148301,
     "perto_de_terminar": 34,
     "zerados": 10
   },
@@ -4114,19 +4114,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 115,
+      "farmacia": 87,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 115,
+      "total": 87,
       "minimo": 0,
       "validade": "2027-11",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-09-24 09:54:40",
+      "atualizado_em": "2026-09-28 10:56:28",
       "validade_mais_proxima": "2027-11",
       "vencimento_mais_proximo": "2027-11",
       "lotes_validade": [
@@ -4134,17 +4134,17 @@
           "local": "farmacia",
           "validade": "2027-11",
           "lote": "",
-          "quantidade": 115
+          "quantidade": 87
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 66,
-      "previsao_20_dias": 66,
+      "minimo_alerta": 78,
+      "previsao_20_dias": 78,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 47,
-      "media_diaria_saida": 3.28,
-      "total_saida_historica": 154,
-      "cobertura_dias": 35.1,
+      "media_diaria_saida": 3.87,
+      "total_saida_historica": 182,
+      "cobertura_dias": 22.5,
       "alerta_estoque": false
     },
     {
@@ -16933,6 +16933,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 3107,
+      "item_id": 86,
+      "produto_nome": "Cloridrato de Metoclopramida",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 28,
+      "responsavel": "Assucena",
+      "data": "2026-09-27",
+      "obs": "",
+      "criado_em": "2026-09-28 10:56:28",
+      "item": "Cloridrato de Metoclopramida",
+      "usuario": "Assucena"
+    },
+    {
       "id": 3106,
       "item_id": 238,
       "produto_nome": "Ondansetrona 2mg/ml 2ml",
@@ -24414,21 +24429,6 @@
       "data": "2026-09-17",
       "obs": "",
       "criado_em": "2026-09-18 11:15:47",
-      "item": "HIDROXIDO DE ALUMINIU +MAGNESIO",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2607,
-      "item_id": 378,
-      "produto_nome": "HIDROXIDO DE ALUMINIU +MAGNESIO",
-      "tipo": "Almoxarifado para Farmácia",
-      "origem": "Almoxarifado",
-      "destino": "Farmácia",
-      "quantidade": 2,
-      "responsavel": "Assucena",
-      "data": "2026-09-17",
-      "obs": "",
-      "criado_em": "2026-09-18 11:15:37",
       "item": "HIDROXIDO DE ALUMINIU +MAGNESIO",
       "usuario": "Assucena"
     }
