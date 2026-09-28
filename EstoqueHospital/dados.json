@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "28/09/2026 11:17:14",
+  "atualizado_em": "28/09/2026 11:17:21",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 113322,
-    "total_farmacia": 34380,
-    "total_geral": 147702,
+    "total_farmacia": 34379,
+    "total_geral": 147701,
     "perto_de_terminar": 35,
     "zerados": 9
   },
@@ -9038,19 +9038,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 40,
-      "farmacia": 6,
+      "farmacia": 5,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 46,
+      "total": 45,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-25 10:37:32",
+      "atualizado_em": "2026-09-28 11:17:20",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -9064,7 +9064,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 6
+          "quantidade": 5
         }
       ],
       "minimo_manual": 0,
@@ -9072,8 +9072,8 @@
       "previsao_20_dias": 2811,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 47,
-      "media_diaria_saida": 140.51,
-      "total_saida_historica": 6604,
+      "media_diaria_saida": 140.53,
+      "total_saida_historica": 6605,
       "cobertura_dias": 0.3,
       "alerta_estoque": true
     },
@@ -16940,6 +16940,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 3145,
+      "item_id": 194,
+      "produto_nome": "Lanceta de segurança",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 1,
+      "responsavel": "Assucena",
+      "data": "2026-09-28",
+      "obs": "",
+      "criado_em": "2026-09-28 11:17:20",
+      "item": "Lanceta de segurança",
+      "usuario": "Assucena"
+    },
+    {
       "id": 3144,
       "item_id": 98,
       "produto_nome": "Scalp nº 23",
@@ -24422,21 +24437,6 @@
       "obs": "",
       "criado_em": "2026-09-18 15:36:12",
       "item": "Lençol descartável papel",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 2645,
-      "item_id": 276,
-      "produto_nome": "Esparadrapo 10x4,5",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 2,
-      "responsavel": "Leiliana",
-      "data": "2026-09-18",
-      "obs": "",
-      "criado_em": "2026-09-18 15:35:58",
-      "item": "Esparadrapo 10x4,5",
       "usuario": "Leiliana"
     }
   ]
