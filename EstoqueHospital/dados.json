@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "28/09/2026 11:15:29",
+  "atualizado_em": "28/09/2026 11:15:37",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 113322,
-    "total_farmacia": 34622,
-    "total_geral": 147944,
+    "total_farmacia": 34621,
+    "total_geral": 147943,
     "perto_de_terminar": 35,
     "zerados": 9
   },
@@ -8580,19 +8580,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 32,
-      "farmacia": 17,
+      "farmacia": 16,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 49,
+      "total": 48,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-24 10:01:01",
+      "atualizado_em": "2026-09-28 11:15:36",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -8606,7 +8606,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 17
+          "quantidade": 16
         }
       ],
       "minimo_manual": 0,
@@ -8614,9 +8614,9 @@
       "previsao_20_dias": 7,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 46,
-      "media_diaria_saida": 0.33,
-      "total_saida_historica": 15,
-      "cobertura_dias": 150.3,
+      "media_diaria_saida": 0.35,
+      "total_saida_historica": 16,
+      "cobertura_dias": 138.0,
       "alerta_estoque": false
     },
     {
@@ -16940,6 +16940,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 3135,
+      "item_id": 255,
+      "produto_nome": "Ibuprofeno gotas",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 1,
+      "responsavel": "Assucena",
+      "data": "2026-09-28",
+      "obs": "",
+      "criado_em": "2026-09-28 11:15:36",
+      "item": "Ibuprofeno gotas",
+      "usuario": "Assucena"
+    },
+    {
       "id": 3134,
       "item_id": 21,
       "produto_nome": "Clonazepam gotas 25mg/ml",
@@ -24422,21 +24437,6 @@
       "obs": "",
       "criado_em": "2026-09-18 11:23:20",
       "item": "Dipirona",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2635,
-      "item_id": 202,
-      "produto_nome": "Soro fisiológico 100ml",
-      "tipo": "Almoxarifado para Farmácia",
-      "origem": "Almoxarifado",
-      "destino": "Farmácia",
-      "quantidade": 240,
-      "responsavel": "Assucena",
-      "data": "2026-09-17",
-      "obs": "",
-      "criado_em": "2026-09-18 11:22:47",
-      "item": "Soro fisiológico 100ml",
       "usuario": "Assucena"
     }
   ]
