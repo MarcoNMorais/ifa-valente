@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "28/09/2026 11:19:17",
+  "atualizado_em": "28/09/2026 11:19:41",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
-    "total_almoxarifado": 112572,
-    "total_farmacia": 35015,
+    "total_almoxarifado": 112557,
+    "total_farmacia": 35030,
     "total_geral": 147587,
     "perto_de_terminar": 35,
     "zerados": 9
@@ -2759,8 +2759,8 @@
       "nome": "Bolsa coletora",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 152,
-      "farmacia": 0,
+      "almoxarifado": 137,
+      "farmacia": 15,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -2772,7 +2772,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-28 10:54:53",
+      "atualizado_em": "2026-09-28 11:19:40",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -2780,7 +2780,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 152
+          "quantidade": 137
+        },
+        {
+          "local": "farmacia",
+          "validade": "",
+          "lote": "",
+          "quantidade": 15
         }
       ],
       "minimo_manual": 0,
@@ -18335,6 +18341,21 @@
       "usuario": "Assucena"
     },
     {
+      "id": 3158,
+      "item_id": 155,
+      "produto_nome": "Bolsa coletora",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 15,
+      "responsavel": "Assucena",
+      "data": "2026-09-25",
+      "obs": "",
+      "criado_em": "2026-09-28 11:19:40",
+      "item": "Bolsa coletora",
+      "usuario": "Assucena"
+    },
+    {
       "id": 3148,
       "item_id": 102,
       "produto_nome": "Seringa 5ml",
@@ -24422,21 +24443,6 @@
       "obs": "",
       "criado_em": "2026-09-21 11:23:43",
       "item": "Scalp nº 21",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2762,
-      "item_id": 331,
-      "produto_nome": "Agulha 30x8",
-      "tipo": "Almoxarifado para Farmácia",
-      "origem": "Almoxarifado",
-      "destino": "Farmácia",
-      "quantidade": 400,
-      "responsavel": "Assucena",
-      "data": "2026-09-18",
-      "obs": "",
-      "criado_em": "2026-09-21 11:23:09",
-      "item": "Agulha 30x8",
       "usuario": "Assucena"
     }
   ]
