@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "28/09/2026 10:49:39",
+  "atualizado_em": "28/09/2026 10:49:47",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 113736,
-    "total_farmacia": 35486,
-    "total_geral": 149222,
+    "total_farmacia": 35485,
+    "total_geral": 149221,
     "perto_de_terminar": 34,
     "zerados": 9
   },
@@ -15550,19 +15550,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 12,
+      "farmacia": 11,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 12,
+      "total": 11,
       "minimo": 0,
       "validade": "2027-05",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-09-22 10:35:44",
+      "atualizado_em": "2026-09-28 10:49:46",
       "validade_mais_proxima": "2027-05",
       "vencimento_mais_proximo": "2027-05",
       "lotes_validade": [
@@ -15570,7 +15570,7 @@
           "local": "farmacia",
           "validade": "2027-05",
           "lote": "",
-          "quantidade": 12
+          "quantidade": 11
         }
       ],
       "minimo_manual": 0,
@@ -15578,9 +15578,9 @@
       "previsao_20_dias": 3,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 47,
-      "media_diaria_saida": 0.11,
-      "total_saida_historica": 5,
-      "cobertura_dias": 112.8,
+      "media_diaria_saida": 0.13,
+      "total_saida_historica": 6,
+      "cobertura_dias": 86.2,
       "alerta_estoque": false
     },
     {
@@ -16945,6 +16945,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 3072,
+      "item_id": 3,
+      "produto_nome": "Succinil 100mg",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 1,
+      "responsavel": "Assucena",
+      "data": "2026-09-26",
+      "obs": "",
+      "criado_em": "2026-09-28 10:49:46",
+      "item": "Succinil 100mg",
+      "usuario": "Assucena"
+    },
     {
       "id": 3071,
       "item_id": 1,
@@ -24428,21 +24443,6 @@
       "obs": "",
       "criado_em": "2026-09-17 16:28:09",
       "item": "Hidrocortisona 100MG",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 2572,
-      "item_id": 68,
-      "produto_nome": "Dexametasona",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 30,
-      "responsavel": "Leiliana",
-      "data": "2026-09-17",
-      "obs": "",
-      "criado_em": "2026-09-17 16:27:58",
-      "item": "Dexametasona",
       "usuario": "Leiliana"
     }
   ]
