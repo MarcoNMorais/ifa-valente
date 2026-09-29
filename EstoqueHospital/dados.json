@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "29/09/2026 11:24:35",
+  "atualizado_em": "29/09/2026 11:24:43",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 112157,
-    "total_farmacia": 34351,
-    "total_geral": 146508,
+    "total_farmacia": 34350,
+    "total_geral": 146507,
     "perto_de_terminar": 35,
     "zerados": 10
   },
@@ -9089,19 +9089,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 68,
-      "farmacia": 2,
+      "farmacia": 1,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 70,
+      "total": 69,
       "minimo": 50,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-25 10:35:30",
+      "atualizado_em": "2026-09-29 11:24:42",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -9115,7 +9115,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 2
+          "quantidade": 1
         }
       ],
       "minimo_manual": 50,
@@ -9123,9 +9123,9 @@
       "previsao_20_dias": 18,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 35,
-      "media_diaria_saida": 0.86,
-      "total_saida_historica": 30,
-      "cobertura_dias": 81.7,
+      "media_diaria_saida": 0.89,
+      "total_saida_historica": 31,
+      "cobertura_dias": 77.9,
       "alerta_estoque": false
     },
     {
@@ -16939,6 +16939,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 3235,
+      "item_id": 376,
+      "produto_nome": "LENÇOL DESCARTAVEL PAPEL",
+      "tipo": "Farmácia para Sala Cirúrgica",
+      "origem": "Farmácia",
+      "destino": "Sala Cirúrgica",
+      "quantidade": 1,
+      "responsavel": "Assucena",
+      "data": "2026-09-28",
+      "obs": "",
+      "criado_em": "2026-09-29 11:24:42",
+      "item": "LENÇOL DESCARTAVEL PAPEL",
+      "usuario": "Assucena"
+    },
+    {
       "id": 3234,
       "item_id": 104,
       "produto_nome": "Seringa 3ml",
@@ -24421,21 +24436,6 @@
       "obs": "",
       "criado_em": "2026-09-21 11:18:33",
       "item": "Equipo macrogotas",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2732,
-      "item_id": 60,
-      "produto_nome": "Cetoprofeno EV 100mg",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 10,
-      "responsavel": "Assucena",
-      "data": "2026-09-21",
-      "obs": "",
-      "criado_em": "2026-09-21 11:18:25",
-      "item": "Cetoprofeno EV 100mg",
       "usuario": "Assucena"
     }
   ]
