@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "29/09/2026 11:27:31",
+  "atualizado_em": "29/09/2026 11:27:39",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 112109,
-    "total_farmacia": 34163,
-    "total_geral": 146272,
+    "total_farmacia": 34013,
+    "total_geral": 146122,
     "perto_de_terminar": 36,
     "zerados": 10
   },
@@ -481,19 +481,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 5800,
-      "farmacia": 445,
+      "farmacia": 295,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 6245,
+      "total": 6095,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-29 11:24:25",
+      "atualizado_em": "2026-09-29 11:27:38",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -507,17 +507,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 445
+          "quantidade": 295
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 1350,
-      "previsao_20_dias": 1350,
+      "minimo_alerta": 1466,
+      "previsao_20_dias": 1466,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 26,
-      "media_diaria_saida": 67.5,
-      "total_saida_historica": 1755,
-      "cobertura_dias": 92.5,
+      "media_diaria_saida": 73.27,
+      "total_saida_historica": 1905,
+      "cobertura_dias": 83.2,
       "alerta_estoque": false
     },
     {
@@ -16939,6 +16939,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 3253,
+      "item_id": 390,
+      "produto_nome": "AGULHA  40X1,2",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 150,
+      "responsavel": "Assucena",
+      "data": "2026-09-28",
+      "obs": "",
+      "criado_em": "2026-09-29 11:27:38",
+      "item": "AGULHA  40X1,2",
+      "usuario": "Assucena"
+    },
+    {
       "id": 3252,
       "item_id": 228,
       "produto_nome": "Omeprazol sódico 40mg AMP",
@@ -24421,21 +24436,6 @@
       "obs": "",
       "criado_em": "2026-09-21 11:21:24",
       "item": "Complexo B",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2750,
-      "item_id": 152,
-      "produto_nome": "Atadura crepon nº 10",
-      "tipo": "Farmácia para SALA DE GESSO",
-      "origem": "Farmácia",
-      "destino": "SALA DE GESSO",
-      "quantidade": 24,
-      "responsavel": "Assucena",
-      "data": "2026-09-21",
-      "obs": "",
-      "criado_em": "2026-09-21 11:21:11",
-      "item": "Atadura crepon nº 10",
       "usuario": "Assucena"
     }
   ]
