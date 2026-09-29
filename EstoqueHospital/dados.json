@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "29/09/2026 11:24:50",
+  "atualizado_em": "29/09/2026 11:25:09",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
-    "total_almoxarifado": 112157,
-    "total_farmacia": 34338,
+    "total_almoxarifado": 112109,
+    "total_farmacia": 34386,
     "total_geral": 146495,
     "perto_de_terminar": 35,
     "zerados": 10
@@ -11449,8 +11449,8 @@
       "nome": "NYLON N°3",
       "tipo": "Medicamento",
       "unidade": "Unidade",
-      "almoxarifado": 336,
-      "farmacia": 13,
+      "almoxarifado": 288,
+      "farmacia": 61,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -11462,7 +11462,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-28 10:55:11",
+      "atualizado_em": "2026-09-29 11:25:08",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -11470,13 +11470,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 336
+          "quantidade": 288
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 13
+          "quantidade": 61
         }
       ],
       "minimo_manual": 0,
@@ -16938,6 +16938,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 3237,
+      "item_id": 393,
+      "produto_nome": "NYLON N°3",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 48,
+      "responsavel": "Assucena",
+      "data": "2026-09-28",
+      "obs": "",
+      "criado_em": "2026-09-29 11:25:08",
+      "item": "NYLON N°3",
+      "usuario": "Assucena"
+    },
     {
       "id": 3236,
       "item_id": 152,
@@ -24421,21 +24436,6 @@
       "obs": "",
       "criado_em": "2026-09-21 11:18:47",
       "item": "Polifix",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2734,
-      "item_id": 157,
-      "produto_nome": "Seringa 1ml",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 20,
-      "responsavel": "Assucena",
-      "data": "2026-09-21",
-      "obs": "",
-      "criado_em": "2026-09-21 11:18:39",
-      "item": "Seringa 1ml",
       "usuario": "Assucena"
     }
   ]
