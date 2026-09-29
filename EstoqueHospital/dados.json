@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "29/09/2026 16:38:16",
+  "atualizado_em": "29/09/2026 16:38:23",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
-    "total_almoxarifado": 111871,
-    "total_farmacia": 33335,
+    "total_almoxarifado": 111851,
+    "total_farmacia": 33355,
     "total_geral": 145206,
     "perto_de_terminar": 36,
     "zerados": 9
@@ -3005,8 +3005,8 @@
       "nome": "Caixa de perfurocortante",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 20,
-      "farmacia": 0,
+      "almoxarifado": 0,
+      "farmacia": 20,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -3018,12 +3018,12 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-29 16:38:15",
+      "atualizado_em": "2026-09-29 16:38:21",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
         {
-          "local": "almoxarifado",
+          "local": "farmacia",
           "validade": "",
           "lote": "",
           "quantidade": 20
@@ -16946,6 +16946,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 3297,
+      "item_id": 200,
+      "produto_nome": "Caixa de perfurocortante",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 20,
+      "responsavel": "Leiliana",
+      "data": "2026-09-29",
+      "obs": "",
+      "criado_em": "2026-09-29 16:38:21",
+      "item": "Caixa de perfurocortante",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 3296,
       "item_id": 200,
       "produto_nome": "Caixa de perfurocortante",
@@ -24428,21 +24443,6 @@
       "obs": "",
       "criado_em": "2026-09-21 16:49:39",
       "item": "Salbutamol spray",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 2797,
-      "item_id": 204,
-      "produto_nome": "Soro fisiológico 500ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 5,
-      "responsavel": "Leiliana",
-      "data": "2026-09-21",
-      "obs": "",
-      "criado_em": "2026-09-21 16:16:57",
-      "item": "Soro fisiológico 500ml",
       "usuario": "Leiliana"
     }
   ]
