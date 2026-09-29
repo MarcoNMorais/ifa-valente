@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "29/09/2026 11:17:38",
+  "atualizado_em": "29/09/2026 11:17:46",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
-    "total_almoxarifado": 112507,
-    "total_farmacia": 34563,
+    "total_almoxarifado": 112327,
+    "total_farmacia": 34743,
     "total_geral": 147070,
     "perto_de_terminar": 35,
     "zerados": 9
@@ -9678,7 +9678,7 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 380
+          "quantidade": 430
         },
         {
           "local": "farmacia",
@@ -15239,8 +15239,8 @@
       "nome": "Soro fisiológico 100ml",
       "tipo": "Insumo",
       "unidade": "Unidade",
-      "almoxarifado": 1020,
-      "farmacia": 0,
+      "almoxarifado": 840,
+      "farmacia": 180,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -15252,7 +15252,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-29 11:15:54",
+      "atualizado_em": "2026-09-29 11:17:45",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -15260,7 +15260,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 1020
+          "quantidade": 840
+        },
+        {
+          "local": "farmacia",
+          "validade": "",
+          "lote": "",
+          "quantidade": 180
         }
       ],
       "minimo_manual": 0,
@@ -16945,6 +16951,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 3197,
+      "item_id": 202,
+      "produto_nome": "Soro fisiológico 100ml",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 180,
+      "responsavel": "Assucena",
+      "data": "2026-09-28",
+      "obs": "",
+      "criado_em": "2026-09-29 11:17:45",
+      "item": "Soro fisiológico 100ml",
+      "usuario": "Assucena"
+    },
     {
       "id": 3196,
       "item_id": 185,
@@ -24428,21 +24449,6 @@
       "obs": "",
       "criado_em": "2026-09-21 11:09:56",
       "item": "Paracetamol gotas",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2694,
-      "item_id": 249,
-      "produto_nome": "Prednisolona 3mg/ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 2,
-      "responsavel": "Assucena",
-      "data": "2026-09-19",
-      "obs": "",
-      "criado_em": "2026-09-21 11:09:36",
-      "item": "Prednisolona 3mg/ml",
       "usuario": "Assucena"
     }
   ]
