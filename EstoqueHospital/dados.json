@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "29/09/2026 11:26:59",
+  "atualizado_em": "29/09/2026 11:27:07",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 112109,
-    "total_farmacia": 34208,
-    "total_geral": 146317,
+    "total_farmacia": 34188,
+    "total_geral": 146297,
     "perto_de_terminar": 36,
     "zerados": 10
   },
@@ -16212,19 +16212,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 155,
+      "farmacia": 135,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 155,
+      "total": 135,
       "minimo": 0,
       "validade": "12/27",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-25 10:32:28",
+      "atualizado_em": "2026-09-29 11:27:06",
       "validade_mais_proxima": "12/27",
       "vencimento_mais_proximo": "12/27",
       "lotes_validade": [
@@ -16232,7 +16232,7 @@
           "local": "farmacia",
           "validade": "12/27",
           "lote": "",
-          "quantidade": 135
+          "quantidade": 115
         },
         {
           "local": "almoxarifado",
@@ -16248,13 +16248,13 @@
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 237,
-      "previsao_20_dias": 237,
+      "minimo_alerta": 246,
+      "previsao_20_dias": 246,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 46,
-      "media_diaria_saida": 11.85,
-      "total_saida_historica": 545,
-      "cobertura_dias": 13.1,
+      "media_diaria_saida": 12.28,
+      "total_saida_historica": 565,
+      "cobertura_dias": 11.0,
       "alerta_estoque": true
     },
     {
@@ -16938,6 +16938,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 3250,
+      "item_id": 239,
+      "produto_nome": "Tramadol 50mg/ml 2ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 20,
+      "responsavel": "Assucena",
+      "data": "2026-09-28",
+      "obs": "",
+      "criado_em": "2026-09-29 11:27:06",
+      "item": "Tramadol 50mg/ml 2ml",
+      "usuario": "Assucena"
+    },
     {
       "id": 3249,
       "item_id": 324,
@@ -24421,21 +24436,6 @@
       "obs": "",
       "criado_em": "2026-09-21 11:20:43",
       "item": "Atadura crepon nº 15",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2747,
-      "item_id": 152,
-      "produto_nome": "Atadura crepon nº 10",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 12,
-      "responsavel": "Assucena",
-      "data": "2026-09-21",
-      "obs": "",
-      "criado_em": "2026-09-21 11:20:36",
-      "item": "Atadura crepon nº 10",
       "usuario": "Assucena"
     }
   ]
