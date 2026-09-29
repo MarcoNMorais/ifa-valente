@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "29/09/2026 11:18:03",
+  "atualizado_em": "29/09/2026 11:18:10",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
-    "total_almoxarifado": 112317,
-    "total_farmacia": 34753,
+    "total_almoxarifado": 112307,
+    "total_farmacia": 34763,
     "total_geral": 147070,
     "perto_de_terminar": 35,
     "zerados": 9
@@ -10093,8 +10093,8 @@
       "nome": "Luva P procedimento",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 120,
-      "farmacia": 1088,
+      "almoxarifado": 110,
+      "farmacia": 1098,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -10106,7 +10106,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-28 10:54:37",
+      "atualizado_em": "2026-09-29 11:18:09",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -10114,13 +10114,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 120
+          "quantidade": 110
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 1088
+          "quantidade": 1098
         }
       ],
       "minimo_manual": 0,
@@ -16951,6 +16951,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 3199,
+      "item_id": 281,
+      "produto_nome": "Luva P procedimento",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 10,
+      "responsavel": "Assucena",
+      "data": "2026-09-28",
+      "obs": "",
+      "criado_em": "2026-09-29 11:18:09",
+      "item": "Luva P procedimento",
+      "usuario": "Assucena"
+    },
     {
       "id": 3198,
       "item_id": 280,
@@ -24434,21 +24449,6 @@
       "obs": "",
       "criado_em": "2026-09-21 11:10:18",
       "item": "Kollagenase com Cloranfenicol pomada",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2696,
-      "item_id": 244,
-      "produto_nome": "Dexclorfeniramina 0,4mg/ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 1,
-      "responsavel": "Assucena",
-      "data": "2026-09-19",
-      "obs": "",
-      "criado_em": "2026-09-21 11:10:11",
-      "item": "Dexclorfeniramina 0,4mg/ml",
       "usuario": "Assucena"
     }
   ]
