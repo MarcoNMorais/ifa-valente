@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "29/09/2026 16:31:06",
+  "atualizado_em": "29/09/2026 16:31:28",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
-    "total_almoxarifado": 112109,
-    "total_farmacia": 33695,
+    "total_almoxarifado": 112059,
+    "total_farmacia": 33745,
     "total_geral": 145804,
     "perto_de_terminar": 36,
     "zerados": 10
@@ -15278,8 +15278,8 @@
       "nome": "Soro fisiológico 250ml",
       "tipo": "Insumo",
       "unidade": "Unidade",
-      "almoxarifado": 887,
-      "farmacia": 8,
+      "almoxarifado": 837,
+      "farmacia": 58,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -15291,7 +15291,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-29 16:31:05",
+      "atualizado_em": "2026-09-29 16:31:27",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -15299,13 +15299,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 887
+          "quantidade": 837
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 8
+          "quantidade": 58
         }
       ],
       "minimo_manual": 0,
@@ -16938,6 +16938,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 3268,
+      "item_id": 203,
+      "produto_nome": "Soro fisiológico 250ml",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 50,
+      "responsavel": "Leiliana",
+      "data": "2026-09-29",
+      "obs": "",
+      "criado_em": "2026-09-29 16:31:27",
+      "item": "Soro fisiológico 250ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 3267,
       "item_id": 203,
@@ -24421,21 +24436,6 @@
       "obs": "",
       "criado_em": "2026-09-21 11:24:03",
       "item": "Soro fisiológico 250ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2767,
-      "item_id": 97,
-      "produto_nome": "Scalp nº 19",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 10,
-      "responsavel": "Assucena",
-      "data": "2026-09-21",
-      "obs": "",
-      "criado_em": "2026-09-21 11:23:55",
-      "item": "Scalp nº 19",
       "usuario": "Assucena"
     }
   ]
