@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "29/09/2026 16:33:08",
+  "atualizado_em": "29/09/2026 16:33:17",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
-    "total_almoxarifado": 111859,
-    "total_farmacia": 33694,
+    "total_almoxarifado": 111851,
+    "total_farmacia": 33702,
     "total_geral": 145553,
     "perto_de_terminar": 37,
     "zerados": 10
@@ -9088,8 +9088,8 @@
       "nome": "LENÇOL DESCARTAVEL PAPEL",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 68,
-      "farmacia": 1,
+      "almoxarifado": 60,
+      "farmacia": 9,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -9101,7 +9101,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-29 11:24:42",
+      "atualizado_em": "2026-09-29 16:33:16",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -9109,13 +9109,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 68
+          "quantidade": 60
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 1
+          "quantidade": 9
         }
       ],
       "minimo_manual": 50,
@@ -16939,6 +16939,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 3274,
+      "item_id": 376,
+      "produto_nome": "LENÇOL DESCARTAVEL PAPEL",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 8,
+      "responsavel": "Leiliana",
+      "data": "2026-09-29",
+      "obs": "",
+      "criado_em": "2026-09-29 16:33:16",
+      "item": "LENÇOL DESCARTAVEL PAPEL",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 3273,
       "item_id": 98,
       "produto_nome": "Scalp nº 23",
@@ -24421,21 +24436,6 @@
       "obs": "",
       "criado_em": "2026-09-21 11:24:48",
       "item": "Seringa 3ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2773,
-      "item_id": 102,
-      "produto_nome": "Seringa 5ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 50,
-      "responsavel": "Assucena",
-      "data": "2026-09-21",
-      "obs": "",
-      "criado_em": "2026-09-21 11:24:41",
-      "item": "Seringa 5ml",
       "usuario": "Assucena"
     }
   ]
