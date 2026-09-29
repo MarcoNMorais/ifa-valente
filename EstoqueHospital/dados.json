@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "29/09/2026 16:34:29",
+  "atualizado_em": "29/09/2026 16:34:41",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 111851,
-    "total_farmacia": 33520,
-    "total_geral": 145371,
+    "total_farmacia": 33519,
+    "total_geral": 145370,
     "perto_de_terminar": 37,
     "zerados": 10
   },
@@ -9789,19 +9789,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 215,
+      "farmacia": 214,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 215,
+      "total": 214,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-28 10:51:10",
+      "atualizado_em": "2026-09-29 16:34:40",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -9809,7 +9809,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 215
+          "quantidade": 214
         }
       ],
       "minimo_manual": 0,
@@ -9817,8 +9817,8 @@
       "previsao_20_dias": 728,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 48,
-      "media_diaria_saida": 36.35,
-      "total_saida_historica": 1745,
+      "media_diaria_saida": 36.38,
+      "total_saida_historica": 1746,
       "cobertura_dias": 5.9,
       "alerta_estoque": true
     },
@@ -16938,6 +16938,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 3281,
+      "item_id": 181,
+      "produto_nome": "Luva de látex tam. M",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 1,
+      "responsavel": "Leiliana",
+      "data": "2026-09-29",
+      "obs": "",
+      "criado_em": "2026-09-29 16:34:40",
+      "item": "Luva de látex tam. M",
+      "usuario": "Leiliana"
+    },
     {
       "id": 3280,
       "item_id": 104,
@@ -24421,21 +24436,6 @@
       "obs": "",
       "criado_em": "2026-09-21 11:42:11",
       "item": "Cefepima 1g pó injetável",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2781,
-      "item_id": 27,
-      "produto_nome": "Paracetamol 500mg",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 10,
-      "responsavel": "Assucena",
-      "data": "2026-09-21",
-      "obs": "",
-      "criado_em": "2026-09-21 11:38:50",
-      "item": "Paracetamol 500mg",
       "usuario": "Assucena"
     }
   ]
