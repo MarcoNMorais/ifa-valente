@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "29/09/2026 11:23:53",
+  "atualizado_em": "29/09/2026 11:24:08",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 112157,
-    "total_farmacia": 34392,
-    "total_geral": 146549,
+    "total_farmacia": 34391,
+    "total_geral": 146548,
     "perto_de_terminar": 35,
     "zerados": 10
   },
@@ -5950,19 +5950,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 328,
-      "farmacia": 32,
+      "farmacia": 31,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 360,
+      "total": 359,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-29 11:17:06",
+      "atualizado_em": "2026-09-29 11:24:07",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -5976,7 +5976,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 34
+          "quantidade": 33
         }
       ],
       "minimo_manual": 0,
@@ -5984,9 +5984,9 @@
       "previsao_20_dias": 48,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 43,
-      "media_diaria_saida": 2.37,
-      "total_saida_historica": 102,
-      "cobertura_dias": 151.8,
+      "media_diaria_saida": 2.4,
+      "total_saida_historica": 103,
+      "cobertura_dias": 149.9,
       "alerta_estoque": false
     },
     {
@@ -16939,6 +16939,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 3231,
+      "item_id": 276,
+      "produto_nome": "Esparadrapo 10x4,5",
+      "tipo": "Farmácia para Sala Cirúrgica",
+      "origem": "Farmácia",
+      "destino": "Sala Cirúrgica",
+      "quantidade": 1,
+      "responsavel": "Assucena",
+      "data": "2026-09-28",
+      "obs": "",
+      "criado_em": "2026-09-29 11:24:07",
+      "item": "Esparadrapo 10x4,5",
+      "usuario": "Assucena"
+    },
+    {
       "id": 3230,
       "item_id": 327,
       "produto_nome": "Coletor de urina 100ml",
@@ -24421,21 +24436,6 @@
       "obs": "",
       "criado_em": "2026-09-21 11:18:02",
       "item": "Lactulose solução",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2728,
-      "item_id": 228,
-      "produto_nome": "Omeprazol sódico 40mg AMP",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 5,
-      "responsavel": "Assucena",
-      "data": "2026-09-21",
-      "obs": "",
-      "criado_em": "2026-09-21 11:17:50",
-      "item": "Omeprazol sódico 40mg AMP",
       "usuario": "Assucena"
     }
   ]
