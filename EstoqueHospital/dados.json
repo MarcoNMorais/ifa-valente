@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "29/09/2026 11:17:31",
+  "atualizado_em": "29/09/2026 11:17:38",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
-    "total_almoxarifado": 112557,
-    "total_farmacia": 34513,
+    "total_almoxarifado": 112507,
+    "total_farmacia": 34563,
     "total_geral": 147070,
     "perto_de_terminar": 35,
     "zerados": 9
@@ -9657,8 +9657,8 @@
       "nome": "Luva cirúrgica tam. 7,5",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 430,
-      "farmacia": 0,
+      "almoxarifado": 380,
+      "farmacia": 50,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -9670,7 +9670,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-24 10:06:08",
+      "atualizado_em": "2026-09-29 11:17:37",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -9678,7 +9678,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 430
+          "quantidade": 380
+        },
+        {
+          "local": "farmacia",
+          "validade": "",
+          "lote": "",
+          "quantidade": 50
         }
       ],
       "minimo_manual": 0,
@@ -16939,6 +16945,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 3196,
+      "item_id": 185,
+      "produto_nome": "Luva cirúrgica tam. 7,5",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 50,
+      "responsavel": "Assucena",
+      "data": "2026-09-28",
+      "obs": "",
+      "criado_em": "2026-09-29 11:17:37",
+      "item": "Luva cirúrgica tam. 7,5",
+      "usuario": "Assucena"
+    },
     {
       "id": 3195,
       "item_id": 186,
@@ -24422,21 +24443,6 @@
       "obs": "",
       "criado_em": "2026-09-21 11:09:36",
       "item": "Prednisolona 3mg/ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2693,
-      "item_id": 203,
-      "produto_nome": "Soro fisiológico 250ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 50,
-      "responsavel": "Assucena",
-      "data": "2026-09-19",
-      "obs": "emprestimo para retiro",
-      "criado_em": "2026-09-21 11:09:27",
-      "item": "Soro fisiológico 250ml",
       "usuario": "Assucena"
     }
   ]
