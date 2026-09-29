@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "29/09/2026 11:27:57",
+  "atualizado_em": "29/09/2026 11:28:07",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 112109,
-    "total_farmacia": 33953,
-    "total_geral": 146062,
+    "total_farmacia": 33923,
+    "total_geral": 146032,
     "perto_de_terminar": 36,
     "zerados": 10
   },
@@ -7805,19 +7805,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 960,
-      "farmacia": 332,
+      "farmacia": 302,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1292,
+      "total": 1262,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-28 10:53:05",
+      "atualizado_em": "2026-09-29 11:28:06",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -7831,17 +7831,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 332
+          "quantidade": 302
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 223,
-      "previsao_20_dias": 223,
+      "minimo_alerta": 235,
+      "previsao_20_dias": 235,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 48,
-      "media_diaria_saida": 11.1,
-      "total_saida_historica": 533,
-      "cobertura_dias": 116.4,
+      "media_diaria_saida": 11.73,
+      "total_saida_historica": 563,
+      "cobertura_dias": 107.6,
       "alerta_estoque": false
     },
     {
@@ -16939,6 +16939,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 3256,
+      "item_id": 176,
+      "produto_nome": "Gelco nº 24",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 30,
+      "responsavel": "Assucena",
+      "data": "2026-09-28",
+      "obs": "",
+      "criado_em": "2026-09-29 11:28:06",
+      "item": "Gelco nº 24",
+      "usuario": "Assucena"
+    },
+    {
       "id": 3255,
       "item_id": 178,
       "produto_nome": "Dispositivo intravenoso Gelco nº 20",
@@ -24421,21 +24436,6 @@
       "obs": "",
       "criado_em": "2026-09-21 11:21:53",
       "item": "Benzilpenicilina 1.200",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2753,
-      "item_id": 68,
-      "produto_nome": "Dexametasona",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 30,
-      "responsavel": "Assucena",
-      "data": "2026-09-21",
-      "obs": "",
-      "criado_em": "2026-09-21 11:21:45",
-      "item": "Dexametasona",
       "usuario": "Assucena"
     }
   ]
