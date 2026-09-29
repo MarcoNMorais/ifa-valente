@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "29/09/2026 11:25:44",
+  "atualizado_em": "29/09/2026 11:25:54",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 112109,
-    "total_farmacia": 34327,
-    "total_geral": 146436,
+    "total_farmacia": 34323,
+    "total_geral": 146432,
     "perto_de_terminar": 35,
     "zerados": 10
   },
@@ -9341,19 +9341,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 62,
+      "farmacia": 58,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 62,
+      "total": 58,
       "minimo": 0,
       "validade": "2027-02",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-24 09:52:06",
+      "atualizado_em": "2026-09-29 11:25:53",
       "validade_mais_proxima": "2027-02",
       "vencimento_mais_proximo": "2027-02",
       "lotes_validade": [
@@ -9361,7 +9361,7 @@
           "local": "farmacia",
           "validade": "2027-02",
           "lote": "",
-          "quantidade": 42
+          "quantidade": 38
         },
         {
           "local": "farmacia",
@@ -9371,13 +9371,13 @@
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 8,
-      "previsao_20_dias": 8,
+      "minimo_alerta": 9,
+      "previsao_20_dias": 9,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 48,
-      "media_diaria_saida": 0.35,
-      "total_saida_historica": 17,
-      "cobertura_dias": 175.1,
+      "media_diaria_saida": 0.44,
+      "total_saida_historica": 21,
+      "cobertura_dias": 132.6,
       "alerta_estoque": false
     },
     {
@@ -16939,6 +16939,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 3242,
+      "item_id": 84,
+      "produto_nome": "Lidocaína",
+      "tipo": "Farmácia para Sala Cirúrgica",
+      "origem": "Farmácia",
+      "destino": "Sala Cirúrgica",
+      "quantidade": 4,
+      "responsavel": "Assucena",
+      "data": "2026-09-28",
+      "obs": "",
+      "criado_em": "2026-09-29 11:25:53",
+      "item": "Lidocaína",
+      "usuario": "Assucena"
+    },
+    {
       "id": 3241,
       "item_id": 73,
       "produto_nome": "Epinefrina 1mg",
@@ -24421,21 +24436,6 @@
       "obs": "",
       "criado_em": "2026-09-21 11:19:35",
       "item": "Scalp nº 23",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2739,
-      "item_id": 390,
-      "produto_nome": "AGULHA  40X1,2",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 130,
-      "responsavel": "Assucena",
-      "data": "2026-09-21",
-      "obs": "",
-      "criado_em": "2026-09-21 11:19:23",
-      "item": "AGULHA  40X1,2",
       "usuario": "Assucena"
     }
   ]
