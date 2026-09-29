@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "29/09/2026 16:38:41",
+  "atualizado_em": "29/09/2026 16:38:54",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 111851,
-    "total_farmacia": 33352,
-    "total_geral": 145203,
+    "total_farmacia": 33347,
+    "total_geral": 145198,
     "perto_de_terminar": 36,
     "zerados": 9
   },
@@ -15332,19 +15332,19 @@
       "tipo": "Insumo",
       "unidade": "Unidade",
       "almoxarifado": 787,
-      "farmacia": 39,
+      "farmacia": 34,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 826,
+      "total": 821,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-28 16:13:59",
+      "atualizado_em": "2026-09-29 16:38:53",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -15358,17 +15358,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 39
+          "quantidade": 34
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 174,
-      "previsao_20_dias": 174,
+      "minimo_alerta": 176,
+      "previsao_20_dias": 176,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 48,
-      "media_diaria_saida": 8.69,
-      "total_saida_historica": 417,
-      "cobertura_dias": 95.1,
+      "media_diaria_saida": 8.79,
+      "total_saida_historica": 422,
+      "cobertura_dias": 93.4,
       "alerta_estoque": false
     },
     {
@@ -16945,6 +16945,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 3300,
+      "item_id": 204,
+      "produto_nome": "Soro fisiológico 500ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 5,
+      "responsavel": "Leiliana",
+      "data": "2026-09-29",
+      "obs": "",
+      "criado_em": "2026-09-29 16:38:53",
+      "item": "Soro fisiológico 500ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 3299,
       "item_id": 385,
@@ -24428,21 +24443,6 @@
       "obs": "",
       "criado_em": "2026-09-22 10:22:15",
       "item": "Benzilpenicilina 1.200",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 2800,
-      "item_id": 59,
-      "produto_nome": "Ceftriaxona 1g",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 7,
-      "responsavel": "Leiliana",
-      "data": "2026-09-21",
-      "obs": "",
-      "criado_em": "2026-09-21 16:50:03",
-      "item": "Ceftriaxona 1g",
       "usuario": "Leiliana"
     }
   ]
