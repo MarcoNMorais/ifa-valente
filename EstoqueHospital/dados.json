@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "29/09/2026 11:22:59",
+  "atualizado_em": "29/09/2026 11:23:14",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
-    "total_almoxarifado": 112307,
-    "total_farmacia": 34258,
+    "total_almoxarifado": 112257,
+    "total_farmacia": 34308,
     "total_geral": 146565,
     "perto_de_terminar": 35,
     "zerados": 10
@@ -9702,8 +9702,8 @@
       "nome": "Luva cirúrgica tam. 8",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 320,
-      "farmacia": 2,
+      "almoxarifado": 270,
+      "farmacia": 52,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -9715,7 +9715,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-29 11:17:30",
+      "atualizado_em": "2026-09-29 11:23:13",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -9723,13 +9723,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 320
+          "quantidade": 270
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 2
+          "quantidade": 52
         }
       ],
       "minimo_manual": 0,
@@ -16938,6 +16938,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 3226,
+      "item_id": 186,
+      "produto_nome": "Luva cirúrgica tam. 8",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 50,
+      "responsavel": "Assucena",
+      "data": "2026-09-28",
+      "obs": "",
+      "criado_em": "2026-09-29 11:23:13",
+      "item": "Luva cirúrgica tam. 8",
+      "usuario": "Assucena"
+    },
     {
       "id": 3225,
       "item_id": 185,
@@ -24420,21 +24435,6 @@
       "data": "2026-09-21",
       "obs": "",
       "criado_em": "2026-09-21 11:17:17",
-      "item": "Dipirona",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2723,
-      "item_id": 70,
-      "produto_nome": "Dipirona",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 30,
-      "responsavel": "Assucena",
-      "data": "2026-09-21",
-      "obs": "",
-      "criado_em": "2026-09-21 11:17:09",
       "item": "Dipirona",
       "usuario": "Assucena"
     }
