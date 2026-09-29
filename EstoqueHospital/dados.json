@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "29/09/2026 16:33:17",
+  "atualizado_em": "29/09/2026 16:33:35",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 111851,
-    "total_farmacia": 33702,
-    "total_geral": 145553,
+    "total_farmacia": 33692,
+    "total_geral": 145543,
     "perto_de_terminar": 37,
     "zerados": 10
   },
@@ -10814,19 +10814,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 120,
-      "farmacia": 27,
+      "farmacia": 17,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 147,
+      "total": 137,
       "minimo": 0,
       "validade": "2028-12",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-28 10:49:30",
+      "atualizado_em": "2026-09-29 16:33:34",
       "validade_mais_proxima": "2028-12",
       "vencimento_mais_proximo": "2028-12",
       "lotes_validade": [
@@ -10834,7 +10834,7 @@
           "local": "farmacia",
           "validade": "2028-12",
           "lote": "",
-          "quantidade": 27
+          "quantidade": 17
         },
         {
           "local": "almoxarifado",
@@ -10844,13 +10844,13 @@
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 32,
-      "previsao_20_dias": 32,
+      "minimo_alerta": 36,
+      "previsao_20_dias": 36,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 48,
-      "media_diaria_saida": 1.58,
-      "total_saida_historica": 76,
-      "cobertura_dias": 92.8,
+      "media_diaria_saida": 1.79,
+      "total_saida_historica": 86,
+      "cobertura_dias": 76.5,
       "alerta_estoque": false
     },
     {
@@ -16938,6 +16938,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 3275,
+      "item_id": 11,
+      "produto_nome": "Midazolam 5mg/ml 10ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 10,
+      "responsavel": "Leiliana",
+      "data": "2026-09-29",
+      "obs": "",
+      "criado_em": "2026-09-29 16:33:34",
+      "item": "Midazolam 5mg/ml 10ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 3274,
       "item_id": 376,
@@ -24421,21 +24436,6 @@
       "obs": "",
       "criado_em": "2026-09-21 11:25:00",
       "item": "Paracetamol gotas",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2774,
-      "item_id": 104,
-      "produto_nome": "Seringa 3ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 30,
-      "responsavel": "Assucena",
-      "data": "2026-09-21",
-      "obs": "",
-      "criado_em": "2026-09-21 11:24:48",
-      "item": "Seringa 3ml",
       "usuario": "Assucena"
     }
   ]
