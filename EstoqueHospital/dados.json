@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "29/09/2026 16:33:35",
+  "atualizado_em": "29/09/2026 16:33:45",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 111851,
-    "total_farmacia": 33692,
-    "total_geral": 145543,
+    "total_farmacia": 33672,
+    "total_geral": 145523,
     "perto_de_terminar": 37,
     "zerados": 10
   },
@@ -6466,19 +6466,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 91,
+      "farmacia": 71,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 91,
+      "total": 71,
       "minimo": 0,
       "validade": "2027-02",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-09-28 10:49:38",
+      "atualizado_em": "2026-09-29 16:33:44",
       "validade_mais_proxima": "2027-02",
       "vencimento_mais_proximo": "2027-02",
       "lotes_validade": [
@@ -6486,7 +6486,7 @@
           "local": "farmacia",
           "validade": "2027-02",
           "lote": "",
-          "quantidade": 42
+          "quantidade": 22
         },
         {
           "local": "farmacia",
@@ -6496,13 +6496,13 @@
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 3,
-      "previsao_20_dias": 3,
+      "minimo_alerta": 12,
+      "previsao_20_dias": 12,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 48,
-      "media_diaria_saida": 0.15,
-      "total_saida_historica": 7,
-      "cobertura_dias": 624.0,
+      "media_diaria_saida": 0.56,
+      "total_saida_historica": 27,
+      "cobertura_dias": 126.2,
       "alerta_estoque": false
     },
     {
@@ -16939,6 +16939,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 3276,
+      "item_id": 1,
+      "produto_nome": "Fentanila solução 50mcg/ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 20,
+      "responsavel": "Leiliana",
+      "data": "2026-09-29",
+      "obs": "",
+      "criado_em": "2026-09-29 16:33:44",
+      "item": "Fentanila solução 50mcg/ml",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 3275,
       "item_id": 11,
       "produto_nome": "Midazolam 5mg/ml 10ml",
@@ -24421,21 +24436,6 @@
       "obs": "",
       "criado_em": "2026-09-21 11:25:08",
       "item": "Brometo de ipratrópio gotas",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2775,
-      "item_id": 260,
-      "produto_nome": "Paracetamol gotas",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 1,
-      "responsavel": "Assucena",
-      "data": "2026-09-21",
-      "obs": "",
-      "criado_em": "2026-09-21 11:25:00",
-      "item": "Paracetamol gotas",
       "usuario": "Assucena"
     }
   ]
