@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "29/09/2026 11:28:07",
+  "atualizado_em": "29/09/2026 11:28:14",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 112109,
-    "total_farmacia": 33923,
-    "total_geral": 146032,
+    "total_farmacia": 33908,
+    "total_geral": 146017,
     "perto_de_terminar": 36,
     "zerados": 10
   },
@@ -7759,19 +7759,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 1180,
-      "farmacia": 48,
+      "farmacia": 33,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1228,
+      "total": 1213,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-29 11:18:31",
+      "atualizado_em": "2026-09-29 11:28:13",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -7785,17 +7785,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 48
+          "quantidade": 33
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 417,
-      "previsao_20_dias": 417,
+      "minimo_alerta": 423,
+      "previsao_20_dias": 423,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 48,
-      "media_diaria_saida": 20.83,
-      "total_saida_historica": 1000,
-      "cobertura_dias": 58.9,
+      "media_diaria_saida": 21.15,
+      "total_saida_historica": 1015,
+      "cobertura_dias": 57.4,
       "alerta_estoque": false
     },
     {
@@ -16939,6 +16939,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 3257,
+      "item_id": 177,
+      "produto_nome": "Gelco nº 22",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 15,
+      "responsavel": "Assucena",
+      "data": "2026-09-28",
+      "obs": "",
+      "criado_em": "2026-09-29 11:28:13",
+      "item": "Gelco nº 22",
+      "usuario": "Assucena"
+    },
+    {
       "id": 3256,
       "item_id": 176,
       "produto_nome": "Gelco nº 24",
@@ -24421,21 +24436,6 @@
       "obs": "",
       "criado_em": "2026-09-21 11:22:02",
       "item": "Ácido Tranexâmico 50mg",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2754,
-      "item_id": 55,
-      "produto_nome": "Benzilpenicilina 1.200",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 5,
-      "responsavel": "Assucena",
-      "data": "2026-09-21",
-      "obs": "",
-      "criado_em": "2026-09-21 11:21:53",
-      "item": "Benzilpenicilina 1.200",
       "usuario": "Assucena"
     }
   ]
