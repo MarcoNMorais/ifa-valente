@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "29/09/2026 11:18:56",
+  "atualizado_em": "29/09/2026 11:19:04",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 112307,
-    "total_farmacia": 34593,
-    "total_geral": 146900,
+    "total_farmacia": 34578,
+    "total_geral": 146885,
     "perto_de_terminar": 35,
     "zerados": 9
   },
@@ -12160,19 +12160,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 2560,
-      "farmacia": 15,
+      "farmacia": 0,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 2575,
+      "total": 2560,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-28 10:51:39",
+      "atualizado_em": "2026-09-29 11:19:03",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -12181,22 +12181,16 @@
           "validade": "",
           "lote": "",
           "quantidade": 2560
-        },
-        {
-          "local": "farmacia",
-          "validade": "",
-          "lote": "",
-          "quantidade": 15
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 161,
-      "previsao_20_dias": 161,
+      "minimo_alerta": 168,
+      "previsao_20_dias": 168,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 43,
-      "media_diaria_saida": 8.02,
-      "total_saida_historica": 345,
-      "cobertura_dias": 320.9,
+      "media_diaria_saida": 8.37,
+      "total_saida_historica": 360,
+      "cobertura_dias": 305.8,
       "alerta_estoque": false
     },
     {
@@ -16951,6 +16945,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 3205,
+      "item_id": 329,
+      "produto_nome": "Polifix",
+      "tipo": "Farmácia para Posto de Internamento",
+      "origem": "Farmácia",
+      "destino": "Posto de Internamento",
+      "quantidade": 15,
+      "responsavel": "Assucena",
+      "data": "2026-09-28",
+      "obs": "",
+      "criado_em": "2026-09-29 11:19:03",
+      "item": "Polifix",
+      "usuario": "Assucena"
+    },
     {
       "id": 3204,
       "item_id": 102,
@@ -24434,21 +24443,6 @@
       "obs": "",
       "criado_em": "2026-09-21 11:11:27",
       "item": "Diclofenaco 25mg",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2702,
-      "item_id": 203,
-      "produto_nome": "Soro fisiológico 250ml",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 16,
-      "responsavel": "Assucena",
-      "data": "2026-09-19",
-      "obs": "",
-      "criado_em": "2026-09-21 11:11:09",
-      "item": "Soro fisiológico 250ml",
       "usuario": "Assucena"
     }
   ]
