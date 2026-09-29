@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "29/09/2026 11:21:31",
+  "atualizado_em": "29/09/2026 11:21:46",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 112307,
-    "total_farmacia": 34408,
-    "total_geral": 146715,
+    "total_farmacia": 34394,
+    "total_geral": 146701,
     "perto_de_terminar": 35,
     "zerados": 10
   },
@@ -11616,19 +11616,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 280,
+      "farmacia": 266,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 280,
+      "total": 266,
       "minimo": 0,
       "validade": "2028-02",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-09-21 11:10:27",
+      "atualizado_em": "2026-09-29 11:21:45",
       "validade_mais_proxima": "2028-02",
       "vencimento_mais_proximo": "2028-02",
       "lotes_validade": [
@@ -11636,7 +11636,7 @@
           "local": "farmacia",
           "validade": "2028-02",
           "lote": "",
-          "quantidade": 266
+          "quantidade": 252
         },
         {
           "local": "farmacia",
@@ -11646,13 +11646,13 @@
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 82,
-      "previsao_20_dias": 82,
+      "minimo_alerta": 88,
+      "previsao_20_dias": 88,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 48,
-      "media_diaria_saida": 4.08,
-      "total_saida_historica": 196,
-      "cobertura_dias": 68.6,
+      "media_diaria_saida": 4.38,
+      "total_saida_historica": 210,
+      "cobertura_dias": 60.8,
       "alerta_estoque": false
     },
     {
@@ -16938,6 +16938,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 3219,
+      "item_id": 31,
+      "produto_nome": "Omeprazol 20mg comprimido",
+      "tipo": "Farmácia para Posto de Internamento",
+      "origem": "Farmácia",
+      "destino": "Posto de Internamento",
+      "quantidade": 14,
+      "responsavel": "Assucena",
+      "data": "2026-09-28",
+      "obs": "",
+      "criado_em": "2026-09-29 11:21:45",
+      "item": "Omeprazol 20mg comprimido",
+      "usuario": "Assucena"
+    },
     {
       "id": 3218,
       "item_id": 224,
@@ -24421,21 +24436,6 @@
       "obs": "",
       "criado_em": "2026-09-21 11:13:35",
       "item": "Salbutamol spray",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2716,
-      "item_id": 376,
-      "produto_nome": "LENÇOL DESCARTAVEL PAPEL",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 2,
-      "responsavel": "Assucena",
-      "data": "2026-09-20",
-      "obs": "",
-      "criado_em": "2026-09-21 11:13:25",
-      "item": "LENÇOL DESCARTAVEL PAPEL",
       "usuario": "Assucena"
     }
   ]
