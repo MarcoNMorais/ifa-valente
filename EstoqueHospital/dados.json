@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "29/09/2026 16:37:00",
+  "atualizado_em": "29/09/2026 16:37:10",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 111851,
-    "total_farmacia": 33361,
-    "total_geral": 145212,
+    "total_farmacia": 33336,
+    "total_geral": 145187,
     "perto_de_terminar": 37,
     "zerados": 10
   },
@@ -5705,19 +5705,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 2256,
-      "farmacia": 44,
+      "farmacia": 19,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 2300,
+      "total": 2275,
       "minimo": 300,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-29 11:28:53",
+      "atualizado_em": "2026-09-29 16:37:09",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -5731,17 +5731,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 69
+          "quantidade": 44
         }
       ],
       "minimo_manual": 300,
-      "minimo_alerta": 407,
-      "previsao_20_dias": 407,
+      "minimo_alerta": 417,
+      "previsao_20_dias": 417,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 48,
-      "media_diaria_saida": 20.31,
-      "total_saida_historica": 975,
-      "cobertura_dias": 113.2,
+      "media_diaria_saida": 20.83,
+      "total_saida_historica": 1000,
+      "cobertura_dias": 109.2,
       "alerta_estoque": false
     },
     {
@@ -16939,6 +16939,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 3294,
+      "item_id": 220,
+      "produto_nome": "Equipo macrogotas",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 25,
+      "responsavel": "Leiliana",
+      "data": "2026-09-29",
+      "obs": "",
+      "criado_em": "2026-09-29 16:37:09",
+      "item": "Equipo macrogotas",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 3293,
       "item_id": 154,
       "produto_nome": "Equipo fotossensível",
@@ -24421,21 +24436,6 @@
       "obs": "",
       "criado_em": "2026-09-21 16:16:37",
       "item": "Esparadrapo 10x4,5",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 2794,
-      "item_id": 220,
-      "produto_nome": "Equipo macrogotas",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 25,
-      "responsavel": "Leiliana",
-      "data": "2026-09-21",
-      "obs": "",
-      "criado_em": "2026-09-21 16:16:24",
-      "item": "Equipo macrogotas",
       "usuario": "Leiliana"
     }
   ]
