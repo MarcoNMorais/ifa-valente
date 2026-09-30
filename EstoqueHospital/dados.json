@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "30/09/2026 11:09:42",
+  "atualizado_em": "30/09/2026 11:09:50",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
-    "total_almoxarifado": 111025,
-    "total_farmacia": 33596,
+    "total_almoxarifado": 110845,
+    "total_farmacia": 33776,
     "total_geral": 144621,
     "perto_de_terminar": 36,
     "zerados": 10
@@ -15233,8 +15233,8 @@
       "nome": "Soro fisiológico 100ml",
       "tipo": "Insumo",
       "unidade": "Unidade",
-      "almoxarifado": 840,
-      "farmacia": 60,
+      "almoxarifado": 660,
+      "farmacia": 240,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -15246,7 +15246,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-29 16:31:59",
+      "atualizado_em": "2026-09-30 11:09:49",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -15254,13 +15254,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 840
+          "quantidade": 660
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 60
+          "quantidade": 240
         }
       ],
       "minimo_manual": 0,
@@ -16939,6 +16939,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 3352,
+      "item_id": 202,
+      "produto_nome": "Soro fisiológico 100ml",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 180,
+      "responsavel": "Assucena",
+      "data": "2026-09-29",
+      "obs": "",
+      "criado_em": "2026-09-30 11:09:49",
+      "item": "Soro fisiológico 100ml",
+      "usuario": "Assucena"
+    },
     {
       "id": 3351,
       "item_id": 185,
@@ -24422,21 +24437,6 @@
       "obs": "",
       "criado_em": "2026-09-22 16:52:00",
       "item": "Equipo macrogotas",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 2852,
-      "item_id": 102,
-      "produto_nome": "Seringa 5ml",
-      "tipo": "Almoxarifado para Farmácia",
-      "origem": "Almoxarifado",
-      "destino": "Farmácia",
-      "quantidade": 500,
-      "responsavel": "Leiliana",
-      "data": "2026-09-22",
-      "obs": "",
-      "criado_em": "2026-09-22 16:51:37",
-      "item": "Seringa 5ml",
       "usuario": "Leiliana"
     }
   ]
