@@ -91,12 +91,12 @@
             <div class="combo"><input id="fPsf" autocomplete="off" placeholder="PSF / Unidade" /><div id="fPsfSug" class="suggestions"></div></div>
             <input id="fAcs" placeholder="ACS" />
             <select id="fPrioridade"><option value="">Prioridade</option></select>
-            <select id="fStatus"><option value="">Status</option><option>Aguardando</option><option>Marcado</option><option>Atendido</option><option>Cancelado</option><option>Retorno</option></select>
-            <button id="limparFiltros" class="btn ghost">Limpar</button>
+            <select id="fStatus"><option value="">Status</option><option>Aguardando</option><option>Marcado</option><option>Atendido</option><option>Cancelado</option><option>Retorno</option><option>Não informado</option></select>
+            <select id="fSistema"><option value="">Todos os sistemas</option><option>Policlínica</option><option>IDS</option><option>SRA</option><option>Lista Única</option></select><button id="limparFiltros" class="btn ghost">Limpar</button>
           </div>
           <div class="tableWrap">
             <table id="filaTable">
-              <thead><tr><th>#</th><th>Nome</th><th>CPF</th><th>SUS</th><th>Nasc.</th><th>Contato</th><th>Procedimento</th><th>CID/SIGTAP/CIAP/Motivo</th><th>ACS</th><th>PSF</th><th>Data sol.</th><th>Operador</th><th>Local</th><th>Data marc./atend.</th><th>Status</th><th>Ações</th></tr></thead>
+              <thead><tr><th>#</th><th>Nome</th><th>CPF</th><th>SUS</th><th>Nasc.</th><th>Contato</th><th>Procedimento</th><th>CID/SIGTAP/CIAP/Motivo</th><th>ACS</th><th>PSF</th><th>Data sol.</th><th>Operador</th><th>Local</th><th>Data marc./atend.</th><th>Status</th><th>Sistemas</th><th>Ações</th></tr></thead>
               <tbody></tbody>
             </table>
           </div>
@@ -131,7 +131,7 @@
                 <div class="combo"><input id="psf" autocomplete="off" placeholder="Digite para buscar a unidade" /><div id="psfSug" class="suggestions"></div></div>
               </label>
               <label class="dataSolicField">Data solicitada<input id="dataSolicitacao" type="date" /></label>
-              <label class="statusField">Status<select id="status"><option>Aguardando</option><option>Marcado</option><option>Atendido</option><option>Cancelado</option><option>Retorno</option></select></label>
+              <label class="statusField">Status<select id="status"><option>Aguardando</option><option>Marcado</option><option>Atendido</option><option>Cancelado</option><option>Retorno</option><option>Não informado</option></select></label>
               <fieldset class="wide priorityBox prioritySide">
                 <legend>Classificação de prioridade</legend>
                 <div id="prioridadeRadios" class="priorityList"></div>
@@ -142,7 +142,7 @@
                 </label>
                 <label>Data marcada/atendimento<input id="dataMarcacao" type="date" /></label>
               </div>
-              <label class="wide obsField">Observação<textarea id="obs" rows="3" placeholder="Observações internas"></textarea></label>
+              <fieldset class="wide"><legend>Sistemas em que o paciente foi lançado</legend><label style="display:inline-flex;gap:8px;margin-right:20px"><input type="checkbox" name="sistemaCis" value="Policlínica"> Policlínica</label><label style="display:inline-flex;gap:8px;margin-right:20px"><input type="checkbox" name="sistemaCis" value="IDS"> IDS</label><label style="display:inline-flex;gap:8px;margin-right:20px"><input type="checkbox" name="sistemaCis" value="SRA"> SRA</label><label style="display:inline-flex;gap:8px;margin-right:20px"><input type="checkbox" name="sistemaCis" value="Lista Única"> Lista Única</label></fieldset><label class="wide obsField">Observação<textarea id="obs" rows="3" placeholder="Observações internas"></textarea></label>
             </div>
             <div class="formActions">
               <button class="btn primary" type="submit">Salvar cadastro</button>
@@ -219,7 +219,7 @@
               <div class="formGrid userGrid">
                 <label>Nome do operador<input id="usuarioNome" placeholder="Ex: Irla, Maria, João" /></label>
                 <label>Login <b class="required">*</b><input id="usuarioLogin" placeholder="Sem espaço. Ex: irla" required /></label>
-                <label>Senha <b class="required">*</b><input id="usuarioSenha" type="password" placeholder="Senha do operador" required /></label>
+                <label>Senha <b class="required">*</b><input id="usuarioSenha" type="password" placeholder="Nova senha; deixe em branco para manter" /></label>
                 <label>Perfil<select id="usuarioPerfil"><option value="regulador">Regulador</option><option value="admin">Admin</option></select></label>
                 <label>Status<select id="usuarioAtivo"><option value="true">Ativo</option><option value="false">Inativo</option></select></label>
               </div>
@@ -298,6 +298,7 @@
   </div>
 
   <div id="toast"></div>
-  <script src="app.js"></script>
+  <script src="app.js?v=15"></script>
+  <script src="enhancements.js?v=15"></script>
 </body>
 </html>

@@ -52,6 +52,8 @@ os.environ["CEMES_DATA_DIR"] = str(CEMES_PATH)
 os.environ["CIS_DATA_DIR"] = str(CIS_PATH)
 os.environ["SECRET_KEY"] = "segredo-exclusivo-dos-testes"
 os.environ["COOKIE_SECURE"] = "0"
+os.environ.setdefault("IFA_INITIAL_ADMIN_PASSWORD", "ifa-admin-test-only")
+os.environ.setdefault("IFA_INITIAL_REGULATOR_PASSWORD", "ifa-regulator-test-only")
 
 from cemes_routes import CemesStore  # noqa: E402
 from server import app  # noqa: E402
@@ -136,8 +138,8 @@ class CemesIntegrationTest(unittest.TestCase):
         self.assertEqual(self.admin.get("/EstoqueHospital").status_code, 200)
 
         cis_status = self.admin.get("/api/cis/status")
-        self.assertEqual(cis_status.status_code, 200)
-        self.assertTrue(cis_status.get_json()["ok"])
+        # A sessão CEMES não concede acesso aos dados administrativos do CIS.
+        self.assertEqual(cis_status.status_code, 401)
 
     def test_02_saude_estaticos_e_cancelamento_sem_validacao(self):
         health = self.admin.get("/Cemes/api/health")
@@ -748,6 +750,7 @@ class CemesIntegrationTest(unittest.TestCase):
         )
         self.assertEqual(downloaded.status_code, 200)
         self.assertGreater(len(downloaded.data), 1024)
+        downloaded.close()
         audit_before_restore = self.admin.get("/Cemes/api/audit?limit=1000").get_json()
         self.assertIn("BACKUP", {row["action"] for row in audit_before_restore})
 

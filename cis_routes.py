@@ -9,7 +9,7 @@ from typing import Any
 
 from flask import jsonify, redirect, request, send_file, send_from_directory
 
-VERSAO_CIS = 14
+VERSAO_CIS = 15
 MAX_BACKUPS_AUTO = 10
 MAX_BACKUPS_LISTA = 10
 
@@ -30,10 +30,7 @@ def _default_state() -> dict[str, Any]:
         "procedimentos": [],
         "codigos": [],
         "locais": [],
-        "users": [
-            {"id": "admin-default", "user": "admin", "pass": "1234", "role": "admin", "name": "admin", "active": True},
-            {"id": "regulador-default", "user": "regulador", "pass": "1234", "role": "regulador", "name": "regulador", "active": True},
-        ],
+        "users": [],
         "logs": [],
     }
 
@@ -82,12 +79,19 @@ def register_cis_routes(app):
     def read_state() -> dict[str, Any]:
         ensure_dirs()
         if not cis_data_file.exists():
-            return _default_state()
+            state = _default_state()
+            password = os.environ.get('CIS_INITIAL_ADMIN_PASSWORD', '')
+            if len(password) >= 8:
+                from werkzeug.security import generate_password_hash
+                state['users'] = [dict(id='admin-default', user='admin', role='admin', name='Administrador', active=True, password_hash=generate_password_hash(password))]
+            return write_state(state)
         try:
             with cis_data_file.open("r", encoding="utf-8") as f:
                 data = json.load(f)
             if not isinstance(data, dict):
-                return _default_state()
+                raise ValueError('Banco CIS inválido')
+            if any(not isinstance(data.get(key), list) for key in ['pacientes', 'procedimentos', 'codigos', 'locais', 'users', 'logs']):
+                raise ValueError('Coleções CIS inválidas')
             base = _default_state()
             base.update(data)
             base["versao"] = max(int(base.get("versao") or 0), VERSAO_CIS)
@@ -98,7 +102,7 @@ def register_cis_routes(app):
                 shutil.copy2(cis_data_file, broken)
             except Exception:
                 pass
-            return _default_state()
+            raise ValueError('Banco CIS inválido. Dados preservados; restaure um backup.')
 
     def comparable_state(data: dict[str, Any]) -> dict[str, Any]:
         comp = dict(data or {})
@@ -132,16 +136,19 @@ def register_cis_routes(app):
             rotate_auto_backups()
             return True
         except Exception:
-            return False
+            raise OSError('Não foi possível criar o backup CIS antes de salvar')
 
     def write_state(data: dict[str, Any]) -> dict[str, Any]:
         ensure_dirs()
         clean = clean_state(data)
+        clean['atualizadoEm'] = _iso_now()
         create_auto_backup_if_needed(clean)
 
         temp_file = cis_data_file.with_suffix(".json.tmp")
         with temp_file.open("w", encoding="utf-8") as f:
             json.dump(clean, f, ensure_ascii=False, indent=2)
+            f.flush()
+            os.fsync(f.fileno())
         os.replace(temp_file, cis_data_file)
         return clean
 
@@ -260,4 +267,6 @@ def register_cis_routes(app):
         for rule in ["/CIS", "/CIS/", "/CIS/<path:path>"]:
             app.add_url_rule(rule, endpoint="sistema_cis", view_func=sistema_cis)
 
+    from cis_security import install_security
+    install_security(app, cis_data_dir, read_state, write_state)
     return app

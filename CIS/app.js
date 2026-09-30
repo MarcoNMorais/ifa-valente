@@ -161,10 +161,7 @@ const defaultCodigos=[
  ['Motivo','ULCERA','Úlcera']
 ].map(([tipo,codigo,descricao])=>({tipo,codigo,descricao}));
 
-const defaultUsers=[
- {id:'admin-default',user:'admin',pass:'1234',role:'admin',name:'admin',active:true,createdAt:new Date().toISOString()},
- {id:'regulador-default',user:'regulador',pass:'1234',role:'regulador',name:'regulador',active:true,createdAt:new Date().toISOString()}
-];
+const defaultUsers=[];
 
 function loadRaw(key){try{return JSON.parse(localStorage.getItem(key))}catch{return null}}
 function load(key, fallback, oldKey=null){const now=loadRaw(key); if(now!==null) return now; if(oldKey){const old=loadRaw(oldKey); if(old!==null) return old;} return fallback;}
@@ -173,7 +170,7 @@ function normalizeUserRecord(u, fallbackRole='regulador'){
  if(!u) return null;
  const user=(u.user||u.login||u.usuario||'').toString().trim();
  const pass=(u.pass||u.senha||'').toString();
- if(!user || !pass) return null;
+ if(!user) return null;
  const role=(u.role||u.perfil||fallbackRole||'regulador').toString().toLowerCase()==='admin'?'admin':'regulador';
  return {id:(u.id||uid()).toString(),user,pass,role,name:(u.name||u.nome||user).toString().trim()||user,active:u.active!==false && u.ativo!==false,createdAt:u.createdAt||u.criadoEm||new Date().toISOString(),updatedAt:u.updatedAt||u.atualizadoEm||''};
 }
@@ -188,10 +185,10 @@ function normalizeUsers(data){
    Object.keys(data).forEach(k=>{if(!['admin','regulador'].includes(k) && data[k] && typeof data[k]==='object') arr.push(normalizeUserRecord(data[k],data[k].role||'regulador'));});
   }
  }
- if(!arr.length) arr=defaultUsers.map(u=>({...u}));
+ 
  const unique=[]; const seen=new Set();
  arr.forEach(u=>{const key=compact(u.user); if(!key || seen.has(key)) return; seen.add(key); unique.push(u);});
- if(!unique.some(u=>u.role==='admin' && u.active!==false)) unique.unshift({...defaultUsers[0],id:uid()});
+ 
  return unique;
 }
 
@@ -207,12 +204,12 @@ function normalizePacientes(data){
 function allUsers(){return Array.isArray(users)?users:normalizeUsers(users)}
 function migrateOldCids(){const old=loadRaw(OLD_CID_KEY); if(!old || !Array.isArray(old)) return defaultCodigos; const migrated=old.map(c=>({tipo:'CID-10',codigo:(c.codigo||'').toString(),descricao:(c.descricao||'').toString()})); return mergeCodes(defaultCodigos.concat(migrated));}
 
-let pacientes=normalizePacientes(load(STORAGE_KEY,[],OLD_STORAGE_KEY));
+let pacientes=[];
 let procedimentos=load(PROC_KEY,defaultProcedimentos,OLD_PROC_KEY);
 let codigos=load(CODES_KEY,null,OLD_CODES_KEY) || migrateOldCids();
-let users=normalizeUsers(load(USERS_KEY,defaultUsers,OLD_USERS_KEY));
+let users=[];
 let locais=load(LOC_KEY,defaultLocais,OLD_LOC_KEY);
-let logs=load(LOGS_KEY,[],OLD_LOGS_KEY);
+let logs=[];
 let currentUser=null;
 
 
@@ -395,7 +392,7 @@ function logout(){if(currentUser) addLog('Logout','Saiu do sistema'); sessionSto
 $('#loginForm').onsubmit=e=>{e.preventDefault();login($('#loginUser').value.trim(),$('#loginPass').value)};
 
 $('#btnLogout').onclick=logout;
-const savedSession=loadRaw(SESSION_KEY)||loadRaw(OLD_SESSION_KEY); if(savedSession){currentUser=savedSession; setTimeout(applyLogin,0)}
+// A sessão é validada exclusivamente pelo servidor.
 
 $$('.tab').forEach(b=>b.onclick=()=>showTab(b.dataset.tab,true));
 window.addEventListener('popstate',()=>{ if(currentUser) showTab(routeTabFromLocation() || 'dashboard', false); else routeToLogin(true); });
@@ -451,10 +448,11 @@ function toggleStatusDetails(){
 }
 $('#status').addEventListener('change',toggleStatusDetails);
 
-$('#pacienteForm').onsubmit=e=>{
+$('#pacienteForm').onsubmit=async e=>{
  e.preventDefault();
  const id=$('#pacienteId').value || uid();
- const base={id,nome:$('#nome').value.trim(),cpf:$('#cpf').value.trim(),sus:$('#sus').value.trim(),nascimento:$('#nascimento').value,contato:$('#contato').value.trim(),procedimento:$('#procedimento').value.trim(),cid:$('#cid').value.trim(),acs:$('#acs').value.trim(),psf:$('#psf').value.trim(),dataSolicitacao:$('#dataSolicitacao').value||today(),localMarcacao:$('#localMarcacao').value.trim(),dataMarcacao:$('#dataMarcacao').value,prioridade:getPrioridade(),status:$('#status').value,obs:$('#obs').value.trim()};
+ $('#pacienteId').value=id;
+ const base={id,sistemas:Array.from(document.querySelectorAll('[name=sistemaCis]:checked')).map(el=>el.value),nome:$('#nome').value.trim(),cpf:$('#cpf').value.trim(),sus:$('#sus').value.trim(),nascimento:$('#nascimento').value,contato:$('#contato').value.trim(),procedimento:$('#procedimento').value.trim(),cid:$('#cid').value.trim(),acs:$('#acs').value.trim(),psf:$('#psf').value.trim(),dataSolicitacao:$('#dataSolicitacao').value||(pacientes.some(p=>p.id===id)?'':today()),localMarcacao:$('#localMarcacao').value.trim(),dataMarcacao:$('#dataMarcacao').value,prioridade:getPrioridade(),status:$('#status').value,obs:$('#obs').value.trim()};
  if(!base.nome) return toast('O nome é obrigatório.');
  pacientes=normalizePacientes(pacientes);
  const i=pacientes.findIndex(x=>String(x.id)===String(id));
@@ -466,7 +464,7 @@ $('#pacienteForm').onsubmit=e=>{
   pacientes.push({...base,criadoEm:new Date().toISOString(),operadorCadastro:actorName()});
   addLog('Inclusão',`Cadastro incluído. Status: ${base.status || ''}. Procedimento: ${base.procedimento || ''}.`, base.nome);
  }
- save(); clearForm(); toast('Cadastro salvo com sucesso.'); $('.tab[data-tab="filas"]').click();
+ if(!await save()) return; clearForm(); toast('Cadastro salvo no servidor.'); $('.tab[data-tab="filas"]').click();
 };$('#novoCadastro').onclick=clearForm;
 function excluirPacienteAtual(){
  let id=String($('#pacienteId').value||'').trim();
@@ -501,7 +499,7 @@ function excluirPacienteAtual(){
  }
 }
 $('#excluirCadastro').onclick=excluirPacienteAtual;
-function clearForm(){['pacienteId','nome','cpf','sus','nascimento','contato','procedimento','cid','acs','psf','dataSolicitacao','localMarcacao','dataMarcacao','obs'].forEach(id=>$('#'+id).value='');setPrioridade('Não Classificado');$('#status').value='Aguardando';toggleStatusDetails();$('#excluirCadastro').disabled=true;$('#formTitle').textContent='Cadastro de paciente'}
+function clearForm(){$$('[name=sistemaCis]').forEach(el=>el.checked=false); if($('#anexosLista')) $('#anexosLista').textContent='Salve ou abra um cadastro para anexar documentos.';['pacienteId','nome','cpf','sus','nascimento','contato','procedimento','cid','acs','psf','dataSolicitacao','localMarcacao','dataMarcacao','obs'].forEach(id=>$('#'+id).value='');setPrioridade('Não Classificado');$('#status').value='Aguardando';toggleStatusDetails();$('#excluirCadastro').disabled=true;$('#formTitle').textContent='Cadastro de paciente'}
 function editPaciente(id){
  pacientes=normalizePacientes(pacientes);
  const p=pacientes.find(x=>String(x.id)===String(id));
@@ -509,6 +507,8 @@ function editPaciente(id){
  $('#pacienteId').value=String(p.id||id);
  ['nome','cpf','sus','nascimento','contato','procedimento','cid','acs','psf','dataSolicitacao','status','localMarcacao','dataMarcacao','obs'].forEach(k=>$('#'+k).value=p[k]||'');
  setPrioridade(p.prioridade);
+ $$('[name=sistemaCis]').forEach(el=>el.checked=(p.sistemas||[]).includes(el.value));
+ if(window.refreshAttachments) window.refreshAttachments();
  toggleStatusDetails();
  $('#excluirCadastro').disabled=false;
  $('#formTitle').textContent='Editar cadastro';
@@ -518,7 +518,7 @@ window.editPaciente=editPaciente;
 
 function filtered(){
  const f={busca:norm($('#fBusca').value),proc:norm($('#fProc').value),cid:norm($('#fCid').value),psf:norm($('#fPsf').value),acs:norm($('#fAcs').value),pri:$('#fPrioridade').value,status:$('#fStatus').value};
- return pacientes.filter(p=>(!f.busca||norm([p.nome,p.sus,p.cpf,p.contato].join(' ')).includes(f.busca))&&(!f.proc||norm(p.procedimento).includes(f.proc))&&(!f.cid||norm(p.cid).includes(f.cid))&&(!f.psf||norm(p.psf).includes(f.psf))&&(!f.acs||norm(p.acs).includes(f.acs))&&(!f.pri||p.prioridade===f.pri)&&(!f.status||p.status===f.status)).sort((a,b)=>(a.dataSolicitacao||'').localeCompare(b.dataSolicitacao||''));
+ return pacientes.filter(p=>(!$('#fSistema').value||(p.sistemas||[]).includes($('#fSistema').value))&&(!f.busca||norm([p.nome,p.sus,p.cpf,p.contato].join(' ')).includes(f.busca))&&(!f.proc||norm(p.procedimento).includes(f.proc))&&(!f.cid||norm(p.cid).includes(f.cid))&&(!f.psf||norm(p.psf).includes(f.psf))&&(!f.acs||norm(p.acs).includes(f.acs))&&(!f.pri||p.prioridade===f.pri)&&(!f.status||p.status===f.status)).sort((a,b)=>(a.dataSolicitacao||'').localeCompare(b.dataSolicitacao||''));
 }
 $$('#filas input,#filas select').forEach(el=>el.addEventListener('input',renderFilas));
 $('#limparFiltros').onclick=()=>{$$('#filas input,#filas select').forEach(el=>el.value='');renderFilas()};
@@ -530,12 +530,12 @@ function priorityClass(p){
  return 'pn';
 }
 function renderFilas(){
- const tb=$('#filaTable tbody'); const rows=filtered(); const colspan=16;
- tb.innerHTML=rows.map((p,i)=>`<tr><td>${i+1}</td><td><b>${esc(p.nome)}</b></td><td>${esc(p.cpf)}</td><td>${esc(p.sus)}</td><td>${fmtDate(p.nascimento)}</td><td>${esc(p.contato)}</td><td>${esc(p.procedimento)}</td><td>${esc(p.cid)}</td><td>${esc(p.acs)}</td><td>${esc(p.psf)}</td><td>${fmtDate(p.dataSolicitacao)}</td><td>${esc(firstName(p.operadorCadastro||p.operadorCadastroNome||p.operadorAtualizacao))}</td><td>${esc(p.localMarcacao)}</td><td>${fmtDate(p.dataMarcacao)}</td><td><span class="tag ${priorityClass(p.prioridade)}">${esc(p.status||'')}</span><br><small>${esc(p.prioridade||'Não Classificado')}</small></td><td><button class="btn secondary" onclick="editPaciente('${p.id}')">Editar</button></td></tr>`).join('') || `<tr><td colspan="${colspan}">Nenhum cadastro encontrado.</td></tr>`;
+ const tb=$('#filaTable tbody'); const rows=filtered(); const colspan=17;
+ tb.innerHTML=rows.map((p,i)=>`<tr><td>${i+1}</td><td><b>${esc(p.nome)}</b></td><td>${esc(p.cpf)}</td><td>${esc(p.sus)}</td><td>${fmtDate(p.nascimento)}</td><td>${esc(p.contato)}</td><td>${esc(p.procedimento)}</td><td>${esc(p.cid)}</td><td>${esc(p.acs)}</td><td>${esc(p.psf)}</td><td>${fmtDate(p.dataSolicitacao)}</td><td>${esc(firstName(p.operadorCadastro||p.operadorCadastroNome||p.operadorAtualizacao))}</td><td>${esc(p.localMarcacao)}</td><td>${fmtDate(p.dataMarcacao)}</td><td><span class="tag ${priorityClass(p.prioridade)}">${esc(p.status||'')}</span><br><small>${esc(p.prioridade||'Não Classificado')}</small></td><td>${esc((p.sistemas||[]).join(', '))}</td><td><button class="btn secondary" data-edit-paciente="${escAttr(p.id)}">Editar</button></td></tr>`).join('') || `<tr><td colspan="${colspan}">Nenhum cadastro encontrado.</td></tr>`;
 }
 function esc(s){return (s||'').toString().replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]))}
 function escAttr(s){return esc(s).replace(/'/g,'&#39;')}
-function fmtDate(d){if(!d)return''; const [y,m,day]=d.split('-'); return y&&m&&day?`${day}/${m}/${y}`:d}
+function fmtDate(d){if(!d)return''; const [y,m,day]=d.split('-'); return esc(y&&m&&day?`${day}/${m}/${y}`:d)}
 function countBy(arr, key){return arr.reduce((acc,x)=>{const k=(x[key]||'Não informado').trim()||'Não informado';acc[k]=(acc[k]||0)+1;return acc},{})}
 function renderBar(sel,obj){const el=$(sel); const entries=Object.entries(obj).sort((a,b)=>b[1]-a[1]).slice(0,8); if(!entries.length){el.textContent='Sem dados ainda.'; el.className='barList empty'; return} const max=Math.max(...entries.map(e=>e[1])); el.className='barList'; el.innerHTML=entries.map(([k,v])=>`<div class="barItem"><b title="${esc(k)}">${esc(k.slice(0,34))}</b><span class="bar"><i style="width:${(v/max)*100}%"></i></span><strong>${v}</strong></div>`).join('')}
 function renderDashboard(){const ativos=pacientes.filter(p=>p.status!=='Cancelado'); $('#statTotal').textContent=ativos.length; $('#statAguardando').textContent=ativos.filter(p=>p.status==='Aguardando').length; $('#statUrgente').textContent=ativos.filter(p=>(p.prioridade||'').includes('Prioridade 0')||(p.prioridade||'').includes('Prioridade 1')||(p.prioridade||'')==='Urgente').length; $('#statHoje').textContent=ativos.filter(p=>p.dataSolicitacao===today()).length; renderBar('#chartProcedimentos',countBy(ativos,'procedimento')); renderBar('#chartPsf',countBy(ativos,'psf')); const st=countBy(ativos,'status'); $('#statusResumo').innerHTML=Object.entries(st).map(([k,v])=>`<span class="chip">${esc(k)}: ${v}</span>`).join('')||'<span class="chip">Sem dados</span>'}
@@ -721,7 +721,7 @@ function renderUsersAdmin(){
  tb.innerHTML=users.slice().sort((a,b)=>a.user.localeCompare(b.user,'pt-BR')).map(u=>{
   const perfil=u.role==='admin'?'Admin':'Regulador';
   const status=u.active!==false?'Ativo':'Inativo';
-  return `<tr><td><b>${esc(u.name||u.user)}</b></td><td>${esc(u.user)}</td><td><span class="tag">${perfil}</span></td><td><span class="tag ${u.active!==false?'p2':'pn'}">${status}</span></td><td>${esc(logTime(u.updatedAt||u.createdAt))}</td><td><button class="btn secondary" type="button" onclick="editUsuario('${u.id}')">Editar</button></td></tr>`;
+  return `<tr><td><b>${esc(u.name||u.user)}</b></td><td>${esc(u.user)}</td><td><span class="tag">${perfil}</span></td><td><span class="tag ${u.active!==false?'p2':'pn'}">${status}</span></td><td>${esc(logTime(u.updatedAt||u.createdAt))}</td><td><button class="btn secondary" type="button" data-edit-usuario="${escAttr(u.id)}">Editar</button></td></tr>`;
  }).join('') || '<tr><td colspan="6" class="mutedCell">Nenhum operador cadastrado.</td></tr>';
 }
 function clearUsuarioForm(){
@@ -734,7 +734,7 @@ function editUsuario(id){
  if(!isAdmin()) return;
  users=normalizeUsers(users);
  const u=users.find(x=>x.id===id); if(!u) return;
- $('#usuarioId').value=u.id; $('#usuarioNome').value=u.name||u.user; $('#usuarioLogin').value=u.user; $('#usuarioSenha').value=u.pass; $('#usuarioPerfil').value=u.role; $('#usuarioAtivo').value=String(u.active!==false);
+ $('#usuarioId').value=u.id; $('#usuarioNome').value=u.name||u.user; $('#usuarioLogin').value=u.user; $('#usuarioSenha').value=''; $('#usuarioPerfil').value=u.role; $('#usuarioAtivo').value=String(u.active!==false);
  $('#excluirUsuario').disabled=false; showUsuarioForm();
 }
 window.editUsuario=editUsuario;
@@ -754,7 +754,8 @@ if($('#usuarioForm')) $('#usuarioForm').onsubmit=e=>{
  users=normalizeUsers(users);
  const id=$('#usuarioId').value || uid();
  const user=$('#usuarioLogin').value.trim(); const pass=$('#usuarioSenha').value; const name=$('#usuarioNome').value.trim() || user; const role=$('#usuarioPerfil').value; const active=$('#usuarioAtivo').value==='true';
- if(!user || !pass) return toast('Login e senha são obrigatórios.');
+ if(!user || (!pass && !$('#usuarioId').value)) return toast('Login e senha são obrigatórios para novos operadores.');
+ if(pass && pass.length<8) return toast('Use pelo menos 8 caracteres na nova senha.');
  if(/\s/.test(user)) return toast('O login não pode ter espaço.');
  const repeated=users.find(u=>compact(u.user)===compact(user) && u.id!==id);
  if(repeated) return toast('Já existe operador com esse login.');
@@ -807,4 +808,4 @@ if($('#btnLogCsv')) $('#btnLogCsv').onclick=()=>{if(!isAdmin())return; const row
 
 function renderAll(){renderDashboard();renderFilas();renderBases();renderUsersAdmin();renderLog()}
 
-initDataStorage();
+// Inicialização em enhancements.js após registrar os controles seguros.
