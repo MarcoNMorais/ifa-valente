@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "30/09/2026 11:09:11",
+  "atualizado_em": "30/09/2026 11:09:18",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
-    "total_almoxarifado": 111601,
-    "total_farmacia": 33020,
+    "total_almoxarifado": 111591,
+    "total_farmacia": 33030,
     "total_geral": 144621,
     "perto_de_terminar": 36,
     "zerados": 10
@@ -10311,8 +10311,8 @@
       "nome": "MASCARA DESCARTAVEL",
       "tipo": "Material",
       "unidade": "Caixa",
-      "almoxarifado": 56,
-      "farmacia": 0,
+      "almoxarifado": 46,
+      "farmacia": 10,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -10324,7 +10324,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-15 16:24:57",
+      "atualizado_em": "2026-09-30 11:09:17",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -10332,7 +10332,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 56
+          "quantidade": 46
+        },
+        {
+          "local": "farmacia",
+          "validade": "",
+          "lote": "",
+          "quantidade": 10
         }
       ],
       "minimo_manual": 0,
@@ -16933,6 +16939,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 3348,
+      "item_id": 398,
+      "produto_nome": "MASCARA DESCARTAVEL",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 10,
+      "responsavel": "Assucena",
+      "data": "2026-09-29",
+      "obs": "",
+      "criado_em": "2026-09-30 11:09:17",
+      "item": "MASCARA DESCARTAVEL",
+      "usuario": "Assucena"
+    },
     {
       "id": 3347,
       "item_id": 329,
@@ -24416,21 +24437,6 @@
       "obs": "",
       "criado_em": "2026-09-22 16:50:31",
       "item": "Soro fisiológico 250ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 2848,
-      "item_id": 27,
-      "produto_nome": "Paracetamol 500mg",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 20,
-      "responsavel": "Leiliana",
-      "data": "2026-09-21",
-      "obs": "",
-      "criado_em": "2026-09-22 11:34:50",
-      "item": "Paracetamol 500mg",
       "usuario": "Leiliana"
     }
   ]
