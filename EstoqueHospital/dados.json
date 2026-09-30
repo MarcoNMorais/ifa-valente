@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "30/09/2026 10:49:56",
+  "atualizado_em": "30/09/2026 10:50:03",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 111851,
-    "total_farmacia": 33176,
-    "total_geral": 145027,
+    "total_farmacia": 33175,
+    "total_geral": 145026,
     "perto_de_terminar": 36,
     "zerados": 10
   },
@@ -16041,19 +16041,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 60,
-      "farmacia": 204,
+      "farmacia": 203,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 264,
+      "total": 263,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-29 11:16:01",
+      "atualizado_em": "2026-09-30 10:50:02",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -16067,7 +16067,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 204
+          "quantidade": 203
         }
       ],
       "minimo_manual": 0,
@@ -16075,8 +16075,8 @@
       "previsao_20_dias": 354,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 49,
-      "media_diaria_saida": 17.67,
-      "total_saida_historica": 866,
+      "media_diaria_saida": 17.69,
+      "total_saida_historica": 867,
       "cobertura_dias": 14.9,
       "alerta_estoque": true
     },
@@ -16939,6 +16939,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 3313,
+      "item_id": 195,
+      "produto_nome": "Tira Reagente G-Tech",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 1,
+      "responsavel": "Assucena",
+      "data": "2026-09-29",
+      "obs": "",
+      "criado_em": "2026-09-30 10:50:02",
+      "item": "Tira Reagente G-Tech",
+      "usuario": "Assucena"
+    },
     {
       "id": 3312,
       "item_id": 238,
@@ -24422,21 +24437,6 @@
       "obs": "",
       "criado_em": "2026-09-22 10:24:49",
       "item": "Dispositivo intravenoso Gelco nº 20",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 2813,
-      "item_id": 289,
-      "produto_nome": "Agulha 25x8",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 30,
-      "responsavel": "Leiliana",
-      "data": "2026-09-21",
-      "obs": "",
-      "criado_em": "2026-09-22 10:24:21",
-      "item": "Agulha 25x8",
       "usuario": "Leiliana"
     }
   ]
