@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "30/09/2026 11:00:07",
+  "atualizado_em": "30/09/2026 11:09:01",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
-    "total_almoxarifado": 111811,
-    "total_farmacia": 32810,
+    "total_almoxarifado": 111761,
+    "total_farmacia": 32860,
     "total_geral": 144621,
     "perto_de_terminar": 36,
     "zerados": 10
@@ -15267,8 +15267,8 @@
       "nome": "Soro fisiológico 250ml",
       "tipo": "Insumo",
       "unidade": "Unidade",
-      "almoxarifado": 837,
-      "farmacia": 37,
+      "almoxarifado": 787,
+      "farmacia": 87,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -15280,7 +15280,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-29 16:31:48",
+      "atualizado_em": "2026-09-30 11:09:00",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -15288,13 +15288,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 837
+          "quantidade": 787
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 37
+          "quantidade": 87
         }
       ],
       "minimo_manual": 0,
@@ -16927,6 +16927,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 3346,
+      "item_id": 203,
+      "produto_nome": "Soro fisiológico 250ml",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 50,
+      "responsavel": "Assucena",
+      "data": "2026-09-29",
+      "obs": "",
+      "criado_em": "2026-09-30 11:09:00",
+      "item": "Soro fisiológico 250ml",
+      "usuario": "Assucena"
+    },
     {
       "id": 3345,
       "item_id": 102,
@@ -24410,21 +24425,6 @@
       "obs": "",
       "criado_em": "2026-09-22 10:37:36",
       "item": "Etomidato 2mg/ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 2846,
-      "item_id": 73,
-      "produto_nome": "Epinefrina 1mg",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 1,
-      "responsavel": "Leiliana",
-      "data": "2026-09-21",
-      "obs": "",
-      "criado_em": "2026-09-22 10:37:16",
-      "item": "Epinefrina 1mg",
       "usuario": "Leiliana"
     }
   ]
