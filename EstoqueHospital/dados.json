@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "30/09/2026 10:58:37",
+  "atualizado_em": "30/09/2026 10:58:45",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 111811,
-    "total_farmacia": 32832,
-    "total_geral": 144643,
+    "total_farmacia": 32831,
+    "total_geral": 144642,
     "perto_de_terminar": 36,
     "zerados": 10
   },
@@ -12074,19 +12074,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 68,
+      "farmacia": 67,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 68,
+      "total": 67,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga Farmácia 227-288",
       "obs": "Importação Farmácia 227-288",
-      "atualizado_em": "2026-09-28 11:15:45",
+      "atualizado_em": "2026-09-30 10:58:42",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -12094,17 +12094,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 68
+          "quantidade": 67
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 7,
-      "previsao_20_dias": 7,
+      "minimo_alerta": 8,
+      "previsao_20_dias": 8,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 44,
-      "media_diaria_saida": 0.34,
-      "total_saida_historica": 15,
-      "cobertura_dias": 199.5,
+      "media_diaria_saida": 0.36,
+      "total_saida_historica": 16,
+      "cobertura_dias": 184.2,
       "alerta_estoque": false
     },
     {
@@ -16927,6 +16927,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 3342,
+      "item_id": 260,
+      "produto_nome": "Paracetamol gotas",
+      "tipo": "Farmácia para Posto de Internamento",
+      "origem": "Farmácia",
+      "destino": "Posto de Internamento",
+      "quantidade": 1,
+      "responsavel": "Assucena",
+      "data": "2026-09-29",
+      "obs": "",
+      "criado_em": "2026-09-30 10:58:42",
+      "item": "Paracetamol gotas",
+      "usuario": "Assucena"
+    },
     {
       "id": 3341,
       "item_id": 241,
@@ -24410,21 +24425,6 @@
       "obs": "",
       "criado_em": "2026-09-22 10:35:01",
       "item": "Midazolam 5mg/ml 10ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 2842,
-      "item_id": 361,
-      "produto_nome": "AZITROMICINA COMPRIMIDO",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 5,
-      "responsavel": "Leiliana",
-      "data": "2026-09-21",
-      "obs": "",
-      "criado_em": "2026-09-22 10:33:36",
-      "item": "AZITROMICINA COMPRIMIDO",
       "usuario": "Leiliana"
     }
   ]
