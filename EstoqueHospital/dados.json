@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "30/09/2026 11:09:50",
+  "atualizado_em": "30/09/2026 11:10:00",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
-    "total_almoxarifado": 110845,
-    "total_farmacia": 33776,
+    "total_almoxarifado": 110835,
+    "total_farmacia": 33786,
     "total_geral": 144621,
     "perto_de_terminar": 36,
     "zerados": 10
@@ -9949,8 +9949,8 @@
       "nome": "Luva de vinil P",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 1300,
-      "farmacia": 597,
+      "almoxarifado": 1290,
+      "farmacia": 607,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -9962,7 +9962,7 @@
       "lote": "",
       "origem": "Carga Almoxerifado",
       "obs": "Importação Almoxerifado",
-      "atualizado_em": "2026-09-24 09:56:10",
+      "atualizado_em": "2026-09-30 11:09:59",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -9970,13 +9970,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 1300
+          "quantidade": 1290
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 597
+          "quantidade": 607
         }
       ],
       "minimo_manual": 0,
@@ -16939,6 +16939,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 3353,
+      "item_id": 278,
+      "produto_nome": "Luva de vinil P",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 10,
+      "responsavel": "Assucena",
+      "data": "2026-09-29",
+      "obs": "",
+      "criado_em": "2026-09-30 11:09:59",
+      "item": "Luva de vinil P",
+      "usuario": "Assucena"
+    },
     {
       "id": 3352,
       "item_id": 202,
@@ -24422,21 +24437,6 @@
       "obs": "",
       "criado_em": "2026-09-22 16:52:09",
       "item": "Esparadrapo 10x4,5",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 2853,
-      "item_id": 220,
-      "produto_nome": "Equipo macrogotas",
-      "tipo": "Almoxarifado para Farmácia",
-      "origem": "Almoxarifado",
-      "destino": "Farmácia",
-      "quantidade": 144,
-      "responsavel": "Leiliana",
-      "data": "2026-09-22",
-      "obs": "",
-      "criado_em": "2026-09-22 16:52:00",
-      "item": "Equipo macrogotas",
       "usuario": "Leiliana"
     }
   ]
