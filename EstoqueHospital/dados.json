@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "30/09/2026 11:09:01",
+  "atualizado_em": "30/09/2026 11:09:11",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
-    "total_almoxarifado": 111761,
-    "total_farmacia": 32860,
+    "total_almoxarifado": 111601,
+    "total_farmacia": 33020,
     "total_geral": 144621,
     "perto_de_terminar": 36,
     "zerados": 10
@@ -12153,8 +12153,8 @@
       "nome": "Polifix",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 2560,
-      "farmacia": 0,
+      "almoxarifado": 2400,
+      "farmacia": 160,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -12166,7 +12166,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-29 11:19:03",
+      "atualizado_em": "2026-09-30 11:09:10",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -12174,7 +12174,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 2560
+          "quantidade": 2400
+        },
+        {
+          "local": "farmacia",
+          "validade": "",
+          "lote": "",
+          "quantidade": 160
         }
       ],
       "minimo_manual": 0,
@@ -16927,6 +16933,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 3347,
+      "item_id": 329,
+      "produto_nome": "Polifix",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 160,
+      "responsavel": "Assucena",
+      "data": "2026-09-29",
+      "obs": "",
+      "criado_em": "2026-09-30 11:09:10",
+      "item": "Polifix",
+      "usuario": "Assucena"
+    },
     {
       "id": 3346,
       "item_id": 203,
@@ -24410,21 +24431,6 @@
       "obs": "",
       "criado_em": "2026-09-22 11:34:50",
       "item": "Paracetamol 500mg",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 2847,
-      "item_id": 5,
-      "produto_nome": "Etomidato 2mg/ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 1,
-      "responsavel": "Leiliana",
-      "data": "2026-09-21",
-      "obs": "",
-      "criado_em": "2026-09-22 10:37:36",
-      "item": "Etomidato 2mg/ml",
       "usuario": "Leiliana"
     }
   ]
