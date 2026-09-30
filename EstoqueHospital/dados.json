@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "30/09/2026 10:50:03",
+  "atualizado_em": "30/09/2026 10:50:10",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 111851,
-    "total_farmacia": 33175,
-    "total_geral": 145026,
+    "total_farmacia": 33115,
+    "total_geral": 144966,
     "perto_de_terminar": 36,
     "zerados": 10
   },
@@ -481,19 +481,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 5800,
-      "farmacia": 295,
+      "farmacia": 235,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 6095,
+      "total": 6035,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-29 11:27:38",
+      "atualizado_em": "2026-09-30 10:50:09",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -507,17 +507,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 295
+          "quantidade": 235
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 1412,
-      "previsao_20_dias": 1412,
+      "minimo_alerta": 1456,
+      "previsao_20_dias": 1456,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 27,
-      "media_diaria_saida": 70.56,
-      "total_saida_historica": 1905,
-      "cobertura_dias": 86.4,
+      "media_diaria_saida": 72.78,
+      "total_saida_historica": 1965,
+      "cobertura_dias": 82.9,
       "alerta_estoque": false
     },
     {
@@ -16940,6 +16940,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 3314,
+      "item_id": 390,
+      "produto_nome": "AGULHA  40X1,2",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 60,
+      "responsavel": "Assucena",
+      "data": "2026-09-29",
+      "obs": "",
+      "criado_em": "2026-09-30 10:50:09",
+      "item": "AGULHA  40X1,2",
+      "usuario": "Assucena"
+    },
+    {
       "id": 3313,
       "item_id": 195,
       "produto_nome": "Tira Reagente G-Tech",
@@ -24422,21 +24437,6 @@
       "obs": "",
       "criado_em": "2026-09-22 10:25:00",
       "item": "Gelco nº 22",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 2814,
-      "item_id": 178,
-      "produto_nome": "Dispositivo intravenoso Gelco nº 20",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 20,
-      "responsavel": "Leiliana",
-      "data": "2026-09-21",
-      "obs": "",
-      "criado_em": "2026-09-22 10:24:49",
-      "item": "Dispositivo intravenoso Gelco nº 20",
       "usuario": "Leiliana"
     }
   ]
