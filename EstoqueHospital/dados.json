@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "30/09/2026 11:09:26",
+  "atualizado_em": "30/09/2026 11:09:33",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
-    "total_almoxarifado": 111575,
-    "total_farmacia": 33046,
+    "total_almoxarifado": 111075,
+    "total_farmacia": 33546,
     "total_geral": 144621,
     "perto_de_terminar": 36,
     "zerados": 10
@@ -12917,8 +12917,8 @@
       "nome": "Seringa 3ml",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 6000,
-      "farmacia": 1783,
+      "almoxarifado": 5500,
+      "farmacia": 2283,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -12930,7 +12930,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-30 10:55:17",
+      "atualizado_em": "2026-09-30 11:09:32",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -12938,13 +12938,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 6000
+          "quantidade": 5500
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 1783
+          "quantidade": 2283
         }
       ],
       "minimo_manual": 0,
@@ -16939,6 +16939,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 3350,
+      "item_id": 104,
+      "produto_nome": "Seringa 3ml",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 500,
+      "responsavel": "Assucena",
+      "data": "2026-09-29",
+      "obs": "",
+      "criado_em": "2026-09-30 11:09:32",
+      "item": "Seringa 3ml",
+      "usuario": "Assucena"
+    },
     {
       "id": 3349,
       "item_id": 376,
@@ -24422,21 +24437,6 @@
       "obs": "",
       "criado_em": "2026-09-22 16:51:27",
       "item": "Seringa 10ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 2850,
-      "item_id": 204,
-      "produto_nome": "Soro fisiológico 500ml",
-      "tipo": "Almoxarifado para Farmácia",
-      "origem": "Almoxarifado",
-      "destino": "Farmácia",
-      "quantidade": 48,
-      "responsavel": "Leiliana",
-      "data": "2026-09-22",
-      "obs": "",
-      "criado_em": "2026-09-22 16:50:44",
-      "item": "Soro fisiológico 500ml",
       "usuario": "Leiliana"
     }
   ]
