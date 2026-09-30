@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "30/09/2026 10:55:44",
+  "atualizado_em": "30/09/2026 10:55:49",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 111811,
-    "total_farmacia": 32959,
-    "total_geral": 144770,
+    "total_farmacia": 32958,
+    "total_geral": 144769,
     "perto_de_terminar": 36,
     "zerados": 10
   },
@@ -13084,19 +13084,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 40,
+      "farmacia": 39,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 40,
+      "total": 39,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-30 10:55:42",
+      "atualizado_em": "2026-09-30 10:55:47",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -13104,7 +13104,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 40
+          "quantidade": 39
         }
       ],
       "minimo_manual": 0,
@@ -13112,9 +13112,9 @@
       "previsao_20_dias": 16,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 48,
-      "media_diaria_saida": 0.77,
-      "total_saida_historica": 37,
-      "cobertura_dias": 51.9,
+      "media_diaria_saida": 0.79,
+      "total_saida_historica": 38,
+      "cobertura_dias": 49.3,
       "alerta_estoque": false
     },
     {
@@ -16927,6 +16927,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 3327,
+      "item_id": 256,
+      "produto_nome": "Simeticona gotas",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 1,
+      "responsavel": "Assucena",
+      "data": "2026-09-29",
+      "obs": "",
+      "criado_em": "2026-09-30 10:55:47",
+      "item": "Simeticona gotas",
+      "usuario": "Assucena"
+    },
     {
       "id": 3326,
       "item_id": 256,
@@ -24410,21 +24425,6 @@
       "obs": "",
       "criado_em": "2026-09-22 10:27:49",
       "item": "LENÇOL DESCARTAVEL PAPEL",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 2827,
-      "item_id": 204,
-      "produto_nome": "Soro fisiológico 500ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 15,
-      "responsavel": "Leiliana",
-      "data": "2026-09-21",
-      "obs": "",
-      "criado_em": "2026-09-22 10:27:36",
-      "item": "Soro fisiológico 500ml",
       "usuario": "Leiliana"
     }
   ]
