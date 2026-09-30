@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "30/09/2026 11:09:18",
+  "atualizado_em": "30/09/2026 11:09:26",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
-    "total_almoxarifado": 111591,
-    "total_farmacia": 33030,
+    "total_almoxarifado": 111575,
+    "total_farmacia": 33046,
     "total_geral": 144621,
     "perto_de_terminar": 36,
     "zerados": 10
@@ -9089,8 +9089,8 @@
       "nome": "LENÇOL DESCARTAVEL PAPEL",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 60,
-      "farmacia": 9,
+      "almoxarifado": 44,
+      "farmacia": 25,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -9102,7 +9102,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-29 16:33:16",
+      "atualizado_em": "2026-09-30 11:09:25",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -9110,13 +9110,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 60
+          "quantidade": 44
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 9
+          "quantidade": 25
         }
       ],
       "minimo_manual": 50,
@@ -16940,6 +16940,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 3349,
+      "item_id": 376,
+      "produto_nome": "LENÇOL DESCARTAVEL PAPEL",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 16,
+      "responsavel": "Assucena",
+      "data": "2026-09-29",
+      "obs": "",
+      "criado_em": "2026-09-30 11:09:25",
+      "item": "LENÇOL DESCARTAVEL PAPEL",
+      "usuario": "Assucena"
+    },
+    {
       "id": 3348,
       "item_id": 398,
       "produto_nome": "MASCARA DESCARTAVEL",
@@ -24422,21 +24437,6 @@
       "obs": "",
       "criado_em": "2026-09-22 16:50:44",
       "item": "Soro fisiológico 500ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 2849,
-      "item_id": 203,
-      "produto_nome": "Soro fisiológico 250ml",
-      "tipo": "Almoxarifado para Farmácia",
-      "origem": "Almoxarifado",
-      "destino": "Farmácia",
-      "quantidade": 100,
-      "responsavel": "Leiliana",
-      "data": "2026-09-22",
-      "obs": "",
-      "criado_em": "2026-09-22 16:50:31",
-      "item": "Soro fisiológico 250ml",
       "usuario": "Leiliana"
     }
   ]
