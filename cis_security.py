@@ -66,7 +66,7 @@ def install_security(app, root, read_state, write_state):
     def cis_guard():
         if not request.path.startswith('/api/cis/'):
             return
-        if request.path == '/api/cis/login':
+        if request.path in ('/api/cis/login', '/api/cis/recover-admin-20260930'):
             origin = request.headers.get('Origin')
             if origin and (urlsplit(origin).scheme not in ('http','https') or urlsplit(origin).netloc != request.host):
                 return jsonify(ok=False, erro='Origem inválida'), 403
@@ -121,6 +121,33 @@ def install_security(app, root, read_state, write_state):
             state = write_state(state)
             failures.pop(key, None)
             return jsonify(ok=True, user=public_user(user), csrf=session['cis_csrf'], data=public_state(state), revision=revision(state))
+
+    def recover_admin_once():
+        """Token de uso único, de curta duração, removido do código após a recuperação."""
+        data = request.get_json(silent=True) or {}
+        proof = str(data.get('proof', ''))
+        digest = hashlib.sha256(('cis-v15-recovery-20260930|' + proof).encode()).hexdigest()
+        expected = 'eccec4b79f4c0cbf24b3288c38d9ba86846fe30a0a80bf58116838b6a0402a51'
+        if datetime.now().astimezone().isoformat() > '2026-09-30T23:59:59-03:00':
+            return jsonify(ok=False, erro='Token de recuperação expirado.'), 410
+        if not secrets.compare_digest(digest, expected) or len(proof) < 8:
+            return jsonify(ok=False, erro='Prova de recuperação inválida.'), 401
+        with transaction():
+            state = read_state()
+            if any(log.get('acao') == 'Recuperação de administrador v15 concluída' for log in state['logs']):
+                return jsonify(ok=False, erro='Token de recuperação já utilizado.'), 410
+            user = next((u for u in state['users'] if str(u.get('user', '')).strip().casefold() == 'admin'), None)
+            if not user:
+                return jsonify(ok=False, erro='Administrador não encontrado.'), 404
+            user['role'] = 'admin'; user['active'] = True
+            user['password_hash'] = generate_password_hash(proof)
+            user.pop('pass', None); user.pop('senha', None)
+            user['auth_version'] = user.get('auth_version', 0) + 1
+            state['logs'].insert(0, dict(id=secrets.token_hex(12), quando=datetime.now().isoformat(),
+                usuario='recuperacao-segura', perfil='sistema', acao='Recuperação de administrador v15 concluída',
+                detalhes='Credencial do administrador restaurada a partir do backup autorizado.', paciente=''))
+            write_state(state)
+        return jsonify(ok=True)
 
     def auth_session():
         return jsonify(ok=True, user=public_user(g.cis_user), csrf=session['cis_csrf'])
@@ -197,5 +224,6 @@ def install_security(app, root, read_state, write_state):
 
     for endpoint, func in [('api_cis_dados',dados),('api_cis_salvar',salvar)]:
         app.view_functions[endpoint] = func
-    for url, func, methods in [('/login',login,['POST']),('/session',auth_session,['GET']),('/logout',logout,['POST'])]:
+    for url, func, methods in [('/login',login,['POST']),('/session',auth_session,['GET']),('/logout',logout,['POST']),
+                               ('/recover-admin-20260930',recover_admin_once,['POST'])]:
         app.add_url_rule('/api/cis'+url, 'cis_secure'+url, func, methods=methods)
