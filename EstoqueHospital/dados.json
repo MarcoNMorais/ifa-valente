@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "30/09/2026 10:58:30",
+  "atualizado_em": "30/09/2026 10:58:37",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 111811,
-    "total_farmacia": 32833,
-    "total_geral": 144644,
+    "total_farmacia": 32832,
+    "total_geral": 144643,
     "perto_de_terminar": 36,
     "zerados": 10
   },
@@ -8998,19 +8998,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 102,
-      "farmacia": 9,
+      "farmacia": 8,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 111,
+      "total": 110,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga Farmácia 227-288",
       "obs": "Importação Farmácia 227-288",
-      "atualizado_em": "2026-09-28 11:21:09",
+      "atualizado_em": "2026-09-30 10:58:35",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -9024,7 +9024,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 9
+          "quantidade": 8
         }
       ],
       "minimo_manual": 0,
@@ -9032,9 +9032,9 @@
       "previsao_20_dias": 7,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 48,
-      "media_diaria_saida": 0.31,
-      "total_saida_historica": 15,
-      "cobertura_dias": 355.2,
+      "media_diaria_saida": 0.33,
+      "total_saida_historica": 16,
+      "cobertura_dias": 330.0,
       "alerta_estoque": false
     },
     {
@@ -16928,6 +16928,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 3341,
+      "item_id": 241,
+      "produto_nome": "Lactulose solução",
+      "tipo": "Farmácia para Posto de Internamento",
+      "origem": "Farmácia",
+      "destino": "Posto de Internamento",
+      "quantidade": 1,
+      "responsavel": "Assucena",
+      "data": "2026-09-29",
+      "obs": "",
+      "criado_em": "2026-09-30 10:58:35",
+      "item": "Lactulose solução",
+      "usuario": "Assucena"
+    },
+    {
       "id": 3340,
       "item_id": 57,
       "produto_nome": "Bromoprida 5mg",
@@ -24410,21 +24425,6 @@
       "obs": "",
       "criado_em": "2026-09-22 10:33:36",
       "item": "AZITROMICINA COMPRIMIDO",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 2841,
-      "item_id": 21,
-      "produto_nome": "Clonazepam gotas 25mg/ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 1,
-      "responsavel": "Leiliana",
-      "data": "2026-09-21",
-      "obs": "",
-      "criado_em": "2026-09-22 10:33:25",
-      "item": "Clonazepam gotas 25mg/ml",
       "usuario": "Leiliana"
     }
   ]
