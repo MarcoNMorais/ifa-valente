@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "30/09/2026 10:48:20",
+  "atualizado_em": "30/09/2026 10:48:29",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 111851,
-    "total_farmacia": 33295,
-    "total_geral": 145146,
+    "total_farmacia": 33294,
+    "total_geral": 145145,
     "perto_de_terminar": 35,
     "zerados": 9
   },
@@ -10987,19 +10987,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 1500,
-      "farmacia": 696,
+      "farmacia": 695,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 2196,
+      "total": 2195,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga Almoxerifado",
       "obs": "Importação Almoxerifado",
-      "atualizado_em": "2026-09-28 10:57:59",
+      "atualizado_em": "2026-09-30 10:48:28",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -11013,7 +11013,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 696
+          "quantidade": 695
         }
       ],
       "minimo_manual": 0,
@@ -11021,9 +11021,9 @@
       "previsao_20_dias": 48,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 44,
-      "media_diaria_saida": 2.36,
-      "total_saida_historica": 104,
-      "cobertura_dias": 929.1,
+      "media_diaria_saida": 2.39,
+      "total_saida_historica": 105,
+      "cobertura_dias": 919.8,
       "alerta_estoque": false
     },
     {
@@ -16945,6 +16945,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 3304,
+      "item_id": 330,
+      "produto_nome": "Máscara descartável",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 1,
+      "responsavel": "Assucena",
+      "data": "2026-09-29",
+      "obs": "",
+      "criado_em": "2026-09-30 10:48:28",
+      "item": "Máscara descartável",
+      "usuario": "Assucena"
+    },
     {
       "id": 3303,
       "item_id": 393,
@@ -24428,21 +24443,6 @@
       "obs": "",
       "criado_em": "2026-09-22 10:22:57",
       "item": "Tramadol 50mg/ml 2ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 2804,
-      "item_id": 62,
-      "produto_nome": "Cimetidina 150mg",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 20,
-      "responsavel": "Leiliana",
-      "data": "2026-09-21",
-      "obs": "",
-      "criado_em": "2026-09-22 10:22:43",
-      "item": "Cimetidina 150mg",
       "usuario": "Leiliana"
     }
   ]
