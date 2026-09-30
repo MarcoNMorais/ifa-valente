@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "30/09/2026 10:55:38",
+  "atualizado_em": "30/09/2026 10:55:44",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
-    "total_almoxarifado": 111851,
-    "total_farmacia": 32919,
+    "total_almoxarifado": 111811,
+    "total_farmacia": 32959,
     "total_geral": 144770,
     "perto_de_terminar": 36,
     "zerados": 10
@@ -13083,8 +13083,8 @@
       "nome": "Simeticona gotas",
       "tipo": "Medicamento",
       "unidade": "Unidade",
-      "almoxarifado": 40,
-      "farmacia": 0,
+      "almoxarifado": 0,
+      "farmacia": 40,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -13096,12 +13096,12 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-30 10:55:37",
+      "atualizado_em": "2026-09-30 10:55:42",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
         {
-          "local": "almoxarifado",
+          "local": "farmacia",
           "validade": "",
           "lote": "",
           "quantidade": 40
@@ -16927,6 +16927,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 3326,
+      "item_id": 256,
+      "produto_nome": "Simeticona gotas",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 40,
+      "responsavel": "Assucena",
+      "data": "2026-09-29",
+      "obs": "",
+      "criado_em": "2026-09-30 10:55:42",
+      "item": "Simeticona gotas",
+      "usuario": "Assucena"
+    },
     {
       "id": 3325,
       "item_id": 256,
@@ -24410,21 +24425,6 @@
       "obs": "",
       "criado_em": "2026-09-22 10:27:36",
       "item": "Soro fisiológico 500ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 2826,
-      "item_id": 203,
-      "produto_nome": "Soro fisiológico 250ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 36,
-      "responsavel": "Leiliana",
-      "data": "2026-09-21",
-      "obs": "",
-      "criado_em": "2026-09-22 10:27:19",
-      "item": "Soro fisiológico 250ml",
       "usuario": "Leiliana"
     }
   ]
