@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "30/09/2026 10:48:29",
+  "atualizado_em": "30/09/2026 10:48:39",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 111851,
-    "total_farmacia": 33294,
-    "total_geral": 145145,
+    "total_farmacia": 33293,
+    "total_geral": 145144,
     "perto_de_terminar": 35,
     "zerados": 9
   },
@@ -9876,19 +9876,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 1297,
-      "farmacia": 1,
+      "farmacia": 0,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1298,
+      "total": 1297,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga Almoxerifado",
       "obs": "Importação Almoxerifado",
-      "atualizado_em": "2026-09-28 11:18:43",
+      "atualizado_em": "2026-09-30 10:48:38",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -9897,22 +9897,16 @@
           "validade": "",
           "lote": "",
           "quantidade": 1297
-        },
-        {
-          "local": "farmacia",
-          "validade": "",
-          "lote": "",
-          "quantidade": 1
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 1,
-      "previsao_20_dias": 1,
+      "minimo_alerta": 2,
+      "previsao_20_dias": 2,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 44,
-      "media_diaria_saida": 0.05,
-      "total_saida_historica": 2,
-      "cobertura_dias": 28556.0,
+      "media_diaria_saida": 0.07,
+      "total_saida_historica": 3,
+      "cobertura_dias": 19022.7,
       "alerta_estoque": false
     },
     {
@@ -16945,6 +16939,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 3305,
+      "item_id": 279,
+      "produto_nome": "Luva de vinil G",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 1,
+      "responsavel": "Assucena",
+      "data": "2026-09-29",
+      "obs": "",
+      "criado_em": "2026-09-30 10:48:38",
+      "item": "Luva de vinil G",
+      "usuario": "Assucena"
+    },
     {
       "id": 3304,
       "item_id": 330,
@@ -24428,21 +24437,6 @@
       "obs": "",
       "criado_em": "2026-09-22 10:23:09",
       "item": "AGUA P/ INJ",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 2805,
-      "item_id": 239,
-      "produto_nome": "Tramadol 50mg/ml 2ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 20,
-      "responsavel": "Leiliana",
-      "data": "2026-09-21",
-      "obs": "",
-      "criado_em": "2026-09-22 10:22:57",
-      "item": "Tramadol 50mg/ml 2ml",
       "usuario": "Leiliana"
     }
   ]
