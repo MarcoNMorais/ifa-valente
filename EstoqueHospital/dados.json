@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "30/09/2026 11:10:00",
+  "atualizado_em": "30/09/2026 11:10:15",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
-    "total_almoxarifado": 110835,
-    "total_farmacia": 33786,
+    "total_almoxarifado": 110825,
+    "total_farmacia": 33796,
     "total_geral": 144621,
     "perto_de_terminar": 36,
     "zerados": 10
@@ -10041,8 +10041,8 @@
       "nome": "Luva M procedimento",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 90,
-      "farmacia": 907,
+      "almoxarifado": 80,
+      "farmacia": 917,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -10054,7 +10054,7 @@
       "lote": "",
       "origem": "Carga Almoxerifado",
       "obs": "Importação Almoxerifado",
-      "atualizado_em": "2026-09-30 10:57:31",
+      "atualizado_em": "2026-09-30 11:10:14",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -10062,13 +10062,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 90
+          "quantidade": 80
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 907
+          "quantidade": 917
         }
       ],
       "minimo_manual": 0,
@@ -16939,6 +16939,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 3354,
+      "item_id": 280,
+      "produto_nome": "Luva M procedimento",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 10,
+      "responsavel": "Assucena",
+      "data": "2026-09-29",
+      "obs": "",
+      "criado_em": "2026-09-30 11:10:14",
+      "item": "Luva M procedimento",
+      "usuario": "Assucena"
+    },
     {
       "id": 3353,
       "item_id": 278,
@@ -24422,21 +24437,6 @@
       "obs": "",
       "criado_em": "2026-09-22 16:52:21",
       "item": "Eletrodo ECG descartável",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 2854,
-      "item_id": 276,
-      "produto_nome": "Esparadrapo 10x4,5",
-      "tipo": "Almoxarifado para Farmácia",
-      "origem": "Almoxarifado",
-      "destino": "Farmácia",
-      "quantidade": 24,
-      "responsavel": "Leiliana",
-      "data": "2026-09-22",
-      "obs": "",
-      "criado_em": "2026-09-22 16:52:09",
-      "item": "Esparadrapo 10x4,5",
       "usuario": "Leiliana"
     }
   ]
