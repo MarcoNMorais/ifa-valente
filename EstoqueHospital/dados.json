@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "01/10/2026 13:56:40",
+  "atualizado_em": "01/10/2026 13:57:11",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
-    "total_almoxarifado": 110825,
-    "total_farmacia": 33741,
+    "total_almoxarifado": 110425,
+    "total_farmacia": 34141,
     "total_geral": 144566,
     "perto_de_terminar": 35,
     "zerados": 10
@@ -750,8 +750,8 @@
       "nome": "Agulha 30x8",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 16200,
-      "farmacia": 0,
+      "almoxarifado": 15800,
+      "farmacia": 400,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -763,7 +763,7 @@
       "lote": "",
       "origem": "Carga Almoxerifado",
       "obs": "Importação Almoxerifado",
-      "atualizado_em": "2026-09-30 10:50:32",
+      "atualizado_em": "2026-10-01 13:57:09",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -771,7 +771,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 16200
+          "quantidade": 15800
+        },
+        {
+          "local": "farmacia",
+          "validade": "",
+          "lote": "",
+          "quantidade": 400
         }
       ],
       "minimo_manual": 0,
@@ -16940,6 +16946,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 3357,
+      "item_id": 331,
+      "produto_nome": "Agulha 30x8",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 400,
+      "responsavel": "Assucena",
+      "data": "2026-10-01",
+      "obs": "",
+      "criado_em": "2026-10-01 13:57:09",
+      "item": "Agulha 30x8",
+      "usuario": "Assucena"
+    },
+    {
       "id": 3356,
       "item_id": 286,
       "produto_nome": "Agulha 40x12",
@@ -24422,21 +24443,6 @@
       "obs": "",
       "criado_em": "2026-09-22 16:53:53",
       "item": "Cetoprofeno EV 100mg",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 2857,
-      "item_id": 55,
-      "produto_nome": "Benzilpenicilina 1.200",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 12,
-      "responsavel": "Leiliana",
-      "data": "2026-09-22",
-      "obs": "",
-      "criado_em": "2026-09-22 16:53:43",
-      "item": "Benzilpenicilina 1.200",
       "usuario": "Leiliana"
     }
   ]
