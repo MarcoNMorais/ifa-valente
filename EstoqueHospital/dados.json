@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "01/10/2026 16:04:49",
+  "atualizado_em": "01/10/2026 16:05:01",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 110125,
-    "total_farmacia": 33751,
-    "total_geral": 143876,
+    "total_farmacia": 33736,
+    "total_geral": 143861,
     "perto_de_terminar": 37,
     "zerados": 11
   },
@@ -12641,19 +12641,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 920,
-      "farmacia": 27,
+      "farmacia": 12,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 947,
+      "total": 932,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-01 14:01:05",
+      "atualizado_em": "2026-10-01 16:05:00",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -12667,17 +12667,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 27
+          "quantidade": 12
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 128,
-      "previsao_20_dias": 128,
+      "minimo_alerta": 134,
+      "previsao_20_dias": 134,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 50,
-      "media_diaria_saida": 6.38,
-      "total_saida_historica": 319,
-      "cobertura_dias": 148.4,
+      "media_diaria_saida": 6.68,
+      "total_saida_historica": 334,
+      "cobertura_dias": 139.5,
       "alerta_estoque": false
     },
     {
@@ -16932,6 +16932,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 3395,
+      "item_id": 99,
+      "produto_nome": "Scalp nº 21",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 15,
+      "responsavel": "Leiliana",
+      "data": "2026-10-01",
+      "obs": "",
+      "criado_em": "2026-10-01 16:05:00",
+      "item": "Scalp nº 21",
+      "usuario": "Leiliana"
+    },
     {
       "id": 3394,
       "item_id": 387,
@@ -24415,21 +24430,6 @@
       "obs": "",
       "criado_em": "2026-09-24 09:54:00",
       "item": "Complexo B",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2895,
-      "item_id": 384,
-      "produto_nome": "ACIDO ASCORBICO",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 30,
-      "responsavel": "Assucena",
-      "data": "2026-09-23",
-      "obs": "",
-      "criado_em": "2026-09-24 09:53:51",
-      "item": "ACIDO ASCORBICO",
       "usuario": "Assucena"
     }
   ]
