@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "01/10/2026 14:00:54",
+  "atualizado_em": "01/10/2026 14:01:06",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 110425,
-    "total_farmacia": 33983,
-    "total_geral": 144408,
+    "total_farmacia": 33963,
+    "total_geral": 144388,
     "perto_de_terminar": 36,
     "zerados": 11
   },
@@ -12647,19 +12647,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 920,
-      "farmacia": 47,
+      "farmacia": 27,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 967,
+      "total": 947,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-28 11:17:03",
+      "atualizado_em": "2026-10-01 14:01:05",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -12673,17 +12673,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 47
+          "quantidade": 27
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 120,
-      "previsao_20_dias": 120,
+      "minimo_alerta": 128,
+      "previsao_20_dias": 128,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 50,
-      "media_diaria_saida": 5.98,
-      "total_saida_historica": 299,
-      "cobertura_dias": 161.7,
+      "media_diaria_saida": 6.38,
+      "total_saida_historica": 319,
+      "cobertura_dias": 148.4,
       "alerta_estoque": false
     },
     {
@@ -16938,6 +16938,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 3366,
+      "item_id": 99,
+      "produto_nome": "Scalp nº 21",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 20,
+      "responsavel": "Assucena",
+      "data": "2026-10-01",
+      "obs": "",
+      "criado_em": "2026-10-01 14:01:05",
+      "item": "Scalp nº 21",
+      "usuario": "Assucena"
+    },
     {
       "id": 3365,
       "item_id": 61,
@@ -24421,21 +24436,6 @@
       "obs": "",
       "criado_em": "2026-09-22 16:55:49",
       "item": "Esparadrapo 10x4,5",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 2866,
-      "item_id": 154,
-      "produto_nome": "Equipo fotossensível",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 3,
-      "responsavel": "Leiliana",
-      "data": "2026-09-22",
-      "obs": "",
-      "criado_em": "2026-09-22 16:55:20",
-      "item": "Equipo fotossensível",
       "usuario": "Leiliana"
     }
   ]
