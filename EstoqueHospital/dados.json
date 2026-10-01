@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "01/10/2026 14:02:14",
+  "atualizado_em": "01/10/2026 14:02:27",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 110125,
-    "total_farmacia": 34199,
-    "total_geral": 144324,
+    "total_farmacia": 34198,
+    "total_geral": 144323,
     "perto_de_terminar": 36,
     "zerados": 11
   },
@@ -9823,19 +9823,19 @@
       "tipo": "Material",
       "unidade": "Caixa",
       "almoxarifado": 0,
-      "farmacia": 187,
+      "farmacia": 186,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 187,
+      "total": 186,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-29 16:34:58",
+      "atualizado_em": "2026-10-01 14:02:26",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -9843,7 +9843,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 187
+          "quantidade": 186
         }
       ],
       "minimo_manual": 0,
@@ -9851,8 +9851,8 @@
       "previsao_20_dias": 334,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 50,
-      "media_diaria_saida": 16.66,
-      "total_saida_historica": 833,
+      "media_diaria_saida": 16.68,
+      "total_saida_historica": 834,
       "cobertura_dias": 11.2,
       "alerta_estoque": true
     },
@@ -16932,6 +16932,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 3371,
+      "item_id": 180,
+      "produto_nome": "Luva de látex tam. P",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 1,
+      "responsavel": "Assucena",
+      "data": "2026-10-01",
+      "obs": "",
+      "criado_em": "2026-10-01 14:02:26",
+      "item": "Luva de látex tam. P",
+      "usuario": "Assucena"
+    },
     {
       "id": 3370,
       "item_id": 181,
@@ -24415,21 +24430,6 @@
       "obs": "",
       "criado_em": "2026-09-22 16:58:12",
       "item": "Soro fisiológico 250ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 2871,
-      "item_id": 175,
-      "produto_nome": "Fita cirúrgica microporosa",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 1,
-      "responsavel": "Leiliana",
-      "data": "2026-09-22",
-      "obs": "",
-      "criado_em": "2026-09-22 16:58:00",
-      "item": "Fita cirúrgica microporosa",
       "usuario": "Leiliana"
     }
   ]
