@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "01/10/2026 16:04:36",
+  "atualizado_em": "01/10/2026 16:04:49",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 110125,
-    "total_farmacia": 33761,
-    "total_geral": 143886,
+    "total_farmacia": 33751,
+    "total_geral": 143876,
     "perto_de_terminar": 37,
     "zerados": 11
   },
@@ -8460,19 +8460,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 228,
+      "farmacia": 218,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 228,
+      "total": 218,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-28 10:57:33",
+      "atualizado_em": "2026-10-01 16:04:48",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -8480,17 +8480,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 228
+          "quantidade": 218
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 45,
-      "previsao_20_dias": 45,
+      "minimo_alerta": 52,
+      "previsao_20_dias": 52,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 28,
-      "media_diaria_saida": 2.21,
-      "total_saida_historica": 62,
-      "cobertura_dias": 103.0,
+      "media_diaria_saida": 2.57,
+      "total_saida_historica": 72,
+      "cobertura_dias": 84.8,
       "alerta_estoque": false
     },
     {
@@ -16933,6 +16933,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 3394,
+      "item_id": 387,
+      "produto_nome": "HIDROCORTIZONA 500MG",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 10,
+      "responsavel": "Leiliana",
+      "data": "2026-10-01",
+      "obs": "",
+      "criado_em": "2026-10-01 16:04:48",
+      "item": "HIDROCORTIZONA 500MG",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 3393,
       "item_id": 60,
       "produto_nome": "Cetoprofeno EV 100mg",
@@ -24415,21 +24430,6 @@
       "obs": "",
       "criado_em": "2026-09-24 09:53:51",
       "item": "ACIDO ASCORBICO",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2894,
-      "item_id": 60,
-      "produto_nome": "Cetoprofeno EV 100mg",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 20,
-      "responsavel": "Assucena",
-      "data": "2026-09-23",
-      "obs": "",
-      "criado_em": "2026-09-24 09:53:40",
-      "item": "Cetoprofeno EV 100mg",
       "usuario": "Assucena"
     }
   ]
