@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "01/10/2026 14:05:54",
+  "atualizado_em": "01/10/2026 14:06:06",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 110125,
-    "total_farmacia": 33907,
-    "total_geral": 144032,
+    "total_farmacia": 33897,
+    "total_geral": 144022,
     "perto_de_terminar": 37,
     "zerados": 11
   },
@@ -12865,19 +12865,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 7500,
-      "farmacia": 100,
+      "farmacia": 90,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 7600,
+      "total": 7590,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-01 14:04:05",
+      "atualizado_em": "2026-10-01 14:06:05",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -12891,17 +12891,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 125
+          "quantidade": 115
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 734,
-      "previsao_20_dias": 734,
+      "minimo_alerta": 738,
+      "previsao_20_dias": 738,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 45,
-      "media_diaria_saida": 36.67,
-      "total_saida_historica": 1650,
-      "cobertura_dias": 207.3,
+      "media_diaria_saida": 36.89,
+      "total_saida_historica": 1660,
+      "cobertura_dias": 205.8,
       "alerta_estoque": false
     },
     {
@@ -16932,6 +16932,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 3387,
+      "item_id": 274,
+      "produto_nome": "Seringa 20ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 10,
+      "responsavel": "Assucena",
+      "data": "2026-10-01",
+      "obs": "",
+      "criado_em": "2026-10-01 14:06:05",
+      "item": "Seringa 20ml",
+      "usuario": "Assucena"
+    },
     {
       "id": 3386,
       "item_id": 285,
@@ -24415,21 +24430,6 @@
       "obs": "",
       "criado_em": "2026-09-24 09:52:38",
       "item": "Seringa 5ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2887,
-      "item_id": 103,
-      "produto_nome": "Seringa 10ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 80,
-      "responsavel": "Assucena",
-      "data": "2026-09-23",
-      "obs": "",
-      "criado_em": "2026-09-24 09:52:28",
-      "item": "Seringa 10ml",
       "usuario": "Assucena"
     }
   ]
