@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "01/10/2026 14:01:06",
+  "atualizado_em": "01/10/2026 14:01:40",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
-    "total_almoxarifado": 110425,
-    "total_farmacia": 33963,
+    "total_almoxarifado": 110125,
+    "total_farmacia": 34263,
     "total_geral": 144388,
     "perto_de_terminar": 36,
     "zerados": 11
@@ -5711,8 +5711,8 @@
       "nome": "Equipo macrogotas",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 2256,
-      "farmacia": 0,
+      "almoxarifado": 1956,
+      "farmacia": 300,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -5724,7 +5724,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-30 10:57:10",
+      "atualizado_em": "2026-10-01 14:01:38",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -5732,13 +5732,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 2256
+          "quantidade": 1956
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 25
+          "quantidade": 325
         }
       ],
       "minimo_manual": 300,
@@ -16939,6 +16939,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 3367,
+      "item_id": 220,
+      "produto_nome": "Equipo macrogotas",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 300,
+      "responsavel": "Assucena",
+      "data": "2026-10-01",
+      "obs": "",
+      "criado_em": "2026-10-01 14:01:38",
+      "item": "Equipo macrogotas",
+      "usuario": "Assucena"
+    },
+    {
       "id": 3366,
       "item_id": 99,
       "produto_nome": "Scalp nº 21",
@@ -24420,21 +24435,6 @@
       "data": "2026-09-22",
       "obs": "",
       "criado_em": "2026-09-22 16:56:28",
-      "item": "Esparadrapo 10x4,5",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 2867,
-      "item_id": 276,
-      "produto_nome": "Esparadrapo 10x4,5",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 24,
-      "responsavel": "Leiliana",
-      "data": "2026-09-22",
-      "obs": "",
-      "criado_em": "2026-09-22 16:55:49",
       "item": "Esparadrapo 10x4,5",
       "usuario": "Leiliana"
     }
