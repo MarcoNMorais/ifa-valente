@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "01/10/2026 14:03:02",
+  "atualizado_em": "01/10/2026 14:03:18",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 110125,
-    "total_farmacia": 34181,
-    "total_geral": 144306,
+    "total_farmacia": 34151,
+    "total_geral": 144276,
     "perto_de_terminar": 36,
     "zerados": 11
   },
@@ -3080,19 +3080,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 340,
+      "farmacia": 310,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 340,
+      "total": 310,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-24 10:04:58",
+      "atualizado_em": "2026-10-01 14:03:17",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -3100,17 +3100,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 340
+          "quantidade": 310
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 120,
-      "previsao_20_dias": 120,
+      "minimo_alerta": 132,
+      "previsao_20_dias": 132,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 50,
-      "media_diaria_saida": 6.0,
-      "total_saida_historica": 300,
-      "cobertura_dias": 56.7,
+      "media_diaria_saida": 6.6,
+      "total_saida_historica": 330,
+      "cobertura_dias": 47.0,
       "alerta_estoque": false
     },
     {
@@ -16933,6 +16933,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 3375,
+      "item_id": 138,
+      "produto_nome": "Captopril 25mg CPR",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 30,
+      "responsavel": "Assucena",
+      "data": "2026-10-01",
+      "obs": "",
+      "criado_em": "2026-10-01 14:03:17",
+      "item": "Captopril 25mg CPR",
+      "usuario": "Assucena"
+    },
+    {
       "id": 3374,
       "item_id": 200,
       "produto_nome": "Caixa de perfurocortante",
@@ -24416,21 +24431,6 @@
       "criado_em": "2026-09-24 09:50:46",
       "item": "Omeprazol sódico 40mg AMP",
       "usuario": "Assucena"
-    },
-    {
-      "id": 2875,
-      "item_id": 155,
-      "produto_nome": "Bolsa coletora",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 1,
-      "responsavel": "Leiliana",
-      "data": "2026-09-22",
-      "obs": "",
-      "criado_em": "2026-09-22 16:58:38",
-      "item": "Bolsa coletora",
-      "usuario": "Leiliana"
     }
   ]
 }
