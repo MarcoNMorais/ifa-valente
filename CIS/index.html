@@ -92,13 +92,18 @@
             <input id="fAcs" placeholder="ACS" />
             <select id="fPrioridade"><option value="">Prioridade</option></select>
             <select id="fStatus"><option value="">Status</option><option>Aguardando</option><option>Marcado</option><option>Atendido</option><option>Cancelado</option><option>Retorno</option><option>Não informado</option></select>
-            <select id="fSistema"><option value="">Todos os sistemas</option><option>Policlínica</option><option>IDS</option><option>SRA</option><option>Lista Única</option></select><button id="limparFiltros" class="btn ghost">Limpar</button>
+            <select id="fSistema"><option value="">Todos os sistemas</option><option>Policlínica</option><option>IDS</option><option>SRA</option><option>Lista Única</option></select><button id="aplicarFiltros" type="button" class="btn primary">Filtrar</button><button id="limparFiltros" type="button" class="btn ghost">Limpar</button>
           </div>
           <div class="tableWrap">
             <table id="filaTable">
               <thead><tr><th>#</th><th>Nome</th><th>CPF</th><th>SUS</th><th>Nasc.</th><th>Contato</th><th>Procedimento</th><th>CID/SIGTAP/CIAP/Motivo</th><th>ACS</th><th>PSF</th><th>Data sol.</th><th>Operador</th><th>Local</th><th>Data marc./atend.</th><th>Status</th><th>Sistemas</th><th>Ações</th></tr></thead>
               <tbody></tbody>
             </table>
+          </div>
+          <div id="filaPaginacao" class="inline" aria-live="polite" hidden>
+            <span id="filaResumo"></span>
+            <button id="filaAnterior" type="button" class="btn secondary">Anterior</button>
+            <button id="filaProxima" type="button" class="btn secondary">Próxima</button>
           </div>
         </article>
       </section>

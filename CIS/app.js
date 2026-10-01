@@ -430,7 +430,7 @@ function setupAutocomplete(inputSel, sugSel, getItems, onPick, onAdd){
 setupAutocomplete('#procedimento','#procSug',()=>procedimentos,v=>$('#procedimento').value=v,v=>{if(!procedimentos.some(p=>norm(p)===norm(v))){procedimentos.push(v);addLog('Base','Procedimento cadastrado pelo campo de busca: '+v);save();toast('Procedimento cadastrado.')}});
 setupAutocomplete('#cid','#cidSug',()=>codigos,v=>$('#cid').value=textItem(v),null);
 setupAutocomplete('#psf','#psfSug',()=>unidadesValente,v=>$('#psf').value=v,null);
-setupAutocomplete('#fPsf','#fPsfSug',()=>unidadesValente,v=>{ $('#fPsf').value=v; renderFilas(); },null);
+setupAutocomplete('#fPsf','#fPsfSug',()=>unidadesValente,v=>{ $('#fPsf').value=v; markFilaFiltersChanged(); },null);
 setupAutocomplete('#localMarcacao','#localSug',()=>locais,v=>$('#localMarcacao').value=v,v=>{if(!locais.some(l=>norm(l)===norm(v))){locais.push(v);addLog('Base','Local cadastrado pelo campo de busca: '+v);save();toast('Local cadastrado.')}});
 
 function getPrioridade(){return document.querySelector('input[name="prioridade"]:checked')?.value || 'Não Classificado';}
@@ -516,12 +516,23 @@ function editPaciente(id){
 }
 window.editPaciente=editPaciente;
 
+let filaFilterApplied=false;
+let filaPage=1;
+const FILA_PAGE_SIZE=50;
 function filtered(){
  const f={busca:norm($('#fBusca').value),proc:norm($('#fProc').value),cid:norm($('#fCid').value),psf:norm($('#fPsf').value),acs:norm($('#fAcs').value),pri:$('#fPrioridade').value,status:$('#fStatus').value};
  return pacientes.filter(p=>(!$('#fSistema').value||(p.sistemas||[]).includes($('#fSistema').value))&&(!f.busca||norm([p.nome,p.sus,p.cpf,p.contato].join(' ')).includes(f.busca))&&(!f.proc||norm(p.procedimento).includes(f.proc))&&(!f.cid||norm(p.cid).includes(f.cid))&&(!f.psf||norm(p.psf).includes(f.psf))&&(!f.acs||norm(p.acs).includes(f.acs))&&(!f.pri||p.prioridade===f.pri)&&(!f.status||p.status===f.status)).sort((a,b)=>(a.dataSolicitacao||'').localeCompare(b.dataSolicitacao||''));
 }
-$$('#filas input,#filas select').forEach(el=>el.addEventListener('input',renderFilas));
-$('#limparFiltros').onclick=()=>{$$('#filas input,#filas select').forEach(el=>el.value='');renderFilas()};
+function markFilaFiltersChanged(){
+ filaFilterApplied=false;
+ filaPage=1;
+ renderFilas();
+}
+$$('#filas input,#filas select').forEach(el=>{el.addEventListener('input',markFilaFiltersChanged);el.addEventListener('change',markFilaFiltersChanged)});
+$('#aplicarFiltros').onclick=()=>{filaFilterApplied=true;filaPage=1;renderFilas()};
+$('#limparFiltros').onclick=()=>{$$('#filas input,#filas select').forEach(el=>el.value='');markFilaFiltersChanged()};
+$('#filaAnterior').onclick=()=>{if(filaPage>1){filaPage--;renderFilas()}};
+$('#filaProxima').onclick=()=>{filaPage++;renderFilas()};
 function priorityClass(p){
  if((p||'').includes('Prioridade 0')) return 'p0';
  if((p||'').includes('Prioridade 1')) return 'p1';
@@ -530,8 +541,22 @@ function priorityClass(p){
  return 'pn';
 }
 function renderFilas(){
- const tb=$('#filaTable tbody'); const rows=filtered(); const colspan=17;
- tb.innerHTML=rows.map((p,i)=>`<tr><td>${i+1}</td><td><b>${esc(p.nome)}</b></td><td>${esc(p.cpf)}</td><td>${esc(p.sus)}</td><td>${fmtDate(p.nascimento)}</td><td>${esc(p.contato)}</td><td>${esc(p.procedimento)}</td><td>${esc(p.cid)}</td><td>${esc(p.acs)}</td><td>${esc(p.psf)}</td><td>${fmtDate(p.dataSolicitacao)}</td><td>${esc(firstName(p.operadorCadastro||p.operadorCadastroNome||p.operadorAtualizacao))}</td><td>${esc(p.localMarcacao)}</td><td>${fmtDate(p.dataMarcacao)}</td><td><span class="tag ${priorityClass(p.prioridade)}">${esc(p.status||'')}</span><br><small>${esc(p.prioridade||'Não Classificado')}</small></td><td>${esc((p.sistemas||[]).join(', '))}</td><td><button class="btn secondary" data-edit-paciente="${escAttr(p.id)}">Editar</button> <button class="btn secondary" data-open-documents="${escAttr(p.id)}">Documentos</button></td></tr>`).join('') || `<tr><td colspan="${colspan}">Nenhum cadastro encontrado.</td></tr>`;
+ const tb=$('#filaTable tbody'); const pagination=$('#filaPaginacao'); const colspan=17;
+ if(!filaFilterApplied){
+  tb.innerHTML=`<tr><td colspan="${colspan}">Use os filtros desejados e clique em “Filtrar” para carregar a fila.</td></tr>`;
+  pagination.hidden=true;
+  return;
+ }
+ const rows=filtered();
+ const totalPages=Math.max(1,Math.ceil(rows.length/FILA_PAGE_SIZE));
+ filaPage=Math.min(filaPage,totalPages);
+ const first=(filaPage-1)*FILA_PAGE_SIZE;
+ const pageRows=rows.slice(first,first+FILA_PAGE_SIZE);
+ tb.innerHTML=pageRows.map((p,i)=>`<tr><td>${first+i+1}</td><td><b>${esc(p.nome)}</b></td><td>${esc(p.cpf)}</td><td>${esc(p.sus)}</td><td>${fmtDate(p.nascimento)}</td><td>${esc(p.contato)}</td><td>${esc(p.procedimento)}</td><td>${esc(p.cid)}</td><td>${esc(p.acs)}</td><td>${esc(p.psf)}</td><td>${fmtDate(p.dataSolicitacao)}</td><td>${esc(firstName(p.operadorCadastro||p.operadorCadastroNome||p.operadorAtualizacao))}</td><td>${esc(p.localMarcacao)}</td><td>${fmtDate(p.dataMarcacao)}</td><td><span class="tag ${priorityClass(p.prioridade)}">${esc(p.status||'')}</span><br><small>${esc(p.prioridade||'Não Classificado')}</small></td><td>${esc((p.sistemas||[]).join(', '))}</td><td><button class="btn secondary" data-edit-paciente="${escAttr(p.id)}">Editar</button> <button class="btn secondary" data-open-documents="${escAttr(p.id)}">Documentos</button></td></tr>`).join('') || `<tr><td colspan="${colspan}">Nenhum cadastro encontrado.</td></tr>`;
+ pagination.hidden=!rows.length;
+ $('#filaResumo').textContent=`Mostrando ${rows.length?first+1:0}–${Math.min(first+FILA_PAGE_SIZE,rows.length)} de ${rows.length} cadastro(s) · página ${filaPage} de ${totalPages}`;
+ $('#filaAnterior').disabled=filaPage===1;
+ $('#filaProxima').disabled=filaPage===totalPages;
 }
 function esc(s){return (s||'').toString().replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]))}
 function escAttr(s){return esc(s).replace(/'/g,'&#39;')}
