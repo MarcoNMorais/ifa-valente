@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "01/10/2026 16:05:17",
+  "atualizado_em": "01/10/2026 16:05:31",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 110125,
-    "total_farmacia": 33696,
-    "total_geral": 143821,
+    "total_farmacia": 33666,
+    "total_geral": 143791,
     "perto_de_terminar": 37,
     "zerados": 11
   },
@@ -12865,19 +12865,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 7500,
-      "farmacia": 90,
+      "farmacia": 60,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 7590,
+      "total": 7560,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-01 14:06:05",
+      "atualizado_em": "2026-10-01 16:05:30",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -12891,17 +12891,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 115
+          "quantidade": 85
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 738,
-      "previsao_20_dias": 738,
+      "minimo_alerta": 752,
+      "previsao_20_dias": 752,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 45,
-      "media_diaria_saida": 36.89,
-      "total_saida_historica": 1660,
-      "cobertura_dias": 205.8,
+      "media_diaria_saida": 37.56,
+      "total_saida_historica": 1690,
+      "cobertura_dias": 201.3,
       "alerta_estoque": false
     },
     {
@@ -16932,6 +16932,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 3397,
+      "item_id": 274,
+      "produto_nome": "Seringa 20ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 30,
+      "responsavel": "Leiliana",
+      "data": "2026-10-01",
+      "obs": "",
+      "criado_em": "2026-10-01 16:05:30",
+      "item": "Seringa 20ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 3396,
       "item_id": 331,
@@ -24415,21 +24430,6 @@
       "obs": "",
       "criado_em": "2026-09-24 09:54:19",
       "item": "Bromoprida 5mg",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2897,
-      "item_id": 76,
-      "produto_nome": "Escopolamina + Dipirona",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 30,
-      "responsavel": "Assucena",
-      "data": "2026-09-23",
-      "obs": "",
-      "criado_em": "2026-09-24 09:54:08",
-      "item": "Escopolamina + Dipirona",
       "usuario": "Assucena"
     }
   ]
