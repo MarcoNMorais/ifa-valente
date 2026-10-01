@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "01/10/2026 14:05:06",
+  "atualizado_em": "01/10/2026 14:05:19",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 110125,
-    "total_farmacia": 33987,
-    "total_geral": 144112,
+    "total_farmacia": 33977,
+    "total_geral": 144102,
     "perto_de_terminar": 37,
     "zerados": 11
   },
@@ -7990,19 +7990,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 80,
-      "farmacia": 128,
+      "farmacia": 118,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 208,
+      "total": 198,
       "minimo": 50,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-21 11:22:10",
+      "atualizado_em": "2026-10-01 14:05:18",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -8016,17 +8016,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 128
+          "quantidade": 118
         }
       ],
       "minimo_manual": 50,
-      "minimo_alerta": 33,
-      "previsao_20_dias": 33,
+      "minimo_alerta": 38,
+      "previsao_20_dias": 38,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 37,
-      "media_diaria_saida": 1.62,
-      "total_saida_historica": 60,
-      "cobertura_dias": 128.3,
+      "media_diaria_saida": 1.89,
+      "total_saida_historica": 70,
+      "cobertura_dias": 104.7,
       "alerta_estoque": false
     },
     {
@@ -16933,6 +16933,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 3383,
+      "item_id": 350,
+      "produto_nome": "GLICOSE 50% AMP 10ML",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 10,
+      "responsavel": "Assucena",
+      "data": "2026-10-01",
+      "obs": "",
+      "criado_em": "2026-10-01 14:05:18",
+      "item": "GLICOSE 50% AMP 10ML",
+      "usuario": "Assucena"
+    },
+    {
       "id": 3382,
       "item_id": 55,
       "produto_nome": "Benzilpenicilina 1.200",
@@ -24415,21 +24430,6 @@
       "obs": "",
       "criado_em": "2026-09-24 09:51:59",
       "item": "LIDOCAINA S/ VASO",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2883,
-      "item_id": 382,
-      "produto_nome": "AGUA P/ INJ",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 20,
-      "responsavel": "Assucena",
-      "data": "2026-09-23",
-      "obs": "",
-      "criado_em": "2026-09-24 09:51:50",
-      "item": "AGUA P/ INJ",
       "usuario": "Assucena"
     }
   ]
