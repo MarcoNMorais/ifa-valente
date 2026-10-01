@@ -2,6 +2,7 @@
 let cisRevision='', cisCsrf='', cisDirty=false, cisSaving=null, cisChange=0, cisConflict=false;
 let attachmentRoot=null;
 const syncPanel=document.createElement('aside');
+syncPanel.className='adminOnly';
 syncPanel.style.cssText='position:sticky;top:0;z-index:30;padding:10px 18px;background:#edf6ff;color:#173653';
 syncPanel.innerHTML='<span id="cisSync" role="status">Entre para carregar os dados.</span> <button id="cisRetry" type="button">Tentar salvar</button> <button id="cisPending" type="button">Exportar alterações pendentes</button>';
 $('#appShell').prepend(syncPanel);
