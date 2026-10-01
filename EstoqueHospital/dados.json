@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "01/10/2026 14:06:48",
+  "atualizado_em": "01/10/2026 14:07:09",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 110125,
-    "total_farmacia": 33797,
-    "total_geral": 143922,
+    "total_farmacia": 33791,
+    "total_geral": 143916,
     "perto_de_terminar": 37,
     "zerados": 11
   },
@@ -15319,19 +15319,19 @@
       "tipo": "Insumo",
       "unidade": "Unidade",
       "almoxarifado": 787,
-      "farmacia": 34,
+      "farmacia": 28,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 821,
+      "total": 815,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-29 16:38:53",
+      "atualizado_em": "2026-10-01 14:07:08",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -15345,17 +15345,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 34
+          "quantidade": 28
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 169,
-      "previsao_20_dias": 169,
+      "minimo_alerta": 172,
+      "previsao_20_dias": 172,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 50,
-      "media_diaria_saida": 8.44,
-      "total_saida_historica": 422,
-      "cobertura_dias": 97.3,
+      "media_diaria_saida": 8.56,
+      "total_saida_historica": 428,
+      "cobertura_dias": 95.2,
       "alerta_estoque": false
     },
     {
@@ -16932,6 +16932,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 3391,
+      "item_id": 204,
+      "produto_nome": "Soro fisiológico 500ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 6,
+      "responsavel": "Assucena",
+      "data": "2026-10-01",
+      "obs": "",
+      "criado_em": "2026-10-01 14:07:08",
+      "item": "Soro fisiológico 500ml",
+      "usuario": "Assucena"
+    },
     {
       "id": 3390,
       "item_id": 104,
@@ -24415,21 +24430,6 @@
       "obs": "",
       "criado_em": "2026-09-24 09:53:20",
       "item": "Cetoprofeno IM 50mg",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2891,
-      "item_id": 329,
-      "produto_nome": "Polifix",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 20,
-      "responsavel": "Assucena",
-      "data": "2026-09-23",
-      "obs": "",
-      "criado_em": "2026-09-24 09:53:03",
-      "item": "Polifix",
       "usuario": "Assucena"
     }
   ]
