@@ -63,7 +63,18 @@ initDataStorage=async function(){
   const result=await cisRequest('/dados');cisRevision=result.revision;applyStatePayload(result.data);serverSyncReady=true;applyLogin();syncMessage('Dados carregados do servidor.');
  }catch(error){if(error.status!==401)toast(error.message);}
 };
-$('#filaTable').addEventListener('click',e=>{const button=e.target.closest('[data-edit-paciente]');if(button)editPaciente(button.dataset.editPaciente);});
+$('#filaTable').addEventListener('click',e=>{
+ const editButton=e.target.closest('[data-edit-paciente]');
+ if(editButton){editPaciente(editButton.dataset.editPaciente);return;}
+ const documentsButton=e.target.closest('[data-open-documents]');
+ if(documentsButton){
+  editPaciente(documentsButton.dataset.openDocuments);
+  requestAnimationFrame(()=>{
+   attachmentPanel.scrollIntoView({behavior:'smooth',block:'start'});
+   $('#refreshCisFiles').focus();
+  });
+ }
+});
 $('#usuariosTable').addEventListener('click',e=>{const button=e.target.closest('[data-edit-usuario]');if(button)editUsuario(button.dataset.editUsuario);});
 const importDetails=document.createElement('aside');importDetails.id='cisImportDetails';importDetails.style.cssText='padding:12px;margin:12px 0;background:#fff8e6;white-space:pre-wrap';
 $('#pacienteForm').prepend(importDetails);
@@ -73,10 +84,10 @@ editPaciente=function(id){
  importDetails.textContent=patient?.fontesImportacao?.length?'Origem: '+patient.fontesImportacao.map(f=>f.arquivo+' · '+f.planilha+' · linha '+f.linha).join('\n'):'';
  if(patient?.possiveisCadastrosRelacionados?.length)importDetails.textContent+='\nConferir: há '+patient.possiveisCadastrosRelacionados.length+' outro(s) cadastro(s) com mesmo nome e SUS. Os pedidos foram preservados separadamente.';
 };window.editPaciente=editPaciente;
-const clearFormBase=clearForm;clearForm=function(){clearFormBase();importDetails.textContent='';};$('#novoCadastro').onclick=clearForm;
+const clearFormBase=clearForm;clearForm=function(){clearFormBase();importDetails.textContent='';if($('#cisAttachmentPatient'))$('#cisAttachmentPatient').textContent='Salve ou abra um cadastro para anexar documentos.';};$('#novoCadastro').onclick=clearForm;
 // Os documentos não são incluídos em statePayload nem enviados por fetch.
 const attachmentPanel=document.createElement('article');attachmentPanel.className='card';
-attachmentPanel.innerHTML='<h3>Documentos e prescrições — pasta local / rede</h3><p>Escolha a pasta CIS do computador principal. Nos outros computadores, escolha a mesma pasta compartilhada da rede. Use Chrome ou Edge. Os arquivos ficam somente nessa pasta.</p><button id="chooseCisFolder" class="btn secondary" type="button">Selecionar pasta dos documentos</button> <span id="cisFolderName">Nenhuma pasta selecionada</span><p><label>Tipo <select id="attachmentType"><option>Documento</option><option>Prescrição</option></select></label> <input id="cisFiles" type="file" multiple accept=".pdf,.jpg,.jpeg,.png,.webp,.doc,.docx" /> <button id="addCisFiles" class="btn" type="button">Salvar arquivos na pasta</button> <button id="refreshCisFiles" class="btn secondary" type="button">Atualizar lista</button></p><div id="anexosLista">Salve ou abra um cadastro para anexar documentos.</div>';
+attachmentPanel.innerHTML='<h3>Documentos e prescrições — pasta local / rede</h3><p id="cisAttachmentPatient">Abra um paciente pela fila para ver seus documentos.</p><p>Escolha a pasta CIS do computador principal. Nos outros computadores, escolha a mesma pasta compartilhada da rede. Use Chrome ou Edge. Os arquivos ficam somente nessa pasta.</p><button id="chooseCisFolder" class="btn secondary" type="button">Selecionar pasta dos documentos</button> <span id="cisFolderName">Nenhuma pasta selecionada</span><p><label>Tipo <select id="attachmentType"><option>Documento</option><option>Prescrição</option></select></label> <input id="cisFiles" type="file" multiple accept=".pdf,.jpg,.jpeg,.png,.webp,.doc,.docx" /> <button id="addCisFiles" class="btn" type="button">Salvar arquivos na pasta</button> <button id="refreshCisFiles" class="btn secondary" type="button">Atualizar lista</button></p><div id="anexosLista">Salve ou abra um cadastro para anexar documentos.</div>';
 $('#cadastro').append(attachmentPanel);
 async function folderStore(value){
  return new Promise((resolve,reject)=>{
@@ -106,6 +117,8 @@ async function getPatientFolder(create=false){
 }
 async function refreshAttachments(){
  const target=$('#anexosLista');target.replaceChildren();
+ const patient=pacientes.find(item=>String(item.id)===String($('#pacienteId').value));
+ $('#cisAttachmentPatient').textContent=patient?`Documentos de: ${patient.nome}`:'Salve ou abra um cadastro para anexar documentos.';
  try{
   const folder=await getPatientFolder();let count=0;
   for await(const [name,handle] of folder.entries()){
