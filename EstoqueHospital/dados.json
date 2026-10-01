@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "01/10/2026 16:05:54",
+  "atualizado_em": "01/10/2026 16:06:04",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 110125,
-    "total_farmacia": 33616,
-    "total_geral": 143741,
+    "total_farmacia": 33591,
+    "total_geral": 143716,
     "perto_de_terminar": 37,
     "zerados": 11
   },
@@ -5706,19 +5706,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 1956,
-      "farmacia": 250,
+      "farmacia": 225,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 2206,
+      "total": 2181,
       "minimo": 300,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-01 14:01:47",
+      "atualizado_em": "2026-10-01 16:06:03",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -5732,17 +5732,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 275
+          "quantidade": 250
         }
       ],
       "minimo_manual": 300,
-      "minimo_alerta": 428,
-      "previsao_20_dias": 428,
+      "minimo_alerta": 438,
+      "previsao_20_dias": 438,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 50,
-      "media_diaria_saida": 21.38,
-      "total_saida_historica": 1069,
-      "cobertura_dias": 103.2,
+      "media_diaria_saida": 21.88,
+      "total_saida_historica": 1094,
+      "cobertura_dias": 99.7,
       "alerta_estoque": false
     },
     {
@@ -16933,6 +16933,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 3400,
+      "item_id": 220,
+      "produto_nome": "Equipo macrogotas",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 25,
+      "responsavel": "Leiliana",
+      "data": "2026-10-01",
+      "obs": "",
+      "criado_em": "2026-10-01 16:06:03",
+      "item": "Equipo macrogotas",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 3399,
       "item_id": 104,
       "produto_nome": "Seringa 3ml",
@@ -24415,21 +24430,6 @@
       "obs": "",
       "criado_em": "2026-09-24 09:54:47",
       "item": "Tramadol 50mg/ml 2ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2900,
-      "item_id": 86,
-      "produto_nome": "Cloridrato de Metoclopramida",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 20,
-      "responsavel": "Assucena",
-      "data": "2026-09-23",
-      "obs": "",
-      "criado_em": "2026-09-24 09:54:40",
-      "item": "Cloridrato de Metoclopramida",
       "usuario": "Assucena"
     }
   ]
