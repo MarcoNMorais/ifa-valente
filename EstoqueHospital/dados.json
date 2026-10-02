@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "02/10/2026 11:35:34",
+  "atualizado_em": "02/10/2026 11:35:41",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 109677,
-    "total_farmacia": 33324,
-    "total_geral": 143001,
+    "total_farmacia": 33319,
+    "total_geral": 142996,
     "perto_de_terminar": 37,
     "zerados": 11
   },
@@ -10431,19 +10431,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 295,
+      "farmacia": 290,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 295,
+      "total": 290,
       "minimo": 0,
       "validade": "03/27",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-29 11:21:30",
+      "atualizado_em": "2026-10-02 11:35:40",
       "validade_mais_proxima": "03/27",
       "vencimento_mais_proximo": "03/27",
       "lotes_validade": [
@@ -10451,7 +10451,7 @@
           "local": "farmacia",
           "validade": "03/27",
           "lote": "",
-          "quantidade": 195
+          "quantidade": 190
         },
         {
           "local": "farmacia",
@@ -10461,13 +10461,13 @@
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 3,
-      "previsao_20_dias": 3,
+      "minimo_alerta": 5,
+      "previsao_20_dias": 5,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 46,
-      "media_diaria_saida": 0.11,
-      "total_saida_historica": 5,
-      "cobertura_dias": 2714.0,
+      "media_diaria_saida": 0.22,
+      "total_saida_historica": 10,
+      "cobertura_dias": 1334.0,
       "alerta_estoque": false
     },
     {
@@ -16932,6 +16932,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 3445,
+      "item_id": 224,
+      "produto_nome": "Meropenem 500mg",
+      "tipo": "Farmácia para Posto de Internamento",
+      "origem": "Farmácia",
+      "destino": "Posto de Internamento",
+      "quantidade": 5,
+      "responsavel": "Assucena",
+      "data": "2026-10-01",
+      "obs": "",
+      "criado_em": "2026-10-02 11:35:40",
+      "item": "Meropenem 500mg",
+      "usuario": "Assucena"
+    },
     {
       "id": 3444,
       "item_id": 382,
@@ -24414,21 +24429,6 @@
       "data": "2026-09-24",
       "obs": "",
       "criado_em": "2026-09-24 10:04:11",
-      "item": "Dipirona",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2945,
-      "item_id": 70,
-      "produto_nome": "Dipirona",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 30,
-      "responsavel": "Assucena",
-      "data": "2026-09-24",
-      "obs": "",
-      "criado_em": "2026-09-24 10:04:04",
       "item": "Dipirona",
       "usuario": "Assucena"
     }
