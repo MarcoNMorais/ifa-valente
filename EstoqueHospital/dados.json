@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "02/10/2026 11:30:21",
+  "atualizado_em": "02/10/2026 11:30:29",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 110125,
-    "total_farmacia": 33444,
-    "total_geral": 143569,
+    "total_farmacia": 33404,
+    "total_geral": 143529,
     "perto_de_terminar": 37,
     "zerados": 11
   },
@@ -4991,19 +4991,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 810,
+      "farmacia": 770,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 810,
+      "total": 770,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-01 14:00:26",
+      "atualizado_em": "2026-10-02 11:30:28",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -5011,17 +5011,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 810
+          "quantidade": 770
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 891,
-      "previsao_20_dias": 891,
+      "minimo_alerta": 906,
+      "previsao_20_dias": 906,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 51,
-      "media_diaria_saida": 44.51,
-      "total_saida_historica": 2270,
-      "cobertura_dias": 18.2,
+      "media_diaria_saida": 45.29,
+      "total_saida_historica": 2310,
+      "cobertura_dias": 17.0,
       "alerta_estoque": true
     },
     {
@@ -16933,6 +16933,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 3414,
+      "item_id": 70,
+      "produto_nome": "Dipirona",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 40,
+      "responsavel": "Assucena",
+      "data": "2026-10-01",
+      "obs": "",
+      "criado_em": "2026-10-02 11:30:28",
+      "item": "Dipirona",
+      "usuario": "Assucena"
+    },
+    {
       "id": 3413,
       "item_id": 59,
       "produto_nome": "Ceftriaxona 1g",
@@ -24415,21 +24430,6 @@
       "obs": "",
       "criado_em": "2026-09-24 09:56:56",
       "item": "Soro Ringer Lactato 500ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2914,
-      "item_id": 202,
-      "produto_nome": "Soro fisiológico 100ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 60,
-      "responsavel": "Assucena",
-      "data": "2026-09-23",
-      "obs": "",
-      "criado_em": "2026-09-24 09:56:46",
-      "item": "Soro fisiológico 100ml",
       "usuario": "Assucena"
     }
   ]
