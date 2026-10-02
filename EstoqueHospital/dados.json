@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "02/10/2026 11:29:19",
+  "atualizado_em": "02/10/2026 11:29:28",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 110125,
-    "total_farmacia": 33549,
-    "total_geral": 143674,
+    "total_farmacia": 33544,
+    "total_geral": 143669,
     "perto_de_terminar": 37,
     "zerados": 11
   },
@@ -2422,19 +2422,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 91,
+      "farmacia": 86,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 91,
+      "total": 86,
       "minimo": 0,
       "validade": "2027-05",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-09-29 16:35:35",
+      "atualizado_em": "2026-10-02 11:29:27",
       "validade_mais_proxima": "2027-05",
       "vencimento_mais_proximo": "2027-05",
       "lotes_validade": [
@@ -2442,17 +2442,17 @@
           "local": "farmacia",
           "validade": "2027-05",
           "lote": "",
-          "quantidade": 91
+          "quantidade": 86
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 22,
-      "previsao_20_dias": 22,
+      "minimo_alerta": 24,
+      "previsao_20_dias": 24,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 51,
-      "media_diaria_saida": 1.1,
-      "total_saida_historica": 56,
-      "cobertura_dias": 82.9,
+      "media_diaria_saida": 1.2,
+      "total_saida_historica": 61,
+      "cobertura_dias": 71.9,
       "alerta_estoque": false
     },
     {
@@ -16933,6 +16933,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 3408,
+      "item_id": 56,
+      "produto_nome": "Benzilpenicilina 600 UI",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 5,
+      "responsavel": "Assucena",
+      "data": "2026-10-01",
+      "obs": "",
+      "criado_em": "2026-10-02 11:29:27",
+      "item": "Benzilpenicilina 600 UI",
+      "usuario": "Assucena"
+    },
+    {
       "id": 3407,
       "item_id": 55,
       "produto_nome": "Benzilpenicilina 1.200",
@@ -24415,21 +24430,6 @@
       "obs": "",
       "criado_em": "2026-09-24 09:55:58",
       "item": "Salbutamol spray",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2908,
-      "item_id": 28,
-      "produto_nome": "Dipirona 500mg",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 10,
-      "responsavel": "Assucena",
-      "data": "2026-09-23",
-      "obs": "",
-      "criado_em": "2026-09-24 09:55:49",
-      "item": "Dipirona 500mg",
       "usuario": "Assucena"
     }
   ]
