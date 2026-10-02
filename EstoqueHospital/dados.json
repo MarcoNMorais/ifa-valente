@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "02/10/2026 11:35:15",
+  "atualizado_em": "02/10/2026 11:35:22",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 109677,
-    "total_farmacia": 33347,
-    "total_geral": 143024,
+    "total_farmacia": 33344,
+    "total_geral": 143021,
     "perto_de_terminar": 37,
     "zerados": 11
   },
@@ -13089,19 +13089,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 39,
+      "farmacia": 36,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 39,
+      "total": 36,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-30 10:55:47",
+      "atualizado_em": "2026-10-02 11:35:21",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -13109,17 +13109,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 39
+          "quantidade": 36
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 16,
-      "previsao_20_dias": 16,
+      "minimo_alerta": 17,
+      "previsao_20_dias": 17,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 50,
-      "media_diaria_saida": 0.76,
-      "total_saida_historica": 38,
-      "cobertura_dias": 51.3,
+      "media_diaria_saida": 0.82,
+      "total_saida_historica": 41,
+      "cobertura_dias": 43.9,
       "alerta_estoque": false
     },
     {
@@ -16932,6 +16932,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 3443,
+      "item_id": 256,
+      "produto_nome": "Simeticona gotas",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 3,
+      "responsavel": "Assucena",
+      "data": "2026-10-01",
+      "obs": "",
+      "criado_em": "2026-10-02 11:35:21",
+      "item": "Simeticona gotas",
+      "usuario": "Assucena"
+    },
     {
       "id": 3442,
       "item_id": 376,
@@ -24415,21 +24430,6 @@
       "obs": "",
       "criado_em": "2026-09-24 10:03:56",
       "item": "Dexametasona",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2943,
-      "item_id": 69,
-      "produto_nome": "Diclofenaco 25mg",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 20,
-      "responsavel": "Assucena",
-      "data": "2026-09-24",
-      "obs": "",
-      "criado_em": "2026-09-24 10:03:52",
-      "item": "Diclofenaco 25mg",
       "usuario": "Assucena"
     }
   ]
