@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "02/10/2026 11:31:21",
+  "atualizado_em": "02/10/2026 11:31:30",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 110125,
-    "total_farmacia": 33264,
-    "total_geral": 143389,
+    "total_farmacia": 33234,
+    "total_geral": 143359,
     "perto_de_terminar": 37,
     "zerados": 11
   },
@@ -705,19 +705,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 15600,
-      "farmacia": 140,
+      "farmacia": 110,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 15740,
+      "total": 15710,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-01 14:05:52",
+      "atualizado_em": "2026-10-02 11:31:29",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -731,17 +731,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 140
+          "quantidade": 110
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 461,
-      "previsao_20_dias": 461,
+      "minimo_alerta": 474,
+      "previsao_20_dias": 474,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 46,
-      "media_diaria_saida": 23.04,
-      "total_saida_historica": 1060,
-      "cobertura_dias": 683.1,
+      "media_diaria_saida": 23.7,
+      "total_saida_historica": 1090,
+      "cobertura_dias": 663.0,
       "alerta_estoque": false
     },
     {
@@ -16933,6 +16933,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 3420,
+      "item_id": 285,
+      "produto_nome": "Agulha 30x7",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 30,
+      "responsavel": "Assucena",
+      "data": "2026-10-01",
+      "obs": "",
+      "criado_em": "2026-10-02 11:31:29",
+      "item": "Agulha 30x7",
+      "usuario": "Assucena"
+    },
+    {
       "id": 3419,
       "item_id": 390,
       "produto_nome": "AGULHA  40X1,2",
@@ -24415,21 +24430,6 @@
       "obs": "",
       "criado_em": "2026-09-24 09:58:20",
       "item": "Propranolol 40mg CPR",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2920,
-      "item_id": 138,
-      "produto_nome": "Captopril 25mg CPR",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 20,
-      "responsavel": "Assucena",
-      "data": "2026-09-23",
-      "obs": "",
-      "criado_em": "2026-09-24 09:58:10",
-      "item": "Captopril 25mg CPR",
       "usuario": "Assucena"
     }
   ]
