@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "02/10/2026 11:33:10",
+  "atualizado_em": "02/10/2026 11:33:22",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
-    "total_almoxarifado": 109725,
-    "total_farmacia": 33445,
+    "total_almoxarifado": 109677,
+    "total_farmacia": 33493,
     "total_geral": 143170,
     "perto_de_terminar": 37,
     "zerados": 11
@@ -15456,8 +15456,8 @@
       "nome": "Soro Ringer Lactato 500ml",
       "tipo": "Insumo",
       "unidade": "Unidade",
-      "almoxarifado": 192,
-      "farmacia": 3,
+      "almoxarifado": 144,
+      "farmacia": 51,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -15469,7 +15469,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-30 10:55:25",
+      "atualizado_em": "2026-10-02 11:33:20",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -15477,13 +15477,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 192
+          "quantidade": 144
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 3
+          "quantidade": 51
         }
       ],
       "minimo_manual": 0,
@@ -16932,6 +16932,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 3433,
+      "item_id": 201,
+      "produto_nome": "Soro Ringer Lactato 500ml",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 48,
+      "responsavel": "Assucena",
+      "data": "2026-10-01",
+      "obs": "",
+      "criado_em": "2026-10-02 11:33:20",
+      "item": "Soro Ringer Lactato 500ml",
+      "usuario": "Assucena"
+    },
     {
       "id": 3432,
       "item_id": 202,
@@ -24415,21 +24430,6 @@
       "obs": "",
       "criado_em": "2026-09-24 10:00:15",
       "item": "Equipo fotossensível",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2933,
-      "item_id": 303,
-      "produto_nome": "Acetilcisteína XRP",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 1,
-      "responsavel": "Assucena",
-      "data": "2026-09-23",
-      "obs": "",
-      "criado_em": "2026-09-24 10:00:07",
-      "item": "Acetilcisteína XRP",
       "usuario": "Assucena"
     }
   ]
