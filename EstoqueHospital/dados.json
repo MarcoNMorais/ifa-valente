@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "02/10/2026 11:34:43",
+  "atualizado_em": "02/10/2026 11:34:50",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 109677,
-    "total_farmacia": 33362,
-    "total_geral": 143039,
+    "total_farmacia": 33352,
+    "total_geral": 143029,
     "perto_de_terminar": 37,
     "zerados": 11
   },
@@ -12153,19 +12153,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 2400,
-      "farmacia": 160,
+      "farmacia": 150,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 2560,
+      "total": 2550,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-30 11:09:10",
+      "atualizado_em": "2026-10-02 11:34:48",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -12179,17 +12179,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 160
+          "quantidade": 150
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 157,
-      "previsao_20_dias": 157,
+      "minimo_alerta": 161,
+      "previsao_20_dias": 161,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 46,
-      "media_diaria_saida": 7.83,
-      "total_saida_historica": 360,
-      "cobertura_dias": 327.1,
+      "media_diaria_saida": 8.04,
+      "total_saida_historica": 370,
+      "cobertura_dias": 317.0,
       "alerta_estoque": false
     },
     {
@@ -16932,6 +16932,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 3440,
+      "item_id": 329,
+      "produto_nome": "Polifix",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 10,
+      "responsavel": "Assucena",
+      "data": "2026-10-01",
+      "obs": "",
+      "criado_em": "2026-10-02 11:34:48",
+      "item": "Polifix",
+      "usuario": "Assucena"
+    },
     {
       "id": 3439,
       "item_id": 220,
@@ -24415,21 +24430,6 @@
       "obs": "",
       "criado_em": "2026-09-24 10:03:36",
       "item": "Escopolamina 20mg",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2940,
-      "item_id": 55,
-      "produto_nome": "Benzilpenicilina 1.200",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 88,
-      "responsavel": "Assucena",
-      "data": "2026-09-24",
-      "obs": "",
-      "criado_em": "2026-09-24 10:03:15",
-      "item": "Benzilpenicilina 1.200",
       "usuario": "Assucena"
     }
   ]
