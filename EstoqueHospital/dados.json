@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "02/10/2026 11:34:26",
+  "atualizado_em": "02/10/2026 11:34:37",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 109677,
-    "total_farmacia": 33411,
-    "total_geral": 143088,
+    "total_farmacia": 33387,
+    "total_geral": 143064,
     "perto_de_terminar": 37,
     "zerados": 11
   },
@@ -1568,19 +1568,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 2424,
-      "farmacia": 74,
+      "farmacia": 50,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 2498,
+      "total": 2474,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-29 11:24:49",
+      "atualizado_em": "2026-10-02 11:34:36",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -1594,17 +1594,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 74
+          "quantidade": 50
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 131,
-      "previsao_20_dias": 131,
+      "minimo_alerta": 141,
+      "previsao_20_dias": 141,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 51,
-      "media_diaria_saida": 6.55,
-      "total_saida_historica": 334,
-      "cobertura_dias": 381.4,
+      "media_diaria_saida": 7.02,
+      "total_saida_historica": 358,
+      "cobertura_dias": 352.4,
       "alerta_estoque": false
     },
     {
@@ -16933,6 +16933,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 3438,
+      "item_id": 152,
+      "produto_nome": "Atadura crepon nº 10",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 24,
+      "responsavel": "Assucena",
+      "data": "2026-10-01",
+      "obs": "",
+      "criado_em": "2026-10-02 11:34:36",
+      "item": "Atadura crepon nº 10",
+      "usuario": "Assucena"
+    },
+    {
       "id": 3437,
       "item_id": 102,
       "produto_nome": "Seringa 5ml",
@@ -24415,21 +24430,6 @@
       "obs": "",
       "criado_em": "2026-09-24 10:01:01",
       "item": "Ibuprofeno gotas",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2938,
-      "item_id": 330,
-      "produto_nome": "Máscara descartável",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 100,
-      "responsavel": "Assucena",
-      "data": "2026-09-23",
-      "obs": "",
-      "criado_em": "2026-09-24 10:00:53",
-      "item": "Máscara descartável",
       "usuario": "Assucena"
     }
   ]
