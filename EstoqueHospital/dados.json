@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "02/10/2026 11:32:16",
+  "atualizado_em": "02/10/2026 11:32:27",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
-    "total_almoxarifado": 110125,
-    "total_farmacia": 33144,
+    "total_almoxarifado": 109925,
+    "total_farmacia": 33344,
     "total_geral": 143269,
     "perto_de_terminar": 37,
     "zerados": 11
@@ -7759,8 +7759,8 @@
       "nome": "Gelco nº 22",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 1180,
-      "farmacia": 3,
+      "almoxarifado": 980,
+      "farmacia": 203,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -7772,7 +7772,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-01 13:57:33",
+      "atualizado_em": "2026-10-02 11:32:26",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -7780,13 +7780,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 1180
+          "quantidade": 980
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 3
+          "quantidade": 203
         }
       ],
       "minimo_manual": 0,
@@ -16933,6 +16933,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 3426,
+      "item_id": 177,
+      "produto_nome": "Gelco nº 22",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 200,
+      "responsavel": "Assucena",
+      "data": "2026-10-01",
+      "obs": "",
+      "criado_em": "2026-10-02 11:32:26",
+      "item": "Gelco nº 22",
+      "usuario": "Assucena"
+    },
+    {
       "id": 3425,
       "item_id": 178,
       "produto_nome": "Dispositivo intravenoso Gelco nº 20",
@@ -24415,21 +24430,6 @@
       "obs": "",
       "criado_em": "2026-09-24 09:59:14",
       "item": "Caixa de perfurocortante",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2926,
-      "item_id": 178,
-      "produto_nome": "Dispositivo intravenoso Gelco nº 20",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 15,
-      "responsavel": "Assucena",
-      "data": "2026-09-23",
-      "obs": "",
-      "criado_em": "2026-09-24 09:59:03",
-      "item": "Dispositivo intravenoso Gelco nº 20",
       "usuario": "Assucena"
     }
   ]
