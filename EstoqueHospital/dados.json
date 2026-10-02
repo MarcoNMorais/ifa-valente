@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "02/10/2026 11:34:37",
+  "atualizado_em": "02/10/2026 11:34:43",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 109677,
-    "total_farmacia": 33387,
-    "total_geral": 143064,
+    "total_farmacia": 33362,
+    "total_geral": 143039,
     "perto_de_terminar": 37,
     "zerados": 11
   },
@@ -5706,19 +5706,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 1956,
-      "farmacia": 225,
+      "farmacia": 200,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 2181,
+      "total": 2156,
       "minimo": 300,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-01 16:06:03",
+      "atualizado_em": "2026-10-02 11:34:42",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -5732,17 +5732,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 250
+          "quantidade": 225
         }
       ],
       "minimo_manual": 300,
-      "minimo_alerta": 430,
-      "previsao_20_dias": 430,
+      "minimo_alerta": 439,
+      "previsao_20_dias": 439,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 51,
-      "media_diaria_saida": 21.45,
-      "total_saida_historica": 1094,
-      "cobertura_dias": 101.7,
+      "media_diaria_saida": 21.94,
+      "total_saida_historica": 1119,
+      "cobertura_dias": 98.3,
       "alerta_estoque": false
     },
     {
@@ -16933,6 +16933,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 3439,
+      "item_id": 220,
+      "produto_nome": "Equipo macrogotas",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 25,
+      "responsavel": "Assucena",
+      "data": "2026-10-01",
+      "obs": "",
+      "criado_em": "2026-10-02 11:34:42",
+      "item": "Equipo macrogotas",
+      "usuario": "Assucena"
+    },
+    {
       "id": 3438,
       "item_id": 152,
       "produto_nome": "Atadura crepon nº 10",
@@ -24415,21 +24430,6 @@
       "obs": "",
       "criado_em": "2026-09-24 10:03:15",
       "item": "Benzilpenicilina 1.200",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2939,
-      "item_id": 255,
-      "produto_nome": "Ibuprofeno gotas",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 1,
-      "responsavel": "Assucena",
-      "data": "2026-09-23",
-      "obs": "",
-      "criado_em": "2026-09-24 10:01:01",
-      "item": "Ibuprofeno gotas",
       "usuario": "Assucena"
     }
   ]
