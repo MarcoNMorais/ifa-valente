@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "02/10/2026 11:35:06",
+  "atualizado_em": "02/10/2026 11:35:15",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 109677,
-    "total_farmacia": 33350,
-    "total_geral": 143027,
+    "total_farmacia": 33347,
+    "total_geral": 143024,
     "perto_de_terminar": 37,
     "zerados": 11
   },
@@ -9090,19 +9090,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 44,
-      "farmacia": 22,
+      "farmacia": 19,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 66,
+      "total": 63,
       "minimo": 50,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-01 16:06:15",
+      "atualizado_em": "2026-10-02 11:35:14",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -9116,17 +9116,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 22
+          "quantidade": 19
         }
       ],
       "minimo_manual": 50,
-      "minimo_alerta": 18,
-      "previsao_20_dias": 18,
+      "minimo_alerta": 20,
+      "previsao_20_dias": 20,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 38,
-      "media_diaria_saida": 0.89,
-      "total_saida_historica": 34,
-      "cobertura_dias": 73.8,
+      "media_diaria_saida": 0.97,
+      "total_saida_historica": 37,
+      "cobertura_dias": 64.7,
       "alerta_estoque": false
     },
     {
@@ -16933,6 +16933,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 3442,
+      "item_id": 376,
+      "produto_nome": "LENÇOL DESCARTAVEL PAPEL",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 3,
+      "responsavel": "Assucena",
+      "data": "2026-10-01",
+      "obs": "",
+      "criado_em": "2026-10-02 11:35:14",
+      "item": "LENÇOL DESCARTAVEL PAPEL",
+      "usuario": "Assucena"
+    },
+    {
       "id": 3441,
       "item_id": 282,
       "produto_nome": "Luva G procedimento",
@@ -24415,21 +24430,6 @@
       "obs": "",
       "criado_em": "2026-09-24 10:03:52",
       "item": "Diclofenaco 25mg",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2942,
-      "item_id": 76,
-      "produto_nome": "Escopolamina + Dipirona",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 20,
-      "responsavel": "Assucena",
-      "data": "2026-09-24",
-      "obs": "",
-      "criado_em": "2026-09-24 10:03:44",
-      "item": "Escopolamina + Dipirona",
       "usuario": "Assucena"
     }
   ]
