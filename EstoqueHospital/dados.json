@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "05/10/2026 11:19:44",
+  "atualizado_em": "05/10/2026 11:19:56",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 108015,
-    "total_farmacia": 33885,
-    "total_geral": 141900,
+    "total_farmacia": 33855,
+    "total_geral": 141870,
     "perto_de_terminar": 39,
     "zerados": 11
   },
@@ -8282,19 +8282,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 40,
-      "farmacia": 85,
+      "farmacia": 55,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 125,
+      "total": 95,
       "minimo": 0,
       "validade": "2027-07",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-15 16:24:57",
+      "atualizado_em": "2026-10-05 11:19:55",
       "validade_mais_proxima": "2027-07",
       "vencimento_mais_proximo": "2027-07",
       "lotes_validade": [
@@ -8302,7 +8302,7 @@
           "local": "farmacia",
           "validade": "2027-07",
           "lote": "",
-          "quantidade": 85
+          "quantidade": 55
         },
         {
           "local": "almoxarifado",
@@ -8312,13 +8312,13 @@
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 15,
-      "previsao_20_dias": 15,
+      "minimo_alerta": 26,
+      "previsao_20_dias": 26,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 54,
-      "media_diaria_saida": 0.74,
-      "total_saida_historica": 40,
-      "cobertura_dias": 168.8,
+      "media_diaria_saida": 1.3,
+      "total_saida_historica": 70,
+      "cobertura_dias": 73.3,
       "alerta_estoque": false
     },
     {
@@ -16927,6 +16927,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 3502,
+      "item_id": 80,
+      "produto_nome": "Hidralazina 20mg",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 30,
+      "responsavel": "Assucena",
+      "data": "2026-10-03",
+      "obs": "",
+      "criado_em": "2026-10-05 11:19:55",
+      "item": "Hidralazina 20mg",
+      "usuario": "Assucena"
+    },
+    {
       "id": 3501,
       "item_id": 51,
       "produto_nome": "Ampicilina",
@@ -24409,21 +24424,6 @@
       "obs": "",
       "criado_em": "2026-09-25 10:33:38",
       "item": "Atadura de algodão 15cm",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 3002,
-      "item_id": 307,
-      "produto_nome": "Atadura de algodão 10cm",
-      "tipo": "Farmácia para SALA DE GESSO",
-      "origem": "Farmácia",
-      "destino": "SALA DE GESSO",
-      "quantidade": 12,
-      "responsavel": "Assucena",
-      "data": "2026-09-24",
-      "obs": "",
-      "criado_em": "2026-09-25 10:33:31",
-      "item": "Atadura de algodão 10cm",
       "usuario": "Assucena"
     }
   ]
