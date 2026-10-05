@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "05/10/2026 15:12:54",
+  "atualizado_em": "05/10/2026 15:13:16",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
-    "total_almoxarifado": 108015,
-    "total_farmacia": 33526,
+    "total_almoxarifado": 107985,
+    "total_farmacia": 33556,
     "total_geral": 141541,
     "perto_de_terminar": 40,
     "zerados": 13
@@ -3106,8 +3106,8 @@
       "nome": "Cateter tipo óculos adulto",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 160,
-      "farmacia": 3,
+      "almoxarifado": 130,
+      "farmacia": 33,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -3119,7 +3119,7 @@
       "lote": "",
       "origem": "Carga Almoxerifado",
       "obs": "Importação Almoxerifado",
-      "atualizado_em": "2026-09-30 10:56:55",
+      "atualizado_em": "2026-10-05 15:13:14",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -3127,13 +3127,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 160
+          "quantidade": 130
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 3
+          "quantidade": 33
         }
       ],
       "minimo_manual": 0,
@@ -16913,6 +16913,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 3521,
+      "item_id": 291,
+      "produto_nome": "Cateter tipo óculos adulto",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 30,
+      "responsavel": "Leiliana",
+      "data": "2026-10-05",
+      "obs": "",
+      "criado_em": "2026-10-05 15:13:14",
+      "item": "Cateter tipo óculos adulto",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 3520,
       "item_id": 220,
       "produto_nome": "Equipo macrogotas",
@@ -24394,21 +24409,6 @@
       "data": "2026-09-24",
       "obs": "",
       "criado_em": "2026-09-25 10:37:23",
-      "item": "Soro fisiológico 100ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 3021,
-      "item_id": 202,
-      "produto_nome": "Soro fisiológico 100ml",
-      "tipo": "Almoxarifado para Farmácia",
-      "origem": "Almoxarifado",
-      "destino": "Farmácia",
-      "quantidade": 240,
-      "responsavel": "Assucena",
-      "data": "2026-09-24",
-      "obs": "",
-      "criado_em": "2026-09-25 10:37:15",
       "item": "Soro fisiológico 100ml",
       "usuario": "Assucena"
     }
