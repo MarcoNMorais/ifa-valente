@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "05/10/2026 15:26:07",
+  "atualizado_em": "05/10/2026 15:26:18",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 107029,
-    "total_farmacia": 33679,
-    "total_geral": 140708,
+    "total_farmacia": 33678,
+    "total_geral": 140707,
     "perto_de_terminar": 40,
     "zerados": 15
   },
@@ -2987,19 +2987,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 16,
+      "farmacia": 15,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 16,
+      "total": 15,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-05 11:20:21",
+      "atualizado_em": "2026-10-05 15:26:17",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -3007,7 +3007,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 16
+          "quantidade": 15
         }
       ],
       "minimo_manual": 0,
@@ -3015,9 +3015,9 @@
       "previsao_20_dias": 9,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 54,
-      "media_diaria_saida": 0.41,
-      "total_saida_historica": 22,
-      "cobertura_dias": 39.3,
+      "media_diaria_saida": 0.43,
+      "total_saida_historica": 23,
+      "cobertura_dias": 35.2,
       "alerta_estoque": false
     },
     {
@@ -16906,6 +16906,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 3573,
+      "item_id": 200,
+      "produto_nome": "Caixa de perfurocortante",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 1,
+      "responsavel": "Leiliana",
+      "data": "2026-10-05",
+      "obs": "",
+      "criado_em": "2026-10-05 15:26:17",
+      "item": "Caixa de perfurocortante",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 3572,
       "item_id": 203,
       "produto_nome": "Soro fisiológico 250ml",
@@ -24388,21 +24403,6 @@
       "obs": "",
       "criado_em": "2026-09-28 10:48:18",
       "item": "Bolsa coletora",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 3062,
-      "item_id": 181,
-      "produto_nome": "Luva de látex tam. M",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 1,
-      "responsavel": "Assucena",
-      "data": "2026-09-26",
-      "obs": "",
-      "criado_em": "2026-09-28 10:48:09",
-      "item": "Luva de látex tam. M",
       "usuario": "Assucena"
     }
   ]
