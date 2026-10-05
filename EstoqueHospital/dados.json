@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "05/10/2026 16:47:39",
+  "atualizado_em": "05/10/2026 16:47:51",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
-    "total_almoxarifado": 107029,
-    "total_farmacia": 33294,
+    "total_almoxarifado": 106909,
+    "total_farmacia": 33414,
     "total_geral": 140323,
     "perto_de_terminar": 41,
     "zerados": 15
@@ -15199,8 +15199,8 @@
       "nome": "Soro fisiológico 100ml",
       "tipo": "Insumo",
       "unidade": "Unidade",
-      "almoxarifado": 660,
-      "farmacia": 0,
+      "almoxarifado": 540,
+      "farmacia": 120,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -15212,7 +15212,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-05 16:47:38",
+      "atualizado_em": "2026-10-05 16:47:50",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -15220,7 +15220,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 660
+          "quantidade": 540
+        },
+        {
+          "local": "farmacia",
+          "validade": "",
+          "lote": "",
+          "quantidade": 120
         }
       ],
       "minimo_manual": 0,
@@ -16899,6 +16905,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 3597,
+      "item_id": 202,
+      "produto_nome": "Soro fisiológico 100ml",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 120,
+      "responsavel": "Leiliana",
+      "data": "2026-10-05",
+      "obs": "",
+      "criado_em": "2026-10-05 16:47:50",
+      "item": "Soro fisiológico 100ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 3596,
       "item_id": 202,
@@ -24382,21 +24403,6 @@
       "obs": "",
       "criado_em": "2026-09-28 10:53:29",
       "item": "Seringa 20ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 3088,
-      "item_id": 176,
-      "produto_nome": "Gelco nº 24",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 15,
-      "responsavel": "Assucena",
-      "data": "2026-09-27",
-      "obs": "",
-      "criado_em": "2026-09-28 10:53:05",
-      "item": "Gelco nº 24",
       "usuario": "Assucena"
     }
   ]
