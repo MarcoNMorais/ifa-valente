@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "05/10/2026 15:26:47",
+  "atualizado_em": "05/10/2026 15:27:14",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 107029,
-    "total_farmacia": 33675,
-    "total_geral": 140704,
+    "total_farmacia": 33625,
+    "total_geral": 140654,
     "perto_de_terminar": 40,
     "zerados": 15
   },
@@ -4971,19 +4971,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 700,
+      "farmacia": 670,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 700,
+      "total": 670,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-05 15:15:03",
+      "atualizado_em": "2026-10-05 15:27:13",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -4991,17 +4991,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 700
+          "quantidade": 670
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 882,
-      "previsao_20_dias": 882,
+      "minimo_alerta": 893,
+      "previsao_20_dias": 893,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 54,
-      "media_diaria_saida": 44.07,
-      "total_saida_historica": 2380,
-      "cobertura_dias": 15.9,
+      "media_diaria_saida": 44.63,
+      "total_saida_historica": 2410,
+      "cobertura_dias": 15.0,
       "alerta_estoque": true
     },
     {
@@ -7396,19 +7396,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 190,
+      "farmacia": 170,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 190,
+      "total": 170,
       "minimo": 0,
       "validade": "2027-08",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-21 11:17:32",
+      "atualizado_em": "2026-10-05 15:27:02",
       "validade_mais_proxima": "2027-08",
       "vencimento_mais_proximo": "2027-08",
       "lotes_validade": [
@@ -7416,7 +7416,7 @@
           "local": "farmacia",
           "validade": "2027-08",
           "lote": "",
-          "quantidade": 30
+          "quantidade": 10
         },
         {
           "local": "farmacia",
@@ -7426,13 +7426,13 @@
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 63,
-      "previsao_20_dias": 63,
+      "minimo_alerta": 71,
+      "previsao_20_dias": 71,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 54,
-      "media_diaria_saida": 3.15,
-      "total_saida_historica": 170,
-      "cobertura_dias": 60.4,
+      "media_diaria_saida": 3.52,
+      "total_saida_historica": 190,
+      "cobertura_dias": 48.3,
       "alerta_estoque": false
     },
     {
@@ -16906,6 +16906,36 @@
   ],
   "movimentacoes": [
     {
+      "id": 3577,
+      "item_id": 70,
+      "produto_nome": "Dipirona",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 30,
+      "responsavel": "Leiliana",
+      "data": "2026-10-05",
+      "obs": "",
+      "criado_em": "2026-10-05 15:27:13",
+      "item": "Dipirona",
+      "usuario": "Leiliana"
+    },
+    {
+      "id": 3576,
+      "item_id": 64,
+      "produto_nome": "Fosfato de Clindamicina 150mg",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 20,
+      "responsavel": "Leiliana",
+      "data": "2026-10-05",
+      "obs": "",
+      "criado_em": "2026-10-05 15:27:02",
+      "item": "Fosfato de Clindamicina 150mg",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 3575,
       "item_id": 175,
       "produto_nome": "Fita cirúrgica microporosa",
@@ -24373,36 +24403,6 @@
       "obs": "",
       "criado_em": "2026-09-28 10:48:59",
       "item": "Soro fisiológico 250ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 3066,
-      "item_id": 384,
-      "produto_nome": "ACIDO ASCORBICO",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 20,
-      "responsavel": "Assucena",
-      "data": "2026-09-26",
-      "obs": "",
-      "criado_em": "2026-09-28 10:48:41",
-      "item": "ACIDO ASCORBICO",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 3065,
-      "item_id": 70,
-      "produto_nome": "Dipirona",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 40,
-      "responsavel": "Assucena",
-      "data": "2026-09-26",
-      "obs": "",
-      "criado_em": "2026-09-28 10:48:33",
-      "item": "Dipirona",
       "usuario": "Assucena"
     }
   ]
