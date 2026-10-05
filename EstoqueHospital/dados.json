@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "05/10/2026 15:27:14",
+  "atualizado_em": "05/10/2026 15:27:26",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 107029,
-    "total_farmacia": 33625,
-    "total_geral": 140654,
+    "total_farmacia": 33615,
+    "total_geral": 140644,
     "perto_de_terminar": 40,
     "zerados": 15
   },
@@ -1349,19 +1349,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 30,
+      "farmacia": 20,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 30,
+      "total": 20,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-15 16:24:57",
+      "atualizado_em": "2026-10-05 15:27:25",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -1369,17 +1369,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 30
+          "quantidade": 20
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 9,
-      "previsao_20_dias": 9,
+      "minimo_alerta": 13,
+      "previsao_20_dias": 13,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 54,
-      "media_diaria_saida": 0.44,
-      "total_saida_historica": 24,
-      "cobertura_dias": 67.5,
+      "media_diaria_saida": 0.63,
+      "total_saida_historica": 34,
+      "cobertura_dias": 31.8,
       "alerta_estoque": false
     },
     {
@@ -16906,6 +16906,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 3578,
+      "item_id": 50,
+      "produto_nome": "Amiodarona 50mg",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 10,
+      "responsavel": "Leiliana",
+      "data": "2026-10-05",
+      "obs": "",
+      "criado_em": "2026-10-05 15:27:25",
+      "item": "Amiodarona 50mg",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 3577,
       "item_id": 70,
       "produto_nome": "Dipirona",
@@ -24388,21 +24403,6 @@
       "obs": "",
       "criado_em": "2026-09-28 10:49:09",
       "item": "Atadura crepon nº 15",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 3067,
-      "item_id": 203,
-      "produto_nome": "Soro fisiológico 250ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 10,
-      "responsavel": "Assucena",
-      "data": "2026-09-26",
-      "obs": "",
-      "criado_em": "2026-09-28 10:48:59",
-      "item": "Soro fisiológico 250ml",
       "usuario": "Assucena"
     }
   ]
