@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "05/10/2026 10:21:22",
+  "atualizado_em": "05/10/2026 10:21:37",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
-    "total_almoxarifado": 109677,
-    "total_farmacia": 32834,
+    "total_almoxarifado": 109427,
+    "total_farmacia": 33084,
     "total_geral": 142511,
     "perto_de_terminar": 37,
     "zerados": 11
@@ -12772,8 +12772,8 @@
       "nome": "Seringa 10ml",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 5900,
-      "farmacia": 0,
+      "almoxarifado": 5650,
+      "farmacia": 250,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -12785,7 +12785,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-02 11:36:15",
+      "atualizado_em": "2026-10-05 10:21:36",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -12793,13 +12793,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 5900
+          "quantidade": 5650
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 20
+          "quantidade": 270
         }
       ],
       "minimo_manual": 0,
@@ -17260,6 +17260,21 @@
       "obs": "",
       "criado_em": "2026-10-05 10:17:18",
       "item": "Seringa 20ml",
+      "usuario": "Assucena"
+    },
+    {
+      "id": 3475,
+      "item_id": 103,
+      "produto_nome": "Seringa 10ml",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 250,
+      "responsavel": "Assucena",
+      "data": "2026-10-02",
+      "obs": "",
+      "criado_em": "2026-10-05 10:21:36",
+      "item": "Seringa 10ml",
       "usuario": "Assucena"
     },
     {
@@ -24415,21 +24430,6 @@
       "obs": "",
       "criado_em": "2026-09-24 16:22:41",
       "item": "Dexametasona",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2975,
-      "item_id": 69,
-      "produto_nome": "Diclofenaco 25mg",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 20,
-      "responsavel": "Assucena",
-      "data": "2026-09-24",
-      "obs": "",
-      "criado_em": "2026-09-24 16:22:31",
-      "item": "Diclofenaco 25mg",
       "usuario": "Assucena"
     }
   ]
