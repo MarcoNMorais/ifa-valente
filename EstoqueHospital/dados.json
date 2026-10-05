@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "05/10/2026 15:19:39",
+  "atualizado_em": "05/10/2026 15:20:07",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 107929,
-    "total_farmacia": 33329,
-    "total_geral": 141258,
+    "total_farmacia": 33319,
+    "total_geral": 141248,
     "perto_de_terminar": 40,
     "zerados": 15
   },
@@ -2369,19 +2369,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 71,
+      "farmacia": 61,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 71,
+      "total": 61,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-02 11:29:18",
+      "atualizado_em": "2026-10-05 15:20:06",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -2389,17 +2389,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 71
+          "quantidade": 61
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 168,
-      "previsao_20_dias": 168,
+      "minimo_alerta": 172,
+      "previsao_20_dias": 172,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 54,
-      "media_diaria_saida": 8.39,
-      "total_saida_historica": 453,
-      "cobertura_dias": 8.5,
+      "media_diaria_saida": 8.57,
+      "total_saida_historica": 463,
+      "cobertura_dias": 7.1,
       "alerta_estoque": true
     },
     {
@@ -16906,6 +16906,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 3544,
+      "item_id": 55,
+      "produto_nome": "Benzilpenicilina 1.200",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 10,
+      "responsavel": "Leiliana",
+      "data": "2026-10-05",
+      "obs": "",
+      "criado_em": "2026-10-05 15:20:06",
+      "item": "Benzilpenicilina 1.200",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 3543,
       "item_id": 253,
       "produto_nome": "Azitromicina 600mg suspensão",
@@ -24388,21 +24403,6 @@
       "obs": "",
       "criado_em": "2026-09-25 15:42:54",
       "item": "Seringa 10ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 3044,
-      "item_id": 331,
-      "produto_nome": "Agulha 30x8",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 40,
-      "responsavel": "Leiliana",
-      "data": "2026-09-25",
-      "obs": "",
-      "criado_em": "2026-09-25 15:42:16",
-      "item": "Agulha 30x8",
       "usuario": "Leiliana"
     }
   ]
