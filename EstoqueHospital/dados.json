@@ -1,13 +1,13 @@
 {
-  "atualizado_em": "05/10/2026 11:20:04",
+  "atualizado_em": "05/10/2026 11:20:16",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 108015,
-    "total_farmacia": 33805,
-    "total_geral": 141820,
+    "total_farmacia": 33775,
+    "total_geral": 141790,
     "perto_de_terminar": 39,
-    "zerados": 11
+    "zerados": 12
   },
   "itens": [
     {
@@ -4441,37 +4441,30 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 30,
+      "farmacia": 0,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 30,
+      "total": 0,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-29 11:26:25",
+      "atualizado_em": "2026-10-05 11:20:15",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
-      "lotes_validade": [
-        {
-          "local": "farmacia",
-          "validade": "",
-          "lote": "",
-          "quantidade": 30
-        }
-      ],
+      "lotes_validade": [],
       "minimo_manual": 0,
-      "minimo_alerta": 182,
-      "previsao_20_dias": 182,
+      "minimo_alerta": 193,
+      "previsao_20_dias": 193,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 54,
-      "media_diaria_saida": 9.07,
-      "total_saida_historica": 490,
-      "cobertura_dias": 3.3,
+      "media_diaria_saida": 9.63,
+      "total_saida_historica": 520,
+      "cobertura_dias": 0.0,
       "alerta_estoque": true
     },
     {
@@ -16927,6 +16920,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 3504,
+      "item_id": 66,
+      "produto_nome": "Complexo B",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 30,
+      "responsavel": "Assucena",
+      "data": "2026-10-03",
+      "obs": "",
+      "criado_em": "2026-10-05 11:20:15",
+      "item": "Complexo B",
+      "usuario": "Assucena"
+    },
+    {
       "id": 3503,
       "item_id": 57,
       "produto_nome": "Bromoprida 5mg",
@@ -24409,21 +24417,6 @@
       "obs": "",
       "criado_em": "2026-09-25 10:33:55",
       "item": "Simeticona 40mg comprimido",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 3004,
-      "item_id": 257,
-      "produto_nome": "Brometo de ipratrópio gotas",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 2,
-      "responsavel": "Assucena",
-      "data": "2026-09-24",
-      "obs": "",
-      "criado_em": "2026-09-25 10:33:47",
-      "item": "Brometo de ipratrópio gotas",
       "usuario": "Assucena"
     }
   ]
