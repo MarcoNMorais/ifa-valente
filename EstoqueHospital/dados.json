@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "05/10/2026 15:25:01",
+  "atualizado_em": "05/10/2026 15:25:15",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 107029,
-    "total_farmacia": 33732,
-    "total_geral": 140761,
+    "total_farmacia": 33730,
+    "total_geral": 140759,
     "perto_de_terminar": 40,
     "zerados": 15
   },
@@ -13062,19 +13062,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 34,
+      "farmacia": 32,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 34,
+      "total": 32,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-05 15:15:18",
+      "atualizado_em": "2026-10-05 15:25:14",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -13082,7 +13082,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 34
+          "quantidade": 32
         }
       ],
       "minimo_manual": 0,
@@ -13090,9 +13090,9 @@
       "previsao_20_dias": 17,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 53,
-      "media_diaria_saida": 0.81,
-      "total_saida_historica": 43,
-      "cobertura_dias": 41.9,
+      "media_diaria_saida": 0.85,
+      "total_saida_historica": 45,
+      "cobertura_dias": 37.7,
       "alerta_estoque": false
     },
     {
@@ -16905,6 +16905,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 3568,
+      "item_id": 256,
+      "produto_nome": "Simeticona gotas",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 2,
+      "responsavel": "Leiliana",
+      "data": "2026-10-05",
+      "obs": "",
+      "criado_em": "2026-10-05 15:25:14",
+      "item": "Simeticona gotas",
+      "usuario": "Leiliana"
+    },
     {
       "id": 3567,
       "item_id": 257,
@@ -24388,21 +24403,6 @@
       "obs": "",
       "criado_em": "2026-09-28 10:47:38",
       "item": "Gelco nº 24",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 3057,
-      "item_id": 177,
-      "produto_nome": "Gelco nº 22",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 40,
-      "responsavel": "Assucena",
-      "data": "2026-09-26",
-      "obs": "",
-      "criado_em": "2026-09-28 10:47:29",
-      "item": "Gelco nº 22",
       "usuario": "Assucena"
     }
   ]
