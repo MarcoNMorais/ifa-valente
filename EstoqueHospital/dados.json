@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "05/10/2026 15:12:27",
+  "atualizado_em": "05/10/2026 15:12:41",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 108015,
-    "total_farmacia": 33571,
-    "total_geral": 141586,
+    "total_farmacia": 33551,
+    "total_geral": 141566,
     "perto_de_terminar": 40,
     "zerados": 13
   },
@@ -692,19 +692,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 15600,
-      "farmacia": 60,
+      "farmacia": 40,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 15660,
+      "total": 15640,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-05 10:23:20",
+      "atualizado_em": "2026-10-05 15:12:40",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -718,17 +718,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 60
+          "quantidade": 40
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 466,
-      "previsao_20_dias": 466,
+      "minimo_alerta": 474,
+      "previsao_20_dias": 474,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 49,
-      "media_diaria_saida": 23.27,
-      "total_saida_historica": 1140,
-      "cobertura_dias": 673.1,
+      "media_diaria_saida": 23.67,
+      "total_saida_historica": 1160,
+      "cobertura_dias": 660.7,
       "alerta_estoque": false
     },
     {
@@ -16913,6 +16913,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 3519,
+      "item_id": 285,
+      "produto_nome": "Agulha 30x7",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 20,
+      "responsavel": "Leiliana",
+      "data": "2026-10-05",
+      "obs": "",
+      "criado_em": "2026-10-05 15:12:40",
+      "item": "Agulha 30x7",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 3518,
       "item_id": 382,
       "produto_nome": "AGUA P/ INJ",
@@ -24395,21 +24410,6 @@
       "obs": "",
       "criado_em": "2026-09-25 10:36:47",
       "item": "Sonda de Aspiração nº 18",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 3019,
-      "item_id": 174,
-      "produto_nome": "Sonda Foley nº 8 - 2 vias",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 2,
-      "responsavel": "Assucena",
-      "data": "2026-09-24",
-      "obs": "",
-      "criado_em": "2026-09-25 10:36:34",
-      "item": "Sonda Foley nº 8 - 2 vias",
       "usuario": "Assucena"
     }
   ]
