@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "05/10/2026 15:20:44",
+  "atualizado_em": "05/10/2026 15:20:57",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 107929,
-    "total_farmacia": 33302,
-    "total_geral": 141231,
+    "total_farmacia": 33292,
+    "total_geral": 141221,
     "perto_de_terminar": 40,
     "zerados": 15
   },
@@ -4753,19 +4753,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 40,
-      "farmacia": 40,
+      "farmacia": 30,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 80,
+      "total": 70,
       "minimo": 0,
       "validade": "2027-09",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-29 11:20:07",
+      "atualizado_em": "2026-10-05 15:20:56",
       "validade_mais_proxima": "2027-09",
       "vencimento_mais_proximo": "2027-09",
       "lotes_validade": [
@@ -4773,7 +4773,7 @@
           "local": "farmacia",
           "validade": "2027-09",
           "lote": "",
-          "quantidade": 40
+          "quantidade": 30
         },
         {
           "local": "almoxarifado",
@@ -4789,13 +4789,13 @@
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 32,
-      "previsao_20_dias": 32,
+      "minimo_alerta": 36,
+      "previsao_20_dias": 36,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 54,
-      "media_diaria_saida": 1.59,
-      "total_saida_historica": 86,
-      "cobertura_dias": 50.2,
+      "media_diaria_saida": 1.78,
+      "total_saida_historica": 96,
+      "cobertura_dias": 39.4,
       "alerta_estoque": false
     },
     {
@@ -16906,6 +16906,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 3548,
+      "item_id": 13,
+      "produto_nome": "Diazepam 10mg/2ml 2ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 10,
+      "responsavel": "Leiliana",
+      "data": "2026-10-05",
+      "obs": "",
+      "criado_em": "2026-10-05 15:20:56",
+      "item": "Diazepam 10mg/2ml 2ml",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 3547,
       "item_id": 216,
       "produto_nome": "Fio agulhado / sutura nº 3",
@@ -24388,21 +24403,6 @@
       "obs": "",
       "criado_em": "2026-09-25 15:43:41",
       "item": "Soro fisiológico 250ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 3048,
-      "item_id": 104,
-      "produto_nome": "Seringa 3ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 20,
-      "responsavel": "Leiliana",
-      "data": "2026-09-25",
-      "obs": "",
-      "criado_em": "2026-09-25 15:43:26",
-      "item": "Seringa 3ml",
       "usuario": "Leiliana"
     }
   ]
