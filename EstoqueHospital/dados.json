@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "05/10/2026 15:26:32",
+  "atualizado_em": "05/10/2026 15:26:47",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 107029,
-    "total_farmacia": 33676,
-    "total_geral": 140705,
+    "total_farmacia": 33675,
+    "total_geral": 140704,
     "perto_de_terminar": 40,
     "zerados": 15
   },
@@ -7270,19 +7270,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 156,
-      "farmacia": 5,
+      "farmacia": 4,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 161,
+      "total": 160,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-01 16:07:30",
+      "atualizado_em": "2026-10-05 15:26:46",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -7296,7 +7296,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 7
+          "quantidade": 6
         }
       ],
       "minimo_manual": 0,
@@ -7304,9 +7304,9 @@
       "previsao_20_dias": 6,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 54,
-      "media_diaria_saida": 0.26,
-      "total_saida_historica": 14,
-      "cobertura_dias": 621.0,
+      "media_diaria_saida": 0.28,
+      "total_saida_historica": 15,
+      "cobertura_dias": 576.0,
       "alerta_estoque": false
     },
     {
@@ -16906,6 +16906,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 3575,
+      "item_id": 175,
+      "produto_nome": "Fita cirúrgica microporosa",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 1,
+      "responsavel": "Leiliana",
+      "data": "2026-10-05",
+      "obs": "",
+      "criado_em": "2026-10-05 15:26:46",
+      "item": "Fita cirúrgica microporosa",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 3574,
       "item_id": 180,
       "produto_nome": "Luva de látex tam. P",
@@ -24388,21 +24403,6 @@
       "obs": "",
       "criado_em": "2026-09-28 10:48:33",
       "item": "Dipirona",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 3064,
-      "item_id": 276,
-      "produto_nome": "Esparadrapo 10x4,5",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 5,
-      "responsavel": "Assucena",
-      "data": "2026-09-26",
-      "obs": "",
-      "criado_em": "2026-09-28 10:48:25",
-      "item": "Esparadrapo 10x4,5",
       "usuario": "Assucena"
     }
   ]
