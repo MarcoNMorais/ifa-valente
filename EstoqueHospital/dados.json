@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "05/10/2026 10:19:39",
+  "atualizado_em": "05/10/2026 10:19:46",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 109677,
-    "total_farmacia": 33008,
-    "total_geral": 142685,
+    "total_farmacia": 33005,
+    "total_geral": 142682,
     "perto_de_terminar": 37,
     "zerados": 11
   },
@@ -9090,19 +9090,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 44,
-      "farmacia": 19,
+      "farmacia": 16,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 63,
+      "total": 60,
       "minimo": 50,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-02 11:35:14",
+      "atualizado_em": "2026-10-05 10:19:45",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -9116,17 +9116,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 19
+          "quantidade": 16
         }
       ],
       "minimo_manual": 50,
-      "minimo_alerta": 19,
-      "previsao_20_dias": 19,
+      "minimo_alerta": 20,
+      "previsao_20_dias": 20,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 41,
-      "media_diaria_saida": 0.9,
-      "total_saida_historica": 37,
-      "cobertura_dias": 69.8,
+      "media_diaria_saida": 0.98,
+      "total_saida_historica": 40,
+      "cobertura_dias": 61.5,
       "alerta_estoque": false
     },
     {
@@ -16933,6 +16933,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 3464,
+      "item_id": 376,
+      "produto_nome": "LENÇOL DESCARTAVEL PAPEL",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 3,
+      "responsavel": "Assucena",
+      "data": "2026-10-03",
+      "obs": "",
+      "criado_em": "2026-10-05 10:19:45",
+      "item": "LENÇOL DESCARTAVEL PAPEL",
+      "usuario": "Assucena"
+    },
+    {
       "id": 3463,
       "item_id": 398,
       "produto_nome": "MASCARA DESCARTAVEL",
@@ -24415,21 +24430,6 @@
       "obs": "",
       "criado_em": "2026-09-24 10:06:52",
       "item": "Tramadol 50mg/ml 2ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2964,
-      "item_id": 228,
-      "produto_nome": "Omeprazol sódico 40mg AMP",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 6,
-      "responsavel": "Assucena",
-      "data": "2026-09-24",
-      "obs": "",
-      "criado_em": "2026-09-24 10:06:45",
-      "item": "Omeprazol sódico 40mg AMP",
       "usuario": "Assucena"
     }
   ]
