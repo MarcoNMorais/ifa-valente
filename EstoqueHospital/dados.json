@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "05/10/2026 15:24:45",
+  "atualizado_em": "05/10/2026 15:25:01",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 107029,
-    "total_farmacia": 33733,
-    "total_geral": 140762,
+    "total_farmacia": 33732,
+    "total_geral": 140761,
     "perto_de_terminar": 40,
     "zerados": 15
   },
@@ -2867,19 +2867,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 53,
+      "farmacia": 52,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 53,
+      "total": 52,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga Farmácia 227-288",
       "obs": "Importação Farmácia 227-288",
-      "atualizado_em": "2026-09-25 10:33:47",
+      "atualizado_em": "2026-10-05 15:24:58",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -2887,17 +2887,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 53
+          "quantidade": 52
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 5,
-      "previsao_20_dias": 5,
+      "minimo_alerta": 6,
+      "previsao_20_dias": 6,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 53,
-      "media_diaria_saida": 0.25,
-      "total_saida_historica": 13,
-      "cobertura_dias": 216.1,
+      "media_diaria_saida": 0.26,
+      "total_saida_historica": 14,
+      "cobertura_dias": 196.9,
       "alerta_estoque": false
     },
     {
@@ -16906,6 +16906,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 3567,
+      "item_id": 257,
+      "produto_nome": "Brometo de ipratrópio gotas",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 1,
+      "responsavel": "Leiliana",
+      "data": "2026-10-05",
+      "obs": "",
+      "criado_em": "2026-10-05 15:24:58",
+      "item": "Brometo de ipratrópio gotas",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 3566,
       "item_id": 186,
       "produto_nome": "Luva cirúrgica tam. 8",
@@ -24388,21 +24403,6 @@
       "obs": "",
       "criado_em": "2026-09-28 10:47:29",
       "item": "Gelco nº 22",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 3056,
-      "item_id": 289,
-      "produto_nome": "Agulha 25x8",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 40,
-      "responsavel": "Assucena",
-      "data": "2026-09-26",
-      "obs": "",
-      "criado_em": "2026-09-28 10:47:18",
-      "item": "Agulha 25x8",
       "usuario": "Assucena"
     }
   ]
