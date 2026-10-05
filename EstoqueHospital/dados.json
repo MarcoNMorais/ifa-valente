@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "05/10/2026 10:32:03",
+  "atualizado_em": "05/10/2026 10:32:17",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
-    "total_almoxarifado": 108415,
-    "total_farmacia": 33525,
+    "total_almoxarifado": 108015,
+    "total_farmacia": 33925,
     "total_geral": 141940,
     "perto_de_terminar": 38,
     "zerados": 11
@@ -612,8 +612,8 @@
       "nome": "Agulha 25x7",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 400,
-      "farmacia": 270,
+      "almoxarifado": 0,
+      "farmacia": 670,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -625,21 +625,15 @@
       "lote": "",
       "origem": "Carga Almoxerifado",
       "obs": "Importação Almoxerifado",
-      "atualizado_em": "2026-10-02 11:31:49",
+      "atualizado_em": "2026-10-05 10:32:16",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
         {
-          "local": "almoxarifado",
-          "validade": "",
-          "lote": "",
-          "quantidade": 400
-        },
-        {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 270
+          "quantidade": 670
         }
       ],
       "minimo_manual": 0,
@@ -17518,6 +17512,21 @@
       "usuario": "Assucena"
     },
     {
+      "id": 3498,
+      "item_id": 319,
+      "produto_nome": "Agulha 25x7",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 400,
+      "responsavel": "Assucena",
+      "data": "2026-10-02",
+      "obs": "",
+      "criado_em": "2026-10-05 10:32:16",
+      "item": "Agulha 25x7",
+      "usuario": "Assucena"
+    },
+    {
       "id": 3497,
       "item_id": 281,
       "produto_nome": "Luva P procedimento",
@@ -24415,21 +24424,6 @@
       "obs": "",
       "criado_em": "2026-09-25 10:32:48",
       "item": "Luva de látex tam. M",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2998,
-      "item_id": 276,
-      "produto_nome": "Esparadrapo 10x4,5",
-      "tipo": "Farmácia para SALA DE GESSO",
-      "origem": "Farmácia",
-      "destino": "SALA DE GESSO",
-      "quantidade": 1,
-      "responsavel": "Assucena",
-      "data": "2026-09-24",
-      "obs": "",
-      "criado_em": "2026-09-25 10:32:41",
-      "item": "Esparadrapo 10x4,5",
       "usuario": "Assucena"
     }
   ]
