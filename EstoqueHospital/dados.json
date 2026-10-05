@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "05/10/2026 15:13:16",
+  "atualizado_em": "05/10/2026 15:13:32",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 107985,
-    "total_farmacia": 33556,
-    "total_geral": 141541,
+    "total_farmacia": 33546,
+    "total_geral": 141531,
     "perto_de_terminar": 40,
     "zerados": 13
   },
@@ -3107,19 +3107,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 130,
-      "farmacia": 33,
+      "farmacia": 23,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 163,
+      "total": 153,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga Almoxerifado",
       "obs": "Importação Almoxerifado",
-      "atualizado_em": "2026-10-05 15:13:14",
+      "atualizado_em": "2026-10-05 15:13:31",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -3133,17 +3133,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 33
+          "quantidade": 23
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 20,
-      "previsao_20_dias": 20,
+      "minimo_alerta": 24,
+      "previsao_20_dias": 24,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 49,
-      "media_diaria_saida": 0.96,
-      "total_saida_historica": 47,
-      "cobertura_dias": 169.9,
+      "media_diaria_saida": 1.16,
+      "total_saida_historica": 57,
+      "cobertura_dias": 131.5,
       "alerta_estoque": false
     },
     {
@@ -16913,6 +16913,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 3522,
+      "item_id": 291,
+      "produto_nome": "Cateter tipo óculos adulto",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 10,
+      "responsavel": "Leiliana",
+      "data": "2026-10-05",
+      "obs": "",
+      "criado_em": "2026-10-05 15:13:31",
+      "item": "Cateter tipo óculos adulto",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 3521,
       "item_id": 291,
       "produto_nome": "Cateter tipo óculos adulto",
@@ -24395,21 +24410,6 @@
       "obs": "",
       "criado_em": "2026-09-25 10:37:32",
       "item": "Lanceta de segurança",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 3022,
-      "item_id": 202,
-      "produto_nome": "Soro fisiológico 100ml",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 60,
-      "responsavel": "Assucena",
-      "data": "2026-09-24",
-      "obs": "",
-      "criado_em": "2026-09-25 10:37:23",
-      "item": "Soro fisiológico 100ml",
       "usuario": "Assucena"
     }
   ]
