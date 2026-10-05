@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "05/10/2026 10:21:51",
+  "atualizado_em": "05/10/2026 10:22:06",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 109427,
-    "total_farmacia": 32954,
-    "total_geral": 142381,
+    "total_farmacia": 32953,
+    "total_geral": 142380,
     "perto_de_terminar": 37,
     "zerados": 11
   },
@@ -9989,19 +9989,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 40,
-      "farmacia": 457,
+      "farmacia": 456,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 497,
+      "total": 496,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga Almoxerifado",
       "obs": "Importação Almoxerifado",
-      "atualizado_em": "2026-10-02 11:35:05",
+      "atualizado_em": "2026-10-05 10:22:05",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -10015,7 +10015,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 457
+          "quantidade": 456
         }
       ],
       "minimo_manual": 0,
@@ -10023,9 +10023,9 @@
       "previsao_20_dias": 2,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 49,
-      "media_diaria_saida": 0.06,
-      "total_saida_historica": 3,
-      "cobertura_dias": 8117.7,
+      "media_diaria_saida": 0.08,
+      "total_saida_historica": 4,
+      "cobertura_dias": 6076.0,
       "alerta_estoque": false
     },
     {
@@ -16932,6 +16932,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 3478,
+      "item_id": 282,
+      "produto_nome": "Luva G procedimento",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 1,
+      "responsavel": "Assucena",
+      "data": "2026-10-03",
+      "obs": "",
+      "criado_em": "2026-10-05 10:22:05",
+      "item": "Luva G procedimento",
+      "usuario": "Assucena"
+    },
     {
       "id": 3477,
       "item_id": 102,
@@ -24415,21 +24430,6 @@
       "obs": "",
       "criado_em": "2026-09-24 16:23:12",
       "item": "Ceftriaxona 1g",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2978,
-      "item_id": 60,
-      "produto_nome": "Cetoprofeno EV 100mg",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 16,
-      "responsavel": "Assucena",
-      "data": "2026-09-24",
-      "obs": "",
-      "criado_em": "2026-09-24 16:23:00",
-      "item": "Cetoprofeno EV 100mg",
       "usuario": "Assucena"
     }
   ]
