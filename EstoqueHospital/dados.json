@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "05/10/2026 16:46:22",
+  "atualizado_em": "05/10/2026 16:46:35",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 107029,
-    "total_farmacia": 33450,
-    "total_geral": 140479,
+    "total_farmacia": 33425,
+    "total_geral": 140454,
     "perto_de_terminar": 41,
     "zerados": 15
   },
@@ -5686,19 +5686,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 1956,
-      "farmacia": 100,
+      "farmacia": 75,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 2056,
+      "total": 2031,
       "minimo": 300,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-05 15:12:53",
+      "atualizado_em": "2026-10-05 16:46:34",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -5712,17 +5712,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 125
+          "quantidade": 100
         }
       ],
       "minimo_manual": 300,
-      "minimo_alerta": 452,
-      "previsao_20_dias": 452,
+      "minimo_alerta": 461,
+      "previsao_20_dias": 461,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 54,
-      "media_diaria_saida": 22.57,
-      "total_saida_historica": 1219,
-      "cobertura_dias": 91.1,
+      "media_diaria_saida": 23.04,
+      "total_saida_historica": 1244,
+      "cobertura_dias": 88.2,
       "alerta_estoque": false
     },
     {
@@ -16906,6 +16906,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 3590,
+      "item_id": 220,
+      "produto_nome": "Equipo macrogotas",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 25,
+      "responsavel": "Leiliana",
+      "data": "2026-10-05",
+      "obs": "",
+      "criado_em": "2026-10-05 16:46:34",
+      "item": "Equipo macrogotas",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 3589,
       "item_id": 387,
       "produto_nome": "HIDROCORTIZONA 500MG",
@@ -24388,21 +24403,6 @@
       "obs": "",
       "criado_em": "2026-09-28 10:51:56",
       "item": "AGULHA  40X1,2",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 3080,
-      "item_id": 220,
-      "produto_nome": "Equipo macrogotas",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 50,
-      "responsavel": "Assucena",
-      "data": "2026-09-27",
-      "obs": "",
-      "criado_em": "2026-09-28 10:51:48",
-      "item": "Equipo macrogotas",
       "usuario": "Assucena"
     }
   ]
