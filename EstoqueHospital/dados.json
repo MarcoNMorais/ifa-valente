@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "05/10/2026 10:18:41",
+  "atualizado_em": "05/10/2026 10:18:53",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 109677,
-    "total_farmacia": 33091,
-    "total_geral": 142768,
+    "total_farmacia": 33089,
+    "total_geral": 142766,
     "perto_de_terminar": 37,
     "zerados": 11
   },
@@ -16034,19 +16034,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 60,
-      "farmacia": 203,
+      "farmacia": 201,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 263,
+      "total": 261,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-30 10:50:02",
+      "atualizado_em": "2026-10-05 10:18:52",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -16060,7 +16060,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 203
+          "quantidade": 201
         }
       ],
       "minimo_manual": 0,
@@ -16068,9 +16068,9 @@
       "previsao_20_dias": 322,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 54,
-      "media_diaria_saida": 16.06,
-      "total_saida_historica": 867,
-      "cobertura_dias": 16.4,
+      "media_diaria_saida": 16.09,
+      "total_saida_historica": 869,
+      "cobertura_dias": 16.2,
       "alerta_estoque": true
     },
     {
@@ -16932,6 +16932,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 3459,
+      "item_id": 195,
+      "produto_nome": "Tira Reagente G-Tech",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 2,
+      "responsavel": "Assucena",
+      "data": "2026-10-03",
+      "obs": "",
+      "criado_em": "2026-10-05 10:18:52",
+      "item": "Tira Reagente G-Tech",
+      "usuario": "Assucena"
+    },
     {
       "id": 3458,
       "item_id": 390,
@@ -24415,21 +24430,6 @@
       "obs": "",
       "criado_em": "2026-09-24 10:06:08",
       "item": "Luva cirúrgica tam. 7,5",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2959,
-      "item_id": 186,
-      "produto_nome": "Luva cirúrgica tam. 8",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 5,
-      "responsavel": "Assucena",
-      "data": "2026-09-24",
-      "obs": "",
-      "criado_em": "2026-09-24 10:05:57",
-      "item": "Luva cirúrgica tam. 8",
       "usuario": "Assucena"
     }
   ]
