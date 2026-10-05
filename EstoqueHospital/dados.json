@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "05/10/2026 10:31:48",
+  "atualizado_em": "05/10/2026 10:31:54",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
-    "total_almoxarifado": 108675,
-    "total_farmacia": 33265,
+    "total_almoxarifado": 108425,
+    "total_farmacia": 33515,
     "total_geral": 141940,
     "perto_de_terminar": 38,
     "zerados": 11
@@ -12864,8 +12864,8 @@
       "nome": "Seringa 20ml",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 7500,
-      "farmacia": 0,
+      "almoxarifado": 7250,
+      "farmacia": 250,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -12877,7 +12877,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-05 10:21:21",
+      "atualizado_em": "2026-10-05 10:31:51",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -12885,13 +12885,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 7500
+          "quantidade": 7250
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 25
+          "quantidade": 275
         }
       ],
       "minimo_manual": 0,
@@ -17514,6 +17514,21 @@
       "data": "2026-10-03",
       "obs": "",
       "criado_em": "2026-10-05 10:17:18",
+      "item": "Seringa 20ml",
+      "usuario": "Assucena"
+    },
+    {
+      "id": 3496,
+      "item_id": 274,
+      "produto_nome": "Seringa 20ml",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 250,
+      "responsavel": "Assucena",
+      "data": "2026-10-02",
+      "obs": "",
+      "criado_em": "2026-10-05 10:31:51",
       "item": "Seringa 20ml",
       "usuario": "Assucena"
     },
@@ -24415,21 +24430,6 @@
       "obs": "",
       "criado_em": "2026-09-25 10:32:36",
       "item": "Atadura crepon nº 10",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2996,
-      "item_id": 239,
-      "produto_nome": "Tramadol 50mg/ml 2ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 20,
-      "responsavel": "Assucena",
-      "data": "2026-09-24",
-      "obs": "",
-      "criado_em": "2026-09-25 10:32:28",
-      "item": "Tramadol 50mg/ml 2ml",
       "usuario": "Assucena"
     }
   ]
