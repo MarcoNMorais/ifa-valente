@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "05/10/2026 11:21:05",
+  "atualizado_em": "05/10/2026 15:09:49",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 108015,
-    "total_farmacia": 33714,
-    "total_geral": 141729,
+    "total_farmacia": 33710,
+    "total_geral": 141725,
     "perto_de_terminar": 39,
     "zerados": 12
   },
@@ -9077,19 +9077,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 44,
-      "farmacia": 16,
+      "farmacia": 12,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 60,
+      "total": 56,
       "minimo": 50,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-05 10:19:45",
+      "atualizado_em": "2026-10-05 15:09:48",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -9103,17 +9103,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 16
+          "quantidade": 12
         }
       ],
       "minimo_manual": 50,
-      "minimo_alerta": 20,
-      "previsao_20_dias": 20,
+      "minimo_alerta": 22,
+      "previsao_20_dias": 22,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 41,
-      "media_diaria_saida": 0.98,
-      "total_saida_historica": 40,
-      "cobertura_dias": 61.5,
+      "media_diaria_saida": 1.07,
+      "total_saida_historica": 44,
+      "cobertura_dias": 52.2,
       "alerta_estoque": false
     },
     {
@@ -16920,6 +16920,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 3511,
+      "item_id": 376,
+      "produto_nome": "LENÇOL DESCARTAVEL PAPEL",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 4,
+      "responsavel": "Leiliana",
+      "data": "2026-10-05",
+      "obs": "",
+      "criado_em": "2026-10-05 15:09:48",
+      "item": "LENÇOL DESCARTAVEL PAPEL",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 3510,
       "item_id": 178,
       "produto_nome": "Dispositivo intravenoso Gelco nº 20",
@@ -24402,21 +24417,6 @@
       "obs": "",
       "criado_em": "2026-09-25 10:35:16",
       "item": "Seringa 5ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 3011,
-      "item_id": 274,
-      "produto_nome": "Seringa 20ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 10,
-      "responsavel": "Assucena",
-      "data": "2026-09-24",
-      "obs": "",
-      "criado_em": "2026-09-25 10:35:09",
-      "item": "Seringa 20ml",
       "usuario": "Assucena"
     }
   ]
