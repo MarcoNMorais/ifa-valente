@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "05/10/2026 10:18:25",
+  "atualizado_em": "05/10/2026 10:18:41",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 109677,
-    "total_farmacia": 33131,
-    "total_geral": 142808,
+    "total_farmacia": 33091,
+    "total_geral": 142768,
     "perto_de_terminar": 37,
     "zerados": 11
   },
@@ -481,19 +481,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 5800,
-      "farmacia": 135,
+      "farmacia": 95,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 5935,
+      "total": 5895,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-02 11:31:20",
+      "atualizado_em": "2026-10-05 10:18:41",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -507,17 +507,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 135
+          "quantidade": 95
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 1291,
-      "previsao_20_dias": 1291,
+      "minimo_alerta": 1316,
+      "previsao_20_dias": 1316,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 32,
-      "media_diaria_saida": 64.53,
-      "total_saida_historica": 2065,
-      "cobertura_dias": 92.0,
+      "media_diaria_saida": 65.78,
+      "total_saida_historica": 2105,
+      "cobertura_dias": 89.6,
       "alerta_estoque": false
     },
     {
@@ -16933,6 +16933,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 3458,
+      "item_id": 390,
+      "produto_nome": "AGULHA  40X1,2",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 40,
+      "responsavel": "Assucena",
+      "data": "2026-10-03",
+      "obs": "",
+      "criado_em": "2026-10-05 10:18:41",
+      "item": "AGULHA  40X1,2",
+      "usuario": "Assucena"
+    },
+    {
       "id": 3457,
       "item_id": 60,
       "produto_nome": "Cetoprofeno EV 100mg",
@@ -24415,21 +24430,6 @@
       "obs": "",
       "criado_em": "2026-09-24 10:05:57",
       "item": "Luva cirúrgica tam. 8",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2958,
-      "item_id": 185,
-      "produto_nome": "Luva cirúrgica tam. 7,5",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 5,
-      "responsavel": "Assucena",
-      "data": "2026-09-24",
-      "obs": "",
-      "criado_em": "2026-09-24 10:05:49",
-      "item": "Luva cirúrgica tam. 7,5",
       "usuario": "Assucena"
     }
   ]
