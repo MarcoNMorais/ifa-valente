@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "05/10/2026 10:22:40",
+  "atualizado_em": "05/10/2026 10:23:05",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
-    "total_almoxarifado": 109427,
-    "total_farmacia": 32888,
+    "total_almoxarifado": 108927,
+    "total_farmacia": 33388,
     "total_geral": 142315,
     "perto_de_terminar": 37,
     "zerados": 11
@@ -480,8 +480,8 @@
       "nome": "AGULHA  40X1,2",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 5800,
-      "farmacia": 95,
+      "almoxarifado": 5300,
+      "farmacia": 595,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -493,7 +493,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-05 10:18:41",
+      "atualizado_em": "2026-10-05 10:23:04",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -501,13 +501,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 5800
+          "quantidade": 5300
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 95
+          "quantidade": 595
         }
       ],
       "minimo_manual": 0,
@@ -17368,6 +17368,21 @@
       "usuario": "Assucena"
     },
     {
+      "id": 3483,
+      "item_id": 390,
+      "produto_nome": "AGULHA  40X1,2",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 500,
+      "responsavel": "Assucena",
+      "data": "2026-10-02",
+      "obs": "",
+      "criado_em": "2026-10-05 10:23:04",
+      "item": "AGULHA  40X1,2",
+      "usuario": "Assucena"
+    },
+    {
       "id": 3475,
       "item_id": 103,
       "produto_nome": "Seringa 10ml",
@@ -24415,21 +24430,6 @@
       "obs": "",
       "criado_em": "2026-09-24 16:24:21",
       "item": "Seringa 3ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2983,
-      "item_id": 102,
-      "produto_nome": "Seringa 5ml",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 30,
-      "responsavel": "Assucena",
-      "data": "2026-09-24",
-      "obs": "",
-      "criado_em": "2026-09-24 16:24:11",
-      "item": "Seringa 5ml",
       "usuario": "Assucena"
     }
   ]
