@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "05/10/2026 15:25:31",
+  "atualizado_em": "05/10/2026 15:25:44",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 107029,
-    "total_farmacia": 33729,
-    "total_geral": 140758,
+    "total_farmacia": 33719,
+    "total_geral": 140748,
     "perto_de_terminar": 40,
     "zerados": 15
   },
@@ -2123,19 +2123,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 100,
+      "farmacia": 90,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 100,
+      "total": 90,
       "minimo": 0,
       "validade": "2027-11",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-09-24 09:57:41",
+      "atualizado_em": "2026-10-05 15:25:43",
       "validade_mais_proxima": "2027-11",
       "vencimento_mais_proximo": "2027-11",
       "lotes_validade": [
@@ -2143,17 +2143,17 @@
           "local": "farmacia",
           "validade": "2027-11",
           "lote": "",
-          "quantidade": 100
+          "quantidade": 90
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 38,
-      "previsao_20_dias": 38,
+      "minimo_alerta": 41,
+      "previsao_20_dias": 41,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 54,
-      "media_diaria_saida": 1.85,
-      "total_saida_historica": 100,
-      "cobertura_dias": 54.0,
+      "media_diaria_saida": 2.04,
+      "total_saida_historica": 110,
+      "cobertura_dias": 44.2,
       "alerta_estoque": false
     },
     {
@@ -16906,6 +16906,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 3570,
+      "item_id": 38,
+      "produto_nome": "Atensina 0,150mg CPR",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 10,
+      "responsavel": "Leiliana",
+      "data": "2026-10-05",
+      "obs": "",
+      "criado_em": "2026-10-05 15:25:43",
+      "item": "Atensina 0,150mg CPR",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 3569,
       "item_id": 255,
       "produto_nome": "Ibuprofeno gotas",
@@ -24388,21 +24403,6 @@
       "obs": "",
       "criado_em": "2026-09-28 10:47:54",
       "item": "AGUA P/ INJ",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 3059,
-      "item_id": 99,
-      "produto_nome": "Scalp nº 21",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 20,
-      "responsavel": "Assucena",
-      "data": "2026-09-26",
-      "obs": "",
-      "criado_em": "2026-09-28 10:47:46",
-      "item": "Scalp nº 21",
       "usuario": "Assucena"
     }
   ]
