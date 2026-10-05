@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "05/10/2026 15:22:16",
+  "atualizado_em": "05/10/2026 15:22:27",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 107029,
-    "total_farmacia": 33992,
-    "total_geral": 141021,
+    "total_farmacia": 33952,
+    "total_geral": 140981,
     "perto_de_terminar": 40,
     "zerados": 15
   },
@@ -520,19 +520,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 1039,
-      "farmacia": 1781,
+      "farmacia": 1741,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 2820,
+      "total": 2780,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-21 11:05:28",
+      "atualizado_em": "2026-10-05 15:22:26",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -546,17 +546,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 1781
+          "quantidade": 1741
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 33,
-      "previsao_20_dias": 33,
+      "minimo_alerta": 49,
+      "previsao_20_dias": 49,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 49,
-      "media_diaria_saida": 1.63,
-      "total_saida_historica": 80,
-      "cobertura_dias": 1727.2,
+      "media_diaria_saida": 2.45,
+      "total_saida_historica": 120,
+      "cobertura_dias": 1135.2,
       "alerta_estoque": false
     },
     {
@@ -16906,6 +16906,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 3554,
+      "item_id": 287,
+      "produto_nome": "Agulha 13x4,5",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 40,
+      "responsavel": "Leiliana",
+      "data": "2026-10-05",
+      "obs": "",
+      "criado_em": "2026-10-05 15:22:26",
+      "item": "Agulha 13x4,5",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 3553,
       "item_id": 319,
       "produto_nome": "Agulha 25x7",
@@ -24388,21 +24403,6 @@
       "obs": "",
       "criado_em": "2026-09-28 10:51:30",
       "item": "Polifix",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 3055,
-      "item_id": 289,
-      "produto_nome": "Agulha 25x8",
-      "tipo": "Almoxarifado para Farmácia",
-      "origem": "Almoxarifado",
-      "destino": "Farmácia",
-      "quantidade": 500,
-      "responsavel": "Assucena",
-      "data": "2026-09-25",
-      "obs": "",
-      "criado_em": "2026-09-28 10:47:15",
-      "item": "Agulha 25x8",
       "usuario": "Assucena"
     }
   ]
