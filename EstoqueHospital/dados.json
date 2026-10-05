@@ -1,13 +1,13 @@
 {
-  "atualizado_em": "05/10/2026 15:17:17",
+  "atualizado_em": "05/10/2026 15:17:33",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 107929,
-    "total_farmacia": 33441,
-    "total_geral": 141370,
+    "total_farmacia": 33435,
+    "total_geral": 141364,
     "perto_de_terminar": 40,
-    "zerados": 13
+    "zerados": 14
   },
   "itens": [
     {
@@ -15391,19 +15391,19 @@
       "tipo": "Insumo",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 6,
+      "farmacia": 0,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 6,
+      "total": 0,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-10-05 15:17:16",
+      "atualizado_em": "2026-10-05 15:17:32",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -15417,17 +15417,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 16
+          "quantidade": 10
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 45,
-      "previsao_20_dias": 45,
+      "minimo_alerta": 48,
+      "previsao_20_dias": 48,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 54,
-      "media_diaria_saida": 2.24,
-      "total_saida_historica": 121,
-      "cobertura_dias": 2.7,
+      "media_diaria_saida": 2.35,
+      "total_saida_historica": 127,
+      "cobertura_dias": 0.0,
       "alerta_estoque": true
     },
     {
@@ -16912,6 +16912,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 3533,
+      "item_id": 205,
+      "produto_nome": "Soro glicose 5% 500ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 6,
+      "responsavel": "Leiliana",
+      "data": "2026-10-05",
+      "obs": "",
+      "criado_em": "2026-10-05 15:17:32",
+      "item": "Soro glicose 5% 500ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 3532,
       "item_id": 205,
@@ -24395,21 +24410,6 @@
       "obs": "",
       "criado_em": "2026-09-25 10:40:40",
       "item": "Gelco nº 24",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 3033,
-      "item_id": 203,
-      "produto_nome": "Soro fisiológico 250ml",
-      "tipo": "Almoxarifado para Farmácia",
-      "origem": "Almoxarifado",
-      "destino": "Farmácia",
-      "quantidade": 50,
-      "responsavel": "Assucena",
-      "data": "2026-09-24",
-      "obs": "",
-      "criado_em": "2026-09-25 10:40:32",
-      "item": "Soro fisiológico 250ml",
       "usuario": "Assucena"
     }
   ]
