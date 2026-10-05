@@ -1,12 +1,12 @@
 {
-  "atualizado_em": "05/10/2026 15:27:49",
+  "atualizado_em": "05/10/2026 15:28:06",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 107029,
-    "total_farmacia": 33595,
-    "total_geral": 140624,
-    "perto_de_terminar": 40,
+    "total_farmacia": 33575,
+    "total_geral": 140604,
+    "perto_de_terminar": 41,
     "zerados": 15
   },
   "itens": [
@@ -2907,19 +2907,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 190,
+      "farmacia": 170,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 190,
+      "total": 170,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-05 11:20:03",
+      "atualizado_em": "2026-10-05 15:28:05",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -2927,18 +2927,18 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 190
+          "quantidade": 170
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 163,
-      "previsao_20_dias": 163,
+      "minimo_alerta": 171,
+      "previsao_20_dias": 171,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 54,
-      "media_diaria_saida": 8.15,
-      "total_saida_historica": 440,
-      "cobertura_dias": 23.3,
-      "alerta_estoque": false
+      "media_diaria_saida": 8.52,
+      "total_saida_historica": 460,
+      "cobertura_dias": 20.0,
+      "alerta_estoque": true
     },
     {
       "id": 259,
@@ -16906,6 +16906,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 3581,
+      "item_id": 57,
+      "produto_nome": "Bromoprida 5mg",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 20,
+      "responsavel": "Leiliana",
+      "data": "2026-10-05",
+      "obs": "",
+      "criado_em": "2026-10-05 15:28:05",
+      "item": "Bromoprida 5mg",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 3580,
       "item_id": 60,
       "produto_nome": "Cetoprofeno EV 100mg",
@@ -24388,21 +24403,6 @@
       "obs": "",
       "criado_em": "2026-09-28 10:49:38",
       "item": "Fentanila solução 50mcg/ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 3070,
-      "item_id": 11,
-      "produto_nome": "Midazolam 5mg/ml 10ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 5,
-      "responsavel": "Assucena",
-      "data": "2026-09-26",
-      "obs": "",
-      "criado_em": "2026-09-28 10:49:30",
-      "item": "Midazolam 5mg/ml 10ml",
       "usuario": "Assucena"
     }
   ]
