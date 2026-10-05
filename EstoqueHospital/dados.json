@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "05/10/2026 15:13:32",
+  "atualizado_em": "05/10/2026 15:13:46",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 107985,
-    "total_farmacia": 33546,
-    "total_geral": 141531,
+    "total_farmacia": 33496,
+    "total_geral": 141481,
     "perto_de_terminar": 40,
     "zerados": 13
   },
@@ -12891,19 +12891,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 5500,
-      "farmacia": 2183,
+      "farmacia": 2133,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 7683,
+      "total": 7633,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-05 10:18:04",
+      "atualizado_em": "2026-10-05 15:13:45",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -12917,17 +12917,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 2183
+          "quantidade": 2133
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 776,
-      "previsao_20_dias": 776,
+      "minimo_alerta": 795,
+      "previsao_20_dias": 795,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 54,
-      "media_diaria_saida": 38.8,
-      "total_saida_historica": 2095,
-      "cobertura_dias": 198.0,
+      "media_diaria_saida": 39.72,
+      "total_saida_historica": 2145,
+      "cobertura_dias": 192.2,
       "alerta_estoque": false
     },
     {
@@ -16912,6 +16912,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 3523,
+      "item_id": 104,
+      "produto_nome": "Seringa 3ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 50,
+      "responsavel": "Leiliana",
+      "data": "2026-10-05",
+      "obs": "",
+      "criado_em": "2026-10-05 15:13:45",
+      "item": "Seringa 3ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 3522,
       "item_id": 291,
@@ -24395,21 +24410,6 @@
       "obs": "",
       "criado_em": "2026-09-25 10:37:41",
       "item": "Agulha 30x8",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 3023,
-      "item_id": 194,
-      "produto_nome": "Lanceta de segurança",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 1,
-      "responsavel": "Assucena",
-      "data": "2026-09-24",
-      "obs": "",
-      "criado_em": "2026-09-25 10:37:32",
-      "item": "Lanceta de segurança",
       "usuario": "Assucena"
     }
   ]
