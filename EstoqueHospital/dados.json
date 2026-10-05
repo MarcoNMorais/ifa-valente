@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "05/10/2026 10:20:30",
+  "atualizado_em": "05/10/2026 10:20:38",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 109677,
-    "total_farmacia": 32945,
-    "total_geral": 142622,
+    "total_farmacia": 32942,
+    "total_geral": 142619,
     "perto_de_terminar": 37,
     "zerados": 11
   },
@@ -10035,19 +10035,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 80,
-      "farmacia": 917,
+      "farmacia": 914,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 997,
+      "total": 994,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga Almoxerifado",
       "obs": "Importação Almoxerifado",
-      "atualizado_em": "2026-09-30 11:10:14",
+      "atualizado_em": "2026-10-05 10:20:37",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -10061,17 +10061,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 917
+          "quantidade": 914
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 2,
-      "previsao_20_dias": 2,
+      "minimo_alerta": 3,
+      "previsao_20_dias": 3,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 49,
-      "media_diaria_saida": 0.06,
-      "total_saida_historica": 3,
-      "cobertura_dias": 16284.3,
+      "media_diaria_saida": 0.12,
+      "total_saida_historica": 6,
+      "cobertura_dias": 8117.7,
       "alerta_estoque": false
     },
     {
@@ -16932,6 +16932,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 3469,
+      "item_id": 280,
+      "produto_nome": "Luva M procedimento",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 3,
+      "responsavel": "Assucena",
+      "data": "2026-10-03",
+      "obs": "",
+      "criado_em": "2026-10-05 10:20:37",
+      "item": "Luva M procedimento",
+      "usuario": "Assucena"
+    },
     {
       "id": 3468,
       "item_id": 203,
@@ -24415,21 +24430,6 @@
       "obs": "",
       "criado_em": "2026-09-24 10:07:40",
       "item": "Polifix",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 2969,
-      "item_id": 124,
-      "produto_nome": "Sulfato ferroso 40mg de ferro",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 30,
-      "responsavel": "Assucena",
-      "data": "2026-09-24",
-      "obs": "",
-      "criado_em": "2026-09-24 10:07:31",
-      "item": "Sulfato ferroso 40mg de ferro",
       "usuario": "Assucena"
     }
   ]
