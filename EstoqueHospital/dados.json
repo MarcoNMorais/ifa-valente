@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "05/10/2026 15:19:31",
+  "atualizado_em": "05/10/2026 15:19:39",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 107929,
-    "total_farmacia": 33330,
-    "total_geral": 141259,
+    "total_farmacia": 33329,
+    "total_geral": 141258,
     "perto_de_terminar": 40,
     "zerados": 15
   },
@@ -2289,19 +2289,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 7,
+      "farmacia": 6,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 7,
+      "total": 6,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-15 16:24:57",
+      "atualizado_em": "2026-10-05 15:19:38",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -2309,7 +2309,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 7
+          "quantidade": 6
         }
       ],
       "minimo_manual": 0,
@@ -2317,9 +2317,9 @@
       "previsao_20_dias": 2,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 49,
-      "media_diaria_saida": 0.06,
-      "total_saida_historica": 3,
-      "cobertura_dias": 114.3,
+      "media_diaria_saida": 0.08,
+      "total_saida_historica": 4,
+      "cobertura_dias": 73.5,
       "alerta_estoque": false
     },
     {
@@ -16906,6 +16906,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 3543,
+      "item_id": 253,
+      "produto_nome": "Azitromicina 600mg suspensão",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 1,
+      "responsavel": "Leiliana",
+      "data": "2026-10-05",
+      "obs": "",
+      "criado_em": "2026-10-05 15:19:38",
+      "item": "Azitromicina 600mg suspensão",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 3542,
       "item_id": 224,
       "produto_nome": "Meropenem 500mg",
@@ -24388,21 +24403,6 @@
       "obs": "",
       "criado_em": "2026-09-25 15:42:16",
       "item": "Agulha 30x8",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 3043,
-      "item_id": 285,
-      "produto_nome": "Agulha 30x7",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 40,
-      "responsavel": "Leiliana",
-      "data": "2026-09-25",
-      "obs": "",
-      "criado_em": "2026-09-25 15:42:08",
-      "item": "Agulha 30x7",
       "usuario": "Leiliana"
     }
   ]
