@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "05/10/2026 15:20:07",
+  "atualizado_em": "05/10/2026 15:20:17",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 107929,
-    "total_farmacia": 33319,
-    "total_geral": 141248,
+    "total_farmacia": 33317,
+    "total_geral": 141246,
     "perto_de_terminar": 40,
     "zerados": 15
   },
@@ -9315,19 +9315,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 58,
+      "farmacia": 56,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 58,
+      "total": 56,
       "minimo": 0,
       "validade": "2027-02",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-29 11:25:53",
+      "atualizado_em": "2026-10-05 15:20:16",
       "validade_mais_proxima": "2027-02",
       "vencimento_mais_proximo": "2027-02",
       "lotes_validade": [
@@ -9335,7 +9335,7 @@
           "local": "farmacia",
           "validade": "2027-02",
           "lote": "",
-          "quantidade": 38
+          "quantidade": 36
         },
         {
           "local": "farmacia",
@@ -9345,13 +9345,13 @@
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 8,
-      "previsao_20_dias": 8,
+      "minimo_alerta": 9,
+      "previsao_20_dias": 9,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 54,
-      "media_diaria_saida": 0.39,
-      "total_saida_historica": 21,
-      "cobertura_dias": 149.1,
+      "media_diaria_saida": 0.43,
+      "total_saida_historica": 23,
+      "cobertura_dias": 131.5,
       "alerta_estoque": false
     },
     {
@@ -16906,6 +16906,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 3545,
+      "item_id": 84,
+      "produto_nome": "Lidocaína",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 2,
+      "responsavel": "Leiliana",
+      "data": "2026-10-05",
+      "obs": "",
+      "criado_em": "2026-10-05 15:20:16",
+      "item": "Lidocaína",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 3544,
       "item_id": 55,
       "produto_nome": "Benzilpenicilina 1.200",
@@ -24387,21 +24402,6 @@
       "data": "2026-09-25",
       "obs": "",
       "criado_em": "2026-09-25 15:43:05",
-      "item": "Seringa 10ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 3045,
-      "item_id": 103,
-      "produto_nome": "Seringa 10ml",
-      "tipo": "Almoxarifado para Farmácia",
-      "origem": "Almoxarifado",
-      "destino": "Farmácia",
-      "quantidade": 100,
-      "responsavel": "Leiliana",
-      "data": "2026-09-25",
-      "obs": "",
-      "criado_em": "2026-09-25 15:42:54",
       "item": "Seringa 10ml",
       "usuario": "Leiliana"
     }
