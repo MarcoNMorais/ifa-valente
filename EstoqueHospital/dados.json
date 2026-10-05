@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "05/10/2026 15:14:51",
+  "atualizado_em": "05/10/2026 15:15:04",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 107985,
-    "total_farmacia": 33402,
-    "total_geral": 141387,
+    "total_farmacia": 33392,
+    "total_geral": 141377,
     "perto_de_terminar": 40,
     "zerados": 13
   },
@@ -4971,19 +4971,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 710,
+      "farmacia": 700,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 710,
+      "total": 700,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-05 10:24:12",
+      "atualizado_em": "2026-10-05 15:15:03",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -4991,17 +4991,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 710
+          "quantidade": 700
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 878,
-      "previsao_20_dias": 878,
+      "minimo_alerta": 882,
+      "previsao_20_dias": 882,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 54,
-      "media_diaria_saida": 43.89,
-      "total_saida_historica": 2370,
-      "cobertura_dias": 16.2,
+      "media_diaria_saida": 44.07,
+      "total_saida_historica": 2380,
+      "cobertura_dias": 15.9,
       "alerta_estoque": true
     },
     {
@@ -16913,6 +16913,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 3528,
+      "item_id": 70,
+      "produto_nome": "Dipirona",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 10,
+      "responsavel": "Leiliana",
+      "data": "2026-10-05",
+      "obs": "",
+      "criado_em": "2026-10-05 15:15:03",
+      "item": "Dipirona",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 3527,
       "item_id": 233,
       "produto_nome": "Prometazina 25mg/ml",
@@ -24395,21 +24410,6 @@
       "obs": "",
       "criado_em": "2026-09-25 10:39:33",
       "item": "Dipirona 500mg",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 3028,
-      "item_id": 382,
-      "produto_nome": "AGUA P/ INJ",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 10,
-      "responsavel": "Assucena",
-      "data": "2026-09-24",
-      "obs": "",
-      "criado_em": "2026-09-25 10:39:25",
-      "item": "AGUA P/ INJ",
       "usuario": "Assucena"
     }
   ]
