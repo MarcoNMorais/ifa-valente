@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "05/10/2026 15:18:31",
+  "atualizado_em": "05/10/2026 15:18:42",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 107929,
-    "total_farmacia": 33372,
-    "total_geral": 141301,
+    "total_farmacia": 33362,
+    "total_geral": 141291,
     "perto_de_terminar": 40,
     "zerados": 14
   },
@@ -7740,19 +7740,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 980,
-      "farmacia": 153,
+      "farmacia": 143,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1133,
+      "total": 1123,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-05 10:22:31",
+      "atualizado_em": "2026-10-05 15:18:41",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -7766,17 +7766,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 153
+          "quantidade": 143
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 406,
-      "previsao_20_dias": 406,
+      "minimo_alerta": 410,
+      "previsao_20_dias": 410,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 54,
-      "media_diaria_saida": 20.28,
-      "total_saida_historica": 1095,
-      "cobertura_dias": 55.9,
+      "media_diaria_saida": 20.46,
+      "total_saida_historica": 1105,
+      "cobertura_dias": 54.9,
       "alerta_estoque": false
     },
     {
@@ -16913,6 +16913,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 3538,
+      "item_id": 177,
+      "produto_nome": "Gelco nº 22",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 10,
+      "responsavel": "Leiliana",
+      "data": "2026-10-05",
+      "obs": "",
+      "criado_em": "2026-10-05 15:18:41",
+      "item": "Gelco nº 22",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 3537,
       "item_id": 181,
       "produto_nome": "Luva de látex tam. M",
@@ -24395,21 +24410,6 @@
       "obs": "",
       "criado_em": "2026-09-25 15:41:27",
       "item": "Benzilpenicilina 1.200",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 3038,
-      "item_id": 68,
-      "produto_nome": "Dexametasona",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 20,
-      "responsavel": "Leiliana",
-      "data": "2026-09-25",
-      "obs": "",
-      "criado_em": "2026-09-25 15:41:17",
-      "item": "Dexametasona",
       "usuario": "Leiliana"
     }
   ]
