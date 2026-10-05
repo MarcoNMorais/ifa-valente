@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "05/10/2026 11:20:33",
+  "atualizado_em": "05/10/2026 11:20:41",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 108015,
-    "total_farmacia": 33772,
-    "total_geral": 141787,
+    "total_farmacia": 33770,
+    "total_geral": 141785,
     "perto_de_terminar": 39,
     "zerados": 12
   },
@@ -2748,19 +2748,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 137,
-      "farmacia": 11,
+      "farmacia": 9,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 148,
+      "total": 146,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-01 16:06:28",
+      "atualizado_em": "2026-10-05 11:20:40",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -2774,17 +2774,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 11
+          "quantidade": 9
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 12,
-      "previsao_20_dias": 12,
+      "minimo_alerta": 13,
+      "previsao_20_dias": 13,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 54,
-      "media_diaria_saida": 0.57,
-      "total_saida_historica": 31,
-      "cobertura_dias": 257.8,
+      "media_diaria_saida": 0.61,
+      "total_saida_historica": 33,
+      "cobertura_dias": 238.9,
       "alerta_estoque": false
     },
     {
@@ -16920,6 +16920,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 3507,
+      "item_id": 155,
+      "produto_nome": "Bolsa coletora",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 2,
+      "responsavel": "Assucena",
+      "data": "2026-10-03",
+      "obs": "",
+      "criado_em": "2026-10-05 11:20:40",
+      "item": "Bolsa coletora",
+      "usuario": "Assucena"
+    },
+    {
       "id": 3506,
       "item_id": 195,
       "produto_nome": "Tira Reagente G-Tech",
@@ -24401,21 +24416,6 @@
       "data": "2026-09-24",
       "obs": "",
       "criado_em": "2026-09-25 10:34:45",
-      "item": "Seringa 10ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 3007,
-      "item_id": 103,
-      "produto_nome": "Seringa 10ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 20,
-      "responsavel": "Assucena",
-      "data": "2026-09-24",
-      "obs": "",
-      "criado_em": "2026-09-25 10:34:35",
       "item": "Seringa 10ml",
       "usuario": "Assucena"
     }
