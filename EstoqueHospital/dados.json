@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "05/10/2026 15:25:15",
+  "atualizado_em": "05/10/2026 15:25:31",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 107029,
-    "total_farmacia": 33730,
-    "total_geral": 140759,
+    "total_farmacia": 33729,
+    "total_geral": 140758,
     "perto_de_terminar": 40,
     "zerados": 15
   },
@@ -8566,19 +8566,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 32,
-      "farmacia": 13,
+      "farmacia": 12,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 45,
+      "total": 44,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-01 14:04:28",
+      "atualizado_em": "2026-10-05 15:25:30",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -8592,7 +8592,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 13
+          "quantidade": 12
         }
       ],
       "minimo_manual": 0,
@@ -8600,9 +8600,9 @@
       "previsao_20_dias": 8,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 53,
-      "media_diaria_saida": 0.36,
-      "total_saida_historica": 19,
-      "cobertura_dias": 125.5,
+      "media_diaria_saida": 0.38,
+      "total_saida_historica": 20,
+      "cobertura_dias": 116.6,
       "alerta_estoque": false
     },
     {
@@ -16906,6 +16906,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 3569,
+      "item_id": 255,
+      "produto_nome": "Ibuprofeno gotas",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 1,
+      "responsavel": "Leiliana",
+      "data": "2026-10-05",
+      "obs": "",
+      "criado_em": "2026-10-05 15:25:30",
+      "item": "Ibuprofeno gotas",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 3568,
       "item_id": 256,
       "produto_nome": "Simeticona gotas",
@@ -24388,21 +24403,6 @@
       "obs": "",
       "criado_em": "2026-09-28 10:47:46",
       "item": "Scalp nº 21",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 3058,
-      "item_id": 176,
-      "produto_nome": "Gelco nº 24",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 15,
-      "responsavel": "Assucena",
-      "data": "2026-09-26",
-      "obs": "",
-      "criado_em": "2026-09-28 10:47:38",
-      "item": "Gelco nº 24",
       "usuario": "Assucena"
     }
   ]
