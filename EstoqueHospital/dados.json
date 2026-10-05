@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "05/10/2026 15:19:15",
+  "atualizado_em": "05/10/2026 15:19:31",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 107929,
-    "total_farmacia": 33336,
-    "total_geral": 141265,
+    "total_farmacia": 33330,
+    "total_geral": 141259,
     "perto_de_terminar": 40,
     "zerados": 15
   },
@@ -10411,19 +10411,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 265,
+      "farmacia": 259,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 265,
+      "total": 259,
       "minimo": 0,
       "validade": "03/27",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-05 10:19:20",
+      "atualizado_em": "2026-10-05 15:19:30",
       "validade_mais_proxima": "03/27",
       "vencimento_mais_proximo": "03/27",
       "lotes_validade": [
@@ -10431,7 +10431,7 @@
           "local": "farmacia",
           "validade": "03/27",
           "lote": "",
-          "quantidade": 165
+          "quantidade": 159
         },
         {
           "local": "farmacia",
@@ -10441,13 +10441,13 @@
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 15,
-      "previsao_20_dias": 15,
+      "minimo_alerta": 17,
+      "previsao_20_dias": 17,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 49,
-      "media_diaria_saida": 0.71,
-      "total_saida_historica": 35,
-      "cobertura_dias": 371.0,
+      "media_diaria_saida": 0.84,
+      "total_saida_historica": 41,
+      "cobertura_dias": 309.5,
       "alerta_estoque": false
     },
     {
@@ -16905,6 +16905,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 3542,
+      "item_id": 224,
+      "produto_nome": "Meropenem 500mg",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 6,
+      "responsavel": "Leiliana",
+      "data": "2026-10-05",
+      "obs": "",
+      "criado_em": "2026-10-05 15:19:30",
+      "item": "Meropenem 500mg",
+      "usuario": "Leiliana"
+    },
     {
       "id": 3541,
       "item_id": 380,
@@ -24388,21 +24403,6 @@
       "obs": "",
       "criado_em": "2026-09-25 15:42:08",
       "item": "Agulha 30x7",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 3042,
-      "item_id": 82,
-      "produto_nome": "Hidrocortisona 100MG",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 6,
-      "responsavel": "Leiliana",
-      "data": "2026-09-25",
-      "obs": "",
-      "criado_em": "2026-09-25 15:42:00",
-      "item": "Hidrocortisona 100MG",
       "usuario": "Leiliana"
     }
   ]
