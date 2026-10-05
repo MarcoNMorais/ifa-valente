@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "05/10/2026 15:24:33",
+  "atualizado_em": "05/10/2026 15:24:45",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 107029,
-    "total_farmacia": 33738,
-    "total_geral": 140767,
+    "total_farmacia": 33733,
+    "total_geral": 140762,
     "perto_de_terminar": 40,
     "zerados": 15
   },
@@ -9677,19 +9677,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 270,
-      "farmacia": 37,
+      "farmacia": 32,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 307,
+      "total": 302,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-30 10:56:38",
+      "atualizado_em": "2026-10-05 15:24:43",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -9703,17 +9703,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 37
+          "quantidade": 32
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 35,
-      "previsao_20_dias": 35,
+      "minimo_alerta": 37,
+      "previsao_20_dias": 37,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 54,
-      "media_diaria_saida": 1.72,
-      "total_saida_historica": 93,
-      "cobertura_dias": 178.3,
+      "media_diaria_saida": 1.81,
+      "total_saida_historica": 98,
+      "cobertura_dias": 166.4,
       "alerta_estoque": false
     },
     {
@@ -16905,6 +16905,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 3566,
+      "item_id": 186,
+      "produto_nome": "Luva cirúrgica tam. 8",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 5,
+      "responsavel": "Leiliana",
+      "data": "2026-10-05",
+      "obs": "",
+      "criado_em": "2026-10-05 15:24:43",
+      "item": "Luva cirúrgica tam. 8",
+      "usuario": "Leiliana"
+    },
     {
       "id": 3565,
       "item_id": 184,
@@ -24388,21 +24403,6 @@
       "obs": "",
       "criado_em": "2026-09-28 10:47:18",
       "item": "Agulha 25x8",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 3054,
-      "item_id": 390,
-      "produto_nome": "AGULHA  40X1,2",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 50,
-      "responsavel": "Assucena",
-      "data": "2026-09-26",
-      "obs": "",
-      "criado_em": "2026-09-28 10:46:53",
-      "item": "AGULHA  40X1,2",
       "usuario": "Assucena"
     }
   ]
