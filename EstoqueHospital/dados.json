@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "06/10/2026 11:35:03",
+  "atualizado_em": "06/10/2026 11:35:11",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 106533,
-    "total_farmacia": 33294,
-    "total_geral": 139827,
+    "total_farmacia": 33264,
+    "total_geral": 139797,
     "perto_de_terminar": 41,
     "zerados": 17
   },
@@ -7555,19 +7555,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 160,
-      "farmacia": 130,
+      "farmacia": 100,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 290,
+      "total": 260,
       "minimo": 0,
       "validade": "2027-08",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-24 09:58:37",
+      "atualizado_em": "2026-10-06 11:35:10",
       "validade_mais_proxima": "2027-08",
       "vencimento_mais_proximo": "2027-08",
       "lotes_validade": [
@@ -7575,7 +7575,7 @@
           "local": "farmacia",
           "validade": "2027-08",
           "lote": "",
-          "quantidade": 130
+          "quantidade": 100
         },
         {
           "local": "almoxarifado",
@@ -7585,13 +7585,13 @@
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 62,
-      "previsao_20_dias": 62,
+      "minimo_alerta": 73,
+      "previsao_20_dias": 73,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 55,
-      "media_diaria_saida": 3.09,
-      "total_saida_historica": 170,
-      "cobertura_dias": 93.8,
+      "media_diaria_saida": 3.64,
+      "total_saida_historica": 200,
+      "cobertura_dias": 71.5,
       "alerta_estoque": false
     },
     {
@@ -16887,6 +16887,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 3646,
+      "item_id": 78,
+      "produto_nome": "Furosemida",
+      "tipo": "Farmácia para Posto de Internamento",
+      "origem": "Farmácia",
+      "destino": "Posto de Internamento",
+      "quantidade": 30,
+      "responsavel": "Assucena",
+      "data": "2026-10-05",
+      "obs": "",
+      "criado_em": "2026-10-06 11:35:10",
+      "item": "Furosemida",
+      "usuario": "Assucena"
+    },
+    {
       "id": 3645,
       "item_id": 255,
       "produto_nome": "Ibuprofeno gotas",
@@ -24369,21 +24384,6 @@
       "obs": "",
       "criado_em": "2026-09-28 11:17:13",
       "item": "Scalp nº 23",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 3143,
-      "item_id": 99,
-      "produto_nome": "Scalp nº 21",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 10,
-      "responsavel": "Assucena",
-      "data": "2026-09-28",
-      "obs": "",
-      "criado_em": "2026-09-28 11:17:03",
-      "item": "Scalp nº 21",
       "usuario": "Assucena"
     }
   ]
