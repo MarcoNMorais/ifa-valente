@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "06/10/2026 11:07:37",
+  "atualizado_em": "06/10/2026 11:08:23",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 106633,
-    "total_farmacia": 33872,
-    "total_geral": 140505,
+    "total_farmacia": 33871,
+    "total_geral": 140504,
     "perto_de_terminar": 39,
     "zerados": 15
   },
@@ -2289,19 +2289,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 6,
+      "farmacia": 5,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 6,
+      "total": 5,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-05 15:19:38",
+      "atualizado_em": "2026-10-06 11:08:22",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -2309,7 +2309,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 6
+          "quantidade": 5
         }
       ],
       "minimo_manual": 0,
@@ -2317,9 +2317,9 @@
       "previsao_20_dias": 2,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 50,
-      "media_diaria_saida": 0.08,
-      "total_saida_historica": 4,
-      "cobertura_dias": 75.0,
+      "media_diaria_saida": 0.1,
+      "total_saida_historica": 5,
+      "cobertura_dias": 50.0,
       "alerta_estoque": false
     },
     {
@@ -16900,6 +16900,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 3608,
+      "item_id": 253,
+      "produto_nome": "Azitromicina 600mg suspensão",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 1,
+      "responsavel": "Assucena",
+      "data": "2026-10-05",
+      "obs": "",
+      "criado_em": "2026-10-06 11:08:22",
+      "item": "Azitromicina 600mg suspensão",
+      "usuario": "Assucena"
+    },
+    {
       "id": 3607,
       "item_id": 202,
       "produto_nome": "Soro fisiológico 100ml",
@@ -24382,21 +24397,6 @@
       "obs": "",
       "criado_em": "2026-09-28 10:55:19",
       "item": "Caixa de perfurocortante",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 3101,
-      "item_id": 393,
-      "produto_nome": "NYLON N°3",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 5,
-      "responsavel": "Assucena",
-      "data": "2026-09-27",
-      "obs": "",
-      "criado_em": "2026-09-28 10:55:11",
-      "item": "NYLON N°3",
       "usuario": "Assucena"
     }
   ]
