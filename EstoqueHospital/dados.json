@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "06/10/2026 16:30:48",
+  "atualizado_em": "06/10/2026 16:31:01",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 106533,
-    "total_farmacia": 33208,
-    "total_geral": 139741,
+    "total_farmacia": 33196,
+    "total_geral": 139729,
     "perto_de_terminar": 41,
     "zerados": 17
   },
@@ -2369,19 +2369,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 53,
+      "farmacia": 41,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 53,
+      "total": 41,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-06 11:34:53",
+      "atualizado_em": "2026-10-06 16:31:00",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -2389,17 +2389,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 53
+          "quantidade": 41
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 172,
-      "previsao_20_dias": 172,
+      "minimo_alerta": 176,
+      "previsao_20_dias": 176,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 55,
-      "media_diaria_saida": 8.56,
-      "total_saida_historica": 471,
-      "cobertura_dias": 6.2,
+      "media_diaria_saida": 8.78,
+      "total_saida_historica": 483,
+      "cobertura_dias": 4.7,
       "alerta_estoque": true
     },
     {
@@ -16887,6 +16887,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 3651,
+      "item_id": 55,
+      "produto_nome": "Benzilpenicilina 1.200",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 12,
+      "responsavel": "Leiliana",
+      "data": "2026-10-06",
+      "obs": "",
+      "criado_em": "2026-10-06 16:31:00",
+      "item": "Benzilpenicilina 1.200",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 3650,
       "item_id": 68,
       "produto_nome": "Dexametasona",
@@ -24369,21 +24384,6 @@
       "obs": "",
       "criado_em": "2026-09-28 11:18:11",
       "item": "Atadura crepon nº 10",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 3150,
-      "item_id": 102,
-      "produto_nome": "Seringa 5ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 20,
-      "responsavel": "Assucena",
-      "data": "2026-09-28",
-      "obs": "",
-      "criado_em": "2026-09-28 11:18:02",
-      "item": "Seringa 5ml",
       "usuario": "Assucena"
     }
   ]
