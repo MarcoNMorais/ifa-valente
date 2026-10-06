@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "06/10/2026 11:08:23",
+  "atualizado_em": "06/10/2026 11:08:30",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 106633,
-    "total_farmacia": 33871,
-    "total_geral": 140504,
+    "total_farmacia": 33870,
+    "total_geral": 140503,
     "perto_de_terminar": 39,
     "zerados": 15
   },
@@ -11246,19 +11246,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 5,
-      "farmacia": 3,
+      "farmacia": 2,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 8,
+      "total": 7,
       "minimo": 0,
       "validade": "07/27",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-15 16:24:57",
+      "atualizado_em": "2026-10-06 11:08:29",
       "validade_mais_proxima": "07/27",
       "vencimento_mais_proximo": "07/27",
       "lotes_validade": [
@@ -11266,7 +11266,7 @@
           "local": "farmacia",
           "validade": "07/27",
           "lote": "",
-          "quantidade": 3
+          "quantidade": 2
         },
         {
           "local": "almoxarifado",
@@ -11276,13 +11276,13 @@
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 0,
-      "previsao_20_dias": 0,
+      "minimo_alerta": 1,
+      "previsao_20_dias": 1,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 50,
-      "media_diaria_saida": 0.0,
-      "total_saida_historica": 0,
-      "cobertura_dias": null,
+      "media_diaria_saida": 0.02,
+      "total_saida_historica": 1,
+      "cobertura_dias": 350.0,
       "alerta_estoque": false
     },
     {
@@ -16899,6 +16899,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 3609,
+      "item_id": 250,
+      "produto_nome": "Nistatina suspensão",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 1,
+      "responsavel": "Assucena",
+      "data": "2026-10-05",
+      "obs": "",
+      "criado_em": "2026-10-06 11:08:29",
+      "item": "Nistatina suspensão",
+      "usuario": "Assucena"
+    },
     {
       "id": 3608,
       "item_id": 253,
@@ -24382,21 +24397,6 @@
       "obs": "",
       "criado_em": "2026-09-28 10:55:42",
       "item": "Soro glicose 5% 250ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 3102,
-      "item_id": 200,
-      "produto_nome": "Caixa de perfurocortante",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 2,
-      "responsavel": "Assucena",
-      "data": "2026-09-27",
-      "obs": "",
-      "criado_em": "2026-09-28 10:55:19",
-      "item": "Caixa de perfurocortante",
       "usuario": "Assucena"
     }
   ]
