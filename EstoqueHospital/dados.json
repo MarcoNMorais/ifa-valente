@@ -1,13 +1,13 @@
 {
-  "atualizado_em": "06/10/2026 11:08:30",
+  "atualizado_em": "06/10/2026 11:08:37",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 106633,
-    "total_farmacia": 33870,
-    "total_geral": 140503,
-    "perto_de_terminar": 39,
-    "zerados": 15
+    "total_farmacia": 33869,
+    "total_geral": 140502,
+    "perto_de_terminar": 40,
+    "zerados": 16
   },
   "itens": [
     {
@@ -3153,38 +3153,31 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 1,
+      "farmacia": 0,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1,
+      "total": 0,
       "minimo": 0,
-      "validade": "11/26",
+      "validade": "",
       "lote": "",
       "origem": "Carga Farmácia 227-288",
       "obs": "Importação Farmácia 227-288",
-      "atualizado_em": "2026-09-15 16:24:57",
-      "validade_mais_proxima": "11/26",
-      "vencimento_mais_proximo": "11/26",
-      "lotes_validade": [
-        {
-          "local": "farmacia",
-          "validade": "11/26",
-          "lote": "",
-          "quantidade": 1
-        }
-      ],
+      "atualizado_em": "2026-10-06 11:08:35",
+      "validade_mais_proxima": "",
+      "vencimento_mais_proximo": "",
+      "lotes_validade": [],
       "minimo_manual": 0,
-      "minimo_alerta": 0,
-      "previsao_20_dias": 0,
+      "minimo_alerta": 1,
+      "previsao_20_dias": 1,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 50,
-      "media_diaria_saida": 0.0,
-      "total_saida_historica": 0,
-      "cobertura_dias": null,
-      "alerta_estoque": false
+      "media_diaria_saida": 0.02,
+      "total_saida_historica": 1,
+      "cobertura_dias": 0.0,
+      "alerta_estoque": true
     },
     {
       "id": 58,
@@ -16900,6 +16893,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 3610,
+      "item_id": 247,
+      "produto_nome": "Cefalexina 250mg/5ml 60ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 1,
+      "responsavel": "Assucena",
+      "data": "2026-10-05",
+      "obs": "",
+      "criado_em": "2026-10-06 11:08:35",
+      "item": "Cefalexina 250mg/5ml 60ml",
+      "usuario": "Assucena"
+    },
+    {
       "id": 3609,
       "item_id": 250,
       "produto_nome": "Nistatina suspensão",
@@ -24382,21 +24390,6 @@
       "obs": "",
       "criado_em": "2026-09-28 10:55:59",
       "item": "Soro fisiológico 250ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 3103,
-      "item_id": 206,
-      "produto_nome": "Soro glicose 5% 250ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 4,
-      "responsavel": "Assucena",
-      "data": "2026-09-27",
-      "obs": "",
-      "criado_em": "2026-09-28 10:55:42",
-      "item": "Soro glicose 5% 250ml",
       "usuario": "Assucena"
     }
   ]
