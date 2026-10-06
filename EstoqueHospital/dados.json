@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "06/10/2026 11:34:54",
+  "atualizado_em": "06/10/2026 11:35:03",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 106533,
-    "total_farmacia": 33295,
-    "total_geral": 139828,
+    "total_farmacia": 33294,
+    "total_geral": 139827,
     "perto_de_terminar": 41,
     "zerados": 17
   },
@@ -8559,19 +8559,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 32,
-      "farmacia": 12,
+      "farmacia": 11,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 44,
+      "total": 43,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-05 15:25:30",
+      "atualizado_em": "2026-10-06 11:35:02",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -8585,7 +8585,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 12
+          "quantidade": 11
         }
       ],
       "minimo_manual": 0,
@@ -8593,9 +8593,9 @@
       "previsao_20_dias": 8,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 54,
-      "media_diaria_saida": 0.37,
-      "total_saida_historica": 20,
-      "cobertura_dias": 118.8,
+      "media_diaria_saida": 0.39,
+      "total_saida_historica": 21,
+      "cobertura_dias": 110.6,
       "alerta_estoque": false
     },
     {
@@ -16887,6 +16887,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 3645,
+      "item_id": 255,
+      "produto_nome": "Ibuprofeno gotas",
+      "tipo": "Farmácia para Posto de Internamento",
+      "origem": "Farmácia",
+      "destino": "Posto de Internamento",
+      "quantidade": 1,
+      "responsavel": "Assucena",
+      "data": "2026-10-05",
+      "obs": "",
+      "criado_em": "2026-10-06 11:35:02",
+      "item": "Ibuprofeno gotas",
+      "usuario": "Assucena"
+    },
+    {
       "id": 3644,
       "item_id": 55,
       "produto_nome": "Benzilpenicilina 1.200",
@@ -24369,21 +24384,6 @@
       "obs": "",
       "criado_em": "2026-09-28 11:17:03",
       "item": "Scalp nº 21",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 3142,
-      "item_id": 177,
-      "produto_nome": "Gelco nº 22",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 30,
-      "responsavel": "Assucena",
-      "data": "2026-09-28",
-      "obs": "",
-      "criado_em": "2026-09-28 11:16:55",
-      "item": "Gelco nº 22",
       "usuario": "Assucena"
     }
   ]
