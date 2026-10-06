@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "06/10/2026 11:32:26",
+  "atualizado_em": "06/10/2026 11:32:57",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
-    "total_almoxarifado": 106633,
-    "total_farmacia": 33320,
+    "total_almoxarifado": 106533,
+    "total_farmacia": 33420,
     "total_geral": 139953,
     "perto_de_terminar": 41,
     "zerados": 17
@@ -15232,8 +15232,8 @@
       "nome": "Soro fisiológico 250ml",
       "tipo": "Insumo",
       "unidade": "Unidade",
-      "almoxarifado": 787,
-      "farmacia": 4,
+      "almoxarifado": 687,
+      "farmacia": 104,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -15245,7 +15245,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-05 16:48:44",
+      "atualizado_em": "2026-10-06 11:32:56",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -15253,13 +15253,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 787
+          "quantidade": 687
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 4
+          "quantidade": 104
         }
       ],
       "minimo_manual": 0,
@@ -16886,6 +16886,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 3633,
+      "item_id": 203,
+      "produto_nome": "Soro fisiológico 250ml",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 100,
+      "responsavel": "Assucena",
+      "data": "2026-10-05",
+      "obs": "",
+      "criado_em": "2026-10-06 11:32:56",
+      "item": "Soro fisiológico 250ml",
+      "usuario": "Assucena"
+    },
     {
       "id": 3632,
       "item_id": 329,
@@ -24369,21 +24384,6 @@
       "obs": "",
       "criado_em": "2026-09-28 11:13:18",
       "item": "Cetoprofeno EV 100mg",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 3130,
-      "item_id": 68,
-      "produto_nome": "Dexametasona",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 30,
-      "responsavel": "Assucena",
-      "data": "2026-09-28",
-      "obs": "",
-      "criado_em": "2026-09-28 11:13:09",
-      "item": "Dexametasona",
       "usuario": "Assucena"
     }
   ]
