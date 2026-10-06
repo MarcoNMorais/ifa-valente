@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "06/10/2026 16:32:31",
+  "atualizado_em": "06/10/2026 16:32:42",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 106533,
-    "total_farmacia": 32979,
-    "total_geral": 139512,
+    "total_farmacia": 32929,
+    "total_geral": 139462,
     "perto_de_terminar": 41,
     "zerados": 17
   },
@@ -5679,19 +5679,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 1956,
-      "farmacia": 50,
+      "farmacia": 0,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 2006,
+      "total": 1956,
       "minimo": 300,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-06 11:31:20",
+      "atualizado_em": "2026-10-06 16:32:41",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -5705,17 +5705,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 75
+          "quantidade": 25
         }
       ],
       "minimo_manual": 300,
-      "minimo_alerta": 462,
-      "previsao_20_dias": 462,
+      "minimo_alerta": 480,
+      "previsao_20_dias": 480,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 55,
-      "media_diaria_saida": 23.07,
-      "total_saida_historica": 1269,
-      "cobertura_dias": 86.9,
+      "media_diaria_saida": 23.98,
+      "total_saida_historica": 1319,
+      "cobertura_dias": 81.6,
       "alerta_estoque": false
     },
     {
@@ -16887,6 +16887,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 3659,
+      "item_id": 220,
+      "produto_nome": "Equipo macrogotas",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 50,
+      "responsavel": "Leiliana",
+      "data": "2026-10-06",
+      "obs": "",
+      "criado_em": "2026-10-06 16:32:41",
+      "item": "Equipo macrogotas",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 3658,
       "item_id": 104,
       "produto_nome": "Seringa 3ml",
@@ -24369,21 +24384,6 @@
       "obs": "",
       "criado_em": "2026-09-28 11:19:56",
       "item": "Soro fisiológico 250ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 3159,
-      "item_id": 155,
-      "produto_nome": "Bolsa coletora",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 2,
-      "responsavel": "Assucena",
-      "data": "2026-09-28",
-      "obs": "",
-      "criado_em": "2026-09-28 11:19:46",
-      "item": "Bolsa coletora",
       "usuario": "Assucena"
     }
   ]
