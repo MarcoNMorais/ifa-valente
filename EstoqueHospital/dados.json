@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "06/10/2026 11:31:11",
+  "atualizado_em": "06/10/2026 11:31:21",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 106633,
-    "total_farmacia": 33522,
-    "total_geral": 140155,
+    "total_farmacia": 33497,
+    "total_geral": 140130,
     "perto_de_terminar": 41,
     "zerados": 17
   },
@@ -5679,19 +5679,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 1956,
-      "farmacia": 75,
+      "farmacia": 50,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 2031,
+      "total": 2006,
       "minimo": 300,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-05 16:46:34",
+      "atualizado_em": "2026-10-06 11:31:20",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -5705,17 +5705,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 100
+          "quantidade": 75
         }
       ],
       "minimo_manual": 300,
-      "minimo_alerta": 453,
-      "previsao_20_dias": 453,
+      "minimo_alerta": 462,
+      "previsao_20_dias": 462,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 55,
-      "media_diaria_saida": 22.62,
-      "total_saida_historica": 1244,
-      "cobertura_dias": 89.8,
+      "media_diaria_saida": 23.07,
+      "total_saida_historica": 1269,
+      "cobertura_dias": 86.9,
       "alerta_estoque": false
     },
     {
@@ -16887,6 +16887,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 3625,
+      "item_id": 220,
+      "produto_nome": "Equipo macrogotas",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 25,
+      "responsavel": "Assucena",
+      "data": "2026-10-05",
+      "obs": "",
+      "criado_em": "2026-10-06 11:31:20",
+      "item": "Equipo macrogotas",
+      "usuario": "Assucena"
+    },
+    {
       "id": 3624,
       "item_id": 157,
       "produto_nome": "Seringa 1ml",
@@ -24369,21 +24384,6 @@
       "obs": "",
       "criado_em": "2026-09-28 10:58:18",
       "item": "Seringa 1ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 3118,
-      "item_id": 229,
-      "produto_nome": "Oxacilina 500mg pó injetável",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 10,
-      "responsavel": "Assucena",
-      "data": "2026-09-27",
-      "obs": "",
-      "criado_em": "2026-09-28 10:58:09",
-      "item": "Oxacilina 500mg pó injetável",
       "usuario": "Assucena"
     }
   ]
