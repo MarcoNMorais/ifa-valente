@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "06/10/2026 16:34:12",
+  "atualizado_em": "06/10/2026 16:34:20",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 106422,
-    "total_farmacia": 33038,
-    "total_geral": 139460,
+    "total_farmacia": 33036,
+    "total_geral": 139458,
     "perto_de_terminar": 41,
     "zerados": 17
   },
@@ -15417,19 +15417,19 @@
       "tipo": "Insumo",
       "unidade": "Unidade",
       "almoxarifado": 384,
-      "farmacia": 24,
+      "farmacia": 22,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 408,
+      "total": 406,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-06 16:34:11",
+      "atualizado_em": "2026-10-06 16:34:19",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -15443,17 +15443,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 24
+          "quantidade": 22
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 131,
-      "previsao_20_dias": 131,
+      "minimo_alerta": 132,
+      "previsao_20_dias": 132,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 55,
-      "media_diaria_saida": 6.55,
-      "total_saida_historica": 360,
-      "cobertura_dias": 62.3,
+      "media_diaria_saida": 6.58,
+      "total_saida_historica": 362,
+      "cobertura_dias": 61.7,
       "alerta_estoque": false
     },
     {
@@ -16892,6 +16892,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 3664,
+      "item_id": 201,
+      "produto_nome": "Soro Ringer Lactato 500ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 2,
+      "responsavel": "Leiliana",
+      "data": "2026-10-06",
+      "obs": "",
+      "criado_em": "2026-10-06 16:34:19",
+      "item": "Soro Ringer Lactato 500ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 3663,
       "item_id": 201,
@@ -24375,21 +24390,6 @@
       "obs": "",
       "criado_em": "2026-09-28 11:20:46",
       "item": "Ceftriaxona 1g",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 3164,
-      "item_id": 229,
-      "produto_nome": "Oxacilina 500mg pó injetável",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 10,
-      "responsavel": "Assucena",
-      "data": "2026-09-28",
-      "obs": "",
-      "criado_em": "2026-09-28 11:20:38",
-      "item": "Oxacilina 500mg pó injetável",
       "usuario": "Assucena"
     }
   ]
