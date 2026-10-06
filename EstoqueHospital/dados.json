@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "06/10/2026 16:33:42",
+  "atualizado_em": "06/10/2026 16:34:12",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
-    "total_almoxarifado": 106446,
-    "total_farmacia": 33014,
+    "total_almoxarifado": 106422,
+    "total_farmacia": 33038,
     "total_geral": 139460,
     "perto_de_terminar": 41,
     "zerados": 17
@@ -15416,8 +15416,8 @@
       "nome": "Soro Ringer Lactato 500ml",
       "tipo": "Insumo",
       "unidade": "Unidade",
-      "almoxarifado": 408,
-      "farmacia": 0,
+      "almoxarifado": 384,
+      "farmacia": 24,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -15429,7 +15429,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-06 11:30:29",
+      "atualizado_em": "2026-10-06 16:34:11",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -15437,7 +15437,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 408
+          "quantidade": 384
+        },
+        {
+          "local": "farmacia",
+          "validade": "",
+          "lote": "",
+          "quantidade": 24
         }
       ],
       "minimo_manual": 0,
@@ -16886,6 +16892,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 3663,
+      "item_id": 201,
+      "produto_nome": "Soro Ringer Lactato 500ml",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 24,
+      "responsavel": "Leiliana",
+      "data": "2026-10-06",
+      "obs": "",
+      "criado_em": "2026-10-06 16:34:11",
+      "item": "Soro Ringer Lactato 500ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 3662,
       "item_id": 376,
@@ -24369,21 +24390,6 @@
       "obs": "",
       "criado_em": "2026-09-28 11:20:38",
       "item": "Oxacilina 500mg pó injetável",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 3163,
-      "item_id": 13,
-      "produto_nome": "Diazepam 10mg/2ml 2ml",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 5,
-      "responsavel": "Assucena",
-      "data": "2026-09-28",
-      "obs": "",
-      "criado_em": "2026-09-28 11:20:28",
-      "item": "Diazepam 10mg/2ml 2ml",
       "usuario": "Assucena"
     }
   ]
