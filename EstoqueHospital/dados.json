@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "06/10/2026 16:31:01",
+  "atualizado_em": "06/10/2026 16:31:12",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 106533,
-    "total_farmacia": 33196,
-    "total_geral": 139729,
+    "total_farmacia": 33174,
+    "total_geral": 139707,
     "perto_de_terminar": 41,
     "zerados": 17
   },
@@ -3391,19 +3391,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 62,
+      "farmacia": 40,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 62,
+      "total": 40,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "trooca com postinho cidade nova",
-      "atualizado_em": "2026-10-06 11:09:12",
+      "atualizado_em": "2026-10-06 16:31:11",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -3411,17 +3411,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 62
+          "quantidade": 40
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 253,
-      "previsao_20_dias": 253,
+      "minimo_alerta": 261,
+      "previsao_20_dias": 261,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 55,
-      "media_diaria_saida": 12.62,
-      "total_saida_historica": 694,
-      "cobertura_dias": 4.9,
+      "media_diaria_saida": 13.02,
+      "total_saida_historica": 716,
+      "cobertura_dias": 3.1,
       "alerta_estoque": true
     },
     {
@@ -16887,6 +16887,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 3652,
+      "item_id": 60,
+      "produto_nome": "Cetoprofeno EV 100mg",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 22,
+      "responsavel": "Leiliana",
+      "data": "2026-10-06",
+      "obs": "",
+      "criado_em": "2026-10-06 16:31:11",
+      "item": "Cetoprofeno EV 100mg",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 3651,
       "item_id": 55,
       "produto_nome": "Benzilpenicilina 1.200",
@@ -24369,21 +24384,6 @@
       "obs": "",
       "criado_em": "2026-09-28 11:18:18",
       "item": "Atadura crepon nº 15",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 3151,
-      "item_id": 152,
-      "produto_nome": "Atadura crepon nº 10",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 12,
-      "responsavel": "Assucena",
-      "data": "2026-09-28",
-      "obs": "",
-      "criado_em": "2026-09-28 11:18:11",
-      "item": "Atadura crepon nº 10",
       "usuario": "Assucena"
     }
   ]
