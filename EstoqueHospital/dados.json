@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "06/10/2026 10:36:55",
+  "atualizado_em": "06/10/2026 11:07:37",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
-    "total_almoxarifado": 107173,
-    "total_farmacia": 33332,
+    "total_almoxarifado": 106633,
+    "total_farmacia": 33872,
     "total_geral": 140505,
     "perto_de_terminar": 39,
     "zerados": 15
@@ -15199,8 +15199,8 @@
       "nome": "Soro fisiológico 100ml",
       "tipo": "Insumo",
       "unidade": "Unidade",
-      "almoxarifado": 540,
-      "farmacia": 120,
+      "almoxarifado": 0,
+      "farmacia": 660,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -15212,21 +15212,15 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-05 16:47:50",
+      "atualizado_em": "2026-10-06 11:07:36",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
         {
-          "local": "almoxarifado",
-          "validade": "",
-          "lote": "",
-          "quantidade": 540
-        },
-        {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 120
+          "quantidade": 660
         }
       ],
       "minimo_manual": 0,
@@ -16905,6 +16899,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 3607,
+      "item_id": 202,
+      "produto_nome": "Soro fisiológico 100ml",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 540,
+      "responsavel": "Assucena",
+      "data": "2026-10-05",
+      "obs": "",
+      "criado_em": "2026-10-06 11:07:36",
+      "item": "Soro fisiológico 100ml",
+      "usuario": "Assucena"
+    },
     {
       "id": 3606,
       "item_id": 201,
@@ -24388,21 +24397,6 @@
       "obs": "",
       "criado_em": "2026-09-28 10:55:11",
       "item": "NYLON N°3",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 3100,
-      "item_id": 317,
-      "produto_nome": "Fio Nylon nº 2",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 10,
-      "responsavel": "Assucena",
-      "data": "2026-09-27",
-      "obs": "",
-      "criado_em": "2026-09-28 10:55:04",
-      "item": "Fio Nylon nº 2",
       "usuario": "Assucena"
     }
   ]
