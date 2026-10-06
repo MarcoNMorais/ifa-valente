@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "06/10/2026 11:29:32",
+  "atualizado_em": "06/10/2026 11:29:42",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 106633,
-    "total_farmacia": 33682,
-    "total_geral": 140315,
+    "total_farmacia": 33652,
+    "total_geral": 140285,
     "perto_de_terminar": 41,
     "zerados": 17
   },
@@ -606,19 +606,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 650,
+      "farmacia": 620,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 650,
+      "total": 620,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga Almoxerifado",
       "obs": "Importação Almoxerifado",
-      "atualizado_em": "2026-10-05 15:22:15",
+      "atualizado_em": "2026-10-06 11:29:41",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -626,17 +626,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 650
+          "quantidade": 620
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 100,
-      "previsao_20_dias": 100,
+      "minimo_alerta": 112,
+      "previsao_20_dias": 112,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 50,
-      "media_diaria_saida": 5.0,
-      "total_saida_historica": 250,
-      "cobertura_dias": 130.0,
+      "media_diaria_saida": 5.6,
+      "total_saida_historica": 280,
+      "cobertura_dias": 110.7,
       "alerta_estoque": false
     },
     {
@@ -16893,6 +16893,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 3618,
+      "item_id": 319,
+      "produto_nome": "Agulha 25x7",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 30,
+      "responsavel": "Assucena",
+      "data": "2026-10-05",
+      "obs": "",
+      "criado_em": "2026-10-06 11:29:41",
+      "item": "Agulha 25x7",
+      "usuario": "Assucena"
+    },
+    {
       "id": 3617,
       "item_id": 331,
       "produto_nome": "Agulha 30x8",
@@ -24375,21 +24390,6 @@
       "obs": "",
       "criado_em": "2026-09-28 10:57:12",
       "item": "Omeprazol sódico 40mg AMP",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 3111,
-      "item_id": 59,
-      "produto_nome": "Ceftriaxona 1g",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 18,
-      "responsavel": "Assucena",
-      "data": "2026-09-27",
-      "obs": "",
-      "criado_em": "2026-09-28 10:57:04",
-      "item": "Ceftriaxona 1g",
       "usuario": "Assucena"
     }
   ]
