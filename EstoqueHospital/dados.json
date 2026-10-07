@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "07/10/2026 16:50:11",
+  "atualizado_em": "07/10/2026 16:50:28",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 105916,
-    "total_farmacia": 32848,
-    "total_geral": 138764,
+    "total_farmacia": 32808,
+    "total_geral": 138724,
     "perto_de_terminar": 42,
     "zerados": 17
   },
@@ -12929,19 +12929,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 4950,
-      "farmacia": 225,
+      "farmacia": 185,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 5175,
+      "total": 5135,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-07 15:44:08",
+      "atualizado_em": "2026-10-07 16:50:27",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -12955,17 +12955,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 255
+          "quantidade": 215
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 1050,
-      "previsao_20_dias": 1050,
+      "minimo_alerta": 1065,
+      "previsao_20_dias": 1065,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 56,
-      "media_diaria_saida": 52.5,
-      "total_saida_historica": 2940,
-      "cobertura_dias": 98.6,
+      "media_diaria_saida": 53.21,
+      "total_saida_historica": 2980,
+      "cobertura_dias": 96.5,
       "alerta_estoque": false
     },
     {
@@ -16898,6 +16898,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 3720,
+      "item_id": 102,
+      "produto_nome": "Seringa 5ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 40,
+      "responsavel": "Leiliana",
+      "data": "2026-10-07",
+      "obs": "",
+      "criado_em": "2026-10-07 16:50:27",
+      "item": "Seringa 5ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 3719,
       "item_id": 276,
@@ -24381,21 +24396,6 @@
       "obs": "",
       "criado_em": "2026-09-29 11:22:07",
       "item": "Fita cirúrgica microporosa",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 3220,
-      "item_id": 115,
-      "produto_nome": "Losartana potássica 50mg CPR",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 10,
-      "responsavel": "Assucena",
-      "data": "2026-09-28",
-      "obs": "",
-      "criado_em": "2026-09-29 11:21:56",
-      "item": "Losartana potássica 50mg CPR",
       "usuario": "Assucena"
     }
   ]
