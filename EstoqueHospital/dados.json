@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "07/10/2026 16:51:40",
+  "atualizado_em": "07/10/2026 16:51:50",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 105816,
-    "total_farmacia": 32818,
-    "total_geral": 138634,
+    "total_farmacia": 32793,
+    "total_geral": 138609,
     "perto_de_terminar": 42,
     "zerados": 17
   },
@@ -692,19 +692,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 14700,
-      "farmacia": 830,
+      "farmacia": 805,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 15530,
+      "total": 15505,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-07 15:44:08",
+      "atualizado_em": "2026-10-07 16:51:49",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -718,17 +718,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 830
+          "quantidade": 805
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 499,
-      "previsao_20_dias": 499,
+      "minimo_alerta": 508,
+      "previsao_20_dias": 508,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 51,
-      "media_diaria_saida": 24.9,
-      "total_saida_historica": 1270,
-      "cobertura_dias": 623.6,
+      "media_diaria_saida": 25.39,
+      "total_saida_historica": 1295,
+      "cobertura_dias": 610.6,
       "alerta_estoque": false
     },
     {
@@ -16899,6 +16899,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 3727,
+      "item_id": 285,
+      "produto_nome": "Agulha 30x7",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 25,
+      "responsavel": "Leiliana",
+      "data": "2026-10-07",
+      "obs": "",
+      "criado_em": "2026-10-07 16:51:49",
+      "item": "Agulha 30x7",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 3726,
       "item_id": 12,
       "produto_nome": "Morfina 10mg/ml 1ml",
@@ -24381,21 +24396,6 @@
       "obs": "",
       "criado_em": "2026-09-29 11:23:31",
       "item": "Luva P procedimento",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 3227,
-      "item_id": 186,
-      "produto_nome": "Luva cirúrgica tam. 8",
-      "tipo": "Farmácia para Sala Cirúrgica",
-      "origem": "Farmácia",
-      "destino": "Sala Cirúrgica",
-      "quantidade": 10,
-      "responsavel": "Assucena",
-      "data": "2026-09-28",
-      "obs": "",
-      "criado_em": "2026-09-29 11:23:19",
-      "item": "Luva cirúrgica tam. 8",
       "usuario": "Assucena"
     }
   ]
