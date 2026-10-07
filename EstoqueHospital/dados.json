@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "07/10/2026 10:48:08",
+  "atualizado_em": "07/10/2026 10:48:16",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 106016,
-    "total_farmacia": 33411,
-    "total_geral": 139427,
+    "total_farmacia": 33409,
+    "total_geral": 139425,
     "perto_de_terminar": 41,
     "zerados": 17
   },
@@ -9314,19 +9314,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 56,
+      "farmacia": 54,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 56,
+      "total": 54,
       "minimo": 0,
       "validade": "2027-02",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-05 15:20:16",
+      "atualizado_em": "2026-10-07 10:48:15",
       "validade_mais_proxima": "2027-02",
       "vencimento_mais_proximo": "2027-02",
       "lotes_validade": [
@@ -9334,7 +9334,7 @@
           "local": "farmacia",
           "validade": "2027-02",
           "lote": "",
-          "quantidade": 36
+          "quantidade": 34
         },
         {
           "local": "farmacia",
@@ -9348,9 +9348,9 @@
       "previsao_20_dias": 9,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 56,
-      "media_diaria_saida": 0.41,
-      "total_saida_historica": 23,
-      "cobertura_dias": 136.3,
+      "media_diaria_saida": 0.45,
+      "total_saida_historica": 25,
+      "cobertura_dias": 121.0,
       "alerta_estoque": false
     },
     {
@@ -16899,6 +16899,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 3675,
+      "item_id": 84,
+      "produto_nome": "Lidocaína",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 2,
+      "responsavel": "Assucena",
+      "data": "2026-10-07",
+      "obs": "",
+      "criado_em": "2026-10-07 10:48:15",
+      "item": "Lidocaína",
+      "usuario": "Assucena"
+    },
+    {
       "id": 3674,
       "item_id": 194,
       "produto_nome": "Lanceta de segurança",
@@ -24381,21 +24396,6 @@
       "obs": "",
       "criado_em": "2026-09-28 16:11:57",
       "item": "Dexametasona",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 3175,
-      "item_id": 69,
-      "produto_nome": "Diclofenaco 25mg",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 30,
-      "responsavel": "Leiliana",
-      "data": "2026-09-28",
-      "obs": "",
-      "criado_em": "2026-09-28 16:11:51",
-      "item": "Diclofenaco 25mg",
       "usuario": "Leiliana"
     }
   ]
