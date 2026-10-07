@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "07/10/2026 16:50:57",
+  "atualizado_em": "07/10/2026 16:51:19",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
-    "total_almoxarifado": 105916,
-    "total_farmacia": 32743,
+    "total_almoxarifado": 105816,
+    "total_farmacia": 32843,
     "total_geral": 138659,
     "perto_de_terminar": 42,
     "zerados": 17
@@ -12566,8 +12566,8 @@
       "nome": "Scalp nº 19",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 200,
-      "farmacia": 13,
+      "almoxarifado": 100,
+      "farmacia": 113,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -12579,7 +12579,7 @@
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-10-07 15:44:08",
+      "atualizado_em": "2026-10-07 16:51:18",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -12587,13 +12587,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 200
+          "quantidade": 100
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 13
+          "quantidade": 113
         }
       ],
       "minimo_manual": 0,
@@ -16898,6 +16898,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 3724,
+      "item_id": 97,
+      "produto_nome": "Scalp nº 19",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 100,
+      "responsavel": "Leiliana",
+      "data": "2026-10-07",
+      "obs": "",
+      "criado_em": "2026-10-07 16:51:18",
+      "item": "Scalp nº 19",
+      "usuario": "Leiliana"
+    },
     {
       "id": 3723,
       "item_id": 99,
@@ -24381,21 +24396,6 @@
       "obs": "",
       "criado_em": "2026-09-29 11:22:58",
       "item": "Luva cirúrgica tam. 7,5",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 3224,
-      "item_id": 157,
-      "produto_nome": "Seringa 1ml",
-      "tipo": "Farmácia para Sala Cirúrgica",
-      "origem": "Farmácia",
-      "destino": "Sala Cirúrgica",
-      "quantidade": 10,
-      "responsavel": "Assucena",
-      "data": "2026-09-28",
-      "obs": "",
-      "criado_em": "2026-09-29 11:22:42",
-      "item": "Seringa 1ml",
       "usuario": "Assucena"
     }
   ]
