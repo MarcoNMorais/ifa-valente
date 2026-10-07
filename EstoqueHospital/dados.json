@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "07/10/2026 10:47:16",
+  "atualizado_em": "07/10/2026 10:47:27",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
-    "total_almoxarifado": 106027,
-    "total_farmacia": 33431,
+    "total_almoxarifado": 106019,
+    "total_farmacia": 33439,
     "total_geral": 139458,
     "perto_de_terminar": 41,
     "zerados": 17
@@ -8976,8 +8976,8 @@
       "nome": "Lactulose solução",
       "tipo": "Medicamento",
       "unidade": "Unidade",
-      "almoxarifado": 102,
-      "farmacia": 7,
+      "almoxarifado": 94,
+      "farmacia": 15,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -8989,7 +8989,7 @@
       "lote": "",
       "origem": "Carga Farmácia 227-288",
       "obs": "Importação Farmácia 227-288",
-      "atualizado_em": "2026-10-05 15:28:31",
+      "atualizado_em": "2026-10-07 10:47:26",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -8997,13 +8997,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 102
+          "quantidade": 94
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 7
+          "quantidade": 15
         }
       ],
       "minimo_manual": 0,
@@ -16899,6 +16899,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 3670,
+      "item_id": 241,
+      "produto_nome": "Lactulose solução",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 8,
+      "responsavel": "Assucena",
+      "data": "2026-10-07",
+      "obs": "",
+      "criado_em": "2026-10-07 10:47:26",
+      "item": "Lactulose solução",
+      "usuario": "Assucena"
+    },
+    {
       "id": 3669,
       "item_id": 304,
       "produto_nome": "Dexclorfeniramina XRP",
@@ -24381,21 +24396,6 @@
       "obs": "",
       "criado_em": "2026-09-28 11:40:43",
       "item": "Soro fisiológico 500ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 3170,
-      "item_id": 256,
-      "produto_nome": "Simeticona gotas",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 2,
-      "responsavel": "Assucena",
-      "data": "2026-09-28",
-      "obs": "",
-      "criado_em": "2026-09-28 11:21:30",
-      "item": "Simeticona gotas",
       "usuario": "Assucena"
     }
   ]
