@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "07/10/2026 10:51:00",
+  "atualizado_em": "07/10/2026 10:51:08",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 105916,
-    "total_farmacia": 33101,
-    "total_geral": 139017,
+    "total_farmacia": 33100,
+    "total_geral": 139016,
     "perto_de_terminar": 41,
     "zerados": 17
   },
@@ -8565,19 +8565,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 32,
-      "farmacia": 11,
+      "farmacia": 10,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 43,
+      "total": 42,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-06 11:35:02",
+      "atualizado_em": "2026-10-07 10:51:07",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -8591,7 +8591,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 11
+          "quantidade": 10
         }
       ],
       "minimo_manual": 0,
@@ -8599,9 +8599,9 @@
       "previsao_20_dias": 8,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 55,
-      "media_diaria_saida": 0.38,
-      "total_saida_historica": 21,
-      "cobertura_dias": 112.6,
+      "media_diaria_saida": 0.4,
+      "total_saida_historica": 22,
+      "cobertura_dias": 105.0,
       "alerta_estoque": false
     },
     {
@@ -16899,6 +16899,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 3695,
+      "item_id": 255,
+      "produto_nome": "Ibuprofeno gotas",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 1,
+      "responsavel": "Assucena",
+      "data": "2026-10-07",
+      "obs": "",
+      "criado_em": "2026-10-07 10:51:07",
+      "item": "Ibuprofeno gotas",
+      "usuario": "Assucena"
+    },
+    {
       "id": 3694,
       "item_id": 376,
       "produto_nome": "LENÇOL DESCARTAVEL PAPEL",
@@ -24381,21 +24396,6 @@
       "obs": "",
       "criado_em": "2026-09-29 11:17:37",
       "item": "Luva cirúrgica tam. 7,5",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 3195,
-      "item_id": 186,
-      "produto_nome": "Luva cirúrgica tam. 8",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 3,
-      "responsavel": "Assucena",
-      "data": "2026-09-28",
-      "obs": "",
-      "criado_em": "2026-09-29 11:17:30",
-      "item": "Luva cirúrgica tam. 8",
       "usuario": "Assucena"
     }
   ]
