@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "07/10/2026 10:49:59",
+  "atualizado_em": "07/10/2026 10:50:06",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 105916,
-    "total_farmacia": 33159,
-    "total_geral": 139075,
+    "total_farmacia": 33149,
+    "total_geral": 139065,
     "perto_de_terminar": 41,
     "zerados": 17
   },
@@ -12125,19 +12125,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 2400,
-      "farmacia": 80,
+      "farmacia": 70,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 2480,
+      "total": 2470,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-06 11:32:25",
+      "atualizado_em": "2026-10-07 10:50:05",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -12151,17 +12151,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 80
+          "quantidade": 70
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 173,
-      "previsao_20_dias": 173,
+      "minimo_alerta": 177,
+      "previsao_20_dias": 177,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 51,
-      "media_diaria_saida": 8.63,
-      "total_saida_historica": 440,
-      "cobertura_dias": 287.5,
+      "media_diaria_saida": 8.82,
+      "total_saida_historica": 450,
+      "cobertura_dias": 279.9,
       "alerta_estoque": false
     },
     {
@@ -16898,6 +16898,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 3688,
+      "item_id": 329,
+      "produto_nome": "Polifix",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 10,
+      "responsavel": "Assucena",
+      "data": "2026-10-07",
+      "obs": "",
+      "criado_em": "2026-10-07 10:50:05",
+      "item": "Polifix",
+      "usuario": "Assucena"
+    },
     {
       "id": 3687,
       "item_id": 102,
@@ -24381,21 +24396,6 @@
       "obs": "",
       "criado_em": "2026-09-29 11:16:01",
       "item": "Tira Reagente G-Tech",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 3188,
-      "item_id": 202,
-      "produto_nome": "Soro fisiológico 100ml",
-      "tipo": "Farmácia para samu",
-      "origem": "Farmácia",
-      "destino": "samu",
-      "quantidade": 60,
-      "responsavel": "Assucena",
-      "data": "2026-09-28",
-      "obs": "",
-      "criado_em": "2026-09-29 11:15:54",
-      "item": "Soro fisiológico 100ml",
       "usuario": "Assucena"
     }
   ]
