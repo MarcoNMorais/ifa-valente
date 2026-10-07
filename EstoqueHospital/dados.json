@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "07/10/2026 10:48:16",
+  "atualizado_em": "07/10/2026 10:48:25",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 106016,
-    "total_farmacia": 33409,
-    "total_geral": 139425,
+    "total_farmacia": 33389,
+    "total_geral": 139405,
     "perto_de_terminar": 41,
     "zerados": 17
   },
@@ -16172,19 +16172,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 70,
+      "farmacia": 50,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 70,
+      "total": 50,
       "minimo": 0,
       "validade": "12/27",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-06 11:34:45",
+      "atualizado_em": "2026-10-07 10:48:24",
       "validade_mais_proxima": "12/27",
       "vencimento_mais_proximo": "12/27",
       "lotes_validade": [
@@ -16192,7 +16192,7 @@
           "local": "farmacia",
           "validade": "12/27",
           "lote": "",
-          "quantidade": 50
+          "quantidade": 30
         },
         {
           "local": "almoxarifado",
@@ -16208,13 +16208,13 @@
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 234,
-      "previsao_20_dias": 234,
+      "minimo_alerta": 241,
+      "previsao_20_dias": 241,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 54,
-      "media_diaria_saida": 11.67,
-      "total_saida_historica": 630,
-      "cobertura_dias": 6.0,
+      "media_diaria_saida": 12.04,
+      "total_saida_historica": 650,
+      "cobertura_dias": 4.2,
       "alerta_estoque": true
     },
     {
@@ -16898,6 +16898,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 3676,
+      "item_id": 239,
+      "produto_nome": "Tramadol 50mg/ml 2ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 20,
+      "responsavel": "Assucena",
+      "data": "2026-10-07",
+      "obs": "",
+      "criado_em": "2026-10-07 10:48:24",
+      "item": "Tramadol 50mg/ml 2ml",
+      "usuario": "Assucena"
+    },
     {
       "id": 3675,
       "item_id": 84,
@@ -24381,21 +24396,6 @@
       "obs": "",
       "criado_em": "2026-09-28 16:12:13",
       "item": "Ceftriaxona 1g",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 3176,
-      "item_id": 68,
-      "produto_nome": "Dexametasona",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 30,
-      "responsavel": "Leiliana",
-      "data": "2026-09-28",
-      "obs": "",
-      "criado_em": "2026-09-28 16:11:57",
-      "item": "Dexametasona",
       "usuario": "Leiliana"
     }
   ]
