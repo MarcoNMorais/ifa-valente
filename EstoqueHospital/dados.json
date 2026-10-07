@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "07/10/2026 10:54:19",
+  "atualizado_em": "07/10/2026 10:54:26",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 105916,
-    "total_farmacia": 32987,
-    "total_geral": 138903,
+    "total_farmacia": 32977,
+    "total_geral": 138893,
     "perto_de_terminar": 42,
     "zerados": 17
   },
@@ -3889,19 +3889,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 61,
+      "farmacia": 51,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 61,
+      "total": 51,
       "minimo": 15,
       "validade": "2027-02",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-15 16:24:57",
+      "atualizado_em": "2026-10-07 10:54:25",
       "validade_mais_proxima": "2027-02",
       "vencimento_mais_proximo": "2027-02",
       "lotes_validade": [
@@ -3909,17 +3909,17 @@
           "local": "farmacia",
           "validade": "2027-02",
           "lote": "",
-          "quantidade": 61
+          "quantidade": 51
         }
       ],
       "minimo_manual": 15,
-      "minimo_alerta": 0,
-      "previsao_20_dias": 0,
+      "minimo_alerta": 5,
+      "previsao_20_dias": 5,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 44,
-      "media_diaria_saida": 0.0,
-      "total_saida_historica": 0,
-      "cobertura_dias": null,
+      "media_diaria_saida": 0.23,
+      "total_saida_historica": 10,
+      "cobertura_dias": 224.4,
       "alerta_estoque": false
     },
     {
@@ -16899,6 +16899,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 3706,
+      "item_id": 342,
+      "produto_nome": "CLORETO DE SÓDIO 20% AMP 10ML",
+      "tipo": "Farmácia para Posto de Internamento",
+      "origem": "Farmácia",
+      "destino": "Posto de Internamento",
+      "quantidade": 10,
+      "responsavel": "Assucena",
+      "data": "2026-10-07",
+      "obs": "",
+      "criado_em": "2026-10-07 10:54:25",
+      "item": "CLORETO DE SÓDIO 20% AMP 10ML",
+      "usuario": "Assucena"
+    },
+    {
       "id": 3705,
       "item_id": 226,
       "produto_nome": "Enoxaparina sódica 40mg",
@@ -24381,21 +24396,6 @@
       "obs": "",
       "criado_em": "2026-09-29 11:19:19",
       "item": "Soro Ringer Lactato 500ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 3206,
-      "item_id": 220,
-      "produto_nome": "Equipo macrogotas",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 25,
-      "responsavel": "Assucena",
-      "data": "2026-09-28",
-      "obs": "",
-      "criado_em": "2026-09-29 11:19:12",
-      "item": "Equipo macrogotas",
       "usuario": "Assucena"
     }
   ]
