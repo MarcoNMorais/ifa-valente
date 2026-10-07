@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "07/10/2026 10:47:49",
+  "atualizado_em": "07/10/2026 10:47:57",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 106016,
-    "total_farmacia": 33422,
-    "total_geral": 139438,
+    "total_farmacia": 33412,
+    "total_geral": 139428,
     "perto_de_terminar": 41,
     "zerados": 17
   },
@@ -7969,19 +7969,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 80,
-      "farmacia": 113,
+      "farmacia": 103,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 193,
+      "total": 183,
       "minimo": 50,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-05 10:19:05",
+      "atualizado_em": "2026-10-07 10:47:56",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -7995,17 +7995,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 113
+          "quantidade": 103
         }
       ],
       "minimo_manual": 50,
-      "minimo_alerta": 35,
-      "previsao_20_dias": 35,
+      "minimo_alerta": 40,
+      "previsao_20_dias": 40,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 43,
-      "media_diaria_saida": 1.74,
-      "total_saida_historica": 75,
-      "cobertura_dias": 110.7,
+      "media_diaria_saida": 1.98,
+      "total_saida_historica": 85,
+      "cobertura_dias": 92.6,
       "alerta_estoque": false
     },
     {
@@ -16899,6 +16899,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 3673,
+      "item_id": 350,
+      "produto_nome": "GLICOSE 50% AMP 10ML",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 10,
+      "responsavel": "Assucena",
+      "data": "2026-10-07",
+      "obs": "",
+      "criado_em": "2026-10-07 10:47:56",
+      "item": "GLICOSE 50% AMP 10ML",
+      "usuario": "Assucena"
+    },
+    {
       "id": 3672,
       "item_id": 53,
       "produto_nome": "Ácido Tranexâmico 50mg",
@@ -24382,21 +24397,6 @@
       "criado_em": "2026-09-28 16:11:43",
       "item": "Equipo macrogotas",
       "usuario": "Leiliana"
-    },
-    {
-      "id": 3173,
-      "item_id": 249,
-      "produto_nome": "Prednisolona 3mg/ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 1,
-      "responsavel": "Assucena",
-      "data": "2026-09-28",
-      "obs": "",
-      "criado_em": "2026-09-28 11:40:56",
-      "item": "Prednisolona 3mg/ml",
-      "usuario": "Assucena"
     }
   ]
 }
