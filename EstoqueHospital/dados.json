@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "07/10/2026 15:44:09",
+  "atualizado_em": "07/10/2026 16:48:32",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 105916,
-    "total_farmacia": 32963,
-    "total_geral": 138879,
+    "total_farmacia": 32962,
+    "total_geral": 138878,
     "perto_de_terminar": 42,
     "zerados": 17
   },
@@ -6492,19 +6492,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 22,
+      "farmacia": 21,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 22,
+      "total": 21,
       "minimo": 0,
       "validade": "08/27",
       "lote": "",
       "origem": "Carga Farmácia 227-288",
       "obs": "Importação Farmácia 227-288",
-      "atualizado_em": "2026-10-07 15:44:08",
+      "atualizado_em": "2026-10-07 16:48:31",
       "validade_mais_proxima": "08/27",
       "vencimento_mais_proximo": "08/27",
       "lotes_validade": [
@@ -6512,7 +6512,7 @@
           "local": "farmacia",
           "validade": "08/27",
           "lote": "",
-          "quantidade": 22
+          "quantidade": 21
         }
       ],
       "minimo_manual": 0,
@@ -6520,9 +6520,9 @@
       "previsao_20_dias": 138,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 55,
-      "media_diaria_saida": 6.87,
-      "total_saida_historica": 378,
-      "cobertura_dias": 3.2,
+      "media_diaria_saida": 6.89,
+      "total_saida_historica": 379,
+      "cobertura_dias": 3.0,
       "alerta_estoque": true
     },
     {
@@ -16899,6 +16899,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 3710,
+      "item_id": 230,
+      "produto_nome": "Ferropurum 20mg/ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 1,
+      "responsavel": "Leiliana",
+      "data": "2026-10-07",
+      "obs": "",
+      "criado_em": "2026-10-07 16:48:31",
+      "item": "Ferropurum 20mg/ml",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 3709,
       "item_id": 12,
       "produto_nome": "Morfina 10mg/ml 1ml",
@@ -24381,21 +24396,6 @@
       "obs": "",
       "criado_em": "2026-09-29 11:20:27",
       "item": "Escopolamina + Dipirona",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 3210,
-      "item_id": 53,
-      "produto_nome": "Ácido Tranexâmico 50mg",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 20,
-      "responsavel": "Assucena",
-      "data": "2026-09-28",
-      "obs": "",
-      "criado_em": "2026-09-29 11:20:17",
-      "item": "Ácido Tranexâmico 50mg",
       "usuario": "Assucena"
     }
   ]
