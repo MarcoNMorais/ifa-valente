@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "07/10/2026 10:47:02",
+  "atualizado_em": "07/10/2026 10:47:16",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
-    "total_almoxarifado": 106032,
-    "total_farmacia": 33426,
+    "total_almoxarifado": 106027,
+    "total_farmacia": 33431,
     "total_geral": 139458,
     "perto_de_terminar": 41,
     "zerados": 17
@@ -4705,8 +4705,8 @@
       "nome": "Dexclorfeniramina XRP",
       "tipo": "Medicamento",
       "unidade": "Unidade",
-      "almoxarifado": 12,
-      "farmacia": 0,
+      "almoxarifado": 7,
+      "farmacia": 5,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -4718,7 +4718,7 @@
       "lote": "",
       "origem": "Carga Almoxerifado",
       "obs": "Importação Almoxerifado",
-      "atualizado_em": "2026-09-15 16:24:57",
+      "atualizado_em": "2026-10-07 10:47:15",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -4726,7 +4726,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 12
+          "quantidade": 7
+        },
+        {
+          "local": "farmacia",
+          "validade": "",
+          "lote": "",
+          "quantidade": 5
         }
       ],
       "minimo_manual": 0,
@@ -16893,6 +16899,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 3669,
+      "item_id": 304,
+      "produto_nome": "Dexclorfeniramina XRP",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 5,
+      "responsavel": "Assucena",
+      "data": "2026-10-07",
+      "obs": "",
+      "criado_em": "2026-10-07 10:47:15",
+      "item": "Dexclorfeniramina XRP",
+      "usuario": "Assucena"
+    },
+    {
       "id": 3668,
       "item_id": 152,
       "produto_nome": "Atadura crepon nº 10",
@@ -24375,21 +24396,6 @@
       "obs": "",
       "criado_em": "2026-09-28 11:21:30",
       "item": "Simeticona gotas",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 3169,
-      "item_id": 33,
-      "produto_nome": "Atorvastatina 20mg CPR",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 10,
-      "responsavel": "Assucena",
-      "data": "2026-09-28",
-      "obs": "",
-      "criado_em": "2026-09-28 11:21:18",
-      "item": "Atorvastatina 20mg CPR",
       "usuario": "Assucena"
     }
   ]
