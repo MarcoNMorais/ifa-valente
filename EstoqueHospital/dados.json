@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "07/10/2026 10:47:27",
+  "atualizado_em": "07/10/2026 10:47:39",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
-    "total_almoxarifado": 106019,
-    "total_farmacia": 33439,
+    "total_almoxarifado": 106016,
+    "total_farmacia": 33442,
     "total_geral": 139458,
     "perto_de_terminar": 41,
     "zerados": 17
@@ -16125,8 +16125,8 @@
       "nome": "Touca descartável",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 6,
-      "farmacia": 160,
+      "almoxarifado": 3,
+      "farmacia": 163,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -16138,7 +16138,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-09-17 11:33:45",
+      "atualizado_em": "2026-10-07 10:47:38",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -16146,13 +16146,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 6
+          "quantidade": 3
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 160
+          "quantidade": 163
         }
       ],
       "minimo_manual": 0,
@@ -16898,6 +16898,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 3671,
+      "item_id": 222,
+      "produto_nome": "Touca descartável",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 3,
+      "responsavel": "Assucena",
+      "data": "2026-10-07",
+      "obs": "",
+      "criado_em": "2026-10-07 10:47:38",
+      "item": "Touca descartável",
+      "usuario": "Assucena"
+    },
     {
       "id": 3670,
       "item_id": 241,
@@ -24381,21 +24396,6 @@
       "obs": "",
       "criado_em": "2026-09-28 11:40:49",
       "item": "LORATADINA SUSPENSÃO",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 3171,
-      "item_id": 204,
-      "produto_nome": "Soro fisiológico 500ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 8,
-      "responsavel": "Assucena",
-      "data": "2026-09-28",
-      "obs": "",
-      "criado_em": "2026-09-28 11:40:43",
-      "item": "Soro fisiológico 500ml",
       "usuario": "Assucena"
     }
   ]
