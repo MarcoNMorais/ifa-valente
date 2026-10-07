@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "07/10/2026 10:50:27",
+  "atualizado_em": "07/10/2026 10:50:40",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 105916,
-    "total_farmacia": 33122,
-    "total_geral": 139038,
+    "total_farmacia": 33120,
+    "total_geral": 139036,
     "perto_de_terminar": 41,
     "zerados": 17
   },
@@ -5930,19 +5930,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 328,
-      "farmacia": 15,
+      "farmacia": 13,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 343,
+      "total": 341,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-05 16:46:43",
+      "atualizado_em": "2026-10-07 10:50:39",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -5956,17 +5956,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 17
+          "quantidade": 15
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 47,
-      "previsao_20_dias": 47,
+      "minimo_alerta": 48,
+      "previsao_20_dias": 48,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 51,
-      "media_diaria_saida": 2.33,
-      "total_saida_historica": 119,
-      "cobertura_dias": 147.0,
+      "media_diaria_saida": 2.37,
+      "total_saida_historica": 121,
+      "cobertura_dias": 143.7,
       "alerta_estoque": false
     },
     {
@@ -16899,6 +16899,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 3691,
+      "item_id": 276,
+      "produto_nome": "Esparadrapo 10x4,5",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 2,
+      "responsavel": "Assucena",
+      "data": "2026-10-07",
+      "obs": "",
+      "criado_em": "2026-10-07 10:50:39",
+      "item": "Esparadrapo 10x4,5",
+      "usuario": "Assucena"
+    },
+    {
       "id": 3690,
       "item_id": 280,
       "produto_nome": "Luva M procedimento",
@@ -24380,21 +24395,6 @@
       "data": "2026-09-28",
       "obs": "",
       "criado_em": "2026-09-29 11:17:06",
-      "item": "Esparadrapo 10x4,5",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 3191,
-      "item_id": 276,
-      "produto_nome": "Esparadrapo 10x4,5",
-      "tipo": "Farmácia para samu",
-      "origem": "Farmácia",
-      "destino": "samu",
-      "quantidade": 4,
-      "responsavel": "Assucena",
-      "data": "2026-09-28",
-      "obs": "",
-      "criado_em": "2026-09-29 11:16:55",
       "item": "Esparadrapo 10x4,5",
       "usuario": "Assucena"
     }
