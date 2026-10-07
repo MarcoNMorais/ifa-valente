@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "07/10/2026 10:46:22",
+  "atualizado_em": "07/10/2026 10:46:37",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
-    "total_almoxarifado": 106402,
-    "total_farmacia": 33056,
+    "total_almoxarifado": 106202,
+    "total_farmacia": 33256,
     "total_geral": 139458,
     "perto_de_terminar": 41,
     "zerados": 17
@@ -5678,8 +5678,8 @@
       "nome": "Equipo macrogotas",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 1881,
-      "farmacia": 75,
+      "almoxarifado": 1681,
+      "farmacia": 275,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -5691,7 +5691,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-06 16:32:57",
+      "atualizado_em": "2026-10-07 10:46:36",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -5699,13 +5699,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 1881
+          "quantidade": 1681
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 100
+          "quantidade": 300
         }
       ],
       "minimo_manual": 300,
@@ -16893,6 +16893,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 3666,
+      "item_id": 220,
+      "produto_nome": "Equipo macrogotas",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 200,
+      "responsavel": "Assucena",
+      "data": "2026-10-07",
+      "obs": "",
+      "criado_em": "2026-10-07 10:46:36",
+      "item": "Equipo macrogotas",
+      "usuario": "Assucena"
+    },
+    {
       "id": 3665,
       "item_id": 198,
       "produto_nome": "Atadura gessada nº 20",
@@ -24375,21 +24390,6 @@
       "obs": "",
       "criado_em": "2026-09-28 11:21:03",
       "item": "Acebrofilina 10mg/ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 3166,
-      "item_id": 59,
-      "produto_nome": "Ceftriaxona 1g",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 12,
-      "responsavel": "Assucena",
-      "data": "2026-09-28",
-      "obs": "",
-      "criado_em": "2026-09-28 11:20:53",
-      "item": "Ceftriaxona 1g",
       "usuario": "Assucena"
     }
   ]
