@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "07/10/2026 16:53:57",
+  "atualizado_em": "07/10/2026 16:54:07",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 105816,
-    "total_farmacia": 32656,
-    "total_geral": 138472,
+    "total_farmacia": 32654,
+    "total_geral": 138470,
     "perto_de_terminar": 42,
     "zerados": 17
   },
@@ -14667,19 +14667,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 19,
+      "farmacia": 17,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 19,
+      "total": 17,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-10-07 15:44:08",
+      "atualizado_em": "2026-10-07 16:54:06",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -14687,17 +14687,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 19
+          "quantidade": 17
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 0,
-      "previsao_20_dias": 0,
+      "minimo_alerta": 1,
+      "previsao_20_dias": 1,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 56,
-      "media_diaria_saida": 0.0,
-      "total_saida_historica": 0,
-      "cobertura_dias": null,
+      "media_diaria_saida": 0.04,
+      "total_saida_historica": 2,
+      "cobertura_dias": 476.0,
       "alerta_estoque": false
     },
     {
@@ -16898,6 +16898,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 3737,
+      "item_id": 148,
+      "produto_nome": "Sonda Nasogástrica nº 10",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 2,
+      "responsavel": "Leiliana",
+      "data": "2026-10-07",
+      "obs": "",
+      "criado_em": "2026-10-07 16:54:06",
+      "item": "Sonda Nasogástrica nº 10",
+      "usuario": "Leiliana"
+    },
     {
       "id": 3736,
       "item_id": 149,
@@ -24380,21 +24395,6 @@
       "data": "2026-09-28",
       "obs": "",
       "criado_em": "2026-09-29 11:25:14",
-      "item": "NYLON N°3",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 3237,
-      "item_id": 393,
-      "produto_nome": "NYLON N°3",
-      "tipo": "Almoxarifado para Farmácia",
-      "origem": "Almoxarifado",
-      "destino": "Farmácia",
-      "quantidade": 48,
-      "responsavel": "Assucena",
-      "data": "2026-09-28",
-      "obs": "",
-      "criado_em": "2026-09-29 11:25:08",
       "item": "NYLON N°3",
       "usuario": "Assucena"
     }
