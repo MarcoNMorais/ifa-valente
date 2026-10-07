@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "07/10/2026 16:48:32",
+  "atualizado_em": "07/10/2026 16:48:45",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 105916,
-    "total_farmacia": 32962,
-    "total_geral": 138878,
+    "total_farmacia": 32960,
+    "total_geral": 138876,
     "perto_de_terminar": 42,
     "zerados": 17
   },
@@ -5480,19 +5480,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 77,
+      "farmacia": 75,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 77,
+      "total": 75,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga Farmácia 227-288",
       "obs": "Importação Farmácia 227-288",
-      "atualizado_em": "2026-10-07 15:44:08",
+      "atualizado_em": "2026-10-07 16:48:44",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -5500,17 +5500,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 77
+          "quantidade": 75
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 0,
-      "previsao_20_dias": 0,
+      "minimo_alerta": 1,
+      "previsao_20_dias": 1,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 51,
-      "media_diaria_saida": 0.0,
-      "total_saida_historica": 0,
-      "cobertura_dias": null,
+      "media_diaria_saida": 0.04,
+      "total_saida_historica": 2,
+      "cobertura_dias": 1912.5,
       "alerta_estoque": false
     },
     {
@@ -16899,6 +16899,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 3711,
+      "item_id": 227,
+      "produto_nome": "Enoxaparina sódica 60mg",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 2,
+      "responsavel": "Leiliana",
+      "data": "2026-10-07",
+      "obs": "",
+      "criado_em": "2026-10-07 16:48:44",
+      "item": "Enoxaparina sódica 60mg",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 3710,
       "item_id": 230,
       "produto_nome": "Ferropurum 20mg/ml",
@@ -24381,21 +24396,6 @@
       "obs": "",
       "criado_em": "2026-09-29 11:20:34",
       "item": "Dipirona",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 3211,
-      "item_id": 76,
-      "produto_nome": "Escopolamina + Dipirona",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 20,
-      "responsavel": "Assucena",
-      "data": "2026-09-28",
-      "obs": "",
-      "criado_em": "2026-09-29 11:20:27",
-      "item": "Escopolamina + Dipirona",
       "usuario": "Assucena"
     }
   ]
