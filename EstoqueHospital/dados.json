@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "07/10/2026 10:53:37",
+  "atualizado_em": "07/10/2026 10:53:44",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 105916,
-    "total_farmacia": 33053,
-    "total_geral": 138969,
+    "total_farmacia": 33051,
+    "total_geral": 138967,
     "perto_de_terminar": 41,
     "zerados": 17
   },
@@ -10060,19 +10060,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 100,
-      "farmacia": 1099,
+      "farmacia": 1097,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1199,
+      "total": 1197,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-06 11:31:39",
+      "atualizado_em": "2026-10-07 10:53:42",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -10086,17 +10086,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 1099
+          "quantidade": 1097
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 5,
-      "previsao_20_dias": 5,
+      "minimo_alerta": 6,
+      "previsao_20_dias": 6,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 51,
-      "media_diaria_saida": 0.22,
-      "total_saida_historica": 11,
-      "cobertura_dias": 5559.0,
+      "media_diaria_saida": 0.25,
+      "total_saida_historica": 13,
+      "cobertura_dias": 4695.9,
       "alerta_estoque": false
     },
     {
@@ -16898,6 +16898,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 3701,
+      "item_id": 281,
+      "produto_nome": "Luva P procedimento",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 2,
+      "responsavel": "Assucena",
+      "data": "2026-10-07",
+      "obs": "",
+      "criado_em": "2026-10-07 10:53:42",
+      "item": "Luva P procedimento",
+      "usuario": "Assucena"
+    },
     {
       "id": 3700,
       "item_id": 280,
@@ -24381,21 +24396,6 @@
       "obs": "",
       "criado_em": "2026-09-29 11:18:43",
       "item": "Seringa 20ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 3201,
-      "item_id": 177,
-      "produto_nome": "Gelco nº 22",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 20,
-      "responsavel": "Assucena",
-      "data": "2026-09-28",
-      "obs": "",
-      "criado_em": "2026-09-29 11:18:31",
-      "item": "Gelco nº 22",
       "usuario": "Assucena"
     }
   ]
