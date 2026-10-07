@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "07/10/2026 10:49:19",
+  "atualizado_em": "07/10/2026 10:49:40",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
-    "total_almoxarifado": 106016,
-    "total_farmacia": 33149,
+    "total_almoxarifado": 105916,
+    "total_farmacia": 33249,
     "total_geral": 139165,
     "perto_de_terminar": 41,
     "zerados": 17
@@ -12612,8 +12612,8 @@
       "nome": "Scalp nº 21",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 920,
-      "farmacia": 2,
+      "almoxarifado": 820,
+      "farmacia": 102,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -12625,7 +12625,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-05 10:22:22",
+      "atualizado_em": "2026-10-07 10:49:39",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -12633,13 +12633,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 920
+          "quantidade": 820
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 2
+          "quantidade": 102
         }
       ],
       "minimo_manual": 0,
@@ -16898,6 +16898,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 3684,
+      "item_id": 99,
+      "produto_nome": "Scalp nº 21",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 100,
+      "responsavel": "Assucena",
+      "data": "2026-10-07",
+      "obs": "",
+      "criado_em": "2026-10-07 10:49:39",
+      "item": "Scalp nº 21",
+      "usuario": "Assucena"
+    },
     {
       "id": 3683,
       "item_id": 176,
@@ -24381,21 +24396,6 @@
       "obs": "",
       "criado_em": "2026-09-28 16:13:59",
       "item": "Soro fisiológico 500ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 3184,
-      "item_id": 104,
-      "produto_nome": "Seringa 3ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 40,
-      "responsavel": "Leiliana",
-      "data": "2026-09-28",
-      "obs": "",
-      "criado_em": "2026-09-28 16:13:36",
-      "item": "Seringa 3ml",
       "usuario": "Leiliana"
     }
   ]
