@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "07/10/2026 16:49:50",
+  "atualizado_em": "07/10/2026 16:49:58",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 105916,
-    "total_farmacia": 32852,
-    "total_geral": 138768,
+    "total_farmacia": 32850,
+    "total_geral": 138766,
     "perto_de_terminar": 42,
     "zerados": 17
   },
@@ -5639,19 +5639,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 35,
-      "farmacia": 12,
+      "farmacia": 10,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 47,
+      "total": 45,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-10-07 15:44:08",
+      "atualizado_em": "2026-10-07 16:49:57",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -5665,17 +5665,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 12
+          "quantidade": 10
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 22,
-      "previsao_20_dias": 22,
+      "minimo_alerta": 23,
+      "previsao_20_dias": 23,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 56,
-      "media_diaria_saida": 1.09,
-      "total_saida_historica": 61,
-      "cobertura_dias": 43.1,
+      "media_diaria_saida": 1.12,
+      "total_saida_historica": 63,
+      "cobertura_dias": 40.0,
       "alerta_estoque": false
     },
     {
@@ -16899,6 +16899,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 3718,
+      "item_id": 154,
+      "produto_nome": "Equipo fotossensível",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 2,
+      "responsavel": "Leiliana",
+      "data": "2026-10-07",
+      "obs": "",
+      "criado_em": "2026-10-07 16:49:57",
+      "item": "Equipo fotossensível",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 3717,
       "item_id": 70,
       "produto_nome": "Dipirona",
@@ -24381,21 +24396,6 @@
       "obs": "",
       "criado_em": "2026-09-29 11:21:45",
       "item": "Omeprazol 20mg comprimido",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 3218,
-      "item_id": 224,
-      "produto_nome": "Meropenem 500mg",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 5,
-      "responsavel": "Assucena",
-      "data": "2026-09-28",
-      "obs": "",
-      "criado_em": "2026-09-29 11:21:30",
-      "item": "Meropenem 500mg",
       "usuario": "Assucena"
     }
   ]
