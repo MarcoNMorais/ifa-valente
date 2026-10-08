@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "08/10/2026 09:39:57",
+  "atualizado_em": "08/10/2026 09:40:05",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 105816,
-    "total_farmacia": 32580,
-    "total_geral": 138396,
+    "total_farmacia": 32560,
+    "total_geral": 138376,
     "perto_de_terminar": 41,
     "zerados": 17
   },
@@ -7739,19 +7739,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 980,
-      "farmacia": 93,
+      "farmacia": 73,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1073,
+      "total": 1053,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-07 15:44:08",
+      "atualizado_em": "2026-10-08 09:40:03",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -7765,17 +7765,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 93
+          "quantidade": 73
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 406,
-      "previsao_20_dias": 406,
+      "minimo_alerta": 413,
+      "previsao_20_dias": 413,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 57,
-      "media_diaria_saida": 20.26,
-      "total_saida_historica": 1155,
-      "cobertura_dias": 53.0,
+      "media_diaria_saida": 20.61,
+      "total_saida_historica": 1175,
+      "cobertura_dias": 51.1,
       "alerta_estoque": false
     },
     {
@@ -16899,6 +16899,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 3747,
+      "item_id": 177,
+      "produto_nome": "Gelco nº 22",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 20,
+      "responsavel": "Assucena",
+      "data": "2026-10-07",
+      "obs": "",
+      "criado_em": "2026-10-08 09:40:03",
+      "item": "Gelco nº 22",
+      "usuario": "Assucena"
+    },
+    {
       "id": 3746,
       "item_id": 382,
       "produto_nome": "AGUA P/ INJ",
@@ -24381,21 +24396,6 @@
       "obs": "",
       "criado_em": "2026-09-29 11:26:52",
       "item": "Fio categute nº 2",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 3247,
-      "item_id": 70,
-      "produto_nome": "Dipirona",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 30,
-      "responsavel": "Assucena",
-      "data": "2026-09-28",
-      "obs": "",
-      "criado_em": "2026-09-29 11:26:42",
-      "item": "Dipirona",
       "usuario": "Assucena"
     }
   ]
