@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "08/10/2026 09:46:35",
+  "atualizado_em": "08/10/2026 09:46:41",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 105816,
-    "total_farmacia": 32152,
-    "total_geral": 137968,
+    "total_farmacia": 32146,
+    "total_geral": 137962,
     "perto_de_terminar": 41,
     "zerados": 17
   },
@@ -3391,19 +3391,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 22,
+      "farmacia": 16,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 22,
+      "total": 16,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "trooca com postinho cidade nova",
-      "atualizado_em": "2026-10-07 16:49:27",
+      "atualizado_em": "2026-10-08 09:46:40",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -3411,17 +3411,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 22
+          "quantidade": 16
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 258,
-      "previsao_20_dias": 258,
+      "minimo_alerta": 260,
+      "previsao_20_dias": 260,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 57,
-      "media_diaria_saida": 12.88,
-      "total_saida_historica": 734,
-      "cobertura_dias": 1.7,
+      "media_diaria_saida": 12.98,
+      "total_saida_historica": 740,
+      "cobertura_dias": 1.2,
       "alerta_estoque": true
     },
     {
@@ -16899,6 +16899,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 3775,
+      "item_id": 60,
+      "produto_nome": "Cetoprofeno EV 100mg",
+      "tipo": "Farmácia para Posto de Internamento",
+      "origem": "Farmácia",
+      "destino": "Posto de Internamento",
+      "quantidade": 6,
+      "responsavel": "Assucena",
+      "data": "2026-10-07",
+      "obs": "",
+      "criado_em": "2026-10-08 09:46:40",
+      "item": "Cetoprofeno EV 100mg",
+      "usuario": "Assucena"
+    },
+    {
       "id": 3774,
       "item_id": 155,
       "produto_nome": "Bolsa coletora",
@@ -24381,21 +24396,6 @@
       "obs": "",
       "criado_em": "2026-09-29 16:33:44",
       "item": "Fentanila solução 50mcg/ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 3275,
-      "item_id": 11,
-      "produto_nome": "Midazolam 5mg/ml 10ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 10,
-      "responsavel": "Leiliana",
-      "data": "2026-09-29",
-      "obs": "",
-      "criado_em": "2026-09-29 16:33:34",
-      "item": "Midazolam 5mg/ml 10ml",
       "usuario": "Leiliana"
     }
   ]
