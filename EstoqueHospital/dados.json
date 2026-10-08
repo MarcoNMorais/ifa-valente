@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "08/10/2026 09:40:13",
+  "atualizado_em": "08/10/2026 09:40:56",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 105816,
-    "total_farmacia": 32550,
-    "total_geral": 138366,
+    "total_farmacia": 32540,
+    "total_geral": 138356,
     "perto_de_terminar": 41,
     "zerados": 17
   },
@@ -7785,19 +7785,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 760,
-      "farmacia": 417,
+      "farmacia": 407,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1177,
+      "total": 1167,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-08 09:40:12",
+      "atualizado_em": "2026-10-08 09:40:55",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -7811,17 +7811,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 417
+          "quantidade": 407
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 228,
-      "previsao_20_dias": 228,
+      "minimo_alerta": 231,
+      "previsao_20_dias": 231,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 57,
-      "media_diaria_saida": 11.37,
-      "total_saida_historica": 648,
-      "cobertura_dias": 103.5,
+      "media_diaria_saida": 11.54,
+      "total_saida_historica": 658,
+      "cobertura_dias": 101.1,
       "alerta_estoque": false
     },
     {
@@ -16899,6 +16899,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 3749,
+      "item_id": 176,
+      "produto_nome": "Gelco nº 24",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 10,
+      "responsavel": "Assucena",
+      "data": "2026-10-07",
+      "obs": "",
+      "criado_em": "2026-10-08 09:40:55",
+      "item": "Gelco nº 24",
+      "usuario": "Assucena"
+    },
+    {
       "id": 3748,
       "item_id": 176,
       "produto_nome": "Gelco nº 24",
@@ -24381,21 +24396,6 @@
       "obs": "",
       "criado_em": "2026-09-29 11:27:06",
       "item": "Tramadol 50mg/ml 2ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 3249,
-      "item_id": 324,
-      "produto_nome": "Fio categute nº 3",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 5,
-      "responsavel": "Assucena",
-      "data": "2026-09-28",
-      "obs": "",
-      "criado_em": "2026-09-29 11:26:58",
-      "item": "Fio categute nº 3",
       "usuario": "Assucena"
     }
   ]
