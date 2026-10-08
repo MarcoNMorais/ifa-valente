@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "08/10/2026 09:44:29",
+  "atualizado_em": "08/10/2026 09:44:46",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 105816,
-    "total_farmacia": 32218,
-    "total_geral": 138034,
+    "total_farmacia": 32216,
+    "total_geral": 138032,
     "perto_de_terminar": 41,
     "zerados": 17
   },
@@ -10014,19 +10014,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 80,
-      "farmacia": 908,
+      "farmacia": 906,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 988,
+      "total": 986,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga Almoxerifado",
       "obs": "Importação Almoxerifado",
-      "atualizado_em": "2026-10-07 15:44:08",
+      "atualizado_em": "2026-10-08 09:44:45",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -10040,17 +10040,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 908
+          "quantidade": 906
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 5,
-      "previsao_20_dias": 5,
+      "minimo_alerta": 6,
+      "previsao_20_dias": 6,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 52,
-      "media_diaria_saida": 0.23,
-      "total_saida_historica": 12,
-      "cobertura_dias": 4281.3,
+      "media_diaria_saida": 0.27,
+      "total_saida_historica": 14,
+      "cobertura_dias": 3662.3,
       "alerta_estoque": false
     },
     {
@@ -16898,6 +16898,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 3770,
+      "item_id": 280,
+      "produto_nome": "Luva M procedimento",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 2,
+      "responsavel": "Assucena",
+      "data": "2026-10-07",
+      "obs": "",
+      "criado_em": "2026-10-08 09:44:45",
+      "item": "Luva M procedimento",
+      "usuario": "Assucena"
+    },
     {
       "id": 3769,
       "item_id": 184,
@@ -24381,21 +24396,6 @@
       "obs": "",
       "criado_em": "2026-09-29 16:32:29",
       "item": "Agulha 30x8",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 3270,
-      "item_id": 202,
-      "produto_nome": "Soro fisiológico 100ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 120,
-      "responsavel": "Leiliana",
-      "data": "2026-09-29",
-      "obs": "",
-      "criado_em": "2026-09-29 16:31:59",
-      "item": "Soro fisiológico 100ml",
       "usuario": "Leiliana"
     }
   ]
