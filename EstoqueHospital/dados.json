@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "08/10/2026 09:40:56",
+  "atualizado_em": "08/10/2026 09:41:03",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 105816,
-    "total_farmacia": 32540,
-    "total_geral": 138356,
+    "total_farmacia": 32539,
+    "total_geral": 138355,
     "perto_de_terminar": 41,
     "zerados": 17
   },
@@ -9360,19 +9360,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 8,
-      "farmacia": 13,
+      "farmacia": 12,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 21,
+      "total": 20,
       "minimo": 0,
       "validade": "2027-04",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-07 15:44:08",
+      "atualizado_em": "2026-10-08 09:41:01",
       "validade_mais_proxima": "2027-04",
       "vencimento_mais_proximo": "2027-04",
       "lotes_validade": [
@@ -9380,7 +9380,7 @@
           "local": "farmacia",
           "validade": "2027-04",
           "lote": "",
-          "quantidade": 13
+          "quantidade": 12
         },
         {
           "local": "almoxarifado",
@@ -9394,9 +9394,9 @@
       "previsao_20_dias": 6,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 57,
-      "media_diaria_saida": 0.26,
-      "total_saida_historica": 15,
-      "cobertura_dias": 79.8,
+      "media_diaria_saida": 0.28,
+      "total_saida_historica": 16,
+      "cobertura_dias": 71.2,
       "alerta_estoque": false
     },
     {
@@ -16899,6 +16899,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 3750,
+      "item_id": 85,
+      "produto_nome": "Lidocaína Gel",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 1,
+      "responsavel": "Assucena",
+      "data": "2026-10-07",
+      "obs": "",
+      "criado_em": "2026-10-08 09:41:01",
+      "item": "Lidocaína Gel",
+      "usuario": "Assucena"
+    },
+    {
       "id": 3749,
       "item_id": 176,
       "produto_nome": "Gelco nº 24",
@@ -24381,21 +24396,6 @@
       "obs": "",
       "criado_em": "2026-09-29 11:27:14",
       "item": "AGUA P/ INJ",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 3250,
-      "item_id": 239,
-      "produto_nome": "Tramadol 50mg/ml 2ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 20,
-      "responsavel": "Assucena",
-      "data": "2026-09-28",
-      "obs": "",
-      "criado_em": "2026-09-29 11:27:06",
-      "item": "Tramadol 50mg/ml 2ml",
       "usuario": "Assucena"
     }
   ]
