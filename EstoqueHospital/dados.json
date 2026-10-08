@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "08/10/2026 16:47:50",
+  "atualizado_em": "08/10/2026 16:48:02",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 105816,
-    "total_farmacia": 31841,
-    "total_geral": 137657,
+    "total_farmacia": 31840,
+    "total_geral": 137656,
     "perto_de_terminar": 42,
     "zerados": 18
   },
@@ -7262,19 +7262,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 156,
-      "farmacia": 2,
+      "farmacia": 1,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 158,
+      "total": 157,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-07 15:44:08",
+      "atualizado_em": "2026-10-08 16:48:01",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -7288,17 +7288,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 4
+          "quantidade": 3
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 6,
-      "previsao_20_dias": 6,
+      "minimo_alerta": 7,
+      "previsao_20_dias": 7,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 57,
-      "media_diaria_saida": 0.3,
-      "total_saida_historica": 17,
-      "cobertura_dias": 529.8,
+      "media_diaria_saida": 0.32,
+      "total_saida_historica": 18,
+      "cobertura_dias": 497.2,
       "alerta_estoque": false
     },
     {
@@ -16892,6 +16892,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 3794,
+      "item_id": 175,
+      "produto_nome": "Fita cirúrgica microporosa",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 1,
+      "responsavel": "Leiliana",
+      "data": "2026-10-08",
+      "obs": "",
+      "criado_em": "2026-10-08 16:48:01",
+      "item": "Fita cirúrgica microporosa",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 3793,
       "item_id": 104,
       "produto_nome": "Seringa 3ml",
@@ -24374,21 +24389,6 @@
       "obs": "",
       "criado_em": "2026-09-29 16:37:19",
       "item": "Bolsa coletora",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 3294,
-      "item_id": 220,
-      "produto_nome": "Equipo macrogotas",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 25,
-      "responsavel": "Leiliana",
-      "data": "2026-09-29",
-      "obs": "",
-      "criado_em": "2026-09-29 16:37:09",
-      "item": "Equipo macrogotas",
       "usuario": "Leiliana"
     }
   ]
