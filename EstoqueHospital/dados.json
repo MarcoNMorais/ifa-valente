@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "08/10/2026 16:48:51",
+  "atualizado_em": "08/10/2026 16:49:02",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 105816,
-    "total_farmacia": 31728,
-    "total_geral": 137544,
+    "total_farmacia": 31726,
+    "total_geral": 137542,
     "perto_de_terminar": 42,
     "zerados": 18
   },
@@ -5433,19 +5433,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 172,
+      "farmacia": 170,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 172,
+      "total": 170,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga Farmácia 227-288",
       "obs": "Importação Farmácia 227-288",
-      "atualizado_em": "2026-10-08 09:47:03",
+      "atualizado_em": "2026-10-08 16:49:01",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -5453,17 +5453,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 172
+          "quantidade": 170
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 7,
-      "previsao_20_dias": 7,
+      "minimo_alerta": 8,
+      "previsao_20_dias": 8,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 52,
-      "media_diaria_saida": 0.35,
-      "total_saida_historica": 18,
-      "cobertura_dias": 496.9,
+      "media_diaria_saida": 0.38,
+      "total_saida_historica": 20,
+      "cobertura_dias": 442.0,
       "alerta_estoque": false
     },
     {
@@ -16892,6 +16892,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 3799,
+      "item_id": 226,
+      "produto_nome": "Enoxaparina sódica 40mg",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 2,
+      "responsavel": "Leiliana",
+      "data": "2026-10-08",
+      "obs": "",
+      "criado_em": "2026-10-08 16:49:01",
+      "item": "Enoxaparina sódica 40mg",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 3798,
       "item_id": 376,
       "produto_nome": "LENÇOL DESCARTAVEL PAPEL",
@@ -24374,21 +24389,6 @@
       "obs": "",
       "criado_em": "2026-09-29 16:38:53",
       "item": "Soro fisiológico 500ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 3299,
-      "item_id": 385,
-      "produto_nome": "LIDOCAINA S/ VASO",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 2,
-      "responsavel": "Leiliana",
-      "data": "2026-09-29",
-      "obs": "",
-      "criado_em": "2026-09-29 16:38:40",
-      "item": "LIDOCAINA S/ VASO",
       "usuario": "Leiliana"
     }
   ]
