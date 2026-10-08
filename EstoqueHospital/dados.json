@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "08/10/2026 16:48:42",
+  "atualizado_em": "08/10/2026 16:48:51",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 105816,
-    "total_farmacia": 31730,
-    "total_geral": 137546,
+    "total_farmacia": 31728,
+    "total_geral": 137544,
     "perto_de_terminar": 42,
     "zerados": 18
   },
@@ -9062,19 +9062,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 32,
-      "farmacia": 5,
+      "farmacia": 3,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 37,
+      "total": 35,
       "minimo": 50,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-08 09:42:30",
+      "atualizado_em": "2026-10-08 16:48:50",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -9088,17 +9088,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 5
+          "quantidade": 3
         }
       ],
       "minimo_manual": 50,
-      "minimo_alerta": 29,
-      "previsao_20_dias": 29,
+      "minimo_alerta": 30,
+      "previsao_20_dias": 30,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 44,
-      "media_diaria_saida": 1.43,
-      "total_saida_historica": 63,
-      "cobertura_dias": 25.8,
+      "media_diaria_saida": 1.48,
+      "total_saida_historica": 65,
+      "cobertura_dias": 23.7,
       "alerta_estoque": false
     },
     {
@@ -16892,6 +16892,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 3798,
+      "item_id": 376,
+      "produto_nome": "LENÇOL DESCARTAVEL PAPEL",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 2,
+      "responsavel": "Leiliana",
+      "data": "2026-10-08",
+      "obs": "",
+      "criado_em": "2026-10-08 16:48:50",
+      "item": "LENÇOL DESCARTAVEL PAPEL",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 3797,
       "item_id": 285,
       "produto_nome": "Agulha 30x7",
@@ -24374,21 +24389,6 @@
       "obs": "",
       "criado_em": "2026-09-29 16:38:40",
       "item": "LIDOCAINA S/ VASO",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 3298,
-      "item_id": 200,
-      "produto_nome": "Caixa de perfurocortante",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 1,
-      "responsavel": "Leiliana",
-      "data": "2026-09-29",
-      "obs": "",
-      "criado_em": "2026-09-29 16:38:29",
-      "item": "Caixa de perfurocortante",
       "usuario": "Leiliana"
     }
   ]
