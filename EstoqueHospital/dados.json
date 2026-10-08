@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "08/10/2026 16:49:02",
+  "atualizado_em": "08/10/2026 16:49:10",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 105816,
-    "total_farmacia": 31726,
-    "total_geral": 137542,
+    "total_farmacia": 31718,
+    "total_geral": 137534,
     "perto_de_terminar": 42,
     "zerados": 18
   },
@@ -15232,19 +15232,19 @@
       "tipo": "Insumo",
       "unidade": "Unidade",
       "almoxarifado": 637,
-      "farmacia": 88,
+      "farmacia": 80,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 725,
+      "total": 717,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-08 09:42:23",
+      "atualizado_em": "2026-10-08 16:49:09",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -15258,17 +15258,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 88
+          "quantidade": 80
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 373,
-      "previsao_20_dias": 373,
+      "minimo_alerta": 376,
+      "previsao_20_dias": 376,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 57,
-      "media_diaria_saida": 18.63,
-      "total_saida_historica": 1062,
-      "cobertura_dias": 38.9,
+      "media_diaria_saida": 18.77,
+      "total_saida_historica": 1070,
+      "cobertura_dias": 38.2,
       "alerta_estoque": false
     },
     {
@@ -16891,6 +16891,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 3800,
+      "item_id": 203,
+      "produto_nome": "Soro fisiológico 250ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 8,
+      "responsavel": "Leiliana",
+      "data": "2026-10-08",
+      "obs": "",
+      "criado_em": "2026-10-08 16:49:09",
+      "item": "Soro fisiológico 250ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 3799,
       "item_id": 226,
@@ -24375,21 +24390,6 @@
       "criado_em": "2026-09-30 10:48:02",
       "item": "Lidocaína Gel",
       "usuario": "Assucena"
-    },
-    {
-      "id": 3300,
-      "item_id": 204,
-      "produto_nome": "Soro fisiológico 500ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 5,
-      "responsavel": "Leiliana",
-      "data": "2026-09-29",
-      "obs": "",
-      "criado_em": "2026-09-29 16:38:53",
-      "item": "Soro fisiológico 500ml",
-      "usuario": "Leiliana"
     }
   ]
 }
