@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "08/10/2026 09:41:19",
+  "atualizado_em": "08/10/2026 09:41:28",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 105816,
-    "total_farmacia": 32419,
-    "total_geral": 138235,
+    "total_farmacia": 32389,
+    "total_geral": 138205,
     "perto_de_terminar": 41,
     "zerados": 17
   },
@@ -606,19 +606,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 620,
+      "farmacia": 590,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 620,
+      "total": 590,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga Almoxerifado",
       "obs": "Importação Almoxerifado",
-      "atualizado_em": "2026-10-07 15:44:08",
+      "atualizado_em": "2026-10-08 09:41:24",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -626,17 +626,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 620
+          "quantidade": 590
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 108,
-      "previsao_20_dias": 108,
+      "minimo_alerta": 120,
+      "previsao_20_dias": 120,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 52,
-      "media_diaria_saida": 5.38,
-      "total_saida_historica": 280,
-      "cobertura_dias": 115.1,
+      "media_diaria_saida": 5.96,
+      "total_saida_historica": 310,
+      "cobertura_dias": 99.0,
       "alerta_estoque": false
     },
     {
@@ -16899,6 +16899,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 3753,
+      "item_id": 319,
+      "produto_nome": "Agulha 25x7",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 30,
+      "responsavel": "Assucena",
+      "data": "2026-10-07",
+      "obs": "",
+      "criado_em": "2026-10-08 09:41:24",
+      "item": "Agulha 25x7",
+      "usuario": "Assucena"
+    },
+    {
       "id": 3752,
       "item_id": 390,
       "produto_nome": "AGULHA  40X1,2",
@@ -24381,21 +24396,6 @@
       "obs": "",
       "criado_em": "2026-09-29 11:27:47",
       "item": "Agulha 30x8",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 3253,
-      "item_id": 390,
-      "produto_nome": "AGULHA  40X1,2",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 150,
-      "responsavel": "Assucena",
-      "data": "2026-09-28",
-      "obs": "",
-      "criado_em": "2026-09-29 11:27:38",
-      "item": "AGULHA  40X1,2",
       "usuario": "Assucena"
     }
   ]
