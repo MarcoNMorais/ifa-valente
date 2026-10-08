@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "08/10/2026 09:45:31",
+  "atualizado_em": "08/10/2026 09:46:15",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 105816,
-    "total_farmacia": 32166,
-    "total_geral": 137982,
+    "total_farmacia": 32165,
+    "total_geral": 137981,
     "perto_de_terminar": 41,
     "zerados": 17
   },
@@ -9023,19 +9023,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 40,
-      "farmacia": 3,
+      "farmacia": 2,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 43,
+      "total": 42,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-07 15:44:08",
+      "atualizado_em": "2026-10-08 09:46:14",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -9049,7 +9049,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 3
+          "quantidade": 2
         }
       ],
       "minimo_manual": 0,
@@ -9057,8 +9057,8 @@
       "previsao_20_dias": 2319,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 57,
-      "media_diaria_saida": 115.91,
-      "total_saida_historica": 6607,
+      "media_diaria_saida": 115.93,
+      "total_saida_historica": 6608,
       "cobertura_dias": 0.4,
       "alerta_estoque": true
     },
@@ -16899,6 +16899,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 3772,
+      "item_id": 194,
+      "produto_nome": "Lanceta de segurança",
+      "tipo": "Farmácia para Posto de Internamento",
+      "origem": "Farmácia",
+      "destino": "Posto de Internamento",
+      "quantidade": 1,
+      "responsavel": "Assucena",
+      "data": "2026-10-07",
+      "obs": "",
+      "criado_em": "2026-10-08 09:46:14",
+      "item": "Lanceta de segurança",
+      "usuario": "Assucena"
+    },
+    {
       "id": 3771,
       "item_id": 289,
       "produto_nome": "Agulha 25x8",
@@ -24380,21 +24395,6 @@
       "data": "2026-09-29",
       "obs": "",
       "criado_em": "2026-09-29 16:33:07",
-      "item": "Scalp nº 23",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 3272,
-      "item_id": 98,
-      "produto_nome": "Scalp nº 23",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 40,
-      "responsavel": "Leiliana",
-      "data": "2026-09-29",
-      "obs": "",
-      "criado_em": "2026-09-29 16:32:47",
       "item": "Scalp nº 23",
       "usuario": "Leiliana"
     }
