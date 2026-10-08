@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "08/10/2026 16:48:02",
+  "atualizado_em": "08/10/2026 16:48:15",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 105816,
-    "total_farmacia": 31840,
-    "total_geral": 137656,
+    "total_farmacia": 31800,
+    "total_geral": 137616,
     "perto_de_terminar": 42,
     "zerados": 18
   },
@@ -646,19 +646,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 4500,
-      "farmacia": 300,
+      "farmacia": 260,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 4800,
+      "total": 4760,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-08 09:45:30",
+      "atualizado_em": "2026-10-08 16:48:14",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -672,17 +672,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 300
+          "quantidade": 260
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 193,
-      "previsao_20_dias": 193,
+      "minimo_alerta": 208,
+      "previsao_20_dias": 208,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 52,
-      "media_diaria_saida": 9.62,
-      "total_saida_historica": 500,
-      "cobertura_dias": 499.2,
+      "media_diaria_saida": 10.38,
+      "total_saida_historica": 540,
+      "cobertura_dias": 458.4,
       "alerta_estoque": false
     },
     {
@@ -16892,6 +16892,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 3795,
+      "item_id": 289,
+      "produto_nome": "Agulha 25x8",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 40,
+      "responsavel": "Leiliana",
+      "data": "2026-10-08",
+      "obs": "",
+      "criado_em": "2026-10-08 16:48:14",
+      "item": "Agulha 25x8",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 3794,
       "item_id": 175,
       "produto_nome": "Fita cirúrgica microporosa",
@@ -24374,21 +24389,6 @@
       "obs": "",
       "criado_em": "2026-09-29 16:38:15",
       "item": "Caixa de perfurocortante",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 3295,
-      "item_id": 155,
-      "produto_nome": "Bolsa coletora",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 1,
-      "responsavel": "Leiliana",
-      "data": "2026-09-29",
-      "obs": "",
-      "criado_em": "2026-09-29 16:37:19",
-      "item": "Bolsa coletora",
       "usuario": "Leiliana"
     }
   ]
