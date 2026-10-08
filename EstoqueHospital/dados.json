@@ -1,13 +1,13 @@
 {
-  "atualizado_em": "08/10/2026 09:47:05",
+  "atualizado_em": "08/10/2026 09:47:12",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 105816,
-    "total_farmacia": 32132,
-    "total_geral": 137948,
+    "total_farmacia": 32122,
+    "total_geral": 137938,
     "perto_de_terminar": 41,
-    "zerados": 17
+    "zerados": 18
   },
   "itens": [
     {
@@ -1349,37 +1349,30 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 10,
+      "farmacia": 0,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 10,
+      "total": 0,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-07 15:44:08",
+      "atualizado_em": "2026-10-08 09:47:10",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
-      "lotes_validade": [
-        {
-          "local": "farmacia",
-          "validade": "",
-          "lote": "",
-          "quantidade": 10
-        }
-      ],
+      "lotes_validade": [],
       "minimo_manual": 0,
-      "minimo_alerta": 16,
-      "previsao_20_dias": 16,
+      "minimo_alerta": 19,
+      "previsao_20_dias": 19,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 57,
-      "media_diaria_saida": 0.77,
-      "total_saida_historica": 44,
-      "cobertura_dias": 13.0,
+      "media_diaria_saida": 0.95,
+      "total_saida_historica": 54,
+      "cobertura_dias": 0.0,
       "alerta_estoque": true
     },
     {
@@ -16899,6 +16892,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 3779,
+      "item_id": 50,
+      "produto_nome": "Amiodarona 50mg",
+      "tipo": "Farmácia para Posto de Internamento",
+      "origem": "Farmácia",
+      "destino": "Posto de Internamento",
+      "quantidade": 10,
+      "responsavel": "Assucena",
+      "data": "2026-10-07",
+      "obs": "",
+      "criado_em": "2026-10-08 09:47:10",
+      "item": "Amiodarona 50mg",
+      "usuario": "Assucena"
+    },
+    {
       "id": 3778,
       "item_id": 226,
       "produto_nome": "Enoxaparina sódica 40mg",
@@ -24381,21 +24389,6 @@
       "obs": "",
       "criado_em": "2026-09-29 16:34:28",
       "item": "Seringa 3ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 3279,
-      "item_id": 102,
-      "produto_nome": "Seringa 5ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 70,
-      "responsavel": "Leiliana",
-      "data": "2026-09-29",
-      "obs": "",
-      "criado_em": "2026-09-29 16:34:18",
-      "item": "Seringa 5ml",
       "usuario": "Leiliana"
     }
   ]
