@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "08/10/2026 09:42:10",
+  "atualizado_em": "08/10/2026 09:42:17",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 105816,
-    "total_farmacia": 32386,
-    "total_geral": 138202,
+    "total_farmacia": 32385,
+    "total_geral": 138201,
     "perto_de_terminar": 41,
     "zerados": 17
   },
@@ -2987,19 +2987,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 14,
+      "farmacia": 13,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 14,
+      "total": 13,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-07 16:53:31",
+      "atualizado_em": "2026-10-08 09:42:15",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -3007,7 +3007,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 14
+          "quantidade": 13
         }
       ],
       "minimo_manual": 0,
@@ -3015,9 +3015,9 @@
       "previsao_20_dias": 9,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 57,
-      "media_diaria_saida": 0.42,
-      "total_saida_historica": 24,
-      "cobertura_dias": 33.2,
+      "media_diaria_saida": 0.44,
+      "total_saida_historica": 25,
+      "cobertura_dias": 29.6,
       "alerta_estoque": false
     },
     {
@@ -16899,6 +16899,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 3756,
+      "item_id": 200,
+      "produto_nome": "Caixa de perfurocortante",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 1,
+      "responsavel": "Assucena",
+      "data": "2026-10-07",
+      "obs": "",
+      "criado_em": "2026-10-08 09:42:15",
+      "item": "Caixa de perfurocortante",
+      "usuario": "Assucena"
+    },
+    {
       "id": 3755,
       "item_id": 398,
       "produto_nome": "MASCARA DESCARTAVEL",
@@ -24381,21 +24396,6 @@
       "obs": "",
       "criado_em": "2026-09-29 11:28:13",
       "item": "Gelco nº 22",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 3256,
-      "item_id": 176,
-      "produto_nome": "Gelco nº 24",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 30,
-      "responsavel": "Assucena",
-      "data": "2026-09-28",
-      "obs": "",
-      "criado_em": "2026-09-29 11:28:06",
-      "item": "Gelco nº 24",
       "usuario": "Assucena"
     }
   ]
