@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "08/10/2026 16:49:10",
+  "atualizado_em": "08/10/2026 16:49:17",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 105816,
-    "total_farmacia": 31718,
-    "total_geral": 137534,
+    "total_farmacia": 31717,
+    "total_geral": 137533,
     "perto_de_terminar": 42,
     "zerados": 18
   },
@@ -15993,19 +15993,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 60,
-      "farmacia": 197,
+      "farmacia": 196,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 257,
+      "total": 256,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-07 16:55:05",
+      "atualizado_em": "2026-10-08 16:49:16",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -16019,7 +16019,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 197
+          "quantidade": 196
         }
       ],
       "minimo_manual": 0,
@@ -16027,9 +16027,9 @@
       "previsao_20_dias": 307,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 57,
-      "media_diaria_saida": 15.32,
-      "total_saida_historica": 873,
-      "cobertura_dias": 16.8,
+      "media_diaria_saida": 15.33,
+      "total_saida_historica": 874,
+      "cobertura_dias": 16.7,
       "alerta_estoque": true
     },
     {
@@ -16891,6 +16891,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 3801,
+      "item_id": 195,
+      "produto_nome": "Tira Reagente G-Tech",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 1,
+      "responsavel": "Leiliana",
+      "data": "2026-10-08",
+      "obs": "",
+      "criado_em": "2026-10-08 16:49:16",
+      "item": "Tira Reagente G-Tech",
+      "usuario": "Leiliana"
+    },
     {
       "id": 3800,
       "item_id": 203,
@@ -24374,21 +24389,6 @@
       "obs": "",
       "criado_em": "2026-09-30 10:48:11",
       "item": "Agulha 25x7",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 3301,
-      "item_id": 85,
-      "produto_nome": "Lidocaína Gel",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 2,
-      "responsavel": "Assucena",
-      "data": "2026-09-29",
-      "obs": "",
-      "criado_em": "2026-09-30 10:48:02",
-      "item": "Lidocaína Gel",
       "usuario": "Assucena"
     }
   ]
