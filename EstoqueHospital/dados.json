@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "08/10/2026 16:47:31",
+  "atualizado_em": "08/10/2026 16:47:40",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 105816,
-    "total_farmacia": 31921,
-    "total_geral": 137737,
+    "total_farmacia": 31881,
+    "total_geral": 137697,
     "perto_de_terminar": 42,
     "zerados": 18
   },
@@ -12922,19 +12922,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 4950,
-      "farmacia": 160,
+      "farmacia": 120,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 5110,
+      "total": 5070,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-08 09:43:11",
+      "atualizado_em": "2026-10-08 16:47:39",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -12948,17 +12948,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 190
+          "quantidade": 150
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 1055,
-      "previsao_20_dias": 1055,
+      "minimo_alerta": 1069,
+      "previsao_20_dias": 1069,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 57,
-      "media_diaria_saida": 52.72,
-      "total_saida_historica": 3005,
-      "cobertura_dias": 96.9,
+      "media_diaria_saida": 53.42,
+      "total_saida_historica": 3045,
+      "cobertura_dias": 94.9,
       "alerta_estoque": false
     },
     {
@@ -16891,6 +16891,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 3792,
+      "item_id": 102,
+      "produto_nome": "Seringa 5ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 40,
+      "responsavel": "Leiliana",
+      "data": "2026-10-08",
+      "obs": "",
+      "criado_em": "2026-10-08 16:47:39",
+      "item": "Seringa 5ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 3791,
       "item_id": 274,
@@ -24374,21 +24389,6 @@
       "obs": "",
       "criado_em": "2026-09-29 16:36:59",
       "item": "Equipo fotossensível",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 3292,
-      "item_id": 103,
-      "produto_nome": "Seringa 10ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 30,
-      "responsavel": "Leiliana",
-      "data": "2026-09-29",
-      "obs": "",
-      "criado_em": "2026-09-29 16:36:48",
-      "item": "Seringa 10ml",
       "usuario": "Leiliana"
     }
   ]
