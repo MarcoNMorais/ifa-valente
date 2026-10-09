@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "09/10/2026 10:36:03",
+  "atualizado_em": "09/10/2026 10:36:17",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 105816,
-    "total_farmacia": 31641,
-    "total_geral": 137457,
+    "total_farmacia": 31611,
+    "total_geral": 137427,
     "perto_de_terminar": 42,
     "zerados": 19
   },
@@ -12823,19 +12823,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 7250,
-      "farmacia": 80,
+      "farmacia": 50,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 7330,
+      "total": 7300,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-08 20:26:13",
+      "atualizado_em": "2026-10-09 10:36:16",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -12849,17 +12849,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 105
+          "quantidade": 75
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 725,
-      "previsao_20_dias": 725,
+      "minimo_alerta": 736,
+      "previsao_20_dias": 736,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 53,
-      "media_diaria_saida": 36.23,
-      "total_saida_historica": 1920,
-      "cobertura_dias": 202.3,
+      "media_diaria_saida": 36.79,
+      "total_saida_historica": 1950,
+      "cobertura_dias": 198.4,
       "alerta_estoque": false
     },
     {
@@ -16884,6 +16884,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 3807,
+      "item_id": 274,
+      "produto_nome": "Seringa 20ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 30,
+      "responsavel": "Leiliana",
+      "data": "2026-10-09",
+      "obs": "",
+      "criado_em": "2026-10-09 10:36:16",
+      "item": "Seringa 20ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 3806,
       "item_id": 213,
@@ -24367,21 +24382,6 @@
       "obs": "",
       "criado_em": "2026-09-30 10:49:09",
       "item": "Dexametasona",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 3307,
-      "item_id": 62,
-      "produto_nome": "Cimetidina 150mg",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 20,
-      "responsavel": "Assucena",
-      "data": "2026-09-29",
-      "obs": "",
-      "criado_em": "2026-09-30 10:49:00",
-      "item": "Cimetidina 150mg",
       "usuario": "Assucena"
     }
   ]
