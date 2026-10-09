@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "09/10/2026 10:38:02",
+  "atualizado_em": "09/10/2026 10:38:17",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 105816,
-    "total_farmacia": 31420,
-    "total_geral": 137236,
+    "total_farmacia": 31405,
+    "total_geral": 137221,
     "perto_de_terminar": 42,
     "zerados": 19
   },
@@ -11813,43 +11813,37 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 133,
+      "farmacia": 118,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 133,
+      "total": 118,
       "minimo": 0,
-      "validade": "02/28",
+      "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-08 20:26:13",
-      "validade_mais_proxima": "02/28",
-      "vencimento_mais_proximo": "02/28",
+      "atualizado_em": "2026-10-09 10:38:16",
+      "validade_mais_proxima": "",
+      "vencimento_mais_proximo": "",
       "lotes_validade": [
-        {
-          "local": "farmacia",
-          "validade": "02/28",
-          "lote": "",
-          "quantidade": 8
-        },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 125
+          "quantidade": 118
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 85,
-      "previsao_20_dias": 85,
+      "minimo_alerta": 90,
+      "previsao_20_dias": 90,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 54,
-      "media_diaria_saida": 4.22,
-      "total_saida_historica": 228,
-      "cobertura_dias": 31.5,
+      "media_diaria_saida": 4.5,
+      "total_saida_historica": 243,
+      "cobertura_dias": 26.2,
       "alerta_estoque": false
     },
     {
@@ -16884,6 +16878,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 3817,
+      "item_id": 229,
+      "produto_nome": "Oxacilina 500mg pó injetável",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 15,
+      "responsavel": "Leiliana",
+      "data": "2026-10-09",
+      "obs": "",
+      "criado_em": "2026-10-09 10:38:16",
+      "item": "Oxacilina 500mg pó injetável",
+      "usuario": "Leiliana"
+    },
     {
       "id": 3816,
       "item_id": 28,
@@ -24367,21 +24376,6 @@
       "obs": "",
       "criado_em": "2026-09-30 10:50:49",
       "item": "AGUA P/ INJ",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 3317,
-      "item_id": 289,
-      "produto_nome": "Agulha 25x8",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 20,
-      "responsavel": "Assucena",
-      "data": "2026-09-29",
-      "obs": "",
-      "criado_em": "2026-09-30 10:50:41",
-      "item": "Agulha 25x8",
       "usuario": "Assucena"
     }
   ]
