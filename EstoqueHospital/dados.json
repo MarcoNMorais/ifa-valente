@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "09/10/2026 10:36:48",
+  "atualizado_em": "09/10/2026 10:37:00",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 105816,
-    "total_farmacia": 31471,
-    "total_geral": 137287,
+    "total_farmacia": 31469,
+    "total_geral": 137285,
     "perto_de_terminar": 42,
     "zerados": 19
   },
@@ -5916,19 +5916,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 328,
-      "farmacia": 11,
+      "farmacia": 9,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 339,
+      "total": 337,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-08 20:26:13",
+      "atualizado_em": "2026-10-09 10:36:59",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -5942,17 +5942,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 13
+          "quantidade": 11
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 47,
-      "previsao_20_dias": 47,
+      "minimo_alerta": 48,
+      "previsao_20_dias": 48,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 53,
-      "media_diaria_saida": 2.32,
-      "total_saida_historica": 123,
-      "cobertura_dias": 146.1,
+      "media_diaria_saida": 2.36,
+      "total_saida_historica": 125,
+      "cobertura_dias": 142.9,
       "alerta_estoque": false
     },
     {
@@ -16885,6 +16885,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 3811,
+      "item_id": 276,
+      "produto_nome": "Esparadrapo 10x4,5",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 2,
+      "responsavel": "Leiliana",
+      "data": "2026-10-09",
+      "obs": "",
+      "criado_em": "2026-10-09 10:36:59",
+      "item": "Esparadrapo 10x4,5",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 3810,
       "item_id": 104,
       "produto_nome": "Seringa 3ml",
@@ -24367,21 +24382,6 @@
       "obs": "",
       "criado_em": "2026-09-30 10:49:55",
       "item": "Ondansetrona 2mg/ml 2ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 3311,
-      "item_id": 70,
-      "produto_nome": "Dipirona",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 40,
-      "responsavel": "Assucena",
-      "data": "2026-09-29",
-      "obs": "",
-      "criado_em": "2026-09-30 10:49:33",
-      "item": "Dipirona",
       "usuario": "Assucena"
     }
   ]
