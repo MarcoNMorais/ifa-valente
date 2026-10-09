@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "09/10/2026 10:36:38",
+  "atualizado_em": "09/10/2026 10:36:48",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 105816,
-    "total_farmacia": 31501,
-    "total_geral": 137317,
+    "total_farmacia": 31471,
+    "total_geral": 137287,
     "perto_de_terminar": 42,
     "zerados": 19
   },
@@ -12869,19 +12869,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 5500,
-      "farmacia": 1988,
+      "farmacia": 1958,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 7488,
+      "total": 7458,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-08 20:26:13",
+      "atualizado_em": "2026-10-09 10:36:47",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -12895,17 +12895,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 1988
+          "quantidade": 1958
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 790,
-      "previsao_20_dias": 790,
+      "minimo_alerta": 800,
+      "previsao_20_dias": 800,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 58,
-      "media_diaria_saida": 39.48,
-      "total_saida_historica": 2290,
-      "cobertura_dias": 189.7,
+      "media_diaria_saida": 40.0,
+      "total_saida_historica": 2320,
+      "cobertura_dias": 186.4,
       "alerta_estoque": false
     },
     {
@@ -16884,6 +16884,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 3810,
+      "item_id": 104,
+      "produto_nome": "Seringa 3ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 30,
+      "responsavel": "Leiliana",
+      "data": "2026-10-09",
+      "obs": "",
+      "criado_em": "2026-10-09 10:36:47",
+      "item": "Seringa 3ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 3809,
       "item_id": 102,
@@ -24367,21 +24382,6 @@
       "obs": "",
       "criado_em": "2026-09-30 10:49:33",
       "item": "Dipirona",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 3310,
-      "item_id": 55,
-      "produto_nome": "Benzilpenicilina 1.200",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 6,
-      "responsavel": "Assucena",
-      "data": "2026-09-29",
-      "obs": "",
-      "criado_em": "2026-09-30 10:49:25",
-      "item": "Benzilpenicilina 1.200",
       "usuario": "Assucena"
     }
   ]
