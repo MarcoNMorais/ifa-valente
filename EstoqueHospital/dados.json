@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "09/10/2026 10:40:32",
+  "atualizado_em": "09/10/2026 10:40:40",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
-    "total_almoxarifado": 105066,
-    "total_farmacia": 32068,
+    "total_almoxarifado": 104566,
+    "total_farmacia": 32568,
     "total_geral": 137134,
     "perto_de_terminar": 42,
     "zerados": 19
@@ -12862,8 +12862,8 @@
       "nome": "Seringa 3ml",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 5500,
-      "farmacia": 1958,
+      "almoxarifado": 5000,
+      "farmacia": 2458,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -12875,7 +12875,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-09 10:36:47",
+      "atualizado_em": "2026-10-09 10:40:39",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -12883,13 +12883,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 5500
+          "quantidade": 5000
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 1958
+          "quantidade": 2458
         }
       ],
       "minimo_manual": 0,
@@ -16878,6 +16878,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 3823,
+      "item_id": 104,
+      "produto_nome": "Seringa 3ml",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 500,
+      "responsavel": "Leiliana",
+      "data": "2026-10-09",
+      "obs": "",
+      "criado_em": "2026-10-09 10:40:39",
+      "item": "Seringa 3ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 3822,
       "item_id": 102,
@@ -24361,21 +24376,6 @@
       "obs": "",
       "criado_em": "2026-09-30 10:55:25",
       "item": "Soro Ringer Lactato 500ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 3323,
-      "item_id": 104,
-      "produto_nome": "Seringa 3ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 30,
-      "responsavel": "Assucena",
-      "data": "2026-09-29",
-      "obs": "",
-      "criado_em": "2026-09-30 10:55:17",
-      "item": "Seringa 3ml",
       "usuario": "Assucena"
     }
   ]
