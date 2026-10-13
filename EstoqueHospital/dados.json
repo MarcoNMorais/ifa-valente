@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "13/10/2026 14:52:42",
+  "atualizado_em": "13/10/2026 14:52:51",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 412,
     "total_almoxarifado": 115237,
-    "total_farmacia": 34273,
-    "total_geral": 149510,
+    "total_farmacia": 34213,
+    "total_geral": 149450,
     "perto_de_terminar": 20,
     "zerados": 12
   },
@@ -4578,19 +4578,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 350,
+      "farmacia": 290,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 350,
+      "total": 290,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-13 14:52:40",
+      "atualizado_em": "2026-10-13 14:52:50",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -4598,17 +4598,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 350
+          "quantidade": 290
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 168,
-      "previsao_20_dias": 168,
+      "minimo_alerta": 188,
+      "previsao_20_dias": 188,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 62,
-      "media_diaria_saida": 8.39,
-      "total_saida_historica": 520,
-      "cobertura_dias": 41.7,
+      "media_diaria_saida": 9.35,
+      "total_saida_historica": 580,
+      "cobertura_dias": 31.0,
       "alerta_estoque": false
     },
     {
@@ -17501,6 +17501,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 3979,
+      "item_id": 66,
+      "produto_nome": "Complexo B",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 60,
+      "responsavel": "Leiliana",
+      "data": "2026-10-13",
+      "obs": "",
+      "criado_em": "2026-10-13 14:52:50",
+      "item": "Complexo B",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 3978,
       "item_id": 66,
       "produto_nome": "Complexo B",
@@ -24983,21 +24998,6 @@
       "obs": "",
       "criado_em": "2026-10-05 10:21:08",
       "item": "Soro fisiológico 100ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 3472,
-      "item_id": 276,
-      "produto_nome": "Esparadrapo 10x4,5",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 4,
-      "responsavel": "Assucena",
-      "data": "2026-10-03",
-      "obs": "",
-      "criado_em": "2026-10-05 10:21:02",
-      "item": "Esparadrapo 10x4,5",
       "usuario": "Assucena"
     }
   ]
