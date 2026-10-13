@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "13/10/2026 14:22:58",
+  "atualizado_em": "13/10/2026 14:23:04",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
-    "itens": 411,
-    "total_almoxarifado": 116120,
+    "itens": 412,
+    "total_almoxarifado": 116150,
     "total_farmacia": 32913,
-    "total_geral": 149033,
+    "total_geral": 149063,
     "perto_de_terminar": 21,
     "zerados": 12
   },
@@ -13495,6 +13495,46 @@
       "alerta_estoque": false
     },
     {
+      "id": 412,
+      "produto_id": 413,
+      "nome": "sertralina 50mg",
+      "tipo": "Medicamento",
+      "unidade": "Unidade",
+      "almoxarifado": 30,
+      "farmacia": 0,
+      "sala_medicacoes": 0,
+      "internamento": 0,
+      "sala_cirurgica": 0,
+      "baixa": 0,
+      "outro": 0,
+      "total": 30,
+      "minimo": 0,
+      "validade": "",
+      "lote": "",
+      "origem": "Entrada externa",
+      "obs": "",
+      "atualizado_em": "2026-10-13 14:23:01",
+      "validade_mais_proxima": "",
+      "vencimento_mais_proximo": "",
+      "lotes_validade": [
+        {
+          "local": "almoxarifado",
+          "validade": "",
+          "lote": "",
+          "quantidade": 30
+        }
+      ],
+      "minimo_manual": 0,
+      "minimo_alerta": 0,
+      "previsao_20_dias": 0,
+      "criterio_alerta": "estoque_minimo_manual_inicio",
+      "dias_historico": 1,
+      "media_diaria_saida": 0.0,
+      "total_saida_historica": 0,
+      "cobertura_dias": null,
+      "alerta_estoque": false
+    },
+    {
       "id": 254,
       "produto_id": 254,
       "nome": "Simeticona 40mg comprimido",
@@ -17448,6 +17488,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 3961,
+      "item_id": 412,
+      "produto_nome": "sertralina 50mg",
+      "tipo": "Entrada no Almoxarifado",
+      "origem": "Entrada externa",
+      "destino": "Almoxarifado",
+      "quantidade": 30,
+      "responsavel": "Leiliana",
+      "data": "2026-10-13",
+      "obs": "",
+      "criado_em": "2026-10-13 14:23:01",
+      "item": "sertralina 50mg",
+      "usuario": "Leiliana"
+    },
     {
       "id": 3960,
       "item_id": 21,
@@ -24931,21 +24986,6 @@
       "obs": "",
       "criado_em": "2026-10-05 10:18:04",
       "item": "Seringa 3ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 3454,
-      "item_id": 102,
-      "produto_nome": "Seringa 5ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 15,
-      "responsavel": "Assucena",
-      "data": "2026-10-03",
-      "obs": "",
-      "criado_em": "2026-10-05 10:17:57",
-      "item": "Seringa 5ml",
       "usuario": "Assucena"
     }
   ]
