@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "13/10/2026 14:03:46",
+  "atualizado_em": "13/10/2026 14:04:00",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 406,
-    "total_almoxarifado": 104386,
+    "total_almoxarifado": 104416,
     "total_farmacia": 32913,
-    "total_geral": 137299,
+    "total_geral": 137329,
     "perto_de_terminar": 42,
     "zerados": 20
   },
@@ -6156,20 +6156,20 @@
       "nome": "Espironolactona 25mg",
       "tipo": "Medicamento",
       "unidade": "Unidade",
-      "almoxarifado": 30,
+      "almoxarifado": 60,
       "farmacia": 90,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 120,
+      "total": 150,
       "minimo": 0,
       "validade": "2027-04",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-08 20:26:13",
+      "atualizado_em": "2026-10-13 14:03:59",
       "validade_mais_proxima": "2027-04",
       "vencimento_mais_proximo": "2027-04",
       "lotes_validade": [
@@ -6183,7 +6183,7 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 30
+          "quantidade": 60
         }
       ],
       "minimo_manual": 0,
@@ -17034,6 +17034,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 3897,
+      "item_id": 39,
+      "produto_nome": "Espironolactona 25mg",
+      "tipo": "Entrada no Almoxarifado",
+      "origem": "Entrada externa",
+      "destino": "Almoxarifado",
+      "quantidade": 30,
+      "responsavel": "Leiliana",
+      "data": "2026-10-13",
+      "obs": "",
+      "criado_em": "2026-10-13 14:03:59",
+      "item": "Espironolactona 25mg",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 3896,
       "item_id": 258,
       "produto_nome": "Dipirona gotas",
@@ -24516,21 +24531,6 @@
       "obs": "",
       "criado_em": "2026-10-01 16:05:40",
       "item": "Seringa 10ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 3397,
-      "item_id": 274,
-      "produto_nome": "Seringa 20ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 30,
-      "responsavel": "Leiliana",
-      "data": "2026-10-01",
-      "obs": "",
-      "criado_em": "2026-10-01 16:05:30",
-      "item": "Seringa 20ml",
       "usuario": "Leiliana"
     }
   ]
