@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "13/10/2026 13:52:44",
+  "atualizado_em": "13/10/2026 13:52:58",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 103226,
-    "total_farmacia": 32921,
-    "total_geral": 136147,
+    "total_farmacia": 32920,
+    "total_geral": 136146,
     "perto_de_terminar": 43,
     "zerados": 20
   },
@@ -1176,19 +1176,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 12,
+      "farmacia": 11,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 12,
+      "total": 11,
       "minimo": 0,
       "validade": "01/27",
       "lote": "",
       "origem": "Carga Farmácia 227-288",
       "obs": "Importação Farmácia 227-288",
-      "atualizado_em": "2026-10-08 20:26:13",
+      "atualizado_em": "2026-10-13 13:52:57",
       "validade_mais_proxima": "01/27",
       "vencimento_mais_proximo": "01/27",
       "lotes_validade": [
@@ -1196,17 +1196,17 @@
           "local": "farmacia",
           "validade": "01/27",
           "lote": "",
-          "quantidade": 12
+          "quantidade": 11
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 1,
-      "previsao_20_dias": 1,
+      "minimo_alerta": 2,
+      "previsao_20_dias": 2,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 57,
-      "media_diaria_saida": 0.04,
-      "total_saida_historica": 2,
-      "cobertura_dias": 342.0,
+      "media_diaria_saida": 0.05,
+      "total_saida_historica": 3,
+      "cobertura_dias": 209.0,
       "alerta_estoque": false
     },
     {
@@ -16860,6 +16860,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 3872,
+      "item_id": 243,
+      "produto_nome": "Ambroxol 15mg/5ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 1,
+      "responsavel": "Leiliana",
+      "data": "2026-10-13",
+      "obs": "",
+      "criado_em": "2026-10-13 13:52:57",
+      "item": "Ambroxol 15mg/5ml",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 3871,
       "item_id": 261,
       "produto_nome": "Amiodarona 200mg CPR",
@@ -24342,21 +24357,6 @@
       "obs": "",
       "criado_em": "2026-10-01 14:02:49",
       "item": "Soro fisiológico 250ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 3372,
-      "item_id": 276,
-      "produto_nome": "Esparadrapo 10x4,5",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 2,
-      "responsavel": "Assucena",
-      "data": "2026-10-01",
-      "obs": "",
-      "criado_em": "2026-10-01 14:02:37",
-      "item": "Esparadrapo 10x4,5",
       "usuario": "Assucena"
     }
   ]
