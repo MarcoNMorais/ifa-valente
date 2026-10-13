@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "13/10/2026 13:56:03",
+  "atualizado_em": "13/10/2026 13:57:36",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 404,
-    "total_almoxarifado": 103265,
-    "total_farmacia": 32930,
+    "total_almoxarifado": 103241,
+    "total_farmacia": 32954,
     "total_geral": 136195,
     "perto_de_terminar": 43,
     "zerados": 20
@@ -15285,8 +15285,8 @@
       "nome": "soro glicofidiologoco",
       "tipo": "Medicamento",
       "unidade": "Unidade",
-      "almoxarifado": 39,
-      "farmacia": 24,
+      "almoxarifado": 15,
+      "farmacia": 48,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -15298,7 +15298,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-13 13:56:02",
+      "atualizado_em": "2026-10-13 13:57:35",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -15306,13 +15306,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 39
+          "quantidade": 15
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 24
+          "quantidade": 48
         }
       ],
       "minimo_manual": 0,
@@ -16899,6 +16899,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 3879,
+      "item_id": 404,
+      "produto_nome": "soro glicofidiologoco",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 24,
+      "responsavel": "Leiliana",
+      "data": "2026-10-13",
+      "obs": "",
+      "criado_em": "2026-10-13 13:57:35",
+      "item": "soro glicofidiologoco",
+      "usuario": "Leiliana"
+    },
     {
       "id": 3878,
       "item_id": 404,
@@ -24382,21 +24397,6 @@
       "obs": "",
       "criado_em": "2026-10-01 14:04:42",
       "item": "Ferropurum 20mg/ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 3379,
-      "item_id": 255,
-      "produto_nome": "Ibuprofeno gotas",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 1,
-      "responsavel": "Assucena",
-      "data": "2026-10-01",
-      "obs": "",
-      "criado_em": "2026-10-01 14:04:28",
-      "item": "Ibuprofeno gotas",
       "usuario": "Assucena"
     }
   ]
