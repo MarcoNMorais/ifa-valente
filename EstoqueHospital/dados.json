@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "13/10/2026 13:42:14",
+  "atualizado_em": "13/10/2026 13:42:22",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
-    "total_almoxarifado": 103310,
-    "total_farmacia": 33494,
+    "total_almoxarifado": 103250,
+    "total_farmacia": 33554,
     "total_geral": 136804,
     "perto_de_terminar": 42,
     "zerados": 19
@@ -433,8 +433,8 @@
       "nome": "AGUA P/ INJ",
       "tipo": "Medicamento",
       "unidade": "Unidade",
-      "almoxarifado": 60,
-      "farmacia": 5,
+      "almoxarifado": 0,
+      "farmacia": 65,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -446,21 +446,15 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-13 13:42:13",
+      "atualizado_em": "2026-10-13 13:42:21",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
         {
-          "local": "almoxarifado",
-          "validade": "",
-          "lote": "",
-          "quantidade": 60
-        },
-        {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 5
+          "quantidade": 65
         }
       ],
       "minimo_manual": 0,
@@ -16885,6 +16879,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 3834,
+      "item_id": 382,
+      "produto_nome": "AGUA P/ INJ",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 60,
+      "responsavel": "Leiliana",
+      "data": "2026-10-13",
+      "obs": "",
+      "criado_em": "2026-10-13 13:42:21",
+      "item": "AGUA P/ INJ",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 3833,
       "item_id": 382,
       "produto_nome": "AGUA P/ INJ",
@@ -24367,21 +24376,6 @@
       "obs": "",
       "criado_em": "2026-09-30 10:57:40",
       "item": "Luva P procedimento",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 3334,
-      "item_id": 280,
-      "produto_nome": "Luva M procedimento",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 1,
-      "responsavel": "Assucena",
-      "data": "2026-09-29",
-      "obs": "",
-      "criado_em": "2026-09-30 10:57:31",
-      "item": "Luva M procedimento",
       "usuario": "Assucena"
     }
   ]
