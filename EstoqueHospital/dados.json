@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "13/10/2026 15:00:15",
+  "atualizado_em": "13/10/2026 15:00:27",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 412,
     "total_almoxarifado": 114607,
-    "total_farmacia": 34213,
-    "total_geral": 148820,
+    "total_farmacia": 34207,
+    "total_geral": 148814,
     "perto_de_terminar": 20,
     "zerados": 12
   },
@@ -3530,19 +3530,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 420,
+      "farmacia": 414,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 420,
+      "total": 414,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-13 15:00:14",
+      "atualizado_em": "2026-10-13 15:00:25",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -3550,17 +3550,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 420
+          "quantidade": 414
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 244,
-      "previsao_20_dias": 244,
+      "minimo_alerta": 246,
+      "previsao_20_dias": 246,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 62,
-      "media_diaria_saida": 12.19,
-      "total_saida_historica": 756,
-      "cobertura_dias": 34.4,
+      "media_diaria_saida": 12.29,
+      "total_saida_historica": 762,
+      "cobertura_dias": 33.7,
       "alerta_estoque": false
     },
     {
@@ -17483,6 +17483,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 4008,
+      "item_id": 60,
+      "produto_nome": "Cetoprofeno EV 100mg",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 6,
+      "responsavel": "Leiliana",
+      "data": "2026-10-13",
+      "obs": "",
+      "criado_em": "2026-10-13 15:00:25",
+      "item": "Cetoprofeno EV 100mg",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 4007,
       "item_id": 60,
       "produto_nome": "Cetoprofeno EV 100mg",
@@ -24965,21 +24980,6 @@
       "obs": "",
       "criado_em": "2026-10-05 11:20:57",
       "item": "Lanceta de segurança",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 3508,
-      "item_id": 289,
-      "produto_nome": "Agulha 25x8",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 40,
-      "responsavel": "Assucena",
-      "data": "2026-10-03",
-      "obs": "",
-      "criado_em": "2026-10-05 11:20:50",
-      "item": "Agulha 25x8",
       "usuario": "Assucena"
     }
   ]
