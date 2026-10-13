@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "13/10/2026 14:53:02",
+  "atualizado_em": "13/10/2026 14:53:14",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 412,
     "total_almoxarifado": 115237,
-    "total_farmacia": 34198,
-    "total_geral": 149435,
+    "total_farmacia": 34088,
+    "total_geral": 149325,
     "perto_de_terminar": 20,
     "zerados": 12
   },
@@ -532,19 +532,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 4600,
-      "farmacia": 655,
+      "farmacia": 545,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 5255,
+      "total": 5145,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-13 13:39:25",
+      "atualizado_em": "2026-10-13 14:53:13",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -558,17 +558,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 655
+          "quantidade": 545
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 1373,
-      "previsao_20_dias": 1373,
+      "minimo_alerta": 1428,
+      "previsao_20_dias": 1428,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 40,
-      "media_diaria_saida": 68.62,
-      "total_saida_historica": 2745,
-      "cobertura_dias": 76.6,
+      "media_diaria_saida": 71.38,
+      "total_saida_historica": 2855,
+      "cobertura_dias": 72.1,
       "alerta_estoque": false
     },
     {
@@ -17501,6 +17501,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 3981,
+      "item_id": 390,
+      "produto_nome": "AGULHA  40X1,2",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 110,
+      "responsavel": "Leiliana",
+      "data": "2026-10-13",
+      "obs": "",
+      "criado_em": "2026-10-13 14:53:13",
+      "item": "AGULHA  40X1,2",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 3980,
       "item_id": 203,
       "produto_nome": "Soro fisiológico 250ml",
@@ -24983,21 +24998,6 @@
       "obs": "",
       "criado_em": "2026-10-05 10:21:43",
       "item": "Seringa 10ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 3474,
-      "item_id": 274,
-      "produto_nome": "Seringa 20ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 40,
-      "responsavel": "Assucena",
-      "data": "2026-10-03",
-      "obs": "",
-      "criado_em": "2026-10-05 10:21:21",
-      "item": "Seringa 20ml",
       "usuario": "Assucena"
     }
   ]
