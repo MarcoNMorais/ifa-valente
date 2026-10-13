@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "13/10/2026 15:23:34",
+  "atualizado_em": "13/10/2026 16:15:16",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 412,
-    "total_almoxarifado": 114057,
-    "total_farmacia": 32891,
+    "total_almoxarifado": 113707,
+    "total_farmacia": 33241,
     "total_geral": 146948,
     "perto_de_terminar": 22,
     "zerados": 12
@@ -5035,8 +5035,8 @@
       "nome": "Diclofenaco 25mg",
       "tipo": "Medicamento",
       "unidade": "Unidade",
-      "almoxarifado": 350,
-      "farmacia": 20,
+      "almoxarifado": 0,
+      "farmacia": 370,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -5048,21 +5048,15 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-13 14:14:44",
+      "atualizado_em": "2026-10-13 16:15:15",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
         {
-          "local": "almoxarifado",
-          "validade": "",
-          "lote": "",
-          "quantidade": 350
-        },
-        {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 20
+          "quantidade": 370
         }
       ],
       "minimo_manual": 0,
@@ -17465,6 +17459,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 4111,
+      "item_id": 69,
+      "produto_nome": "Diclofenaco 25mg",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 350,
+      "responsavel": "Leiliana",
+      "data": "2026-10-13",
+      "obs": "",
+      "criado_em": "2026-10-13 16:15:15",
+      "item": "Diclofenaco 25mg",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 4110,
       "item_id": 276,
       "produto_nome": "Esparadrapo 10x4,5",
@@ -24947,21 +24956,6 @@
       "obs": "",
       "criado_em": "2026-10-06 11:08:53",
       "item": "Escopolamina 20mg",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 3611,
-      "item_id": 62,
-      "produto_nome": "Cimetidina 150mg",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 20,
-      "responsavel": "Assucena",
-      "data": "2026-10-05",
-      "obs": "",
-      "criado_em": "2026-10-06 11:08:42",
-      "item": "Cimetidina 150mg",
       "usuario": "Assucena"
     }
   ]
