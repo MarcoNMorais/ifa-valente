@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "13/10/2026 13:46:28",
+  "atualizado_em": "13/10/2026 13:46:40",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 103226,
-    "total_farmacia": 33226,
-    "total_geral": 136452,
+    "total_farmacia": 33216,
+    "total_geral": 136442,
     "perto_de_terminar": 42,
     "zerados": 20
   },
@@ -6670,19 +6670,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 62,
+      "farmacia": 52,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 62,
+      "total": 52,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-08 20:26:13",
+      "atualizado_em": "2026-10-13 13:46:39",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -6690,17 +6690,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 62
+          "quantidade": 52
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 33,
-      "previsao_20_dias": 33,
+      "minimo_alerta": 36,
+      "previsao_20_dias": 36,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 62,
-      "media_diaria_saida": 1.61,
-      "total_saida_historica": 100,
-      "cobertura_dias": 38.4,
+      "media_diaria_saida": 1.77,
+      "total_saida_historica": 110,
+      "cobertura_dias": 29.3,
       "alerta_estoque": false
     },
     {
@@ -16872,6 +16872,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 3851,
+      "item_id": 216,
+      "produto_nome": "Fio agulhado / sutura nº 3",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 10,
+      "responsavel": "Leiliana",
+      "data": "2026-10-13",
+      "obs": "",
+      "criado_em": "2026-10-13 13:46:39",
+      "item": "Fio agulhado / sutura nº 3",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 3850,
       "item_id": 202,
       "produto_nome": "Soro fisiológico 100ml",
@@ -24354,21 +24369,6 @@
       "obs": "",
       "criado_em": "2026-09-30 11:09:49",
       "item": "Soro fisiológico 100ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 3351,
-      "item_id": 185,
-      "produto_nome": "Luva cirúrgica tam. 7,5",
-      "tipo": "Almoxarifado para Farmácia",
-      "origem": "Almoxarifado",
-      "destino": "Farmácia",
-      "quantidade": 50,
-      "responsavel": "Assucena",
-      "data": "2026-09-29",
-      "obs": "",
-      "criado_em": "2026-09-30 11:09:41",
-      "item": "Luva cirúrgica tam. 7,5",
       "usuario": "Assucena"
     }
   ]
