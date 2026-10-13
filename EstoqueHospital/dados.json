@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "13/10/2026 13:53:47",
+  "atualizado_em": "13/10/2026 13:54:05",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 103226,
-    "total_farmacia": 32907,
-    "total_geral": 136133,
+    "total_farmacia": 32906,
+    "total_geral": 136132,
     "perto_de_terminar": 43,
     "zerados": 20
   },
@@ -8618,19 +8618,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 38,
+      "farmacia": 37,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 38,
+      "total": 37,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-10-08 20:26:13",
+      "atualizado_em": "2026-10-13 13:54:04",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -8638,7 +8638,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 38
+          "quantidade": 37
         }
       ],
       "minimo_manual": 0,
@@ -8646,9 +8646,9 @@
       "previsao_20_dias": 1,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 62,
-      "media_diaria_saida": 0.03,
-      "total_saida_historica": 2,
-      "cobertura_dias": 1178.0,
+      "media_diaria_saida": 0.05,
+      "total_saida_historica": 3,
+      "cobertura_dias": 764.7,
       "alerta_estoque": false
     },
     {
@@ -16854,6 +16854,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 3876,
+      "item_id": 208,
+      "produto_nome": "Insulina NPH",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 1,
+      "responsavel": "Leiliana",
+      "data": "2026-10-13",
+      "obs": "",
+      "criado_em": "2026-10-13 13:54:04",
+      "item": "Insulina NPH",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 3875,
       "item_id": 227,
       "produto_nome": "Enoxaparina sódica 60mg",
@@ -24336,21 +24351,6 @@
       "obs": "",
       "criado_em": "2026-10-01 14:04:05",
       "item": "Seringa 20ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 3376,
-      "item_id": 103,
-      "produto_nome": "Seringa 10ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 40,
-      "responsavel": "Assucena",
-      "data": "2026-10-01",
-      "obs": "",
-      "criado_em": "2026-10-01 14:03:55",
-      "item": "Seringa 10ml",
       "usuario": "Assucena"
     }
   ]
