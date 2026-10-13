@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "13/10/2026 14:16:45",
+  "atualizado_em": "13/10/2026 14:16:56",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 411,
-    "total_almoxarifado": 112419,
+    "total_almoxarifado": 112489,
     "total_farmacia": 32913,
-    "total_geral": 145332,
+    "total_geral": 145402,
     "perto_de_terminar": 29,
     "zerados": 16
   },
@@ -8235,20 +8235,20 @@
       "nome": "GLICOSE 50% AMP 10ML",
       "tipo": "Medicamento",
       "unidade": "Unidade",
-      "almoxarifado": 80,
+      "almoxarifado": 150,
       "farmacia": 103,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 183,
+      "total": 253,
       "minimo": 50,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-08 20:26:13",
+      "atualizado_em": "2026-10-13 14:16:55",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -8256,7 +8256,7 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 80
+          "quantidade": 150
         },
         {
           "local": "farmacia",
@@ -8272,7 +8272,7 @@
       "dias_historico": 49,
       "media_diaria_saida": 1.73,
       "total_saida_historica": 85,
-      "cobertura_dias": 105.5,
+      "cobertura_dias": 145.8,
       "alerta_estoque": false
     },
     {
@@ -17368,6 +17368,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 3940,
+      "item_id": 350,
+      "produto_nome": "GLICOSE 50% AMP 10ML",
+      "tipo": "Entrada no Almoxarifado",
+      "origem": "Entrada externa",
+      "destino": "Almoxarifado",
+      "quantidade": 70,
+      "responsavel": "Leiliana",
+      "data": "2026-10-13",
+      "obs": "",
+      "criado_em": "2026-10-13 14:16:55",
+      "item": "GLICOSE 50% AMP 10ML",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 3939,
       "item_id": 351,
       "produto_nome": "GLICOSE 25% AMP 10ML",
@@ -24850,21 +24865,6 @@
       "obs": "",
       "criado_em": "2026-10-02 11:35:05",
       "item": "Luva G procedimento",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 3440,
-      "item_id": 329,
-      "produto_nome": "Polifix",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 10,
-      "responsavel": "Assucena",
-      "data": "2026-10-01",
-      "obs": "",
-      "criado_em": "2026-10-02 11:34:48",
-      "item": "Polifix",
       "usuario": "Assucena"
     }
   ]
