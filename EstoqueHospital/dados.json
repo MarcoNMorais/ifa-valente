@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "13/10/2026 15:14:59",
+  "atualizado_em": "13/10/2026 15:15:11",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 412,
     "total_almoxarifado": 114337,
-    "total_farmacia": 33241,
-    "total_geral": 147578,
+    "total_farmacia": 33239,
+    "total_geral": 147576,
     "perto_de_terminar": 22,
     "zerados": 12
   },
@@ -10172,19 +10172,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 203,
+      "farmacia": 201,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 203,
+      "total": 201,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-13 13:45:12",
+      "atualizado_em": "2026-10-13 15:15:10",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -10192,17 +10192,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 203
+          "quantidade": 201
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 567,
-      "previsao_20_dias": 567,
+      "minimo_alerta": 568,
+      "previsao_20_dias": 568,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 62,
-      "media_diaria_saida": 28.34,
-      "total_saida_historica": 1757,
-      "cobertura_dias": 7.2,
+      "media_diaria_saida": 28.37,
+      "total_saida_historica": 1759,
+      "cobertura_dias": 7.1,
       "alerta_estoque": true
     },
     {
@@ -17482,6 +17482,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 4069,
+      "item_id": 181,
+      "produto_nome": "Luva de látex tam. M",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 2,
+      "responsavel": "Leiliana",
+      "data": "2026-10-13",
+      "obs": "",
+      "criado_em": "2026-10-13 15:15:10",
+      "item": "Luva de látex tam. M",
+      "usuario": "Leiliana"
+    },
     {
       "id": 4068,
       "item_id": 98,
@@ -24965,21 +24980,6 @@
       "obs": "",
       "criado_em": "2026-10-05 15:25:43",
       "item": "Atensina 0,150mg CPR",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 3569,
-      "item_id": 255,
-      "produto_nome": "Ibuprofeno gotas",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 1,
-      "responsavel": "Leiliana",
-      "data": "2026-10-05",
-      "obs": "",
-      "criado_em": "2026-10-05 15:25:30",
-      "item": "Ibuprofeno gotas",
       "usuario": "Leiliana"
     }
   ]
