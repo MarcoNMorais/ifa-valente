@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "13/10/2026 15:15:22",
+  "atualizado_em": "13/10/2026 15:15:32",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 412,
     "total_almoxarifado": 114337,
-    "total_farmacia": 33214,
-    "total_geral": 147551,
+    "total_farmacia": 33213,
+    "total_geral": 147550,
     "perto_de_terminar": 22,
     "zerados": 12
   },
@@ -16584,19 +16584,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 60,
-      "farmacia": 194,
+      "farmacia": 193,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 254,
+      "total": 253,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-13 14:57:52",
+      "atualizado_em": "2026-10-13 15:15:31",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -16610,7 +16610,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 194
+          "quantidade": 193
         }
       ],
       "minimo_manual": 0,
@@ -16618,9 +16618,9 @@
       "previsao_20_dias": 283,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 62,
-      "media_diaria_saida": 14.13,
-      "total_saida_historica": 876,
-      "cobertura_dias": 18.0,
+      "media_diaria_saida": 14.15,
+      "total_saida_historica": 877,
+      "cobertura_dias": 17.9,
       "alerta_estoque": true
     },
     {
@@ -17482,6 +17482,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 4071,
+      "item_id": 195,
+      "produto_nome": "Tira Reagente G-Tech",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 1,
+      "responsavel": "Leiliana",
+      "data": "2026-10-13",
+      "obs": "",
+      "criado_em": "2026-10-13 15:15:31",
+      "item": "Tira Reagente G-Tech",
+      "usuario": "Leiliana"
+    },
     {
       "id": 4070,
       "item_id": 229,
@@ -24965,21 +24980,6 @@
       "obs": "",
       "criado_em": "2026-10-05 15:26:06",
       "item": "Soro fisiológico 250ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 3571,
-      "item_id": 24,
-      "produto_nome": "AAS",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 20,
-      "responsavel": "Leiliana",
-      "data": "2026-10-05",
-      "obs": "",
-      "criado_em": "2026-10-05 15:25:54",
-      "item": "AAS",
       "usuario": "Leiliana"
     }
   ]
