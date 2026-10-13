@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "13/10/2026 13:55:39",
+  "atualizado_em": "13/10/2026 13:55:45",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
-    "itens": 403,
-    "total_almoxarifado": 103226,
+    "itens": 404,
+    "total_almoxarifado": 103289,
     "total_farmacia": 32906,
-    "total_geral": 136132,
+    "total_geral": 136195,
     "perto_de_terminar": 43,
     "zerados": 20
   },
@@ -15280,6 +15280,46 @@
       "alerta_estoque": false
     },
     {
+      "id": 404,
+      "produto_id": 405,
+      "nome": "soro glicofidiologoco",
+      "tipo": "Medicamento",
+      "unidade": "Unidade",
+      "almoxarifado": 63,
+      "farmacia": 0,
+      "sala_medicacoes": 0,
+      "internamento": 0,
+      "sala_cirurgica": 0,
+      "baixa": 0,
+      "outro": 0,
+      "total": 63,
+      "minimo": 0,
+      "validade": "",
+      "lote": "",
+      "origem": "Entrada externa",
+      "obs": "",
+      "atualizado_em": "2026-10-13 13:55:44",
+      "validade_mais_proxima": "",
+      "vencimento_mais_proximo": "",
+      "lotes_validade": [
+        {
+          "local": "almoxarifado",
+          "validade": "",
+          "lote": "",
+          "quantidade": 63
+        }
+      ],
+      "minimo_manual": 0,
+      "minimo_alerta": 0,
+      "previsao_20_dias": 0,
+      "criterio_alerta": "estoque_minimo_manual_inicio",
+      "dias_historico": 1,
+      "media_diaria_saida": 0.0,
+      "total_saida_historica": 0,
+      "cobertura_dias": null,
+      "alerta_estoque": false
+    },
+    {
       "id": 206,
       "produto_id": 206,
       "nome": "Soro glicose 5% 250ml",
@@ -16853,6 +16893,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 3877,
+      "item_id": 404,
+      "produto_nome": "soro glicofidiologoco",
+      "tipo": "Entrada no Almoxarifado",
+      "origem": "Entrada externa",
+      "destino": "Almoxarifado",
+      "quantidade": 63,
+      "responsavel": "Leiliana",
+      "data": "2026-10-13",
+      "obs": "",
+      "criado_em": "2026-10-13 13:55:44",
+      "item": "soro glicofidiologoco",
+      "usuario": "Leiliana"
+    },
     {
       "id": 3876,
       "item_id": 208,
@@ -24336,21 +24391,6 @@
       "obs": "",
       "criado_em": "2026-10-01 14:04:16",
       "item": "Soro fisiológico 100ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 3377,
-      "item_id": 274,
-      "produto_nome": "Seringa 20ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 40,
-      "responsavel": "Assucena",
-      "data": "2026-10-01",
-      "obs": "",
-      "criado_em": "2026-10-01 14:04:05",
-      "item": "Seringa 20ml",
       "usuario": "Assucena"
     }
   ]
