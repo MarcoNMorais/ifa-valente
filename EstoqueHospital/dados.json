@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "13/10/2026 15:01:02",
+  "atualizado_em": "13/10/2026 15:01:13",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 412,
     "total_almoxarifado": 114607,
-    "total_farmacia": 34196,
-    "total_geral": 148803,
+    "total_farmacia": 34186,
+    "total_geral": 148793,
     "perto_de_terminar": 20,
     "zerados": 12
   },
@@ -12307,19 +12307,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 140,
-      "farmacia": 118,
+      "farmacia": 108,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 258,
+      "total": 248,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-13 14:19:47",
+      "atualizado_em": "2026-10-13 15:01:12",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -12333,17 +12333,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 118
+          "quantidade": 108
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 84,
-      "previsao_20_dias": 84,
+      "minimo_alerta": 88,
+      "previsao_20_dias": 88,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 58,
-      "media_diaria_saida": 4.19,
-      "total_saida_historica": 243,
-      "cobertura_dias": 61.6,
+      "media_diaria_saida": 4.36,
+      "total_saida_historica": 253,
+      "cobertura_dias": 56.9,
       "alerta_estoque": false
     },
     {
@@ -17482,6 +17482,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 4011,
+      "item_id": 229,
+      "produto_nome": "Oxacilina 500mg pó injetável",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 10,
+      "responsavel": "Leiliana",
+      "data": "2026-10-13",
+      "obs": "",
+      "criado_em": "2026-10-13 15:01:12",
+      "item": "Oxacilina 500mg pó injetável",
+      "usuario": "Leiliana"
+    },
     {
       "id": 4010,
       "item_id": 241,
@@ -24965,21 +24980,6 @@
       "obs": "",
       "criado_em": "2026-10-05 15:10:02",
       "item": "Captopril 25mg CPR",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 3511,
-      "item_id": 376,
-      "produto_nome": "LENÇOL DESCARTAVEL PAPEL",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 4,
-      "responsavel": "Leiliana",
-      "data": "2026-10-05",
-      "obs": "",
-      "criado_em": "2026-10-05 15:09:48",
-      "item": "LENÇOL DESCARTAVEL PAPEL",
       "usuario": "Leiliana"
     }
   ]
