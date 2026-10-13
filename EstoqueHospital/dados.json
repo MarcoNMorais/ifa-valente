@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "13/10/2026 16:38:47",
+  "atualizado_em": "13/10/2026 16:48:53",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 412,
     "total_almoxarifado": 113707,
-    "total_farmacia": 32762,
-    "total_geral": 146469,
+    "total_farmacia": 32761,
+    "total_geral": 146468,
     "perto_de_terminar": 23,
     "zerados": 12
   },
@@ -1235,19 +1235,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 11,
+      "farmacia": 10,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 11,
+      "total": 10,
       "minimo": 0,
       "validade": "01/27",
       "lote": "",
       "origem": "Carga Farmácia 227-288",
       "obs": "Importação Farmácia 227-288",
-      "atualizado_em": "2026-10-13 13:52:57",
+      "atualizado_em": "2026-10-13 16:48:52",
       "validade_mais_proxima": "01/27",
       "vencimento_mais_proximo": "01/27",
       "lotes_validade": [
@@ -1255,7 +1255,7 @@
           "local": "farmacia",
           "validade": "01/27",
           "lote": "",
-          "quantidade": 11
+          "quantidade": 10
         }
       ],
       "minimo_manual": 0,
@@ -1263,9 +1263,9 @@
       "previsao_20_dias": 2,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 57,
-      "media_diaria_saida": 0.05,
-      "total_saida_historica": 3,
-      "cobertura_dias": 209.0,
+      "media_diaria_saida": 0.07,
+      "total_saida_historica": 4,
+      "cobertura_dias": 142.5,
       "alerta_estoque": false
     },
     {
@@ -17453,6 +17453,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 4136,
+      "item_id": 243,
+      "produto_nome": "Ambroxol 15mg/5ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 1,
+      "responsavel": "Leiliana",
+      "data": "2026-10-13",
+      "obs": "",
+      "criado_em": "2026-10-13 16:48:52",
+      "item": "Ambroxol 15mg/5ml",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 4135,
       "item_id": 181,
       "produto_nome": "Luva de látex tam. M",
@@ -24935,21 +24950,6 @@
       "obs": "",
       "criado_em": "2026-10-06 11:33:31",
       "item": "Agulha 13x4,5",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 3636,
-      "item_id": 185,
-      "produto_nome": "Luva cirúrgica tam. 7,5",
-      "tipo": "Farmácia para Sala Cirúrgica",
-      "origem": "Farmácia",
-      "destino": "Sala Cirúrgica",
-      "quantidade": 10,
-      "responsavel": "Assucena",
-      "data": "2026-10-05",
-      "obs": "",
-      "criado_em": "2026-10-06 11:33:23",
-      "item": "Luva cirúrgica tam. 7,5",
       "usuario": "Assucena"
     }
   ]
