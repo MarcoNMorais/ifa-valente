@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "13/10/2026 15:06:47",
+  "atualizado_em": "13/10/2026 15:07:27",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 412,
     "total_almoxarifado": 114557,
-    "total_farmacia": 33883,
-    "total_geral": 148440,
+    "total_farmacia": 33857,
+    "total_geral": 148414,
     "perto_de_terminar": 21,
     "zerados": 12
   },
@@ -1666,7 +1666,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 134
+          "quantidade": 146
         }
       ],
       "minimo_manual": 0,
@@ -13087,19 +13087,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 820,
-      "farmacia": 37,
+      "farmacia": 11,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 857,
+      "total": 831,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-13 15:02:19",
+      "atualizado_em": "2026-10-13 15:07:26",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -13113,17 +13113,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 37
+          "quantidade": 11
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 132,
-      "previsao_20_dias": 132,
+      "minimo_alerta": 141,
+      "previsao_20_dias": 141,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 62,
-      "media_diaria_saida": 6.6,
-      "total_saida_historica": 409,
-      "cobertura_dias": 129.9,
+      "media_diaria_saida": 7.02,
+      "total_saida_historica": 435,
+      "cobertura_dias": 118.4,
       "alerta_estoque": false
     },
     {
@@ -17482,6 +17482,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 4037,
+      "item_id": 99,
+      "produto_nome": "Scalp nº 21",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 26,
+      "responsavel": "Leiliana",
+      "data": "2026-10-13",
+      "obs": "",
+      "criado_em": "2026-10-13 15:07:26",
+      "item": "Scalp nº 21",
+      "usuario": "Leiliana"
+    },
     {
       "id": 4036,
       "item_id": 152,
@@ -24965,21 +24980,6 @@
       "obs": "",
       "criado_em": "2026-10-05 15:18:41",
       "item": "Gelco nº 22",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 3537,
-      "item_id": 181,
-      "produto_nome": "Luva de látex tam. M",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 3,
-      "responsavel": "Leiliana",
-      "data": "2026-10-05",
-      "obs": "",
-      "criado_em": "2026-10-05 15:18:30",
-      "item": "Luva de látex tam. M",
       "usuario": "Leiliana"
     }
   ]
