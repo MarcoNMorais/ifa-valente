@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "13/10/2026 14:23:52",
+  "atualizado_em": "13/10/2026 14:24:10",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 412,
-    "total_almoxarifado": 116486,
+    "total_almoxarifado": 116516,
     "total_farmacia": 32913,
-    "total_geral": 149399,
+    "total_geral": 149429,
     "perto_de_terminar": 20,
     "zerados": 12
   },
@@ -5025,20 +5025,20 @@
       "nome": "DIAZEPAN 10MG",
       "tipo": "Medicamento",
       "unidade": "Unidade",
-      "almoxarifado": 80,
+      "almoxarifado": 110,
       "farmacia": 0,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 80,
+      "total": 110,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-08 20:26:13",
+      "atualizado_em": "2026-10-13 14:24:09",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -5046,7 +5046,7 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 80
+          "quantidade": 110
         }
       ],
       "minimo_manual": 0,
@@ -17501,6 +17501,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 3965,
+      "item_id": 388,
+      "produto_nome": "DIAZEPAN 10MG",
+      "tipo": "Entrada no Almoxarifado",
+      "origem": "Entrada externa",
+      "destino": "Almoxarifado",
+      "quantidade": 30,
+      "responsavel": "Leiliana",
+      "data": "2026-10-13",
+      "obs": "",
+      "criado_em": "2026-10-13 14:24:09",
+      "item": "DIAZEPAN 10MG",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 3964,
       "item_id": 4,
       "produto_nome": "Decanoato de haloperidol",
@@ -24983,21 +24998,6 @@
       "obs": "",
       "criado_em": "2026-10-05 10:18:52",
       "item": "Tira Reagente G-Tech",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 3458,
-      "item_id": 390,
-      "produto_nome": "AGULHA  40X1,2",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 40,
-      "responsavel": "Assucena",
-      "data": "2026-10-03",
-      "obs": "",
-      "criado_em": "2026-10-05 10:18:41",
-      "item": "AGULHA  40X1,2",
       "usuario": "Assucena"
     }
   ]
