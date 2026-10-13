@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "13/10/2026 15:21:46",
+  "atualizado_em": "13/10/2026 15:21:56",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 412,
     "total_almoxarifado": 114057,
-    "total_farmacia": 32982,
-    "total_geral": 147039,
+    "total_farmacia": 32952,
+    "total_geral": 147009,
     "perto_de_terminar": 22,
     "zerados": 12
   },
@@ -3010,19 +3010,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 350,
-      "farmacia": 100,
+      "farmacia": 70,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 450,
+      "total": 420,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-13 14:54:40",
+      "atualizado_em": "2026-10-13 15:21:55",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -3036,17 +3036,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 100
+          "quantidade": 70
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 171,
-      "previsao_20_dias": 171,
+      "minimo_alerta": 181,
+      "previsao_20_dias": 181,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 62,
-      "media_diaria_saida": 8.55,
-      "total_saida_historica": 530,
-      "cobertura_dias": 52.6,
+      "media_diaria_saida": 9.03,
+      "total_saida_historica": 560,
+      "cobertura_dias": 46.5,
       "alerta_estoque": false
     },
     {
@@ -17465,6 +17465,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 4102,
+      "item_id": 57,
+      "produto_nome": "Bromoprida 5mg",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 30,
+      "responsavel": "Leiliana",
+      "data": "2026-10-13",
+      "obs": "",
+      "criado_em": "2026-10-13 15:21:55",
+      "item": "Bromoprida 5mg",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 4101,
       "item_id": 82,
       "produto_nome": "Hidrocortisona 100MG",
@@ -24947,21 +24962,6 @@
       "obs": "",
       "criado_em": "2026-10-05 16:48:57",
       "item": "Equipo fotossensível",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 3602,
-      "item_id": 203,
-      "produto_nome": "Soro fisiológico 250ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 7,
-      "responsavel": "Leiliana",
-      "data": "2026-10-05",
-      "obs": "",
-      "criado_em": "2026-10-05 16:48:44",
-      "item": "Soro fisiológico 250ml",
       "usuario": "Leiliana"
     }
   ]
