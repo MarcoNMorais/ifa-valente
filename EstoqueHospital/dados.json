@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "13/10/2026 14:57:18",
+  "atualizado_em": "13/10/2026 14:57:31",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 412,
     "total_almoxarifado": 115237,
-    "total_farmacia": 33627,
-    "total_geral": 148864,
+    "total_farmacia": 33626,
+    "total_geral": 148863,
     "perto_de_terminar": 20,
     "zerados": 12
   },
@@ -2862,19 +2862,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 137,
-      "farmacia": 3,
+      "farmacia": 2,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 140,
+      "total": 139,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-08 20:26:13",
+      "atualizado_em": "2026-10-13 14:57:30",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -2888,7 +2888,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 3
+          "quantidade": 2
         }
       ],
       "minimo_manual": 0,
@@ -2896,9 +2896,9 @@
       "previsao_20_dias": 13,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 62,
-      "media_diaria_saida": 0.63,
-      "total_saida_historica": 39,
-      "cobertura_dias": 222.6,
+      "media_diaria_saida": 0.65,
+      "total_saida_historica": 40,
+      "cobertura_dias": 215.5,
       "alerta_estoque": false
     },
     {
@@ -17489,6 +17489,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 4001,
+      "item_id": 155,
+      "produto_nome": "Bolsa coletora",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 1,
+      "responsavel": "Leiliana",
+      "data": "2026-10-13",
+      "obs": "",
+      "criado_em": "2026-10-13 14:57:30",
+      "item": "Bolsa coletora",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 4000,
       "item_id": 276,
       "produto_nome": "Esparadrapo 10x4,5",
@@ -24971,21 +24986,6 @@
       "obs": "",
       "criado_em": "2026-10-05 11:19:55",
       "item": "Hidralazina 20mg",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 3501,
-      "item_id": 51,
-      "produto_nome": "Ampicilina",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 20,
-      "responsavel": "Assucena",
-      "data": "2026-10-03",
-      "obs": "",
-      "criado_em": "2026-10-05 11:19:43",
-      "item": "Ampicilina",
       "usuario": "Assucena"
     }
   ]
