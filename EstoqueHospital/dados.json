@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "13/10/2026 15:13:28",
+  "atualizado_em": "13/10/2026 15:13:39",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 412,
     "total_almoxarifado": 114407,
-    "total_farmacia": 33252,
-    "total_geral": 147659,
+    "total_farmacia": 33228,
+    "total_geral": 147635,
     "perto_de_terminar": 22,
     "zerados": 12
   },
@@ -1640,19 +1640,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 2304,
-      "farmacia": 134,
+      "farmacia": 110,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 2438,
+      "total": 2414,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-13 15:06:46",
+      "atualizado_em": "2026-10-13 15:13:38",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -1666,17 +1666,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 146
+          "quantidade": 122
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 128,
-      "previsao_20_dias": 128,
+      "minimo_alerta": 135,
+      "previsao_20_dias": 135,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 62,
-      "media_diaria_saida": 6.35,
-      "total_saida_historica": 394,
-      "cobertura_dias": 383.6,
+      "media_diaria_saida": 6.74,
+      "total_saida_historica": 418,
+      "cobertura_dias": 358.1,
       "alerta_estoque": false
     },
     {
@@ -17483,6 +17483,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 4062,
+      "item_id": 152,
+      "produto_nome": "Atadura crepon nº 10",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 24,
+      "responsavel": "Leiliana",
+      "data": "2026-10-13",
+      "obs": "",
+      "criado_em": "2026-10-13 15:13:38",
+      "item": "Atadura crepon nº 10",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 4061,
       "item_id": 151,
       "produto_nome": "Atadura crepon nº 15",
@@ -24965,21 +24980,6 @@
       "obs": "",
       "criado_em": "2026-10-05 15:24:11",
       "item": "LENÇOL DESCARTAVEL PAPEL",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 3562,
-      "item_id": 329,
-      "produto_nome": "Polifix",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 20,
-      "responsavel": "Leiliana",
-      "data": "2026-10-05",
-      "obs": "",
-      "criado_em": "2026-10-05 15:23:59",
-      "item": "Polifix",
       "usuario": "Leiliana"
     }
   ]
