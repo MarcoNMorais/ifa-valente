@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "13/10/2026 13:39:26",
+  "atualizado_em": "13/10/2026 13:39:39",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 103850,
-    "total_farmacia": 33224,
-    "total_geral": 137074,
+    "total_farmacia": 33134,
+    "total_geral": 136984,
     "perto_de_terminar": 42,
     "zerados": 19
   },
@@ -692,19 +692,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 14700,
-      "farmacia": 755,
+      "farmacia": 665,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 15455,
+      "total": 15365,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-08 20:26:13",
+      "atualizado_em": "2026-10-13 13:39:38",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -718,17 +718,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 755
+          "quantidade": 665
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 472,
-      "previsao_20_dias": 472,
+      "minimo_alerta": 504,
+      "previsao_20_dias": 504,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 57,
-      "media_diaria_saida": 23.6,
-      "total_saida_historica": 1345,
-      "cobertura_dias": 655.0,
+      "media_diaria_saida": 25.18,
+      "total_saida_historica": 1435,
+      "cobertura_dias": 610.3,
       "alerta_estoque": false
     },
     {
@@ -16879,6 +16879,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 3827,
+      "item_id": 285,
+      "produto_nome": "Agulha 30x7",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 90,
+      "responsavel": "Leiliana",
+      "data": "2026-10-13",
+      "obs": "",
+      "criado_em": "2026-10-13 13:39:38",
+      "item": "Agulha 30x7",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 3826,
       "item_id": 390,
       "produto_nome": "AGULHA  40X1,2",
@@ -24361,21 +24376,6 @@
       "obs": "",
       "criado_em": "2026-09-30 10:55:58",
       "item": "Ibuprofeno gotas",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 3327,
-      "item_id": 256,
-      "produto_nome": "Simeticona gotas",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 1,
-      "responsavel": "Assucena",
-      "data": "2026-09-29",
-      "obs": "",
-      "criado_em": "2026-09-30 10:55:47",
-      "item": "Simeticona gotas",
       "usuario": "Assucena"
     }
   ]
