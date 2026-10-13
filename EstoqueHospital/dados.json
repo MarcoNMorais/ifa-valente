@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "13/10/2026 14:56:24",
+  "atualizado_em": "13/10/2026 14:56:44",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 412,
     "total_almoxarifado": 115237,
-    "total_farmacia": 33633,
-    "total_geral": 148870,
+    "total_farmacia": 33631,
+    "total_geral": 148868,
     "perto_de_terminar": 20,
     "zerados": 12
   },
@@ -3696,28 +3696,22 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 61,
+      "farmacia": 59,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 61,
+      "total": 59,
       "minimo": 0,
-      "validade": "2027-03",
+      "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-10-08 20:26:13",
-      "validade_mais_proxima": "2027-03",
-      "vencimento_mais_proximo": "2027-03",
+      "atualizado_em": "2026-10-13 14:56:43",
+      "validade_mais_proxima": "",
+      "vencimento_mais_proximo": "",
       "lotes_validade": [
-        {
-          "local": "farmacia",
-          "validade": "2027-03",
-          "lote": "",
-          "quantidade": 2
-        },
         {
           "local": "farmacia",
           "validade": "",
@@ -3726,13 +3720,13 @@
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 4,
-      "previsao_20_dias": 4,
+      "minimo_alerta": 5,
+      "previsao_20_dias": 5,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 62,
-      "media_diaria_saida": 0.19,
-      "total_saida_historica": 12,
-      "cobertura_dias": 315.2,
+      "media_diaria_saida": 0.23,
+      "total_saida_historica": 14,
+      "cobertura_dias": 261.3,
       "alerta_estoque": false
     },
     {
@@ -17495,6 +17489,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 3997,
+      "item_id": 63,
+      "produto_nome": "Ciprofloxacino",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 2,
+      "responsavel": "Leiliana",
+      "data": "2026-10-13",
+      "obs": "",
+      "criado_em": "2026-10-13 14:56:43",
+      "item": "Ciprofloxacino",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 3996,
       "item_id": 184,
       "produto_nome": "Luva cirúrgica tam. 7",
@@ -24977,21 +24986,6 @@
       "obs": "",
       "criado_em": "2026-10-05 10:24:28",
       "item": "Omeprazol sódico 40mg AMP",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 3492,
-      "item_id": 59,
-      "produto_nome": "Ceftriaxona 1g",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 20,
-      "responsavel": "Assucena",
-      "data": "2026-10-03",
-      "obs": "",
-      "criado_em": "2026-10-05 10:24:20",
-      "item": "Ceftriaxona 1g",
       "usuario": "Assucena"
     }
   ]
