@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "13/10/2026 13:43:44",
+  "atualizado_em": "13/10/2026 13:43:54",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 103250,
-    "total_farmacia": 33455,
-    "total_geral": 136705,
+    "total_farmacia": 33449,
+    "total_geral": 136699,
     "perto_de_terminar": 42,
     "zerados": 19
   },
@@ -11614,19 +11614,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 86,
+      "farmacia": 80,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 86,
+      "total": 80,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-08 20:26:13",
+      "atualizado_em": "2026-10-13 13:43:53",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -11634,17 +11634,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 86
+          "quantidade": 80
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 94,
-      "previsao_20_dias": 94,
+      "minimo_alerta": 96,
+      "previsao_20_dias": 96,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 61,
-      "media_diaria_saida": 4.69,
-      "total_saida_historica": 286,
-      "cobertura_dias": 18.3,
+      "media_diaria_saida": 4.79,
+      "total_saida_historica": 292,
+      "cobertura_dias": 16.7,
       "alerta_estoque": true
     },
     {
@@ -16878,6 +16878,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 3840,
+      "item_id": 228,
+      "produto_nome": "Omeprazol sódico 40mg AMP",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 6,
+      "responsavel": "Leiliana",
+      "data": "2026-10-13",
+      "obs": "",
+      "criado_em": "2026-10-13 13:43:53",
+      "item": "Omeprazol sódico 40mg AMP",
+      "usuario": "Leiliana"
+    },
     {
       "id": 3839,
       "item_id": 4,
@@ -24361,21 +24376,6 @@
       "obs": "",
       "criado_em": "2026-09-30 10:58:35",
       "item": "Lactulose solução",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 3340,
-      "item_id": 57,
-      "produto_nome": "Bromoprida 5mg",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 20,
-      "responsavel": "Assucena",
-      "data": "2026-09-29",
-      "obs": "",
-      "criado_em": "2026-09-30 10:58:29",
-      "item": "Bromoprida 5mg",
       "usuario": "Assucena"
     }
   ]
