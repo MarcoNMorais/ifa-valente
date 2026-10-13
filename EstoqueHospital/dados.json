@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "13/10/2026 14:07:15",
+  "atualizado_em": "13/10/2026 14:07:28",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 408,
-    "total_almoxarifado": 104730,
+    "total_almoxarifado": 104733,
     "total_farmacia": 32913,
-    "total_geral": 137643,
+    "total_geral": 137646,
     "perto_de_terminar": 40,
     "zerados": 20
   },
@@ -11437,20 +11437,20 @@
       "nome": "Nistatina suspensão",
       "tipo": "Medicamento",
       "unidade": "Unidade",
-      "almoxarifado": 5,
+      "almoxarifado": 8,
       "farmacia": 2,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 7,
+      "total": 10,
       "minimo": 0,
       "validade": "07/27",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-08 20:26:13",
+      "atualizado_em": "2026-10-13 14:07:27",
       "validade_mais_proxima": "07/27",
       "vencimento_mais_proximo": "07/27",
       "lotes_validade": [
@@ -11464,7 +11464,7 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 5
+          "quantidade": 8
         }
       ],
       "minimo_manual": 0,
@@ -11474,7 +11474,7 @@
       "dias_historico": 57,
       "media_diaria_saida": 0.02,
       "total_saida_historica": 1,
-      "cobertura_dias": 399.0,
+      "cobertura_dias": 570.0,
       "alerta_estoque": false
     },
     {
@@ -17131,6 +17131,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 3908,
+      "item_id": 250,
+      "produto_nome": "Nistatina suspensão",
+      "tipo": "Entrada no Almoxarifado",
+      "origem": "Entrada externa",
+      "destino": "Almoxarifado",
+      "quantidade": 3,
+      "responsavel": "Leiliana",
+      "data": "2026-10-13",
+      "obs": "",
+      "criado_em": "2026-10-13 14:07:27",
+      "item": "Nistatina suspensão",
+      "usuario": "Leiliana"
+    },
     {
       "id": 3907,
       "item_id": 379,
@@ -24614,21 +24629,6 @@
       "obs": "",
       "criado_em": "2026-10-02 11:29:36",
       "item": "Ácido Tranexâmico 50mg",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 3408,
-      "item_id": 56,
-      "produto_nome": "Benzilpenicilina 600 UI",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 5,
-      "responsavel": "Assucena",
-      "data": "2026-10-01",
-      "obs": "",
-      "criado_em": "2026-10-02 11:29:27",
-      "item": "Benzilpenicilina 600 UI",
       "usuario": "Assucena"
     }
   ]
