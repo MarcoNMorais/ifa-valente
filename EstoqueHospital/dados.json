@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "13/10/2026 14:58:59",
+  "atualizado_em": "13/10/2026 14:59:11",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 412,
     "total_almoxarifado": 115027,
-    "total_farmacia": 33813,
-    "total_geral": 148840,
+    "total_farmacia": 33793,
+    "total_geral": 148820,
     "perto_de_terminar": 20,
     "zerados": 12
   },
@@ -320,19 +320,19 @@
       "tipo": "Medicamento",
       "unidade": "Ampola",
       "almoxarifado": 0,
-      "farmacia": 210,
+      "farmacia": 190,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 210,
+      "total": 190,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-13 14:58:58",
+      "atualizado_em": "2026-10-13 14:59:09",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -340,17 +340,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 210
+          "quantidade": 190
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 120,
-      "previsao_20_dias": 120,
+      "minimo_alerta": 130,
+      "previsao_20_dias": 130,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 40,
-      "media_diaria_saida": 6.0,
-      "total_saida_historica": 240,
-      "cobertura_dias": 35.0,
+      "media_diaria_saida": 6.5,
+      "total_saida_historica": 260,
+      "cobertura_dias": 29.2,
       "alerta_estoque": false
     },
     {
@@ -17483,6 +17483,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 4006,
+      "item_id": 384,
+      "produto_nome": "ACIDO ASCORBICO",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 20,
+      "responsavel": "Leiliana",
+      "data": "2026-10-13",
+      "obs": "",
+      "criado_em": "2026-10-13 14:59:09",
+      "item": "ACIDO ASCORBICO",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 4005,
       "item_id": 384,
       "produto_nome": "ACIDO ASCORBICO",
@@ -24965,21 +24980,6 @@
       "obs": "",
       "criado_em": "2026-10-05 11:20:40",
       "item": "Bolsa coletora",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 3506,
-      "item_id": 195,
-      "produto_nome": "Tira Reagente G-Tech",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 2,
-      "responsavel": "Assucena",
-      "data": "2026-10-03",
-      "obs": "",
-      "criado_em": "2026-10-05 11:20:32",
-      "item": "Tira Reagente G-Tech",
       "usuario": "Assucena"
     }
   ]
