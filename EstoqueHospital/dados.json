@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "13/10/2026 15:04:20",
+  "atualizado_em": "13/10/2026 15:04:28",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 412,
     "total_almoxarifado": 114557,
-    "total_farmacia": 34020,
-    "total_geral": 148577,
+    "total_farmacia": 33980,
+    "total_geral": 148537,
     "perto_de_terminar": 21,
     "zerados": 12
   },
@@ -13403,19 +13403,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 4450,
-      "farmacia": 510,
+      "farmacia": 470,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 4960,
+      "total": 4920,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-13 14:55:45",
+      "atualizado_em": "2026-10-13 15:04:26",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -13429,17 +13429,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 540
+          "quantidade": 500
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 1018,
-      "previsao_20_dias": 1018,
+      "minimo_alerta": 1031,
+      "previsao_20_dias": 1031,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 62,
-      "media_diaria_saida": 50.89,
-      "total_saida_historica": 3155,
-      "cobertura_dias": 97.5,
+      "media_diaria_saida": 51.53,
+      "total_saida_historica": 3195,
+      "cobertura_dias": 95.5,
       "alerta_estoque": false
     },
     {
@@ -17482,6 +17482,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 4025,
+      "item_id": 102,
+      "produto_nome": "Seringa 5ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 40,
+      "responsavel": "Leiliana",
+      "data": "2026-10-13",
+      "obs": "",
+      "criado_em": "2026-10-13 15:04:26",
+      "item": "Seringa 5ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 4024,
       "item_id": 376,
@@ -24965,21 +24980,6 @@
       "obs": "",
       "criado_em": "2026-10-05 15:14:24",
       "item": "Diclofenaco 25mg",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 3525,
-      "item_id": 60,
-      "produto_nome": "Cetoprofeno EV 100mg",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 14,
-      "responsavel": "Leiliana",
-      "data": "2026-10-05",
-      "obs": "",
-      "criado_em": "2026-10-05 15:14:13",
-      "item": "Cetoprofeno EV 100mg",
       "usuario": "Leiliana"
     }
   ]
