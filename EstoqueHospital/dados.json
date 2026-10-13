@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "13/10/2026 13:40:32",
+  "atualizado_em": "13/10/2026 13:40:44",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 103250,
-    "total_farmacia": 33574,
-    "total_geral": 136824,
+    "total_farmacia": 33544,
+    "total_geral": 136794,
     "perto_de_terminar": 42,
     "zerados": 19
   },
@@ -7771,19 +7771,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 760,
-      "farmacia": 407,
+      "farmacia": 377,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1167,
+      "total": 1137,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-08 20:26:13",
+      "atualizado_em": "2026-10-13 13:40:43",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -7797,17 +7797,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 407
+          "quantidade": 377
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 213,
-      "previsao_20_dias": 213,
+      "minimo_alerta": 222,
+      "previsao_20_dias": 222,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 62,
-      "media_diaria_saida": 10.61,
-      "total_saida_historica": 658,
-      "cobertura_dias": 110.0,
+      "media_diaria_saida": 11.1,
+      "total_saida_historica": 688,
+      "cobertura_dias": 102.5,
       "alerta_estoque": false
     },
     {
@@ -16879,6 +16879,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 3831,
+      "item_id": 176,
+      "produto_nome": "Gelco nº 24",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 30,
+      "responsavel": "Leiliana",
+      "data": "2026-10-13",
+      "obs": "",
+      "criado_em": "2026-10-13 13:40:43",
+      "item": "Gelco nº 24",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 3830,
       "item_id": 289,
       "produto_nome": "Agulha 25x8",
@@ -24361,21 +24376,6 @@
       "obs": "",
       "criado_em": "2026-09-30 10:56:55",
       "item": "Cateter tipo óculos adulto",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 3331,
-      "item_id": 281,
-      "produto_nome": "Luva P procedimento",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 2,
-      "responsavel": "Assucena",
-      "data": "2026-09-29",
-      "obs": "",
-      "criado_em": "2026-09-30 10:56:48",
-      "item": "Luva P procedimento",
       "usuario": "Assucena"
     }
   ]
