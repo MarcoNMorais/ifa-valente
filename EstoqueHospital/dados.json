@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "13/10/2026 13:39:39",
+  "atualizado_em": "13/10/2026 13:40:08",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
-    "total_almoxarifado": 103850,
-    "total_farmacia": 33134,
+    "total_almoxarifado": 103250,
+    "total_farmacia": 33734,
     "total_geral": 136984,
     "perto_de_terminar": 42,
     "zerados": 19
@@ -737,8 +737,8 @@
       "nome": "Agulha 30x8",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 15800,
-      "farmacia": 60,
+      "almoxarifado": 15200,
+      "farmacia": 660,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -750,7 +750,7 @@
       "lote": "",
       "origem": "Carga Almoxerifado",
       "obs": "Importação Almoxerifado",
-      "atualizado_em": "2026-10-08 20:26:13",
+      "atualizado_em": "2026-10-13 13:40:06",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -758,13 +758,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 15800
+          "quantidade": 15200
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 60
+          "quantidade": 660
         }
       ],
       "minimo_manual": 0,
@@ -16879,6 +16879,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 3828,
+      "item_id": 331,
+      "produto_nome": "Agulha 30x8",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 600,
+      "responsavel": "Leiliana",
+      "data": "2026-10-13",
+      "obs": "",
+      "criado_em": "2026-10-13 13:40:06",
+      "item": "Agulha 30x8",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 3827,
       "item_id": 285,
       "produto_nome": "Agulha 30x7",
@@ -24361,21 +24376,6 @@
       "obs": "",
       "criado_em": "2026-09-30 10:56:28",
       "item": "Luva cirúrgica tam. 7",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 3328,
-      "item_id": 255,
-      "produto_nome": "Ibuprofeno gotas",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 1,
-      "responsavel": "Assucena",
-      "data": "2026-09-29",
-      "obs": "",
-      "criado_em": "2026-09-30 10:55:58",
-      "item": "Ibuprofeno gotas",
       "usuario": "Assucena"
     }
   ]
