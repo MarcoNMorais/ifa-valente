@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "13/10/2026 13:55:45",
+  "atualizado_em": "13/10/2026 13:56:03",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 404,
-    "total_almoxarifado": 103289,
-    "total_farmacia": 32906,
+    "total_almoxarifado": 103265,
+    "total_farmacia": 32930,
     "total_geral": 136195,
     "perto_de_terminar": 43,
     "zerados": 20
@@ -15285,8 +15285,8 @@
       "nome": "soro glicofidiologoco",
       "tipo": "Medicamento",
       "unidade": "Unidade",
-      "almoxarifado": 63,
-      "farmacia": 0,
+      "almoxarifado": 39,
+      "farmacia": 24,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -15298,7 +15298,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-13 13:55:44",
+      "atualizado_em": "2026-10-13 13:56:02",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -15306,7 +15306,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 63
+          "quantidade": 39
+        },
+        {
+          "local": "farmacia",
+          "validade": "",
+          "lote": "",
+          "quantidade": 24
         }
       ],
       "minimo_manual": 0,
@@ -16893,6 +16899,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 3878,
+      "item_id": 404,
+      "produto_nome": "soro glicofidiologoco",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 24,
+      "responsavel": "Leiliana",
+      "data": "2026-10-13",
+      "obs": "",
+      "criado_em": "2026-10-13 13:56:02",
+      "item": "soro glicofidiologoco",
+      "usuario": "Leiliana"
+    },
     {
       "id": 3877,
       "item_id": 404,
@@ -24376,21 +24397,6 @@
       "obs": "",
       "criado_em": "2026-10-01 14:04:28",
       "item": "Ibuprofeno gotas",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 3378,
-      "item_id": 202,
-      "produto_nome": "Soro fisiológico 100ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 60,
-      "responsavel": "Assucena",
-      "data": "2026-10-01",
-      "obs": "",
-      "criado_em": "2026-10-01 14:04:16",
-      "item": "Soro fisiológico 100ml",
       "usuario": "Assucena"
     }
   ]
