@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "13/10/2026 15:07:27",
+  "atualizado_em": "13/10/2026 15:07:39",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 412,
     "total_almoxarifado": 114557,
-    "total_farmacia": 33857,
-    "total_geral": 148414,
+    "total_farmacia": 33697,
+    "total_geral": 148254,
     "perto_de_terminar": 21,
     "zerados": 12
   },
@@ -532,19 +532,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 4600,
-      "farmacia": 545,
+      "farmacia": 385,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 5145,
+      "total": 4985,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-13 14:53:13",
+      "atualizado_em": "2026-10-13 15:07:38",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -558,17 +558,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 545
+          "quantidade": 385
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 1428,
-      "previsao_20_dias": 1428,
+      "minimo_alerta": 1508,
+      "previsao_20_dias": 1508,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 40,
-      "media_diaria_saida": 71.38,
-      "total_saida_historica": 2855,
-      "cobertura_dias": 72.1,
+      "media_diaria_saida": 75.38,
+      "total_saida_historica": 3015,
+      "cobertura_dias": 66.1,
       "alerta_estoque": false
     },
     {
@@ -17483,6 +17483,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 4038,
+      "item_id": 390,
+      "produto_nome": "AGULHA  40X1,2",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 160,
+      "responsavel": "Leiliana",
+      "data": "2026-10-13",
+      "obs": "",
+      "criado_em": "2026-10-13 15:07:38",
+      "item": "AGULHA  40X1,2",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 4037,
       "item_id": 99,
       "produto_nome": "Scalp nº 21",
@@ -24965,21 +24980,6 @@
       "obs": "",
       "criado_em": "2026-10-05 15:18:52",
       "item": "Ceftriaxona 1g",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 3538,
-      "item_id": 177,
-      "produto_nome": "Gelco nº 22",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 10,
-      "responsavel": "Leiliana",
-      "data": "2026-10-05",
-      "obs": "",
-      "criado_em": "2026-10-05 15:18:41",
-      "item": "Gelco nº 22",
       "usuario": "Leiliana"
     }
   ]
