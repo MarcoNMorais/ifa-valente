@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "13/10/2026 14:51:29",
+  "atualizado_em": "13/10/2026 14:51:49",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 412,
-    "total_almoxarifado": 116427,
-    "total_farmacia": 33213,
+    "total_almoxarifado": 115937,
+    "total_farmacia": 33703,
     "total_geral": 149640,
     "perto_de_terminar": 20,
     "zerados": 12
@@ -12165,8 +12165,8 @@
       "nome": "Ondansetrona 2mg/ml 2ml",
       "tipo": "Medicamento",
       "unidade": "Unidade",
-      "almoxarifado": 490,
-      "farmacia": 0,
+      "almoxarifado": 0,
+      "farmacia": 490,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -12178,21 +12178,15 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-13 14:14:11",
+      "atualizado_em": "2026-10-13 14:51:48",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
         {
-          "local": "almoxarifado",
-          "validade": "",
-          "lote": "",
-          "quantidade": 490
-        },
-        {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 30
+          "quantidade": 520
         }
       ],
       "minimo_manual": 0,
@@ -17512,6 +17506,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 3974,
+      "item_id": 238,
+      "produto_nome": "Ondansetrona 2mg/ml 2ml",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 490,
+      "responsavel": "Leiliana",
+      "data": "2026-10-13",
+      "obs": "",
+      "criado_em": "2026-10-13 14:51:48",
+      "item": "Ondansetrona 2mg/ml 2ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 3973,
       "item_id": 76,
@@ -24995,21 +25004,6 @@
       "obs": "",
       "criado_em": "2026-10-05 10:20:29",
       "item": "Soro fisiológico 250ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 3467,
-      "item_id": 204,
-      "produto_nome": "Soro fisiológico 500ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 8,
-      "responsavel": "Assucena",
-      "data": "2026-10-03",
-      "obs": "",
-      "criado_em": "2026-10-05 10:20:22",
-      "item": "Soro fisiológico 500ml",
       "usuario": "Assucena"
     }
   ]
