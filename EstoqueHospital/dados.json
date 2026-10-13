@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "13/10/2026 16:15:24",
+  "atualizado_em": "13/10/2026 16:15:33",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 412,
     "total_almoxarifado": 113707,
-    "total_farmacia": 33211,
-    "total_geral": 146918,
+    "total_farmacia": 33181,
+    "total_geral": 146888,
     "perto_de_terminar": 22,
     "zerados": 12
   },
@@ -4720,19 +4720,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 1400,
-      "farmacia": 1140,
+      "farmacia": 1110,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 2540,
+      "total": 2510,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-13 15:02:08",
+      "atualizado_em": "2026-10-13 16:15:32",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -4746,17 +4746,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 1140
+          "quantidade": 1110
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 559,
-      "previsao_20_dias": 559,
+      "minimo_alerta": 568,
+      "previsao_20_dias": 568,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 62,
-      "media_diaria_saida": 27.9,
-      "total_saida_historica": 1730,
-      "cobertura_dias": 91.0,
+      "media_diaria_saida": 28.39,
+      "total_saida_historica": 1760,
+      "cobertura_dias": 88.4,
       "alerta_estoque": false
     },
     {
@@ -17459,6 +17459,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 4113,
+      "item_id": 68,
+      "produto_nome": "Dexametasona",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 30,
+      "responsavel": "Leiliana",
+      "data": "2026-10-13",
+      "obs": "",
+      "criado_em": "2026-10-13 16:15:32",
+      "item": "Dexametasona",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 4112,
       "item_id": 69,
       "produto_nome": "Diclofenaco 25mg",
@@ -24941,21 +24956,6 @@
       "obs": "",
       "criado_em": "2026-10-06 11:09:12",
       "item": "Cetoprofeno EV 100mg",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 3613,
-      "item_id": 61,
-      "produto_nome": "Cetoprofeno IM 50mg",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 39,
-      "responsavel": "Assucena",
-      "data": "2026-10-05",
-      "obs": "",
-      "criado_em": "2026-10-06 11:09:04",
-      "item": "Cetoprofeno IM 50mg",
       "usuario": "Assucena"
     }
   ]
