@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "13/10/2026 15:03:46",
+  "atualizado_em": "13/10/2026 15:03:56",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 412,
     "total_almoxarifado": 114557,
-    "total_farmacia": 34036,
-    "total_geral": 148593,
+    "total_farmacia": 34026,
+    "total_geral": 148583,
     "perto_de_terminar": 20,
     "zerados": 12
   },
@@ -12605,19 +12605,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 2400,
-      "farmacia": 25,
+      "farmacia": 15,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 2425,
+      "total": 2415,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-13 13:44:54",
+      "atualizado_em": "2026-10-13 15:03:55",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -12631,17 +12631,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 25
+          "quantidade": 15
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 174,
-      "previsao_20_dias": 174,
+      "minimo_alerta": 178,
+      "previsao_20_dias": 178,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 57,
-      "media_diaria_saida": 8.68,
-      "total_saida_historica": 495,
-      "cobertura_dias": 279.2,
+      "media_diaria_saida": 8.86,
+      "total_saida_historica": 505,
+      "cobertura_dias": 272.6,
       "alerta_estoque": false
     },
     {
@@ -17482,6 +17482,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 4022,
+      "item_id": 329,
+      "produto_nome": "Polifix",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 10,
+      "responsavel": "Leiliana",
+      "data": "2026-10-13",
+      "obs": "",
+      "criado_em": "2026-10-13 15:03:55",
+      "item": "Polifix",
+      "usuario": "Leiliana"
+    },
     {
       "id": 4021,
       "item_id": 220,
@@ -24965,21 +24980,6 @@
       "obs": "",
       "criado_em": "2026-10-05 15:13:45",
       "item": "Seringa 3ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 3522,
-      "item_id": 291,
-      "produto_nome": "Cateter tipo óculos adulto",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 10,
-      "responsavel": "Leiliana",
-      "data": "2026-10-05",
-      "obs": "",
-      "criado_em": "2026-10-05 15:13:31",
-      "item": "Cateter tipo óculos adulto",
       "usuario": "Leiliana"
     }
   ]
