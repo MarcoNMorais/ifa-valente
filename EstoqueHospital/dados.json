@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "13/10/2026 15:15:41",
+  "atualizado_em": "13/10/2026 15:15:54",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 412,
     "total_almoxarifado": 114337,
-    "total_farmacia": 33207,
-    "total_geral": 147544,
+    "total_farmacia": 33205,
+    "total_geral": 147542,
     "perto_de_terminar": 22,
     "zerados": 12
   },
@@ -10212,19 +10212,19 @@
       "tipo": "Material",
       "unidade": "Caixa",
       "almoxarifado": 0,
-      "farmacia": 182,
+      "farmacia": 180,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 182,
+      "total": 180,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-13 15:04:06",
+      "atualizado_em": "2026-10-13 15:15:52",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -10232,7 +10232,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 182
+          "quantidade": 180
         }
       ],
       "minimo_manual": 0,
@@ -10240,9 +10240,9 @@
       "previsao_20_dias": 271,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 62,
-      "media_diaria_saida": 13.52,
-      "total_saida_historica": 838,
-      "cobertura_dias": 13.5,
+      "media_diaria_saida": 13.55,
+      "total_saida_historica": 840,
+      "cobertura_dias": 13.3,
       "alerta_estoque": true
     },
     {
@@ -17482,6 +17482,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 4073,
+      "item_id": 180,
+      "produto_nome": "Luva de látex tam. P",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 2,
+      "responsavel": "Leiliana",
+      "data": "2026-10-13",
+      "obs": "",
+      "criado_em": "2026-10-13 15:15:52",
+      "item": "Luva de látex tam. P",
+      "usuario": "Leiliana"
+    },
     {
       "id": 4072,
       "item_id": 185,
@@ -24965,21 +24980,6 @@
       "obs": "",
       "criado_em": "2026-10-05 15:26:31",
       "item": "Luva de látex tam. P",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 3573,
-      "item_id": 200,
-      "produto_nome": "Caixa de perfurocortante",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 1,
-      "responsavel": "Leiliana",
-      "data": "2026-10-05",
-      "obs": "",
-      "criado_em": "2026-10-05 15:26:17",
-      "item": "Caixa de perfurocortante",
       "usuario": "Leiliana"
     }
   ]
