@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "13/10/2026 14:06:28",
+  "atualizado_em": "13/10/2026 14:06:46",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 408,
-    "total_almoxarifado": 104570,
+    "total_almoxarifado": 104650,
     "total_farmacia": 32913,
-    "total_geral": 137483,
+    "total_geral": 137563,
     "perto_de_terminar": 40,
     "zerados": 20
   },
@@ -10675,20 +10675,20 @@
       "nome": "Metformina 500mg CPR",
       "tipo": "Medicamento",
       "unidade": "Unidade",
-      "almoxarifado": 80,
+      "almoxarifado": 160,
       "farmacia": 0,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 80,
+      "total": 160,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-08 20:26:13",
+      "atualizado_em": "2026-10-13 14:06:45",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -10696,7 +10696,7 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 80
+          "quantidade": 160
         }
       ],
       "minimo_manual": 0,
@@ -10706,7 +10706,7 @@
       "dias_historico": 62,
       "media_diaria_saida": 0.32,
       "total_saida_historica": 20,
-      "cobertura_dias": 248.0,
+      "cobertura_dias": 496.0,
       "alerta_estoque": false
     },
     {
@@ -17125,6 +17125,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 3905,
+      "item_id": 134,
+      "produto_nome": "Metformina 500mg CPR",
+      "tipo": "Entrada no Almoxarifado",
+      "origem": "Entrada externa",
+      "destino": "Almoxarifado",
+      "quantidade": 80,
+      "responsavel": "Leiliana",
+      "data": "2026-10-13",
+      "obs": "",
+      "criado_em": "2026-10-13 14:06:45",
+      "item": "Metformina 500mg CPR",
+      "usuario": "Leiliana"
+    },
     {
       "id": 3904,
       "item_id": 115,
@@ -24608,21 +24623,6 @@
       "obs": "",
       "criado_em": "2026-10-01 16:07:30",
       "item": "Fita cirúrgica microporosa",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 3405,
-      "item_id": 276,
-      "produto_nome": "Esparadrapo 10x4,5",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 2,
-      "responsavel": "Leiliana",
-      "data": "2026-10-01",
-      "obs": "",
-      "criado_em": "2026-10-01 16:07:19",
-      "item": "Esparadrapo 10x4,5",
       "usuario": "Leiliana"
     }
   ]
