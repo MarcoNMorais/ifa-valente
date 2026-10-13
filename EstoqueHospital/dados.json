@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "13/10/2026 15:19:30",
+  "atualizado_em": "13/10/2026 15:19:40",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 412,
     "total_almoxarifado": 114057,
-    "total_farmacia": 33196,
-    "total_geral": 147253,
+    "total_farmacia": 33186,
+    "total_geral": 147243,
     "perto_de_terminar": 22,
     "zerados": 12
   },
@@ -13253,19 +13253,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 1050,
-      "farmacia": 90,
+      "farmacia": 80,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1140,
+      "total": 1130,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-13 15:14:33",
+      "atualizado_em": "2026-10-13 15:19:38",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -13279,17 +13279,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 90
+          "quantidade": 80
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 174,
-      "previsao_20_dias": 174,
+      "minimo_alerta": 177,
+      "previsao_20_dias": 177,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 62,
-      "media_diaria_saida": 8.68,
-      "total_saida_historica": 538,
-      "cobertura_dias": 131.4,
+      "media_diaria_saida": 8.84,
+      "total_saida_historica": 548,
+      "cobertura_dias": 127.8,
       "alerta_estoque": false
     },
     {
@@ -17470,6 +17470,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 4089,
+      "item_id": 157,
+      "produto_nome": "Seringa 1ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 10,
+      "responsavel": "Leiliana",
+      "data": "2026-10-13",
+      "obs": "",
+      "criado_em": "2026-10-13 15:19:38",
+      "item": "Seringa 1ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 4088,
       "item_id": 202,
@@ -24953,21 +24968,6 @@
       "obs": "",
       "criado_em": "2026-10-05 16:46:34",
       "item": "Equipo macrogotas",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 3589,
-      "item_id": 387,
-      "produto_nome": "HIDROCORTIZONA 500MG",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 12,
-      "responsavel": "Leiliana",
-      "data": "2026-10-05",
-      "obs": "",
-      "criado_em": "2026-10-05 16:46:22",
-      "item": "HIDROCORTIZONA 500MG",
       "usuario": "Leiliana"
     }
   ]
