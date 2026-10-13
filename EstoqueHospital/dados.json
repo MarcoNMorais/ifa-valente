@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "13/10/2026 14:55:06",
+  "atualizado_em": "13/10/2026 14:55:17",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 412,
     "total_almoxarifado": 115237,
-    "total_farmacia": 33869,
-    "total_geral": 149106,
+    "total_farmacia": 33849,
+    "total_geral": 149086,
     "perto_de_terminar": 20,
     "zerados": 12
   },
@@ -12749,19 +12749,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 140,
-      "farmacia": 20,
+      "farmacia": 0,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 160,
+      "total": 140,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-13 14:14:24",
+      "atualizado_em": "2026-10-13 14:55:16",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -12770,22 +12770,16 @@
           "validade": "",
           "lote": "",
           "quantidade": 140
-        },
-        {
-          "local": "farmacia",
-          "validade": "",
-          "lote": "",
-          "quantidade": 20
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 81,
-      "previsao_20_dias": 81,
+      "minimo_alerta": 88,
+      "previsao_20_dias": 88,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 57,
-      "media_diaria_saida": 4.02,
-      "total_saida_historica": 229,
-      "cobertura_dias": 39.8,
+      "media_diaria_saida": 4.37,
+      "total_saida_historica": 249,
+      "cobertura_dias": 32.0,
       "alerta_estoque": false
     },
     {
@@ -17500,6 +17494,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 3991,
+      "item_id": 233,
+      "produto_nome": "Prometazina 25mg/ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 20,
+      "responsavel": "Leiliana",
+      "data": "2026-10-13",
+      "obs": "",
+      "criado_em": "2026-10-13 14:55:16",
+      "item": "Prometazina 25mg/ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 3990,
       "item_id": 220,
@@ -24983,21 +24992,6 @@
       "obs": "",
       "criado_em": "2026-10-05 10:23:36",
       "item": "Omeprazol 20mg comprimido",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 3486,
-      "item_id": 331,
-      "produto_nome": "Agulha 30x8",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 80,
-      "responsavel": "Assucena",
-      "data": "2026-10-03",
-      "obs": "",
-      "criado_em": "2026-10-05 10:23:29",
-      "item": "Agulha 30x8",
       "usuario": "Assucena"
     }
   ]
