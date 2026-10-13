@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "13/10/2026 14:21:52",
+  "atualizado_em": "13/10/2026 14:22:05",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 411,
-    "total_almoxarifado": 115965,
+    "total_almoxarifado": 116103,
     "total_farmacia": 32913,
-    "total_geral": 148878,
+    "total_geral": 149016,
     "perto_de_terminar": 22,
     "zerados": 12
   },
@@ -8737,23 +8737,29 @@
       "nome": "HIDROCORTIZONA 500MG",
       "tipo": "Medicamento",
       "unidade": "Unidade",
-      "almoxarifado": 0,
+      "almoxarifado": 138,
       "farmacia": 206,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 206,
+      "total": 344,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-08 20:26:13",
+      "atualizado_em": "2026-10-13 14:22:04",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
+        {
+          "local": "almoxarifado",
+          "validade": "",
+          "lote": "",
+          "quantidade": 138
+        },
         {
           "local": "farmacia",
           "validade": "",
@@ -8768,7 +8774,7 @@
       "dias_historico": 40,
       "media_diaria_saida": 2.1,
       "total_saida_historica": 84,
-      "cobertura_dias": 98.1,
+      "cobertura_dias": 163.8,
       "alerta_estoque": false
     },
     {
@@ -17431,6 +17437,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 3958,
+      "item_id": 387,
+      "produto_nome": "HIDROCORTIZONA 500MG",
+      "tipo": "Entrada no Almoxarifado",
+      "origem": "Entrada externa",
+      "destino": "Almoxarifado",
+      "quantidade": 138,
+      "responsavel": "Leiliana",
+      "data": "2026-10-13",
+      "obs": "",
+      "criado_em": "2026-10-13 14:22:04",
+      "item": "HIDROCORTIZONA 500MG",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 3957,
       "item_id": 82,
       "produto_nome": "Hidrocortisona 100MG",
@@ -24913,21 +24934,6 @@
       "obs": "",
       "criado_em": "2026-10-05 10:32:16",
       "item": "Agulha 25x7",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 3497,
-      "item_id": 281,
-      "produto_nome": "Luva P procedimento",
-      "tipo": "Almoxarifado para Farmácia",
-      "origem": "Almoxarifado",
-      "destino": "Farmácia",
-      "quantidade": 10,
-      "responsavel": "Assucena",
-      "data": "2026-10-02",
-      "obs": "",
-      "criado_em": "2026-10-05 10:32:02",
-      "item": "Luva P procedimento",
       "usuario": "Assucena"
     }
   ]
