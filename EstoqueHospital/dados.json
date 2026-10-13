@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "13/10/2026 14:07:02",
+  "atualizado_em": "13/10/2026 14:07:15",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 408,
-    "total_almoxarifado": 104690,
+    "total_almoxarifado": 104730,
     "total_farmacia": 32913,
-    "total_geral": 137603,
+    "total_geral": 137643,
     "perto_de_terminar": 40,
     "zerados": 20
   },
@@ -11397,20 +11397,20 @@
       "nome": "NIMESULIDA COMP",
       "tipo": "Medicamento",
       "unidade": "Unidade",
-      "almoxarifado": 30,
+      "almoxarifado": 70,
       "farmacia": 0,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 30,
+      "total": 70,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-08 20:26:13",
+      "atualizado_em": "2026-10-13 14:07:14",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -11418,7 +11418,7 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 30
+          "quantidade": 70
         }
       ],
       "minimo_manual": 0,
@@ -17131,6 +17131,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 3907,
+      "item_id": 379,
+      "produto_nome": "NIMESULIDA COMP",
+      "tipo": "Entrada no Almoxarifado",
+      "origem": "Entrada externa",
+      "destino": "Almoxarifado",
+      "quantidade": 40,
+      "responsavel": "Leiliana",
+      "data": "2026-10-13",
+      "obs": "",
+      "criado_em": "2026-10-13 14:07:14",
+      "item": "NIMESULIDA COMP",
+      "usuario": "Leiliana"
+    },
     {
       "id": 3906,
       "item_id": 263,
@@ -24614,21 +24629,6 @@
       "obs": "",
       "criado_em": "2026-10-02 11:29:27",
       "item": "Benzilpenicilina 600 UI",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 3407,
-      "item_id": 55,
-      "produto_nome": "Benzilpenicilina 1.200",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 11,
-      "responsavel": "Assucena",
-      "data": "2026-10-01",
-      "obs": "",
-      "criado_em": "2026-10-02 11:29:18",
-      "item": "Benzilpenicilina 1.200",
       "usuario": "Assucena"
     }
   ]
