@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "13/10/2026 13:45:25",
+  "atualizado_em": "13/10/2026 13:45:57",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
-    "total_almoxarifado": 103250,
-    "total_farmacia": 33346,
+    "total_almoxarifado": 103226,
+    "total_farmacia": 33370,
     "total_geral": 136596,
     "perto_de_terminar": 42,
     "zerados": 20
@@ -15395,8 +15395,8 @@
       "nome": "Soro Ringer Lactato 500ml",
       "tipo": "Insumo",
       "unidade": "Unidade",
-      "almoxarifado": 384,
-      "farmacia": 17,
+      "almoxarifado": 360,
+      "farmacia": 41,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -15408,7 +15408,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-08 20:26:13",
+      "atualizado_em": "2026-10-13 13:45:56",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -15416,13 +15416,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 384
+          "quantidade": 360
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 17
+          "quantidade": 41
         }
       ],
       "minimo_manual": 0,
@@ -16871,6 +16871,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 3848,
+      "item_id": 201,
+      "produto_nome": "Soro Ringer Lactato 500ml",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 24,
+      "responsavel": "Leiliana",
+      "data": "2026-10-13",
+      "obs": "",
+      "criado_em": "2026-10-13 13:45:56",
+      "item": "Soro Ringer Lactato 500ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 3847,
       "item_id": 180,
@@ -24354,21 +24369,6 @@
       "obs": "",
       "criado_em": "2026-09-30 11:09:25",
       "item": "LENÇOL DESCARTAVEL PAPEL",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 3348,
-      "item_id": 398,
-      "produto_nome": "MASCARA DESCARTAVEL",
-      "tipo": "Almoxarifado para Farmácia",
-      "origem": "Almoxarifado",
-      "destino": "Farmácia",
-      "quantidade": 10,
-      "responsavel": "Assucena",
-      "data": "2026-09-29",
-      "obs": "",
-      "criado_em": "2026-09-30 11:09:17",
-      "item": "MASCARA DESCARTAVEL",
       "usuario": "Assucena"
     }
   ]
