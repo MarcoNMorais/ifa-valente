@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "13/10/2026 14:57:31",
+  "atualizado_em": "13/10/2026 14:57:43",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 412,
     "total_almoxarifado": 115237,
-    "total_farmacia": 33626,
-    "total_geral": 148863,
+    "total_farmacia": 33625,
+    "total_geral": 148862,
     "perto_de_terminar": 20,
     "zerados": 12
   },
@@ -10792,19 +10792,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 28,
+      "farmacia": 27,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 28,
+      "total": 27,
       "minimo": 0,
       "validade": "09/27",
       "lote": "",
       "origem": "Carga Farmácia 227-288",
       "obs": "Importação Farmácia 227-288",
-      "atualizado_em": "2026-10-09 10:37:39",
+      "atualizado_em": "2026-10-13 14:57:42",
       "validade_mais_proxima": "09/27",
       "vencimento_mais_proximo": "09/27",
       "lotes_validade": [
@@ -10812,7 +10812,7 @@
           "local": "farmacia",
           "validade": "09/27",
           "lote": "",
-          "quantidade": 28
+          "quantidade": 27
         }
       ],
       "minimo_manual": 0,
@@ -10820,9 +10820,9 @@
       "previsao_20_dias": 4,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 57,
-      "media_diaria_saida": 0.18,
-      "total_saida_historica": 10,
-      "cobertura_dias": 159.6,
+      "media_diaria_saida": 0.19,
+      "total_saida_historica": 11,
+      "cobertura_dias": 139.9,
       "alerta_estoque": false
     },
     {
@@ -17488,6 +17488,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 4002,
+      "item_id": 225,
+      "produto_nome": "Meropenem 1g",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 1,
+      "responsavel": "Leiliana",
+      "data": "2026-10-13",
+      "obs": "",
+      "criado_em": "2026-10-13 14:57:42",
+      "item": "Meropenem 1g",
+      "usuario": "Leiliana"
+    },
     {
       "id": 4001,
       "item_id": 155,
@@ -24971,21 +24986,6 @@
       "obs": "",
       "criado_em": "2026-10-05 11:20:03",
       "item": "Bromoprida 5mg",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 3502,
-      "item_id": 80,
-      "produto_nome": "Hidralazina 20mg",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 30,
-      "responsavel": "Assucena",
-      "data": "2026-10-03",
-      "obs": "",
-      "criado_em": "2026-10-05 11:19:55",
-      "item": "Hidralazina 20mg",
       "usuario": "Assucena"
     }
   ]
