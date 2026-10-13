@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "13/10/2026 13:44:33",
+  "atualizado_em": "13/10/2026 13:44:45",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 103250,
-    "total_farmacia": 33423,
-    "total_geral": 136673,
+    "total_farmacia": 33373,
+    "total_geral": 136623,
     "perto_de_terminar": 42,
     "zerados": 20
   },
@@ -5664,19 +5664,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 1681,
-      "farmacia": 175,
+      "farmacia": 125,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1856,
+      "total": 1806,
       "minimo": 300,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-09 10:38:40",
+      "atualizado_em": "2026-10-13 13:44:44",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -5690,17 +5690,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 200
+          "quantidade": 150
         }
       ],
       "minimo_manual": 300,
-      "minimo_alerta": 458,
-      "previsao_20_dias": 458,
+      "minimo_alerta": 474,
+      "previsao_20_dias": 474,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 62,
-      "media_diaria_saida": 22.89,
-      "total_saida_historica": 1419,
-      "cobertura_dias": 81.1,
+      "media_diaria_saida": 23.69,
+      "total_saida_historica": 1469,
+      "cobertura_dias": 76.2,
       "alerta_estoque": false
     },
     {
@@ -16872,6 +16872,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 3844,
+      "item_id": 220,
+      "produto_nome": "Equipo macrogotas",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 50,
+      "responsavel": "Leiliana",
+      "data": "2026-10-13",
+      "obs": "",
+      "criado_em": "2026-10-13 13:44:44",
+      "item": "Equipo macrogotas",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 3843,
       "item_id": 200,
       "produto_nome": "Caixa de perfurocortante",
@@ -24354,21 +24369,6 @@
       "obs": "",
       "criado_em": "2026-09-30 11:00:06",
       "item": "Seringa 5ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 3344,
-      "item_id": 115,
-      "produto_nome": "Losartana potássica 50mg CPR",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 10,
-      "responsavel": "Assucena",
-      "data": "2026-09-29",
-      "obs": "",
-      "criado_em": "2026-09-30 10:59:00",
-      "item": "Losartana potássica 50mg CPR",
       "usuario": "Assucena"
     }
   ]
