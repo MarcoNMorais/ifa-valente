@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "13/10/2026 15:05:55",
+  "atualizado_em": "13/10/2026 15:06:07",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 412,
     "total_almoxarifado": 114557,
-    "total_farmacia": 33916,
-    "total_geral": 148473,
+    "total_farmacia": 33911,
+    "total_geral": 148468,
     "perto_de_terminar": 21,
     "zerados": 12
   },
@@ -2432,19 +2432,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 150,
-      "farmacia": 120,
+      "farmacia": 115,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 270,
+      "total": 265,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-13 14:01:52",
+      "atualizado_em": "2026-10-13 15:06:06",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -2458,17 +2458,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 120
+          "quantidade": 115
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 15,
-      "previsao_20_dias": 15,
+      "minimo_alerta": 17,
+      "previsao_20_dias": 17,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 49,
-      "media_diaria_saida": 0.71,
-      "total_saida_historica": 35,
-      "cobertura_dias": 378.0,
+      "media_diaria_saida": 0.82,
+      "total_saida_historica": 40,
+      "cobertura_dias": 324.6,
       "alerta_estoque": false
     },
     {
@@ -17483,6 +17483,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 4033,
+      "item_id": 361,
+      "produto_nome": "AZITROMICINA COMPRIMIDO",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 5,
+      "responsavel": "Leiliana",
+      "data": "2026-10-13",
+      "obs": "",
+      "criado_em": "2026-10-13 15:06:06",
+      "item": "AZITROMICINA COMPRIMIDO",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 4032,
       "item_id": 21,
       "produto_nome": "Clonazepam gotas 25mg/ml",
@@ -24965,21 +24980,6 @@
       "obs": "",
       "criado_em": "2026-10-05 15:17:47",
       "item": "Soro fisiológico 250ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 3533,
-      "item_id": 205,
-      "produto_nome": "Soro glicose 5% 500ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 6,
-      "responsavel": "Leiliana",
-      "data": "2026-10-05",
-      "obs": "",
-      "criado_em": "2026-10-05 15:17:32",
-      "item": "Soro glicose 5% 500ml",
       "usuario": "Leiliana"
     }
   ]
