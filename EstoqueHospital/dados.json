@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "13/10/2026 15:16:38",
+  "atualizado_em": "13/10/2026 15:16:47",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 412,
     "total_almoxarifado": 114057,
-    "total_farmacia": 33455,
-    "total_geral": 147512,
+    "total_farmacia": 33449,
+    "total_geral": 147506,
     "perto_de_terminar": 22,
     "zerados": 12
   },
@@ -12096,19 +12096,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 140,
-      "farmacia": 71,
+      "farmacia": 65,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 211,
+      "total": 205,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-13 14:54:28",
+      "atualizado_em": "2026-10-13 15:16:46",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -12122,17 +12122,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 71
+          "quantidade": 65
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 99,
-      "previsao_20_dias": 99,
+      "minimo_alerta": 101,
+      "previsao_20_dias": 101,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 61,
-      "media_diaria_saida": 4.93,
-      "total_saida_historica": 301,
-      "cobertura_dias": 42.8,
+      "media_diaria_saida": 5.03,
+      "total_saida_historica": 307,
+      "cobertura_dias": 40.7,
       "alerta_estoque": false
     },
     {
@@ -17476,6 +17476,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 4077,
+      "item_id": 228,
+      "produto_nome": "Omeprazol sódico 40mg AMP",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 6,
+      "responsavel": "Leiliana",
+      "data": "2026-10-13",
+      "obs": "",
+      "criado_em": "2026-10-13 15:16:46",
+      "item": "Omeprazol sódico 40mg AMP",
+      "usuario": "Leiliana"
+    },
     {
       "id": 4076,
       "item_id": 350,
@@ -24959,21 +24974,6 @@
       "obs": "",
       "criado_em": "2026-10-05 15:27:25",
       "item": "Amiodarona 50mg",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 3577,
-      "item_id": 70,
-      "produto_nome": "Dipirona",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 30,
-      "responsavel": "Leiliana",
-      "data": "2026-10-05",
-      "obs": "",
-      "criado_em": "2026-10-05 15:27:13",
-      "item": "Dipirona",
       "usuario": "Leiliana"
     }
   ]
