@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "13/10/2026 14:58:45",
+  "atualizado_em": "13/10/2026 14:58:59",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 412,
-    "total_almoxarifado": 115237,
-    "total_farmacia": 33603,
+    "total_almoxarifado": 115027,
+    "total_farmacia": 33813,
     "total_geral": 148840,
     "perto_de_terminar": 20,
     "zerados": 12
@@ -319,8 +319,8 @@
       "nome": "ACIDO ASCORBICO",
       "tipo": "Medicamento",
       "unidade": "Ampola",
-      "almoxarifado": 210,
-      "farmacia": 0,
+      "almoxarifado": 0,
+      "farmacia": 210,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -332,12 +332,12 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-13 14:09:37",
+      "atualizado_em": "2026-10-13 14:58:58",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
         {
-          "local": "almoxarifado",
+          "local": "farmacia",
           "validade": "",
           "lote": "",
           "quantidade": 210
@@ -17483,6 +17483,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 4005,
+      "item_id": 384,
+      "produto_nome": "ACIDO ASCORBICO",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 210,
+      "responsavel": "Leiliana",
+      "data": "2026-10-13",
+      "obs": "",
+      "criado_em": "2026-10-13 14:58:58",
+      "item": "ACIDO ASCORBICO",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 4004,
       "item_id": 64,
       "produto_nome": "Fosfato de Clindamicina 150mg",
@@ -24965,21 +24980,6 @@
       "obs": "",
       "criado_em": "2026-10-05 11:20:32",
       "item": "Tira Reagente G-Tech",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 3505,
-      "item_id": 200,
-      "produto_nome": "Caixa de perfurocortante",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 1,
-      "responsavel": "Assucena",
-      "data": "2026-10-03",
-      "obs": "",
-      "criado_em": "2026-10-05 11:20:21",
-      "item": "Caixa de perfurocortante",
       "usuario": "Assucena"
     }
   ]
