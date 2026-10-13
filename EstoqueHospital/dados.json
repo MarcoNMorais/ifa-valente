@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "13/10/2026 14:02:21",
+  "atualizado_em": "13/10/2026 14:03:26",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
-    "itens": 405,
-    "total_almoxarifado": 104132,
+    "itens": 406,
+    "total_almoxarifado": 104162,
     "total_farmacia": 32913,
-    "total_geral": 137045,
+    "total_geral": 137075,
     "perto_de_terminar": 42,
     "zerados": 20
   },
@@ -8854,6 +8854,46 @@
       "alerta_estoque": false
     },
     {
+      "id": 406,
+      "produto_id": 407,
+      "nome": "isossorbida 5mg",
+      "tipo": "Medicamento",
+      "unidade": "Unidade",
+      "almoxarifado": 30,
+      "farmacia": 0,
+      "sala_medicacoes": 0,
+      "internamento": 0,
+      "sala_cirurgica": 0,
+      "baixa": 0,
+      "outro": 0,
+      "total": 30,
+      "minimo": 0,
+      "validade": "",
+      "lote": "",
+      "origem": "Entrada externa",
+      "obs": "",
+      "atualizado_em": "2026-10-13 14:03:17",
+      "validade_mais_proxima": "",
+      "vencimento_mais_proximo": "",
+      "lotes_validade": [
+        {
+          "local": "almoxarifado",
+          "validade": "",
+          "lote": "",
+          "quantidade": 30
+        }
+      ],
+      "minimo_manual": 0,
+      "minimo_alerta": 0,
+      "previsao_20_dias": 0,
+      "criterio_alerta": "estoque_minimo_manual_inicio",
+      "dias_historico": 1,
+      "media_diaria_saida": 0.0,
+      "total_saida_historica": 0,
+      "cobertura_dias": null,
+      "alerta_estoque": false
+    },
+    {
       "id": 15,
       "produto_id": 15,
       "nome": "Ketamina 50mg/ml 10ml",
@@ -16988,6 +17028,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 3894,
+      "item_id": 406,
+      "produto_nome": "isossorbida 5mg",
+      "tipo": "Entrada no Almoxarifado",
+      "origem": "Entrada externa",
+      "destino": "Almoxarifado",
+      "quantidade": 30,
+      "responsavel": "Leiliana",
+      "data": "2026-10-13",
+      "obs": "",
+      "criado_em": "2026-10-13 14:03:17",
+      "item": "isossorbida 5mg",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 3893,
       "item_id": 256,
       "produto_nome": "Simeticona gotas",
@@ -24470,21 +24525,6 @@
       "obs": "",
       "criado_em": "2026-10-01 16:05:00",
       "item": "Scalp nº 21",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 3394,
-      "item_id": 387,
-      "produto_nome": "HIDROCORTIZONA 500MG",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 10,
-      "responsavel": "Leiliana",
-      "data": "2026-10-01",
-      "obs": "",
-      "criado_em": "2026-10-01 16:04:48",
-      "item": "HIDROCORTIZONA 500MG",
       "usuario": "Leiliana"
     }
   ]
