@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "13/10/2026 15:20:20",
+  "atualizado_em": "13/10/2026 15:20:30",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 412,
     "total_almoxarifado": 114057,
-    "total_farmacia": 33046,
-    "total_geral": 147103,
+    "total_farmacia": 33043,
+    "total_geral": 147100,
     "perto_de_terminar": 22,
     "zerados": 12
   },
@@ -5815,19 +5815,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 35,
-      "farmacia": 8,
+      "farmacia": 5,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 43,
+      "total": 40,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-10-08 20:26:13",
+      "atualizado_em": "2026-10-13 15:20:29",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -5841,17 +5841,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 8
+          "quantidade": 5
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 21,
-      "previsao_20_dias": 21,
+      "minimo_alerta": 22,
+      "previsao_20_dias": 22,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 62,
-      "media_diaria_saida": 1.05,
-      "total_saida_historica": 65,
-      "cobertura_dias": 41.0,
+      "media_diaria_saida": 1.1,
+      "total_saida_historica": 68,
+      "cobertura_dias": 36.5,
       "alerta_estoque": false
     },
     {
@@ -17471,6 +17471,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 4094,
+      "item_id": 154,
+      "produto_nome": "Equipo fotossensível",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 3,
+      "responsavel": "Leiliana",
+      "data": "2026-10-13",
+      "obs": "",
+      "criado_em": "2026-10-13 15:20:29",
+      "item": "Equipo fotossensível",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 4093,
       "item_id": 274,
       "produto_nome": "Seringa 20ml",
@@ -24953,21 +24968,6 @@
       "obs": "",
       "criado_em": "2026-10-05 16:47:23",
       "item": "Seringa 5ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 3594,
-      "item_id": 103,
-      "produto_nome": "Seringa 10ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 20,
-      "responsavel": "Leiliana",
-      "data": "2026-10-05",
-      "obs": "",
-      "criado_em": "2026-10-05 16:47:12",
-      "item": "Seringa 10ml",
       "usuario": "Leiliana"
     }
   ]
