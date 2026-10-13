@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "13/10/2026 13:51:46",
+  "atualizado_em": "13/10/2026 13:51:58",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 103226,
-    "total_farmacia": 32991,
-    "total_geral": 136217,
+    "total_farmacia": 32941,
+    "total_geral": 136167,
     "perto_de_terminar": 42,
     "zerados": 20
   },
@@ -513,19 +513,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 1039,
-      "farmacia": 1731,
+      "farmacia": 1681,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 2770,
+      "total": 2720,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-08 20:26:13",
+      "atualizado_em": "2026-10-13 13:51:57",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -539,17 +539,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 1731
+          "quantidade": 1681
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 46,
-      "previsao_20_dias": 46,
+      "minimo_alerta": 64,
+      "previsao_20_dias": 64,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 57,
-      "media_diaria_saida": 2.28,
-      "total_saida_historica": 130,
-      "cobertura_dias": 1214.5,
+      "media_diaria_saida": 3.16,
+      "total_saida_historica": 180,
+      "cobertura_dias": 861.3,
       "alerta_estoque": false
     },
     {
@@ -16872,6 +16872,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 3869,
+      "item_id": 287,
+      "produto_nome": "Agulha 13x4,5",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 50,
+      "responsavel": "Leiliana",
+      "data": "2026-10-13",
+      "obs": "",
+      "criado_em": "2026-10-13 13:51:57",
+      "item": "Agulha 13x4,5",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 3868,
       "item_id": 59,
       "produto_nome": "Ceftriaxona 1g",
@@ -24354,21 +24369,6 @@
       "obs": "",
       "criado_em": "2026-10-01 14:02:13",
       "item": "Luva de látex tam. M",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 3369,
-      "item_id": 307,
-      "produto_nome": "Atadura de algodão 10cm",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 12,
-      "responsavel": "Assucena",
-      "data": "2026-10-01",
-      "obs": "",
-      "criado_em": "2026-10-01 14:02:01",
-      "item": "Atadura de algodão 10cm",
       "usuario": "Assucena"
     }
   ]
