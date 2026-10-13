@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "13/10/2026 14:54:53",
+  "atualizado_em": "13/10/2026 14:55:06",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 412,
     "total_almoxarifado": 115237,
-    "total_farmacia": 33894,
-    "total_geral": 149131,
+    "total_farmacia": 33869,
+    "total_geral": 149106,
     "perto_de_terminar": 20,
     "zerados": 12
   },
@@ -5879,19 +5879,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 1681,
-      "farmacia": 125,
+      "farmacia": 100,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1806,
+      "total": 1781,
       "minimo": 300,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-13 13:44:44",
+      "atualizado_em": "2026-10-13 14:55:05",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -5905,17 +5905,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 150
+          "quantidade": 125
         }
       ],
       "minimo_manual": 300,
-      "minimo_alerta": 474,
-      "previsao_20_dias": 474,
+      "minimo_alerta": 482,
+      "previsao_20_dias": 482,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 62,
-      "media_diaria_saida": 23.69,
-      "total_saida_historica": 1469,
-      "cobertura_dias": 76.2,
+      "media_diaria_saida": 24.1,
+      "total_saida_historica": 1494,
+      "cobertura_dias": 73.9,
       "alerta_estoque": false
     },
     {
@@ -17501,6 +17501,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 3990,
+      "item_id": 220,
+      "produto_nome": "Equipo macrogotas",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 25,
+      "responsavel": "Leiliana",
+      "data": "2026-10-13",
+      "obs": "",
+      "criado_em": "2026-10-13 14:55:05",
+      "item": "Equipo macrogotas",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 3989,
       "item_id": 70,
       "produto_nome": "Dipirona",
@@ -24983,21 +24998,6 @@
       "obs": "",
       "criado_em": "2026-10-05 10:23:29",
       "item": "Agulha 30x8",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 3485,
-      "item_id": 285,
-      "produto_nome": "Agulha 30x7",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 50,
-      "responsavel": "Assucena",
-      "data": "2026-10-03",
-      "obs": "",
-      "criado_em": "2026-10-05 10:23:20",
-      "item": "Agulha 30x7",
       "usuario": "Assucena"
     }
   ]
