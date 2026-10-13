@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "13/10/2026 16:16:04",
+  "atualizado_em": "13/10/2026 16:16:18",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 412,
     "total_almoxarifado": 113707,
-    "total_farmacia": 33151,
-    "total_geral": 146858,
+    "total_farmacia": 33129,
+    "total_geral": 146836,
     "perto_de_terminar": 22,
     "zerados": 12
   },
@@ -8714,19 +8714,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 138,
-      "farmacia": 206,
+      "farmacia": 184,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 344,
+      "total": 322,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-13 14:22:04",
+      "atualizado_em": "2026-10-13 16:16:17",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -8740,17 +8740,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 206
+          "quantidade": 184
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 42,
-      "previsao_20_dias": 42,
+      "minimo_alerta": 53,
+      "previsao_20_dias": 53,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 40,
-      "media_diaria_saida": 2.1,
-      "total_saida_historica": 84,
-      "cobertura_dias": 163.8,
+      "media_diaria_saida": 2.65,
+      "total_saida_historica": 106,
+      "cobertura_dias": 121.5,
       "alerta_estoque": false
     },
     {
@@ -17453,6 +17453,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 4117,
+      "item_id": 387,
+      "produto_nome": "HIDROCORTIZONA 500MG",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 22,
+      "responsavel": "Leiliana",
+      "data": "2026-10-13",
+      "obs": "",
+      "criado_em": "2026-10-13 16:16:17",
+      "item": "HIDROCORTIZONA 500MG",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 4116,
       "item_id": 59,
       "produto_nome": "Ceftriaxona 1g",
@@ -24935,21 +24950,6 @@
       "obs": "",
       "criado_em": "2026-10-06 11:29:41",
       "item": "Agulha 25x7",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 3617,
-      "item_id": 331,
-      "produto_nome": "Agulha 30x8",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 20,
-      "responsavel": "Assucena",
-      "data": "2026-10-05",
-      "obs": "",
-      "criado_em": "2026-10-06 11:29:31",
-      "item": "Agulha 30x8",
       "usuario": "Assucena"
     }
   ]
