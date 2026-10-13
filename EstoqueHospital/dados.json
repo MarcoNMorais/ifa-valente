@@ -1,12 +1,12 @@
 {
-  "atualizado_em": "13/10/2026 14:14:45",
+  "atualizado_em": "13/10/2026 14:14:58",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 410,
-    "total_almoxarifado": 109279,
+    "total_almoxarifado": 110679,
     "total_farmacia": 32913,
-    "total_geral": 142192,
-    "perto_de_terminar": 30,
+    "total_geral": 143592,
+    "perto_de_terminar": 29,
     "zerados": 16
   },
   "itens": [
@@ -5126,23 +5126,29 @@
       "nome": "Dipirona",
       "tipo": "Medicamento",
       "unidade": "Unidade",
-      "almoxarifado": 0,
+      "almoxarifado": 1400,
       "farmacia": 510,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 510,
+      "total": 1910,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-13 13:42:57",
+      "atualizado_em": "2026-10-13 14:14:57",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
+        {
+          "local": "almoxarifado",
+          "validade": "",
+          "lote": "",
+          "quantidade": 1400
+        },
         {
           "local": "farmacia",
           "validade": "",
@@ -5157,8 +5163,8 @@
       "dias_historico": 62,
       "media_diaria_saida": 41.45,
       "total_saida_historica": 2570,
-      "cobertura_dias": 12.3,
-      "alerta_estoque": true
+      "cobertura_dias": 46.1,
+      "alerta_estoque": false
     },
     {
       "id": 28,
@@ -17304,6 +17310,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 3933,
+      "item_id": 70,
+      "produto_nome": "Dipirona",
+      "tipo": "Entrada no Almoxarifado",
+      "origem": "Entrada externa",
+      "destino": "Almoxarifado",
+      "quantidade": 1400,
+      "responsavel": "Leiliana",
+      "data": "2026-10-13",
+      "obs": "",
+      "criado_em": "2026-10-13 14:14:57",
+      "item": "Dipirona",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 3932,
       "item_id": 69,
       "produto_nome": "Diclofenaco 25mg",
@@ -24785,21 +24806,6 @@
       "data": "2026-10-01",
       "obs": "",
       "criado_em": "2026-10-02 11:33:26",
-      "item": "Soro Ringer Lactato 500ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 3433,
-      "item_id": 201,
-      "produto_nome": "Soro Ringer Lactato 500ml",
-      "tipo": "Almoxarifado para Farmácia",
-      "origem": "Almoxarifado",
-      "destino": "Farmácia",
-      "quantidade": 48,
-      "responsavel": "Assucena",
-      "data": "2026-10-01",
-      "obs": "",
-      "criado_em": "2026-10-02 11:33:20",
       "item": "Soro Ringer Lactato 500ml",
       "usuario": "Assucena"
     }
