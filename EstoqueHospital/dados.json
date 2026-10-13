@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "13/10/2026 15:11:40",
+  "atualizado_em": "13/10/2026 15:12:10",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 412,
-    "total_almoxarifado": 114507,
-    "total_farmacia": 33392,
+    "total_almoxarifado": 114407,
+    "total_farmacia": 33492,
     "total_geral": 147899,
     "perto_de_terminar": 22,
     "zerados": 12
@@ -13310,8 +13310,8 @@
       "nome": "Seringa 20ml",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 7250,
-      "farmacia": 20,
+      "almoxarifado": 7150,
+      "farmacia": 120,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -13323,7 +13323,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-13 13:50:53",
+      "atualizado_em": "2026-10-13 15:12:08",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -13331,13 +13331,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 7250
+          "quantidade": 7150
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 45
+          "quantidade": 145
         }
       ],
       "minimo_manual": 0,
@@ -17482,6 +17482,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 4055,
+      "item_id": 274,
+      "produto_nome": "Seringa 20ml",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 100,
+      "responsavel": "Leiliana",
+      "data": "2026-10-13",
+      "obs": "",
+      "criado_em": "2026-10-13 15:12:08",
+      "item": "Seringa 20ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 4054,
       "item_id": 276,
@@ -24965,21 +24980,6 @@
       "obs": "",
       "criado_em": "2026-10-05 15:22:50",
       "item": "Dispositivo intravenoso Gelco nº 20",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 3555,
-      "item_id": 177,
-      "produto_nome": "Gelco nº 22",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 20,
-      "responsavel": "Leiliana",
-      "data": "2026-10-05",
-      "obs": "",
-      "criado_em": "2026-10-05 15:22:38",
-      "item": "Gelco nº 22",
       "usuario": "Leiliana"
     }
   ]
