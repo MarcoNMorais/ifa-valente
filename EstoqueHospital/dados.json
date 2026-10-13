@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "13/10/2026 16:15:16",
+  "atualizado_em": "13/10/2026 16:15:24",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 412,
     "total_almoxarifado": 113707,
-    "total_farmacia": 33241,
-    "total_geral": 146948,
+    "total_farmacia": 33211,
+    "total_geral": 146918,
     "perto_de_terminar": 22,
     "zerados": 12
   },
@@ -5036,19 +5036,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 370,
+      "farmacia": 340,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 370,
+      "total": 340,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-13 16:15:15",
+      "atualizado_em": "2026-10-13 16:15:23",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -5056,17 +5056,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 370
+          "quantidade": 340
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 226,
-      "previsao_20_dias": 226,
+      "minimo_alerta": 236,
+      "previsao_20_dias": 236,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 62,
-      "media_diaria_saida": 11.29,
-      "total_saida_historica": 700,
-      "cobertura_dias": 32.8,
+      "media_diaria_saida": 11.77,
+      "total_saida_historica": 730,
+      "cobertura_dias": 28.9,
       "alerta_estoque": false
     },
     {
@@ -17459,6 +17459,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 4112,
+      "item_id": 69,
+      "produto_nome": "Diclofenaco 25mg",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 30,
+      "responsavel": "Leiliana",
+      "data": "2026-10-13",
+      "obs": "",
+      "criado_em": "2026-10-13 16:15:23",
+      "item": "Diclofenaco 25mg",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 4111,
       "item_id": 69,
       "produto_nome": "Diclofenaco 25mg",
@@ -24941,21 +24956,6 @@
       "obs": "",
       "criado_em": "2026-10-06 11:09:04",
       "item": "Cetoprofeno IM 50mg",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 3612,
-      "item_id": 75,
-      "produto_nome": "Escopolamina 20mg",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 30,
-      "responsavel": "Assucena",
-      "data": "2026-10-05",
-      "obs": "",
-      "criado_em": "2026-10-06 11:08:53",
-      "item": "Escopolamina 20mg",
       "usuario": "Assucena"
     }
   ]
