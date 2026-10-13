@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "13/10/2026 14:54:16",
+  "atualizado_em": "13/10/2026 14:54:29",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 412,
     "total_almoxarifado": 115237,
-    "total_farmacia": 33983,
-    "total_geral": 149220,
+    "total_farmacia": 33974,
+    "total_geral": 149211,
     "perto_de_terminar": 20,
     "zerados": 12
   },
@@ -12114,19 +12114,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 140,
-      "farmacia": 80,
+      "farmacia": 71,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 220,
+      "total": 211,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-13 14:19:33",
+      "atualizado_em": "2026-10-13 14:54:28",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -12140,17 +12140,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 80
+          "quantidade": 71
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 96,
-      "previsao_20_dias": 96,
+      "minimo_alerta": 99,
+      "previsao_20_dias": 99,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 61,
-      "media_diaria_saida": 4.79,
-      "total_saida_historica": 292,
-      "cobertura_dias": 46.0,
+      "media_diaria_saida": 4.93,
+      "total_saida_historica": 301,
+      "cobertura_dias": 42.8,
       "alerta_estoque": false
     },
     {
@@ -17500,6 +17500,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 3987,
+      "item_id": 228,
+      "produto_nome": "Omeprazol sódico 40mg AMP",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 9,
+      "responsavel": "Leiliana",
+      "data": "2026-10-13",
+      "obs": "",
+      "criado_em": "2026-10-13 14:54:28",
+      "item": "Omeprazol sódico 40mg AMP",
+      "usuario": "Leiliana"
+    },
     {
       "id": 3986,
       "item_id": 178,
@@ -24983,21 +24998,6 @@
       "obs": "",
       "criado_em": "2026-10-05 10:22:39",
       "item": "Gelco nº 24",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 3481,
-      "item_id": 177,
-      "produto_nome": "Gelco nº 22",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 30,
-      "responsavel": "Assucena",
-      "data": "2026-10-03",
-      "obs": "",
-      "criado_em": "2026-10-05 10:22:31",
-      "item": "Gelco nº 22",
       "usuario": "Assucena"
     }
   ]
