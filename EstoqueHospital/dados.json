@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "13/10/2026 15:16:47",
+  "atualizado_em": "13/10/2026 15:16:56",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 412,
     "total_almoxarifado": 114057,
-    "total_farmacia": 33449,
-    "total_geral": 147506,
+    "total_farmacia": 33429,
+    "total_geral": 147486,
     "perto_de_terminar": 22,
     "zerados": 12
   },
@@ -486,19 +486,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 281,
-      "farmacia": 20,
+      "farmacia": 0,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 301,
+      "total": 281,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-13 15:00:44",
+      "atualizado_em": "2026-10-13 15:16:55",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -507,22 +507,16 @@
           "validade": "",
           "lote": "",
           "quantidade": 281
-        },
-        {
-          "local": "farmacia",
-          "validade": "",
-          "lote": "",
-          "quantidade": 20
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 180,
-      "previsao_20_dias": 180,
+      "minimo_alerta": 190,
+      "previsao_20_dias": 190,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 40,
-      "media_diaria_saida": 9.0,
-      "total_saida_historica": 360,
-      "cobertura_dias": 33.4,
+      "media_diaria_saida": 9.5,
+      "total_saida_historica": 380,
+      "cobertura_dias": 29.6,
       "alerta_estoque": false
     },
     {
@@ -17477,6 +17471,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 4078,
+      "item_id": 382,
+      "produto_nome": "AGUA P/ INJ",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 20,
+      "responsavel": "Leiliana",
+      "data": "2026-10-13",
+      "obs": "",
+      "criado_em": "2026-10-13 15:16:55",
+      "item": "AGUA P/ INJ",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 4077,
       "item_id": 228,
       "produto_nome": "Omeprazol sódico 40mg AMP",
@@ -24959,21 +24968,6 @@
       "obs": "",
       "criado_em": "2026-10-05 15:27:36",
       "item": "Dipirona 500mg",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 3578,
-      "item_id": 50,
-      "produto_nome": "Amiodarona 50mg",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 10,
-      "responsavel": "Leiliana",
-      "data": "2026-10-05",
-      "obs": "",
-      "criado_em": "2026-10-05 15:27:25",
-      "item": "Amiodarona 50mg",
       "usuario": "Leiliana"
     }
   ]
