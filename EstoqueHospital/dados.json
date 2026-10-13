@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "13/10/2026 15:21:56",
+  "atualizado_em": "13/10/2026 15:22:06",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 412,
     "total_almoxarifado": 114057,
-    "total_farmacia": 32952,
-    "total_geral": 147009,
+    "total_farmacia": 32932,
+    "total_geral": 146989,
     "perto_de_terminar": 22,
     "zerados": 12
   },
@@ -4554,19 +4554,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 290,
+      "farmacia": 270,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 290,
+      "total": 270,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-13 14:52:50",
+      "atualizado_em": "2026-10-13 15:22:05",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -4574,17 +4574,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 290
+          "quantidade": 270
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 188,
-      "previsao_20_dias": 188,
+      "minimo_alerta": 194,
+      "previsao_20_dias": 194,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 62,
-      "media_diaria_saida": 9.35,
-      "total_saida_historica": 580,
-      "cobertura_dias": 31.0,
+      "media_diaria_saida": 9.68,
+      "total_saida_historica": 600,
+      "cobertura_dias": 27.9,
       "alerta_estoque": false
     },
     {
@@ -17465,6 +17465,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 4103,
+      "item_id": 66,
+      "produto_nome": "Complexo B",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 20,
+      "responsavel": "Leiliana",
+      "data": "2026-10-13",
+      "obs": "",
+      "criado_em": "2026-10-13 15:22:05",
+      "item": "Complexo B",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 4102,
       "item_id": 57,
       "produto_nome": "Bromoprida 5mg",
@@ -24947,21 +24962,6 @@
       "obs": "",
       "criado_em": "2026-10-05 16:49:06",
       "item": "Soro Ringer Lactato 500ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 3603,
-      "item_id": 154,
-      "produto_nome": "Equipo fotossensível",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 3,
-      "responsavel": "Leiliana",
-      "data": "2026-10-05",
-      "obs": "",
-      "criado_em": "2026-10-05 16:48:57",
-      "item": "Equipo fotossensível",
       "usuario": "Leiliana"
     }
   ]
