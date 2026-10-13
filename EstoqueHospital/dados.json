@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "13/10/2026 15:00:27",
+  "atualizado_em": "13/10/2026 15:00:45",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 412,
     "total_almoxarifado": 114607,
-    "total_farmacia": 34207,
-    "total_geral": 148814,
+    "total_farmacia": 34197,
+    "total_geral": 148804,
     "perto_de_terminar": 20,
     "zerados": 12
   },
@@ -486,19 +486,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 281,
-      "farmacia": 30,
+      "farmacia": 20,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 311,
+      "total": 301,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-13 14:09:17",
+      "atualizado_em": "2026-10-13 15:00:44",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -512,17 +512,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 30
+          "quantidade": 20
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 175,
-      "previsao_20_dias": 175,
+      "minimo_alerta": 180,
+      "previsao_20_dias": 180,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 40,
-      "media_diaria_saida": 8.75,
-      "total_saida_historica": 350,
-      "cobertura_dias": 35.5,
+      "media_diaria_saida": 9.0,
+      "total_saida_historica": 360,
+      "cobertura_dias": 33.4,
       "alerta_estoque": false
     },
     {
@@ -17483,6 +17483,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 4009,
+      "item_id": 382,
+      "produto_nome": "AGUA P/ INJ",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 10,
+      "responsavel": "Leiliana",
+      "data": "2026-10-13",
+      "obs": "",
+      "criado_em": "2026-10-13 15:00:44",
+      "item": "AGUA P/ INJ",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 4008,
       "item_id": 60,
       "produto_nome": "Cetoprofeno EV 100mg",
@@ -24965,21 +24980,6 @@
       "obs": "",
       "criado_em": "2026-10-05 11:21:04",
       "item": "Dispositivo intravenoso Gelco nº 20",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 3509,
-      "item_id": 194,
-      "produto_nome": "Lanceta de segurança",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 1,
-      "responsavel": "Assucena",
-      "data": "2026-10-03",
-      "obs": "",
-      "criado_em": "2026-10-05 11:20:57",
-      "item": "Lanceta de segurança",
       "usuario": "Assucena"
     }
   ]
