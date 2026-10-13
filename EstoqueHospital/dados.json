@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "13/10/2026 15:22:46",
+  "atualizado_em": "13/10/2026 15:22:53",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 412,
     "total_almoxarifado": 114057,
-    "total_farmacia": 32925,
-    "total_geral": 146982,
+    "total_farmacia": 32924,
+    "total_geral": 146981,
     "perto_de_terminar": 22,
     "zerados": 12
   },
@@ -16566,19 +16566,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 60,
-      "farmacia": 193,
+      "farmacia": 192,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 253,
+      "total": 252,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-13 15:15:31",
+      "atualizado_em": "2026-10-13 15:22:52",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -16592,17 +16592,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 193
+          "quantidade": 192
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 283,
-      "previsao_20_dias": 283,
+      "minimo_alerta": 284,
+      "previsao_20_dias": 284,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 62,
-      "media_diaria_saida": 14.15,
-      "total_saida_historica": 877,
-      "cobertura_dias": 17.9,
+      "media_diaria_saida": 14.16,
+      "total_saida_historica": 878,
+      "cobertura_dias": 17.8,
       "alerta_estoque": true
     },
     {
@@ -17464,6 +17464,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 4106,
+      "item_id": 195,
+      "produto_nome": "Tira Reagente G-Tech",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 1,
+      "responsavel": "Leiliana",
+      "data": "2026-10-13",
+      "obs": "",
+      "criado_em": "2026-10-13 15:22:52",
+      "item": "Tira Reagente G-Tech",
+      "usuario": "Leiliana"
+    },
     {
       "id": 4105,
       "item_id": 350,
@@ -24947,21 +24962,6 @@
       "obs": "",
       "criado_em": "2026-10-06 11:07:36",
       "item": "Soro fisiológico 100ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 3606,
-      "item_id": 201,
-      "produto_nome": "Soro Ringer Lactato 500ml",
-      "tipo": "Entrada no Almoxarifado",
-      "origem": "Entrada externa",
-      "destino": "Almoxarifado",
-      "quantidade": 264,
-      "responsavel": "Assucena",
-      "data": "2026-10-05",
-      "obs": "",
-      "criado_em": "2026-10-06 10:36:54",
-      "item": "Soro Ringer Lactato 500ml",
       "usuario": "Assucena"
     }
   ]
