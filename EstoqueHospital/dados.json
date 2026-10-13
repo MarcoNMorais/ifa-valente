@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "13/10/2026 14:52:29",
+  "atualizado_em": "13/10/2026 14:52:42",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 412,
-    "total_almoxarifado": 115587,
-    "total_farmacia": 33923,
+    "total_almoxarifado": 115237,
+    "total_farmacia": 34273,
     "total_geral": 149510,
     "perto_de_terminar": 20,
     "zerados": 12
@@ -4577,8 +4577,8 @@
       "nome": "Complexo B",
       "tipo": "Medicamento",
       "unidade": "Unidade",
-      "almoxarifado": 350,
-      "farmacia": 0,
+      "almoxarifado": 0,
+      "farmacia": 350,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -4590,12 +4590,12 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-13 14:20:03",
+      "atualizado_em": "2026-10-13 14:52:40",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
         {
-          "local": "almoxarifado",
+          "local": "farmacia",
           "validade": "",
           "lote": "",
           "quantidade": 350
@@ -17501,6 +17501,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 3978,
+      "item_id": 66,
+      "produto_nome": "Complexo B",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 350,
+      "responsavel": "Leiliana",
+      "data": "2026-10-13",
+      "obs": "",
+      "criado_em": "2026-10-13 14:52:40",
+      "item": "Complexo B",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 3977,
       "item_id": 61,
       "produto_nome": "Cetoprofeno IM 50mg",
@@ -24983,21 +24998,6 @@
       "obs": "",
       "criado_em": "2026-10-05 10:21:02",
       "item": "Esparadrapo 10x4,5",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 3471,
-      "item_id": 281,
-      "produto_nome": "Luva P procedimento",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 2,
-      "responsavel": "Assucena",
-      "data": "2026-10-03",
-      "obs": "",
-      "criado_em": "2026-10-05 10:20:54",
-      "item": "Luva P procedimento",
       "usuario": "Assucena"
     }
   ]
