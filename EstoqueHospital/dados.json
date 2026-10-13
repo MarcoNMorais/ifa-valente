@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "13/10/2026 15:14:20",
+  "atualizado_em": "13/10/2026 15:14:34",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 412,
     "total_almoxarifado": 114337,
-    "total_farmacia": 33287,
-    "total_geral": 147624,
+    "total_farmacia": 33257,
+    "total_geral": 147594,
     "perto_de_terminar": 22,
     "zerados": 12
   },
@@ -13265,19 +13265,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 1050,
-      "farmacia": 120,
+      "farmacia": 90,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1170,
+      "total": 1140,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-13 13:51:19",
+      "atualizado_em": "2026-10-13 15:14:33",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -13291,17 +13291,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 120
+          "quantidade": 90
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 164,
-      "previsao_20_dias": 164,
+      "minimo_alerta": 174,
+      "previsao_20_dias": 174,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 62,
-      "media_diaria_saida": 8.19,
-      "total_saida_historica": 508,
-      "cobertura_dias": 142.8,
+      "media_diaria_saida": 8.68,
+      "total_saida_historica": 538,
+      "cobertura_dias": 131.4,
       "alerta_estoque": false
     },
     {
@@ -17482,6 +17482,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 4066,
+      "item_id": 157,
+      "produto_nome": "Seringa 1ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 30,
+      "responsavel": "Leiliana",
+      "data": "2026-10-13",
+      "obs": "",
+      "criado_em": "2026-10-13 15:14:33",
+      "item": "Seringa 1ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 4065,
       "item_id": 182,
@@ -24965,21 +24980,6 @@
       "obs": "",
       "criado_em": "2026-10-05 15:24:58",
       "item": "Brometo de ipratrópio gotas",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 3566,
-      "item_id": 186,
-      "produto_nome": "Luva cirúrgica tam. 8",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 5,
-      "responsavel": "Leiliana",
-      "data": "2026-10-05",
-      "obs": "",
-      "criado_em": "2026-10-05 15:24:43",
-      "item": "Luva cirúrgica tam. 8",
       "usuario": "Leiliana"
     }
   ]
