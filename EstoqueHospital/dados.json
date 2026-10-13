@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "13/10/2026 15:23:12",
+  "atualizado_em": "13/10/2026 15:23:21",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 412,
     "total_almoxarifado": 114057,
-    "total_farmacia": 32903,
-    "total_geral": 146960,
+    "total_farmacia": 32893,
+    "total_geral": 146950,
     "perto_de_terminar": 22,
     "zerados": 12
   },
@@ -12587,19 +12587,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 2350,
-      "farmacia": 45,
+      "farmacia": 35,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 2395,
+      "total": 2385,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-13 15:10:25",
+      "atualizado_em": "2026-10-13 15:23:20",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -12613,17 +12613,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 45
+          "quantidade": 35
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 185,
-      "previsao_20_dias": 185,
+      "minimo_alerta": 188,
+      "previsao_20_dias": 188,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 57,
-      "media_diaria_saida": 9.21,
-      "total_saida_historica": 525,
-      "cobertura_dias": 260.0,
+      "media_diaria_saida": 9.39,
+      "total_saida_historica": 535,
+      "cobertura_dias": 254.1,
       "alerta_estoque": false
     },
     {
@@ -17464,6 +17464,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 4109,
+      "item_id": 329,
+      "produto_nome": "Polifix",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 10,
+      "responsavel": "Leiliana",
+      "data": "2026-10-13",
+      "obs": "",
+      "criado_em": "2026-10-13 15:23:20",
+      "item": "Polifix",
+      "usuario": "Leiliana"
+    },
     {
       "id": 4108,
       "item_id": 256,
@@ -24947,21 +24962,6 @@
       "obs": "",
       "criado_em": "2026-10-06 11:08:35",
       "item": "Cefalexina 250mg/5ml 60ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 3609,
-      "item_id": 250,
-      "produto_nome": "Nistatina suspensão",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 1,
-      "responsavel": "Assucena",
-      "data": "2026-10-05",
-      "obs": "",
-      "criado_em": "2026-10-06 11:08:29",
-      "item": "Nistatina suspensão",
       "usuario": "Assucena"
     }
   ]
