@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "13/10/2026 13:48:38",
+  "atualizado_em": "13/10/2026 13:48:49",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 403,
     "total_almoxarifado": 103226,
-    "total_farmacia": 33148,
-    "total_geral": 136374,
+    "total_farmacia": 33147,
+    "total_geral": 136373,
     "perto_de_terminar": 42,
     "zerados": 20
   },
@@ -15562,19 +15562,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 7,
+      "farmacia": 6,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 7,
+      "total": 6,
       "minimo": 0,
       "validade": "02/27",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-10-08 20:26:13",
+      "atualizado_em": "2026-10-13 13:48:48",
       "validade_mais_proxima": "02/27",
       "vencimento_mais_proximo": "02/27",
       "lotes_validade": [
@@ -15588,7 +15588,7 @@
           "local": "farmacia",
           "validade": "2027-03",
           "lote": "",
-          "quantidade": 4
+          "quantidade": 3
         }
       ],
       "minimo_manual": 0,
@@ -15596,9 +15596,9 @@
       "previsao_20_dias": 1,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 62,
-      "media_diaria_saida": 0.02,
-      "total_saida_historica": 1,
-      "cobertura_dias": 434.0,
+      "media_diaria_saida": 0.03,
+      "total_saida_historica": 2,
+      "cobertura_dias": 186.0,
       "alerta_estoque": false
     },
     {
@@ -16871,6 +16871,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 3860,
+      "item_id": 23,
+      "produto_nome": "Sulfadiazina de prata",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 1,
+      "responsavel": "Leiliana",
+      "data": "2026-10-13",
+      "obs": "",
+      "criado_em": "2026-10-13 13:48:48",
+      "item": "Sulfadiazina de prata",
+      "usuario": "Leiliana"
+    },
     {
       "id": 3859,
       "item_id": 138,
@@ -24354,21 +24369,6 @@
       "obs": "",
       "criado_em": "2026-10-01 13:59:58",
       "item": "LIDOCAINA S/ VASO",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 3360,
-      "item_id": 384,
-      "produto_nome": "ACIDO ASCORBICO",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 10,
-      "responsavel": "Assucena",
-      "data": "2026-10-01",
-      "obs": "",
-      "criado_em": "2026-10-01 13:58:01",
-      "item": "ACIDO ASCORBICO",
       "usuario": "Assucena"
     }
   ]
