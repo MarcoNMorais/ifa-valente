@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "13/10/2026 14:57:53",
+  "atualizado_em": "13/10/2026 14:58:45",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 412,
     "total_almoxarifado": 115237,
-    "total_farmacia": 33623,
-    "total_geral": 148860,
+    "total_farmacia": 33603,
+    "total_geral": 148840,
     "perto_de_terminar": 20,
     "zerados": 12
   },
@@ -7608,28 +7608,22 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 140,
-      "farmacia": 170,
+      "farmacia": 150,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 310,
+      "total": 290,
       "minimo": 0,
-      "validade": "2027-08",
+      "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-13 14:15:27",
-      "validade_mais_proxima": "2027-08",
-      "vencimento_mais_proximo": "2027-08",
+      "atualizado_em": "2026-10-13 14:58:44",
+      "validade_mais_proxima": "",
+      "vencimento_mais_proximo": "",
       "lotes_validade": [
-        {
-          "local": "farmacia",
-          "validade": "2027-08",
-          "lote": "",
-          "quantidade": 10
-        },
         {
           "local": "almoxarifado",
           "validade": "",
@@ -7640,17 +7634,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 160
+          "quantidade": 150
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 62,
-      "previsao_20_dias": 62,
+      "minimo_alerta": 68,
+      "previsao_20_dias": 68,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 62,
-      "media_diaria_saida": 3.06,
-      "total_saida_historica": 190,
-      "cobertura_dias": 101.2,
+      "media_diaria_saida": 3.39,
+      "total_saida_historica": 210,
+      "cobertura_dias": 85.6,
       "alerta_estoque": false
     },
     {
@@ -17489,6 +17483,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 4004,
+      "item_id": 64,
+      "produto_nome": "Fosfato de Clindamicina 150mg",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 20,
+      "responsavel": "Leiliana",
+      "data": "2026-10-13",
+      "obs": "",
+      "criado_em": "2026-10-13 14:58:44",
+      "item": "Fosfato de Clindamicina 150mg",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 4003,
       "item_id": 195,
       "produto_nome": "Tira Reagente G-Tech",
@@ -24971,21 +24980,6 @@
       "obs": "",
       "criado_em": "2026-10-05 11:20:21",
       "item": "Caixa de perfurocortante",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 3504,
-      "item_id": 66,
-      "produto_nome": "Complexo B",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 30,
-      "responsavel": "Assucena",
-      "data": "2026-10-03",
-      "obs": "",
-      "criado_em": "2026-10-05 11:20:15",
-      "item": "Complexo B",
       "usuario": "Assucena"
     }
   ]
