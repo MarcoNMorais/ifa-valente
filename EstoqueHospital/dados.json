@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "13/10/2026 14:56:44",
+  "atualizado_em": "13/10/2026 14:56:57",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 412,
     "total_almoxarifado": 115237,
-    "total_farmacia": 33631,
-    "total_geral": 148868,
+    "total_farmacia": 33630,
+    "total_geral": 148867,
     "perto_de_terminar": 20,
     "zerados": 12
   },
@@ -11083,19 +11083,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 219,
-      "farmacia": 8,
+      "farmacia": 7,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 227,
+      "total": 226,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-13 14:19:18",
+      "atualizado_em": "2026-10-13 14:56:56",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -11109,7 +11109,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 8
+          "quantidade": 7
         }
       ],
       "minimo_manual": 0,
@@ -11117,9 +11117,9 @@
       "previsao_20_dias": 19,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 57,
-      "media_diaria_saida": 0.91,
-      "total_saida_historica": 52,
-      "cobertura_dias": 248.8,
+      "media_diaria_saida": 0.93,
+      "total_saida_historica": 53,
+      "cobertura_dias": 243.1,
       "alerta_estoque": false
     },
     {
@@ -17488,6 +17488,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 3998,
+      "item_id": 290,
+      "produto_nome": "Metronidazol 100ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 1,
+      "responsavel": "Leiliana",
+      "data": "2026-10-13",
+      "obs": "",
+      "criado_em": "2026-10-13 14:56:56",
+      "item": "Metronidazol 100ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 3997,
       "item_id": 63,
@@ -24971,21 +24986,6 @@
       "obs": "para o caps ",
       "criado_em": "2026-10-05 11:09:45",
       "item": "Haloperidol 5mg/ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 3493,
-      "item_id": 228,
-      "produto_nome": "Omeprazol sódico 40mg AMP",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 16,
-      "responsavel": "Assucena",
-      "data": "2026-10-03",
-      "obs": "",
-      "criado_em": "2026-10-05 10:24:28",
-      "item": "Omeprazol sódico 40mg AMP",
       "usuario": "Assucena"
     }
   ]
