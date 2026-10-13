@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "13/10/2026 14:16:31",
+  "atualizado_em": "13/10/2026 14:16:45",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 411,
-    "total_almoxarifado": 112384,
+    "total_almoxarifado": 112419,
     "total_farmacia": 32913,
-    "total_geral": 145297,
+    "total_geral": 145332,
     "perto_de_terminar": 29,
     "zerados": 16
   },
@@ -8189,20 +8189,20 @@
       "nome": "GLICOSE 25% AMP 10ML",
       "tipo": "Medicamento",
       "unidade": "Unidade",
-      "almoxarifado": 80,
+      "almoxarifado": 115,
       "farmacia": 117,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 197,
+      "total": 232,
       "minimo": 50,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-08 20:26:13",
+      "atualizado_em": "2026-10-13 14:16:44",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -8210,7 +8210,7 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 80
+          "quantidade": 115
         },
         {
           "local": "farmacia",
@@ -17368,6 +17368,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 3939,
+      "item_id": 351,
+      "produto_nome": "GLICOSE 25% AMP 10ML",
+      "tipo": "Entrada no Almoxarifado",
+      "origem": "Entrada externa",
+      "destino": "Almoxarifado",
+      "quantidade": 35,
+      "responsavel": "Leiliana",
+      "data": "2026-10-13",
+      "obs": "",
+      "criado_em": "2026-10-13 14:16:44",
+      "item": "GLICOSE 25% AMP 10ML",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 3938,
       "item_id": 411,
       "produto_nome": "gentamicina 80mg",
@@ -24850,21 +24865,6 @@
       "obs": "",
       "criado_em": "2026-10-02 11:34:48",
       "item": "Polifix",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 3439,
-      "item_id": 220,
-      "produto_nome": "Equipo macrogotas",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 25,
-      "responsavel": "Assucena",
-      "data": "2026-10-01",
-      "obs": "",
-      "criado_em": "2026-10-02 11:34:42",
-      "item": "Equipo macrogotas",
       "usuario": "Assucena"
     }
   ]
