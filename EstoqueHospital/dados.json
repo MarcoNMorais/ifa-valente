@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "13/10/2026 14:57:08",
+  "atualizado_em": "13/10/2026 14:57:18",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 412,
     "total_almoxarifado": 115237,
-    "total_farmacia": 33629,
-    "total_geral": 148866,
+    "total_farmacia": 33627,
+    "total_geral": 148864,
     "perto_de_terminar": 20,
     "zerados": 12
   },
@@ -6131,19 +6131,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 328,
-      "farmacia": 8,
+      "farmacia": 6,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 336,
+      "total": 334,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-13 13:48:14",
+      "atualizado_em": "2026-10-13 14:57:17",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -6157,7 +6157,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 10
+          "quantidade": 8
         }
       ],
       "minimo_manual": 0,
@@ -6165,9 +6165,9 @@
       "previsao_20_dias": 45,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 57,
-      "media_diaria_saida": 2.21,
-      "total_saida_historica": 126,
-      "cobertura_dias": 152.0,
+      "media_diaria_saida": 2.25,
+      "total_saida_historica": 128,
+      "cobertura_dias": 148.7,
       "alerta_estoque": false
     },
     {
@@ -17489,6 +17489,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 4000,
+      "item_id": 276,
+      "produto_nome": "Esparadrapo 10x4,5",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 2,
+      "responsavel": "Leiliana",
+      "data": "2026-10-13",
+      "obs": "",
+      "criado_em": "2026-10-13 14:57:17",
+      "item": "Esparadrapo 10x4,5",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 3999,
       "item_id": 294,
       "produto_nome": "Glicerina 12%",
@@ -24971,21 +24986,6 @@
       "obs": "",
       "criado_em": "2026-10-05 11:19:43",
       "item": "Ampicilina",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 3500,
-      "item_id": 233,
-      "produto_nome": "Prometazina 25mg/ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 10,
-      "responsavel": "Assucena",
-      "data": "2026-10-03",
-      "obs": "para o caps ",
-      "criado_em": "2026-10-05 11:09:55",
-      "item": "Prometazina 25mg/ml",
       "usuario": "Assucena"
     }
   ]
