@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "13/10/2026 14:56:57",
+  "atualizado_em": "13/10/2026 14:57:08",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 412,
     "total_almoxarifado": 115237,
-    "total_farmacia": 33630,
-    "total_geral": 148867,
+    "total_farmacia": 33629,
+    "total_geral": 148866,
     "perto_de_terminar": 20,
     "zerados": 12
   },
@@ -8176,19 +8176,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 72,
-      "farmacia": 13,
+      "farmacia": 12,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 85,
+      "total": 84,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-08 20:26:13",
+      "atualizado_em": "2026-10-13 14:57:07",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -8202,7 +8202,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 13
+          "quantidade": 12
         }
       ],
       "minimo_manual": 0,
@@ -8210,9 +8210,9 @@
       "previsao_20_dias": 5,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 57,
-      "media_diaria_saida": 0.21,
-      "total_saida_historica": 12,
-      "cobertura_dias": 403.8,
+      "media_diaria_saida": 0.23,
+      "total_saida_historica": 13,
+      "cobertura_dias": 368.3,
       "alerta_estoque": false
     },
     {
@@ -17489,6 +17489,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 3999,
+      "item_id": 294,
+      "produto_nome": "Glicerina 12%",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 1,
+      "responsavel": "Leiliana",
+      "data": "2026-10-13",
+      "obs": "",
+      "criado_em": "2026-10-13 14:57:07",
+      "item": "Glicerina 12%",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 3998,
       "item_id": 290,
       "produto_nome": "Metronidazol 100ml",
@@ -24971,21 +24986,6 @@
       "obs": "para o caps ",
       "criado_em": "2026-10-05 11:09:55",
       "item": "Prometazina 25mg/ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 3499,
-      "item_id": 8,
-      "produto_nome": "Haloperidol 5mg/ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 10,
-      "responsavel": "Assucena",
-      "data": "2026-10-03",
-      "obs": "para o caps ",
-      "criado_em": "2026-10-05 11:09:45",
-      "item": "Haloperidol 5mg/ml",
       "usuario": "Assucena"
     }
   ]
