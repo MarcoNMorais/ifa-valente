@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "13/10/2026 14:52:00",
+  "atualizado_em": "13/10/2026 14:52:16",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 412,
-    "total_almoxarifado": 115937,
-    "total_farmacia": 33633,
+    "total_almoxarifado": 115587,
+    "total_farmacia": 33983,
     "total_geral": 149570,
     "perto_de_terminar": 20,
     "zerados": 12
@@ -3569,8 +3569,8 @@
       "nome": "Cetoprofeno IM 50mg",
       "tipo": "Medicamento",
       "unidade": "Unidade",
-      "almoxarifado": 350,
-      "farmacia": 0,
+      "almoxarifado": 0,
+      "farmacia": 350,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -3582,21 +3582,15 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-13 14:12:49",
+      "atualizado_em": "2026-10-13 14:52:15",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
         {
-          "local": "almoxarifado",
-          "validade": "",
-          "lote": "",
-          "quantidade": 350
-        },
-        {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 20
+          "quantidade": 370
         }
       ],
       "minimo_manual": 0,
@@ -17507,6 +17501,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 3976,
+      "item_id": 61,
+      "produto_nome": "Cetoprofeno IM 50mg",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 350,
+      "responsavel": "Leiliana",
+      "data": "2026-10-13",
+      "obs": "",
+      "criado_em": "2026-10-13 14:52:15",
+      "item": "Cetoprofeno IM 50mg",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 3975,
       "item_id": 238,
       "produto_nome": "Ondansetrona 2mg/ml 2ml",
@@ -24988,21 +24997,6 @@
       "data": "2026-10-03",
       "obs": "",
       "criado_em": "2026-10-05 10:20:45",
-      "item": "Luva M procedimento",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 3469,
-      "item_id": 280,
-      "produto_nome": "Luva M procedimento",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 3,
-      "responsavel": "Assucena",
-      "data": "2026-10-03",
-      "obs": "",
-      "criado_em": "2026-10-05 10:20:37",
       "item": "Luva M procedimento",
       "usuario": "Assucena"
     }
