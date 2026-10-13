@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "13/10/2026 14:54:41",
+  "atualizado_em": "13/10/2026 14:54:53",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 412,
     "total_almoxarifado": 115237,
-    "total_farmacia": 33934,
-    "total_geral": 149171,
+    "total_farmacia": 33894,
+    "total_geral": 149131,
     "perto_de_terminar": 20,
     "zerados": 12
   },
@@ -5146,19 +5146,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 1400,
-      "farmacia": 510,
+      "farmacia": 470,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1910,
+      "total": 1870,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-13 14:14:57",
+      "atualizado_em": "2026-10-13 14:54:52",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -5172,17 +5172,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 510
+          "quantidade": 470
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 830,
-      "previsao_20_dias": 830,
+      "minimo_alerta": 842,
+      "previsao_20_dias": 842,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 62,
-      "media_diaria_saida": 41.45,
-      "total_saida_historica": 2570,
-      "cobertura_dias": 46.1,
+      "media_diaria_saida": 42.1,
+      "total_saida_historica": 2610,
+      "cobertura_dias": 44.4,
       "alerta_estoque": false
     },
     {
@@ -17501,6 +17501,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 3989,
+      "item_id": 70,
+      "produto_nome": "Dipirona",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 40,
+      "responsavel": "Leiliana",
+      "data": "2026-10-13",
+      "obs": "",
+      "criado_em": "2026-10-13 14:54:52",
+      "item": "Dipirona",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 3988,
       "item_id": 57,
       "produto_nome": "Bromoprida 5mg",
@@ -24983,21 +24998,6 @@
       "obs": "",
       "criado_em": "2026-10-05 10:23:20",
       "item": "Agulha 30x7",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 3484,
-      "item_id": 390,
-      "produto_nome": "AGULHA  40X1,2",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 110,
-      "responsavel": "Assucena",
-      "data": "2026-10-03",
-      "obs": "",
-      "criado_em": "2026-10-05 10:23:07",
-      "item": "AGULHA  40X1,2",
       "usuario": "Assucena"
     }
   ]
