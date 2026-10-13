@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "13/10/2026 15:08:59",
+  "atualizado_em": "13/10/2026 15:09:26",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 412,
     "total_almoxarifado": 114557,
-    "total_farmacia": 33417,
-    "total_geral": 147974,
+    "total_farmacia": 33415,
+    "total_geral": 147972,
     "perto_de_terminar": 22,
     "zerados": 12
   },
@@ -9718,19 +9718,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 50,
+      "farmacia": 48,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 50,
+      "total": 48,
       "minimo": 0,
       "validade": "2027-02",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-13 13:53:24",
+      "atualizado_em": "2026-10-13 15:09:25",
       "validade_mais_proxima": "2027-02",
       "vencimento_mais_proximo": "2027-02",
       "lotes_validade": [
@@ -9738,7 +9738,7 @@
           "local": "farmacia",
           "validade": "2027-02",
           "lote": "",
-          "quantidade": 30
+          "quantidade": 28
         },
         {
           "local": "farmacia",
@@ -9752,9 +9752,9 @@
       "previsao_20_dias": 10,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 62,
-      "media_diaria_saida": 0.47,
-      "total_saida_historica": 29,
-      "cobertura_dias": 106.9,
+      "media_diaria_saida": 0.5,
+      "total_saida_historica": 31,
+      "cobertura_dias": 96.0,
       "alerta_estoque": false
     },
     {
@@ -17483,6 +17483,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 4046,
+      "item_id": 84,
+      "produto_nome": "Lidocaína",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 2,
+      "responsavel": "Leiliana",
+      "data": "2026-10-13",
+      "obs": "",
+      "criado_em": "2026-10-13 15:09:25",
+      "item": "Lidocaína",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 4045,
       "item_id": 59,
       "produto_nome": "Ceftriaxona 1g",
@@ -24965,21 +24980,6 @@
       "obs": "",
       "criado_em": "2026-10-05 15:20:43",
       "item": "Fio agulhado / sutura nº 3",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 3546,
-      "item_id": 228,
-      "produto_nome": "Omeprazol sódico 40mg AMP",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 5,
-      "responsavel": "Leiliana",
-      "data": "2026-10-05",
-      "obs": "",
-      "criado_em": "2026-10-05 15:20:29",
-      "item": "Omeprazol sódico 40mg AMP",
       "usuario": "Leiliana"
     }
   ]
