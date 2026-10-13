@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "13/10/2026 14:22:05",
+  "atualizado_em": "13/10/2026 14:22:18",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 411,
-    "total_almoxarifado": 116103,
+    "total_almoxarifado": 116110,
     "total_farmacia": 32913,
-    "total_geral": 149016,
+    "total_geral": 149023,
     "perto_de_terminar": 22,
     "zerados": 12
   },
@@ -16040,20 +16040,20 @@
       "nome": "Succinil 100mg",
       "tipo": "Medicamento",
       "unidade": "Unidade",
-      "almoxarifado": 0,
+      "almoxarifado": 7,
       "farmacia": 11,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 11,
+      "total": 18,
       "minimo": 0,
       "validade": "2027-05",
       "lote": "",
-      "origem": "Carga inicial Farmácia",
-      "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-10-08 20:26:13",
+      "origem": "Entrada externa",
+      "obs": "",
+      "atualizado_em": "2026-10-13 14:22:17",
       "validade_mais_proxima": "2027-05",
       "vencimento_mais_proximo": "2027-05",
       "lotes_validade": [
@@ -16062,6 +16062,12 @@
           "validade": "2027-05",
           "lote": "",
           "quantidade": 11
+        },
+        {
+          "local": "almoxarifado",
+          "validade": "",
+          "lote": "",
+          "quantidade": 7
         }
       ],
       "minimo_manual": 0,
@@ -16071,7 +16077,7 @@
       "dias_historico": 62,
       "media_diaria_saida": 0.1,
       "total_saida_historica": 6,
-      "cobertura_dias": 113.7,
+      "cobertura_dias": 186.0,
       "alerta_estoque": false
     },
     {
@@ -17436,6 +17442,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 3959,
+      "item_id": 3,
+      "produto_nome": "Succinil 100mg",
+      "tipo": "Entrada no Almoxarifado",
+      "origem": "Entrada externa",
+      "destino": "Almoxarifado",
+      "quantidade": 7,
+      "responsavel": "Leiliana",
+      "data": "2026-10-13",
+      "obs": "",
+      "criado_em": "2026-10-13 14:22:17",
+      "item": "Succinil 100mg",
+      "usuario": "Leiliana"
+    },
     {
       "id": 3958,
       "item_id": 387,
@@ -24919,21 +24940,6 @@
       "obs": "",
       "criado_em": "2026-10-05 10:17:18",
       "item": "Seringa 20ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 3498,
-      "item_id": 319,
-      "produto_nome": "Agulha 25x7",
-      "tipo": "Almoxarifado para Farmácia",
-      "origem": "Almoxarifado",
-      "destino": "Farmácia",
-      "quantidade": 400,
-      "responsavel": "Assucena",
-      "data": "2026-10-02",
-      "obs": "",
-      "criado_em": "2026-10-05 10:32:16",
-      "item": "Agulha 25x7",
       "usuario": "Assucena"
     }
   ]
