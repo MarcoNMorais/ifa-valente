@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "14/10/2026 11:06:59",
+  "atualizado_em": "14/10/2026 11:07:29",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 412,
     "total_almoxarifado": 112303,
-    "total_farmacia": 33451,
-    "total_geral": 145754,
+    "total_farmacia": 33450,
+    "total_geral": 145753,
     "perto_de_terminar": 23,
     "zerados": 12
   },
@@ -6485,19 +6485,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 20,
-      "farmacia": 46,
+      "farmacia": 45,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 66,
+      "total": 65,
       "minimo": 0,
       "validade": "2027-02",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-08 20:26:13",
+      "atualizado_em": "2026-10-14 11:07:28",
       "validade_mais_proxima": "2027-02",
       "vencimento_mais_proximo": "2027-02",
       "lotes_validade": [
@@ -6505,7 +6505,7 @@
           "local": "farmacia",
           "validade": "2027-02",
           "lote": "",
-          "quantidade": 29
+          "quantidade": 28
         },
         {
           "local": "farmacia",
@@ -6521,13 +6521,13 @@
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 1,
-      "previsao_20_dias": 1,
+      "minimo_alerta": 2,
+      "previsao_20_dias": 2,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 63,
-      "media_diaria_saida": 0.05,
-      "total_saida_historica": 3,
-      "cobertura_dias": 1386.0,
+      "media_diaria_saida": 0.06,
+      "total_saida_historica": 4,
+      "cobertura_dias": 1023.8,
       "alerta_estoque": false
     },
     {
@@ -17453,6 +17453,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 4191,
+      "item_id": 5,
+      "produto_nome": "Etomidato 2mg/ml",
+      "tipo": "Farmácia para ESTABILIZAÇÃO",
+      "origem": "Farmácia",
+      "destino": "ESTABILIZAÇÃO",
+      "quantidade": 1,
+      "responsavel": "Assucena",
+      "data": "2026-10-13",
+      "obs": "",
+      "criado_em": "2026-10-14 11:07:28",
+      "item": "Etomidato 2mg/ml",
+      "usuario": "Assucena"
+    },
+    {
       "id": 4190,
       "item_id": 91,
       "produto_nome": "Sonda Endot. nº 6,0",
@@ -24935,21 +24950,6 @@
       "obs": "",
       "criado_em": "2026-10-07 10:50:44",
       "item": "Bolsa coletora",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 3691,
-      "item_id": 276,
-      "produto_nome": "Esparadrapo 10x4,5",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 2,
-      "responsavel": "Assucena",
-      "data": "2026-10-07",
-      "obs": "",
-      "criado_em": "2026-10-07 10:50:39",
-      "item": "Esparadrapo 10x4,5",
       "usuario": "Assucena"
     }
   ]
