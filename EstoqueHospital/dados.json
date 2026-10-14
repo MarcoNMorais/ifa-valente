@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "14/10/2026 11:06:33",
+  "atualizado_em": "14/10/2026 11:06:41",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 412,
     "total_almoxarifado": 112303,
-    "total_farmacia": 33454,
-    "total_geral": 145757,
+    "total_farmacia": 33453,
+    "total_geral": 145756,
     "perto_de_terminar": 23,
     "zerados": 12
   },
@@ -11953,19 +11953,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 7,
+      "farmacia": 6,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 7,
+      "total": 6,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-14 11:06:32",
+      "atualizado_em": "2026-10-14 11:06:40",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -11973,7 +11973,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 7
+          "quantidade": 6
         }
       ],
       "minimo_manual": 0,
@@ -11981,9 +11981,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 2,
-      "media_diaria_saida": 0.0,
-      "total_saida_historica": 0,
-      "cobertura_dias": null,
+      "media_diaria_saida": 0.5,
+      "total_saida_historica": 1,
+      "cobertura_dias": 12.0,
       "alerta_estoque": false
     },
     {
@@ -17452,6 +17452,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 4189,
+      "item_id": 410,
+      "produto_nome": "oleo de girasol AGE",
+      "tipo": "Farmácia para Posto de Internamento",
+      "origem": "Farmácia",
+      "destino": "Posto de Internamento",
+      "quantidade": 1,
+      "responsavel": "Assucena",
+      "data": "2026-10-13",
+      "obs": "",
+      "criado_em": "2026-10-14 11:06:40",
+      "item": "oleo de girasol AGE",
+      "usuario": "Assucena"
+    },
     {
       "id": 4188,
       "item_id": 410,
@@ -24935,21 +24950,6 @@
       "obs": "",
       "criado_em": "2026-10-07 10:50:26",
       "item": "Luva M procedimento",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 3689,
-      "item_id": 220,
-      "produto_nome": "Equipo macrogotas",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 25,
-      "responsavel": "Assucena",
-      "data": "2026-10-07",
-      "obs": "",
-      "criado_em": "2026-10-07 10:50:16",
-      "item": "Equipo macrogotas",
       "usuario": "Assucena"
     }
   ]
