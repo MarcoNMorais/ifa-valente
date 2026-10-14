@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "14/10/2026 16:21:47",
+  "atualizado_em": "14/10/2026 16:21:56",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 412,
     "total_almoxarifado": 112275,
-    "total_farmacia": 33518,
-    "total_geral": 145793,
+    "total_farmacia": 33503,
+    "total_geral": 145778,
     "perto_de_terminar": 23,
     "zerados": 12
   },
@@ -13063,19 +13063,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 720,
-      "farmacia": 111,
+      "farmacia": 96,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 831,
+      "total": 816,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-14 16:21:45",
+      "atualizado_em": "2026-10-14 16:21:55",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -13089,17 +13089,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 111
+          "quantidade": 96
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 139,
-      "previsao_20_dias": 139,
+      "minimo_alerta": 143,
+      "previsao_20_dias": 143,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 63,
-      "media_diaria_saida": 6.9,
-      "total_saida_historica": 435,
-      "cobertura_dias": 120.4,
+      "media_diaria_saida": 7.14,
+      "total_saida_historica": 450,
+      "cobertura_dias": 114.2,
       "alerta_estoque": false
     },
     {
@@ -17452,6 +17452,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 4209,
+      "item_id": 99,
+      "produto_nome": "Scalp nº 21",
+      "tipo": "Farmácia para AJUSTE DE ESTOQUE",
+      "origem": "Farmácia",
+      "destino": "AJUSTE DE ESTOQUE",
+      "quantidade": 15,
+      "responsavel": "Leiliana",
+      "data": "2026-10-14",
+      "obs": "",
+      "criado_em": "2026-10-14 16:21:55",
+      "item": "Scalp nº 21",
+      "usuario": "Leiliana"
+    },
     {
       "id": 4208,
       "item_id": 99,
@@ -24936,21 +24951,6 @@
       "criado_em": "2026-10-07 16:48:31",
       "item": "Ferropurum 20mg/ml",
       "usuario": "Leiliana"
-    },
-    {
-      "id": 3709,
-      "item_id": 12,
-      "produto_nome": "Morfina 10mg/ml 1ml",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 6,
-      "responsavel": "Assucena",
-      "data": "2026-10-07",
-      "obs": "",
-      "criado_em": "2026-10-07 10:54:45",
-      "item": "Morfina 10mg/ml 1ml",
-      "usuario": "Assucena"
     }
   ]
 }
