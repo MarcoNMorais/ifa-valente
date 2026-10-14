@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "14/10/2026 11:07:29",
+  "atualizado_em": "14/10/2026 11:07:37",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 412,
     "total_almoxarifado": 112303,
-    "total_farmacia": 33450,
-    "total_geral": 145753,
+    "total_farmacia": 33449,
+    "total_geral": 145752,
     "perto_de_terminar": 23,
     "zerados": 12
   },
@@ -5672,19 +5672,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 70,
-      "farmacia": 84,
+      "farmacia": 83,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 154,
+      "total": 153,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-13 14:17:34",
+      "atualizado_em": "2026-10-14 11:07:36",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -5698,7 +5698,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 84
+          "quantidade": 83
         }
       ],
       "minimo_manual": 0,
@@ -5706,9 +5706,9 @@
       "previsao_20_dias": 35,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 63,
-      "media_diaria_saida": 1.71,
-      "total_saida_historica": 108,
-      "cobertura_dias": 89.8,
+      "media_diaria_saida": 1.73,
+      "total_saida_historica": 109,
+      "cobertura_dias": 88.4,
       "alerta_estoque": false
     },
     {
@@ -17453,6 +17453,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 4192,
+      "item_id": 73,
+      "produto_nome": "Epinefrina 1mg",
+      "tipo": "Farmácia para ESTABILIZAÇÃO",
+      "origem": "Farmácia",
+      "destino": "ESTABILIZAÇÃO",
+      "quantidade": 1,
+      "responsavel": "Assucena",
+      "data": "2026-10-13",
+      "obs": "",
+      "criado_em": "2026-10-14 11:07:36",
+      "item": "Epinefrina 1mg",
+      "usuario": "Assucena"
+    },
+    {
       "id": 4191,
       "item_id": 5,
       "produto_nome": "Etomidato 2mg/ml",
@@ -24935,21 +24950,6 @@
       "obs": "",
       "criado_em": "2026-10-07 10:50:50",
       "item": "Soro fisiológico 250ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 3692,
-      "item_id": 155,
-      "produto_nome": "Bolsa coletora",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 3,
-      "responsavel": "Assucena",
-      "data": "2026-10-07",
-      "obs": "",
-      "criado_em": "2026-10-07 10:50:44",
-      "item": "Bolsa coletora",
       "usuario": "Assucena"
     }
   ]
