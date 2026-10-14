@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "14/10/2026 11:07:58",
+  "atualizado_em": "14/10/2026 11:08:07",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 412,
     "total_almoxarifado": 112303,
-    "total_farmacia": 33441,
-    "total_geral": 145744,
+    "total_farmacia": 33440,
+    "total_geral": 145743,
     "perto_de_terminar": 23,
     "zerados": 12
   },
@@ -16057,19 +16057,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 7,
-      "farmacia": 11,
+      "farmacia": 10,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 18,
+      "total": 17,
       "minimo": 0,
       "validade": "2027-05",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-13 14:22:17",
+      "atualizado_em": "2026-10-14 11:08:06",
       "validade_mais_proxima": "2027-05",
       "vencimento_mais_proximo": "2027-05",
       "lotes_validade": [
@@ -16077,7 +16077,7 @@
           "local": "farmacia",
           "validade": "2027-05",
           "lote": "",
-          "quantidade": 11
+          "quantidade": 10
         },
         {
           "local": "almoxarifado",
@@ -16087,13 +16087,13 @@
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 2,
-      "previsao_20_dias": 2,
+      "minimo_alerta": 3,
+      "previsao_20_dias": 3,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 63,
-      "media_diaria_saida": 0.1,
-      "total_saida_historica": 6,
-      "cobertura_dias": 189.0,
+      "media_diaria_saida": 0.11,
+      "total_saida_historica": 7,
+      "cobertura_dias": 153.0,
       "alerta_estoque": false
     },
     {
@@ -17452,6 +17452,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 4195,
+      "item_id": 3,
+      "produto_nome": "Succinil 100mg",
+      "tipo": "Farmácia para ESTABILIZAÇÃO",
+      "origem": "Farmácia",
+      "destino": "ESTABILIZAÇÃO",
+      "quantidade": 1,
+      "responsavel": "Assucena",
+      "data": "2026-10-13",
+      "obs": "",
+      "criado_em": "2026-10-14 11:08:06",
+      "item": "Succinil 100mg",
+      "usuario": "Assucena"
+    },
     {
       "id": 4194,
       "item_id": 11,
@@ -24935,21 +24950,6 @@
       "obs": "",
       "criado_em": "2026-10-07 10:53:02",
       "item": "Scalp nº 23",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 3695,
-      "item_id": 255,
-      "produto_nome": "Ibuprofeno gotas",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 1,
-      "responsavel": "Assucena",
-      "data": "2026-10-07",
-      "obs": "",
-      "criado_em": "2026-10-07 10:51:07",
-      "item": "Ibuprofeno gotas",
       "usuario": "Assucena"
     }
   ]
