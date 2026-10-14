@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "14/10/2026 16:18:52",
+  "atualizado_em": "14/10/2026 16:19:07",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 412,
-    "total_almoxarifado": 112571,
-    "total_farmacia": 33320,
+    "total_almoxarifado": 112471,
+    "total_farmacia": 33420,
     "total_geral": 145891,
     "perto_de_terminar": 23,
     "zerados": 12
@@ -15740,8 +15740,8 @@
       "nome": "Soro fisiológico 250ml",
       "tipo": "Insumo",
       "unidade": "Unidade",
-      "almoxarifado": 1467,
-      "farmacia": 29,
+      "almoxarifado": 1367,
+      "farmacia": 129,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -15753,7 +15753,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-14 16:18:39",
+      "atualizado_em": "2026-10-14 16:19:06",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -15761,13 +15761,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 1467
+          "quantidade": 1367
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 29
+          "quantidade": 129
         }
       ],
       "minimo_manual": 0,
@@ -17452,6 +17452,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 4200,
+      "item_id": 203,
+      "produto_nome": "Soro fisiológico 250ml",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 100,
+      "responsavel": "Leiliana",
+      "data": "2026-10-14",
+      "obs": "",
+      "criado_em": "2026-10-14 16:19:06",
+      "item": "Soro fisiológico 250ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 4199,
       "item_id": 202,
@@ -24935,21 +24950,6 @@
       "obs": "",
       "criado_em": "2026-10-07 10:53:42",
       "item": "Luva P procedimento",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 3700,
-      "item_id": 280,
-      "produto_nome": "Luva M procedimento",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 2,
-      "responsavel": "Assucena",
-      "data": "2026-10-07",
-      "obs": "",
-      "criado_em": "2026-10-07 10:53:36",
-      "item": "Luva M procedimento",
       "usuario": "Assucena"
     }
   ]
