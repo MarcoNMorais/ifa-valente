@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "14/10/2026 11:05:01",
+  "atualizado_em": "14/10/2026 11:05:10",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 412,
     "total_almoxarifado": 112870,
-    "total_farmacia": 32950,
-    "total_geral": 145820,
+    "total_farmacia": 32944,
+    "total_geral": 145814,
     "perto_de_terminar": 23,
     "zerados": 12
   },
@@ -10016,19 +10016,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 330,
-      "farmacia": 48,
+      "farmacia": 42,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 378,
+      "total": 372,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-14 11:03:43",
+      "atualizado_em": "2026-10-14 11:05:08",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -10042,17 +10042,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 48
+          "quantidade": 42
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 52,
-      "previsao_20_dias": 52,
+      "minimo_alerta": 54,
+      "previsao_20_dias": 54,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 63,
-      "media_diaria_saida": 2.56,
-      "total_saida_historica": 161,
-      "cobertura_dias": 147.9,
+      "media_diaria_saida": 2.65,
+      "total_saida_historica": 167,
+      "cobertura_dias": 140.3,
       "alerta_estoque": false
     },
     {
@@ -17452,6 +17452,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 4179,
+      "item_id": 185,
+      "produto_nome": "Luva cirúrgica tam. 7,5",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 6,
+      "responsavel": "Assucena",
+      "data": "2026-10-13",
+      "obs": "",
+      "criado_em": "2026-10-14 11:05:08",
+      "item": "Luva cirúrgica tam. 7,5",
+      "usuario": "Assucena"
+    },
     {
       "id": 4178,
       "item_id": 313,
@@ -24935,21 +24950,6 @@
       "obs": "",
       "criado_em": "2026-10-07 10:48:54",
       "item": "Agulha 30x8",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 3679,
-      "item_id": 285,
-      "produto_nome": "Agulha 30x7",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 30,
-      "responsavel": "Assucena",
-      "data": "2026-10-07",
-      "obs": "",
-      "criado_em": "2026-10-07 10:48:46",
-      "item": "Agulha 30x7",
       "usuario": "Assucena"
     }
   ]
