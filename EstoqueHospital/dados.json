@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "14/10/2026 11:05:17",
+  "atualizado_em": "14/10/2026 11:05:25",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 412,
     "total_almoxarifado": 112870,
-    "total_farmacia": 32934,
-    "total_geral": 145804,
+    "total_farmacia": 32932,
+    "total_geral": 145802,
     "perto_de_terminar": 23,
     "zerados": 12
   },
@@ -5592,19 +5592,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 170,
+      "farmacia": 168,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 170,
+      "total": 168,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga Farmácia 227-288",
       "obs": "Importação Farmácia 227-288",
-      "atualizado_em": "2026-10-08 20:26:13",
+      "atualizado_em": "2026-10-14 11:05:23",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -5612,17 +5612,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 170
+          "quantidade": 168
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 7,
-      "previsao_20_dias": 7,
+      "minimo_alerta": 8,
+      "previsao_20_dias": 8,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 58,
-      "media_diaria_saida": 0.34,
-      "total_saida_historica": 20,
-      "cobertura_dias": 493.0,
+      "media_diaria_saida": 0.38,
+      "total_saida_historica": 22,
+      "cobertura_dias": 442.9,
       "alerta_estoque": false
     },
     {
@@ -17453,6 +17453,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 4181,
+      "item_id": 226,
+      "produto_nome": "Enoxaparina sódica 40mg",
+      "tipo": "Farmácia para Posto de Internamento",
+      "origem": "Farmácia",
+      "destino": "Posto de Internamento",
+      "quantidade": 2,
+      "responsavel": "Assucena",
+      "data": "2026-10-13",
+      "obs": "",
+      "criado_em": "2026-10-14 11:05:23",
+      "item": "Enoxaparina sódica 40mg",
+      "usuario": "Assucena"
+    },
+    {
       "id": 4180,
       "item_id": 64,
       "produto_nome": "Fosfato de Clindamicina 150mg",
@@ -24935,21 +24950,6 @@
       "obs": "",
       "criado_em": "2026-10-07 10:49:10",
       "item": "Dispositivo intravenoso Gelco nº 20",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 3681,
-      "item_id": 177,
-      "produto_nome": "Gelco nº 22",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 20,
-      "responsavel": "Assucena",
-      "data": "2026-10-07",
-      "obs": "",
-      "criado_em": "2026-10-07 10:49:01",
-      "item": "Gelco nº 22",
       "usuario": "Assucena"
     }
   ]
