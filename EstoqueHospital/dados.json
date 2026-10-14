@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "14/10/2026 10:58:06",
+  "atualizado_em": "14/10/2026 10:58:15",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 412,
     "total_almoxarifado": 113694,
-    "total_farmacia": 32734,
-    "total_geral": 146428,
+    "total_farmacia": 32714,
+    "total_geral": 146408,
     "perto_de_terminar": 23,
     "zerados": 12
   },
@@ -4714,19 +4714,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 1400,
-      "farmacia": 1110,
+      "farmacia": 1090,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 2510,
+      "total": 2490,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-13 16:15:32",
+      "atualizado_em": "2026-10-14 10:58:14",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -4740,17 +4740,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 1110
+          "quantidade": 1090
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 559,
-      "previsao_20_dias": 559,
+      "minimo_alerta": 566,
+      "previsao_20_dias": 566,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 63,
-      "media_diaria_saida": 27.94,
-      "total_saida_historica": 1760,
-      "cobertura_dias": 89.8,
+      "media_diaria_saida": 28.25,
+      "total_saida_historica": 1780,
+      "cobertura_dias": 88.1,
       "alerta_estoque": false
     },
     {
@@ -17459,6 +17459,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 4141,
+      "item_id": 68,
+      "produto_nome": "Dexametasona",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 20,
+      "responsavel": "Assucena",
+      "data": "2026-10-13",
+      "obs": "",
+      "criado_em": "2026-10-14 10:58:14",
+      "item": "Dexametasona",
+      "usuario": "Assucena"
+    },
+    {
       "id": 4140,
       "item_id": 76,
       "produto_nome": "Escopolamina + Dipirona",
@@ -24941,21 +24956,6 @@
       "obs": "",
       "criado_em": "2026-10-06 11:34:37",
       "item": "Ácido Tranexâmico 50mg",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 3641,
-      "item_id": 4,
-      "produto_nome": "Decanoato de haloperidol",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 10,
-      "responsavel": "Assucena",
-      "data": "2026-10-05",
-      "obs": "",
-      "criado_em": "2026-10-06 11:34:14",
-      "item": "Decanoato de haloperidol",
       "usuario": "Assucena"
     }
   ]
