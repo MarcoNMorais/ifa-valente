@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "14/10/2026 16:23:06",
+  "atualizado_em": "14/10/2026 16:23:16",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 412,
     "total_almoxarifado": 112175,
-    "total_farmacia": 33498,
-    "total_geral": 145673,
+    "total_farmacia": 33473,
+    "total_geral": 145648,
     "perto_de_terminar": 23,
     "zerados": 12
   },
@@ -5843,19 +5843,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 1681,
-      "farmacia": 25,
+      "farmacia": 0,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1706,
+      "total": 1681,
       "minimo": 300,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-14 11:03:30",
+      "atualizado_em": "2026-10-14 16:23:15",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -5869,17 +5869,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 50
+          "quantidade": 25
         }
       ],
       "minimo_manual": 300,
-      "minimo_alerta": 499,
-      "previsao_20_dias": 499,
+      "minimo_alerta": 507,
+      "previsao_20_dias": 507,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 63,
-      "media_diaria_saida": 24.9,
-      "total_saida_historica": 1569,
-      "cobertura_dias": 68.5,
+      "media_diaria_saida": 25.3,
+      "total_saida_historica": 1594,
+      "cobertura_dias": 66.4,
       "alerta_estoque": false
     },
     {
@@ -17453,6 +17453,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 4215,
+      "item_id": 220,
+      "produto_nome": "Equipo macrogotas",
+      "tipo": "Farmácia para AJUSTE DE ESTOQUE",
+      "origem": "Farmácia",
+      "destino": "AJUSTE DE ESTOQUE",
+      "quantidade": 25,
+      "responsavel": "Leiliana",
+      "data": "2026-10-14",
+      "obs": "",
+      "criado_em": "2026-10-14 16:23:15",
+      "item": "Equipo macrogotas",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 4214,
       "item_id": 104,
       "produto_nome": "Seringa 3ml",
@@ -24935,21 +24950,6 @@
       "obs": "",
       "criado_em": "2026-10-07 16:49:39",
       "item": "Hidrocortisona 100MG",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 3715,
-      "item_id": 60,
-      "produto_nome": "Cetoprofeno EV 100mg",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 12,
-      "responsavel": "Leiliana",
-      "data": "2026-10-07",
-      "obs": "",
-      "criado_em": "2026-10-07 16:49:27",
-      "item": "Cetoprofeno EV 100mg",
       "usuario": "Leiliana"
     }
   ]
