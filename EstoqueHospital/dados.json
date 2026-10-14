@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "14/10/2026 11:06:13",
+  "atualizado_em": "14/10/2026 11:06:33",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 412,
-    "total_almoxarifado": 112310,
-    "total_farmacia": 33447,
+    "total_almoxarifado": 112303,
+    "total_farmacia": 33454,
     "total_geral": 145757,
     "perto_de_terminar": 23,
     "zerados": 12
@@ -11952,8 +11952,8 @@
       "nome": "oleo de girasol AGE",
       "tipo": "Medicamento",
       "unidade": "Unidade",
-      "almoxarifado": 7,
-      "farmacia": 0,
+      "almoxarifado": 0,
+      "farmacia": 7,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -11965,12 +11965,12 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-13 14:10:53",
+      "atualizado_em": "2026-10-14 11:06:32",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
         {
-          "local": "almoxarifado",
+          "local": "farmacia",
           "validade": "",
           "lote": "",
           "quantidade": 7
@@ -17452,6 +17452,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 4188,
+      "item_id": 410,
+      "produto_nome": "oleo de girasol AGE",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 7,
+      "responsavel": "Assucena",
+      "data": "2026-10-13",
+      "obs": "",
+      "criado_em": "2026-10-14 11:06:32",
+      "item": "oleo de girasol AGE",
+      "usuario": "Assucena"
+    },
     {
       "id": 4187,
       "item_id": 281,
@@ -24935,21 +24950,6 @@
       "obs": "",
       "criado_em": "2026-10-07 10:50:16",
       "item": "Equipo macrogotas",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 3688,
-      "item_id": 329,
-      "produto_nome": "Polifix",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 10,
-      "responsavel": "Assucena",
-      "data": "2026-10-07",
-      "obs": "",
-      "criado_em": "2026-10-07 10:50:05",
-      "item": "Polifix",
       "usuario": "Assucena"
     }
   ]
