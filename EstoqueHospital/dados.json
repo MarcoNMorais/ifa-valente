@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "14/10/2026 10:58:15",
+  "atualizado_em": "14/10/2026 10:58:23",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 412,
     "total_almoxarifado": 113694,
-    "total_farmacia": 32714,
-    "total_geral": 146408,
+    "total_farmacia": 32664,
+    "total_geral": 146358,
     "perto_de_terminar": 23,
     "zerados": 12
   },
@@ -5110,19 +5110,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 1400,
-      "farmacia": 360,
+      "farmacia": 310,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1760,
+      "total": 1710,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-13 16:16:35",
+      "atualizado_em": "2026-10-14 10:58:22",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -5136,17 +5136,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 360
+          "quantidade": 310
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 864,
-      "previsao_20_dias": 864,
+      "minimo_alerta": 880,
+      "previsao_20_dias": 880,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 63,
-      "media_diaria_saida": 43.17,
-      "total_saida_historica": 2720,
-      "cobertura_dias": 40.8,
+      "media_diaria_saida": 43.97,
+      "total_saida_historica": 2770,
+      "cobertura_dias": 38.9,
       "alerta_estoque": false
     },
     {
@@ -17459,6 +17459,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 4142,
+      "item_id": 70,
+      "produto_nome": "Dipirona",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 50,
+      "responsavel": "Assucena",
+      "data": "2026-10-13",
+      "obs": "",
+      "criado_em": "2026-10-14 10:58:22",
+      "item": "Dipirona",
+      "usuario": "Assucena"
+    },
+    {
       "id": 4141,
       "item_id": 68,
       "produto_nome": "Dexametasona",
@@ -24941,21 +24956,6 @@
       "obs": "",
       "criado_em": "2026-10-06 11:34:45",
       "item": "Tramadol 50mg/ml 2ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 3642,
-      "item_id": 53,
-      "produto_nome": "Ácido Tranexâmico 50mg",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 20,
-      "responsavel": "Assucena",
-      "data": "2026-10-05",
-      "obs": "",
-      "criado_em": "2026-10-06 11:34:37",
-      "item": "Ácido Tranexâmico 50mg",
       "usuario": "Assucena"
     }
   ]
