@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "14/10/2026 10:59:33",
+  "atualizado_em": "14/10/2026 10:59:39",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 412,
-    "total_almoxarifado": 113294,
-    "total_farmacia": 32974,
+    "total_almoxarifado": 113284,
+    "total_farmacia": 32984,
     "total_geral": 146268,
     "perto_de_terminar": 23,
     "zerados": 12
@@ -10399,8 +10399,8 @@
       "nome": "Luva M procedimento",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 80,
-      "farmacia": 906,
+      "almoxarifado": 70,
+      "farmacia": 916,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -10412,7 +10412,7 @@
       "lote": "",
       "origem": "Carga Almoxerifado",
       "obs": "Importação Almoxerifado",
-      "atualizado_em": "2026-10-08 20:26:13",
+      "atualizado_em": "2026-10-14 10:59:36",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -10420,13 +10420,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 80
+          "quantidade": 70
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 906
+          "quantidade": 916
         }
       ],
       "minimo_manual": 0,
@@ -17452,6 +17452,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 4150,
+      "item_id": 280,
+      "produto_nome": "Luva M procedimento",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 10,
+      "responsavel": "Assucena",
+      "data": "2026-10-13",
+      "obs": "",
+      "criado_em": "2026-10-14 10:59:36",
+      "item": "Luva M procedimento",
+      "usuario": "Assucena"
+    },
     {
       "id": 4149,
       "item_id": 178,
@@ -24935,21 +24950,6 @@
       "obs": "",
       "criado_em": "2026-10-06 16:31:00",
       "item": "Benzilpenicilina 1.200",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 3650,
-      "item_id": 68,
-      "produto_nome": "Dexametasona",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 30,
-      "responsavel": "Leiliana",
-      "data": "2026-10-06",
-      "obs": "",
-      "criado_em": "2026-10-06 16:30:47",
-      "item": "Dexametasona",
       "usuario": "Leiliana"
     }
   ]
