@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "14/10/2026 16:27:08",
+  "atualizado_em": "14/10/2026 16:27:17",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 412,
     "total_almoxarifado": 112129,
-    "total_farmacia": 33294,
-    "total_geral": 145423,
+    "total_farmacia": 33293,
+    "total_geral": 145422,
     "perto_de_terminar": 23,
     "zerados": 13
   },
@@ -8146,19 +8146,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 72,
-      "farmacia": 12,
+      "farmacia": 11,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 84,
+      "total": 83,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-13 14:57:07",
+      "atualizado_em": "2026-10-14 16:27:16",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -8172,7 +8172,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 12
+          "quantidade": 11
         }
       ],
       "minimo_manual": 0,
@@ -8180,9 +8180,9 @@
       "previsao_20_dias": 5,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 58,
-      "media_diaria_saida": 0.22,
-      "total_saida_historica": 13,
-      "cobertura_dias": 374.8,
+      "media_diaria_saida": 0.24,
+      "total_saida_historica": 14,
+      "cobertura_dias": 343.9,
       "alerta_estoque": false
     },
     {
@@ -17453,6 +17453,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 4233,
+      "item_id": 294,
+      "produto_nome": "Glicerina 12%",
+      "tipo": "Farmácia para AJUSTE DE ESTOQUE",
+      "origem": "Farmácia",
+      "destino": "AJUSTE DE ESTOQUE",
+      "quantidade": 1,
+      "responsavel": "Leiliana",
+      "data": "2026-10-14",
+      "obs": "",
+      "criado_em": "2026-10-14 16:27:16",
+      "item": "Glicerina 12%",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 4232,
       "item_id": 181,
       "produto_nome": "Luva de látex tam. M",
@@ -24935,21 +24950,6 @@
       "obs": "",
       "criado_em": "2026-10-07 16:53:21",
       "item": "Soro fisiológico 250ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 3733,
-      "item_id": 201,
-      "produto_nome": "Soro Ringer Lactato 500ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 3,
-      "responsavel": "Leiliana",
-      "data": "2026-10-07",
-      "obs": "",
-      "criado_em": "2026-10-07 16:53:07",
-      "item": "Soro Ringer Lactato 500ml",
       "usuario": "Leiliana"
     }
   ]
