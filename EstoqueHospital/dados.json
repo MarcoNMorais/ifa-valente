@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "14/10/2026 16:23:50",
+  "atualizado_em": "14/10/2026 16:24:00",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 412,
     "total_almoxarifado": 112145,
-    "total_farmacia": 33502,
-    "total_geral": 145647,
+    "total_farmacia": 33501,
+    "total_geral": 145646,
     "perto_de_terminar": 23,
     "zerados": 12
   },
@@ -6107,19 +6107,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 304,
-      "farmacia": 24,
+      "farmacia": 23,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 328,
+      "total": 327,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-14 11:04:20",
+      "atualizado_em": "2026-10-14 16:23:59",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -6133,7 +6133,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 26
+          "quantidade": 25
         }
       ],
       "minimo_manual": 0,
@@ -6141,9 +6141,9 @@
       "previsao_20_dias": 47,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 58,
-      "media_diaria_saida": 2.31,
-      "total_saida_historica": 134,
-      "cobertura_dias": 142.0,
+      "media_diaria_saida": 2.33,
+      "total_saida_historica": 135,
+      "cobertura_dias": 140.5,
       "alerta_estoque": false
     },
     {
@@ -17459,6 +17459,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 4218,
+      "item_id": 276,
+      "produto_nome": "Esparadrapo 10x4,5",
+      "tipo": "Farmácia para AJUSTE DE ESTOQUE",
+      "origem": "Farmácia",
+      "destino": "AJUSTE DE ESTOQUE",
+      "quantidade": 1,
+      "responsavel": "Leiliana",
+      "data": "2026-10-14",
+      "obs": "",
+      "criado_em": "2026-10-14 16:23:59",
+      "item": "Esparadrapo 10x4,5",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 4217,
       "item_id": 155,
       "produto_nome": "Bolsa coletora",
@@ -24941,21 +24956,6 @@
       "obs": "",
       "criado_em": "2026-10-07 16:50:08",
       "item": "Esparadrapo 10x4,5",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 3718,
-      "item_id": 154,
-      "produto_nome": "Equipo fotossensível",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 2,
-      "responsavel": "Leiliana",
-      "data": "2026-10-07",
-      "obs": "",
-      "criado_em": "2026-10-07 16:49:57",
-      "item": "Equipo fotossensível",
       "usuario": "Leiliana"
     }
   ]
