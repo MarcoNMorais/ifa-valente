@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "14/10/2026 11:04:53",
+  "atualizado_em": "14/10/2026 11:05:01",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 412,
     "total_almoxarifado": 112870,
-    "total_farmacia": 32952,
-    "total_geral": 145822,
+    "total_farmacia": 32950,
+    "total_geral": 145820,
     "perto_de_terminar": 23,
     "zerados": 12
   },
@@ -14643,19 +14643,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 17,
+      "farmacia": 15,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 17,
+      "total": 15,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga Almoxerifado",
       "obs": "Importação Almoxerifado",
-      "atualizado_em": "2026-10-08 20:26:13",
+      "atualizado_em": "2026-10-14 11:05:00",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -14663,7 +14663,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 17
+          "quantidade": 15
         }
       ],
       "minimo_manual": 0,
@@ -14671,9 +14671,9 @@
       "previsao_20_dias": 2,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 58,
-      "media_diaria_saida": 0.05,
-      "total_saida_historica": 3,
-      "cobertura_dias": 328.7,
+      "media_diaria_saida": 0.09,
+      "total_saida_historica": 5,
+      "cobertura_dias": 174.0,
       "alerta_estoque": false
     },
     {
@@ -17452,6 +17452,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 4178,
+      "item_id": 313,
+      "produto_nome": "Sonda Foley nº 16",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 2,
+      "responsavel": "Assucena",
+      "data": "2026-10-13",
+      "obs": "",
+      "criado_em": "2026-10-14 11:05:00",
+      "item": "Sonda Foley nº 16",
+      "usuario": "Assucena"
+    },
     {
       "id": 4177,
       "item_id": 252,
@@ -24935,21 +24950,6 @@
       "obs": "",
       "criado_em": "2026-10-07 10:48:46",
       "item": "Agulha 30x7",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 3678,
-      "item_id": 390,
-      "produto_nome": "AGULHA  40X1,2",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 100,
-      "responsavel": "Assucena",
-      "data": "2026-10-07",
-      "obs": "",
-      "criado_em": "2026-10-07 10:48:39",
-      "item": "AGULHA  40X1,2",
       "usuario": "Assucena"
     }
   ]
