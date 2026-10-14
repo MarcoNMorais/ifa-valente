@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "14/10/2026 11:05:50",
+  "atualizado_em": "14/10/2026 11:05:56",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 412,
     "total_almoxarifado": 112310,
-    "total_farmacia": 33460,
-    "total_geral": 145770,
+    "total_farmacia": 33459,
+    "total_geral": 145769,
     "perto_de_terminar": 23,
     "zerados": 12
   },
@@ -188,19 +188,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 17,
-      "farmacia": 3,
+      "farmacia": 2,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 20,
+      "total": 19,
       "minimo": 0,
       "validade": "03/28",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-13 13:59:37",
+      "atualizado_em": "2026-10-14 11:05:54",
       "validade_mais_proxima": "03/28",
       "vencimento_mais_proximo": "03/28",
       "lotes_validade": [
@@ -208,7 +208,7 @@
           "local": "farmacia",
           "validade": "03/28",
           "lote": "",
-          "quantidade": 3
+          "quantidade": 2
         },
         {
           "local": "almoxarifado",
@@ -222,9 +222,9 @@
       "previsao_20_dias": 2,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 62,
-      "media_diaria_saida": 0.08,
-      "total_saida_historica": 5,
-      "cobertura_dias": 248.0,
+      "media_diaria_saida": 0.1,
+      "total_saida_historica": 6,
+      "cobertura_dias": 196.3,
       "alerta_estoque": false
     },
     {
@@ -17453,6 +17453,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 4185,
+      "item_id": 248,
+      "produto_nome": "Acetilcisteína 2mg/ml",
+      "tipo": "Farmácia para Posto de Internamento",
+      "origem": "Farmácia",
+      "destino": "Posto de Internamento",
+      "quantidade": 1,
+      "responsavel": "Assucena",
+      "data": "2026-10-13",
+      "obs": "",
+      "criado_em": "2026-10-14 11:05:54",
+      "item": "Acetilcisteína 2mg/ml",
+      "usuario": "Assucena"
+    },
+    {
       "id": 4184,
       "item_id": 59,
       "produto_nome": "Ceftriaxona 1g",
@@ -24935,21 +24950,6 @@
       "obs": "",
       "criado_em": "2026-10-07 10:49:52",
       "item": "Seringa 10ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 3685,
-      "item_id": 99,
-      "produto_nome": "Scalp nº 21",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 10,
-      "responsavel": "Assucena",
-      "data": "2026-10-07",
-      "obs": "",
-      "criado_em": "2026-10-07 10:49:43",
-      "item": "Scalp nº 21",
       "usuario": "Assucena"
     }
   ]
