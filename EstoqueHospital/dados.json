@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "14/10/2026 11:00:59",
+  "atualizado_em": "14/10/2026 11:01:08",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 412,
     "total_almoxarifado": 113264,
-    "total_farmacia": 32794,
-    "total_geral": 146058,
+    "total_farmacia": 32774,
+    "total_geral": 146038,
     "perto_de_terminar": 23,
     "zerados": 12
   },
@@ -658,19 +658,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 560,
+      "farmacia": 540,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 560,
+      "total": 540,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga Almoxerifado",
       "obs": "Importação Almoxerifado",
-      "atualizado_em": "2026-10-13 14:53:40",
+      "atualizado_em": "2026-10-14 11:01:06",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -678,17 +678,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 560
+          "quantidade": 540
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 118,
-      "previsao_20_dias": 118,
+      "minimo_alerta": 125,
+      "previsao_20_dias": 125,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 58,
-      "media_diaria_saida": 5.86,
-      "total_saida_historica": 340,
-      "cobertura_dias": 95.5,
+      "media_diaria_saida": 6.21,
+      "total_saida_historica": 360,
+      "cobertura_dias": 87.0,
       "alerta_estoque": false
     },
     {
@@ -17453,6 +17453,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 4160,
+      "item_id": 319,
+      "produto_nome": "Agulha 25x7",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 20,
+      "responsavel": "Assucena",
+      "data": "2026-10-13",
+      "obs": "",
+      "criado_em": "2026-10-14 11:01:06",
+      "item": "Agulha 25x7",
+      "usuario": "Assucena"
+    },
+    {
       "id": 4159,
       "item_id": 331,
       "produto_nome": "Agulha 30x8",
@@ -24935,21 +24950,6 @@
       "obs": "",
       "criado_em": "2026-10-06 16:33:11",
       "item": "LENÇOL DESCARTAVEL PAPEL",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 3660,
-      "item_id": 220,
-      "produto_nome": "Equipo macrogotas",
-      "tipo": "Almoxarifado para Farmácia",
-      "origem": "Almoxarifado",
-      "destino": "Farmácia",
-      "quantidade": 75,
-      "responsavel": "Leiliana",
-      "data": "2026-10-06",
-      "obs": "",
-      "criado_em": "2026-10-06 16:32:57",
-      "item": "Equipo macrogotas",
       "usuario": "Leiliana"
     }
   ]
