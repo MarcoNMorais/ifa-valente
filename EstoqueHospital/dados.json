@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "14/10/2026 11:00:13",
+  "atualizado_em": "14/10/2026 11:00:20",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 412,
     "total_almoxarifado": 113264,
-    "total_farmacia": 32984,
-    "total_geral": 146248,
+    "total_farmacia": 32974,
+    "total_geral": 146238,
     "perto_de_terminar": 23,
     "zerados": 12
   },
@@ -5380,19 +5380,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 100,
-      "farmacia": 244,
+      "farmacia": 234,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 344,
+      "total": 334,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-10-14 10:59:29",
+      "atualizado_em": "2026-10-14 11:00:18",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -5406,17 +5406,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 244
+          "quantidade": 234
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 193,
-      "previsao_20_dias": 193,
+      "minimo_alerta": 196,
+      "previsao_20_dias": 196,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 63,
-      "media_diaria_saida": 9.62,
-      "total_saida_historica": 606,
-      "cobertura_dias": 35.8,
+      "media_diaria_saida": 9.78,
+      "total_saida_historica": 616,
+      "cobertura_dias": 34.2,
       "alerta_estoque": false
     },
     {
@@ -17453,6 +17453,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 4154,
+      "item_id": 178,
+      "produto_nome": "Dispositivo intravenoso Gelco nº 20",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 10,
+      "responsavel": "Assucena",
+      "data": "2026-10-13",
+      "obs": "",
+      "criado_em": "2026-10-14 11:00:18",
+      "item": "Dispositivo intravenoso Gelco nº 20",
+      "usuario": "Assucena"
+    },
+    {
       "id": 4153,
       "item_id": 177,
       "produto_nome": "Gelco nº 22",
@@ -24935,21 +24950,6 @@
       "obs": "",
       "criado_em": "2026-10-06 16:31:53",
       "item": "Seringa 20ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 3654,
-      "item_id": 285,
-      "produto_nome": "Agulha 30x7",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 40,
-      "responsavel": "Leiliana",
-      "data": "2026-10-06",
-      "obs": "",
-      "criado_em": "2026-10-06 16:31:37",
-      "item": "Agulha 30x7",
       "usuario": "Leiliana"
     }
   ]
