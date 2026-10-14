@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "14/10/2026 11:05:31",
+  "atualizado_em": "14/10/2026 11:05:43",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 412,
-    "total_almoxarifado": 112870,
-    "total_farmacia": 32912,
+    "total_almoxarifado": 112310,
+    "total_farmacia": 33472,
     "total_geral": 145782,
     "perto_de_terminar": 23,
     "zerados": 12
@@ -3432,8 +3432,8 @@
       "nome": "Ceftriaxona 1g",
       "tipo": "Medicamento",
       "unidade": "Unidade",
-      "almoxarifado": 560,
-      "farmacia": 0,
+      "almoxarifado": 0,
+      "farmacia": 560,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -3445,12 +3445,12 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-13 16:16:03",
+      "atualizado_em": "2026-10-14 11:05:41",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
         {
-          "local": "almoxarifado",
+          "local": "farmacia",
           "validade": "",
           "lote": "",
           "quantidade": 560
@@ -17453,6 +17453,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 4183,
+      "item_id": 59,
+      "produto_nome": "Ceftriaxona 1g",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 560,
+      "responsavel": "Assucena",
+      "data": "2026-10-13",
+      "obs": "",
+      "criado_em": "2026-10-14 11:05:41",
+      "item": "Ceftriaxona 1g",
+      "usuario": "Assucena"
+    },
+    {
       "id": 4182,
       "item_id": 78,
       "produto_nome": "Furosemida",
@@ -24935,21 +24950,6 @@
       "obs": "",
       "criado_em": "2026-10-07 10:49:39",
       "item": "Scalp nº 21",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 3683,
-      "item_id": 176,
-      "produto_nome": "Gelco nº 24",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 10,
-      "responsavel": "Assucena",
-      "data": "2026-10-07",
-      "obs": "",
-      "criado_em": "2026-10-07 10:49:18",
-      "item": "Gelco nº 24",
       "usuario": "Assucena"
     }
   ]
