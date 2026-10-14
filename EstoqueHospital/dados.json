@@ -1,13 +1,13 @@
 {
-  "atualizado_em": "14/10/2026 16:34:22",
+  "atualizado_em": "14/10/2026 16:42:41",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 412,
     "total_almoxarifado": 112129,
-    "total_farmacia": 33293,
-    "total_geral": 145422,
-    "perto_de_terminar": 23,
-    "zerados": 13
+    "total_farmacia": 33263,
+    "total_geral": 145392,
+    "perto_de_terminar": 24,
+    "zerados": 14
   },
   "itens": [
     {
@@ -400,44 +400,31 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 30,
+      "farmacia": 0,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 30,
+      "total": 0,
       "minimo": 0,
-      "validade": "2026-09",
+      "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-10-14 16:34:21",
-      "validade_mais_proxima": "2026-09",
-      "vencimento_mais_proximo": "2026-09",
-      "lotes_validade": [
-        {
-          "local": "farmacia",
-          "validade": "2026-09",
-          "lote": "",
-          "quantidade": 18
-        },
-        {
-          "local": "farmacia",
-          "validade": "2027-10",
-          "lote": "",
-          "quantidade": 12
-        }
-      ],
+      "atualizado_em": "2026-10-14 16:42:40",
+      "validade_mais_proxima": "",
+      "vencimento_mais_proximo": "",
+      "lotes_validade": [],
       "minimo_manual": 0,
-      "minimo_alerta": 1,
-      "previsao_20_dias": 1,
+      "minimo_alerta": 11,
+      "previsao_20_dias": 11,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 63,
-      "media_diaria_saida": 0.03,
-      "total_saida_historica": 2,
-      "cobertura_dias": 945.0,
-      "alerta_estoque": false
+      "media_diaria_saida": 0.51,
+      "total_saida_historica": 32,
+      "cobertura_dias": 0.0,
+      "alerta_estoque": true
     },
     {
       "id": 381,
@@ -17453,6 +17440,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 4234,
+      "item_id": 14,
+      "produto_nome": "Adenosina 3mg/ml 2ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 30,
+      "responsavel": "Leiliana",
+      "data": "2026-10-14",
+      "obs": "",
+      "criado_em": "2026-10-14 16:42:40",
+      "item": "Adenosina 3mg/ml 2ml",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 4233,
       "item_id": 294,
       "produto_nome": "Glicerina 12%",
@@ -24935,21 +24937,6 @@
       "obs": "",
       "criado_em": "2026-10-07 16:53:31",
       "item": "Caixa de perfurocortante",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 3734,
-      "item_id": 203,
-      "produto_nome": "Soro fisiológico 250ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 3,
-      "responsavel": "Leiliana",
-      "data": "2026-10-07",
-      "obs": "",
-      "criado_em": "2026-10-07 16:53:21",
-      "item": "Soro fisiológico 250ml",
       "usuario": "Leiliana"
     }
   ]
