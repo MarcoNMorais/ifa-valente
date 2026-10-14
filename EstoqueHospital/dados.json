@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "14/10/2026 16:21:56",
+  "atualizado_em": "14/10/2026 16:22:26",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 412,
-    "total_almoxarifado": 112275,
-    "total_farmacia": 33503,
+    "total_almoxarifado": 112175,
+    "total_farmacia": 33603,
     "total_geral": 145778,
     "perto_de_terminar": 23,
     "zerados": 12
@@ -13286,8 +13286,8 @@
       "nome": "Seringa 20ml",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 7150,
-      "farmacia": 5,
+      "almoxarifado": 7050,
+      "farmacia": 105,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -13299,7 +13299,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-14 11:01:31",
+      "atualizado_em": "2026-10-14 16:22:24",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -13307,13 +13307,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 7150
+          "quantidade": 7050
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 30
+          "quantidade": 130
         }
       ],
       "minimo_manual": 0,
@@ -17452,6 +17452,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 4210,
+      "item_id": 274,
+      "produto_nome": "Seringa 20ml",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 100,
+      "responsavel": "Leiliana",
+      "data": "2026-10-14",
+      "obs": "",
+      "criado_em": "2026-10-14 16:22:24",
+      "item": "Seringa 20ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 4209,
       "item_id": 99,
@@ -24935,21 +24950,6 @@
       "obs": "",
       "criado_em": "2026-10-07 16:48:44",
       "item": "Enoxaparina sódica 60mg",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 3710,
-      "item_id": 230,
-      "produto_nome": "Ferropurum 20mg/ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 1,
-      "responsavel": "Leiliana",
-      "data": "2026-10-07",
-      "obs": "",
-      "criado_em": "2026-10-07 16:48:31",
-      "item": "Ferropurum 20mg/ml",
       "usuario": "Leiliana"
     }
   ]
