@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "14/10/2026 11:03:10",
+  "atualizado_em": "14/10/2026 11:03:31",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 412,
     "total_almoxarifado": 112894,
-    "total_farmacia": 32984,
-    "total_geral": 145878,
+    "total_farmacia": 32959,
+    "total_geral": 145853,
     "perto_de_terminar": 23,
     "zerados": 12
   },
@@ -5843,19 +5843,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 1681,
-      "farmacia": 50,
+      "farmacia": 25,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1731,
+      "total": 1706,
       "minimo": 300,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-13 16:17:47",
+      "atualizado_em": "2026-10-14 11:03:30",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -5869,17 +5869,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 75
+          "quantidade": 50
         }
       ],
       "minimo_manual": 300,
-      "minimo_alerta": 491,
-      "previsao_20_dias": 491,
+      "minimo_alerta": 499,
+      "previsao_20_dias": 499,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 63,
-      "media_diaria_saida": 24.51,
-      "total_saida_historica": 1544,
-      "cobertura_dias": 70.6,
+      "media_diaria_saida": 24.9,
+      "total_saida_historica": 1569,
+      "cobertura_dias": 68.5,
       "alerta_estoque": false
     },
     {
@@ -17453,6 +17453,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 4170,
+      "item_id": 220,
+      "produto_nome": "Equipo macrogotas",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 25,
+      "responsavel": "Assucena",
+      "data": "2026-10-13",
+      "obs": "",
+      "criado_em": "2026-10-14 11:03:30",
+      "item": "Equipo macrogotas",
+      "usuario": "Assucena"
+    },
+    {
       "id": 4169,
       "item_id": 329,
       "produto_nome": "Polifix",
@@ -24935,21 +24950,6 @@
       "obs": "",
       "criado_em": "2026-10-07 10:47:38",
       "item": "Touca descartável",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 3670,
-      "item_id": 241,
-      "produto_nome": "Lactulose solução",
-      "tipo": "Almoxarifado para Farmácia",
-      "origem": "Almoxarifado",
-      "destino": "Farmácia",
-      "quantidade": 8,
-      "responsavel": "Assucena",
-      "data": "2026-10-07",
-      "obs": "",
-      "criado_em": "2026-10-07 10:47:26",
-      "item": "Lactulose solução",
       "usuario": "Assucena"
     }
   ]
