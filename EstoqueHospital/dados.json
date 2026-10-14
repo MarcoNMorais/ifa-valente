@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "14/10/2026 10:58:58",
+  "atualizado_em": "14/10/2026 10:59:06",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 412,
     "total_almoxarifado": 113694,
-    "total_farmacia": 32579,
-    "total_geral": 146273,
+    "total_farmacia": 32574,
+    "total_geral": 146268,
     "perto_de_terminar": 23,
     "zerados": 12
   },
@@ -8450,19 +8450,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 37,
-      "farmacia": 43,
+      "farmacia": 38,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 80,
+      "total": 75,
       "minimo": 0,
       "validade": "2027-06",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-13 14:17:10",
+      "atualizado_em": "2026-10-14 10:59:05",
       "validade_mais_proxima": "2027-06",
       "vencimento_mais_proximo": "2027-06",
       "lotes_validade": [
@@ -8470,7 +8470,7 @@
           "local": "farmacia",
           "validade": "2027-06",
           "lote": "",
-          "quantidade": 43
+          "quantidade": 38
         },
         {
           "local": "almoxarifado",
@@ -8480,13 +8480,13 @@
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 12,
-      "previsao_20_dias": 12,
+      "minimo_alerta": 13,
+      "previsao_20_dias": 13,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 63,
-      "media_diaria_saida": 0.56,
-      "total_saida_historica": 35,
-      "cobertura_dias": 144.0,
+      "media_diaria_saida": 0.63,
+      "total_saida_historica": 40,
+      "cobertura_dias": 118.1,
       "alerta_estoque": false
     },
     {
@@ -17453,6 +17453,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 4147,
+      "item_id": 89,
+      "produto_nome": "Hemitartarato de Norepinefrina",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 5,
+      "responsavel": "Assucena",
+      "data": "2026-10-13",
+      "obs": "",
+      "criado_em": "2026-10-14 10:59:05",
+      "item": "Hemitartarato de Norepinefrina",
+      "usuario": "Assucena"
+    },
+    {
       "id": 4146,
       "item_id": 239,
       "produto_nome": "Tramadol 50mg/ml 2ml",
@@ -24936,21 +24951,6 @@
       "criado_em": "2026-10-06 16:30:24",
       "item": "Acesso Central",
       "usuario": "Leiliana"
-    },
-    {
-      "id": 3647,
-      "item_id": 249,
-      "produto_nome": "Prednisolona 3mg/ml",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 1,
-      "responsavel": "Assucena",
-      "data": "2026-10-05",
-      "obs": "",
-      "criado_em": "2026-10-06 11:35:17",
-      "item": "Prednisolona 3mg/ml",
-      "usuario": "Assucena"
     }
   ]
 }
