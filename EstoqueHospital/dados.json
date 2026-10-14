@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "14/10/2026 16:26:23",
+  "atualizado_em": "14/10/2026 16:26:36",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 412,
     "total_almoxarifado": 112129,
-    "total_farmacia": 33308,
-    "total_geral": 145437,
+    "total_farmacia": 33305,
+    "total_geral": 145434,
     "perto_de_terminar": 23,
     "zerados": 13
   },
@@ -9356,19 +9356,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 84,
-      "farmacia": 22,
+      "farmacia": 19,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 106,
+      "total": 103,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga Farmácia 227-288",
       "obs": "Importação Farmácia 227-288",
-      "atualizado_em": "2026-10-14 11:00:01",
+      "atualizado_em": "2026-10-14 16:26:35",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -9382,17 +9382,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 22
+          "quantidade": 19
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 7,
-      "previsao_20_dias": 7,
+      "minimo_alerta": 8,
+      "previsao_20_dias": 8,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 62,
-      "media_diaria_saida": 0.32,
-      "total_saida_historica": 20,
-      "cobertura_dias": 328.6,
+      "media_diaria_saida": 0.37,
+      "total_saida_historica": 23,
+      "cobertura_dias": 277.7,
       "alerta_estoque": false
     },
     {
@@ -17453,6 +17453,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 4230,
+      "item_id": 241,
+      "produto_nome": "Lactulose solução",
+      "tipo": "Farmácia para AJUSTE DE ESTOQUE",
+      "origem": "Farmácia",
+      "destino": "AJUSTE DE ESTOQUE",
+      "quantidade": 3,
+      "responsavel": "Leiliana",
+      "data": "2026-10-14",
+      "obs": "",
+      "criado_em": "2026-10-14 16:26:35",
+      "item": "Lactulose solução",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 4229,
       "item_id": 229,
       "produto_nome": "Oxacilina 500mg pó injetável",
@@ -24935,21 +24950,6 @@
       "obs": "",
       "criado_em": "2026-10-07 16:52:43",
       "item": "Seringa 10ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 3730,
-      "item_id": 225,
-      "produto_nome": "Meropenem 1g",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 6,
-      "responsavel": "Leiliana",
-      "data": "2026-10-07",
-      "obs": "",
-      "criado_em": "2026-10-07 16:52:31",
-      "item": "Meropenem 1g",
       "usuario": "Leiliana"
     }
   ]
