@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "15/10/2026 14:25:32",
+  "atualizado_em": "15/10/2026 14:25:53",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 412,
-    "total_almoxarifado": 111578,
-    "total_farmacia": 33172,
+    "total_almoxarifado": 111438,
+    "total_farmacia": 33312,
     "total_geral": 144750,
     "perto_de_terminar": 25,
     "zerados": 14
@@ -12693,8 +12693,8 @@
       "nome": "Prometazina 25mg/ml",
       "tipo": "Medicamento",
       "unidade": "Unidade",
-      "almoxarifado": 140,
-      "farmacia": 0,
+      "almoxarifado": 0,
+      "farmacia": 140,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -12706,12 +12706,12 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-14 16:34:21",
+      "atualizado_em": "2026-10-15 14:25:52",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
         {
-          "local": "almoxarifado",
+          "local": "farmacia",
           "validade": "",
           "lote": "",
           "quantidade": 140
@@ -17433,6 +17433,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 4281,
+      "item_id": 233,
+      "produto_nome": "Prometazina 25mg/ml",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 140,
+      "responsavel": "Leiliana",
+      "data": "2026-10-15",
+      "obs": "",
+      "criado_em": "2026-10-15 14:25:52",
+      "item": "Prometazina 25mg/ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 4280,
       "item_id": 228,
@@ -24917,21 +24932,6 @@
       "criado_em": "2026-10-08 16:45:47",
       "item": "Soro fisiológico 500ml",
       "usuario": "Leiliana"
-    },
-    {
-      "id": 3781,
-      "item_id": 88,
-      "produto_nome": "Tartarato de Metoprolol",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 2,
-      "responsavel": "Assucena",
-      "data": "2026-10-07",
-      "obs": "",
-      "criado_em": "2026-10-08 11:01:52",
-      "item": "Tartarato de Metoprolol",
-      "usuario": "Assucena"
     }
   ]
 }
