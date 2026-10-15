@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "15/10/2026 14:39:07",
+  "atualizado_em": "15/10/2026 14:39:23",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 412,
-    "total_almoxarifado": 111484,
-    "total_farmacia": 32863,
+    "total_almoxarifado": 111460,
+    "total_farmacia": 32887,
     "total_geral": 144347,
     "perto_de_terminar": 25,
     "zerados": 14
@@ -15951,8 +15951,8 @@
       "nome": "Soro Ringer Lactato 500ml",
       "tipo": "Insumo",
       "unidade": "Unidade",
-      "almoxarifado": 520,
-      "farmacia": 10,
+      "almoxarifado": 496,
+      "farmacia": 34,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -15964,7 +15964,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-15 14:34:29",
+      "atualizado_em": "2026-10-15 14:39:22",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -15972,13 +15972,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 520
+          "quantidade": 496
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 10
+          "quantidade": 34
         }
       ],
       "minimo_manual": 0,
@@ -17433,6 +17433,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 4317,
+      "item_id": 201,
+      "produto_nome": "Soro Ringer Lactato 500ml",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 24,
+      "responsavel": "Leiliana",
+      "data": "2026-10-15",
+      "obs": "",
+      "criado_em": "2026-10-15 14:39:22",
+      "item": "Soro Ringer Lactato 500ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 4316,
       "item_id": 320,
@@ -24916,21 +24931,6 @@
       "obs": "",
       "criado_em": "2026-10-09 10:38:29",
       "item": "Hidrocortisona 100MG",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 3817,
-      "item_id": 229,
-      "produto_nome": "Oxacilina 500mg pó injetável",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 15,
-      "responsavel": "Leiliana",
-      "data": "2026-10-09",
-      "obs": "",
-      "criado_em": "2026-10-09 10:38:16",
-      "item": "Oxacilina 500mg pó injetável",
       "usuario": "Leiliana"
     }
   ]
