@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "15/10/2026 14:32:11",
+  "atualizado_em": "15/10/2026 14:32:35",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 412,
-    "total_almoxarifado": 111414,
-    "total_farmacia": 32878,
+    "total_almoxarifado": 111384,
+    "total_farmacia": 32908,
     "total_geral": 144292,
     "perto_de_terminar": 25,
     "zerados": 14
@@ -9950,8 +9950,8 @@
       "nome": "Luva cirúrgica tam. 7",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 380,
-      "farmacia": 2,
+      "almoxarifado": 350,
+      "farmacia": 32,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -9963,7 +9963,7 @@
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-10-14 16:34:21",
+      "atualizado_em": "2026-10-15 14:32:34",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -9977,7 +9977,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 2
+          "quantidade": 32
         }
       ],
       "minimo_manual": 0,
@@ -17433,6 +17433,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 4307,
+      "item_id": 184,
+      "produto_nome": "Luva cirúrgica tam. 7",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 30,
+      "responsavel": "Leiliana",
+      "data": "2026-10-15",
+      "obs": "",
+      "criado_em": "2026-10-15 14:32:34",
+      "item": "Luva cirúrgica tam. 7",
+      "usuario": "Leiliana"
+    },
     {
       "id": 4306,
       "item_id": 63,
@@ -24916,21 +24931,6 @@
       "obs": "",
       "criado_em": "2026-10-09 10:36:26",
       "item": "Seringa 10ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 3807,
-      "item_id": 274,
-      "produto_nome": "Seringa 20ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 30,
-      "responsavel": "Leiliana",
-      "data": "2026-10-09",
-      "obs": "",
-      "criado_em": "2026-10-09 10:36:16",
-      "item": "Seringa 20ml",
       "usuario": "Leiliana"
     }
   ]
