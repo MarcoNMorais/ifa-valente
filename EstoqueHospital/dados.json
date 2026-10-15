@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "15/10/2026 14:14:07",
+  "atualizado_em": "15/10/2026 14:14:28",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 412,
     "total_almoxarifado": 111929,
-    "total_farmacia": 33224,
-    "total_geral": 145153,
+    "total_farmacia": 33209,
+    "total_geral": 145138,
     "perto_de_terminar": 24,
     "zerados": 14
   },
@@ -3426,19 +3426,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 542,
+      "farmacia": 527,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 542,
+      "total": 527,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-14 16:34:21",
+      "atualizado_em": "2026-10-15 14:14:27",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -3446,17 +3446,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 542
+          "quantidade": 527
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 280,
-      "previsao_20_dias": 280,
+      "minimo_alerta": 285,
+      "previsao_20_dias": 285,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 64,
-      "media_diaria_saida": 14.0,
-      "total_saida_historica": 896,
-      "cobertura_dias": 38.7,
+      "media_diaria_saida": 14.23,
+      "total_saida_historica": 911,
+      "cobertura_dias": 37.0,
       "alerta_estoque": false
     },
     {
@@ -17434,6 +17434,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 4247,
+      "item_id": 59,
+      "produto_nome": "Ceftriaxona 1g",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 15,
+      "responsavel": "Leiliana",
+      "data": "2026-10-15",
+      "obs": "",
+      "criado_em": "2026-10-15 14:14:27",
+      "item": "Ceftriaxona 1g",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 4246,
       "item_id": 220,
       "produto_nome": "Equipo macrogotas",
@@ -24916,21 +24931,6 @@
       "obs": "",
       "criado_em": "2026-10-08 09:40:12",
       "item": "Gelco nº 24",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 3747,
-      "item_id": 177,
-      "produto_nome": "Gelco nº 22",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 20,
-      "responsavel": "Assucena",
-      "data": "2026-10-07",
-      "obs": "",
-      "criado_em": "2026-10-08 09:40:03",
-      "item": "Gelco nº 22",
       "usuario": "Assucena"
     }
   ]
