@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "15/10/2026 14:24:53",
+  "atualizado_em": "15/10/2026 14:25:10",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 412,
     "total_almoxarifado": 111578,
-    "total_farmacia": 33217,
-    "total_geral": 144795,
+    "total_farmacia": 33197,
+    "total_geral": 144775,
     "perto_de_terminar": 25,
     "zerados": 14
   },
@@ -12105,19 +12105,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 330,
+      "farmacia": 310,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 330,
+      "total": 310,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-14 16:34:21",
+      "atualizado_em": "2026-10-15 14:25:09",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -12125,17 +12125,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 360
+          "quantidade": 340
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 368,
-      "previsao_20_dias": 368,
+      "minimo_alerta": 374,
+      "previsao_20_dias": 374,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 61,
-      "media_diaria_saida": 18.36,
-      "total_saida_historica": 1120,
-      "cobertura_dias": 18.0,
+      "media_diaria_saida": 18.69,
+      "total_saida_historica": 1140,
+      "cobertura_dias": 16.6,
       "alerta_estoque": true
     },
     {
@@ -17433,6 +17433,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 4278,
+      "item_id": 238,
+      "produto_nome": "Ondansetrona 2mg/ml 2ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 20,
+      "responsavel": "Leiliana",
+      "data": "2026-10-15",
+      "obs": "",
+      "criado_em": "2026-10-15 14:25:09",
+      "item": "Ondansetrona 2mg/ml 2ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 4277,
       "item_id": 70,
@@ -24916,21 +24931,6 @@
       "obs": "",
       "criado_em": "2026-10-08 09:47:10",
       "item": "Amiodarona 50mg",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 3778,
-      "item_id": 226,
-      "produto_nome": "Enoxaparina sódica 40mg",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 4,
-      "responsavel": "Assucena",
-      "data": "2026-10-07",
-      "obs": "",
-      "criado_em": "2026-10-08 09:47:03",
-      "item": "Enoxaparina sódica 40mg",
       "usuario": "Assucena"
     }
   ]
