@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "15/10/2026 14:29:16",
+  "atualizado_em": "15/10/2026 14:29:35",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 412,
     "total_almoxarifado": 111438,
-    "total_farmacia": 32982,
-    "total_geral": 144420,
+    "total_farmacia": 32980,
+    "total_geral": 144418,
     "perto_de_terminar": 25,
     "zerados": 14
   },
@@ -13532,19 +13532,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 35,
-      "farmacia": 24,
+      "farmacia": 22,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 59,
+      "total": 57,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-14 16:34:21",
+      "atualizado_em": "2026-10-15 14:29:34",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -13558,17 +13558,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 24
+          "quantidade": 22
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 17,
-      "previsao_20_dias": 17,
+      "minimo_alerta": 18,
+      "previsao_20_dias": 18,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 63,
-      "media_diaria_saida": 0.84,
-      "total_saida_historica": 53,
-      "cobertura_dias": 70.1,
+      "media_diaria_saida": 0.87,
+      "total_saida_historica": 55,
+      "cobertura_dias": 65.3,
       "alerta_estoque": false
     },
     {
@@ -17433,6 +17433,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 4294,
+      "item_id": 256,
+      "produto_nome": "Simeticona gotas",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 2,
+      "responsavel": "Leiliana",
+      "data": "2026-10-15",
+      "obs": "",
+      "criado_em": "2026-10-15 14:29:34",
+      "item": "Simeticona gotas",
+      "usuario": "Leiliana"
+    },
     {
       "id": 4293,
       "item_id": 97,
@@ -24916,21 +24931,6 @@
       "obs": "",
       "criado_em": "2026-10-08 16:48:14",
       "item": "Agulha 25x8",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 3794,
-      "item_id": 175,
-      "produto_nome": "Fita cirúrgica microporosa",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 1,
-      "responsavel": "Leiliana",
-      "data": "2026-10-08",
-      "obs": "",
-      "criado_em": "2026-10-08 16:48:01",
-      "item": "Fita cirúrgica microporosa",
       "usuario": "Leiliana"
     }
   ]
