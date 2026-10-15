@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "15/10/2026 16:07:09",
+  "atualizado_em": "15/10/2026 16:07:21",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 412,
     "total_almoxarifado": 111460,
-    "total_farmacia": 32700,
-    "total_geral": 144160,
+    "total_farmacia": 32698,
+    "total_geral": 144158,
     "perto_de_terminar": 25,
     "zerados": 14
   },
@@ -5790,19 +5790,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 35,
-      "farmacia": 5,
+      "farmacia": 3,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 40,
+      "total": 38,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-10-14 16:34:21",
+      "atualizado_em": "2026-10-15 16:07:20",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -5816,7 +5816,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 5
+          "quantidade": 3
         }
       ],
       "minimo_manual": 0,
@@ -5824,9 +5824,9 @@
       "previsao_20_dias": 22,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 64,
-      "media_diaria_saida": 1.06,
-      "total_saida_historica": 68,
-      "cobertura_dias": 37.6,
+      "media_diaria_saida": 1.09,
+      "total_saida_historica": 70,
+      "cobertura_dias": 34.7,
       "alerta_estoque": false
     },
     {
@@ -17434,6 +17434,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 4326,
+      "item_id": 154,
+      "produto_nome": "Equipo fotossensível",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 2,
+      "responsavel": "Leiliana",
+      "data": "2026-10-15",
+      "obs": "",
+      "criado_em": "2026-10-15 16:07:20",
+      "item": "Equipo fotossensível",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 4325,
       "item_id": 220,
       "produto_nome": "Equipo macrogotas",
@@ -24916,21 +24931,6 @@
       "obs": "",
       "criado_em": "2026-10-13 13:39:38",
       "item": "Agulha 30x7",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 3826,
-      "item_id": 390,
-      "produto_nome": "AGULHA  40X1,2",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 60,
-      "responsavel": "Leiliana",
-      "data": "2026-10-13",
-      "obs": "",
-      "criado_em": "2026-10-13 13:39:25",
-      "item": "AGULHA  40X1,2",
       "usuario": "Leiliana"
     }
   ]
