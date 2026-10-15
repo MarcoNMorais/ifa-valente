@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "15/10/2026 16:07:31",
+  "atualizado_em": "15/10/2026 16:07:41",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 412,
     "total_almoxarifado": 111460,
-    "total_farmacia": 32638,
-    "total_geral": 144098,
+    "total_farmacia": 32630,
+    "total_geral": 144090,
     "perto_de_terminar": 25,
     "zerados": 14
   },
@@ -15768,19 +15768,19 @@
       "tipo": "Insumo",
       "unidade": "Unidade",
       "almoxarifado": 689,
-      "farmacia": 40,
+      "farmacia": 32,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 729,
+      "total": 721,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-15 14:33:22",
+      "atualizado_em": "2026-10-15 16:07:40",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -15794,17 +15794,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 40
+          "quantidade": 32
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 176,
-      "previsao_20_dias": 176,
+      "minimo_alerta": 179,
+      "previsao_20_dias": 179,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 64,
-      "media_diaria_saida": 8.78,
-      "total_saida_historica": 562,
-      "cobertura_dias": 83.0,
+      "media_diaria_saida": 8.91,
+      "total_saida_historica": 570,
+      "cobertura_dias": 81.0,
       "alerta_estoque": false
     },
     {
@@ -17433,6 +17433,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 4328,
+      "item_id": 204,
+      "produto_nome": "Soro fisiológico 500ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 8,
+      "responsavel": "Leiliana",
+      "data": "2026-10-15",
+      "obs": "",
+      "criado_em": "2026-10-15 16:07:40",
+      "item": "Soro fisiológico 500ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 4327,
       "item_id": 202,
@@ -24915,21 +24930,6 @@
       "data": "2026-10-13",
       "obs": "",
       "criado_em": "2026-10-13 13:40:17",
-      "item": "Agulha 30x8",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 3828,
-      "item_id": 331,
-      "produto_nome": "Agulha 30x8",
-      "tipo": "Almoxarifado para Farmácia",
-      "origem": "Almoxarifado",
-      "destino": "Farmácia",
-      "quantidade": 600,
-      "responsavel": "Leiliana",
-      "data": "2026-10-13",
-      "obs": "",
-      "criado_em": "2026-10-13 13:40:06",
       "item": "Agulha 30x8",
       "usuario": "Leiliana"
     }
