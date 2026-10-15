@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "15/10/2026 14:15:32",
+  "atualizado_em": "15/10/2026 14:15:49",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 412,
-    "total_almoxarifado": 111929,
-    "total_farmacia": 33147,
+    "total_almoxarifado": 111859,
+    "total_farmacia": 33217,
     "total_geral": 145076,
     "perto_de_terminar": 24,
     "zerados": 14
@@ -8006,8 +8006,8 @@
       "nome": "gentamicina 80mg",
       "tipo": "Medicamento",
       "unidade": "Unidade",
-      "almoxarifado": 70,
-      "farmacia": 0,
+      "almoxarifado": 0,
+      "farmacia": 70,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -8019,12 +8019,12 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-14 16:34:21",
+      "atualizado_em": "2026-10-15 14:15:48",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
         {
-          "local": "almoxarifado",
+          "local": "farmacia",
           "validade": "",
           "lote": "",
           "quantidade": 70
@@ -17434,6 +17434,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 4252,
+      "item_id": 411,
+      "produto_nome": "gentamicina 80mg",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 70,
+      "responsavel": "Leiliana",
+      "data": "2026-10-15",
+      "obs": "",
+      "criado_em": "2026-10-15 14:15:48",
+      "item": "gentamicina 80mg",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 4251,
       "item_id": 239,
       "produto_nome": "Tramadol 50mg/ml 2ml",
@@ -24916,21 +24931,6 @@
       "obs": "",
       "criado_em": "2026-10-08 09:41:24",
       "item": "Agulha 25x7",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 3752,
-      "item_id": 390,
-      "produto_nome": "AGULHA  40X1,2",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 50,
-      "responsavel": "Assucena",
-      "data": "2026-10-07",
-      "obs": "",
-      "criado_em": "2026-10-08 09:41:16",
-      "item": "AGULHA  40X1,2",
       "usuario": "Assucena"
     }
   ]
