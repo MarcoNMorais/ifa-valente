@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "15/10/2026 14:33:05",
+  "atualizado_em": "15/10/2026 14:33:14",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 412,
     "total_almoxarifado": 111384,
-    "total_farmacia": 32902,
-    "total_geral": 144286,
+    "total_farmacia": 32901,
+    "total_geral": 144285,
     "perto_de_terminar": 25,
     "zerados": 14
   },
@@ -10129,19 +10129,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 199,
+      "farmacia": 198,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 199,
+      "total": 198,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-14 16:34:21",
+      "atualizado_em": "2026-10-15 14:33:13",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -10149,7 +10149,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 199
+          "quantidade": 198
         }
       ],
       "minimo_manual": 0,
@@ -10157,8 +10157,8 @@
       "previsao_20_dias": 551,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 64,
-      "media_diaria_saida": 27.52,
-      "total_saida_historica": 1761,
+      "media_diaria_saida": 27.53,
+      "total_saida_historica": 1762,
       "cobertura_dias": 7.2,
       "alerta_estoque": true
     },
@@ -17433,6 +17433,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 4310,
+      "item_id": 181,
+      "produto_nome": "Luva de látex tam. M",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 1,
+      "responsavel": "Leiliana",
+      "data": "2026-10-15",
+      "obs": "",
+      "criado_em": "2026-10-15 14:33:13",
+      "item": "Luva de látex tam. M",
+      "usuario": "Leiliana"
+    },
     {
       "id": 4309,
       "item_id": 180,
@@ -24916,21 +24931,6 @@
       "obs": "",
       "criado_em": "2026-10-09 10:36:59",
       "item": "Esparadrapo 10x4,5",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 3810,
-      "item_id": 104,
-      "produto_nome": "Seringa 3ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 30,
-      "responsavel": "Leiliana",
-      "data": "2026-10-09",
-      "obs": "",
-      "criado_em": "2026-10-09 10:36:47",
-      "item": "Seringa 3ml",
       "usuario": "Leiliana"
     }
   ]
