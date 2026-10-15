@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "15/10/2026 14:22:50",
+  "atualizado_em": "15/10/2026 14:23:03",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 412,
     "total_almoxarifado": 111578,
-    "total_farmacia": 33369,
-    "total_geral": 144947,
+    "total_farmacia": 33349,
+    "total_geral": 144927,
     "perto_de_terminar": 24,
     "zerados": 14
   },
@@ -6008,19 +6008,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 250,
+      "farmacia": 230,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 250,
+      "total": 230,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-14 16:34:21",
+      "atualizado_em": "2026-10-15 14:23:02",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -6028,17 +6028,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 250
+          "quantidade": 230
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 191,
-      "previsao_20_dias": 191,
+      "minimo_alerta": 198,
+      "previsao_20_dias": 198,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 64,
-      "media_diaria_saida": 9.55,
-      "total_saida_historica": 611,
-      "cobertura_dias": 26.2,
+      "media_diaria_saida": 9.86,
+      "total_saida_historica": 631,
+      "cobertura_dias": 23.3,
       "alerta_estoque": false
     },
     {
@@ -17434,6 +17434,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 4271,
+      "item_id": 76,
+      "produto_nome": "Escopolamina + Dipirona",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 20,
+      "responsavel": "Leiliana",
+      "data": "2026-10-15",
+      "obs": "",
+      "criado_em": "2026-10-15 14:23:02",
+      "item": "Escopolamina + Dipirona",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 4270,
       "item_id": 75,
       "produto_nome": "Escopolamina 20mg",
@@ -24916,21 +24931,6 @@
       "obs": "",
       "criado_em": "2026-10-08 09:46:14",
       "item": "Lanceta de segurança",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 3771,
-      "item_id": 289,
-      "produto_nome": "Agulha 25x8",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 50,
-      "responsavel": "Assucena",
-      "data": "2026-10-07",
-      "obs": "",
-      "criado_em": "2026-10-08 09:45:30",
-      "item": "Agulha 25x8",
       "usuario": "Assucena"
     }
   ]
