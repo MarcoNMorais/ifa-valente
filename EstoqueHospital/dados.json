@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "15/10/2026 16:23:43",
+  "atualizado_em": "15/10/2026 16:28:49",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 412,
     "total_almoxarifado": 111460,
-    "total_farmacia": 32615,
-    "total_geral": 144075,
+    "total_farmacia": 32613,
+    "total_geral": 144073,
     "perto_de_terminar": 25,
     "zerados": 14
   },
@@ -9469,19 +9469,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 78,
-      "farmacia": 13,
+      "farmacia": 11,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 91,
+      "total": 89,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-14 16:34:21",
+      "atualizado_em": "2026-10-15 16:28:48",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -9495,7 +9495,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 13
+          "quantidade": 11
         }
       ],
       "minimo_manual": 0,
@@ -9503,9 +9503,9 @@
       "previsao_20_dias": 16,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 64,
-      "media_diaria_saida": 0.77,
-      "total_saida_historica": 49,
-      "cobertura_dias": 118.9,
+      "media_diaria_saida": 0.8,
+      "total_saida_historica": 51,
+      "cobertura_dias": 111.7,
       "alerta_estoque": false
     },
     {
@@ -17434,6 +17434,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 4332,
+      "item_id": 199,
+      "produto_nome": "Lençol descartável papel",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 2,
+      "responsavel": "Leiliana",
+      "data": "2026-10-15",
+      "obs": "",
+      "criado_em": "2026-10-15 16:28:48",
+      "item": "Lençol descartável papel",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 4331,
       "item_id": 203,
       "produto_nome": "Soro fisiológico 250ml",
@@ -24916,21 +24931,6 @@
       "obs": "",
       "criado_em": "2026-10-13 13:42:13",
       "item": "AGUA P/ INJ",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 3832,
-      "item_id": 177,
-      "produto_nome": "Gelco nº 22",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 50,
-      "responsavel": "Leiliana",
-      "data": "2026-10-13",
-      "obs": "",
-      "criado_em": "2026-10-13 13:40:56",
-      "item": "Gelco nº 22",
       "usuario": "Leiliana"
     }
   ]
