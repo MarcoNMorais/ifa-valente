@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "15/10/2026 14:24:12",
+  "atualizado_em": "15/10/2026 14:24:38",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 412,
     "total_almoxarifado": 111578,
-    "total_farmacia": 33269,
-    "total_geral": 144847,
+    "total_farmacia": 33267,
+    "total_geral": 144845,
     "perto_de_terminar": 25,
     "zerados": 14
   },
@@ -6662,19 +6662,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 70,
-      "farmacia": 18,
+      "farmacia": 16,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 88,
+      "total": 86,
       "minimo": 0,
       "validade": "08/27",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-15 14:22:18",
+      "atualizado_em": "2026-10-15 14:24:37",
       "validade_mais_proxima": "08/27",
       "vencimento_mais_proximo": "08/27",
       "lotes_validade": [
@@ -6682,7 +6682,7 @@
           "local": "farmacia",
           "validade": "08/27",
           "lote": "",
-          "quantidade": 18
+          "quantidade": 16
         },
         {
           "local": "almoxarifado",
@@ -6696,9 +6696,9 @@
       "previsao_20_dias": 122,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 63,
-      "media_diaria_saida": 6.06,
-      "total_saida_historica": 382,
-      "cobertura_dias": 14.5,
+      "media_diaria_saida": 6.1,
+      "total_saida_historica": 384,
+      "cobertura_dias": 14.1,
       "alerta_estoque": true
     },
     {
@@ -17434,6 +17434,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 4276,
+      "item_id": 230,
+      "produto_nome": "Ferropurum 20mg/ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 2,
+      "responsavel": "Leiliana",
+      "data": "2026-10-15",
+      "obs": "",
+      "criado_em": "2026-10-15 14:24:37",
+      "item": "Ferropurum 20mg/ml",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 4275,
       "item_id": 61,
       "produto_nome": "Cetoprofeno IM 50mg",
@@ -24916,21 +24931,6 @@
       "obs": "",
       "criado_em": "2026-10-08 09:46:54",
       "item": "Omeprazol sódico 40mg AMP",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 3776,
-      "item_id": 13,
-      "produto_nome": "Diazepam 10mg/2ml 2ml",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 5,
-      "responsavel": "Assucena",
-      "data": "2026-10-07",
-      "obs": "",
-      "criado_em": "2026-10-08 09:46:48",
-      "item": "Diazepam 10mg/2ml 2ml",
       "usuario": "Assucena"
     }
   ]
