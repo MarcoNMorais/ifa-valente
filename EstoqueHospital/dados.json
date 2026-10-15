@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "15/10/2026 14:20:12",
+  "atualizado_em": "15/10/2026 14:20:43",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 412,
     "total_almoxarifado": 111578,
-    "total_farmacia": 33398,
-    "total_geral": 144976,
+    "total_farmacia": 33396,
+    "total_geral": 144974,
     "perto_de_terminar": 24,
     "zerados": 14
   },
@@ -5625,19 +5625,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 65,
+      "farmacia": 63,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 65,
+      "total": 63,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga Farmácia 227-288",
       "obs": "Importação Farmácia 227-288",
-      "atualizado_em": "2026-10-14 16:34:21",
+      "atualizado_em": "2026-10-15 14:20:42",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -5645,7 +5645,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 65
+          "quantidade": 63
         }
       ],
       "minimo_manual": 0,
@@ -5653,9 +5653,9 @@
       "previsao_20_dias": 5,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 59,
-      "media_diaria_saida": 0.2,
-      "total_saida_historica": 12,
-      "cobertura_dias": 319.6,
+      "media_diaria_saida": 0.24,
+      "total_saida_historica": 14,
+      "cobertura_dias": 265.5,
       "alerta_estoque": false
     },
     {
@@ -17434,6 +17434,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 4267,
+      "item_id": 227,
+      "produto_nome": "Enoxaparina sódica 60mg",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 2,
+      "responsavel": "Leiliana",
+      "data": "2026-10-15",
+      "obs": "",
+      "criado_em": "2026-10-15 14:20:42",
+      "item": "Enoxaparina sódica 60mg",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 4266,
       "item_id": 226,
       "produto_nome": "Enoxaparina sódica 40mg",
@@ -24916,21 +24931,6 @@
       "obs": "",
       "criado_em": "2026-10-08 09:43:42",
       "item": "Polifix",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 3767,
-      "item_id": 220,
-      "produto_nome": "Equipo macrogotas",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 25,
-      "responsavel": "Assucena",
-      "data": "2026-10-07",
-      "obs": "",
-      "criado_em": "2026-10-08 09:43:35",
-      "item": "Equipo macrogotas",
       "usuario": "Assucena"
     }
   ]
