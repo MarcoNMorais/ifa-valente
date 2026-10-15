@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "15/10/2026 14:16:29",
+  "atualizado_em": "15/10/2026 14:16:47",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 412,
-    "total_almoxarifado": 111859,
-    "total_farmacia": 33176,
+    "total_almoxarifado": 111578,
+    "total_farmacia": 33457,
     "total_geral": 145035,
     "perto_de_terminar": 24,
     "zerados": 14
@@ -472,8 +472,8 @@
       "nome": "AGUA P/ INJ",
       "tipo": "Medicamento",
       "unidade": "Unidade",
-      "almoxarifado": 281,
-      "farmacia": 0,
+      "almoxarifado": 0,
+      "farmacia": 281,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -485,12 +485,12 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-14 16:34:21",
+      "atualizado_em": "2026-10-15 14:16:46",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
         {
-          "local": "almoxarifado",
+          "local": "farmacia",
           "validade": "",
           "lote": "",
           "quantidade": 281
@@ -17434,6 +17434,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 4257,
+      "item_id": 382,
+      "produto_nome": "AGUA P/ INJ",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 281,
+      "responsavel": "Leiliana",
+      "data": "2026-10-15",
+      "obs": "",
+      "criado_em": "2026-10-15 14:16:46",
+      "item": "AGUA P/ INJ",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 4256,
       "item_id": 350,
       "produto_nome": "GLICOSE 50% AMP 10ML",
@@ -24916,21 +24931,6 @@
       "obs": "",
       "criado_em": "2026-10-08 09:42:30",
       "item": "LENÇOL DESCARTAVEL PAPEL",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 3757,
-      "item_id": 203,
-      "produto_nome": "Soro fisiológico 250ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 10,
-      "responsavel": "Assucena",
-      "data": "2026-10-07",
-      "obs": "",
-      "criado_em": "2026-10-08 09:42:23",
-      "item": "Soro fisiológico 250ml",
       "usuario": "Assucena"
     }
   ]
