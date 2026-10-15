@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "15/10/2026 14:18:17",
+  "atualizado_em": "15/10/2026 14:18:28",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 412,
     "total_almoxarifado": 111578,
-    "total_farmacia": 33421,
-    "total_geral": 144999,
+    "total_farmacia": 33420,
+    "total_geral": 144998,
     "perto_de_terminar": 24,
     "zerados": 14
   },
@@ -9343,19 +9343,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 84,
-      "farmacia": 19,
+      "farmacia": 18,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 103,
+      "total": 102,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga Farmácia 227-288",
       "obs": "Importação Farmácia 227-288",
-      "atualizado_em": "2026-10-14 16:34:21",
+      "atualizado_em": "2026-10-15 14:18:27",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -9369,7 +9369,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 19
+          "quantidade": 18
         }
       ],
       "minimo_manual": 0,
@@ -9377,9 +9377,9 @@
       "previsao_20_dias": 8,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 63,
-      "media_diaria_saida": 0.37,
-      "total_saida_historica": 23,
-      "cobertura_dias": 282.1,
+      "media_diaria_saida": 0.38,
+      "total_saida_historica": 24,
+      "cobertura_dias": 267.8,
       "alerta_estoque": false
     },
     {
@@ -17434,6 +17434,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 4263,
+      "item_id": 241,
+      "produto_nome": "Lactulose solução",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 1,
+      "responsavel": "Leiliana",
+      "data": "2026-10-15",
+      "obs": "",
+      "criado_em": "2026-10-15 14:18:27",
+      "item": "Lactulose solução",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 4262,
       "item_id": 242,
       "produto_nome": "Óleo mineral solução",
@@ -24915,21 +24930,6 @@
       "data": "2026-10-07",
       "obs": "",
       "criado_em": "2026-10-08 09:43:11",
-      "item": "Seringa 5ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 3763,
-      "item_id": 102,
-      "produto_nome": "Seringa 5ml",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 15,
-      "responsavel": "Assucena",
-      "data": "2026-10-07",
-      "obs": "",
-      "criado_em": "2026-10-08 09:43:03",
       "item": "Seringa 5ml",
       "usuario": "Assucena"
     }
