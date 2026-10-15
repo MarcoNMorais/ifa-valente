@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "15/10/2026 14:15:58",
+  "atualizado_em": "15/10/2026 14:16:08",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 412,
     "total_almoxarifado": 111859,
-    "total_farmacia": 33197,
-    "total_geral": 145056,
+    "total_farmacia": 33196,
+    "total_geral": 145055,
     "perto_de_terminar": 24,
     "zerados": 14
   },
@@ -8885,19 +8885,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 53,
-      "farmacia": 6,
+      "farmacia": 5,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 59,
+      "total": 58,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-14 16:34:21",
+      "atualizado_em": "2026-10-15 14:16:07",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -8911,7 +8911,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 6
+          "quantidade": 5
         }
       ],
       "minimo_manual": 0,
@@ -8919,9 +8919,9 @@
       "previsao_20_dias": 9,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 63,
-      "media_diaria_saida": 0.41,
-      "total_saida_historica": 26,
-      "cobertura_dias": 143.0,
+      "media_diaria_saida": 0.43,
+      "total_saida_historica": 27,
+      "cobertura_dias": 135.3,
       "alerta_estoque": false
     },
     {
@@ -17434,6 +17434,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 4254,
+      "item_id": 255,
+      "produto_nome": "Ibuprofeno gotas",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 1,
+      "responsavel": "Leiliana",
+      "data": "2026-10-15",
+      "obs": "",
+      "criado_em": "2026-10-15 14:16:07",
+      "item": "Ibuprofeno gotas",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 4253,
       "item_id": 411,
       "produto_nome": "gentamicina 80mg",
@@ -24916,21 +24931,6 @@
       "obs": "",
       "criado_em": "2026-10-08 09:42:09",
       "item": "MASCARA DESCARTAVEL",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 3754,
-      "item_id": 260,
-      "produto_nome": "Paracetamol gotas",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 1,
-      "responsavel": "Assucena",
-      "data": "2026-10-07",
-      "obs": "",
-      "criado_em": "2026-10-08 09:41:30",
-      "item": "Paracetamol gotas",
       "usuario": "Assucena"
     }
   ]
