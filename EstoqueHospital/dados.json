@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "15/10/2026 14:13:31",
+  "atualizado_em": "15/10/2026 14:13:54",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 412,
-    "total_almoxarifado": 112129,
-    "total_farmacia": 33049,
+    "total_almoxarifado": 111929,
+    "total_farmacia": 33249,
     "total_geral": 145178,
     "perto_de_terminar": 24,
     "zerados": 14
@@ -5835,8 +5835,8 @@
       "nome": "Equipo macrogotas",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 1681,
-      "farmacia": 0,
+      "almoxarifado": 1481,
+      "farmacia": 200,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -5848,7 +5848,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-14 16:34:21",
+      "atualizado_em": "2026-10-15 14:13:53",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -5856,13 +5856,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 1681
+          "quantidade": 1481
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 25
+          "quantidade": 225
         }
       ],
       "minimo_manual": 300,
@@ -17434,6 +17434,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 4245,
+      "item_id": 220,
+      "produto_nome": "Equipo macrogotas",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 200,
+      "responsavel": "Leiliana",
+      "data": "2026-10-15",
+      "obs": "",
+      "criado_em": "2026-10-15 14:13:53",
+      "item": "Equipo macrogotas",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 4244,
       "item_id": 98,
       "produto_nome": "Scalp nº 23",
@@ -24916,21 +24931,6 @@
       "obs": "",
       "criado_em": "2026-10-08 09:39:56",
       "item": "AGUA P/ INJ",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 3745,
-      "item_id": 239,
-      "produto_nome": "Tramadol 50mg/ml 2ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 10,
-      "responsavel": "Assucena",
-      "data": "2026-10-07",
-      "obs": "",
-      "criado_em": "2026-10-08 09:39:48",
-      "item": "Tramadol 50mg/ml 2ml",
       "usuario": "Assucena"
     }
   ]
