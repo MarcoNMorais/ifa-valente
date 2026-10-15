@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "15/10/2026 14:18:53",
+  "atualizado_em": "15/10/2026 14:20:12",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 412,
     "total_almoxarifado": 111578,
-    "total_farmacia": 33400,
-    "total_geral": 144978,
+    "total_farmacia": 33398,
+    "total_geral": 144976,
     "perto_de_terminar": 24,
     "zerados": 14
   },
@@ -5585,19 +5585,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 166,
+      "farmacia": 164,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 166,
+      "total": 164,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga Farmácia 227-288",
       "obs": "Importação Farmácia 227-288",
-      "atualizado_em": "2026-10-15 14:14:47",
+      "atualizado_em": "2026-10-15 14:20:11",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -5605,7 +5605,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 166
+          "quantidade": 164
         }
       ],
       "minimo_manual": 0,
@@ -5613,9 +5613,9 @@
       "previsao_20_dias": 9,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 59,
-      "media_diaria_saida": 0.41,
-      "total_saida_historica": 24,
-      "cobertura_dias": 408.1,
+      "media_diaria_saida": 0.44,
+      "total_saida_historica": 26,
+      "cobertura_dias": 372.2,
       "alerta_estoque": false
     },
     {
@@ -17434,6 +17434,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 4266,
+      "item_id": 226,
+      "produto_nome": "Enoxaparina sódica 40mg",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 2,
+      "responsavel": "Leiliana",
+      "data": "2026-10-15",
+      "obs": "",
+      "criado_em": "2026-10-15 14:20:11",
+      "item": "Enoxaparina sódica 40mg",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 4265,
       "item_id": 224,
       "produto_nome": "Meropenem 500mg",
@@ -24916,21 +24931,6 @@
       "obs": "",
       "criado_em": "2026-10-08 09:43:35",
       "item": "Equipo macrogotas",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 3766,
-      "item_id": 157,
-      "produto_nome": "Seringa 1ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 10,
-      "responsavel": "Assucena",
-      "data": "2026-10-07",
-      "obs": "",
-      "criado_em": "2026-10-08 09:43:28",
-      "item": "Seringa 1ml",
       "usuario": "Assucena"
     }
   ]
