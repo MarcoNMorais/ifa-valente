@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "15/10/2026 14:14:28",
+  "atualizado_em": "15/10/2026 14:14:48",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 412,
     "total_almoxarifado": 111929,
-    "total_farmacia": 33209,
-    "total_geral": 145138,
+    "total_farmacia": 33207,
+    "total_geral": 145136,
     "perto_de_terminar": 24,
     "zerados": 14
   },
@@ -5585,19 +5585,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 168,
+      "farmacia": 166,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 168,
+      "total": 166,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga Farmácia 227-288",
       "obs": "Importação Farmácia 227-288",
-      "atualizado_em": "2026-10-14 16:34:21",
+      "atualizado_em": "2026-10-15 14:14:47",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -5605,17 +5605,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 168
+          "quantidade": 166
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 8,
-      "previsao_20_dias": 8,
+      "minimo_alerta": 9,
+      "previsao_20_dias": 9,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 59,
-      "media_diaria_saida": 0.37,
-      "total_saida_historica": 22,
-      "cobertura_dias": 450.5,
+      "media_diaria_saida": 0.41,
+      "total_saida_historica": 24,
+      "cobertura_dias": 408.1,
       "alerta_estoque": false
     },
     {
@@ -17434,6 +17434,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 4248,
+      "item_id": 226,
+      "produto_nome": "Enoxaparina sódica 40mg",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 2,
+      "responsavel": "Leiliana",
+      "data": "2026-10-15",
+      "obs": "",
+      "criado_em": "2026-10-15 14:14:47",
+      "item": "Enoxaparina sódica 40mg",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 4247,
       "item_id": 59,
       "produto_nome": "Ceftriaxona 1g",
@@ -24915,21 +24930,6 @@
       "data": "2026-10-07",
       "obs": "",
       "criado_em": "2026-10-08 09:40:55",
-      "item": "Gelco nº 24",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 3748,
-      "item_id": 176,
-      "produto_nome": "Gelco nº 24",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 10,
-      "responsavel": "Assucena",
-      "data": "2026-10-07",
-      "obs": "",
-      "criado_em": "2026-10-08 09:40:12",
       "item": "Gelco nº 24",
       "usuario": "Assucena"
     }
