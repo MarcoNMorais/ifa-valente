@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "15/10/2026 14:29:58",
+  "atualizado_em": "15/10/2026 14:30:28",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 412,
-    "total_almoxarifado": 111438,
-    "total_farmacia": 32976,
+    "total_almoxarifado": 111414,
+    "total_farmacia": 33000,
     "total_geral": 144414,
     "perto_de_terminar": 25,
     "zerados": 14
@@ -15951,8 +15951,8 @@
       "nome": "Soro Ringer Lactato 500ml",
       "tipo": "Insumo",
       "unidade": "Unidade",
-      "almoxarifado": 444,
-      "farmacia": 10,
+      "almoxarifado": 420,
+      "farmacia": 34,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -15964,7 +15964,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-14 16:34:21",
+      "atualizado_em": "2026-10-15 14:30:26",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -15972,13 +15972,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 444
+          "quantidade": 420
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 10
+          "quantidade": 34
         }
       ],
       "minimo_manual": 0,
@@ -17433,6 +17433,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 4297,
+      "item_id": 201,
+      "produto_nome": "Soro Ringer Lactato 500ml",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 24,
+      "responsavel": "Leiliana",
+      "data": "2026-10-15",
+      "obs": "",
+      "criado_em": "2026-10-15 14:30:26",
+      "item": "Soro Ringer Lactato 500ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 4296,
       "item_id": 255,
@@ -24916,21 +24931,6 @@
       "obs": "",
       "criado_em": "2026-10-08 16:48:50",
       "item": "LENÇOL DESCARTAVEL PAPEL",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 3797,
-      "item_id": 285,
-      "produto_nome": "Agulha 30x7",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 50,
-      "responsavel": "Leiliana",
-      "data": "2026-10-08",
-      "obs": "",
-      "criado_em": "2026-10-08 16:48:41",
-      "item": "Agulha 30x7",
       "usuario": "Leiliana"
     }
   ]
