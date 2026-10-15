@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "15/10/2026 14:15:49",
+  "atualizado_em": "15/10/2026 14:15:58",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 412,
     "total_almoxarifado": 111859,
-    "total_farmacia": 33217,
-    "total_geral": 145076,
+    "total_farmacia": 33197,
+    "total_geral": 145056,
     "perto_de_terminar": 24,
     "zerados": 14
   },
@@ -8007,19 +8007,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 70,
+      "farmacia": 50,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 70,
+      "total": 50,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-15 14:15:48",
+      "atualizado_em": "2026-10-15 14:15:57",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -8027,7 +8027,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 70
+          "quantidade": 50
         }
       ],
       "minimo_manual": 0,
@@ -8035,9 +8035,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 3,
-      "media_diaria_saida": 0.0,
-      "total_saida_historica": 0,
-      "cobertura_dias": null,
+      "media_diaria_saida": 6.67,
+      "total_saida_historica": 20,
+      "cobertura_dias": 7.5,
       "alerta_estoque": false
     },
     {
@@ -17434,6 +17434,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 4253,
+      "item_id": 411,
+      "produto_nome": "gentamicina 80mg",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 20,
+      "responsavel": "Leiliana",
+      "data": "2026-10-15",
+      "obs": "",
+      "criado_em": "2026-10-15 14:15:57",
+      "item": "gentamicina 80mg",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 4252,
       "item_id": 411,
       "produto_nome": "gentamicina 80mg",
@@ -24916,21 +24931,6 @@
       "obs": "",
       "criado_em": "2026-10-08 09:41:30",
       "item": "Paracetamol gotas",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 3753,
-      "item_id": 319,
-      "produto_nome": "Agulha 25x7",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 30,
-      "responsavel": "Assucena",
-      "data": "2026-10-07",
-      "obs": "",
-      "criado_em": "2026-10-08 09:41:24",
-      "item": "Agulha 25x7",
       "usuario": "Assucena"
     }
   ]
