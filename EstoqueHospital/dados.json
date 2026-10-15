@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "15/10/2026 14:17:41",
+  "atualizado_em": "15/10/2026 14:18:17",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 412,
     "total_almoxarifado": 111578,
-    "total_farmacia": 33422,
-    "total_geral": 145000,
+    "total_farmacia": 33421,
+    "total_geral": 144999,
     "perto_de_terminar": 24,
     "zerados": 14
   },
@@ -17398,19 +17398,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 14,
+      "farmacia": 13,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 14,
+      "total": 13,
       "minimo": 0,
       "validade": "05/27",
       "lote": "",
       "origem": "Carga Farmácia 227-288",
       "obs": "Importação Farmácia 227-288",
-      "atualizado_em": "2026-10-14 16:34:21",
+      "atualizado_em": "2026-10-15 14:18:16",
       "validade_mais_proxima": "05/27",
       "vencimento_mais_proximo": "05/27",
       "lotes_validade": [
@@ -17418,7 +17418,7 @@
           "local": "farmacia",
           "validade": "05/27",
           "lote": "",
-          "quantidade": 14
+          "quantidade": 13
         }
       ],
       "minimo_manual": 0,
@@ -17426,13 +17426,28 @@
       "previsao_20_dias": 2,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 59,
-      "media_diaria_saida": 0.07,
-      "total_saida_historica": 4,
-      "cobertura_dias": 206.5,
+      "media_diaria_saida": 0.08,
+      "total_saida_historica": 5,
+      "cobertura_dias": 153.4,
       "alerta_estoque": false
     }
   ],
   "movimentacoes": [
+    {
+      "id": 4262,
+      "item_id": 242,
+      "produto_nome": "Óleo mineral solução",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 1,
+      "responsavel": "Leiliana",
+      "data": "2026-10-15",
+      "obs": "",
+      "criado_em": "2026-10-15 14:18:16",
+      "item": "Óleo mineral solução",
+      "usuario": "Leiliana"
+    },
     {
       "id": 4261,
       "item_id": 28,
@@ -24916,21 +24931,6 @@
       "obs": "",
       "criado_em": "2026-10-08 09:43:03",
       "item": "Seringa 5ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 3762,
-      "item_id": 103,
-      "produto_nome": "Seringa 10ml",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 30,
-      "responsavel": "Assucena",
-      "data": "2026-10-07",
-      "obs": "",
-      "criado_em": "2026-10-08 09:42:57",
-      "item": "Seringa 10ml",
       "usuario": "Assucena"
     }
   ]
