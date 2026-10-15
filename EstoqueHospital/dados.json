@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "15/10/2026 14:23:03",
+  "atualizado_em": "15/10/2026 14:23:13",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 412,
     "total_almoxarifado": 111578,
-    "total_farmacia": 33349,
-    "total_geral": 144927,
+    "total_farmacia": 33329,
+    "total_geral": 144907,
     "perto_de_terminar": 24,
     "zerados": 14
   },
@@ -3619,19 +3619,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 140,
-      "farmacia": 86,
+      "farmacia": 66,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 226,
+      "total": 206,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-14 16:34:21",
+      "atualizado_em": "2026-10-15 14:23:12",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -3645,17 +3645,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 86
+          "quantidade": 66
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 75,
-      "previsao_20_dias": 75,
+      "minimo_alerta": 82,
+      "previsao_20_dias": 82,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 64,
-      "media_diaria_saida": 3.75,
-      "total_saida_historica": 240,
-      "cobertura_dias": 60.3,
+      "media_diaria_saida": 4.06,
+      "total_saida_historica": 260,
+      "cobertura_dias": 50.7,
       "alerta_estoque": false
     },
     {
@@ -17434,6 +17434,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 4272,
+      "item_id": 62,
+      "produto_nome": "Cimetidina 150mg",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 20,
+      "responsavel": "Leiliana",
+      "data": "2026-10-15",
+      "obs": "",
+      "criado_em": "2026-10-15 14:23:12",
+      "item": "Cimetidina 150mg",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 4271,
       "item_id": 76,
       "produto_nome": "Escopolamina + Dipirona",
@@ -24916,21 +24931,6 @@
       "obs": "",
       "criado_em": "2026-10-08 09:46:22",
       "item": "Scalp nº 23",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 3772,
-      "item_id": 194,
-      "produto_nome": "Lanceta de segurança",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 1,
-      "responsavel": "Assucena",
-      "data": "2026-10-07",
-      "obs": "",
-      "criado_em": "2026-10-08 09:46:14",
-      "item": "Lanceta de segurança",
       "usuario": "Assucena"
     }
   ]
