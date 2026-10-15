@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "15/10/2026 14:32:44",
+  "atualizado_em": "15/10/2026 14:33:05",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 412,
     "total_almoxarifado": 111384,
-    "total_farmacia": 32903,
-    "total_geral": 144287,
+    "total_farmacia": 32902,
+    "total_geral": 144286,
     "perto_de_terminar": 25,
     "zerados": 14
   },
@@ -10169,19 +10169,19 @@
       "tipo": "Material",
       "unidade": "Caixa",
       "almoxarifado": 0,
-      "farmacia": 178,
+      "farmacia": 177,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 178,
+      "total": 177,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-14 16:34:21",
+      "atualizado_em": "2026-10-15 14:33:04",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -10189,7 +10189,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 178
+          "quantidade": 177
         }
       ],
       "minimo_manual": 0,
@@ -10197,9 +10197,9 @@
       "previsao_20_dias": 264,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 64,
-      "media_diaria_saida": 13.16,
-      "total_saida_historica": 842,
-      "cobertura_dias": 13.5,
+      "media_diaria_saida": 13.17,
+      "total_saida_historica": 843,
+      "cobertura_dias": 13.4,
       "alerta_estoque": true
     },
     {
@@ -17433,6 +17433,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 4309,
+      "item_id": 180,
+      "produto_nome": "Luva de látex tam. P",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 1,
+      "responsavel": "Leiliana",
+      "data": "2026-10-15",
+      "obs": "",
+      "criado_em": "2026-10-15 14:33:04",
+      "item": "Luva de látex tam. P",
+      "usuario": "Leiliana"
+    },
     {
       "id": 4308,
       "item_id": 184,
@@ -24916,21 +24931,6 @@
       "obs": "",
       "criado_em": "2026-10-09 10:36:47",
       "item": "Seringa 3ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 3809,
-      "item_id": 102,
-      "produto_nome": "Seringa 5ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 50,
-      "responsavel": "Leiliana",
-      "data": "2026-10-09",
-      "obs": "",
-      "criado_em": "2026-10-09 10:36:37",
-      "item": "Seringa 5ml",
       "usuario": "Leiliana"
     }
   ]
