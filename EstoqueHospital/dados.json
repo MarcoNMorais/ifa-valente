@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "16/10/2026 16:33:08",
+  "atualizado_em": "16/10/2026 16:33:21",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
     "total_almoxarifado": 127391,
-    "total_farmacia": 32955,
-    "total_geral": 160346,
+    "total_farmacia": 32949,
+    "total_geral": 160340,
     "perto_de_terminar": 24,
     "zerados": 14
   },
@@ -16138,19 +16138,19 @@
       "tipo": "Insumo",
       "unidade": "Unidade",
       "almoxarifado": 496,
-      "farmacia": 34,
+      "farmacia": 28,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 530,
+      "total": 524,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-16 14:15:47",
+      "atualizado_em": "2026-10-16 16:33:20",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -16164,17 +16164,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 34
+          "quantidade": 28
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 130,
-      "previsao_20_dias": 130,
+      "minimo_alerta": 132,
+      "previsao_20_dias": 132,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 65,
-      "media_diaria_saida": 6.49,
-      "total_saida_historica": 422,
-      "cobertura_dias": 81.6,
+      "media_diaria_saida": 6.58,
+      "total_saida_historica": 428,
+      "cobertura_dias": 79.6,
       "alerta_estoque": false
     },
     {
@@ -17699,6 +17699,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 4445,
+      "item_id": 201,
+      "produto_nome": "Soro Ringer Lactato 500ml",
+      "tipo": "Farmácia para Outro destino",
+      "origem": "Farmácia",
+      "destino": "Outro destino",
+      "quantidade": 6,
+      "responsavel": "Leiliana",
+      "data": "2026-10-16",
+      "obs": "",
+      "criado_em": "2026-10-16 16:33:20",
+      "item": "Soro Ringer Lactato 500ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 4444,
       "item_id": 200,
@@ -25182,21 +25197,6 @@
       "obs": "",
       "criado_em": "2026-10-13 14:18:42",
       "item": "Lidocaína Gel",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 3945,
-      "item_id": 385,
-      "produto_nome": "LIDOCAINA S/ VASO",
-      "tipo": "Entrada no Almoxarifado",
-      "origem": "Entrada externa",
-      "destino": "Almoxarifado",
-      "quantidade": 70,
-      "responsavel": "Leiliana",
-      "data": "2026-10-13",
-      "obs": "",
-      "criado_em": "2026-10-13 14:18:26",
-      "item": "LIDOCAINA S/ VASO",
       "usuario": "Leiliana"
     }
   ]
