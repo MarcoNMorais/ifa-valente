@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "16/10/2026 15:35:25",
+  "atualizado_em": "16/10/2026 15:36:51",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 412,
-    "total_almoxarifado": 114430,
+    "total_almoxarifado": 114514,
     "total_farmacia": 33173,
-    "total_geral": 147603,
+    "total_geral": 147687,
     "perto_de_terminar": 26,
     "zerados": 14
   },
@@ -1982,20 +1982,20 @@
       "nome": "ATDURA ALGODÃO 10 CM",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 48,
+      "almoxarifado": 132,
       "farmacia": 0,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 48,
+      "total": 132,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-16 14:15:47",
+      "atualizado_em": "2026-10-16 15:36:50",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -2003,7 +2003,7 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 48
+          "quantidade": 132
         }
       ],
       "minimo_manual": 0,
@@ -17428,6 +17428,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 4375,
+      "item_id": 360,
+      "produto_nome": "ATDURA ALGODÃO 10 CM",
+      "tipo": "Entrada no Almoxarifado",
+      "origem": "Entrada externa",
+      "destino": "Almoxarifado",
+      "quantidade": 84,
+      "responsavel": "Leiliana",
+      "data": "2026-10-16",
+      "obs": "",
+      "criado_em": "2026-10-16 15:36:50",
+      "item": "ATDURA ALGODÃO 10 CM",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 4374,
       "item_id": 390,
       "produto_nome": "AGULHA  40X1,2",
@@ -24910,21 +24925,6 @@
       "obs": "",
       "criado_em": "2026-10-13 13:54:04",
       "item": "Insulina NPH",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 3875,
-      "item_id": 227,
-      "produto_nome": "Enoxaparina sódica 60mg",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 10,
-      "responsavel": "Leiliana",
-      "data": "2026-10-13",
-      "obs": "",
-      "criado_em": "2026-10-13 13:53:45",
-      "item": "Enoxaparina sódica 60mg",
       "usuario": "Leiliana"
     }
   ]
