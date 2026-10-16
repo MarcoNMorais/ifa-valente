@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "16/10/2026 15:33:34",
+  "atualizado_em": "16/10/2026 15:33:44",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 412,
     "total_almoxarifado": 110130,
-    "total_farmacia": 33309,
-    "total_geral": 143439,
+    "total_farmacia": 33259,
+    "total_geral": 143389,
     "perto_de_terminar": 26,
     "zerados": 14
   },
@@ -685,19 +685,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 4500,
-      "farmacia": 160,
+      "farmacia": 110,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 4660,
+      "total": 4610,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-16 14:15:47",
+      "atualizado_em": "2026-10-16 15:33:43",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -711,17 +711,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 160
+          "quantidade": 110
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 214,
-      "previsao_20_dias": 214,
+      "minimo_alerta": 230,
+      "previsao_20_dias": 230,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 60,
-      "media_diaria_saida": 10.67,
-      "total_saida_historica": 640,
-      "cobertura_dias": 436.9,
+      "media_diaria_saida": 11.5,
+      "total_saida_historica": 690,
+      "cobertura_dias": 400.9,
       "alerta_estoque": false
     },
     {
@@ -17428,6 +17428,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 4368,
+      "item_id": 289,
+      "produto_nome": "Agulha 25x8",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 50,
+      "responsavel": "Leiliana",
+      "data": "2026-10-16",
+      "obs": "",
+      "criado_em": "2026-10-16 15:33:43",
+      "item": "Agulha 25x8",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 4367,
       "item_id": 44,
       "produto_nome": "Clopidogrel 75mg CP",
@@ -24910,21 +24925,6 @@
       "obs": "",
       "criado_em": "2026-10-13 13:51:57",
       "item": "Agulha 13x4,5",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 3868,
-      "item_id": 59,
-      "produto_nome": "Ceftriaxona 1g",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 6,
-      "responsavel": "Leiliana",
-      "data": "2026-10-13",
-      "obs": "",
-      "criado_em": "2026-10-13 13:51:45",
-      "item": "Ceftriaxona 1g",
       "usuario": "Leiliana"
     }
   ]
