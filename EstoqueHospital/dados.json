@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "16/10/2026 15:30:24",
+  "atualizado_em": "16/10/2026 15:30:33",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 412,
     "total_almoxarifado": 110130,
-    "total_farmacia": 33619,
-    "total_geral": 143749,
+    "total_farmacia": 33569,
+    "total_geral": 143699,
     "perto_de_terminar": 25,
     "zerados": 14
   },
@@ -13268,19 +13268,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 6800,
-      "farmacia": 290,
+      "farmacia": 240,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 7090,
+      "total": 7040,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-16 15:30:23",
+      "atualizado_em": "2026-10-16 15:30:32",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -13294,17 +13294,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 315
+          "quantidade": 265
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 720,
-      "previsao_20_dias": 720,
+      "minimo_alerta": 737,
+      "previsao_20_dias": 737,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 60,
-      "media_diaria_saida": 36.0,
-      "total_saida_historica": 2160,
-      "cobertura_dias": 196.9,
+      "media_diaria_saida": 36.83,
+      "total_saida_historica": 2210,
+      "cobertura_dias": 191.1,
       "alerta_estoque": false
     },
     {
@@ -17433,6 +17433,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 4351,
+      "item_id": 274,
+      "produto_nome": "Seringa 20ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 50,
+      "responsavel": "Leiliana",
+      "data": "2026-10-16",
+      "obs": "",
+      "criado_em": "2026-10-16 15:30:32",
+      "item": "Seringa 20ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 4350,
       "item_id": 274,
@@ -24916,21 +24931,6 @@
       "obs": "",
       "criado_em": "2026-10-13 13:46:52",
       "item": "Soro fisiológico 250ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 3851,
-      "item_id": 216,
-      "produto_nome": "Fio agulhado / sutura nº 3",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 10,
-      "responsavel": "Leiliana",
-      "data": "2026-10-13",
-      "obs": "",
-      "criado_em": "2026-10-13 13:46:39",
-      "item": "Fio agulhado / sutura nº 3",
       "usuario": "Leiliana"
     }
   ]
