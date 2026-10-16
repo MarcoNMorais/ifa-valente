@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "16/10/2026 15:47:24",
+  "atualizado_em": "16/10/2026 15:47:42",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 412,
-    "total_almoxarifado": 119998,
-    "total_farmacia": 33166,
+    "total_almoxarifado": 119991,
+    "total_farmacia": 33173,
     "total_geral": 153164,
     "perto_de_terminar": 26,
     "zerados": 14
@@ -10100,8 +10100,8 @@
       "nome": "Luva de látex tam. G",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 7,
-      "farmacia": 686,
+      "almoxarifado": 0,
+      "farmacia": 693,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -10113,21 +10113,15 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-16 15:47:23",
+      "atualizado_em": "2026-10-16 15:47:41",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
         {
-          "local": "almoxarifado",
-          "validade": "",
-          "lote": "",
-          "quantidade": 7
-        },
-        {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 686
+          "quantidade": 693
         }
       ],
       "minimo_manual": 0,
@@ -17463,6 +17457,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 4402,
+      "item_id": 182,
+      "produto_nome": "Luva de látex tam. G",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 7,
+      "responsavel": "Leiliana",
+      "data": "2026-10-16",
+      "obs": "",
+      "criado_em": "2026-10-16 15:47:41",
+      "item": "Luva de látex tam. G",
+      "usuario": "Leiliana"
+    },
     {
       "id": 4401,
       "item_id": 182,
@@ -24946,21 +24955,6 @@
       "obs": "",
       "criado_em": "2026-10-13 14:06:13",
       "item": "Loratadina 10mg CPR",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 3902,
-      "item_id": 377,
-      "produto_nome": "LORATADINA SUSPENSÃO",
-      "tipo": "Entrada no Almoxarifado",
-      "origem": "Entrada externa",
-      "destino": "Almoxarifado",
-      "quantidade": 14,
-      "responsavel": "Leiliana",
-      "data": "2026-10-13",
-      "obs": "",
-      "criado_em": "2026-10-13 14:05:59",
-      "item": "LORATADINA SUSPENSÃO",
       "usuario": "Leiliana"
     }
   ]
