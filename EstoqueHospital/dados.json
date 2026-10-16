@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "16/10/2026 16:32:06",
+  "atualizado_em": "16/10/2026 16:32:16",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
     "total_almoxarifado": 127391,
-    "total_farmacia": 33011,
-    "total_geral": 160402,
+    "total_farmacia": 32986,
+    "total_geral": 160377,
     "perto_de_terminar": 24,
     "zerados": 14
   },
@@ -5922,19 +5922,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 2881,
-      "farmacia": 124,
+      "farmacia": 99,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 3005,
+      "total": 2980,
       "minimo": 300,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-16 15:42:41",
+      "atualizado_em": "2026-10-16 16:32:14",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -5948,17 +5948,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 149
+          "quantidade": 124
         }
       ],
       "minimo_manual": 300,
-      "minimo_alerta": 514,
-      "previsao_20_dias": 514,
+      "minimo_alerta": 522,
+      "previsao_20_dias": 522,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 65,
-      "media_diaria_saida": 25.69,
-      "total_saida_historica": 1670,
-      "cobertura_dias": 117.0,
+      "media_diaria_saida": 26.08,
+      "total_saida_historica": 1695,
+      "cobertura_dias": 114.3,
       "alerta_estoque": false
     },
     {
@@ -17700,6 +17700,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 4440,
+      "item_id": 220,
+      "produto_nome": "Equipo macrogotas",
+      "tipo": "Farmácia para Outro destino",
+      "origem": "Farmácia",
+      "destino": "Outro destino",
+      "quantidade": 25,
+      "responsavel": "Leiliana",
+      "data": "2026-10-16",
+      "obs": "",
+      "criado_em": "2026-10-16 16:32:14",
+      "item": "Equipo macrogotas",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 4439,
       "item_id": 329,
       "produto_nome": "Polifix",
@@ -25182,21 +25197,6 @@
       "obs": "",
       "criado_em": "2026-10-13 14:17:10",
       "item": "Hemitartarato de Norepinefrina",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 3940,
-      "item_id": 350,
-      "produto_nome": "GLICOSE 50% AMP 10ML",
-      "tipo": "Entrada no Almoxarifado",
-      "origem": "Entrada externa",
-      "destino": "Almoxarifado",
-      "quantidade": 70,
-      "responsavel": "Leiliana",
-      "data": "2026-10-13",
-      "obs": "",
-      "criado_em": "2026-10-13 14:16:55",
-      "item": "GLICOSE 50% AMP 10ML",
       "usuario": "Leiliana"
     }
   ]
