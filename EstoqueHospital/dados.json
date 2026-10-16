@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "16/10/2026 15:27:50",
+  "atualizado_em": "16/10/2026 15:28:15",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 412,
-    "total_almoxarifado": 111460,
-    "total_farmacia": 32469,
+    "total_almoxarifado": 111180,
+    "total_farmacia": 32749,
     "total_geral": 143929,
     "perto_de_terminar": 25,
     "zerados": 14
@@ -16712,8 +16712,8 @@
       "nome": "Tramadol 50mg/ml 2ml",
       "tipo": "Medicamento",
       "unidade": "Unidade",
-      "almoxarifado": 280,
-      "farmacia": 0,
+      "almoxarifado": 0,
+      "farmacia": 280,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -16725,7 +16725,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-16 14:15:47",
+      "atualizado_em": "2026-10-16 15:28:14",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -16733,13 +16733,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 300
+          "quantidade": 20
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 20
+          "quantidade": 300
         }
       ],
       "minimo_manual": 0,
@@ -17433,6 +17433,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 4342,
+      "item_id": 239,
+      "produto_nome": "Tramadol 50mg/ml 2ml",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 280,
+      "responsavel": "Leiliana",
+      "data": "2026-10-16",
+      "obs": "",
+      "criado_em": "2026-10-16 15:28:14",
+      "item": "Tramadol 50mg/ml 2ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 4341,
       "item_id": 204,
@@ -24916,21 +24931,6 @@
       "obs": "",
       "criado_em": "2026-10-13 13:44:32",
       "item": "Caixa de perfurocortante",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 3842,
-      "item_id": 376,
-      "produto_nome": "LENÇOL DESCARTAVEL PAPEL",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 4,
-      "responsavel": "Leiliana",
-      "data": "2026-10-13",
-      "obs": "",
-      "criado_em": "2026-10-13 13:44:19",
-      "item": "LENÇOL DESCARTAVEL PAPEL",
       "usuario": "Leiliana"
     }
   ]
