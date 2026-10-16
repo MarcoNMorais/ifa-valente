@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "16/10/2026 15:31:04",
+  "atualizado_em": "16/10/2026 15:31:14",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 412,
     "total_almoxarifado": 110130,
-    "total_farmacia": 33449,
-    "total_geral": 143579,
+    "total_farmacia": 33448,
+    "total_geral": 143578,
     "perto_de_terminar": 25,
     "zerados": 14
   },
@@ -16541,19 +16541,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 50,
-      "farmacia": 199,
+      "farmacia": 198,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 249,
+      "total": 248,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-16 14:15:47",
+      "atualizado_em": "2026-10-16 15:31:13",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -16567,7 +16567,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 199
+          "quantidade": 198
         }
       ],
       "minimo_manual": 0,
@@ -16575,9 +16575,9 @@
       "previsao_20_dias": 272,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 65,
-      "media_diaria_saida": 13.55,
-      "total_saida_historica": 881,
-      "cobertura_dias": 18.4,
+      "media_diaria_saida": 13.57,
+      "total_saida_historica": 882,
+      "cobertura_dias": 18.3,
       "alerta_estoque": true
     },
     {
@@ -17433,6 +17433,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 4355,
+      "item_id": 195,
+      "produto_nome": "Tira Reagente G-Tech",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 1,
+      "responsavel": "Leiliana",
+      "data": "2026-10-16",
+      "obs": "",
+      "criado_em": "2026-10-16 15:31:13",
+      "item": "Tira Reagente G-Tech",
+      "usuario": "Leiliana"
+    },
     {
       "id": 4354,
       "item_id": 157,
@@ -24916,21 +24931,6 @@
       "obs": "",
       "criado_em": "2026-10-13 13:48:03",
       "item": "Diazepam 5mg CPR",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 3855,
-      "item_id": 256,
-      "produto_nome": "Simeticona gotas",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 2,
-      "responsavel": "Leiliana",
-      "data": "2026-10-13",
-      "obs": "",
-      "criado_em": "2026-10-13 13:47:48",
-      "item": "Simeticona gotas",
       "usuario": "Leiliana"
     }
   ]
