@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "16/10/2026 15:53:55",
+  "atualizado_em": "16/10/2026 15:54:09",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 413,
-    "total_almoxarifado": 127196,
+    "total_almoxarifado": 127203,
     "total_farmacia": 33173,
-    "total_geral": 160369,
+    "total_geral": 160376,
     "perto_de_terminar": 25,
     "zerados": 14
   },
@@ -15277,23 +15277,29 @@
       "nome": "Sonda Nasogástrica nº 14",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 0,
+      "almoxarifado": 7,
       "farmacia": 73,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 73,
+      "total": 80,
       "minimo": 0,
       "validade": "",
       "lote": "",
-      "origem": "Carga inicial Farmácia",
-      "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-10-16 14:15:47",
+      "origem": "Entrada externa",
+      "obs": "",
+      "atualizado_em": "2026-10-16 15:54:08",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
+        {
+          "local": "almoxarifado",
+          "validade": "",
+          "lote": "",
+          "quantidade": 7
+        },
         {
           "local": "farmacia",
           "validade": "",
@@ -17533,6 +17539,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 4421,
+      "item_id": 113,
+      "produto_nome": "Sonda Nasogástrica nº 14",
+      "tipo": "Entrada no Almoxarifado",
+      "origem": "Entrada externa",
+      "destino": "Almoxarifado",
+      "quantidade": 7,
+      "responsavel": "Leiliana",
+      "data": "2026-10-16",
+      "obs": "",
+      "criado_em": "2026-10-16 15:54:08",
+      "item": "Sonda Nasogástrica nº 14",
+      "usuario": "Leiliana"
+    },
     {
       "id": 4420,
       "item_id": 413,
@@ -25016,21 +25037,6 @@
       "obs": "",
       "criado_em": "2026-10-13 14:11:35",
       "item": "Clopidogrel 75mg CP",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 3921,
-      "item_id": 56,
-      "produto_nome": "Benzilpenicilina 600 UI",
-      "tipo": "Entrada no Almoxarifado",
-      "origem": "Entrada externa",
-      "destino": "Almoxarifado",
-      "quantidade": 70,
-      "responsavel": "Leiliana",
-      "data": "2026-10-13",
-      "obs": "",
-      "criado_em": "2026-10-13 14:11:20",
-      "item": "Benzilpenicilina 600 UI",
       "usuario": "Leiliana"
     }
   ]
