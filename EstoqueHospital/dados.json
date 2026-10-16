@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "16/10/2026 15:41:29",
+  "atualizado_em": "16/10/2026 15:41:45",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 412,
-    "total_almoxarifado": 115310,
+    "total_almoxarifado": 115410,
     "total_farmacia": 33173,
-    "total_geral": 148483,
+    "total_geral": 148583,
     "perto_de_terminar": 26,
     "zerados": 14
   },
@@ -4460,23 +4460,29 @@
       "nome": "Coletor de urina 100ml",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 0,
+      "almoxarifado": 100,
       "farmacia": 80,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 80,
+      "total": 180,
       "minimo": 0,
       "validade": "",
       "lote": "",
-      "origem": "Carga Almoxerifado",
-      "obs": "Importação Almoxerifado",
-      "atualizado_em": "2026-10-16 14:15:47",
+      "origem": "Entrada externa",
+      "obs": "",
+      "atualizado_em": "2026-10-16 15:41:44",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
+        {
+          "local": "almoxarifado",
+          "validade": "",
+          "lote": "",
+          "quantidade": 100
+        },
         {
           "local": "farmacia",
           "validade": "",
@@ -4491,7 +4497,7 @@
       "dias_historico": 60,
       "media_diaria_saida": 0.33,
       "total_saida_historica": 20,
-      "cobertura_dias": 240.0,
+      "cobertura_dias": 540.0,
       "alerta_estoque": false
     },
     {
@@ -17434,6 +17440,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 4384,
+      "item_id": 327,
+      "produto_nome": "Coletor de urina 100ml",
+      "tipo": "Entrada no Almoxarifado",
+      "origem": "Entrada externa",
+      "destino": "Almoxarifado",
+      "quantidade": 100,
+      "responsavel": "Leiliana",
+      "data": "2026-10-16",
+      "obs": "",
+      "criado_em": "2026-10-16 15:41:44",
+      "item": "Coletor de urina 100ml",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 4383,
       "item_id": 291,
       "produto_nome": "Cateter tipo óculos adulto",
@@ -24916,21 +24937,6 @@
       "obs": "",
       "criado_em": "2026-10-13 13:59:37",
       "item": "Acetilcisteína 2mg/ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 3884,
-      "item_id": 320,
-      "produto_nome": "Acebrofilina 10mg/ml",
-      "tipo": "Entrada no Almoxarifado",
-      "origem": "Entrada externa",
-      "destino": "Almoxarifado",
-      "quantidade": 7,
-      "responsavel": "Leiliana",
-      "data": "2026-10-13",
-      "obs": "",
-      "criado_em": "2026-10-13 13:59:19",
-      "item": "Acebrofilina 10mg/ml",
       "usuario": "Leiliana"
     }
   ]
