@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "16/10/2026 15:36:51",
+  "atualizado_em": "16/10/2026 15:37:47",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 412,
-    "total_almoxarifado": 114514,
+    "total_almoxarifado": 114598,
     "total_farmacia": 33173,
-    "total_geral": 147687,
+    "total_geral": 147771,
     "perto_de_terminar": 26,
     "zerados": 14
   },
@@ -1580,20 +1580,20 @@
       "nome": "ATADURA ALGODÃO 20CM",
       "tipo": "Medicamento",
       "unidade": "Unidade",
-      "almoxarifado": 120,
+      "almoxarifado": 204,
       "farmacia": 0,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 120,
+      "total": 204,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-16 14:15:47",
+      "atualizado_em": "2026-10-16 15:37:46",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -1601,7 +1601,7 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 120
+          "quantidade": 204
         }
       ],
       "minimo_manual": 0,
@@ -17428,6 +17428,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 4376,
+      "item_id": 391,
+      "produto_nome": "ATADURA ALGODÃO 20CM",
+      "tipo": "Entrada no Almoxarifado",
+      "origem": "Entrada externa",
+      "destino": "Almoxarifado",
+      "quantidade": 84,
+      "responsavel": "Leiliana",
+      "data": "2026-10-16",
+      "obs": "",
+      "criado_em": "2026-10-16 15:37:46",
+      "item": "ATADURA ALGODÃO 20CM",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 4375,
       "item_id": 360,
       "produto_nome": "ATDURA ALGODÃO 10 CM",
@@ -24910,21 +24925,6 @@
       "obs": "",
       "criado_em": "2026-10-13 13:55:44",
       "item": "soro glicofidiologoco",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 3876,
-      "item_id": 208,
-      "produto_nome": "Insulina NPH",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 1,
-      "responsavel": "Leiliana",
-      "data": "2026-10-13",
-      "obs": "",
-      "criado_em": "2026-10-13 13:54:04",
-      "item": "Insulina NPH",
       "usuario": "Leiliana"
     }
   ]
