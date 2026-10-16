@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "16/10/2026 15:44:32",
+  "atualizado_em": "16/10/2026 15:44:49",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 412,
-    "total_almoxarifado": 118177,
+    "total_almoxarifado": 119017,
     "total_farmacia": 33173,
-    "total_geral": 151350,
+    "total_geral": 152190,
     "perto_de_terminar": 26,
     "zerados": 14
   },
@@ -7926,20 +7926,20 @@
       "nome": "Gelco nº 22",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 730,
+      "almoxarifado": 1570,
       "farmacia": 153,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 883,
+      "total": 1723,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-16 15:29:51",
+      "atualizado_em": "2026-10-16 15:44:48",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -7947,7 +7947,7 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 730
+          "quantidade": 1570
         },
         {
           "local": "farmacia",
@@ -7963,7 +7963,7 @@
       "dias_historico": 65,
       "media_diaria_saida": 20.69,
       "total_saida_historica": 1345,
-      "cobertura_dias": 42.7,
+      "cobertura_dias": 83.3,
       "alerta_estoque": false
     },
     {
@@ -17446,6 +17446,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 4394,
+      "item_id": 177,
+      "produto_nome": "Gelco nº 22",
+      "tipo": "Entrada no Almoxarifado",
+      "origem": "Entrada externa",
+      "destino": "Almoxarifado",
+      "quantidade": 840,
+      "responsavel": "Leiliana",
+      "data": "2026-10-16",
+      "obs": "",
+      "criado_em": "2026-10-16 15:44:48",
+      "item": "Gelco nº 22",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 4393,
       "item_id": 176,
       "produto_nome": "Gelco nº 24",
@@ -24928,21 +24943,6 @@
       "obs": "",
       "criado_em": "2026-10-13 14:03:31",
       "item": "Dipirona 500mg",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 3894,
-      "item_id": 406,
-      "produto_nome": "isossorbida 5mg",
-      "tipo": "Entrada no Almoxarifado",
-      "origem": "Entrada externa",
-      "destino": "Almoxarifado",
-      "quantidade": 30,
-      "responsavel": "Leiliana",
-      "data": "2026-10-13",
-      "obs": "",
-      "criado_em": "2026-10-13 14:03:17",
-      "item": "isossorbida 5mg",
       "usuario": "Leiliana"
     }
   ]
