@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "16/10/2026 15:46:36",
+  "atualizado_em": "16/10/2026 15:47:24",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 412,
     "total_almoxarifado": 119998,
-    "total_farmacia": 33173,
-    "total_geral": 153171,
+    "total_farmacia": 33166,
+    "total_geral": 153164,
     "perto_de_terminar": 26,
     "zerados": 14
   },
@@ -10101,19 +10101,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 7,
-      "farmacia": 693,
+      "farmacia": 686,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 700,
+      "total": 693,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-16 15:46:34",
+      "atualizado_em": "2026-10-16 15:47:23",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -10127,17 +10127,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 693
+          "quantidade": 686
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 64,
-      "previsao_20_dias": 64,
+      "minimo_alerta": 66,
+      "previsao_20_dias": 66,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 65,
-      "media_diaria_saida": 3.18,
-      "total_saida_historica": 207,
-      "cobertura_dias": 219.8,
+      "media_diaria_saida": 3.29,
+      "total_saida_historica": 214,
+      "cobertura_dias": 210.5,
       "alerta_estoque": false
     },
     {
@@ -17463,6 +17463,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 4401,
+      "item_id": 182,
+      "produto_nome": "Luva de látex tam. G",
+      "tipo": "Farmácia para Outro destino",
+      "origem": "Farmácia",
+      "destino": "Outro destino",
+      "quantidade": 7,
+      "responsavel": "Leiliana",
+      "data": "2026-10-16",
+      "obs": "",
+      "criado_em": "2026-10-16 15:47:23",
+      "item": "Luva de látex tam. G",
+      "usuario": "Leiliana"
+    },
     {
       "id": 4400,
       "item_id": 182,
@@ -24946,21 +24961,6 @@
       "obs": "",
       "criado_em": "2026-10-13 14:05:59",
       "item": "LORATADINA SUSPENSÃO",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 3901,
-      "item_id": 255,
-      "produto_nome": "Ibuprofeno gotas",
-      "tipo": "Entrada no Almoxarifado",
-      "origem": "Entrada externa",
-      "destino": "Almoxarifado",
-      "quantidade": 21,
-      "responsavel": "Leiliana",
-      "data": "2026-10-13",
-      "obs": "",
-      "criado_em": "2026-10-13 14:05:45",
-      "item": "Ibuprofeno gotas",
       "usuario": "Leiliana"
     }
   ]
