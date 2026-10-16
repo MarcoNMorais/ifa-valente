@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "16/10/2026 15:52:45",
+  "atualizado_em": "16/10/2026 15:53:02",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 412,
-    "total_almoxarifado": 127175,
+    "total_almoxarifado": 127182,
     "total_farmacia": 33173,
-    "total_geral": 160348,
+    "total_geral": 160355,
     "perto_de_terminar": 25,
     "zerados": 14
   },
@@ -15151,23 +15151,29 @@
       "nome": "Sonda Nasogástrica nº 08",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 0,
+      "almoxarifado": 7,
       "farmacia": 13,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 13,
+      "total": 20,
       "minimo": 0,
       "validade": "",
       "lote": "",
-      "origem": "Carga inicial Farmácia",
-      "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-10-16 14:15:47",
+      "origem": "Entrada externa",
+      "obs": "",
+      "atualizado_em": "2026-10-16 15:53:00",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
+        {
+          "local": "almoxarifado",
+          "validade": "",
+          "lote": "",
+          "quantidade": 7
+        },
         {
           "local": "farmacia",
           "validade": "",
@@ -15182,7 +15188,7 @@
       "dias_historico": 65,
       "media_diaria_saida": 0.03,
       "total_saida_historica": 2,
-      "cobertura_dias": 422.5,
+      "cobertura_dias": 650.0,
       "alerta_estoque": false
     },
     {
@@ -17487,6 +17493,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 4419,
+      "item_id": 149,
+      "produto_nome": "Sonda Nasogástrica nº 08",
+      "tipo": "Entrada no Almoxarifado",
+      "origem": "Entrada externa",
+      "destino": "Almoxarifado",
+      "quantidade": 7,
+      "responsavel": "Leiliana",
+      "data": "2026-10-16",
+      "obs": "",
+      "criado_em": "2026-10-16 15:53:00",
+      "item": "Sonda Nasogástrica nº 08",
+      "usuario": "Leiliana"
+    },
     {
       "id": 4418,
       "item_id": 146,
@@ -24970,21 +24991,6 @@
       "obs": "",
       "criado_em": "2026-10-13 14:11:07",
       "item": "Benzilpenicilina 1.200",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 3919,
-      "item_id": 410,
-      "produto_nome": "oleo de girasol AGE",
-      "tipo": "Entrada no Almoxarifado",
-      "origem": "Entrada externa",
-      "destino": "Almoxarifado",
-      "quantidade": 7,
-      "responsavel": "Leiliana",
-      "data": "2026-10-13",
-      "obs": "",
-      "criado_em": "2026-10-13 14:10:53",
-      "item": "oleo de girasol AGE",
       "usuario": "Leiliana"
     }
   ]
