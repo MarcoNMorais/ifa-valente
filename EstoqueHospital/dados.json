@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "16/10/2026 15:47:55",
+  "atualizado_em": "16/10/2026 15:48:13",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 412,
-    "total_almoxarifado": 119998,
+    "total_almoxarifado": 120019,
     "total_farmacia": 33173,
-    "total_geral": 153171,
+    "total_geral": 153192,
     "perto_de_terminar": 26,
     "zerados": 14
   },
@@ -10272,20 +10272,20 @@
       "nome": "Luva de vinil M",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 600,
+      "almoxarifado": 621,
       "farmacia": 0,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 600,
+      "total": 621,
       "minimo": 0,
       "validade": "",
       "lote": "",
-      "origem": "Carga Almoxerifado",
-      "obs": "Importação Almoxerifado",
-      "atualizado_em": "2026-10-16 14:15:47",
+      "origem": "Entrada externa",
+      "obs": "",
+      "atualizado_em": "2026-10-16 15:48:12",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -10293,7 +10293,7 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 600
+          "quantidade": 621
         }
       ],
       "minimo_manual": 0,
@@ -17457,6 +17457,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 4404,
+      "item_id": 277,
+      "produto_nome": "Luva de vinil M",
+      "tipo": "Entrada no Almoxarifado",
+      "origem": "Entrada externa",
+      "destino": "Almoxarifado",
+      "quantidade": 21,
+      "responsavel": "Leiliana",
+      "data": "2026-10-16",
+      "obs": "",
+      "criado_em": "2026-10-16 15:48:12",
+      "item": "Luva de vinil M",
+      "usuario": "Leiliana"
+    },
     {
       "id": 4403,
       "item_id": 279,
@@ -24940,21 +24955,6 @@
       "obs": "",
       "criado_em": "2026-10-13 14:06:45",
       "item": "Metformina 500mg CPR",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 3904,
-      "item_id": 115,
-      "produto_nome": "Losartana potássica 50mg CPR",
-      "tipo": "Entrada no Almoxarifado",
-      "origem": "Entrada externa",
-      "destino": "Almoxarifado",
-      "quantidade": 45,
-      "responsavel": "Leiliana",
-      "data": "2026-10-13",
-      "obs": "",
-      "criado_em": "2026-10-13 14:06:27",
-      "item": "Losartana potássica 50mg CPR",
       "usuario": "Leiliana"
     }
   ]
