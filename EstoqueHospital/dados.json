@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "16/10/2026 15:28:15",
+  "atualizado_em": "16/10/2026 15:28:23",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 412,
     "total_almoxarifado": 111180,
-    "total_farmacia": 32749,
-    "total_geral": 143929,
+    "total_farmacia": 32739,
+    "total_geral": 143919,
     "perto_de_terminar": 25,
     "zerados": 14
   },
@@ -16713,19 +16713,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 280,
+      "farmacia": 270,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 280,
+      "total": 270,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-16 15:28:14",
+      "atualizado_em": "2026-10-16 15:28:22",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -16739,17 +16739,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 300
+          "quantidade": 290
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 223,
-      "previsao_20_dias": 223,
+      "minimo_alerta": 226,
+      "previsao_20_dias": 226,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 63,
-      "media_diaria_saida": 11.11,
-      "total_saida_historica": 700,
-      "cobertura_dias": 25.2,
+      "media_diaria_saida": 11.27,
+      "total_saida_historica": 710,
+      "cobertura_dias": 24.0,
       "alerta_estoque": false
     },
     {
@@ -17433,6 +17433,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 4343,
+      "item_id": 239,
+      "produto_nome": "Tramadol 50mg/ml 2ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 10,
+      "responsavel": "Leiliana",
+      "data": "2026-10-16",
+      "obs": "",
+      "criado_em": "2026-10-16 15:28:22",
+      "item": "Tramadol 50mg/ml 2ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 4342,
       "item_id": 239,
@@ -24916,21 +24931,6 @@
       "obs": "",
       "criado_em": "2026-10-13 13:44:44",
       "item": "Equipo macrogotas",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 3843,
-      "item_id": 200,
-      "produto_nome": "Caixa de perfurocortante",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 2,
-      "responsavel": "Leiliana",
-      "data": "2026-10-13",
-      "obs": "",
-      "criado_em": "2026-10-13 13:44:32",
-      "item": "Caixa de perfurocortante",
       "usuario": "Leiliana"
     }
   ]
