@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "16/10/2026 15:57:05",
+  "atualizado_em": "16/10/2026 15:57:19",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
-    "total_almoxarifado": 127287,
+    "total_almoxarifado": 127291,
     "total_farmacia": 33173,
-    "total_geral": 160460,
+    "total_geral": 160464,
     "perto_de_terminar": 24,
     "zerados": 14
   },
@@ -9348,20 +9348,20 @@
       "nome": "KIT ACESSO CENTRAL",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 9,
+      "almoxarifado": 13,
       "farmacia": 3,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 12,
+      "total": 16,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-16 14:15:47",
+      "atualizado_em": "2026-10-16 15:57:18",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -9369,7 +9369,7 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 9
+          "quantidade": 13
         },
         {
           "local": "farmacia",
@@ -17700,6 +17700,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 4428,
+      "item_id": 402,
+      "produto_nome": "KIT ACESSO CENTRAL",
+      "tipo": "Entrada no Almoxarifado",
+      "origem": "Entrada externa",
+      "destino": "Almoxarifado",
+      "quantidade": 4,
+      "responsavel": "Leiliana",
+      "data": "2026-10-16",
+      "obs": "",
+      "criado_em": "2026-10-16 15:57:18",
+      "item": "KIT ACESSO CENTRAL",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 4427,
       "item_id": 417,
       "produto_nome": "bolsa de ambu inf",
@@ -25182,21 +25197,6 @@
       "obs": "",
       "criado_em": "2026-10-13 14:13:56",
       "item": "Hidralazina 20mg",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 3928,
-      "item_id": 37,
-      "produto_nome": "Atensina 0,100mg CPR",
-      "tipo": "Entrada no Almoxarifado",
-      "origem": "Entrada externa",
-      "destino": "Almoxarifado",
-      "quantidade": 90,
-      "responsavel": "Leiliana",
-      "data": "2026-10-13",
-      "obs": "",
-      "criado_em": "2026-10-13 14:13:37",
-      "item": "Atensina 0,100mg CPR",
       "usuario": "Leiliana"
     }
   ]
