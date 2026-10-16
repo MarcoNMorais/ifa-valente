@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "16/10/2026 15:31:26",
+  "atualizado_em": "16/10/2026 15:31:39",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 412,
     "total_almoxarifado": 110130,
-    "total_farmacia": 33423,
-    "total_geral": 143553,
+    "total_farmacia": 33421,
+    "total_geral": 143551,
     "perto_de_terminar": 25,
     "zerados": 14
   },
@@ -10169,19 +10169,19 @@
       "tipo": "Material",
       "unidade": "Caixa",
       "almoxarifado": 0,
-      "farmacia": 177,
+      "farmacia": 175,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 177,
+      "total": 175,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-16 14:15:47",
+      "atualizado_em": "2026-10-16 15:31:38",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -10189,7 +10189,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 177
+          "quantidade": 175
         }
       ],
       "minimo_manual": 0,
@@ -10197,9 +10197,9 @@
       "previsao_20_dias": 260,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 65,
-      "media_diaria_saida": 12.97,
-      "total_saida_historica": 843,
-      "cobertura_dias": 13.6,
+      "media_diaria_saida": 13.0,
+      "total_saida_historica": 845,
+      "cobertura_dias": 13.5,
       "alerta_estoque": true
     },
     {
@@ -17433,6 +17433,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 4357,
+      "item_id": 180,
+      "produto_nome": "Luva de látex tam. P",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 2,
+      "responsavel": "Leiliana",
+      "data": "2026-10-16",
+      "obs": "",
+      "criado_em": "2026-10-16 15:31:38",
+      "item": "Luva de látex tam. P",
+      "usuario": "Leiliana"
+    },
     {
       "id": 4356,
       "item_id": 220,
@@ -24916,21 +24931,6 @@
       "obs": "",
       "criado_em": "2026-10-13 13:48:27",
       "item": "Haloperidol 5mg/ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 3857,
-      "item_id": 276,
-      "produto_nome": "Esparadrapo 10x4,5",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 1,
-      "responsavel": "Leiliana",
-      "data": "2026-10-13",
-      "obs": "",
-      "criado_em": "2026-10-13 13:48:14",
-      "item": "Esparadrapo 10x4,5",
       "usuario": "Leiliana"
     }
   ]
