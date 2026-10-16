@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "16/10/2026 15:49:32",
+  "atualizado_em": "16/10/2026 15:49:48",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 412,
-    "total_almoxarifado": 120708,
+    "total_almoxarifado": 122108,
     "total_farmacia": 33173,
-    "total_geral": 153881,
+    "total_geral": 155281,
     "perto_de_terminar": 26,
     "zerados": 14
   },
@@ -13337,20 +13337,20 @@
       "nome": "Seringa 3ml",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 5000,
+      "almoxarifado": 6400,
       "farmacia": 2108,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 7108,
+      "total": 8508,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-16 14:15:47",
+      "atualizado_em": "2026-10-16 15:49:47",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -13358,7 +13358,7 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 5000
+          "quantidade": 6400
         },
         {
           "local": "farmacia",
@@ -13374,7 +13374,7 @@
       "dias_historico": 65,
       "media_diaria_saida": 41.08,
       "total_saida_historica": 2670,
-      "cobertura_dias": 173.0,
+      "cobertura_dias": 207.1,
       "alerta_estoque": false
     },
     {
@@ -17457,6 +17457,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 4409,
+      "item_id": 104,
+      "produto_nome": "Seringa 3ml",
+      "tipo": "Entrada no Almoxarifado",
+      "origem": "Entrada externa",
+      "destino": "Almoxarifado",
+      "quantidade": 1400,
+      "responsavel": "Leiliana",
+      "data": "2026-10-16",
+      "obs": "",
+      "criado_em": "2026-10-16 15:49:47",
+      "item": "Seringa 3ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 4408,
       "item_id": 157,
@@ -24940,21 +24955,6 @@
       "obs": "",
       "criado_em": "2026-10-13 14:07:56",
       "item": "Paracetamol 500mg",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 3909,
-      "item_id": 31,
-      "produto_nome": "Omeprazol 20mg comprimido",
-      "tipo": "Entrada no Almoxarifado",
-      "origem": "Entrada externa",
-      "destino": "Almoxarifado",
-      "quantidade": 210,
-      "responsavel": "Leiliana",
-      "data": "2026-10-13",
-      "obs": "",
-      "criado_em": "2026-10-13 14:07:42",
-      "item": "Omeprazol 20mg comprimido",
       "usuario": "Leiliana"
     }
   ]
