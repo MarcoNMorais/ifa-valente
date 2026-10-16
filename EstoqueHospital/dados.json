@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "16/10/2026 15:53:50",
+  "atualizado_em": "16/10/2026 15:53:55",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
-    "itens": 412,
-    "total_almoxarifado": 127182,
+    "itens": 413,
+    "total_almoxarifado": 127196,
     "total_farmacia": 33173,
-    "total_geral": 160355,
+    "total_geral": 160369,
     "perto_de_terminar": 25,
     "zerados": 14
   },
@@ -15146,6 +15146,46 @@
       "alerta_estoque": false
     },
     {
+      "id": 413,
+      "produto_id": 414,
+      "nome": "sonda nasogastrica n°12",
+      "tipo": "Medicamento",
+      "unidade": "Unidade",
+      "almoxarifado": 14,
+      "farmacia": 0,
+      "sala_medicacoes": 0,
+      "internamento": 0,
+      "sala_cirurgica": 0,
+      "baixa": 0,
+      "outro": 0,
+      "total": 14,
+      "minimo": 0,
+      "validade": "",
+      "lote": "",
+      "origem": "Entrada externa",
+      "obs": "",
+      "atualizado_em": "2026-10-16 15:53:51",
+      "validade_mais_proxima": "",
+      "vencimento_mais_proximo": "",
+      "lotes_validade": [
+        {
+          "local": "almoxarifado",
+          "validade": "",
+          "lote": "",
+          "quantidade": 14
+        }
+      ],
+      "minimo_manual": 0,
+      "minimo_alerta": 0,
+      "previsao_20_dias": 0,
+      "criterio_alerta": "estoque_minimo_manual_inicio",
+      "dias_historico": 1,
+      "media_diaria_saida": 0.0,
+      "total_saida_historica": 0,
+      "cobertura_dias": null,
+      "alerta_estoque": false
+    },
+    {
       "id": 149,
       "produto_id": 149,
       "nome": "Sonda Nasogástrica nº 08",
@@ -17493,6 +17533,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 4420,
+      "item_id": 413,
+      "produto_nome": "sonda nasogastrica n°12",
+      "tipo": "Entrada no Almoxarifado",
+      "origem": "Entrada externa",
+      "destino": "Almoxarifado",
+      "quantidade": 14,
+      "responsavel": "Leiliana",
+      "data": "2026-10-16",
+      "obs": "",
+      "criado_em": "2026-10-16 15:53:51",
+      "item": "sonda nasogastrica n°12",
+      "usuario": "Leiliana"
+    },
     {
       "id": 4419,
       "item_id": 149,
@@ -24976,21 +25031,6 @@
       "obs": "",
       "criado_em": "2026-10-13 14:11:20",
       "item": "Benzilpenicilina 600 UI",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 3920,
-      "item_id": 55,
-      "produto_nome": "Benzilpenicilina 1.200",
-      "tipo": "Entrada no Almoxarifado",
-      "origem": "Entrada externa",
-      "destino": "Almoxarifado",
-      "quantidade": 280,
-      "responsavel": "Leiliana",
-      "data": "2026-10-13",
-      "obs": "",
-      "criado_em": "2026-10-13 14:11:07",
-      "item": "Benzilpenicilina 1.200",
       "usuario": "Leiliana"
     }
   ]
