@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "16/10/2026 15:31:39",
+  "atualizado_em": "16/10/2026 15:31:50",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 412,
     "total_almoxarifado": 110130,
-    "total_farmacia": 33421,
-    "total_geral": 143551,
+    "total_farmacia": 33419,
+    "total_geral": 143549,
     "perto_de_terminar": 25,
     "zerados": 14
   },
@@ -2837,19 +2837,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 107,
-      "farmacia": 29,
+      "farmacia": 27,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 136,
+      "total": 134,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-16 14:15:47",
+      "atualizado_em": "2026-10-16 15:31:49",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -2863,7 +2863,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 29
+          "quantidade": 27
         }
       ],
       "minimo_manual": 0,
@@ -2871,9 +2871,9 @@
       "previsao_20_dias": 14,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 65,
-      "media_diaria_saida": 0.66,
-      "total_saida_historica": 43,
-      "cobertura_dias": 205.6,
+      "media_diaria_saida": 0.69,
+      "total_saida_historica": 45,
+      "cobertura_dias": 193.6,
       "alerta_estoque": false
     },
     {
@@ -17434,6 +17434,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 4358,
+      "item_id": 155,
+      "produto_nome": "Bolsa coletora",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 2,
+      "responsavel": "Leiliana",
+      "data": "2026-10-16",
+      "obs": "",
+      "criado_em": "2026-10-16 15:31:49",
+      "item": "Bolsa coletora",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 4357,
       "item_id": 180,
       "produto_nome": "Luva de látex tam. P",
@@ -24916,21 +24931,6 @@
       "obs": "",
       "criado_em": "2026-10-13 13:48:37",
       "item": "Captopril 25mg CPR",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 3858,
-      "item_id": 8,
-      "produto_nome": "Haloperidol 5mg/ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 10,
-      "responsavel": "Leiliana",
-      "data": "2026-10-13",
-      "obs": "",
-      "criado_em": "2026-10-13 13:48:27",
-      "item": "Haloperidol 5mg/ml",
       "usuario": "Leiliana"
     }
   ]
