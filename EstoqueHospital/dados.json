@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "16/10/2026 15:55:51",
+  "atualizado_em": "16/10/2026 15:55:56",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
-    "itens": 414,
-    "total_almoxarifado": 127250,
+    "itens": 415,
+    "total_almoxarifado": 127257,
     "total_farmacia": 33173,
-    "total_geral": 160423,
+    "total_geral": 160430,
     "perto_de_terminar": 24,
     "zerados": 14
   },
@@ -16979,6 +16979,46 @@
       "alerta_estoque": false
     },
     {
+      "id": 415,
+      "produto_id": 416,
+      "nome": "tubo endotraqueal n°7,5",
+      "tipo": "Medicamento",
+      "unidade": "Unidade",
+      "almoxarifado": 7,
+      "farmacia": 0,
+      "sala_medicacoes": 0,
+      "internamento": 0,
+      "sala_cirurgica": 0,
+      "baixa": 0,
+      "outro": 0,
+      "total": 7,
+      "minimo": 0,
+      "validade": "",
+      "lote": "",
+      "origem": "Entrada externa",
+      "obs": "",
+      "atualizado_em": "2026-10-16 15:55:51",
+      "validade_mais_proxima": "",
+      "vencimento_mais_proximo": "",
+      "lotes_validade": [
+        {
+          "local": "almoxarifado",
+          "validade": "",
+          "lote": "",
+          "quantidade": 7
+        }
+      ],
+      "minimo_manual": 0,
+      "minimo_alerta": 0,
+      "previsao_20_dias": 0,
+      "criterio_alerta": "estoque_minimo_manual_inicio",
+      "dias_historico": 1,
+      "media_diaria_saida": 0.0,
+      "total_saida_historica": 0,
+      "cobertura_dias": null,
+      "alerta_estoque": false
+    },
+    {
       "id": 301,
       "produto_id": 301,
       "nome": "Umidificador",
@@ -17579,6 +17619,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 4424,
+      "item_id": 415,
+      "produto_nome": "tubo endotraqueal n°7,5",
+      "tipo": "Entrada no Almoxarifado",
+      "origem": "Entrada externa",
+      "destino": "Almoxarifado",
+      "quantidade": 7,
+      "responsavel": "Leiliana",
+      "data": "2026-10-16",
+      "obs": "",
+      "criado_em": "2026-10-16 15:55:51",
+      "item": "tubo endotraqueal n°7,5",
+      "usuario": "Leiliana"
+    },
     {
       "id": 4423,
       "item_id": 414,
@@ -25062,21 +25117,6 @@
       "obs": "",
       "criado_em": "2026-10-13 14:12:33",
       "item": "Cetoprofeno EV 100mg",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 3924,
-      "item_id": 59,
-      "produto_nome": "Ceftriaxona 1g",
-      "tipo": "Entrada no Almoxarifado",
-      "origem": "Entrada externa",
-      "destino": "Almoxarifado",
-      "quantidade": 560,
-      "responsavel": "Leiliana",
-      "data": "2026-10-13",
-      "obs": "",
-      "criado_em": "2026-10-13 14:12:07",
-      "item": "Ceftriaxona 1g",
       "usuario": "Leiliana"
     }
   ]
