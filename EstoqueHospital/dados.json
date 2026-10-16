@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "16/10/2026 16:32:16",
+  "atualizado_em": "16/10/2026 16:32:25",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
     "total_almoxarifado": 127391,
-    "total_farmacia": 32986,
-    "total_geral": 160377,
+    "total_farmacia": 32984,
+    "total_geral": 160375,
     "perto_de_terminar": 24,
     "zerados": 14
   },
@@ -6186,19 +6186,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 376,
-      "farmacia": 22,
+      "farmacia": 20,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 398,
+      "total": 396,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-16 15:43:42",
+      "atualizado_em": "2026-10-16 16:32:24",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -6212,7 +6212,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 24
+          "quantidade": 22
         }
       ],
       "minimo_manual": 0,
@@ -6220,9 +6220,9 @@
       "previsao_20_dias": 46,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 60,
-      "media_diaria_saida": 2.27,
-      "total_saida_historica": 136,
-      "cobertura_dias": 175.6,
+      "media_diaria_saida": 2.3,
+      "total_saida_historica": 138,
+      "cobertura_dias": 172.2,
       "alerta_estoque": false
     },
     {
@@ -17700,6 +17700,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 4441,
+      "item_id": 276,
+      "produto_nome": "Esparadrapo 10x4,5",
+      "tipo": "Farmácia para Outro destino",
+      "origem": "Farmácia",
+      "destino": "Outro destino",
+      "quantidade": 2,
+      "responsavel": "Leiliana",
+      "data": "2026-10-16",
+      "obs": "",
+      "criado_em": "2026-10-16 16:32:24",
+      "item": "Esparadrapo 10x4,5",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 4440,
       "item_id": 220,
       "produto_nome": "Equipo macrogotas",
@@ -25182,21 +25197,6 @@
       "obs": "",
       "criado_em": "2026-10-13 14:17:34",
       "item": "Epinefrina 1mg",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 3941,
-      "item_id": 89,
-      "produto_nome": "Hemitartarato de Norepinefrina",
-      "tipo": "Entrada no Almoxarifado",
-      "origem": "Entrada externa",
-      "destino": "Almoxarifado",
-      "quantidade": 17,
-      "responsavel": "Leiliana",
-      "data": "2026-10-13",
-      "obs": "",
-      "criado_em": "2026-10-13 14:17:10",
-      "item": "Hemitartarato de Norepinefrina",
       "usuario": "Leiliana"
     }
   ]
