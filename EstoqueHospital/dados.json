@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "16/10/2026 16:30:58",
+  "atualizado_em": "16/10/2026 16:31:11",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
     "total_almoxarifado": 127391,
-    "total_farmacia": 33111,
-    "total_geral": 160502,
+    "total_farmacia": 33101,
+    "total_geral": 160492,
     "perto_de_terminar": 24,
     "zerados": 14
   },
@@ -13194,19 +13194,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 1220,
-      "farmacia": 70,
+      "farmacia": 60,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1290,
+      "total": 1280,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-16 14:15:47",
+      "atualizado_em": "2026-10-16 16:31:10",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -13220,17 +13220,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 80
+          "quantidade": 70
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 183,
-      "previsao_20_dias": 183,
+      "minimo_alerta": 186,
+      "previsao_20_dias": 186,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 65,
-      "media_diaria_saida": 9.11,
-      "total_saida_historica": 592,
-      "cobertura_dias": 141.6,
+      "media_diaria_saida": 9.26,
+      "total_saida_historica": 602,
+      "cobertura_dias": 138.2,
       "alerta_estoque": false
     },
     {
@@ -17699,6 +17699,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 4434,
+      "item_id": 98,
+      "produto_nome": "Scalp nº 23",
+      "tipo": "Farmácia para Outro destino",
+      "origem": "Farmácia",
+      "destino": "Outro destino",
+      "quantidade": 10,
+      "responsavel": "Leiliana",
+      "data": "2026-10-16",
+      "obs": "",
+      "criado_em": "2026-10-16 16:31:10",
+      "item": "Scalp nº 23",
+      "usuario": "Leiliana"
+    },
     {
       "id": 4433,
       "item_id": 384,
@@ -25182,21 +25197,6 @@
       "obs": "",
       "criado_em": "2026-10-13 14:15:27",
       "item": "Fosfato de Clindamicina 150mg",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 3934,
-      "item_id": 231,
-      "produto_nome": "Etilefrina 0,5mg/ml 1ml",
-      "tipo": "Entrada no Almoxarifado",
-      "origem": "Entrada externa",
-      "destino": "Almoxarifado",
-      "quantidade": 25,
-      "responsavel": "Leiliana",
-      "data": "2026-10-13",
-      "obs": "",
-      "criado_em": "2026-10-13 14:15:15",
-      "item": "Etilefrina 0,5mg/ml 1ml",
       "usuario": "Leiliana"
     }
   ]
