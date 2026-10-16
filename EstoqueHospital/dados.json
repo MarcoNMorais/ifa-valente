@@ -1,12 +1,12 @@
 {
-  "atualizado_em": "16/10/2026 15:33:03",
+  "atualizado_em": "16/10/2026 15:33:18",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 412,
     "total_almoxarifado": 110130,
-    "total_farmacia": 33352,
-    "total_geral": 143482,
-    "perto_de_terminar": 25,
+    "total_farmacia": 33337,
+    "total_geral": 143467,
+    "perto_de_terminar": 26,
     "zerados": 14
   },
   "itens": [
@@ -2241,19 +2241,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 15,
-      "farmacia": 15,
+      "farmacia": 0,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 30,
+      "total": 15,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-16 14:15:47",
+      "atualizado_em": "2026-10-16 15:33:16",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -2262,23 +2262,17 @@
           "validade": "",
           "lote": "",
           "quantidade": 15
-        },
-        {
-          "local": "farmacia",
-          "validade": "",
-          "lote": "",
-          "quantidade": 15
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 16,
-      "previsao_20_dias": 16,
+      "minimo_alerta": 20,
+      "previsao_20_dias": 20,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 65,
-      "media_diaria_saida": 0.77,
-      "total_saida_historica": 50,
-      "cobertura_dias": 39.0,
-      "alerta_estoque": false
+      "media_diaria_saida": 1.0,
+      "total_saida_historica": 65,
+      "cobertura_dias": 15.0,
+      "alerta_estoque": true
     },
     {
       "id": 119,
@@ -17434,6 +17428,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 4366,
+      "item_id": 33,
+      "produto_nome": "Atorvastatina 20mg CPR",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 15,
+      "responsavel": "Leiliana",
+      "data": "2026-10-16",
+      "obs": "",
+      "criado_em": "2026-10-16 15:33:16",
+      "item": "Atorvastatina 20mg CPR",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 4365,
       "item_id": 31,
       "produto_nome": "Omeprazol 20mg comprimido",
@@ -24916,21 +24925,6 @@
       "obs": "",
       "criado_em": "2026-10-13 13:51:19",
       "item": "Seringa 1ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 3866,
-      "item_id": 104,
-      "produto_nome": "Seringa 3ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 30,
-      "responsavel": "Leiliana",
-      "data": "2026-10-13",
-      "obs": "",
-      "criado_em": "2026-10-13 13:51:07",
-      "item": "Seringa 3ml",
       "usuario": "Leiliana"
     }
   ]
