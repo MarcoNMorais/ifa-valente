@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "16/10/2026 15:55:56",
+  "atualizado_em": "16/10/2026 15:56:06",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 415,
-    "total_almoxarifado": 127257,
+    "total_almoxarifado": 127271,
     "total_farmacia": 33173,
-    "total_geral": 160430,
+    "total_geral": 160444,
     "perto_de_terminar": 24,
     "zerados": 14
   },
@@ -17064,20 +17064,20 @@
       "nome": "Umidificador completo",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 6,
+      "almoxarifado": 20,
       "farmacia": 0,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 6,
+      "total": 20,
       "minimo": 0,
       "validade": "",
       "lote": "",
-      "origem": "Carga Almoxerifado",
-      "obs": "Importação Almoxerifado",
-      "atualizado_em": "2026-10-16 14:15:47",
+      "origem": "Entrada externa",
+      "obs": "",
+      "atualizado_em": "2026-10-16 15:56:05",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -17085,7 +17085,7 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 6
+          "quantidade": 20
         }
       ],
       "minimo_manual": 0,
@@ -17619,6 +17619,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 4425,
+      "item_id": 302,
+      "produto_nome": "Umidificador completo",
+      "tipo": "Entrada no Almoxarifado",
+      "origem": "Entrada externa",
+      "destino": "Almoxarifado",
+      "quantidade": 14,
+      "responsavel": "Leiliana",
+      "data": "2026-10-16",
+      "obs": "",
+      "criado_em": "2026-10-16 15:56:05",
+      "item": "Umidificador completo",
+      "usuario": "Leiliana"
+    },
     {
       "id": 4424,
       "item_id": 415,
@@ -25102,21 +25117,6 @@
       "obs": "",
       "criado_em": "2026-10-13 14:12:49",
       "item": "Cetoprofeno IM 50mg",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 3925,
-      "item_id": 60,
-      "produto_nome": "Cetoprofeno EV 100mg",
-      "tipo": "Entrada no Almoxarifado",
-      "origem": "Entrada externa",
-      "destino": "Almoxarifado",
-      "quantidade": 420,
-      "responsavel": "Leiliana",
-      "data": "2026-10-13",
-      "obs": "",
-      "criado_em": "2026-10-13 14:12:33",
-      "item": "Cetoprofeno EV 100mg",
       "usuario": "Leiliana"
     }
   ]
