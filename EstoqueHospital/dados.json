@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "19/10/2026 14:59:00",
+  "atualizado_em": "19/10/2026 14:59:13",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
     "total_almoxarifado": 123604,
-    "total_farmacia": 34862,
-    "total_geral": 158466,
+    "total_farmacia": 34812,
+    "total_geral": 158416,
     "perto_de_terminar": 25,
     "zerados": 14
   },
@@ -513,19 +513,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 7300,
-      "farmacia": 655,
+      "farmacia": 605,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 7955,
+      "total": 7905,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-19 14:51:51",
+      "atualizado_em": "2026-10-19 14:59:12",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -539,17 +539,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 655
+          "quantidade": 605
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 1542,
-      "previsao_20_dias": 1542,
+      "minimo_alerta": 1564,
+      "previsao_20_dias": 1564,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 46,
-      "media_diaria_saida": 77.07,
-      "total_saida_historica": 3545,
-      "cobertura_dias": 103.2,
+      "media_diaria_saida": 78.15,
+      "total_saida_historica": 3595,
+      "cobertura_dias": 101.1,
       "alerta_estoque": false
     },
     {
@@ -17688,6 +17688,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 4569,
+      "item_id": 390,
+      "produto_nome": "AGULHA  40X1,2",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 50,
+      "responsavel": "Assucena",
+      "data": "2026-10-19",
+      "obs": "",
+      "criado_em": "2026-10-19 14:59:12",
+      "item": "AGULHA  40X1,2",
+      "usuario": "Assucena"
+    },
+    {
       "id": 4568,
       "item_id": 223,
       "produto_nome": "Dramin B6 ampola 10ml",
@@ -25170,21 +25185,6 @@
       "obs": "",
       "criado_em": "2026-10-13 15:15:21",
       "item": "Oxacilina 500mg pó injetável",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 4069,
-      "item_id": 181,
-      "produto_nome": "Luva de látex tam. M",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 2,
-      "responsavel": "Leiliana",
-      "data": "2026-10-13",
-      "obs": "",
-      "criado_em": "2026-10-13 15:15:10",
-      "item": "Luva de látex tam. M",
       "usuario": "Leiliana"
     }
   ]
