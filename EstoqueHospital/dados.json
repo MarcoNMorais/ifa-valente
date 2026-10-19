@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "19/10/2026 10:55:06",
+  "atualizado_em": "19/10/2026 11:10:54",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
-    "total_almoxarifado": 127391,
-    "total_farmacia": 32948,
+    "total_almoxarifado": 127375,
+    "total_farmacia": 32964,
     "total_geral": 160339,
     "perto_de_terminar": 24,
     "zerados": 14
@@ -9560,8 +9560,8 @@
       "nome": "Lençol descartável papel",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 190,
-      "farmacia": 7,
+      "almoxarifado": 174,
+      "farmacia": 23,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -9573,7 +9573,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-19 10:55:04",
+      "atualizado_em": "2026-10-19 11:10:52",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -9581,13 +9581,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 190
+          "quantidade": 174
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 7
+          "quantidade": 23
         }
       ],
       "minimo_manual": 0,
@@ -17700,6 +17700,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 4447,
+      "item_id": 199,
+      "produto_nome": "Lençol descartável papel",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 16,
+      "responsavel": "Assucena",
+      "data": "2026-10-19",
+      "obs": "",
+      "criado_em": "2026-10-19 11:10:52",
+      "item": "Lençol descartável papel",
+      "usuario": "Assucena"
+    },
+    {
       "id": 4446,
       "item_id": 195,
       "produto_nome": "Tira Reagente G-Tech",
@@ -25182,21 +25197,6 @@
       "obs": "",
       "criado_em": "2026-10-13 14:19:18",
       "item": "Metronidazol 100ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 3947,
-      "item_id": 336,
-      "produto_nome": "Mathergan",
-      "tipo": "Entrada no Almoxarifado",
-      "origem": "Entrada externa",
-      "destino": "Almoxarifado",
-      "quantidade": 4,
-      "responsavel": "Leiliana",
-      "data": "2026-10-13",
-      "obs": "",
-      "criado_em": "2026-10-13 14:19:00",
-      "item": "Mathergan",
       "usuario": "Leiliana"
     }
   ]
