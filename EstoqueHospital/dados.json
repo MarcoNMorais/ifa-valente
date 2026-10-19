@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "19/10/2026 11:11:18",
+  "atualizado_em": "19/10/2026 11:11:45",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
-    "total_almoxarifado": 127005,
-    "total_farmacia": 33334,
+    "total_almoxarifado": 125805,
+    "total_farmacia": 34534,
     "total_geral": 160339,
     "perto_de_terminar": 24,
     "zerados": 14
@@ -13325,8 +13325,8 @@
       "nome": "Seringa 1ml",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 1400,
-      "farmacia": 50,
+      "almoxarifado": 1200,
+      "farmacia": 250,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -13338,7 +13338,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-19 10:55:04",
+      "atualizado_em": "2026-10-19 11:11:26",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -13346,13 +13346,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 1400
+          "quantidade": 1200
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 50
+          "quantidade": 250
         }
       ],
       "minimo_manual": 0,
@@ -13417,8 +13417,8 @@
       "nome": "Seringa 3ml",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 6400,
-      "farmacia": 2093,
+      "almoxarifado": 5900,
+      "farmacia": 2593,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -13430,7 +13430,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-19 10:55:03",
+      "atualizado_em": "2026-10-19 11:11:35",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -13438,13 +13438,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 6400
+          "quantidade": 5900
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 2093
+          "quantidade": 2593
         }
       ],
       "minimo_manual": 0,
@@ -13463,8 +13463,8 @@
       "nome": "Seringa 5ml",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 7250,
-      "farmacia": 165,
+      "almoxarifado": 6750,
+      "farmacia": 665,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -13476,7 +13476,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-19 10:55:03",
+      "atualizado_em": "2026-10-19 11:11:44",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -13484,13 +13484,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 7250
+          "quantidade": 6750
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 195
+          "quantidade": 695
         }
       ],
       "minimo_manual": 0,
@@ -17699,6 +17699,51 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 4452,
+      "item_id": 102,
+      "produto_nome": "Seringa 5ml",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 500,
+      "responsavel": "Assucena",
+      "data": "2026-10-19",
+      "obs": "",
+      "criado_em": "2026-10-19 11:11:44",
+      "item": "Seringa 5ml",
+      "usuario": "Assucena"
+    },
+    {
+      "id": 4451,
+      "item_id": 104,
+      "produto_nome": "Seringa 3ml",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 500,
+      "responsavel": "Assucena",
+      "data": "2026-10-19",
+      "obs": "",
+      "criado_em": "2026-10-19 11:11:35",
+      "item": "Seringa 3ml",
+      "usuario": "Assucena"
+    },
+    {
+      "id": 4450,
+      "item_id": 157,
+      "produto_nome": "Seringa 1ml",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 200,
+      "responsavel": "Assucena",
+      "data": "2026-10-19",
+      "obs": "",
+      "criado_em": "2026-10-19 11:11:26",
+      "item": "Seringa 1ml",
+      "usuario": "Assucena"
+    },
     {
       "id": 4449,
       "item_id": 152,
@@ -25152,51 +25197,6 @@
       "obs": "",
       "criado_em": "2026-10-13 14:20:39",
       "item": "Soro fisiológico 100ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 3952,
-      "item_id": 201,
-      "produto_nome": "Soro Ringer Lactato 500ml",
-      "tipo": "Entrada no Almoxarifado",
-      "origem": "Entrada externa",
-      "destino": "Almoxarifado",
-      "quantidade": 84,
-      "responsavel": "Leiliana",
-      "data": "2026-10-13",
-      "obs": "",
-      "criado_em": "2026-10-13 14:20:21",
-      "item": "Soro Ringer Lactato 500ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 3951,
-      "item_id": 66,
-      "produto_nome": "Complexo B",
-      "tipo": "Entrada no Almoxarifado",
-      "origem": "Entrada externa",
-      "destino": "Almoxarifado",
-      "quantidade": 350,
-      "responsavel": "Leiliana",
-      "data": "2026-10-13",
-      "obs": "",
-      "criado_em": "2026-10-13 14:20:03",
-      "item": "Complexo B",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 3950,
-      "item_id": 229,
-      "produto_nome": "Oxacilina 500mg pó injetável",
-      "tipo": "Entrada no Almoxarifado",
-      "origem": "Entrada externa",
-      "destino": "Almoxarifado",
-      "quantidade": 140,
-      "responsavel": "Leiliana",
-      "data": "2026-10-13",
-      "obs": "",
-      "criado_em": "2026-10-13 14:19:47",
-      "item": "Oxacilina 500mg pó injetável",
       "usuario": "Leiliana"
     }
   ]
