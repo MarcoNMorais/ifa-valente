@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "19/10/2026 14:30:37",
+  "atualizado_em": "19/10/2026 14:30:49",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
     "total_almoxarifado": 125175,
-    "total_farmacia": 34821,
-    "total_geral": 159996,
+    "total_farmacia": 34781,
+    "total_geral": 159956,
     "perto_de_terminar": 24,
     "zerados": 14
   },
@@ -12209,19 +12209,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 290,
+      "farmacia": 250,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 290,
+      "total": 250,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-19 10:55:04",
+      "atualizado_em": "2026-10-19 14:30:48",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -12229,17 +12229,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 320
+          "quantidade": 280
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 357,
-      "previsao_20_dias": 357,
+      "minimo_alerta": 370,
+      "previsao_20_dias": 370,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 65,
-      "media_diaria_saida": 17.85,
-      "total_saida_historica": 1160,
-      "cobertura_dias": 16.2,
+      "media_diaria_saida": 18.46,
+      "total_saida_historica": 1200,
+      "cobertura_dias": 13.5,
       "alerta_estoque": true
     },
     {
@@ -17699,6 +17699,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 4467,
+      "item_id": 238,
+      "produto_nome": "Ondansetrona 2mg/ml 2ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 40,
+      "responsavel": "Assucena",
+      "data": "2026-10-19",
+      "obs": "",
+      "criado_em": "2026-10-19 14:30:48",
+      "item": "Ondansetrona 2mg/ml 2ml",
+      "usuario": "Assucena"
+    },
     {
       "id": 4466,
       "item_id": 382,
@@ -25182,21 +25197,6 @@
       "obs": "",
       "criado_em": "2026-10-13 14:25:08",
       "item": "Fentanila 50mcg/ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 3967,
-      "item_id": 13,
-      "produto_nome": "Diazepam 10mg/2ml 2ml",
-      "tipo": "Entrada no Almoxarifado",
-      "origem": "Entrada externa",
-      "destino": "Almoxarifado",
-      "quantidade": 70,
-      "responsavel": "Leiliana",
-      "data": "2026-10-13",
-      "obs": "",
-      "criado_em": "2026-10-13 14:24:38",
-      "item": "Diazepam 10mg/2ml 2ml",
       "usuario": "Leiliana"
     }
   ]
