@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "19/10/2026 16:23:12",
+  "atualizado_em": "19/10/2026 16:23:21",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
     "total_almoxarifado": 123321,
-    "total_farmacia": 34607,
-    "total_geral": 157928,
+    "total_farmacia": 34567,
+    "total_geral": 157888,
     "perto_de_terminar": 26,
     "zerados": 14
   },
@@ -12191,19 +12191,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 230,
+      "farmacia": 190,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 230,
+      "total": 190,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-19 14:57:22",
+      "atualizado_em": "2026-10-19 16:23:20",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -12211,17 +12211,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 260
+          "quantidade": 220
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 376,
-      "previsao_20_dias": 376,
+      "minimo_alerta": 388,
+      "previsao_20_dias": 388,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 65,
-      "media_diaria_saida": 18.77,
-      "total_saida_historica": 1220,
-      "cobertura_dias": 12.3,
+      "media_diaria_saida": 19.38,
+      "total_saida_historica": 1260,
+      "cobertura_dias": 9.8,
       "alerta_estoque": true
     },
     {
@@ -17687,6 +17687,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 4613,
+      "item_id": 238,
+      "produto_nome": "Ondansetrona 2mg/ml 2ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 40,
+      "responsavel": "Assucena",
+      "data": "2026-10-19",
+      "obs": "",
+      "criado_em": "2026-10-19 16:23:20",
+      "item": "Ondansetrona 2mg/ml 2ml",
+      "usuario": "Assucena"
+    },
     {
       "id": 4612,
       "item_id": 411,
@@ -25170,21 +25185,6 @@
       "obs": "",
       "criado_em": "2026-10-13 16:15:39",
       "item": "Benzilpenicilina 1.200",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 4113,
-      "item_id": 68,
-      "produto_nome": "Dexametasona",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 30,
-      "responsavel": "Leiliana",
-      "data": "2026-10-13",
-      "obs": "",
-      "criado_em": "2026-10-13 16:15:32",
-      "item": "Dexametasona",
       "usuario": "Leiliana"
     }
   ]
