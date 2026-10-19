@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "19/10/2026 14:30:03",
+  "atualizado_em": "19/10/2026 14:30:14",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
     "total_almoxarifado": 125175,
-    "total_farmacia": 34840,
-    "total_geral": 160015,
+    "total_farmacia": 34839,
+    "total_geral": 160014,
     "perto_de_terminar": 24,
     "zerados": 14
   },
@@ -3905,19 +3905,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 10,
-      "farmacia": 2,
+      "farmacia": 1,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 12,
+      "total": 11,
       "minimo": 0,
       "validade": "2028-01",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-19 10:55:03",
+      "atualizado_em": "2026-10-19 14:30:13",
       "validade_mais_proxima": "2028-01",
       "vencimento_mais_proximo": "2028-01",
       "lotes_validade": [
@@ -3925,7 +3925,7 @@
           "local": "farmacia",
           "validade": "2028-01",
           "lote": "",
-          "quantidade": 2
+          "quantidade": 1
         },
         {
           "local": "almoxarifado",
@@ -3939,9 +3939,9 @@
       "previsao_20_dias": 4,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 68,
-      "media_diaria_saida": 0.18,
-      "total_saida_historica": 12,
-      "cobertura_dias": 68.0,
+      "media_diaria_saida": 0.19,
+      "total_saida_historica": 13,
+      "cobertura_dias": 57.5,
       "alerta_estoque": false
     },
     {
@@ -17700,6 +17700,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 4464,
+      "item_id": 21,
+      "produto_nome": "Clonazepam gotas 25mg/ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 1,
+      "responsavel": "Assucena",
+      "data": "2026-10-19",
+      "obs": "",
+      "criado_em": "2026-10-19 14:30:13",
+      "item": "Clonazepam gotas 25mg/ml",
+      "usuario": "Assucena"
+    },
+    {
       "id": 4463,
       "item_id": 199,
       "produto_nome": "Lençol descartável papel",
@@ -25182,21 +25197,6 @@
       "obs": "",
       "criado_em": "2026-10-13 14:24:09",
       "item": "DIAZEPAN 10MG",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 3964,
-      "item_id": 4,
-      "produto_nome": "Decanoato de haloperidol",
-      "tipo": "Entrada no Almoxarifado",
-      "origem": "Entrada externa",
-      "destino": "Almoxarifado",
-      "quantidade": 28,
-      "responsavel": "Leiliana",
-      "data": "2026-10-13",
-      "obs": "",
-      "criado_em": "2026-10-13 14:23:51",
-      "item": "Decanoato de haloperidol",
       "usuario": "Leiliana"
     }
   ]
