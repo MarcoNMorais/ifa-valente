@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "19/10/2026 14:36:18",
+  "atualizado_em": "19/10/2026 14:36:32",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
     "total_almoxarifado": 125175,
-    "total_farmacia": 34620,
-    "total_geral": 159795,
+    "total_farmacia": 34595,
+    "total_geral": 159770,
     "perto_de_terminar": 25,
     "zerados": 14
   },
@@ -12666,19 +12666,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 2930,
-      "farmacia": 105,
+      "farmacia": 80,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 3035,
+      "total": 3010,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-19 10:55:04",
+      "atualizado_em": "2026-10-19 14:36:31",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -12692,17 +12692,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 105
+          "quantidade": 80
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 186,
-      "previsao_20_dias": 186,
+      "minimo_alerta": 194,
+      "previsao_20_dias": 194,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 63,
-      "media_diaria_saida": 9.29,
-      "total_saida_historica": 585,
-      "cobertura_dias": 326.8,
+      "media_diaria_saida": 9.68,
+      "total_saida_historica": 610,
+      "cobertura_dias": 310.9,
       "alerta_estoque": false
     },
     {
@@ -17699,6 +17699,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 4475,
+      "item_id": 329,
+      "produto_nome": "Polifix",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 25,
+      "responsavel": "Assucena",
+      "data": "2026-10-19",
+      "obs": "",
+      "criado_em": "2026-10-19 14:36:31",
+      "item": "Polifix",
+      "usuario": "Assucena"
+    },
     {
       "id": 4474,
       "item_id": 220,
@@ -25182,21 +25197,6 @@
       "obs": "",
       "criado_em": "2026-10-13 14:52:15",
       "item": "Cetoprofeno IM 50mg",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 3975,
-      "item_id": 238,
-      "produto_nome": "Ondansetrona 2mg/ml 2ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 70,
-      "responsavel": "Leiliana",
-      "data": "2026-10-13",
-      "obs": "",
-      "criado_em": "2026-10-13 14:51:59",
-      "item": "Ondansetrona 2mg/ml 2ml",
       "usuario": "Leiliana"
     }
   ]
