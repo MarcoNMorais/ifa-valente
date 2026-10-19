@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "19/10/2026 11:12:08",
+  "atualizado_em": "19/10/2026 11:12:18",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
-    "total_almoxarifado": 125775,
-    "total_farmacia": 34564,
+    "total_almoxarifado": 125175,
+    "total_farmacia": 35164,
     "total_geral": 160339,
     "perto_de_terminar": 24,
     "zerados": 14
@@ -684,8 +684,8 @@
       "nome": "Agulha 25x8",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 4600,
-      "farmacia": 110,
+      "almoxarifado": 4000,
+      "farmacia": 710,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -697,7 +697,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-19 10:55:04",
+      "atualizado_em": "2026-10-19 11:12:17",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -705,13 +705,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 4600
+          "quantidade": 4000
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 110
+          "quantidade": 710
         }
       ],
       "minimo_manual": 0,
@@ -17700,6 +17700,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 4456,
+      "item_id": 289,
+      "produto_nome": "Agulha 25x8",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 600,
+      "responsavel": "Assucena",
+      "data": "2026-10-19",
+      "obs": "",
+      "criado_em": "2026-10-19 11:12:17",
+      "item": "Agulha 25x8",
+      "usuario": "Assucena"
+    },
+    {
       "id": 4455,
       "item_id": 281,
       "produto_nome": "Luva P procedimento",
@@ -25182,21 +25197,6 @@
       "obs": "",
       "criado_em": "2026-10-13 14:21:51",
       "item": "Hidrocortisona 100MG",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 3956,
-      "item_id": 205,
-      "produto_nome": "Soro glicose 5% 500ml",
-      "tipo": "Entrada no Almoxarifado",
-      "origem": "Entrada externa",
-      "destino": "Almoxarifado",
-      "quantidade": 63,
-      "responsavel": "Leiliana",
-      "data": "2026-10-13",
-      "obs": "",
-      "criado_em": "2026-10-13 14:21:34",
-      "item": "Soro glicose 5% 500ml",
       "usuario": "Leiliana"
     }
   ]
