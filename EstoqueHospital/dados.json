@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "19/10/2026 14:52:14",
+  "atualizado_em": "19/10/2026 14:52:26",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
     "total_almoxarifado": 123754,
-    "total_farmacia": 35184,
-    "total_geral": 158938,
+    "total_farmacia": 35181,
+    "total_geral": 158935,
     "perto_de_terminar": 25,
     "zerados": 14
   },
@@ -13624,19 +13624,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 35,
-      "farmacia": 22,
+      "farmacia": 19,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 57,
+      "total": 54,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-19 10:55:04",
+      "atualizado_em": "2026-10-19 14:52:25",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -13650,17 +13650,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 22
+          "quantidade": 19
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 17,
-      "previsao_20_dias": 17,
+      "minimo_alerta": 18,
+      "previsao_20_dias": 18,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 67,
-      "media_diaria_saida": 0.82,
-      "total_saida_historica": 55,
-      "cobertura_dias": 69.4,
+      "media_diaria_saida": 0.87,
+      "total_saida_historica": 58,
+      "cobertura_dias": 62.4,
       "alerta_estoque": false
     },
     {
@@ -17693,6 +17693,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 4538,
+      "item_id": 256,
+      "produto_nome": "Simeticona gotas",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 3,
+      "responsavel": "Assucena",
+      "data": "2026-10-19",
+      "obs": "",
+      "criado_em": "2026-10-19 14:52:25",
+      "item": "Simeticona gotas",
+      "usuario": "Assucena"
+    },
     {
       "id": 4537,
       "item_id": 331,
@@ -25176,21 +25191,6 @@
       "obs": "",
       "criado_em": "2026-10-13 15:07:49",
       "item": "Agulha 30x7",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 4038,
-      "item_id": 390,
-      "produto_nome": "AGULHA  40X1,2",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 160,
-      "responsavel": "Leiliana",
-      "data": "2026-10-13",
-      "obs": "",
-      "criado_em": "2026-10-13 15:07:38",
-      "item": "AGULHA  40X1,2",
       "usuario": "Leiliana"
     }
   ]
