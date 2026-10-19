@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "19/10/2026 14:45:56",
+  "atualizado_em": "19/10/2026 14:46:09",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
     "total_almoxarifado": 125154,
-    "total_farmacia": 34182,
-    "total_geral": 159336,
+    "total_farmacia": 34180,
+    "total_geral": 159334,
     "perto_de_terminar": 25,
     "zerados": 14
   },
@@ -14786,19 +14786,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 10,
-      "farmacia": 11,
+      "farmacia": 9,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 21,
+      "total": 19,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-19 14:45:55",
+      "atualizado_em": "2026-10-19 14:46:08",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -14812,17 +14812,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 11
+          "quantidade": 9
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 1,
-      "previsao_20_dias": 1,
+      "minimo_alerta": 2,
+      "previsao_20_dias": 2,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 68,
-      "media_diaria_saida": 0.04,
-      "total_saida_historica": 3,
-      "cobertura_dias": 476.0,
+      "media_diaria_saida": 0.07,
+      "total_saida_historica": 5,
+      "cobertura_dias": 258.4,
       "alerta_estoque": false
     },
     {
@@ -17705,6 +17705,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 4512,
+      "item_id": 173,
+      "produto_nome": "Sonda Foley nº 16 - 2 vias",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 2,
+      "responsavel": "Assucena",
+      "data": "2026-10-19",
+      "obs": "",
+      "criado_em": "2026-10-19 14:46:08",
+      "item": "Sonda Foley nº 16 - 2 vias",
+      "usuario": "Assucena"
+    },
     {
       "id": 4511,
       "item_id": 173,
@@ -25188,21 +25203,6 @@
       "obs": "",
       "criado_em": "2026-10-13 15:01:45",
       "item": "Cetoprofeno EV 100mg",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 4012,
-      "item_id": 27,
-      "produto_nome": "Paracetamol 500mg",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 10,
-      "responsavel": "Leiliana",
-      "data": "2026-10-13",
-      "obs": "",
-      "criado_em": "2026-10-13 15:01:22",
-      "item": "Paracetamol 500mg",
       "usuario": "Leiliana"
     }
   ]
