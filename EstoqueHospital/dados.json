@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "19/10/2026 14:57:37",
+  "atualizado_em": "19/10/2026 14:57:59",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
     "total_almoxarifado": 123604,
-    "total_farmacia": 34930,
-    "total_geral": 158534,
+    "total_farmacia": 34920,
+    "total_geral": 158524,
     "perto_de_terminar": 25,
     "zerados": 14
   },
@@ -8305,19 +8305,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 150,
-      "farmacia": 67,
+      "farmacia": 57,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 217,
+      "total": 207,
       "minimo": 50,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-19 10:55:04",
+      "atualizado_em": "2026-10-19 14:57:58",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -8331,17 +8331,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 67
+          "quantidade": 57
         }
       ],
       "minimo_manual": 50,
-      "minimo_alerta": 44,
-      "previsao_20_dias": 44,
+      "minimo_alerta": 48,
+      "previsao_20_dias": 48,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 55,
-      "media_diaria_saida": 2.2,
-      "total_saida_historica": 121,
-      "cobertura_dias": 98.6,
+      "media_diaria_saida": 2.38,
+      "total_saida_historica": 131,
+      "cobertura_dias": 86.9,
       "alerta_estoque": false
     },
     {
@@ -17688,6 +17688,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 4563,
+      "item_id": 350,
+      "produto_nome": "GLICOSE 50% AMP 10ML",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 10,
+      "responsavel": "Assucena",
+      "data": "2026-10-19",
+      "obs": "",
+      "criado_em": "2026-10-19 14:57:58",
+      "item": "GLICOSE 50% AMP 10ML",
+      "usuario": "Assucena"
+    },
+    {
       "id": 4562,
       "item_id": 228,
       "produto_nome": "Omeprazol sódico 40mg AMP",
@@ -25169,21 +25184,6 @@
       "data": "2026-10-13",
       "obs": "",
       "criado_em": "2026-10-13 15:14:09",
-      "item": "Soro fisiológico 250ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 4063,
-      "item_id": 203,
-      "produto_nome": "Soro fisiológico 250ml",
-      "tipo": "Almoxarifado para Farmácia",
-      "origem": "Almoxarifado",
-      "destino": "Farmácia",
-      "quantidade": 70,
-      "responsavel": "Leiliana",
-      "data": "2026-10-13",
-      "obs": "",
-      "criado_em": "2026-10-13 15:14:00",
       "item": "Soro fisiológico 250ml",
       "usuario": "Leiliana"
     }
