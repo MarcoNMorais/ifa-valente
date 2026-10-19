@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "19/10/2026 15:04:48",
+  "atualizado_em": "19/10/2026 15:04:56",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
     "total_almoxarifado": 123321,
-    "total_farmacia": 34912,
-    "total_geral": 158233,
+    "total_farmacia": 34902,
+    "total_geral": 158223,
     "perto_de_terminar": 25,
     "zerados": 14
   },
@@ -7651,19 +7651,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 140,
-      "farmacia": 140,
+      "farmacia": 130,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 280,
+      "total": 270,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-19 10:55:03",
+      "atualizado_em": "2026-10-19 15:04:55",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -7677,17 +7677,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 140
+          "quantidade": 130
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 65,
-      "previsao_20_dias": 65,
+      "minimo_alerta": 68,
+      "previsao_20_dias": 68,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 68,
-      "media_diaria_saida": 3.24,
-      "total_saida_historica": 220,
-      "cobertura_dias": 86.5,
+      "media_diaria_saida": 3.38,
+      "total_saida_historica": 230,
+      "cobertura_dias": 79.8,
       "alerta_estoque": false
     },
     {
@@ -17688,6 +17688,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 4589,
+      "item_id": 64,
+      "produto_nome": "Fosfato de Clindamicina 150mg",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 10,
+      "responsavel": "Assucena",
+      "data": "2026-10-19",
+      "obs": "",
+      "criado_em": "2026-10-19 15:04:55",
+      "item": "Fosfato de Clindamicina 150mg",
+      "usuario": "Assucena"
+    },
+    {
       "id": 4588,
       "item_id": 181,
       "produto_nome": "Luva de látex tam. M",
@@ -25170,21 +25185,6 @@
       "obs": "",
       "criado_em": "2026-10-13 15:19:48",
       "item": "Seringa 3ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 4089,
-      "item_id": 157,
-      "produto_nome": "Seringa 1ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 10,
-      "responsavel": "Leiliana",
-      "data": "2026-10-13",
-      "obs": "",
-      "criado_em": "2026-10-13 15:19:38",
-      "item": "Seringa 1ml",
       "usuario": "Leiliana"
     }
   ]
