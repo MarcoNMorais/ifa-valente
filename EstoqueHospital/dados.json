@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "19/10/2026 14:55:46",
+  "atualizado_em": "19/10/2026 14:55:58",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
     "total_almoxarifado": 123604,
-    "total_farmacia": 35043,
-    "total_geral": 158647,
+    "total_farmacia": 35042,
+    "total_geral": 158646,
     "perto_de_terminar": 25,
     "zerados": 14
   },
@@ -8965,19 +8965,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 53,
-      "farmacia": 1,
+      "farmacia": 0,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 54,
+      "total": 53,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-19 14:39:11",
+      "atualizado_em": "2026-10-19 14:55:57",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -8986,12 +8986,6 @@
           "validade": "",
           "lote": "",
           "quantidade": 53
-        },
-        {
-          "local": "farmacia",
-          "validade": "",
-          "lote": "",
-          "quantidade": 1
         }
       ],
       "minimo_manual": 0,
@@ -8999,9 +8993,9 @@
       "previsao_20_dias": 10,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 67,
-      "media_diaria_saida": 0.46,
-      "total_saida_historica": 31,
-      "cobertura_dias": 116.7,
+      "media_diaria_saida": 0.48,
+      "total_saida_historica": 32,
+      "cobertura_dias": 111.0,
       "alerta_estoque": false
     },
     {
@@ -17694,6 +17688,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 4554,
+      "item_id": 255,
+      "produto_nome": "Ibuprofeno gotas",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 1,
+      "responsavel": "Assucena",
+      "data": "2026-10-19",
+      "obs": "",
+      "criado_em": "2026-10-19 14:55:57",
+      "item": "Ibuprofeno gotas",
+      "usuario": "Assucena"
+    },
+    {
       "id": 4553,
       "item_id": 68,
       "produto_nome": "Dexametasona",
@@ -25176,21 +25185,6 @@
       "obs": "",
       "criado_em": "2026-10-13 15:12:08",
       "item": "Seringa 20ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 4054,
-      "item_id": 276,
-      "produto_nome": "Esparadrapo 10x4,5",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 2,
-      "responsavel": "Leiliana",
-      "data": "2026-10-13",
-      "obs": "",
-      "criado_em": "2026-10-13 15:11:39",
-      "item": "Esparadrapo 10x4,5",
       "usuario": "Leiliana"
     }
   ]
