@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "19/10/2026 15:07:33",
+  "atualizado_em": "19/10/2026 15:07:46",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
     "total_almoxarifado": 123321,
-    "total_farmacia": 34726,
-    "total_geral": 158047,
+    "total_farmacia": 34721,
+    "total_geral": 158042,
     "perto_de_terminar": 26,
     "zerados": 14
   },
@@ -15896,19 +15896,19 @@
       "tipo": "Insumo",
       "unidade": "Unidade",
       "almoxarifado": 1217,
-      "farmacia": 142,
+      "farmacia": 137,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1359,
+      "total": 1354,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-19 14:53:50",
+      "atualizado_em": "2026-10-19 15:07:45",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -15922,17 +15922,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 142
+          "quantidade": 137
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 391,
-      "previsao_20_dias": 391,
+      "minimo_alerta": 393,
+      "previsao_20_dias": 393,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 68,
-      "media_diaria_saida": 19.53,
-      "total_saida_historica": 1328,
-      "cobertura_dias": 69.6,
+      "media_diaria_saida": 19.6,
+      "total_saida_historica": 1333,
+      "cobertura_dias": 69.1,
       "alerta_estoque": false
     },
     {
@@ -17687,6 +17687,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 4602,
+      "item_id": 203,
+      "produto_nome": "Soro fisiológico 250ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 5,
+      "responsavel": "Assucena",
+      "data": "2026-10-19",
+      "obs": "",
+      "criado_em": "2026-10-19 15:07:45",
+      "item": "Soro fisiológico 250ml",
+      "usuario": "Assucena"
+    },
     {
       "id": 4601,
       "item_id": 289,
@@ -25170,21 +25185,6 @@
       "obs": "",
       "criado_em": "2026-10-13 15:22:05",
       "item": "Complexo B",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 4102,
-      "item_id": 57,
-      "produto_nome": "Bromoprida 5mg",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 30,
-      "responsavel": "Leiliana",
-      "data": "2026-10-13",
-      "obs": "",
-      "criado_em": "2026-10-13 15:21:55",
-      "item": "Bromoprida 5mg",
       "usuario": "Leiliana"
     }
   ]
