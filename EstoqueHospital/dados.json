@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "19/10/2026 14:58:26",
+  "atualizado_em": "19/10/2026 14:58:36",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
     "total_almoxarifado": 123604,
-    "total_farmacia": 34907,
-    "total_geral": 158511,
+    "total_farmacia": 34897,
+    "total_geral": 158501,
     "perto_de_terminar": 25,
     "zerados": 14
   },
@@ -2493,19 +2493,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 70,
-      "farmacia": 74,
+      "farmacia": 64,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 144,
+      "total": 134,
       "minimo": 0,
       "validade": "2027-05",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-19 10:55:03",
+      "atualizado_em": "2026-10-19 14:58:35",
       "validade_mais_proxima": "2027-05",
       "vencimento_mais_proximo": "2027-05",
       "lotes_validade": [
@@ -2513,7 +2513,7 @@
           "local": "farmacia",
           "validade": "2027-05",
           "lote": "",
-          "quantidade": 74
+          "quantidade": 64
         },
         {
           "local": "almoxarifado",
@@ -2523,13 +2523,13 @@
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 22,
-      "previsao_20_dias": 22,
+      "minimo_alerta": 25,
+      "previsao_20_dias": 25,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 68,
-      "media_diaria_saida": 1.07,
-      "total_saida_historica": 73,
-      "cobertura_dias": 134.1,
+      "media_diaria_saida": 1.22,
+      "total_saida_historica": 83,
+      "cobertura_dias": 109.8,
       "alerta_estoque": false
     },
     {
@@ -17688,6 +17688,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 4566,
+      "item_id": 56,
+      "produto_nome": "Benzilpenicilina 600 UI",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 10,
+      "responsavel": "Assucena",
+      "data": "2026-10-19",
+      "obs": "",
+      "criado_em": "2026-10-19 14:58:35",
+      "item": "Benzilpenicilina 600 UI",
+      "usuario": "Assucena"
+    },
+    {
       "id": 4565,
       "item_id": 55,
       "produto_nome": "Benzilpenicilina 1.200",
@@ -25170,21 +25185,6 @@
       "obs": "",
       "criado_em": "2026-10-13 15:14:45",
       "item": "Lanceta de segurança",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 4066,
-      "item_id": 157,
-      "produto_nome": "Seringa 1ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 30,
-      "responsavel": "Leiliana",
-      "data": "2026-10-13",
-      "obs": "",
-      "criado_em": "2026-10-13 15:14:33",
-      "item": "Seringa 1ml",
       "usuario": "Leiliana"
     }
   ]
