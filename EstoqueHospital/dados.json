@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "19/10/2026 14:49:35",
+  "atualizado_em": "19/10/2026 14:49:46",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
     "total_almoxarifado": 123754,
-    "total_farmacia": 35435,
-    "total_geral": 159189,
+    "total_farmacia": 35425,
+    "total_geral": 159179,
     "perto_de_terminar": 25,
     "zerados": 14
   },
@@ -13584,19 +13584,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 170,
+      "farmacia": 160,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 170,
+      "total": 160,
       "minimo": 0,
       "validade": "12/27",
       "lote": "",
       "origem": "Carga Farmácia 227-288",
       "obs": "Importação Farmácia 227-288",
-      "atualizado_em": "2026-10-19 10:55:04",
+      "atualizado_em": "2026-10-19 14:49:45",
       "validade_mais_proxima": "12/27",
       "vencimento_mais_proximo": "12/27",
       "lotes_validade": [
@@ -13604,17 +13604,17 @@
           "local": "farmacia",
           "validade": "12/27",
           "lote": "",
-          "quantidade": 170
+          "quantidade": 160
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 13,
-      "previsao_20_dias": 13,
+      "minimo_alerta": 16,
+      "previsao_20_dias": 16,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 66,
-      "media_diaria_saida": 0.61,
-      "total_saida_historica": 40,
-      "cobertura_dias": 280.5,
+      "media_diaria_saida": 0.76,
+      "total_saida_historica": 50,
+      "cobertura_dias": 211.2,
       "alerta_estoque": false
     },
     {
@@ -17693,6 +17693,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 4525,
+      "item_id": 254,
+      "produto_nome": "Simeticona 40mg comprimido",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 10,
+      "responsavel": "Assucena",
+      "data": "2026-10-19",
+      "obs": "",
+      "criado_em": "2026-10-19 14:49:45",
+      "item": "Simeticona 40mg comprimido",
+      "usuario": "Assucena"
+    },
     {
       "id": 4524,
       "item_id": 252,
@@ -25176,21 +25191,6 @@
       "obs": "",
       "criado_em": "2026-10-13 15:04:46",
       "item": "Lactulose solução",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 4025,
-      "item_id": 102,
-      "produto_nome": "Seringa 5ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 40,
-      "responsavel": "Leiliana",
-      "data": "2026-10-13",
-      "obs": "",
-      "criado_em": "2026-10-13 15:04:26",
-      "item": "Seringa 5ml",
       "usuario": "Leiliana"
     }
   ]
