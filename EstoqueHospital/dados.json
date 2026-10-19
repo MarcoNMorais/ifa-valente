@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "19/10/2026 16:23:49",
+  "atualizado_em": "19/10/2026 16:24:02",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
     "total_almoxarifado": 123321,
-    "total_farmacia": 34477,
-    "total_geral": 157798,
+    "total_farmacia": 34462,
+    "total_geral": 157783,
     "perto_de_terminar": 26,
     "zerados": 14
   },
@@ -13354,19 +13354,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 7500,
-      "farmacia": 100,
+      "farmacia": 85,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 7600,
+      "total": 7585,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-19 15:00:29",
+      "atualizado_em": "2026-10-19 16:24:01",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -13380,17 +13380,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 125
+          "quantidade": 110
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 747,
-      "previsao_20_dias": 747,
+      "minimo_alerta": 751,
+      "previsao_20_dias": 751,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 63,
-      "media_diaria_saida": 37.3,
-      "total_saida_historica": 2350,
-      "cobertura_dias": 203.7,
+      "media_diaria_saida": 37.54,
+      "total_saida_historica": 2365,
+      "cobertura_dias": 202.1,
       "alerta_estoque": false
     },
     {
@@ -17687,6 +17687,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 4617,
+      "item_id": 274,
+      "produto_nome": "Seringa 20ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 15,
+      "responsavel": "Assucena",
+      "data": "2026-10-19",
+      "obs": "",
+      "criado_em": "2026-10-19 16:24:01",
+      "item": "Seringa 20ml",
+      "usuario": "Assucena"
+    },
     {
       "id": 4616,
       "item_id": 289,
@@ -25170,21 +25185,6 @@
       "obs": "",
       "criado_em": "2026-10-13 16:16:35",
       "item": "Dipirona",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 4117,
-      "item_id": 387,
-      "produto_nome": "HIDROCORTIZONA 500MG",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 22,
-      "responsavel": "Leiliana",
-      "data": "2026-10-13",
-      "obs": "",
-      "criado_em": "2026-10-13 16:16:17",
-      "item": "HIDROCORTIZONA 500MG",
       "usuario": "Leiliana"
     }
   ]
