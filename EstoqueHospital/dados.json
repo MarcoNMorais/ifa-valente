@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "19/10/2026 15:01:24",
+  "atualizado_em": "19/10/2026 15:01:36",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
     "total_almoxarifado": 123354,
-    "total_farmacia": 34928,
-    "total_geral": 158282,
+    "total_farmacia": 34918,
+    "total_geral": 158272,
     "perto_de_terminar": 25,
     "zerados": 14
   },
@@ -12648,19 +12648,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 2930,
-      "farmacia": 70,
+      "farmacia": 60,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 3000,
+      "total": 2990,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-19 14:44:43",
+      "atualizado_em": "2026-10-19 15:01:35",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -12674,17 +12674,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 70
+          "quantidade": 60
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 197,
-      "previsao_20_dias": 197,
+      "minimo_alerta": 200,
+      "previsao_20_dias": 200,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 63,
-      "media_diaria_saida": 9.84,
-      "total_saida_historica": 620,
-      "cobertura_dias": 304.8,
+      "media_diaria_saida": 10.0,
+      "total_saida_historica": 630,
+      "cobertura_dias": 299.0,
       "alerta_estoque": false
     },
     {
@@ -17687,6 +17687,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 4580,
+      "item_id": 329,
+      "produto_nome": "Polifix",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 10,
+      "responsavel": "Assucena",
+      "data": "2026-10-19",
+      "obs": "",
+      "criado_em": "2026-10-19 15:01:35",
+      "item": "Polifix",
+      "usuario": "Assucena"
+    },
     {
       "id": 4579,
       "item_id": 102,
@@ -25170,21 +25185,6 @@
       "obs": "",
       "criado_em": "2026-10-13 15:17:24",
       "item": "AGULHA  40X1,2",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 4080,
-      "item_id": 252,
-      "produto_nome": "Salbutamol spray",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 1,
-      "responsavel": "Leiliana",
-      "data": "2026-10-13",
-      "obs": "",
-      "criado_em": "2026-10-13 15:17:14",
-      "item": "Salbutamol spray",
       "usuario": "Leiliana"
     }
   ]
