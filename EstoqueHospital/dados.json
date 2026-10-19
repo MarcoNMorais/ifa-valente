@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "19/10/2026 13:51:12",
+  "atualizado_em": "19/10/2026 14:28:50",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
     "total_almoxarifado": 125175,
-    "total_farmacia": 35163,
-    "total_geral": 160338,
+    "total_farmacia": 35123,
+    "total_geral": 160298,
     "perto_de_terminar": 24,
     "zerados": 14
   },
@@ -8007,19 +8007,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 1570,
-      "farmacia": 153,
+      "farmacia": 113,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1723,
+      "total": 1683,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-19 10:55:04",
+      "atualizado_em": "2026-10-19 14:28:49",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -8033,17 +8033,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 153
+          "quantidade": 113
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 396,
-      "previsao_20_dias": 396,
+      "minimo_alerta": 408,
+      "previsao_20_dias": 408,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 68,
-      "media_diaria_saida": 19.78,
-      "total_saida_historica": 1345,
-      "cobertura_dias": 87.1,
+      "media_diaria_saida": 20.37,
+      "total_saida_historica": 1385,
+      "cobertura_dias": 82.6,
       "alerta_estoque": false
     },
     {
@@ -17700,6 +17700,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 4458,
+      "item_id": 177,
+      "produto_nome": "Gelco nº 22",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 40,
+      "responsavel": "Assucena",
+      "data": "2026-10-19",
+      "obs": "",
+      "criado_em": "2026-10-19 14:28:49",
+      "item": "Gelco nº 22",
+      "usuario": "Assucena"
+    },
+    {
       "id": 4457,
       "item_id": 336,
       "produto_nome": "Mathergan",
@@ -25182,21 +25197,6 @@
       "obs": "",
       "criado_em": "2026-10-13 14:22:17",
       "item": "Succinil 100mg",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 3958,
-      "item_id": 387,
-      "produto_nome": "HIDROCORTIZONA 500MG",
-      "tipo": "Entrada no Almoxarifado",
-      "origem": "Entrada externa",
-      "destino": "Almoxarifado",
-      "quantidade": 138,
-      "responsavel": "Leiliana",
-      "data": "2026-10-13",
-      "obs": "",
-      "criado_em": "2026-10-13 14:22:04",
-      "item": "HIDROCORTIZONA 500MG",
       "usuario": "Leiliana"
     }
   ]
