@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "19/10/2026 14:40:19",
+  "atualizado_em": "19/10/2026 14:40:57",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
-    "total_almoxarifado": 125175,
-    "total_farmacia": 34316,
+    "total_almoxarifado": 125174,
+    "total_farmacia": 34317,
     "total_geral": 159491,
     "perto_de_terminar": 25,
     "zerados": 14
@@ -10352,8 +10352,8 @@
       "nome": "Luva de vinil M",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 621,
-      "farmacia": 0,
+      "almoxarifado": 620,
+      "farmacia": 1,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -10365,7 +10365,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-19 10:55:04",
+      "atualizado_em": "2026-10-19 14:40:55",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -10373,7 +10373,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 621
+          "quantidade": 620
+        },
+        {
+          "local": "farmacia",
+          "validade": "",
+          "lote": "",
+          "quantidade": 1
         }
       ],
       "minimo_manual": 0,
@@ -17699,6 +17705,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 4494,
+      "item_id": 277,
+      "produto_nome": "Luva de vinil M",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 1,
+      "responsavel": "Assucena",
+      "data": "2026-10-19",
+      "obs": "",
+      "criado_em": "2026-10-19 14:40:55",
+      "item": "Luva de vinil M",
+      "usuario": "Assucena"
+    },
     {
       "id": 4493,
       "item_id": 291,
@@ -25182,21 +25203,6 @@
       "obs": "",
       "criado_em": "2026-10-13 14:56:11",
       "item": "Luva cirúrgica tam. 7,5",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 3994,
-      "item_id": 104,
-      "produto_nome": "Seringa 3ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 60,
-      "responsavel": "Leiliana",
-      "data": "2026-10-13",
-      "obs": "",
-      "criado_em": "2026-10-13 14:55:56",
-      "item": "Seringa 3ml",
       "usuario": "Leiliana"
     }
   ]
