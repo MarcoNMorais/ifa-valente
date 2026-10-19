@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "19/10/2026 14:54:30",
+  "atualizado_em": "19/10/2026 14:54:42",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
     "total_almoxarifado": 123604,
-    "total_farmacia": 35175,
-    "total_geral": 158779,
+    "total_farmacia": 35174,
+    "total_geral": 158778,
     "perto_de_terminar": 25,
     "zerados": 14
   },
@@ -10209,19 +10209,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 70,
-      "farmacia": 194,
+      "farmacia": 193,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 264,
+      "total": 263,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-19 14:44:20",
+      "atualizado_em": "2026-10-19 14:54:40",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -10235,7 +10235,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 194
+          "quantidade": 193
         }
       ],
       "minimo_manual": 0,
@@ -10243,9 +10243,9 @@
       "previsao_20_dias": 520,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 68,
-      "media_diaria_saida": 25.97,
-      "total_saida_historica": 1766,
-      "cobertura_dias": 10.2,
+      "media_diaria_saida": 25.99,
+      "total_saida_historica": 1767,
+      "cobertura_dias": 10.1,
       "alerta_estoque": true
     },
     {
@@ -17693,6 +17693,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 4547,
+      "item_id": 181,
+      "produto_nome": "Luva de látex tam. M",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 1,
+      "responsavel": "Assucena",
+      "data": "2026-10-19",
+      "obs": "",
+      "criado_em": "2026-10-19 14:54:40",
+      "item": "Luva de látex tam. M",
+      "usuario": "Assucena"
+    },
     {
       "id": 4546,
       "item_id": 294,
@@ -25176,21 +25191,6 @@
       "obs": "",
       "criado_em": "2026-10-13 15:09:51",
       "item": "Furosemida 40mg CPR",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 4047,
-      "item_id": 76,
-      "produto_nome": "Escopolamina + Dipirona",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 10,
-      "responsavel": "Leiliana",
-      "data": "2026-10-13",
-      "obs": "",
-      "criado_em": "2026-10-13 15:09:37",
-      "item": "Escopolamina + Dipirona",
       "usuario": "Leiliana"
     }
   ]
