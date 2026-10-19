@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "19/10/2026 15:05:07",
+  "atualizado_em": "19/10/2026 15:05:16",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
     "total_almoxarifado": 123321,
-    "total_farmacia": 34901,
-    "total_geral": 158222,
+    "total_farmacia": 34891,
+    "total_geral": 158212,
     "perto_de_terminar": 25,
     "zerados": 14
   },
@@ -12522,19 +12522,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 450,
-      "farmacia": 72,
+      "farmacia": 62,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 522,
+      "total": 512,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-19 14:50:25",
+      "atualizado_em": "2026-10-19 15:05:15",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -12548,17 +12548,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 72
+          "quantidade": 62
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 65,
-      "previsao_20_dias": 65,
+      "minimo_alerta": 68,
+      "previsao_20_dias": 68,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 68,
-      "media_diaria_saida": 3.21,
-      "total_saida_historica": 218,
-      "cobertura_dias": 162.8,
+      "media_diaria_saida": 3.35,
+      "total_saida_historica": 228,
+      "cobertura_dias": 152.7,
       "alerta_estoque": false
     },
     {
@@ -17687,6 +17687,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 4591,
+      "item_id": 27,
+      "produto_nome": "Paracetamol 500mg",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 10,
+      "responsavel": "Assucena",
+      "data": "2026-10-19",
+      "obs": "",
+      "criado_em": "2026-10-19 15:05:15",
+      "item": "Paracetamol 500mg",
+      "usuario": "Assucena"
+    },
     {
       "id": 4590,
       "item_id": 257,
@@ -25170,21 +25185,6 @@
       "obs": "",
       "criado_em": "2026-10-13 15:20:10",
       "item": "Seringa 10ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 4091,
-      "item_id": 102,
-      "produto_nome": "Seringa 5ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 40,
-      "responsavel": "Leiliana",
-      "data": "2026-10-13",
-      "obs": "",
-      "criado_em": "2026-10-13 15:20:00",
-      "item": "Seringa 5ml",
       "usuario": "Leiliana"
     }
   ]
