@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "19/10/2026 14:46:56",
+  "atualizado_em": "19/10/2026 14:47:07",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
-    "total_almoxarifado": 125154,
-    "total_farmacia": 34090,
+    "total_almoxarifado": 123754,
+    "total_farmacia": 35490,
     "total_geral": 159244,
     "perto_de_terminar": 25,
     "zerados": 14
@@ -5188,8 +5188,8 @@
       "nome": "Dipirona",
       "tipo": "Medicamento",
       "unidade": "Unidade",
-      "almoxarifado": 1400,
-      "farmacia": 20,
+      "almoxarifado": 0,
+      "farmacia": 1420,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -5201,21 +5201,15 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-19 14:46:54",
+      "atualizado_em": "2026-10-19 14:47:05",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
         {
-          "local": "almoxarifado",
-          "validade": "",
-          "lote": "",
-          "quantidade": 1400
-        },
-        {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 20
+          "quantidade": 1420
         }
       ],
       "minimo_manual": 0,
@@ -17706,6 +17700,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 4515,
+      "item_id": 70,
+      "produto_nome": "Dipirona",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 1400,
+      "responsavel": "Assucena",
+      "data": "2026-10-19",
+      "obs": "",
+      "criado_em": "2026-10-19 14:47:05",
+      "item": "Dipirona",
+      "usuario": "Assucena"
+    },
+    {
       "id": 4514,
       "item_id": 70,
       "produto_nome": "Dipirona",
@@ -25188,21 +25197,6 @@
       "obs": "",
       "criado_em": "2026-10-13 15:02:19",
       "item": "Scalp nº 21",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 4015,
-      "item_id": 68,
-      "produto_nome": "Dexametasona",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 50,
-      "responsavel": "Leiliana",
-      "data": "2026-10-13",
-      "obs": "",
-      "criado_em": "2026-10-13 15:02:08",
-      "item": "Dexametasona",
       "usuario": "Leiliana"
     }
   ]
