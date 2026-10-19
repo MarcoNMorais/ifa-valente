@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "19/10/2026 14:45:20",
+  "atualizado_em": "19/10/2026 14:45:56",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
-    "total_almoxarifado": 125164,
-    "total_farmacia": 34172,
+    "total_almoxarifado": 125154,
+    "total_farmacia": 34182,
     "total_geral": 159336,
     "perto_de_terminar": 25,
     "zerados": 14
@@ -14785,8 +14785,8 @@
       "nome": "Sonda Foley nº 16 - 2 vias",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 20,
-      "farmacia": 1,
+      "almoxarifado": 10,
+      "farmacia": 11,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -14798,7 +14798,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-19 10:55:04",
+      "atualizado_em": "2026-10-19 14:45:55",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -14806,13 +14806,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 20
+          "quantidade": 10
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 1
+          "quantidade": 11
         }
       ],
       "minimo_manual": 0,
@@ -17705,6 +17705,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 4511,
+      "item_id": 173,
+      "produto_nome": "Sonda Foley nº 16 - 2 vias",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 10,
+      "responsavel": "Assucena",
+      "data": "2026-10-19",
+      "obs": "",
+      "criado_em": "2026-10-19 14:45:55",
+      "item": "Sonda Foley nº 16 - 2 vias",
+      "usuario": "Assucena"
+    },
     {
       "id": 4510,
       "item_id": 172,
@@ -25188,21 +25203,6 @@
       "obs": "",
       "criado_em": "2026-10-13 15:01:22",
       "item": "Paracetamol 500mg",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 4011,
-      "item_id": 229,
-      "produto_nome": "Oxacilina 500mg pó injetável",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 10,
-      "responsavel": "Leiliana",
-      "data": "2026-10-13",
-      "obs": "",
-      "criado_em": "2026-10-13 15:01:12",
-      "item": "Oxacilina 500mg pó injetável",
       "usuario": "Leiliana"
     }
   ]
