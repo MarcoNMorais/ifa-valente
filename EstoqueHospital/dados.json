@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "19/10/2026 15:14:12",
+  "atualizado_em": "19/10/2026 16:22:24",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
     "total_almoxarifado": 123321,
-    "total_farmacia": 34687,
-    "total_geral": 158008,
+    "total_farmacia": 34667,
+    "total_geral": 157988,
     "perto_de_terminar": 26,
     "zerados": 14
   },
@@ -4787,19 +4787,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 1400,
-      "farmacia": 950,
+      "farmacia": 930,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 2350,
+      "total": 2330,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-19 14:55:45",
+      "atualizado_em": "2026-10-19 16:22:23",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -4813,17 +4813,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 950
+          "quantidade": 930
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 565,
-      "previsao_20_dias": 565,
+      "minimo_alerta": 571,
+      "previsao_20_dias": 571,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 68,
-      "media_diaria_saida": 28.24,
-      "total_saida_historica": 1920,
-      "cobertura_dias": 83.2,
+      "media_diaria_saida": 28.53,
+      "total_saida_historica": 1940,
+      "cobertura_dias": 81.7,
       "alerta_estoque": false
     },
     {
@@ -17688,6 +17688,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 4607,
+      "item_id": 68,
+      "produto_nome": "Dexametasona",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 20,
+      "responsavel": "Assucena",
+      "data": "2026-10-19",
+      "obs": "",
+      "criado_em": "2026-10-19 16:22:23",
+      "item": "Dexametasona",
+      "usuario": "Assucena"
+    },
+    {
       "id": 4606,
       "item_id": 24,
       "produto_nome": "AAS",
@@ -25170,21 +25185,6 @@
       "obs": "",
       "criado_em": "2026-10-13 15:23:11",
       "item": "Simeticona gotas",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 4107,
-      "item_id": 123,
-      "produto_nome": "Furosemida 40mg CPR",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 20,
-      "responsavel": "Leiliana",
-      "data": "2026-10-13",
-      "obs": "",
-      "criado_em": "2026-10-13 15:23:03",
-      "item": "Furosemida 40mg CPR",
       "usuario": "Leiliana"
     }
   ]
