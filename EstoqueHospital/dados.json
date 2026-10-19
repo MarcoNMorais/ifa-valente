@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "19/10/2026 11:11:05",
+  "atualizado_em": "19/10/2026 11:11:18",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
-    "total_almoxarifado": 127125,
-    "total_farmacia": 33214,
+    "total_almoxarifado": 127005,
+    "total_farmacia": 33334,
     "total_geral": 160339,
     "perto_de_terminar": 24,
     "zerados": 14
@@ -1620,8 +1620,8 @@
       "nome": "Atadura crepon nº 10",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 2724,
-      "farmacia": 110,
+      "almoxarifado": 2604,
+      "farmacia": 230,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -1633,7 +1633,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-19 10:55:04",
+      "atualizado_em": "2026-10-19 11:11:17",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -1641,13 +1641,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 2724
+          "quantidade": 2604
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 122
+          "quantidade": 242
         }
       ],
       "minimo_manual": 0,
@@ -17700,6 +17700,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 4449,
+      "item_id": 152,
+      "produto_nome": "Atadura crepon nº 10",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 120,
+      "responsavel": "Assucena",
+      "data": "2026-10-19",
+      "obs": "",
+      "criado_em": "2026-10-19 11:11:17",
+      "item": "Atadura crepon nº 10",
+      "usuario": "Assucena"
+    },
+    {
       "id": 4448,
       "item_id": 220,
       "produto_nome": "Equipo macrogotas",
@@ -25182,21 +25197,6 @@
       "obs": "",
       "criado_em": "2026-10-13 14:19:47",
       "item": "Oxacilina 500mg pó injetável",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 3949,
-      "item_id": 228,
-      "produto_nome": "Omeprazol sódico 40mg AMP",
-      "tipo": "Entrada no Almoxarifado",
-      "origem": "Entrada externa",
-      "destino": "Almoxarifado",
-      "quantidade": 140,
-      "responsavel": "Leiliana",
-      "data": "2026-10-13",
-      "obs": "",
-      "criado_em": "2026-10-13 14:19:33",
-      "item": "Omeprazol sódico 40mg AMP",
       "usuario": "Leiliana"
     }
   ]
