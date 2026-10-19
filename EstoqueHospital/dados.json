@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "19/10/2026 14:36:32",
+  "atualizado_em": "19/10/2026 14:36:43",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
     "total_almoxarifado": 125175,
-    "total_farmacia": 34595,
-    "total_geral": 159770,
+    "total_farmacia": 34593,
+    "total_geral": 159768,
     "perto_de_terminar": 25,
     "zerados": 14
   },
@@ -8225,19 +8225,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 72,
-      "farmacia": 11,
+      "farmacia": 9,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 83,
+      "total": 81,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-19 10:55:04",
+      "atualizado_em": "2026-10-19 14:36:42",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -8251,17 +8251,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 11
+          "quantidade": 9
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 5,
-      "previsao_20_dias": 5,
+      "minimo_alerta": 6,
+      "previsao_20_dias": 6,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 63,
-      "media_diaria_saida": 0.22,
-      "total_saida_historica": 14,
-      "cobertura_dias": 373.5,
+      "media_diaria_saida": 0.25,
+      "total_saida_historica": 16,
+      "cobertura_dias": 318.9,
       "alerta_estoque": false
     },
     {
@@ -17700,6 +17700,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 4476,
+      "item_id": 294,
+      "produto_nome": "Glicerina 12%",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 2,
+      "responsavel": "Assucena",
+      "data": "2026-10-19",
+      "obs": "",
+      "criado_em": "2026-10-19 14:36:42",
+      "item": "Glicerina 12%",
+      "usuario": "Assucena"
+    },
+    {
       "id": 4475,
       "item_id": 329,
       "produto_nome": "Polifix",
@@ -25181,21 +25196,6 @@
       "data": "2026-10-13",
       "obs": "",
       "criado_em": "2026-10-13 14:52:28",
-      "item": "Cetoprofeno IM 50mg",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 3976,
-      "item_id": 61,
-      "produto_nome": "Cetoprofeno IM 50mg",
-      "tipo": "Almoxarifado para Farmácia",
-      "origem": "Almoxarifado",
-      "destino": "Farmácia",
-      "quantidade": 350,
-      "responsavel": "Leiliana",
-      "data": "2026-10-13",
-      "obs": "",
-      "criado_em": "2026-10-13 14:52:15",
       "item": "Cetoprofeno IM 50mg",
       "usuario": "Leiliana"
     }
