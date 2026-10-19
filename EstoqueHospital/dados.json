@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "19/10/2026 14:42:02",
+  "atualizado_em": "19/10/2026 14:42:34",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
-    "total_almoxarifado": 125174,
-    "total_farmacia": 34283,
+    "total_almoxarifado": 125164,
+    "total_farmacia": 34293,
     "total_geral": 159457,
     "perto_de_terminar": 25,
     "zerados": 14
@@ -14831,8 +14831,8 @@
       "nome": "Sonda Foley nº 18",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 52,
-      "farmacia": 0,
+      "almoxarifado": 42,
+      "farmacia": 10,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -14844,7 +14844,7 @@
       "lote": "",
       "origem": "Carga Almoxerifado",
       "obs": "Importação Almoxerifado",
-      "atualizado_em": "2026-10-19 10:55:04",
+      "atualizado_em": "2026-10-19 14:42:33",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -14852,7 +14852,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 52
+          "quantidade": 42
+        },
+        {
+          "local": "farmacia",
+          "validade": "",
+          "lote": "",
+          "quantidade": 10
         }
       ],
       "minimo_manual": 0,
@@ -17699,6 +17705,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 4499,
+      "item_id": 312,
+      "produto_nome": "Sonda Foley nº 18",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 10,
+      "responsavel": "Assucena",
+      "data": "2026-10-19",
+      "obs": "",
+      "criado_em": "2026-10-19 14:42:33",
+      "item": "Sonda Foley nº 18",
+      "usuario": "Assucena"
+    },
     {
       "id": 4498,
       "item_id": 22,
@@ -25182,21 +25203,6 @@
       "obs": "",
       "criado_em": "2026-10-13 14:57:17",
       "item": "Esparadrapo 10x4,5",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 3999,
-      "item_id": 294,
-      "produto_nome": "Glicerina 12%",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 1,
-      "responsavel": "Leiliana",
-      "data": "2026-10-13",
-      "obs": "",
-      "criado_em": "2026-10-13 14:57:07",
-      "item": "Glicerina 12%",
       "usuario": "Leiliana"
     }
   ]
