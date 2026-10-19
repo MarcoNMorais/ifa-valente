@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "19/10/2026 16:23:30",
+  "atualizado_em": "19/10/2026 16:23:40",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
     "total_almoxarifado": 123321,
-    "total_farmacia": 34537,
-    "total_geral": 157858,
+    "total_farmacia": 34507,
+    "total_geral": 157828,
     "perto_de_terminar": 26,
     "zerados": 14
   },
@@ -777,19 +777,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 15200,
-      "farmacia": 240,
+      "farmacia": 210,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 15440,
+      "total": 15410,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga Almoxerifado",
       "obs": "Importação Almoxerifado",
-      "atualizado_em": "2026-10-19 14:52:13",
+      "atualizado_em": "2026-10-19 16:23:39",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -803,17 +803,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 240
+          "quantidade": 210
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 559,
-      "previsao_20_dias": 559,
+      "minimo_alerta": 569,
+      "previsao_20_dias": 569,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 63,
-      "media_diaria_saida": 27.94,
-      "total_saida_historica": 1760,
-      "cobertura_dias": 552.7,
+      "media_diaria_saida": 28.41,
+      "total_saida_historica": 1790,
+      "cobertura_dias": 542.4,
       "alerta_estoque": false
     },
     {
@@ -17688,6 +17688,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 4615,
+      "item_id": 331,
+      "produto_nome": "Agulha 30x8",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 30,
+      "responsavel": "Assucena",
+      "data": "2026-10-19",
+      "obs": "",
+      "criado_em": "2026-10-19 16:23:39",
+      "item": "Agulha 30x8",
+      "usuario": "Assucena"
+    },
+    {
       "id": 4614,
       "item_id": 285,
       "produto_nome": "Agulha 30x7",
@@ -25170,21 +25185,6 @@
       "obs": "",
       "criado_em": "2026-10-13 16:16:03",
       "item": "Ceftriaxona 1g",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 4115,
-      "item_id": 60,
-      "produto_nome": "Cetoprofeno EV 100mg",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 10,
-      "responsavel": "Leiliana",
-      "data": "2026-10-13",
-      "obs": "",
-      "criado_em": "2026-10-13 16:15:52",
-      "item": "Cetoprofeno EV 100mg",
       "usuario": "Leiliana"
     }
   ]
