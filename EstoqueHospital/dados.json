@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "19/10/2026 14:52:59",
+  "atualizado_em": "19/10/2026 14:53:33",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
-    "total_almoxarifado": 123754,
-    "total_farmacia": 35081,
+    "total_almoxarifado": 123604,
+    "total_farmacia": 35231,
     "total_geral": 158835,
     "perto_de_terminar": 25,
     "zerados": 14
@@ -15901,8 +15901,8 @@
       "nome": "Soro fisiológico 250ml",
       "tipo": "Insumo",
       "unidade": "Unidade",
-      "almoxarifado": 1367,
-      "farmacia": 12,
+      "almoxarifado": 1217,
+      "farmacia": 162,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -15914,7 +15914,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-19 14:43:37",
+      "atualizado_em": "2026-10-19 14:53:31",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -15922,13 +15922,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 1367
+          "quantidade": 1217
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 12
+          "quantidade": 162
         }
       ],
       "minimo_manual": 0,
@@ -17693,6 +17693,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 4542,
+      "item_id": 203,
+      "produto_nome": "Soro fisiológico 250ml",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 150,
+      "responsavel": "Assucena",
+      "data": "2026-10-19",
+      "obs": "",
+      "criado_em": "2026-10-19 14:53:31",
+      "item": "Soro fisiológico 250ml",
+      "usuario": "Assucena"
+    },
     {
       "id": 4541,
       "item_id": 177,
@@ -25176,21 +25191,6 @@
       "obs": "",
       "criado_em": "2026-10-13 15:08:35",
       "item": "Dipirona",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 4042,
-      "item_id": 238,
-      "produto_nome": "Ondansetrona 2mg/ml 2ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 60,
-      "responsavel": "Leiliana",
-      "data": "2026-10-13",
-      "obs": "",
-      "criado_em": "2026-10-13 15:08:25",
-      "item": "Ondansetrona 2mg/ml 2ml",
       "usuario": "Leiliana"
     }
   ]
