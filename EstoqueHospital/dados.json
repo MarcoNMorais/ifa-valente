@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "19/10/2026 14:59:35",
+  "atualizado_em": "19/10/2026 14:59:46",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
     "total_almoxarifado": 123604,
-    "total_farmacia": 34782,
-    "total_geral": 158386,
+    "total_farmacia": 34772,
+    "total_geral": 158376,
     "perto_de_terminar": 25,
     "zerados": 14
   },
@@ -5447,19 +5447,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 380,
-      "farmacia": 204,
+      "farmacia": 194,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 584,
+      "total": 574,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-19 14:52:45",
+      "atualizado_em": "2026-10-19 14:59:45",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -5473,17 +5473,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 204
+          "quantidade": 194
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 190,
-      "previsao_20_dias": 190,
+      "minimo_alerta": 193,
+      "previsao_20_dias": 193,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 68,
-      "media_diaria_saida": 9.5,
-      "total_saida_historica": 646,
-      "cobertura_dias": 61.5,
+      "media_diaria_saida": 9.65,
+      "total_saida_historica": 656,
+      "cobertura_dias": 59.5,
       "alerta_estoque": false
     },
     {
@@ -17688,6 +17688,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 4572,
+      "item_id": 178,
+      "produto_nome": "Dispositivo intravenoso Gelco nº 20",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 10,
+      "responsavel": "Assucena",
+      "data": "2026-10-19",
+      "obs": "",
+      "criado_em": "2026-10-19 14:59:45",
+      "item": "Dispositivo intravenoso Gelco nº 20",
+      "usuario": "Assucena"
+    },
+    {
       "id": 4571,
       "item_id": 176,
       "produto_nome": "Gelco nº 24",
@@ -25170,21 +25185,6 @@
       "obs": "",
       "criado_em": "2026-10-13 15:15:52",
       "item": "Luva de látex tam. P",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 4072,
-      "item_id": 185,
-      "produto_nome": "Luva cirúrgica tam. 7,5",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 6,
-      "responsavel": "Leiliana",
-      "data": "2026-10-13",
-      "obs": "",
-      "criado_em": "2026-10-13 15:15:40",
-      "item": "Luva cirúrgica tam. 7,5",
       "usuario": "Leiliana"
     }
   ]
