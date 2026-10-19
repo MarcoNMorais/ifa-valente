@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "19/10/2026 15:02:36",
+  "atualizado_em": "19/10/2026 15:03:43",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
-    "total_almoxarifado": 123345,
-    "total_farmacia": 34917,
+    "total_almoxarifado": 123321,
+    "total_farmacia": 34941,
     "total_geral": 158262,
     "perto_de_terminar": 25,
     "zerados": 14
@@ -15941,8 +15941,8 @@
       "nome": "Soro fisiológico 500ml",
       "tipo": "Insumo",
       "unidade": "Unidade",
-      "almoxarifado": 680,
-      "farmacia": 20,
+      "almoxarifado": 656,
+      "farmacia": 44,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -15954,7 +15954,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-19 15:02:35",
+      "atualizado_em": "2026-10-19 15:03:42",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -15962,13 +15962,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 680
+          "quantidade": 656
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 20
+          "quantidade": 44
         }
       ],
       "minimo_manual": 0,
@@ -17687,6 +17687,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 4584,
+      "item_id": 204,
+      "produto_nome": "Soro fisiológico 500ml",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 24,
+      "responsavel": "Assucena",
+      "data": "2026-10-19",
+      "obs": "",
+      "criado_em": "2026-10-19 15:03:42",
+      "item": "Soro fisiológico 500ml",
+      "usuario": "Assucena"
+    },
     {
       "id": 4583,
       "item_id": 204,
@@ -25170,21 +25185,6 @@
       "obs": "",
       "criado_em": "2026-10-13 15:18:58",
       "item": "Ibuprofeno gotas",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 4084,
-      "item_id": 257,
-      "produto_nome": "Brometo de ipratrópio gotas",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 5,
-      "responsavel": "Leiliana",
-      "data": "2026-10-13",
-      "obs": "",
-      "criado_em": "2026-10-13 15:18:49",
-      "item": "Brometo de ipratrópio gotas",
       "usuario": "Leiliana"
     }
   ]
