@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "20/10/2026 11:51:20",
+  "atualizado_em": "20/10/2026 11:51:34",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
-    "total_almoxarifado": 120750,
-    "total_farmacia": 34219,
+    "total_almoxarifado": 120730,
+    "total_farmacia": 34239,
     "total_geral": 154969,
     "perto_de_terminar": 27,
     "zerados": 14
@@ -1890,8 +1890,8 @@
       "nome": "Atadura gessada nº 15",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 340,
-      "farmacia": 20,
+      "almoxarifado": 320,
+      "farmacia": 40,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -1903,7 +1903,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-19 10:55:04",
+      "atualizado_em": "2026-10-20 11:51:33",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -1911,13 +1911,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 340
+          "quantidade": 320
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 20
+          "quantidade": 40
         }
       ],
       "minimo_manual": 0,
@@ -17670,6 +17670,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 4671,
+      "item_id": 197,
+      "produto_nome": "Atadura gessada nº 15",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 20,
+      "responsavel": "Assucena",
+      "data": "2026-10-19",
+      "obs": "",
+      "criado_em": "2026-10-20 11:51:33",
+      "item": "Atadura gessada nº 15",
+      "usuario": "Assucena"
+    },
+    {
       "id": 4670,
       "item_id": 196,
       "produto_nome": "Atadura gessada nº 10",
@@ -25152,21 +25167,6 @@
       "obs": "",
       "criado_em": "2026-10-14 11:04:02",
       "item": "Luva M procedimento",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 4171,
-      "item_id": 185,
-      "produto_nome": "Luva cirúrgica tam. 7,5",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 5,
-      "responsavel": "Assucena",
-      "data": "2026-10-13",
-      "obs": "",
-      "criado_em": "2026-10-14 11:03:43",
-      "item": "Luva cirúrgica tam. 7,5",
       "usuario": "Assucena"
     }
   ]
