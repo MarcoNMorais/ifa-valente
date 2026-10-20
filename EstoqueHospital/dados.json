@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "20/10/2026 09:55:15",
+  "atualizado_em": "20/10/2026 09:55:24",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
     "total_almoxarifado": 120971,
-    "total_farmacia": 34450,
-    "total_geral": 155421,
+    "total_farmacia": 34444,
+    "total_geral": 155415,
     "perto_de_terminar": 27,
     "zerados": 14
   },
@@ -6466,19 +6466,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 25,
-      "farmacia": 38,
+      "farmacia": 32,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 63,
+      "total": 57,
       "minimo": 0,
       "validade": "12/28",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-19 10:55:04",
+      "atualizado_em": "2026-10-20 09:55:23",
       "validade_mais_proxima": "12/28",
       "vencimento_mais_proximo": "12/28",
       "lotes_validade": [
@@ -6486,7 +6486,7 @@
           "local": "farmacia",
           "validade": "12/28",
           "lote": "",
-          "quantidade": 38
+          "quantidade": 32
         },
         {
           "local": "almoxarifado",
@@ -6496,13 +6496,13 @@
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 4,
-      "previsao_20_dias": 4,
+      "minimo_alerta": 6,
+      "previsao_20_dias": 6,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 64,
-      "media_diaria_saida": 0.19,
-      "total_saida_historica": 12,
-      "cobertura_dias": 336.0,
+      "media_diaria_saida": 0.28,
+      "total_saida_historica": 18,
+      "cobertura_dias": 202.7,
       "alerta_estoque": false
     },
     {
@@ -17682,6 +17682,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 4640,
+      "item_id": 231,
+      "produto_nome": "Etilefrina 0,5mg/ml 1ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 6,
+      "responsavel": "Assucena",
+      "data": "2026-10-19",
+      "obs": "",
+      "criado_em": "2026-10-20 09:55:23",
+      "item": "Etilefrina 0,5mg/ml 1ml",
+      "usuario": "Assucena"
+    },
+    {
       "id": 4639,
       "item_id": 239,
       "produto_nome": "Tramadol 50mg/ml 2ml",
@@ -25164,21 +25179,6 @@
       "obs": "",
       "criado_em": "2026-10-14 10:58:14",
       "item": "Dexametasona",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 4140,
-      "item_id": 76,
-      "produto_nome": "Escopolamina + Dipirona",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 20,
-      "responsavel": "Assucena",
-      "data": "2026-10-13",
-      "obs": "",
-      "criado_em": "2026-10-14 10:58:04",
-      "item": "Escopolamina + Dipirona",
       "usuario": "Assucena"
     }
   ]
