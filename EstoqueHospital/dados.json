@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "20/10/2026 09:57:27",
+  "atualizado_em": "20/10/2026 09:57:39",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
     "total_almoxarifado": 120971,
-    "total_farmacia": 34124,
-    "total_geral": 155095,
+    "total_farmacia": 34094,
+    "total_geral": 155065,
     "perto_de_terminar": 27,
     "zerados": 14
   },
@@ -13394,19 +13394,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 5900,
-      "farmacia": 2443,
+      "farmacia": 2413,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 8343,
+      "total": 8313,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-19 16:24:31",
+      "atualizado_em": "2026-10-20 09:57:38",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -13420,17 +13420,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 2443
+          "quantidade": 2413
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 822,
-      "previsao_20_dias": 822,
+      "minimo_alerta": 831,
+      "previsao_20_dias": 831,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 69,
-      "media_diaria_saida": 41.09,
-      "total_saida_historica": 2835,
-      "cobertura_dias": 203.1,
+      "media_diaria_saida": 41.52,
+      "total_saida_historica": 2865,
+      "cobertura_dias": 200.2,
       "alerta_estoque": false
     },
     {
@@ -17675,6 +17675,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 4652,
+      "item_id": 104,
+      "produto_nome": "Seringa 3ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 30,
+      "responsavel": "Assucena",
+      "data": "2026-10-19",
+      "obs": "",
+      "criado_em": "2026-10-20 09:57:38",
+      "item": "Seringa 3ml",
+      "usuario": "Assucena"
+    },
     {
       "id": 4651,
       "item_id": 102,
@@ -25158,21 +25173,6 @@
       "obs": "",
       "criado_em": "2026-10-14 11:00:12",
       "item": "Gelco nº 22",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 4152,
-      "item_id": 241,
-      "produto_nome": "Lactulose solução",
-      "tipo": "Almoxarifado para Farmácia",
-      "origem": "Almoxarifado",
-      "destino": "Farmácia",
-      "quantidade": 10,
-      "responsavel": "Assucena",
-      "data": "2026-10-13",
-      "obs": "",
-      "criado_em": "2026-10-14 11:00:01",
-      "item": "Lactulose solução",
       "usuario": "Assucena"
     }
   ]
