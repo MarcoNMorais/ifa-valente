@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "20/10/2026 09:56:03",
+  "atualizado_em": "20/10/2026 09:56:13",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
     "total_almoxarifado": 120971,
-    "total_farmacia": 34294,
-    "total_geral": 155265,
+    "total_farmacia": 34264,
+    "total_geral": 155235,
     "perto_de_terminar": 27,
     "zerados": 14
   },
@@ -7989,19 +7989,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 1570,
-      "farmacia": 63,
+      "farmacia": 33,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1633,
+      "total": 1603,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-19 14:59:22",
+      "atualizado_em": "2026-10-20 09:56:12",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -8015,17 +8015,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 63
+          "quantidade": 33
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 416,
-      "previsao_20_dias": 416,
+      "minimo_alerta": 425,
+      "previsao_20_dias": 425,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 69,
-      "media_diaria_saida": 20.8,
-      "total_saida_historica": 1435,
-      "cobertura_dias": 78.5,
+      "media_diaria_saida": 21.23,
+      "total_saida_historica": 1465,
+      "cobertura_dias": 75.5,
       "alerta_estoque": false
     },
     {
@@ -17682,6 +17682,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 4645,
+      "item_id": 177,
+      "produto_nome": "Gelco nº 22",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 30,
+      "responsavel": "Assucena",
+      "data": "2026-10-19",
+      "obs": "",
+      "criado_em": "2026-10-20 09:56:12",
+      "item": "Gelco nº 22",
+      "usuario": "Assucena"
+    },
+    {
       "id": 4644,
       "item_id": 319,
       "produto_nome": "Agulha 25x7",
@@ -25164,21 +25179,6 @@
       "obs": "",
       "criado_em": "2026-10-14 10:58:57",
       "item": "Tramadol 50mg/ml 2ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 4145,
-      "item_id": 334,
-      "produto_nome": "Bisturi nº 15",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 15,
-      "responsavel": "Assucena",
-      "data": "2026-10-13",
-      "obs": "",
-      "criado_em": "2026-10-14 10:58:50",
-      "item": "Bisturi nº 15",
       "usuario": "Assucena"
     }
   ]
