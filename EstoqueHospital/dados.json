@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "20/10/2026 11:51:12",
+  "atualizado_em": "20/10/2026 11:51:20",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
-    "total_almoxarifado": 120770,
-    "total_farmacia": 34199,
+    "total_almoxarifado": 120750,
+    "total_farmacia": 34219,
     "total_geral": 154969,
     "perto_de_terminar": 27,
     "zerados": 14
@@ -1844,8 +1844,8 @@
       "nome": "Atadura gessada nº 10",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 340,
-      "farmacia": 45,
+      "almoxarifado": 320,
+      "farmacia": 65,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -1857,7 +1857,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-19 10:55:04",
+      "atualizado_em": "2026-10-20 11:51:19",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -1865,13 +1865,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 340
+          "quantidade": 320
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 45
+          "quantidade": 65
         }
       ],
       "minimo_manual": 0,
@@ -17670,6 +17670,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 4670,
+      "item_id": 196,
+      "produto_nome": "Atadura gessada nº 10",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 20,
+      "responsavel": "Assucena",
+      "data": "2026-10-19",
+      "obs": "",
+      "criado_em": "2026-10-20 11:51:19",
+      "item": "Atadura gessada nº 10",
+      "usuario": "Assucena"
+    },
+    {
       "id": 4669,
       "item_id": 176,
       "produto_nome": "Gelco nº 24",
@@ -25152,21 +25167,6 @@
       "obs": "",
       "criado_em": "2026-10-14 11:03:43",
       "item": "Luva cirúrgica tam. 7,5",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 4170,
-      "item_id": 220,
-      "produto_nome": "Equipo macrogotas",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 25,
-      "responsavel": "Assucena",
-      "data": "2026-10-13",
-      "obs": "",
-      "criado_em": "2026-10-14 11:03:30",
-      "item": "Equipo macrogotas",
       "usuario": "Assucena"
     }
   ]
