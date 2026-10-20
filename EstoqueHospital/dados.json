@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "20/10/2026 09:57:04",
+  "atualizado_em": "20/10/2026 09:57:20",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
     "total_almoxarifado": 120971,
-    "total_farmacia": 34164,
-    "total_geral": 155135,
+    "total_farmacia": 34154,
+    "total_geral": 155125,
     "perto_de_terminar": 27,
     "zerados": 14
   },
@@ -13256,19 +13256,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 6050,
-      "farmacia": 165,
+      "farmacia": 155,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 6215,
+      "total": 6205,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-19 16:24:10",
+      "atualizado_em": "2026-10-20 09:57:19",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -13282,17 +13282,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 225
+          "quantidade": 215
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 1365,
-      "previsao_20_dias": 1365,
+      "minimo_alerta": 1368,
+      "previsao_20_dias": 1368,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 69,
-      "media_diaria_saida": 68.25,
-      "total_saida_historica": 4709,
-      "cobertura_dias": 91.1,
+      "media_diaria_saida": 68.39,
+      "total_saida_historica": 4719,
+      "cobertura_dias": 90.7,
       "alerta_estoque": false
     },
     {
@@ -17675,6 +17675,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 4650,
+      "item_id": 103,
+      "produto_nome": "Seringa 10ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 10,
+      "responsavel": "Assucena",
+      "data": "2026-10-19",
+      "obs": "",
+      "criado_em": "2026-10-20 09:57:19",
+      "item": "Seringa 10ml",
+      "usuario": "Assucena"
+    },
     {
       "id": 4649,
       "item_id": 202,
@@ -25158,21 +25173,6 @@
       "obs": "",
       "criado_em": "2026-10-14 10:59:43",
       "item": "Luva P procedimento",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 4150,
-      "item_id": 280,
-      "produto_nome": "Luva M procedimento",
-      "tipo": "Almoxarifado para Farmácia",
-      "origem": "Almoxarifado",
-      "destino": "Farmácia",
-      "quantidade": 10,
-      "responsavel": "Assucena",
-      "data": "2026-10-13",
-      "obs": "",
-      "criado_em": "2026-10-14 10:59:36",
-      "item": "Luva M procedimento",
       "usuario": "Assucena"
     }
   ]
