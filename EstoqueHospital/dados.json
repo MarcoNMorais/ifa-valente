@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "20/10/2026 09:58:23",
+  "atualizado_em": "20/10/2026 09:58:33",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
     "total_almoxarifado": 120971,
-    "total_farmacia": 34045,
-    "total_geral": 155016,
+    "total_farmacia": 34044,
+    "total_geral": 155015,
     "perto_de_terminar": 27,
     "zerados": 14
   },
@@ -10507,19 +10507,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 80,
-      "farmacia": 1115,
+      "farmacia": 1114,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1195,
+      "total": 1194,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-19 11:12:07",
+      "atualizado_em": "2026-10-20 09:58:32",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -10533,7 +10533,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 1115
+          "quantidade": 1114
         }
       ],
       "minimo_manual": 0,
@@ -10541,9 +10541,9 @@
       "previsao_20_dias": 5,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 64,
-      "media_diaria_saida": 0.23,
-      "total_saida_historica": 15,
-      "cobertura_dias": 5098.7,
+      "media_diaria_saida": 0.25,
+      "total_saida_historica": 16,
+      "cobertura_dias": 4776.0,
       "alerta_estoque": false
     },
     {
@@ -17675,6 +17675,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 4659,
+      "item_id": 281,
+      "produto_nome": "Luva P procedimento",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 1,
+      "responsavel": "Assucena",
+      "data": "2026-10-19",
+      "obs": "",
+      "criado_em": "2026-10-20 09:58:32",
+      "item": "Luva P procedimento",
+      "usuario": "Assucena"
+    },
     {
       "id": 4658,
       "item_id": 327,
@@ -25158,21 +25173,6 @@
       "obs": "",
       "criado_em": "2026-10-14 11:01:06",
       "item": "Agulha 25x7",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 4159,
-      "item_id": 331,
-      "produto_nome": "Agulha 30x8",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 50,
-      "responsavel": "Assucena",
-      "data": "2026-10-13",
-      "obs": "",
-      "criado_em": "2026-10-14 11:00:58",
-      "item": "Agulha 30x8",
       "usuario": "Assucena"
     }
   ]
