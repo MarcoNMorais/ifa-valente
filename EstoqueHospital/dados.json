@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "20/10/2026 11:51:34",
+  "atualizado_em": "20/10/2026 11:51:42",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
-    "total_almoxarifado": 120730,
-    "total_farmacia": 34239,
+    "total_almoxarifado": 120720,
+    "total_farmacia": 34249,
     "total_geral": 154969,
     "perto_de_terminar": 27,
     "zerados": 14
@@ -14755,8 +14755,8 @@
       "nome": "Sonda Foley nº 16 - 2 vias",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 10,
-      "farmacia": 9,
+      "almoxarifado": 0,
+      "farmacia": 19,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -14768,21 +14768,15 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-19 14:46:08",
+      "atualizado_em": "2026-10-20 11:51:41",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
         {
-          "local": "almoxarifado",
-          "validade": "",
-          "lote": "",
-          "quantidade": 10
-        },
-        {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 9
+          "quantidade": 19
         }
       ],
       "minimo_manual": 0,
@@ -17669,6 +17663,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 4672,
+      "item_id": 173,
+      "produto_nome": "Sonda Foley nº 16 - 2 vias",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 10,
+      "responsavel": "Assucena",
+      "data": "2026-10-19",
+      "obs": "",
+      "criado_em": "2026-10-20 11:51:41",
+      "item": "Sonda Foley nº 16 - 2 vias",
+      "usuario": "Assucena"
+    },
     {
       "id": 4671,
       "item_id": 197,
@@ -25152,21 +25161,6 @@
       "obs": "",
       "criado_em": "2026-10-14 11:04:11",
       "item": "Esparadrapo 10x4,5",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 4172,
-      "item_id": 280,
-      "produto_nome": "Luva M procedimento",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 2,
-      "responsavel": "Assucena",
-      "data": "2026-10-13",
-      "obs": "",
-      "criado_em": "2026-10-14 11:04:02",
-      "item": "Luva M procedimento",
       "usuario": "Assucena"
     }
   ]
