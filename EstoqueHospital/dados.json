@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "20/10/2026 09:54:26",
+  "atualizado_em": "20/10/2026 09:54:33",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
-    "total_almoxarifado": 121321,
-    "total_farmacia": 34190,
+    "total_almoxarifado": 120971,
+    "total_farmacia": 34540,
     "total_geral": 155511,
     "perto_de_terminar": 26,
     "zerados": 14
@@ -3076,8 +3076,8 @@
       "nome": "Bromoprida 5mg",
       "tipo": "Medicamento",
       "unidade": "Unidade",
-      "almoxarifado": 350,
-      "farmacia": 49,
+      "almoxarifado": 0,
+      "farmacia": 399,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -3089,21 +3089,15 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-20 09:54:25",
+      "atualizado_em": "2026-10-20 09:54:31",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
         {
-          "local": "almoxarifado",
-          "validade": "",
-          "lote": "",
-          "quantidade": 350
-        },
-        {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 49
+          "quantidade": 399
         }
       ],
       "minimo_manual": 0,
@@ -17688,6 +17682,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 4634,
+      "item_id": 57,
+      "produto_nome": "Bromoprida 5mg",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 350,
+      "responsavel": "Assucena",
+      "data": "2026-10-19",
+      "obs": "",
+      "criado_em": "2026-10-20 09:54:31",
+      "item": "Bromoprida 5mg",
+      "usuario": "Assucena"
+    },
+    {
       "id": 4633,
       "item_id": 57,
       "produto_nome": "Bromoprida 5mg",
@@ -25170,21 +25179,6 @@
       "obs": "",
       "criado_em": "2026-10-13 16:38:46",
       "item": "Luva de látex tam. M",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 4134,
-      "item_id": 201,
-      "produto_nome": "Soro Ringer Lactato 500ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 7,
-      "responsavel": "Leiliana",
-      "data": "2026-10-13",
-      "obs": "",
-      "criado_em": "2026-10-13 16:20:10",
-      "item": "Soro Ringer Lactato 500ml",
       "usuario": "Leiliana"
     }
   ]
