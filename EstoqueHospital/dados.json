@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "20/10/2026 09:53:03",
+  "atualizado_em": "20/10/2026 09:53:28",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
     "total_almoxarifado": 121321,
-    "total_farmacia": 36250,
-    "total_geral": 157571,
+    "total_farmacia": 34250,
+    "total_geral": 155571,
     "perto_de_terminar": 26,
     "zerados": 14
   },
@@ -5613,19 +5613,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 1690,
-      "farmacia": 2002,
+      "farmacia": 2,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 3692,
+      "total": 1692,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-20 09:53:01",
+      "atualizado_em": "2026-10-20 09:53:27",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -5639,17 +5639,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 2002
+          "quantidade": 2
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 525,
-      "previsao_20_dias": 525,
+      "minimo_alerta": 1104,
+      "previsao_20_dias": 1104,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 69,
-      "media_diaria_saida": 26.2,
-      "total_saida_historica": 1808,
-      "cobertura_dias": 140.9,
+      "media_diaria_saida": 55.19,
+      "total_saida_historica": 3808,
+      "cobertura_dias": 30.7,
       "alerta_estoque": false
     },
     {
@@ -17688,6 +17688,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 4631,
+      "item_id": 163,
+      "produto_nome": "Eletrodo ECG descartável",
+      "tipo": "Farmácia para CEMES",
+      "origem": "Farmácia",
+      "destino": "CEMES",
+      "quantidade": 2000,
+      "responsavel": "Assucena",
+      "data": "2026-10-19",
+      "obs": "",
+      "criado_em": "2026-10-20 09:53:27",
+      "item": "Eletrodo ECG descartável",
+      "usuario": "Assucena"
+    },
+    {
       "id": 4630,
       "item_id": 163,
       "produto_nome": "Eletrodo ECG descartável",
@@ -25170,21 +25185,6 @@
       "obs": "",
       "criado_em": "2026-10-13 16:19:48",
       "item": "Azitromicina 600mg suspensão",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 4131,
-      "item_id": 204,
-      "produto_nome": "Soro fisiológico 500ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 15,
-      "responsavel": "Leiliana",
-      "data": "2026-10-13",
-      "obs": "",
-      "criado_em": "2026-10-13 16:19:37",
-      "item": "Soro fisiológico 500ml",
       "usuario": "Leiliana"
     }
   ]
