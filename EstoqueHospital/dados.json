@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "20/10/2026 09:54:51",
+  "atualizado_em": "20/10/2026 09:55:00",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
     "total_almoxarifado": 120971,
-    "total_farmacia": 34490,
-    "total_geral": 155461,
+    "total_farmacia": 34480,
+    "total_geral": 155451,
     "perto_de_terminar": 27,
     "zerados": 14
   },
@@ -8299,19 +8299,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 150,
-      "farmacia": 57,
+      "farmacia": 47,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 207,
+      "total": 197,
       "minimo": 50,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-19 14:57:58",
+      "atualizado_em": "2026-10-20 09:54:58",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -8325,17 +8325,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 57
+          "quantidade": 47
         }
       ],
       "minimo_manual": 50,
-      "minimo_alerta": 47,
-      "previsao_20_dias": 47,
+      "minimo_alerta": 51,
+      "previsao_20_dias": 51,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 56,
-      "media_diaria_saida": 2.34,
-      "total_saida_historica": 131,
-      "cobertura_dias": 88.5,
+      "media_diaria_saida": 2.52,
+      "total_saida_historica": 141,
+      "cobertura_dias": 78.2,
       "alerta_estoque": false
     },
     {
@@ -17682,6 +17682,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 4637,
+      "item_id": 350,
+      "produto_nome": "GLICOSE 50% AMP 10ML",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 10,
+      "responsavel": "Assucena",
+      "data": "2026-10-19",
+      "obs": "",
+      "criado_em": "2026-10-20 09:54:58",
+      "item": "GLICOSE 50% AMP 10ML",
+      "usuario": "Assucena"
+    },
+    {
       "id": 4636,
       "item_id": 68,
       "produto_nome": "Dexametasona",
@@ -25164,21 +25179,6 @@
       "obs": "",
       "criado_em": "2026-10-14 08:25:51",
       "item": "Tira Reagente G-Tech",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 4137,
-      "item_id": 402,
-      "produto_nome": "KIT ACESSO CENTRAL",
-      "tipo": "Almoxarifado para Farmácia",
-      "origem": "Almoxarifado",
-      "destino": "Farmácia",
-      "quantidade": 3,
-      "responsavel": "Assucena",
-      "data": "2026-10-13",
-      "obs": "",
-      "criado_em": "2026-10-14 08:25:45",
-      "item": "KIT ACESSO CENTRAL",
       "usuario": "Assucena"
     }
   ]
