@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "20/10/2026 09:59:00",
+  "atualizado_em": "20/10/2026 09:59:16",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
     "total_almoxarifado": 120971,
-    "total_farmacia": 34029,
-    "total_geral": 155000,
+    "total_farmacia": 34028,
+    "total_geral": 154999,
     "perto_de_terminar": 27,
     "zerados": 14
   },
@@ -10731,19 +10731,19 @@
       "tipo": "Material",
       "unidade": "Caixa",
       "almoxarifado": 46,
-      "farmacia": 5,
+      "farmacia": 4,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 51,
+      "total": 50,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-19 10:55:04",
+      "atualizado_em": "2026-10-20 09:59:15",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -10757,17 +10757,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 5
+          "quantidade": 4
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 3,
-      "previsao_20_dias": 3,
+      "minimo_alerta": 4,
+      "previsao_20_dias": 4,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 37,
-      "media_diaria_saida": 0.14,
-      "total_saida_historica": 5,
-      "cobertura_dias": 377.4,
+      "media_diaria_saida": 0.16,
+      "total_saida_historica": 6,
+      "cobertura_dias": 308.3,
       "alerta_estoque": false
     },
     {
@@ -17675,6 +17675,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 4663,
+      "item_id": 398,
+      "produto_nome": "MASCARA DESCARTAVEL",
+      "tipo": "Farmácia para Posto de Internamento",
+      "origem": "Farmácia",
+      "destino": "Posto de Internamento",
+      "quantidade": 1,
+      "responsavel": "Assucena",
+      "data": "2026-10-19",
+      "obs": "",
+      "criado_em": "2026-10-20 09:59:15",
+      "item": "MASCARA DESCARTAVEL",
+      "usuario": "Assucena"
+    },
     {
       "id": 4662,
       "item_id": 203,
@@ -25158,21 +25173,6 @@
       "obs": "",
       "criado_em": "2026-10-14 11:01:47",
       "item": "Seringa 3ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 4163,
-      "item_id": 102,
-      "produto_nome": "Seringa 5ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 40,
-      "responsavel": "Assucena",
-      "data": "2026-10-13",
-      "obs": "",
-      "criado_em": "2026-10-14 11:01:39",
-      "item": "Seringa 5ml",
       "usuario": "Assucena"
     }
   ]
