@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "21/10/2026 16:09:44",
+  "atualizado_em": "21/10/2026 16:09:58",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
     "total_almoxarifado": 120587,
-    "total_farmacia": 33109,
-    "total_geral": 153696,
+    "total_farmacia": 33069,
+    "total_geral": 153656,
     "perto_de_terminar": 26,
     "zerados": 14
   },
@@ -13256,19 +13256,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 6050,
-      "farmacia": 115,
+      "farmacia": 75,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 6165,
+      "total": 6125,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-21 11:20:21",
+      "atualizado_em": "2026-10-21 16:09:56",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -13282,17 +13282,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 175
+          "quantidade": 135
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 1360,
-      "previsao_20_dias": 1360,
+      "minimo_alerta": 1372,
+      "previsao_20_dias": 1372,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 70,
-      "media_diaria_saida": 67.99,
-      "total_saida_historica": 4759,
-      "cobertura_dias": 90.7,
+      "media_diaria_saida": 68.56,
+      "total_saida_historica": 4799,
+      "cobertura_dias": 89.3,
       "alerta_estoque": false
     },
     {
@@ -17669,6 +17669,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 4752,
+      "item_id": 103,
+      "produto_nome": "Seringa 10ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 40,
+      "responsavel": "Leiliana",
+      "data": "2026-10-21",
+      "obs": "",
+      "criado_em": "2026-10-21 16:09:56",
+      "item": "Seringa 10ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 4751,
       "item_id": 99,
@@ -25151,21 +25166,6 @@
       "data": "2026-10-15",
       "obs": "",
       "criado_em": "2026-10-15 14:15:57",
-      "item": "gentamicina 80mg",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 4252,
-      "item_id": 411,
-      "produto_nome": "gentamicina 80mg",
-      "tipo": "Almoxarifado para Farmácia",
-      "origem": "Almoxarifado",
-      "destino": "Farmácia",
-      "quantidade": 70,
-      "responsavel": "Leiliana",
-      "data": "2026-10-15",
-      "obs": "",
-      "criado_em": "2026-10-15 14:15:48",
       "item": "gentamicina 80mg",
       "usuario": "Leiliana"
     }
