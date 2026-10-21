@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "21/10/2026 11:44:31",
+  "atualizado_em": "21/10/2026 16:07:25",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
     "total_almoxarifado": 120589,
-    "total_farmacia": 33264,
-    "total_geral": 153853,
+    "total_farmacia": 33254,
+    "total_geral": 153843,
     "perto_de_terminar": 26,
     "zerados": 14
   },
@@ -5217,19 +5217,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 410,
-      "farmacia": 30,
+      "farmacia": 20,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 440,
+      "total": 430,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-19 14:50:05",
+      "atualizado_em": "2026-10-21 16:07:24",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -5243,17 +5243,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 50
+          "quantidade": 40
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 98,
-      "previsao_20_dias": 98,
+      "minimo_alerta": 100,
+      "previsao_20_dias": 100,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 70,
-      "media_diaria_saida": 4.86,
-      "total_saida_historica": 340,
-      "cobertura_dias": 90.6,
+      "media_diaria_saida": 5.0,
+      "total_saida_historica": 350,
+      "cobertura_dias": 86.0,
       "alerta_estoque": false
     },
     {
@@ -17664,6 +17664,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 4741,
+      "item_id": 28,
+      "produto_nome": "Dipirona 500mg",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 10,
+      "responsavel": "Leiliana",
+      "data": "2026-10-21",
+      "obs": "",
+      "criado_em": "2026-10-21 16:07:24",
+      "item": "Dipirona 500mg",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 4740,
       "item_id": 280,
       "produto_nome": "Luva M procedimento",
@@ -25146,21 +25161,6 @@
       "obs": "",
       "criado_em": "2026-10-15 14:13:08",
       "item": "Polifix",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 4241,
-      "item_id": 157,
-      "produto_nome": "Seringa 1ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 10,
-      "responsavel": "Leiliana",
-      "data": "2026-10-15",
-      "obs": "",
-      "criado_em": "2026-10-15 14:12:57",
-      "item": "Seringa 1ml",
       "usuario": "Leiliana"
     }
   ]
