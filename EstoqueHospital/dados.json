@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "21/10/2026 11:17:58",
+  "atualizado_em": "21/10/2026 11:18:16",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
-    "total_almoxarifado": 120720,
-    "total_farmacia": 33638,
+    "total_almoxarifado": 120667,
+    "total_farmacia": 33691,
     "total_geral": 154358,
     "perto_de_terminar": 26,
     "zerados": 14
@@ -8958,8 +8958,8 @@
       "nome": "Ibuprofeno gotas",
       "tipo": "Medicamento",
       "unidade": "Unidade",
-      "almoxarifado": 53,
-      "farmacia": 0,
+      "almoxarifado": 0,
+      "farmacia": 53,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -8971,12 +8971,12 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-19 14:55:57",
+      "atualizado_em": "2026-10-21 11:18:14",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
         {
-          "local": "almoxarifado",
+          "local": "farmacia",
           "validade": "",
           "lote": "",
           "quantidade": 53
@@ -17664,6 +17664,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 4706,
+      "item_id": 255,
+      "produto_nome": "Ibuprofeno gotas",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 53,
+      "responsavel": "Assucena",
+      "data": "2026-10-21",
+      "obs": "",
+      "criado_em": "2026-10-21 11:18:14",
+      "item": "Ibuprofeno gotas",
+      "usuario": "Assucena"
+    },
+    {
       "id": 4705,
       "item_id": 13,
       "produto_nome": "Diazepam 10mg/2ml 2ml",
@@ -25145,21 +25160,6 @@
       "data": "2026-10-14",
       "obs": "",
       "criado_em": "2026-10-14 16:21:05",
-      "item": "Soro fisiológico 500ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 4206,
-      "item_id": 204,
-      "produto_nome": "Soro fisiológico 500ml",
-      "tipo": "Almoxarifado para Farmácia",
-      "origem": "Almoxarifado",
-      "destino": "Farmácia",
-      "quantidade": 48,
-      "responsavel": "Leiliana",
-      "data": "2026-10-14",
-      "obs": "",
-      "criado_em": "2026-10-14 16:20:51",
       "item": "Soro fisiológico 500ml",
       "usuario": "Leiliana"
     }
