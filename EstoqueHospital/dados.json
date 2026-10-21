@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "21/10/2026 11:14:24",
+  "atualizado_em": "21/10/2026 11:14:30",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
     "total_almoxarifado": 120720,
-    "total_farmacia": 33923,
-    "total_geral": 154643,
+    "total_farmacia": 33920,
+    "total_geral": 154640,
     "perto_de_terminar": 26,
     "zerados": 14
   },
@@ -9537,19 +9537,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 174,
-      "farmacia": 14,
+      "farmacia": 11,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 188,
+      "total": 185,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-19 16:25:27",
+      "atualizado_em": "2026-10-21 11:14:28",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -9563,17 +9563,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 14
+          "quantidade": 11
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 19,
-      "previsao_20_dias": 19,
+      "minimo_alerta": 20,
+      "previsao_20_dias": 20,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 70,
-      "media_diaria_saida": 0.91,
-      "total_saida_historica": 64,
-      "cobertura_dias": 205.6,
+      "media_diaria_saida": 0.96,
+      "total_saida_historica": 67,
+      "cobertura_dias": 193.3,
       "alerta_estoque": false
     },
     {
@@ -17664,6 +17664,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 4685,
+      "item_id": 199,
+      "produto_nome": "Lençol descartável papel",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 3,
+      "responsavel": "Assucena",
+      "data": "2026-10-20",
+      "obs": "",
+      "criado_em": "2026-10-21 11:14:28",
+      "item": "Lençol descartável papel",
+      "usuario": "Assucena"
+    },
+    {
       "id": 4684,
       "item_id": 204,
       "produto_nome": "Soro fisiológico 500ml",
@@ -25146,21 +25161,6 @@
       "obs": "",
       "criado_em": "2026-10-14 11:06:03",
       "item": "Hidrocortisona 100MG",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 4185,
-      "item_id": 248,
-      "produto_nome": "Acetilcisteína 2mg/ml",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 1,
-      "responsavel": "Assucena",
-      "data": "2026-10-13",
-      "obs": "",
-      "criado_em": "2026-10-14 11:05:54",
-      "item": "Acetilcisteína 2mg/ml",
       "usuario": "Assucena"
     }
   ]
