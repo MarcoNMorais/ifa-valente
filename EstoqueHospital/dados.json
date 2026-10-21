@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "21/10/2026 16:10:32",
+  "atualizado_em": "21/10/2026 16:10:41",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
     "total_almoxarifado": 120587,
-    "total_farmacia": 32969,
-    "total_geral": 153556,
+    "total_farmacia": 32967,
+    "total_geral": 153554,
     "perto_de_terminar": 26,
     "zerados": 14
   },
@@ -9537,19 +9537,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 174,
-      "farmacia": 7,
+      "farmacia": 5,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 181,
+      "total": 179,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-21 11:21:55",
+      "atualizado_em": "2026-10-21 16:10:40",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -9563,7 +9563,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 7
+          "quantidade": 5
         }
       ],
       "minimo_manual": 0,
@@ -9571,9 +9571,9 @@
       "previsao_20_dias": 21,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 70,
-      "media_diaria_saida": 1.01,
-      "total_saida_historica": 71,
-      "cobertura_dias": 178.5,
+      "media_diaria_saida": 1.04,
+      "total_saida_historica": 73,
+      "cobertura_dias": 171.6,
       "alerta_estoque": false
     },
     {
@@ -17670,6 +17670,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 4756,
+      "item_id": 199,
+      "produto_nome": "Lençol descartável papel",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 2,
+      "responsavel": "Leiliana",
+      "data": "2026-10-21",
+      "obs": "",
+      "criado_em": "2026-10-21 16:10:40",
+      "item": "Lençol descartável papel",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 4755,
       "item_id": 220,
       "produto_nome": "Equipo macrogotas",
@@ -25152,21 +25167,6 @@
       "obs": "",
       "criado_em": "2026-10-15 14:16:46",
       "item": "AGUA P/ INJ",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 4256,
-      "item_id": 350,
-      "produto_nome": "GLICOSE 50% AMP 10ML",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 10,
-      "responsavel": "Leiliana",
-      "data": "2026-10-15",
-      "obs": "",
-      "criado_em": "2026-10-15 14:16:28",
-      "item": "GLICOSE 50% AMP 10ML",
       "usuario": "Leiliana"
     }
   ]
