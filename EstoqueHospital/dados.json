@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "21/10/2026 16:13:15",
+  "atualizado_em": "21/10/2026 16:50:04",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
     "total_almoxarifado": 120335,
-    "total_farmacia": 33122,
-    "total_geral": 153457,
+    "total_farmacia": 33120,
+    "total_geral": 153455,
     "perto_de_terminar": 27,
     "zerados": 14
   },
@@ -16703,19 +16703,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 90,
-      "farmacia": 195,
+      "farmacia": 193,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 285,
+      "total": 283,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-19 16:25:49",
+      "atualizado_em": "2026-10-21 16:50:02",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -16729,17 +16729,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 195
+          "quantidade": 193
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 253,
-      "previsao_20_dias": 253,
+      "minimo_alerta": 254,
+      "previsao_20_dias": 254,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 70,
-      "media_diaria_saida": 12.64,
-      "total_saida_historica": 885,
-      "cobertura_dias": 22.5,
+      "media_diaria_saida": 12.67,
+      "total_saida_historica": 887,
+      "cobertura_dias": 22.3,
       "alerta_estoque": false
     },
     {
@@ -17675,6 +17675,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 4764,
+      "item_id": 195,
+      "produto_nome": "Tira Reagente G-Tech",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 2,
+      "responsavel": "Leiliana",
+      "data": "2026-10-21",
+      "obs": "",
+      "criado_em": "2026-10-21 16:50:02",
+      "item": "Tira Reagente G-Tech",
+      "usuario": "Leiliana"
+    },
     {
       "id": 4763,
       "item_id": 202,
@@ -25158,21 +25173,6 @@
       "obs": "",
       "criado_em": "2026-10-15 14:18:51",
       "item": "Meropenem 500mg",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 4264,
-      "item_id": 82,
-      "produto_nome": "Hidrocortisona 100MG",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 10,
-      "responsavel": "Leiliana",
-      "data": "2026-10-15",
-      "obs": "",
-      "criado_em": "2026-10-15 14:18:40",
-      "item": "Hidrocortisona 100MG",
       "usuario": "Leiliana"
     }
   ]
