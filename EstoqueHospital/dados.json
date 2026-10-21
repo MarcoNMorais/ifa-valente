@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "21/10/2026 11:17:24",
+  "atualizado_em": "21/10/2026 11:17:35",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
     "total_almoxarifado": 120720,
-    "total_farmacia": 33675,
-    "total_geral": 154395,
+    "total_farmacia": 33665,
+    "total_geral": 154385,
     "perto_de_terminar": 26,
     "zerados": 14
   },
@@ -17382,19 +17382,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 75,
+      "farmacia": 65,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 75,
+      "total": 65,
       "minimo": 100,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-21 11:15:54",
+      "atualizado_em": "2026-10-21 11:17:34",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -17402,17 +17402,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 75
+          "quantidade": 65
         }
       ],
       "minimo_manual": 100,
-      "minimo_alerta": 59,
-      "previsao_20_dias": 59,
+      "minimo_alerta": 63,
+      "previsao_20_dias": 63,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 58,
-      "media_diaria_saida": 2.93,
-      "total_saida_historica": 170,
-      "cobertura_dias": 25.6,
+      "media_diaria_saida": 3.1,
+      "total_saida_historica": 180,
+      "cobertura_dias": 20.9,
       "alerta_estoque": false
     },
     {
@@ -17663,6 +17663,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 4702,
+      "item_id": 344,
+      "produto_nome": "ÁGUA  PARA INJETÁVEIS 10ML",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 10,
+      "responsavel": "Assucena",
+      "data": "2026-10-21",
+      "obs": "",
+      "criado_em": "2026-10-21 11:17:34",
+      "item": "ÁGUA  PARA INJETÁVEIS 10ML",
+      "usuario": "Assucena"
+    },
     {
       "id": 4701,
       "item_id": 350,
@@ -25146,21 +25161,6 @@
       "obs": "",
       "criado_em": "2026-10-14 16:20:03",
       "item": "Soro fisiológico 500ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 4202,
-      "item_id": 203,
-      "produto_nome": "Soro fisiológico 250ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 16,
-      "responsavel": "Leiliana",
-      "data": "2026-10-14",
-      "obs": "",
-      "criado_em": "2026-10-14 16:19:31",
-      "item": "Soro fisiológico 250ml",
       "usuario": "Leiliana"
     }
   ]
