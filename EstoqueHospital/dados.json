@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "21/10/2026 11:19:31",
+  "atualizado_em": "21/10/2026 11:20:01",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
-    "total_almoxarifado": 120619,
-    "total_farmacia": 33568,
+    "total_almoxarifado": 120589,
+    "total_farmacia": 33598,
     "total_geral": 154187,
     "perto_de_terminar": 26,
     "zerados": 14
@@ -16055,8 +16055,8 @@
       "nome": "Soro glicose 5% 500ml",
       "tipo": "Insumo",
       "unidade": "Unidade",
-      "almoxarifado": 63,
-      "farmacia": 0,
+      "almoxarifado": 33,
+      "farmacia": 30,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -16068,7 +16068,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-19 10:55:04",
+      "atualizado_em": "2026-10-21 11:19:59",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -16076,13 +16076,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 93
+          "quantidade": 63
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 10
+          "quantidade": 40
         }
       ],
       "minimo_manual": 0,
@@ -17663,6 +17663,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 4716,
+      "item_id": 205,
+      "produto_nome": "Soro glicose 5% 500ml",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 30,
+      "responsavel": "Assucena",
+      "data": "2026-10-21",
+      "obs": "",
+      "criado_em": "2026-10-21 11:19:59",
+      "item": "Soro glicose 5% 500ml",
+      "usuario": "Assucena"
+    },
     {
       "id": 4715,
       "item_id": 201,
@@ -25145,21 +25160,6 @@
       "data": "2026-10-14",
       "obs": "",
       "criado_em": "2026-10-14 16:23:49",
-      "item": "Bolsa coletora",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 4216,
-      "item_id": 155,
-      "produto_nome": "Bolsa coletora",
-      "tipo": "Almoxarifado para Farmácia",
-      "origem": "Almoxarifado",
-      "destino": "Farmácia",
-      "quantidade": 30,
-      "responsavel": "Leiliana",
-      "data": "2026-10-14",
-      "obs": "",
-      "criado_em": "2026-10-14 16:23:40",
       "item": "Bolsa coletora",
       "usuario": "Leiliana"
     }
