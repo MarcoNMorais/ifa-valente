@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "21/10/2026 11:23:14",
+  "atualizado_em": "21/10/2026 11:23:24",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
     "total_almoxarifado": 120589,
-    "total_farmacia": 33273,
-    "total_geral": 153862,
+    "total_farmacia": 33271,
+    "total_geral": 153860,
     "perto_de_terminar": 26,
     "zerados": 14
   },
@@ -10507,19 +10507,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 80,
-      "farmacia": 1114,
+      "farmacia": 1112,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1194,
+      "total": 1192,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-20 09:58:32",
+      "atualizado_em": "2026-10-21 11:23:23",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -10533,17 +10533,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 1114
+          "quantidade": 1112
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 5,
-      "previsao_20_dias": 5,
+      "minimo_alerta": 6,
+      "previsao_20_dias": 6,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 65,
-      "media_diaria_saida": 0.25,
-      "total_saida_historica": 16,
-      "cobertura_dias": 4850.6,
+      "media_diaria_saida": 0.28,
+      "total_saida_historica": 18,
+      "cobertura_dias": 4304.4,
       "alerta_estoque": false
     },
     {
@@ -17663,6 +17663,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 4738,
+      "item_id": 281,
+      "produto_nome": "Luva P procedimento",
+      "tipo": "Farmácia para Posto de Internamento",
+      "origem": "Farmácia",
+      "destino": "Posto de Internamento",
+      "quantidade": 2,
+      "responsavel": "Assucena",
+      "data": "2026-10-21",
+      "obs": "",
+      "criado_em": "2026-10-21 11:23:23",
+      "item": "Luva P procedimento",
+      "usuario": "Assucena"
+    },
     {
       "id": 4737,
       "item_id": 157,
@@ -25146,21 +25161,6 @@
       "obs": "",
       "criado_em": "2026-10-15 14:12:39",
       "item": "Seringa 10ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 4238,
-      "item_id": 274,
-      "produto_nome": "Seringa 20ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 40,
-      "responsavel": "Leiliana",
-      "data": "2026-10-15",
-      "obs": "",
-      "criado_em": "2026-10-15 14:12:30",
-      "item": "Seringa 20ml",
       "usuario": "Leiliana"
     }
   ]
