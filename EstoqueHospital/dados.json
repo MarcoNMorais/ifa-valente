@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "21/10/2026 16:10:41",
+  "atualizado_em": "21/10/2026 16:11:37",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
-    "total_almoxarifado": 120587,
-    "total_farmacia": 32967,
+    "total_almoxarifado": 120575,
+    "total_farmacia": 32979,
     "total_geral": 153554,
     "perto_de_terminar": 26,
     "zerados": 14
@@ -15923,8 +15923,8 @@
       "nome": "Soro fisiológico 500ml",
       "tipo": "Insumo",
       "unidade": "Unidade",
-      "almoxarifado": 656,
-      "farmacia": 7,
+      "almoxarifado": 644,
+      "farmacia": 19,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -15936,7 +15936,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-21 11:22:02",
+      "atualizado_em": "2026-10-21 16:11:36",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -15944,13 +15944,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 656
+          "quantidade": 644
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 7
+          "quantidade": 19
         }
       ],
       "minimo_manual": 0,
@@ -17669,6 +17669,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 4757,
+      "item_id": 204,
+      "produto_nome": "Soro fisiológico 500ml",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 12,
+      "responsavel": "Leiliana",
+      "data": "2026-10-21",
+      "obs": "",
+      "criado_em": "2026-10-21 16:11:36",
+      "item": "Soro fisiológico 500ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 4756,
       "item_id": 199,
@@ -25151,21 +25166,6 @@
       "data": "2026-10-15",
       "obs": "",
       "criado_em": "2026-10-15 14:16:54",
-      "item": "AGUA P/ INJ",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 4257,
-      "item_id": 382,
-      "produto_nome": "AGUA P/ INJ",
-      "tipo": "Almoxarifado para Farmácia",
-      "origem": "Almoxarifado",
-      "destino": "Farmácia",
-      "quantidade": 281,
-      "responsavel": "Leiliana",
-      "data": "2026-10-15",
-      "obs": "",
-      "criado_em": "2026-10-15 14:16:46",
       "item": "AGUA P/ INJ",
       "usuario": "Leiliana"
     }
