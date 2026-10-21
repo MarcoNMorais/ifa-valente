@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "21/10/2026 11:13:59",
+  "atualizado_em": "21/10/2026 11:14:06",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
     "total_almoxarifado": 120720,
-    "total_farmacia": 33969,
-    "total_geral": 154689,
+    "total_farmacia": 33944,
+    "total_geral": 154664,
     "perto_de_terminar": 26,
     "zerados": 14
   },
@@ -5904,19 +5904,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 2631,
-      "farmacia": 199,
+      "farmacia": 174,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 2830,
+      "total": 2805,
       "minimo": 300,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-20 09:57:44",
+      "atualizado_em": "2026-10-21 11:14:04",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -5930,17 +5930,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 224
+          "quantidade": 199
         }
       ],
       "minimo_manual": 300,
-      "minimo_alerta": 528,
-      "previsao_20_dias": 528,
+      "minimo_alerta": 535,
+      "previsao_20_dias": 535,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 70,
-      "media_diaria_saida": 26.36,
-      "total_saida_historica": 1845,
-      "cobertura_dias": 107.4,
+      "media_diaria_saida": 26.71,
+      "total_saida_historica": 1870,
+      "cobertura_dias": 105.0,
       "alerta_estoque": false
     },
     {
@@ -17664,6 +17664,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 4682,
+      "item_id": 220,
+      "produto_nome": "Equipo macrogotas",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 25,
+      "responsavel": "Assucena",
+      "data": "2026-10-20",
+      "obs": "",
+      "criado_em": "2026-10-21 11:14:04",
+      "item": "Equipo macrogotas",
+      "usuario": "Assucena"
+    },
+    {
       "id": 4681,
       "item_id": 274,
       "produto_nome": "Seringa 20ml",
@@ -25146,21 +25161,6 @@
       "obs": "",
       "criado_em": "2026-10-14 11:05:41",
       "item": "Ceftriaxona 1g",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 4182,
-      "item_id": 78,
-      "produto_nome": "Furosemida",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 20,
-      "responsavel": "Assucena",
-      "data": "2026-10-13",
-      "obs": "",
-      "criado_em": "2026-10-14 11:05:30",
-      "item": "Furosemida",
       "usuario": "Assucena"
     }
   ]
