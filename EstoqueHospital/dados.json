@@ -1,12 +1,12 @@
 {
-  "atualizado_em": "21/10/2026 16:13:06",
+  "atualizado_em": "21/10/2026 16:13:15",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
     "total_almoxarifado": 120335,
-    "total_farmacia": 33182,
-    "total_geral": 153517,
-    "perto_de_terminar": 26,
+    "total_farmacia": 33122,
+    "total_geral": 153457,
+    "perto_de_terminar": 27,
     "zerados": 14
   },
   "itens": [
@@ -15838,19 +15838,19 @@
       "tipo": "Insumo",
       "unidade": "Unidade",
       "almoxarifado": 680,
-      "farmacia": 240,
+      "farmacia": 180,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 920,
+      "total": 860,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-21 16:13:05",
+      "atualizado_em": "2026-10-21 16:13:14",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -15864,18 +15864,18 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 240
+          "quantidade": 180
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 892,
-      "previsao_20_dias": 892,
+      "minimo_alerta": 909,
+      "previsao_20_dias": 909,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 70,
-      "media_diaria_saida": 44.57,
-      "total_saida_historica": 3120,
-      "cobertura_dias": 20.6,
-      "alerta_estoque": false
+      "media_diaria_saida": 45.43,
+      "total_saida_historica": 3180,
+      "cobertura_dias": 18.9,
+      "alerta_estoque": true
     },
     {
       "id": 203,
@@ -17675,6 +17675,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 4763,
+      "item_id": 202,
+      "produto_nome": "Soro fisiológico 100ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 60,
+      "responsavel": "Leiliana",
+      "data": "2026-10-21",
+      "obs": "",
+      "criado_em": "2026-10-21 16:13:14",
+      "item": "Soro fisiológico 100ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 4762,
       "item_id": 202,
@@ -25158,21 +25173,6 @@
       "obs": "",
       "criado_em": "2026-10-15 14:18:40",
       "item": "Hidrocortisona 100MG",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 4263,
-      "item_id": 241,
-      "produto_nome": "Lactulose solução",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 1,
-      "responsavel": "Leiliana",
-      "data": "2026-10-15",
-      "obs": "",
-      "criado_em": "2026-10-15 14:18:27",
-      "item": "Lactulose solução",
       "usuario": "Leiliana"
     }
   ]
