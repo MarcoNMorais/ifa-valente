@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "21/10/2026 11:22:59",
+  "atualizado_em": "21/10/2026 11:23:07",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
     "total_almoxarifado": 120589,
-    "total_farmacia": 33303,
-    "total_geral": 153892,
+    "total_farmacia": 33293,
+    "total_geral": 153882,
     "perto_de_terminar": 26,
     "zerados": 14
   },
@@ -12636,19 +12636,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 2930,
-      "farmacia": 35,
+      "farmacia": 25,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 2965,
+      "total": 2955,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-21 11:21:08",
+      "atualizado_em": "2026-10-21 11:23:04",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -12662,17 +12662,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 35
+          "quantidade": 25
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 202,
-      "previsao_20_dias": 202,
+      "minimo_alerta": 205,
+      "previsao_20_dias": 205,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 65,
-      "media_diaria_saida": 10.08,
-      "total_saida_historica": 655,
-      "cobertura_dias": 294.2,
+      "media_diaria_saida": 10.23,
+      "total_saida_historica": 665,
+      "cobertura_dias": 288.8,
       "alerta_estoque": false
     },
     {
@@ -17663,6 +17663,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 4736,
+      "item_id": 329,
+      "produto_nome": "Polifix",
+      "tipo": "Farmácia para Posto de Internamento",
+      "origem": "Farmácia",
+      "destino": "Posto de Internamento",
+      "quantidade": 10,
+      "responsavel": "Assucena",
+      "data": "2026-10-21",
+      "obs": "",
+      "criado_em": "2026-10-21 11:23:04",
+      "item": "Polifix",
+      "usuario": "Assucena"
+    },
     {
       "id": 4735,
       "item_id": 177,
@@ -25145,21 +25160,6 @@
       "data": "2026-10-15",
       "obs": "",
       "criado_em": "2026-10-15 14:12:12",
-      "item": "Tira Reagente G-Tech",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 4236,
-      "item_id": 195,
-      "produto_nome": "Tira Reagente G-Tech",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 2,
-      "responsavel": "Leiliana",
-      "data": "2026-10-14",
-      "obs": "",
-      "criado_em": "2026-10-14 16:56:56",
       "item": "Tira Reagente G-Tech",
       "usuario": "Leiliana"
     }
