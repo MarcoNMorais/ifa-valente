@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "21/10/2026 11:19:09",
+  "atualizado_em": "21/10/2026 11:19:25",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
-    "total_almoxarifado": 120667,
-    "total_farmacia": 33544,
+    "total_almoxarifado": 120619,
+    "total_farmacia": 33592,
     "total_geral": 154211,
     "perto_de_terminar": 26,
     "zerados": 14
@@ -16101,8 +16101,8 @@
       "nome": "Soro Ringer Lactato 500ml",
       "tipo": "Insumo",
       "unidade": "Unidade",
-      "almoxarifado": 496,
-      "farmacia": 19,
+      "almoxarifado": 448,
+      "farmacia": 67,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -16114,7 +16114,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-21 11:14:53",
+      "atualizado_em": "2026-10-21 11:19:23",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -16122,13 +16122,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 496
+          "quantidade": 448
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 19
+          "quantidade": 67
         }
       ],
       "minimo_manual": 0,
@@ -17663,6 +17663,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 4714,
+      "item_id": 201,
+      "produto_nome": "Soro Ringer Lactato 500ml",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 48,
+      "responsavel": "Assucena",
+      "data": "2026-10-21",
+      "obs": "",
+      "criado_em": "2026-10-21 11:19:23",
+      "item": "Soro Ringer Lactato 500ml",
+      "usuario": "Assucena"
+    },
     {
       "id": 4713,
       "item_id": 176,
@@ -25146,21 +25161,6 @@
       "obs": "",
       "criado_em": "2026-10-14 16:23:15",
       "item": "Equipo macrogotas",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 4214,
-      "item_id": 104,
-      "produto_nome": "Seringa 3ml",
-      "tipo": "Farmácia para AJUSTE DE ESTOQUE",
-      "origem": "Farmácia",
-      "destino": "AJUSTE DE ESTOQUE",
-      "quantidade": 40,
-      "responsavel": "Leiliana",
-      "data": "2026-10-14",
-      "obs": "",
-      "criado_em": "2026-10-14 16:23:05",
-      "item": "Seringa 3ml",
       "usuario": "Leiliana"
     }
   ]
