@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "21/10/2026 11:20:01",
+  "atualizado_em": "21/10/2026 11:20:13",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
     "total_almoxarifado": 120589,
-    "total_farmacia": 33598,
-    "total_geral": 154187,
+    "total_farmacia": 33593,
+    "total_geral": 154182,
     "perto_de_terminar": 26,
     "zerados": 14
   },
@@ -16056,19 +16056,19 @@
       "tipo": "Insumo",
       "unidade": "Unidade",
       "almoxarifado": 33,
-      "farmacia": 30,
+      "farmacia": 25,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 63,
+      "total": 58,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-21 11:19:59",
+      "atualizado_em": "2026-10-21 11:20:12",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -16082,17 +16082,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 40
+          "quantidade": 35
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 37,
-      "previsao_20_dias": 37,
+      "minimo_alerta": 38,
+      "previsao_20_dias": 38,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 70,
-      "media_diaria_saida": 1.81,
-      "total_saida_historica": 127,
-      "cobertura_dias": 34.7,
+      "media_diaria_saida": 1.89,
+      "total_saida_historica": 132,
+      "cobertura_dias": 30.8,
       "alerta_estoque": false
     },
     {
@@ -17663,6 +17663,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 4717,
+      "item_id": 205,
+      "produto_nome": "Soro glicose 5% 500ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 5,
+      "responsavel": "Assucena",
+      "data": "2026-10-21",
+      "obs": "",
+      "criado_em": "2026-10-21 11:20:12",
+      "item": "Soro glicose 5% 500ml",
+      "usuario": "Assucena"
+    },
     {
       "id": 4716,
       "item_id": 205,
@@ -25146,21 +25161,6 @@
       "obs": "",
       "criado_em": "2026-10-14 16:23:59",
       "item": "Esparadrapo 10x4,5",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 4217,
-      "item_id": 155,
-      "produto_nome": "Bolsa coletora",
-      "tipo": "Farmácia para AJUSTE DE ESTOQUE",
-      "origem": "Farmácia",
-      "destino": "AJUSTE DE ESTOQUE",
-      "quantidade": 1,
-      "responsavel": "Leiliana",
-      "data": "2026-10-14",
-      "obs": "",
-      "criado_em": "2026-10-14 16:23:49",
-      "item": "Bolsa coletora",
       "usuario": "Leiliana"
     }
   ]
