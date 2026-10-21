@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "21/10/2026 11:21:09",
+  "atualizado_em": "21/10/2026 11:21:17",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
     "total_almoxarifado": 120589,
-    "total_farmacia": 33428,
-    "total_geral": 154017,
+    "total_farmacia": 33425,
+    "total_geral": 154014,
     "perto_de_terminar": 26,
     "zerados": 14
   },
@@ -6168,19 +6168,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 376,
-      "farmacia": 13,
+      "farmacia": 10,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 389,
+      "total": 386,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-19 16:24:49",
+      "atualizado_em": "2026-10-21 11:21:16",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -6194,17 +6194,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 15
+          "quantidade": 12
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 45,
-      "previsao_20_dias": 45,
+      "minimo_alerta": 46,
+      "previsao_20_dias": 46,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 65,
-      "media_diaria_saida": 2.23,
-      "total_saida_historica": 145,
-      "cobertura_dias": 174.4,
+      "media_diaria_saida": 2.28,
+      "total_saida_historica": 148,
+      "cobertura_dias": 169.5,
       "alerta_estoque": false
     },
     {
@@ -17664,6 +17664,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 4724,
+      "item_id": 276,
+      "produto_nome": "Esparadrapo 10x4,5",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 3,
+      "responsavel": "Assucena",
+      "data": "2026-10-21",
+      "obs": "",
+      "criado_em": "2026-10-21 11:21:16",
+      "item": "Esparadrapo 10x4,5",
+      "usuario": "Assucena"
+    },
+    {
       "id": 4723,
       "item_id": 329,
       "produto_nome": "Polifix",
@@ -25146,21 +25161,6 @@
       "obs": "",
       "criado_em": "2026-10-14 16:25:07",
       "item": "Ondansetrona 2mg/ml 2ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 4224,
-      "item_id": 59,
-      "produto_nome": "Ceftriaxona 1g",
-      "tipo": "Farmácia para AJUSTE DE ESTOQUE",
-      "origem": "Farmácia",
-      "destino": "AJUSTE DE ESTOQUE",
-      "quantidade": 6,
-      "responsavel": "Leiliana",
-      "data": "2026-10-14",
-      "obs": "",
-      "criado_em": "2026-10-14 16:24:57",
-      "item": "Ceftriaxona 1g",
       "usuario": "Leiliana"
     }
   ]
