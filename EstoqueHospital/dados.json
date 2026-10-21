@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "21/10/2026 16:11:37",
+  "atualizado_em": "21/10/2026 16:11:48",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
     "total_almoxarifado": 120575,
-    "total_farmacia": 32979,
-    "total_geral": 153554,
+    "total_farmacia": 32969,
+    "total_geral": 153544,
     "perto_de_terminar": 26,
     "zerados": 14
   },
@@ -15924,19 +15924,19 @@
       "tipo": "Insumo",
       "unidade": "Unidade",
       "almoxarifado": 644,
-      "farmacia": 19,
+      "farmacia": 9,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 663,
+      "total": 653,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-21 16:11:36",
+      "atualizado_em": "2026-10-21 16:11:47",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -15950,17 +15950,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 19
+          "quantidade": 9
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 180,
-      "previsao_20_dias": 180,
+      "minimo_alerta": 183,
+      "previsao_20_dias": 183,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 70,
-      "media_diaria_saida": 8.97,
-      "total_saida_historica": 628,
-      "cobertura_dias": 73.9,
+      "media_diaria_saida": 9.11,
+      "total_saida_historica": 638,
+      "cobertura_dias": 71.6,
       "alerta_estoque": false
     },
     {
@@ -17669,6 +17669,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 4758,
+      "item_id": 204,
+      "produto_nome": "Soro fisiológico 500ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 10,
+      "responsavel": "Leiliana",
+      "data": "2026-10-21",
+      "obs": "",
+      "criado_em": "2026-10-21 16:11:47",
+      "item": "Soro fisiológico 500ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 4757,
       "item_id": 204,
@@ -25152,21 +25167,6 @@
       "obs": "",
       "criado_em": "2026-10-15 14:17:06",
       "item": "Omeprazol 20mg comprimido",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 4258,
-      "item_id": 382,
-      "produto_nome": "AGUA P/ INJ",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 10,
-      "responsavel": "Leiliana",
-      "data": "2026-10-15",
-      "obs": "",
-      "criado_em": "2026-10-15 14:16:54",
-      "item": "AGUA P/ INJ",
       "usuario": "Leiliana"
     }
   ]
