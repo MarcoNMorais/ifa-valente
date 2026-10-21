@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "21/10/2026 11:16:32",
+  "atualizado_em": "21/10/2026 11:16:42",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
     "total_almoxarifado": 120720,
-    "total_farmacia": 33779,
-    "total_geral": 154499,
+    "total_farmacia": 33759,
+    "total_geral": 154479,
     "perto_de_terminar": 26,
     "zerados": 14
   },
@@ -17342,19 +17342,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 230,
+      "farmacia": 210,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 230,
+      "total": 210,
       "minimo": 0,
       "validade": "2027-05",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-10-19 10:55:03",
+      "atualizado_em": "2026-10-21 11:16:41",
       "validade_mais_proxima": "2027-05",
       "vencimento_mais_proximo": "2027-05",
       "lotes_validade": [
@@ -17362,17 +17362,17 @@
           "local": "farmacia",
           "validade": "2027-05",
           "lote": "",
-          "quantidade": 230
+          "quantidade": 210
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 89,
-      "previsao_20_dias": 89,
+      "minimo_alerta": 95,
+      "previsao_20_dias": 95,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 70,
-      "media_diaria_saida": 4.43,
-      "total_saida_historica": 310,
-      "cobertura_dias": 51.9,
+      "media_diaria_saida": 4.71,
+      "total_saida_historica": 330,
+      "cobertura_dias": 44.5,
       "alerta_estoque": false
     },
     {
@@ -17663,6 +17663,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 4696,
+      "item_id": 53,
+      "produto_nome": "Ácido Tranexâmico 50mg",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 20,
+      "responsavel": "Assucena",
+      "data": "2026-10-21",
+      "obs": "",
+      "criado_em": "2026-10-21 11:16:41",
+      "item": "Ácido Tranexâmico 50mg",
+      "usuario": "Assucena"
+    },
     {
       "id": 4695,
       "item_id": 62,
@@ -25146,21 +25161,6 @@
       "obs": "",
       "criado_em": "2026-10-14 16:18:29",
       "item": "Soro fisiológico 500ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 4196,
-      "item_id": 202,
-      "produto_nome": "Soro fisiológico 100ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 120,
-      "responsavel": "Leiliana",
-      "data": "2026-10-14",
-      "obs": "",
-      "criado_em": "2026-10-14 16:17:59",
-      "item": "Soro fisiológico 100ml",
       "usuario": "Leiliana"
     }
   ]
