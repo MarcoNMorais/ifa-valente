@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "21/10/2026 16:50:04",
+  "atualizado_em": "21/10/2026 16:50:31",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
-    "total_almoxarifado": 120335,
-    "total_farmacia": 33120,
+    "total_almoxarifado": 120295,
+    "total_farmacia": 33160,
     "total_geral": 153455,
     "perto_de_terminar": 27,
     "zerados": 14
@@ -9456,8 +9456,8 @@
       "nome": "Lanceta de segurança",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 40,
-      "farmacia": 0,
+      "almoxarifado": 0,
+      "farmacia": 40,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -9469,12 +9469,12 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-19 10:55:04",
+      "atualizado_em": "2026-10-21 16:50:30",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
         {
-          "local": "almoxarifado",
+          "local": "farmacia",
           "validade": "",
           "lote": "",
           "quantidade": 40
@@ -17676,6 +17676,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 4765,
+      "item_id": 194,
+      "produto_nome": "Lanceta de segurança",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 40,
+      "responsavel": "Leiliana",
+      "data": "2026-10-21",
+      "obs": "",
+      "criado_em": "2026-10-21 16:50:30",
+      "item": "Lanceta de segurança",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 4764,
       "item_id": 195,
       "produto_nome": "Tira Reagente G-Tech",
@@ -25158,21 +25173,6 @@
       "obs": "",
       "criado_em": "2026-10-15 14:20:11",
       "item": "Enoxaparina sódica 40mg",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 4265,
-      "item_id": 224,
-      "produto_nome": "Meropenem 500mg",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 10,
-      "responsavel": "Leiliana",
-      "data": "2026-10-15",
-      "obs": "",
-      "criado_em": "2026-10-15 14:18:51",
-      "item": "Meropenem 500mg",
       "usuario": "Leiliana"
     }
   ]
