@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "21/10/2026 11:18:22",
+  "atualizado_em": "21/10/2026 11:18:29",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
     "total_almoxarifado": 120667,
-    "total_farmacia": 33690,
-    "total_geral": 154357,
+    "total_farmacia": 33689,
+    "total_geral": 154356,
     "perto_de_terminar": 26,
     "zerados": 14
   },
@@ -12556,19 +12556,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 63,
+      "farmacia": 62,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 63,
+      "total": 62,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga Farmácia 227-288",
       "obs": "Importação Farmácia 227-288",
-      "atualizado_em": "2026-10-19 10:55:04",
+      "atualizado_em": "2026-10-21 11:18:28",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -12576,7 +12576,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 63
+          "quantidade": 62
         }
       ],
       "minimo_manual": 0,
@@ -12584,9 +12584,9 @@
       "previsao_20_dias": 7,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 65,
-      "media_diaria_saida": 0.31,
-      "total_saida_historica": 20,
-      "cobertura_dias": 204.8,
+      "media_diaria_saida": 0.32,
+      "total_saida_historica": 21,
+      "cobertura_dias": 191.9,
       "alerta_estoque": false
     },
     {
@@ -17663,6 +17663,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 4708,
+      "item_id": 260,
+      "produto_nome": "Paracetamol gotas",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 1,
+      "responsavel": "Assucena",
+      "data": "2026-10-21",
+      "obs": "",
+      "criado_em": "2026-10-21 11:18:28",
+      "item": "Paracetamol gotas",
+      "usuario": "Assucena"
+    },
     {
       "id": 4707,
       "item_id": 255,
@@ -25145,21 +25160,6 @@
       "data": "2026-10-14",
       "obs": "",
       "criado_em": "2026-10-14 16:21:55",
-      "item": "Scalp nº 21",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 4208,
-      "item_id": 99,
-      "produto_nome": "Scalp nº 21",
-      "tipo": "Almoxarifado para Farmácia",
-      "origem": "Almoxarifado",
-      "destino": "Farmácia",
-      "quantidade": 100,
-      "responsavel": "Leiliana",
-      "data": "2026-10-14",
-      "obs": "",
-      "criado_em": "2026-10-14 16:21:45",
       "item": "Scalp nº 21",
       "usuario": "Leiliana"
     }
