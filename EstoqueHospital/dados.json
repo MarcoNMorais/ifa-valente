@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "21/10/2026 11:23:33",
+  "atualizado_em": "21/10/2026 11:44:31",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
     "total_almoxarifado": 120589,
-    "total_farmacia": 33265,
-    "total_geral": 153854,
+    "total_farmacia": 33264,
+    "total_geral": 153853,
     "perto_de_terminar": 26,
     "zerados": 14
   },
@@ -10461,19 +10461,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 60,
-      "farmacia": 922,
+      "farmacia": 921,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 982,
+      "total": 981,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga Almoxerifado",
       "obs": "Importação Almoxerifado",
-      "atualizado_em": "2026-10-21 11:21:33",
+      "atualizado_em": "2026-10-21 11:44:30",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -10487,7 +10487,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 922
+          "quantidade": 921
         }
       ],
       "minimo_manual": 0,
@@ -10495,9 +10495,9 @@
       "previsao_20_dias": 6,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 65,
-      "media_diaria_saida": 0.28,
-      "total_saida_historica": 18,
-      "cobertura_dias": 3546.1,
+      "media_diaria_saida": 0.29,
+      "total_saida_historica": 19,
+      "cobertura_dias": 3356.1,
       "alerta_estoque": false
     },
     {
@@ -17663,6 +17663,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 4740,
+      "item_id": 280,
+      "produto_nome": "Luva M procedimento",
+      "tipo": "Farmácia para recepção",
+      "origem": "Farmácia",
+      "destino": "recepção",
+      "quantidade": 1,
+      "responsavel": "Assucena",
+      "data": "2026-10-21",
+      "obs": "",
+      "criado_em": "2026-10-21 11:44:30",
+      "item": "Luva M procedimento",
+      "usuario": "Assucena"
+    },
     {
       "id": 4739,
       "item_id": 63,
@@ -25146,21 +25161,6 @@
       "obs": "",
       "criado_em": "2026-10-15 14:12:57",
       "item": "Seringa 1ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 4240,
-      "item_id": 104,
-      "produto_nome": "Seringa 3ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 10,
-      "responsavel": "Leiliana",
-      "data": "2026-10-15",
-      "obs": "",
-      "criado_em": "2026-10-15 14:12:49",
-      "item": "Seringa 3ml",
       "usuario": "Leiliana"
     }
   ]
