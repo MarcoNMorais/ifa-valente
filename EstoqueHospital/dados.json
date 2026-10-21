@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "21/10/2026 16:12:35",
+  "atualizado_em": "21/10/2026 16:13:06",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
-    "total_almoxarifado": 120575,
-    "total_farmacia": 32942,
+    "total_almoxarifado": 120335,
+    "total_farmacia": 33182,
     "total_geral": 153517,
     "perto_de_terminar": 26,
     "zerados": 14
@@ -15837,8 +15837,8 @@
       "nome": "Soro fisiológico 100ml",
       "tipo": "Insumo",
       "unidade": "Unidade",
-      "almoxarifado": 920,
-      "farmacia": 0,
+      "almoxarifado": 680,
+      "farmacia": 240,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -15850,7 +15850,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-20 09:57:02",
+      "atualizado_em": "2026-10-21 16:13:05",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -15858,7 +15858,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 920
+          "quantidade": 680
+        },
+        {
+          "local": "farmacia",
+          "validade": "",
+          "lote": "",
+          "quantidade": 240
         }
       ],
       "minimo_manual": 0,
@@ -17669,6 +17675,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 4762,
+      "item_id": 202,
+      "produto_nome": "Soro fisiológico 100ml",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 240,
+      "responsavel": "Leiliana",
+      "data": "2026-10-21",
+      "obs": "",
+      "criado_em": "2026-10-21 16:13:05",
+      "item": "Soro fisiológico 100ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 4761,
       "item_id": 274,
@@ -25152,21 +25173,6 @@
       "obs": "",
       "criado_em": "2026-10-15 14:18:27",
       "item": "Lactulose solução",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 4262,
-      "item_id": 242,
-      "produto_nome": "Óleo mineral solução",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 1,
-      "responsavel": "Leiliana",
-      "data": "2026-10-15",
-      "obs": "",
-      "criado_em": "2026-10-15 14:18:16",
-      "item": "Óleo mineral solução",
       "usuario": "Leiliana"
     }
   ]
