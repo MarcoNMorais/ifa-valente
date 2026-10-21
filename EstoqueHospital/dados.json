@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "21/10/2026 11:13:40",
+  "atualizado_em": "21/10/2026 11:13:49",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
     "total_almoxarifado": 120720,
-    "total_farmacia": 34019,
-    "total_geral": 154739,
+    "total_farmacia": 33999,
+    "total_geral": 154719,
     "perto_de_terminar": 26,
     "zerados": 14
   },
@@ -13388,19 +13388,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 5900,
-      "farmacia": 2413,
+      "farmacia": 2393,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 8313,
+      "total": 8293,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-20 09:57:38",
+      "atualizado_em": "2026-10-21 11:13:47",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -13414,17 +13414,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 2413
+          "quantidade": 2393
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 819,
-      "previsao_20_dias": 819,
+      "minimo_alerta": 825,
+      "previsao_20_dias": 825,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 70,
-      "media_diaria_saida": 40.93,
-      "total_saida_historica": 2865,
-      "cobertura_dias": 203.1,
+      "media_diaria_saida": 41.21,
+      "total_saida_historica": 2885,
+      "cobertura_dias": 201.2,
       "alerta_estoque": false
     },
     {
@@ -17663,6 +17663,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 4680,
+      "item_id": 104,
+      "produto_nome": "Seringa 3ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 20,
+      "responsavel": "Assucena",
+      "data": "2026-10-20",
+      "obs": "",
+      "criado_em": "2026-10-21 11:13:47",
+      "item": "Seringa 3ml",
+      "usuario": "Assucena"
+    },
     {
       "id": 4679,
       "item_id": 102,
@@ -25146,21 +25161,6 @@
       "obs": "",
       "criado_em": "2026-10-14 11:05:23",
       "item": "Enoxaparina sódica 40mg",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 4180,
-      "item_id": 64,
-      "produto_nome": "Fosfato de Clindamicina 150mg",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 10,
-      "responsavel": "Assucena",
-      "data": "2026-10-13",
-      "obs": "",
-      "criado_em": "2026-10-14 11:05:16",
-      "item": "Fosfato de Clindamicina 150mg",
       "usuario": "Assucena"
     }
   ]
