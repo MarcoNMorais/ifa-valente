@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "21/10/2026 16:09:12",
+  "atualizado_em": "21/10/2026 16:09:23",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
     "total_almoxarifado": 120587,
-    "total_farmacia": 33159,
-    "total_geral": 153746,
+    "total_farmacia": 33129,
+    "total_geral": 153716,
     "perto_de_terminar": 26,
     "zerados": 14
   },
@@ -5177,19 +5177,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 1350,
+      "farmacia": 1320,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1350,
+      "total": 1320,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-21 11:15:15",
+      "atualizado_em": "2026-10-21 16:09:22",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -5197,17 +5197,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 1350
+          "quantidade": 1320
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 895,
-      "previsao_20_dias": 895,
+      "minimo_alerta": 903,
+      "previsao_20_dias": 903,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 70,
-      "media_diaria_saida": 44.71,
-      "total_saida_historica": 3130,
-      "cobertura_dias": 30.2,
+      "media_diaria_saida": 45.14,
+      "total_saida_historica": 3160,
+      "cobertura_dias": 29.2,
       "alerta_estoque": false
     },
     {
@@ -17670,6 +17670,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 4749,
+      "item_id": 70,
+      "produto_nome": "Dipirona",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 30,
+      "responsavel": "Leiliana",
+      "data": "2026-10-21",
+      "obs": "",
+      "criado_em": "2026-10-21 16:09:22",
+      "item": "Dipirona",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 4748,
       "item_id": 68,
       "produto_nome": "Dexametasona",
@@ -25152,21 +25167,6 @@
       "obs": "",
       "criado_em": "2026-10-15 14:15:19",
       "item": "Vitamina K 10mg/ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 4249,
-      "item_id": 70,
-      "produto_nome": "Dipirona",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 30,
-      "responsavel": "Leiliana",
-      "data": "2026-10-15",
-      "obs": "",
-      "criado_em": "2026-10-15 14:15:07",
-      "item": "Dipirona",
       "usuario": "Leiliana"
     }
   ]
