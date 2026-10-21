@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "21/10/2026 16:10:21",
+  "atualizado_em": "21/10/2026 16:10:32",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
     "total_almoxarifado": 120587,
-    "total_farmacia": 32994,
-    "total_geral": 153581,
+    "total_farmacia": 32969,
+    "total_geral": 153556,
     "perto_de_terminar": 26,
     "zerados": 14
   },
@@ -5904,19 +5904,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 2631,
-      "farmacia": 124,
+      "farmacia": 99,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 2755,
+      "total": 2730,
       "minimo": 300,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-21 11:21:00",
+      "atualizado_em": "2026-10-21 16:10:31",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -5930,17 +5930,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 149
+          "quantidade": 124
         }
       ],
       "minimo_manual": 300,
-      "minimo_alerta": 549,
-      "previsao_20_dias": 549,
+      "minimo_alerta": 556,
+      "previsao_20_dias": 556,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 70,
-      "media_diaria_saida": 27.43,
-      "total_saida_historica": 1920,
-      "cobertura_dias": 100.4,
+      "media_diaria_saida": 27.79,
+      "total_saida_historica": 1945,
+      "cobertura_dias": 98.3,
       "alerta_estoque": false
     },
     {
@@ -17670,6 +17670,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 4755,
+      "item_id": 220,
+      "produto_nome": "Equipo macrogotas",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 25,
+      "responsavel": "Leiliana",
+      "data": "2026-10-21",
+      "obs": "",
+      "criado_em": "2026-10-21 16:10:31",
+      "item": "Equipo macrogotas",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 4754,
       "item_id": 104,
       "produto_nome": "Seringa 3ml",
@@ -25152,21 +25167,6 @@
       "obs": "",
       "criado_em": "2026-10-15 14:16:28",
       "item": "GLICOSE 50% AMP 10ML",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 4255,
-      "item_id": 27,
-      "produto_nome": "Paracetamol 500mg",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 10,
-      "responsavel": "Leiliana",
-      "data": "2026-10-15",
-      "obs": "",
-      "criado_em": "2026-10-15 14:16:17",
-      "item": "Paracetamol 500mg",
       "usuario": "Leiliana"
     }
   ]
