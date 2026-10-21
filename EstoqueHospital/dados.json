@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "21/10/2026 11:19:25",
+  "atualizado_em": "21/10/2026 11:19:31",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
     "total_almoxarifado": 120619,
-    "total_farmacia": 33592,
-    "total_geral": 154211,
+    "total_farmacia": 33568,
+    "total_geral": 154187,
     "perto_de_terminar": 26,
     "zerados": 14
   },
@@ -16102,19 +16102,19 @@
       "tipo": "Insumo",
       "unidade": "Unidade",
       "almoxarifado": 448,
-      "farmacia": 67,
+      "farmacia": 43,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 515,
+      "total": 491,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-21 11:19:23",
+      "atualizado_em": "2026-10-21 11:19:29",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -16128,17 +16128,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 67
+          "quantidade": 43
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 125,
-      "previsao_20_dias": 125,
+      "minimo_alerta": 132,
+      "previsao_20_dias": 132,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 70,
-      "media_diaria_saida": 6.24,
-      "total_saida_historica": 437,
-      "cobertura_dias": 82.5,
+      "media_diaria_saida": 6.59,
+      "total_saida_historica": 461,
+      "cobertura_dias": 74.6,
       "alerta_estoque": false
     },
     {
@@ -17663,6 +17663,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 4715,
+      "item_id": 201,
+      "produto_nome": "Soro Ringer Lactato 500ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 24,
+      "responsavel": "Assucena",
+      "data": "2026-10-21",
+      "obs": "",
+      "criado_em": "2026-10-21 11:19:29",
+      "item": "Soro Ringer Lactato 500ml",
+      "usuario": "Assucena"
+    },
     {
       "id": 4714,
       "item_id": 201,
@@ -25146,21 +25161,6 @@
       "obs": "",
       "criado_em": "2026-10-14 16:23:40",
       "item": "Bolsa coletora",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 4215,
-      "item_id": 220,
-      "produto_nome": "Equipo macrogotas",
-      "tipo": "Farmácia para AJUSTE DE ESTOQUE",
-      "origem": "Farmácia",
-      "destino": "AJUSTE DE ESTOQUE",
-      "quantidade": 25,
-      "responsavel": "Leiliana",
-      "data": "2026-10-14",
-      "obs": "",
-      "criado_em": "2026-10-14 16:23:15",
-      "item": "Equipo macrogotas",
       "usuario": "Leiliana"
     }
   ]
