@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "22/10/2026 15:58:35",
+  "atualizado_em": "22/10/2026 15:58:46",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
     "total_almoxarifado": 120025,
-    "total_farmacia": 32604,
-    "total_geral": 152629,
+    "total_farmacia": 32584,
+    "total_geral": 152609,
     "perto_de_terminar": 31,
     "zerados": 15
   },
@@ -11365,19 +11365,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 35,
-      "farmacia": 144,
+      "farmacia": 124,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 179,
+      "total": 159,
       "minimo": 0,
       "validade": "2028-01",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-19 14:41:23",
+      "atualizado_em": "2026-10-22 15:58:44",
       "validade_mais_proxima": "2028-01",
       "vencimento_mais_proximo": "2028-01",
       "lotes_validade": [
@@ -11385,7 +11385,7 @@
           "local": "farmacia",
           "validade": "2028-01",
           "lote": "",
-          "quantidade": 144
+          "quantidade": 124
         },
         {
           "local": "almoxarifado",
@@ -11395,13 +11395,13 @@
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 39,
-      "previsao_20_dias": 39,
+      "minimo_alerta": 44,
+      "previsao_20_dias": 44,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 71,
-      "media_diaria_saida": 1.92,
-      "total_saida_historica": 136,
-      "cobertura_dias": 93.4,
+      "media_diaria_saida": 2.2,
+      "total_saida_historica": 156,
+      "cobertura_dias": 72.4,
       "alerta_estoque": false
     },
     {
@@ -17662,6 +17662,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 4826,
+      "item_id": 12,
+      "produto_nome": "Morfina 10mg/ml 1ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 20,
+      "responsavel": "Leiliana",
+      "data": "2026-10-22",
+      "obs": "",
+      "criado_em": "2026-10-22 15:58:44",
+      "item": "Morfina 10mg/ml 1ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 4825,
       "item_id": 241,
@@ -25145,21 +25160,6 @@
       "obs": "",
       "criado_em": "2026-10-15 16:07:30",
       "item": "Soro fisiológico 100ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 4326,
-      "item_id": 154,
-      "produto_nome": "Equipo fotossensível",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 2,
-      "responsavel": "Leiliana",
-      "data": "2026-10-15",
-      "obs": "",
-      "criado_em": "2026-10-15 16:07:20",
-      "item": "Equipo fotossensível",
       "usuario": "Leiliana"
     }
   ]
