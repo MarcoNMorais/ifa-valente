@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "22/10/2026 15:56:42",
+  "atualizado_em": "22/10/2026 15:57:51",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
-    "total_almoxarifado": 120235,
-    "total_farmacia": 32441,
+    "total_almoxarifado": 120025,
+    "total_farmacia": 32651,
     "total_geral": 152676,
     "perto_de_terminar": 30,
     "zerados": 15
@@ -8734,8 +8734,8 @@
       "nome": "Hidrocortisona 100MG",
       "tipo": "Medicamento",
       "unidade": "Unidade",
-      "almoxarifado": 210,
-      "farmacia": 0,
+      "almoxarifado": 0,
+      "farmacia": 210,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -8747,21 +8747,15 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-21 16:12:19",
+      "atualizado_em": "2026-10-22 15:57:49",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
         {
-          "local": "almoxarifado",
-          "validade": "",
-          "lote": "",
-          "quantidade": 210
-        },
-        {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 10
+          "quantidade": 220
         }
       ],
       "minimo_manual": 0,
@@ -17669,6 +17663,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 4821,
+      "item_id": 82,
+      "produto_nome": "Hidrocortisona 100MG",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 210,
+      "responsavel": "Leiliana",
+      "data": "2026-10-22",
+      "obs": "",
+      "criado_em": "2026-10-22 15:57:49",
+      "item": "Hidrocortisona 100MG",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 4820,
       "item_id": 60,
       "produto_nome": "Cetoprofeno EV 100mg",
@@ -25151,21 +25160,6 @@
       "obs": "",
       "criado_em": "2026-10-15 16:06:44",
       "item": "Seringa 10ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 4321,
-      "item_id": 285,
-      "produto_nome": "Agulha 30x7",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 40,
-      "responsavel": "Leiliana",
-      "data": "2026-10-15",
-      "obs": "",
-      "criado_em": "2026-10-15 16:06:34",
-      "item": "Agulha 30x7",
       "usuario": "Leiliana"
     }
   ]
