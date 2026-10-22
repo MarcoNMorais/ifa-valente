@@ -1,12 +1,12 @@
 {
-  "atualizado_em": "22/10/2026 10:30:57",
+  "atualizado_em": "22/10/2026 10:31:04",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
     "total_almoxarifado": 120345,
-    "total_farmacia": 33069,
-    "total_geral": 153414,
-    "perto_de_terminar": 27,
+    "total_farmacia": 33039,
+    "total_geral": 153384,
+    "perto_de_terminar": 28,
     "zerados": 14
   },
   "itens": [
@@ -320,19 +320,19 @@
       "tipo": "Medicamento",
       "unidade": "Ampola",
       "almoxarifado": 0,
-      "farmacia": 150,
+      "farmacia": 120,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 150,
+      "total": 120,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-19 10:55:04",
+      "atualizado_em": "2026-10-22 10:31:00",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -340,18 +340,18 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 150
+          "quantidade": 120
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 123,
-      "previsao_20_dias": 123,
+      "minimo_alerta": 135,
+      "previsao_20_dias": 135,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 49,
-      "media_diaria_saida": 6.12,
-      "total_saida_historica": 300,
-      "cobertura_dias": 24.5,
-      "alerta_estoque": false
+      "media_diaria_saida": 6.73,
+      "total_saida_historica": 330,
+      "cobertura_dias": 17.8,
+      "alerta_estoque": true
     },
     {
       "id": 409,
@@ -17682,6 +17682,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 4772,
+      "item_id": 384,
+      "produto_nome": "ACIDO ASCORBICO",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 30,
+      "responsavel": "Assucena",
+      "data": "2026-10-22",
+      "obs": "",
+      "criado_em": "2026-10-22 10:31:00",
+      "item": "ACIDO ASCORBICO",
+      "usuario": "Assucena"
+    },
+    {
       "id": 4771,
       "item_id": 68,
       "produto_nome": "Dexametasona",
@@ -25164,21 +25179,6 @@
       "obs": "",
       "criado_em": "2026-10-15 14:23:21",
       "item": "Dexametasona",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 4272,
-      "item_id": 62,
-      "produto_nome": "Cimetidina 150mg",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 20,
-      "responsavel": "Leiliana",
-      "data": "2026-10-15",
-      "obs": "",
-      "criado_em": "2026-10-15 14:23:12",
-      "item": "Cimetidina 150mg",
       "usuario": "Leiliana"
     }
   ]
