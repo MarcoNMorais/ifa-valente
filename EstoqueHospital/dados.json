@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "22/10/2026 10:35:12",
+  "atualizado_em": "22/10/2026 10:35:21",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
     "total_almoxarifado": 120345,
-    "total_farmacia": 32548,
-    "total_geral": 152893,
+    "total_farmacia": 32498,
+    "total_geral": 152843,
     "perto_de_terminar": 29,
     "zerados": 14
   },
@@ -513,19 +513,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 7300,
-      "farmacia": 325,
+      "farmacia": 275,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 7625,
+      "total": 7575,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-22 10:31:14",
+      "atualizado_em": "2026-10-22 10:35:20",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -539,17 +539,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 325
+          "quantidade": 275
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 1582,
-      "previsao_20_dias": 1582,
+      "minimo_alerta": 1603,
+      "previsao_20_dias": 1603,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 49,
-      "media_diaria_saida": 79.08,
-      "total_saida_historica": 3875,
-      "cobertura_dias": 96.4,
+      "media_diaria_saida": 80.1,
+      "total_saida_historica": 3925,
+      "cobertura_dias": 94.6,
       "alerta_estoque": false
     },
     {
@@ -17682,6 +17682,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 4805,
+      "item_id": 390,
+      "produto_nome": "AGULHA  40X1,2",
+      "tipo": "Farmácia para Posto de Internamento",
+      "origem": "Farmácia",
+      "destino": "Posto de Internamento",
+      "quantidade": 50,
+      "responsavel": "Assucena",
+      "data": "2026-10-22",
+      "obs": "",
+      "criado_em": "2026-10-22 10:35:20",
+      "item": "AGULHA  40X1,2",
+      "usuario": "Assucena"
+    },
+    {
       "id": 4804,
       "item_id": 255,
       "produto_nome": "Ibuprofeno gotas",
@@ -25164,21 +25179,6 @@
       "obs": "",
       "criado_em": "2026-10-15 14:32:10",
       "item": "Ciprofloxacino",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 4305,
-      "item_id": 290,
-      "produto_nome": "Metronidazol 100ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 1,
-      "responsavel": "Leiliana",
-      "data": "2026-10-15",
-      "obs": "",
-      "criado_em": "2026-10-15 14:32:01",
-      "item": "Metronidazol 100ml",
       "usuario": "Leiliana"
     }
   ]
