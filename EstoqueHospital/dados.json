@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "22/10/2026 10:32:29",
+  "atualizado_em": "22/10/2026 10:32:36",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
     "total_almoxarifado": 120345,
-    "total_farmacia": 32778,
-    "total_geral": 153123,
+    "total_farmacia": 32777,
+    "total_geral": 153122,
     "perto_de_terminar": 29,
     "zerados": 14
   },
@@ -4873,19 +4873,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 15,
+      "farmacia": 14,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 15,
+      "total": 14,
       "minimo": 0,
       "validade": "04/28",
       "lote": "",
       "origem": "Carga Farmácia 227-288",
       "obs": "Importação Farmácia 227-288",
-      "atualizado_em": "2026-10-19 15:08:33",
+      "atualizado_em": "2026-10-22 10:32:35",
       "validade_mais_proxima": "04/28",
       "vencimento_mais_proximo": "04/28",
       "lotes_validade": [
@@ -4893,7 +4893,7 @@
           "local": "farmacia",
           "validade": "04/28",
           "lote": "",
-          "quantidade": 15
+          "quantidade": 14
         }
       ],
       "minimo_manual": 0,
@@ -4901,9 +4901,9 @@
       "previsao_20_dias": 3,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 66,
-      "media_diaria_saida": 0.11,
-      "total_saida_historica": 7,
-      "cobertura_dias": 141.4,
+      "media_diaria_saida": 0.12,
+      "total_saida_historica": 8,
+      "cobertura_dias": 115.5,
       "alerta_estoque": false
     },
     {
@@ -17682,6 +17682,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 4785,
+      "item_id": 244,
+      "produto_nome": "Dexclorfeniramina 0,4mg/ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 1,
+      "responsavel": "Assucena",
+      "data": "2026-10-22",
+      "obs": "",
+      "criado_em": "2026-10-22 10:32:35",
+      "item": "Dexclorfeniramina 0,4mg/ml",
+      "usuario": "Assucena"
+    },
+    {
       "id": 4784,
       "item_id": 252,
       "produto_nome": "Salbutamol spray",
@@ -25164,21 +25179,6 @@
       "obs": "",
       "criado_em": "2026-10-15 14:26:52",
       "item": "Agulha 30x8",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 4285,
-      "item_id": 285,
-      "produto_nome": "Agulha 30x7",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 50,
-      "responsavel": "Leiliana",
-      "data": "2026-10-15",
-      "obs": "",
-      "criado_em": "2026-10-15 14:26:41",
-      "item": "Agulha 30x7",
       "usuario": "Leiliana"
     }
   ]
