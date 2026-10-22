@@ -1,13 +1,13 @@
 {
-  "atualizado_em": "22/10/2026 10:35:59",
+  "atualizado_em": "22/10/2026 10:36:07",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
     "total_almoxarifado": 120345,
-    "total_farmacia": 32407,
-    "total_geral": 152752,
-    "perto_de_terminar": 29,
-    "zerados": 14
+    "total_farmacia": 32402,
+    "total_geral": 152747,
+    "perto_de_terminar": 30,
+    "zerados": 15
   },
   "itens": [
     {
@@ -11212,38 +11212,31 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 5,
+      "farmacia": 0,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 5,
+      "total": 0,
       "minimo": 0,
-      "validade": "2028-03",
+      "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-10-22 10:34:05",
-      "validade_mais_proxima": "2028-03",
-      "vencimento_mais_proximo": "2028-03",
-      "lotes_validade": [
-        {
-          "local": "farmacia",
-          "validade": "2028-03",
-          "lote": "",
-          "quantidade": 5
-        }
-      ],
+      "atualizado_em": "2026-10-22 10:36:06",
+      "validade_mais_proxima": "",
+      "vencimento_mais_proximo": "",
+      "lotes_validade": [],
       "minimo_manual": 0,
-      "minimo_alerta": 2,
-      "previsao_20_dias": 2,
+      "minimo_alerta": 4,
+      "previsao_20_dias": 4,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 71,
-      "media_diaria_saida": 0.1,
-      "total_saida_historica": 7,
-      "cobertura_dias": 50.7,
-      "alerta_estoque": false
+      "media_diaria_saida": 0.17,
+      "total_saida_historica": 12,
+      "cobertura_dias": 0.0,
+      "alerta_estoque": true
     },
     {
       "id": 11,
@@ -17681,6 +17674,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 4811,
+      "item_id": 87,
+      "produto_nome": "Metronidazol 500mg",
+      "tipo": "Farmácia para Posto de Internamento",
+      "origem": "Farmácia",
+      "destino": "Posto de Internamento",
+      "quantidade": 5,
+      "responsavel": "Assucena",
+      "data": "2026-10-22",
+      "obs": "",
+      "criado_em": "2026-10-22 10:36:06",
+      "item": "Metronidazol 500mg",
+      "usuario": "Assucena"
+    },
     {
       "id": 4810,
       "item_id": 220,
@@ -25164,21 +25172,6 @@
       "obs": "",
       "criado_em": "2026-10-15 14:33:31",
       "item": "Soro fisiológico 250ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 4311,
-      "item_id": 204,
-      "produto_nome": "Soro fisiológico 500ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 6,
-      "responsavel": "Leiliana",
-      "data": "2026-10-15",
-      "obs": "",
-      "criado_em": "2026-10-15 14:33:22",
-      "item": "Soro fisiológico 500ml",
       "usuario": "Leiliana"
     }
   ]
