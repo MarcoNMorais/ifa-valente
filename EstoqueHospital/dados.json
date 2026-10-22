@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "22/10/2026 10:36:31",
+  "atualizado_em": "22/10/2026 10:36:41",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
     "total_almoxarifado": 120245,
-    "total_farmacia": 32487,
-    "total_geral": 152732,
+    "total_farmacia": 32477,
+    "total_geral": 152722,
     "perto_de_terminar": 30,
     "zerados": 15
   },
@@ -13169,19 +13169,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 1120,
-      "farmacia": 100,
+      "farmacia": 90,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1220,
+      "total": 1210,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-22 10:36:30",
+      "atualizado_em": "2026-10-22 10:36:39",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -13195,17 +13195,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 110
+          "quantidade": 100
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 187,
-      "previsao_20_dias": 187,
+      "minimo_alerta": 190,
+      "previsao_20_dias": 190,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 71,
-      "media_diaria_saida": 9.32,
-      "total_saida_historica": 662,
-      "cobertura_dias": 130.8,
+      "media_diaria_saida": 9.46,
+      "total_saida_historica": 672,
+      "cobertura_dias": 127.8,
       "alerta_estoque": false
     },
     {
@@ -17674,6 +17674,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 4814,
+      "item_id": 98,
+      "produto_nome": "Scalp nº 23",
+      "tipo": "Farmácia para Posto de Internamento",
+      "origem": "Farmácia",
+      "destino": "Posto de Internamento",
+      "quantidade": 10,
+      "responsavel": "Assucena",
+      "data": "2026-10-22",
+      "obs": "",
+      "criado_em": "2026-10-22 10:36:39",
+      "item": "Scalp nº 23",
+      "usuario": "Assucena"
+    },
     {
       "id": 4812,
       "item_id": 135,
@@ -25157,21 +25172,6 @@
       "obs": "",
       "criado_em": "2026-10-15 14:34:29",
       "item": "Soro Ringer Lactato 500ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 4314,
-      "item_id": 163,
-      "produto_nome": "Eletrodo ECG descartável",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 5,
-      "responsavel": "Leiliana",
-      "data": "2026-10-15",
-      "obs": "",
-      "criado_em": "2026-10-15 14:33:48",
-      "item": "Eletrodo ECG descartável",
       "usuario": "Leiliana"
     }
   ]
