@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "22/10/2026 10:31:31",
+  "atualizado_em": "22/10/2026 10:31:38",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
     "total_almoxarifado": 120345,
-    "total_farmacia": 32879,
-    "total_geral": 153224,
+    "total_farmacia": 32859,
+    "total_geral": 153204,
     "perto_de_terminar": 29,
     "zerados": 14
   },
@@ -685,19 +685,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 4000,
-      "farmacia": 600,
+      "farmacia": 580,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 4600,
+      "total": 4580,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-19 16:23:47",
+      "atualizado_em": "2026-10-22 10:31:37",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -711,17 +711,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 600
+          "quantidade": 580
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 243,
-      "previsao_20_dias": 243,
+      "minimo_alerta": 249,
+      "previsao_20_dias": 249,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 66,
-      "media_diaria_saida": 12.12,
-      "total_saida_historica": 800,
-      "cobertura_dias": 379.5,
+      "media_diaria_saida": 12.42,
+      "total_saida_historica": 820,
+      "cobertura_dias": 368.6,
       "alerta_estoque": false
     },
     {
@@ -17682,6 +17682,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 4777,
+      "item_id": 289,
+      "produto_nome": "Agulha 25x8",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 20,
+      "responsavel": "Assucena",
+      "data": "2026-10-22",
+      "obs": "",
+      "criado_em": "2026-10-22 10:31:37",
+      "item": "Agulha 25x8",
+      "usuario": "Assucena"
+    },
+    {
       "id": 4776,
       "item_id": 331,
       "produto_nome": "Agulha 30x8",
@@ -25164,21 +25179,6 @@
       "obs": "",
       "criado_em": "2026-10-15 14:25:09",
       "item": "Ondansetrona 2mg/ml 2ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 4277,
-      "item_id": 70,
-      "produto_nome": "Dipirona",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 50,
-      "responsavel": "Leiliana",
-      "data": "2026-10-15",
-      "obs": "",
-      "criado_em": "2026-10-15 14:24:52",
-      "item": "Dipirona",
       "usuario": "Leiliana"
     }
   ]
