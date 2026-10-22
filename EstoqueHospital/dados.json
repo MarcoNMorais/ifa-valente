@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "22/10/2026 15:59:42",
+  "atualizado_em": "22/10/2026 16:00:10",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
-    "total_almoxarifado": 120025,
-    "total_farmacia": 32434,
+    "total_almoxarifado": 119875,
+    "total_farmacia": 32584,
     "total_geral": 152459,
     "perto_de_terminar": 31,
     "zerados": 15
@@ -13248,8 +13248,8 @@
       "nome": "Seringa 10ml",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 6050,
-      "farmacia": 25,
+      "almoxarifado": 5900,
+      "farmacia": 175,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -13261,7 +13261,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-22 10:35:37",
+      "atualizado_em": "2026-10-22 16:00:09",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -13269,13 +13269,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 6050
+          "quantidade": 5900
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 85
+          "quantidade": 235
         }
       ],
       "minimo_manual": 0,
@@ -17662,6 +17662,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 4832,
+      "item_id": 103,
+      "produto_nome": "Seringa 10ml",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 150,
+      "responsavel": "Leiliana",
+      "data": "2026-10-22",
+      "obs": "",
+      "criado_em": "2026-10-22 16:00:09",
+      "item": "Seringa 10ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 4831,
       "item_id": 199,
@@ -25145,21 +25160,6 @@
       "obs": "",
       "criado_em": "2026-10-16 15:26:24",
       "item": "Benzilpenicilina 1.200",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 4332,
-      "item_id": 199,
-      "produto_nome": "Lençol descartável papel",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 2,
-      "responsavel": "Leiliana",
-      "data": "2026-10-15",
-      "obs": "",
-      "criado_em": "2026-10-15 16:28:48",
-      "item": "Lençol descartável papel",
       "usuario": "Leiliana"
     }
   ]
