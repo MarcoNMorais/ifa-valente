@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "23/10/2026 15:40:32",
+  "atualizado_em": "23/10/2026 15:40:42",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
     "total_almoxarifado": 117303,
-    "total_farmacia": 33779,
-    "total_geral": 151082,
+    "total_farmacia": 33754,
+    "total_geral": 151057,
     "perto_de_terminar": 33,
     "zerados": 15
   },
@@ -5898,19 +5898,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 2506,
-      "farmacia": 99,
+      "farmacia": 74,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 2605,
+      "total": 2580,
       "minimo": 300,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-23 11:37:10",
+      "atualizado_em": "2026-10-23 15:40:41",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -5924,17 +5924,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 124
+          "quantidade": 99
         }
       ],
       "minimo_manual": 300,
-      "minimo_alerta": 575,
-      "previsao_20_dias": 575,
+      "minimo_alerta": 582,
+      "previsao_20_dias": 582,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 72,
-      "media_diaria_saida": 28.75,
-      "total_saida_historica": 2070,
-      "cobertura_dias": 90.6,
+      "media_diaria_saida": 29.1,
+      "total_saida_historica": 2095,
+      "cobertura_dias": 88.7,
       "alerta_estoque": false
     },
     {
@@ -17663,6 +17663,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 4921,
+      "item_id": 220,
+      "produto_nome": "Equipo macrogotas",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 25,
+      "responsavel": "Leiliana",
+      "data": "2026-10-23",
+      "obs": "",
+      "criado_em": "2026-10-23 15:40:41",
+      "item": "Equipo macrogotas",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 4920,
       "item_id": 104,
       "produto_nome": "Seringa 3ml",
@@ -25145,21 +25160,6 @@
       "obs": "",
       "criado_em": "2026-10-16 15:54:20",
       "item": "Tira Reagente G-Tech",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 4421,
-      "item_id": 113,
-      "produto_nome": "Sonda Nasogástrica nº 14",
-      "tipo": "Entrada no Almoxarifado",
-      "origem": "Entrada externa",
-      "destino": "Almoxarifado",
-      "quantidade": 7,
-      "responsavel": "Leiliana",
-      "data": "2026-10-16",
-      "obs": "",
-      "criado_em": "2026-10-16 15:54:08",
-      "item": "Sonda Nasogástrica nº 14",
       "usuario": "Leiliana"
     }
   ]
