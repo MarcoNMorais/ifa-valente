@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "23/10/2026 15:40:52",
+  "atualizado_em": "23/10/2026 15:41:09",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
     "total_almoxarifado": 117303,
-    "total_farmacia": 33751,
-    "total_geral": 151054,
+    "total_farmacia": 33749,
+    "total_geral": 151052,
     "perto_de_terminar": 33,
     "zerados": 15
   },
@@ -8201,19 +8201,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 72,
-      "farmacia": 8,
+      "farmacia": 6,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 80,
+      "total": 78,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-19 14:54:29",
+      "atualizado_em": "2026-10-23 15:41:08",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -8227,7 +8227,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 8
+          "quantidade": 6
         }
       ],
       "minimo_manual": 0,
@@ -8235,9 +8235,9 @@
       "previsao_20_dias": 6,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 67,
-      "media_diaria_saida": 0.25,
-      "total_saida_historica": 17,
-      "cobertura_dias": 315.3,
+      "media_diaria_saida": 0.28,
+      "total_saida_historica": 19,
+      "cobertura_dias": 275.1,
       "alerta_estoque": false
     },
     {
@@ -17663,6 +17663,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 4923,
+      "item_id": 294,
+      "produto_nome": "Glicerina 12%",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 2,
+      "responsavel": "Leiliana",
+      "data": "2026-10-23",
+      "obs": "",
+      "criado_em": "2026-10-23 15:41:08",
+      "item": "Glicerina 12%",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 4922,
       "item_id": 199,
       "produto_nome": "Lençol descartável papel",
@@ -25145,21 +25160,6 @@
       "obs": "",
       "criado_em": "2026-10-16 15:55:51",
       "item": "tubo endotraqueal n°7,5",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 4423,
-      "item_id": 414,
-      "produto_nome": "tubo endotraqueal n°6,5",
-      "tipo": "Entrada no Almoxarifado",
-      "origem": "Entrada externa",
-      "destino": "Almoxarifado",
-      "quantidade": 7,
-      "responsavel": "Leiliana",
-      "data": "2026-10-16",
-      "obs": "",
-      "criado_em": "2026-10-16 15:55:09",
-      "item": "tubo endotraqueal n°6,5",
       "usuario": "Leiliana"
     }
   ]
