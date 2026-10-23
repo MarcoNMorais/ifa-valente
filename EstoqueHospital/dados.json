@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "23/10/2026 11:22:25",
+  "atualizado_em": "23/10/2026 11:22:34",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
-    "total_almoxarifado": 118655,
-    "total_farmacia": 33773,
+    "total_almoxarifado": 118575,
+    "total_farmacia": 33853,
     "total_geral": 152428,
     "perto_de_terminar": 31,
     "zerados": 15
@@ -12634,8 +12634,8 @@
       "nome": "Polifix",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 2930,
-      "farmacia": 15,
+      "almoxarifado": 2850,
+      "farmacia": 95,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -12647,7 +12647,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-22 10:33:46",
+      "atualizado_em": "2026-10-23 11:22:32",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -12655,13 +12655,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 2930
+          "quantidade": 2850
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 15
+          "quantidade": 95
         }
       ],
       "minimo_manual": 0,
@@ -17662,6 +17662,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 4841,
+      "item_id": 329,
+      "produto_nome": "Polifix",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 80,
+      "responsavel": "Assucena",
+      "data": "2026-10-22",
+      "obs": "",
+      "criado_em": "2026-10-23 11:22:32",
+      "item": "Polifix",
+      "usuario": "Assucena"
+    },
     {
       "id": 4840,
       "item_id": 274,
@@ -25145,21 +25160,6 @@
       "obs": "",
       "criado_em": "2026-10-16 15:28:14",
       "item": "Tramadol 50mg/ml 2ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 4341,
-      "item_id": 204,
-      "produto_nome": "Soro fisiológico 500ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 5,
-      "responsavel": "Leiliana",
-      "data": "2026-10-16",
-      "obs": "",
-      "criado_em": "2026-10-16 15:27:49",
-      "item": "Soro fisiológico 500ml",
       "usuario": "Leiliana"
     }
   ]
