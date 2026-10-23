@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "23/10/2026 11:31:17",
+  "atualizado_em": "23/10/2026 11:31:24",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
     "total_almoxarifado": 117864,
-    "total_farmacia": 34461,
-    "total_geral": 152325,
+    "total_farmacia": 34431,
+    "total_geral": 152295,
     "perto_de_terminar": 31,
     "zerados": 15
   },
@@ -5177,19 +5177,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 1270,
+      "farmacia": 1240,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1270,
+      "total": 1240,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-22 10:34:32",
+      "atualizado_em": "2026-10-23 11:31:22",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -5197,17 +5197,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 1270
+          "quantidade": 1240
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 892,
-      "previsao_20_dias": 892,
+      "minimo_alerta": 900,
+      "previsao_20_dias": 900,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 72,
-      "media_diaria_saida": 44.58,
-      "total_saida_historica": 3210,
-      "cobertura_dias": 28.5,
+      "media_diaria_saida": 45.0,
+      "total_saida_historica": 3240,
+      "cobertura_dias": 27.6,
       "alerta_estoque": false
     },
     {
@@ -17669,6 +17669,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 4854,
+      "item_id": 70,
+      "produto_nome": "Dipirona",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 30,
+      "responsavel": "Assucena",
+      "data": "2026-10-23",
+      "obs": "",
+      "criado_em": "2026-10-23 11:31:22",
+      "item": "Dipirona",
+      "usuario": "Assucena"
+    },
+    {
       "id": 4853,
       "item_id": 66,
       "produto_nome": "Complexo B",
@@ -25151,21 +25166,6 @@
       "obs": "",
       "criado_em": "2026-10-16 15:31:13",
       "item": "Tira Reagente G-Tech",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 4354,
-      "item_id": 157,
-      "produto_nome": "Seringa 1ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 20,
-      "responsavel": "Leiliana",
-      "data": "2026-10-16",
-      "obs": "",
-      "criado_em": "2026-10-16 15:31:03",
-      "item": "Seringa 1ml",
       "usuario": "Leiliana"
     }
   ]
