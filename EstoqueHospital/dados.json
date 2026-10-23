@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "23/10/2026 11:35:09",
+  "atualizado_em": "23/10/2026 11:35:16",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
     "total_almoxarifado": 117827,
-    "total_farmacia": 34029,
-    "total_geral": 151856,
+    "total_farmacia": 34028,
+    "total_geral": 151855,
     "perto_de_terminar": 31,
     "zerados": 15
   },
@@ -10513,19 +10513,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 70,
-      "farmacia": 1122,
+      "farmacia": 1121,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1192,
+      "total": 1191,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-23 11:22:48",
+      "atualizado_em": "2026-10-23 11:35:14",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -10539,7 +10539,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 1122
+          "quantidade": 1121
         }
       ],
       "minimo_manual": 0,
@@ -10547,9 +10547,9 @@
       "previsao_20_dias": 6,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 67,
-      "media_diaria_saida": 0.27,
-      "total_saida_historica": 18,
-      "cobertura_dias": 4436.9,
+      "media_diaria_saida": 0.28,
+      "total_saida_historica": 19,
+      "cobertura_dias": 4199.8,
       "alerta_estoque": false
     },
     {
@@ -17668,6 +17668,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 4879,
+      "item_id": 281,
+      "produto_nome": "Luva P procedimento",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 1,
+      "responsavel": "Assucena",
+      "data": "2026-10-23",
+      "obs": "",
+      "criado_em": "2026-10-23 11:35:14",
+      "item": "Luva P procedimento",
+      "usuario": "Assucena"
+    },
     {
       "id": 4878,
       "item_id": 280,
@@ -25151,21 +25166,6 @@
       "obs": "",
       "criado_em": "2026-10-16 15:39:38",
       "item": "Bolsa coletora",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 4379,
-      "item_id": 197,
-      "produto_nome": "Atadura gessada nº 15",
-      "tipo": "Entrada no Almoxarifado",
-      "origem": "Entrada externa",
-      "destino": "Almoxarifado",
-      "quantidade": 60,
-      "responsavel": "Leiliana",
-      "data": "2026-10-16",
-      "obs": "",
-      "criado_em": "2026-10-16 15:39:15",
-      "item": "Atadura gessada nº 15",
       "usuario": "Leiliana"
     }
   ]
