@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "23/10/2026 11:33:39",
+  "atualizado_em": "23/10/2026 11:33:46",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
     "total_almoxarifado": 117827,
-    "total_farmacia": 34220,
-    "total_geral": 152047,
+    "total_farmacia": 34190,
+    "total_geral": 152017,
     "perto_de_terminar": 31,
     "zerados": 15
   },
@@ -7989,19 +7989,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 1370,
-      "farmacia": 180,
+      "farmacia": 150,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1550,
+      "total": 1520,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-21 11:22:58",
+      "atualizado_em": "2026-10-23 11:33:44",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -8015,17 +8015,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 180
+          "quantidade": 150
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 422,
-      "previsao_20_dias": 422,
+      "minimo_alerta": 430,
+      "previsao_20_dias": 430,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 72,
-      "media_diaria_saida": 21.08,
-      "total_saida_historica": 1518,
-      "cobertura_dias": 73.5,
+      "media_diaria_saida": 21.5,
+      "total_saida_historica": 1548,
+      "cobertura_dias": 70.7,
       "alerta_estoque": false
     },
     {
@@ -17669,6 +17669,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 4867,
+      "item_id": 177,
+      "produto_nome": "Gelco nº 22",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 30,
+      "responsavel": "Assucena",
+      "data": "2026-10-23",
+      "obs": "",
+      "criado_em": "2026-10-23 11:33:44",
+      "item": "Gelco nº 22",
+      "usuario": "Assucena"
+    },
+    {
       "id": 4866,
       "item_id": 319,
       "produto_nome": "Agulha 25x7",
@@ -25151,21 +25166,6 @@
       "obs": "",
       "criado_em": "2026-10-16 15:33:43",
       "item": "Agulha 25x8",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 4367,
-      "item_id": 44,
-      "produto_nome": "Clopidogrel 75mg CP",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 28,
-      "responsavel": "Leiliana",
-      "data": "2026-10-16",
-      "obs": "",
-      "criado_em": "2026-10-16 15:33:33",
-      "item": "Clopidogrel 75mg CP",
       "usuario": "Leiliana"
     }
   ]
