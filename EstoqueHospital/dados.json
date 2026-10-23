@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "23/10/2026 11:37:55",
+  "atualizado_em": "23/10/2026 11:38:03",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
     "total_almoxarifado": 117303,
-    "total_farmacia": 34263,
-    "total_geral": 151566,
+    "total_farmacia": 34253,
+    "total_geral": 151556,
     "perto_de_terminar": 31,
     "zerados": 15
   },
@@ -13157,19 +13157,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 1120,
-      "farmacia": 70,
+      "farmacia": 60,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1190,
+      "total": 1180,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-23 11:34:02",
+      "atualizado_em": "2026-10-23 11:38:02",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -13183,17 +13183,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 80
+          "quantidade": 70
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 193,
-      "previsao_20_dias": 193,
+      "minimo_alerta": 195,
+      "previsao_20_dias": 195,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 72,
-      "media_diaria_saida": 9.61,
-      "total_saida_historica": 692,
-      "cobertura_dias": 123.8,
+      "media_diaria_saida": 9.75,
+      "total_saida_historica": 702,
+      "cobertura_dias": 121.0,
       "alerta_estoque": false
     },
     {
@@ -17662,6 +17662,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 4896,
+      "item_id": 98,
+      "produto_nome": "Scalp nº 23",
+      "tipo": "Farmácia para Posto de Internamento",
+      "origem": "Farmácia",
+      "destino": "Posto de Internamento",
+      "quantidade": 10,
+      "responsavel": "Assucena",
+      "data": "2026-10-23",
+      "obs": "",
+      "criado_em": "2026-10-23 11:38:02",
+      "item": "Scalp nº 23",
+      "usuario": "Assucena"
+    },
     {
       "id": 4894,
       "item_id": 331,
@@ -25145,21 +25160,6 @@
       "obs": "",
       "criado_em": "2026-10-16 15:45:50",
       "item": "Luva cirúrgica tam. 7,5",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 4396,
-      "item_id": 199,
-      "produto_nome": "Lençol descartável papel",
-      "tipo": "Entrada no Almoxarifado",
-      "origem": "Entrada externa",
-      "destino": "Almoxarifado",
-      "quantidade": 112,
-      "responsavel": "Leiliana",
-      "data": "2026-10-16",
-      "obs": "",
-      "criado_em": "2026-10-16 15:45:33",
-      "item": "Lençol descartável papel",
       "usuario": "Leiliana"
     }
   ]
