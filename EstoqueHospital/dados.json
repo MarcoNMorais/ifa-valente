@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "23/10/2026 11:34:56",
+  "atualizado_em": "23/10/2026 11:35:03",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
     "total_almoxarifado": 117827,
-    "total_farmacia": 34035,
-    "total_geral": 151862,
+    "total_farmacia": 34030,
+    "total_geral": 151857,
     "perto_de_terminar": 31,
     "zerados": 15
   },
@@ -10019,19 +10019,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 300,
-      "farmacia": 59,
+      "farmacia": 54,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 359,
+      "total": 354,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-10-23 11:21:49",
+      "atualizado_em": "2026-10-23 11:34:59",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -10045,17 +10045,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 59
+          "quantidade": 54
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 42,
-      "previsao_20_dias": 42,
+      "minimo_alerta": 44,
+      "previsao_20_dias": 44,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 72,
-      "media_diaria_saida": 2.1,
-      "total_saida_historica": 151,
-      "cobertura_dias": 171.2,
+      "media_diaria_saida": 2.17,
+      "total_saida_historica": 156,
+      "cobertura_dias": 163.4,
       "alerta_estoque": false
     },
     {
@@ -17669,6 +17669,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 4877,
+      "item_id": 184,
+      "produto_nome": "Luva cirúrgica tam. 7",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 5,
+      "responsavel": "Assucena",
+      "data": "2026-10-23",
+      "obs": "",
+      "criado_em": "2026-10-23 11:34:59",
+      "item": "Luva cirúrgica tam. 7",
+      "usuario": "Assucena"
+    },
+    {
       "id": 4876,
       "item_id": 185,
       "produto_nome": "Luva cirúrgica tam. 7,5",
@@ -25151,21 +25166,6 @@
       "obs": "",
       "criado_em": "2026-10-16 15:38:49",
       "item": "Atadura gessada nº 10",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 4377,
-      "item_id": 152,
-      "produto_nome": "Atadura crepon nº 10",
-      "tipo": "Entrada no Almoxarifado",
-      "origem": "Entrada externa",
-      "destino": "Almoxarifado",
-      "quantidade": 420,
-      "responsavel": "Leiliana",
-      "data": "2026-10-16",
-      "obs": "",
-      "criado_em": "2026-10-16 15:38:26",
-      "item": "Atadura crepon nº 10",
       "usuario": "Leiliana"
     }
   ]
