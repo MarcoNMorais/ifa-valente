@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "23/10/2026 15:39:22",
+  "atualizado_em": "23/10/2026 15:39:30",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
     "total_almoxarifado": 117303,
-    "total_farmacia": 33960,
-    "total_geral": 151263,
+    "total_farmacia": 33954,
+    "total_geral": 151257,
     "perto_de_terminar": 33,
     "zerados": 15
   },
@@ -7055,19 +7055,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 38,
+      "farmacia": 32,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 38,
+      "total": 32,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-10-19 10:55:04",
+      "atualizado_em": "2026-10-23 15:39:29",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -7075,17 +7075,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 38
+          "quantidade": 32
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 0,
-      "previsao_20_dias": 0,
+      "minimo_alerta": 2,
+      "previsao_20_dias": 2,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 72,
-      "media_diaria_saida": 0.0,
-      "total_saida_historica": 0,
-      "cobertura_dias": null,
+      "media_diaria_saida": 0.08,
+      "total_saida_historica": 6,
+      "cobertura_dias": 384.0,
       "alerta_estoque": false
     },
     {
@@ -17663,6 +17663,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 4915,
+      "item_id": 219,
+      "produto_nome": "Fio agulhado / sutura nº 6",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 6,
+      "responsavel": "Leiliana",
+      "data": "2026-10-23",
+      "obs": "",
+      "criado_em": "2026-10-23 15:39:29",
+      "item": "Fio agulhado / sutura nº 6",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 4914,
       "item_id": 213,
       "produto_nome": "Fio agulhado / sutura nº 0",
@@ -25145,21 +25160,6 @@
       "obs": "",
       "criado_em": "2026-10-16 15:51:40",
       "item": "Sonda Foley nº 14",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 4415,
-      "item_id": 111,
-      "produto_nome": "Sonda de Aspiração nº 12",
-      "tipo": "Entrada no Almoxarifado",
-      "origem": "Entrada externa",
-      "destino": "Almoxarifado",
-      "quantidade": 35,
-      "responsavel": "Leiliana",
-      "data": "2026-10-16",
-      "obs": "",
-      "criado_em": "2026-10-16 15:51:25",
-      "item": "Sonda de Aspiração nº 12",
       "usuario": "Leiliana"
     }
   ]
