@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "23/10/2026 11:21:50",
+  "atualizado_em": "23/10/2026 11:21:57",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
-    "total_almoxarifado": 119825,
-    "total_farmacia": 32603,
+    "total_almoxarifado": 119775,
+    "total_farmacia": 32653,
     "total_geral": 152428,
     "perto_de_terminar": 31,
     "zerados": 15
@@ -10064,8 +10064,8 @@
       "nome": "Luva cirúrgica tam. 7,5",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 380,
-      "farmacia": 27,
+      "almoxarifado": 330,
+      "farmacia": 77,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -10077,7 +10077,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-22 10:33:52",
+      "atualizado_em": "2026-10-23 11:21:54",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -10085,13 +10085,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 430
+          "quantidade": 380
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 27
+          "quantidade": 77
         }
       ],
       "minimo_manual": 0,
@@ -17663,6 +17663,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 4836,
+      "item_id": 185,
+      "produto_nome": "Luva cirúrgica tam. 7,5",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 50,
+      "responsavel": "Assucena",
+      "data": "2026-10-22",
+      "obs": "",
+      "criado_em": "2026-10-23 11:21:54",
+      "item": "Luva cirúrgica tam. 7,5",
+      "usuario": "Assucena"
+    },
+    {
       "id": 4835,
       "item_id": 184,
       "produto_nome": "Luva cirúrgica tam. 7",
@@ -25145,21 +25160,6 @@
       "obs": "",
       "criado_em": "2026-10-16 15:27:08",
       "item": "Omeprazol sódico 40mg AMP",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 4336,
-      "item_id": 238,
-      "produto_nome": "Ondansetrona 2mg/ml 2ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 20,
-      "responsavel": "Leiliana",
-      "data": "2026-10-16",
-      "obs": "",
-      "criado_em": "2026-10-16 15:26:53",
-      "item": "Ondansetrona 2mg/ml 2ml",
       "usuario": "Leiliana"
     }
   ]
