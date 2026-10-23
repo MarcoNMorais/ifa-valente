@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "23/10/2026 11:39:01",
+  "atualizado_em": "23/10/2026 11:39:10",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
     "total_almoxarifado": 117303,
-    "total_farmacia": 34213,
-    "total_geral": 151516,
+    "total_farmacia": 34203,
+    "total_geral": 151506,
     "perto_de_terminar": 31,
     "zerados": 15
   },
@@ -4071,19 +4071,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 51,
+      "farmacia": 41,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 51,
+      "total": 41,
       "minimo": 15,
       "validade": "2027-02",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-19 10:55:04",
+      "atualizado_em": "2026-10-23 11:39:09",
       "validade_mais_proxima": "2027-02",
       "vencimento_mais_proximo": "2027-02",
       "lotes_validade": [
@@ -4091,17 +4091,17 @@
           "local": "farmacia",
           "validade": "2027-02",
           "lote": "",
-          "quantidade": 51
+          "quantidade": 41
         }
       ],
       "minimo_manual": 15,
-      "minimo_alerta": 4,
-      "previsao_20_dias": 4,
+      "minimo_alerta": 7,
+      "previsao_20_dias": 7,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 60,
-      "media_diaria_saida": 0.17,
-      "total_saida_historica": 10,
-      "cobertura_dias": 306.0,
+      "media_diaria_saida": 0.33,
+      "total_saida_historica": 20,
+      "cobertura_dias": 123.0,
       "alerta_estoque": false
     },
     {
@@ -17663,6 +17663,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 4903,
+      "item_id": 342,
+      "produto_nome": "CLORETO DE SÓDIO 20% AMP 10ML",
+      "tipo": "Farmácia para Posto de Internamento",
+      "origem": "Farmácia",
+      "destino": "Posto de Internamento",
+      "quantidade": 10,
+      "responsavel": "Assucena",
+      "data": "2026-10-23",
+      "obs": "",
+      "criado_em": "2026-10-23 11:39:09",
+      "item": "CLORETO DE SÓDIO 20% AMP 10ML",
+      "usuario": "Assucena"
+    },
+    {
       "id": 4902,
       "item_id": 59,
       "produto_nome": "Ceftriaxona 1g",
@@ -25145,21 +25160,6 @@
       "obs": "",
       "criado_em": "2026-10-16 15:48:12",
       "item": "Luva de vinil M",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 4403,
-      "item_id": 279,
-      "produto_nome": "Luva de vinil G",
-      "tipo": "Entrada no Almoxarifado",
-      "origem": "Entrada externa",
-      "destino": "Almoxarifado",
-      "quantidade": 7,
-      "responsavel": "Leiliana",
-      "data": "2026-10-16",
-      "obs": "",
-      "criado_em": "2026-10-16 15:47:54",
-      "item": "Luva de vinil G",
       "usuario": "Leiliana"
     }
   ]
