@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "23/10/2026 11:23:34",
+  "atualizado_em": "23/10/2026 11:23:48",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
-    "total_almoxarifado": 117989,
-    "total_farmacia": 34439,
+    "total_almoxarifado": 117864,
+    "total_farmacia": 34564,
     "total_geral": 152428,
     "perto_de_terminar": 31,
     "zerados": 15
@@ -5903,8 +5903,8 @@
       "nome": "Equipo macrogotas",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 2631,
-      "farmacia": 24,
+      "almoxarifado": 2506,
+      "farmacia": 149,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -5916,7 +5916,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-22 15:59:22",
+      "atualizado_em": "2026-10-23 11:23:46",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -5924,13 +5924,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 2631
+          "quantidade": 2506
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 49
+          "quantidade": 174
         }
       ],
       "minimo_manual": 300,
@@ -17669,6 +17669,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 4848,
+      "item_id": 220,
+      "produto_nome": "Equipo macrogotas",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 125,
+      "responsavel": "Assucena",
+      "data": "2026-10-22",
+      "obs": "",
+      "criado_em": "2026-10-23 11:23:46",
+      "item": "Equipo macrogotas",
+      "usuario": "Assucena"
+    },
+    {
       "id": 4847,
       "item_id": 199,
       "produto_nome": "Lençol descartável papel",
@@ -25151,21 +25166,6 @@
       "obs": "",
       "criado_em": "2026-10-16 15:30:02",
       "item": "Gelco nº 24",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 4348,
-      "item_id": 177,
-      "produto_nome": "Gelco nº 22",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 20,
-      "responsavel": "Leiliana",
-      "data": "2026-10-16",
-      "obs": "",
-      "criado_em": "2026-10-16 15:29:51",
-      "item": "Gelco nº 22",
       "usuario": "Leiliana"
     }
   ]
