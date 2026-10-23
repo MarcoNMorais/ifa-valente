@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "23/10/2026 11:36:51",
+  "atualizado_em": "23/10/2026 11:36:57",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
     "total_almoxarifado": 117803,
-    "total_farmacia": 33938,
-    "total_geral": 151741,
+    "total_farmacia": 33918,
+    "total_geral": 151721,
     "perto_de_terminar": 31,
     "zerados": 15
   },
@@ -13289,19 +13289,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 1200,
-      "farmacia": 190,
+      "farmacia": 170,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1390,
+      "total": 1370,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-22 10:32:51",
+      "atualizado_em": "2026-10-23 11:36:56",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -13315,17 +13315,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 190
+          "quantidade": 170
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 178,
-      "previsao_20_dias": 178,
+      "minimo_alerta": 183,
+      "previsao_20_dias": 183,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 72,
-      "media_diaria_saida": 8.86,
-      "total_saida_historica": 638,
-      "cobertura_dias": 156.9,
+      "media_diaria_saida": 9.14,
+      "total_saida_historica": 658,
+      "cobertura_dias": 149.9,
       "alerta_estoque": false
     },
     {
@@ -17662,6 +17662,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 4889,
+      "item_id": 157,
+      "produto_nome": "Seringa 1ml",
+      "tipo": "Farmácia para Posto de Internamento",
+      "origem": "Farmácia",
+      "destino": "Posto de Internamento",
+      "quantidade": 20,
+      "responsavel": "Assucena",
+      "data": "2026-10-23",
+      "obs": "",
+      "criado_em": "2026-10-23 11:36:56",
+      "item": "Seringa 1ml",
+      "usuario": "Assucena"
+    },
     {
       "id": 4888,
       "item_id": 104,
@@ -25145,21 +25160,6 @@
       "obs": "",
       "criado_em": "2026-10-16 15:43:42",
       "item": "Esparadrapo 10x4,5",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 4389,
-      "item_id": 99,
-      "produto_nome": "Scalp nº 21",
-      "tipo": "Entrada no Almoxarifado",
-      "origem": "Entrada externa",
-      "destino": "Almoxarifado",
-      "quantidade": 210,
-      "responsavel": "Leiliana",
-      "data": "2026-10-16",
-      "obs": "",
-      "criado_em": "2026-10-16 15:43:29",
-      "item": "Scalp nº 21",
       "usuario": "Leiliana"
     }
   ]
