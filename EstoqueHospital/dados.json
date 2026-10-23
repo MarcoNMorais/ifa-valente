@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "23/10/2026 15:41:09",
+  "atualizado_em": "23/10/2026 15:41:19",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
     "total_almoxarifado": 117303,
-    "total_farmacia": 33749,
-    "total_geral": 151052,
+    "total_farmacia": 33747,
+    "total_geral": 151050,
     "perto_de_terminar": 33,
     "zerados": 15
   },
@@ -3151,19 +3151,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 35,
-      "farmacia": 6,
+      "farmacia": 4,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 41,
+      "total": 39,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-19 16:26:09",
+      "atualizado_em": "2026-10-23 15:41:17",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -3177,17 +3177,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 6
+          "quantidade": 4
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 9,
-      "previsao_20_dias": 9,
+      "minimo_alerta": 10,
+      "previsao_20_dias": 10,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 72,
-      "media_diaria_saida": 0.44,
-      "total_saida_historica": 32,
-      "cobertura_dias": 92.2,
+      "media_diaria_saida": 0.47,
+      "total_saida_historica": 34,
+      "cobertura_dias": 82.6,
       "alerta_estoque": false
     },
     {
@@ -17663,6 +17663,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 4924,
+      "item_id": 200,
+      "produto_nome": "Caixa de perfurocortante",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 2,
+      "responsavel": "Leiliana",
+      "data": "2026-10-23",
+      "obs": "",
+      "criado_em": "2026-10-23 15:41:17",
+      "item": "Caixa de perfurocortante",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 4923,
       "item_id": 294,
       "produto_nome": "Glicerina 12%",
@@ -25145,21 +25160,6 @@
       "obs": "",
       "criado_em": "2026-10-16 15:56:05",
       "item": "Umidificador completo",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 4424,
-      "item_id": 415,
-      "produto_nome": "tubo endotraqueal n°7,5",
-      "tipo": "Entrada no Almoxarifado",
-      "origem": "Entrada externa",
-      "destino": "Almoxarifado",
-      "quantidade": 7,
-      "responsavel": "Leiliana",
-      "data": "2026-10-16",
-      "obs": "",
-      "criado_em": "2026-10-16 15:55:51",
-      "item": "tubo endotraqueal n°7,5",
       "usuario": "Leiliana"
     }
   ]
