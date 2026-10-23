@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "23/10/2026 15:40:42",
+  "atualizado_em": "23/10/2026 15:40:52",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
     "total_almoxarifado": 117303,
-    "total_farmacia": 33754,
-    "total_geral": 151057,
+    "total_farmacia": 33751,
+    "total_geral": 151054,
     "perto_de_terminar": 33,
     "zerados": 15
   },
@@ -9531,19 +9531,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 158,
-      "farmacia": 18,
+      "farmacia": 15,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 176,
+      "total": 173,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-23 11:23:32",
+      "atualizado_em": "2026-10-23 15:40:51",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -9557,7 +9557,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 18
+          "quantidade": 15
         }
       ],
       "minimo_manual": 0,
@@ -9565,9 +9565,9 @@
       "previsao_20_dias": 22,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 72,
-      "media_diaria_saida": 1.06,
-      "total_saida_historica": 76,
-      "cobertura_dias": 166.7,
+      "media_diaria_saida": 1.1,
+      "total_saida_historica": 79,
+      "cobertura_dias": 157.7,
       "alerta_estoque": false
     },
     {
@@ -17663,6 +17663,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 4922,
+      "item_id": 199,
+      "produto_nome": "Lençol descartável papel",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 3,
+      "responsavel": "Leiliana",
+      "data": "2026-10-23",
+      "obs": "",
+      "criado_em": "2026-10-23 15:40:51",
+      "item": "Lençol descartável papel",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 4921,
       "item_id": 220,
       "produto_nome": "Equipo macrogotas",
@@ -25145,21 +25160,6 @@
       "obs": "",
       "criado_em": "2026-10-16 15:55:09",
       "item": "tubo endotraqueal n°6,5",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 4422,
-      "item_id": 195,
-      "produto_nome": "Tira Reagente G-Tech",
-      "tipo": "Entrada no Almoxarifado",
-      "origem": "Entrada externa",
-      "destino": "Almoxarifado",
-      "quantidade": 40,
-      "responsavel": "Leiliana",
-      "data": "2026-10-16",
-      "obs": "",
-      "criado_em": "2026-10-16 15:54:20",
-      "item": "Tira Reagente G-Tech",
       "usuario": "Leiliana"
     }
   ]
