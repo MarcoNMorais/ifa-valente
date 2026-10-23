@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "23/10/2026 11:22:34",
+  "atualizado_em": "23/10/2026 11:22:42",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
-    "total_almoxarifado": 118575,
-    "total_farmacia": 33853,
+    "total_almoxarifado": 118565,
+    "total_farmacia": 33863,
     "total_geral": 152428,
     "perto_de_terminar": 31,
     "zerados": 15
@@ -10466,8 +10466,8 @@
       "nome": "Luva M procedimento",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 60,
-      "farmacia": 921,
+      "almoxarifado": 50,
+      "farmacia": 931,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -10479,7 +10479,7 @@
       "lote": "",
       "origem": "Carga Almoxerifado",
       "obs": "Importação Almoxerifado",
-      "atualizado_em": "2026-10-21 11:44:30",
+      "atualizado_em": "2026-10-23 11:22:41",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -10487,13 +10487,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 60
+          "quantidade": 50
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 921
+          "quantidade": 931
         }
       ],
       "minimo_manual": 0,
@@ -17662,6 +17662,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 4842,
+      "item_id": 280,
+      "produto_nome": "Luva M procedimento",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 10,
+      "responsavel": "Assucena",
+      "data": "2026-10-22",
+      "obs": "",
+      "criado_em": "2026-10-23 11:22:41",
+      "item": "Luva M procedimento",
+      "usuario": "Assucena"
+    },
     {
       "id": 4841,
       "item_id": 329,
@@ -25144,21 +25159,6 @@
       "data": "2026-10-16",
       "obs": "",
       "criado_em": "2026-10-16 15:28:22",
-      "item": "Tramadol 50mg/ml 2ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 4342,
-      "item_id": 239,
-      "produto_nome": "Tramadol 50mg/ml 2ml",
-      "tipo": "Almoxarifado para Farmácia",
-      "origem": "Almoxarifado",
-      "destino": "Farmácia",
-      "quantidade": 280,
-      "responsavel": "Leiliana",
-      "data": "2026-10-16",
-      "obs": "",
-      "criado_em": "2026-10-16 15:28:14",
       "item": "Tramadol 50mg/ml 2ml",
       "usuario": "Leiliana"
     }
