@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "23/10/2026 11:22:18",
+  "atualizado_em": "23/10/2026 11:22:25",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
-    "total_almoxarifado": 118905,
-    "total_farmacia": 33523,
+    "total_almoxarifado": 118655,
+    "total_farmacia": 33773,
     "total_geral": 152428,
     "perto_de_terminar": 31,
     "zerados": 15
@@ -13340,8 +13340,8 @@
       "nome": "Seringa 20ml",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 7500,
-      "farmacia": 0,
+      "almoxarifado": 7250,
+      "farmacia": 250,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -13353,7 +13353,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-22 10:35:43",
+      "atualizado_em": "2026-10-23 11:22:24",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -13361,13 +13361,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 7500
+          "quantidade": 7250
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 25
+          "quantidade": 275
         }
       ],
       "minimo_manual": 0,
@@ -17662,6 +17662,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 4840,
+      "item_id": 274,
+      "produto_nome": "Seringa 20ml",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 250,
+      "responsavel": "Assucena",
+      "data": "2026-10-22",
+      "obs": "",
+      "criado_em": "2026-10-23 11:22:24",
+      "item": "Seringa 20ml",
+      "usuario": "Assucena"
+    },
     {
       "id": 4839,
       "item_id": 102,
@@ -25145,21 +25160,6 @@
       "obs": "",
       "criado_em": "2026-10-16 15:27:49",
       "item": "Soro fisiológico 500ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 4340,
-      "item_id": 203,
-      "produto_nome": "Soro fisiológico 250ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 10,
-      "responsavel": "Leiliana",
-      "data": "2026-10-16",
-      "obs": "",
-      "criado_em": "2026-10-16 15:27:39",
-      "item": "Soro fisiológico 250ml",
       "usuario": "Leiliana"
     }
   ]
