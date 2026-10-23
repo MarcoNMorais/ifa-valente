@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "23/10/2026 11:23:06",
+  "atualizado_em": "23/10/2026 11:23:15",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
-    "total_almoxarifado": 118553,
-    "total_farmacia": 33875,
+    "total_almoxarifado": 118505,
+    "total_farmacia": 33923,
     "total_geral": 152428,
     "perto_de_terminar": 31,
     "zerados": 15
@@ -15922,8 +15922,8 @@
       "nome": "Soro fisiológico 500ml",
       "tipo": "Insumo",
       "unidade": "Unidade",
-      "almoxarifado": 634,
-      "farmacia": 0,
+      "almoxarifado": 586,
+      "farmacia": 48,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -15935,7 +15935,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-22 15:55:51",
+      "atualizado_em": "2026-10-23 11:23:13",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -15943,7 +15943,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 634
+          "quantidade": 586
+        },
+        {
+          "local": "farmacia",
+          "validade": "",
+          "lote": "",
+          "quantidade": 48
         }
       ],
       "minimo_manual": 0,
@@ -17662,6 +17668,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 4845,
+      "item_id": 204,
+      "produto_nome": "Soro fisiológico 500ml",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 48,
+      "responsavel": "Assucena",
+      "data": "2026-10-22",
+      "obs": "",
+      "criado_em": "2026-10-23 11:23:13",
+      "item": "Soro fisiológico 500ml",
+      "usuario": "Assucena"
+    },
     {
       "id": 4844,
       "item_id": 272,
@@ -25145,21 +25166,6 @@
       "obs": "",
       "criado_em": "2026-10-16 15:29:27",
       "item": "Agulha 30x8",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 4345,
-      "item_id": 390,
-      "produto_nome": "AGULHA  40X1,2",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 100,
-      "responsavel": "Leiliana",
-      "data": "2026-10-16",
-      "obs": "",
-      "criado_em": "2026-10-16 15:29:14",
-      "item": "AGULHA  40X1,2",
       "usuario": "Leiliana"
     }
   ]
