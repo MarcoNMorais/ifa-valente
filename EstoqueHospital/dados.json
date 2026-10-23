@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "23/10/2026 11:35:22",
+  "atualizado_em": "23/10/2026 11:35:33",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
-    "total_almoxarifado": 117827,
-    "total_farmacia": 34026,
+    "total_almoxarifado": 117803,
+    "total_farmacia": 34050,
     "total_geral": 151853,
     "perto_de_terminar": 31,
     "zerados": 15
@@ -6167,8 +6167,8 @@
       "nome": "Esparadrapo 10x4,5",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 376,
-      "farmacia": 6,
+      "almoxarifado": 352,
+      "farmacia": 30,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -6180,7 +6180,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-23 11:35:20",
+      "atualizado_em": "2026-10-23 11:35:28",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -6188,13 +6188,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 376
+          "quantidade": 352
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 8
+          "quantidade": 32
         }
       ],
       "minimo_manual": 0,
@@ -18104,6 +18104,21 @@
       "usuario": "Assucena"
     },
     {
+      "id": 4881,
+      "item_id": 276,
+      "produto_nome": "Esparadrapo 10x4,5",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 24,
+      "responsavel": "Assucena",
+      "data": "2026-10-22",
+      "obs": "",
+      "criado_em": "2026-10-23 11:35:28",
+      "item": "Esparadrapo 10x4,5",
+      "usuario": "Assucena"
+    },
+    {
       "id": 4860,
       "item_id": 249,
       "produto_nome": "Prednisolona 3mg/ml",
@@ -25151,21 +25166,6 @@
       "obs": "",
       "criado_em": "2026-10-16 15:41:12",
       "item": "Fio categute nº 2",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 4381,
-      "item_id": 200,
-      "produto_nome": "Caixa de perfurocortante",
-      "tipo": "Entrada no Almoxarifado",
-      "origem": "Entrada externa",
-      "destino": "Almoxarifado",
-      "quantidade": 35,
-      "responsavel": "Leiliana",
-      "data": "2026-10-16",
-      "obs": "",
-      "criado_em": "2026-10-16 15:39:53",
-      "item": "Caixa de perfurocortante",
       "usuario": "Leiliana"
     }
   ]
