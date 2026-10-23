@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "23/10/2026 11:38:03",
+  "atualizado_em": "23/10/2026 11:38:16",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
     "total_almoxarifado": 117303,
-    "total_farmacia": 34253,
-    "total_geral": 151556,
+    "total_farmacia": 34238,
+    "total_geral": 151541,
     "perto_de_terminar": 31,
     "zerados": 15
   },
@@ -473,19 +473,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 246,
+      "farmacia": 231,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 246,
+      "total": 231,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-19 15:00:06",
+      "atualizado_em": "2026-10-23 11:38:14",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -493,17 +493,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 246
+          "quantidade": 231
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 166,
-      "previsao_20_dias": 166,
+      "minimo_alerta": 172,
+      "previsao_20_dias": 172,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 50,
-      "media_diaria_saida": 8.3,
-      "total_saida_historica": 415,
-      "cobertura_dias": 29.6,
+      "media_diaria_saida": 8.6,
+      "total_saida_historica": 430,
+      "cobertura_dias": 26.9,
       "alerta_estoque": false
     },
     {
@@ -17663,6 +17663,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 4897,
+      "item_id": 382,
+      "produto_nome": "AGUA P/ INJ",
+      "tipo": "Farmácia para Posto de Internamento",
+      "origem": "Farmácia",
+      "destino": "Posto de Internamento",
+      "quantidade": 15,
+      "responsavel": "Assucena",
+      "data": "2026-10-23",
+      "obs": "",
+      "criado_em": "2026-10-23 11:38:14",
+      "item": "AGUA P/ INJ",
+      "usuario": "Assucena"
+    },
+    {
       "id": 4896,
       "item_id": 98,
       "produto_nome": "Scalp nº 23",
@@ -25145,21 +25160,6 @@
       "obs": "",
       "criado_em": "2026-10-16 15:46:07",
       "item": "Luva de látex tam. M",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 4397,
-      "item_id": 185,
-      "produto_nome": "Luva cirúrgica tam. 7,5",
-      "tipo": "Entrada no Almoxarifado",
-      "origem": "Entrada externa",
-      "destino": "Almoxarifado",
-      "quantidade": 50,
-      "responsavel": "Leiliana",
-      "data": "2026-10-16",
-      "obs": "",
-      "criado_em": "2026-10-16 15:45:50",
-      "item": "Luva cirúrgica tam. 7,5",
       "usuario": "Leiliana"
     }
   ]
