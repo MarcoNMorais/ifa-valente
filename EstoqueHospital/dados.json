@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "23/10/2026 11:33:32",
+  "atualizado_em": "23/10/2026 11:33:39",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
     "total_almoxarifado": 117827,
-    "total_farmacia": 34240,
-    "total_geral": 152067,
+    "total_farmacia": 34220,
+    "total_geral": 152047,
     "perto_de_terminar": 31,
     "zerados": 15
   },
@@ -645,19 +645,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 510,
+      "farmacia": 490,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 510,
+      "total": 490,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga Almoxerifado",
       "obs": "Importação Almoxerifado",
-      "atualizado_em": "2026-10-20 09:56:02",
+      "atualizado_em": "2026-10-23 11:33:38",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -665,17 +665,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 510
+          "quantidade": 490
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 117,
-      "previsao_20_dias": 117,
+      "minimo_alerta": 123,
+      "previsao_20_dias": 123,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 67,
-      "media_diaria_saida": 5.82,
-      "total_saida_historica": 390,
-      "cobertura_dias": 87.6,
+      "media_diaria_saida": 6.12,
+      "total_saida_historica": 410,
+      "cobertura_dias": 80.1,
       "alerta_estoque": false
     },
     {
@@ -17669,6 +17669,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 4866,
+      "item_id": 319,
+      "produto_nome": "Agulha 25x7",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 20,
+      "responsavel": "Assucena",
+      "data": "2026-10-23",
+      "obs": "",
+      "criado_em": "2026-10-23 11:33:38",
+      "item": "Agulha 25x7",
+      "usuario": "Assucena"
+    },
+    {
       "id": 4865,
       "item_id": 289,
       "produto_nome": "Agulha 25x8",
@@ -25151,21 +25166,6 @@
       "obs": "",
       "criado_em": "2026-10-16 15:33:33",
       "item": "Clopidogrel 75mg CP",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 4366,
-      "item_id": 33,
-      "produto_nome": "Atorvastatina 20mg CPR",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 15,
-      "responsavel": "Leiliana",
-      "data": "2026-10-16",
-      "obs": "",
-      "criado_em": "2026-10-16 15:33:16",
-      "item": "Atorvastatina 20mg CPR",
       "usuario": "Leiliana"
     }
   ]
