@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "23/10/2026 15:39:47",
+  "atualizado_em": "23/10/2026 15:39:58",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
     "total_almoxarifado": 117303,
-    "total_farmacia": 33894,
-    "total_geral": 151197,
+    "total_farmacia": 33884,
+    "total_geral": 151187,
     "perto_de_terminar": 33,
     "zerados": 15
   },
@@ -15917,19 +15917,19 @@
       "tipo": "Insumo",
       "unidade": "Unidade",
       "almoxarifado": 586,
-      "farmacia": 48,
+      "farmacia": 38,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 634,
+      "total": 624,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-23 11:23:13",
+      "atualizado_em": "2026-10-23 15:39:57",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -15943,17 +15943,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 48
+          "quantidade": 38
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 183,
-      "previsao_20_dias": 183,
+      "minimo_alerta": 186,
+      "previsao_20_dias": 186,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 72,
-      "media_diaria_saida": 9.12,
-      "total_saida_historica": 657,
-      "cobertura_dias": 69.5,
+      "media_diaria_saida": 9.26,
+      "total_saida_historica": 667,
+      "cobertura_dias": 67.4,
       "alerta_estoque": false
     },
     {
@@ -17662,6 +17662,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 4917,
+      "item_id": 204,
+      "produto_nome": "Soro fisiológico 500ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 10,
+      "responsavel": "Leiliana",
+      "data": "2026-10-23",
+      "obs": "",
+      "criado_em": "2026-10-23 15:39:57",
+      "item": "Soro fisiológico 500ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 4916,
       "item_id": 202,
@@ -25145,21 +25160,6 @@
       "obs": "",
       "criado_em": "2026-10-16 15:52:44",
       "item": "Sonda Nasogástrica nº 20",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 4417,
-      "item_id": 173,
-      "produto_nome": "Sonda Foley nº 16 - 2 vias",
-      "tipo": "Entrada no Almoxarifado",
-      "origem": "Entrada externa",
-      "destino": "Almoxarifado",
-      "quantidade": 20,
-      "responsavel": "Leiliana",
-      "data": "2026-10-16",
-      "obs": "",
-      "criado_em": "2026-10-16 15:52:22",
-      "item": "Sonda Foley nº 16 - 2 vias",
       "usuario": "Leiliana"
     }
   ]
