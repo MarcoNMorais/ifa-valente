@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "23/10/2026 12:00:17",
+  "atualizado_em": "23/10/2026 12:00:35",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
     "total_almoxarifado": 117303,
-    "total_farmacia": 34185,
-    "total_geral": 151488,
+    "total_farmacia": 34184,
+    "total_geral": 151487,
     "perto_de_terminar": 31,
     "zerados": 15
   },
@@ -9737,19 +9737,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 41,
+      "farmacia": 40,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 41,
+      "total": 40,
       "minimo": 0,
       "validade": "2027-02",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-23 11:31:47",
+      "atualizado_em": "2026-10-23 12:00:33",
       "validade_mais_proxima": "2027-02",
       "vencimento_mais_proximo": "2027-02",
       "lotes_validade": [
@@ -9757,7 +9757,7 @@
           "local": "farmacia",
           "validade": "2027-02",
           "lote": "",
-          "quantidade": 21
+          "quantidade": 20
         },
         {
           "local": "farmacia",
@@ -9771,9 +9771,9 @@
       "previsao_20_dias": 11,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 72,
-      "media_diaria_saida": 0.53,
-      "total_saida_historica": 38,
-      "cobertura_dias": 77.7,
+      "media_diaria_saida": 0.54,
+      "total_saida_historica": 39,
+      "cobertura_dias": 73.8,
       "alerta_estoque": false
     },
     {
@@ -17663,6 +17663,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 4907,
+      "item_id": 84,
+      "produto_nome": "Lidocaína",
+      "tipo": "Farmácia para SALA DE PARTO",
+      "origem": "Farmácia",
+      "destino": "SALA DE PARTO",
+      "quantidade": 1,
+      "responsavel": "Assucena",
+      "data": "2026-10-23",
+      "obs": "",
+      "criado_em": "2026-10-23 12:00:33",
+      "item": "Lidocaína",
+      "usuario": "Assucena"
+    },
+    {
       "id": 4906,
       "item_id": 185,
       "produto_nome": "Luva cirúrgica tam. 7,5",
@@ -25145,21 +25160,6 @@
       "obs": "",
       "criado_em": "2026-10-16 15:49:31",
       "item": "Seringa 1ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 4407,
-      "item_id": 328,
-      "produto_nome": "Papel grau 15cm",
-      "tipo": "Entrada no Almoxarifado",
-      "origem": "Entrada externa",
-      "destino": "Almoxarifado",
-      "quantidade": 3,
-      "responsavel": "Leiliana",
-      "data": "2026-10-16",
-      "obs": "",
-      "criado_em": "2026-10-16 15:49:14",
-      "item": "Papel grau 15cm",
       "usuario": "Leiliana"
     }
   ]
