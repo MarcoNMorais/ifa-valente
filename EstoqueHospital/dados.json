@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "23/10/2026 11:32:43",
+  "atualizado_em": "23/10/2026 11:33:09",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
     "total_almoxarifado": 117827,
-    "total_farmacia": 34400,
-    "total_geral": 152227,
+    "total_farmacia": 34340,
+    "total_geral": 152167,
     "perto_de_terminar": 31,
     "zerados": 15
   },
@@ -513,19 +513,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 6800,
-      "farmacia": 775,
+      "farmacia": 715,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 7575,
+      "total": 7515,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-23 11:23:23",
+      "atualizado_em": "2026-10-23 11:33:08",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -539,17 +539,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 775
+          "quantidade": 715
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 1570,
-      "previsao_20_dias": 1570,
+      "minimo_alerta": 1594,
+      "previsao_20_dias": 1594,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 50,
-      "media_diaria_saida": 78.5,
-      "total_saida_historica": 3925,
-      "cobertura_dias": 96.5,
+      "media_diaria_saida": 79.7,
+      "total_saida_historica": 3985,
+      "cobertura_dias": 94.3,
       "alerta_estoque": false
     },
     {
@@ -17669,6 +17669,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 4862,
+      "item_id": 390,
+      "produto_nome": "AGULHA  40X1,2",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 60,
+      "responsavel": "Assucena",
+      "data": "2026-10-23",
+      "obs": "",
+      "criado_em": "2026-10-23 11:33:08",
+      "item": "AGULHA  40X1,2",
+      "usuario": "Assucena"
+    },
+    {
       "id": 4861,
       "item_id": 249,
       "produto_nome": "Prednisolona 3mg/ml",
@@ -25151,21 +25166,6 @@
       "obs": "",
       "criado_em": "2026-10-16 15:32:41",
       "item": "Brometo de ipratrópio gotas",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 4362,
-      "item_id": 59,
-      "produto_nome": "Ceftriaxona 1g",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 15,
-      "responsavel": "Leiliana",
-      "data": "2026-10-16",
-      "obs": "",
-      "criado_em": "2026-10-16 15:32:30",
-      "item": "Ceftriaxona 1g",
       "usuario": "Leiliana"
     }
   ]
