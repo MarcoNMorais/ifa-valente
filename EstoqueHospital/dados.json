@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "23/10/2026 11:31:41",
+  "atualizado_em": "23/10/2026 11:31:48",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
     "total_almoxarifado": 117864,
-    "total_farmacia": 34391,
-    "total_geral": 152255,
+    "total_farmacia": 34390,
+    "total_geral": 152254,
     "perto_de_terminar": 31,
     "zerados": 15
   },
@@ -9743,19 +9743,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 42,
+      "farmacia": 41,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 42,
+      "total": 41,
       "minimo": 0,
       "validade": "2027-02",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-21 16:12:07",
+      "atualizado_em": "2026-10-23 11:31:47",
       "validade_mais_proxima": "2027-02",
       "vencimento_mais_proximo": "2027-02",
       "lotes_validade": [
@@ -9763,7 +9763,7 @@
           "local": "farmacia",
           "validade": "2027-02",
           "lote": "",
-          "quantidade": 22
+          "quantidade": 21
         },
         {
           "local": "farmacia",
@@ -9777,9 +9777,9 @@
       "previsao_20_dias": 11,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 72,
-      "media_diaria_saida": 0.51,
-      "total_saida_historica": 37,
-      "cobertura_dias": 81.7,
+      "media_diaria_saida": 0.53,
+      "total_saida_historica": 38,
+      "cobertura_dias": 77.7,
       "alerta_estoque": false
     },
     {
@@ -17669,6 +17669,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 4857,
+      "item_id": 84,
+      "produto_nome": "Lidocaína",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 1,
+      "responsavel": "Assucena",
+      "data": "2026-10-23",
+      "obs": "",
+      "criado_em": "2026-10-23 11:31:47",
+      "item": "Lidocaína",
+      "usuario": "Assucena"
+    },
+    {
       "id": 4856,
       "item_id": 86,
       "produto_nome": "Cloridrato de Metoclopramida",
@@ -25151,21 +25166,6 @@
       "obs": "",
       "criado_em": "2026-10-16 15:31:49",
       "item": "Bolsa coletora",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 4357,
-      "item_id": 180,
-      "produto_nome": "Luva de látex tam. P",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 2,
-      "responsavel": "Leiliana",
-      "data": "2026-10-16",
-      "obs": "",
-      "criado_em": "2026-10-16 15:31:38",
-      "item": "Luva de látex tam. P",
       "usuario": "Leiliana"
     }
   ]
