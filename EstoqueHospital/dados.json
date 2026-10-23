@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "23/10/2026 11:35:49",
+  "atualizado_em": "23/10/2026 11:36:14",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
     "total_almoxarifado": 117803,
-    "total_farmacia": 34042,
-    "total_geral": 151845,
+    "total_farmacia": 34040,
+    "total_geral": 151843,
     "perto_de_terminar": 31,
     "zerados": 15
   },
@@ -6168,19 +6168,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 352,
-      "farmacia": 30,
+      "farmacia": 28,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 382,
+      "total": 380,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-23 11:35:28",
+      "atualizado_em": "2026-10-23 11:36:12",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -6194,7 +6194,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 32
+          "quantidade": 30
         }
       ],
       "minimo_manual": 0,
@@ -6202,9 +6202,9 @@
       "previsao_20_dias": 46,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 67,
-      "media_diaria_saida": 2.27,
-      "total_saida_historica": 152,
-      "cobertura_dias": 168.4,
+      "media_diaria_saida": 2.3,
+      "total_saida_historica": 154,
+      "cobertura_dias": 165.3,
       "alerta_estoque": false
     },
     {
@@ -17669,6 +17669,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 4883,
+      "item_id": 276,
+      "produto_nome": "Esparadrapo 10x4,5",
+      "tipo": "Farmácia para Posto de Internamento",
+      "origem": "Farmácia",
+      "destino": "Posto de Internamento",
+      "quantidade": 2,
+      "responsavel": "Assucena",
+      "data": "2026-10-23",
+      "obs": "",
+      "criado_em": "2026-10-23 11:36:12",
+      "item": "Esparadrapo 10x4,5",
+      "usuario": "Assucena"
+    },
+    {
       "id": 4882,
       "item_id": 203,
       "produto_nome": "Soro fisiológico 250ml",
@@ -25151,21 +25166,6 @@
       "obs": "",
       "criado_em": "2026-10-16 15:41:44",
       "item": "Coletor de urina 100ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 4383,
-      "item_id": 291,
-      "produto_nome": "Cateter tipo óculos adulto",
-      "tipo": "Entrada no Almoxarifado",
-      "origem": "Entrada externa",
-      "destino": "Almoxarifado",
-      "quantidade": 30,
-      "responsavel": "Leiliana",
-      "data": "2026-10-16",
-      "obs": "",
-      "criado_em": "2026-10-16 15:41:28",
-      "item": "Cateter tipo óculos adulto",
       "usuario": "Leiliana"
     }
   ]
