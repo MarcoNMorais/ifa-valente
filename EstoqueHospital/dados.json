@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "23/10/2026 11:35:16",
+  "atualizado_em": "23/10/2026 11:35:22",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
     "total_almoxarifado": 117827,
-    "total_farmacia": 34028,
-    "total_geral": 151855,
+    "total_farmacia": 34026,
+    "total_geral": 151853,
     "perto_de_terminar": 31,
     "zerados": 15
   },
@@ -6168,19 +6168,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 376,
-      "farmacia": 8,
+      "farmacia": 6,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 384,
+      "total": 382,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-22 15:59:32",
+      "atualizado_em": "2026-10-23 11:35:20",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -6194,17 +6194,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 10
+          "quantidade": 8
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 45,
-      "previsao_20_dias": 45,
+      "minimo_alerta": 46,
+      "previsao_20_dias": 46,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 67,
-      "media_diaria_saida": 2.24,
-      "total_saida_historica": 150,
-      "cobertura_dias": 171.5,
+      "media_diaria_saida": 2.27,
+      "total_saida_historica": 152,
+      "cobertura_dias": 168.4,
       "alerta_estoque": false
     },
     {
@@ -17669,6 +17669,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 4880,
+      "item_id": 276,
+      "produto_nome": "Esparadrapo 10x4,5",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 2,
+      "responsavel": "Assucena",
+      "data": "2026-10-23",
+      "obs": "",
+      "criado_em": "2026-10-23 11:35:20",
+      "item": "Esparadrapo 10x4,5",
+      "usuario": "Assucena"
+    },
+    {
       "id": 4879,
       "item_id": 281,
       "produto_nome": "Luva P procedimento",
@@ -25151,21 +25166,6 @@
       "obs": "",
       "criado_em": "2026-10-16 15:39:53",
       "item": "Caixa de perfurocortante",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 4380,
-      "item_id": 155,
-      "produto_nome": "Bolsa coletora",
-      "tipo": "Entrada no Almoxarifado",
-      "origem": "Entrada externa",
-      "destino": "Almoxarifado",
-      "quantidade": 35,
-      "responsavel": "Leiliana",
-      "data": "2026-10-16",
-      "obs": "",
-      "criado_em": "2026-10-16 15:39:38",
-      "item": "Bolsa coletora",
       "usuario": "Leiliana"
     }
   ]
