@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "23/10/2026 11:37:07",
+  "atualizado_em": "23/10/2026 11:37:13",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
     "total_almoxarifado": 117803,
-    "total_farmacia": 33908,
-    "total_geral": 151711,
+    "total_farmacia": 33883,
+    "total_geral": 151686,
     "perto_de_terminar": 31,
     "zerados": 15
   },
@@ -5898,19 +5898,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 2506,
-      "farmacia": 124,
+      "farmacia": 99,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 2630,
+      "total": 2605,
       "minimo": 300,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-23 11:34:36",
+      "atualizado_em": "2026-10-23 11:37:10",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -5924,17 +5924,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 149
+          "quantidade": 124
         }
       ],
       "minimo_manual": 300,
-      "minimo_alerta": 569,
-      "previsao_20_dias": 569,
+      "minimo_alerta": 575,
+      "previsao_20_dias": 575,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 72,
-      "media_diaria_saida": 28.4,
-      "total_saida_historica": 2045,
-      "cobertura_dias": 92.6,
+      "media_diaria_saida": 28.75,
+      "total_saida_historica": 2070,
+      "cobertura_dias": 90.6,
       "alerta_estoque": false
     },
     {
@@ -17663,6 +17663,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 4891,
+      "item_id": 220,
+      "produto_nome": "Equipo macrogotas",
+      "tipo": "Farmácia para Posto de Internamento",
+      "origem": "Farmácia",
+      "destino": "Posto de Internamento",
+      "quantidade": 25,
+      "responsavel": "Assucena",
+      "data": "2026-10-23",
+      "obs": "",
+      "criado_em": "2026-10-23 11:37:10",
+      "item": "Equipo macrogotas",
+      "usuario": "Assucena"
+    },
+    {
       "id": 4890,
       "item_id": 329,
       "produto_nome": "Polifix",
@@ -25145,21 +25160,6 @@
       "obs": "",
       "criado_em": "2026-10-16 15:44:12",
       "item": "Dispositivo intravenoso Gelco nº 20",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 4391,
-      "item_id": 175,
-      "produto_nome": "Fita cirúrgica microporosa",
-      "tipo": "Entrada no Almoxarifado",
-      "origem": "Entrada externa",
-      "destino": "Almoxarifado",
-      "quantidade": 35,
-      "responsavel": "Leiliana",
-      "data": "2026-10-16",
-      "obs": "",
-      "criado_em": "2026-10-16 15:43:55",
-      "item": "Fita cirúrgica microporosa",
       "usuario": "Leiliana"
     }
   ]
