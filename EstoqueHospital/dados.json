@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "23/10/2026 11:32:18",
+  "atualizado_em": "23/10/2026 11:32:36",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
-    "total_almoxarifado": 117864,
-    "total_farmacia": 34364,
+    "total_almoxarifado": 117827,
+    "total_farmacia": 34401,
     "total_geral": 152228,
     "perto_de_terminar": 31,
     "zerados": 15
@@ -12680,8 +12680,8 @@
       "nome": "Prednisolona 3mg/ml",
       "tipo": "Medicamento",
       "unidade": "Unidade",
-      "almoxarifado": 37,
-      "farmacia": 0,
+      "almoxarifado": 0,
+      "farmacia": 37,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -12693,12 +12693,12 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-19 10:55:04",
+      "atualizado_em": "2026-10-23 11:32:35",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
         {
-          "local": "almoxarifado",
+          "local": "farmacia",
           "validade": "",
           "lote": "",
           "quantidade": 37
@@ -17801,6 +17801,21 @@
       "obs": "",
       "criado_em": "2026-10-23 11:31:02",
       "item": "Dexametasona",
+      "usuario": "Assucena"
+    },
+    {
+      "id": 4860,
+      "item_id": 249,
+      "produto_nome": "Prednisolona 3mg/ml",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 37,
+      "responsavel": "Assucena",
+      "data": "2026-10-22",
+      "obs": "",
+      "criado_em": "2026-10-23 11:32:35",
+      "item": "Prednisolona 3mg/ml",
       "usuario": "Assucena"
     },
     {
@@ -25151,21 +25166,6 @@
       "obs": "",
       "criado_em": "2026-10-16 15:32:20",
       "item": "Omeprazol sódico 40mg AMP",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 4360,
-      "item_id": 70,
-      "produto_nome": "Dipirona",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 20,
-      "responsavel": "Leiliana",
-      "data": "2026-10-16",
-      "obs": "",
-      "criado_em": "2026-10-16 15:32:10",
-      "item": "Dipirona",
       "usuario": "Leiliana"
     }
   ]
