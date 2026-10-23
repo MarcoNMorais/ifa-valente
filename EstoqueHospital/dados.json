@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "23/10/2026 15:39:58",
+  "atualizado_em": "23/10/2026 15:40:09",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
     "total_almoxarifado": 117303,
-    "total_farmacia": 33884,
-    "total_geral": 151187,
+    "total_farmacia": 33849,
+    "total_geral": 151152,
     "perto_de_terminar": 33,
     "zerados": 15
   },
@@ -13243,19 +13243,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 5650,
-      "farmacia": 325,
+      "farmacia": 290,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 5975,
+      "total": 5940,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-23 11:36:35",
+      "atualizado_em": "2026-10-23 15:40:08",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -13269,17 +13269,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 385
+          "quantidade": 350
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 1375,
-      "previsao_20_dias": 1375,
+      "minimo_alerta": 1385,
+      "previsao_20_dias": 1385,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 72,
-      "media_diaria_saida": 68.74,
-      "total_saida_historica": 4949,
-      "cobertura_dias": 86.9,
+      "media_diaria_saida": 69.22,
+      "total_saida_historica": 4984,
+      "cobertura_dias": 85.8,
       "alerta_estoque": false
     },
     {
@@ -17662,6 +17662,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 4918,
+      "item_id": 103,
+      "produto_nome": "Seringa 10ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 35,
+      "responsavel": "Leiliana",
+      "data": "2026-10-23",
+      "obs": "",
+      "criado_em": "2026-10-23 15:40:08",
+      "item": "Seringa 10ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 4917,
       "item_id": 204,
@@ -25145,21 +25160,6 @@
       "obs": "",
       "criado_em": "2026-10-16 15:53:00",
       "item": "Sonda Nasogástrica nº 08",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 4418,
-      "item_id": 146,
-      "produto_nome": "Sonda Nasogástrica nº 20",
-      "tipo": "Entrada no Almoxarifado",
-      "origem": "Entrada externa",
-      "destino": "Almoxarifado",
-      "quantidade": 35,
-      "responsavel": "Leiliana",
-      "data": "2026-10-16",
-      "obs": "",
-      "criado_em": "2026-10-16 15:52:44",
-      "item": "Sonda Nasogástrica nº 20",
       "usuario": "Leiliana"
     }
   ]
