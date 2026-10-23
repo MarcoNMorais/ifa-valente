@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "23/10/2026 11:37:45",
+  "atualizado_em": "23/10/2026 11:37:55",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
-    "total_almoxarifado": 117803,
-    "total_farmacia": 33763,
+    "total_almoxarifado": 117303,
+    "total_farmacia": 34263,
     "total_geral": 151566,
     "perto_de_terminar": 31,
     "zerados": 15
@@ -776,8 +776,8 @@
       "nome": "Agulha 30x8",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 15200,
-      "farmacia": 0,
+      "almoxarifado": 14700,
+      "farmacia": 500,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -789,7 +789,7 @@
       "lote": "",
       "origem": "Carga Almoxerifado",
       "obs": "Importação Almoxerifado",
-      "atualizado_em": "2026-10-23 11:37:44",
+      "atualizado_em": "2026-10-23 11:37:54",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -797,7 +797,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 15200
+          "quantidade": 14700
+        },
+        {
+          "local": "farmacia",
+          "validade": "",
+          "lote": "",
+          "quantidade": 500
         }
       ],
       "minimo_manual": 0,
@@ -18287,6 +18293,21 @@
       "usuario": "Assucena"
     },
     {
+      "id": 4895,
+      "item_id": 331,
+      "produto_nome": "Agulha 30x8",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 500,
+      "responsavel": "Assucena",
+      "data": "2026-10-22",
+      "obs": "",
+      "criado_em": "2026-10-23 11:37:54",
+      "item": "Agulha 30x8",
+      "usuario": "Assucena"
+    },
+    {
       "id": 4881,
       "item_id": 276,
       "produto_nome": "Esparadrapo 10x4,5",
@@ -25139,21 +25160,6 @@
       "obs": "",
       "criado_em": "2026-10-16 15:45:33",
       "item": "Lençol descartável papel",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 4395,
-      "item_id": 329,
-      "produto_nome": "Polifix",
-      "tipo": "Entrada no Almoxarifado",
-      "origem": "Entrada externa",
-      "destino": "Almoxarifado",
-      "quantidade": 700,
-      "responsavel": "Leiliana",
-      "data": "2026-10-16",
-      "obs": "",
-      "criado_em": "2026-10-16 15:45:06",
-      "item": "Polifix",
       "usuario": "Leiliana"
     }
   ]
