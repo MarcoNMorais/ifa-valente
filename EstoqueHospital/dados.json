@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "23/10/2026 11:22:49",
+  "atualizado_em": "23/10/2026 11:23:06",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
-    "total_almoxarifado": 118555,
-    "total_farmacia": 33873,
+    "total_almoxarifado": 118553,
+    "total_farmacia": 33875,
     "total_geral": 152428,
     "perto_de_terminar": 31,
     "zerados": 15
@@ -17460,8 +17460,8 @@
       "nome": "Álcool 70% líquido 5L",
       "tipo": "Insumo",
       "unidade": "Unidade",
-      "almoxarifado": 4,
-      "farmacia": 6,
+      "almoxarifado": 2,
+      "farmacia": 8,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -17473,7 +17473,7 @@
       "lote": "",
       "origem": "Carga Almoxerifado",
       "obs": "Importação Almoxerifado",
-      "atualizado_em": "2026-10-19 10:55:04",
+      "atualizado_em": "2026-10-23 11:23:05",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -17481,13 +17481,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 4
+          "quantidade": 2
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 6
+          "quantidade": 8
         }
       ],
       "minimo_manual": 0,
@@ -17662,6 +17662,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 4844,
+      "item_id": 272,
+      "produto_nome": "Álcool 70% líquido 5L",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 2,
+      "responsavel": "Assucena",
+      "data": "2026-10-22",
+      "obs": "",
+      "criado_em": "2026-10-23 11:23:05",
+      "item": "Álcool 70% líquido 5L",
+      "usuario": "Assucena"
+    },
     {
       "id": 4843,
       "item_id": 281,
@@ -25144,21 +25159,6 @@
       "data": "2026-10-16",
       "obs": "",
       "criado_em": "2026-10-16 15:29:14",
-      "item": "AGULHA  40X1,2",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 4344,
-      "item_id": 390,
-      "produto_nome": "AGULHA  40X1,2",
-      "tipo": "Almoxarifado para Farmácia",
-      "origem": "Almoxarifado",
-      "destino": "Farmácia",
-      "quantidade": 800,
-      "responsavel": "Leiliana",
-      "data": "2026-10-16",
-      "obs": "",
-      "criado_em": "2026-10-16 15:29:01",
       "item": "AGULHA  40X1,2",
       "usuario": "Leiliana"
     }
