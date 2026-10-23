@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "23/10/2026 11:38:29",
+  "atualizado_em": "23/10/2026 11:38:37",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
     "total_almoxarifado": 117303,
-    "total_farmacia": 34236,
-    "total_geral": 151539,
+    "total_farmacia": 34232,
+    "total_geral": 151535,
     "perto_de_terminar": 31,
     "zerados": 15
   },
@@ -10863,19 +10863,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 246,
+      "farmacia": 242,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 246,
+      "total": 242,
       "minimo": 0,
       "validade": "03/27",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-19 14:51:28",
+      "atualizado_em": "2026-10-23 11:38:36",
       "validade_mais_proxima": "03/27",
       "vencimento_mais_proximo": "03/27",
       "lotes_validade": [
@@ -10883,7 +10883,7 @@
           "local": "farmacia",
           "validade": "03/27",
           "lote": "",
-          "quantidade": 146
+          "quantidade": 142
         },
         {
           "local": "farmacia",
@@ -10893,13 +10893,13 @@
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 17,
-      "previsao_20_dias": 17,
+      "minimo_alerta": 18,
+      "previsao_20_dias": 18,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 67,
-      "media_diaria_saida": 0.81,
-      "total_saida_historica": 54,
-      "cobertura_dias": 305.2,
+      "media_diaria_saida": 0.87,
+      "total_saida_historica": 58,
+      "cobertura_dias": 279.6,
       "alerta_estoque": false
     },
     {
@@ -17662,6 +17662,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 4899,
+      "item_id": 224,
+      "produto_nome": "Meropenem 500mg",
+      "tipo": "Farmácia para Posto de Internamento",
+      "origem": "Farmácia",
+      "destino": "Posto de Internamento",
+      "quantidade": 4,
+      "responsavel": "Assucena",
+      "data": "2026-10-23",
+      "obs": "",
+      "criado_em": "2026-10-23 11:38:36",
+      "item": "Meropenem 500mg",
+      "usuario": "Assucena"
+    },
     {
       "id": 4898,
       "item_id": 227,
@@ -25145,21 +25160,6 @@
       "obs": "",
       "criado_em": "2026-10-16 15:46:34",
       "item": "Luva de látex tam. G",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 4399,
-      "item_id": 180,
-      "produto_nome": "Luva de látex tam. P",
-      "tipo": "Entrada no Almoxarifado",
-      "origem": "Entrada externa",
-      "destino": "Almoxarifado",
-      "quantidade": 42,
-      "responsavel": "Leiliana",
-      "data": "2026-10-16",
-      "obs": "",
-      "criado_em": "2026-10-16 15:46:22",
-      "item": "Luva de látex tam. P",
       "usuario": "Leiliana"
     }
   ]
