@@ -83,7 +83,15 @@ class SecretariaMiddleware:
                 core.initialize()
                 self.ready=True
             handler=RequestHandler(environ,body)
-            if method=='POST' and path=='/secretaria/api/import-presentation':
+            if method=='POST' and path=='/secretaria/api/provision-presentation':
+                handler.active_db=None
+                try:
+                    from .provision import provision
+                    counts=provision(handler.json_body())
+                    handler.send(200,{'ok':True,'counts':counts})
+                except core.Problem as exc:
+                    handler.send(exc.status,{'error':exc.message})
+            elif method=='POST' and path=='/secretaria/api/import-presentation':
                 self.import_presentation(handler)
             else:
                 handler.handle_request(method=='POST')

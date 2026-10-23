@@ -29,6 +29,10 @@ autenticado via `POST /secretaria/api/import-presentation`, com CSRF e confirma�
 da senha. O pacote usa PBKDF2-SHA256 com 600.000 iterações e fica fora do GitHub.
 A importação só funciona no banco vazio, registra um marcador persistente
 e nunca substitui registros existentes ou se repete após reinícios.
+O provisionamento inicial também aceita uma cópia assinada com Ed25519 em
+`/secretaria/api/provision-presentation`. A chave pública verifica a cópia,
+o domínio e a validade de 24 horas. A chave privada não é armazenada nem
+publicada. O marcador e a presença de pacientes bloqueiam qualquer repetição.
 Os dados de apresentação continuam disponíveis para a reunião; não há rotina
 automática para apagá-los. Antes de zerar futuramente, gerar backup completo e
 preservar o marcador `secretaria_meta.presentation_imported`.
