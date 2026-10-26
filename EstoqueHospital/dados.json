@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "26/10/2026 14:17:26",
+  "atualizado_em": "26/10/2026 14:17:37",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
     "total_almoxarifado": 116820,
-    "total_farmacia": 31702,
-    "total_geral": 148522,
+    "total_farmacia": 31682,
+    "total_geral": 148502,
     "perto_de_terminar": 33,
     "zerados": 15
   },
@@ -6104,19 +6104,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 210,
-      "farmacia": 80,
+      "farmacia": 60,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 290,
+      "total": 270,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-22 10:34:26",
+      "atualizado_em": "2026-10-26 14:17:36",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -6130,17 +6130,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 80
+          "quantidade": 60
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 86,
-      "previsao_20_dias": 86,
+      "minimo_alerta": 91,
+      "previsao_20_dias": 91,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 75,
-      "media_diaria_saida": 4.27,
-      "total_saida_historica": 320,
-      "cobertura_dias": 68.0,
+      "media_diaria_saida": 4.53,
+      "total_saida_historica": 340,
+      "cobertura_dias": 59.6,
       "alerta_estoque": false
     },
     {
@@ -17657,6 +17657,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 5037,
+      "item_id": 75,
+      "produto_nome": "Escopolamina 20mg",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 20,
+      "responsavel": "Leiliana",
+      "data": "2026-10-26",
+      "obs": "",
+      "criado_em": "2026-10-26 14:17:36",
+      "item": "Escopolamina 20mg",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 5036,
       "item_id": 56,
       "produto_nome": "Benzilpenicilina 600 UI",
@@ -25139,21 +25154,6 @@
       "obs": "",
       "criado_em": "2026-10-19 14:52:25",
       "item": "Simeticona gotas",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 4537,
-      "item_id": 331,
-      "produto_nome": "Agulha 30x8",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 50,
-      "responsavel": "Assucena",
-      "data": "2026-10-19",
-      "obs": "",
-      "criado_em": "2026-10-19 14:52:13",
-      "item": "Agulha 30x8",
       "usuario": "Assucena"
     }
   ]
