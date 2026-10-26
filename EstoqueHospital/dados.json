@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "26/10/2026 14:13:39",
+  "atualizado_em": "26/10/2026 14:13:49",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
     "total_almoxarifado": 116820,
-    "total_farmacia": 31976,
-    "total_geral": 148796,
+    "total_farmacia": 31975,
+    "total_geral": 148795,
     "perto_de_terminar": 33,
     "zerados": 15
   },
@@ -2819,19 +2819,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 142,
-      "farmacia": 21,
+      "farmacia": 20,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 163,
+      "total": 162,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-26 14:01:51",
+      "atualizado_em": "2026-10-26 14:13:48",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -2845,7 +2845,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 21
+          "quantidade": 20
         }
       ],
       "minimo_manual": 0,
@@ -2853,9 +2853,9 @@
       "previsao_20_dias": 14,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 75,
-      "media_diaria_saida": 0.68,
-      "total_saida_historica": 51,
-      "cobertura_dias": 239.7,
+      "media_diaria_saida": 0.69,
+      "total_saida_historica": 52,
+      "cobertura_dias": 233.7,
       "alerta_estoque": false
     },
     {
@@ -17657,6 +17657,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 5017,
+      "item_id": 155,
+      "produto_nome": "Bolsa coletora",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 1,
+      "responsavel": "Leiliana",
+      "data": "2026-10-26",
+      "obs": "",
+      "criado_em": "2026-10-26 14:13:48",
+      "item": "Bolsa coletora",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 5016,
       "item_id": 68,
       "produto_nome": "Dexametasona",
@@ -25139,21 +25154,6 @@
       "obs": "",
       "criado_em": "2026-10-19 14:47:42",
       "item": "Caixa de perfurocortante",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 4517,
-      "item_id": 154,
-      "produto_nome": "Equipo fotossensível",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 1,
-      "responsavel": "Assucena",
-      "data": "2026-10-19",
-      "obs": "",
-      "criado_em": "2026-10-19 14:47:32",
-      "item": "Equipo fotossensível",
       "usuario": "Assucena"
     }
   ]
