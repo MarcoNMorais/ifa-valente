@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "26/10/2026 14:14:11",
+  "atualizado_em": "26/10/2026 14:14:24",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
     "total_almoxarifado": 116820,
-    "total_farmacia": 31865,
-    "total_geral": 148685,
+    "total_farmacia": 31825,
+    "total_geral": 148645,
     "perto_de_terminar": 33,
     "zerados": 15
   },
@@ -13237,19 +13237,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 5650,
-      "farmacia": 110,
+      "farmacia": 70,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 5760,
+      "total": 5720,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-26 14:07:34",
+      "atualizado_em": "2026-10-26 14:14:23",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -13263,17 +13263,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 170
+          "quantidade": 130
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 1378,
-      "previsao_20_dias": 1378,
+      "minimo_alerta": 1388,
+      "previsao_20_dias": 1388,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 75,
-      "media_diaria_saida": 68.85,
-      "total_saida_historica": 5164,
-      "cobertura_dias": 83.7,
+      "media_diaria_saida": 69.39,
+      "total_saida_historica": 5204,
+      "cobertura_dias": 82.4,
       "alerta_estoque": false
     },
     {
@@ -17656,6 +17656,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 5020,
+      "item_id": 103,
+      "produto_nome": "Seringa 10ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 40,
+      "responsavel": "Leiliana",
+      "data": "2026-10-26",
+      "obs": "",
+      "criado_em": "2026-10-26 14:14:23",
+      "item": "Seringa 10ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 5019,
       "item_id": 104,
@@ -25139,21 +25154,6 @@
       "obs": "",
       "criado_em": "2026-10-19 14:49:01",
       "item": "Cetoprofeno EV 100mg",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 4520,
-      "item_id": 227,
-      "produto_nome": "Enoxaparina sódica 60mg",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 5,
-      "responsavel": "Assucena",
-      "data": "2026-10-19",
-      "obs": "",
-      "criado_em": "2026-10-19 14:48:48",
-      "item": "Enoxaparina sódica 60mg",
       "usuario": "Assucena"
     }
   ]
