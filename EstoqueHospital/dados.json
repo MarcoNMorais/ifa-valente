@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "26/10/2026 14:17:44",
+  "atualizado_em": "26/10/2026 14:17:53",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
     "total_almoxarifado": 116820,
-    "total_farmacia": 31662,
-    "total_geral": 148482,
+    "total_farmacia": 31642,
+    "total_geral": 148462,
     "perto_de_terminar": 33,
     "zerados": 15
   },
@@ -4597,19 +4597,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 90,
+      "farmacia": 70,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 90,
+      "total": 70,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-26 14:04:46",
+      "atualizado_em": "2026-10-26 14:17:52",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -4617,17 +4617,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 90
+          "quantidade": 70
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 208,
-      "previsao_20_dias": 208,
+      "minimo_alerta": 214,
+      "previsao_20_dias": 214,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 75,
-      "media_diaria_saida": 10.4,
-      "total_saida_historica": 780,
-      "cobertura_dias": 8.7,
+      "media_diaria_saida": 10.67,
+      "total_saida_historica": 800,
+      "cobertura_dias": 6.6,
       "alerta_estoque": true
     },
     {
@@ -17657,6 +17657,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 5039,
+      "item_id": 66,
+      "produto_nome": "Complexo B",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 20,
+      "responsavel": "Leiliana",
+      "data": "2026-10-26",
+      "obs": "",
+      "criado_em": "2026-10-26 14:17:52",
+      "item": "Complexo B",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 5038,
       "item_id": 76,
       "produto_nome": "Escopolamina + Dipirona",
@@ -25139,21 +25154,6 @@
       "obs": "",
       "criado_em": "2026-10-19 14:52:45",
       "item": "Dispositivo intravenoso Gelco nº 20",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 4539,
-      "item_id": 202,
-      "produto_nome": "Soro fisiológico 100ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 60,
-      "responsavel": "Assucena",
-      "data": "2026-10-19",
-      "obs": "",
-      "criado_em": "2026-10-19 14:52:34",
-      "item": "Soro fisiológico 100ml",
       "usuario": "Assucena"
     }
   ]
