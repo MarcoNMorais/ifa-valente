@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "26/10/2026 13:58:02",
+  "atualizado_em": "26/10/2026 13:58:35",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
-    "total_almoxarifado": 117103,
-    "total_farmacia": 33085,
+    "total_almoxarifado": 117023,
+    "total_farmacia": 33165,
     "total_geral": 150188,
     "perto_de_terminar": 31,
     "zerados": 15
@@ -13110,8 +13110,8 @@
       "nome": "Scalp nº 21",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 930,
-      "farmacia": 1,
+      "almoxarifado": 850,
+      "farmacia": 81,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -13123,7 +13123,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-23 11:34:08",
+      "atualizado_em": "2026-10-26 13:58:34",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -13131,13 +13131,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 930
+          "quantidade": 850
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 1
+          "quantidade": 81
         }
       ],
       "minimo_manual": 0,
@@ -17662,6 +17662,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 4945,
+      "item_id": 99,
+      "produto_nome": "Scalp nº 21",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 80,
+      "responsavel": "Leiliana",
+      "data": "2026-10-26",
+      "obs": "",
+      "criado_em": "2026-10-26 13:58:34",
+      "item": "Scalp nº 21",
+      "usuario": "Leiliana"
+    },
     {
       "id": 4944,
       "item_id": 104,
@@ -25145,21 +25160,6 @@
       "obs": "",
       "criado_em": "2026-10-16 16:33:31",
       "item": "Tira Reagente G-Tech",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 4445,
-      "item_id": 201,
-      "produto_nome": "Soro Ringer Lactato 500ml",
-      "tipo": "Farmácia para Outro destino",
-      "origem": "Farmácia",
-      "destino": "Outro destino",
-      "quantidade": 6,
-      "responsavel": "Leiliana",
-      "data": "2026-10-16",
-      "obs": "",
-      "criado_em": "2026-10-16 16:33:20",
-      "item": "Soro Ringer Lactato 500ml",
       "usuario": "Leiliana"
     }
   ]
