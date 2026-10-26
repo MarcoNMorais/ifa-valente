@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "26/10/2026 14:14:37",
+  "atualizado_em": "26/10/2026 14:14:52",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
     "total_almoxarifado": 116820,
-    "total_farmacia": 31795,
-    "total_geral": 148615,
+    "total_farmacia": 31771,
+    "total_geral": 148591,
     "perto_de_terminar": 33,
     "zerados": 15
   },
@@ -1621,19 +1621,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 2604,
-      "farmacia": 206,
+      "farmacia": 182,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 2810,
+      "total": 2786,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-26 14:04:00",
+      "atualizado_em": "2026-10-26 14:14:50",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -1647,17 +1647,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 218
+          "quantidade": 194
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 118,
-      "previsao_20_dias": 118,
+      "minimo_alerta": 125,
+      "previsao_20_dias": 125,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 75,
-      "media_diaria_saida": 5.89,
-      "total_saida_historica": 442,
-      "cobertura_dias": 476.8,
+      "media_diaria_saida": 6.21,
+      "total_saida_historica": 466,
+      "cobertura_dias": 448.4,
       "alerta_estoque": false
     },
     {
@@ -17657,6 +17657,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 5022,
+      "item_id": 152,
+      "produto_nome": "Atadura crepon nº 10",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 24,
+      "responsavel": "Leiliana",
+      "data": "2026-10-26",
+      "obs": "",
+      "criado_em": "2026-10-26 14:14:50",
+      "item": "Atadura crepon nº 10",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 5021,
       "item_id": 274,
       "produto_nome": "Seringa 20ml",
@@ -25139,21 +25154,6 @@
       "obs": "",
       "criado_em": "2026-10-19 14:49:23",
       "item": "Lençol descartável papel",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 4522,
-      "item_id": 241,
-      "produto_nome": "Lactulose solução",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 2,
-      "responsavel": "Assucena",
-      "data": "2026-10-19",
-      "obs": "",
-      "criado_em": "2026-10-19 14:49:13",
-      "item": "Lactulose solução",
       "usuario": "Assucena"
     }
   ]
