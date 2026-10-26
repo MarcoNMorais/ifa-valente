@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "26/10/2026 13:56:16",
+  "atualizado_em": "26/10/2026 13:56:47",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
-    "total_almoxarifado": 117153,
-    "total_farmacia": 33270,
+    "total_almoxarifado": 117103,
+    "total_farmacia": 33320,
     "total_geral": 150423,
     "perto_de_terminar": 31,
     "zerados": 15
@@ -5434,8 +5434,8 @@
       "nome": "Dispositivo intravenoso Gelco nº 20",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 380,
-      "farmacia": 164,
+      "almoxarifado": 330,
+      "farmacia": 214,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -5447,7 +5447,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-23 11:33:52",
+      "atualizado_em": "2026-10-26 13:56:46",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -5455,13 +5455,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 380
+          "quantidade": 330
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 164
+          "quantidade": 214
         }
       ],
       "minimo_manual": 0,
@@ -17663,6 +17663,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 4938,
+      "item_id": 178,
+      "produto_nome": "Dispositivo intravenoso Gelco nº 20",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 50,
+      "responsavel": "Leiliana",
+      "data": "2026-10-26",
+      "obs": "",
+      "criado_em": "2026-10-26 13:56:46",
+      "item": "Dispositivo intravenoso Gelco nº 20",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 4937,
       "item_id": 177,
       "produto_nome": "Gelco nº 22",
@@ -25145,21 +25160,6 @@
       "obs": "",
       "criado_em": "2026-10-16 16:32:05",
       "item": "Polifix",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 4438,
-      "item_id": 104,
-      "produto_nome": "Seringa 3ml",
-      "tipo": "Farmácia para Outro destino",
-      "origem": "Farmácia",
-      "destino": "Outro destino",
-      "quantidade": 15,
-      "responsavel": "Leiliana",
-      "data": "2026-10-16",
-      "obs": "",
-      "criado_em": "2026-10-16 16:31:55",
-      "item": "Seringa 3ml",
       "usuario": "Leiliana"
     }
   ]
