@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "26/10/2026 16:29:13",
+  "atualizado_em": "26/10/2026 16:29:28",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
     "total_almoxarifado": 116806,
-    "total_farmacia": 30693,
-    "total_geral": 147499,
+    "total_farmacia": 30653,
+    "total_geral": 147459,
     "perto_de_terminar": 34,
     "zerados": 16
   },
@@ -13415,19 +13415,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 6250,
-      "farmacia": 395,
+      "farmacia": 355,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 6645,
+      "total": 6605,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-26 14:21:23",
+      "atualizado_em": "2026-10-26 16:29:26",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -13441,17 +13441,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 425
+          "quantidade": 385
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 1139,
-      "previsao_20_dias": 1139,
+      "minimo_alerta": 1150,
+      "previsao_20_dias": 1150,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 75,
-      "media_diaria_saida": 56.93,
-      "total_saida_historica": 4270,
-      "cobertura_dias": 116.7,
+      "media_diaria_saida": 57.47,
+      "total_saida_historica": 4310,
+      "cobertura_dias": 114.9,
       "alerta_estoque": false
     },
     {
@@ -17650,6 +17650,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 5099,
+      "item_id": 102,
+      "produto_nome": "Seringa 5ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 40,
+      "responsavel": "Leiliana",
+      "data": "2026-10-26",
+      "obs": "",
+      "criado_em": "2026-10-26 16:29:26",
+      "item": "Seringa 5ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 5098,
       "item_id": 103,
@@ -25133,21 +25148,6 @@
       "obs": "",
       "criado_em": "2026-10-19 15:07:21",
       "item": "AGULHA  40X1,2",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 4599,
-      "item_id": 98,
-      "produto_nome": "Scalp nº 23",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 10,
-      "responsavel": "Assucena",
-      "data": "2026-10-19",
-      "obs": "",
-      "criado_em": "2026-10-19 15:07:09",
-      "item": "Scalp nº 23",
       "usuario": "Assucena"
     }
   ]
