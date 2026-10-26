@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "26/10/2026 16:30:52",
+  "atualizado_em": "26/10/2026 16:31:05",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
     "total_almoxarifado": 116806,
-    "total_farmacia": 30566,
-    "total_geral": 147372,
+    "total_farmacia": 30552,
+    "total_geral": 147358,
     "perto_de_terminar": 34,
     "zerados": 16
   },
@@ -16089,19 +16089,19 @@
       "tipo": "Insumo",
       "unidade": "Unidade",
       "almoxarifado": 448,
-      "farmacia": 33,
+      "farmacia": 19,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 481,
+      "total": 467,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-26 14:01:10",
+      "atualizado_em": "2026-10-26 16:31:04",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -16115,17 +16115,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 33
+          "quantidade": 19
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 126,
-      "previsao_20_dias": 126,
+      "minimo_alerta": 130,
+      "previsao_20_dias": 130,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 75,
-      "media_diaria_saida": 6.28,
-      "total_saida_historica": 471,
-      "cobertura_dias": 76.6,
+      "media_diaria_saida": 6.47,
+      "total_saida_historica": 485,
+      "cobertura_dias": 72.2,
       "alerta_estoque": false
     },
     {
@@ -17650,6 +17650,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 5108,
+      "item_id": 201,
+      "produto_nome": "Soro Ringer Lactato 500ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 14,
+      "responsavel": "Leiliana",
+      "data": "2026-10-26",
+      "obs": "",
+      "criado_em": "2026-10-26 16:31:04",
+      "item": "Soro Ringer Lactato 500ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 5107,
       "item_id": 204,
@@ -25133,21 +25148,6 @@
       "obs": "",
       "criado_em": "2026-10-19 16:22:45",
       "item": "Cetoprofeno EV 100mg",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 4608,
-      "item_id": 55,
-      "produto_nome": "Benzilpenicilina 1.200",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 10,
-      "responsavel": "Assucena",
-      "data": "2026-10-19",
-      "obs": "",
-      "criado_em": "2026-10-19 16:22:36",
-      "item": "Benzilpenicilina 1.200",
       "usuario": "Assucena"
     }
   ]
