@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "26/10/2026 14:08:45",
+  "atualizado_em": "26/10/2026 14:08:56",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
     "total_almoxarifado": 116895,
-    "total_farmacia": 32357,
-    "total_geral": 149252,
+    "total_farmacia": 32337,
+    "total_geral": 149232,
     "perto_de_terminar": 32,
     "zerados": 15
   },
@@ -5159,19 +5159,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 1160,
+      "farmacia": 1140,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1160,
+      "total": 1140,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-26 13:59:21",
+      "atualizado_em": "2026-10-26 14:08:55",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -5179,17 +5179,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 1240
+          "quantidade": 1220
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 886,
-      "previsao_20_dias": 886,
+      "minimo_alerta": 891,
+      "previsao_20_dias": 891,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 75,
-      "media_diaria_saida": 44.27,
-      "total_saida_historica": 3320,
-      "cobertura_dias": 26.2,
+      "media_diaria_saida": 44.53,
+      "total_saida_historica": 3340,
+      "cobertura_dias": 25.6,
       "alerta_estoque": false
     },
     {
@@ -17657,6 +17657,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 4993,
+      "item_id": 70,
+      "produto_nome": "Dipirona",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 20,
+      "responsavel": "Leiliana",
+      "data": "2026-10-26",
+      "obs": "",
+      "criado_em": "2026-10-26 14:08:55",
+      "item": "Dipirona",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 4992,
       "item_id": 256,
       "produto_nome": "Simeticona gotas",
@@ -25139,21 +25154,6 @@
       "obs": "",
       "criado_em": "2026-10-19 14:40:55",
       "item": "Luva de vinil M",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 4493,
-      "item_id": 291,
-      "produto_nome": "Cateter tipo óculos adulto",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 10,
-      "responsavel": "Assucena",
-      "data": "2026-10-19",
-      "obs": "",
-      "criado_em": "2026-10-19 14:40:18",
-      "item": "Cateter tipo óculos adulto",
       "usuario": "Assucena"
     }
   ]
