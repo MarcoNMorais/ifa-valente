@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "26/10/2026 14:06:06",
+  "atualizado_em": "26/10/2026 14:06:28",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
-    "total_almoxarifado": 116953,
-    "total_farmacia": 32670,
+    "total_almoxarifado": 116943,
+    "total_farmacia": 32680,
     "total_geral": 149623,
     "perto_de_terminar": 32,
     "zerados": 15
@@ -3886,8 +3886,8 @@
       "nome": "Clonazepam gotas 25mg/ml",
       "tipo": "Medicamento",
       "unidade": "Unidade",
-      "almoxarifado": 10,
-      "farmacia": 0,
+      "almoxarifado": 0,
+      "farmacia": 10,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -3899,12 +3899,12 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-26 14:04:59",
+      "atualizado_em": "2026-10-26 14:06:27",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
         {
-          "local": "almoxarifado",
+          "local": "farmacia",
           "validade": "",
           "lote": "",
           "quantidade": 10
@@ -17657,6 +17657,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 4981,
+      "item_id": 21,
+      "produto_nome": "Clonazepam gotas 25mg/ml",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 10,
+      "responsavel": "Leiliana",
+      "data": "2026-10-26",
+      "obs": "",
+      "criado_em": "2026-10-26 14:06:27",
+      "item": "Clonazepam gotas 25mg/ml",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 4980,
       "item_id": 31,
       "produto_nome": "Omeprazol 20mg comprimido",
@@ -25139,21 +25154,6 @@
       "obs": "",
       "criado_em": "2026-10-19 14:37:42",
       "item": "gentamicina 80mg",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 4481,
-      "item_id": 57,
-      "produto_nome": "Bromoprida 5mg",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 1,
-      "responsavel": "Assucena",
-      "data": "2026-10-19",
-      "obs": "",
-      "criado_em": "2026-10-19 14:37:35",
-      "item": "Bromoprida 5mg",
       "usuario": "Assucena"
     }
   ]
