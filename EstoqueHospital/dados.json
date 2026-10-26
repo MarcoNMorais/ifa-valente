@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "26/10/2026 14:20:50",
+  "atualizado_em": "26/10/2026 14:21:00",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
     "total_almoxarifado": 116806,
-    "total_farmacia": 31461,
-    "total_geral": 148267,
+    "total_farmacia": 31451,
+    "total_geral": 148257,
     "perto_de_terminar": 33,
     "zerados": 15
   },
@@ -13323,19 +13323,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 7250,
-      "farmacia": 75,
+      "farmacia": 65,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 7325,
+      "total": 7315,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-26 14:14:36",
+      "atualizado_em": "2026-10-26 14:20:59",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -13349,17 +13349,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 100
+          "quantidade": 90
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 750,
-      "previsao_20_dias": 750,
+      "minimo_alerta": 753,
+      "previsao_20_dias": 753,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 70,
-      "media_diaria_saida": 37.5,
-      "total_saida_historica": 2625,
-      "cobertura_dias": 195.3,
+      "media_diaria_saida": 37.64,
+      "total_saida_historica": 2635,
+      "cobertura_dias": 194.3,
       "alerta_estoque": false
     },
     {
@@ -17650,6 +17650,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 5055,
+      "item_id": 274,
+      "produto_nome": "Seringa 20ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 10,
+      "responsavel": "Leiliana",
+      "data": "2026-10-26",
+      "obs": "",
+      "criado_em": "2026-10-26 14:20:59",
+      "item": "Seringa 20ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 5054,
       "item_id": 206,
@@ -25133,21 +25148,6 @@
       "obs": "",
       "criado_em": "2026-10-19 14:56:29",
       "item": "Escopolamina 20mg",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 4555,
-      "item_id": 410,
-      "produto_nome": "oleo de girasol AGE",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 1,
-      "responsavel": "Assucena",
-      "data": "2026-10-19",
-      "obs": "",
-      "criado_em": "2026-10-19 14:56:09",
-      "item": "oleo de girasol AGE",
       "usuario": "Assucena"
     }
   ]
