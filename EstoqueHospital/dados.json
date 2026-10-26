@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "26/10/2026 14:13:02",
+  "atualizado_em": "26/10/2026 14:13:11",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
     "total_almoxarifado": 116820,
-    "total_farmacia": 32081,
-    "total_geral": 148901,
+    "total_farmacia": 32076,
+    "total_geral": 148896,
     "perto_de_terminar": 33,
     "zerados": 15
   },
@@ -9519,19 +9519,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 158,
-      "farmacia": 13,
+      "farmacia": 8,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 171,
+      "total": 166,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-26 14:05:07",
+      "atualizado_em": "2026-10-26 14:13:10",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -9545,17 +9545,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 13
+          "quantidade": 8
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 22,
-      "previsao_20_dias": 22,
+      "minimo_alerta": 23,
+      "previsao_20_dias": 23,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 75,
-      "media_diaria_saida": 1.08,
-      "total_saida_historica": 81,
-      "cobertura_dias": 158.3,
+      "media_diaria_saida": 1.15,
+      "total_saida_historica": 86,
+      "cobertura_dias": 144.8,
       "alerta_estoque": false
     },
     {
@@ -17657,6 +17657,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 5013,
+      "item_id": 199,
+      "produto_nome": "Lençol descartável papel",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 5,
+      "responsavel": "Leiliana",
+      "data": "2026-10-26",
+      "obs": "",
+      "criado_em": "2026-10-26 14:13:10",
+      "item": "Lençol descartável papel",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 5012,
       "item_id": 154,
       "produto_nome": "Equipo fotossensível",
@@ -25139,21 +25154,6 @@
       "obs": "",
       "criado_em": "2026-10-19 14:46:54",
       "item": "Dipirona",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 4513,
-      "item_id": 59,
-      "produto_nome": "Ceftriaxona 1g",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 10,
-      "responsavel": "Assucena",
-      "data": "2026-10-19",
-      "obs": "",
-      "criado_em": "2026-10-19 14:46:21",
-      "item": "Ceftriaxona 1g",
       "usuario": "Assucena"
     }
   ]
