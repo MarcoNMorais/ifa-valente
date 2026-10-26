@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "26/10/2026 14:08:20",
+  "atualizado_em": "26/10/2026 14:08:32",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
     "total_almoxarifado": 116895,
-    "total_farmacia": 32393,
-    "total_geral": 149288,
+    "total_farmacia": 32363,
+    "total_geral": 149258,
     "perto_de_terminar": 32,
     "zerados": 15
   },
@@ -3488,19 +3488,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 362,
+      "farmacia": 332,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 362,
+      "total": 332,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-26 14:00:00",
+      "atualizado_em": "2026-10-26 14:08:31",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -3508,17 +3508,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 362
+          "quantidade": 332
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 287,
-      "previsao_20_dias": 287,
+      "minimo_alerta": 295,
+      "previsao_20_dias": 295,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 75,
-      "media_diaria_saida": 14.35,
-      "total_saida_historica": 1076,
-      "cobertura_dias": 25.2,
+      "media_diaria_saida": 14.75,
+      "total_saida_historica": 1106,
+      "cobertura_dias": 22.5,
       "alerta_estoque": false
     },
     {
@@ -17657,6 +17657,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 4991,
+      "item_id": 59,
+      "produto_nome": "Ceftriaxona 1g",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 30,
+      "responsavel": "Leiliana",
+      "data": "2026-10-26",
+      "obs": "",
+      "criado_em": "2026-10-26 14:08:31",
+      "item": "Ceftriaxona 1g",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 4990,
       "item_id": 228,
       "produto_nome": "Omeprazol sódico 40mg AMP",
@@ -25139,21 +25154,6 @@
       "obs": "",
       "criado_em": "2026-10-19 14:40:07",
       "item": "Tira Reagente G-Tech",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 4491,
-      "item_id": 59,
-      "produto_nome": "Ceftriaxona 1g",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 25,
-      "responsavel": "Assucena",
-      "data": "2026-10-19",
-      "obs": "",
-      "criado_em": "2026-10-19 14:39:51",
-      "item": "Ceftriaxona 1g",
       "usuario": "Assucena"
     }
   ]
