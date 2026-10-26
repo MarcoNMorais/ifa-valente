@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "26/10/2026 13:57:04",
+  "atualizado_em": "26/10/2026 13:57:17",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
     "total_almoxarifado": 117103,
-    "total_farmacia": 33305,
-    "total_geral": 150408,
+    "total_farmacia": 33295,
+    "total_geral": 150398,
     "perto_de_terminar": 31,
     "zerados": 15
   },
@@ -5389,19 +5389,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 50,
-      "farmacia": 30,
+      "farmacia": 20,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 80,
+      "total": 70,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-19 10:55:04",
+      "atualizado_em": "2026-10-26 13:57:16",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -5415,17 +5415,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 30
+          "quantidade": 20
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 9,
-      "previsao_20_dias": 9,
+      "minimo_alerta": 13,
+      "previsao_20_dias": 13,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 47,
-      "media_diaria_saida": 0.43,
-      "total_saida_historica": 20,
-      "cobertura_dias": 188.0,
+      "media_diaria_saida": 0.64,
+      "total_saida_historica": 30,
+      "cobertura_dias": 109.7,
       "alerta_estoque": false
     },
     {
@@ -17663,6 +17663,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 4940,
+      "item_id": 397,
+      "produto_nome": "Dispositivo intravenoso Gelco nº 18",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 10,
+      "responsavel": "Leiliana",
+      "data": "2026-10-26",
+      "obs": "",
+      "criado_em": "2026-10-26 13:57:16",
+      "item": "Dispositivo intravenoso Gelco nº 18",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 4939,
       "item_id": 178,
       "produto_nome": "Dispositivo intravenoso Gelco nº 20",
@@ -25145,21 +25160,6 @@
       "obs": "",
       "criado_em": "2026-10-16 16:32:24",
       "item": "Esparadrapo 10x4,5",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 4440,
-      "item_id": 220,
-      "produto_nome": "Equipo macrogotas",
-      "tipo": "Farmácia para Outro destino",
-      "origem": "Farmácia",
-      "destino": "Outro destino",
-      "quantidade": 25,
-      "responsavel": "Leiliana",
-      "data": "2026-10-16",
-      "obs": "",
-      "criado_em": "2026-10-16 16:32:14",
-      "item": "Equipo macrogotas",
       "usuario": "Leiliana"
     }
   ]
