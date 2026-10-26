@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "26/10/2026 14:16:53",
+  "atualizado_em": "26/10/2026 14:17:03",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
     "total_almoxarifado": 116820,
-    "total_farmacia": 31719,
-    "total_geral": 148539,
+    "total_farmacia": 31718,
+    "total_geral": 148538,
     "perto_de_terminar": 33,
     "zerados": 15
   },
@@ -8935,19 +8935,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 51,
+      "farmacia": 50,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 51,
+      "total": 50,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-22 10:35:11",
+      "atualizado_em": "2026-10-26 14:17:02",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -8955,7 +8955,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 51
+          "quantidade": 50
         }
       ],
       "minimo_manual": 0,
@@ -8963,9 +8963,9 @@
       "previsao_20_dias": 10,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 74,
-      "media_diaria_saida": 0.46,
-      "total_saida_historica": 34,
-      "cobertura_dias": 111.0,
+      "media_diaria_saida": 0.47,
+      "total_saida_historica": 35,
+      "cobertura_dias": 105.7,
       "alerta_estoque": false
     },
     {
@@ -17657,6 +17657,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 5034,
+      "item_id": 255,
+      "produto_nome": "Ibuprofeno gotas",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 1,
+      "responsavel": "Leiliana",
+      "data": "2026-10-26",
+      "obs": "",
+      "criado_em": "2026-10-26 14:17:02",
+      "item": "Ibuprofeno gotas",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 5033,
       "item_id": 181,
       "produto_nome": "Luva de látex tam. M",
@@ -25139,21 +25154,6 @@
       "obs": "",
       "criado_em": "2026-10-19 14:51:51",
       "item": "AGULHA  40X1,2",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 4534,
-      "item_id": 99,
-      "produto_nome": "Scalp nº 21",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 15,
-      "responsavel": "Assucena",
-      "data": "2026-10-19",
-      "obs": "",
-      "criado_em": "2026-10-19 14:51:40",
-      "item": "Scalp nº 21",
       "usuario": "Assucena"
     }
   ]
