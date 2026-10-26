@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "26/10/2026 14:05:08",
+  "atualizado_em": "26/10/2026 14:05:36",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
-    "total_almoxarifado": 117003,
-    "total_farmacia": 32646,
+    "total_almoxarifado": 116953,
+    "total_farmacia": 32696,
     "total_geral": 149649,
     "perto_de_terminar": 32,
     "zerados": 15
@@ -11101,8 +11101,8 @@
       "nome": "Metronidazol 100ml",
       "tipo": "Medicamento",
       "unidade": "Unidade",
-      "almoxarifado": 219,
-      "farmacia": 0,
+      "almoxarifado": 169,
+      "farmacia": 50,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -11114,7 +11114,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-20 10:00:43",
+      "atualizado_em": "2026-10-26 14:05:34",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -11122,7 +11122,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 219
+          "quantidade": 169
+        },
+        {
+          "local": "farmacia",
+          "validade": "",
+          "lote": "",
+          "quantidade": 50
         }
       ],
       "minimo_manual": 0,
@@ -17650,6 +17656,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 4978,
+      "item_id": 290,
+      "produto_nome": "Metronidazol 100ml",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 50,
+      "responsavel": "Leiliana",
+      "data": "2026-10-26",
+      "obs": "",
+      "criado_em": "2026-10-26 14:05:34",
+      "item": "Metronidazol 100ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 4977,
       "item_id": 199,
@@ -25133,21 +25154,6 @@
       "obs": "",
       "criado_em": "2026-10-19 14:37:13",
       "item": "Soro fisiológico 500ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 4478,
-      "item_id": 276,
-      "produto_nome": "Esparadrapo 10x4,5",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 5,
-      "responsavel": "Assucena",
-      "data": "2026-10-19",
-      "obs": "",
-      "criado_em": "2026-10-19 14:37:06",
-      "item": "Esparadrapo 10x4,5",
       "usuario": "Assucena"
     }
   ]
