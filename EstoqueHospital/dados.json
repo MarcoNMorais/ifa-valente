@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "26/10/2026 14:08:32",
+  "atualizado_em": "26/10/2026 14:08:45",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
     "total_almoxarifado": 116895,
-    "total_farmacia": 32363,
-    "total_geral": 149258,
+    "total_farmacia": 32357,
+    "total_geral": 149252,
     "perto_de_terminar": 32,
     "zerados": 15
   },
@@ -13593,19 +13593,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 35,
-      "farmacia": 19,
+      "farmacia": 13,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 54,
+      "total": 48,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-19 14:52:25",
+      "atualizado_em": "2026-10-26 14:08:44",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -13619,17 +13619,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 19
+          "quantidade": 13
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 16,
-      "previsao_20_dias": 16,
+      "minimo_alerta": 18,
+      "previsao_20_dias": 18,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 74,
-      "media_diaria_saida": 0.78,
-      "total_saida_historica": 58,
-      "cobertura_dias": 68.9,
+      "media_diaria_saida": 0.86,
+      "total_saida_historica": 64,
+      "cobertura_dias": 55.5,
       "alerta_estoque": false
     },
     {
@@ -17656,6 +17656,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 4992,
+      "item_id": 256,
+      "produto_nome": "Simeticona gotas",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 6,
+      "responsavel": "Leiliana",
+      "data": "2026-10-26",
+      "obs": "",
+      "criado_em": "2026-10-26 14:08:44",
+      "item": "Simeticona gotas",
+      "usuario": "Leiliana"
+    },
     {
       "id": 4991,
       "item_id": 59,
@@ -25139,21 +25154,6 @@
       "obs": "",
       "criado_em": "2026-10-19 14:40:18",
       "item": "Cateter tipo óculos adulto",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 4492,
-      "item_id": 195,
-      "produto_nome": "Tira Reagente G-Tech",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 1,
-      "responsavel": "Assucena",
-      "data": "2026-10-19",
-      "obs": "",
-      "criado_em": "2026-10-19 14:40:07",
-      "item": "Tira Reagente G-Tech",
       "usuario": "Assucena"
     }
   ]
