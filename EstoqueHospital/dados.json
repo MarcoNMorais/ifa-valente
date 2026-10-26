@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "26/10/2026 16:27:35",
+  "atualizado_em": "26/10/2026 16:27:44",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
     "total_almoxarifado": 116806,
-    "total_farmacia": 30983,
-    "total_geral": 147789,
+    "total_farmacia": 30953,
+    "total_geral": 147759,
     "perto_de_terminar": 33,
     "zerados": 15
   },
@@ -4763,19 +4763,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 1400,
-      "farmacia": 710,
+      "farmacia": 680,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 2110,
+      "total": 2080,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-26 14:24:03",
+      "atualizado_em": "2026-10-26 16:27:43",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -4789,17 +4789,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 710
+          "quantidade": 680
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 576,
-      "previsao_20_dias": 576,
+      "minimo_alerta": 584,
+      "previsao_20_dias": 584,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 75,
-      "media_diaria_saida": 28.8,
-      "total_saida_historica": 2160,
-      "cobertura_dias": 73.3,
+      "media_diaria_saida": 29.2,
+      "total_saida_historica": 2190,
+      "cobertura_dias": 71.2,
       "alerta_estoque": false
     },
     {
@@ -17651,6 +17651,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 5090,
+      "item_id": 68,
+      "produto_nome": "Dexametasona",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 30,
+      "responsavel": "Leiliana",
+      "data": "2026-10-26",
+      "obs": "",
+      "criado_em": "2026-10-26 16:27:43",
+      "item": "Dexametasona",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 5089,
       "item_id": 55,
       "produto_nome": "Benzilpenicilina 1.200",
@@ -25133,21 +25148,6 @@
       "obs": "",
       "criado_em": "2026-10-19 15:05:15",
       "item": "Paracetamol 500mg",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 4590,
-      "item_id": 257,
-      "produto_nome": "Brometo de ipratrópio gotas",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 1,
-      "responsavel": "Assucena",
-      "data": "2026-10-19",
-      "obs": "",
-      "criado_em": "2026-10-19 15:05:06",
-      "item": "Brometo de ipratrópio gotas",
       "usuario": "Assucena"
     }
   ]
