@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "26/10/2026 14:11:34",
+  "atualizado_em": "26/10/2026 14:11:59",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
-    "total_almoxarifado": 116890,
-    "total_farmacia": 32168,
+    "total_almoxarifado": 116820,
+    "total_farmacia": 32238,
     "total_geral": 149058,
     "perto_de_terminar": 33,
     "zerados": 15
@@ -15864,8 +15864,8 @@
       "nome": "Soro fisiológico 250ml",
       "tipo": "Insumo",
       "unidade": "Unidade",
-      "almoxarifado": 1217,
-      "farmacia": 10,
+      "almoxarifado": 1147,
+      "farmacia": 80,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -15877,7 +15877,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-26 14:08:08",
+      "atualizado_em": "2026-10-26 14:11:57",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -15885,13 +15885,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 1217
+          "quantidade": 1147
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 10
+          "quantidade": 80
         }
       ],
       "minimo_manual": 0,
@@ -17656,6 +17656,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 5006,
+      "item_id": 203,
+      "produto_nome": "Soro fisiológico 250ml",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 70,
+      "responsavel": "Leiliana",
+      "data": "2026-10-26",
+      "obs": "",
+      "criado_em": "2026-10-26 14:11:57",
+      "item": "Soro fisiológico 250ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 5005,
       "item_id": 178,
@@ -25139,21 +25154,6 @@
       "obs": "",
       "criado_em": "2026-10-19 14:44:33",
       "item": "Seringa 20ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 4506,
-      "item_id": 181,
-      "produto_nome": "Luva de látex tam. M",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 2,
-      "responsavel": "Assucena",
-      "data": "2026-10-19",
-      "obs": "",
-      "criado_em": "2026-10-19 14:44:20",
-      "item": "Luva de látex tam. M",
       "usuario": "Assucena"
     }
   ]
