@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "26/10/2026 14:17:03",
+  "atualizado_em": "26/10/2026 14:17:18",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
     "total_almoxarifado": 116820,
-    "total_farmacia": 31718,
-    "total_geral": 148538,
+    "total_farmacia": 31708,
+    "total_geral": 148528,
     "perto_de_terminar": 33,
     "zerados": 15
   },
@@ -2441,19 +2441,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 209,
+      "farmacia": 199,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 209,
+      "total": 199,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-23 11:31:29",
+      "atualizado_em": "2026-10-26 14:17:16",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -2461,17 +2461,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 209
+          "quantidade": 199
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 159,
-      "previsao_20_dias": 159,
+      "minimo_alerta": 162,
+      "previsao_20_dias": 162,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 75,
-      "media_diaria_saida": 7.93,
-      "total_saida_historica": 595,
-      "cobertura_dias": 26.3,
+      "media_diaria_saida": 8.07,
+      "total_saida_historica": 605,
+      "cobertura_dias": 24.7,
       "alerta_estoque": false
     },
     {
@@ -17657,6 +17657,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 5035,
+      "item_id": 55,
+      "produto_nome": "Benzilpenicilina 1.200",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 10,
+      "responsavel": "Leiliana",
+      "data": "2026-10-26",
+      "obs": "",
+      "criado_em": "2026-10-26 14:17:16",
+      "item": "Benzilpenicilina 1.200",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 5034,
       "item_id": 255,
       "produto_nome": "Ibuprofeno gotas",
@@ -25139,21 +25154,6 @@
       "obs": "",
       "criado_em": "2026-10-19 14:52:03",
       "item": "Agulha 30x7",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 4535,
-      "item_id": 390,
-      "produto_nome": "AGULHA  40X1,2",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 50,
-      "responsavel": "Assucena",
-      "data": "2026-10-19",
-      "obs": "",
-      "criado_em": "2026-10-19 14:51:51",
-      "item": "AGULHA  40X1,2",
       "usuario": "Assucena"
     }
   ]
