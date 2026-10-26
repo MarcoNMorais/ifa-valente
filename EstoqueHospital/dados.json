@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "26/10/2026 14:10:47",
+  "atualizado_em": "26/10/2026 14:10:57",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
     "total_almoxarifado": 116890,
-    "total_farmacia": 32268,
-    "total_geral": 149158,
+    "total_farmacia": 32238,
+    "total_geral": 149128,
     "perto_de_terminar": 32,
     "zerados": 15
   },
@@ -12166,19 +12166,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 70,
+      "farmacia": 40,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 70,
+      "total": 40,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-26 14:00:24",
+      "atualizado_em": "2026-10-26 14:10:56",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -12186,17 +12186,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 100
+          "quantidade": 70
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 384,
-      "previsao_20_dias": 384,
+      "minimo_alerta": 392,
+      "previsao_20_dias": 392,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 72,
-      "media_diaria_saida": 19.17,
-      "total_saida_historica": 1380,
-      "cobertura_dias": 3.7,
+      "media_diaria_saida": 19.58,
+      "total_saida_historica": 1410,
+      "cobertura_dias": 2.0,
       "alerta_estoque": true
     },
     {
@@ -17656,6 +17656,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 5002,
+      "item_id": 238,
+      "produto_nome": "Ondansetrona 2mg/ml 2ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 30,
+      "responsavel": "Leiliana",
+      "data": "2026-10-26",
+      "obs": "",
+      "criado_em": "2026-10-26 14:10:56",
+      "item": "Ondansetrona 2mg/ml 2ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 5001,
       "item_id": 176,
@@ -25139,21 +25154,6 @@
       "obs": "",
       "criado_em": "2026-10-19 14:43:48",
       "item": "Equipo macrogotas",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 4502,
-      "item_id": 203,
-      "produto_nome": "Soro fisiológico 250ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 12,
-      "responsavel": "Assucena",
-      "data": "2026-10-19",
-      "obs": "",
-      "criado_em": "2026-10-19 14:43:37",
-      "item": "Soro fisiológico 250ml",
       "usuario": "Assucena"
     }
   ]
