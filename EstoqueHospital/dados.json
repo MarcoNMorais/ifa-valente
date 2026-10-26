@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "26/10/2026 14:09:19",
+  "atualizado_em": "26/10/2026 14:09:30",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
     "total_almoxarifado": 116895,
-    "total_farmacia": 32322,
-    "total_geral": 149217,
+    "total_farmacia": 32319,
+    "total_geral": 149214,
     "perto_de_terminar": 32,
     "zerados": 15
   },
@@ -10225,19 +10225,19 @@
       "tipo": "Material",
       "unidade": "Caixa",
       "almoxarifado": 42,
-      "farmacia": 171,
+      "farmacia": 168,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 213,
+      "total": 210,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-26 14:02:10",
+      "atualizado_em": "2026-10-26 14:09:28",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -10251,17 +10251,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 171
+          "quantidade": 168
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 227,
-      "previsao_20_dias": 227,
+      "minimo_alerta": 228,
+      "previsao_20_dias": 228,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 75,
-      "media_diaria_saida": 11.32,
-      "total_saida_historica": 849,
-      "cobertura_dias": 18.8,
+      "media_diaria_saida": 11.36,
+      "total_saida_historica": 852,
+      "cobertura_dias": 18.5,
       "alerta_estoque": true
     },
     {
@@ -17656,6 +17656,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 4996,
+      "item_id": 180,
+      "produto_nome": "Luva de látex tam. P",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 3,
+      "responsavel": "Leiliana",
+      "data": "2026-10-26",
+      "obs": "",
+      "criado_em": "2026-10-26 14:09:28",
+      "item": "Luva de látex tam. P",
+      "usuario": "Leiliana"
+    },
     {
       "id": 4995,
       "item_id": 181,
@@ -25139,21 +25154,6 @@
       "obs": "",
       "criado_em": "2026-10-19 14:41:38",
       "item": "Atadura crepon nº 10",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 4496,
-      "item_id": 12,
-      "produto_nome": "Morfina 10mg/ml 1ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 15,
-      "responsavel": "Assucena",
-      "data": "2026-10-19",
-      "obs": "",
-      "criado_em": "2026-10-19 14:41:23",
-      "item": "Morfina 10mg/ml 1ml",
       "usuario": "Assucena"
     }
   ]
