@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "26/10/2026 14:10:15",
+  "atualizado_em": "26/10/2026 14:10:25",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
     "total_almoxarifado": 116890,
-    "total_farmacia": 32319,
-    "total_geral": 149209,
+    "total_farmacia": 32318,
+    "total_geral": 149208,
     "perto_de_terminar": 32,
     "zerados": 15
   },
@@ -7501,19 +7501,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 186,
-      "farmacia": 5,
+      "farmacia": 4,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 191,
+      "total": 190,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-26 14:10:13",
+      "atualizado_em": "2026-10-26 14:10:24",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -7527,7 +7527,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 7
+          "quantidade": 6
         }
       ],
       "minimo_manual": 0,
@@ -7535,9 +7535,9 @@
       "previsao_20_dias": 6,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 75,
-      "media_diaria_saida": 0.25,
-      "total_saida_historica": 19,
-      "cobertura_dias": 753.9,
+      "media_diaria_saida": 0.27,
+      "total_saida_historica": 20,
+      "cobertura_dias": 712.5,
       "alerta_estoque": false
     },
     {
@@ -17657,6 +17657,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 4999,
+      "item_id": 175,
+      "produto_nome": "Fita cirúrgica microporosa",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 1,
+      "responsavel": "Leiliana",
+      "data": "2026-10-26",
+      "obs": "",
+      "criado_em": "2026-10-26 14:10:24",
+      "item": "Fita cirúrgica microporosa",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 4998,
       "item_id": 175,
       "produto_nome": "Fita cirúrgica microporosa",
@@ -25138,21 +25153,6 @@
       "data": "2026-10-19",
       "obs": "",
       "criado_em": "2026-10-19 14:43:09",
-      "item": "Sonda Foley nº 18",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 4499,
-      "item_id": 312,
-      "produto_nome": "Sonda Foley nº 18",
-      "tipo": "Almoxarifado para Farmácia",
-      "origem": "Almoxarifado",
-      "destino": "Farmácia",
-      "quantidade": 10,
-      "responsavel": "Assucena",
-      "data": "2026-10-19",
-      "obs": "",
-      "criado_em": "2026-10-19 14:42:33",
       "item": "Sonda Foley nº 18",
       "usuario": "Assucena"
     }
