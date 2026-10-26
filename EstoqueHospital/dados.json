@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "26/10/2026 13:53:52",
+  "atualizado_em": "26/10/2026 13:54:26",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
-    "total_almoxarifado": 117303,
-    "total_farmacia": 33599,
+    "total_almoxarifado": 117153,
+    "total_farmacia": 33749,
     "total_geral": 150902,
     "perto_de_terminar": 31,
     "zerados": 15
@@ -5897,8 +5897,8 @@
       "nome": "Equipo macrogotas",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 2506,
-      "farmacia": 74,
+      "almoxarifado": 2356,
+      "farmacia": 224,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -5910,7 +5910,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-23 15:40:41",
+      "atualizado_em": "2026-10-26 13:54:25",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -5918,13 +5918,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 2506
+          "quantidade": 2356
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 99
+          "quantidade": 249
         }
       ],
       "minimo_manual": 300,
@@ -17663,6 +17663,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 4928,
+      "item_id": 220,
+      "produto_nome": "Equipo macrogotas",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 150,
+      "responsavel": "Leiliana",
+      "data": "2026-10-26",
+      "obs": "",
+      "criado_em": "2026-10-26 13:54:25",
+      "item": "Equipo macrogotas",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 4927,
       "item_id": 202,
       "produto_nome": "Soro fisiológico 100ml",
@@ -25145,21 +25160,6 @@
       "obs": "",
       "criado_em": "2026-10-16 15:57:42",
       "item": "Eletrodo ECG descartável",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 4428,
-      "item_id": 402,
-      "produto_nome": "KIT ACESSO CENTRAL",
-      "tipo": "Entrada no Almoxarifado",
-      "origem": "Entrada externa",
-      "destino": "Almoxarifado",
-      "quantidade": 4,
-      "responsavel": "Leiliana",
-      "data": "2026-10-16",
-      "obs": "",
-      "criado_em": "2026-10-16 15:57:18",
-      "item": "KIT ACESSO CENTRAL",
       "usuario": "Leiliana"
     }
   ]
