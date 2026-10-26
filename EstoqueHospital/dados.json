@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "26/10/2026 14:08:10",
+  "atualizado_em": "26/10/2026 14:08:20",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
     "total_almoxarifado": 116895,
-    "total_farmacia": 32405,
-    "total_geral": 149300,
+    "total_farmacia": 32393,
+    "total_geral": 149288,
     "perto_de_terminar": 32,
     "zerados": 15
   },
@@ -12120,19 +12120,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 140,
-      "farmacia": 29,
+      "farmacia": 17,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 169,
+      "total": 157,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-23 11:39:24",
+      "atualizado_em": "2026-10-26 14:08:18",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -12146,17 +12146,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 29
+          "quantidade": 17
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 93,
-      "previsao_20_dias": 93,
+      "minimo_alerta": 96,
+      "previsao_20_dias": 96,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 74,
-      "media_diaria_saida": 4.64,
-      "total_saida_historica": 343,
-      "cobertura_dias": 36.5,
+      "media_diaria_saida": 4.8,
+      "total_saida_historica": 355,
+      "cobertura_dias": 32.7,
       "alerta_estoque": false
     },
     {
@@ -17656,6 +17656,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 4990,
+      "item_id": 228,
+      "produto_nome": "Omeprazol sódico 40mg AMP",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 12,
+      "responsavel": "Leiliana",
+      "data": "2026-10-26",
+      "obs": "",
+      "criado_em": "2026-10-26 14:08:18",
+      "item": "Omeprazol sódico 40mg AMP",
+      "usuario": "Leiliana"
+    },
     {
       "id": 4989,
       "item_id": 203,
@@ -25139,21 +25154,6 @@
       "obs": "",
       "criado_em": "2026-10-19 14:39:51",
       "item": "Ceftriaxona 1g",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 4490,
-      "item_id": 274,
-      "produto_nome": "Seringa 20ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 30,
-      "responsavel": "Assucena",
-      "data": "2026-10-19",
-      "obs": "",
-      "criado_em": "2026-10-19 14:39:35",
-      "item": "Seringa 20ml",
       "usuario": "Assucena"
     }
   ]
