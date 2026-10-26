@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "26/10/2026 14:10:25",
+  "atualizado_em": "26/10/2026 14:10:36",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
     "total_almoxarifado": 116890,
-    "total_farmacia": 32318,
-    "total_geral": 149208,
+    "total_farmacia": 32278,
+    "total_geral": 149168,
     "perto_de_terminar": 32,
     "zerados": 15
   },
@@ -7971,19 +7971,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 1370,
-      "farmacia": 105,
+      "farmacia": 65,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1475,
+      "total": 1435,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-26 13:56:15",
+      "atualizado_em": "2026-10-26 14:10:34",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -7997,17 +7997,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 105
+          "quantidade": 65
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 425,
-      "previsao_20_dias": 425,
+      "minimo_alerta": 436,
+      "previsao_20_dias": 436,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 75,
-      "media_diaria_saida": 21.24,
-      "total_saida_historica": 1593,
-      "cobertura_dias": 69.4,
+      "media_diaria_saida": 21.77,
+      "total_saida_historica": 1633,
+      "cobertura_dias": 65.9,
       "alerta_estoque": false
     },
     {
@@ -17657,6 +17657,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 5000,
+      "item_id": 177,
+      "produto_nome": "Gelco nº 22",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 40,
+      "responsavel": "Leiliana",
+      "data": "2026-10-26",
+      "obs": "",
+      "criado_em": "2026-10-26 14:10:34",
+      "item": "Gelco nº 22",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 4999,
       "item_id": 175,
       "produto_nome": "Fita cirúrgica microporosa",
@@ -25139,21 +25154,6 @@
       "obs": "",
       "criado_em": "2026-10-19 14:43:19",
       "item": "Lactulose solução",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 4500,
-      "item_id": 312,
-      "produto_nome": "Sonda Foley nº 18",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 1,
-      "responsavel": "Assucena",
-      "data": "2026-10-19",
-      "obs": "",
-      "criado_em": "2026-10-19 14:43:09",
-      "item": "Sonda Foley nº 18",
       "usuario": "Assucena"
     }
   ]
