@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "26/10/2026 14:02:57",
+  "atualizado_em": "26/10/2026 14:03:28",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
-    "total_almoxarifado": 117023,
-    "total_farmacia": 32718,
+    "total_almoxarifado": 117003,
+    "total_farmacia": 32738,
     "total_geral": 149741,
     "perto_de_terminar": 31,
     "zerados": 15
@@ -5851,8 +5851,8 @@
       "nome": "Equipo fotossensível",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 70,
-      "farmacia": 2,
+      "almoxarifado": 50,
+      "farmacia": 22,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -5864,7 +5864,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-19 14:47:32",
+      "atualizado_em": "2026-10-26 14:03:27",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -5872,13 +5872,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 70
+          "quantidade": 50
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 2
+          "quantidade": 22
         }
       ],
       "minimo_manual": 0,
@@ -17663,6 +17663,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 4968,
+      "item_id": 154,
+      "produto_nome": "Equipo fotossensível",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 20,
+      "responsavel": "Leiliana",
+      "data": "2026-10-26",
+      "obs": "",
+      "criado_em": "2026-10-26 14:03:27",
+      "item": "Equipo fotossensível",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 4967,
       "item_id": 285,
       "produto_nome": "Agulha 30x7",
@@ -25145,21 +25160,6 @@
       "obs": "",
       "criado_em": "2026-10-19 14:31:12",
       "item": "Prometazina 25mg/ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 4468,
-      "item_id": 70,
-      "produto_nome": "Dipirona",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 40,
-      "responsavel": "Assucena",
-      "data": "2026-10-19",
-      "obs": "",
-      "criado_em": "2026-10-19 14:31:01",
-      "item": "Dipirona",
       "usuario": "Assucena"
     }
   ]
