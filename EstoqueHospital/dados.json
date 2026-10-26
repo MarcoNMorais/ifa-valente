@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "26/10/2026 14:25:32",
+  "atualizado_em": "26/10/2026 14:25:44",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
     "total_almoxarifado": 116806,
-    "total_farmacia": 31093,
-    "total_geral": 147899,
+    "total_farmacia": 31092,
+    "total_geral": 147898,
     "perto_de_terminar": 33,
     "zerados": 15
   },
@@ -11989,19 +11989,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 5,
+      "farmacia": 4,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 5,
+      "total": 4,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-19 14:56:09",
+      "atualizado_em": "2026-10-26 14:25:43",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -12009,7 +12009,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 5
+          "quantidade": 4
         }
       ],
       "minimo_manual": 0,
@@ -12017,9 +12017,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 14,
-      "media_diaria_saida": 0.14,
-      "total_saida_historica": 2,
-      "cobertura_dias": 35.0,
+      "media_diaria_saida": 0.21,
+      "total_saida_historica": 3,
+      "cobertura_dias": 18.7,
       "alerta_estoque": false
     },
     {
@@ -17650,6 +17650,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 5079,
+      "item_id": 410,
+      "produto_nome": "oleo de girasol AGE",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 1,
+      "responsavel": "Leiliana",
+      "data": "2026-10-26",
+      "obs": "",
+      "criado_em": "2026-10-26 14:25:43",
+      "item": "oleo de girasol AGE",
+      "usuario": "Leiliana"
+    },
     {
       "id": 5078,
       "item_id": 82,
@@ -25133,21 +25148,6 @@
       "obs": "",
       "criado_em": "2026-10-19 15:01:35",
       "item": "Polifix",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 4579,
-      "item_id": 102,
-      "produto_nome": "Seringa 5ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 20,
-      "responsavel": "Assucena",
-      "data": "2026-10-19",
-      "obs": "",
-      "criado_em": "2026-10-19 15:01:23",
-      "item": "Seringa 5ml",
       "usuario": "Assucena"
     }
   ]
