@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "26/10/2026 14:19:34",
+  "atualizado_em": "26/10/2026 14:19:44",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
     "total_almoxarifado": 116820,
-    "total_farmacia": 31485,
-    "total_geral": 148305,
+    "total_farmacia": 31484,
+    "total_geral": 148304,
     "perto_de_terminar": 33,
     "zerados": 15
   },
@@ -9869,19 +9869,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 14,
-      "farmacia": 1,
+      "farmacia": 0,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 15,
+      "total": 14,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-22 10:32:43",
+      "atualizado_em": "2026-10-26 14:19:42",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -9895,7 +9895,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 2
+          "quantidade": 1
         }
       ],
       "minimo_manual": 0,
@@ -9903,9 +9903,9 @@
       "previsao_20_dias": 4,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 53,
-      "media_diaria_saida": 0.15,
-      "total_saida_historica": 8,
-      "cobertura_dias": 99.4,
+      "media_diaria_saida": 0.17,
+      "total_saida_historica": 9,
+      "cobertura_dias": 82.4,
       "alerta_estoque": false
     },
     {
@@ -17657,6 +17657,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 5049,
+      "item_id": 377,
+      "produto_nome": "LORATADINA SUSPENSÃO",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 1,
+      "responsavel": "Leiliana",
+      "data": "2026-10-26",
+      "obs": "",
+      "criado_em": "2026-10-26 14:19:42",
+      "item": "LORATADINA SUSPENSÃO",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 5048,
       "item_id": 258,
       "produto_nome": "Dipirona gotas",
@@ -25139,21 +25154,6 @@
       "obs": "",
       "criado_em": "2026-10-19 14:55:12",
       "item": "Seringa 3ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 4549,
-      "item_id": 102,
-      "produto_nome": "Seringa 5ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 50,
-      "responsavel": "Assucena",
-      "data": "2026-10-19",
-      "obs": "",
-      "criado_em": "2026-10-19 14:55:02",
-      "item": "Seringa 5ml",
       "usuario": "Assucena"
     }
   ]
