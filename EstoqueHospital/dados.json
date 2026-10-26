@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "26/10/2026 14:03:50",
+  "atualizado_em": "26/10/2026 14:04:01",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
     "total_almoxarifado": 117003,
-    "total_farmacia": 32722,
-    "total_geral": 149725,
+    "total_farmacia": 32710,
+    "total_geral": 149713,
     "perto_de_terminar": 31,
     "zerados": 15
   },
@@ -1621,19 +1621,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 2604,
-      "farmacia": 218,
+      "farmacia": 206,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 2822,
+      "total": 2810,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-19 14:41:38",
+      "atualizado_em": "2026-10-26 14:04:00",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -1647,17 +1647,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 230
+          "quantidade": 218
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 115,
-      "previsao_20_dias": 115,
+      "minimo_alerta": 118,
+      "previsao_20_dias": 118,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 75,
-      "media_diaria_saida": 5.73,
-      "total_saida_historica": 430,
-      "cobertura_dias": 492.2,
+      "media_diaria_saida": 5.89,
+      "total_saida_historica": 442,
+      "cobertura_dias": 476.8,
       "alerta_estoque": false
     },
     {
@@ -17657,6 +17657,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 4971,
+      "item_id": 152,
+      "produto_nome": "Atadura crepon nº 10",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 12,
+      "responsavel": "Leiliana",
+      "data": "2026-10-26",
+      "obs": "",
+      "criado_em": "2026-10-26 14:04:00",
+      "item": "Atadura crepon nº 10",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 4970,
       "item_id": 308,
       "produto_nome": "Atadura de algodão 15cm",
@@ -25139,21 +25154,6 @@
       "obs": "",
       "criado_em": "2026-10-19 14:35:48",
       "item": "Diclofenaco 25mg",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 4471,
-      "item_id": 76,
-      "produto_nome": "Escopolamina + Dipirona",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 10,
-      "responsavel": "Assucena",
-      "data": "2026-10-19",
-      "obs": "",
-      "criado_em": "2026-10-19 14:35:33",
-      "item": "Escopolamina + Dipirona",
       "usuario": "Assucena"
     }
   ]
