@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "26/10/2026 14:13:30",
+  "atualizado_em": "26/10/2026 14:13:39",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
     "total_almoxarifado": 116820,
-    "total_farmacia": 32006,
-    "total_geral": 148826,
+    "total_farmacia": 31976,
+    "total_geral": 148796,
     "perto_de_terminar": 33,
     "zerados": 15
   },
@@ -4763,19 +4763,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 1400,
-      "farmacia": 760,
+      "farmacia": 730,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 2160,
+      "total": 2130,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-26 14:00:43",
+      "atualizado_em": "2026-10-26 14:13:37",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -4789,17 +4789,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 760
+          "quantidade": 730
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 563,
-      "previsao_20_dias": 563,
+      "minimo_alerta": 571,
+      "previsao_20_dias": 571,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 75,
-      "media_diaria_saida": 28.13,
-      "total_saida_historica": 2110,
-      "cobertura_dias": 76.8,
+      "media_diaria_saida": 28.53,
+      "total_saida_historica": 2140,
+      "cobertura_dias": 74.6,
       "alerta_estoque": false
     },
     {
@@ -17657,6 +17657,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 5016,
+      "item_id": 68,
+      "produto_nome": "Dexametasona",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 30,
+      "responsavel": "Leiliana",
+      "data": "2026-10-26",
+      "obs": "",
+      "criado_em": "2026-10-26 14:13:37",
+      "item": "Dexametasona",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 5015,
       "item_id": 384,
       "produto_nome": "ACIDO ASCORBICO",
@@ -25139,21 +25154,6 @@
       "obs": "",
       "criado_em": "2026-10-19 14:47:32",
       "item": "Equipo fotossensível",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 4516,
-      "item_id": 22,
-      "produto_nome": "Cloridrato tiamina 100mg/ml 1ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 5,
-      "responsavel": "Assucena",
-      "data": "2026-10-19",
-      "obs": "",
-      "criado_em": "2026-10-19 14:47:21",
-      "item": "Cloridrato tiamina 100mg/ml 1ml",
       "usuario": "Assucena"
     }
   ]
