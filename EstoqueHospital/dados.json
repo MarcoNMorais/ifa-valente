@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "26/10/2026 14:19:44",
+  "atualizado_em": "26/10/2026 14:19:54",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
-    "total_almoxarifado": 116820,
-    "total_farmacia": 31484,
+    "total_almoxarifado": 116806,
+    "total_farmacia": 31498,
     "total_geral": 148304,
     "perto_de_terminar": 33,
     "zerados": 15
@@ -9868,8 +9868,8 @@
       "nome": "LORATADINA SUSPENSÃO",
       "tipo": "Medicamento",
       "unidade": "Unidade",
-      "almoxarifado": 14,
-      "farmacia": 0,
+      "almoxarifado": 0,
+      "farmacia": 14,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -9881,21 +9881,15 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-26 14:19:42",
+      "atualizado_em": "2026-10-26 14:19:52",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
         {
-          "local": "almoxarifado",
-          "validade": "",
-          "lote": "",
-          "quantidade": 14
-        },
-        {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 1
+          "quantidade": 15
         }
       ],
       "minimo_manual": 0,
@@ -17657,6 +17651,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 5050,
+      "item_id": 377,
+      "produto_nome": "LORATADINA SUSPENSÃO",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 14,
+      "responsavel": "Leiliana",
+      "data": "2026-10-26",
+      "obs": "",
+      "criado_em": "2026-10-26 14:19:52",
+      "item": "LORATADINA SUSPENSÃO",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 5049,
       "item_id": 377,
       "produto_nome": "LORATADINA SUSPENSÃO",
@@ -25139,21 +25148,6 @@
       "obs": "",
       "criado_em": "2026-10-19 14:55:24",
       "item": "Fio agulhado / sutura nº 3",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 4550,
-      "item_id": 104,
-      "produto_nome": "Seringa 3ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 40,
-      "responsavel": "Assucena",
-      "data": "2026-10-19",
-      "obs": "",
-      "criado_em": "2026-10-19 14:55:12",
-      "item": "Seringa 3ml",
       "usuario": "Assucena"
     }
   ]
