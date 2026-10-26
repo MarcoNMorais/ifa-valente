@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "26/10/2026 14:00:15",
+  "atualizado_em": "26/10/2026 14:00:25",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
     "total_almoxarifado": 117023,
-    "total_farmacia": 32933,
-    "total_geral": 149956,
+    "total_farmacia": 32913,
+    "total_geral": 149936,
     "perto_de_terminar": 31,
     "zerados": 15
   },
@@ -12172,19 +12172,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 90,
+      "farmacia": 70,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 90,
+      "total": 70,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-23 15:38:29",
+      "atualizado_em": "2026-10-26 14:00:24",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -12192,17 +12192,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 120
+          "quantidade": 100
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 378,
-      "previsao_20_dias": 378,
+      "minimo_alerta": 384,
+      "previsao_20_dias": 384,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 72,
-      "media_diaria_saida": 18.89,
-      "total_saida_historica": 1360,
-      "cobertura_dias": 4.8,
+      "media_diaria_saida": 19.17,
+      "total_saida_historica": 1380,
+      "cobertura_dias": 3.7,
       "alerta_estoque": true
     },
     {
@@ -17662,6 +17662,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 4954,
+      "item_id": 238,
+      "produto_nome": "Ondansetrona 2mg/ml 2ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 20,
+      "responsavel": "Leiliana",
+      "data": "2026-10-26",
+      "obs": "",
+      "criado_em": "2026-10-26 14:00:24",
+      "item": "Ondansetrona 2mg/ml 2ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 4953,
       "item_id": 233,
@@ -25145,21 +25160,6 @@
       "obs": "",
       "criado_em": "2026-10-19 11:12:07",
       "item": "Luva P procedimento",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 4454,
-      "item_id": 280,
-      "produto_nome": "Luva M procedimento",
-      "tipo": "Almoxarifado para Farmácia",
-      "origem": "Almoxarifado",
-      "destino": "Farmácia",
-      "quantidade": 10,
-      "responsavel": "Assucena",
-      "data": "2026-10-19",
-      "obs": "",
-      "criado_em": "2026-10-19 11:12:00",
-      "item": "Luva M procedimento",
       "usuario": "Assucena"
     }
   ]
