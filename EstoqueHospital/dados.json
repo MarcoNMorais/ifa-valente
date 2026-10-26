@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "26/10/2026 14:23:09",
+  "atualizado_em": "26/10/2026 14:23:17",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
     "total_almoxarifado": 116806,
-    "total_farmacia": 31304,
-    "total_geral": 148110,
+    "total_farmacia": 31284,
+    "total_geral": 148090,
     "perto_de_terminar": 33,
     "zerados": 15
   },
@@ -13277,19 +13277,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 1200,
-      "farmacia": 170,
+      "farmacia": 150,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1370,
+      "total": 1350,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-23 11:36:56",
+      "atualizado_em": "2026-10-26 14:23:16",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -13303,17 +13303,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 170
+          "quantidade": 150
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 176,
-      "previsao_20_dias": 176,
+      "minimo_alerta": 181,
+      "previsao_20_dias": 181,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 75,
-      "media_diaria_saida": 8.77,
-      "total_saida_historica": 658,
-      "cobertura_dias": 156.2,
+      "media_diaria_saida": 9.04,
+      "total_saida_historica": 678,
+      "cobertura_dias": 149.3,
       "alerta_estoque": false
     },
     {
@@ -17650,6 +17650,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 5067,
+      "item_id": 157,
+      "produto_nome": "Seringa 1ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 20,
+      "responsavel": "Leiliana",
+      "data": "2026-10-26",
+      "obs": "",
+      "criado_em": "2026-10-26 14:23:16",
+      "item": "Seringa 1ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 5066,
       "item_id": 104,
@@ -25133,21 +25148,6 @@
       "obs": "",
       "criado_em": "2026-10-19 14:58:59",
       "item": "Dramin B6 ampola 10ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 4567,
-      "item_id": 239,
-      "produto_nome": "Tramadol 50mg/ml 2ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 20,
-      "responsavel": "Assucena",
-      "data": "2026-10-19",
-      "obs": "",
-      "criado_em": "2026-10-19 14:58:44",
-      "item": "Tramadol 50mg/ml 2ml",
       "usuario": "Assucena"
     }
   ]
