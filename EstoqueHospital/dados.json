@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "26/10/2026 14:07:09",
+  "atualizado_em": "26/10/2026 14:07:22",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
-    "total_almoxarifado": 116943,
-    "total_farmacia": 32495,
+    "total_almoxarifado": 116895,
+    "total_farmacia": 32543,
     "total_geral": 149438,
     "perto_de_terminar": 32,
     "zerados": 15
@@ -15910,8 +15910,8 @@
       "nome": "Soro fisiológico 500ml",
       "tipo": "Insumo",
       "unidade": "Unidade",
-      "almoxarifado": 586,
-      "farmacia": 24,
+      "almoxarifado": 538,
+      "farmacia": 72,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -15923,7 +15923,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-26 14:07:08",
+      "atualizado_em": "2026-10-26 14:07:21",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -15937,7 +15937,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 24
+          "quantidade": 72
         }
       ],
       "minimo_manual": 0,
@@ -17656,6 +17656,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 4985,
+      "item_id": 204,
+      "produto_nome": "Soro fisiológico 500ml",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 48,
+      "responsavel": "Leiliana",
+      "data": "2026-10-26",
+      "obs": "",
+      "criado_em": "2026-10-26 14:07:21",
+      "item": "Soro fisiológico 500ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 4984,
       "item_id": 204,
@@ -25139,21 +25154,6 @@
       "obs": "",
       "criado_em": "2026-10-19 14:38:49",
       "item": "Soro fisiológico 250ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 4485,
-      "item_id": 104,
-      "produto_nome": "Seringa 3ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 70,
-      "responsavel": "Assucena",
-      "data": "2026-10-19",
-      "obs": "",
-      "criado_em": "2026-10-19 14:38:31",
-      "item": "Seringa 3ml",
       "usuario": "Assucena"
     }
   ]
