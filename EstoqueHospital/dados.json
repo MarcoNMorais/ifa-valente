@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "26/10/2026 14:23:17",
+  "atualizado_em": "26/10/2026 14:23:33",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
     "total_almoxarifado": 116806,
-    "total_farmacia": 31284,
-    "total_geral": 148090,
+    "total_farmacia": 31274,
+    "total_geral": 148080,
     "perto_de_terminar": 33,
     "zerados": 15
   },
@@ -13145,19 +13145,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 1120,
-      "farmacia": 50,
+      "farmacia": 40,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1170,
+      "total": 1160,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-26 14:19:12",
+      "atualizado_em": "2026-10-26 14:23:32",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -13171,17 +13171,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 60
+          "quantidade": 50
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 190,
-      "previsao_20_dias": 190,
+      "minimo_alerta": 193,
+      "previsao_20_dias": 193,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 75,
-      "media_diaria_saida": 9.49,
-      "total_saida_historica": 712,
-      "cobertura_dias": 123.2,
+      "media_diaria_saida": 9.63,
+      "total_saida_historica": 722,
+      "cobertura_dias": 120.5,
       "alerta_estoque": false
     },
     {
@@ -17650,6 +17650,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 5068,
+      "item_id": 98,
+      "produto_nome": "Scalp nº 23",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 10,
+      "responsavel": "Leiliana",
+      "data": "2026-10-26",
+      "obs": "",
+      "criado_em": "2026-10-26 14:23:32",
+      "item": "Scalp nº 23",
+      "usuario": "Leiliana"
+    },
     {
       "id": 5067,
       "item_id": 157,
@@ -25133,21 +25148,6 @@
       "obs": "",
       "criado_em": "2026-10-19 14:59:12",
       "item": "AGULHA  40X1,2",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 4568,
-      "item_id": 223,
-      "produto_nome": "Dramin B6 ampola 10ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 15,
-      "responsavel": "Assucena",
-      "data": "2026-10-19",
-      "obs": "",
-      "criado_em": "2026-10-19 14:58:59",
-      "item": "Dramin B6 ampola 10ml",
       "usuario": "Assucena"
     }
   ]
