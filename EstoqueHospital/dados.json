@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "26/10/2026 14:16:20",
+  "atualizado_em": "26/10/2026 14:16:31",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
     "total_almoxarifado": 116820,
-    "total_farmacia": 31732,
-    "total_geral": 148552,
+    "total_farmacia": 31730,
+    "total_geral": 148550,
     "perto_de_terminar": 33,
     "zerados": 15
   },
@@ -9387,19 +9387,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 74,
-      "farmacia": 21,
+      "farmacia": 19,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 95,
+      "total": 93,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga Farmácia 227-288",
       "obs": "Importação Farmácia 227-288",
-      "atualizado_em": "2026-10-22 15:58:34",
+      "atualizado_em": "2026-10-26 14:16:30",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -9413,7 +9413,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 21
+          "quantidade": 19
         }
       ],
       "minimo_manual": 0,
@@ -9421,9 +9421,9 @@
       "previsao_20_dias": 9,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 74,
-      "media_diaria_saida": 0.42,
-      "total_saida_historica": 31,
-      "cobertura_dias": 226.8,
+      "media_diaria_saida": 0.45,
+      "total_saida_historica": 33,
+      "cobertura_dias": 208.5,
       "alerta_estoque": false
     },
     {
@@ -17657,6 +17657,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 5031,
+      "item_id": 241,
+      "produto_nome": "Lactulose solução",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 2,
+      "responsavel": "Leiliana",
+      "data": "2026-10-26",
+      "obs": "",
+      "criado_em": "2026-10-26 14:16:30",
+      "item": "Lactulose solução",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 5030,
       "item_id": 226,
       "produto_nome": "Enoxaparina sódica 40mg",
@@ -25139,21 +25154,6 @@
       "obs": "",
       "criado_em": "2026-10-19 14:51:14",
       "item": "Acebrofilina 10mg/ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 4531,
-      "item_id": 36,
-      "produto_nome": "Prednisona 20mg CPR",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 20,
-      "responsavel": "Assucena",
-      "data": "2026-10-19",
-      "obs": "",
-      "criado_em": "2026-10-19 14:51:02",
-      "item": "Prednisona 20mg CPR",
       "usuario": "Assucena"
     }
   ]
