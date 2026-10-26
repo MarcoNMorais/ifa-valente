@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "26/10/2026 16:30:00",
+  "atualizado_em": "26/10/2026 16:30:10",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
     "total_almoxarifado": 116806,
-    "total_farmacia": 30604,
-    "total_geral": 147410,
+    "total_farmacia": 30600,
+    "total_geral": 147406,
     "perto_de_terminar": 34,
     "zerados": 16
   },
@@ -15859,19 +15859,19 @@
       "tipo": "Insumo",
       "unidade": "Unidade",
       "almoxarifado": 1147,
-      "farmacia": 41,
+      "farmacia": 37,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1188,
+      "total": 1184,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-26 16:29:58",
+      "atualizado_em": "2026-10-26 16:30:08",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -15885,17 +15885,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 41
+          "quantidade": 37
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 400,
-      "previsao_20_dias": 400,
+      "minimo_alerta": 401,
+      "previsao_20_dias": 401,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 75,
-      "media_diaria_saida": 19.99,
-      "total_saida_historica": 1499,
-      "cobertura_dias": 59.4,
+      "media_diaria_saida": 20.04,
+      "total_saida_historica": 1503,
+      "cobertura_dias": 59.1,
       "alerta_estoque": false
     },
     {
@@ -17650,6 +17650,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 5103,
+      "item_id": 203,
+      "produto_nome": "Soro fisiológico 250ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 4,
+      "responsavel": "Leiliana",
+      "data": "2026-10-26",
+      "obs": "",
+      "criado_em": "2026-10-26 16:30:08",
+      "item": "Soro fisiológico 250ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 5102,
       "item_id": 203,
@@ -25133,21 +25148,6 @@
       "obs": "",
       "criado_em": "2026-10-19 15:08:09",
       "item": "Bolsa coletora",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 4603,
-      "item_id": 180,
-      "produto_nome": "Luva de látex tam. P",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 1,
-      "responsavel": "Assucena",
-      "data": "2026-10-19",
-      "obs": "",
-      "criado_em": "2026-10-19 15:07:57",
-      "item": "Luva de látex tam. P",
       "usuario": "Assucena"
     }
   ]
