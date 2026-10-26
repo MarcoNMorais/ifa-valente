@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "26/10/2026 14:16:31",
+  "atualizado_em": "26/10/2026 14:16:42",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
     "total_almoxarifado": 116820,
-    "total_farmacia": 31730,
-    "total_geral": 148550,
+    "total_farmacia": 31720,
+    "total_geral": 148540,
     "perto_de_terminar": 33,
     "zerados": 15
   },
@@ -2269,19 +2269,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 40,
-      "farmacia": 20,
+      "farmacia": 10,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 60,
+      "total": 50,
       "minimo": 0,
       "validade": "2028-04",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-19 10:55:04",
+      "atualizado_em": "2026-10-26 14:16:41",
       "validade_mais_proxima": "2028-04",
       "vencimento_mais_proximo": "2028-04",
       "lotes_validade": [
@@ -2289,7 +2289,7 @@
           "local": "farmacia",
           "validade": "2028-04",
           "lote": "",
-          "quantidade": 20
+          "quantidade": 10
         },
         {
           "local": "almoxarifado",
@@ -2299,13 +2299,13 @@
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 0,
-      "previsao_20_dias": 0,
+      "minimo_alerta": 3,
+      "previsao_20_dias": 3,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 75,
-      "media_diaria_saida": 0.0,
-      "total_saida_historica": 0,
-      "cobertura_dias": null,
+      "media_diaria_saida": 0.13,
+      "total_saida_historica": 10,
+      "cobertura_dias": 375.0,
       "alerta_estoque": false
     },
     {
@@ -17657,6 +17657,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 5032,
+      "item_id": 119,
+      "produto_nome": "Atorvastatina 40mg CPR",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 10,
+      "responsavel": "Leiliana",
+      "data": "2026-10-26",
+      "obs": "",
+      "criado_em": "2026-10-26 14:16:41",
+      "item": "Atorvastatina 40mg CPR",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 5031,
       "item_id": 241,
       "produto_nome": "Lactulose solução",
@@ -25139,21 +25154,6 @@
       "obs": "",
       "criado_em": "2026-10-19 14:51:28",
       "item": "Meropenem 500mg",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 4532,
-      "item_id": 320,
-      "produto_nome": "Acebrofilina 10mg/ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 1,
-      "responsavel": "Assucena",
-      "data": "2026-10-19",
-      "obs": "",
-      "criado_em": "2026-10-19 14:51:14",
-      "item": "Acebrofilina 10mg/ml",
       "usuario": "Assucena"
     }
   ]
