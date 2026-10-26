@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "26/10/2026 14:25:44",
+  "atualizado_em": "26/10/2026 14:25:53",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
     "total_almoxarifado": 116806,
-    "total_farmacia": 31092,
-    "total_geral": 147898,
+    "total_farmacia": 31091,
+    "total_geral": 147897,
     "perto_de_terminar": 33,
     "zerados": 15
   },
@@ -16261,19 +16261,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 5,
+      "farmacia": 4,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 5,
+      "total": 4,
       "minimo": 0,
       "validade": "02/27",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-10-22 15:56:02",
+      "atualizado_em": "2026-10-26 14:25:52",
       "validade_mais_proxima": "02/27",
       "vencimento_mais_proximo": "02/27",
       "lotes_validade": [
@@ -16287,17 +16287,17 @@
           "local": "farmacia",
           "validade": "2027-03",
           "lote": "",
-          "quantidade": 2
+          "quantidade": 1
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 1,
-      "previsao_20_dias": 1,
+      "minimo_alerta": 2,
+      "previsao_20_dias": 2,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 75,
-      "media_diaria_saida": 0.04,
-      "total_saida_historica": 3,
-      "cobertura_dias": 125.0,
+      "media_diaria_saida": 0.05,
+      "total_saida_historica": 4,
+      "cobertura_dias": 75.0,
       "alerta_estoque": false
     },
     {
@@ -17650,6 +17650,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 5080,
+      "item_id": 23,
+      "produto_nome": "Sulfadiazina de prata",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 1,
+      "responsavel": "Leiliana",
+      "data": "2026-10-26",
+      "obs": "",
+      "criado_em": "2026-10-26 14:25:52",
+      "item": "Sulfadiazina de prata",
+      "usuario": "Leiliana"
+    },
     {
       "id": 5079,
       "item_id": 410,
@@ -25133,21 +25148,6 @@
       "obs": "",
       "criado_em": "2026-10-19 15:01:45",
       "item": "Luva cirúrgica tam. 7",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 4580,
-      "item_id": 329,
-      "produto_nome": "Polifix",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 10,
-      "responsavel": "Assucena",
-      "data": "2026-10-19",
-      "obs": "",
-      "criado_em": "2026-10-19 15:01:35",
-      "item": "Polifix",
       "usuario": "Assucena"
     }
   ]
