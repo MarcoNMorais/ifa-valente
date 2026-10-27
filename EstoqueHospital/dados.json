@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "27/10/2026 16:34:50",
+  "atualizado_em": "27/10/2026 16:35:59",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
-    "total_almoxarifado": 114653,
-    "total_farmacia": 31943,
+    "total_almoxarifado": 113953,
+    "total_farmacia": 32643,
     "total_geral": 146596,
     "perto_de_terminar": 35,
     "zerados": 16
@@ -730,8 +730,8 @@
       "nome": "Agulha 30x7",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 15400,
-      "farmacia": 35,
+      "almoxarifado": 14700,
+      "farmacia": 735,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -743,7 +743,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-27 16:34:45",
+      "atualizado_em": "2026-10-27 16:35:58",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -751,13 +751,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 15400
+          "quantidade": 14700
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 35
+          "quantidade": 735
         }
       ],
       "minimo_manual": 0,
@@ -17639,6 +17639,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 5178,
+      "item_id": 285,
+      "produto_nome": "Agulha 30x7",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 700,
+      "responsavel": "Leiliana",
+      "data": "2026-10-27",
+      "obs": "",
+      "criado_em": "2026-10-27 16:35:58",
+      "item": "Agulha 30x7",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 5177,
       "item_id": 98,
       "produto_nome": "Scalp nº 23",
@@ -25121,21 +25136,6 @@
       "obs": "",
       "criado_em": "2026-10-21 11:13:39",
       "item": "Seringa 5ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 4678,
-      "item_id": 331,
-      "produto_nome": "Agulha 30x8",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 70,
-      "responsavel": "Assucena",
-      "data": "2026-10-20",
-      "obs": "",
-      "criado_em": "2026-10-21 11:13:30",
-      "item": "Agulha 30x8",
       "usuario": "Assucena"
     }
   ]
