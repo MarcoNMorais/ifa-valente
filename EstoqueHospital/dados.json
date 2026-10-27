@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "27/10/2026 11:02:26",
+  "atualizado_em": "27/10/2026 11:02:42",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
-    "total_almoxarifado": 115063,
-    "total_farmacia": 32195,
+    "total_almoxarifado": 114653,
+    "total_farmacia": 32605,
     "total_geral": 147258,
     "perto_de_terminar": 34,
     "zerados": 16
@@ -5204,8 +5204,8 @@
       "nome": "Dipirona 500mg",
       "tipo": "Medicamento",
       "unidade": "Unidade",
-      "almoxarifado": 410,
-      "farmacia": 0,
+      "almoxarifado": 0,
+      "farmacia": 410,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -5217,21 +5217,15 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-27 10:56:17",
+      "atualizado_em": "2026-10-27 11:02:41",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
         {
-          "local": "almoxarifado",
-          "validade": "",
-          "lote": "",
-          "quantidade": 410
-        },
-        {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 20
+          "quantidade": 430
         }
       ],
       "minimo_manual": 0,
@@ -17645,6 +17639,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 5136,
+      "item_id": 28,
+      "produto_nome": "Dipirona 500mg",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 410,
+      "responsavel": "Assucena",
+      "data": "2026-10-27",
+      "obs": "",
+      "criado_em": "2026-10-27 11:02:41",
+      "item": "Dipirona 500mg",
+      "usuario": "Assucena"
+    },
+    {
       "id": 5135,
       "item_id": 27,
       "produto_nome": "Paracetamol 500mg",
@@ -25127,21 +25136,6 @@
       "obs": "",
       "criado_em": "2026-10-20 09:54:58",
       "item": "GLICOSE 50% AMP 10ML",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 4636,
-      "item_id": 68,
-      "produto_nome": "Dexametasona",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 20,
-      "responsavel": "Assucena",
-      "data": "2026-10-19",
-      "obs": "",
-      "criado_em": "2026-10-20 09:54:50",
-      "item": "Dexametasona",
       "usuario": "Assucena"
     }
   ]
