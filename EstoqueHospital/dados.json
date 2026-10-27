@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "27/10/2026 11:00:56",
+  "atualizado_em": "27/10/2026 11:01:06",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
     "total_almoxarifado": 115203,
-    "total_farmacia": 32145,
-    "total_geral": 147348,
+    "total_farmacia": 32115,
+    "total_geral": 147318,
     "perto_de_terminar": 34,
     "zerados": 16
   },
@@ -5165,19 +5165,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 1080,
+      "farmacia": 1050,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1080,
+      "total": 1050,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-27 10:56:17",
+      "atualizado_em": "2026-10-27 11:01:04",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -5185,17 +5185,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 1160
+          "quantidade": 1130
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 895,
-      "previsao_20_dias": 895,
+      "minimo_alerta": 903,
+      "previsao_20_dias": 903,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 76,
-      "media_diaria_saida": 44.74,
-      "total_saida_historica": 3400,
-      "cobertura_dias": 24.1,
+      "media_diaria_saida": 45.13,
+      "total_saida_historica": 3430,
+      "cobertura_dias": 23.3,
       "alerta_estoque": false
     },
     {
@@ -17657,6 +17657,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 5126,
+      "item_id": 70,
+      "produto_nome": "Dipirona",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 30,
+      "responsavel": "Assucena",
+      "data": "2026-10-27",
+      "obs": "",
+      "criado_em": "2026-10-27 11:01:04",
+      "item": "Dipirona",
+      "usuario": "Assucena"
+    },
+    {
       "id": 5125,
       "item_id": 60,
       "produto_nome": "Cetoprofeno EV 100mg",
@@ -25139,21 +25154,6 @@
       "obs": "",
       "criado_em": "2026-10-19 16:25:49",
       "item": "Tira Reagente G-Tech",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 4626,
-      "item_id": 201,
-      "produto_nome": "Soro Ringer Lactato 500ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 6,
-      "responsavel": "Assucena",
-      "data": "2026-10-19",
-      "obs": "",
-      "criado_em": "2026-10-19 16:25:37",
-      "item": "Soro Ringer Lactato 500ml",
       "usuario": "Assucena"
     }
   ]
