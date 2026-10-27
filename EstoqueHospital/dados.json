@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "27/10/2026 11:00:29",
+  "atualizado_em": "27/10/2026 11:00:56",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
     "total_almoxarifado": 115203,
-    "total_farmacia": 32153,
-    "total_geral": 147356,
+    "total_farmacia": 32145,
+    "total_geral": 147348,
     "perto_de_terminar": 34,
     "zerados": 16
   },
@@ -3567,19 +3567,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 225,
+      "farmacia": 217,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 225,
+      "total": 217,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-27 10:56:17",
+      "atualizado_em": "2026-10-27 11:00:54",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -3587,17 +3587,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 245
+          "quantidade": 237
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 251,
-      "previsao_20_dias": 251,
+      "minimo_alerta": 253,
+      "previsao_20_dias": 253,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 76,
-      "media_diaria_saida": 12.51,
-      "total_saida_historica": 951,
-      "cobertura_dias": 18.0,
+      "media_diaria_saida": 12.62,
+      "total_saida_historica": 959,
+      "cobertura_dias": 17.2,
       "alerta_estoque": true
     },
     {
@@ -17657,6 +17657,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 5125,
+      "item_id": 60,
+      "produto_nome": "Cetoprofeno EV 100mg",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 8,
+      "responsavel": "Assucena",
+      "data": "2026-10-27",
+      "obs": "",
+      "criado_em": "2026-10-27 11:00:54",
+      "item": "Cetoprofeno EV 100mg",
+      "usuario": "Assucena"
+    },
+    {
       "id": 5124,
       "item_id": 203,
       "produto_nome": "Soro fisiológico 250ml",
@@ -25139,21 +25154,6 @@
       "obs": "",
       "criado_em": "2026-10-19 16:25:37",
       "item": "Soro Ringer Lactato 500ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 4625,
-      "item_id": 199,
-      "produto_nome": "Lençol descartável papel",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 2,
-      "responsavel": "Assucena",
-      "data": "2026-10-19",
-      "obs": "",
-      "criado_em": "2026-10-19 16:25:27",
-      "item": "Lençol descartável papel",
       "usuario": "Assucena"
     }
   ]
