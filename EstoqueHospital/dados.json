@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "27/10/2026 16:36:46",
+  "atualizado_em": "27/10/2026 16:36:55",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
     "total_almoxarifado": 113953,
-    "total_farmacia": 32483,
-    "total_geral": 146436,
+    "total_farmacia": 32481,
+    "total_geral": 146434,
     "perto_de_terminar": 35,
     "zerados": 16
   },
@@ -6150,19 +6150,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 352,
-      "farmacia": 18,
+      "farmacia": 16,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 370,
+      "total": 368,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-27 16:34:45",
+      "atualizado_em": "2026-10-27 16:36:53",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -6176,7 +6176,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 20
+          "quantidade": 18
         }
       ],
       "minimo_manual": 0,
@@ -6184,9 +6184,9 @@
       "previsao_20_dias": 47,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 71,
-      "media_diaria_saida": 2.31,
-      "total_saida_historica": 164,
-      "cobertura_dias": 160.2,
+      "media_diaria_saida": 2.34,
+      "total_saida_historica": 166,
+      "cobertura_dias": 157.4,
       "alerta_estoque": false
     },
     {
@@ -17639,6 +17639,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 5183,
+      "item_id": 276,
+      "produto_nome": "Esparadrapo 10x4,5",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 2,
+      "responsavel": "Leiliana",
+      "data": "2026-10-27",
+      "obs": "",
+      "criado_em": "2026-10-27 16:36:53",
+      "item": "Esparadrapo 10x4,5",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 5182,
       "item_id": 104,
       "produto_nome": "Seringa 3ml",
@@ -25121,21 +25136,6 @@
       "obs": "",
       "criado_em": "2026-10-21 11:14:22",
       "item": "Soro fisiológico 500ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 4683,
-      "item_id": 203,
-      "produto_nome": "Soro fisiológico 250ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 12,
-      "responsavel": "Assucena",
-      "data": "2026-10-20",
-      "obs": "",
-      "criado_em": "2026-10-21 11:14:14",
-      "item": "Soro fisiológico 250ml",
       "usuario": "Assucena"
     }
   ]
