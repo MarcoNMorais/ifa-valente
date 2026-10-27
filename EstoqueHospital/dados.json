@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "27/10/2026 16:38:24",
+  "atualizado_em": "27/10/2026 16:38:32",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
     "total_almoxarifado": 113803,
-    "total_farmacia": 32431,
-    "total_geral": 146234,
+    "total_farmacia": 32430,
+    "total_geral": 146233,
     "perto_de_terminar": 35,
     "zerados": 16
   },
@@ -3151,19 +3151,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 35,
-      "farmacia": 2,
+      "farmacia": 1,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 37,
+      "total": 36,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-27 16:34:45",
+      "atualizado_em": "2026-10-27 16:38:31",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -3177,7 +3177,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 2
+          "quantidade": 1
         }
       ],
       "minimo_manual": 0,
@@ -3185,9 +3185,9 @@
       "previsao_20_dias": 10,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 76,
-      "media_diaria_saida": 0.47,
-      "total_saida_historica": 36,
-      "cobertura_dias": 78.1,
+      "media_diaria_saida": 0.49,
+      "total_saida_historica": 37,
+      "cobertura_dias": 73.9,
       "alerta_estoque": false
     },
     {
@@ -17639,6 +17639,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 5189,
+      "item_id": 200,
+      "produto_nome": "Caixa de perfurocortante",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 1,
+      "responsavel": "Leiliana",
+      "data": "2026-10-27",
+      "obs": "",
+      "criado_em": "2026-10-27 16:38:31",
+      "item": "Caixa de perfurocortante",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 5188,
       "item_id": 220,
       "produto_nome": "Equipo macrogotas",
@@ -25121,21 +25136,6 @@
       "obs": "",
       "criado_em": "2026-10-21 11:15:15",
       "item": "Dipirona",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 4689,
-      "item_id": 230,
-      "produto_nome": "Ferropurum 20mg/ml",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 2,
-      "responsavel": "Assucena",
-      "data": "2026-10-20",
-      "obs": "",
-      "criado_em": "2026-10-21 11:15:09",
-      "item": "Ferropurum 20mg/ml",
       "usuario": "Assucena"
     }
   ]
