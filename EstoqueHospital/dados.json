@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "27/10/2026 11:00:19",
+  "atualizado_em": "27/10/2026 11:00:29",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
-    "total_almoxarifado": 115353,
-    "total_farmacia": 32003,
+    "total_almoxarifado": 115203,
+    "total_farmacia": 32153,
     "total_geral": 147356,
     "perto_de_terminar": 34,
     "zerados": 16
@@ -15864,8 +15864,8 @@
       "nome": "Soro fisiológico 250ml",
       "tipo": "Insumo",
       "unidade": "Unidade",
-      "almoxarifado": 1147,
-      "farmacia": 37,
+      "almoxarifado": 997,
+      "farmacia": 187,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -15877,7 +15877,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-27 10:56:17",
+      "atualizado_em": "2026-10-27 11:00:28",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -15885,13 +15885,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 1147
+          "quantidade": 997
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 37
+          "quantidade": 187
         }
       ],
       "minimo_manual": 0,
@@ -17656,6 +17656,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 5124,
+      "item_id": 203,
+      "produto_nome": "Soro fisiológico 250ml",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 150,
+      "responsavel": "Assucena",
+      "data": "2026-10-27",
+      "obs": "",
+      "criado_em": "2026-10-27 11:00:28",
+      "item": "Soro fisiológico 250ml",
+      "usuario": "Assucena"
+    },
     {
       "id": 5123,
       "item_id": 151,
@@ -25139,21 +25154,6 @@
       "obs": "",
       "criado_em": "2026-10-19 16:25:27",
       "item": "Lençol descartável papel",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 4624,
-      "item_id": 204,
-      "produto_nome": "Soro fisiológico 500ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 9,
-      "responsavel": "Assucena",
-      "data": "2026-10-19",
-      "obs": "",
-      "criado_em": "2026-10-19 16:25:13",
-      "item": "Soro fisiológico 500ml",
       "usuario": "Assucena"
     }
   ]
