@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "27/10/2026 11:02:50",
+  "atualizado_em": "27/10/2026 11:02:57",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
     "total_almoxarifado": 114653,
-    "total_farmacia": 32595,
-    "total_geral": 147248,
+    "total_farmacia": 32593,
+    "total_geral": 147246,
     "perto_de_terminar": 34,
     "zerados": 16
   },
@@ -9433,19 +9433,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 50,
-      "farmacia": 37,
+      "farmacia": 35,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 87,
+      "total": 85,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-27 10:56:17",
+      "atualizado_em": "2026-10-27 11:02:56",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -9459,7 +9459,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 37
+          "quantidade": 35
         }
       ],
       "minimo_manual": 0,
@@ -9467,8 +9467,8 @@
       "previsao_20_dias": 1741,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 76,
-      "media_diaria_saida": 87.01,
-      "total_saida_historica": 6613,
+      "media_diaria_saida": 87.04,
+      "total_saida_historica": 6615,
       "cobertura_dias": 1.0,
       "alerta_estoque": true
     },
@@ -17639,6 +17639,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 5138,
+      "item_id": 194,
+      "produto_nome": "Lanceta de segurança",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 2,
+      "responsavel": "Assucena",
+      "data": "2026-10-27",
+      "obs": "",
+      "criado_em": "2026-10-27 11:02:56",
+      "item": "Lanceta de segurança",
+      "usuario": "Assucena"
+    },
+    {
       "id": 5137,
       "item_id": 28,
       "produto_nome": "Dipirona 500mg",
@@ -25121,21 +25136,6 @@
       "obs": "",
       "criado_em": "2026-10-20 09:55:14",
       "item": "Tramadol 50mg/ml 2ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 4638,
-      "item_id": 344,
-      "produto_nome": "ÁGUA  PARA INJETÁVEIS 10ML",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 10,
-      "responsavel": "Assucena",
-      "data": "2026-10-19",
-      "obs": "",
-      "criado_em": "2026-10-20 09:55:07",
-      "item": "ÁGUA  PARA INJETÁVEIS 10ML",
       "usuario": "Assucena"
     }
   ]
