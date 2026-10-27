@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "27/10/2026 16:39:04",
+  "atualizado_em": "27/10/2026 16:39:13",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
     "total_almoxarifado": 113803,
-    "total_farmacia": 32425,
-    "total_geral": 146228,
+    "total_farmacia": 32415,
+    "total_geral": 146218,
     "perto_de_terminar": 36,
     "zerados": 17
   },
@@ -5205,19 +5205,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 390,
+      "farmacia": 380,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 390,
+      "total": 380,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-27 16:34:45",
+      "atualizado_em": "2026-10-27 16:39:12",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -5225,17 +5225,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 410
+          "quantidade": 400
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 103,
-      "previsao_20_dias": 103,
+      "minimo_alerta": 106,
+      "previsao_20_dias": 106,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 76,
-      "media_diaria_saida": 5.13,
-      "total_saida_historica": 390,
-      "cobertura_dias": 76.0,
+      "media_diaria_saida": 5.26,
+      "total_saida_historica": 400,
+      "cobertura_dias": 72.2,
       "alerta_estoque": false
     },
     {
@@ -17632,6 +17632,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 5193,
+      "item_id": 28,
+      "produto_nome": "Dipirona 500mg",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 10,
+      "responsavel": "Leiliana",
+      "data": "2026-10-27",
+      "obs": "",
+      "criado_em": "2026-10-27 16:39:12",
+      "item": "Dipirona 500mg",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 5192,
       "item_id": 195,
       "produto_nome": "Tira Reagente G-Tech",
@@ -25114,21 +25129,6 @@
       "obs": "",
       "criado_em": "2026-10-21 11:16:22",
       "item": "Escopolamina + Dipirona",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 4693,
-      "item_id": 344,
-      "produto_nome": "ÁGUA  PARA INJETÁVEIS 10ML",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 10,
-      "responsavel": "Assucena",
-      "data": "2026-10-20",
-      "obs": "",
-      "criado_em": "2026-10-21 11:15:54",
-      "item": "ÁGUA  PARA INJETÁVEIS 10ML",
       "usuario": "Assucena"
     }
   ]
