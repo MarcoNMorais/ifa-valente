@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "27/10/2026 16:27:19",
+  "atualizado_em": "27/10/2026 16:28:28",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
     "total_almoxarifado": 114653,
-    "total_farmacia": 32042,
-    "total_geral": 146695,
+    "total_farmacia": 32014,
+    "total_geral": 146667,
     "perto_de_terminar": 35,
     "zerados": 16
   },
@@ -12056,19 +12056,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 210,
-      "farmacia": 182,
+      "farmacia": 154,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 392,
+      "total": 364,
       "minimo": 0,
       "validade": "2028-02",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-27 16:27:18",
+      "atualizado_em": "2026-10-27 16:28:26",
       "validade_mais_proxima": "2028-02",
       "vencimento_mais_proximo": "2028-02",
       "lotes_validade": [
@@ -12076,7 +12076,7 @@
           "local": "farmacia",
           "validade": "2028-02",
           "lote": "",
-          "quantidade": 168
+          "quantidade": 140
         },
         {
           "local": "almoxarifado",
@@ -12092,13 +12092,13 @@
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 78,
-      "previsao_20_dias": 78,
+      "minimo_alerta": 85,
+      "previsao_20_dias": 85,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 76,
-      "media_diaria_saida": 3.87,
-      "total_saida_historica": 294,
-      "cobertura_dias": 101.3,
+      "media_diaria_saida": 4.24,
+      "total_saida_historica": 322,
+      "cobertura_dias": 85.9,
       "alerta_estoque": false
     },
     {
@@ -17638,6 +17638,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 5170,
+      "item_id": 31,
+      "produto_nome": "Omeprazol 20mg comprimido",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 28,
+      "responsavel": "Leiliana",
+      "data": "2026-10-27",
+      "obs": "",
+      "criado_em": "2026-10-27 16:28:26",
+      "item": "Omeprazol 20mg comprimido",
+      "usuario": "Leiliana"
+    },
     {
       "id": 5169,
       "item_id": 32,
@@ -25121,21 +25136,6 @@
       "obs": "",
       "criado_em": "2026-10-20 11:51:33",
       "item": "Atadura gessada nº 15",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 4670,
-      "item_id": 196,
-      "produto_nome": "Atadura gessada nº 10",
-      "tipo": "Almoxarifado para Farmácia",
-      "origem": "Almoxarifado",
-      "destino": "Farmácia",
-      "quantidade": 20,
-      "responsavel": "Assucena",
-      "data": "2026-10-19",
-      "obs": "",
-      "criado_em": "2026-10-20 11:51:19",
-      "item": "Atadura gessada nº 10",
       "usuario": "Assucena"
     }
   ]
