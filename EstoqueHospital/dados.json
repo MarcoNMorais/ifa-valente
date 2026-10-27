@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "27/10/2026 11:01:48",
+  "atualizado_em": "27/10/2026 11:01:58",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
     "total_almoxarifado": 115063,
-    "total_farmacia": 32237,
-    "total_geral": 147300,
+    "total_farmacia": 32227,
+    "total_geral": 147290,
     "perto_de_terminar": 34,
     "zerados": 16
   },
@@ -8241,19 +8241,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 115,
-      "farmacia": 117,
+      "farmacia": 107,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 232,
+      "total": 222,
       "minimo": 50,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-27 10:56:17",
+      "atualizado_em": "2026-10-27 11:01:56",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -8267,17 +8267,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 117
+          "quantidade": 107
         }
       ],
       "minimo_manual": 50,
-      "minimo_alerta": 0,
-      "previsao_20_dias": 0,
+      "minimo_alerta": 4,
+      "previsao_20_dias": 4,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 63,
-      "media_diaria_saida": 0.0,
-      "total_saida_historica": 0,
-      "cobertura_dias": null,
+      "media_diaria_saida": 0.16,
+      "total_saida_historica": 10,
+      "cobertura_dias": 1398.6,
       "alerta_estoque": false
     },
     {
@@ -17645,6 +17645,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 5131,
+      "item_id": 351,
+      "produto_nome": "GLICOSE 25% AMP 10ML",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 10,
+      "responsavel": "Assucena",
+      "data": "2026-10-27",
+      "obs": "",
+      "criado_em": "2026-10-27 11:01:56",
+      "item": "GLICOSE 25% AMP 10ML",
+      "usuario": "Assucena"
+    },
+    {
       "id": 5130,
       "item_id": 393,
       "produto_nome": "NYLON N°3",
@@ -25127,21 +25142,6 @@
       "obs": "",
       "criado_em": "2026-10-20 09:54:15",
       "item": "Dipirona",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 4631,
-      "item_id": 163,
-      "produto_nome": "Eletrodo ECG descartável",
-      "tipo": "Farmácia para CEMES",
-      "origem": "Farmácia",
-      "destino": "CEMES",
-      "quantidade": 2000,
-      "responsavel": "Assucena",
-      "data": "2026-10-19",
-      "obs": "",
-      "criado_em": "2026-10-20 09:53:27",
-      "item": "Eletrodo ECG descartável",
       "usuario": "Assucena"
     }
   ]
