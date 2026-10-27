@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "27/10/2026 16:36:55",
+  "atualizado_em": "27/10/2026 16:37:05",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
     "total_almoxarifado": 113953,
-    "total_farmacia": 32481,
-    "total_geral": 146434,
+    "total_farmacia": 32479,
+    "total_geral": 146432,
     "perto_de_terminar": 35,
     "zerados": 16
   },
@@ -9519,19 +9519,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 150,
-      "farmacia": 11,
+      "farmacia": 9,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 161,
+      "total": 159,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-27 16:34:45",
+      "atualizado_em": "2026-10-27 16:37:03",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -9545,17 +9545,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 11
+          "quantidade": 9
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 24,
-      "previsao_20_dias": 24,
+      "minimo_alerta": 25,
+      "previsao_20_dias": 25,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 76,
-      "media_diaria_saida": 1.2,
-      "total_saida_historica": 91,
-      "cobertura_dias": 134.5,
+      "media_diaria_saida": 1.22,
+      "total_saida_historica": 93,
+      "cobertura_dias": 129.9,
       "alerta_estoque": false
     },
     {
@@ -17639,6 +17639,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 5184,
+      "item_id": 199,
+      "produto_nome": "Lençol descartável papel",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 2,
+      "responsavel": "Leiliana",
+      "data": "2026-10-27",
+      "obs": "",
+      "criado_em": "2026-10-27 16:37:03",
+      "item": "Lençol descartável papel",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 5183,
       "item_id": 276,
       "produto_nome": "Esparadrapo 10x4,5",
@@ -25121,21 +25136,6 @@
       "obs": "",
       "criado_em": "2026-10-21 11:14:28",
       "item": "Lençol descartável papel",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 4684,
-      "item_id": 204,
-      "produto_nome": "Soro fisiológico 500ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 9,
-      "responsavel": "Assucena",
-      "data": "2026-10-20",
-      "obs": "",
-      "criado_em": "2026-10-21 11:14:22",
-      "item": "Soro fisiológico 500ml",
       "usuario": "Assucena"
     }
   ]
