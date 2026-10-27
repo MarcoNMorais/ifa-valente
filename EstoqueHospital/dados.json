@@ -1,12 +1,12 @@
 {
-  "atualizado_em": "27/10/2026 11:06:01",
+  "atualizado_em": "27/10/2026 11:06:07",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
     "total_almoxarifado": 114653,
-    "total_farmacia": 32125,
-    "total_geral": 146778,
-    "perto_de_terminar": 34,
+    "total_farmacia": 32105,
+    "total_geral": 146758,
+    "perto_de_terminar": 35,
     "zerados": 16
   },
   "itens": [
@@ -3494,19 +3494,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 314,
+      "farmacia": 294,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 314,
+      "total": 294,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-27 10:56:17",
+      "atualizado_em": "2026-10-27 11:06:04",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -3514,18 +3514,18 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 314
+          "quantidade": 294
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 296,
-      "previsao_20_dias": 296,
+      "minimo_alerta": 302,
+      "previsao_20_dias": 302,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 76,
-      "media_diaria_saida": 14.79,
-      "total_saida_historica": 1124,
-      "cobertura_dias": 21.2,
-      "alerta_estoque": false
+      "media_diaria_saida": 15.05,
+      "total_saida_historica": 1144,
+      "cobertura_dias": 19.5,
+      "alerta_estoque": true
     },
     {
       "id": 116,
@@ -17639,6 +17639,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 5161,
+      "item_id": 59,
+      "produto_nome": "Ceftriaxona 1g",
+      "tipo": "Farmácia para Posto de Internamento",
+      "origem": "Farmácia",
+      "destino": "Posto de Internamento",
+      "quantidade": 20,
+      "responsavel": "Assucena",
+      "data": "2026-10-27",
+      "obs": "",
+      "criado_em": "2026-10-27 11:06:04",
+      "item": "Ceftriaxona 1g",
+      "usuario": "Assucena"
+    },
+    {
       "id": 5160,
       "item_id": 102,
       "produto_nome": "Seringa 5ml",
@@ -25121,21 +25136,6 @@
       "obs": "",
       "criado_em": "2026-10-20 09:58:58",
       "item": "Soro fisiológico 250ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 4661,
-      "item_id": 313,
-      "produto_nome": "Sonda Foley nº 16",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 3,
-      "responsavel": "Assucena",
-      "data": "2026-10-19",
-      "obs": "",
-      "criado_em": "2026-10-20 09:58:52",
-      "item": "Sonda Foley nº 16",
       "usuario": "Assucena"
     }
   ]
