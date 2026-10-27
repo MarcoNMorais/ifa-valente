@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "27/10/2026 10:56:20",
+  "atualizado_em": "27/10/2026 10:58:34",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
-    "total_almoxarifado": 116806,
-    "total_farmacia": 30550,
+    "total_almoxarifado": 116656,
+    "total_farmacia": 30700,
     "total_geral": 147356,
     "perto_de_terminar": 34,
     "zerados": 16
@@ -5885,8 +5885,8 @@
       "nome": "Equipo macrogotas",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 2356,
-      "farmacia": 99,
+      "almoxarifado": 2206,
+      "farmacia": 249,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -5898,7 +5898,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-27 10:56:17",
+      "atualizado_em": "2026-10-27 10:58:33",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -5906,13 +5906,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 2356
+          "quantidade": 2206
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 124
+          "quantidade": 274
         }
       ],
       "minimo_manual": 300,
@@ -17651,6 +17651,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 5111,
+      "item_id": 220,
+      "produto_nome": "Equipo macrogotas",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 150,
+      "responsavel": "Assucena",
+      "data": "2026-10-27",
+      "obs": "",
+      "criado_em": "2026-10-27 10:58:33",
+      "item": "Equipo macrogotas",
+      "usuario": "Assucena"
+    },
+    {
       "id": 5110,
       "item_id": 200,
       "produto_nome": "Caixa de perfurocortante",
@@ -25133,21 +25148,6 @@
       "obs": "",
       "criado_em": "2026-10-19 16:23:11",
       "item": "gentamicina 80mg",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 4611,
-      "item_id": 82,
-      "produto_nome": "Hidrocortisona 100MG",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 10,
-      "responsavel": "Assucena",
-      "data": "2026-10-19",
-      "obs": "",
-      "criado_em": "2026-10-19 16:23:04",
-      "item": "Hidrocortisona 100MG",
       "usuario": "Assucena"
     }
   ]
