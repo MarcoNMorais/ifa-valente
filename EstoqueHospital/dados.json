@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "27/10/2026 10:58:53",
+  "atualizado_em": "27/10/2026 10:59:01",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
-    "total_almoxarifado": 115806,
-    "total_farmacia": 31550,
+    "total_almoxarifado": 115798,
+    "total_farmacia": 31558,
     "total_geral": 147356,
     "perto_de_terminar": 34,
     "zerados": 16
@@ -9518,8 +9518,8 @@
       "nome": "Lençol descartável papel",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 158,
-      "farmacia": 6,
+      "almoxarifado": 150,
+      "farmacia": 14,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -9531,7 +9531,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-27 10:56:17",
+      "atualizado_em": "2026-10-27 10:58:59",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -9539,13 +9539,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 158
+          "quantidade": 150
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 6
+          "quantidade": 14
         }
       ],
       "minimo_manual": 0,
@@ -17651,6 +17651,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 5114,
+      "item_id": 199,
+      "produto_nome": "Lençol descartável papel",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 8,
+      "responsavel": "Assucena",
+      "data": "2026-10-27",
+      "obs": "",
+      "criado_em": "2026-10-27 10:58:59",
+      "item": "Lençol descartável papel",
+      "usuario": "Assucena"
+    },
+    {
       "id": 5113,
       "item_id": 390,
       "produto_nome": "AGULHA  40X1,2",
@@ -25133,21 +25148,6 @@
       "obs": "",
       "criado_em": "2026-10-19 16:23:39",
       "item": "Agulha 30x8",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 4614,
-      "item_id": 285,
-      "produto_nome": "Agulha 30x7",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 30,
-      "responsavel": "Assucena",
-      "data": "2026-10-19",
-      "obs": "",
-      "criado_em": "2026-10-19 16:23:29",
-      "item": "Agulha 30x7",
       "usuario": "Assucena"
     }
   ]
