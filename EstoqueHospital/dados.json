@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "27/10/2026 16:35:59",
+  "atualizado_em": "27/10/2026 16:36:13",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
     "total_almoxarifado": 113953,
-    "total_farmacia": 32643,
-    "total_geral": 146596,
+    "total_farmacia": 32603,
+    "total_geral": 146556,
     "perto_de_terminar": 35,
     "zerados": 16
   },
@@ -731,19 +731,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 14700,
-      "farmacia": 735,
+      "farmacia": 695,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 15435,
+      "total": 15395,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-27 16:35:58",
+      "atualizado_em": "2026-10-27 16:36:11",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -757,17 +757,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 735
+          "quantidade": 695
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 582,
-      "previsao_20_dias": 582,
+      "minimo_alerta": 593,
+      "previsao_20_dias": 593,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 71,
-      "media_diaria_saida": 29.08,
-      "total_saida_historica": 2065,
-      "cobertura_dias": 530.7,
+      "media_diaria_saida": 29.65,
+      "total_saida_historica": 2105,
+      "cobertura_dias": 519.3,
       "alerta_estoque": false
     },
     {
@@ -17639,6 +17639,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 5179,
+      "item_id": 285,
+      "produto_nome": "Agulha 30x7",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 40,
+      "responsavel": "Leiliana",
+      "data": "2026-10-27",
+      "obs": "",
+      "criado_em": "2026-10-27 16:36:11",
+      "item": "Agulha 30x7",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 5178,
       "item_id": 285,
       "produto_nome": "Agulha 30x7",
@@ -25121,21 +25136,6 @@
       "obs": "",
       "criado_em": "2026-10-21 11:13:47",
       "item": "Seringa 3ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 4679,
-      "item_id": 102,
-      "produto_nome": "Seringa 5ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 60,
-      "responsavel": "Assucena",
-      "data": "2026-10-20",
-      "obs": "",
-      "criado_em": "2026-10-21 11:13:39",
-      "item": "Seringa 5ml",
       "usuario": "Assucena"
     }
   ]
