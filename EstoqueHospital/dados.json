@@ -1,13 +1,13 @@
 {
-  "atualizado_em": "27/10/2026 16:38:32",
+  "atualizado_em": "27/10/2026 16:38:41",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
     "total_almoxarifado": 113803,
-    "total_farmacia": 32430,
-    "total_geral": 146233,
-    "perto_de_terminar": 35,
-    "zerados": 16
+    "total_farmacia": 32428,
+    "total_geral": 146231,
+    "perto_de_terminar": 36,
+    "zerados": 17
   },
   "itens": [
     {
@@ -9565,38 +9565,31 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 2,
+      "farmacia": 0,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 2,
+      "total": 0,
       "minimo": 0,
-      "validade": "2027-09",
+      "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-10-27 16:34:45",
-      "validade_mais_proxima": "2027-09",
-      "vencimento_mais_proximo": "2027-09",
-      "lotes_validade": [
-        {
-          "local": "farmacia",
-          "validade": "2027-09",
-          "lote": "",
-          "quantidade": 2
-        }
-      ],
+      "atualizado_em": "2026-10-27 16:38:40",
+      "validade_mais_proxima": "",
+      "vencimento_mais_proximo": "",
+      "lotes_validade": [],
       "minimo_manual": 0,
-      "minimo_alerta": 0,
-      "previsao_20_dias": 0,
+      "minimo_alerta": 1,
+      "previsao_20_dias": 1,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 76,
-      "media_diaria_saida": 0.0,
-      "total_saida_historica": 0,
-      "cobertura_dias": null,
-      "alerta_estoque": false
+      "media_diaria_saida": 0.03,
+      "total_saida_historica": 2,
+      "cobertura_dias": 0.0,
+      "alerta_estoque": true
     },
     {
       "id": 298,
@@ -17639,6 +17632,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 5190,
+      "item_id": 83,
+      "produto_nome": "Levofloxacino",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 2,
+      "responsavel": "Leiliana",
+      "data": "2026-10-27",
+      "obs": "",
+      "criado_em": "2026-10-27 16:38:40",
+      "item": "Levofloxacino",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 5189,
       "item_id": 200,
       "produto_nome": "Caixa de perfurocortante",
@@ -25121,21 +25129,6 @@
       "obs": "",
       "criado_em": "2026-10-21 11:15:41",
       "item": "Gelco nº 24",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 4690,
-      "item_id": 70,
-      "produto_nome": "Dipirona",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 30,
-      "responsavel": "Assucena",
-      "data": "2026-10-20",
-      "obs": "",
-      "criado_em": "2026-10-21 11:15:15",
-      "item": "Dipirona",
       "usuario": "Assucena"
     }
   ]
