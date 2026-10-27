@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "27/10/2026 10:59:09",
+  "atualizado_em": "27/10/2026 10:59:16",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
-    "total_almoxarifado": 115678,
-    "total_farmacia": 31678,
+    "total_almoxarifado": 115648,
+    "total_farmacia": 31708,
     "total_geral": 147356,
     "perto_de_terminar": 34,
     "zerados": 16
@@ -8188,8 +8188,8 @@
       "nome": "Glicerina 12%",
       "tipo": "Medicamento",
       "unidade": "Unidade",
-      "almoxarifado": 72,
-      "farmacia": 3,
+      "almoxarifado": 42,
+      "farmacia": 33,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -8201,7 +8201,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-27 10:56:17",
+      "atualizado_em": "2026-10-27 10:59:14",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -8209,13 +8209,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 72
+          "quantidade": 42
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 3
+          "quantidade": 33
         }
       ],
       "minimo_manual": 0,
@@ -17651,6 +17651,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 5116,
+      "item_id": 294,
+      "produto_nome": "Glicerina 12%",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 30,
+      "responsavel": "Assucena",
+      "data": "2026-10-27",
+      "obs": "",
+      "criado_em": "2026-10-27 10:59:14",
+      "item": "Glicerina 12%",
+      "usuario": "Assucena"
+    },
+    {
       "id": 5115,
       "item_id": 152,
       "produto_nome": "Atadura crepon nº 10",
@@ -25133,21 +25148,6 @@
       "obs": "",
       "criado_em": "2026-10-19 16:24:01",
       "item": "Seringa 20ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 4616,
-      "item_id": 289,
-      "produto_nome": "Agulha 25x8",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 30,
-      "responsavel": "Assucena",
-      "data": "2026-10-19",
-      "obs": "",
-      "criado_em": "2026-10-19 16:23:47",
-      "item": "Agulha 25x8",
       "usuario": "Assucena"
     }
   ]
