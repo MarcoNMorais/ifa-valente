@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "27/10/2026 11:04:48",
+  "atualizado_em": "27/10/2026 11:04:55",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
     "total_almoxarifado": 114653,
-    "total_farmacia": 32239,
-    "total_geral": 146892,
+    "total_farmacia": 32233,
+    "total_geral": 146886,
     "perto_de_terminar": 34,
     "zerados": 16
   },
@@ -10041,19 +10041,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 330,
-      "farmacia": 64,
+      "farmacia": 58,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 394,
+      "total": 388,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-27 10:56:17",
+      "atualizado_em": "2026-10-27 11:04:52",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -10067,17 +10067,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 64
+          "quantidade": 58
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 52,
-      "previsao_20_dias": 52,
+      "minimo_alerta": 53,
+      "previsao_20_dias": 53,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 76,
-      "media_diaria_saida": 2.57,
-      "total_saida_historica": 195,
-      "cobertura_dias": 153.6,
+      "media_diaria_saida": 2.64,
+      "total_saida_historica": 201,
+      "cobertura_dias": 146.7,
       "alerta_estoque": false
     },
     {
@@ -17639,6 +17639,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 5153,
+      "item_id": 185,
+      "produto_nome": "Luva cirúrgica tam. 7,5",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 6,
+      "responsavel": "Assucena",
+      "data": "2026-10-27",
+      "obs": "",
+      "criado_em": "2026-10-27 11:04:52",
+      "item": "Luva cirúrgica tam. 7,5",
+      "usuario": "Assucena"
+    },
+    {
       "id": 5152,
       "item_id": 329,
       "produto_nome": "Polifix",
@@ -25121,21 +25136,6 @@
       "obs": "",
       "criado_em": "2026-10-20 09:57:52",
       "item": "Polifix",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 4653,
-      "item_id": 220,
-      "produto_nome": "Equipo macrogotas",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 25,
-      "responsavel": "Assucena",
-      "data": "2026-10-19",
-      "obs": "",
-      "criado_em": "2026-10-20 09:57:44",
-      "item": "Equipo macrogotas",
       "usuario": "Assucena"
     }
   ]
