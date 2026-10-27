@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "27/10/2026 11:01:25",
+  "atualizado_em": "27/10/2026 11:01:35",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
     "total_almoxarifado": 115063,
-    "total_farmacia": 32250,
-    "total_geral": 147313,
+    "total_farmacia": 32244,
+    "total_geral": 147307,
     "perto_de_terminar": 34,
     "zerados": 16
   },
@@ -12120,19 +12120,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 140,
+      "farmacia": 134,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 140,
+      "total": 134,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-27 11:01:23",
+      "atualizado_em": "2026-10-27 11:01:33",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -12140,17 +12140,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 140
+          "quantidade": 134
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 100,
-      "previsao_20_dias": 100,
+      "minimo_alerta": 101,
+      "previsao_20_dias": 101,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 75,
-      "media_diaria_saida": 4.96,
-      "total_saida_historica": 372,
-      "cobertura_dias": 28.2,
+      "media_diaria_saida": 5.04,
+      "total_saida_historica": 378,
+      "cobertura_dias": 26.6,
       "alerta_estoque": false
     },
     {
@@ -17650,6 +17650,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 5129,
+      "item_id": 228,
+      "produto_nome": "Omeprazol sódico 40mg AMP",
+      "tipo": "Farmácia para Posto de Internamento",
+      "origem": "Farmácia",
+      "destino": "Posto de Internamento",
+      "quantidade": 6,
+      "responsavel": "Assucena",
+      "data": "2026-10-27",
+      "obs": "",
+      "criado_em": "2026-10-27 11:01:33",
+      "item": "Omeprazol sódico 40mg AMP",
+      "usuario": "Assucena"
+    },
     {
       "id": 5128,
       "item_id": 228,
@@ -25133,21 +25148,6 @@
       "obs": "",
       "criado_em": "2026-10-20 09:53:01",
       "item": "Eletrodo ECG descartável",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 4629,
-      "item_id": 200,
-      "produto_nome": "Caixa de perfurocortante",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 1,
-      "responsavel": "Assucena",
-      "data": "2026-10-19",
-      "obs": "",
-      "criado_em": "2026-10-19 16:26:09",
-      "item": "Caixa de perfurocortante",
       "usuario": "Assucena"
     }
   ]
