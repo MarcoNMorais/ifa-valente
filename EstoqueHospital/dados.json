@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "27/10/2026 11:06:35",
+  "atualizado_em": "27/10/2026 11:06:45",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
     "total_almoxarifado": 114653,
-    "total_farmacia": 32082,
-    "total_geral": 146735,
+    "total_farmacia": 32072,
+    "total_geral": 146725,
     "perto_de_terminar": 35,
     "zerados": 16
   },
@@ -5205,19 +5205,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 400,
+      "farmacia": 390,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 400,
+      "total": 390,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-27 11:02:48",
+      "atualizado_em": "2026-10-27 11:06:43",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -5225,17 +5225,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 420
+          "quantidade": 410
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 100,
-      "previsao_20_dias": 100,
+      "minimo_alerta": 103,
+      "previsao_20_dias": 103,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 76,
-      "media_diaria_saida": 5.0,
-      "total_saida_historica": 380,
-      "cobertura_dias": 80.0,
+      "media_diaria_saida": 5.13,
+      "total_saida_historica": 390,
+      "cobertura_dias": 76.0,
       "alerta_estoque": false
     },
     {
@@ -17639,6 +17639,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 5166,
+      "item_id": 28,
+      "produto_nome": "Dipirona 500mg",
+      "tipo": "Farmácia para Posto de Internamento",
+      "origem": "Farmácia",
+      "destino": "Posto de Internamento",
+      "quantidade": 10,
+      "responsavel": "Assucena",
+      "data": "2026-10-27",
+      "obs": "",
+      "criado_em": "2026-10-27 11:06:43",
+      "item": "Dipirona 500mg",
+      "usuario": "Assucena"
+    },
+    {
       "id": 5165,
       "item_id": 27,
       "produto_nome": "Paracetamol 500mg",
@@ -25121,21 +25136,6 @@
       "obs": "",
       "criado_em": "2026-10-20 10:01:10",
       "item": "Luva cirúrgica tam. 7",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 4666,
-      "item_id": 185,
-      "produto_nome": "Luva cirúrgica tam. 7,5",
-      "tipo": "Farmácia para Sala Cirúrgica",
-      "origem": "Farmácia",
-      "destino": "Sala Cirúrgica",
-      "quantidade": 10,
-      "responsavel": "Assucena",
-      "data": "2026-10-19",
-      "obs": "",
-      "criado_em": "2026-10-20 10:01:01",
-      "item": "Luva cirúrgica tam. 7,5",
       "usuario": "Assucena"
     }
   ]
