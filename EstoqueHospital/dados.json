@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "27/10/2026 11:06:07",
+  "atualizado_em": "27/10/2026 11:06:14",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
     "total_almoxarifado": 114653,
-    "total_farmacia": 32105,
-    "total_geral": 146758,
+    "total_farmacia": 32095,
+    "total_geral": 146748,
     "perto_de_terminar": 35,
     "zerados": 16
   },
@@ -12307,19 +12307,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 140,
-      "farmacia": 33,
+      "farmacia": 23,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 173,
+      "total": 163,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-27 10:56:17",
+      "atualizado_em": "2026-10-27 11:06:12",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -12333,17 +12333,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 33
+          "quantidade": 23
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 92,
-      "previsao_20_dias": 92,
+      "minimo_alerta": 94,
+      "previsao_20_dias": 94,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 72,
-      "media_diaria_saida": 4.56,
-      "total_saida_historica": 328,
-      "cobertura_dias": 38.0,
+      "media_diaria_saida": 4.69,
+      "total_saida_historica": 338,
+      "cobertura_dias": 34.7,
       "alerta_estoque": false
     },
     {
@@ -17638,6 +17638,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 5162,
+      "item_id": 229,
+      "produto_nome": "Oxacilina 500mg pó injetável",
+      "tipo": "Farmácia para Posto de Internamento",
+      "origem": "Farmácia",
+      "destino": "Posto de Internamento",
+      "quantidade": 10,
+      "responsavel": "Assucena",
+      "data": "2026-10-27",
+      "obs": "",
+      "criado_em": "2026-10-27 11:06:12",
+      "item": "Oxacilina 500mg pó injetável",
+      "usuario": "Assucena"
+    },
     {
       "id": 5161,
       "item_id": 59,
@@ -25121,21 +25136,6 @@
       "obs": "",
       "criado_em": "2026-10-20 09:59:15",
       "item": "MASCARA DESCARTAVEL",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 4662,
-      "item_id": 203,
-      "produto_nome": "Soro fisiológico 250ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 10,
-      "responsavel": "Assucena",
-      "data": "2026-10-19",
-      "obs": "",
-      "criado_em": "2026-10-20 09:58:58",
-      "item": "Soro fisiológico 250ml",
       "usuario": "Assucena"
     }
   ]
