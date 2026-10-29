@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "29/10/2026 16:43:05",
+  "atualizado_em": "29/10/2026 16:43:24",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
-    "total_almoxarifado": 112130,
-    "total_farmacia": 31997,
+    "total_almoxarifado": 112106,
+    "total_farmacia": 32021,
     "total_geral": 144127,
     "perto_de_terminar": 38,
     "zerados": 17
@@ -7098,8 +7098,8 @@
       "nome": "Fio categute nº 1",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 72,
-      "farmacia": 0,
+      "almoxarifado": 48,
+      "farmacia": 24,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -7111,7 +7111,7 @@
       "lote": "",
       "origem": "Carga Almoxerifado",
       "obs": "Importação Almoxerifado",
-      "atualizado_em": "2026-10-29 13:43:59",
+      "atualizado_em": "2026-10-29 16:43:23",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -7119,7 +7119,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 72
+          "quantidade": 48
+        },
+        {
+          "local": "farmacia",
+          "validade": "",
+          "lote": "",
+          "quantidade": 24
         }
       ],
       "minimo_manual": 0,
@@ -17596,6 +17602,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 5332,
+      "item_id": 321,
+      "produto_nome": "Fio categute nº 1",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 24,
+      "responsavel": "Leiliana",
+      "data": "2026-10-29",
+      "obs": "",
+      "criado_em": "2026-10-29 16:43:23",
+      "item": "Fio categute nº 1",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 5331,
       "item_id": 213,
       "produto_nome": "Fio agulhado / sutura nº 0",
@@ -25077,21 +25098,6 @@
       "data": "2026-10-22",
       "obs": "",
       "criado_em": "2026-10-22 16:00:23",
-      "item": "Seringa 10ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 4832,
-      "item_id": 103,
-      "produto_nome": "Seringa 10ml",
-      "tipo": "Almoxarifado para Farmácia",
-      "origem": "Almoxarifado",
-      "destino": "Farmácia",
-      "quantidade": 150,
-      "responsavel": "Leiliana",
-      "data": "2026-10-22",
-      "obs": "",
-      "criado_em": "2026-10-22 16:00:09",
       "item": "Seringa 10ml",
       "usuario": "Leiliana"
     }
