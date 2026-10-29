@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "29/10/2026 16:44:06",
+  "atualizado_em": "29/10/2026 16:44:27",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
-    "total_almoxarifado": 112106,
-    "total_farmacia": 31989,
+    "total_almoxarifado": 112006,
+    "total_farmacia": 32089,
     "total_geral": 144095,
     "perto_de_terminar": 38,
     "zerados": 17
@@ -13055,8 +13055,8 @@
       "nome": "Scalp nº 21",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 850,
-      "farmacia": 16,
+      "almoxarifado": 750,
+      "farmacia": 116,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -13068,7 +13068,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-29 16:44:05",
+      "atualizado_em": "2026-10-29 16:44:25",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -13076,13 +13076,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 850
+          "quantidade": 750
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 16
+          "quantidade": 116
         }
       ],
       "minimo_manual": 0,
@@ -17601,6 +17601,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 5337,
+      "item_id": 99,
+      "produto_nome": "Scalp nº 21",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 100,
+      "responsavel": "Leiliana",
+      "data": "2026-10-29",
+      "obs": "",
+      "criado_em": "2026-10-29 16:44:25",
+      "item": "Scalp nº 21",
+      "usuario": "Leiliana"
+    },
     {
       "id": 5336,
       "item_id": 99,
@@ -25084,21 +25099,6 @@
       "obs": "",
       "criado_em": "2026-10-23 11:22:10",
       "item": "Seringa 10ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 4837,
-      "item_id": 202,
-      "produto_nome": "Soro fisiológico 100ml",
-      "tipo": "Almoxarifado para Farmácia",
-      "origem": "Almoxarifado",
-      "destino": "Farmácia",
-      "quantidade": 120,
-      "responsavel": "Assucena",
-      "data": "2026-10-22",
-      "obs": "",
-      "criado_em": "2026-10-23 11:22:03",
-      "item": "Soro fisiológico 100ml",
       "usuario": "Assucena"
     }
   ]
