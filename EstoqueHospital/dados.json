@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "29/10/2026 16:44:45",
+  "atualizado_em": "29/10/2026 16:44:54",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
-    "total_almoxarifado": 112006,
-    "total_farmacia": 32079,
+    "total_almoxarifado": 111926,
+    "total_farmacia": 32159,
     "total_geral": 144085,
     "perto_de_terminar": 38,
     "zerados": 17
@@ -13101,8 +13101,8 @@
       "nome": "Scalp nº 23",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 1120,
-      "farmacia": 10,
+      "almoxarifado": 1040,
+      "farmacia": 90,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -13114,7 +13114,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-29 16:44:43",
+      "atualizado_em": "2026-10-29 16:44:53",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -13122,13 +13122,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 1120
+          "quantidade": 1040
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 20
+          "quantidade": 100
         }
       ],
       "minimo_manual": 0,
@@ -17601,6 +17601,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 5339,
+      "item_id": 98,
+      "produto_nome": "Scalp nº 23",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 80,
+      "responsavel": "Leiliana",
+      "data": "2026-10-29",
+      "obs": "",
+      "criado_em": "2026-10-29 16:44:53",
+      "item": "Scalp nº 23",
+      "usuario": "Leiliana"
+    },
     {
       "id": 5338,
       "item_id": 98,
@@ -25084,21 +25099,6 @@
       "obs": "",
       "criado_em": "2026-10-23 11:22:24",
       "item": "Seringa 20ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 4839,
-      "item_id": 102,
-      "produto_nome": "Seringa 5ml",
-      "tipo": "Almoxarifado para Farmácia",
-      "origem": "Almoxarifado",
-      "destino": "Farmácia",
-      "quantidade": 500,
-      "responsavel": "Assucena",
-      "data": "2026-10-22",
-      "obs": "",
-      "criado_em": "2026-10-23 11:22:17",
-      "item": "Seringa 5ml",
       "usuario": "Assucena"
     }
   ]
