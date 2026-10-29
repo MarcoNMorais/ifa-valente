@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "29/10/2026 16:48:40",
+  "atualizado_em": "29/10/2026 16:48:59",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
-    "total_almoxarifado": 111867,
-    "total_farmacia": 32008,
+    "total_almoxarifado": 111817,
+    "total_farmacia": 32058,
     "total_geral": 143875,
     "perto_de_terminar": 38,
     "zerados": 17
@@ -11070,8 +11070,8 @@
       "nome": "Metronidazol 100ml",
       "tipo": "Medicamento",
       "unidade": "Unidade",
-      "almoxarifado": 109,
-      "farmacia": 52,
+      "almoxarifado": 59,
+      "farmacia": 102,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -11083,7 +11083,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-29 13:43:59",
+      "atualizado_em": "2026-10-29 16:48:57",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -11091,13 +11091,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 109
+          "quantidade": 59
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 54
+          "quantidade": 104
         }
       ],
       "minimo_manual": 0,
@@ -17607,6 +17607,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 5358,
+      "item_id": 290,
+      "produto_nome": "Metronidazol 100ml",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 50,
+      "responsavel": "Leiliana",
+      "data": "2026-10-29",
+      "obs": "",
+      "criado_em": "2026-10-29 16:48:57",
+      "item": "Metronidazol 100ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 5357,
       "item_id": 204,
@@ -25090,21 +25105,6 @@
       "obs": "",
       "criado_em": "2026-10-23 11:31:40",
       "item": "Cloridrato de Metoclopramida",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 4855,
-      "item_id": 55,
-      "produto_nome": "Benzilpenicilina 1.200",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 6,
-      "responsavel": "Assucena",
-      "data": "2026-10-23",
-      "obs": "",
-      "criado_em": "2026-10-23 11:31:29",
-      "item": "Benzilpenicilina 1.200",
       "usuario": "Assucena"
     }
   ]
