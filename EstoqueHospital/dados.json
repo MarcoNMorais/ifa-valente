@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "29/10/2026 16:46:25",
+  "atualizado_em": "29/10/2026 16:47:03",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
-    "total_almoxarifado": 111926,
-    "total_farmacia": 31967,
+    "total_almoxarifado": 111915,
+    "total_farmacia": 31978,
     "total_geral": 143893,
     "perto_de_terminar": 38,
     "zerados": 17
@@ -3144,8 +3144,8 @@
       "nome": "Caixa de perfurocortante",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 35,
-      "farmacia": 0,
+      "almoxarifado": 24,
+      "farmacia": 11,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -3157,7 +3157,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-29 13:43:59",
+      "atualizado_em": "2026-10-29 16:47:01",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -3165,7 +3165,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 35
+          "quantidade": 24
+        },
+        {
+          "local": "farmacia",
+          "validade": "",
+          "lote": "",
+          "quantidade": 11
         }
       ],
       "minimo_manual": 0,
@@ -17602,6 +17608,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 5349,
+      "item_id": 200,
+      "produto_nome": "Caixa de perfurocortante",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 11,
+      "responsavel": "Leiliana",
+      "data": "2026-10-29",
+      "obs": "",
+      "criado_em": "2026-10-29 16:47:01",
+      "item": "Caixa de perfurocortante",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 5348,
       "item_id": 203,
       "produto_nome": "Soro fisiológico 250ml",
@@ -25084,21 +25105,6 @@
       "obs": "",
       "criado_em": "2026-10-23 11:30:51",
       "item": "Scalp nº 23",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 4849,
-      "item_id": 206,
-      "produto_nome": "Soro glicose 5% 250ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 3,
-      "responsavel": "Assucena",
-      "data": "2026-10-22",
-      "obs": "",
-      "criado_em": "2026-10-23 11:30:42",
-      "item": "Soro glicose 5% 250ml",
       "usuario": "Assucena"
     }
   ]
