@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "29/10/2026 16:47:51",
+  "atualizado_em": "29/10/2026 16:48:08",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
     "total_almoxarifado": 111915,
-    "total_farmacia": 31966,
-    "total_geral": 143881,
+    "total_farmacia": 31965,
+    "total_geral": 143880,
     "perto_de_terminar": 38,
     "zerados": 17
   },
@@ -9700,19 +9700,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 34,
+      "farmacia": 33,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 34,
+      "total": 33,
       "minimo": 0,
       "validade": "2027-02",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-29 13:43:59",
+      "atualizado_em": "2026-10-29 16:48:07",
       "validade_mais_proxima": "2027-02",
       "vencimento_mais_proximo": "2027-02",
       "lotes_validade": [
@@ -9720,7 +9720,7 @@
           "local": "farmacia",
           "validade": "2027-02",
           "lote": "",
-          "quantidade": 14
+          "quantidade": 13
         },
         {
           "local": "farmacia",
@@ -9734,9 +9734,9 @@
       "previsao_20_dias": 12,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 78,
-      "media_diaria_saida": 0.58,
-      "total_saida_historica": 45,
-      "cobertura_dias": 58.9,
+      "media_diaria_saida": 0.59,
+      "total_saida_historica": 46,
+      "cobertura_dias": 56.0,
       "alerta_estoque": false
     },
     {
@@ -17608,6 +17608,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 5355,
+      "item_id": 84,
+      "produto_nome": "Lidocaína",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 1,
+      "responsavel": "Leiliana",
+      "data": "2026-10-29",
+      "obs": "",
+      "criado_em": "2026-10-29 16:48:07",
+      "item": "Lidocaína",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 5354,
       "item_id": 228,
       "produto_nome": "Omeprazol sódico 40mg AMP",
@@ -25090,21 +25105,6 @@
       "obs": "",
       "criado_em": "2026-10-23 11:31:15",
       "item": "Complexo B",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 4852,
-      "item_id": 76,
-      "produto_nome": "Escopolamina + Dipirona",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 20,
-      "responsavel": "Assucena",
-      "data": "2026-10-23",
-      "obs": "",
-      "criado_em": "2026-10-23 11:31:09",
-      "item": "Escopolamina + Dipirona",
       "usuario": "Assucena"
     }
   ]
