@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "29/10/2026 16:48:29",
+  "atualizado_em": "29/10/2026 16:48:40",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
-    "total_almoxarifado": 111915,
-    "total_farmacia": 31960,
+    "total_almoxarifado": 111867,
+    "total_farmacia": 32008,
     "total_geral": 143875,
     "perto_de_terminar": 38,
     "zerados": 17
@@ -15861,8 +15861,8 @@
       "nome": "Soro fisiológico 500ml",
       "tipo": "Insumo",
       "unidade": "Unidade",
-      "almoxarifado": 514,
-      "farmacia": 25,
+      "almoxarifado": 466,
+      "farmacia": 73,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -15874,7 +15874,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-29 16:48:28",
+      "atualizado_em": "2026-10-29 16:48:38",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -15882,13 +15882,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 562
+          "quantidade": 514
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 25
+          "quantidade": 73
         }
       ],
       "minimo_manual": 0,
@@ -17607,6 +17607,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 5357,
+      "item_id": 204,
+      "produto_nome": "Soro fisiológico 500ml",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 48,
+      "responsavel": "Leiliana",
+      "data": "2026-10-29",
+      "obs": "",
+      "criado_em": "2026-10-29 16:48:38",
+      "item": "Soro fisiológico 500ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 5356,
       "item_id": 204,
@@ -25090,21 +25105,6 @@
       "obs": "",
       "criado_em": "2026-10-23 11:31:29",
       "item": "Benzilpenicilina 1.200",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 4854,
-      "item_id": 70,
-      "produto_nome": "Dipirona",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 30,
-      "responsavel": "Assucena",
-      "data": "2026-10-23",
-      "obs": "",
-      "criado_em": "2026-10-23 11:31:22",
-      "item": "Dipirona",
       "usuario": "Assucena"
     }
   ]
