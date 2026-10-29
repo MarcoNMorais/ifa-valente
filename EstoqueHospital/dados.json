@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "29/10/2026 16:46:01",
+  "atualizado_em": "29/10/2026 16:46:11",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
     "total_almoxarifado": 111926,
-    "total_farmacia": 32001,
-    "total_geral": 143927,
+    "total_farmacia": 32000,
+    "total_geral": 143926,
     "perto_de_terminar": 38,
     "zerados": 17
   },
@@ -2819,19 +2819,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 127,
-      "farmacia": 32,
+      "farmacia": 31,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 159,
+      "total": 158,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-29 13:43:59",
+      "atualizado_em": "2026-10-29 16:46:09",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -2845,7 +2845,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 32
+          "quantidade": 31
         }
       ],
       "minimo_manual": 0,
@@ -2853,9 +2853,9 @@
       "previsao_20_dias": 15,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 78,
-      "media_diaria_saida": 0.71,
-      "total_saida_historica": 55,
-      "cobertura_dias": 225.5,
+      "media_diaria_saida": 0.72,
+      "total_saida_historica": 56,
+      "cobertura_dias": 220.1,
       "alerta_estoque": false
     },
     {
@@ -17602,6 +17602,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 5347,
+      "item_id": 155,
+      "produto_nome": "Bolsa coletora",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 1,
+      "responsavel": "Leiliana",
+      "data": "2026-10-29",
+      "obs": "",
+      "criado_em": "2026-10-29 16:46:09",
+      "item": "Bolsa coletora",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 5346,
       "item_id": 294,
       "produto_nome": "Glicerina 12%",
@@ -25084,21 +25099,6 @@
       "obs": "",
       "criado_em": "2026-10-23 11:23:46",
       "item": "Equipo macrogotas",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 4847,
-      "item_id": 199,
-      "produto_nome": "Lençol descartável papel",
-      "tipo": "Almoxarifado para Farmácia",
-      "origem": "Almoxarifado",
-      "destino": "Farmácia",
-      "quantidade": 16,
-      "responsavel": "Assucena",
-      "data": "2026-10-22",
-      "obs": "",
-      "criado_em": "2026-10-23 11:23:32",
-      "item": "Lençol descartável papel",
       "usuario": "Assucena"
     }
   ]
