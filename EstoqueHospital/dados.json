@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "29/10/2026 16:47:40",
+  "atualizado_em": "29/10/2026 16:47:51",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
     "total_almoxarifado": 111915,
-    "total_farmacia": 31970,
-    "total_geral": 143885,
+    "total_farmacia": 31966,
+    "total_geral": 143881,
     "perto_de_terminar": 38,
     "zerados": 17
   },
@@ -12083,19 +12083,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 126,
+      "farmacia": 122,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 126,
+      "total": 122,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-29 13:43:59",
+      "atualizado_em": "2026-10-29 16:47:50",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -12103,17 +12103,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 126
+          "quantidade": 122
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 101,
-      "previsao_20_dias": 101,
+      "minimo_alerta": 102,
+      "previsao_20_dias": 102,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 77,
-      "media_diaria_saida": 5.01,
-      "total_saida_historica": 386,
-      "cobertura_dias": 25.1,
+      "media_diaria_saida": 5.06,
+      "total_saida_historica": 390,
+      "cobertura_dias": 24.1,
       "alerta_estoque": false
     },
     {
@@ -17607,6 +17607,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 5354,
+      "item_id": 228,
+      "produto_nome": "Omeprazol sódico 40mg AMP",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 4,
+      "responsavel": "Leiliana",
+      "data": "2026-10-29",
+      "obs": "",
+      "criado_em": "2026-10-29 16:47:50",
+      "item": "Omeprazol sódico 40mg AMP",
+      "usuario": "Leiliana"
+    },
     {
       "id": 5353,
       "item_id": 276,
@@ -25090,21 +25105,6 @@
       "obs": "",
       "criado_em": "2026-10-23 11:31:09",
       "item": "Escopolamina + Dipirona",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 4851,
-      "item_id": 68,
-      "produto_nome": "Dexametasona",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 40,
-      "responsavel": "Assucena",
-      "data": "2026-10-23",
-      "obs": "",
-      "criado_em": "2026-10-23 11:31:02",
-      "item": "Dexametasona",
       "usuario": "Assucena"
     }
   ]
