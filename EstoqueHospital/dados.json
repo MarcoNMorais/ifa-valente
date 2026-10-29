@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "29/10/2026 16:45:43",
+  "atualizado_em": "29/10/2026 16:45:51",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
     "total_almoxarifado": 111926,
-    "total_farmacia": 32027,
-    "total_geral": 143953,
+    "total_farmacia": 32002,
+    "total_geral": 143928,
     "perto_de_terminar": 38,
     "zerados": 17
   },
@@ -5868,19 +5868,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 2206,
-      "farmacia": 99,
+      "farmacia": 74,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 2305,
+      "total": 2280,
       "minimo": 300,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-10-29 13:43:59",
+      "atualizado_em": "2026-10-29 16:45:50",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -5894,17 +5894,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 124
+          "quantidade": 99
         }
       ],
       "minimo_manual": 300,
-      "minimo_alerta": 608,
-      "previsao_20_dias": 608,
+      "minimo_alerta": 615,
+      "previsao_20_dias": 615,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 78,
-      "media_diaria_saida": 30.38,
-      "total_saida_historica": 2370,
-      "cobertura_dias": 75.9,
+      "media_diaria_saida": 30.71,
+      "total_saida_historica": 2395,
+      "cobertura_dias": 74.3,
       "alerta_estoque": false
     },
     {
@@ -17602,6 +17602,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 5345,
+      "item_id": 220,
+      "produto_nome": "Equipo macrogotas",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 25,
+      "responsavel": "Leiliana",
+      "data": "2026-10-29",
+      "obs": "",
+      "criado_em": "2026-10-29 16:45:50",
+      "item": "Equipo macrogotas",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 5344,
       "item_id": 154,
       "produto_nome": "Equipo fotossensível",
@@ -25084,21 +25099,6 @@
       "obs": "",
       "criado_em": "2026-10-23 11:23:23",
       "item": "AGULHA  40X1,2",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 4845,
-      "item_id": 204,
-      "produto_nome": "Soro fisiológico 500ml",
-      "tipo": "Almoxarifado para Farmácia",
-      "origem": "Almoxarifado",
-      "destino": "Farmácia",
-      "quantidade": 48,
-      "responsavel": "Assucena",
-      "data": "2026-10-22",
-      "obs": "",
-      "criado_em": "2026-10-23 11:23:13",
-      "item": "Soro fisiológico 500ml",
       "usuario": "Assucena"
     }
   ]
