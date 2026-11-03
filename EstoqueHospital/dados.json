@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "03/11/2026 14:17:00",
+  "atualizado_em": "03/11/2026 14:17:13",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
     "total_almoxarifado": 110856,
-    "total_farmacia": 30114,
-    "total_geral": 140970,
+    "total_farmacia": 30014,
+    "total_geral": 140870,
     "perto_de_terminar": 39,
     "zerados": 18
   },
@@ -13215,19 +13215,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 5150,
-      "farmacia": 136,
+      "farmacia": 36,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 5286,
+      "total": 5186,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-03 14:09:18",
+      "atualizado_em": "2026-11-03 14:17:12",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -13241,17 +13241,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 196
+          "quantidade": 96
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 1359,
-      "previsao_20_dias": 1359,
+      "minimo_alerta": 1383,
+      "previsao_20_dias": 1383,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 83,
-      "media_diaria_saida": 67.93,
-      "total_saida_historica": 5638,
-      "cobertura_dias": 77.8,
+      "media_diaria_saida": 69.13,
+      "total_saida_historica": 5738,
+      "cobertura_dias": 75.0,
       "alerta_estoque": false
     },
     {
@@ -17628,6 +17628,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 5498,
+      "item_id": 103,
+      "produto_nome": "Seringa 10ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 100,
+      "responsavel": "Leiliana",
+      "data": "2026-11-03",
+      "obs": "",
+      "criado_em": "2026-11-03 14:17:12",
+      "item": "Seringa 10ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 5497,
       "item_id": 274,
@@ -25110,21 +25125,6 @@
       "data": "2026-10-26",
       "obs": "",
       "criado_em": "2026-10-26 14:10:24",
-      "item": "Fita cirúrgica microporosa",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 4998,
-      "item_id": 175,
-      "produto_nome": "Fita cirúrgica microporosa",
-      "tipo": "Almoxarifado para Farmácia",
-      "origem": "Almoxarifado",
-      "destino": "Farmácia",
-      "quantidade": 5,
-      "responsavel": "Leiliana",
-      "data": "2026-10-26",
-      "obs": "",
-      "criado_em": "2026-10-26 14:10:13",
       "item": "Fita cirúrgica microporosa",
       "usuario": "Leiliana"
     }
