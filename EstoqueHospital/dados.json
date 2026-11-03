@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "03/11/2026 14:12:31",
+  "atualizado_em": "03/11/2026 14:13:06",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
     "total_almoxarifado": 111206,
-    "total_farmacia": 30182,
-    "total_geral": 141388,
+    "total_farmacia": 30181,
+    "total_geral": 141387,
     "perto_de_terminar": 39,
     "zerados": 18
   },
@@ -14721,19 +14721,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 19,
+      "farmacia": 18,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 19,
+      "total": 18,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-03 08:20:50",
+      "atualizado_em": "2026-11-03 14:13:04",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -14741,7 +14741,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 19
+          "quantidade": 18
         }
       ],
       "minimo_manual": 0,
@@ -14749,9 +14749,9 @@
       "previsao_20_dias": 2,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 83,
-      "media_diaria_saida": 0.06,
-      "total_saida_historica": 5,
-      "cobertura_dias": 315.4,
+      "media_diaria_saida": 0.07,
+      "total_saida_historica": 6,
+      "cobertura_dias": 249.0,
       "alerta_estoque": false
     },
     {
@@ -17634,6 +17634,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 5482,
+      "item_id": 173,
+      "produto_nome": "Sonda Foley nº 16 - 2 vias",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 1,
+      "responsavel": "Leiliana",
+      "data": "2026-11-03",
+      "obs": "",
+      "criado_em": "2026-11-03 14:13:04",
+      "item": "Sonda Foley nº 16 - 2 vias",
+      "usuario": "Leiliana"
+    },
     {
       "id": 5481,
       "item_id": 155,
@@ -25117,21 +25132,6 @@
       "obs": "",
       "criado_em": "2026-10-26 14:06:56",
       "item": "AGULHA  40X1,2",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 4982,
-      "item_id": 21,
-      "produto_nome": "Clonazepam gotas 25mg/ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 1,
-      "responsavel": "Leiliana",
-      "data": "2026-10-26",
-      "obs": "",
-      "criado_em": "2026-10-26 14:06:38",
-      "item": "Clonazepam gotas 25mg/ml",
       "usuario": "Leiliana"
     }
   ]
