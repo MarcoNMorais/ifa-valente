@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "03/11/2026 14:14:01",
+  "atualizado_em": "03/11/2026 14:14:16",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
     "total_almoxarifado": 111110,
-    "total_farmacia": 30141,
-    "total_geral": 141251,
+    "total_farmacia": 30140,
+    "total_geral": 141250,
     "perto_de_terminar": 39,
     "zerados": 18
   },
@@ -10273,19 +10273,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 1302,
-      "farmacia": 1,
+      "farmacia": 0,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1303,
+      "total": 1302,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-03 08:20:50",
+      "atualizado_em": "2026-11-03 14:14:15",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -10294,12 +10294,6 @@
           "validade": "",
           "lote": "",
           "quantidade": 1302
-        },
-        {
-          "local": "farmacia",
-          "validade": "",
-          "lote": "",
-          "quantidade": 1
         }
       ],
       "minimo_manual": 0,
@@ -10307,9 +10301,9 @@
       "previsao_20_dias": 2,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 78,
-      "media_diaria_saida": 0.05,
-      "total_saida_historica": 4,
-      "cobertura_dias": 25408.5,
+      "media_diaria_saida": 0.06,
+      "total_saida_historica": 5,
+      "cobertura_dias": 20311.2,
       "alerta_estoque": false
     },
     {
@@ -17634,6 +17628,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 5486,
+      "item_id": 279,
+      "produto_nome": "Luva de vinil G",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 1,
+      "responsavel": "Leiliana",
+      "data": "2026-11-03",
+      "obs": "",
+      "criado_em": "2026-11-03 14:14:15",
+      "item": "Luva de vinil G",
+      "usuario": "Leiliana"
+    },
     {
       "id": 5485,
       "item_id": 203,
@@ -25117,21 +25126,6 @@
       "obs": "",
       "criado_em": "2026-10-26 14:07:46",
       "item": "Seringa 20ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 4986,
-      "item_id": 103,
-      "produto_nome": "Seringa 10ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 80,
-      "responsavel": "Leiliana",
-      "data": "2026-10-26",
-      "obs": "",
-      "criado_em": "2026-10-26 14:07:34",
-      "item": "Seringa 10ml",
       "usuario": "Leiliana"
     }
   ]
