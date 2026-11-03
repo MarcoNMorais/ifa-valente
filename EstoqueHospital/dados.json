@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "03/11/2026 14:36:38",
+  "atualizado_em": "03/11/2026 14:36:48",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
     "total_almoxarifado": 110031,
-    "total_farmacia": 29477,
-    "total_geral": 139508,
+    "total_farmacia": 29467,
+    "total_geral": 139498,
     "perto_de_terminar": 41,
     "zerados": 19
   },
@@ -13110,19 +13110,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 1040,
-      "farmacia": 75,
+      "farmacia": 65,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1115,
+      "total": 1105,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-03 13:59:14",
+      "atualizado_em": "2026-11-03 14:36:46",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -13136,17 +13136,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 85
+          "quantidade": 75
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 185,
-      "previsao_20_dias": 185,
+      "minimo_alerta": 188,
+      "previsao_20_dias": 188,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 83,
-      "media_diaria_saida": 9.24,
-      "total_saida_historica": 767,
-      "cobertura_dias": 120.7,
+      "media_diaria_saida": 9.36,
+      "total_saida_historica": 777,
+      "cobertura_dias": 118.0,
       "alerta_estoque": false
     },
     {
@@ -17603,6 +17603,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 5589,
+      "item_id": 98,
+      "produto_nome": "Scalp nº 23",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 10,
+      "responsavel": "Leiliana",
+      "data": "2026-11-03",
+      "obs": "",
+      "criado_em": "2026-11-03 14:36:46",
+      "item": "Scalp nº 23",
+      "usuario": "Leiliana"
+    },
     {
       "id": 5588,
       "item_id": 390,
@@ -25086,21 +25101,6 @@
       "obs": "",
       "criado_em": "2026-10-26 16:27:43",
       "item": "Dexametasona",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 5089,
-      "item_id": 55,
-      "produto_nome": "Benzilpenicilina 1.200",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 6,
-      "responsavel": "Leiliana",
-      "data": "2026-10-26",
-      "obs": "",
-      "criado_em": "2026-10-26 16:27:34",
-      "item": "Benzilpenicilina 1.200",
       "usuario": "Leiliana"
     }
   ]
