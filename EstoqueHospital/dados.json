@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "03/11/2026 14:30:16",
+  "atualizado_em": "03/11/2026 14:30:27",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
     "total_almoxarifado": 110075,
-    "total_farmacia": 29846,
-    "total_geral": 139921,
+    "total_farmacia": 29836,
+    "total_geral": 139911,
     "perto_de_terminar": 41,
     "zerados": 20
   },
@@ -8242,19 +8242,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 152,
+      "farmacia": 142,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 152,
+      "total": 142,
       "minimo": 50,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-03 14:30:15",
+      "atualizado_em": "2026-11-03 14:30:25",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -8262,17 +8262,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 152
+          "quantidade": 142
         }
       ],
       "minimo_manual": 50,
-      "minimo_alerta": 54,
-      "previsao_20_dias": 54,
+      "minimo_alerta": 56,
+      "previsao_20_dias": 56,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 70,
-      "media_diaria_saida": 2.66,
-      "total_saida_historica": 186,
-      "cobertura_dias": 57.2,
+      "media_diaria_saida": 2.8,
+      "total_saida_historica": 196,
+      "cobertura_dias": 50.7,
       "alerta_estoque": false
     },
     {
@@ -17597,6 +17597,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 5556,
+      "item_id": 350,
+      "produto_nome": "GLICOSE 50% AMP 10ML",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 10,
+      "responsavel": "Leiliana",
+      "data": "2026-11-03",
+      "obs": "",
+      "criado_em": "2026-11-03 14:30:25",
+      "item": "GLICOSE 50% AMP 10ML",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 5555,
       "item_id": 350,
       "produto_nome": "GLICOSE 50% AMP 10ML",
@@ -25079,21 +25094,6 @@
       "obs": "",
       "criado_em": "2026-10-26 14:21:23",
       "item": "Seringa 5ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 5056,
-      "item_id": 103,
-      "produto_nome": "Seringa 10ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 20,
-      "responsavel": "Leiliana",
-      "data": "2026-10-26",
-      "obs": "",
-      "criado_em": "2026-10-26 14:21:09",
-      "item": "Seringa 10ml",
       "usuario": "Leiliana"
     }
   ]
