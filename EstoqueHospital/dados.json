@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "03/11/2026 14:22:41",
+  "atualizado_em": "03/11/2026 14:22:52",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
     "total_almoxarifado": 110832,
-    "total_farmacia": 29434,
-    "total_geral": 140266,
+    "total_farmacia": 29419,
+    "total_geral": 140251,
     "perto_de_terminar": 41,
     "zerados": 20
   },
@@ -8678,19 +8678,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 170,
+      "farmacia": 155,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 170,
+      "total": 155,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-03 08:20:50",
+      "atualizado_em": "2026-11-03 14:22:51",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -8698,17 +8698,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 180
+          "quantidade": 165
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 142,
-      "previsao_20_dias": 142,
+      "minimo_alerta": 146,
+      "previsao_20_dias": 146,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 83,
-      "media_diaria_saida": 7.08,
-      "total_saida_historica": 588,
-      "cobertura_dias": 24.0,
+      "media_diaria_saida": 7.27,
+      "total_saida_historica": 603,
+      "cobertura_dias": 21.3,
       "alerta_estoque": false
     },
     {
@@ -17609,6 +17609,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 5526,
+      "item_id": 82,
+      "produto_nome": "Hidrocortisona 100MG",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 15,
+      "responsavel": "Leiliana",
+      "data": "2026-11-03",
+      "obs": "",
+      "criado_em": "2026-11-03 14:22:51",
+      "item": "Hidrocortisona 100MG",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 5525,
       "item_id": 227,
       "produto_nome": "Enoxaparina sódica 60mg",
@@ -25091,21 +25106,6 @@
       "obs": "",
       "criado_em": "2026-10-26 14:15:41",
       "item": "Fio agulhado / sutura nº 2",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 5026,
-      "item_id": 28,
-      "produto_nome": "Dipirona 500mg",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 10,
-      "responsavel": "Leiliana",
-      "data": "2026-10-26",
-      "obs": "",
-      "criado_em": "2026-10-26 14:15:30",
-      "item": "Dipirona 500mg",
       "usuario": "Leiliana"
     }
   ]
