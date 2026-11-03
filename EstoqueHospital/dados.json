@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "03/11/2026 13:52:51",
+  "atualizado_em": "03/11/2026 13:53:04",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
     "total_almoxarifado": 111552,
-    "total_farmacia": 31274,
-    "total_geral": 142826,
+    "total_farmacia": 31272,
+    "total_geral": 142824,
     "perto_de_terminar": 37,
     "zerados": 18
   },
@@ -13543,19 +13543,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 31,
+      "farmacia": 29,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 31,
+      "total": 29,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-03 08:20:50",
+      "atualizado_em": "2026-11-03 13:53:03",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -13563,17 +13563,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 31
+          "quantidade": 29
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 20,
-      "previsao_20_dias": 20,
+      "minimo_alerta": 21,
+      "previsao_20_dias": 21,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 82,
-      "media_diaria_saida": 0.99,
-      "total_saida_historica": 81,
-      "cobertura_dias": 31.4,
+      "media_diaria_saida": 1.01,
+      "total_saida_historica": 83,
+      "cobertura_dias": 28.7,
       "alerta_estoque": false
     },
     {
@@ -17600,6 +17600,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 5398,
+      "item_id": 256,
+      "produto_nome": "Simeticona gotas",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 2,
+      "responsavel": "Leiliana",
+      "data": "2026-11-03",
+      "obs": "",
+      "criado_em": "2026-11-03 13:53:03",
+      "item": "Simeticona gotas",
+      "usuario": "Leiliana"
+    },
     {
       "id": 5397,
       "item_id": 203,
@@ -25083,21 +25098,6 @@
       "obs": "",
       "criado_em": "2026-10-23 11:38:36",
       "item": "Meropenem 500mg",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 4898,
-      "item_id": 227,
-      "produto_nome": "Enoxaparina sódica 60mg",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 2,
-      "responsavel": "Assucena",
-      "data": "2026-10-23",
-      "obs": "",
-      "criado_em": "2026-10-23 11:38:27",
-      "item": "Enoxaparina sódica 60mg",
       "usuario": "Assucena"
     }
   ]
