@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "03/11/2026 16:24:18",
+  "atualizado_em": "03/11/2026 16:24:34",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
     "total_almoxarifado": 109861,
-    "total_farmacia": 29045,
-    "total_geral": 138906,
+    "total_farmacia": 29044,
+    "total_geral": 138905,
     "perto_de_terminar": 43,
     "zerados": 20
   },
@@ -7462,19 +7462,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 186,
-      "farmacia": 1,
+      "farmacia": 0,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 187,
+      "total": 186,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-03 14:32:49",
+      "atualizado_em": "2026-11-03 16:24:32",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -7488,7 +7488,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 3
+          "quantidade": 2
         }
       ],
       "minimo_manual": 0,
@@ -7496,9 +7496,9 @@
       "previsao_20_dias": 6,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 83,
-      "media_diaria_saida": 0.28,
-      "total_saida_historica": 23,
-      "cobertura_dias": 674.8,
+      "media_diaria_saida": 0.29,
+      "total_saida_historica": 24,
+      "cobertura_dias": 643.2,
       "alerta_estoque": false
     },
     {
@@ -17604,6 +17604,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 5621,
+      "item_id": 175,
+      "produto_nome": "Fita cirúrgica microporosa",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 1,
+      "responsavel": "Leiliana",
+      "data": "2026-11-03",
+      "obs": "",
+      "criado_em": "2026-11-03 16:24:32",
+      "item": "Fita cirúrgica microporosa",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 5620,
       "item_id": 176,
       "produto_nome": "Gelco nº 24",
@@ -25086,21 +25101,6 @@
       "obs": "",
       "criado_em": "2026-10-27 11:00:10",
       "item": "Atadura crepon nº 10",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 5121,
-      "item_id": 241,
-      "produto_nome": "Lactulose solução",
-      "tipo": "Almoxarifado para Farmácia",
-      "origem": "Almoxarifado",
-      "destino": "Farmácia",
-      "quantidade": 10,
-      "responsavel": "Assucena",
-      "data": "2026-10-27",
-      "obs": "",
-      "criado_em": "2026-10-27 10:59:58",
-      "item": "Lactulose solução",
       "usuario": "Assucena"
     }
   ]
