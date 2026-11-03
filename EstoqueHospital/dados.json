@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "03/11/2026 14:21:58",
+  "atualizado_em": "03/11/2026 14:22:09",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
     "total_almoxarifado": 110832,
-    "total_farmacia": 29454,
-    "total_geral": 140286,
+    "total_farmacia": 29453,
+    "total_geral": 140285,
     "perto_de_terminar": 41,
     "zerados": 20
   },
@@ -16225,19 +16225,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 4,
+      "farmacia": 3,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 4,
+      "total": 3,
       "minimo": 0,
       "validade": "02/27",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-11-03 08:20:50",
+      "atualizado_em": "2026-11-03 14:22:08",
       "validade_mais_proxima": "02/27",
       "vencimento_mais_proximo": "02/27",
       "lotes_validade": [
@@ -16246,22 +16246,16 @@
           "validade": "02/27",
           "lote": "",
           "quantidade": 3
-        },
-        {
-          "local": "farmacia",
-          "validade": "2027-03",
-          "lote": "",
-          "quantidade": 1
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 1,
-      "previsao_20_dias": 1,
+      "minimo_alerta": 2,
+      "previsao_20_dias": 2,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 83,
-      "media_diaria_saida": 0.05,
-      "total_saida_historica": 4,
-      "cobertura_dias": 83.0,
+      "media_diaria_saida": 0.06,
+      "total_saida_historica": 5,
+      "cobertura_dias": 49.8,
       "alerta_estoque": false
     },
     {
@@ -17614,6 +17608,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 5522,
+      "item_id": 23,
+      "produto_nome": "Sulfadiazina de prata",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 1,
+      "responsavel": "Leiliana",
+      "data": "2026-11-03",
+      "obs": "",
+      "criado_em": "2026-11-03 14:22:08",
+      "item": "Sulfadiazina de prata",
+      "usuario": "Leiliana"
+    },
     {
       "id": 5521,
       "item_id": 289,
@@ -25097,21 +25106,6 @@
       "obs": "",
       "criado_em": "2026-10-26 14:14:59",
       "item": "Enoxaparina sódica 40mg",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 5022,
-      "item_id": 152,
-      "produto_nome": "Atadura crepon nº 10",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 24,
-      "responsavel": "Leiliana",
-      "data": "2026-10-26",
-      "obs": "",
-      "criado_em": "2026-10-26 14:14:50",
-      "item": "Atadura crepon nº 10",
       "usuario": "Leiliana"
     }
   ]
