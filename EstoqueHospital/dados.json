@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "03/11/2026 13:52:37",
+  "atualizado_em": "03/11/2026 13:52:51",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
-    "total_almoxarifado": 111600,
-    "total_farmacia": 31226,
+    "total_almoxarifado": 111552,
+    "total_farmacia": 31274,
     "total_geral": 142826,
     "perto_de_terminar": 37,
     "zerados": 18
@@ -15808,8 +15808,8 @@
       "nome": "Soro fisiológico 250ml",
       "tipo": "Insumo",
       "unidade": "Unidade",
-      "almoxarifado": 649,
-      "farmacia": 135,
+      "almoxarifado": 601,
+      "farmacia": 183,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -15821,7 +15821,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-03 13:52:35",
+      "atualizado_em": "2026-11-03 13:52:50",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -15829,13 +15829,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 649
+          "quantidade": 601
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 135
+          "quantidade": 183
         }
       ],
       "minimo_manual": 0,
@@ -17600,6 +17600,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 5397,
+      "item_id": 203,
+      "produto_nome": "Soro fisiológico 250ml",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 48,
+      "responsavel": "Leiliana",
+      "data": "2026-11-03",
+      "obs": "",
+      "criado_em": "2026-11-03 13:52:50",
+      "item": "Soro fisiológico 250ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 5396,
       "item_id": 203,
@@ -25083,21 +25098,6 @@
       "obs": "",
       "criado_em": "2026-10-23 11:38:27",
       "item": "Enoxaparina sódica 60mg",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 4897,
-      "item_id": 382,
-      "produto_nome": "AGUA P/ INJ",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 15,
-      "responsavel": "Assucena",
-      "data": "2026-10-23",
-      "obs": "",
-      "criado_em": "2026-10-23 11:38:14",
-      "item": "AGUA P/ INJ",
       "usuario": "Assucena"
     }
   ]
