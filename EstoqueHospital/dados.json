@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "03/11/2026 14:35:41",
+  "atualizado_em": "03/11/2026 14:35:53",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
-    "total_almoxarifado": 110037,
-    "total_farmacia": 29582,
+    "total_almoxarifado": 110031,
+    "total_farmacia": 29588,
     "total_geral": 139619,
     "perto_de_terminar": 41,
     "zerados": 19
@@ -11992,8 +11992,8 @@
       "nome": "OLEO MINERAL",
       "tipo": "Medicamento",
       "unidade": "Unidade",
-      "almoxarifado": 12,
-      "farmacia": 0,
+      "almoxarifado": 6,
+      "farmacia": 6,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -12005,7 +12005,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-03 14:35:40",
+      "atualizado_em": "2026-11-03 14:35:51",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -12013,7 +12013,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 12
+          "quantidade": 6
+        },
+        {
+          "local": "farmacia",
+          "validade": "",
+          "lote": "",
+          "quantidade": 6
         }
       ],
       "minimo_manual": 0,
@@ -17597,6 +17603,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 5584,
+      "item_id": 380,
+      "produto_nome": "OLEO MINERAL",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 6,
+      "responsavel": "Leiliana",
+      "data": "2026-11-03",
+      "obs": "",
+      "criado_em": "2026-11-03 14:35:51",
+      "item": "OLEO MINERAL",
+      "usuario": "Leiliana"
+    },
     {
       "id": 5583,
       "item_id": 380,
@@ -25080,21 +25101,6 @@
       "obs": "",
       "criado_em": "2026-10-26 14:49:21",
       "item": "AGUA P/ INJ",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 5084,
-      "item_id": 55,
-      "produto_nome": "Benzilpenicilina 1.200",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 6,
-      "responsavel": "Leiliana",
-      "data": "2026-10-26",
-      "obs": "",
-      "criado_em": "2026-10-26 14:48:42",
-      "item": "Benzilpenicilina 1.200",
       "usuario": "Leiliana"
     }
   ]
