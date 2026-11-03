@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "03/11/2026 14:29:57",
+  "atualizado_em": "03/11/2026 14:30:16",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
-    "total_almoxarifado": 110225,
-    "total_farmacia": 29696,
+    "total_almoxarifado": 110075,
+    "total_farmacia": 29846,
     "total_geral": 139921,
     "perto_de_terminar": 41,
     "zerados": 20
@@ -8241,8 +8241,8 @@
       "nome": "GLICOSE 50% AMP 10ML",
       "tipo": "Medicamento",
       "unidade": "Unidade",
-      "almoxarifado": 150,
-      "farmacia": 2,
+      "almoxarifado": 0,
+      "farmacia": 152,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -8254,21 +8254,15 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-03 08:20:50",
+      "atualizado_em": "2026-11-03 14:30:15",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
         {
-          "local": "almoxarifado",
-          "validade": "",
-          "lote": "",
-          "quantidade": 150
-        },
-        {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 2
+          "quantidade": 152
         }
       ],
       "minimo_manual": 50,
@@ -17603,6 +17597,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 5555,
+      "item_id": 350,
+      "produto_nome": "GLICOSE 50% AMP 10ML",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 150,
+      "responsavel": "Leiliana",
+      "data": "2026-11-03",
+      "obs": "",
+      "criado_em": "2026-11-03 14:30:15",
+      "item": "GLICOSE 50% AMP 10ML",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 5554,
       "item_id": 223,
       "produto_nome": "Dramin B6 ampola 10ml",
@@ -25085,21 +25094,6 @@
       "obs": "",
       "criado_em": "2026-10-26 14:21:09",
       "item": "Seringa 10ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 5055,
-      "item_id": 274,
-      "produto_nome": "Seringa 20ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 10,
-      "responsavel": "Leiliana",
-      "data": "2026-10-26",
-      "obs": "",
-      "criado_em": "2026-10-26 14:20:59",
-      "item": "Seringa 20ml",
       "usuario": "Leiliana"
     }
   ]
