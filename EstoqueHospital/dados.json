@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "03/11/2026 16:26:32",
+  "atualizado_em": "03/11/2026 16:26:43",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
-    "total_almoxarifado": 109861,
-    "total_farmacia": 29016,
+    "total_almoxarifado": 109851,
+    "total_farmacia": 29026,
     "total_geral": 138877,
     "perto_de_terminar": 43,
     "zerados": 20
@@ -5549,8 +5549,8 @@
       "nome": "Eletrodo ECG descartável",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 1690,
-      "farmacia": 1,
+      "almoxarifado": 1680,
+      "farmacia": 11,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -5562,7 +5562,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-03 16:26:30",
+      "atualizado_em": "2026-11-03 16:26:42",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -5570,13 +5570,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 1690
+          "quantidade": 1680
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 1
+          "quantidade": 11
         }
       ],
       "minimo_manual": 0,
@@ -17604,6 +17604,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 5626,
+      "item_id": 163,
+      "produto_nome": "Eletrodo ECG descartável",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 10,
+      "responsavel": "Leiliana",
+      "data": "2026-11-03",
+      "obs": "",
+      "criado_em": "2026-11-03 16:26:42",
+      "item": "Eletrodo ECG descartável",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 5625,
       "item_id": 163,
       "produto_nome": "Eletrodo ECG descartável",
@@ -25086,21 +25101,6 @@
       "obs": "",
       "criado_em": "2026-10-27 11:01:10",
       "item": "Omeprazol sódico 40mg AMP",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 5126,
-      "item_id": 70,
-      "produto_nome": "Dipirona",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 30,
-      "responsavel": "Assucena",
-      "data": "2026-10-27",
-      "obs": "",
-      "criado_em": "2026-10-27 11:01:04",
-      "item": "Dipirona",
       "usuario": "Assucena"
     }
   ]
