@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "03/11/2026 13:47:30",
+  "atualizado_em": "03/11/2026 13:47:42",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
     "total_almoxarifado": 111619,
-    "total_farmacia": 31976,
-    "total_geral": 143595,
+    "total_farmacia": 31886,
+    "total_geral": 143505,
     "perto_de_terminar": 36,
     "zerados": 17
   },
@@ -777,19 +777,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 14700,
-      "farmacia": 230,
+      "farmacia": 140,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 14930,
+      "total": 14840,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga Almoxerifado",
       "obs": "Importação Almoxerifado",
-      "atualizado_em": "2026-11-03 08:20:50",
+      "atualizado_em": "2026-11-03 13:47:41",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -803,17 +803,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 230
+          "quantidade": 140
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 583,
-      "previsao_20_dias": 583,
+      "minimo_alerta": 606,
+      "previsao_20_dias": 606,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 78,
-      "media_diaria_saida": 29.1,
-      "total_saida_historica": 2270,
-      "cobertura_dias": 513.0,
+      "media_diaria_saida": 30.26,
+      "total_saida_historica": 2360,
+      "cobertura_dias": 490.5,
       "alerta_estoque": false
     },
     {
@@ -17608,6 +17608,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 5370,
+      "item_id": 331,
+      "produto_nome": "Agulha 30x8",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 90,
+      "responsavel": "Leiliana",
+      "data": "2026-11-03",
+      "obs": "",
+      "criado_em": "2026-11-03 13:47:41",
+      "item": "Agulha 30x8",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 5369,
       "item_id": 285,
       "produto_nome": "Agulha 30x7",
@@ -25090,21 +25105,6 @@
       "obs": "",
       "criado_em": "2026-10-23 11:34:02",
       "item": "Scalp nº 23",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 4868,
-      "item_id": 178,
-      "produto_nome": "Dispositivo intravenoso Gelco nº 20",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 10,
-      "responsavel": "Assucena",
-      "data": "2026-10-23",
-      "obs": "",
-      "criado_em": "2026-10-23 11:33:52",
-      "item": "Dispositivo intravenoso Gelco nº 20",
       "usuario": "Assucena"
     }
   ]
