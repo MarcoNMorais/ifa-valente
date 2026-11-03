@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "03/11/2026 14:02:39",
+  "atualizado_em": "03/11/2026 14:02:50",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
     "total_almoxarifado": 111306,
-    "total_farmacia": 30482,
-    "total_geral": 141788,
+    "total_farmacia": 30480,
+    "total_geral": 141786,
     "perto_de_terminar": 38,
     "zerados": 18
   },
@@ -9276,19 +9276,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 13,
-      "farmacia": 3,
+      "farmacia": 1,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 16,
+      "total": 14,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-03 08:20:50",
+      "atualizado_em": "2026-11-03 14:02:48",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -9302,17 +9302,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 3
+          "quantidade": 1
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 0,
-      "previsao_20_dias": 0,
+      "minimo_alerta": 1,
+      "previsao_20_dias": 1,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 51,
-      "media_diaria_saida": 0.0,
-      "total_saida_historica": 0,
-      "cobertura_dias": null,
+      "media_diaria_saida": 0.04,
+      "total_saida_historica": 2,
+      "cobertura_dias": 357.0,
       "alerta_estoque": false
     },
     {
@@ -17595,6 +17595,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 5444,
+      "item_id": 402,
+      "produto_nome": "KIT ACESSO CENTRAL",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 2,
+      "responsavel": "Leiliana",
+      "data": "2026-11-03",
+      "obs": "",
+      "criado_em": "2026-11-03 14:02:48",
+      "item": "KIT ACESSO CENTRAL",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 5443,
       "item_id": 104,
       "produto_nome": "Seringa 3ml",
@@ -25077,21 +25092,6 @@
       "obs": "",
       "criado_em": "2026-10-26 13:58:34",
       "item": "Scalp nº 21",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 4944,
-      "item_id": 104,
-      "produto_nome": "Seringa 3ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 20,
-      "responsavel": "Leiliana",
-      "data": "2026-10-26",
-      "obs": "",
-      "criado_em": "2026-10-26 13:58:01",
-      "item": "Seringa 3ml",
       "usuario": "Leiliana"
     }
   ]
