@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "03/11/2026 14:17:50",
+  "atualizado_em": "03/11/2026 14:18:06",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
-    "total_almoxarifado": 110856,
-    "total_farmacia": 29924,
+    "total_almoxarifado": 110832,
+    "total_farmacia": 29948,
     "total_geral": 140780,
     "perto_de_terminar": 39,
     "zerados": 18
@@ -6124,8 +6124,8 @@
       "nome": "Esparadrapo 10x4,5",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 352,
-      "farmacia": 4,
+      "almoxarifado": 328,
+      "farmacia": 28,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -6137,7 +6137,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-03 14:00:17",
+      "atualizado_em": "2026-11-03 14:18:05",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -6145,13 +6145,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 352
+          "quantidade": 328
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 6
+          "quantidade": 30
         }
       ],
       "minimo_manual": 0,
@@ -17629,6 +17629,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 5502,
+      "item_id": 276,
+      "produto_nome": "Esparadrapo 10x4,5",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 24,
+      "responsavel": "Leiliana",
+      "data": "2026-11-03",
+      "obs": "",
+      "criado_em": "2026-11-03 14:18:05",
+      "item": "Esparadrapo 10x4,5",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 5501,
       "item_id": 329,
       "produto_nome": "Polifix",
@@ -25111,21 +25126,6 @@
       "obs": "",
       "criado_em": "2026-10-26 14:11:08",
       "item": "Dipirona",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 5002,
-      "item_id": 238,
-      "produto_nome": "Ondansetrona 2mg/ml 2ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 30,
-      "responsavel": "Leiliana",
-      "data": "2026-10-26",
-      "obs": "",
-      "criado_em": "2026-10-26 14:10:56",
-      "item": "Ondansetrona 2mg/ml 2ml",
       "usuario": "Leiliana"
     }
   ]
