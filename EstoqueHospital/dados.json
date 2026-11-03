@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "03/11/2026 14:31:05",
+  "atualizado_em": "03/11/2026 14:31:21",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
-    "total_almoxarifado": 110075,
-    "total_farmacia": 29751,
+    "total_almoxarifado": 110025,
+    "total_farmacia": 29801,
     "total_geral": 139826,
     "perto_de_terminar": 41,
     "zerados": 20
@@ -12574,8 +12574,8 @@
       "nome": "Polifix",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 2770,
-      "farmacia": 0,
+      "almoxarifado": 2720,
+      "farmacia": 50,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -12587,7 +12587,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-03 14:31:04",
+      "atualizado_em": "2026-11-03 14:31:20",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -12595,7 +12595,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 2770
+          "quantidade": 2720
+        },
+        {
+          "local": "farmacia",
+          "validade": "",
+          "lote": "",
+          "quantidade": 50
         }
       ],
       "minimo_manual": 0,
@@ -17590,6 +17596,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 5561,
+      "item_id": 329,
+      "produto_nome": "Polifix",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 50,
+      "responsavel": "Leiliana",
+      "data": "2026-11-03",
+      "obs": "",
+      "criado_em": "2026-11-03 14:31:20",
+      "item": "Polifix",
+      "usuario": "Leiliana"
+    },
     {
       "id": 5560,
       "item_id": 329,
@@ -25073,21 +25094,6 @@
       "obs": "",
       "criado_em": "2026-10-26 14:22:19",
       "item": "Caixa de perfurocortante",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 5061,
-      "item_id": 175,
-      "produto_nome": "Fita cirúrgica microporosa",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 1,
-      "responsavel": "Leiliana",
-      "data": "2026-10-26",
-      "obs": "",
-      "criado_em": "2026-10-26 14:22:07",
-      "item": "Fita cirúrgica microporosa",
       "usuario": "Leiliana"
     }
   ]
