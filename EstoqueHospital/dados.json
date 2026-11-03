@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "03/11/2026 14:08:35",
+  "atualizado_em": "03/11/2026 14:08:44",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
     "total_almoxarifado": 111206,
-    "total_farmacia": 30299,
-    "total_geral": 141505,
+    "total_farmacia": 30298,
+    "total_geral": 141504,
     "perto_de_terminar": 39,
     "zerados": 18
   },
@@ -9613,19 +9613,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 50,
+      "farmacia": 49,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 50,
+      "total": 49,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-03 14:08:33",
+      "atualizado_em": "2026-11-03 14:08:42",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -9633,7 +9633,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 50
+          "quantidade": 49
         }
       ],
       "minimo_manual": 0,
@@ -9641,9 +9641,9 @@
       "previsao_20_dias": 0,
       "criterio_alerta": "estoque_minimo_manual_inicio",
       "dias_historico": 1,
-      "media_diaria_saida": 0.0,
-      "total_saida_historica": 0,
-      "cobertura_dias": null,
+      "media_diaria_saida": 1.0,
+      "total_saida_historica": 1,
+      "cobertura_dias": 49.0,
       "alerta_estoque": false
     },
     {
@@ -17635,6 +17635,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 5463,
+      "item_id": 418,
+      "produto_nome": "lidocaina c/ vaso",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 1,
+      "responsavel": "Leiliana",
+      "data": "2026-11-03",
+      "obs": "",
+      "criado_em": "2026-11-03 14:08:42",
+      "item": "lidocaina c/ vaso",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 5462,
       "item_id": 418,
       "produto_nome": "lidocaina c/ vaso",
@@ -25117,21 +25132,6 @@
       "obs": "",
       "criado_em": "2026-10-26 14:02:21",
       "item": "Luva de látex tam. M",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 4963,
-      "item_id": 180,
-      "produto_nome": "Luva de látex tam. P",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 1,
-      "responsavel": "Leiliana",
-      "data": "2026-10-26",
-      "obs": "",
-      "criado_em": "2026-10-26 14:02:10",
-      "item": "Luva de látex tam. P",
       "usuario": "Leiliana"
     }
   ]
