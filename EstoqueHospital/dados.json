@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "03/11/2026 13:55:42",
+  "atualizado_em": "03/11/2026 13:56:09",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
-    "total_almoxarifado": 111552,
-    "total_farmacia": 30738,
+    "total_almoxarifado": 111402,
+    "total_farmacia": 30888,
     "total_geral": 142290,
     "perto_de_terminar": 38,
     "zerados": 18
@@ -5866,8 +5866,8 @@
       "nome": "Equipo macrogotas",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 2206,
-      "farmacia": 24,
+      "almoxarifado": 2056,
+      "farmacia": 174,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -5879,7 +5879,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-03 13:49:43",
+      "atualizado_em": "2026-11-03 13:56:07",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -5887,13 +5887,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 2206
+          "quantidade": 2056
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 49
+          "quantidade": 199
         }
       ],
       "minimo_manual": 300,
@@ -17601,6 +17601,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 5411,
+      "item_id": 220,
+      "produto_nome": "Equipo macrogotas",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 150,
+      "responsavel": "Leiliana",
+      "data": "2026-11-03",
+      "obs": "",
+      "criado_em": "2026-11-03 13:56:07",
+      "item": "Equipo macrogotas",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 5410,
       "item_id": 289,
       "produto_nome": "Agulha 25x8",
@@ -25083,21 +25098,6 @@
       "obs": "",
       "criado_em": "2026-10-23 15:38:46",
       "item": "Luva de vinil P",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 4911,
-      "item_id": 238,
-      "produto_nome": "Ondansetrona 2mg/ml 2ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 60,
-      "responsavel": "Leiliana",
-      "data": "2026-10-23",
-      "obs": "",
-      "criado_em": "2026-10-23 15:38:29",
-      "item": "Ondansetrona 2mg/ml 2ml",
       "usuario": "Leiliana"
     }
   ]
