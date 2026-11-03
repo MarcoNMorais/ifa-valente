@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "03/11/2026 13:49:00",
+  "atualizado_em": "03/11/2026 13:49:18",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
-    "total_almoxarifado": 111619,
-    "total_farmacia": 31604,
+    "total_almoxarifado": 111600,
+    "total_farmacia": 31623,
     "total_geral": 143223,
     "perto_de_terminar": 36,
     "zerados": 17
@@ -9500,8 +9500,8 @@
       "nome": "Lençol descartável papel",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 150,
-      "farmacia": 2,
+      "almoxarifado": 131,
+      "farmacia": 21,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -9513,7 +9513,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-03 13:48:58",
+      "atualizado_em": "2026-11-03 13:49:16",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -9521,13 +9521,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 150
+          "quantidade": 131
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 2
+          "quantidade": 21
         }
       ],
       "minimo_manual": 0,
@@ -17608,6 +17608,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 5378,
+      "item_id": 199,
+      "produto_nome": "Lençol descartável papel",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 19,
+      "responsavel": "Leiliana",
+      "data": "2026-11-03",
+      "obs": "",
+      "criado_em": "2026-11-03 13:49:16",
+      "item": "Lençol descartável papel",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 5377,
       "item_id": 199,
       "produto_nome": "Lençol descartável papel",
@@ -25090,21 +25105,6 @@
       "obs": "",
       "criado_em": "2026-10-23 11:34:59",
       "item": "Luva cirúrgica tam. 7",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 4876,
-      "item_id": 185,
-      "produto_nome": "Luva cirúrgica tam. 7,5",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 5,
-      "responsavel": "Assucena",
-      "data": "2026-10-23",
-      "obs": "",
-      "criado_em": "2026-10-23 11:34:54",
-      "item": "Luva cirúrgica tam. 7,5",
       "usuario": "Assucena"
     }
   ]
