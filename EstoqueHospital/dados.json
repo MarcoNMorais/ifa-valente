@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "03/11/2026 14:01:52",
+  "atualizado_em": "03/11/2026 14:02:11",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
-    "total_almoxarifado": 111354,
-    "total_farmacia": 30562,
+    "total_almoxarifado": 111306,
+    "total_farmacia": 30610,
     "total_geral": 141916,
     "perto_de_terminar": 38,
     "zerados": 18
@@ -15802,8 +15802,8 @@
       "nome": "Soro fisiológico 250ml",
       "tipo": "Insumo",
       "unidade": "Unidade",
-      "almoxarifado": 553,
-      "farmacia": 183,
+      "almoxarifado": 505,
+      "farmacia": 231,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -15815,7 +15815,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-03 13:56:56",
+      "atualizado_em": "2026-11-03 14:02:09",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -15823,13 +15823,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 553
+          "quantidade": 505
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 231
+          "quantidade": 279
         }
       ],
       "minimo_manual": 0,
@@ -17594,6 +17594,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 5440,
+      "item_id": 203,
+      "produto_nome": "Soro fisiológico 250ml",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 48,
+      "responsavel": "Leiliana",
+      "data": "2026-11-03",
+      "obs": "",
+      "criado_em": "2026-11-03 14:02:09",
+      "item": "Soro fisiológico 250ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 5439,
       "item_id": 290,
@@ -25077,21 +25092,6 @@
       "obs": "",
       "criado_em": "2026-10-26 13:57:27",
       "item": "Seringa 5ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 4940,
-      "item_id": 397,
-      "produto_nome": "Dispositivo intravenoso Gelco nº 18",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 10,
-      "responsavel": "Leiliana",
-      "data": "2026-10-26",
-      "obs": "",
-      "criado_em": "2026-10-26 13:57:16",
-      "item": "Dispositivo intravenoso Gelco nº 18",
       "usuario": "Leiliana"
     }
   ]
