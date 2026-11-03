@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "03/11/2026 13:59:39",
+  "atualizado_em": "03/11/2026 13:59:49",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
     "total_almoxarifado": 111354,
-    "total_farmacia": 30678,
-    "total_geral": 142032,
+    "total_farmacia": 30663,
+    "total_geral": 142017,
     "perto_de_terminar": 38,
     "zerados": 18
   },
@@ -12567,19 +12567,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 2770,
-      "farmacia": 48,
+      "farmacia": 33,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 2818,
+      "total": 2803,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-03 13:49:31",
+      "atualizado_em": "2026-11-03 13:59:48",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -12593,17 +12593,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 48
+          "quantidade": 33
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 206,
-      "previsao_20_dias": 206,
+      "minimo_alerta": 210,
+      "previsao_20_dias": 210,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 78,
-      "media_diaria_saida": 10.28,
-      "total_saida_historica": 802,
-      "cobertura_dias": 274.1,
+      "media_diaria_saida": 10.47,
+      "total_saida_historica": 817,
+      "cobertura_dias": 267.6,
       "alerta_estoque": false
     },
     {
@@ -17594,6 +17594,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 5430,
+      "item_id": 329,
+      "produto_nome": "Polifix",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 15,
+      "responsavel": "Leiliana",
+      "data": "2026-11-03",
+      "obs": "",
+      "criado_em": "2026-11-03 13:59:48",
+      "item": "Polifix",
+      "usuario": "Leiliana"
+    },
     {
       "id": 5429,
       "item_id": 11,
@@ -25077,21 +25092,6 @@
       "obs": "",
       "criado_em": "2026-10-26 13:55:03",
       "item": "Gelco nº 24",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 4930,
-      "item_id": 27,
-      "produto_nome": "Paracetamol 500mg",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 10,
-      "responsavel": "Leiliana",
-      "data": "2026-10-26",
-      "obs": "",
-      "criado_em": "2026-10-26 13:54:49",
-      "item": "Paracetamol 500mg",
       "usuario": "Leiliana"
     }
   ]
