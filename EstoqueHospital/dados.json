@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "03/11/2026 13:51:51",
+  "atualizado_em": "03/11/2026 13:52:02",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
     "total_almoxarifado": 111600,
-    "total_farmacia": 31306,
-    "total_geral": 142906,
+    "total_farmacia": 31291,
+    "total_geral": 142891,
     "perto_de_terminar": 36,
     "zerados": 17
   },
@@ -13062,19 +13062,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 750,
-      "farmacia": 116,
+      "farmacia": 101,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 866,
+      "total": 851,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-03 08:20:50",
+      "atualizado_em": "2026-11-03 13:52:00",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -13088,17 +13088,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 116
+          "quantidade": 101
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 147,
-      "previsao_20_dias": 147,
+      "minimo_alerta": 151,
+      "previsao_20_dias": 151,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 83,
-      "media_diaria_saida": 7.35,
-      "total_saida_historica": 610,
-      "cobertura_dias": 117.8,
+      "media_diaria_saida": 7.53,
+      "total_saida_historica": 625,
+      "cobertura_dias": 113.0,
       "alerta_estoque": false
     },
     {
@@ -17607,6 +17607,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 5393,
+      "item_id": 99,
+      "produto_nome": "Scalp nº 21",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 15,
+      "responsavel": "Leiliana",
+      "data": "2026-11-03",
+      "obs": "",
+      "criado_em": "2026-11-03 13:52:00",
+      "item": "Scalp nº 21",
+      "usuario": "Leiliana"
+    },
     {
       "id": 5392,
       "item_id": 228,
@@ -25090,21 +25105,6 @@
       "obs": "",
       "criado_em": "2026-10-23 11:37:30",
       "item": "Agulha 25x8",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 4892,
-      "item_id": 390,
-      "produto_nome": "AGULHA  40X1,2",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 60,
-      "responsavel": "Assucena",
-      "data": "2026-10-23",
-      "obs": "",
-      "criado_em": "2026-10-23 11:37:23",
-      "item": "AGULHA  40X1,2",
       "usuario": "Assucena"
     }
   ]
