@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "03/11/2026 13:57:34",
+  "atualizado_em": "03/11/2026 13:57:43",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
     "total_almoxarifado": 111354,
-    "total_farmacia": 30826,
-    "total_geral": 142180,
+    "total_farmacia": 30825,
+    "total_geral": 142179,
     "perto_de_terminar": 38,
     "zerados": 18
   },
@@ -16628,19 +16628,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 90,
-      "farmacia": 187,
+      "farmacia": 186,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 277,
+      "total": 276,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-03 08:20:50",
+      "atualizado_em": "2026-11-03 13:57:42",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -16654,7 +16654,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 187
+          "quantidade": 186
         }
       ],
       "minimo_manual": 0,
@@ -16662,9 +16662,9 @@
       "previsao_20_dias": 216,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 83,
-      "media_diaria_saida": 10.76,
-      "total_saida_historica": 893,
-      "cobertura_dias": 25.7,
+      "media_diaria_saida": 10.77,
+      "total_saida_historica": 894,
+      "cobertura_dias": 25.6,
       "alerta_estoque": false
     },
     {
@@ -17600,6 +17600,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 5419,
+      "item_id": 195,
+      "produto_nome": "Tira Reagente G-Tech",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 1,
+      "responsavel": "Leiliana",
+      "data": "2026-11-03",
+      "obs": "",
+      "criado_em": "2026-11-03 13:57:42",
+      "item": "Tira Reagente G-Tech",
+      "usuario": "Leiliana"
+    },
     {
       "id": 5418,
       "item_id": 227,
@@ -25083,21 +25098,6 @@
       "obs": "",
       "criado_em": "2026-10-23 15:40:30",
       "item": "Seringa 3ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 4919,
-      "item_id": 102,
-      "produto_nome": "Seringa 5ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 30,
-      "responsavel": "Leiliana",
-      "data": "2026-10-23",
-      "obs": "",
-      "criado_em": "2026-10-23 15:40:20",
-      "item": "Seringa 5ml",
       "usuario": "Leiliana"
     }
   ]
