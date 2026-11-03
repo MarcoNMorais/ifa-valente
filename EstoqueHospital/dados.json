@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "03/11/2026 16:21:57",
+  "atualizado_em": "03/11/2026 16:22:18",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
-    "total_almoxarifado": 109931,
-    "total_farmacia": 29017,
+    "total_almoxarifado": 109925,
+    "total_farmacia": 29023,
     "total_geral": 138948,
     "perto_de_terminar": 43,
     "zerados": 20
@@ -15863,8 +15863,8 @@
       "nome": "Soro fisiológico 500ml",
       "tipo": "Insumo",
       "unidade": "Unidade",
-      "almoxarifado": 466,
-      "farmacia": 6,
+      "almoxarifado": 460,
+      "farmacia": 12,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -15876,7 +15876,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-03 14:13:20",
+      "atualizado_em": "2026-11-03 16:22:17",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -15884,13 +15884,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 514
+          "quantidade": 508
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 6
+          "quantidade": 12
         }
       ],
       "minimo_manual": 0,
@@ -17603,6 +17603,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 5616,
+      "item_id": 204,
+      "produto_nome": "Soro fisiológico 500ml",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 6,
+      "responsavel": "Leiliana",
+      "data": "2026-11-03",
+      "obs": "",
+      "criado_em": "2026-11-03 16:22:17",
+      "item": "Soro fisiológico 500ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 5615,
       "item_id": 387,
@@ -25086,21 +25101,6 @@
       "obs": "",
       "criado_em": "2026-10-27 10:59:26",
       "item": "Bolsa coletora",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 5116,
-      "item_id": 294,
-      "produto_nome": "Glicerina 12%",
-      "tipo": "Almoxarifado para Farmácia",
-      "origem": "Almoxarifado",
-      "destino": "Farmácia",
-      "quantidade": 30,
-      "responsavel": "Assucena",
-      "data": "2026-10-27",
-      "obs": "",
-      "criado_em": "2026-10-27 10:59:14",
-      "item": "Glicerina 12%",
       "usuario": "Assucena"
     }
   ]
