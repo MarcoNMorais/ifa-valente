@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "03/11/2026 13:57:43",
+  "atualizado_em": "03/11/2026 13:57:52",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
     "total_almoxarifado": 111354,
-    "total_farmacia": 30825,
-    "total_geral": 142179,
+    "total_farmacia": 30805,
+    "total_geral": 142159,
     "perto_de_terminar": 38,
     "zerados": 18
   },
@@ -7952,19 +7952,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 1270,
-      "farmacia": 25,
+      "farmacia": 5,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1295,
+      "total": 1275,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-03 13:48:16",
+      "atualizado_em": "2026-11-03 13:57:51",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -7978,17 +7978,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 25
+          "quantidade": 5
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 428,
-      "previsao_20_dias": 428,
+      "minimo_alerta": 433,
+      "previsao_20_dias": 433,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 83,
-      "media_diaria_saida": 21.36,
-      "total_saida_historica": 1773,
-      "cobertura_dias": 60.6,
+      "media_diaria_saida": 21.6,
+      "total_saida_historica": 1793,
+      "cobertura_dias": 59.0,
       "alerta_estoque": false
     },
     {
@@ -17601,6 +17601,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 5420,
+      "item_id": 177,
+      "produto_nome": "Gelco nº 22",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 20,
+      "responsavel": "Leiliana",
+      "data": "2026-11-03",
+      "obs": "",
+      "criado_em": "2026-11-03 13:57:51",
+      "item": "Gelco nº 22",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 5419,
       "item_id": 195,
       "produto_nome": "Tira Reagente G-Tech",
@@ -25083,21 +25098,6 @@
       "obs": "",
       "criado_em": "2026-10-23 15:40:41",
       "item": "Equipo macrogotas",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 4920,
-      "item_id": 104,
-      "produto_nome": "Seringa 3ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 40,
-      "responsavel": "Leiliana",
-      "data": "2026-10-23",
-      "obs": "",
-      "criado_em": "2026-10-23 15:40:30",
-      "item": "Seringa 3ml",
       "usuario": "Leiliana"
     }
   ]
