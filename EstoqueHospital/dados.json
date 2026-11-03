@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "03/11/2026 14:07:06",
+  "atualizado_em": "03/11/2026 14:07:17",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
     "total_almoxarifado": 111206,
-    "total_farmacia": 30250,
-    "total_geral": 141456,
+    "total_farmacia": 30249,
+    "total_geral": 141455,
     "perto_de_terminar": 39,
     "zerados": 18
   },
@@ -9693,19 +9693,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 30,
+      "farmacia": 29,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 30,
+      "total": 29,
       "minimo": 0,
       "validade": "2027-02",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-03 13:58:04",
+      "atualizado_em": "2026-11-03 14:07:15",
       "validade_mais_proxima": "2027-02",
       "vencimento_mais_proximo": "2027-02",
       "lotes_validade": [
@@ -9713,7 +9713,7 @@
           "local": "farmacia",
           "validade": "2027-02",
           "lote": "",
-          "quantidade": 10
+          "quantidade": 9
         },
         {
           "local": "farmacia",
@@ -9723,13 +9723,13 @@
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 12,
-      "previsao_20_dias": 12,
+      "minimo_alerta": 13,
+      "previsao_20_dias": 13,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 83,
-      "media_diaria_saida": 0.59,
-      "total_saida_historica": 49,
-      "cobertura_dias": 50.8,
+      "media_diaria_saida": 0.6,
+      "total_saida_historica": 50,
+      "cobertura_dias": 48.1,
       "alerta_estoque": false
     },
     {
@@ -17595,6 +17595,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 5460,
+      "item_id": 84,
+      "produto_nome": "Lidocaína",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 1,
+      "responsavel": "Leiliana",
+      "data": "2026-11-03",
+      "obs": "",
+      "criado_em": "2026-11-03 14:07:15",
+      "item": "Lidocaína",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 5459,
       "item_id": 59,
       "produto_nome": "Ceftriaxona 1g",
@@ -25077,21 +25092,6 @@
       "obs": "",
       "criado_em": "2026-10-26 14:01:41",
       "item": "Glicerina 12%",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 4960,
-      "item_id": 195,
-      "produto_nome": "Tira Reagente G-Tech",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 1,
-      "responsavel": "Leiliana",
-      "data": "2026-10-26",
-      "obs": "",
-      "criado_em": "2026-10-26 14:01:29",
-      "item": "Tira Reagente G-Tech",
       "usuario": "Leiliana"
     }
   ]
