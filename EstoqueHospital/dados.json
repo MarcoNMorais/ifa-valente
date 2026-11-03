@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "03/11/2026 13:49:45",
+  "atualizado_em": "03/11/2026 13:49:55",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
     "total_almoxarifado": 111600,
-    "total_farmacia": 31561,
-    "total_geral": 143161,
+    "total_farmacia": 31560,
+    "total_geral": 143160,
     "perto_de_terminar": 36,
     "zerados": 17
   },
@@ -10148,19 +10148,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 70,
-      "farmacia": 183,
+      "farmacia": 182,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 253,
+      "total": 252,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-03 08:20:50",
+      "atualizado_em": "2026-11-03 13:49:53",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -10174,7 +10174,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 186
+          "quantidade": 185
         }
       ],
       "minimo_manual": 0,
@@ -10182,8 +10182,8 @@
       "previsao_20_dias": 429,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 83,
-      "media_diaria_saida": 21.41,
-      "total_saida_historica": 1777,
+      "media_diaria_saida": 21.42,
+      "total_saida_historica": 1778,
       "cobertura_dias": 11.8,
       "alerta_estoque": true
     },
@@ -17607,6 +17607,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 5381,
+      "item_id": 181,
+      "produto_nome": "Luva de látex tam. M",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 1,
+      "responsavel": "Leiliana",
+      "data": "2026-11-03",
+      "obs": "",
+      "criado_em": "2026-11-03 13:49:53",
+      "item": "Luva de látex tam. M",
+      "usuario": "Leiliana"
+    },
     {
       "id": 5380,
       "item_id": 220,
@@ -25090,21 +25105,6 @@
       "obs": "",
       "criado_em": "2026-10-23 11:35:20",
       "item": "Esparadrapo 10x4,5",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 4879,
-      "item_id": 281,
-      "produto_nome": "Luva P procedimento",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 1,
-      "responsavel": "Assucena",
-      "data": "2026-10-23",
-      "obs": "",
-      "criado_em": "2026-10-23 11:35:14",
-      "item": "Luva P procedimento",
       "usuario": "Assucena"
     }
   ]
