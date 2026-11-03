@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "03/11/2026 14:14:16",
+  "atualizado_em": "03/11/2026 14:14:42",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
-    "total_almoxarifado": 111110,
-    "total_farmacia": 30140,
+    "total_almoxarifado": 111106,
+    "total_farmacia": 30144,
     "total_geral": 141250,
     "perto_de_terminar": 39,
     "zerados": 18
@@ -9493,8 +9493,8 @@
       "nome": "Lençol descartável papel",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 131,
-      "farmacia": 17,
+      "almoxarifado": 127,
+      "farmacia": 21,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -9506,7 +9506,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-03 14:01:09",
+      "atualizado_em": "2026-11-03 14:14:41",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -9514,13 +9514,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 131
+          "quantidade": 127
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 17
+          "quantidade": 21
         }
       ],
       "minimo_manual": 0,
@@ -17629,6 +17629,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 5487,
+      "item_id": 199,
+      "produto_nome": "Lençol descartável papel",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 4,
+      "responsavel": "Leiliana",
+      "data": "2026-11-03",
+      "obs": "",
+      "criado_em": "2026-11-03 14:14:41",
+      "item": "Lençol descartável papel",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 5486,
       "item_id": 279,
       "produto_nome": "Luva de vinil G",
@@ -25111,21 +25126,6 @@
       "obs": "",
       "criado_em": "2026-10-26 14:07:56",
       "item": "Polifix",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 4987,
-      "item_id": 274,
-      "produto_nome": "Seringa 20ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 40,
-      "responsavel": "Leiliana",
-      "data": "2026-10-26",
-      "obs": "",
-      "criado_em": "2026-10-26 14:07:46",
-      "item": "Seringa 20ml",
       "usuario": "Leiliana"
     }
   ]
