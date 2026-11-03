@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "03/11/2026 14:27:20",
+  "atualizado_em": "03/11/2026 14:27:58",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
-    "total_almoxarifado": 110825,
-    "total_farmacia": 29196,
+    "total_almoxarifado": 110225,
+    "total_farmacia": 29796,
     "total_geral": 140021,
     "perto_de_terminar": 41,
     "zerados": 20
@@ -776,8 +776,8 @@
       "nome": "Agulha 30x8",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 14700,
-      "farmacia": 20,
+      "almoxarifado": 14100,
+      "farmacia": 620,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -789,7 +789,7 @@
       "lote": "",
       "origem": "Carga Almoxerifado",
       "obs": "Importação Almoxerifado",
-      "atualizado_em": "2026-11-03 14:03:33",
+      "atualizado_em": "2026-11-03 14:27:57",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -797,13 +797,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 14700
+          "quantidade": 14100
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 20
+          "quantidade": 620
         }
       ],
       "minimo_manual": 0,
@@ -17603,6 +17603,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 5548,
+      "item_id": 331,
+      "produto_nome": "Agulha 30x8",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 600,
+      "responsavel": "Leiliana",
+      "data": "2026-11-03",
+      "obs": "",
+      "criado_em": "2026-11-03 14:27:57",
+      "item": "Agulha 30x8",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 5547,
       "item_id": 285,
       "produto_nome": "Agulha 30x7",
@@ -25085,21 +25100,6 @@
       "obs": "",
       "criado_em": "2026-10-26 14:19:42",
       "item": "LORATADINA SUSPENSÃO",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 5048,
-      "item_id": 258,
-      "produto_nome": "Dipirona gotas",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 1,
-      "responsavel": "Leiliana",
-      "data": "2026-10-26",
-      "obs": "",
-      "criado_em": "2026-10-26 14:19:33",
-      "item": "Dipirona gotas",
       "usuario": "Leiliana"
     }
   ]
