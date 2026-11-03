@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "03/11/2026 13:46:33",
+  "atualizado_em": "03/11/2026 13:47:00",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
-    "total_almoxarifado": 111687,
-    "total_farmacia": 32166,
+    "total_almoxarifado": 111619,
+    "total_farmacia": 32234,
     "total_geral": 143853,
     "perto_de_terminar": 36,
     "zerados": 17
@@ -15815,8 +15815,8 @@
       "nome": "Soro fisiológico 250ml",
       "tipo": "Insumo",
       "unidade": "Unidade",
-      "almoxarifado": 717,
-      "farmacia": 183,
+      "almoxarifado": 649,
+      "farmacia": 251,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -15828,7 +15828,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-03 13:46:32",
+      "atualizado_em": "2026-11-03 13:46:58",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -15836,13 +15836,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 717
+          "quantidade": 649
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 183
+          "quantidade": 251
         }
       ],
       "minimo_manual": 0,
@@ -17607,6 +17607,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 5366,
+      "item_id": 203,
+      "produto_nome": "Soro fisiológico 250ml",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 68,
+      "responsavel": "Leiliana",
+      "data": "2026-11-03",
+      "obs": "",
+      "criado_em": "2026-11-03 13:46:58",
+      "item": "Soro fisiológico 250ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 5365,
       "item_id": 203,
@@ -25090,21 +25105,6 @@
       "obs": "",
       "criado_em": "2026-10-23 11:33:30",
       "item": "Agulha 25x8",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 4864,
-      "item_id": 285,
-      "produto_nome": "Agulha 30x7",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 30,
-      "responsavel": "Assucena",
-      "data": "2026-10-23",
-      "obs": "",
-      "criado_em": "2026-10-23 11:33:23",
-      "item": "Agulha 30x7",
       "usuario": "Assucena"
     }
   ]
