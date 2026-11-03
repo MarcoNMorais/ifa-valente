@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "03/11/2026 16:20:10",
+  "atualizado_em": "03/11/2026 16:20:20",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
     "total_almoxarifado": 109931,
-    "total_farmacia": 29168,
-    "total_geral": 139099,
+    "total_farmacia": 29166,
+    "total_geral": 139097,
     "perto_de_terminar": 43,
     "zerados": 19
   },
@@ -9468,19 +9468,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 127,
-      "farmacia": 14,
+      "farmacia": 12,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 141,
+      "total": 139,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-03 14:32:56",
+      "atualizado_em": "2026-11-03 16:20:19",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -9494,17 +9494,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 17
+          "quantidade": 15
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 27,
-      "previsao_20_dias": 27,
+      "minimo_alerta": 28,
+      "previsao_20_dias": 28,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 83,
-      "media_diaria_saida": 1.34,
-      "total_saida_historica": 111,
-      "cobertura_dias": 105.4,
+      "media_diaria_saida": 1.36,
+      "total_saida_historica": 113,
+      "cobertura_dias": 102.1,
       "alerta_estoque": false
     },
     {
@@ -17604,6 +17604,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 5605,
+      "item_id": 199,
+      "produto_nome": "Lençol descartável papel",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 2,
+      "responsavel": "Leiliana",
+      "data": "2026-11-03",
+      "obs": "",
+      "criado_em": "2026-11-03 16:20:19",
+      "item": "Lençol descartável papel",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 5604,
       "item_id": 220,
       "produto_nome": "Equipo macrogotas",
@@ -25086,21 +25101,6 @@
       "obs": "",
       "criado_em": "2026-10-26 16:30:38",
       "item": "Omeprazol 20mg comprimido",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 5105,
-      "item_id": 228,
-      "produto_nome": "Omeprazol sódico 40mg AMP",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 6,
-      "responsavel": "Leiliana",
-      "data": "2026-10-26",
-      "obs": "",
-      "criado_em": "2026-10-26 16:30:31",
-      "item": "Omeprazol sódico 40mg AMP",
       "usuario": "Leiliana"
     }
   ]
