@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "03/11/2026 14:09:31",
+  "atualizado_em": "03/11/2026 14:09:39",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
     "total_almoxarifado": 111206,
-    "total_farmacia": 30265,
-    "total_geral": 141471,
+    "total_farmacia": 30262,
+    "total_geral": 141468,
     "perto_de_terminar": 39,
     "zerados": 18
   },
@@ -13577,19 +13577,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 29,
+      "farmacia": 26,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 29,
+      "total": 26,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-03 13:53:03",
+      "atualizado_em": "2026-11-03 14:09:38",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -13597,7 +13597,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 29
+          "quantidade": 26
         }
       ],
       "minimo_manual": 0,
@@ -13605,9 +13605,9 @@
       "previsao_20_dias": 21,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 82,
-      "media_diaria_saida": 1.01,
-      "total_saida_historica": 83,
-      "cobertura_dias": 28.7,
+      "media_diaria_saida": 1.05,
+      "total_saida_historica": 86,
+      "cobertura_dias": 24.8,
       "alerta_estoque": false
     },
     {
@@ -17634,6 +17634,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 5468,
+      "item_id": 256,
+      "produto_nome": "Simeticona gotas",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 3,
+      "responsavel": "Leiliana",
+      "data": "2026-11-03",
+      "obs": "",
+      "criado_em": "2026-11-03 14:09:38",
+      "item": "Simeticona gotas",
+      "usuario": "Leiliana"
+    },
     {
       "id": 5467,
       "item_id": 274,
@@ -25116,21 +25131,6 @@
       "data": "2026-10-26",
       "obs": "",
       "criado_em": "2026-10-26 14:03:31",
-      "item": "Equipo fotossensível",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 4968,
-      "item_id": 154,
-      "produto_nome": "Equipo fotossensível",
-      "tipo": "Almoxarifado para Farmácia",
-      "origem": "Almoxarifado",
-      "destino": "Farmácia",
-      "quantidade": 20,
-      "responsavel": "Leiliana",
-      "data": "2026-10-26",
-      "obs": "",
-      "criado_em": "2026-10-26 14:03:27",
       "item": "Equipo fotossensível",
       "usuario": "Leiliana"
     }
