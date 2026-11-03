@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "03/11/2026 14:18:49",
+  "atualizado_em": "03/11/2026 14:19:02",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
     "total_almoxarifado": 110832,
-    "total_farmacia": 29808,
-    "total_geral": 140640,
+    "total_farmacia": 29798,
+    "total_geral": 140630,
     "perto_de_terminar": 39,
     "zerados": 18
   },
@@ -3601,19 +3601,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 40,
+      "farmacia": 30,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 40,
+      "total": 30,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-03 14:00:59",
+      "atualizado_em": "2026-11-03 14:19:01",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -3621,17 +3621,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 60
+          "quantidade": 50
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 251,
-      "previsao_20_dias": 251,
+      "minimo_alerta": 253,
+      "previsao_20_dias": 253,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 83,
-      "media_diaria_saida": 12.52,
-      "total_saida_historica": 1039,
-      "cobertura_dias": 3.2,
+      "media_diaria_saida": 12.64,
+      "total_saida_historica": 1049,
+      "cobertura_dias": 2.4,
       "alerta_estoque": true
     },
     {
@@ -17629,6 +17629,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 5506,
+      "item_id": 61,
+      "produto_nome": "Cetoprofeno IM 50mg",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 10,
+      "responsavel": "Leiliana",
+      "data": "2026-11-03",
+      "obs": "",
+      "criado_em": "2026-11-03 14:19:01",
+      "item": "Cetoprofeno IM 50mg",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 5505,
       "item_id": 152,
       "produto_nome": "Atadura crepon nº 10",
@@ -25110,21 +25125,6 @@
       "data": "2026-10-26",
       "obs": "",
       "criado_em": "2026-10-26 14:12:06",
-      "item": "Soro fisiológico 250ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 5006,
-      "item_id": 203,
-      "produto_nome": "Soro fisiológico 250ml",
-      "tipo": "Almoxarifado para Farmácia",
-      "origem": "Almoxarifado",
-      "destino": "Farmácia",
-      "quantidade": 70,
-      "responsavel": "Leiliana",
-      "data": "2026-10-26",
-      "obs": "",
-      "criado_em": "2026-10-26 14:11:57",
       "item": "Soro fisiológico 250ml",
       "usuario": "Leiliana"
     }
