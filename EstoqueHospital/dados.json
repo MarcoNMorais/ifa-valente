@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "03/11/2026 14:22:22",
+  "atualizado_em": "03/11/2026 14:22:31",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
     "total_almoxarifado": 110832,
-    "total_farmacia": 29437,
-    "total_geral": 140269,
+    "total_farmacia": 29436,
+    "total_geral": 140268,
     "perto_de_terminar": 41,
     "zerados": 20
   },
@@ -16636,19 +16636,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 90,
-      "farmacia": 186,
+      "farmacia": 185,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 276,
+      "total": 275,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-03 13:57:42",
+      "atualizado_em": "2026-11-03 14:22:30",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -16662,7 +16662,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 186
+          "quantidade": 185
         }
       ],
       "minimo_manual": 0,
@@ -16670,9 +16670,9 @@
       "previsao_20_dias": 216,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 83,
-      "media_diaria_saida": 10.77,
-      "total_saida_historica": 894,
-      "cobertura_dias": 25.6,
+      "media_diaria_saida": 10.78,
+      "total_saida_historica": 895,
+      "cobertura_dias": 25.5,
       "alerta_estoque": false
     },
     {
@@ -17608,6 +17608,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 5524,
+      "item_id": 195,
+      "produto_nome": "Tira Reagente G-Tech",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 1,
+      "responsavel": "Leiliana",
+      "data": "2026-11-03",
+      "obs": "",
+      "criado_em": "2026-11-03 14:22:30",
+      "item": "Tira Reagente G-Tech",
+      "usuario": "Leiliana"
+    },
     {
       "id": 5523,
       "item_id": 290,
@@ -25091,21 +25106,6 @@
       "obs": "",
       "criado_em": "2026-10-26 14:15:21",
       "item": "Paracetamol 500mg",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 5024,
-      "item_id": 227,
-      "produto_nome": "Enoxaparina sódica 60mg",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 2,
-      "responsavel": "Leiliana",
-      "data": "2026-10-26",
-      "obs": "",
-      "criado_em": "2026-10-26 14:15:10",
-      "item": "Enoxaparina sódica 60mg",
       "usuario": "Leiliana"
     }
   ]
