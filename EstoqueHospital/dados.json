@@ -1,12 +1,12 @@
 {
-  "atualizado_em": "03/11/2026 16:19:42",
+  "atualizado_em": "03/11/2026 16:19:57",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
     "total_almoxarifado": 109931,
-    "total_farmacia": 29318,
-    "total_geral": 139249,
-    "perto_de_terminar": 42,
+    "total_farmacia": 29218,
+    "total_geral": 139149,
+    "perto_de_terminar": 43,
     "zerados": 19
   },
   "itens": [
@@ -15818,19 +15818,19 @@
       "tipo": "Insumo",
       "unidade": "Unidade",
       "almoxarifado": 409,
-      "farmacia": 163,
+      "farmacia": 63,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 572,
+      "total": 472,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-03 14:33:06",
+      "atualizado_em": "2026-11-03 16:19:55",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -15844,18 +15844,18 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 211
+          "quantidade": 111
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 510,
-      "previsao_20_dias": 510,
+      "minimo_alerta": 534,
+      "previsao_20_dias": 534,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 83,
-      "media_diaria_saida": 25.48,
-      "total_saida_historica": 2115,
-      "cobertura_dias": 22.4,
-      "alerta_estoque": false
+      "media_diaria_saida": 26.69,
+      "total_saida_historica": 2215,
+      "cobertura_dias": 17.7,
+      "alerta_estoque": true
     },
     {
       "id": 204,
@@ -17603,6 +17603,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 5603,
+      "item_id": 203,
+      "produto_nome": "Soro fisiológico 250ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 100,
+      "responsavel": "Leiliana",
+      "data": "2026-11-03",
+      "obs": "",
+      "criado_em": "2026-11-03 16:19:55",
+      "item": "Soro fisiológico 250ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 5602,
       "item_id": 104,
@@ -25086,21 +25101,6 @@
       "obs": "",
       "criado_em": "2026-10-26 16:30:20",
       "item": "Lençol descartável papel",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 5103,
-      "item_id": 203,
-      "produto_nome": "Soro fisiológico 250ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 4,
-      "responsavel": "Leiliana",
-      "data": "2026-10-26",
-      "obs": "",
-      "criado_em": "2026-10-26 16:30:08",
-      "item": "Soro fisiológico 250ml",
       "usuario": "Leiliana"
     }
   ]
