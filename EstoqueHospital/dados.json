@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "03/11/2026 14:31:58",
+  "atualizado_em": "03/11/2026 14:32:09",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
     "total_almoxarifado": 110025,
-    "total_farmacia": 29766,
-    "total_geral": 139791,
+    "total_farmacia": 29761,
+    "total_geral": 139786,
     "perto_de_terminar": 41,
     "zerados": 20
   },
@@ -10049,7 +10049,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 23
+          "quantidade": 28
         }
       ],
       "minimo_manual": 0,
@@ -10069,19 +10069,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 270,
-      "farmacia": 22,
+      "farmacia": 17,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 292,
+      "total": 287,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-03 08:20:50",
+      "atualizado_em": "2026-11-03 14:32:07",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -10095,17 +10095,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 22
+          "quantidade": 17
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 27,
-      "previsao_20_dias": 27,
+      "minimo_alerta": 28,
+      "previsao_20_dias": 28,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 83,
-      "media_diaria_saida": 1.3,
-      "total_saida_historica": 108,
-      "cobertura_dias": 224.4,
+      "media_diaria_saida": 1.36,
+      "total_saida_historica": 113,
+      "cobertura_dias": 210.8,
       "alerta_estoque": false
     },
     {
@@ -17597,6 +17597,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 5565,
+      "item_id": 186,
+      "produto_nome": "Luva cirúrgica tam. 8",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 5,
+      "responsavel": "Leiliana",
+      "data": "2026-11-03",
+      "obs": "",
+      "criado_em": "2026-11-03 14:32:07",
+      "item": "Luva cirúrgica tam. 8",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 5564,
       "item_id": 185,
       "produto_nome": "Luva cirúrgica tam. 7,5",
@@ -25079,21 +25094,6 @@
       "obs": "",
       "criado_em": "2026-10-26 14:23:08",
       "item": "Seringa 3ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 5065,
-      "item_id": 103,
-      "produto_nome": "Seringa 10ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 20,
-      "responsavel": "Leiliana",
-      "data": "2026-10-26",
-      "obs": "",
-      "criado_em": "2026-10-26 14:22:56",
-      "item": "Seringa 10ml",
       "usuario": "Leiliana"
     }
   ]
