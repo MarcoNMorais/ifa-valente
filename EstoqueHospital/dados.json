@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "03/11/2026 13:50:36",
+  "atualizado_em": "03/11/2026 13:50:46",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
     "total_almoxarifado": 111600,
-    "total_farmacia": 31481,
-    "total_geral": 143081,
+    "total_farmacia": 31461,
+    "total_geral": 143061,
     "perto_de_terminar": 36,
     "zerados": 17
   },
@@ -473,19 +473,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 185,
+      "farmacia": 165,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 185,
+      "total": 165,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-03 08:20:50",
+      "atualizado_em": "2026-11-03 13:50:45",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -493,17 +493,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 185
+          "quantidade": 165
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 157,
-      "previsao_20_dias": 157,
+      "minimo_alerta": 163,
+      "previsao_20_dias": 163,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 61,
-      "media_diaria_saida": 7.8,
-      "total_saida_historica": 476,
-      "cobertura_dias": 23.7,
+      "media_diaria_saida": 8.13,
+      "total_saida_historica": 496,
+      "cobertura_dias": 20.3,
       "alerta_estoque": false
     },
     {
@@ -17608,6 +17608,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 5386,
+      "item_id": 382,
+      "produto_nome": "AGUA P/ INJ",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 20,
+      "responsavel": "Leiliana",
+      "data": "2026-11-03",
+      "obs": "",
+      "criado_em": "2026-11-03 13:50:45",
+      "item": "AGUA P/ INJ",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 5385,
       "item_id": 70,
       "produto_nome": "Dipirona",
@@ -25090,21 +25105,6 @@
       "obs": "",
       "criado_em": "2026-10-23 11:36:35",
       "item": "Seringa 10ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 4885,
-      "item_id": 274,
-      "produto_nome": "Seringa 20ml",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 20,
-      "responsavel": "Assucena",
-      "data": "2026-10-23",
-      "obs": "",
-      "criado_em": "2026-10-23 11:36:29",
-      "item": "Seringa 20ml",
       "usuario": "Assucena"
     }
   ]
