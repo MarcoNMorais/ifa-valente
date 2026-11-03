@@ -1,12 +1,12 @@
 {
-  "atualizado_em": "03/11/2026 14:37:30",
+  "atualizado_em": "03/11/2026 14:37:41",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
     "total_almoxarifado": 110031,
-    "total_farmacia": 29425,
-    "total_geral": 139456,
-    "perto_de_terminar": 41,
+    "total_farmacia": 29424,
+    "total_geral": 139455,
+    "perto_de_terminar": 42,
     "zerados": 19
   },
   "itens": [
@@ -11953,19 +11953,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 4,
+      "farmacia": 3,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 4,
+      "total": 3,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-03 08:20:50",
+      "atualizado_em": "2026-11-03 14:37:40",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -11973,18 +11973,18 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 4
+          "quantidade": 3
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 3,
-      "previsao_20_dias": 3,
+      "minimo_alerta": 4,
+      "previsao_20_dias": 4,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 22,
-      "media_diaria_saida": 0.14,
-      "total_saida_historica": 3,
-      "cobertura_dias": 29.3,
-      "alerta_estoque": false
+      "media_diaria_saida": 0.18,
+      "total_saida_historica": 4,
+      "cobertura_dias": 16.5,
+      "alerta_estoque": true
     },
     {
       "id": 380,
@@ -17603,6 +17603,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 5594,
+      "item_id": 410,
+      "produto_nome": "oleo de girasol AGE",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 1,
+      "responsavel": "Leiliana",
+      "data": "2026-11-03",
+      "obs": "",
+      "criado_em": "2026-11-03 14:37:40",
+      "item": "oleo de girasol AGE",
+      "usuario": "Leiliana"
+    },
     {
       "id": 5593,
       "item_id": 276,
@@ -25086,21 +25101,6 @@
       "obs": "",
       "criado_em": "2026-10-26 16:28:29",
       "item": "Scalp nº 21",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 5094,
-      "item_id": 98,
-      "produto_nome": "Scalp nº 23",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 10,
-      "responsavel": "Leiliana",
-      "data": "2026-10-26",
-      "obs": "",
-      "criado_em": "2026-10-26 16:28:22",
-      "item": "Scalp nº 23",
       "usuario": "Leiliana"
     }
   ]
