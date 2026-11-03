@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "03/11/2026 14:25:44",
+  "atualizado_em": "03/11/2026 14:26:06",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
     "total_almoxarifado": 110825,
-    "total_farmacia": 29351,
-    "total_geral": 140176,
+    "total_farmacia": 29350,
+    "total_geral": 140175,
     "perto_de_terminar": 41,
     "zerados": 20
   },
@@ -12633,19 +12633,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 36,
+      "farmacia": 35,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 36,
+      "total": 35,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-03 08:20:50",
+      "atualizado_em": "2026-11-03 14:26:05",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -12653,7 +12653,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 36
+          "quantidade": 35
         }
       ],
       "minimo_manual": 0,
@@ -12661,9 +12661,9 @@
       "previsao_20_dias": 4,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 82,
-      "media_diaria_saida": 0.17,
-      "total_saida_historica": 14,
-      "cobertura_dias": 210.9,
+      "media_diaria_saida": 0.18,
+      "total_saida_historica": 15,
+      "cobertura_dias": 191.3,
       "alerta_estoque": false
     },
     {
@@ -17608,6 +17608,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 5540,
+      "item_id": 249,
+      "produto_nome": "Prednisolona 3mg/ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 1,
+      "responsavel": "Leiliana",
+      "data": "2026-11-03",
+      "obs": "",
+      "criado_em": "2026-11-03 14:26:05",
+      "item": "Prednisolona 3mg/ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 5539,
       "item_id": 377,
@@ -25091,21 +25106,6 @@
       "obs": "",
       "criado_em": "2026-10-26 14:18:13",
       "item": "Ceftriaxona 1g",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 5040,
-      "item_id": 53,
-      "produto_nome": "Ácido Tranexâmico 50mg",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 20,
-      "responsavel": "Leiliana",
-      "data": "2026-10-26",
-      "obs": "",
-      "criado_em": "2026-10-26 14:18:03",
-      "item": "Ácido Tranexâmico 50mg",
       "usuario": "Leiliana"
     }
   ]
