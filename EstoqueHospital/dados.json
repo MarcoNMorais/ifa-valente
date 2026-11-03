@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "03/11/2026 14:04:14",
+  "atualizado_em": "03/11/2026 14:04:55",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
     "total_almoxarifado": 111206,
-    "total_farmacia": 30348,
-    "total_geral": 141554,
+    "total_farmacia": 30338,
+    "total_geral": 141544,
     "perto_de_terminar": 38,
     "zerados": 18
   },
@@ -2149,19 +2149,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 90,
-      "farmacia": 30,
+      "farmacia": 20,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 120,
+      "total": 110,
       "minimo": 0,
       "validade": "2029-01",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-03 08:20:50",
+      "atualizado_em": "2026-11-03 14:04:54",
       "validade_mais_proxima": "2029-01",
       "vencimento_mais_proximo": "2029-01",
       "lotes_validade": [
@@ -2169,7 +2169,7 @@
           "local": "farmacia",
           "validade": "2029-01",
           "lote": "",
-          "quantidade": 30
+          "quantidade": 20
         },
         {
           "local": "almoxarifado",
@@ -2179,13 +2179,13 @@
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 8,
-      "previsao_20_dias": 8,
+      "minimo_alerta": 10,
+      "previsao_20_dias": 10,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 83,
-      "media_diaria_saida": 0.36,
-      "total_saida_historica": 30,
-      "cobertura_dias": 332.0,
+      "media_diaria_saida": 0.48,
+      "total_saida_historica": 40,
+      "cobertura_dias": 228.2,
       "alerta_estoque": false
     },
     {
@@ -17595,6 +17595,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 5451,
+      "item_id": 37,
+      "produto_nome": "Atensina 0,100mg CPR",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 10,
+      "responsavel": "Leiliana",
+      "data": "2026-11-03",
+      "obs": "",
+      "criado_em": "2026-11-03 14:04:54",
+      "item": "Atensina 0,100mg CPR",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 5450,
       "item_id": 177,
       "produto_nome": "Gelco nº 22",
@@ -25077,21 +25092,6 @@
       "obs": "",
       "criado_em": "2026-10-26 14:00:00",
       "item": "Ceftriaxona 1g",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 4951,
-      "item_id": 60,
-      "produto_nome": "Cetoprofeno EV 100mg",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 6,
-      "responsavel": "Leiliana",
-      "data": "2026-10-26",
-      "obs": "",
-      "criado_em": "2026-10-26 13:59:48",
-      "item": "Cetoprofeno EV 100mg",
       "usuario": "Leiliana"
     }
   ]
