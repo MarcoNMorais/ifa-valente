@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "03/11/2026 14:21:23",
+  "atualizado_em": "03/11/2026 14:21:35",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
     "total_almoxarifado": 110832,
-    "total_farmacia": 29506,
-    "total_geral": 140338,
+    "total_farmacia": 29504,
+    "total_geral": 140336,
     "perto_de_terminar": 41,
     "zerados": 20
   },
@@ -3145,19 +3145,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 24,
-      "farmacia": 7,
+      "farmacia": 5,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 31,
+      "total": 29,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-03 13:56:27",
+      "atualizado_em": "2026-11-03 14:21:33",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -3171,7 +3171,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 7
+          "quantidade": 5
         }
       ],
       "minimo_manual": 0,
@@ -3179,9 +3179,9 @@
       "previsao_20_dias": 11,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 83,
-      "media_diaria_saida": 0.51,
-      "total_saida_historica": 42,
-      "cobertura_dias": 61.3,
+      "media_diaria_saida": 0.53,
+      "total_saida_historica": 44,
+      "cobertura_dias": 54.7,
       "alerta_estoque": false
     },
     {
@@ -17615,6 +17615,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 5519,
+      "item_id": 200,
+      "produto_nome": "Caixa de perfurocortante",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 2,
+      "responsavel": "Leiliana",
+      "data": "2026-11-03",
+      "obs": "",
+      "criado_em": "2026-11-03 14:21:33",
+      "item": "Caixa de perfurocortante",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 5518,
       "item_id": 70,
       "produto_nome": "Dipirona",
@@ -25097,21 +25112,6 @@
       "obs": "",
       "criado_em": "2026-10-26 14:14:23",
       "item": "Seringa 10ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 5019,
-      "item_id": 104,
-      "produto_nome": "Seringa 3ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 30,
-      "responsavel": "Leiliana",
-      "data": "2026-10-26",
-      "obs": "",
-      "criado_em": "2026-10-26 14:14:09",
-      "item": "Seringa 3ml",
       "usuario": "Leiliana"
     }
   ]
