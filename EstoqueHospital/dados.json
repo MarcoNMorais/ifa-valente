@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "03/11/2026 14:13:22",
+  "atualizado_em": "03/11/2026 14:13:50",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
-    "total_almoxarifado": 111206,
-    "total_farmacia": 30141,
+    "total_almoxarifado": 111110,
+    "total_farmacia": 30237,
     "total_geral": 141347,
     "perto_de_terminar": 39,
     "zerados": 18
@@ -15842,8 +15842,8 @@
       "nome": "Soro fisiológico 250ml",
       "tipo": "Insumo",
       "unidade": "Unidade",
-      "almoxarifado": 505,
-      "farmacia": 183,
+      "almoxarifado": 409,
+      "farmacia": 279,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -15855,7 +15855,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-03 14:02:17",
+      "atualizado_em": "2026-11-03 14:13:48",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -15863,13 +15863,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 505
+          "quantidade": 409
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 231
+          "quantidade": 327
         }
       ],
       "minimo_manual": 0,
@@ -17634,6 +17634,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 5484,
+      "item_id": 203,
+      "produto_nome": "Soro fisiológico 250ml",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 96,
+      "responsavel": "Leiliana",
+      "data": "2026-11-03",
+      "obs": "",
+      "criado_em": "2026-11-03 14:13:48",
+      "item": "Soro fisiológico 250ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 5483,
       "item_id": 204,
@@ -25116,21 +25131,6 @@
       "data": "2026-10-26",
       "obs": "",
       "criado_em": "2026-10-26 14:07:21",
-      "item": "Soro fisiológico 500ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 4984,
-      "item_id": 204,
-      "produto_nome": "Soro fisiológico 500ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 14,
-      "responsavel": "Leiliana",
-      "data": "2026-10-26",
-      "obs": "",
-      "criado_em": "2026-10-26 14:07:08",
       "item": "Soro fisiológico 500ml",
       "usuario": "Leiliana"
     }
