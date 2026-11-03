@@ -1,12 +1,12 @@
 {
-  "atualizado_em": "03/11/2026 13:54:54",
+  "atualizado_em": "03/11/2026 13:55:06",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
     "total_almoxarifado": 111552,
-    "total_farmacia": 30939,
-    "total_geral": 142491,
-    "perto_de_terminar": 37,
+    "total_farmacia": 30938,
+    "total_geral": 142490,
+    "perto_de_terminar": 38,
     "zerados": 18
   },
   "itens": [
@@ -10187,19 +10187,19 @@
       "tipo": "Material",
       "unidade": "Caixa",
       "almoxarifado": 42,
-      "farmacia": 166,
+      "farmacia": 165,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 208,
+      "total": 207,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-03 08:20:50",
+      "atualizado_em": "2026-11-03 13:55:04",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -10213,18 +10213,18 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 166
+          "quantidade": 165
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 206,
-      "previsao_20_dias": 206,
+      "minimo_alerta": 207,
+      "previsao_20_dias": 207,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 83,
-      "media_diaria_saida": 10.29,
-      "total_saida_historica": 854,
-      "cobertura_dias": 20.2,
-      "alerta_estoque": false
+      "media_diaria_saida": 10.3,
+      "total_saida_historica": 855,
+      "cobertura_dias": 20.1,
+      "alerta_estoque": true
     },
     {
       "id": 279,
@@ -17600,6 +17600,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 5407,
+      "item_id": 180,
+      "produto_nome": "Luva de látex tam. P",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 1,
+      "responsavel": "Leiliana",
+      "data": "2026-11-03",
+      "obs": "",
+      "criado_em": "2026-11-03 13:55:04",
+      "item": "Luva de látex tam. P",
+      "usuario": "Leiliana"
+    },
     {
       "id": 5406,
       "item_id": 181,
@@ -25083,21 +25098,6 @@
       "obs": "",
       "criado_em": "2026-10-23 12:00:49",
       "item": "Esparadrapo 10x4,5",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 4907,
-      "item_id": 84,
-      "produto_nome": "Lidocaína",
-      "tipo": "Farmácia para SALA DE PARTO",
-      "origem": "Farmácia",
-      "destino": "SALA DE PARTO",
-      "quantidade": 1,
-      "responsavel": "Assucena",
-      "data": "2026-10-23",
-      "obs": "",
-      "criado_em": "2026-10-23 12:00:33",
-      "item": "Lidocaína",
       "usuario": "Assucena"
     }
   ]
