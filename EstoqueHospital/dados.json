@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "03/11/2026 14:32:19",
+  "atualizado_em": "03/11/2026 14:32:27",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
     "total_almoxarifado": 110025,
-    "total_farmacia": 29759,
-    "total_geral": 139784,
+    "total_farmacia": 29757,
+    "total_geral": 139782,
     "perto_de_terminar": 41,
     "zerados": 20
   },
@@ -10155,19 +10155,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 70,
-      "farmacia": 172,
+      "farmacia": 170,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 242,
+      "total": 240,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-03 14:06:44",
+      "atualizado_em": "2026-11-03 14:32:26",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -10181,17 +10181,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 175
+          "quantidade": 173
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 431,
-      "previsao_20_dias": 431,
+      "minimo_alerta": 432,
+      "previsao_20_dias": 432,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 83,
-      "media_diaria_saida": 21.54,
-      "total_saida_historica": 1788,
-      "cobertura_dias": 11.2,
+      "media_diaria_saida": 21.57,
+      "total_saida_historica": 1790,
+      "cobertura_dias": 11.1,
       "alerta_estoque": true
     },
     {
@@ -17596,6 +17596,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 5567,
+      "item_id": 181,
+      "produto_nome": "Luva de látex tam. M",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 2,
+      "responsavel": "Leiliana",
+      "data": "2026-11-03",
+      "obs": "",
+      "criado_em": "2026-11-03 14:32:26",
+      "item": "Luva de látex tam. M",
+      "usuario": "Leiliana"
+    },
     {
       "id": 5566,
       "item_id": 180,
@@ -25079,21 +25094,6 @@
       "obs": "",
       "criado_em": "2026-10-26 14:23:32",
       "item": "Scalp nº 23",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 5067,
-      "item_id": 157,
-      "produto_nome": "Seringa 1ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 20,
-      "responsavel": "Leiliana",
-      "data": "2026-10-26",
-      "obs": "",
-      "criado_em": "2026-10-26 14:23:16",
-      "item": "Seringa 1ml",
       "usuario": "Leiliana"
     }
   ]
