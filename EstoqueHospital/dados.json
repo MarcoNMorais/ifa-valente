@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "03/11/2026 14:02:30",
+  "atualizado_em": "03/11/2026 14:02:39",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
     "total_almoxarifado": 111306,
-    "total_farmacia": 30522,
-    "total_geral": 141828,
+    "total_farmacia": 30482,
+    "total_geral": 141788,
     "perto_de_terminar": 38,
     "zerados": 18
   },
@@ -13319,19 +13319,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 5900,
-      "farmacia": 1963,
+      "farmacia": 1923,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 7863,
+      "total": 7823,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-03 13:48:49",
+      "atualizado_em": "2026-11-03 14:02:38",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -13345,17 +13345,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 1963
+          "quantidade": 1923
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 799,
-      "previsao_20_dias": 799,
+      "minimo_alerta": 809,
+      "previsao_20_dias": 809,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 83,
-      "media_diaria_saida": 39.94,
-      "total_saida_historica": 3315,
-      "cobertura_dias": 196.9,
+      "media_diaria_saida": 40.42,
+      "total_saida_historica": 3355,
+      "cobertura_dias": 193.5,
       "alerta_estoque": false
     },
     {
@@ -17594,6 +17594,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 5443,
+      "item_id": 104,
+      "produto_nome": "Seringa 3ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 40,
+      "responsavel": "Leiliana",
+      "data": "2026-11-03",
+      "obs": "",
+      "criado_em": "2026-11-03 14:02:38",
+      "item": "Seringa 3ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 5442,
       "item_id": 102,
@@ -25077,21 +25092,6 @@
       "obs": "",
       "criado_em": "2026-10-26 13:58:01",
       "item": "Seringa 3ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 4943,
-      "item_id": 103,
-      "produto_nome": "Seringa 10ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 20,
-      "responsavel": "Leiliana",
-      "data": "2026-10-26",
-      "obs": "",
-      "criado_em": "2026-10-26 13:57:50",
-      "item": "Seringa 10ml",
       "usuario": "Leiliana"
     }
   ]
