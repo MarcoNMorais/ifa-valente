@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "03/11/2026 14:32:51",
+  "atualizado_em": "03/11/2026 14:32:58",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
     "total_almoxarifado": 110025,
-    "total_farmacia": 29754,
-    "total_geral": 139779,
+    "total_farmacia": 29751,
+    "total_geral": 139776,
     "perto_de_terminar": 41,
     "zerados": 20
   },
@@ -9468,19 +9468,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 127,
-      "farmacia": 17,
+      "farmacia": 14,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 144,
+      "total": 141,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-03 14:14:50",
+      "atualizado_em": "2026-11-03 14:32:56",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -9502,9 +9502,9 @@
       "previsao_20_dias": 27,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 83,
-      "media_diaria_saida": 1.3,
-      "total_saida_historica": 108,
-      "cobertura_dias": 110.7,
+      "media_diaria_saida": 1.34,
+      "total_saida_historica": 111,
+      "cobertura_dias": 105.4,
       "alerta_estoque": false
     },
     {
@@ -17597,6 +17597,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 5570,
+      "item_id": 199,
+      "produto_nome": "Lençol descartável papel",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 3,
+      "responsavel": "Leiliana",
+      "data": "2026-11-03",
+      "obs": "",
+      "criado_em": "2026-11-03 14:32:56",
+      "item": "Lençol descartável papel",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 5569,
       "item_id": 175,
       "produto_nome": "Fita cirúrgica microporosa",
@@ -25079,21 +25094,6 @@
       "obs": "",
       "criado_em": "2026-10-26 14:24:03",
       "item": "Dexametasona",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 5070,
-      "item_id": 70,
-      "produto_nome": "Dipirona",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 20,
-      "responsavel": "Leiliana",
-      "data": "2026-10-26",
-      "obs": "",
-      "criado_em": "2026-10-26 14:23:52",
-      "item": "Dipirona",
       "usuario": "Leiliana"
     }
   ]
