@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "03/11/2026 14:20:14",
+  "atualizado_em": "03/11/2026 14:20:23",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
     "total_almoxarifado": 110832,
-    "total_farmacia": 29713,
-    "total_geral": 140545,
+    "total_farmacia": 29711,
+    "total_geral": 140543,
     "perto_de_terminar": 39,
     "zerados": 20
   },
@@ -9719,19 +9719,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 29,
+      "farmacia": 27,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 29,
+      "total": 27,
       "minimo": 0,
       "validade": "2027-02",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-03 14:07:15",
+      "atualizado_em": "2026-11-03 14:20:22",
       "validade_mais_proxima": "2027-02",
       "vencimento_mais_proximo": "2027-02",
       "lotes_validade": [
@@ -9739,7 +9739,7 @@
           "local": "farmacia",
           "validade": "2027-02",
           "lote": "",
-          "quantidade": 9
+          "quantidade": 7
         },
         {
           "local": "farmacia",
@@ -9753,9 +9753,9 @@
       "previsao_20_dias": 13,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 83,
-      "media_diaria_saida": 0.6,
-      "total_saida_historica": 50,
-      "cobertura_dias": 48.1,
+      "media_diaria_saida": 0.63,
+      "total_saida_historica": 52,
+      "cobertura_dias": 43.1,
       "alerta_estoque": false
     },
     {
@@ -17615,6 +17615,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 5513,
+      "item_id": 84,
+      "produto_nome": "Lidocaína",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 2,
+      "responsavel": "Leiliana",
+      "data": "2026-11-03",
+      "obs": "",
+      "criado_em": "2026-11-03 14:20:22",
+      "item": "Lidocaína",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 5512,
       "item_id": 86,
       "produto_nome": "Cloridrato de Metoclopramida",
@@ -25097,21 +25112,6 @@
       "obs": "",
       "criado_em": "2026-10-26 14:13:19",
       "item": "Soro fisiológico 100ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 5013,
-      "item_id": 199,
-      "produto_nome": "Lençol descartável papel",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 5,
-      "responsavel": "Leiliana",
-      "data": "2026-10-26",
-      "obs": "",
-      "criado_em": "2026-10-26 14:13:10",
-      "item": "Lençol descartável papel",
       "usuario": "Leiliana"
     }
   ]
