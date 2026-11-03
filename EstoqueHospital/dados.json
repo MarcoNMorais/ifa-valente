@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "03/11/2026 14:23:44",
+  "atualizado_em": "03/11/2026 14:24:14",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
-    "total_almoxarifado": 110832,
-    "total_farmacia": 29380,
+    "total_almoxarifado": 110825,
+    "total_farmacia": 29387,
     "total_geral": 140212,
     "perto_de_terminar": 41,
     "zerados": 20
@@ -16973,8 +16973,8 @@
       "nome": "tubo endotraqueal n°7,5",
       "tipo": "Medicamento",
       "unidade": "Unidade",
-      "almoxarifado": 7,
-      "farmacia": 0,
+      "almoxarifado": 0,
+      "farmacia": 7,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -16986,12 +16986,12 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-03 08:20:50",
+      "atualizado_em": "2026-11-03 14:24:12",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
         {
-          "local": "almoxarifado",
+          "local": "farmacia",
           "validade": "",
           "lote": "",
           "quantidade": 7
@@ -17608,6 +17608,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 5532,
+      "item_id": 415,
+      "produto_nome": "tubo endotraqueal n°7,5",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 7,
+      "responsavel": "Leiliana",
+      "data": "2026-11-03",
+      "obs": "",
+      "criado_em": "2026-11-03 14:24:12",
+      "item": "tubo endotraqueal n°7,5",
+      "usuario": "Leiliana"
+    },
     {
       "id": 5531,
       "item_id": 1,
@@ -25091,21 +25106,6 @@
       "obs": "",
       "criado_em": "2026-10-26 14:16:52",
       "item": "Luva de látex tam. M",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 5032,
-      "item_id": 119,
-      "produto_nome": "Atorvastatina 40mg CPR",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 10,
-      "responsavel": "Leiliana",
-      "data": "2026-10-26",
-      "obs": "",
-      "criado_em": "2026-10-26 14:16:41",
-      "item": "Atorvastatina 40mg CPR",
       "usuario": "Leiliana"
     }
   ]
