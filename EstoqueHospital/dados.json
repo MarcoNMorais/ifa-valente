@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "03/11/2026 13:54:38",
+  "atualizado_em": "03/11/2026 13:54:54",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
     "total_almoxarifado": 111552,
-    "total_farmacia": 30946,
-    "total_geral": 142498,
+    "total_farmacia": 30939,
+    "total_geral": 142491,
     "perto_de_terminar": 37,
     "zerados": 18
   },
@@ -10141,19 +10141,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 70,
-      "farmacia": 180,
+      "farmacia": 173,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 250,
+      "total": 243,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-03 13:51:40",
+      "atualizado_em": "2026-11-03 13:54:53",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -10167,17 +10167,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 183
+          "quantidade": 176
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 429,
-      "previsao_20_dias": 429,
+      "minimo_alerta": 431,
+      "previsao_20_dias": 431,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 83,
-      "media_diaria_saida": 21.45,
-      "total_saida_historica": 1780,
-      "cobertura_dias": 11.7,
+      "media_diaria_saida": 21.53,
+      "total_saida_historica": 1787,
+      "cobertura_dias": 11.3,
       "alerta_estoque": true
     },
     {
@@ -17600,6 +17600,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 5406,
+      "item_id": 181,
+      "produto_nome": "Luva de látex tam. M",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 7,
+      "responsavel": "Leiliana",
+      "data": "2026-11-03",
+      "obs": "",
+      "criado_em": "2026-11-03 13:54:53",
+      "item": "Luva de látex tam. M",
+      "usuario": "Leiliana"
+    },
     {
       "id": 5405,
       "item_id": 274,
@@ -25083,21 +25098,6 @@
       "obs": "",
       "criado_em": "2026-10-23 12:00:33",
       "item": "Lidocaína",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 4906,
-      "item_id": 185,
-      "produto_nome": "Luva cirúrgica tam. 7,5",
-      "tipo": "Farmácia para SALA DE PARTO",
-      "origem": "Farmácia",
-      "destino": "SALA DE PARTO",
-      "quantidade": 8,
-      "responsavel": "Assucena",
-      "data": "2026-10-23",
-      "obs": "",
-      "criado_em": "2026-10-23 12:00:16",
-      "item": "Luva cirúrgica tam. 7,5",
       "usuario": "Assucena"
     }
   ]
