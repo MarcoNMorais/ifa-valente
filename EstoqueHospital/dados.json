@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "03/11/2026 14:35:53",
+  "atualizado_em": "03/11/2026 14:36:05",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
     "total_almoxarifado": 110031,
-    "total_farmacia": 29588,
-    "total_geral": 139619,
+    "total_farmacia": 29587,
+    "total_geral": 139618,
     "perto_de_terminar": 41,
     "zerados": 19
   },
@@ -11993,19 +11993,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 6,
-      "farmacia": 6,
+      "farmacia": 5,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 12,
+      "total": 11,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-03 14:35:51",
+      "atualizado_em": "2026-11-03 14:36:04",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -12019,17 +12019,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 6
+          "quantidade": 5
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 3,
-      "previsao_20_dias": 3,
+      "minimo_alerta": 4,
+      "previsao_20_dias": 4,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 61,
-      "media_diaria_saida": 0.15,
-      "total_saida_historica": 9,
-      "cobertura_dias": 81.3,
+      "media_diaria_saida": 0.16,
+      "total_saida_historica": 10,
+      "cobertura_dias": 67.1,
       "alerta_estoque": false
     },
     {
@@ -17603,6 +17603,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 5585,
+      "item_id": 380,
+      "produto_nome": "OLEO MINERAL",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 1,
+      "responsavel": "Leiliana",
+      "data": "2026-11-03",
+      "obs": "",
+      "criado_em": "2026-11-03 14:36:04",
+      "item": "OLEO MINERAL",
+      "usuario": "Leiliana"
+    },
     {
       "id": 5584,
       "item_id": 380,
@@ -25086,21 +25101,6 @@
       "obs": "",
       "criado_em": "2026-10-26 16:27:02",
       "item": "Cetoprofeno IM 50mg",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 5085,
-      "item_id": 382,
-      "produto_nome": "AGUA P/ INJ",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 6,
-      "responsavel": "Leiliana",
-      "data": "2026-10-26",
-      "obs": "",
-      "criado_em": "2026-10-26 14:49:21",
-      "item": "AGUA P/ INJ",
       "usuario": "Leiliana"
     }
   ]
