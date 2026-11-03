@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "03/11/2026 14:00:19",
+  "atualizado_em": "03/11/2026 14:00:38",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
     "total_almoxarifado": 111354,
-    "total_farmacia": 30649,
-    "total_geral": 142003,
+    "total_farmacia": 30639,
+    "total_geral": 141993,
     "perto_de_terminar": 38,
     "zerados": 18
   },
@@ -6898,19 +6898,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 16,
+      "farmacia": 6,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 16,
+      "total": 6,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-03 08:20:50",
+      "atualizado_em": "2026-11-03 14:00:36",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -6918,17 +6918,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 16
+          "quantidade": 6
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 36,
-      "previsao_20_dias": 36,
+      "minimo_alerta": 38,
+      "previsao_20_dias": 38,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 83,
-      "media_diaria_saida": 1.76,
-      "total_saida_historica": 146,
-      "cobertura_dias": 9.1,
+      "media_diaria_saida": 1.88,
+      "total_saida_historica": 156,
+      "cobertura_dias": 3.2,
       "alerta_estoque": true
     },
     {
@@ -17595,6 +17595,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 5433,
+      "item_id": 216,
+      "produto_nome": "Fio agulhado / sutura nº 3",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 10,
+      "responsavel": "Leiliana",
+      "data": "2026-11-03",
+      "obs": "",
+      "criado_em": "2026-11-03 14:00:36",
+      "item": "Fio agulhado / sutura nº 3",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 5432,
       "item_id": 276,
       "produto_nome": "Esparadrapo 10x4,5",
@@ -25077,21 +25092,6 @@
       "obs": "",
       "criado_em": "2026-10-26 13:55:37",
       "item": "AGULHA  40X1,2",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 4933,
-      "item_id": 85,
-      "produto_nome": "Lidocaína Gel",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 4,
-      "responsavel": "Leiliana",
-      "data": "2026-10-26",
-      "obs": "",
-      "criado_em": "2026-10-26 13:55:27",
-      "item": "Lidocaína Gel",
       "usuario": "Leiliana"
     }
   ]
