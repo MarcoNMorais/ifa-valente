@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "03/11/2026 14:17:40",
+  "atualizado_em": "03/11/2026 14:17:50",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
     "total_almoxarifado": 110856,
-    "total_farmacia": 29939,
-    "total_geral": 140795,
+    "total_farmacia": 29924,
+    "total_geral": 140780,
     "perto_de_terminar": 39,
     "zerados": 18
   },
@@ -12601,19 +12601,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 2770,
-      "farmacia": 25,
+      "farmacia": 10,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 2795,
+      "total": 2780,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-03 14:08:55",
+      "atualizado_em": "2026-11-03 14:17:49",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -12627,17 +12627,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 25
+          "quantidade": 10
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 212,
-      "previsao_20_dias": 212,
+      "minimo_alerta": 216,
+      "previsao_20_dias": 216,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 78,
-      "media_diaria_saida": 10.58,
-      "total_saida_historica": 825,
-      "cobertura_dias": 264.3,
+      "media_diaria_saida": 10.77,
+      "total_saida_historica": 840,
+      "cobertura_dias": 258.1,
       "alerta_estoque": false
     },
     {
@@ -17628,6 +17628,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 5501,
+      "item_id": 329,
+      "produto_nome": "Polifix",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 15,
+      "responsavel": "Leiliana",
+      "data": "2026-11-03",
+      "obs": "",
+      "criado_em": "2026-11-03 14:17:49",
+      "item": "Polifix",
+      "usuario": "Leiliana"
+    },
     {
       "id": 5500,
       "item_id": 220,
@@ -25111,21 +25126,6 @@
       "obs": "",
       "criado_em": "2026-10-26 14:10:56",
       "item": "Ondansetrona 2mg/ml 2ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 5001,
-      "item_id": 176,
-      "produto_nome": "Gelco nº 24",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 10,
-      "responsavel": "Leiliana",
-      "data": "2026-10-26",
-      "obs": "",
-      "criado_em": "2026-10-26 14:10:45",
-      "item": "Gelco nº 24",
       "usuario": "Leiliana"
     }
   ]
