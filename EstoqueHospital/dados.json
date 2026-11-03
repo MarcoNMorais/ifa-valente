@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "03/11/2026 14:36:48",
+  "atualizado_em": "03/11/2026 14:37:01",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
     "total_almoxarifado": 110031,
-    "total_farmacia": 29467,
-    "total_geral": 139498,
+    "total_farmacia": 29457,
+    "total_geral": 139488,
     "perto_de_terminar": 41,
     "zerados": 19
   },
@@ -13380,19 +13380,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 5750,
-      "farmacia": 435,
+      "farmacia": 425,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 6185,
+      "total": 6175,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-03 14:17:29",
+      "atualizado_em": "2026-11-03 14:36:59",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -13406,17 +13406,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 465
+          "quantidade": 455
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 1140,
-      "previsao_20_dias": 1140,
+      "minimo_alerta": 1143,
+      "previsao_20_dias": 1143,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 83,
-      "media_diaria_saida": 56.99,
-      "total_saida_historica": 4730,
-      "cobertura_dias": 108.5,
+      "media_diaria_saida": 57.11,
+      "total_saida_historica": 4740,
+      "cobertura_dias": 108.1,
       "alerta_estoque": false
     },
     {
@@ -17603,6 +17603,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 5590,
+      "item_id": 102,
+      "produto_nome": "Seringa 5ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 10,
+      "responsavel": "Leiliana",
+      "data": "2026-11-03",
+      "obs": "",
+      "criado_em": "2026-11-03 14:36:59",
+      "item": "Seringa 5ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 5589,
       "item_id": 98,
@@ -25086,21 +25101,6 @@
       "obs": "",
       "criado_em": "2026-10-26 16:27:52",
       "item": "Diclofenaco 25mg",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 5090,
-      "item_id": 68,
-      "produto_nome": "Dexametasona",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 30,
-      "responsavel": "Leiliana",
-      "data": "2026-10-26",
-      "obs": "",
-      "criado_em": "2026-10-26 16:27:43",
-      "item": "Dexametasona",
       "usuario": "Leiliana"
     }
   ]
