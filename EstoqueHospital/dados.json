@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "03/11/2026 14:37:41",
+  "atualizado_em": "03/11/2026 16:18:16",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
     "total_almoxarifado": 110031,
-    "total_farmacia": 29424,
-    "total_geral": 139455,
+    "total_farmacia": 29422,
+    "total_geral": 139453,
     "perto_de_terminar": 42,
     "zerados": 19
   },
@@ -6105,19 +6105,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 328,
-      "farmacia": 22,
+      "farmacia": 20,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 350,
+      "total": 348,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-03 14:37:29",
+      "atualizado_em": "2026-11-03 16:18:15",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -6131,7 +6131,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 24
+          "quantidade": 22
         }
       ],
       "minimo_manual": 0,
@@ -6139,9 +6139,9 @@
       "previsao_20_dias": 48,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 78,
-      "media_diaria_saida": 2.36,
-      "total_saida_historica": 184,
-      "cobertura_dias": 148.4,
+      "media_diaria_saida": 2.38,
+      "total_saida_historica": 186,
+      "cobertura_dias": 145.9,
       "alerta_estoque": false
     },
     {
@@ -17604,6 +17604,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 5595,
+      "item_id": 276,
+      "produto_nome": "Esparadrapo 10x4,5",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 2,
+      "responsavel": "Leiliana",
+      "data": "2026-11-03",
+      "obs": "",
+      "criado_em": "2026-11-03 16:18:15",
+      "item": "Esparadrapo 10x4,5",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 5594,
       "item_id": 410,
       "produto_nome": "oleo de girasol AGE",
@@ -25086,21 +25101,6 @@
       "obs": "",
       "criado_em": "2026-10-26 16:28:42",
       "item": "Scalp nº 19",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 5095,
-      "item_id": 99,
-      "produto_nome": "Scalp nº 21",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 10,
-      "responsavel": "Leiliana",
-      "data": "2026-10-26",
-      "obs": "",
-      "criado_em": "2026-10-26 16:28:29",
-      "item": "Scalp nº 21",
       "usuario": "Leiliana"
     }
   ]
