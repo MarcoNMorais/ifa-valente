@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "03/11/2026 13:57:52",
+  "atualizado_em": "03/11/2026 13:58:06",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
     "total_almoxarifado": 111354,
-    "total_farmacia": 30805,
-    "total_geral": 142159,
+    "total_farmacia": 30802,
+    "total_geral": 142156,
     "perto_de_terminar": 38,
     "zerados": 18
   },
@@ -9693,19 +9693,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 33,
+      "farmacia": 30,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 33,
+      "total": 30,
       "minimo": 0,
       "validade": "2027-02",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-03 08:20:50",
+      "atualizado_em": "2026-11-03 13:58:04",
       "validade_mais_proxima": "2027-02",
       "vencimento_mais_proximo": "2027-02",
       "lotes_validade": [
@@ -9713,7 +9713,7 @@
           "local": "farmacia",
           "validade": "2027-02",
           "lote": "",
-          "quantidade": 13
+          "quantidade": 10
         },
         {
           "local": "farmacia",
@@ -9727,9 +9727,9 @@
       "previsao_20_dias": 12,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 83,
-      "media_diaria_saida": 0.55,
-      "total_saida_historica": 46,
-      "cobertura_dias": 59.5,
+      "media_diaria_saida": 0.59,
+      "total_saida_historica": 49,
+      "cobertura_dias": 50.8,
       "alerta_estoque": false
     },
     {
@@ -17601,6 +17601,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 5421,
+      "item_id": 84,
+      "produto_nome": "Lidocaína",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 3,
+      "responsavel": "Leiliana",
+      "data": "2026-11-03",
+      "obs": "",
+      "criado_em": "2026-11-03 13:58:04",
+      "item": "Lidocaína",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 5420,
       "item_id": 177,
       "produto_nome": "Gelco nº 22",
@@ -25083,21 +25098,6 @@
       "obs": "",
       "criado_em": "2026-10-23 15:40:51",
       "item": "Lençol descartável papel",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 4921,
-      "item_id": 220,
-      "produto_nome": "Equipo macrogotas",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 25,
-      "responsavel": "Leiliana",
-      "data": "2026-10-23",
-      "obs": "",
-      "criado_em": "2026-10-23 15:40:41",
-      "item": "Equipo macrogotas",
       "usuario": "Leiliana"
     }
   ]
