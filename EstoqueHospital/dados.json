@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "03/11/2026 14:05:31",
+  "atualizado_em": "03/11/2026 14:06:23",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
     "total_almoxarifado": 111206,
-    "total_farmacia": 30283,
-    "total_geral": 141489,
+    "total_farmacia": 30273,
+    "total_geral": 141479,
     "perto_de_terminar": 39,
     "zerados": 18
   },
@@ -10009,19 +10009,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 330,
-      "farmacia": 38,
+      "farmacia": 28,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 368,
+      "total": 358,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-03 08:20:50",
+      "atualizado_em": "2026-11-03 14:06:21",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -10035,17 +10035,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 38
+          "quantidade": 28
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 54,
-      "previsao_20_dias": 54,
+      "minimo_alerta": 56,
+      "previsao_20_dias": 56,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 83,
-      "media_diaria_saida": 2.66,
-      "total_saida_historica": 221,
-      "cobertura_dias": 138.2,
+      "media_diaria_saida": 2.78,
+      "total_saida_historica": 231,
+      "cobertura_dias": 128.6,
       "alerta_estoque": false
     },
     {
@@ -17595,6 +17595,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 5455,
+      "item_id": 185,
+      "produto_nome": "Luva cirúrgica tam. 7,5",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 10,
+      "responsavel": "Leiliana",
+      "data": "2026-11-03",
+      "obs": "",
+      "criado_em": "2026-11-03 14:06:21",
+      "item": "Luva cirúrgica tam. 7,5",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 5454,
       "item_id": 230,
       "produto_nome": "Ferropurum 20mg/ml",
@@ -25077,21 +25092,6 @@
       "obs": "",
       "criado_em": "2026-10-26 14:00:43",
       "item": "Dexametasona",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 4955,
-      "item_id": 76,
-      "produto_nome": "Escopolamina + Dipirona",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 30,
-      "responsavel": "Leiliana",
-      "data": "2026-10-26",
-      "obs": "",
-      "criado_em": "2026-10-26 14:00:34",
-      "item": "Escopolamina + Dipirona",
       "usuario": "Leiliana"
     }
   ]
