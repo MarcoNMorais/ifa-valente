@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "03/11/2026 14:32:27",
+  "atualizado_em": "03/11/2026 14:32:38",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
     "total_almoxarifado": 110025,
-    "total_farmacia": 29757,
-    "total_geral": 139782,
+    "total_farmacia": 29755,
+    "total_geral": 139780,
     "perto_de_terminar": 41,
     "zerados": 20
   },
@@ -2819,19 +2819,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 127,
-      "farmacia": 24,
+      "farmacia": 22,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 151,
+      "total": 149,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-03 14:12:30",
+      "atualizado_em": "2026-11-03 14:32:36",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -2845,7 +2845,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 24
+          "quantidade": 22
         }
       ],
       "minimo_manual": 0,
@@ -2853,9 +2853,9 @@
       "previsao_20_dias": 16,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 83,
-      "media_diaria_saida": 0.76,
-      "total_saida_historica": 63,
-      "cobertura_dias": 198.9,
+      "media_diaria_saida": 0.78,
+      "total_saida_historica": 65,
+      "cobertura_dias": 190.3,
       "alerta_estoque": false
     },
     {
@@ -17597,6 +17597,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 5568,
+      "item_id": 155,
+      "produto_nome": "Bolsa coletora",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 2,
+      "responsavel": "Leiliana",
+      "data": "2026-11-03",
+      "obs": "",
+      "criado_em": "2026-11-03 14:32:36",
+      "item": "Bolsa coletora",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 5567,
       "item_id": 181,
       "produto_nome": "Luva de látex tam. M",
@@ -25079,21 +25094,6 @@
       "obs": "",
       "criado_em": "2026-10-26 14:23:42",
       "item": "AGULHA  40X1,2",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 5068,
-      "item_id": 98,
-      "produto_nome": "Scalp nº 23",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 10,
-      "responsavel": "Leiliana",
-      "data": "2026-10-26",
-      "obs": "",
-      "criado_em": "2026-10-26 14:23:32",
-      "item": "Scalp nº 23",
       "usuario": "Leiliana"
     }
   ]
