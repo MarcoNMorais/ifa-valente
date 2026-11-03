@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "03/11/2026 14:00:38",
+  "atualizado_em": "03/11/2026 14:00:48",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
     "total_almoxarifado": 111354,
-    "total_farmacia": 30639,
-    "total_geral": 141993,
+    "total_farmacia": 30637,
+    "total_geral": 141991,
     "perto_de_terminar": 38,
     "zerados": 18
   },
@@ -2819,19 +2819,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 127,
-      "farmacia": 31,
+      "farmacia": 29,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 158,
+      "total": 156,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-03 08:20:50",
+      "atualizado_em": "2026-11-03 14:00:47",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -2845,7 +2845,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 31
+          "quantidade": 29
         }
       ],
       "minimo_manual": 0,
@@ -2853,9 +2853,9 @@
       "previsao_20_dias": 14,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 83,
-      "media_diaria_saida": 0.67,
-      "total_saida_historica": 56,
-      "cobertura_dias": 234.2,
+      "media_diaria_saida": 0.7,
+      "total_saida_historica": 58,
+      "cobertura_dias": 223.2,
       "alerta_estoque": false
     },
     {
@@ -17595,6 +17595,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 5434,
+      "item_id": 155,
+      "produto_nome": "Bolsa coletora",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 2,
+      "responsavel": "Leiliana",
+      "data": "2026-11-03",
+      "obs": "",
+      "criado_em": "2026-11-03 14:00:47",
+      "item": "Bolsa coletora",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 5433,
       "item_id": 216,
       "produto_nome": "Fio agulhado / sutura nº 3",
@@ -25077,21 +25092,6 @@
       "obs": "",
       "criado_em": "2026-10-26 13:55:47",
       "item": "Soro fisiológico 250ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 4934,
-      "item_id": 390,
-      "produto_nome": "AGULHA  40X1,2",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 160,
-      "responsavel": "Leiliana",
-      "data": "2026-10-26",
-      "obs": "",
-      "criado_em": "2026-10-26 13:55:37",
-      "item": "AGULHA  40X1,2",
       "usuario": "Leiliana"
     }
   ]
