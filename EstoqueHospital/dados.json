@@ -1,13 +1,13 @@
 {
-  "atualizado_em": "03/11/2026 13:52:02",
+  "atualizado_em": "03/11/2026 13:52:14",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
     "total_almoxarifado": 111600,
-    "total_farmacia": 31291,
-    "total_geral": 142891,
-    "perto_de_terminar": 36,
-    "zerados": 17
+    "total_farmacia": 31284,
+    "total_geral": 142884,
+    "perto_de_terminar": 37,
+    "zerados": 18
   },
   "itens": [
     {
@@ -4305,38 +4305,31 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 7,
+      "farmacia": 0,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 7,
+      "total": 0,
       "minimo": 0,
-      "validade": "2028-01",
+      "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-11-03 08:20:50",
-      "validade_mais_proxima": "2028-01",
-      "vencimento_mais_proximo": "2028-01",
-      "lotes_validade": [
-        {
-          "local": "farmacia",
-          "validade": "2028-01",
-          "lote": "",
-          "quantidade": 7
-        }
-      ],
+      "atualizado_em": "2026-11-03 13:52:13",
+      "validade_mais_proxima": "",
+      "vencimento_mais_proximo": "",
+      "lotes_validade": [],
       "minimo_manual": 0,
-      "minimo_alerta": 4,
-      "previsao_20_dias": 4,
+      "minimo_alerta": 6,
+      "previsao_20_dias": 6,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 83,
-      "media_diaria_saida": 0.19,
-      "total_saida_historica": 16,
-      "cobertura_dias": 36.3,
-      "alerta_estoque": false
+      "media_diaria_saida": 0.28,
+      "total_saida_historica": 23,
+      "cobertura_dias": 0.0,
+      "alerta_estoque": true
     },
     {
       "id": 372,
@@ -17608,6 +17601,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 5394,
+      "item_id": 22,
+      "produto_nome": "Cloridrato tiamina 100mg/ml 1ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 7,
+      "responsavel": "Leiliana",
+      "data": "2026-11-03",
+      "obs": "",
+      "criado_em": "2026-11-03 13:52:13",
+      "item": "Cloridrato tiamina 100mg/ml 1ml",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 5393,
       "item_id": 99,
       "produto_nome": "Scalp nº 21",
@@ -25090,21 +25098,6 @@
       "obs": "",
       "criado_em": "2026-10-23 11:37:44",
       "item": "Agulha 30x8",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 4893,
-      "item_id": 289,
-      "produto_nome": "Agulha 25x8",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 40,
-      "responsavel": "Assucena",
-      "data": "2026-10-23",
-      "obs": "",
-      "criado_em": "2026-10-23 11:37:30",
-      "item": "Agulha 25x8",
       "usuario": "Assucena"
     }
   ]
