@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "03/11/2026 13:56:29",
+  "atualizado_em": "03/11/2026 13:56:49",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 417,
-    "total_almoxarifado": 111402,
-    "total_farmacia": 30837,
+    "total_almoxarifado": 111354,
+    "total_farmacia": 30885,
     "total_geral": 142239,
     "perto_de_terminar": 38,
     "zerados": 18
@@ -15808,8 +15808,8 @@
       "nome": "Soro fisiológico 250ml",
       "tipo": "Insumo",
       "unidade": "Unidade",
-      "almoxarifado": 601,
-      "farmacia": 183,
+      "almoxarifado": 553,
+      "farmacia": 231,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -15821,7 +15821,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-03 13:52:50",
+      "atualizado_em": "2026-11-03 13:56:48",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -15829,13 +15829,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 601
+          "quantidade": 553
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 183
+          "quantidade": 231
         }
       ],
       "minimo_manual": 0,
@@ -17600,6 +17600,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 5414,
+      "item_id": 203,
+      "produto_nome": "Soro fisiológico 250ml",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 48,
+      "responsavel": "Leiliana",
+      "data": "2026-11-03",
+      "obs": "",
+      "criado_em": "2026-11-03 13:56:48",
+      "item": "Soro fisiológico 250ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 5413,
       "item_id": 200,
@@ -25083,21 +25098,6 @@
       "obs": "",
       "criado_em": "2026-10-23 15:39:29",
       "item": "Fio agulhado / sutura nº 6",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 4914,
-      "item_id": 213,
-      "produto_nome": "Fio agulhado / sutura nº 0",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 6,
-      "responsavel": "Leiliana",
-      "data": "2026-10-23",
-      "obs": "",
-      "criado_em": "2026-10-23 15:39:20",
-      "item": "Fio agulhado / sutura nº 0",
       "usuario": "Leiliana"
     }
   ]
