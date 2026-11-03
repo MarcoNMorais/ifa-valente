@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "03/11/2026 14:16:13",
+  "atualizado_em": "03/11/2026 14:16:24",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
     "total_almoxarifado": 111106,
-    "total_farmacia": 29944,
-    "total_geral": 141050,
+    "total_farmacia": 29934,
+    "total_geral": 141040,
     "perto_de_terminar": 39,
     "zerados": 18
   },
@@ -5358,19 +5358,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 50,
-      "farmacia": 20,
+      "farmacia": 10,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 70,
+      "total": 60,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-03 08:20:50",
+      "atualizado_em": "2026-11-03 14:16:22",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -5384,17 +5384,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 20
+          "quantidade": 10
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 11,
-      "previsao_20_dias": 11,
+      "minimo_alerta": 15,
+      "previsao_20_dias": 15,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 55,
-      "media_diaria_saida": 0.55,
-      "total_saida_historica": 30,
-      "cobertura_dias": 128.3,
+      "media_diaria_saida": 0.73,
+      "total_saida_historica": 40,
+      "cobertura_dias": 82.5,
       "alerta_estoque": false
     },
     {
@@ -17629,6 +17629,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 5495,
+      "item_id": 397,
+      "produto_nome": "Dispositivo intravenoso Gelco nº 18",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 10,
+      "responsavel": "Leiliana",
+      "data": "2026-11-03",
+      "obs": "",
+      "criado_em": "2026-11-03 14:16:22",
+      "item": "Dispositivo intravenoso Gelco nº 18",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 5494,
       "item_id": 396,
       "produto_nome": "Dispositivo intravenoso Gelco nº 16",
@@ -25111,21 +25126,6 @@
       "obs": "",
       "criado_em": "2026-10-26 14:09:28",
       "item": "Luva de látex tam. P",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 4995,
-      "item_id": 181,
-      "produto_nome": "Luva de látex tam. M",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 5,
-      "responsavel": "Leiliana",
-      "data": "2026-10-26",
-      "obs": "",
-      "criado_em": "2026-10-26 14:09:17",
-      "item": "Luva de látex tam. M",
       "usuario": "Leiliana"
     }
   ]
