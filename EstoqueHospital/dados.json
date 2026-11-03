@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "03/11/2026 14:31:21",
+  "atualizado_em": "03/11/2026 14:31:33",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
     "total_almoxarifado": 110025,
-    "total_farmacia": 29801,
-    "total_geral": 139826,
+    "total_farmacia": 29776,
+    "total_geral": 139801,
     "perto_de_terminar": 41,
     "zerados": 20
   },
@@ -5847,19 +5847,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 2056,
-      "farmacia": 99,
+      "farmacia": 74,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 2155,
+      "total": 2130,
       "minimo": 300,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-03 14:17:38",
+      "atualizado_em": "2026-11-03 14:31:31",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -5873,17 +5873,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 124
+          "quantidade": 99
         }
       ],
       "minimo_manual": 300,
-      "minimo_alerta": 608,
-      "previsao_20_dias": 608,
+      "minimo_alerta": 614,
+      "previsao_20_dias": 614,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 83,
-      "media_diaria_saida": 30.36,
-      "total_saida_historica": 2520,
-      "cobertura_dias": 71.0,
+      "media_diaria_saida": 30.66,
+      "total_saida_historica": 2545,
+      "cobertura_dias": 69.5,
       "alerta_estoque": false
     },
     {
@@ -17597,6 +17597,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 5562,
+      "item_id": 220,
+      "produto_nome": "Equipo macrogotas",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 25,
+      "responsavel": "Leiliana",
+      "data": "2026-11-03",
+      "obs": "",
+      "criado_em": "2026-11-03 14:31:31",
+      "item": "Equipo macrogotas",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 5561,
       "item_id": 329,
       "produto_nome": "Polifix",
@@ -25079,21 +25094,6 @@
       "obs": "",
       "criado_em": "2026-10-26 14:22:30",
       "item": "Gelco nº 22",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 5062,
-      "item_id": 200,
-      "produto_nome": "Caixa de perfurocortante",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 1,
-      "responsavel": "Leiliana",
-      "data": "2026-10-26",
-      "obs": "",
-      "criado_em": "2026-10-26 14:22:19",
-      "item": "Caixa de perfurocortante",
       "usuario": "Leiliana"
     }
   ]
