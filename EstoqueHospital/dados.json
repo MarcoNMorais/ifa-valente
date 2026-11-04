@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "04/11/2026 11:41:09",
+  "atualizado_em": "04/11/2026 11:41:15",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
     "total_almoxarifado": 106920,
-    "total_farmacia": 31623,
-    "total_geral": 138543,
+    "total_farmacia": 31622,
+    "total_geral": 138542,
     "perto_de_terminar": 43,
     "zerados": 20
   },
@@ -12938,19 +12938,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 23,
-      "farmacia": 10,
+      "farmacia": 9,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 33,
+      "total": 32,
       "minimo": 0,
       "validade": "12/26",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-03 14:27:01",
+      "atualizado_em": "2026-11-04 11:41:13",
       "validade_mais_proxima": "12/26",
       "vencimento_mais_proximo": "12/26",
       "lotes_validade": [
@@ -12958,7 +12958,7 @@
           "local": "farmacia",
           "validade": "12/26",
           "lote": "",
-          "quantidade": 10
+          "quantidade": 9
         },
         {
           "local": "almoxarifado",
@@ -12972,9 +12972,9 @@
       "previsao_20_dias": 7,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 82,
-      "media_diaria_saida": 0.32,
-      "total_saida_historica": 26,
-      "cobertura_dias": 104.1,
+      "media_diaria_saida": 0.33,
+      "total_saida_historica": 27,
+      "cobertura_dias": 97.2,
       "alerta_estoque": false
     },
     {
@@ -17609,6 +17609,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 5657,
+      "item_id": 252,
+      "produto_nome": "Salbutamol spray",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 1,
+      "responsavel": "Assucena",
+      "data": "2026-11-03",
+      "obs": "",
+      "criado_em": "2026-11-04 11:41:13",
+      "item": "Salbutamol spray",
+      "usuario": "Assucena"
+    },
     {
       "id": 5656,
       "item_id": 257,
@@ -25092,21 +25107,6 @@
       "obs": "",
       "criado_em": "2026-10-27 11:05:47",
       "item": "Seringa 20ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 5157,
-      "item_id": 63,
-      "produto_nome": "Ciprofloxacino",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 6,
-      "responsavel": "Assucena",
-      "data": "2026-10-27",
-      "obs": "",
-      "criado_em": "2026-10-27 11:05:35",
-      "item": "Ciprofloxacino",
       "usuario": "Assucena"
     }
   ]
