@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "04/11/2026 16:53:30",
+  "atualizado_em": "04/11/2026 16:53:38",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
     "total_almoxarifado": 106762,
-    "total_farmacia": 31128,
-    "total_geral": 137890,
+    "total_farmacia": 31127,
+    "total_geral": 137889,
     "perto_de_terminar": 43,
     "zerados": 20
   },
@@ -3145,19 +3145,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 24,
-      "farmacia": 4,
+      "farmacia": 3,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 28,
+      "total": 27,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-03 16:20:30",
+      "atualizado_em": "2026-11-04 16:53:37",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -3171,7 +3171,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 4
+          "quantidade": 3
         }
       ],
       "minimo_manual": 0,
@@ -3179,9 +3179,9 @@
       "previsao_20_dias": 11,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 84,
-      "media_diaria_saida": 0.54,
-      "total_saida_historica": 45,
-      "cobertura_dias": 52.3,
+      "media_diaria_saida": 0.55,
+      "total_saida_historica": 46,
+      "cobertura_dias": 49.3,
       "alerta_estoque": false
     },
     {
@@ -17604,6 +17604,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 5703,
+      "item_id": 200,
+      "produto_nome": "Caixa de perfurocortante",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 1,
+      "responsavel": "Leiliana",
+      "data": "2026-11-04",
+      "obs": "",
+      "criado_em": "2026-11-04 16:53:37",
+      "item": "Caixa de perfurocortante",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 5702,
       "item_id": 199,
       "produto_nome": "Lençol descartável papel",
@@ -25086,21 +25101,6 @@
       "obs": "",
       "criado_em": "2026-10-28 10:54:19",
       "item": "Dispositivo intravenoso Gelco nº 20",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 5203,
-      "item_id": 285,
-      "produto_nome": "Agulha 30x7",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 20,
-      "responsavel": "Assucena",
-      "data": "2026-10-28",
-      "obs": "",
-      "criado_em": "2026-10-28 10:54:11",
-      "item": "Agulha 30x7",
       "usuario": "Assucena"
     }
   ]
