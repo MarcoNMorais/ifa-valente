@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "04/11/2026 11:38:41",
+  "atualizado_em": "04/11/2026 11:38:48",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
-    "total_almoxarifado": 107230,
-    "total_farmacia": 31605,
+    "total_almoxarifado": 107030,
+    "total_farmacia": 31805,
     "total_geral": 138835,
     "perto_de_terminar": 43,
     "zerados": 20
@@ -5383,8 +5383,8 @@
       "nome": "Dispositivo intravenoso Gelco nº 20",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 330,
-      "farmacia": 89,
+      "almoxarifado": 130,
+      "farmacia": 289,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -5396,7 +5396,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-03 14:15:23",
+      "atualizado_em": "2026-11-04 11:38:44",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -5404,13 +5404,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 330
+          "quantidade": 130
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 104
+          "quantidade": 304
         }
       ],
       "minimo_manual": 0,
@@ -17610,6 +17610,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 5642,
+      "item_id": 178,
+      "produto_nome": "Dispositivo intravenoso Gelco nº 20",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 200,
+      "responsavel": "Assucena",
+      "data": "2026-11-03",
+      "obs": "",
+      "criado_em": "2026-11-04 11:38:44",
+      "item": "Dispositivo intravenoso Gelco nº 20",
+      "usuario": "Assucena"
+    },
+    {
       "id": 5641,
       "item_id": 177,
       "produto_nome": "Gelco nº 22",
@@ -25092,21 +25107,6 @@
       "obs": "",
       "criado_em": "2026-10-27 11:03:37",
       "item": "Agulha 30x8",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 5142,
-      "item_id": 285,
-      "produto_nome": "Agulha 30x7",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 30,
-      "responsavel": "Assucena",
-      "data": "2026-10-27",
-      "obs": "",
-      "criado_em": "2026-10-27 11:03:29",
-      "item": "Agulha 30x7",
       "usuario": "Assucena"
     }
   ]
