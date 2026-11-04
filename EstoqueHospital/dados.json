@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "04/11/2026 11:42:51",
+  "atualizado_em": "04/11/2026 11:42:57",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
     "total_almoxarifado": 106920,
-    "total_farmacia": 31392,
-    "total_geral": 138312,
+    "total_farmacia": 31386,
+    "total_geral": 138306,
     "perto_de_terminar": 43,
     "zerados": 20
   },
@@ -10023,19 +10023,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 330,
-      "farmacia": 23,
+      "farmacia": 17,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 353,
+      "total": 347,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-03 14:31:56",
+      "atualizado_em": "2026-11-04 11:42:56",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -10049,17 +10049,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 28
+          "quantidade": 22
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 57,
-      "previsao_20_dias": 57,
+      "minimo_alerta": 58,
+      "previsao_20_dias": 58,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 84,
-      "media_diaria_saida": 2.81,
-      "total_saida_historica": 236,
-      "cobertura_dias": 125.6,
+      "media_diaria_saida": 2.88,
+      "total_saida_historica": 242,
+      "cobertura_dias": 120.4,
       "alerta_estoque": false
     },
     {
@@ -17610,6 +17610,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 5671,
+      "item_id": 185,
+      "produto_nome": "Luva cirúrgica tam. 7,5",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 6,
+      "responsavel": "Assucena",
+      "data": "2026-11-03",
+      "obs": "",
+      "criado_em": "2026-11-04 11:42:56",
+      "item": "Luva cirúrgica tam. 7,5",
+      "usuario": "Assucena"
+    },
+    {
       "id": 5670,
       "item_id": 329,
       "produto_nome": "Polifix",
@@ -25092,21 +25107,6 @@
       "obs": "",
       "criado_em": "2026-10-27 16:28:47",
       "item": "Benzilpenicilina 1.200",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 5171,
-      "item_id": 233,
-      "produto_nome": "Prometazina 25mg/ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 10,
-      "responsavel": "Leiliana",
-      "data": "2026-10-27",
-      "obs": "",
-      "criado_em": "2026-10-27 16:28:36",
-      "item": "Prometazina 25mg/ml",
       "usuario": "Leiliana"
     }
   ]
