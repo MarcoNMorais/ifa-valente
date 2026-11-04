@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "04/11/2026 11:32:25",
+  "atualizado_em": "04/11/2026 11:32:36",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
-    "total_almoxarifado": 108251,
-    "total_farmacia": 30584,
+    "total_almoxarifado": 108101,
+    "total_farmacia": 30734,
     "total_geral": 138835,
     "perto_de_terminar": 43,
     "zerados": 20
@@ -5846,8 +5846,8 @@
       "nome": "Equipo macrogotas",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 2056,
-      "farmacia": 24,
+      "almoxarifado": 1906,
+      "farmacia": 174,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -5859,7 +5859,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-03 16:20:09",
+      "atualizado_em": "2026-11-04 11:32:35",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -5867,13 +5867,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 2056
+          "quantidade": 1906
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 49
+          "quantidade": 199
         }
       ],
       "minimo_manual": 300,
@@ -17604,6 +17604,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 5634,
+      "item_id": 220,
+      "produto_nome": "Equipo macrogotas",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 150,
+      "responsavel": "Assucena",
+      "data": "2026-11-03",
+      "obs": "",
+      "criado_em": "2026-11-04 11:32:35",
+      "item": "Equipo macrogotas",
+      "usuario": "Assucena"
+    },
+    {
       "id": 5633,
       "item_id": 274,
       "produto_nome": "Seringa 20ml",
@@ -25086,21 +25101,6 @@
       "obs": "",
       "criado_em": "2026-10-27 11:02:24",
       "item": "Paracetamol 500mg",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 5134,
-      "item_id": 257,
-      "produto_nome": "Brometo de ipratrópio gotas",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 2,
-      "responsavel": "Assucena",
-      "data": "2026-10-27",
-      "obs": "",
-      "criado_em": "2026-10-27 11:02:15",
-      "item": "Brometo de ipratrópio gotas",
       "usuario": "Assucena"
     }
   ]
