@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "04/11/2026 11:40:18",
+  "atualizado_em": "04/11/2026 11:40:26",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
     "total_almoxarifado": 106920,
-    "total_farmacia": 31675,
-    "total_geral": 138595,
+    "total_farmacia": 31665,
+    "total_geral": 138585,
     "perto_de_terminar": 43,
     "zerados": 20
   },
@@ -5384,19 +5384,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 130,
-      "farmacia": 289,
+      "farmacia": 279,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 419,
+      "total": 409,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-04 11:38:44",
+      "atualizado_em": "2026-11-04 11:40:25",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -5410,17 +5410,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 304
+          "quantidade": 294
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 194,
-      "previsao_20_dias": 194,
+      "minimo_alerta": 196,
+      "previsao_20_dias": 196,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 84,
-      "media_diaria_saida": 9.65,
-      "total_saida_historica": 811,
-      "cobertura_dias": 43.4,
+      "media_diaria_saida": 9.77,
+      "total_saida_historica": 821,
+      "cobertura_dias": 41.8,
       "alerta_estoque": false
     },
     {
@@ -17610,6 +17610,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 5651,
+      "item_id": 178,
+      "produto_nome": "Dispositivo intravenoso Gelco nº 20",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 10,
+      "responsavel": "Assucena",
+      "data": "2026-11-03",
+      "obs": "",
+      "criado_em": "2026-11-04 11:40:25",
+      "item": "Dispositivo intravenoso Gelco nº 20",
+      "usuario": "Assucena"
+    },
+    {
       "id": 5650,
       "item_id": 287,
       "produto_nome": "Agulha 13x4,5",
@@ -25092,21 +25107,6 @@
       "obs": "",
       "criado_em": "2026-10-27 11:04:46",
       "item": "Polifix",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 5151,
-      "item_id": 220,
-      "produto_nome": "Equipo macrogotas",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 50,
-      "responsavel": "Assucena",
-      "data": "2026-10-27",
-      "obs": "",
-      "criado_em": "2026-10-27 11:04:39",
-      "item": "Equipo macrogotas",
       "usuario": "Assucena"
     }
   ]
