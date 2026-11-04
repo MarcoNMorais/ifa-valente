@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "04/11/2026 16:51:12",
+  "atualizado_em": "04/11/2026 16:51:22",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
     "total_almoxarifado": 106762,
-    "total_farmacia": 31382,
-    "total_geral": 138144,
+    "total_farmacia": 31372,
+    "total_geral": 138134,
     "perto_de_terminar": 43,
     "zerados": 20
   },
@@ -3488,19 +3488,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 122,
+      "farmacia": 112,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 122,
+      "total": 112,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-04 11:43:19",
+      "atualizado_em": "2026-11-04 16:51:21",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -3508,17 +3508,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 122
+          "quantidade": 112
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 314,
-      "previsao_20_dias": 314,
+      "minimo_alerta": 316,
+      "previsao_20_dias": 316,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 84,
-      "media_diaria_saida": 15.67,
-      "total_saida_historica": 1316,
-      "cobertura_dias": 7.8,
+      "media_diaria_saida": 15.79,
+      "total_saida_historica": 1326,
+      "cobertura_dias": 7.1,
       "alerta_estoque": true
     },
     {
@@ -17604,6 +17604,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 5689,
+      "item_id": 59,
+      "produto_nome": "Ceftriaxona 1g",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 10,
+      "responsavel": "Leiliana",
+      "data": "2026-11-04",
+      "obs": "",
+      "criado_em": "2026-11-04 16:51:21",
+      "item": "Ceftriaxona 1g",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 5688,
       "item_id": 31,
       "produto_nome": "Omeprazol 20mg comprimido",
@@ -25086,21 +25101,6 @@
       "obs": "",
       "criado_em": "2026-10-27 16:38:40",
       "item": "Levofloxacino",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 5189,
-      "item_id": 200,
-      "produto_nome": "Caixa de perfurocortante",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 1,
-      "responsavel": "Leiliana",
-      "data": "2026-10-27",
-      "obs": "",
-      "criado_em": "2026-10-27 16:38:31",
-      "item": "Caixa de perfurocortante",
       "usuario": "Leiliana"
     }
   ]
