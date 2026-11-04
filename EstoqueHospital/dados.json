@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "04/11/2026 11:32:36",
+  "atualizado_em": "04/11/2026 11:32:48",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
-    "total_almoxarifado": 108101,
-    "total_farmacia": 30734,
+    "total_almoxarifado": 107801,
+    "total_farmacia": 31034,
     "total_geral": 138835,
     "perto_de_terminar": 43,
     "zerados": 20
@@ -15817,8 +15817,8 @@
       "nome": "Soro fisiológico 250ml",
       "tipo": "Insumo",
       "unidade": "Unidade",
-      "almoxarifado": 409,
-      "farmacia": 61,
+      "almoxarifado": 109,
+      "farmacia": 361,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -15830,7 +15830,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-03 16:27:48",
+      "atualizado_em": "2026-11-04 11:32:47",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -15838,13 +15838,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 409
+          "quantidade": 109
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 109
+          "quantidade": 409
         }
       ],
       "minimo_manual": 0,
@@ -17603,6 +17603,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 5635,
+      "item_id": 203,
+      "produto_nome": "Soro fisiológico 250ml",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 300,
+      "responsavel": "Assucena",
+      "data": "2026-11-03",
+      "obs": "",
+      "criado_em": "2026-11-04 11:32:47",
+      "item": "Soro fisiológico 250ml",
+      "usuario": "Assucena"
+    },
     {
       "id": 5634,
       "item_id": 220,
@@ -25086,21 +25101,6 @@
       "obs": "",
       "criado_em": "2026-10-27 11:02:41",
       "item": "Dipirona 500mg",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 5135,
-      "item_id": 27,
-      "produto_nome": "Paracetamol 500mg",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 10,
-      "responsavel": "Assucena",
-      "data": "2026-10-27",
-      "obs": "",
-      "criado_em": "2026-10-27 11:02:24",
-      "item": "Paracetamol 500mg",
       "usuario": "Assucena"
     }
   ]
