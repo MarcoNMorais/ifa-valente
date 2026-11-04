@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "04/11/2026 16:50:38",
+  "atualizado_em": "04/11/2026 16:50:47",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
     "total_almoxarifado": 106762,
-    "total_farmacia": 31446,
-    "total_geral": 138208,
+    "total_farmacia": 31436,
+    "total_geral": 138198,
     "perto_de_terminar": 43,
     "zerados": 20
   },
@@ -7926,19 +7926,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 970,
-      "farmacia": 215,
+      "farmacia": 205,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1185,
+      "total": 1175,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-04 11:40:35",
+      "atualizado_em": "2026-11-04 16:50:45",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -7952,17 +7952,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 215
+          "quantidade": 205
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 449,
-      "previsao_20_dias": 449,
+      "minimo_alerta": 451,
+      "previsao_20_dias": 451,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 84,
-      "media_diaria_saida": 22.42,
-      "total_saida_historica": 1883,
-      "cobertura_dias": 52.9,
+      "media_diaria_saida": 22.54,
+      "total_saida_historica": 1893,
+      "cobertura_dias": 52.1,
       "alerta_estoque": false
     },
     {
@@ -17604,6 +17604,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 5685,
+      "item_id": 177,
+      "produto_nome": "Gelco nº 22",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 10,
+      "responsavel": "Leiliana",
+      "data": "2026-11-04",
+      "obs": "",
+      "criado_em": "2026-11-04 16:50:45",
+      "item": "Gelco nº 22",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 5684,
       "item_id": 203,
       "produto_nome": "Soro fisiológico 250ml",
@@ -25086,21 +25101,6 @@
       "obs": "",
       "criado_em": "2026-10-27 16:37:45",
       "item": "Soro fisiológico 250ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 5185,
-      "item_id": 204,
-      "produto_nome": "Soro fisiológico 500ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 14,
-      "responsavel": "Leiliana",
-      "data": "2026-10-27",
-      "obs": "",
-      "criado_em": "2026-10-27 16:37:14",
-      "item": "Soro fisiológico 500ml",
       "usuario": "Leiliana"
     }
   ]
