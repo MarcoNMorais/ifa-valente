@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "04/11/2026 16:52:35",
+  "atualizado_em": "04/11/2026 16:52:51",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
     "total_almoxarifado": 106762,
-    "total_farmacia": 31241,
-    "total_geral": 138003,
+    "total_farmacia": 31206,
+    "total_geral": 137968,
     "perto_de_terminar": 43,
     "zerados": 20
   },
@@ -13288,19 +13288,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 6500,
-      "farmacia": 365,
+      "farmacia": 330,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 6865,
+      "total": 6830,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-04 11:42:09",
+      "atualizado_em": "2026-11-04 16:52:49",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -13314,17 +13314,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 390
+          "quantidade": 355
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 782,
-      "previsao_20_dias": 782,
+      "minimo_alerta": 790,
+      "previsao_20_dias": 790,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 79,
-      "media_diaria_saida": 39.05,
-      "total_saida_historica": 3085,
-      "cobertura_dias": 175.8,
+      "media_diaria_saida": 39.49,
+      "total_saida_historica": 3120,
+      "cobertura_dias": 172.9,
       "alerta_estoque": false
     },
     {
@@ -17603,6 +17603,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 5698,
+      "item_id": 274,
+      "produto_nome": "Seringa 20ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 35,
+      "responsavel": "Leiliana",
+      "data": "2026-11-04",
+      "obs": "",
+      "criado_em": "2026-11-04 16:52:49",
+      "item": "Seringa 20ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 5697,
       "item_id": 220,
@@ -25086,21 +25101,6 @@
       "obs": "",
       "criado_em": "2026-10-28 10:53:20",
       "item": "Ácido Tranexâmico 50mg",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 5198,
-      "item_id": 70,
-      "produto_nome": "Dipirona",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 30,
-      "responsavel": "Assucena",
-      "data": "2026-10-28",
-      "obs": "",
-      "criado_em": "2026-10-28 10:52:25",
-      "item": "Dipirona",
       "usuario": "Assucena"
     }
   ]
