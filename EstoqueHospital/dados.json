@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "04/11/2026 16:54:44",
+  "atualizado_em": "04/11/2026 16:54:54",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
-    "total_almoxarifado": 106762,
-    "total_farmacia": 31092,
+    "total_almoxarifado": 106738,
+    "total_farmacia": 31116,
     "total_geral": 137854,
     "perto_de_terminar": 43,
     "zerados": 20
@@ -6098,8 +6098,8 @@
       "nome": "Esparadrapo 10x4,5",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 328,
-      "farmacia": 18,
+      "almoxarifado": 304,
+      "farmacia": 42,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -6111,7 +6111,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-04 16:54:43",
+      "atualizado_em": "2026-11-04 16:54:53",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -6119,13 +6119,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 328
+          "quantidade": 304
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 20
+          "quantidade": 44
         }
       ],
       "minimo_manual": 0,
@@ -17604,6 +17604,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 5711,
+      "item_id": 276,
+      "produto_nome": "Esparadrapo 10x4,5",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 24,
+      "responsavel": "Leiliana",
+      "data": "2026-11-04",
+      "obs": "",
+      "criado_em": "2026-11-04 16:54:53",
+      "item": "Esparadrapo 10x4,5",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 5710,
       "item_id": 276,
       "produto_nome": "Esparadrapo 10x4,5",
@@ -25086,21 +25101,6 @@
       "obs": "",
       "criado_em": "2026-10-28 10:55:23",
       "item": "Metronidazol 100ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 5211,
-      "item_id": 151,
-      "produto_nome": "Atadura crepon nº 15",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 12,
-      "responsavel": "Assucena",
-      "data": "2026-10-28",
-      "obs": "",
-      "criado_em": "2026-10-28 10:55:16",
-      "item": "Atadura crepon nº 15",
       "usuario": "Assucena"
     }
   ]
