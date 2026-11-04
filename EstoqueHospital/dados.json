@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "04/11/2026 11:38:55",
+  "atualizado_em": "04/11/2026 11:39:01",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
-    "total_almoxarifado": 107020,
-    "total_farmacia": 31815,
+    "total_almoxarifado": 106920,
+    "total_farmacia": 31915,
     "total_geral": 138835,
     "perto_de_terminar": 43,
     "zerados": 20
@@ -13247,8 +13247,8 @@
       "nome": "Seringa 1ml",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 1200,
-      "farmacia": 85,
+      "almoxarifado": 1100,
+      "farmacia": 185,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -13260,7 +13260,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-03 14:37:19",
+      "atualizado_em": "2026-11-04 11:38:57",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -13268,13 +13268,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 1200
+          "quantidade": 1100
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 85
+          "quantidade": 185
         }
       ],
       "minimo_manual": 0,
@@ -17609,6 +17609,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 5644,
+      "item_id": 157,
+      "produto_nome": "Seringa 1ml",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 100,
+      "responsavel": "Assucena",
+      "data": "2026-11-03",
+      "obs": "",
+      "criado_em": "2026-11-04 11:38:57",
+      "item": "Seringa 1ml",
+      "usuario": "Assucena"
+    },
     {
       "id": 5643,
       "item_id": 155,
@@ -25092,21 +25107,6 @@
       "obs": "",
       "criado_em": "2026-10-27 11:03:53",
       "item": "Agulha 13x4,5",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 5144,
-      "item_id": 289,
-      "produto_nome": "Agulha 25x8",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 30,
-      "responsavel": "Assucena",
-      "data": "2026-10-27",
-      "obs": "",
-      "criado_em": "2026-10-27 11:03:46",
-      "item": "Agulha 25x8",
       "usuario": "Assucena"
     }
   ]
