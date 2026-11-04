@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "04/11/2026 11:38:29",
+  "atualizado_em": "04/11/2026 11:38:35",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
-    "total_almoxarifado": 107550,
-    "total_farmacia": 31285,
+    "total_almoxarifado": 107430,
+    "total_farmacia": 31405,
     "total_geral": 138835,
     "perto_de_terminar": 43,
     "zerados": 20
@@ -1712,8 +1712,8 @@
       "nome": "Atadura crepon nº 20",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 444,
-      "farmacia": 12,
+      "almoxarifado": 324,
+      "farmacia": 132,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -1725,7 +1725,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-03 08:20:50",
+      "atualizado_em": "2026-11-04 11:38:32",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -1733,13 +1733,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 444
+          "quantidade": 324
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 12
+          "quantidade": 132
         }
       ],
       "minimo_manual": 0,
@@ -17610,6 +17610,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 5640,
+      "item_id": 153,
+      "produto_nome": "Atadura crepon nº 20",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 120,
+      "responsavel": "Assucena",
+      "data": "2026-11-03",
+      "obs": "",
+      "criado_em": "2026-11-04 11:38:32",
+      "item": "Atadura crepon nº 20",
+      "usuario": "Assucena"
+    },
+    {
       "id": 5639,
       "item_id": 151,
       "produto_nome": "Atadura crepon nº 15",
@@ -25091,21 +25106,6 @@
       "data": "2026-10-27",
       "obs": "",
       "criado_em": "2026-10-27 11:03:17",
-      "item": "AGULHA  40X1,2",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 5140,
-      "item_id": 390,
-      "produto_nome": "AGULHA  40X1,2",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 60,
-      "responsavel": "Assucena",
-      "data": "2026-10-27",
-      "obs": "",
-      "criado_em": "2026-10-27 11:03:11",
       "item": "AGULHA  40X1,2",
       "usuario": "Assucena"
     }
