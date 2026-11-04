@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "04/11/2026 16:49:04",
+  "atualizado_em": "04/11/2026 16:49:13",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
     "total_almoxarifado": 106810,
-    "total_farmacia": 31437,
-    "total_geral": 138247,
+    "total_farmacia": 31436,
+    "total_geral": 138246,
     "perto_de_terminar": 43,
     "zerados": 20
   },
@@ -3881,19 +3881,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 8,
+      "farmacia": 7,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 8,
+      "total": 7,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-03 08:20:50",
+      "atualizado_em": "2026-11-04 16:49:12",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -3901,17 +3901,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 8
+          "quantidade": 7
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 4,
-      "previsao_20_dias": 4,
+      "minimo_alerta": 5,
+      "previsao_20_dias": 5,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 84,
-      "media_diaria_saida": 0.19,
-      "total_saida_historica": 16,
-      "cobertura_dias": 42.0,
+      "media_diaria_saida": 0.2,
+      "total_saida_historica": 17,
+      "cobertura_dias": 34.6,
       "alerta_estoque": false
     },
     {
@@ -17604,6 +17604,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 5681,
+      "item_id": 21,
+      "produto_nome": "Clonazepam gotas 25mg/ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 1,
+      "responsavel": "Leiliana",
+      "data": "2026-11-04",
+      "obs": "",
+      "criado_em": "2026-11-04 16:49:12",
+      "item": "Clonazepam gotas 25mg/ml",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 5680,
       "item_id": 239,
       "produto_nome": "Tramadol 50mg/ml 2ml",
@@ -25086,21 +25101,6 @@
       "obs": "",
       "criado_em": "2026-10-27 16:36:45",
       "item": "Seringa 3ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 5181,
-      "item_id": 102,
-      "produto_nome": "Seringa 5ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 30,
-      "responsavel": "Leiliana",
-      "data": "2026-10-27",
-      "obs": "",
-      "criado_em": "2026-10-27 16:36:34",
-      "item": "Seringa 5ml",
       "usuario": "Leiliana"
     }
   ]
