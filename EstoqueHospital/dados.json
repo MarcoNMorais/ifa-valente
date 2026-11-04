@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "04/11/2026 11:38:22",
+  "atualizado_em": "04/11/2026 11:38:29",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
-    "total_almoxarifado": 107670,
-    "total_farmacia": 31165,
+    "total_almoxarifado": 107550,
+    "total_farmacia": 31285,
     "total_geral": 138835,
     "perto_de_terminar": 43,
     "zerados": 20
@@ -1666,8 +1666,8 @@
       "nome": "Atadura crepon nº 15",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 998,
-      "farmacia": 72,
+      "almoxarifado": 878,
+      "farmacia": 192,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -1679,7 +1679,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-03 14:23:32",
+      "atualizado_em": "2026-11-04 11:38:27",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -1687,13 +1687,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 998
+          "quantidade": 878
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 72
+          "quantidade": 192
         }
       ],
       "minimo_manual": 0,
@@ -17610,6 +17610,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 5639,
+      "item_id": 151,
+      "produto_nome": "Atadura crepon nº 15",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 120,
+      "responsavel": "Assucena",
+      "data": "2026-11-03",
+      "obs": "",
+      "criado_em": "2026-11-04 11:38:27",
+      "item": "Atadura crepon nº 15",
+      "usuario": "Assucena"
+    },
+    {
       "id": 5638,
       "item_id": 152,
       "produto_nome": "Atadura crepon nº 10",
@@ -25092,21 +25107,6 @@
       "obs": "",
       "criado_em": "2026-10-27 11:03:11",
       "item": "AGULHA  40X1,2",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 5139,
-      "item_id": 21,
-      "produto_nome": "Clonazepam gotas 25mg/ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 1,
-      "responsavel": "Assucena",
-      "data": "2026-10-27",
-      "obs": "",
-      "criado_em": "2026-10-27 11:03:02",
-      "item": "Clonazepam gotas 25mg/ml",
       "usuario": "Assucena"
     }
   ]
