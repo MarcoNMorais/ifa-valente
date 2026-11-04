@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "04/11/2026 16:50:54",
+  "atualizado_em": "04/11/2026 16:51:04",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
     "total_almoxarifado": 106762,
-    "total_farmacia": 31426,
-    "total_geral": 138188,
+    "total_farmacia": 31396,
+    "total_geral": 138158,
     "perto_de_terminar": 43,
     "zerados": 20
   },
@@ -777,19 +777,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 14100,
-      "farmacia": 540,
+      "farmacia": 510,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 14640,
+      "total": 14610,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga Almoxerifado",
       "obs": "Importação Almoxerifado",
-      "atualizado_em": "2026-11-04 11:40:01",
+      "atualizado_em": "2026-11-04 16:51:03",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -803,17 +803,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 540
+          "quantidade": 510
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 649,
-      "previsao_20_dias": 649,
+      "minimo_alerta": 656,
+      "previsao_20_dias": 656,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 79,
-      "media_diaria_saida": 32.41,
-      "total_saida_historica": 2560,
-      "cobertura_dias": 451.8,
+      "media_diaria_saida": 32.78,
+      "total_saida_historica": 2590,
+      "cobertura_dias": 445.6,
       "alerta_estoque": false
     },
     {
@@ -17604,6 +17604,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 5687,
+      "item_id": 331,
+      "produto_nome": "Agulha 30x8",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 30,
+      "responsavel": "Leiliana",
+      "data": "2026-11-04",
+      "obs": "",
+      "criado_em": "2026-11-04 16:51:03",
+      "item": "Agulha 30x8",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 5686,
       "item_id": 176,
       "produto_nome": "Gelco nº 24",
@@ -25086,21 +25101,6 @@
       "obs": "",
       "criado_em": "2026-10-27 16:38:22",
       "item": "Equipo macrogotas",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 5187,
-      "item_id": 203,
-      "produto_nome": "Soro fisiológico 250ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 159,
-      "responsavel": "Leiliana",
-      "data": "2026-10-27",
-      "obs": "",
-      "criado_em": "2026-10-27 16:38:10",
-      "item": "Soro fisiológico 250ml",
       "usuario": "Leiliana"
     }
   ]
