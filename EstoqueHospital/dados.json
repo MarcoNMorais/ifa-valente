@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "04/11/2026 11:33:14",
+  "atualizado_em": "04/11/2026 11:38:22",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
-    "total_almoxarifado": 107790,
-    "total_farmacia": 31045,
+    "total_almoxarifado": 107670,
+    "total_farmacia": 31165,
     "total_geral": 138835,
     "perto_de_terminar": 43,
     "zerados": 20
@@ -1620,8 +1620,8 @@
       "nome": "Atadura crepon nº 10",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 2364,
-      "farmacia": 302,
+      "almoxarifado": 2244,
+      "farmacia": 422,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -1633,7 +1633,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-03 16:18:26",
+      "atualizado_em": "2026-11-04 11:38:20",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -1641,13 +1641,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 2364
+          "quantidade": 2244
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 314
+          "quantidade": 434
         }
       ],
       "minimo_manual": 0,
@@ -17610,6 +17610,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 5638,
+      "item_id": 152,
+      "produto_nome": "Atadura crepon nº 10",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 120,
+      "responsavel": "Assucena",
+      "data": "2026-11-03",
+      "obs": "",
+      "criado_em": "2026-11-04 11:38:20",
+      "item": "Atadura crepon nº 10",
+      "usuario": "Assucena"
+    },
+    {
       "id": 5637,
       "item_id": 277,
       "produto_nome": "Luva de vinil M",
@@ -25092,21 +25107,6 @@
       "obs": "",
       "criado_em": "2026-10-27 11:03:02",
       "item": "Clonazepam gotas 25mg/ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 5138,
-      "item_id": 194,
-      "produto_nome": "Lanceta de segurança",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 2,
-      "responsavel": "Assucena",
-      "data": "2026-10-27",
-      "obs": "",
-      "criado_em": "2026-10-27 11:02:56",
-      "item": "Lanceta de segurança",
       "usuario": "Assucena"
     }
   ]
