@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "04/11/2026 11:32:48",
+  "atualizado_em": "04/11/2026 11:32:56",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
-    "total_almoxarifado": 107801,
-    "total_farmacia": 31034,
+    "total_almoxarifado": 107798,
+    "total_farmacia": 31037,
     "total_geral": 138835,
     "perto_de_terminar": 43,
     "zerados": 20
@@ -9249,8 +9249,8 @@
       "nome": "KIT ACESSO CENTRAL",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 13,
-      "farmacia": 1,
+      "almoxarifado": 10,
+      "farmacia": 4,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -9262,7 +9262,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-03 14:02:48",
+      "atualizado_em": "2026-11-04 11:32:55",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -9270,13 +9270,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 13
+          "quantidade": 10
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 1
+          "quantidade": 4
         }
       ],
       "minimo_manual": 0,
@@ -17604,6 +17604,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 5636,
+      "item_id": 402,
+      "produto_nome": "KIT ACESSO CENTRAL",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 3,
+      "responsavel": "Assucena",
+      "data": "2026-11-03",
+      "obs": "",
+      "criado_em": "2026-11-04 11:32:55",
+      "item": "KIT ACESSO CENTRAL",
+      "usuario": "Assucena"
+    },
+    {
       "id": 5635,
       "item_id": 203,
       "produto_nome": "Soro fisiológico 250ml",
@@ -25085,21 +25100,6 @@
       "data": "2026-10-27",
       "obs": "",
       "criado_em": "2026-10-27 11:02:48",
-      "item": "Dipirona 500mg",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 5136,
-      "item_id": 28,
-      "produto_nome": "Dipirona 500mg",
-      "tipo": "Almoxarifado para Farmácia",
-      "origem": "Almoxarifado",
-      "destino": "Farmácia",
-      "quantidade": 410,
-      "responsavel": "Assucena",
-      "data": "2026-10-27",
-      "obs": "",
-      "criado_em": "2026-10-27 11:02:41",
       "item": "Dipirona 500mg",
       "usuario": "Assucena"
     }
