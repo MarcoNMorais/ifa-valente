@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "05/11/2026 09:49:28",
+  "atualizado_em": "05/11/2026 09:50:05",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
     "total_almoxarifado": 105878,
-    "total_farmacia": 31976,
-    "total_geral": 137854,
+    "total_farmacia": 31946,
+    "total_geral": 137824,
     "perto_de_terminar": 42,
     "zerados": 20
   },
@@ -5120,19 +5120,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 750,
+      "farmacia": 720,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 750,
+      "total": 720,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-05 09:47:27",
+      "atualizado_em": "2026-11-05 09:50:03",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -5140,17 +5140,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 830
+          "quantidade": 800
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 878,
-      "previsao_20_dias": 878,
+      "minimo_alerta": 885,
+      "previsao_20_dias": 885,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 85,
-      "media_diaria_saida": 43.88,
-      "total_saida_historica": 3730,
-      "cobertura_dias": 17.1,
+      "media_diaria_saida": 44.24,
+      "total_saida_historica": 3760,
+      "cobertura_dias": 16.3,
       "alerta_estoque": true
     },
     {
@@ -17604,6 +17604,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 5716,
+      "item_id": 70,
+      "produto_nome": "Dipirona",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 30,
+      "responsavel": "Assucena",
+      "data": "2026-11-05",
+      "obs": "",
+      "criado_em": "2026-11-05 09:50:03",
+      "item": "Dipirona",
+      "usuario": "Assucena"
+    },
+    {
       "id": 5715,
       "item_id": 99,
       "produto_nome": "Scalp nº 21",
@@ -25086,21 +25101,6 @@
       "obs": "",
       "criado_em": "2026-10-28 10:56:15",
       "item": "Luva M procedimento",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 5216,
-      "item_id": 329,
-      "produto_nome": "Polifix",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 15,
-      "responsavel": "Assucena",
-      "data": "2026-10-28",
-      "obs": "",
-      "criado_em": "2026-10-28 10:56:06",
-      "item": "Polifix",
       "usuario": "Assucena"
     }
   ]
