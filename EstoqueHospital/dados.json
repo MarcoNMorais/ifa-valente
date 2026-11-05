@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "05/11/2026 09:49:15",
+  "atualizado_em": "05/11/2026 09:49:21",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
-    "total_almoxarifado": 105988,
-    "total_farmacia": 31866,
+    "total_almoxarifado": 105978,
+    "total_farmacia": 31876,
     "total_geral": 137854,
     "perto_de_terminar": 42,
     "zerados": 20
@@ -16630,8 +16630,8 @@
       "nome": "Tira Reagente G-Tech",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 90,
-      "farmacia": 184,
+      "almoxarifado": 80,
+      "farmacia": 194,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -16643,7 +16643,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-05 09:47:27",
+      "atualizado_em": "2026-11-05 09:49:19",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -16651,13 +16651,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 90
+          "quantidade": 80
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 184
+          "quantidade": 194
         }
       ],
       "minimo_manual": 0,
@@ -17603,6 +17603,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 5714,
+      "item_id": 195,
+      "produto_nome": "Tira Reagente G-Tech",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 10,
+      "responsavel": "Assucena",
+      "data": "2026-11-05",
+      "obs": "",
+      "criado_em": "2026-11-05 09:49:19",
+      "item": "Tira Reagente G-Tech",
+      "usuario": "Assucena"
+    },
     {
       "id": 5713,
       "item_id": 104,
@@ -25086,21 +25101,6 @@
       "obs": "",
       "criado_em": "2026-10-28 10:55:51",
       "item": "MASCARA DESCARTAVEL",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 5214,
-      "item_id": 260,
-      "produto_nome": "Paracetamol gotas",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 1,
-      "responsavel": "Assucena",
-      "data": "2026-10-28",
-      "obs": "",
-      "criado_em": "2026-10-28 10:55:37",
-      "item": "Paracetamol gotas",
       "usuario": "Assucena"
     }
   ]
