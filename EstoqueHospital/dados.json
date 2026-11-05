@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "05/11/2026 09:52:09",
+  "atualizado_em": "05/11/2026 09:52:17",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
     "total_almoxarifado": 105878,
-    "total_farmacia": 31490,
-    "total_geral": 137368,
+    "total_farmacia": 31485,
+    "total_geral": 137363,
     "perto_de_terminar": 43,
     "zerados": 20
   },
@@ -16002,19 +16002,19 @@
       "tipo": "Insumo",
       "unidade": "Unidade",
       "almoxarifado": 33,
-      "farmacia": 21,
+      "farmacia": 16,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 54,
+      "total": 49,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-05 09:47:27",
+      "atualizado_em": "2026-11-05 09:52:16",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -16028,17 +16028,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 31
+          "quantidade": 26
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 32,
-      "previsao_20_dias": 32,
+      "minimo_alerta": 34,
+      "previsao_20_dias": 34,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 85,
-      "media_diaria_saida": 1.6,
-      "total_saida_historica": 136,
-      "cobertura_dias": 33.8,
+      "media_diaria_saida": 1.66,
+      "total_saida_historica": 141,
+      "cobertura_dias": 29.5,
       "alerta_estoque": false
     },
     {
@@ -17603,6 +17603,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 5730,
+      "item_id": 205,
+      "produto_nome": "Soro glicose 5% 500ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 5,
+      "responsavel": "Assucena",
+      "data": "2026-11-05",
+      "obs": "",
+      "criado_em": "2026-11-05 09:52:16",
+      "item": "Soro glicose 5% 500ml",
+      "usuario": "Assucena"
+    },
     {
       "id": 5729,
       "item_id": 201,
@@ -25086,21 +25101,6 @@
       "obs": "",
       "criado_em": "2026-10-28 11:07:05",
       "item": "Morfina 10mg/ml 1ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 5230,
-      "item_id": 59,
-      "produto_nome": "Ceftriaxona 1g",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 15,
-      "responsavel": "Assucena",
-      "data": "2026-10-28",
-      "obs": "",
-      "criado_em": "2026-10-28 11:06:58",
-      "item": "Ceftriaxona 1g",
       "usuario": "Assucena"
     }
   ]
