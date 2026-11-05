@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "05/11/2026 15:56:43",
+  "atualizado_em": "05/11/2026 15:56:52",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
     "total_almoxarifado": 105788,
-    "total_farmacia": 31055,
-    "total_geral": 136843,
+    "total_farmacia": 31051,
+    "total_geral": 136839,
     "perto_de_terminar": 43,
     "zerados": 21
   },
@@ -16035,19 +16035,19 @@
       "tipo": "Insumo",
       "unidade": "Unidade",
       "almoxarifado": 360,
-      "farmacia": 35,
+      "farmacia": 31,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 395,
+      "total": 391,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-05 09:52:06",
+      "atualizado_em": "2026-11-05 15:56:51",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -16061,7 +16061,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 35
+          "quantidade": 31
         }
       ],
       "minimo_manual": 0,
@@ -16069,9 +16069,9 @@
       "previsao_20_dias": 132,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 85,
-      "media_diaria_saida": 6.55,
-      "total_saida_historica": 557,
-      "cobertura_dias": 60.3,
+      "media_diaria_saida": 6.6,
+      "total_saida_historica": 561,
+      "cobertura_dias": 59.2,
       "alerta_estoque": false
     },
     {
@@ -17590,6 +17590,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 5768,
+      "item_id": 201,
+      "produto_nome": "Soro Ringer Lactato 500ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 4,
+      "responsavel": "Leiliana",
+      "data": "2026-11-05",
+      "obs": "",
+      "criado_em": "2026-11-05 15:56:51",
+      "item": "Soro Ringer Lactato 500ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 5767,
       "item_id": 53,
@@ -25073,21 +25088,6 @@
       "obs": "",
       "criado_em": "2026-10-28 17:02:15",
       "item": "Esparadrapo 10x4,5",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 5268,
-      "item_id": 294,
-      "produto_nome": "Glicerina 12%",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 1,
-      "responsavel": "Leiliana",
-      "data": "2026-10-28",
-      "obs": "",
-      "criado_em": "2026-10-28 17:02:06",
-      "item": "Glicerina 12%",
       "usuario": "Leiliana"
     }
   ]
