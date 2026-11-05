@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "05/11/2026 09:53:46",
+  "atualizado_em": "05/11/2026 09:53:53",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
     "total_almoxarifado": 105878,
-    "total_farmacia": 31333,
-    "total_geral": 137211,
+    "total_farmacia": 31327,
+    "total_geral": 137205,
     "perto_de_terminar": 43,
     "zerados": 21
   },
@@ -8647,19 +8647,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 139,
+      "farmacia": 133,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 139,
+      "total": 133,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-05 09:47:27",
+      "atualizado_em": "2026-11-05 09:53:51",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -8667,17 +8667,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 149
+          "quantidade": 143
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 146,
-      "previsao_20_dias": 146,
+      "minimo_alerta": 148,
+      "previsao_20_dias": 148,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 85,
-      "media_diaria_saida": 7.28,
-      "total_saida_historica": 619,
-      "cobertura_dias": 19.1,
+      "media_diaria_saida": 7.35,
+      "total_saida_historica": 625,
+      "cobertura_dias": 18.1,
       "alerta_estoque": true
     },
     {
@@ -17591,6 +17591,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 5742,
+      "item_id": 82,
+      "produto_nome": "Hidrocortisona 100MG",
+      "tipo": "Farmácia para Posto de Internamento",
+      "origem": "Farmácia",
+      "destino": "Posto de Internamento",
+      "quantidade": 6,
+      "responsavel": "Assucena",
+      "data": "2026-11-05",
+      "obs": "",
+      "criado_em": "2026-11-05 09:53:51",
+      "item": "Hidrocortisona 100MG",
+      "usuario": "Assucena"
+    },
+    {
       "id": 5741,
       "item_id": 32,
       "produto_nome": "Aciclovir 200mg comprimido",
@@ -25073,21 +25088,6 @@
       "obs": "",
       "criado_em": "2026-10-28 11:19:00",
       "item": "Sonda Uretral nº 12",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 5242,
-      "item_id": 114,
-      "produto_nome": "Sonda Uretral nº 10",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 3,
-      "responsavel": "Assucena",
-      "data": "2026-10-28",
-      "obs": "",
-      "criado_em": "2026-10-28 11:18:54",
-      "item": "Sonda Uretral nº 10",
       "usuario": "Assucena"
     }
   ]
