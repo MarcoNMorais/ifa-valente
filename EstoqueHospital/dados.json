@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "05/11/2026 09:50:12",
+  "atualizado_em": "05/11/2026 09:50:19",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
     "total_almoxarifado": 105878,
-    "total_farmacia": 31926,
-    "total_geral": 137804,
+    "total_farmacia": 31925,
+    "total_geral": 137803,
     "perto_de_terminar": 42,
     "zerados": 20
   },
@@ -16631,19 +16631,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 80,
-      "farmacia": 194,
+      "farmacia": 193,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 274,
+      "total": 273,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-05 09:49:19",
+      "atualizado_em": "2026-11-05 09:50:16",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -16657,17 +16657,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 194
+          "quantidade": 193
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 211,
-      "previsao_20_dias": 211,
+      "minimo_alerta": 212,
+      "previsao_20_dias": 212,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 85,
-      "media_diaria_saida": 10.54,
-      "total_saida_historica": 896,
-      "cobertura_dias": 26.0,
+      "media_diaria_saida": 10.55,
+      "total_saida_historica": 897,
+      "cobertura_dias": 25.9,
       "alerta_estoque": false
     },
     {
@@ -17603,6 +17603,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 5718,
+      "item_id": 195,
+      "produto_nome": "Tira Reagente G-Tech",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 1,
+      "responsavel": "Assucena",
+      "data": "2026-11-05",
+      "obs": "",
+      "criado_em": "2026-11-05 09:50:16",
+      "item": "Tira Reagente G-Tech",
+      "usuario": "Assucena"
+    },
     {
       "id": 5717,
       "item_id": 76,
@@ -25086,21 +25101,6 @@
       "obs": "",
       "criado_em": "2026-10-28 10:56:30",
       "item": "Equipo macrogotas",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 5218,
-      "item_id": 199,
-      "produto_nome": "Lençol descartável papel",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 3,
-      "responsavel": "Assucena",
-      "data": "2026-10-28",
-      "obs": "",
-      "criado_em": "2026-10-28 10:56:24",
-      "item": "Lençol descartável papel",
       "usuario": "Assucena"
     }
   ]
