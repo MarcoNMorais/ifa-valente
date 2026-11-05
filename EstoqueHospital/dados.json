@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "05/11/2026 09:49:00",
+  "atualizado_em": "05/11/2026 09:49:15",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
-    "total_almoxarifado": 106488,
-    "total_farmacia": 31366,
+    "total_almoxarifado": 105988,
+    "total_farmacia": 31866,
     "total_geral": 137854,
     "perto_de_terminar": 42,
     "zerados": 20
@@ -13333,8 +13333,8 @@
       "nome": "Seringa 3ml",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 5900,
-      "farmacia": 1773,
+      "almoxarifado": 5400,
+      "farmacia": 2273,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -13346,7 +13346,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-05 09:47:27",
+      "atualizado_em": "2026-11-05 09:49:13",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -13354,13 +13354,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 5900
+          "quantidade": 5400
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 1773
+          "quantidade": 2273
         }
       ],
       "minimo_manual": 0,
@@ -17603,6 +17603,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 5713,
+      "item_id": 104,
+      "produto_nome": "Seringa 3ml",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 500,
+      "responsavel": "Assucena",
+      "data": "2026-11-05",
+      "obs": "",
+      "criado_em": "2026-11-05 09:49:13",
+      "item": "Seringa 3ml",
+      "usuario": "Assucena"
+    },
     {
       "id": 5712,
       "item_id": 103,
@@ -25086,21 +25101,6 @@
       "obs": "",
       "criado_em": "2026-10-28 10:55:37",
       "item": "Paracetamol gotas",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 5213,
-      "item_id": 44,
-      "produto_nome": "Clopidogrel 75mg CP",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 10,
-      "responsavel": "Assucena",
-      "data": "2026-10-28",
-      "obs": "",
-      "criado_em": "2026-10-28 10:55:30",
-      "item": "Clopidogrel 75mg CP",
       "usuario": "Assucena"
     }
   ]
