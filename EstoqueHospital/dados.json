@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "05/11/2026 09:54:56",
+  "atualizado_em": "05/11/2026 11:29:32",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
-    "total_almoxarifado": 105878,
-    "total_farmacia": 31164,
+    "total_almoxarifado": 105798,
+    "total_farmacia": 31244,
     "total_geral": 137042,
     "perto_de_terminar": 43,
     "zerados": 21
@@ -7912,8 +7912,8 @@
       "nome": "Gelco nº 22",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 970,
-      "farmacia": 185,
+      "almoxarifado": 900,
+      "farmacia": 255,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -7925,7 +7925,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-05 09:51:35",
+      "atualizado_em": "2026-11-05 11:29:30",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -7933,13 +7933,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 970
+          "quantidade": 900
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 185
+          "quantidade": 255
         }
       ],
       "minimo_manual": 0,
@@ -10451,8 +10451,8 @@
       "nome": "Luva P procedimento",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 60,
-      "farmacia": 1127,
+      "almoxarifado": 50,
+      "farmacia": 1137,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -10464,7 +10464,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-05 09:54:46",
+      "atualizado_em": "2026-11-05 11:29:20",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -10472,13 +10472,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 60
+          "quantidade": 50
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 1127
+          "quantidade": 1137
         }
       ],
       "minimo_manual": 0,
@@ -17590,6 +17590,36 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 5752,
+      "item_id": 177,
+      "produto_nome": "Gelco nº 22",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 70,
+      "responsavel": "Assucena",
+      "data": "2026-11-05",
+      "obs": "",
+      "criado_em": "2026-11-05 11:29:30",
+      "item": "Gelco nº 22",
+      "usuario": "Assucena"
+    },
+    {
+      "id": 5751,
+      "item_id": 281,
+      "produto_nome": "Luva P procedimento",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 10,
+      "responsavel": "Assucena",
+      "data": "2026-11-05",
+      "obs": "",
+      "criado_em": "2026-11-05 11:29:20",
+      "item": "Luva P procedimento",
+      "usuario": "Assucena"
+    },
     {
       "id": 5750,
       "item_id": 200,
@@ -25058,36 +25088,6 @@
       "obs": "",
       "criado_em": "2026-10-28 16:59:06",
       "item": "Cetoprofeno IM 50mg",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 5252,
-      "item_id": 55,
-      "produto_nome": "Benzilpenicilina 1.200",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 10,
-      "responsavel": "Leiliana",
-      "data": "2026-10-28",
-      "obs": "",
-      "criado_em": "2026-10-28 16:58:49",
-      "item": "Benzilpenicilina 1.200",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 5251,
-      "item_id": 222,
-      "produto_nome": "Touca descartável",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 40,
-      "responsavel": "Leiliana",
-      "data": "2026-10-28",
-      "obs": "",
-      "criado_em": "2026-10-28 15:33:53",
-      "item": "Touca descartável",
       "usuario": "Leiliana"
     }
   ]
