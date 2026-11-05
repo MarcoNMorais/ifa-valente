@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "05/11/2026 15:56:20",
+  "atualizado_em": "05/11/2026 15:56:27",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
     "total_almoxarifado": 105788,
-    "total_farmacia": 31071,
-    "total_geral": 136859,
+    "total_farmacia": 31069,
+    "total_geral": 136857,
     "perto_de_terminar": 43,
     "zerados": 21
   },
@@ -9688,19 +9688,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 27,
+      "farmacia": 25,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 27,
+      "total": 25,
       "minimo": 0,
       "validade": "2027-02",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-05 09:47:27",
+      "atualizado_em": "2026-11-05 15:56:26",
       "validade_mais_proxima": "2027-02",
       "vencimento_mais_proximo": "2027-02",
       "lotes_validade": [
@@ -9708,7 +9708,7 @@
           "local": "farmacia",
           "validade": "2027-02",
           "lote": "",
-          "quantidade": 7
+          "quantidade": 5
         },
         {
           "local": "farmacia",
@@ -9722,9 +9722,9 @@
       "previsao_20_dias": 13,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 85,
-      "media_diaria_saida": 0.61,
-      "total_saida_historica": 52,
-      "cobertura_dias": 44.1,
+      "media_diaria_saida": 0.64,
+      "total_saida_historica": 54,
+      "cobertura_dias": 39.4,
       "alerta_estoque": false
     },
     {
@@ -17591,6 +17591,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 5765,
+      "item_id": 84,
+      "produto_nome": "Lidocaína",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 2,
+      "responsavel": "Leiliana",
+      "data": "2026-11-05",
+      "obs": "",
+      "criado_em": "2026-11-05 15:56:26",
+      "item": "Lidocaína",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 5764,
       "item_id": 331,
       "produto_nome": "Agulha 30x8",
@@ -25073,21 +25088,6 @@
       "obs": "",
       "criado_em": "2026-10-28 17:01:45",
       "item": "Seringa 5ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 5265,
-      "item_id": 274,
-      "produto_nome": "Seringa 20ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 15,
-      "responsavel": "Leiliana",
-      "data": "2026-10-28",
-      "obs": "",
-      "criado_em": "2026-10-28 17:01:34",
-      "item": "Seringa 20ml",
       "usuario": "Leiliana"
     }
   ]
