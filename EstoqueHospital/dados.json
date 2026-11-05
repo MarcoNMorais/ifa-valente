@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "05/11/2026 09:50:58",
+  "atualizado_em": "05/11/2026 09:51:15",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
     "total_almoxarifado": 105878,
-    "total_farmacia": 31734,
-    "total_geral": 137612,
+    "total_farmacia": 31664,
+    "total_geral": 137542,
     "perto_de_terminar": 43,
     "zerados": 20
   },
@@ -16803,19 +16803,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 80,
+      "farmacia": 10,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 80,
+      "total": 10,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-05 09:50:56",
+      "atualizado_em": "2026-11-05 09:51:13",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -16829,17 +16829,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 100
+          "quantidade": 30
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 217,
-      "previsao_20_dias": 217,
+      "minimo_alerta": 234,
+      "previsao_20_dias": 234,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 83,
-      "media_diaria_saida": 10.84,
-      "total_saida_historica": 900,
-      "cobertura_dias": 7.4,
+      "media_diaria_saida": 11.69,
+      "total_saida_historica": 970,
+      "cobertura_dias": 0.9,
       "alerta_estoque": true
     },
     {
@@ -17603,6 +17603,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 5721,
+      "item_id": 239,
+      "produto_nome": "Tramadol 50mg/ml 2ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 70,
+      "responsavel": "Assucena",
+      "data": "2026-11-05",
+      "obs": "AJUSTE DE ESTOQUE ",
+      "criado_em": "2026-11-05 09:51:13",
+      "item": "Tramadol 50mg/ml 2ml",
+      "usuario": "Assucena"
+    },
     {
       "id": 5720,
       "item_id": 239,
@@ -25086,21 +25101,6 @@
       "obs": "",
       "criado_em": "2026-10-28 10:57:00",
       "item": "AGULHA  40X1,2",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 5221,
-      "item_id": 203,
-      "produto_nome": "Soro fisiológico 250ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 10,
-      "responsavel": "Assucena",
-      "data": "2026-10-28",
-      "obs": "",
-      "criado_em": "2026-10-28 10:56:51",
-      "item": "Soro fisiológico 250ml",
       "usuario": "Assucena"
     }
   ]
