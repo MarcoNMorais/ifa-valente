@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "05/11/2026 11:29:32",
+  "atualizado_em": "05/11/2026 11:29:43",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
-    "total_almoxarifado": 105798,
-    "total_farmacia": 31244,
+    "total_almoxarifado": 105788,
+    "total_farmacia": 31254,
     "total_geral": 137042,
     "perto_de_terminar": 43,
     "zerados": 21
@@ -16246,8 +16246,8 @@
       "nome": "Sulfadiazina de prata 400g",
       "tipo": "Medicamento",
       "unidade": "Unidade",
-      "almoxarifado": 10,
-      "farmacia": 0,
+      "almoxarifado": 0,
+      "farmacia": 10,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -16259,12 +16259,12 @@
       "lote": "",
       "origem": "Carga Almoxerifado",
       "obs": "Importação Almoxerifado",
-      "atualizado_em": "2026-11-05 09:47:27",
+      "atualizado_em": "2026-11-05 11:29:42",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
         {
-          "local": "almoxarifado",
+          "local": "farmacia",
           "validade": "",
           "lote": "",
           "quantidade": 10
@@ -17590,6 +17590,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 5753,
+      "item_id": 296,
+      "produto_nome": "Sulfadiazina de prata 400g",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 10,
+      "responsavel": "Assucena",
+      "data": "2026-11-05",
+      "obs": "",
+      "criado_em": "2026-11-05 11:29:42",
+      "item": "Sulfadiazina de prata 400g",
+      "usuario": "Assucena"
+    },
     {
       "id": 5752,
       "item_id": 177,
@@ -25073,21 +25088,6 @@
       "obs": "",
       "criado_em": "2026-10-28 16:59:18",
       "item": "Cetoprofeno EV 100mg",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 5253,
-      "item_id": 61,
-      "produto_nome": "Cetoprofeno IM 50mg",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 30,
-      "responsavel": "Leiliana",
-      "data": "2026-10-28",
-      "obs": "",
-      "criado_em": "2026-10-28 16:59:06",
-      "item": "Cetoprofeno IM 50mg",
       "usuario": "Leiliana"
     }
   ]
