@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "05/11/2026 11:29:43",
+  "atualizado_em": "05/11/2026 15:54:30",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
     "total_almoxarifado": 105788,
-    "total_farmacia": 31254,
-    "total_geral": 137042,
+    "total_farmacia": 31242,
+    "total_geral": 137030,
     "perto_de_terminar": 43,
     "zerados": 21
   },
@@ -3482,19 +3482,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 112,
+      "farmacia": 100,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 112,
+      "total": 100,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-05 09:47:27",
+      "atualizado_em": "2026-11-05 15:54:28",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -3502,17 +3502,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 112
+          "quantidade": 100
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 312,
-      "previsao_20_dias": 312,
+      "minimo_alerta": 315,
+      "previsao_20_dias": 315,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 85,
-      "media_diaria_saida": 15.6,
-      "total_saida_historica": 1326,
-      "cobertura_dias": 7.2,
+      "media_diaria_saida": 15.74,
+      "total_saida_historica": 1338,
+      "cobertura_dias": 6.4,
       "alerta_estoque": true
     },
     {
@@ -17591,6 +17591,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 5754,
+      "item_id": 59,
+      "produto_nome": "Ceftriaxona 1g",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 12,
+      "responsavel": "Leiliana",
+      "data": "2026-11-05",
+      "obs": "",
+      "criado_em": "2026-11-05 15:54:28",
+      "item": "Ceftriaxona 1g",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 5753,
       "item_id": 296,
       "produto_nome": "Sulfadiazina de prata 400g",
@@ -25073,21 +25088,6 @@
       "obs": "",
       "criado_em": "2026-10-28 16:59:31",
       "item": "Ceftriaxona 1g",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 5254,
-      "item_id": 60,
-      "produto_nome": "Cetoprofeno EV 100mg",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 15,
-      "responsavel": "Leiliana",
-      "data": "2026-10-28",
-      "obs": "",
-      "criado_em": "2026-10-28 16:59:18",
-      "item": "Cetoprofeno EV 100mg",
       "usuario": "Leiliana"
     }
   ]
