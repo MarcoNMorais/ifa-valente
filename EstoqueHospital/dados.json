@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "06/11/2026 15:58:27",
+  "atualizado_em": "06/11/2026 15:58:39",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
     "total_almoxarifado": 105633,
-    "total_farmacia": 30409,
-    "total_geral": 136042,
+    "total_farmacia": 30389,
+    "total_geral": 136022,
     "perto_de_terminar": 45,
     "zerados": 22
   },
@@ -771,19 +771,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 14100,
-      "farmacia": 470,
+      "farmacia": 450,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 14570,
+      "total": 14550,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga Almoxerifado",
       "obs": "Importação Almoxerifado",
-      "atualizado_em": "2026-11-06 11:39:25",
+      "atualizado_em": "2026-11-06 15:58:37",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -797,17 +797,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 470
+          "quantidade": 450
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 650,
-      "previsao_20_dias": 650,
+      "minimo_alerta": 655,
+      "previsao_20_dias": 655,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 81,
-      "media_diaria_saida": 32.47,
-      "total_saida_historica": 2630,
-      "cobertura_dias": 448.7,
+      "media_diaria_saida": 32.72,
+      "total_saida_historica": 2650,
+      "cobertura_dias": 444.7,
       "alerta_estoque": false
     },
     {
@@ -17578,6 +17578,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 5820,
+      "item_id": 331,
+      "produto_nome": "Agulha 30x8",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 20,
+      "responsavel": "Leiliana",
+      "data": "2026-11-06",
+      "obs": "",
+      "criado_em": "2026-11-06 15:58:37",
+      "item": "Agulha 30x8",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 5819,
       "item_id": 84,
       "produto_nome": "Lidocaína",
@@ -25060,21 +25075,6 @@
       "obs": "",
       "criado_em": "2026-10-29 11:44:36",
       "item": "Seringa 20ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 5320,
-      "item_id": 103,
-      "produto_nome": "Seringa 10ml",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 30,
-      "responsavel": "Assucena",
-      "data": "2026-10-28",
-      "obs": "",
-      "criado_em": "2026-10-29 11:44:30",
-      "item": "Seringa 10ml",
       "usuario": "Assucena"
     }
   ]
