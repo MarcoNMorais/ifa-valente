@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "06/11/2026 16:00:47",
+  "atualizado_em": "06/11/2026 16:01:07",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
-    "total_almoxarifado": 105613,
-    "total_farmacia": 30289,
+    "total_almoxarifado": 105563,
+    "total_farmacia": 30339,
     "total_geral": 135902,
     "perto_de_terminar": 45,
     "zerados": 22
@@ -9997,8 +9997,8 @@
       "nome": "Luva cirúrgica tam. 7,5",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 330,
-      "farmacia": 17,
+      "almoxarifado": 280,
+      "farmacia": 67,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -10010,7 +10010,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-05 09:47:27",
+      "atualizado_em": "2026-11-06 16:01:06",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -10018,13 +10018,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 380
+          "quantidade": 330
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 22
+          "quantidade": 72
         }
       ],
       "minimo_manual": 0,
@@ -17578,6 +17578,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 5828,
+      "item_id": 185,
+      "produto_nome": "Luva cirúrgica tam. 7,5",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 50,
+      "responsavel": "Leiliana",
+      "data": "2026-11-06",
+      "obs": "",
+      "criado_em": "2026-11-06 16:01:06",
+      "item": "Luva cirúrgica tam. 7,5",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 5827,
       "item_id": 199,
       "produto_nome": "Lençol descartável papel",
@@ -25060,21 +25075,6 @@
       "obs": "",
       "criado_em": "2026-10-29 16:42:46",
       "item": "Ceftriaxona 1g",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 5328,
-      "item_id": 60,
-      "produto_nome": "Cetoprofeno EV 100mg",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 12,
-      "responsavel": "Leiliana",
-      "data": "2026-10-29",
-      "obs": "",
-      "criado_em": "2026-10-29 16:42:39",
-      "item": "Cetoprofeno EV 100mg",
       "usuario": "Leiliana"
     }
   ]
