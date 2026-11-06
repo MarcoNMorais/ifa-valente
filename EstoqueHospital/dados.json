@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "06/11/2026 13:37:53",
+  "atualizado_em": "06/11/2026 13:38:04",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
     "total_almoxarifado": 105633,
-    "total_farmacia": 30583,
-    "total_geral": 136216,
+    "total_farmacia": 30563,
+    "total_geral": 136196,
     "perto_de_terminar": 44,
     "zerados": 22
   },
@@ -553,19 +553,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 1039,
-      "farmacia": 1476,
+      "farmacia": 1456,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 2515,
+      "total": 2495,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-05 09:47:27",
+      "atualizado_em": "2026-11-06 13:38:02",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -579,17 +579,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 1476
+          "quantidade": 1456
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 96,
-      "previsao_20_dias": 96,
+      "minimo_alerta": 100,
+      "previsao_20_dias": 100,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 81,
-      "media_diaria_saida": 4.75,
-      "total_saida_historica": 385,
-      "cobertura_dias": 529.1,
+      "media_diaria_saida": 5.0,
+      "total_saida_historica": 405,
+      "cobertura_dias": 499.0,
       "alerta_estoque": false
     },
     {
@@ -17584,6 +17584,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 5807,
+      "item_id": 287,
+      "produto_nome": "Agulha 13x4,5",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 20,
+      "responsavel": "Leiliana",
+      "data": "2026-11-06",
+      "obs": "",
+      "criado_em": "2026-11-06 13:38:02",
+      "item": "Agulha 13x4,5",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 5806,
       "item_id": 177,
       "produto_nome": "Gelco nº 22",
@@ -25066,21 +25081,6 @@
       "obs": "",
       "criado_em": "2026-10-29 11:42:51",
       "item": "Ceftriaxona 1g",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 5307,
-      "item_id": 76,
-      "produto_nome": "Escopolamina + Dipirona",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 20,
-      "responsavel": "Assucena",
-      "data": "2026-10-28",
-      "obs": "",
-      "criado_em": "2026-10-29 11:42:41",
-      "item": "Escopolamina + Dipirona",
       "usuario": "Assucena"
     }
   ]
