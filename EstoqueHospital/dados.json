@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "06/11/2026 11:39:18",
+  "atualizado_em": "06/11/2026 11:39:26",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
     "total_almoxarifado": 105633,
-    "total_farmacia": 30962,
-    "total_geral": 136595,
+    "total_farmacia": 30942,
+    "total_geral": 136575,
     "perto_de_terminar": 43,
     "zerados": 22
   },
@@ -771,19 +771,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 14100,
-      "farmacia": 490,
+      "farmacia": 470,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 14590,
+      "total": 14570,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga Almoxerifado",
       "obs": "Importação Almoxerifado",
-      "atualizado_em": "2026-11-05 15:56:18",
+      "atualizado_em": "2026-11-06 11:39:25",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -797,17 +797,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 490
+          "quantidade": 470
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 645,
-      "previsao_20_dias": 645,
+      "minimo_alerta": 650,
+      "previsao_20_dias": 650,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 81,
-      "media_diaria_saida": 32.22,
-      "total_saida_historica": 2610,
-      "cobertura_dias": 452.8,
+      "media_diaria_saida": 32.47,
+      "total_saida_historica": 2630,
+      "cobertura_dias": 448.7,
       "alerta_estoque": false
     },
     {
@@ -17584,6 +17584,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 5784,
+      "item_id": 331,
+      "produto_nome": "Agulha 30x8",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 20,
+      "responsavel": "Assucena",
+      "data": "2026-11-05",
+      "obs": "",
+      "criado_em": "2026-11-06 11:39:25",
+      "item": "Agulha 30x8",
+      "usuario": "Assucena"
+    },
+    {
       "id": 5783,
       "item_id": 390,
       "produto_nome": "AGULHA  40X1,2",
@@ -25066,21 +25081,6 @@
       "obs": "",
       "criado_em": "2026-10-29 11:39:58",
       "item": "Ibuprofeno gotas",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 5284,
-      "item_id": 257,
-      "produto_nome": "Brometo de ipratrópio gotas",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 1,
-      "responsavel": "Assucena",
-      "data": "2026-10-28",
-      "obs": "",
-      "criado_em": "2026-10-29 11:39:52",
-      "item": "Brometo de ipratrópio gotas",
       "usuario": "Assucena"
     }
   ]
