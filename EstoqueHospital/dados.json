@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "06/11/2026 16:01:07",
+  "atualizado_em": "06/11/2026 16:01:15",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
-    "total_almoxarifado": 105563,
-    "total_farmacia": 30339,
+    "total_almoxarifado": 105313,
+    "total_farmacia": 30589,
     "total_geral": 135902,
     "perto_de_terminar": 45,
     "zerados": 22
@@ -13169,8 +13169,8 @@
       "nome": "Seringa 10ml",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 4550,
-      "farmacia": 376,
+      "almoxarifado": 4300,
+      "farmacia": 626,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -13182,7 +13182,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-06 15:59:20",
+      "atualizado_em": "2026-11-06 16:01:14",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -13190,13 +13190,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 4550
+          "quantidade": 4300
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 436
+          "quantidade": 686
         }
       ],
       "minimo_manual": 0,
@@ -17577,6 +17577,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 5829,
+      "item_id": 103,
+      "produto_nome": "Seringa 10ml",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 250,
+      "responsavel": "Leiliana",
+      "data": "2026-11-06",
+      "obs": "",
+      "criado_em": "2026-11-06 16:01:14",
+      "item": "Seringa 10ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 5828,
       "item_id": 185,
@@ -25060,21 +25075,6 @@
       "obs": "",
       "criado_em": "2026-10-29 16:42:54",
       "item": "Dexametasona",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 5329,
-      "item_id": 59,
-      "produto_nome": "Ceftriaxona 1g",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 12,
-      "responsavel": "Leiliana",
-      "data": "2026-10-29",
-      "obs": "",
-      "criado_em": "2026-10-29 16:42:46",
-      "item": "Ceftriaxona 1g",
       "usuario": "Leiliana"
     }
   ]
