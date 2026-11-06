@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "06/11/2026 11:34:08",
+  "atualizado_em": "06/11/2026 11:34:20",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
     "total_almoxarifado": 105633,
-    "total_farmacia": 31172,
-    "total_geral": 136805,
+    "total_farmacia": 31167,
+    "total_geral": 136800,
     "perto_de_terminar": 43,
     "zerados": 21
   },
@@ -4007,19 +4007,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 50,
+      "farmacia": 45,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 50,
+      "total": 45,
       "minimo": 15,
       "validade": "2027-08",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-05 09:47:27",
+      "atualizado_em": "2026-11-06 11:34:19",
       "validade_mais_proxima": "2027-08",
       "vencimento_mais_proximo": "2027-08",
       "lotes_validade": [
@@ -4027,17 +4027,17 @@
           "local": "farmacia",
           "validade": "2027-08",
           "lote": "",
-          "quantidade": 50
+          "quantidade": 45
         }
       ],
       "minimo_manual": 15,
-      "minimo_alerta": 5,
-      "previsao_20_dias": 5,
+      "minimo_alerta": 6,
+      "previsao_20_dias": 6,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 74,
-      "media_diaria_saida": 0.2,
-      "total_saida_historica": 15,
-      "cobertura_dias": 246.7,
+      "media_diaria_saida": 0.27,
+      "total_saida_historica": 20,
+      "cobertura_dias": 166.5,
       "alerta_estoque": false
     },
     {
@@ -17591,6 +17591,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 5773,
+      "item_id": 343,
+      "produto_nome": "CLORETO DE POTÁSSIO 19,1% AMP 10ML",
+      "tipo": "Farmácia para EMPRESTIMO/PERMUTA COM RETIRO",
+      "origem": "Farmácia",
+      "destino": "EMPRESTIMO/PERMUTA COM RETIRO",
+      "quantidade": 5,
+      "responsavel": "Assucena",
+      "data": "2026-11-05",
+      "obs": "",
+      "criado_em": "2026-11-06 11:34:19",
+      "item": "CLORETO DE POTÁSSIO 19,1% AMP 10ML",
+      "usuario": "Assucena"
+    },
+    {
       "id": 5772,
       "item_id": 84,
       "produto_nome": "Lidocaína",
@@ -25073,21 +25088,6 @@
       "obs": "",
       "criado_em": "2026-10-28 17:03:11",
       "item": "Lidocaína",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 5273,
-      "item_id": 73,
-      "produto_nome": "Epinefrina 1mg",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 10,
-      "responsavel": "Leiliana",
-      "data": "2026-10-28",
-      "obs": "",
-      "criado_em": "2026-10-28 17:03:02",
-      "item": "Epinefrina 1mg",
       "usuario": "Leiliana"
     }
   ]
