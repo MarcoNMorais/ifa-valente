@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "06/11/2026 12:10:40",
+  "atualizado_em": "06/11/2026 12:10:47",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
     "total_almoxarifado": 105633,
-    "total_farmacia": 30747,
-    "total_geral": 136380,
+    "total_farmacia": 30745,
+    "total_geral": 136378,
     "perto_de_terminar": 44,
     "zerados": 22
   },
@@ -2813,19 +2813,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 117,
-      "farmacia": 29,
+      "farmacia": 27,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 146,
+      "total": 144,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-05 09:47:27",
+      "atualizado_em": "2026-11-06 12:10:45",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -2839,17 +2839,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 29
+          "quantidade": 27
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 16,
-      "previsao_20_dias": 16,
+      "minimo_alerta": 17,
+      "previsao_20_dias": 17,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 86,
-      "media_diaria_saida": 0.79,
-      "total_saida_historica": 68,
-      "cobertura_dias": 184.6,
+      "media_diaria_saida": 0.81,
+      "total_saida_historica": 70,
+      "cobertura_dias": 176.9,
       "alerta_estoque": false
     },
     {
@@ -17584,6 +17584,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 5796,
+      "item_id": 155,
+      "produto_nome": "Bolsa coletora",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 2,
+      "responsavel": "Assucena",
+      "data": "2026-11-05",
+      "obs": "",
+      "criado_em": "2026-11-06 12:10:45",
+      "item": "Bolsa coletora",
+      "usuario": "Assucena"
+    },
+    {
       "id": 5795,
       "item_id": 138,
       "produto_nome": "Captopril 25mg CPR",
@@ -25065,21 +25080,6 @@
       "data": "2026-10-28",
       "obs": "",
       "criado_em": "2026-10-29 11:41:25",
-      "item": "Polifix",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 5296,
-      "item_id": 329,
-      "produto_nome": "Polifix",
-      "tipo": "Almoxarifado para Farmácia",
-      "origem": "Almoxarifado",
-      "destino": "Farmácia",
-      "quantidade": 80,
-      "responsavel": "Assucena",
-      "data": "2026-10-28",
-      "obs": "",
-      "criado_em": "2026-10-29 11:41:18",
       "item": "Polifix",
       "usuario": "Assucena"
     }
