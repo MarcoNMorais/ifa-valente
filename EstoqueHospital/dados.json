@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "06/11/2026 11:34:27",
+  "atualizado_em": "06/11/2026 11:37:58",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
     "total_almoxarifado": 105633,
-    "total_farmacia": 31162,
-    "total_geral": 136795,
+    "total_farmacia": 31142,
+    "total_geral": 136775,
     "perto_de_terminar": 43,
     "zerados": 21
   },
@@ -4730,19 +4730,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 1400,
-      "farmacia": 430,
+      "farmacia": 410,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1830,
+      "total": 1810,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-05 15:54:37",
+      "atualizado_em": "2026-11-06 11:37:56",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -4756,17 +4756,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 430
+          "quantidade": 410
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 568,
-      "previsao_20_dias": 568,
+      "minimo_alerta": 573,
+      "previsao_20_dias": 573,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 86,
-      "media_diaria_saida": 28.37,
-      "total_saida_historica": 2440,
-      "cobertura_dias": 64.5,
+      "media_diaria_saida": 28.6,
+      "total_saida_historica": 2460,
+      "cobertura_dias": 63.3,
       "alerta_estoque": false
     },
     {
@@ -17591,6 +17591,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 5775,
+      "item_id": 68,
+      "produto_nome": "Dexametasona",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 20,
+      "responsavel": "Assucena",
+      "data": "2026-11-05",
+      "obs": "",
+      "criado_em": "2026-11-06 11:37:56",
+      "item": "Dexametasona",
+      "usuario": "Assucena"
+    },
+    {
       "id": 5774,
       "item_id": 342,
       "produto_nome": "CLORETO DE SÓDIO 20% AMP 10ML",
@@ -25073,21 +25088,6 @@
       "obs": "",
       "criado_em": "2026-10-28 17:03:31",
       "item": "Seringa 10ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 5275,
-      "item_id": 220,
-      "produto_nome": "Equipo macrogotas",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 25,
-      "responsavel": "Leiliana",
-      "data": "2026-10-28",
-      "obs": "",
-      "criado_em": "2026-10-28 17:03:20",
-      "item": "Equipo macrogotas",
       "usuario": "Leiliana"
     }
   ]
