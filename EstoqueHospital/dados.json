@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "06/11/2026 15:58:07",
+  "atualizado_em": "06/11/2026 15:58:18",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
     "total_almoxarifado": 105633,
-    "total_farmacia": 30420,
-    "total_geral": 136053,
+    "total_farmacia": 30410,
+    "total_geral": 136043,
     "perto_de_terminar": 45,
     "zerados": 22
   },
@@ -314,19 +314,19 @@
       "tipo": "Medicamento",
       "unidade": "Ampola",
       "almoxarifado": 0,
-      "farmacia": 30,
+      "farmacia": 20,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 30,
+      "total": 20,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-05 09:47:27",
+      "atualizado_em": "2026-11-06 15:58:16",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -334,17 +334,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 30
+          "quantidade": 20
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 132,
-      "previsao_20_dias": 132,
+      "minimo_alerta": 135,
+      "previsao_20_dias": 135,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 64,
-      "media_diaria_saida": 6.56,
-      "total_saida_historica": 420,
-      "cobertura_dias": 4.6,
+      "media_diaria_saida": 6.72,
+      "total_saida_historica": 430,
+      "cobertura_dias": 3.0,
       "alerta_estoque": true
     },
     {
@@ -17584,6 +17584,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 5818,
+      "item_id": 384,
+      "produto_nome": "ACIDO ASCORBICO",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 10,
+      "responsavel": "Leiliana",
+      "data": "2026-11-06",
+      "obs": "",
+      "criado_em": "2026-11-06 15:58:16",
+      "item": "ACIDO ASCORBICO",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 5817,
       "item_id": 70,
       "produto_nome": "Dipirona",
@@ -25066,21 +25081,6 @@
       "obs": "",
       "criado_em": "2026-10-29 11:44:14",
       "item": "Ciprofloxacino",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 5318,
-      "item_id": 294,
-      "produto_nome": "Glicerina 12%",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 2,
-      "responsavel": "Assucena",
-      "data": "2026-10-28",
-      "obs": "",
-      "criado_em": "2026-10-29 11:44:07",
-      "item": "Glicerina 12%",
       "usuario": "Assucena"
     }
   ]
