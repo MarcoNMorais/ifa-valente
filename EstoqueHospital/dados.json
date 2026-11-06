@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "06/11/2026 12:10:54",
+  "atualizado_em": "06/11/2026 12:11:01",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
     "total_almoxarifado": 105633,
-    "total_farmacia": 30743,
-    "total_geral": 136376,
+    "total_farmacia": 30718,
+    "total_geral": 136351,
     "perto_de_terminar": 44,
     "zerados": 22
   },
@@ -5835,19 +5835,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 1906,
-      "farmacia": 99,
+      "farmacia": 74,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 2005,
+      "total": 1980,
       "minimo": 300,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-05 15:55:30",
+      "atualizado_em": "2026-11-06 12:10:55",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -5861,17 +5861,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 124
+          "quantidade": 99
         }
       ],
       "minimo_manual": 300,
-      "minimo_alerta": 621,
-      "previsao_20_dias": 621,
+      "minimo_alerta": 627,
+      "previsao_20_dias": 627,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 86,
-      "media_diaria_saida": 31.05,
-      "total_saida_historica": 2670,
-      "cobertura_dias": 64.6,
+      "media_diaria_saida": 31.34,
+      "total_saida_historica": 2695,
+      "cobertura_dias": 63.2,
       "alerta_estoque": false
     },
     {
@@ -17584,6 +17584,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 5798,
+      "item_id": 220,
+      "produto_nome": "Equipo macrogotas",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 25,
+      "responsavel": "Assucena",
+      "data": "2026-11-05",
+      "obs": "",
+      "criado_em": "2026-11-06 12:10:55",
+      "item": "Equipo macrogotas",
+      "usuario": "Assucena"
+    },
+    {
       "id": 5797,
       "item_id": 154,
       "produto_nome": "Equipo fotossensível",
@@ -25066,21 +25081,6 @@
       "obs": "",
       "criado_em": "2026-10-29 11:41:44",
       "item": "Luva cirúrgica tam. 7,5",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 5298,
-      "item_id": 70,
-      "produto_nome": "Dipirona",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 20,
-      "responsavel": "Assucena",
-      "data": "2026-10-28",
-      "obs": "",
-      "criado_em": "2026-10-29 11:41:34",
-      "item": "Dipirona",
       "usuario": "Assucena"
     }
   ]
