@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "06/11/2026 11:39:57",
+  "atualizado_em": "06/11/2026 11:40:03",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
     "total_almoxarifado": 105633,
-    "total_farmacia": 30872,
-    "total_geral": 136505,
+    "total_farmacia": 30871,
+    "total_geral": 136504,
     "perto_de_terminar": 44,
     "zerados": 22
   },
@@ -10676,19 +10676,19 @@
       "tipo": "Material",
       "unidade": "Caixa",
       "almoxarifado": 46,
-      "farmacia": 3,
+      "farmacia": 2,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 49,
+      "total": 48,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-05 09:47:27",
+      "atualizado_em": "2026-11-06 11:40:01",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -10702,7 +10702,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 3
+          "quantidade": 2
         }
       ],
       "minimo_manual": 0,
@@ -10710,9 +10710,9 @@
       "previsao_20_dias": 3,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 54,
-      "media_diaria_saida": 0.13,
-      "total_saida_historica": 7,
-      "cobertura_dias": 378.0,
+      "media_diaria_saida": 0.15,
+      "total_saida_historica": 8,
+      "cobertura_dias": 324.0,
       "alerta_estoque": false
     },
     {
@@ -17583,6 +17583,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 5788,
+      "item_id": 398,
+      "produto_nome": "MASCARA DESCARTAVEL",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 1,
+      "responsavel": "Assucena",
+      "data": "2026-11-05",
+      "obs": "",
+      "criado_em": "2026-11-06 11:40:01",
+      "item": "MASCARA DESCARTAVEL",
+      "usuario": "Assucena"
+    },
     {
       "id": 5787,
       "item_id": 223,
@@ -25066,21 +25081,6 @@
       "obs": "",
       "criado_em": "2026-10-29 11:40:26",
       "item": "Gelco nº 22",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 5288,
-      "item_id": 331,
-      "produto_nome": "Agulha 30x8",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 20,
-      "responsavel": "Assucena",
-      "data": "2026-10-28",
-      "obs": "",
-      "criado_em": "2026-10-29 11:40:19",
-      "item": "Agulha 30x8",
       "usuario": "Assucena"
     }
   ]
