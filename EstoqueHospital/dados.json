@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "06/11/2026 12:11:01",
+  "atualizado_em": "06/11/2026 13:35:45",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
     "total_almoxarifado": 105633,
-    "total_farmacia": 30718,
-    "total_geral": 136351,
+    "total_farmacia": 30711,
+    "total_geral": 136344,
     "perto_de_terminar": 44,
     "zerados": 22
   },
@@ -10768,19 +10768,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 26,
+      "farmacia": 19,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 26,
+      "total": 19,
       "minimo": 0,
       "validade": "09/27",
       "lote": "",
       "origem": "Carga Farmácia 227-288",
       "obs": "Importação Farmácia 227-288",
-      "atualizado_em": "2026-11-05 09:47:27",
+      "atualizado_em": "2026-11-06 13:35:44",
       "validade_mais_proxima": "09/27",
       "vencimento_mais_proximo": "09/27",
       "lotes_validade": [
@@ -10788,17 +10788,17 @@
           "local": "farmacia",
           "validade": "09/27",
           "lote": "",
-          "quantidade": 26
+          "quantidade": 19
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 3,
-      "previsao_20_dias": 3,
+      "minimo_alerta": 5,
+      "previsao_20_dias": 5,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 81,
-      "media_diaria_saida": 0.15,
-      "total_saida_historica": 12,
-      "cobertura_dias": 175.5,
+      "media_diaria_saida": 0.23,
+      "total_saida_historica": 19,
+      "cobertura_dias": 81.0,
       "alerta_estoque": false
     },
     {
@@ -17583,6 +17583,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 5799,
+      "item_id": 225,
+      "produto_nome": "Meropenem 1g",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 7,
+      "responsavel": "Leiliana",
+      "data": "2026-11-06",
+      "obs": "",
+      "criado_em": "2026-11-06 13:35:44",
+      "item": "Meropenem 1g",
+      "usuario": "Leiliana"
+    },
     {
       "id": 5798,
       "item_id": 220,
@@ -25066,21 +25081,6 @@
       "obs": "",
       "criado_em": "2026-10-29 11:41:49",
       "item": "Luva cirúrgica tam. 7",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 5299,
-      "item_id": 185,
-      "produto_nome": "Luva cirúrgica tam. 7,5",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 5,
-      "responsavel": "Assucena",
-      "data": "2026-10-28",
-      "obs": "",
-      "criado_em": "2026-10-29 11:41:44",
-      "item": "Luva cirúrgica tam. 7,5",
       "usuario": "Assucena"
     }
   ]
