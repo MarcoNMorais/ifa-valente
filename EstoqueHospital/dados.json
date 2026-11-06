@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "06/11/2026 11:34:20",
+  "atualizado_em": "06/11/2026 11:34:27",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
     "total_almoxarifado": 105633,
-    "total_farmacia": 31167,
-    "total_geral": 136800,
+    "total_farmacia": 31162,
+    "total_geral": 136795,
     "perto_de_terminar": 43,
     "zerados": 21
   },
@@ -4047,19 +4047,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 41,
+      "farmacia": 36,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 41,
+      "total": 36,
       "minimo": 15,
       "validade": "2027-02",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-05 09:47:27",
+      "atualizado_em": "2026-11-06 11:34:25",
       "validade_mais_proxima": "2027-02",
       "vencimento_mais_proximo": "2027-02",
       "lotes_validade": [
@@ -4067,17 +4067,17 @@
           "local": "farmacia",
           "validade": "2027-02",
           "lote": "",
-          "quantidade": 41
+          "quantidade": 36
         }
       ],
       "minimo_manual": 15,
-      "minimo_alerta": 6,
-      "previsao_20_dias": 6,
+      "minimo_alerta": 7,
+      "previsao_20_dias": 7,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 74,
-      "media_diaria_saida": 0.27,
-      "total_saida_historica": 20,
-      "cobertura_dias": 151.7,
+      "media_diaria_saida": 0.34,
+      "total_saida_historica": 25,
+      "cobertura_dias": 106.6,
       "alerta_estoque": false
     },
     {
@@ -17591,6 +17591,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 5774,
+      "item_id": 342,
+      "produto_nome": "CLORETO DE SÓDIO 20% AMP 10ML",
+      "tipo": "Farmácia para EMPRESTIMO/PERMUTA COM RETIRO",
+      "origem": "Farmácia",
+      "destino": "EMPRESTIMO/PERMUTA COM RETIRO",
+      "quantidade": 5,
+      "responsavel": "Assucena",
+      "data": "2026-11-05",
+      "obs": "",
+      "criado_em": "2026-11-06 11:34:25",
+      "item": "CLORETO DE SÓDIO 20% AMP 10ML",
+      "usuario": "Assucena"
+    },
+    {
       "id": 5773,
       "item_id": 343,
       "produto_nome": "CLORETO DE POTÁSSIO 19,1% AMP 10ML",
@@ -25073,21 +25088,6 @@
       "obs": "",
       "criado_em": "2026-10-28 17:03:20",
       "item": "Equipo macrogotas",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 5274,
-      "item_id": 84,
-      "produto_nome": "Lidocaína",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 3,
-      "responsavel": "Leiliana",
-      "data": "2026-10-28",
-      "obs": "",
-      "criado_em": "2026-10-28 17:03:11",
-      "item": "Lidocaína",
       "usuario": "Leiliana"
     }
   ]
