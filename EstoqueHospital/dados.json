@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "09/11/2026 16:47:00",
+  "atualizado_em": "09/11/2026 16:47:10",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
     "total_almoxarifado": 103038,
-    "total_farmacia": 30234,
-    "total_geral": 133272,
+    "total_farmacia": 30224,
+    "total_geral": 133262,
     "perto_de_terminar": 48,
     "zerados": 26
   },
@@ -12960,19 +12960,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 100,
-      "farmacia": 58,
+      "farmacia": 48,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 158,
+      "total": 148,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-11-09 15:43:11",
+      "atualizado_em": "2026-11-09 16:47:09",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -12986,17 +12986,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 58
+          "quantidade": 48
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 21,
-      "previsao_20_dias": 21,
+      "minimo_alerta": 23,
+      "previsao_20_dias": 23,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 89,
-      "media_diaria_saida": 1.01,
-      "total_saida_historica": 90,
-      "cobertura_dias": 156.2,
+      "media_diaria_saida": 1.12,
+      "total_saida_historica": 100,
+      "cobertura_dias": 131.7,
       "alerta_estoque": false
     },
     {
@@ -17539,6 +17539,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 5980,
+      "item_id": 97,
+      "produto_nome": "Scalp nº 19",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 10,
+      "responsavel": "Leiliana",
+      "data": "2026-11-09",
+      "obs": "",
+      "criado_em": "2026-11-09 16:47:09",
+      "item": "Scalp nº 19",
+      "usuario": "Leiliana"
+    },
     {
       "id": 5979,
       "item_id": 98,
@@ -25022,21 +25037,6 @@
       "obs": "",
       "criado_em": "2026-11-03 14:12:30",
       "item": "Bolsa coletora",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 5480,
-      "item_id": 3,
-      "produto_nome": "Succinil 100mg",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 6,
-      "responsavel": "Leiliana",
-      "data": "2026-11-03",
-      "obs": "",
-      "criado_em": "2026-11-03 14:12:17",
-      "item": "Succinil 100mg",
       "usuario": "Leiliana"
     }
   ]
