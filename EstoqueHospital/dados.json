@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "09/11/2026 16:46:38",
+  "atualizado_em": "09/11/2026 16:47:00",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
-    "total_almoxarifado": 103088,
-    "total_farmacia": 30184,
+    "total_almoxarifado": 103038,
+    "total_farmacia": 30234,
     "total_geral": 133272,
     "perto_de_terminar": 48,
     "zerados": 26
@@ -13051,8 +13051,8 @@
       "nome": "Scalp nº 23",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 1040,
-      "farmacia": 15,
+      "almoxarifado": 990,
+      "farmacia": 65,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -13064,7 +13064,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-09 15:43:11",
+      "atualizado_em": "2026-11-09 16:46:58",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -13072,13 +13072,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 1040
+          "quantidade": 990
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 25
+          "quantidade": 75
         }
       ],
       "minimo_manual": 0,
@@ -17539,6 +17539,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 5979,
+      "item_id": 98,
+      "produto_nome": "Scalp nº 23",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 50,
+      "responsavel": "Leiliana",
+      "data": "2026-11-09",
+      "obs": "",
+      "criado_em": "2026-11-09 16:46:58",
+      "item": "Scalp nº 23",
+      "usuario": "Leiliana"
+    },
     {
       "id": 5978,
       "item_id": 387,
@@ -25022,21 +25037,6 @@
       "obs": "",
       "criado_em": "2026-11-03 14:12:17",
       "item": "Succinil 100mg",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 5479,
-      "item_id": 85,
-      "produto_nome": "Lidocaína Gel",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 2,
-      "responsavel": "Leiliana",
-      "data": "2026-11-03",
-      "obs": "",
-      "criado_em": "2026-11-03 14:12:04",
-      "item": "Lidocaína Gel",
       "usuario": "Leiliana"
     }
   ]
