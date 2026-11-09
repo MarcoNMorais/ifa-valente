@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "09/11/2026 11:15:32",
+  "atualizado_em": "09/11/2026 11:15:57",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
-    "total_almoxarifado": 104739,
-    "total_farmacia": 30167,
+    "total_almoxarifado": 104539,
+    "total_farmacia": 30367,
     "total_geral": 134906,
     "perto_de_terminar": 48,
     "zerados": 25
@@ -5834,8 +5834,8 @@
       "nome": "Equipo macrogotas",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 1906,
-      "farmacia": 0,
+      "almoxarifado": 1706,
+      "farmacia": 200,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -5847,7 +5847,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-09 11:15:31",
+      "atualizado_em": "2026-11-09 11:15:55",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -5855,13 +5855,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 1906
+          "quantidade": 1706
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 25
+          "quantidade": 225
         }
       ],
       "minimo_manual": 300,
@@ -18167,6 +18167,21 @@
       "usuario": "Assucena"
     },
     {
+      "id": 5884,
+      "item_id": 220,
+      "produto_nome": "Equipo macrogotas",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 200,
+      "responsavel": "Assucena",
+      "data": "2026-11-06",
+      "obs": "",
+      "criado_em": "2026-11-09 11:15:55",
+      "item": "Equipo macrogotas",
+      "usuario": "Assucena"
+    },
+    {
       "id": 5871,
       "item_id": 329,
       "produto_nome": "Polifix",
@@ -25034,21 +25049,6 @@
       "obs": "",
       "criado_em": "2026-11-03 13:50:34",
       "item": "Dipirona",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 5384,
-      "item_id": 201,
-      "produto_nome": "Soro Ringer Lactato 500ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 24,
-      "responsavel": "Leiliana",
-      "data": "2026-11-03",
-      "obs": "",
-      "criado_em": "2026-11-03 13:50:25",
-      "item": "Soro Ringer Lactato 500ml",
       "usuario": "Leiliana"
     }
   ]
