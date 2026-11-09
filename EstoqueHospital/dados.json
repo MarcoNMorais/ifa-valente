@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "09/11/2026 16:48:27",
+  "atualizado_em": "09/11/2026 16:49:02",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
-    "total_almoxarifado": 103038,
-    "total_farmacia": 30005,
+    "total_almoxarifado": 103035,
+    "total_farmacia": 30008,
     "total_geral": 133043,
     "perto_de_terminar": 48,
     "zerados": 26
@@ -7430,8 +7430,8 @@
       "nome": "Fita cirúrgica microporosa",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 186,
-      "farmacia": 0,
+      "almoxarifado": 183,
+      "farmacia": 3,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -7443,7 +7443,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-09 15:43:11",
+      "atualizado_em": "2026-11-09 16:49:01",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -7451,13 +7451,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 186
+          "quantidade": 183
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 2
+          "quantidade": 5
         }
       ],
       "minimo_manual": 0,
@@ -17540,6 +17540,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 5989,
+      "item_id": 175,
+      "produto_nome": "Fita cirúrgica microporosa",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 3,
+      "responsavel": "Leiliana",
+      "data": "2026-11-09",
+      "obs": "",
+      "criado_em": "2026-11-09 16:49:01",
+      "item": "Fita cirúrgica microporosa",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 5988,
       "item_id": 220,
       "produto_nome": "Equipo macrogotas",
@@ -25022,21 +25037,6 @@
       "obs": "",
       "criado_em": "2026-11-03 14:15:23",
       "item": "Dispositivo intravenoso Gelco nº 20",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 5489,
-      "item_id": 99,
-      "produto_nome": "Scalp nº 21",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 15,
-      "responsavel": "Leiliana",
-      "data": "2026-11-03",
-      "obs": "",
-      "criado_em": "2026-11-03 14:15:07",
-      "item": "Scalp nº 21",
       "usuario": "Leiliana"
     }
   ]
