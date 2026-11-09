@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "09/11/2026 11:06:57",
+  "atualizado_em": "09/11/2026 11:07:04",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
     "total_almoxarifado": 105269,
-    "total_farmacia": 30285,
-    "total_geral": 135554,
+    "total_farmacia": 30284,
+    "total_geral": 135553,
     "perto_de_terminar": 44,
     "zerados": 22
   },
@@ -10400,19 +10400,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 40,
-      "farmacia": 930,
+      "farmacia": 929,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 970,
+      "total": 969,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga Almoxerifado",
       "obs": "Importação Almoxerifado",
-      "atualizado_em": "2026-11-05 09:47:27",
+      "atualizado_em": "2026-11-09 11:07:03",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -10426,7 +10426,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 930
+          "quantidade": 929
         }
       ],
       "minimo_manual": 0,
@@ -10434,9 +10434,9 @@
       "previsao_20_dias": 8,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 84,
-      "media_diaria_saida": 0.36,
-      "total_saida_historica": 30,
-      "cobertura_dias": 2716.0,
+      "media_diaria_saida": 0.37,
+      "total_saida_historica": 31,
+      "cobertura_dias": 2625.7,
       "alerta_estoque": false
     },
     {
@@ -17577,6 +17577,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 5850,
+      "item_id": 280,
+      "produto_nome": "Luva M procedimento",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 1,
+      "responsavel": "Assucena",
+      "data": "2026-11-07",
+      "obs": "",
+      "criado_em": "2026-11-09 11:07:03",
+      "item": "Luva M procedimento",
+      "usuario": "Assucena"
+    },
     {
       "id": 5849,
       "item_id": 220,
@@ -25060,21 +25075,6 @@
       "obs": "",
       "criado_em": "2026-10-29 16:47:19",
       "item": "Lençol descartável papel",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 5350,
-      "item_id": 200,
-      "produto_nome": "Caixa de perfurocortante",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 1,
-      "responsavel": "Leiliana",
-      "data": "2026-10-29",
-      "obs": "",
-      "criado_em": "2026-10-29 16:47:08",
-      "item": "Caixa de perfurocortante",
       "usuario": "Leiliana"
     }
   ]
