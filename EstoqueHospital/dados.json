@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "09/11/2026 11:16:33",
+  "atualizado_em": "09/11/2026 11:16:42",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
     "total_almoxarifado": 104539,
-    "total_farmacia": 30351,
-    "total_geral": 134890,
+    "total_farmacia": 30341,
+    "total_geral": 134880,
     "perto_de_terminar": 48,
     "zerados": 25
   },
@@ -7317,19 +7317,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 384,
-      "farmacia": 38,
+      "farmacia": 28,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 422,
+      "total": 412,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-05 09:47:27",
+      "atualizado_em": "2026-11-09 11:16:40",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -7343,17 +7343,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 38
+          "quantidade": 28
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 3,
-      "previsao_20_dias": 3,
+      "minimo_alerta": 5,
+      "previsao_20_dias": 5,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 84,
-      "media_diaria_saida": 0.12,
-      "total_saida_historica": 10,
-      "cobertura_dias": 3544.8,
+      "media_diaria_saida": 0.24,
+      "total_saida_historica": 20,
+      "cobertura_dias": 1730.4,
       "alerta_estoque": false
     },
     {
@@ -17552,6 +17552,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 5889,
+      "item_id": 317,
+      "produto_nome": "Fio Nylon nº 2",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 10,
+      "responsavel": "Assucena",
+      "data": "2026-11-08",
+      "obs": "",
+      "criado_em": "2026-11-09 11:16:40",
+      "item": "Fio Nylon nº 2",
+      "usuario": "Assucena"
+    },
+    {
       "id": 5888,
       "item_id": 278,
       "produto_nome": "Luva de vinil P",
@@ -25034,21 +25049,6 @@
       "obs": "",
       "criado_em": "2026-11-03 13:51:29",
       "item": "Ceftriaxona 1g",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 5389,
-      "item_id": 157,
-      "produto_nome": "Seringa 1ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 30,
-      "responsavel": "Leiliana",
-      "data": "2026-11-03",
-      "obs": "",
-      "criado_em": "2026-11-03 13:51:18",
-      "item": "Seringa 1ml",
       "usuario": "Leiliana"
     }
   ]
