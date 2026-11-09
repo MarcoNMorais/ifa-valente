@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "09/11/2026 11:11:07",
+  "atualizado_em": "09/11/2026 11:11:14",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
     "total_almoxarifado": 104739,
-    "total_farmacia": 30473,
-    "total_geral": 135212,
+    "total_farmacia": 30472,
+    "total_geral": 135211,
     "perto_de_terminar": 45,
     "zerados": 23
   },
@@ -9363,19 +9363,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 50,
-      "farmacia": 31,
+      "farmacia": 30,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 81,
+      "total": 80,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-06 13:37:35",
+      "atualizado_em": "2026-11-09 11:11:11",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -9389,7 +9389,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 31
+          "quantidade": 30
         }
       ],
       "minimo_manual": 0,
@@ -9397,8 +9397,8 @@
       "previsao_20_dias": 1488,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 89,
-      "media_diaria_saida": 74.37,
-      "total_saida_historica": 6619,
+      "media_diaria_saida": 74.38,
+      "total_saida_historica": 6620,
       "cobertura_dias": 1.1,
       "alerta_estoque": true
     },
@@ -17572,6 +17572,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 5873,
+      "item_id": 194,
+      "produto_nome": "Lanceta de segurança",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 1,
+      "responsavel": "Assucena",
+      "data": "2026-11-07",
+      "obs": "",
+      "criado_em": "2026-11-09 11:11:11",
+      "item": "Lanceta de segurança",
+      "usuario": "Assucena"
+    },
+    {
       "id": 5872,
       "item_id": 329,
       "produto_nome": "Polifix",
@@ -25054,21 +25069,6 @@
       "obs": "",
       "criado_em": "2026-11-03 13:48:26",
       "item": "Gelco nº 24",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 5373,
-      "item_id": 177,
-      "produto_nome": "Gelco nº 22",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 30,
-      "responsavel": "Leiliana",
-      "data": "2026-11-03",
-      "obs": "",
-      "criado_em": "2026-11-03 13:48:16",
-      "item": "Gelco nº 22",
       "usuario": "Leiliana"
     }
   ]
