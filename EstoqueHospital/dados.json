@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "09/11/2026 11:09:55",
+  "atualizado_em": "09/11/2026 11:10:02",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
     "total_almoxarifado": 104819,
-    "total_farmacia": 30470,
-    "total_geral": 135289,
+    "total_farmacia": 30467,
+    "total_geral": 135286,
     "perto_de_terminar": 45,
     "zerados": 23
   },
@@ -3482,19 +3482,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 80,
+      "farmacia": 77,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 80,
+      "total": 77,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-06 15:57:39",
+      "atualizado_em": "2026-11-09 11:09:59",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -3502,7 +3502,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 80
+          "quantidade": 77
         }
       ],
       "minimo_manual": 0,
@@ -3510,9 +3510,9 @@
       "previsao_20_dias": 306,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 89,
-      "media_diaria_saida": 15.26,
-      "total_saida_historica": 1358,
-      "cobertura_dias": 5.2,
+      "media_diaria_saida": 15.29,
+      "total_saida_historica": 1361,
+      "cobertura_dias": 5.0,
       "alerta_estoque": true
     },
     {
@@ -17572,6 +17572,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 5865,
+      "item_id": 59,
+      "produto_nome": "Ceftriaxona 1g",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 3,
+      "responsavel": "Assucena",
+      "data": "2026-11-07",
+      "obs": "",
+      "criado_em": "2026-11-09 11:09:59",
+      "item": "Ceftriaxona 1g",
+      "usuario": "Assucena"
+    },
+    {
       "id": 5864,
       "item_id": 138,
       "produto_nome": "Captopril 25mg CPR",
@@ -25053,21 +25068,6 @@
       "data": "2026-11-03",
       "obs": "",
       "criado_em": "2026-11-03 13:46:58",
-      "item": "Soro fisiológico 250ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 5365,
-      "item_id": 203,
-      "produto_nome": "Soro fisiológico 250ml",
-      "tipo": "Almoxarifado para Farmácia",
-      "origem": "Almoxarifado",
-      "destino": "Farmácia",
-      "quantidade": 130,
-      "responsavel": "Leiliana",
-      "data": "2026-11-03",
-      "obs": "",
-      "criado_em": "2026-11-03 13:46:32",
       "item": "Soro fisiológico 250ml",
       "usuario": "Leiliana"
     }
