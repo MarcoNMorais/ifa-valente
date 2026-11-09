@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "09/11/2026 16:44:16",
+  "atualizado_em": "09/11/2026 16:44:33",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
     "total_almoxarifado": 103088,
-    "total_farmacia": 30347,
-    "total_geral": 133435,
+    "total_farmacia": 30345,
+    "total_geral": 133433,
     "perto_de_terminar": 48,
     "zerados": 26
   },
@@ -6648,28 +6648,22 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 70,
-      "farmacia": 2,
+      "farmacia": 0,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 72,
+      "total": 70,
       "minimo": 0,
-      "validade": "08/27",
+      "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-09 15:43:11",
-      "validade_mais_proxima": "08/27",
-      "vencimento_mais_proximo": "08/27",
+      "atualizado_em": "2026-11-09 16:44:32",
+      "validade_mais_proxima": "",
+      "vencimento_mais_proximo": "",
       "lotes_validade": [
-        {
-          "local": "farmacia",
-          "validade": "08/27",
-          "lote": "",
-          "quantidade": 2
-        },
         {
           "local": "almoxarifado",
           "validade": "",
@@ -6682,9 +6676,9 @@
       "previsao_20_dias": 91,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 88,
-      "media_diaria_saida": 4.52,
-      "total_saida_historica": 398,
-      "cobertura_dias": 15.9,
+      "media_diaria_saida": 4.55,
+      "total_saida_historica": 400,
+      "cobertura_dias": 15.4,
       "alerta_estoque": true
     },
     {
@@ -17546,6 +17540,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 5967,
+      "item_id": 230,
+      "produto_nome": "Ferropurum 20mg/ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 2,
+      "responsavel": "Leiliana",
+      "data": "2026-11-09",
+      "obs": "",
+      "criado_em": "2026-11-09 16:44:32",
+      "item": "Ferropurum 20mg/ml",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 5966,
       "item_id": 203,
       "produto_nome": "Soro fisiológico 250ml",
@@ -25028,21 +25037,6 @@
       "obs": "",
       "criado_em": "2026-11-03 14:09:38",
       "item": "Simeticona gotas",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 5467,
-      "item_id": 274,
-      "produto_nome": "Seringa 20ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 20,
-      "responsavel": "Leiliana",
-      "data": "2026-11-03",
-      "obs": "",
-      "criado_em": "2026-11-03 14:09:30",
-      "item": "Seringa 20ml",
       "usuario": "Leiliana"
     }
   ]
