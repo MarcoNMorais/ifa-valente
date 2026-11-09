@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "09/11/2026 16:48:19",
+  "atualizado_em": "09/11/2026 16:48:27",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
     "total_almoxarifado": 103038,
-    "total_farmacia": 30030,
-    "total_geral": 133068,
+    "total_farmacia": 30005,
+    "total_geral": 133043,
     "perto_de_terminar": 48,
     "zerados": 26
   },
@@ -5829,19 +5829,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 1706,
-      "farmacia": 200,
+      "farmacia": 175,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1906,
+      "total": 1881,
       "minimo": 300,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-09 15:43:11",
+      "atualizado_em": "2026-11-09 16:48:25",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -5855,17 +5855,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 225
+          "quantidade": 200
         }
       ],
       "minimo_manual": 300,
-      "minimo_alerta": 623,
-      "previsao_20_dias": 623,
+      "minimo_alerta": 628,
+      "previsao_20_dias": 628,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 89,
-      "media_diaria_saida": 31.11,
-      "total_saida_historica": 2769,
-      "cobertura_dias": 61.3,
+      "media_diaria_saida": 31.39,
+      "total_saida_historica": 2794,
+      "cobertura_dias": 59.9,
       "alerta_estoque": false
     },
     {
@@ -17540,6 +17540,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 5988,
+      "item_id": 220,
+      "produto_nome": "Equipo macrogotas",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 25,
+      "responsavel": "Leiliana",
+      "data": "2026-11-09",
+      "obs": "",
+      "criado_em": "2026-11-09 16:48:25",
+      "item": "Equipo macrogotas",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 5987,
       "item_id": 104,
       "produto_nome": "Seringa 3ml",
@@ -25022,21 +25037,6 @@
       "obs": "",
       "criado_em": "2026-11-03 14:15:07",
       "item": "Scalp nº 21",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 5488,
-      "item_id": 199,
-      "produto_nome": "Lençol descartável papel",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 4,
-      "responsavel": "Leiliana",
-      "data": "2026-11-03",
-      "obs": "",
-      "criado_em": "2026-11-03 14:14:50",
-      "item": "Lençol descartável papel",
       "usuario": "Leiliana"
     }
   ]
