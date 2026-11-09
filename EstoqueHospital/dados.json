@@ -1,12 +1,12 @@
 {
-  "atualizado_em": "09/11/2026 11:11:56",
+  "atualizado_em": "09/11/2026 11:12:03",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
     "total_almoxarifado": 104739,
-    "total_farmacia": 30411,
-    "total_geral": 135150,
-    "perto_de_terminar": 45,
+    "total_farmacia": 30407,
+    "total_geral": 135146,
+    "perto_de_terminar": 46,
     "zerados": 23
   },
   "itens": [
@@ -13520,19 +13520,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 22,
+      "farmacia": 18,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 22,
+      "total": 18,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-06 13:39:11",
+      "atualizado_em": "2026-11-09 11:12:00",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -13540,18 +13540,18 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 22
+          "quantidade": 18
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 21,
-      "previsao_20_dias": 21,
+      "minimo_alerta": 22,
+      "previsao_20_dias": 22,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 88,
-      "media_diaria_saida": 1.02,
-      "total_saida_historica": 90,
-      "cobertura_dias": 21.5,
-      "alerta_estoque": false
+      "media_diaria_saida": 1.07,
+      "total_saida_historica": 94,
+      "cobertura_dias": 16.9,
+      "alerta_estoque": true
     },
     {
       "id": 128,
@@ -17571,6 +17571,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 5878,
+      "item_id": 256,
+      "produto_nome": "Simeticona gotas",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 4,
+      "responsavel": "Assucena",
+      "data": "2026-11-07",
+      "obs": "",
+      "criado_em": "2026-11-09 11:12:00",
+      "item": "Simeticona gotas",
+      "usuario": "Assucena"
+    },
     {
       "id": 5877,
       "item_id": 151,
@@ -25054,21 +25069,6 @@
       "obs": "",
       "criado_em": "2026-11-03 13:49:31",
       "item": "Polifix",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 5378,
-      "item_id": 199,
-      "produto_nome": "Lençol descartável papel",
-      "tipo": "Almoxarifado para Farmácia",
-      "origem": "Almoxarifado",
-      "destino": "Farmácia",
-      "quantidade": 19,
-      "responsavel": "Leiliana",
-      "data": "2026-11-03",
-      "obs": "",
-      "criado_em": "2026-11-03 13:49:16",
-      "item": "Lençol descartável papel",
       "usuario": "Leiliana"
     }
   ]
