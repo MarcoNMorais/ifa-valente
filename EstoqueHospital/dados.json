@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "09/11/2026 16:48:00",
+  "atualizado_em": "09/11/2026 16:48:09",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
     "total_almoxarifado": 103038,
-    "total_farmacia": 30090,
-    "total_geral": 133128,
+    "total_farmacia": 30050,
+    "total_geral": 133088,
     "perto_de_terminar": 48,
     "zerados": 26
   },
@@ -13322,19 +13322,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 5250,
-      "farmacia": 565,
+      "farmacia": 525,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 5815,
+      "total": 5775,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-09 15:43:11",
+      "atualizado_em": "2026-11-09 16:48:08",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -13348,17 +13348,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 610
+          "quantidade": 570
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 1147,
-      "previsao_20_dias": 1147,
+      "minimo_alerta": 1156,
+      "previsao_20_dias": 1156,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 89,
-      "media_diaria_saida": 57.3,
-      "total_saida_historica": 5100,
-      "cobertura_dias": 101.5,
+      "media_diaria_saida": 57.75,
+      "total_saida_historica": 5140,
+      "cobertura_dias": 100.0,
       "alerta_estoque": false
     },
     {
@@ -17539,6 +17539,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 5986,
+      "item_id": 102,
+      "produto_nome": "Seringa 5ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 40,
+      "responsavel": "Leiliana",
+      "data": "2026-11-09",
+      "obs": "",
+      "criado_em": "2026-11-09 16:48:08",
+      "item": "Seringa 5ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 5985,
       "item_id": 103,
@@ -25022,21 +25037,6 @@
       "obs": "",
       "criado_em": "2026-11-03 14:14:41",
       "item": "Lençol descartável papel",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 5486,
-      "item_id": 279,
-      "produto_nome": "Luva de vinil G",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 1,
-      "responsavel": "Leiliana",
-      "data": "2026-11-03",
-      "obs": "",
-      "criado_em": "2026-11-03 14:14:15",
-      "item": "Luva de vinil G",
       "usuario": "Leiliana"
     }
   ]
