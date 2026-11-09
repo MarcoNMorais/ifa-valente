@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "09/11/2026 11:07:31",
+  "atualizado_em": "09/11/2026 11:07:40",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
     "total_almoxarifado": 105269,
-    "total_farmacia": 30213,
-    "total_geral": 135482,
+    "total_farmacia": 30183,
+    "total_geral": 135452,
     "perto_de_terminar": 44,
     "zerados": 22
   },
@@ -13354,19 +13354,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 5250,
-      "farmacia": 675,
+      "farmacia": 645,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 5925,
+      "total": 5895,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-06 15:59:29",
+      "atualizado_em": "2026-11-09 11:07:39",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -13380,17 +13380,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 720
+          "quantidade": 690
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 1122,
-      "previsao_20_dias": 1122,
+      "minimo_alerta": 1129,
+      "previsao_20_dias": 1129,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 89,
-      "media_diaria_saida": 56.07,
-      "total_saida_historica": 4990,
-      "cobertura_dias": 105.7,
+      "media_diaria_saida": 56.4,
+      "total_saida_historica": 5020,
+      "cobertura_dias": 104.5,
       "alerta_estoque": false
     },
     {
@@ -17577,6 +17577,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 5854,
+      "item_id": 102,
+      "produto_nome": "Seringa 5ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 30,
+      "responsavel": "Assucena",
+      "data": "2026-11-07",
+      "obs": "",
+      "criado_em": "2026-11-09 11:07:39",
+      "item": "Seringa 5ml",
+      "usuario": "Assucena"
+    },
     {
       "id": 5853,
       "item_id": 103,
@@ -25060,21 +25075,6 @@
       "obs": "",
       "criado_em": "2026-10-29 16:48:07",
       "item": "Lidocaína",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 5354,
-      "item_id": 228,
-      "produto_nome": "Omeprazol sódico 40mg AMP",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 4,
-      "responsavel": "Leiliana",
-      "data": "2026-10-29",
-      "obs": "",
-      "criado_em": "2026-10-29 16:47:50",
-      "item": "Omeprazol sódico 40mg AMP",
       "usuario": "Leiliana"
     }
   ]
