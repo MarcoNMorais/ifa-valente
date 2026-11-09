@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "09/11/2026 11:09:34",
+  "atualizado_em": "09/11/2026 11:09:44",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
-    "total_almoxarifado": 105269,
-    "total_farmacia": 30040,
+    "total_almoxarifado": 104819,
+    "total_farmacia": 30490,
     "total_geral": 135309,
     "perto_de_terminar": 45,
     "zerados": 23
@@ -12442,8 +12442,8 @@
       "nome": "Paracetamol 500mg",
       "tipo": "Medicamento",
       "unidade": "Unidade",
-      "almoxarifado": 450,
-      "farmacia": 0,
+      "almoxarifado": 0,
+      "farmacia": 450,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -12455,12 +12455,12 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-09 11:09:33",
+      "atualizado_em": "2026-11-09 11:09:42",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
         {
-          "local": "almoxarifado",
+          "local": "farmacia",
           "validade": "",
           "lote": "",
           "quantidade": 450
@@ -17899,6 +17899,21 @@
       "obs": "",
       "criado_em": "2026-11-09 11:05:52",
       "item": "Lençol descartável papel",
+      "usuario": "Assucena"
+    },
+    {
+      "id": 5863,
+      "item_id": 27,
+      "produto_nome": "Paracetamol 500mg",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 450,
+      "responsavel": "Assucena",
+      "data": "2026-11-06",
+      "obs": "",
+      "criado_em": "2026-11-09 11:09:42",
+      "item": "Paracetamol 500mg",
       "usuario": "Assucena"
     },
     {
@@ -25054,21 +25069,6 @@
       "obs": "",
       "criado_em": "2026-10-29 16:50:19",
       "item": "Atadura crepon nº 20",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 5363,
-      "item_id": 194,
-      "produto_nome": "Lanceta de segurança",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 1,
-      "responsavel": "Leiliana",
-      "data": "2026-10-29",
-      "obs": "",
-      "criado_em": "2026-10-29 16:50:09",
-      "item": "Lanceta de segurança",
       "usuario": "Leiliana"
     }
   ]
