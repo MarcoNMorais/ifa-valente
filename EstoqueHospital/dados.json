@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "09/11/2026 11:20:52",
+  "atualizado_em": "09/11/2026 11:21:40",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
     "total_almoxarifado": 104421,
-    "total_farmacia": 29904,
-    "total_geral": 134325,
+    "total_farmacia": 29874,
+    "total_geral": 134295,
     "perto_de_terminar": 48,
     "zerados": 25
   },
@@ -5114,19 +5114,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 550,
+      "farmacia": 520,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 550,
+      "total": 520,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-09 11:18:16",
+      "atualizado_em": "2026-11-09 11:21:38",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -5134,17 +5134,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 630
+          "quantidade": 600
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 884,
-      "previsao_20_dias": 884,
+      "minimo_alerta": 890,
+      "previsao_20_dias": 890,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 89,
-      "media_diaria_saida": 44.16,
-      "total_saida_historica": 3930,
-      "cobertura_dias": 12.5,
+      "media_diaria_saida": 44.49,
+      "total_saida_historica": 3960,
+      "cobertura_dias": 11.7,
       "alerta_estoque": true
     },
     {
@@ -17558,6 +17558,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 5915,
+      "item_id": 70,
+      "produto_nome": "Dipirona",
+      "tipo": "Farmácia para Posto de Internamento",
+      "origem": "Farmácia",
+      "destino": "Posto de Internamento",
+      "quantidade": 30,
+      "responsavel": "Assucena",
+      "data": "2026-11-09",
+      "obs": "",
+      "criado_em": "2026-11-09 11:21:38",
+      "item": "Dipirona",
+      "usuario": "Assucena"
+    },
+    {
       "id": 5914,
       "item_id": 241,
       "produto_nome": "Lactulose solução",
@@ -25040,21 +25055,6 @@
       "obs": "",
       "criado_em": "2026-11-03 13:57:06",
       "item": "Soro glicose 5% 250ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 5415,
-      "item_id": 203,
-      "produto_nome": "Soro fisiológico 250ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 48,
-      "responsavel": "Leiliana",
-      "data": "2026-11-03",
-      "obs": "",
-      "criado_em": "2026-11-03 13:56:56",
-      "item": "Soro fisiológico 250ml",
       "usuario": "Leiliana"
     }
   ]
