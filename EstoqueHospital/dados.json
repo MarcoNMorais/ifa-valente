@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "09/11/2026 16:49:29",
+  "atualizado_em": "09/11/2026 16:49:40",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
     "total_almoxarifado": 103035,
-    "total_farmacia": 30001,
-    "total_geral": 133036,
+    "total_farmacia": 29999,
+    "total_geral": 133034,
     "perto_de_terminar": 48,
     "zerados": 26
   },
@@ -6080,19 +6080,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 304,
-      "farmacia": 31,
+      "farmacia": 29,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 335,
+      "total": 333,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-09 15:43:11",
+      "atualizado_em": "2026-11-09 16:49:38",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -6106,7 +6106,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 33
+          "quantidade": 31
         }
       ],
       "minimo_manual": 0,
@@ -6114,9 +6114,9 @@
       "previsao_20_dias": 48,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 84,
-      "media_diaria_saida": 2.37,
-      "total_saida_historica": 199,
-      "cobertura_dias": 141.4,
+      "media_diaria_saida": 2.39,
+      "total_saida_historica": 201,
+      "cobertura_dias": 139.2,
       "alerta_estoque": false
     },
     {
@@ -17540,6 +17540,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 5993,
+      "item_id": 276,
+      "produto_nome": "Esparadrapo 10x4,5",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 2,
+      "responsavel": "Leiliana",
+      "data": "2026-11-09",
+      "obs": "",
+      "criado_em": "2026-11-09 16:49:38",
+      "item": "Esparadrapo 10x4,5",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 5992,
       "item_id": 200,
       "produto_nome": "Caixa de perfurocortante",
@@ -25022,21 +25037,6 @@
       "obs": "",
       "criado_em": "2026-11-03 14:16:12",
       "item": "Dispositivo intravenoso Gelco nº 16",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 5493,
-      "item_id": 390,
-      "produto_nome": "AGULHA  40X1,2",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 100,
-      "responsavel": "Leiliana",
-      "data": "2026-11-03",
-      "obs": "",
-      "criado_em": "2026-11-03 14:15:58",
-      "item": "AGULHA  40X1,2",
       "usuario": "Leiliana"
     }
   ]
