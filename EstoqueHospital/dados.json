@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "09/11/2026 11:20:26",
+  "atualizado_em": "09/11/2026 11:20:36",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
     "total_almoxarifado": 104421,
-    "total_farmacia": 29917,
-    "total_geral": 134338,
+    "total_farmacia": 29907,
+    "total_geral": 134328,
     "perto_de_terminar": 48,
     "zerados": 25
   },
@@ -15956,19 +15956,19 @@
       "tipo": "Insumo",
       "unidade": "Unidade",
       "almoxarifado": 33,
-      "farmacia": 16,
+      "farmacia": 6,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 49,
+      "total": 39,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-05 09:52:16",
+      "atualizado_em": "2026-11-09 11:20:34",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -15982,17 +15982,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 26
+          "quantidade": 16
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 32,
-      "previsao_20_dias": 32,
+      "minimo_alerta": 34,
+      "previsao_20_dias": 34,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 89,
-      "media_diaria_saida": 1.58,
-      "total_saida_historica": 141,
-      "cobertura_dias": 30.9,
+      "media_diaria_saida": 1.7,
+      "total_saida_historica": 151,
+      "cobertura_dias": 23.0,
       "alerta_estoque": false
     },
     {
@@ -17557,6 +17557,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 5912,
+      "item_id": 205,
+      "produto_nome": "Soro glicose 5% 500ml",
+      "tipo": "Farmácia para Posto de Internamento",
+      "origem": "Farmácia",
+      "destino": "Posto de Internamento",
+      "quantidade": 10,
+      "responsavel": "Assucena",
+      "data": "2026-11-08",
+      "obs": "",
+      "criado_em": "2026-11-09 11:20:34",
+      "item": "Soro glicose 5% 500ml",
+      "usuario": "Assucena"
+    },
     {
       "id": 5911,
       "item_id": 206,
@@ -25040,21 +25055,6 @@
       "obs": "",
       "criado_em": "2026-11-03 13:56:27",
       "item": "Caixa de perfurocortante",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 5412,
-      "item_id": 220,
-      "produto_nome": "Equipo macrogotas",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 50,
-      "responsavel": "Leiliana",
-      "data": "2026-11-03",
-      "obs": "",
-      "criado_em": "2026-11-03 13:56:18",
-      "item": "Equipo macrogotas",
       "usuario": "Leiliana"
     }
   ]
