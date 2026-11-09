@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "09/11/2026 16:43:51",
+  "atualizado_em": "09/11/2026 16:44:04",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
-    "total_almoxarifado": 103197,
-    "total_farmacia": 30347,
+    "total_almoxarifado": 103088,
+    "total_farmacia": 30456,
     "total_geral": 133544,
     "perto_de_terminar": 48,
     "zerados": 25
@@ -15765,8 +15765,8 @@
       "nome": "Soro fisiológico 250ml",
       "tipo": "Insumo",
       "unidade": "Unidade",
-      "almoxarifado": 109,
-      "farmacia": 0,
+      "almoxarifado": 0,
+      "farmacia": 109,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -15778,21 +15778,15 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-09 16:43:49",
+      "atualizado_em": "2026-11-09 16:44:02",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
         {
-          "local": "almoxarifado",
-          "validade": "",
-          "lote": "",
-          "quantidade": 109
-        },
-        {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 48
+          "quantidade": 157
         }
       ],
       "minimo_manual": 0,
@@ -17551,6 +17545,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 5965,
+      "item_id": 203,
+      "produto_nome": "Soro fisiológico 250ml",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 109,
+      "responsavel": "Leiliana",
+      "data": "2026-11-09",
+      "obs": "",
+      "criado_em": "2026-11-09 16:44:02",
+      "item": "Soro fisiológico 250ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 5964,
       "item_id": 203,
@@ -25034,21 +25043,6 @@
       "obs": "",
       "criado_em": "2026-11-03 14:09:18",
       "item": "Seringa 10ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 5465,
-      "item_id": 194,
-      "produto_nome": "Lanceta de segurança",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 1,
-      "responsavel": "Leiliana",
-      "data": "2026-11-03",
-      "obs": "",
-      "criado_em": "2026-11-03 14:09:04",
-      "item": "Lanceta de segurança",
       "usuario": "Leiliana"
     }
   ]
