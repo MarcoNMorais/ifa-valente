@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "09/11/2026 11:10:44",
+  "atualizado_em": "09/11/2026 11:10:56",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
-    "total_almoxarifado": 104819,
-    "total_farmacia": 30413,
+    "total_almoxarifado": 104739,
+    "total_farmacia": 30493,
     "total_geral": 135232,
     "perto_de_terminar": 45,
     "zerados": 23
@@ -12562,8 +12562,8 @@
       "nome": "Polifix",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 2720,
-      "farmacia": 0,
+      "almoxarifado": 2640,
+      "farmacia": 80,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -12575,7 +12575,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-09 11:10:43",
+      "atualizado_em": "2026-11-09 11:10:54",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -12583,7 +12583,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 2720
+          "quantidade": 2640
+        },
+        {
+          "local": "farmacia",
+          "validade": "",
+          "lote": "",
+          "quantidade": 80
         }
       ],
       "minimo_manual": 0,
@@ -17998,6 +18004,21 @@
       "obs": "",
       "criado_em": "2026-11-09 11:05:52",
       "item": "Lençol descartável papel",
+      "usuario": "Assucena"
+    },
+    {
+      "id": 5871,
+      "item_id": 329,
+      "produto_nome": "Polifix",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 80,
+      "responsavel": "Assucena",
+      "data": "2026-11-06",
+      "obs": "",
+      "criado_em": "2026-11-09 11:10:54",
+      "item": "Polifix",
       "usuario": "Assucena"
     },
     {
@@ -25048,21 +25069,6 @@
       "obs": "",
       "criado_em": "2026-11-03 13:48:03",
       "item": "Agulha 13x4,5",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 5371,
-      "item_id": 319,
-      "produto_nome": "Agulha 25x7",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 30,
-      "responsavel": "Leiliana",
-      "data": "2026-11-03",
-      "obs": "",
-      "criado_em": "2026-11-03 13:47:51",
-      "item": "Agulha 25x7",
       "usuario": "Leiliana"
     }
   ]
