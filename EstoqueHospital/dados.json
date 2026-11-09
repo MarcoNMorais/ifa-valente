@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "09/11/2026 11:07:24",
+  "atualizado_em": "09/11/2026 11:07:31",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
     "total_almoxarifado": 105269,
-    "total_farmacia": 30243,
-    "total_geral": 135512,
+    "total_farmacia": 30213,
+    "total_geral": 135482,
     "perto_de_terminar": 44,
     "zerados": 22
   },
@@ -13170,19 +13170,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 4300,
-      "farmacia": 586,
+      "farmacia": 556,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 4886,
+      "total": 4856,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-09 11:07:23",
+      "atualizado_em": "2026-11-09 11:07:28",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -13196,17 +13196,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 646
+          "quantidade": 616
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 1357,
-      "previsao_20_dias": 1357,
+      "minimo_alerta": 1364,
+      "previsao_20_dias": 1364,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 89,
-      "media_diaria_saida": 67.84,
-      "total_saida_historica": 6038,
-      "cobertura_dias": 72.0,
+      "media_diaria_saida": 68.18,
+      "total_saida_historica": 6068,
+      "cobertura_dias": 71.2,
       "alerta_estoque": false
     },
     {
@@ -17577,6 +17577,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 5853,
+      "item_id": 103,
+      "produto_nome": "Seringa 10ml",
+      "tipo": "Farmácia para Posto de Internamento",
+      "origem": "Farmácia",
+      "destino": "Posto de Internamento",
+      "quantidade": 30,
+      "responsavel": "Assucena",
+      "data": "2026-11-07",
+      "obs": "",
+      "criado_em": "2026-11-09 11:07:28",
+      "item": "Seringa 10ml",
+      "usuario": "Assucena"
+    },
     {
       "id": 5852,
       "item_id": 103,
@@ -25060,21 +25075,6 @@
       "obs": "",
       "criado_em": "2026-10-29 16:47:50",
       "item": "Omeprazol sódico 40mg AMP",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 5353,
-      "item_id": 276,
-      "produto_nome": "Esparadrapo 10x4,5",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 4,
-      "responsavel": "Leiliana",
-      "data": "2026-10-29",
-      "obs": "",
-      "criado_em": "2026-10-29 16:47:39",
-      "item": "Esparadrapo 10x4,5",
       "usuario": "Leiliana"
     }
   ]
