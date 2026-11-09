@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "09/11/2026 11:22:13",
+  "atualizado_em": "09/11/2026 11:22:35",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
     "total_almoxarifado": 104421,
-    "total_farmacia": 29821,
-    "total_geral": 134242,
+    "total_farmacia": 29818,
+    "total_geral": 134239,
     "perto_de_terminar": 48,
     "zerados": 25
   },
@@ -5584,19 +5584,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 142,
+      "farmacia": 140,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 142,
+      "total": 140,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga Farmácia 227-288",
       "obs": "Importação Farmácia 227-288",
-      "atualizado_em": "2026-11-06 13:36:02",
+      "atualizado_em": "2026-11-09 11:22:21",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -5604,7 +5604,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 142
+          "quantidade": 140
         }
       ],
       "minimo_manual": 0,
@@ -5612,9 +5612,9 @@
       "previsao_20_dias": 12,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 84,
-      "media_diaria_saida": 0.57,
-      "total_saida_historica": 48,
-      "cobertura_dias": 248.5,
+      "media_diaria_saida": 0.6,
+      "total_saida_historica": 50,
+      "cobertura_dias": 235.2,
       "alerta_estoque": false
     },
     {
@@ -8865,19 +8865,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 47,
+      "farmacia": 46,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 47,
+      "total": 46,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-05 09:47:27",
+      "atualizado_em": "2026-11-09 11:22:28",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -8885,7 +8885,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 47
+          "quantidade": 46
         }
       ],
       "minimo_manual": 0,
@@ -8893,9 +8893,9 @@
       "previsao_20_dias": 9,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 88,
-      "media_diaria_saida": 0.43,
-      "total_saida_historica": 38,
-      "cobertura_dias": 108.8,
+      "media_diaria_saida": 0.44,
+      "total_saida_historica": 39,
+      "cobertura_dias": 103.8,
       "alerta_estoque": false
     },
     {
@@ -17558,6 +17558,36 @@
   ],
   "movimentacoes": [
     {
+      "id": 5921,
+      "item_id": 255,
+      "produto_nome": "Ibuprofeno gotas",
+      "tipo": "Farmácia para Posto de Internamento",
+      "origem": "Farmácia",
+      "destino": "Posto de Internamento",
+      "quantidade": 1,
+      "responsavel": "Assucena",
+      "data": "2026-11-09",
+      "obs": "",
+      "criado_em": "2026-11-09 11:22:28",
+      "item": "Ibuprofeno gotas",
+      "usuario": "Assucena"
+    },
+    {
+      "id": 5920,
+      "item_id": 226,
+      "produto_nome": "Enoxaparina sódica 40mg",
+      "tipo": "Farmácia para Posto de Internamento",
+      "origem": "Farmácia",
+      "destino": "Posto de Internamento",
+      "quantidade": 2,
+      "responsavel": "Assucena",
+      "data": "2026-11-09",
+      "obs": "",
+      "criado_em": "2026-11-09 11:22:21",
+      "item": "Enoxaparina sódica 40mg",
+      "usuario": "Assucena"
+    },
+    {
       "id": 5919,
       "item_id": 58,
       "produto_nome": "Cefalotina 1000mg",
@@ -25025,36 +25055,6 @@
       "obs": "",
       "criado_em": "2026-11-03 13:58:15",
       "item": "Benzilpenicilina 1.200",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 5421,
-      "item_id": 84,
-      "produto_nome": "Lidocaína",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 3,
-      "responsavel": "Leiliana",
-      "data": "2026-11-03",
-      "obs": "",
-      "criado_em": "2026-11-03 13:58:04",
-      "item": "Lidocaína",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 5420,
-      "item_id": 177,
-      "produto_nome": "Gelco nº 22",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 20,
-      "responsavel": "Leiliana",
-      "data": "2026-11-03",
-      "obs": "",
-      "criado_em": "2026-11-03 13:57:51",
-      "item": "Gelco nº 22",
       "usuario": "Leiliana"
     }
   ]
