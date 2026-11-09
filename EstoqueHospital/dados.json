@@ -1,13 +1,13 @@
 {
-  "atualizado_em": "09/11/2026 11:12:16",
+  "atualizado_em": "09/11/2026 11:12:24",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
     "total_almoxarifado": 104739,
-    "total_farmacia": 30359,
-    "total_geral": 135098,
+    "total_farmacia": 30351,
+    "total_geral": 135090,
     "perto_de_terminar": 47,
-    "zerados": 23
+    "zerados": 24
   },
   "itens": [
     {
@@ -10762,37 +10762,30 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 8,
+      "farmacia": 0,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 8,
+      "total": 0,
       "minimo": 0,
-      "validade": "09/27",
+      "validade": "",
       "lote": "",
       "origem": "Carga Farmácia 227-288",
       "obs": "Importação Farmácia 227-288",
-      "atualizado_em": "2026-11-09 11:12:14",
-      "validade_mais_proxima": "09/27",
-      "vencimento_mais_proximo": "09/27",
-      "lotes_validade": [
-        {
-          "local": "farmacia",
-          "validade": "09/27",
-          "lote": "",
-          "quantidade": 8
-        }
-      ],
+      "atualizado_em": "2026-11-09 11:12:23",
+      "validade_mais_proxima": "",
+      "vencimento_mais_proximo": "",
+      "lotes_validade": [],
       "minimo_manual": 0,
-      "minimo_alerta": 8,
-      "previsao_20_dias": 8,
+      "minimo_alerta": 10,
+      "previsao_20_dias": 10,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 84,
-      "media_diaria_saida": 0.36,
-      "total_saida_historica": 30,
-      "cobertura_dias": 22.4,
+      "media_diaria_saida": 0.45,
+      "total_saida_historica": 38,
+      "cobertura_dias": 0.0,
       "alerta_estoque": true
     },
     {
@@ -17571,6 +17564,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 5881,
+      "item_id": 225,
+      "produto_nome": "Meropenem 1g",
+      "tipo": "Farmácia para Posto de Internamento",
+      "origem": "Farmácia",
+      "destino": "Posto de Internamento",
+      "quantidade": 8,
+      "responsavel": "Assucena",
+      "data": "2026-11-07",
+      "obs": "",
+      "criado_em": "2026-11-09 11:12:23",
+      "item": "Meropenem 1g",
+      "usuario": "Assucena"
+    },
     {
       "id": 5880,
       "item_id": 225,
@@ -25054,21 +25062,6 @@
       "obs": "",
       "criado_em": "2026-11-03 13:50:04",
       "item": "Soro fisiológico 500ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 5381,
-      "item_id": 181,
-      "produto_nome": "Luva de látex tam. M",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 1,
-      "responsavel": "Leiliana",
-      "data": "2026-11-03",
-      "obs": "",
-      "criado_em": "2026-11-03 13:49:53",
-      "item": "Luva de látex tam. M",
       "usuario": "Leiliana"
     }
   ]
