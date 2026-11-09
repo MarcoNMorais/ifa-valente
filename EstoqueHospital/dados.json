@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "09/11/2026 11:15:57",
+  "atualizado_em": "09/11/2026 11:16:07",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
     "total_almoxarifado": 104539,
-    "total_farmacia": 30367,
-    "total_geral": 134906,
+    "total_farmacia": 30365,
+    "total_geral": 134904,
     "perto_de_terminar": 48,
     "zerados": 25
   },
@@ -9449,19 +9449,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 107,
-      "farmacia": 21,
+      "farmacia": 19,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 128,
+      "total": 126,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-09 11:05:52",
+      "atualizado_em": "2026-11-09 11:16:06",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -9475,17 +9475,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 24
+          "quantidade": 22
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 28,
-      "previsao_20_dias": 28,
+      "minimo_alerta": 29,
+      "previsao_20_dias": 29,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 89,
-      "media_diaria_saida": 1.39,
-      "total_saida_historica": 124,
-      "cobertura_dias": 91.9,
+      "media_diaria_saida": 1.42,
+      "total_saida_historica": 126,
+      "cobertura_dias": 89.0,
       "alerta_estoque": false
     },
     {
@@ -17552,6 +17552,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 5885,
+      "item_id": 199,
+      "produto_nome": "Lençol descartável papel",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 2,
+      "responsavel": "Assucena",
+      "data": "2026-11-08",
+      "obs": "",
+      "criado_em": "2026-11-09 11:16:06",
+      "item": "Lençol descartável papel",
+      "usuario": "Assucena"
+    },
+    {
       "id": 5883,
       "item_id": 220,
       "produto_nome": "Equipo macrogotas",
@@ -25034,21 +25049,6 @@
       "obs": "",
       "criado_em": "2026-11-03 13:50:45",
       "item": "AGUA P/ INJ",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 5385,
-      "item_id": 70,
-      "produto_nome": "Dipirona",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 50,
-      "responsavel": "Leiliana",
-      "data": "2026-11-03",
-      "obs": "",
-      "criado_em": "2026-11-03 13:50:34",
-      "item": "Dipirona",
       "usuario": "Leiliana"
     }
   ]
