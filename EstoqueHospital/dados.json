@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "09/11/2026 11:18:41",
+  "atualizado_em": "09/11/2026 11:18:56",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
-    "total_almoxarifado": 104491,
-    "total_farmacia": 30049,
+    "total_almoxarifado": 104421,
+    "total_farmacia": 30119,
     "total_geral": 134540,
     "perto_de_terminar": 48,
     "zerados": 25
@@ -9607,8 +9607,8 @@
       "nome": "LIDOCAINA S/ VASO",
       "tipo": "Medicamento",
       "unidade": "Unidade",
-      "almoxarifado": 70,
-      "farmacia": 0,
+      "almoxarifado": 0,
+      "farmacia": 70,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -9620,12 +9620,12 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-05 09:47:27",
+      "atualizado_em": "2026-11-09 11:18:54",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
         {
-          "local": "almoxarifado",
+          "local": "farmacia",
           "validade": "",
           "lote": "",
           "quantidade": 70
@@ -18428,6 +18428,21 @@
       "usuario": "Assucena"
     },
     {
+      "id": 5903,
+      "item_id": 385,
+      "produto_nome": "LIDOCAINA S/ VASO",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 70,
+      "responsavel": "Assucena",
+      "data": "2026-11-06",
+      "obs": "",
+      "criado_em": "2026-11-09 11:18:54",
+      "item": "LIDOCAINA S/ VASO",
+      "usuario": "Assucena"
+    },
+    {
       "id": 5890,
       "item_id": 393,
       "produto_nome": "NYLON N°3",
@@ -25040,21 +25055,6 @@
       "obs": "",
       "criado_em": "2026-11-03 13:54:24",
       "item": "Seringa 10ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 5403,
-      "item_id": 102,
-      "produto_nome": "Seringa 5ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 90,
-      "responsavel": "Leiliana",
-      "data": "2026-11-03",
-      "obs": "",
-      "criado_em": "2026-11-03 13:54:11",
-      "item": "Seringa 5ml",
       "usuario": "Leiliana"
     }
   ]
