@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "09/11/2026 16:45:20",
+  "atualizado_em": "09/11/2026 16:45:28",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
     "total_almoxarifado": 103088,
-    "total_farmacia": 30305,
-    "total_geral": 133393,
+    "total_farmacia": 30304,
+    "total_geral": 133392,
     "perto_de_terminar": 48,
     "zerados": 26
   },
@@ -12537,19 +12537,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 2640,
-      "farmacia": 50,
+      "farmacia": 49,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 2690,
+      "total": 2689,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-09 15:43:11",
+      "atualizado_em": "2026-11-09 16:45:26",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -12563,7 +12563,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 50
+          "quantidade": 49
         }
       ],
       "minimo_manual": 0,
@@ -12571,9 +12571,9 @@
       "previsao_20_dias": 222,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 84,
-      "media_diaria_saida": 11.07,
-      "total_saida_historica": 930,
-      "cobertura_dias": 243.0,
+      "media_diaria_saida": 11.08,
+      "total_saida_historica": 931,
+      "cobertura_dias": 242.6,
       "alerta_estoque": false
     },
     {
@@ -17539,6 +17539,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 5972,
+      "item_id": 329,
+      "produto_nome": "Polifix",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 1,
+      "responsavel": "Leiliana",
+      "data": "2026-11-09",
+      "obs": "",
+      "criado_em": "2026-11-09 16:45:26",
+      "item": "Polifix",
+      "usuario": "Leiliana"
+    },
     {
       "id": 5971,
       "item_id": 177,
@@ -25022,21 +25037,6 @@
       "obs": "",
       "criado_em": "2026-11-03 14:10:42",
       "item": "Lactulose solução",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 5472,
-      "item_id": 224,
-      "produto_nome": "Meropenem 500mg",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 16,
-      "responsavel": "Leiliana",
-      "data": "2026-11-03",
-      "obs": "",
-      "criado_em": "2026-11-03 14:10:30",
-      "item": "Meropenem 500mg",
       "usuario": "Leiliana"
     }
   ]
