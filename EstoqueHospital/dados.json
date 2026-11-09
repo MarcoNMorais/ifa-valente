@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "09/11/2026 11:29:58",
+  "atualizado_em": "09/11/2026 11:30:11",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
-    "total_almoxarifado": 103357,
-    "total_farmacia": 30380,
+    "total_almoxarifado": 103197,
+    "total_farmacia": 30540,
     "total_geral": 133737,
     "perto_de_terminar": 48,
     "zerados": 25
@@ -3270,8 +3270,8 @@
       "nome": "Cateter tipo óculos adulto",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 160,
-      "farmacia": 3,
+      "almoxarifado": 0,
+      "farmacia": 163,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -3283,21 +3283,15 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-05 09:47:27",
+      "atualizado_em": "2026-11-09 11:30:09",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
         {
-          "local": "almoxarifado",
-          "validade": "",
-          "lote": "",
-          "quantidade": 160
-        },
-        {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 3
+          "quantidade": 163
         }
       ],
       "minimo_manual": 0,
@@ -19163,6 +19157,21 @@
       "usuario": "Assucena"
     },
     {
+      "id": 5962,
+      "item_id": 291,
+      "produto_nome": "Cateter tipo óculos adulto",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 160,
+      "responsavel": "Assucena",
+      "data": "2026-11-06",
+      "obs": "",
+      "criado_em": "2026-11-09 11:30:09",
+      "item": "Cateter tipo óculos adulto",
+      "usuario": "Assucena"
+    },
+    {
       "id": 5949,
       "item_id": 204,
       "produto_nome": "Soro fisiológico 500ml",
@@ -25039,21 +25048,6 @@
       "data": "2026-11-03",
       "obs": "",
       "criado_em": "2026-11-03 14:08:42",
-      "item": "lidocaina c/ vaso",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 5462,
-      "item_id": 418,
-      "produto_nome": "lidocaina c/ vaso",
-      "tipo": "Almoxarifado para Farmácia",
-      "origem": "Almoxarifado",
-      "destino": "Farmácia",
-      "quantidade": 50,
-      "responsavel": "Leiliana",
-      "data": "2026-11-03",
-      "obs": "",
-      "criado_em": "2026-11-03 14:08:33",
       "item": "lidocaina c/ vaso",
       "usuario": "Leiliana"
     }
