@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "09/11/2026 11:20:36",
+  "atualizado_em": "09/11/2026 11:20:45",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
     "total_almoxarifado": 104421,
-    "total_farmacia": 29907,
-    "total_geral": 134328,
+    "total_farmacia": 29906,
+    "total_geral": 134327,
     "perto_de_terminar": 48,
     "zerados": 25
   },
@@ -10400,19 +10400,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 40,
-      "farmacia": 929,
+      "farmacia": 928,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 969,
+      "total": 968,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga Almoxerifado",
       "obs": "Importação Almoxerifado",
-      "atualizado_em": "2026-11-09 11:07:03",
+      "atualizado_em": "2026-11-09 11:20:44",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -10426,7 +10426,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 929
+          "quantidade": 928
         }
       ],
       "minimo_manual": 0,
@@ -10434,9 +10434,9 @@
       "previsao_20_dias": 8,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 84,
-      "media_diaria_saida": 0.37,
-      "total_saida_historica": 31,
-      "cobertura_dias": 2625.7,
+      "media_diaria_saida": 0.38,
+      "total_saida_historica": 32,
+      "cobertura_dias": 2541.0,
       "alerta_estoque": false
     },
     {
@@ -17557,6 +17557,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 5913,
+      "item_id": 280,
+      "produto_nome": "Luva M procedimento",
+      "tipo": "Farmácia para Posto de Internamento",
+      "origem": "Farmácia",
+      "destino": "Posto de Internamento",
+      "quantidade": 1,
+      "responsavel": "Assucena",
+      "data": "2026-11-08",
+      "obs": "",
+      "criado_em": "2026-11-09 11:20:44",
+      "item": "Luva M procedimento",
+      "usuario": "Assucena"
+    },
     {
       "id": 5912,
       "item_id": 205,
@@ -25040,21 +25055,6 @@
       "obs": "",
       "criado_em": "2026-11-03 13:56:48",
       "item": "Soro fisiológico 250ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 5413,
-      "item_id": 200,
-      "produto_nome": "Caixa de perfurocortante",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 1,
-      "responsavel": "Leiliana",
-      "data": "2026-11-03",
-      "obs": "",
-      "criado_em": "2026-11-03 13:56:27",
-      "item": "Caixa de perfurocortante",
       "usuario": "Leiliana"
     }
   ]
