@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "09/11/2026 11:28:59",
+  "atualizado_em": "09/11/2026 11:29:10",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
     "total_almoxarifado": 103357,
-    "total_farmacia": 30476,
-    "total_geral": 133833,
+    "total_farmacia": 30456,
+    "total_geral": 133813,
     "perto_de_terminar": 48,
     "zerados": 25
   },
@@ -13150,19 +13150,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 4300,
-      "farmacia": 516,
+      "farmacia": 496,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 4816,
+      "total": 4796,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-09 11:20:05",
+      "atualizado_em": "2026-11-09 11:29:08",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -13176,17 +13176,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 576
+          "quantidade": 556
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 1373,
-      "previsao_20_dias": 1373,
+      "minimo_alerta": 1378,
+      "previsao_20_dias": 1378,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 89,
-      "media_diaria_saida": 68.63,
-      "total_saida_historica": 6108,
-      "cobertura_dias": 70.2,
+      "media_diaria_saida": 68.85,
+      "total_saida_historica": 6128,
+      "cobertura_dias": 69.7,
       "alerta_estoque": false
     },
     {
@@ -17557,6 +17557,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 5954,
+      "item_id": 103,
+      "produto_nome": "Seringa 10ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 20,
+      "responsavel": "Assucena",
+      "data": "2026-11-09",
+      "obs": "",
+      "criado_em": "2026-11-09 11:29:08",
+      "item": "Seringa 10ml",
+      "usuario": "Assucena"
+    },
     {
       "id": 5953,
       "item_id": 31,
@@ -25040,21 +25055,6 @@
       "obs": "",
       "criado_em": "2026-11-03 14:06:21",
       "item": "Luva cirúrgica tam. 7,5",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 5454,
-      "item_id": 230,
-      "produto_nome": "Ferropurum 20mg/ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 10,
-      "responsavel": "Leiliana",
-      "data": "2026-11-03",
-      "obs": "",
-      "criado_em": "2026-11-03 14:05:30",
-      "item": "Ferropurum 20mg/ml",
       "usuario": "Leiliana"
     }
   ]
