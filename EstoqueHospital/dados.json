@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "09/11/2026 11:10:09",
+  "atualizado_em": "09/11/2026 11:10:16",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
     "total_almoxarifado": 104819,
-    "total_farmacia": 30466,
-    "total_geral": 135285,
+    "total_farmacia": 30465,
+    "total_geral": 135284,
     "perto_de_terminar": 45,
     "zerados": 23
   },
@@ -11053,19 +11053,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 59,
-      "farmacia": 61,
+      "farmacia": 60,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 120,
+      "total": 119,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-05 09:47:27",
+      "atualizado_em": "2026-11-09 11:10:14",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -11079,17 +11079,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 63
+          "quantidade": 62
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 38,
-      "previsao_20_dias": 38,
+      "minimo_alerta": 39,
+      "previsao_20_dias": 39,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 84,
-      "media_diaria_saida": 1.89,
-      "total_saida_historica": 159,
-      "cobertura_dias": 63.4,
+      "media_diaria_saida": 1.9,
+      "total_saida_historica": 160,
+      "cobertura_dias": 62.5,
       "alerta_estoque": false
     },
     {
@@ -17571,6 +17571,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 5867,
+      "item_id": 290,
+      "produto_nome": "Metronidazol 100ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 1,
+      "responsavel": "Assucena",
+      "data": "2026-11-07",
+      "obs": "",
+      "criado_em": "2026-11-09 11:10:14",
+      "item": "Metronidazol 100ml",
+      "usuario": "Assucena"
+    },
     {
       "id": 5866,
       "item_id": 294,
@@ -25054,21 +25069,6 @@
       "obs": "",
       "criado_em": "2026-11-03 13:47:17",
       "item": "AGULHA  40X1,2",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 5367,
-      "item_id": 203,
-      "produto_nome": "Soro fisiológico 250ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 68,
-      "responsavel": "Leiliana",
-      "data": "2026-11-03",
-      "obs": "",
-      "criado_em": "2026-11-03 13:47:03",
-      "item": "Soro fisiológico 250ml",
       "usuario": "Leiliana"
     }
   ]
