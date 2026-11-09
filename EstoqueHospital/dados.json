@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "09/11/2026 11:29:46",
+  "atualizado_em": "09/11/2026 11:29:52",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
     "total_almoxarifado": 103357,
-    "total_farmacia": 30384,
-    "total_geral": 133741,
+    "total_farmacia": 30382,
+    "total_geral": 133739,
     "perto_de_terminar": 48,
     "zerados": 25
   },
@@ -10440,19 +10440,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 50,
-      "farmacia": 1136,
+      "farmacia": 1134,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1186,
+      "total": 1184,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-09 11:07:11",
+      "atualizado_em": "2026-11-09 11:29:49",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -10466,17 +10466,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 1136
+          "quantidade": 1134
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 6,
-      "previsao_20_dias": 6,
+      "minimo_alerta": 7,
+      "previsao_20_dias": 7,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 84,
-      "media_diaria_saida": 0.29,
-      "total_saida_historica": 24,
-      "cobertura_dias": 4151.0,
+      "media_diaria_saida": 0.31,
+      "total_saida_historica": 26,
+      "cobertura_dias": 3825.2,
       "alerta_estoque": false
     },
     {
@@ -17557,6 +17557,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 5960,
+      "item_id": 281,
+      "produto_nome": "Luva P procedimento",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 2,
+      "responsavel": "Assucena",
+      "data": "2026-11-09",
+      "obs": "",
+      "criado_em": "2026-11-09 11:29:49",
+      "item": "Luva P procedimento",
+      "usuario": "Assucena"
+    },
     {
       "id": 5959,
       "item_id": 280,
@@ -25040,21 +25055,6 @@
       "obs": "",
       "criado_em": "2026-11-03 14:08:15",
       "item": "lidocaina c/ vaso",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 5460,
-      "item_id": 84,
-      "produto_nome": "Lidocaína",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 1,
-      "responsavel": "Leiliana",
-      "data": "2026-11-03",
-      "obs": "",
-      "criado_em": "2026-11-03 14:07:15",
-      "item": "Lidocaína",
       "usuario": "Leiliana"
     }
   ]
