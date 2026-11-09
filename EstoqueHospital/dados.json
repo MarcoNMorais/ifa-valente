@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "09/11/2026 11:10:16",
+  "atualizado_em": "09/11/2026 11:10:23",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
     "total_almoxarifado": 104819,
-    "total_farmacia": 30465,
-    "total_geral": 135284,
+    "total_farmacia": 30460,
+    "total_geral": 135279,
     "perto_de_terminar": 45,
     "zerados": 23
   },
@@ -10044,19 +10044,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 270,
-      "farmacia": 17,
+      "farmacia": 12,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 287,
+      "total": 282,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-05 09:47:27",
+      "atualizado_em": "2026-11-09 11:10:22",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -10070,17 +10070,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 17
+          "quantidade": 12
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 26,
-      "previsao_20_dias": 26,
+      "minimo_alerta": 27,
+      "previsao_20_dias": 27,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 89,
-      "media_diaria_saida": 1.27,
-      "total_saida_historica": 113,
-      "cobertura_dias": 226.0,
+      "media_diaria_saida": 1.33,
+      "total_saida_historica": 118,
+      "cobertura_dias": 212.7,
       "alerta_estoque": false
     },
     {
@@ -17572,6 +17572,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 5868,
+      "item_id": 186,
+      "produto_nome": "Luva cirúrgica tam. 8",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 5,
+      "responsavel": "Assucena",
+      "data": "2026-11-07",
+      "obs": "",
+      "criado_em": "2026-11-09 11:10:22",
+      "item": "Luva cirúrgica tam. 8",
+      "usuario": "Assucena"
+    },
+    {
       "id": 5867,
       "item_id": 290,
       "produto_nome": "Metronidazol 100ml",
@@ -25054,21 +25069,6 @@
       "obs": "",
       "criado_em": "2026-11-03 13:47:28",
       "item": "Agulha 30x7",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 5368,
-      "item_id": 390,
-      "produto_nome": "AGULHA  40X1,2",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 140,
-      "responsavel": "Leiliana",
-      "data": "2026-11-03",
-      "obs": "",
-      "criado_em": "2026-11-03 13:47:17",
-      "item": "AGULHA  40X1,2",
       "usuario": "Leiliana"
     }
   ]
