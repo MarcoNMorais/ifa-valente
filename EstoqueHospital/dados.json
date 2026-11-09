@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "09/11/2026 11:18:56",
+  "atualizado_em": "09/11/2026 11:19:12",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
     "total_almoxarifado": 104421,
-    "total_farmacia": 30119,
-    "total_geral": 134540,
+    "total_farmacia": 30116,
+    "total_geral": 134537,
     "perto_de_terminar": 48,
     "zerados": 25
   },
@@ -9688,19 +9688,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 20,
+      "farmacia": 17,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 20,
+      "total": 17,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-06 15:58:25",
+      "atualizado_em": "2026-11-09 11:19:11",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -9708,7 +9708,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 20
+          "quantidade": 17
         }
       ],
       "minimo_manual": 0,
@@ -9716,9 +9716,9 @@
       "previsao_20_dias": 14,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 89,
-      "media_diaria_saida": 0.66,
-      "total_saida_historica": 59,
-      "cobertura_dias": 30.2,
+      "media_diaria_saida": 0.7,
+      "total_saida_historica": 62,
+      "cobertura_dias": 24.4,
       "alerta_estoque": false
     },
     {
@@ -17558,6 +17558,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 5904,
+      "item_id": 84,
+      "produto_nome": "Lidocaína",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 3,
+      "responsavel": "Assucena",
+      "data": "2026-11-08",
+      "obs": "",
+      "criado_em": "2026-11-09 11:19:11",
+      "item": "Lidocaína",
+      "usuario": "Assucena"
+    },
+    {
       "id": 5902,
       "item_id": 203,
       "produto_nome": "Soro fisiológico 250ml",
@@ -25040,21 +25055,6 @@
       "obs": "",
       "criado_em": "2026-11-03 13:54:37",
       "item": "Seringa 20ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 5404,
-      "item_id": 103,
-      "produto_nome": "Seringa 10ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 100,
-      "responsavel": "Leiliana",
-      "data": "2026-11-03",
-      "obs": "",
-      "criado_em": "2026-11-03 13:54:24",
-      "item": "Seringa 10ml",
       "usuario": "Leiliana"
     }
   ]
