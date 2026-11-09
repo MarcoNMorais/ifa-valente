@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "09/11/2026 11:08:52",
+  "atualizado_em": "09/11/2026 11:09:07",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
     "total_almoxarifado": 105269,
-    "total_farmacia": 30072,
-    "total_geral": 135341,
+    "total_farmacia": 30067,
+    "total_geral": 135336,
     "perto_de_terminar": 45,
     "zerados": 23
   },
@@ -4213,19 +4213,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 22,
+      "farmacia": 17,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 22,
+      "total": 17,
       "minimo": 0,
       "validade": "2027-02",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-11-05 09:47:27",
+      "atualizado_em": "2026-11-09 11:09:05",
       "validade_mais_proxima": "2027-02",
       "vencimento_mais_proximo": "2027-02",
       "lotes_validade": [
@@ -4233,7 +4233,7 @@
           "local": "farmacia",
           "validade": "2027-02",
           "lote": "",
-          "quantidade": 12
+          "quantidade": 7
         },
         {
           "local": "farmacia",
@@ -4243,13 +4243,13 @@
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 7,
-      "previsao_20_dias": 7,
+      "minimo_alerta": 9,
+      "previsao_20_dias": 9,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 89,
-      "media_diaria_saida": 0.35,
-      "total_saida_historica": 31,
-      "cobertura_dias": 63.2,
+      "media_diaria_saida": 0.4,
+      "total_saida_historica": 36,
+      "cobertura_dias": 42.0,
       "alerta_estoque": false
     },
     {
@@ -17578,6 +17578,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 5859,
+      "item_id": 2,
+      "produto_nome": "Cloridrato de clorpromazina 25mg",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 5,
+      "responsavel": "Assucena",
+      "data": "2026-11-07",
+      "obs": "",
+      "criado_em": "2026-11-09 11:09:05",
+      "item": "Cloridrato de clorpromazina 25mg",
+      "usuario": "Assucena"
+    },
+    {
       "id": 5858,
       "item_id": 21,
       "produto_nome": "Clonazepam gotas 25mg/ml",
@@ -25060,21 +25075,6 @@
       "obs": "",
       "criado_em": "2026-10-29 16:49:33",
       "item": "Tira Reagente G-Tech",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 5359,
-      "item_id": 201,
-      "produto_nome": "Soro Ringer Lactato 500ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 4,
-      "responsavel": "Leiliana",
-      "data": "2026-10-29",
-      "obs": "",
-      "criado_em": "2026-10-29 16:49:23",
-      "item": "Soro Ringer Lactato 500ml",
       "usuario": "Leiliana"
     }
   ]
