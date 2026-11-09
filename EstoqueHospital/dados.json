@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "09/11/2026 11:26:54",
+  "atualizado_em": "09/11/2026 11:27:00",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
     "total_almoxarifado": 103477,
-    "total_farmacia": 30478,
-    "total_geral": 133955,
+    "total_farmacia": 30473,
+    "total_geral": 133950,
     "perto_de_terminar": 48,
     "zerados": 25
   },
@@ -7151,19 +7151,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 672,
-      "farmacia": 91,
+      "farmacia": 86,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 763,
+      "total": 758,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-05 09:47:27",
+      "atualizado_em": "2026-11-09 11:26:58",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -7177,17 +7177,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 91
+          "quantidade": 86
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 7,
-      "previsao_20_dias": 7,
+      "minimo_alerta": 9,
+      "previsao_20_dias": 9,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 84,
-      "media_diaria_saida": 0.35,
-      "total_saida_historica": 29,
-      "cobertura_dias": 2210.1,
+      "media_diaria_saida": 0.4,
+      "total_saida_historica": 34,
+      "cobertura_dias": 1872.7,
       "alerta_estoque": false
     },
     {
@@ -17558,6 +17558,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 5945,
+      "item_id": 324,
+      "produto_nome": "Fio categute nº 3",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 5,
+      "responsavel": "Assucena",
+      "data": "2026-11-09",
+      "obs": "",
+      "criado_em": "2026-11-09 11:26:58",
+      "item": "Fio categute nº 3",
+      "usuario": "Assucena"
+    },
+    {
       "id": 5944,
       "item_id": 331,
       "produto_nome": "Agulha 30x8",
@@ -25040,21 +25055,6 @@
       "obs": "",
       "criado_em": "2026-11-03 14:03:11",
       "item": "AGULHA  40X1,2",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 5445,
-      "item_id": 204,
-      "produto_nome": "Soro fisiológico 500ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 12,
-      "responsavel": "Leiliana",
-      "data": "2026-11-03",
-      "obs": "",
-      "criado_em": "2026-11-03 14:03:01",
-      "item": "Soro fisiológico 500ml",
       "usuario": "Leiliana"
     }
   ]
