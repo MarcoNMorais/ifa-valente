@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "09/11/2026 11:20:45",
+  "atualizado_em": "09/11/2026 11:20:52",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
     "total_almoxarifado": 104421,
-    "total_farmacia": 29906,
-    "total_geral": 134327,
+    "total_farmacia": 29904,
+    "total_geral": 134325,
     "perto_de_terminar": 48,
     "zerados": 25
   },
@@ -9317,19 +9317,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 64,
-      "farmacia": 20,
+      "farmacia": 18,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 84,
+      "total": 82,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga Farmácia 227-288",
       "obs": "Importação Farmácia 227-288",
-      "atualizado_em": "2026-11-05 09:47:27",
+      "atualizado_em": "2026-11-09 11:20:50",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -9343,7 +9343,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 20
+          "quantidade": 18
         }
       ],
       "minimo_manual": 0,
@@ -9351,9 +9351,9 @@
       "previsao_20_dias": 10,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 88,
-      "media_diaria_saida": 0.48,
-      "total_saida_historica": 42,
-      "cobertura_dias": 176.0,
+      "media_diaria_saida": 0.5,
+      "total_saida_historica": 44,
+      "cobertura_dias": 164.0,
       "alerta_estoque": false
     },
     {
@@ -17558,6 +17558,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 5914,
+      "item_id": 241,
+      "produto_nome": "Lactulose solução",
+      "tipo": "Farmácia para Posto de Internamento",
+      "origem": "Farmácia",
+      "destino": "Posto de Internamento",
+      "quantidade": 2,
+      "responsavel": "Assucena",
+      "data": "2026-11-08",
+      "obs": "",
+      "criado_em": "2026-11-09 11:20:50",
+      "item": "Lactulose solução",
+      "usuario": "Assucena"
+    },
+    {
       "id": 5913,
       "item_id": 280,
       "produto_nome": "Luva M procedimento",
@@ -25039,21 +25054,6 @@
       "data": "2026-11-03",
       "obs": "",
       "criado_em": "2026-11-03 13:56:56",
-      "item": "Soro fisiológico 250ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 5414,
-      "item_id": 203,
-      "produto_nome": "Soro fisiológico 250ml",
-      "tipo": "Almoxarifado para Farmácia",
-      "origem": "Almoxarifado",
-      "destino": "Farmácia",
-      "quantidade": 48,
-      "responsavel": "Leiliana",
-      "data": "2026-11-03",
-      "obs": "",
-      "criado_em": "2026-11-03 13:56:48",
       "item": "Soro fisiológico 250ml",
       "usuario": "Leiliana"
     }
