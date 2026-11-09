@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "09/11/2026 11:18:03",
+  "atualizado_em": "09/11/2026 11:18:12",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
     "total_almoxarifado": 104491,
-    "total_farmacia": 30177,
-    "total_geral": 134668,
+    "total_farmacia": 30157,
+    "total_geral": 134648,
     "perto_de_terminar": 48,
     "zerados": 25
   },
@@ -4730,19 +4730,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 1400,
-      "farmacia": 380,
+      "farmacia": 360,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1780,
+      "total": 1760,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-06 15:57:47",
+      "atualizado_em": "2026-11-09 11:18:10",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -4756,17 +4756,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 400
+          "quantidade": 380
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 560,
-      "previsao_20_dias": 560,
+      "minimo_alerta": 565,
+      "previsao_20_dias": 565,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 89,
-      "media_diaria_saida": 27.98,
-      "total_saida_historica": 2490,
-      "cobertura_dias": 63.6,
+      "media_diaria_saida": 28.2,
+      "total_saida_historica": 2510,
+      "cobertura_dias": 62.4,
       "alerta_estoque": false
     },
     {
@@ -17558,6 +17558,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 5898,
+      "item_id": 68,
+      "produto_nome": "Dexametasona",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 20,
+      "responsavel": "Assucena",
+      "data": "2026-11-08",
+      "obs": "",
+      "criado_em": "2026-11-09 11:18:10",
+      "item": "Dexametasona",
+      "usuario": "Assucena"
+    },
+    {
       "id": 5897,
       "item_id": 60,
       "produto_nome": "Cetoprofeno EV 100mg",
@@ -25040,21 +25055,6 @@
       "obs": "",
       "criado_em": "2026-11-03 13:53:23",
       "item": "Ceftriaxona 1g",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 5398,
-      "item_id": 256,
-      "produto_nome": "Simeticona gotas",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 2,
-      "responsavel": "Leiliana",
-      "data": "2026-11-03",
-      "obs": "",
-      "criado_em": "2026-11-03 13:53:03",
-      "item": "Simeticona gotas",
       "usuario": "Leiliana"
     }
   ]
