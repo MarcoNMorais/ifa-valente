@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "09/11/2026 11:16:07",
+  "atualizado_em": "09/11/2026 11:16:14",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
     "total_almoxarifado": 104539,
-    "total_farmacia": 30365,
-    "total_geral": 134904,
+    "total_farmacia": 30355,
+    "total_geral": 134894,
     "perto_de_terminar": 48,
     "zerados": 25
   },
@@ -12543,19 +12543,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 2640,
-      "farmacia": 60,
+      "farmacia": 50,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 2700,
+      "total": 2690,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-09 11:11:05",
+      "atualizado_em": "2026-11-09 11:16:12",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -12569,17 +12569,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 60
+          "quantidade": 50
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 220,
-      "previsao_20_dias": 220,
+      "minimo_alerta": 222,
+      "previsao_20_dias": 222,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 84,
-      "media_diaria_saida": 10.95,
-      "total_saida_historica": 920,
-      "cobertura_dias": 246.5,
+      "media_diaria_saida": 11.07,
+      "total_saida_historica": 930,
+      "cobertura_dias": 243.0,
       "alerta_estoque": false
     },
     {
@@ -17551,6 +17551,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 5886,
+      "item_id": 329,
+      "produto_nome": "Polifix",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 10,
+      "responsavel": "Assucena",
+      "data": "2026-11-08",
+      "obs": "",
+      "criado_em": "2026-11-09 11:16:12",
+      "item": "Polifix",
+      "usuario": "Assucena"
+    },
     {
       "id": 5885,
       "item_id": 199,
@@ -25034,21 +25049,6 @@
       "obs": "",
       "criado_em": "2026-11-03 13:50:56",
       "item": "Seringa 10ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 5386,
-      "item_id": 382,
-      "produto_nome": "AGUA P/ INJ",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 20,
-      "responsavel": "Leiliana",
-      "data": "2026-11-03",
-      "obs": "",
-      "criado_em": "2026-11-03 13:50:45",
-      "item": "AGUA P/ INJ",
       "usuario": "Leiliana"
     }
   ]
