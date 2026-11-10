@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "10/11/2026 11:43:26",
+  "atualizado_em": "10/11/2026 11:43:36",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
     "total_almoxarifado": 103035,
-    "total_farmacia": 29299,
-    "total_geral": 132334,
+    "total_farmacia": 29292,
+    "total_geral": 132327,
     "perto_de_terminar": 48,
     "zerados": 27
   },
@@ -8490,19 +8490,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 75,
-      "farmacia": 35,
+      "farmacia": 28,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 110,
+      "total": 103,
       "minimo": 0,
       "validade": "2027-07",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-10 11:32:06",
+      "atualizado_em": "2026-11-10 11:43:34",
       "validade_mais_proxima": "2027-07",
       "vencimento_mais_proximo": "2027-07",
       "lotes_validade": [
@@ -8510,7 +8510,7 @@
           "local": "farmacia",
           "validade": "2027-07",
           "lote": "",
-          "quantidade": 35
+          "quantidade": 28
         },
         {
           "local": "almoxarifado",
@@ -8520,13 +8520,13 @@
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 20,
-      "previsao_20_dias": 20,
+      "minimo_alerta": 22,
+      "previsao_20_dias": 22,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 90,
-      "media_diaria_saida": 1.0,
-      "total_saida_historica": 90,
-      "cobertura_dias": 110.0,
+      "media_diaria_saida": 1.08,
+      "total_saida_historica": 97,
+      "cobertura_dias": 95.6,
       "alerta_estoque": false
     },
     {
@@ -17533,6 +17533,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 6038,
+      "item_id": 80,
+      "produto_nome": "Hidralazina 20mg",
+      "tipo": "Farmácia para SALA DE PARTO",
+      "origem": "Farmácia",
+      "destino": "SALA DE PARTO",
+      "quantidade": 7,
+      "responsavel": "Assucena",
+      "data": "2026-11-10",
+      "obs": "",
+      "criado_em": "2026-11-10 11:43:34",
+      "item": "Hidralazina 20mg",
+      "usuario": "Assucena"
+    },
+    {
       "id": 6037,
       "item_id": 234,
       "produto_nome": "Vitamina K 10mg/ml",
@@ -25015,21 +25030,6 @@
       "obs": "",
       "criado_em": "2026-11-03 14:25:43",
       "item": "LORATADINA SUSPENSÃO",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 5538,
-      "item_id": 55,
-      "produto_nome": "Benzilpenicilina 1.200",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 8,
-      "responsavel": "Leiliana",
-      "data": "2026-11-03",
-      "obs": "",
-      "criado_em": "2026-11-03 14:25:29",
-      "item": "Benzilpenicilina 1.200",
       "usuario": "Leiliana"
     }
   ]
