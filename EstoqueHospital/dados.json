@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "10/11/2026 11:38:03",
+  "atualizado_em": "10/11/2026 11:38:11",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
     "total_almoxarifado": 103035,
-    "total_farmacia": 29841,
-    "total_geral": 132876,
+    "total_farmacia": 29811,
+    "total_geral": 132846,
     "perto_de_terminar": 48,
     "zerados": 27
   },
@@ -13315,19 +13315,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 5250,
-      "farmacia": 525,
+      "farmacia": 495,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 5775,
+      "total": 5745,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-10 11:32:06",
+      "atualizado_em": "2026-11-10 11:38:10",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -13341,17 +13341,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 570
+          "quantidade": 540
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 1143,
-      "previsao_20_dias": 1143,
+      "minimo_alerta": 1149,
+      "previsao_20_dias": 1149,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 90,
-      "media_diaria_saida": 57.11,
-      "total_saida_historica": 5140,
-      "cobertura_dias": 101.1,
+      "media_diaria_saida": 57.44,
+      "total_saida_historica": 5170,
+      "cobertura_dias": 100.0,
       "alerta_estoque": false
     },
     {
@@ -17532,6 +17532,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 6004,
+      "item_id": 102,
+      "produto_nome": "Seringa 5ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 30,
+      "responsavel": "Assucena",
+      "data": "2026-11-10",
+      "obs": "",
+      "criado_em": "2026-11-10 11:38:10",
+      "item": "Seringa 5ml",
+      "usuario": "Assucena"
+    },
     {
       "id": 6003,
       "item_id": 103,
@@ -25015,21 +25030,6 @@
       "obs": "",
       "criado_em": "2026-11-03 14:18:48",
       "item": "Atadura crepon nº 10",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 5504,
-      "item_id": 278,
-      "produto_nome": "Luva de vinil P",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 100,
-      "responsavel": "Leiliana",
-      "data": "2026-11-03",
-      "obs": "",
-      "criado_em": "2026-11-03 14:18:31",
-      "item": "Luva de vinil P",
       "usuario": "Leiliana"
     }
   ]
