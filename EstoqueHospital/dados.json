@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "10/11/2026 11:39:05",
+  "atualizado_em": "10/11/2026 11:39:13",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
     "total_almoxarifado": 103035,
-    "total_farmacia": 29624,
-    "total_geral": 132659,
+    "total_farmacia": 29574,
+    "total_geral": 132609,
     "perto_de_terminar": 48,
     "zerados": 27
   },
@@ -718,19 +718,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 14700,
-      "farmacia": 245,
+      "farmacia": 195,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 14945,
+      "total": 14895,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-10 11:32:06",
+      "atualizado_em": "2026-11-10 11:39:11",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -744,17 +744,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 245
+          "quantidade": 195
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 602,
-      "previsao_20_dias": 602,
+      "minimo_alerta": 613,
+      "previsao_20_dias": 613,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 85,
-      "media_diaria_saida": 30.06,
-      "total_saida_historica": 2555,
-      "cobertura_dias": 497.2,
+      "media_diaria_saida": 30.65,
+      "total_saida_historica": 2605,
+      "cobertura_dias": 486.0,
       "alerta_estoque": false
     },
     {
@@ -17533,6 +17533,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 6012,
+      "item_id": 285,
+      "produto_nome": "Agulha 30x7",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 50,
+      "responsavel": "Assucena",
+      "data": "2026-11-10",
+      "obs": "",
+      "criado_em": "2026-11-10 11:39:11",
+      "item": "Agulha 30x7",
+      "usuario": "Assucena"
+    },
+    {
       "id": 6011,
       "item_id": 390,
       "produto_nome": "AGULHA  40X1,2",
@@ -25015,21 +25030,6 @@
       "obs": "",
       "criado_em": "2026-11-03 14:20:22",
       "item": "Lidocaína",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 5512,
-      "item_id": 86,
-      "produto_nome": "Cloridrato de Metoclopramida",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 3,
-      "responsavel": "Leiliana",
-      "data": "2026-11-03",
-      "obs": "",
-      "criado_em": "2026-11-03 14:20:08",
-      "item": "Cloridrato de Metoclopramida",
       "usuario": "Leiliana"
     }
   ]
