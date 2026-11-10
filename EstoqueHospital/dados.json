@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "10/11/2026 16:19:33",
+  "atualizado_em": "10/11/2026 16:19:40",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
     "total_almoxarifado": 103035,
-    "total_farmacia": 28998,
-    "total_geral": 132033,
+    "total_farmacia": 28996,
+    "total_geral": 132031,
     "perto_de_terminar": 48,
     "zerados": 27
   },
@@ -9424,19 +9424,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 107,
-      "farmacia": 14,
+      "farmacia": 12,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 121,
+      "total": 119,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-10 11:42:32",
+      "atualizado_em": "2026-11-10 16:19:39",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -9450,7 +9450,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 17
+          "quantidade": 15
         }
       ],
       "minimo_manual": 0,
@@ -9458,9 +9458,9 @@
       "previsao_20_dias": 30,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 90,
-      "media_diaria_saida": 1.46,
-      "total_saida_historica": 131,
-      "cobertura_dias": 83.1,
+      "media_diaria_saida": 1.48,
+      "total_saida_historica": 133,
+      "cobertura_dias": 80.5,
       "alerta_estoque": false
     },
     {
@@ -17533,6 +17533,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 6052,
+      "item_id": 199,
+      "produto_nome": "Lençol descartável papel",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 2,
+      "responsavel": "Leiliana",
+      "data": "2026-11-10",
+      "obs": "",
+      "criado_em": "2026-11-10 16:19:39",
+      "item": "Lençol descartável papel",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 6051,
       "item_id": 220,
       "produto_nome": "Equipo macrogotas",
@@ -25015,21 +25030,6 @@
       "obs": "",
       "criado_em": "2026-11-03 14:28:57",
       "item": "Metildopa 25mg CPR",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 5552,
-      "item_id": 28,
-      "produto_nome": "Dipirona 500mg",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 10,
-      "responsavel": "Leiliana",
-      "data": "2026-11-03",
-      "obs": "",
-      "criado_em": "2026-11-03 14:28:40",
-      "item": "Dipirona 500mg",
       "usuario": "Leiliana"
     }
   ]
