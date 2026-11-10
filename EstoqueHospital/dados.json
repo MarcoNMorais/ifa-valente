@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "10/11/2026 11:43:09",
+  "atualizado_em": "10/11/2026 11:43:17",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
     "total_almoxarifado": 103035,
-    "total_farmacia": 29305,
-    "total_geral": 132340,
+    "total_farmacia": 29304,
+    "total_geral": 132339,
     "perto_de_terminar": 48,
     "zerados": 27
   },
@@ -15977,19 +15977,19 @@
       "tipo": "Insumo",
       "unidade": "Unidade",
       "almoxarifado": 316,
-      "farmacia": 72,
+      "farmacia": 71,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 388,
+      "total": 387,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-10 11:32:06",
+      "atualizado_em": "2026-11-10 11:43:15",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -16003,7 +16003,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 72
+          "quantidade": 71
         }
       ],
       "minimo_manual": 0,
@@ -16011,9 +16011,9 @@
       "previsao_20_dias": 126,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 90,
-      "media_diaria_saida": 6.27,
-      "total_saida_historica": 564,
-      "cobertura_dias": 61.9,
+      "media_diaria_saida": 6.28,
+      "total_saida_historica": 565,
+      "cobertura_dias": 61.6,
       "alerta_estoque": false
     },
     {
@@ -17532,6 +17532,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 6036,
+      "item_id": 201,
+      "produto_nome": "Soro Ringer Lactato 500ml",
+      "tipo": "Farmácia para SALA DE PARTO",
+      "origem": "Farmácia",
+      "destino": "SALA DE PARTO",
+      "quantidade": 1,
+      "responsavel": "Assucena",
+      "data": "2026-11-10",
+      "obs": "",
+      "criado_em": "2026-11-10 11:43:15",
+      "item": "Soro Ringer Lactato 500ml",
+      "usuario": "Assucena"
+    },
     {
       "id": 6035,
       "item_id": 102,
@@ -25015,21 +25030,6 @@
       "obs": "",
       "criado_em": "2026-11-03 14:25:19",
       "item": "Simeticona gotas",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 5536,
-      "item_id": 68,
-      "produto_nome": "Dexametasona",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 20,
-      "responsavel": "Leiliana",
-      "data": "2026-11-03",
-      "obs": "",
-      "criado_em": "2026-11-03 14:25:04",
-      "item": "Dexametasona",
       "usuario": "Leiliana"
     }
   ]
