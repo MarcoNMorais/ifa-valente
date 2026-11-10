@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "10/11/2026 11:37:26",
+  "atualizado_em": "10/11/2026 11:37:42",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
     "total_almoxarifado": 103035,
-    "total_farmacia": 29892,
-    "total_geral": 132927,
+    "total_farmacia": 29891,
+    "total_geral": 132926,
     "perto_de_terminar": 48,
     "zerados": 27
   },
@@ -12450,19 +12450,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 61,
+      "farmacia": 60,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 61,
+      "total": 60,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga Farmácia 227-288",
       "obs": "Importação Farmácia 227-288",
-      "atualizado_em": "2026-11-10 11:32:06",
+      "atualizado_em": "2026-11-10 11:37:41",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -12470,7 +12470,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 61
+          "quantidade": 60
         }
       ],
       "minimo_manual": 0,
@@ -12478,9 +12478,9 @@
       "previsao_20_dias": 6,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 85,
-      "media_diaria_saida": 0.26,
-      "total_saida_historica": 22,
-      "cobertura_dias": 235.7,
+      "media_diaria_saida": 0.27,
+      "total_saida_historica": 23,
+      "cobertura_dias": 221.7,
       "alerta_estoque": false
     },
     {
@@ -17532,6 +17532,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 6000,
+      "item_id": 260,
+      "produto_nome": "Paracetamol gotas",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 1,
+      "responsavel": "Assucena",
+      "data": "2026-11-10",
+      "obs": "",
+      "criado_em": "2026-11-10 11:37:41",
+      "item": "Paracetamol gotas",
+      "usuario": "Assucena"
+    },
     {
       "id": 5999,
       "item_id": 255,
@@ -25015,21 +25030,6 @@
       "obs": "",
       "criado_em": "2026-11-03 14:17:49",
       "item": "Polifix",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 5500,
-      "item_id": 220,
-      "produto_nome": "Equipo macrogotas",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 25,
-      "responsavel": "Leiliana",
-      "data": "2026-11-03",
-      "obs": "",
-      "criado_em": "2026-11-03 14:17:38",
-      "item": "Equipo macrogotas",
       "usuario": "Leiliana"
     }
   ]
