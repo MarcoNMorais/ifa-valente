@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "11/11/2026 16:51:27",
+  "atualizado_em": "11/11/2026 17:03:29",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
-    "total_almoxarifado": 103035,
-    "total_farmacia": 27676,
+    "total_almoxarifado": 102885,
+    "total_farmacia": 27826,
     "total_geral": 130711,
     "perto_de_terminar": 49,
     "zerados": 27
@@ -5821,8 +5821,8 @@
       "nome": "Equipo macrogotas",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 1706,
-      "farmacia": 50,
+      "almoxarifado": 1556,
+      "farmacia": 200,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -5834,7 +5834,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-11 16:36:10",
+      "atualizado_em": "2026-11-11 17:03:28",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -5842,13 +5842,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 1706
+          "quantidade": 1556
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 75
+          "quantidade": 225
         }
       ],
       "minimo_manual": 300,
@@ -17533,6 +17533,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 6128,
+      "item_id": 220,
+      "produto_nome": "Equipo macrogotas",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 150,
+      "responsavel": "Leiliana",
+      "data": "2026-11-11",
+      "obs": "",
+      "criado_em": "2026-11-11 17:03:28",
+      "item": "Equipo macrogotas",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 6127,
       "item_id": 154,
       "produto_nome": "Equipo fotossensível",
@@ -25015,21 +25030,6 @@
       "obs": "",
       "criado_em": "2026-11-04 11:31:22",
       "item": "AGUA P/ INJ",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 5628,
-      "item_id": 70,
-      "produto_nome": "Dipirona",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 20,
-      "responsavel": "Assucena",
-      "data": "2026-11-03",
-      "obs": "",
-      "criado_em": "2026-11-04 11:30:49",
-      "item": "Dipirona",
       "usuario": "Assucena"
     }
   ]
