@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "11/11/2026 16:31:14",
+  "atualizado_em": "11/11/2026 16:31:23",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
     "total_almoxarifado": 103035,
-    "total_farmacia": 28103,
-    "total_geral": 131138,
+    "total_farmacia": 28053,
+    "total_geral": 131088,
     "perto_de_terminar": 48,
     "zerados": 27
   },
@@ -4717,19 +4717,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 1400,
-      "farmacia": 280,
+      "farmacia": 230,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1680,
+      "total": 1630,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-11 11:29:47",
+      "atualizado_em": "2026-11-11 16:31:21",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -4743,17 +4743,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 300
+          "quantidade": 250
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 570,
-      "previsao_20_dias": 570,
+      "minimo_alerta": 581,
+      "previsao_20_dias": 581,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 91,
-      "media_diaria_saida": 28.46,
-      "total_saida_historica": 2590,
-      "cobertura_dias": 59.0,
+      "media_diaria_saida": 29.01,
+      "total_saida_historica": 2640,
+      "cobertura_dias": 56.2,
       "alerta_estoque": false
     },
     {
@@ -17533,6 +17533,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 6104,
+      "item_id": 68,
+      "produto_nome": "Dexametasona",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 50,
+      "responsavel": "Leiliana",
+      "data": "2026-11-11",
+      "obs": "",
+      "criado_em": "2026-11-11 16:31:21",
+      "item": "Dexametasona",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 6103,
       "item_id": 204,
       "produto_nome": "Soro fisiológico 500ml",
@@ -25015,21 +25030,6 @@
       "obs": "",
       "criado_em": "2026-11-03 16:20:19",
       "item": "Lençol descartável papel",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 5604,
-      "item_id": 220,
-      "produto_nome": "Equipo macrogotas",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 50,
-      "responsavel": "Leiliana",
-      "data": "2026-11-03",
-      "obs": "",
-      "criado_em": "2026-11-03 16:20:09",
-      "item": "Equipo macrogotas",
       "usuario": "Leiliana"
     }
   ]
