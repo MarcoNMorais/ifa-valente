@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "11/11/2026 11:28:33",
+  "atualizado_em": "11/11/2026 11:28:40",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
     "total_almoxarifado": 103035,
-    "total_farmacia": 28268,
-    "total_geral": 131303,
+    "total_farmacia": 28256,
+    "total_geral": 131291,
     "perto_de_terminar": 48,
     "zerados": 27
   },
@@ -1608,19 +1608,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 2244,
-      "farmacia": 314,
+      "farmacia": 302,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 2558,
+      "total": 2546,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-11 11:28:29",
+      "atualizado_em": "2026-11-11 11:28:37",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -1634,17 +1634,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 326
+          "quantidade": 314
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 153,
-      "previsao_20_dias": 153,
+      "minimo_alerta": 156,
+      "previsao_20_dias": 156,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 91,
-      "media_diaria_saida": 7.63,
-      "total_saida_historica": 694,
-      "cobertura_dias": 335.4,
+      "media_diaria_saida": 7.76,
+      "total_saida_historica": 706,
+      "cobertura_dias": 328.2,
       "alerta_estoque": false
     },
     {
@@ -17533,6 +17533,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 6088,
+      "item_id": 152,
+      "produto_nome": "Atadura crepon nº 10",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 12,
+      "responsavel": "Assucena",
+      "data": "2026-11-10",
+      "obs": "",
+      "criado_em": "2026-11-11 11:28:37",
+      "item": "Atadura crepon nº 10",
+      "usuario": "Assucena"
+    },
+    {
       "id": 6087,
       "item_id": 152,
       "produto_nome": "Atadura crepon nº 10",
@@ -25015,21 +25030,6 @@
       "obs": "",
       "criado_em": "2026-11-03 14:36:46",
       "item": "Scalp nº 23",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 5588,
-      "item_id": 390,
-      "produto_nome": "AGULHA  40X1,2",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 60,
-      "responsavel": "Leiliana",
-      "data": "2026-11-03",
-      "obs": "",
-      "criado_em": "2026-11-03 14:36:37",
-      "item": "AGULHA  40X1,2",
       "usuario": "Leiliana"
     }
   ]
