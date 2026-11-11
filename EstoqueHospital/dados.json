@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "11/11/2026 16:37:20",
+  "atualizado_em": "11/11/2026 16:37:32",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
     "total_almoxarifado": 103035,
-    "total_farmacia": 27684,
-    "total_geral": 130719,
+    "total_farmacia": 27683,
+    "total_geral": 130718,
     "perto_de_terminar": 49,
     "zerados": 27
   },
@@ -9292,19 +9292,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 64,
-      "farmacia": 16,
+      "farmacia": 15,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 80,
+      "total": 79,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga Farmácia 227-288",
       "obs": "Importação Farmácia 227-288",
-      "atualizado_em": "2026-11-11 11:29:55",
+      "atualizado_em": "2026-11-11 16:37:31",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -9318,7 +9318,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 16
+          "quantidade": 15
         }
       ],
       "minimo_manual": 0,
@@ -9326,9 +9326,9 @@
       "previsao_20_dias": 11,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 90,
-      "media_diaria_saida": 0.51,
-      "total_saida_historica": 46,
-      "cobertura_dias": 156.5,
+      "media_diaria_saida": 0.52,
+      "total_saida_historica": 47,
+      "cobertura_dias": 151.3,
       "alerta_estoque": false
     },
     {
@@ -17533,6 +17533,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 6125,
+      "item_id": 241,
+      "produto_nome": "Lactulose solução",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 1,
+      "responsavel": "Leiliana",
+      "data": "2026-11-11",
+      "obs": "",
+      "criado_em": "2026-11-11 16:37:31",
+      "item": "Lactulose solução",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 6124,
       "item_id": 404,
       "produto_nome": "soro glicofidiologoco",
@@ -25014,21 +25029,6 @@
       "data": "2026-11-03",
       "obs": "",
       "criado_em": "2026-11-03 16:26:42",
-      "item": "Eletrodo ECG descartável",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 5625,
-      "item_id": 163,
-      "produto_nome": "Eletrodo ECG descartável",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 1,
-      "responsavel": "Leiliana",
-      "data": "2026-11-03",
-      "obs": "",
-      "criado_em": "2026-11-03 16:26:30",
       "item": "Eletrodo ECG descartável",
       "usuario": "Leiliana"
     }
