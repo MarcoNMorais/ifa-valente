@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "11/11/2026 16:35:36",
+  "atualizado_em": "11/11/2026 16:35:48",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
     "total_almoxarifado": 103035,
-    "total_farmacia": 27838,
-    "total_geral": 130873,
+    "total_farmacia": 27798,
+    "total_geral": 130833,
     "perto_de_terminar": 48,
     "zerados": 27
   },
@@ -13315,19 +13315,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 5250,
-      "farmacia": 429,
+      "farmacia": 389,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 5679,
+      "total": 5639,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-11 11:28:22",
+      "atualizado_em": "2026-11-11 16:35:46",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -13341,17 +13341,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 474
+          "quantidade": 434
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 1151,
-      "previsao_20_dias": 1151,
+      "minimo_alerta": 1160,
+      "previsao_20_dias": 1160,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 91,
-      "media_diaria_saida": 57.54,
-      "total_saida_historica": 5236,
-      "cobertura_dias": 98.7,
+      "media_diaria_saida": 57.98,
+      "total_saida_historica": 5276,
+      "cobertura_dias": 97.3,
       "alerta_estoque": false
     },
     {
@@ -17532,6 +17532,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 6115,
+      "item_id": 102,
+      "produto_nome": "Seringa 5ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 40,
+      "responsavel": "Leiliana",
+      "data": "2026-11-11",
+      "obs": "",
+      "criado_em": "2026-11-11 16:35:46",
+      "item": "Seringa 5ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 6114,
       "item_id": 103,
@@ -25015,21 +25030,6 @@
       "obs": "",
       "criado_em": "2026-11-03 16:22:17",
       "item": "Soro fisiológico 500ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 5615,
-      "item_id": 387,
-      "produto_nome": "HIDROCORTIZONA 500MG",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 10,
-      "responsavel": "Leiliana",
-      "data": "2026-11-03",
-      "obs": "",
-      "criado_em": "2026-11-03 16:21:55",
-      "item": "HIDROCORTIZONA 500MG",
       "usuario": "Leiliana"
     }
   ]
