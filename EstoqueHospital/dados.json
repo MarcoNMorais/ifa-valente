@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "11/11/2026 16:36:38",
+  "atualizado_em": "11/11/2026 16:36:46",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
     "total_almoxarifado": 103035,
-    "total_farmacia": 27712,
-    "total_geral": 130747,
+    "total_farmacia": 27708,
+    "total_geral": 130743,
     "perto_de_terminar": 48,
     "zerados": 27
   },
@@ -9424,19 +9424,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 107,
-      "farmacia": 12,
+      "farmacia": 8,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 119,
+      "total": 115,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-10 16:19:39",
+      "atualizado_em": "2026-11-11 16:36:44",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -9450,17 +9450,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 15
+          "quantidade": 11
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 30,
-      "previsao_20_dias": 30,
+      "minimo_alerta": 31,
+      "previsao_20_dias": 31,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 91,
-      "media_diaria_saida": 1.46,
-      "total_saida_historica": 133,
-      "cobertura_dias": 81.4,
+      "media_diaria_saida": 1.51,
+      "total_saida_historica": 137,
+      "cobertura_dias": 76.4,
       "alerta_estoque": false
     },
     {
@@ -17533,6 +17533,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 6121,
+      "item_id": 199,
+      "produto_nome": "Lençol descartável papel",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 4,
+      "responsavel": "Leiliana",
+      "data": "2026-11-11",
+      "obs": "",
+      "criado_em": "2026-11-11 16:36:44",
+      "item": "Lençol descartável papel",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 6120,
       "item_id": 182,
       "produto_nome": "Luva de látex tam. G",
@@ -25015,21 +25030,6 @@
       "obs": "",
       "criado_em": "2026-11-03 16:24:42",
       "item": "Glicerina 12%",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 5621,
-      "item_id": 175,
-      "produto_nome": "Fita cirúrgica microporosa",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 1,
-      "responsavel": "Leiliana",
-      "data": "2026-11-03",
-      "obs": "",
-      "criado_em": "2026-11-03 16:24:32",
-      "item": "Fita cirúrgica microporosa",
       "usuario": "Leiliana"
     }
   ]
