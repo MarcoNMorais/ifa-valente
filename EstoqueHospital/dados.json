@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "11/11/2026 11:23:33",
+  "atualizado_em": "11/11/2026 11:23:40",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
     "total_almoxarifado": 103035,
-    "total_farmacia": 28782,
-    "total_geral": 131817,
+    "total_farmacia": 28772,
+    "total_geral": 131807,
     "perto_de_terminar": 48,
     "zerados": 27
   },
@@ -460,19 +460,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 50,
+      "farmacia": 40,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 50,
+      "total": 40,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-11 11:23:32",
+      "atualizado_em": "2026-11-11 11:23:38",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -480,17 +480,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 50
+          "quantidade": 40
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 178,
-      "previsao_20_dias": 178,
+      "minimo_alerta": 180,
+      "previsao_20_dias": 180,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 69,
-      "media_diaria_saida": 8.86,
-      "total_saida_historica": 611,
-      "cobertura_dias": 5.6,
+      "media_diaria_saida": 9.0,
+      "total_saida_historica": 621,
+      "cobertura_dias": 4.4,
       "alerta_estoque": true
     },
     {
@@ -17533,6 +17533,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 6064,
+      "item_id": 382,
+      "produto_nome": "AGUA P/ INJ",
+      "tipo": "Farmácia para Posto de Internamento",
+      "origem": "Farmácia",
+      "destino": "Posto de Internamento",
+      "quantidade": 10,
+      "responsavel": "Assucena",
+      "data": "2026-11-10",
+      "obs": "",
+      "criado_em": "2026-11-11 11:23:38",
+      "item": "AGUA P/ INJ",
+      "usuario": "Assucena"
+    },
+    {
       "id": 6063,
       "item_id": 382,
       "produto_nome": "AGUA P/ INJ",
@@ -25015,21 +25030,6 @@
       "obs": "",
       "criado_em": "2026-11-03 14:32:07",
       "item": "Luva cirúrgica tam. 8",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 5564,
-      "item_id": 185,
-      "produto_nome": "Luva cirúrgica tam. 7,5",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 5,
-      "responsavel": "Leiliana",
-      "data": "2026-11-03",
-      "obs": "",
-      "criado_em": "2026-11-03 14:31:56",
-      "item": "Luva cirúrgica tam. 7,5",
       "usuario": "Leiliana"
     }
   ]
