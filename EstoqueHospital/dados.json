@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "11/11/2026 16:33:15",
+  "atualizado_em": "11/11/2026 16:33:30",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
     "total_almoxarifado": 103035,
-    "total_farmacia": 27938,
-    "total_geral": 130973,
+    "total_farmacia": 27908,
+    "total_geral": 130943,
     "perto_de_terminar": 48,
     "zerados": 27
   },
@@ -764,19 +764,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 14100,
-      "farmacia": 320,
+      "farmacia": 290,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 14420,
+      "total": 14390,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga Almoxerifado",
       "obs": "Importação Almoxerifado",
-      "atualizado_em": "2026-11-11 11:26:20",
+      "atualizado_em": "2026-11-11 16:33:29",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -790,17 +790,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 320
+          "quantidade": 290
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 647,
-      "previsao_20_dias": 647,
+      "minimo_alerta": 654,
+      "previsao_20_dias": 654,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 86,
-      "media_diaria_saida": 32.33,
-      "total_saida_historica": 2780,
-      "cobertura_dias": 446.1,
+      "media_diaria_saida": 32.67,
+      "total_saida_historica": 2810,
+      "cobertura_dias": 440.4,
       "alerta_estoque": false
     },
     {
@@ -17533,6 +17533,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 6112,
+      "item_id": 331,
+      "produto_nome": "Agulha 30x8",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 30,
+      "responsavel": "Leiliana",
+      "data": "2026-11-11",
+      "obs": "",
+      "criado_em": "2026-11-11 16:33:29",
+      "item": "Agulha 30x8",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 6111,
       "item_id": 176,
       "produto_nome": "Gelco nº 24",
@@ -25015,21 +25030,6 @@
       "obs": "",
       "criado_em": "2026-11-03 16:21:36",
       "item": "Dipirona",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 5612,
-      "item_id": 69,
-      "produto_nome": "Diclofenaco 25mg",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 20,
-      "responsavel": "Leiliana",
-      "data": "2026-11-03",
-      "obs": "",
-      "criado_em": "2026-11-03 16:21:27",
-      "item": "Diclofenaco 25mg",
       "usuario": "Leiliana"
     }
   ]
