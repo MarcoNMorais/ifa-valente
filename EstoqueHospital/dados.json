@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "11/11/2026 16:31:23",
+  "atualizado_em": "11/11/2026 16:31:36",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
     "total_almoxarifado": 103035,
-    "total_farmacia": 28053,
-    "total_geral": 131088,
+    "total_farmacia": 28041,
+    "total_geral": 131076,
     "perto_de_terminar": 48,
     "zerados": 27
   },
@@ -2428,19 +2428,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 95,
+      "farmacia": 83,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 95,
+      "total": 83,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-10 11:32:06",
+      "atualizado_em": "2026-11-11 16:31:35",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -2448,17 +2448,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 95
+          "quantidade": 83
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 156,
-      "previsao_20_dias": 156,
+      "minimo_alerta": 159,
+      "previsao_20_dias": 159,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 91,
-      "media_diaria_saida": 7.79,
-      "total_saida_historica": 709,
-      "cobertura_dias": 12.2,
+      "media_diaria_saida": 7.92,
+      "total_saida_historica": 721,
+      "cobertura_dias": 10.5,
       "alerta_estoque": true
     },
     {
@@ -17533,6 +17533,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 6105,
+      "item_id": 55,
+      "produto_nome": "Benzilpenicilina 1.200",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 12,
+      "responsavel": "Leiliana",
+      "data": "2026-11-11",
+      "obs": "",
+      "criado_em": "2026-11-11 16:31:35",
+      "item": "Benzilpenicilina 1.200",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 6104,
       "item_id": 68,
       "produto_nome": "Dexametasona",
@@ -25015,21 +25030,6 @@
       "obs": "",
       "criado_em": "2026-11-03 16:20:30",
       "item": "Caixa de perfurocortante",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 5605,
-      "item_id": 199,
-      "produto_nome": "Lençol descartável papel",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 2,
-      "responsavel": "Leiliana",
-      "data": "2026-11-03",
-      "obs": "",
-      "criado_em": "2026-11-03 16:20:19",
-      "item": "Lençol descartável papel",
       "usuario": "Leiliana"
     }
   ]
