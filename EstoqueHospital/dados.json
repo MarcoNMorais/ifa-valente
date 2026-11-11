@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "11/11/2026 16:36:12",
+  "atualizado_em": "11/11/2026 16:36:21",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
     "total_almoxarifado": 103035,
-    "total_farmacia": 27718,
-    "total_geral": 130753,
+    "total_farmacia": 27714,
+    "total_geral": 130749,
     "perto_de_terminar": 48,
     "zerados": 27
   },
@@ -6073,19 +6073,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 304,
-      "farmacia": 29,
+      "farmacia": 25,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 333,
+      "total": 329,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-10 11:32:06",
+      "atualizado_em": "2026-11-11 16:36:19",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -6099,17 +6099,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 31
+          "quantidade": 27
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 47,
-      "previsao_20_dias": 47,
+      "minimo_alerta": 48,
+      "previsao_20_dias": 48,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 86,
-      "media_diaria_saida": 2.34,
-      "total_saida_historica": 201,
-      "cobertura_dias": 142.5,
+      "media_diaria_saida": 2.38,
+      "total_saida_historica": 205,
+      "cobertura_dias": 138.0,
       "alerta_estoque": false
     },
     {
@@ -17533,6 +17533,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 6118,
+      "item_id": 276,
+      "produto_nome": "Esparadrapo 10x4,5",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 4,
+      "responsavel": "Leiliana",
+      "data": "2026-11-11",
+      "obs": "",
+      "criado_em": "2026-11-11 16:36:19",
+      "item": "Esparadrapo 10x4,5",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 6117,
       "item_id": 220,
       "produto_nome": "Equipo macrogotas",
@@ -25014,21 +25029,6 @@
       "data": "2026-11-03",
       "obs": "",
       "criado_em": "2026-11-03 16:24:04",
-      "item": "Soro Ringer Lactato 500ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 5618,
-      "item_id": 201,
-      "produto_nome": "Soro Ringer Lactato 500ml",
-      "tipo": "Almoxarifado para Farmácia",
-      "origem": "Almoxarifado",
-      "destino": "Farmácia",
-      "quantidade": 64,
-      "responsavel": "Leiliana",
-      "data": "2026-11-03",
-      "obs": "",
-      "criado_em": "2026-11-03 16:23:53",
       "item": "Soro Ringer Lactato 500ml",
       "usuario": "Leiliana"
     }
