@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "11/11/2026 16:36:00",
+  "atualizado_em": "11/11/2026 16:36:12",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
     "total_almoxarifado": 103035,
-    "total_farmacia": 27768,
-    "total_geral": 130803,
+    "total_farmacia": 27718,
+    "total_geral": 130753,
     "perto_de_terminar": 48,
     "zerados": 27
   },
@@ -5822,19 +5822,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 1706,
-      "farmacia": 100,
+      "farmacia": 50,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1806,
+      "total": 1756,
       "minimo": 300,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-10 16:19:31",
+      "atualizado_em": "2026-11-11 16:36:10",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -5848,17 +5848,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 125
+          "quantidade": 75
         }
       ],
       "minimo_manual": 300,
-      "minimo_alerta": 631,
-      "previsao_20_dias": 631,
+      "minimo_alerta": 642,
+      "previsao_20_dias": 642,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 91,
-      "media_diaria_saida": 31.53,
-      "total_saida_historica": 2869,
-      "cobertura_dias": 57.3,
+      "media_diaria_saida": 32.08,
+      "total_saida_historica": 2919,
+      "cobertura_dias": 54.7,
       "alerta_estoque": false
     },
     {
@@ -17533,6 +17533,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 6117,
+      "item_id": 220,
+      "produto_nome": "Equipo macrogotas",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 50,
+      "responsavel": "Leiliana",
+      "data": "2026-11-11",
+      "obs": "",
+      "criado_em": "2026-11-11 16:36:10",
+      "item": "Equipo macrogotas",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 6116,
       "item_id": 104,
       "produto_nome": "Seringa 3ml",
@@ -25015,21 +25030,6 @@
       "obs": "",
       "criado_em": "2026-11-03 16:23:53",
       "item": "Soro Ringer Lactato 500ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 5617,
-      "item_id": 204,
-      "produto_nome": "Soro fisiológico 500ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 12,
-      "responsavel": "Leiliana",
-      "data": "2026-11-03",
-      "obs": "",
-      "criado_em": "2026-11-03 16:22:27",
-      "item": "Soro fisiológico 500ml",
       "usuario": "Leiliana"
     }
   ]
