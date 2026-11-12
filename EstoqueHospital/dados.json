@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "12/11/2026 13:31:31",
+  "atualizado_em": "12/11/2026 13:31:40",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
     "total_almoxarifado": 102885,
-    "total_farmacia": 27785,
-    "total_geral": 130670,
+    "total_farmacia": 27775,
+    "total_geral": 130660,
     "perto_de_terminar": 49,
     "zerados": 27
   },
@@ -5141,19 +5141,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 350,
+      "farmacia": 340,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 350,
+      "total": 340,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-10 11:32:06",
+      "atualizado_em": "2026-11-12 13:31:39",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -5161,17 +5161,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 370
+          "quantidade": 360
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 94,
-      "previsao_20_dias": 94,
+      "minimo_alerta": 96,
+      "previsao_20_dias": 96,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 92,
-      "media_diaria_saida": 4.67,
-      "total_saida_historica": 430,
-      "cobertura_dias": 74.9,
+      "media_diaria_saida": 4.78,
+      "total_saida_historica": 440,
+      "cobertura_dias": 71.1,
       "alerta_estoque": false
     },
     {
@@ -17533,6 +17533,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 6133,
+      "item_id": 28,
+      "produto_nome": "Dipirona 500mg",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 10,
+      "responsavel": "Leiliana",
+      "data": "2026-11-11",
+      "obs": "",
+      "criado_em": "2026-11-12 13:31:39",
+      "item": "Dipirona 500mg",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 6132,
       "item_id": 176,
       "produto_nome": "Gelco nº 24",
@@ -25015,21 +25030,6 @@
       "obs": "",
       "criado_em": "2026-11-04 11:32:35",
       "item": "Equipo macrogotas",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 5633,
-      "item_id": 274,
-      "produto_nome": "Seringa 20ml",
-      "tipo": "Almoxarifado para Farmácia",
-      "origem": "Almoxarifado",
-      "destino": "Farmácia",
-      "quantidade": 250,
-      "responsavel": "Assucena",
-      "data": "2026-11-03",
-      "obs": "",
-      "criado_em": "2026-11-04 11:32:23",
-      "item": "Seringa 20ml",
       "usuario": "Assucena"
     }
   ]
