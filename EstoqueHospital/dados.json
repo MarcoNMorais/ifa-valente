@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "12/11/2026 13:33:31",
+  "atualizado_em": "12/11/2026 13:33:38",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
     "total_almoxarifado": 102885,
-    "total_farmacia": 27705,
-    "total_geral": 130590,
+    "total_farmacia": 27680,
+    "total_geral": 130565,
     "perto_de_terminar": 49,
     "zerados": 27
   },
@@ -5822,19 +5822,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 1556,
-      "farmacia": 200,
+      "farmacia": 175,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1756,
+      "total": 1731,
       "minimo": 300,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-11 17:03:28",
+      "atualizado_em": "2026-11-12 13:33:37",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -5848,17 +5848,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 225
+          "quantidade": 200
         }
       ],
       "minimo_manual": 300,
-      "minimo_alerta": 635,
-      "previsao_20_dias": 635,
+      "minimo_alerta": 640,
+      "previsao_20_dias": 640,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 92,
-      "media_diaria_saida": 31.73,
-      "total_saida_historica": 2919,
-      "cobertura_dias": 55.3,
+      "media_diaria_saida": 32.0,
+      "total_saida_historica": 2944,
+      "cobertura_dias": 54.1,
       "alerta_estoque": false
     },
     {
@@ -17533,6 +17533,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 6139,
+      "item_id": 220,
+      "produto_nome": "Equipo macrogotas",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 25,
+      "responsavel": "Leiliana",
+      "data": "2026-11-11",
+      "obs": "",
+      "criado_em": "2026-11-12 13:33:37",
+      "item": "Equipo macrogotas",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 6138,
       "item_id": 104,
       "produto_nome": "Seringa 3ml",
@@ -25015,21 +25030,6 @@
       "obs": "",
       "criado_em": "2026-11-04 11:38:32",
       "item": "Atadura crepon nº 20",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 5639,
-      "item_id": 151,
-      "produto_nome": "Atadura crepon nº 15",
-      "tipo": "Almoxarifado para Farmácia",
-      "origem": "Almoxarifado",
-      "destino": "Farmácia",
-      "quantidade": 120,
-      "responsavel": "Assucena",
-      "data": "2026-11-03",
-      "obs": "",
-      "criado_em": "2026-11-04 11:38:27",
-      "item": "Atadura crepon nº 15",
       "usuario": "Assucena"
     }
   ]
