@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "12/11/2026 13:33:38",
+  "atualizado_em": "12/11/2026 13:33:49",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
     "total_almoxarifado": 102885,
-    "total_farmacia": 27680,
-    "total_geral": 130565,
+    "total_farmacia": 27670,
+    "total_geral": 130555,
     "perto_de_terminar": 49,
     "zerados": 27
   },
@@ -12530,19 +12530,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 2640,
-      "farmacia": 29,
+      "farmacia": 19,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 2669,
+      "total": 2659,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-11 11:28:52",
+      "atualizado_em": "2026-11-12 13:33:48",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -12556,17 +12556,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 29
+          "quantidade": 19
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 219,
-      "previsao_20_dias": 219,
+      "minimo_alerta": 221,
+      "previsao_20_dias": 221,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 87,
-      "media_diaria_saida": 10.93,
-      "total_saida_historica": 951,
-      "cobertura_dias": 244.2,
+      "media_diaria_saida": 11.05,
+      "total_saida_historica": 961,
+      "cobertura_dias": 240.7,
       "alerta_estoque": false
     },
     {
@@ -17532,6 +17532,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 6140,
+      "item_id": 329,
+      "produto_nome": "Polifix",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 10,
+      "responsavel": "Leiliana",
+      "data": "2026-11-11",
+      "obs": "",
+      "criado_em": "2026-11-12 13:33:48",
+      "item": "Polifix",
+      "usuario": "Leiliana"
+    },
     {
       "id": 6139,
       "item_id": 220,
@@ -25015,21 +25030,6 @@
       "obs": "",
       "criado_em": "2026-11-04 11:38:39",
       "item": "Gelco nº 22",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 5640,
-      "item_id": 153,
-      "produto_nome": "Atadura crepon nº 20",
-      "tipo": "Almoxarifado para Farmácia",
-      "origem": "Almoxarifado",
-      "destino": "Farmácia",
-      "quantidade": 120,
-      "responsavel": "Assucena",
-      "data": "2026-11-03",
-      "obs": "",
-      "criado_em": "2026-11-04 11:38:32",
-      "item": "Atadura crepon nº 20",
       "usuario": "Assucena"
     }
   ]
