@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "12/11/2026 13:33:49",
+  "atualizado_em": "12/11/2026 13:33:59",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
     "total_almoxarifado": 102885,
-    "total_farmacia": 27670,
-    "total_geral": 130555,
+    "total_farmacia": 27665,
+    "total_geral": 130550,
     "perto_de_terminar": 49,
     "zerados": 27
   },
@@ -9973,19 +9973,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 280,
-      "farmacia": 52,
+      "farmacia": 47,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 332,
+      "total": 327,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-10 11:43:43",
+      "atualizado_em": "2026-11-12 13:33:57",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -9999,17 +9999,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 57
+          "quantidade": 52
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 56,
-      "previsao_20_dias": 56,
+      "minimo_alerta": 57,
+      "previsao_20_dias": 57,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 92,
-      "media_diaria_saida": 2.79,
-      "total_saida_historica": 257,
-      "cobertura_dias": 118.8,
+      "media_diaria_saida": 2.85,
+      "total_saida_historica": 262,
+      "cobertura_dias": 114.8,
       "alerta_estoque": false
     },
     {
@@ -17533,6 +17533,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 6141,
+      "item_id": 185,
+      "produto_nome": "Luva cirúrgica tam. 7,5",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 5,
+      "responsavel": "Leiliana",
+      "data": "2026-11-11",
+      "obs": "",
+      "criado_em": "2026-11-12 13:33:57",
+      "item": "Luva cirúrgica tam. 7,5",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 6140,
       "item_id": 329,
       "produto_nome": "Polifix",
@@ -25015,21 +25030,6 @@
       "obs": "",
       "criado_em": "2026-11-04 11:38:44",
       "item": "Dispositivo intravenoso Gelco nº 20",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 5641,
-      "item_id": 177,
-      "produto_nome": "Gelco nº 22",
-      "tipo": "Almoxarifado para Farmácia",
-      "origem": "Almoxarifado",
-      "destino": "Farmácia",
-      "quantidade": 200,
-      "responsavel": "Assucena",
-      "data": "2026-11-03",
-      "obs": "",
-      "criado_em": "2026-11-04 11:38:39",
-      "item": "Gelco nº 22",
       "usuario": "Assucena"
     }
   ]
