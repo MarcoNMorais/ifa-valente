@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "12/11/2026 13:38:06",
+  "atualizado_em": "12/11/2026 13:39:14",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
-    "total_almoxarifado": 102885,
-    "total_farmacia": 27401,
+    "total_almoxarifado": 102815,
+    "total_farmacia": 27471,
     "total_geral": 130286,
     "perto_de_terminar": 49,
     "zerados": 28
@@ -6633,8 +6633,8 @@
       "nome": "Ferropurum 20mg/ml",
       "tipo": "Medicamento",
       "unidade": "Unidade",
-      "almoxarifado": 70,
-      "farmacia": 0,
+      "almoxarifado": 0,
+      "farmacia": 70,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -6646,12 +6646,12 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-10 11:32:06",
+      "atualizado_em": "2026-11-12 13:39:13",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
         {
-          "local": "almoxarifado",
+          "local": "farmacia",
           "validade": "",
           "lote": "",
           "quantidade": 70
@@ -17526,6 +17526,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 6157,
+      "item_id": 230,
+      "produto_nome": "Ferropurum 20mg/ml",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 70,
+      "responsavel": "Leiliana",
+      "data": "2026-11-11",
+      "obs": "",
+      "criado_em": "2026-11-12 13:39:13",
+      "item": "Ferropurum 20mg/ml",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 6156,
       "item_id": 98,
       "produto_nome": "Scalp nº 23",
@@ -25008,21 +25023,6 @@
       "obs": "",
       "criado_em": "2026-11-04 11:41:21",
       "item": "Soro glicose 5% 500ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 5657,
-      "item_id": 252,
-      "produto_nome": "Salbutamol spray",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 1,
-      "responsavel": "Assucena",
-      "data": "2026-11-03",
-      "obs": "",
-      "criado_em": "2026-11-04 11:41:13",
-      "item": "Salbutamol spray",
       "usuario": "Assucena"
     }
   ]
