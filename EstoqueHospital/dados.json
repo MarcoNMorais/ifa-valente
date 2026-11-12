@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "12/11/2026 13:36:48",
+  "atualizado_em": "12/11/2026 13:37:08",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
     "total_almoxarifado": 102885,
-    "total_farmacia": 27526,
-    "total_geral": 130411,
+    "total_farmacia": 27506,
+    "total_geral": 130391,
     "perto_de_terminar": 49,
     "zerados": 28
   },
@@ -13308,19 +13308,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 5250,
-      "farmacia": 389,
+      "farmacia": 369,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 5639,
+      "total": 5619,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-11 16:35:46",
+      "atualizado_em": "2026-11-12 13:37:07",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -13334,17 +13334,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 434
+          "quantidade": 414
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 1147,
-      "previsao_20_dias": 1147,
+      "minimo_alerta": 1152,
+      "previsao_20_dias": 1152,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 92,
-      "media_diaria_saida": 57.35,
-      "total_saida_historica": 5276,
-      "cobertura_dias": 98.3,
+      "media_diaria_saida": 57.57,
+      "total_saida_historica": 5296,
+      "cobertura_dias": 97.6,
       "alerta_estoque": false
     },
     {
@@ -17525,6 +17525,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 6151,
+      "item_id": 102,
+      "produto_nome": "Seringa 5ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 20,
+      "responsavel": "Leiliana",
+      "data": "2026-11-11",
+      "obs": "",
+      "criado_em": "2026-11-12 13:37:07",
+      "item": "Seringa 5ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 6150,
       "item_id": 274,
@@ -25008,21 +25023,6 @@
       "obs": "",
       "criado_em": "2026-11-04 11:40:35",
       "item": "Gelco nº 22",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 5651,
-      "item_id": 178,
-      "produto_nome": "Dispositivo intravenoso Gelco nº 20",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 10,
-      "responsavel": "Assucena",
-      "data": "2026-11-03",
-      "obs": "",
-      "criado_em": "2026-11-04 11:40:25",
-      "item": "Dispositivo intravenoso Gelco nº 20",
       "usuario": "Assucena"
     }
   ]
