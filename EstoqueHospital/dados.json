@@ -1,13 +1,13 @@
 {
-  "atualizado_em": "13/11/2026 10:59:26",
+  "atualizado_em": "13/11/2026 10:59:36",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
     "total_almoxarifado": 100370,
-    "total_farmacia": 29521,
-    "total_geral": 129891,
-    "perto_de_terminar": 47,
-    "zerados": 29
+    "total_farmacia": 29511,
+    "total_geral": 129881,
+    "perto_de_terminar": 48,
+    "zerados": 30
   },
   "itens": [
     {
@@ -10921,38 +10921,31 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 10,
+      "farmacia": 0,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 10,
+      "total": 0,
       "minimo": 0,
-      "validade": "09/27",
+      "validade": "",
       "lote": "",
       "origem": "Carga Farmácia 227-288",
       "obs": "Importação Farmácia 227-288",
-      "atualizado_em": "2026-11-10 11:32:06",
-      "validade_mais_proxima": "09/27",
-      "vencimento_mais_proximo": "09/27",
-      "lotes_validade": [
-        {
-          "local": "farmacia",
-          "validade": "09/27",
-          "lote": "",
-          "quantidade": 10
-        }
-      ],
+      "atualizado_em": "2026-11-13 10:59:34",
+      "validade_mais_proxima": "",
+      "vencimento_mais_proximo": "",
+      "lotes_validade": [],
       "minimo_manual": 0,
-      "minimo_alerta": 0,
-      "previsao_20_dias": 0,
+      "minimo_alerta": 3,
+      "previsao_20_dias": 3,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 88,
-      "media_diaria_saida": 0.0,
-      "total_saida_historica": 0,
-      "cobertura_dias": null,
-      "alerta_estoque": false
+      "media_diaria_saida": 0.11,
+      "total_saida_historica": 10,
+      "cobertura_dias": 0.0,
+      "alerta_estoque": true
     },
     {
       "id": 126,
@@ -17513,6 +17506,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 6201,
+      "item_id": 268,
+      "produto_nome": "Metildopa 250mg CPR",
+      "tipo": "Farmácia para Posto de Internamento",
+      "origem": "Farmácia",
+      "destino": "Posto de Internamento",
+      "quantidade": 10,
+      "responsavel": "Assucena",
+      "data": "2026-11-13",
+      "obs": "",
+      "criado_em": "2026-11-13 10:59:34",
+      "item": "Metildopa 250mg CPR",
+      "usuario": "Assucena"
+    },
     {
       "id": 6200,
       "item_id": 70,
@@ -24996,21 +25004,6 @@
       "obs": "",
       "criado_em": "2026-11-04 16:53:28",
       "item": "Lençol descartável papel",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 5701,
-      "item_id": 104,
-      "produto_nome": "Seringa 3ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 20,
-      "responsavel": "Leiliana",
-      "data": "2026-11-04",
-      "obs": "",
-      "criado_em": "2026-11-04 16:53:21",
-      "item": "Seringa 3ml",
       "usuario": "Leiliana"
     }
   ]
