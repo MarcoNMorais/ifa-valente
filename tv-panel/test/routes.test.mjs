@@ -1,0 +1,47 @@
+import {test} from 'node:test';
+import assert from 'node:assert/strict';
+import {PassThrough, Writable} from 'node:stream';
+import {mkdtemp,rm} from 'node:fs/promises';
+import os from 'node:os';
+import path from 'node:path';
+import {createTVHospHandler} from '../tvhosp.mjs';
+test('isolamento, autenticação, publicação, upload e persistência',async t=>{
+ const dir=await mkdtemp(path.join(os.tmpdir(),'tvhosp-test-'));const password='test-only-password-123';
+ let handle=await createTVHospHandler({dataDir:dir,password,secureCookies:false});
+ t.after(async()=>{await rm(dir,{recursive:true,force:true});});
+ const root='http://local.test';
+ async function fetch(url,options={}){
+  const req=new PassThrough();req.url=new URL(url).pathname+new URL(url).search;req.method=options.method||'GET';req.headers=Object.fromEntries(Object.entries(options.headers||{}).map(([k,v])=>[k.toLowerCase(),v]));
+  const body=options.body===undefined?null:Buffer.from(options.body);if(body)req.headers['content-length']=String(body.length);
+  let status=200;const headers=new Map(),chunks=[];const res=new Writable({write(chunk,encoding,cb){chunks.push(Buffer.from(chunk));cb()}});res.headersSent=false;
+  res.setHeader=(k,v)=>headers.set(k.toLowerCase(),v);res.writeHead=(code,h={})=>{status=code;for(const [k,v]of Object.entries(h))res.setHeader(k,v);res.headersSent=true;};
+  const done=new Promise((resolve,reject)=>{res.on('finish',resolve);res.on('error',reject);});req.end(body);if(!await handle(req,res))res.end('SITE PRINCIPAL');await done;const out=Buffer.concat(chunks);
+  return {status,headers:{get:k=>headers.get(k.toLowerCase())||null},text:async()=>out.toString(),json:async()=>JSON.parse(out),arrayBuffer:async()=>out};
+ }
+ let r=await fetch(root+'/');assert.equal(await r.text(),'SITE PRINCIPAL');
+ r=await fetch(root+'/outra-pagina');assert.equal(await r.text(),'SITE PRINCIPAL');
+ r=await fetch(root+'/TV/TVHosp');const publicPage=await r.text();assert(!publicPage.includes('configureTv'));assert(!publicPage.includes('applyVideos'));assert(publicPage.includes('/TV/assets/player.js'));
+ r=await fetch(root+'/TV');assert((await r.text()).includes('id="login"'));
+ r=await fetch(root+'/TV/Admin/TVHosp');assert.equal(r.status,302);
+ r=await fetch(root+'/TV/api/hospital/admin');assert.equal(r.status,401);
+ r=await fetch(root+'/TV/api/hospital/config',{method:'PUT',body:'{}'});assert.equal(r.status,403);
+ r=await fetch(root+'/TV/api/login',{method:'POST',headers:{'X-TVHosp-Request':'1'},body:JSON.stringify({password:'wrong'})});assert.equal(r.status,401);
+ r=await fetch(root+'/TV/api/login',{method:'POST',headers:{'X-TVHosp-Request':'1'},body:JSON.stringify({password})});assert.equal(r.status,200);const cookie=r.headers.get('set-cookie').split(';')[0];assert(r.headers.get('set-cookie').includes('HttpOnly'));
+ const headers={'X-TVHosp-Request':'1',Cookie:cookie};
+ r=await fetch(root+'/TV/Admin/TVHosp',{headers});assert((await r.text()).includes('applyVideos'));
+ const bytes=Buffer.from('000000186674797069736f6d0000020069736f6d69736f32','hex');
+ r=await fetch(root+'/TV/api/upload?name=teste.mp4',{method:'POST',headers:{...headers,'Content-Type':'video/mp4'},body:bytes});assert.equal(r.status,201);const uploaded=await r.json();const id=uploaded.video.id;
+ r=await fetch(root+'/TV/api/hospital/state');let publicState=await r.json();assert.equal(publicState.videos.length,0);
+ r=await fetch(root+'/TV/media/'+id);assert.equal(r.status,404);
+ r=await fetch(root+'/TV/api/hospital/admin',{headers});let state=await r.json();state.config.playlist=[id];state.config.messages=[{id:'a',text:'Ativa',on:true},{id:'b',text:'Rascunho privado',on:false}];
+ r=await fetch(root+'/TV/api/hospital/config',{method:'PUT',headers,body:JSON.stringify(state)});assert.equal(r.status,200);
+ r=await fetch(root+'/TV/api/hospital/config',{method:'PUT',headers,body:JSON.stringify(state)});assert.equal(r.status,409);
+ r=await fetch(root+'/TV/api/hospital/state');publicState=await r.json();assert.equal(publicState.videos.length,1);assert.equal(publicState.config.messages.length,1);assert.equal(publicState.config.messages[0].text,'Ativa');
+ r=await fetch(root+'/TV/media/'+id,{headers:{Range:'bytes=0-3'}});assert.equal(r.status,206);assert.equal((await r.arrayBuffer()).byteLength,4);
+ r=await fetch(root+'/TV/media/'+id,{headers:{Range:'bytes=9999-'}});assert.equal(r.status,416);
+ r=await fetch(root+'/TV/api/videos/'+id,{method:'DELETE',headers});assert.equal(r.status,409);
+ r=await fetch(root+'/tv/admin/tvhosp',{redirect:'manual'});assert.equal(r.status,308);assert.equal(r.headers.get('location'),'/TV/Admin/TVHosp');
+ handle=await createTVHospHandler({dataDir:dir,password,secureCookies:false});
+ r=await fetch(root+'/TV/api/hospital/state');assert.equal((await r.json()).config.playlist[0],id);
+ r=await fetch(root+'/TV/api/hospital/admin',{headers});assert.equal(r.status,401);
+});
