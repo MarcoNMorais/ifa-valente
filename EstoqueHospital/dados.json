@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "13/11/2026 10:57:08",
+  "atualizado_em": "13/11/2026 10:57:24",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
-    "total_almoxarifado": 101988,
-    "total_farmacia": 27943,
+    "total_almoxarifado": 101980,
+    "total_farmacia": 27951,
     "total_geral": 129931,
     "perto_de_terminar": 47,
     "zerados": 29
@@ -9416,8 +9416,8 @@
       "nome": "Lençol descartável papel",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 107,
-      "farmacia": 4,
+      "almoxarifado": 99,
+      "farmacia": 12,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -9429,7 +9429,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-12 16:33:10",
+      "atualizado_em": "2026-11-13 10:57:22",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -9437,13 +9437,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 107
+          "quantidade": 99
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 7
+          "quantidade": 15
         }
       ],
       "minimo_manual": 0,
@@ -17529,6 +17529,21 @@
       "usuario": "Assucena"
     },
     {
+      "id": 6191,
+      "item_id": 199,
+      "produto_nome": "Lençol descartável papel",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 8,
+      "responsavel": "Assucena",
+      "data": "2026-11-12",
+      "obs": "",
+      "criado_em": "2026-11-13 10:57:22",
+      "item": "Lençol descartável papel",
+      "usuario": "Assucena"
+    },
+    {
       "id": 6190,
       "item_id": 155,
       "produto_nome": "Bolsa coletora",
@@ -24996,21 +25011,6 @@
       "obs": "",
       "criado_em": "2026-11-04 16:51:51",
       "item": "Dexametasona",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 5691,
-      "item_id": 55,
-      "produto_nome": "Benzilpenicilina 1.200",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 12,
-      "responsavel": "Leiliana",
-      "data": "2026-11-04",
-      "obs": "",
-      "criado_em": "2026-11-04 16:51:40",
-      "item": "Benzilpenicilina 1.200",
       "usuario": "Leiliana"
     }
   ]
