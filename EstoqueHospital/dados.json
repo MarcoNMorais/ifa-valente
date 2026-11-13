@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "13/11/2026 10:54:51",
+  "atualizado_em": "13/11/2026 10:55:01",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
     "total_almoxarifado": 102815,
-    "total_farmacia": 27238,
-    "total_geral": 130053,
+    "total_farmacia": 27178,
+    "total_geral": 129993,
     "perto_de_terminar": 47,
     "zerados": 29
   },
@@ -500,19 +500,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 4800,
-      "farmacia": 425,
+      "farmacia": 365,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 5225,
+      "total": 5165,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-12 13:37:29",
+      "atualizado_em": "2026-11-13 10:54:56",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -526,17 +526,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 425
+          "quantidade": 365
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 1768,
-      "previsao_20_dias": 1768,
+      "minimo_alerta": 1785,
+      "previsao_20_dias": 1785,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 71,
-      "media_diaria_saida": 88.38,
-      "total_saida_historica": 6275,
-      "cobertura_dias": 59.1,
+      "media_diaria_saida": 89.23,
+      "total_saida_historica": 6335,
+      "cobertura_dias": 57.9,
       "alerta_estoque": false
     },
     {
@@ -17526,6 +17526,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 6179,
+      "item_id": 390,
+      "produto_nome": "AGULHA  40X1,2",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 60,
+      "responsavel": "Assucena",
+      "data": "2026-11-12",
+      "obs": "",
+      "criado_em": "2026-11-13 10:54:56",
+      "item": "AGULHA  40X1,2",
+      "usuario": "Assucena"
+    },
+    {
       "id": 6178,
       "item_id": 75,
       "produto_nome": "Escopolamina 20mg",
@@ -25008,21 +25023,6 @@
       "obs": "",
       "criado_em": "2026-11-04 16:49:02",
       "item": "Tramadol 50mg/ml 2ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 5679,
-      "item_id": 226,
-      "produto_nome": "Enoxaparina sódica 40mg",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 2,
-      "responsavel": "Leiliana",
-      "data": "2026-11-04",
-      "obs": "",
-      "criado_em": "2026-11-04 16:48:46",
-      "item": "Enoxaparina sódica 40mg",
       "usuario": "Leiliana"
     }
   ]
