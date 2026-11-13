@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "13/11/2026 11:02:33",
+  "atualizado_em": "13/11/2026 11:02:39",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
     "total_almoxarifado": 100070,
-    "total_farmacia": 29621,
-    "total_geral": 129691,
+    "total_farmacia": 29619,
+    "total_geral": 129689,
     "perto_de_terminar": 48,
     "zerados": 30
   },
@@ -10362,19 +10362,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 20,
-      "farmacia": 940,
+      "farmacia": 938,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 960,
+      "total": 958,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga Almoxerifado",
       "obs": "Importação Almoxerifado",
-      "atualizado_em": "2026-11-13 10:58:04",
+      "atualizado_em": "2026-11-13 11:02:37",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -10388,7 +10388,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 940
+          "quantidade": 938
         }
       ],
       "minimo_manual": 0,
@@ -10396,9 +10396,9 @@
       "previsao_20_dias": 10,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 88,
-      "media_diaria_saida": 0.45,
-      "total_saida_historica": 40,
-      "cobertura_dias": 2112.0,
+      "media_diaria_saida": 0.48,
+      "total_saida_historica": 42,
+      "cobertura_dias": 2007.2,
       "alerta_estoque": false
     },
     {
@@ -17500,6 +17500,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 6212,
+      "item_id": 280,
+      "produto_nome": "Luva M procedimento",
+      "tipo": "Farmácia para Posto de Internamento",
+      "origem": "Farmácia",
+      "destino": "Posto de Internamento",
+      "quantidade": 2,
+      "responsavel": "Assucena",
+      "data": "2026-11-13",
+      "obs": "",
+      "criado_em": "2026-11-13 11:02:37",
+      "item": "Luva M procedimento",
+      "usuario": "Assucena"
+    },
     {
       "id": 6211,
       "item_id": 186,
@@ -24983,21 +24998,6 @@
       "obs": "",
       "criado_em": "2026-11-05 09:49:13",
       "item": "Seringa 3ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 5712,
-      "item_id": 103,
-      "produto_nome": "Seringa 10ml",
-      "tipo": "Almoxarifado para Farmácia",
-      "origem": "Almoxarifado",
-      "destino": "Farmácia",
-      "quantidade": 250,
-      "responsavel": "Assucena",
-      "data": "2026-11-05",
-      "obs": "",
-      "criado_em": "2026-11-05 09:48:58",
-      "item": "Seringa 10ml",
       "usuario": "Assucena"
     }
   ]
