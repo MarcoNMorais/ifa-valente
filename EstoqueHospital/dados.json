@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "13/11/2026 11:00:14",
+  "atualizado_em": "13/11/2026 11:01:46",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
     "total_almoxarifado": 100370,
-    "total_farmacia": 29430,
-    "total_geral": 129800,
+    "total_farmacia": 29350,
+    "total_geral": 129720,
     "perto_de_terminar": 48,
     "zerados": 30
   },
@@ -500,19 +500,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 4200,
-      "farmacia": 965,
+      "farmacia": 885,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 5165,
+      "total": 5085,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-13 10:57:44",
+      "atualizado_em": "2026-11-13 11:01:44",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -526,17 +526,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 965
+          "quantidade": 885
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 1785,
-      "previsao_20_dias": 1785,
+      "minimo_alerta": 1808,
+      "previsao_20_dias": 1808,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 71,
-      "media_diaria_saida": 89.23,
-      "total_saida_historica": 6335,
-      "cobertura_dias": 57.9,
+      "media_diaria_saida": 90.35,
+      "total_saida_historica": 6415,
+      "cobertura_dias": 56.3,
       "alerta_estoque": false
     },
     {
@@ -17507,6 +17507,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 6206,
+      "item_id": 390,
+      "produto_nome": "AGULHA  40X1,2",
+      "tipo": "Farmácia para Posto de Internamento",
+      "origem": "Farmácia",
+      "destino": "Posto de Internamento",
+      "quantidade": 80,
+      "responsavel": "Assucena",
+      "data": "2026-11-13",
+      "obs": "",
+      "criado_em": "2026-11-13 11:01:44",
+      "item": "AGULHA  40X1,2",
+      "usuario": "Assucena"
+    },
+    {
       "id": 6205,
       "item_id": 102,
       "produto_nome": "Seringa 5ml",
@@ -24989,21 +25004,6 @@
       "obs": "",
       "criado_em": "2026-11-04 16:54:15",
       "item": "Lanceta de segurança",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 5706,
-      "item_id": 195,
-      "produto_nome": "Tira Reagente G-Tech",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 1,
-      "responsavel": "Leiliana",
-      "data": "2026-11-04",
-      "obs": "",
-      "criado_em": "2026-11-04 16:54:07",
-      "item": "Tira Reagente G-Tech",
       "usuario": "Leiliana"
     }
   ]
