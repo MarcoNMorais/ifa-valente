@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "13/11/2026 10:56:53",
+  "atualizado_em": "13/11/2026 10:57:08",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
-    "total_almoxarifado": 101998,
-    "total_farmacia": 27933,
+    "total_almoxarifado": 101988,
+    "total_farmacia": 27943,
     "total_geral": 129931,
     "perto_de_terminar": 47,
     "zerados": 29
@@ -2805,8 +2805,8 @@
       "nome": "Bolsa coletora",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 117,
-      "farmacia": 23,
+      "almoxarifado": 107,
+      "farmacia": 33,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -2818,7 +2818,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-12 13:39:59",
+      "atualizado_em": "2026-11-13 10:57:07",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -2826,13 +2826,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 117
+          "quantidade": 107
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 23
+          "quantidade": 33
         }
       ],
       "minimo_manual": 0,
@@ -17529,6 +17529,21 @@
       "usuario": "Assucena"
     },
     {
+      "id": 6190,
+      "item_id": 155,
+      "produto_nome": "Bolsa coletora",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 10,
+      "responsavel": "Assucena",
+      "data": "2026-11-12",
+      "obs": "",
+      "criado_em": "2026-11-13 10:57:07",
+      "item": "Bolsa coletora",
+      "usuario": "Assucena"
+    },
+    {
       "id": 6189,
       "item_id": 222,
       "produto_nome": "Touca descartável",
@@ -24996,21 +25011,6 @@
       "obs": "",
       "criado_em": "2026-11-04 16:51:40",
       "item": "Benzilpenicilina 1.200",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 5690,
-      "item_id": 60,
-      "produto_nome": "Cetoprofeno EV 100mg",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 12,
-      "responsavel": "Leiliana",
-      "data": "2026-11-04",
-      "obs": "",
-      "criado_em": "2026-11-04 16:51:31",
-      "item": "Cetoprofeno EV 100mg",
       "usuario": "Leiliana"
     }
   ]
