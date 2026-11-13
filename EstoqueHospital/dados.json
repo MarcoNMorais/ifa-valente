@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "13/11/2026 11:15:46",
+  "atualizado_em": "13/11/2026 11:15:55",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
     "total_almoxarifado": 100070,
-    "total_farmacia": 29602,
-    "total_geral": 129672,
+    "total_farmacia": 29578,
+    "total_geral": 129648,
     "perto_de_terminar": 48,
     "zerados": 30
   },
@@ -1608,19 +1608,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 2244,
-      "farmacia": 302,
+      "farmacia": 278,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 2546,
+      "total": 2522,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-11 11:28:37",
+      "atualizado_em": "2026-11-13 11:15:53",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -1634,17 +1634,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 314
+          "quantidade": 290
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 152,
-      "previsao_20_dias": 152,
+      "minimo_alerta": 157,
+      "previsao_20_dias": 157,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 93,
-      "media_diaria_saida": 7.59,
-      "total_saida_historica": 706,
-      "cobertura_dias": 335.4,
+      "media_diaria_saida": 7.85,
+      "total_saida_historica": 730,
+      "cobertura_dias": 321.3,
       "alerta_estoque": false
     },
     {
@@ -17501,6 +17501,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 6215,
+      "item_id": 152,
+      "produto_nome": "Atadura crepon nº 10",
+      "tipo": "Farmácia para SALA DE GESSO",
+      "origem": "Farmácia",
+      "destino": "SALA DE GESSO",
+      "quantidade": 24,
+      "responsavel": "Assucena",
+      "data": "2026-11-13",
+      "obs": "",
+      "criado_em": "2026-11-13 11:15:53",
+      "item": "Atadura crepon nº 10",
+      "usuario": "Assucena"
+    },
+    {
       "id": 6214,
       "item_id": 196,
       "produto_nome": "Atadura gessada nº 10",
@@ -24983,21 +24998,6 @@
       "obs": "",
       "criado_em": "2026-11-05 09:50:03",
       "item": "Dipirona",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 5715,
-      "item_id": 99,
-      "produto_nome": "Scalp nº 21",
-      "tipo": "Almoxarifado para Farmácia",
-      "origem": "Almoxarifado",
-      "destino": "Farmácia",
-      "quantidade": 100,
-      "responsavel": "Assucena",
-      "data": "2026-11-05",
-      "obs": "",
-      "criado_em": "2026-11-05 09:49:26",
-      "item": "Scalp nº 21",
       "usuario": "Assucena"
     }
   ]
