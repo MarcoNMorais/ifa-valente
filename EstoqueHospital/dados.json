@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "13/11/2026 11:02:20",
+  "atualizado_em": "13/11/2026 11:02:26",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
     "total_almoxarifado": 100070,
-    "total_farmacia": 29625,
-    "total_geral": 129695,
+    "total_farmacia": 29623,
+    "total_geral": 129693,
     "perto_de_terminar": 48,
     "zerados": 30
   },
@@ -9920,19 +9920,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 300,
-      "farmacia": 34,
+      "farmacia": 32,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 334,
+      "total": 332,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-11-10 11:43:48",
+      "atualizado_em": "2026-11-13 11:02:24",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -9946,17 +9946,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 34
+          "quantidade": 32
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 38,
-      "previsao_20_dias": 38,
+      "minimo_alerta": 39,
+      "previsao_20_dias": 39,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 93,
-      "media_diaria_saida": 1.89,
-      "total_saida_historica": 176,
-      "cobertura_dias": 176.5,
+      "media_diaria_saida": 1.91,
+      "total_saida_historica": 178,
+      "cobertura_dias": 173.5,
       "alerta_estoque": false
     },
     {
@@ -17507,6 +17507,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 6210,
+      "item_id": 184,
+      "produto_nome": "Luva cirúrgica tam. 7",
+      "tipo": "Farmácia para Posto de Internamento",
+      "origem": "Farmácia",
+      "destino": "Posto de Internamento",
+      "quantidade": 2,
+      "responsavel": "Assucena",
+      "data": "2026-11-13",
+      "obs": "",
+      "criado_em": "2026-11-13 11:02:24",
+      "item": "Luva cirúrgica tam. 7",
+      "usuario": "Assucena"
+    },
+    {
       "id": 6209,
       "item_id": 185,
       "produto_nome": "Luva cirúrgica tam. 7,5",
@@ -24988,21 +25003,6 @@
       "data": "2026-11-04",
       "obs": "",
       "criado_em": "2026-11-04 16:54:53",
-      "item": "Esparadrapo 10x4,5",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 5710,
-      "item_id": 276,
-      "produto_nome": "Esparadrapo 10x4,5",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 2,
-      "responsavel": "Leiliana",
-      "data": "2026-11-04",
-      "obs": "",
-      "criado_em": "2026-11-04 16:54:43",
       "item": "Esparadrapo 10x4,5",
       "usuario": "Leiliana"
     }
