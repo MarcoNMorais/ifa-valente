@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "16/11/2026 15:23:19",
+  "atualizado_em": "16/11/2026 15:23:30",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
     "total_almoxarifado": 124639,
-    "total_farmacia": 30943,
-    "total_geral": 155582,
+    "total_farmacia": 30942,
+    "total_geral": 155581,
     "perto_de_terminar": 23,
     "zerados": 15
   },
@@ -12115,19 +12115,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 16,
-      "farmacia": 3,
+      "farmacia": 2,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 19,
+      "total": 18,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-16 14:31:46",
+      "atualizado_em": "2026-11-16 15:23:28",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -12141,7 +12141,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 3
+          "quantidade": 2
         }
       ],
       "minimo_manual": 0,
@@ -12149,9 +12149,9 @@
       "previsao_20_dias": 3,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 35,
-      "media_diaria_saida": 0.11,
-      "total_saida_historica": 4,
-      "cobertura_dias": 166.2,
+      "media_diaria_saida": 0.14,
+      "total_saida_historica": 5,
+      "cobertura_dias": 126.0,
       "alerta_estoque": false
     },
     {
@@ -17807,6 +17807,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 6493,
+      "item_id": 410,
+      "produto_nome": "oleo de girasol AGE",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 1,
+      "responsavel": "Leiliana",
+      "data": "2026-11-16",
+      "obs": "",
+      "criado_em": "2026-11-16 15:23:28",
+      "item": "oleo de girasol AGE",
+      "usuario": "Leiliana"
+    },
     {
       "id": 6492,
       "item_id": 249,
@@ -25290,21 +25305,6 @@
       "obs": "",
       "criado_em": "2026-11-09 16:49:47",
       "item": "vancomicina",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 5993,
-      "item_id": 276,
-      "produto_nome": "Esparadrapo 10x4,5",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 2,
-      "responsavel": "Leiliana",
-      "data": "2026-11-09",
-      "obs": "",
-      "criado_em": "2026-11-09 16:49:38",
-      "item": "Esparadrapo 10x4,5",
       "usuario": "Leiliana"
     }
   ]
