@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "16/11/2026 15:09:52",
+  "atualizado_em": "16/11/2026 15:10:05",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
     "total_almoxarifado": 124967,
-    "total_farmacia": 31494,
-    "total_geral": 156461,
+    "total_farmacia": 31484,
+    "total_geral": 156451,
     "perto_de_terminar": 22,
     "zerados": 15
   },
@@ -12219,19 +12219,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 420,
-      "farmacia": 124,
+      "farmacia": 114,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 544,
+      "total": 534,
       "minimo": 0,
       "validade": "2028-02",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-16 14:31:46",
+      "atualizado_em": "2026-11-16 15:10:04",
       "validade_mais_proxima": "2028-02",
       "vencimento_mais_proximo": "2028-02",
       "lotes_validade": [
@@ -12239,7 +12239,7 @@
           "local": "farmacia",
           "validade": "2028-02",
           "lote": "",
-          "quantidade": 110
+          "quantidade": 100
         },
         {
           "local": "almoxarifado",
@@ -12255,13 +12255,13 @@
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 74,
-      "previsao_20_dias": 74,
+      "minimo_alerta": 76,
+      "previsao_20_dias": 76,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 96,
-      "media_diaria_saida": 3.67,
-      "total_saida_historica": 352,
-      "cobertura_dias": 148.4,
+      "media_diaria_saida": 3.77,
+      "total_saida_historica": 362,
+      "cobertura_dias": 141.6,
       "alerta_estoque": false
     },
     {
@@ -17819,6 +17819,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 6426,
+      "item_id": 31,
+      "produto_nome": "Omeprazol 20mg comprimido",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 10,
+      "responsavel": "Leiliana",
+      "data": "2026-11-16",
+      "obs": "",
+      "criado_em": "2026-11-16 15:10:04",
+      "item": "Omeprazol 20mg comprimido",
+      "usuario": "Leiliana"
+    },
     {
       "id": 6425,
       "item_id": 278,
@@ -25302,21 +25317,6 @@
       "obs": "",
       "criado_em": "2026-11-09 11:21:57",
       "item": "Cimetidina 150mg",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 5916,
-      "item_id": 57,
-      "produto_nome": "Bromoprida 5mg",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 20,
-      "responsavel": "Assucena",
-      "data": "2026-11-09",
-      "obs": "",
-      "criado_em": "2026-11-09 11:21:45",
-      "item": "Bromoprida 5mg",
       "usuario": "Assucena"
     }
   ]
