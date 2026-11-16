@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "16/11/2026 14:44:30",
+  "atualizado_em": "16/11/2026 14:44:57",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
-    "total_almoxarifado": 121844,
+    "total_almoxarifado": 121940,
     "total_farmacia": 29578,
-    "total_geral": 151422,
+    "total_geral": 151518,
     "perto_de_terminar": 22,
     "zerados": 15
   },
@@ -7472,20 +7472,20 @@
       "nome": "Fio Nylon nº 2",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 384,
+      "almoxarifado": 480,
       "farmacia": 28,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 412,
+      "total": 508,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-16 14:31:46",
+      "atualizado_em": "2026-11-16 14:44:56",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -7493,7 +7493,7 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 384
+          "quantidade": 480
         },
         {
           "local": "farmacia",
@@ -7509,7 +7509,7 @@
       "dias_historico": 91,
       "media_diaria_saida": 0.22,
       "total_saida_historica": 20,
-      "cobertura_dias": 1874.6,
+      "cobertura_dias": 2311.4,
       "alerta_estoque": false
     },
     {
@@ -17780,6 +17780,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 6322,
+      "item_id": 317,
+      "produto_nome": "Fio Nylon nº 2",
+      "tipo": "Entrada no Almoxarifado",
+      "origem": "Entrada externa",
+      "destino": "Almoxarifado",
+      "quantidade": 96,
+      "responsavel": "Leiliana",
+      "data": "2026-11-16",
+      "obs": "",
+      "criado_em": "2026-11-16 14:44:56",
+      "item": "Fio Nylon nº 2",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 6321,
       "item_id": 277,
       "produto_nome": "Luva de vinil M",
@@ -25262,21 +25277,6 @@
       "obs": "",
       "criado_em": "2026-11-06 15:59:10",
       "item": "Seringa 20ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 5822,
-      "item_id": 177,
-      "produto_nome": "Gelco nº 22",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 10,
-      "responsavel": "Leiliana",
-      "data": "2026-11-06",
-      "obs": "",
-      "criado_em": "2026-11-06 15:59:01",
-      "item": "Gelco nº 22",
       "usuario": "Leiliana"
     }
   ]
