@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "16/11/2026 14:29:34",
+  "atualizado_em": "16/11/2026 14:29:49",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
-    "total_almoxarifado": 112196,
+    "total_almoxarifado": 112226,
     "total_farmacia": 29578,
-    "total_geral": 141774,
+    "total_geral": 141804,
     "perto_de_terminar": 29,
     "zerados": 20
   },
@@ -5002,20 +5002,20 @@
       "nome": "Diazepam 5mg CPR",
       "tipo": "Medicamento",
       "unidade": "Unidade",
-      "almoxarifado": 100,
+      "almoxarifado": 130,
       "farmacia": 40,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 140,
+      "total": 170,
       "minimo": 0,
       "validade": "2027-06",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-16 14:12:07",
+      "atualizado_em": "2026-11-16 14:29:48",
       "validade_mais_proxima": "2027-06",
       "vencimento_mais_proximo": "2027-06",
       "lotes_validade": [
@@ -5029,7 +5029,7 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 100
+          "quantidade": 130
         }
       ],
       "minimo_manual": 0,
@@ -5039,7 +5039,7 @@
       "dias_historico": 96,
       "media_diaria_saida": 0.31,
       "total_saida_historica": 30,
-      "cobertura_dias": 448.0,
+      "cobertura_dias": 544.0,
       "alerta_estoque": false
     },
     {
@@ -17692,6 +17692,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 6280,
+      "item_id": 125,
+      "produto_nome": "Diazepam 5mg CPR",
+      "tipo": "Entrada no Almoxarifado",
+      "origem": "Entrada externa",
+      "destino": "Almoxarifado",
+      "quantidade": 30,
+      "responsavel": "Leiliana",
+      "data": "2026-11-16",
+      "obs": "",
+      "criado_em": "2026-11-16 14:29:48",
+      "item": "Diazepam 5mg CPR",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 6279,
       "item_id": 4,
       "produto_nome": "Decanoato de haloperidol",
@@ -25174,21 +25189,6 @@
       "obs": "",
       "criado_em": "2026-11-06 11:39:02",
       "item": "Dispositivo intravenoso Gelco nº 20",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 5780,
-      "item_id": 177,
-      "produto_nome": "Gelco nº 22",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 20,
-      "responsavel": "Assucena",
-      "data": "2026-11-05",
-      "obs": "",
-      "criado_em": "2026-11-06 11:38:51",
-      "item": "Gelco nº 22",
       "usuario": "Assucena"
     }
   ]
