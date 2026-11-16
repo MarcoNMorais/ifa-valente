@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "16/11/2026 15:19:06",
+  "atualizado_em": "16/11/2026 15:19:41",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
     "total_almoxarifado": 124639,
-    "total_farmacia": 31144,
-    "total_geral": 155783,
+    "total_farmacia": 31134,
+    "total_geral": 155773,
     "perto_de_terminar": 23,
     "zerados": 15
   },
@@ -3572,19 +3572,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 528,
+      "farmacia": 518,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 528,
+      "total": 518,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-16 15:04:46",
+      "atualizado_em": "2026-11-16 15:19:40",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -3592,17 +3592,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 528
+          "quantidade": 518
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 307,
-      "previsao_20_dias": 307,
+      "minimo_alerta": 309,
+      "previsao_20_dias": 309,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 96,
-      "media_diaria_saida": 15.31,
-      "total_saida_historica": 1470,
-      "cobertura_dias": 34.5,
+      "media_diaria_saida": 15.42,
+      "total_saida_historica": 1480,
+      "cobertura_dias": 33.6,
       "alerta_estoque": false
     },
     {
@@ -17814,6 +17814,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 6475,
+      "item_id": 59,
+      "produto_nome": "Ceftriaxona 1g",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 10,
+      "responsavel": "Leiliana",
+      "data": "2026-11-16",
+      "obs": "",
+      "criado_em": "2026-11-16 15:19:40",
+      "item": "Ceftriaxona 1g",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 6474,
       "item_id": 227,
       "produto_nome": "Enoxaparina sódica 60mg",
@@ -25296,21 +25311,6 @@
       "obs": "",
       "criado_em": "2026-11-09 16:46:16",
       "item": "Diclofenaco 25mg",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 5975,
-      "item_id": 68,
-      "produto_nome": "Dexametasona",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 40,
-      "responsavel": "Leiliana",
-      "data": "2026-11-09",
-      "obs": "",
-      "criado_em": "2026-11-09 16:46:06",
-      "item": "Dexametasona",
       "usuario": "Leiliana"
     }
   ]
