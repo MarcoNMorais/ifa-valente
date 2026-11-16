@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "16/11/2026 15:08:52",
+  "atualizado_em": "16/11/2026 15:09:02",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
     "total_almoxarifado": 124967,
-    "total_farmacia": 31577,
-    "total_geral": 156544,
+    "total_farmacia": 31547,
+    "total_geral": 156514,
     "perto_de_terminar": 22,
     "zerados": 15
   },
@@ -13492,19 +13492,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 6950,
-      "farmacia": 245,
+      "farmacia": 215,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 7195,
+      "total": 7165,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-16 14:57:29",
+      "atualizado_em": "2026-11-16 15:09:00",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -13518,17 +13518,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 270
+          "quantidade": 240
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 760,
-      "previsao_20_dias": 760,
+      "minimo_alerta": 766,
+      "previsao_20_dias": 766,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 91,
-      "media_diaria_saida": 37.97,
-      "total_saida_historica": 3455,
-      "cobertura_dias": 189.5,
+      "media_diaria_saida": 38.3,
+      "total_saida_historica": 3485,
+      "cobertura_dias": 187.1,
       "alerta_estoque": false
     },
     {
@@ -17819,6 +17819,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 6421,
+      "item_id": 274,
+      "produto_nome": "Seringa 20ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 30,
+      "responsavel": "Leiliana",
+      "data": "2026-11-16",
+      "obs": "",
+      "criado_em": "2026-11-16 15:09:00",
+      "item": "Seringa 20ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 6420,
       "item_id": 186,
@@ -25302,21 +25317,6 @@
       "obs": "",
       "criado_em": "2026-11-09 11:20:34",
       "item": "Soro glicose 5% 500ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 5911,
-      "item_id": 206,
-      "produto_nome": "Soro glicose 5% 250ml",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 4,
-      "responsavel": "Assucena",
-      "data": "2026-11-08",
-      "obs": "",
-      "criado_em": "2026-11-09 11:20:24",
-      "item": "Soro glicose 5% 250ml",
       "usuario": "Assucena"
     }
   ]
