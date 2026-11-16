@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "16/11/2026 15:16:00",
+  "atualizado_em": "16/11/2026 15:16:13",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
     "total_almoxarifado": 124639,
-    "total_farmacia": 31264,
-    "total_geral": 155903,
+    "total_farmacia": 31261,
+    "total_geral": 155900,
     "perto_de_terminar": 23,
     "zerados": 15
   },
@@ -5954,19 +5954,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 40,
-      "farmacia": 12,
+      "farmacia": 9,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 52,
+      "total": 49,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-16 14:58:06",
+      "atualizado_em": "2026-11-16 15:16:11",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -5980,17 +5980,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 12
+          "quantidade": 9
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 19,
-      "previsao_20_dias": 19,
+      "minimo_alerta": 20,
+      "previsao_20_dias": 20,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 96,
-      "media_diaria_saida": 0.95,
-      "total_saida_historica": 91,
-      "cobertura_dias": 54.9,
+      "media_diaria_saida": 0.98,
+      "total_saida_historica": 94,
+      "cobertura_dias": 50.0,
       "alerta_estoque": false
     },
     {
@@ -17814,6 +17814,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 6459,
+      "item_id": 154,
+      "produto_nome": "Equipo fotossensível",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 3,
+      "responsavel": "Leiliana",
+      "data": "2026-11-16",
+      "obs": "",
+      "criado_em": "2026-11-16 15:16:11",
+      "item": "Equipo fotossensível",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 6458,
       "item_id": 104,
       "produto_nome": "Seringa 3ml",
@@ -25296,21 +25311,6 @@
       "obs": "",
       "criado_em": "2026-11-09 11:29:42",
       "item": "Luva M procedimento",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 5958,
-      "item_id": 185,
-      "produto_nome": "Luva cirúrgica tam. 7,5",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 5,
-      "responsavel": "Assucena",
-      "data": "2026-11-09",
-      "obs": "",
-      "criado_em": "2026-11-09 11:29:34",
-      "item": "Luva cirúrgica tam. 7,5",
       "usuario": "Assucena"
     }
   ]
