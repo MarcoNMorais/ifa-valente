@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "16/11/2026 15:18:58",
+  "atualizado_em": "16/11/2026 15:19:06",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
     "total_almoxarifado": 124639,
-    "total_farmacia": 31146,
-    "total_geral": 155785,
+    "total_farmacia": 31144,
+    "total_geral": 155783,
     "perto_de_terminar": 23,
     "zerados": 15
   },
@@ -5789,19 +5789,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 40,
+      "farmacia": 38,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 40,
+      "total": 38,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga Farmácia 227-288",
       "obs": "Importação Farmácia 227-288",
-      "atualizado_em": "2026-11-16 15:09:39",
+      "atualizado_em": "2026-11-16 15:19:04",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -5809,7 +5809,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 40
+          "quantidade": 38
         }
       ],
       "minimo_manual": 0,
@@ -5817,9 +5817,9 @@
       "previsao_20_dias": 9,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 91,
-      "media_diaria_saida": 0.41,
-      "total_saida_historica": 37,
-      "cobertura_dias": 98.4,
+      "media_diaria_saida": 0.43,
+      "total_saida_historica": 39,
+      "cobertura_dias": 88.7,
       "alerta_estoque": false
     },
     {
@@ -17814,6 +17814,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 6474,
+      "item_id": 227,
+      "produto_nome": "Enoxaparina sódica 60mg",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 2,
+      "responsavel": "Leiliana",
+      "data": "2026-11-16",
+      "obs": "",
+      "criado_em": "2026-11-16 15:19:04",
+      "item": "Enoxaparina sódica 60mg",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 6473,
       "item_id": 226,
       "produto_nome": "Enoxaparina sódica 40mg",
@@ -25296,21 +25311,6 @@
       "obs": "",
       "criado_em": "2026-11-09 16:46:06",
       "item": "Dexametasona",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 5974,
-      "item_id": 60,
-      "produto_nome": "Cetoprofeno EV 100mg",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 24,
-      "responsavel": "Leiliana",
-      "data": "2026-11-09",
-      "obs": "",
-      "criado_em": "2026-11-09 16:45:56",
-      "item": "Cetoprofeno EV 100mg",
       "usuario": "Leiliana"
     }
   ]
