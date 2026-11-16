@@ -17,14 +17,22 @@ app.wsgi_app = SecretariaMiddleware(app.wsgi_app)
 
 
 # Entrada no domínio institucional; o painel continua em serviço independente.
-from flask import redirect
+from flask import redirect, request
+from urllib.parse import quote
 
+@app.route("/tv/<path:tv_path>")
+@app.route("/TV/<path:tv_path>")
 @app.route("/tv")
 @app.route("/tv/")
 @app.route("/TV")
 @app.route("/TV/")
-def tv_entry():
-    return redirect("https://tv-valente.onrender.com/TV", code=302)
+def tv_entry(tv_path=""):
+    target = "https://tv-valente.onrender.com/TV"
+    if tv_path:
+        target += "/" + quote(tv_path, safe="/")
+    if request.query_string:
+        target += "?" + request.query_string.decode("latin-1")
+    return redirect(target, code=302)
 
 if __name__ == "__main__":
     import os
