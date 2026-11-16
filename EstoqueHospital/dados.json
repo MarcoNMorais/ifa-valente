@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "16/11/2026 14:54:37",
+  "atualizado_em": "16/11/2026 14:54:47",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
     "total_almoxarifado": 128007,
-    "total_farmacia": 30203,
-    "total_geral": 158210,
+    "total_farmacia": 30148,
+    "total_geral": 158155,
     "perto_de_terminar": 22,
     "zerados": 15
   },
@@ -3697,19 +3697,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 420,
+      "farmacia": 365,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 420,
+      "total": 365,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-16 14:54:35",
+      "atualizado_em": "2026-11-16 14:54:46",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -3717,17 +3717,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 440
+          "quantidade": 385
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 225,
-      "previsao_20_dias": 225,
+      "minimo_alerta": 237,
+      "previsao_20_dias": 237,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 96,
-      "media_diaria_saida": 11.24,
-      "total_saida_historica": 1079,
-      "cobertura_dias": 37.4,
+      "media_diaria_saida": 11.81,
+      "total_saida_historica": 1134,
+      "cobertura_dias": 30.9,
       "alerta_estoque": false
     },
     {
@@ -17820,6 +17820,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 6356,
+      "item_id": 61,
+      "produto_nome": "Cetoprofeno IM 50mg",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 55,
+      "responsavel": "Leiliana",
+      "data": "2026-11-16",
+      "obs": "",
+      "criado_em": "2026-11-16 14:54:46",
+      "item": "Cetoprofeno IM 50mg",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 6355,
       "item_id": 61,
       "produto_nome": "Cetoprofeno IM 50mg",
@@ -25302,21 +25317,6 @@
       "obs": "",
       "criado_em": "2026-11-09 11:05:59",
       "item": "Gelco nº 22",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 5841,
-      "item_id": 199,
-      "produto_nome": "Lençol descartável papel",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 4,
-      "responsavel": "Assucena",
-      "data": "2026-11-07",
-      "obs": "",
-      "criado_em": "2026-11-09 11:05:52",
-      "item": "Lençol descartável papel",
       "usuario": "Assucena"
     }
   ]
