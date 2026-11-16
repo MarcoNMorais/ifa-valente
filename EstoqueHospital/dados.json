@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "16/11/2026 14:29:49",
+  "atualizado_em": "16/11/2026 14:30:01",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
-    "total_almoxarifado": 112226,
+    "total_almoxarifado": 112256,
     "total_farmacia": 29578,
-    "total_geral": 141804,
+    "total_geral": 141834,
     "perto_de_terminar": 29,
     "zerados": 20
   },
@@ -5048,20 +5048,20 @@
       "nome": "DIAZEPAN 10MG",
       "tipo": "Medicamento",
       "unidade": "Unidade",
-      "almoxarifado": 110,
+      "almoxarifado": 140,
       "farmacia": 0,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 110,
+      "total": 140,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-16 14:12:07",
+      "atualizado_em": "2026-11-16 14:30:00",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -5069,7 +5069,7 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 110
+          "quantidade": 140
         }
       ],
       "minimo_manual": 0,
@@ -17692,6 +17692,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 6281,
+      "item_id": 388,
+      "produto_nome": "DIAZEPAN 10MG",
+      "tipo": "Entrada no Almoxarifado",
+      "origem": "Entrada externa",
+      "destino": "Almoxarifado",
+      "quantidade": 30,
+      "responsavel": "Leiliana",
+      "data": "2026-11-16",
+      "obs": "",
+      "criado_em": "2026-11-16 14:30:00",
+      "item": "DIAZEPAN 10MG",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 6280,
       "item_id": 125,
       "produto_nome": "Diazepam 5mg CPR",
@@ -25174,21 +25189,6 @@
       "obs": "",
       "criado_em": "2026-11-06 11:39:10",
       "item": "Scalp nº 23",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 5781,
-      "item_id": 178,
-      "produto_nome": "Dispositivo intravenoso Gelco nº 20",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 10,
-      "responsavel": "Assucena",
-      "data": "2026-11-05",
-      "obs": "",
-      "criado_em": "2026-11-06 11:39:02",
-      "item": "Dispositivo intravenoso Gelco nº 20",
       "usuario": "Assucena"
     }
   ]
