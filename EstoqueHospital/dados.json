@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "16/11/2026 14:59:58",
+  "atualizado_em": "16/11/2026 15:00:22",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
     "total_almoxarifado": 126287,
-    "total_farmacia": 31447,
-    "total_geral": 157734,
+    "total_farmacia": 31297,
+    "total_geral": 157584,
     "perto_de_terminar": 22,
     "zerados": 15
   },
@@ -566,19 +566,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 6300,
-      "farmacia": 885,
+      "farmacia": 735,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 7185,
+      "total": 7035,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-16 14:38:14",
+      "atualizado_em": "2026-11-16 15:00:21",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -592,17 +592,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 885
+          "quantidade": 735
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 1734,
-      "previsao_20_dias": 1734,
+      "minimo_alerta": 1775,
+      "previsao_20_dias": 1775,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 74,
-      "media_diaria_saida": 86.69,
-      "total_saida_historica": 6415,
-      "cobertura_dias": 82.9,
+      "media_diaria_saida": 88.72,
+      "total_saida_historica": 6565,
+      "cobertura_dias": 79.3,
       "alerta_estoque": false
     },
     {
@@ -17820,6 +17820,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 6381,
+      "item_id": 390,
+      "produto_nome": "AGULHA  40X1,2",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 150,
+      "responsavel": "Leiliana",
+      "data": "2026-11-16",
+      "obs": "",
+      "criado_em": "2026-11-16 15:00:21",
+      "item": "AGULHA  40X1,2",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 6380,
       "item_id": 241,
       "produto_nome": "Lactulose solução",
@@ -25302,21 +25317,6 @@
       "obs": "",
       "criado_em": "2026-11-09 11:10:22",
       "item": "Luva cirúrgica tam. 8",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 5867,
-      "item_id": 290,
-      "produto_nome": "Metronidazol 100ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 1,
-      "responsavel": "Assucena",
-      "data": "2026-11-07",
-      "obs": "",
-      "criado_em": "2026-11-09 11:10:14",
-      "item": "Metronidazol 100ml",
       "usuario": "Assucena"
     }
   ]
