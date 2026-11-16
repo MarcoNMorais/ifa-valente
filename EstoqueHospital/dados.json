@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "16/11/2026 15:14:51",
+  "atualizado_em": "16/11/2026 15:14:59",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
     "total_almoxarifado": 124639,
-    "total_farmacia": 31384,
-    "total_geral": 156023,
+    "total_farmacia": 31383,
+    "total_geral": 156022,
     "perto_de_terminar": 23,
     "zerados": 15
   },
@@ -9061,19 +9061,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 21,
-      "farmacia": 45,
+      "farmacia": 44,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 66,
+      "total": 65,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-16 14:31:46",
+      "atualizado_em": "2026-11-16 15:14:58",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -9087,7 +9087,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 45
+          "quantidade": 44
         }
       ],
       "minimo_manual": 0,
@@ -9095,9 +9095,9 @@
       "previsao_20_dias": 9,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 95,
-      "media_diaria_saida": 0.42,
-      "total_saida_historica": 40,
-      "cobertura_dias": 156.8,
+      "media_diaria_saida": 0.43,
+      "total_saida_historica": 41,
+      "cobertura_dias": 150.6,
       "alerta_estoque": false
     },
     {
@@ -17814,6 +17814,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 6452,
+      "item_id": 255,
+      "produto_nome": "Ibuprofeno gotas",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 1,
+      "responsavel": "Leiliana",
+      "data": "2026-11-16",
+      "obs": "",
+      "criado_em": "2026-11-16 15:14:58",
+      "item": "Ibuprofeno gotas",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 6451,
       "item_id": 377,
       "produto_nome": "LORATADINA SUSPENSÃO",
@@ -25296,21 +25311,6 @@
       "obs": "",
       "criado_em": "2026-11-09 11:28:50",
       "item": "Simeticona gotas",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 5951,
-      "item_id": 203,
-      "produto_nome": "Soro fisiológico 250ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 50,
-      "responsavel": "Assucena",
-      "data": "2026-11-09",
-      "obs": "",
-      "criado_em": "2026-11-09 11:28:42",
-      "item": "Soro fisiológico 250ml",
       "usuario": "Assucena"
     }
   ]
