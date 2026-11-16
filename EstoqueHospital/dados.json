@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "16/11/2026 14:33:56",
+  "atualizado_em": "16/11/2026 14:34:08",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
-    "total_almoxarifado": 112486,
+    "total_almoxarifado": 112500,
     "total_farmacia": 29578,
-    "total_geral": 142064,
+    "total_geral": 142078,
     "perto_de_terminar": 27,
     "zerados": 19
   },
@@ -12608,23 +12608,29 @@
       "nome": "Paracetamol gotas",
       "tipo": "Medicamento",
       "unidade": "Unidade",
-      "almoxarifado": 0,
+      "almoxarifado": 14,
       "farmacia": 60,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 60,
+      "total": 74,
       "minimo": 0,
       "validade": "",
       "lote": "",
-      "origem": "Carga Farmácia 227-288",
-      "obs": "Importação Farmácia 227-288",
-      "atualizado_em": "2026-11-16 14:31:46",
+      "origem": "Entrada externa",
+      "obs": "",
+      "atualizado_em": "2026-11-16 14:34:07",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
+        {
+          "local": "almoxarifado",
+          "validade": "",
+          "lote": "",
+          "quantidade": 14
+        },
         {
           "local": "farmacia",
           "validade": "",
@@ -12639,7 +12645,7 @@
       "dias_historico": 91,
       "media_diaria_saida": 0.25,
       "total_saida_historica": 23,
-      "cobertura_dias": 237.4,
+      "cobertura_dias": 292.8,
       "alerta_estoque": false
     },
     {
@@ -17710,6 +17716,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 6288,
+      "item_id": 260,
+      "produto_nome": "Paracetamol gotas",
+      "tipo": "Entrada no Almoxarifado",
+      "origem": "Entrada externa",
+      "destino": "Almoxarifado",
+      "quantidade": 14,
+      "responsavel": "Leiliana",
+      "data": "2026-11-16",
+      "obs": "",
+      "criado_em": "2026-11-16 14:34:07",
+      "item": "Paracetamol gotas",
+      "usuario": "Leiliana"
+    },
     {
       "id": 6287,
       "item_id": 380,
@@ -25193,21 +25214,6 @@
       "obs": "",
       "criado_em": "2026-11-06 11:40:17",
       "item": "Seringa 10ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 5788,
-      "item_id": 398,
-      "produto_nome": "MASCARA DESCARTAVEL",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 1,
-      "responsavel": "Assucena",
-      "data": "2026-11-05",
-      "obs": "",
-      "criado_em": "2026-11-06 11:40:01",
-      "item": "MASCARA DESCARTAVEL",
       "usuario": "Assucena"
     }
   ]
