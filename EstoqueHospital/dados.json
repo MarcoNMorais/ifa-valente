@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "16/11/2026 14:54:47",
+  "atualizado_em": "16/11/2026 14:55:07",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
-    "total_almoxarifado": 128007,
-    "total_farmacia": 30148,
+    "total_almoxarifado": 127657,
+    "total_farmacia": 30498,
     "total_geral": 158155,
     "perto_de_terminar": 22,
     "zerados": 15
@@ -4710,8 +4710,8 @@
       "nome": "Complexo B",
       "tipo": "Medicamento",
       "unidade": "Unidade",
-      "almoxarifado": 350,
-      "farmacia": 0,
+      "almoxarifado": 0,
+      "farmacia": 350,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -4723,12 +4723,12 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-16 14:31:46",
+      "atualizado_em": "2026-11-16 14:55:00",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
         {
-          "local": "almoxarifado",
+          "local": "farmacia",
           "validade": "",
           "lote": "",
           "quantidade": 350
@@ -17820,6 +17820,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 6357,
+      "item_id": 66,
+      "produto_nome": "Complexo B",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 350,
+      "responsavel": "Leiliana",
+      "data": "2026-11-16",
+      "obs": "",
+      "criado_em": "2026-11-16 14:55:00",
+      "item": "Complexo B",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 6356,
       "item_id": 61,
       "produto_nome": "Cetoprofeno IM 50mg",
@@ -25302,21 +25317,6 @@
       "obs": "",
       "criado_em": "2026-11-09 11:06:07",
       "item": "Gelco nº 24",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 5842,
-      "item_id": 177,
-      "produto_nome": "Gelco nº 22",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 40,
-      "responsavel": "Assucena",
-      "data": "2026-11-07",
-      "obs": "",
-      "criado_em": "2026-11-09 11:05:59",
-      "item": "Gelco nº 22",
       "usuario": "Assucena"
     }
   ]
