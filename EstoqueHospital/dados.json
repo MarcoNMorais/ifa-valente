@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "16/11/2026 14:58:07",
+  "atualizado_em": "16/11/2026 14:58:43",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
-    "total_almoxarifado": 126387,
-    "total_farmacia": 31395,
+    "total_almoxarifado": 126287,
+    "total_farmacia": 31495,
     "total_geral": 157782,
     "perto_de_terminar": 22,
     "zerados": 15
@@ -16033,8 +16033,8 @@
       "nome": "Soro fisiológico 250ml",
       "tipo": "Insumo",
       "unidade": "Unidade",
-      "almoxarifado": 1400,
-      "farmacia": 0,
+      "almoxarifado": 1300,
+      "farmacia": 100,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -16046,7 +16046,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-16 14:31:46",
+      "atualizado_em": "2026-11-16 14:58:41",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -16054,13 +16054,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 1400
+          "quantidade": 1300
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 48
+          "quantidade": 148
         }
       ],
       "minimo_manual": 0,
@@ -17819,6 +17819,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 6374,
+      "item_id": 203,
+      "produto_nome": "Soro fisiológico 250ml",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 100,
+      "responsavel": "Leiliana",
+      "data": "2026-11-16",
+      "obs": "",
+      "criado_em": "2026-11-16 14:58:41",
+      "item": "Soro fisiológico 250ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 6373,
       "item_id": 154,
@@ -25302,21 +25317,6 @@
       "obs": "",
       "criado_em": "2026-11-09 11:09:15",
       "item": "Hemitartarato de Norepinefrina",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 5859,
-      "item_id": 2,
-      "produto_nome": "Cloridrato de clorpromazina 25mg",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 5,
-      "responsavel": "Assucena",
-      "data": "2026-11-07",
-      "obs": "",
-      "criado_em": "2026-11-09 11:09:05",
-      "item": "Cloridrato de clorpromazina 25mg",
       "usuario": "Assucena"
     }
   ]
