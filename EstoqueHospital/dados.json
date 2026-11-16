@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "16/11/2026 15:23:30",
+  "atualizado_em": "16/11/2026 15:23:40",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
     "total_almoxarifado": 124639,
-    "total_farmacia": 30942,
-    "total_geral": 155581,
+    "total_farmacia": 30941,
+    "total_geral": 155580,
     "perto_de_terminar": 23,
     "zerados": 15
   },
@@ -9055,19 +9055,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 21,
-      "farmacia": 44,
+      "farmacia": 43,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 65,
+      "total": 64,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-16 15:14:58",
+      "atualizado_em": "2026-11-16 15:23:38",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -9081,7 +9081,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 44
+          "quantidade": 43
         }
       ],
       "minimo_manual": 0,
@@ -9089,9 +9089,9 @@
       "previsao_20_dias": 9,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 95,
-      "media_diaria_saida": 0.43,
-      "total_saida_historica": 41,
-      "cobertura_dias": 150.6,
+      "media_diaria_saida": 0.44,
+      "total_saida_historica": 42,
+      "cobertura_dias": 144.8,
       "alerta_estoque": false
     },
     {
@@ -17808,6 +17808,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 6494,
+      "item_id": 255,
+      "produto_nome": "Ibuprofeno gotas",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 1,
+      "responsavel": "Leiliana",
+      "data": "2026-11-16",
+      "obs": "",
+      "criado_em": "2026-11-16 15:23:38",
+      "item": "Ibuprofeno gotas",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 6493,
       "item_id": 410,
       "produto_nome": "oleo de girasol AGE",
@@ -25291,21 +25306,6 @@
       "criado_em": "2026-11-10 11:36:34",
       "item": "Dipirona",
       "usuario": "Assucena"
-    },
-    {
-      "id": 5994,
-      "item_id": 403,
-      "produto_nome": "vancomicina",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 6,
-      "responsavel": "Leiliana",
-      "data": "2026-11-09",
-      "obs": "",
-      "criado_em": "2026-11-09 16:49:47",
-      "item": "vancomicina",
-      "usuario": "Leiliana"
     }
   ]
 }
