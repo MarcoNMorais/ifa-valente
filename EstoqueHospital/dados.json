@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "16/11/2026 14:53:38",
+  "atualizado_em": "16/11/2026 14:53:48",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
     "total_almoxarifado": 128927,
-    "total_farmacia": 29423,
-    "total_geral": 158350,
+    "total_farmacia": 29403,
+    "total_geral": 158330,
     "perto_de_terminar": 22,
     "zerados": 15
   },
@@ -6236,19 +6236,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 70,
-      "farmacia": 150,
+      "farmacia": 130,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 220,
+      "total": 200,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-16 14:31:46",
+      "atualizado_em": "2026-11-16 14:53:46",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -6262,17 +6262,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 150
+          "quantidade": 130
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 96,
-      "previsao_20_dias": 96,
+      "minimo_alerta": 100,
+      "previsao_20_dias": 100,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 96,
-      "media_diaria_saida": 4.79,
-      "total_saida_historica": 460,
-      "cobertura_dias": 45.9,
+      "media_diaria_saida": 5.0,
+      "total_saida_historica": 480,
+      "cobertura_dias": 40.0,
       "alerta_estoque": false
     },
     {
@@ -17832,6 +17832,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 6351,
+      "item_id": 75,
+      "produto_nome": "Escopolamina 20mg",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 20,
+      "responsavel": "Leiliana",
+      "data": "2026-11-16",
+      "obs": "",
+      "criado_em": "2026-11-16 14:53:46",
+      "item": "Escopolamina 20mg",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 6350,
       "item_id": 196,
       "produto_nome": "Atadura gessada nº 10",
@@ -25314,21 +25329,6 @@
       "obs": "",
       "criado_em": "2026-11-09 11:25:40",
       "item": "Soro glicose 5% 250ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 5935,
-      "item_id": 200,
-      "produto_nome": "Caixa de perfurocortante",
-      "tipo": "Almoxarifado para Farmácia",
-      "origem": "Almoxarifado",
-      "destino": "Farmácia",
-      "quantidade": 20,
-      "responsavel": "Assucena",
-      "data": "2026-11-06",
-      "obs": "",
-      "criado_em": "2026-11-09 11:25:25",
-      "item": "Caixa de perfurocortante",
       "usuario": "Assucena"
     }
   ]
