@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "16/11/2026 16:09:43",
+  "atualizado_em": "16/11/2026 16:09:54",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
     "total_almoxarifado": 124219,
-    "total_farmacia": 31255,
-    "total_geral": 155474,
+    "total_farmacia": 31249,
+    "total_geral": 155468,
     "perto_de_terminar": 23,
     "zerados": 15
   },
@@ -8831,19 +8831,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 215,
-      "farmacia": 107,
+      "farmacia": 101,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 322,
+      "total": 316,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-16 14:31:46",
+      "atualizado_em": "2026-11-16 16:09:53",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -8857,17 +8857,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 117
+          "quantidade": 111
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 136,
-      "previsao_20_dias": 136,
+      "minimo_alerta": 137,
+      "previsao_20_dias": 137,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 96,
-      "media_diaria_saida": 6.78,
-      "total_saida_historica": 651,
-      "cobertura_dias": 47.5,
+      "media_diaria_saida": 6.84,
+      "total_saida_historica": 657,
+      "cobertura_dias": 46.2,
       "alerta_estoque": false
     },
     {
@@ -17808,6 +17808,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 6503,
+      "item_id": 82,
+      "produto_nome": "Hidrocortisona 100MG",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 6,
+      "responsavel": "Leiliana",
+      "data": "2026-11-16",
+      "obs": "",
+      "criado_em": "2026-11-16 16:09:53",
+      "item": "Hidrocortisona 100MG",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 6502,
       "item_id": 387,
       "produto_nome": "HIDROCORTIZONA 500MG",
@@ -25290,21 +25305,6 @@
       "obs": "",
       "criado_em": "2026-11-10 11:38:10",
       "item": "Seringa 5ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 6003,
-      "item_id": 103,
-      "produto_nome": "Seringa 10ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 20,
-      "responsavel": "Assucena",
-      "data": "2026-11-10",
-      "obs": "",
-      "criado_em": "2026-11-10 11:38:01",
-      "item": "Seringa 10ml",
       "usuario": "Assucena"
     }
   ]
