@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "16/11/2026 14:54:22",
+  "atualizado_em": "16/11/2026 14:54:37",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
-    "total_almoxarifado": 128427,
-    "total_farmacia": 29783,
+    "total_almoxarifado": 128007,
+    "total_farmacia": 30203,
     "total_geral": 158210,
     "perto_de_terminar": 22,
     "zerados": 15
@@ -3696,8 +3696,8 @@
       "nome": "Cetoprofeno IM 50mg",
       "tipo": "Medicamento",
       "unidade": "Unidade",
-      "almoxarifado": 420,
-      "farmacia": 0,
+      "almoxarifado": 0,
+      "farmacia": 420,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -3709,21 +3709,15 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-16 14:31:46",
+      "atualizado_em": "2026-11-16 14:54:35",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
         {
-          "local": "almoxarifado",
-          "validade": "",
-          "lote": "",
-          "quantidade": 420
-        },
-        {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 20
+          "quantidade": 440
         }
       ],
       "minimo_manual": 0,
@@ -17826,6 +17820,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 6355,
+      "item_id": 61,
+      "produto_nome": "Cetoprofeno IM 50mg",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 420,
+      "responsavel": "Leiliana",
+      "data": "2026-11-16",
+      "obs": "",
+      "criado_em": "2026-11-16 14:54:35",
+      "item": "Cetoprofeno IM 50mg",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 6354,
       "item_id": 238,
       "produto_nome": "Ondansetrona 2mg/ml 2ml",
@@ -25308,21 +25317,6 @@
       "obs": "",
       "criado_em": "2026-11-09 11:05:52",
       "item": "Lençol descartável papel",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 5962,
-      "item_id": 291,
-      "produto_nome": "Cateter tipo óculos adulto",
-      "tipo": "Almoxarifado para Farmácia",
-      "origem": "Almoxarifado",
-      "destino": "Farmácia",
-      "quantidade": 160,
-      "responsavel": "Assucena",
-      "data": "2026-11-06",
-      "obs": "",
-      "criado_em": "2026-11-09 11:30:09",
-      "item": "Cateter tipo óculos adulto",
       "usuario": "Assucena"
     }
   ]
