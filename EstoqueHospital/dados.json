@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "16/11/2026 14:48:39",
+  "atualizado_em": "16/11/2026 14:49:00",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
-    "total_almoxarifado": 127288,
+    "total_almoxarifado": 127302,
     "total_farmacia": 29578,
-    "total_geral": 156866,
+    "total_geral": 156880,
     "perto_de_terminar": 22,
     "zerados": 15
   },
@@ -6069,20 +6069,20 @@
       "nome": "Equipo para transfusão",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 20,
+      "almoxarifado": 34,
       "farmacia": 30,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 50,
+      "total": 64,
       "minimo": 0,
       "validade": "",
       "lote": "",
-      "origem": "Carga inicial Farmácia",
-      "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-11-16 14:31:46",
+      "origem": "Entrada externa",
+      "obs": "",
+      "atualizado_em": "2026-11-16 14:48:59",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -6090,7 +6090,7 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 20
+          "quantidade": 34
         },
         {
           "local": "farmacia",
@@ -6106,7 +6106,7 @@
       "dias_historico": 96,
       "media_diaria_saida": 0.07,
       "total_saida_historica": 7,
-      "cobertura_dias": 685.7,
+      "cobertura_dias": 877.7,
       "alerta_estoque": false
     },
     {
@@ -17792,6 +17792,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 6334,
+      "item_id": 158,
+      "produto_nome": "Equipo para transfusão",
+      "tipo": "Entrada no Almoxarifado",
+      "origem": "Entrada externa",
+      "destino": "Almoxarifado",
+      "quantidade": 14,
+      "responsavel": "Leiliana",
+      "data": "2026-11-16",
+      "obs": "",
+      "criado_em": "2026-11-16 14:48:59",
+      "item": "Equipo para transfusão",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 6333,
       "item_id": 163,
       "produto_nome": "Eletrodo ECG descartável",
@@ -25274,21 +25289,6 @@
       "obs": "",
       "criado_em": "2026-11-06 16:02:50",
       "item": "Soro fisiológico 250ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 5834,
-      "item_id": 200,
-      "produto_nome": "Caixa de perfurocortante",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 1,
-      "responsavel": "Leiliana",
-      "data": "2026-11-06",
-      "obs": "",
-      "criado_em": "2026-11-06 16:02:39",
-      "item": "Caixa de perfurocortante",
       "usuario": "Leiliana"
     }
   ]
