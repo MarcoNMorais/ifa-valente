@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "16/11/2026 15:21:18",
+  "atualizado_em": "16/11/2026 15:21:27",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
     "total_almoxarifado": 124639,
-    "total_farmacia": 31051,
-    "total_geral": 155690,
+    "total_farmacia": 31041,
+    "total_geral": 155680,
     "perto_de_terminar": 23,
     "zerados": 15
   },
@@ -16074,19 +16074,19 @@
       "tipo": "Insumo",
       "unidade": "Unidade",
       "almoxarifado": 652,
-      "farmacia": 70,
+      "farmacia": 60,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 722,
+      "total": 712,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-16 14:59:04",
+      "atualizado_em": "2026-11-16 15:21:25",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -16100,17 +16100,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 82
+          "quantidade": 72
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 204,
-      "previsao_20_dias": 204,
+      "minimo_alerta": 206,
+      "previsao_20_dias": 206,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 96,
-      "media_diaria_saida": 10.18,
-      "total_saida_historica": 977,
-      "cobertura_dias": 70.9,
+      "media_diaria_saida": 10.28,
+      "total_saida_historica": 987,
+      "cobertura_dias": 69.3,
       "alerta_estoque": false
     },
     {
@@ -17813,6 +17813,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 6484,
+      "item_id": 204,
+      "produto_nome": "Soro fisiológico 500ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 10,
+      "responsavel": "Leiliana",
+      "data": "2026-11-16",
+      "obs": "",
+      "criado_em": "2026-11-16 15:21:25",
+      "item": "Soro fisiológico 500ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 6483,
       "item_id": 201,
@@ -25296,21 +25311,6 @@
       "obs": "",
       "criado_em": "2026-11-09 16:47:59",
       "item": "Seringa 10ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 5984,
-      "item_id": 11,
-      "produto_nome": "Midazolam 5mg/ml 10ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 4,
-      "responsavel": "Leiliana",
-      "data": "2026-11-09",
-      "obs": "",
-      "criado_em": "2026-11-09 16:47:51",
-      "item": "Midazolam 5mg/ml 10ml",
       "usuario": "Leiliana"
     }
   ]
