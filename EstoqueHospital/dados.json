@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "16/11/2026 14:28:27",
+  "atualizado_em": "16/11/2026 14:28:36",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
-    "total_almoxarifado": 111708,
+    "total_almoxarifado": 111778,
     "total_farmacia": 29578,
-    "total_geral": 141286,
+    "total_geral": 141356,
     "perto_de_terminar": 30,
     "zerados": 21
   },
@@ -8772,20 +8772,20 @@
       "nome": "HIDROCORTIZONA 500MG",
       "tipo": "Medicamento",
       "unidade": "Unidade",
-      "almoxarifado": 138,
+      "almoxarifado": 208,
       "farmacia": 116,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 254,
+      "total": 324,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-16 14:12:07",
+      "atualizado_em": "2026-11-16 14:28:35",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -8793,7 +8793,7 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 138
+          "quantidade": 208
         },
         {
           "local": "farmacia",
@@ -8809,7 +8809,7 @@
       "dias_historico": 74,
       "media_diaria_saida": 2.35,
       "total_saida_historica": 174,
-      "cobertura_dias": 108.0,
+      "cobertura_dias": 137.8,
       "alerta_estoque": false
     },
     {
@@ -17686,6 +17686,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 6275,
+      "item_id": 387,
+      "produto_nome": "HIDROCORTIZONA 500MG",
+      "tipo": "Entrada no Almoxarifado",
+      "origem": "Entrada externa",
+      "destino": "Almoxarifado",
+      "quantidade": 70,
+      "responsavel": "Leiliana",
+      "data": "2026-11-16",
+      "obs": "",
+      "criado_em": "2026-11-16 14:28:35",
+      "item": "HIDROCORTIZONA 500MG",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 6274,
       "item_id": 82,
       "produto_nome": "Hidrocortisona 100MG",
@@ -25168,21 +25183,6 @@
       "obs": "",
       "criado_em": "2026-11-06 11:38:02",
       "item": "Ácido Tranexâmico 50mg",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 5775,
-      "item_id": 68,
-      "produto_nome": "Dexametasona",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 20,
-      "responsavel": "Assucena",
-      "data": "2026-11-05",
-      "obs": "",
-      "criado_em": "2026-11-06 11:37:56",
-      "item": "Dexametasona",
       "usuario": "Assucena"
     }
   ]
