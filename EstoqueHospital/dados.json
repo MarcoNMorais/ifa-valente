@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "16/11/2026 15:22:30",
+  "atualizado_em": "16/11/2026 15:22:54",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
     "total_almoxarifado": 124639,
-    "total_farmacia": 30951,
-    "total_geral": 155590,
+    "total_farmacia": 30945,
+    "total_geral": 155584,
     "perto_de_terminar": 23,
     "zerados": 15
   },
@@ -17299,19 +17299,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 77,
+      "farmacia": 71,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 77,
+      "total": 71,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-16 14:31:46",
+      "atualizado_em": "2026-11-16 15:22:53",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -17319,17 +17319,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 77
+          "quantidade": 71
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 6,
-      "previsao_20_dias": 6,
+      "minimo_alerta": 8,
+      "previsao_20_dias": 8,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 63,
-      "media_diaria_saida": 0.29,
-      "total_saida_historica": 18,
-      "cobertura_dias": 269.5,
+      "media_diaria_saida": 0.38,
+      "total_saida_historica": 24,
+      "cobertura_dias": 186.4,
       "alerta_estoque": false
     },
     {
@@ -17807,6 +17807,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 6490,
+      "item_id": 403,
+      "produto_nome": "vancomicina",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 6,
+      "responsavel": "Leiliana",
+      "data": "2026-11-16",
+      "obs": "",
+      "criado_em": "2026-11-16 15:22:53",
+      "item": "vancomicina",
+      "usuario": "Leiliana"
+    },
     {
       "id": 6489,
       "item_id": 397,
@@ -25290,21 +25305,6 @@
       "obs": "",
       "criado_em": "2026-11-09 16:49:17",
       "item": "Lençol descartável papel",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 5990,
-      "item_id": 175,
-      "produto_nome": "Fita cirúrgica microporosa",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 2,
-      "responsavel": "Leiliana",
-      "data": "2026-11-09",
-      "obs": "",
-      "criado_em": "2026-11-09 16:49:07",
-      "item": "Fita cirúrgica microporosa",
       "usuario": "Leiliana"
     }
   ]
