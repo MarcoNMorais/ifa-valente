@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "16/11/2026 14:19:33",
+  "atualizado_em": "16/11/2026 14:19:46",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
-    "total_almoxarifado": 101324,
+    "total_almoxarifado": 101534,
     "total_farmacia": 29578,
-    "total_geral": 130902,
+    "total_geral": 131112,
     "perto_de_terminar": 47,
     "zerados": 30
   },
@@ -12419,23 +12419,29 @@
       "nome": "Paracetamol 500mg",
       "tipo": "Medicamento",
       "unidade": "Unidade",
-      "almoxarifado": 0,
+      "almoxarifado": 210,
       "farmacia": 440,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 440,
+      "total": 650,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-16 14:12:07",
+      "atualizado_em": "2026-11-16 14:19:45",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
+        {
+          "local": "almoxarifado",
+          "validade": "",
+          "lote": "",
+          "quantidade": 210
+        },
         {
           "local": "farmacia",
           "validade": "",
@@ -12450,7 +12456,7 @@
       "dias_historico": 96,
       "media_diaria_saida": 3.12,
       "total_saida_historica": 300,
-      "cobertura_dias": 140.8,
+      "cobertura_dias": 208.0,
       "alerta_estoque": false
     },
     {
@@ -17536,6 +17542,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 6241,
+      "item_id": 27,
+      "produto_nome": "Paracetamol 500mg",
+      "tipo": "Entrada no Almoxarifado",
+      "origem": "Entrada externa",
+      "destino": "Almoxarifado",
+      "quantidade": 210,
+      "responsavel": "Leiliana",
+      "data": "2026-11-16",
+      "obs": "",
+      "criado_em": "2026-11-16 14:19:45",
+      "item": "Paracetamol 500mg",
+      "usuario": "Leiliana"
+    },
     {
       "id": 6240,
       "item_id": 31,
@@ -25019,21 +25040,6 @@
       "obs": "",
       "criado_em": "2026-11-05 09:53:51",
       "item": "Hidrocortisona 100MG",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 5741,
-      "item_id": 32,
-      "produto_nome": "Aciclovir 200mg comprimido",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 25,
-      "responsavel": "Assucena",
-      "data": "2026-11-05",
-      "obs": "",
-      "criado_em": "2026-11-05 09:53:42",
-      "item": "Aciclovir 200mg comprimido",
       "usuario": "Assucena"
     }
   ]
