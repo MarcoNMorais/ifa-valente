@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "16/11/2026 14:16:40",
+  "atualizado_em": "16/11/2026 14:16:56",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
-    "total_almoxarifado": 100796,
+    "total_almoxarifado": 100826,
     "total_farmacia": 29578,
-    "total_geral": 130374,
+    "total_geral": 130404,
     "perto_de_terminar": 47,
     "zerados": 30
   },
@@ -8070,20 +8070,20 @@
       "nome": "glicazida 60mg",
       "tipo": "Medicamento",
       "unidade": "Unidade",
-      "almoxarifado": 30,
+      "almoxarifado": 60,
       "farmacia": 0,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 30,
+      "total": 60,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-16 14:12:07",
+      "atualizado_em": "2026-11-16 14:16:54",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -8091,7 +8091,7 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 30
+          "quantidade": 60
         }
       ],
       "minimo_manual": 0,
@@ -17519,6 +17519,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 6229,
+      "item_id": 407,
+      "produto_nome": "glicazida 60mg",
+      "tipo": "Entrada no Almoxarifado",
+      "origem": "Entrada externa",
+      "destino": "Almoxarifado",
+      "quantidade": 30,
+      "responsavel": "Leiliana",
+      "data": "2026-11-16",
+      "obs": "",
+      "criado_em": "2026-11-16 14:16:54",
+      "item": "glicazida 60mg",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 6228,
       "item_id": 39,
       "produto_nome": "Espironolactona 25mg",
@@ -25001,21 +25016,6 @@
       "obs": "",
       "criado_em": "2026-11-05 09:52:16",
       "item": "Soro glicose 5% 500ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 5729,
-      "item_id": 201,
-      "produto_nome": "Soro Ringer Lactato 500ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 24,
-      "responsavel": "Assucena",
-      "data": "2026-11-05",
-      "obs": "",
-      "criado_em": "2026-11-05 09:52:06",
-      "item": "Soro Ringer Lactato 500ml",
       "usuario": "Assucena"
     }
   ]
