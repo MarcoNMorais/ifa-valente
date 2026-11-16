@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "16/11/2026 14:55:32",
+  "atualizado_em": "16/11/2026 14:56:07",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
-    "total_almoxarifado": 127297,
-    "total_farmacia": 30718,
+    "total_almoxarifado": 126947,
+    "total_farmacia": 31068,
     "total_geral": 158015,
     "perto_de_terminar": 22,
     "zerados": 15
@@ -6189,8 +6189,8 @@
       "nome": "Escopolamina + Dipirona",
       "tipo": "Medicamento",
       "unidade": "Unidade",
-      "almoxarifado": 350,
-      "farmacia": 0,
+      "almoxarifado": 0,
+      "farmacia": 350,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -6202,12 +6202,12 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-16 14:31:46",
+      "atualizado_em": "2026-11-16 14:56:05",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
         {
-          "local": "almoxarifado",
+          "local": "farmacia",
           "validade": "",
           "lote": "",
           "quantidade": 350
@@ -17820,6 +17820,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 6361,
+      "item_id": 76,
+      "produto_nome": "Escopolamina + Dipirona",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 350,
+      "responsavel": "Leiliana",
+      "data": "2026-11-16",
+      "obs": "",
+      "criado_em": "2026-11-16 14:56:05",
+      "item": "Escopolamina + Dipirona",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 6360,
       "item_id": 239,
       "produto_nome": "Tramadol 50mg/ml 2ml",
@@ -25302,21 +25317,6 @@
       "obs": "",
       "criado_em": "2026-11-09 11:06:41",
       "item": "Agulha 25x7",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 5846,
-      "item_id": 285,
-      "produto_nome": "Agulha 30x7",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 40,
-      "responsavel": "Assucena",
-      "data": "2026-11-07",
-      "obs": "",
-      "criado_em": "2026-11-09 11:06:34",
-      "item": "Agulha 30x7",
       "usuario": "Assucena"
     }
   ]
