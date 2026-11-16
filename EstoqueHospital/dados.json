@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "16/11/2026 14:18:37",
+  "atualizado_em": "16/11/2026 14:18:58",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
-    "total_almoxarifado": 101031,
+    "total_almoxarifado": 101071,
     "total_farmacia": 29578,
-    "total_geral": 130609,
+    "total_geral": 130649,
     "perto_de_terminar": 47,
     "zerados": 30
   },
@@ -11063,20 +11063,20 @@
       "nome": "Metronidazol 250mg CPR",
       "tipo": "Medicamento",
       "unidade": "Unidade",
-      "almoxarifado": 40,
+      "almoxarifado": 80,
       "farmacia": 10,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 50,
+      "total": 90,
       "minimo": 0,
       "validade": "03/27",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-16 14:12:07",
+      "atualizado_em": "2026-11-16 14:18:56",
       "validade_mais_proxima": "03/27",
       "vencimento_mais_proximo": "03/27",
       "lotes_validade": [
@@ -11090,7 +11090,7 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 40
+          "quantidade": 80
         }
       ],
       "minimo_manual": 0,
@@ -17536,6 +17536,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 6237,
+      "item_id": 263,
+      "produto_nome": "Metronidazol 250mg CPR",
+      "tipo": "Entrada no Almoxarifado",
+      "origem": "Entrada externa",
+      "destino": "Almoxarifado",
+      "quantidade": 40,
+      "responsavel": "Leiliana",
+      "data": "2026-11-16",
+      "obs": "",
+      "criado_em": "2026-11-16 14:18:56",
+      "item": "Metronidazol 250mg CPR",
+      "usuario": "Leiliana"
+    },
     {
       "id": 6236,
       "item_id": 134,
@@ -25019,21 +25034,6 @@
       "obs": "",
       "criado_em": "2026-11-05 09:53:21",
       "item": "Cetoprofeno EV 100mg",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 5737,
-      "item_id": 76,
-      "produto_nome": "Escopolamina + Dipirona",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 10,
-      "responsavel": "Assucena",
-      "data": "2026-11-05",
-      "obs": "",
-      "criado_em": "2026-11-05 09:53:12",
-      "item": "Escopolamina + Dipirona",
       "usuario": "Assucena"
     }
   ]
