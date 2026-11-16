@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "16/11/2026 15:09:12",
+  "atualizado_em": "16/11/2026 15:09:22",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
     "total_almoxarifado": 124967,
-    "total_farmacia": 31523,
-    "total_geral": 156490,
+    "total_farmacia": 31499,
+    "total_geral": 156466,
     "perto_de_terminar": 22,
     "zerados": 15
   },
@@ -1733,19 +1733,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 1226,
-      "farmacia": 225,
+      "farmacia": 201,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1451,
+      "total": 1427,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-16 14:49:37",
+      "atualizado_em": "2026-11-16 15:09:20",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -1759,17 +1759,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 225
+          "quantidade": 201
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 56,
-      "previsao_20_dias": 56,
+      "minimo_alerta": 61,
+      "previsao_20_dias": 61,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 96,
-      "media_diaria_saida": 2.76,
-      "total_saida_historica": 265,
-      "cobertura_dias": 525.6,
+      "media_diaria_saida": 3.01,
+      "total_saida_historica": 289,
+      "cobertura_dias": 474.0,
       "alerta_estoque": false
     },
     {
@@ -17820,6 +17820,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 6423,
+      "item_id": 151,
+      "produto_nome": "Atadura crepon nº 15",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 24,
+      "responsavel": "Leiliana",
+      "data": "2026-11-16",
+      "obs": "",
+      "criado_em": "2026-11-16 15:09:20",
+      "item": "Atadura crepon nº 15",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 6422,
       "item_id": 152,
       "produto_nome": "Atadura crepon nº 10",
@@ -25302,21 +25317,6 @@
       "obs": "",
       "criado_em": "2026-11-09 11:20:50",
       "item": "Lactulose solução",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 5913,
-      "item_id": 280,
-      "produto_nome": "Luva M procedimento",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 1,
-      "responsavel": "Assucena",
-      "data": "2026-11-08",
-      "obs": "",
-      "criado_em": "2026-11-09 11:20:44",
-      "item": "Luva M procedimento",
       "usuario": "Assucena"
     }
   ]
