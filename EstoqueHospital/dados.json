@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "16/11/2026 14:55:14",
+  "atualizado_em": "16/11/2026 14:55:23",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
-    "total_almoxarifado": 127657,
-    "total_farmacia": 30398,
+    "total_almoxarifado": 127297,
+    "total_farmacia": 30758,
     "total_geral": 158055,
     "perto_de_terminar": 22,
     "zerados": 15
@@ -17018,8 +17018,8 @@
       "nome": "Tramadol 50mg/ml 2ml",
       "tipo": "Medicamento",
       "unidade": "Unidade",
-      "almoxarifado": 360,
-      "farmacia": 0,
+      "almoxarifado": 0,
+      "farmacia": 360,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -17031,7 +17031,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-16 14:31:46",
+      "atualizado_em": "2026-11-16 14:55:21",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -17039,13 +17039,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 380
+          "quantidade": 20
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 20
+          "quantidade": 380
         }
       ],
       "minimo_manual": 0,
@@ -17819,6 +17819,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 6359,
+      "item_id": 239,
+      "produto_nome": "Tramadol 50mg/ml 2ml",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 360,
+      "responsavel": "Leiliana",
+      "data": "2026-11-16",
+      "obs": "",
+      "criado_em": "2026-11-16 14:55:21",
+      "item": "Tramadol 50mg/ml 2ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 6358,
       "item_id": 66,
@@ -25301,21 +25316,6 @@
       "data": "2026-11-07",
       "obs": "",
       "criado_em": "2026-11-09 11:06:23",
-      "item": "AGULHA  40X1,2",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 5844,
-      "item_id": 390,
-      "produto_nome": "AGULHA  40X1,2",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 60,
-      "responsavel": "Assucena",
-      "data": "2026-11-07",
-      "obs": "",
-      "criado_em": "2026-11-09 11:06:16",
       "item": "AGULHA  40X1,2",
       "usuario": "Assucena"
     }
