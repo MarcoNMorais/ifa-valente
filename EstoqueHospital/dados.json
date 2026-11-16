@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "16/11/2026 14:16:30",
+  "atualizado_em": "16/11/2026 14:16:40",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
-    "total_almoxarifado": 100766,
+    "total_almoxarifado": 100796,
     "total_farmacia": 29578,
-    "total_geral": 130344,
+    "total_geral": 130374,
     "perto_de_terminar": 47,
     "zerados": 30
   },
@@ -6249,20 +6249,20 @@
       "nome": "Espironolactona 25mg",
       "tipo": "Medicamento",
       "unidade": "Unidade",
-      "almoxarifado": 60,
+      "almoxarifado": 90,
       "farmacia": 75,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 135,
+      "total": 165,
       "minimo": 0,
       "validade": "2027-04",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-16 14:12:07",
+      "atualizado_em": "2026-11-16 14:16:39",
       "validade_mais_proxima": "2027-04",
       "vencimento_mais_proximo": "2027-04",
       "lotes_validade": [
@@ -6276,7 +6276,7 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 60
+          "quantidade": 90
         }
       ],
       "minimo_manual": 0,
@@ -6286,7 +6286,7 @@
       "dias_historico": 96,
       "media_diaria_saida": 0.16,
       "total_saida_historica": 15,
-      "cobertura_dias": 864.0,
+      "cobertura_dias": 1056.0,
       "alerta_estoque": false
     },
     {
@@ -17519,6 +17519,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 6228,
+      "item_id": 39,
+      "produto_nome": "Espironolactona 25mg",
+      "tipo": "Entrada no Almoxarifado",
+      "origem": "Entrada externa",
+      "destino": "Almoxarifado",
+      "quantidade": 30,
+      "responsavel": "Leiliana",
+      "data": "2026-11-16",
+      "obs": "",
+      "criado_em": "2026-11-16 14:16:39",
+      "item": "Espironolactona 25mg",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 6227,
       "item_id": 28,
       "produto_nome": "Dipirona 500mg",
@@ -25001,21 +25016,6 @@
       "obs": "",
       "criado_em": "2026-11-05 09:52:06",
       "item": "Soro Ringer Lactato 500ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 5728,
-      "item_id": 382,
-      "produto_nome": "AGUA P/ INJ",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 10,
-      "responsavel": "Assucena",
-      "data": "2026-11-05",
-      "obs": "",
-      "criado_em": "2026-11-05 09:51:59",
-      "item": "AGUA P/ INJ",
       "usuario": "Assucena"
     }
   ]
