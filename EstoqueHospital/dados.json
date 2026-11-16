@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "16/11/2026 14:56:26",
+  "atualizado_em": "16/11/2026 14:56:40",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
-    "total_almoxarifado": 126947,
-    "total_farmacia": 31018,
+    "total_almoxarifado": 126387,
+    "total_farmacia": 31578,
     "total_geral": 157965,
     "perto_de_terminar": 22,
     "zerados": 15
@@ -3577,8 +3577,8 @@
       "nome": "Ceftriaxona 1g",
       "tipo": "Medicamento",
       "unidade": "Unidade",
-      "almoxarifado": 560,
-      "farmacia": 0,
+      "almoxarifado": 0,
+      "farmacia": 560,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -3590,12 +3590,12 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-16 14:31:46",
+      "atualizado_em": "2026-11-16 14:56:28",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
         {
-          "local": "almoxarifado",
+          "local": "farmacia",
           "validade": "",
           "lote": "",
           "quantidade": 560
@@ -17820,6 +17820,36 @@
   ],
   "movimentacoes": [
     {
+      "id": 6364,
+      "item_id": 59,
+      "produto_nome": "Ceftriaxona 1g",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 20,
+      "responsavel": "Leiliana",
+      "data": "2026-11-16",
+      "obs": "",
+      "criado_em": "2026-11-16 14:56:40",
+      "item": "Ceftriaxona 1g",
+      "usuario": "Leiliana"
+    },
+    {
+      "id": 6363,
+      "item_id": 59,
+      "produto_nome": "Ceftriaxona 1g",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 560,
+      "responsavel": "Leiliana",
+      "data": "2026-11-16",
+      "obs": "",
+      "criado_em": "2026-11-16 14:56:28",
+      "item": "Ceftriaxona 1g",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 6362,
       "item_id": 76,
       "produto_nome": "Escopolamina + Dipirona",
@@ -25287,36 +25317,6 @@
       "obs": "",
       "criado_em": "2026-11-09 11:07:03",
       "item": "Luva M procedimento",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 5849,
-      "item_id": 220,
-      "produto_nome": "Equipo macrogotas",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 25,
-      "responsavel": "Assucena",
-      "data": "2026-11-07",
-      "obs": "",
-      "criado_em": "2026-11-09 11:06:54",
-      "item": "Equipo macrogotas",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 5848,
-      "item_id": 287,
-      "produto_nome": "Agulha 13x4,5",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 40,
-      "responsavel": "Assucena",
-      "data": "2026-11-07",
-      "obs": "",
-      "criado_em": "2026-11-09 11:06:48",
-      "item": "Agulha 13x4,5",
       "usuario": "Assucena"
     }
   ]
