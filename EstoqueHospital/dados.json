@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "16/11/2026 14:34:49",
+  "atualizado_em": "16/11/2026 14:35:03",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
-    "total_almoxarifado": 112549,
+    "total_almoxarifado": 112591,
     "total_farmacia": 29578,
-    "total_geral": 142127,
+    "total_geral": 142169,
     "perto_de_terminar": 27,
     "zerados": 19
   },
@@ -4113,20 +4113,20 @@
       "nome": "CLORETO DE SÓDIO 20% AMP 10ML",
       "tipo": "Medicamento",
       "unidade": "Unidade",
-      "almoxarifado": 0,
+      "almoxarifado": 42,
       "farmacia": 36,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 36,
+      "total": 78,
       "minimo": 15,
       "validade": "2027-02",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-16 14:31:46",
+      "atualizado_em": "2026-11-16 14:35:01",
       "validade_mais_proxima": "2027-02",
       "vencimento_mais_proximo": "2027-02",
       "lotes_validade": [
@@ -4135,6 +4135,12 @@
           "validade": "2027-02",
           "lote": "",
           "quantidade": 36
+        },
+        {
+          "local": "almoxarifado",
+          "validade": "",
+          "lote": "",
+          "quantidade": 42
         }
       ],
       "minimo_manual": 15,
@@ -4144,7 +4150,7 @@
       "dias_historico": 84,
       "media_diaria_saida": 0.3,
       "total_saida_historica": 25,
-      "cobertura_dias": 121.0,
+      "cobertura_dias": 262.1,
       "alerta_estoque": false
     },
     {
@@ -17729,6 +17735,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 6291,
+      "item_id": 342,
+      "produto_nome": "CLORETO DE SÓDIO 20% AMP 10ML",
+      "tipo": "Entrada no Almoxarifado",
+      "origem": "Entrada externa",
+      "destino": "Almoxarifado",
+      "quantidade": 42,
+      "responsavel": "Leiliana",
+      "data": "2026-11-16",
+      "obs": "",
+      "criado_em": "2026-11-16 14:35:01",
+      "item": "CLORETO DE SÓDIO 20% AMP 10ML",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 6290,
       "item_id": 49,
       "produto_nome": "Aminofilina 24mg",
@@ -25211,21 +25232,6 @@
       "obs": "",
       "criado_em": "2026-11-06 11:48:06",
       "item": "Atadura crepon nº 10",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 5791,
-      "item_id": 104,
-      "produto_nome": "Seringa 3ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 20,
-      "responsavel": "Assucena",
-      "data": "2026-11-05",
-      "obs": "",
-      "criado_em": "2026-11-06 11:48:00",
-      "item": "Seringa 3ml",
       "usuario": "Assucena"
     }
   ]
