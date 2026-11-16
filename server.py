@@ -15,6 +15,17 @@ from secretaria_app.web import SecretariaMiddleware
 app.wsgi_app = SecretariaMiddleware(app.wsgi_app)
 
 
+
+# Entrada no domínio institucional; o painel continua em serviço independente.
+from flask import redirect
+
+@app.route("/tv")
+@app.route("/tv/")
+@app.route("/TV")
+@app.route("/TV/")
+def tv_entry():
+    return redirect("https://tv-valente.onrender.com/TV", code=302)
+
 if __name__ == "__main__":
     import os
 
