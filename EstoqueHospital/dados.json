@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "16/11/2026 14:14:29",
+  "atualizado_em": "16/11/2026 14:14:41",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
-    "total_almoxarifado": 100088,
+    "total_almoxarifado": 100091,
     "total_farmacia": 29578,
-    "total_geral": 129666,
+    "total_geral": 129669,
     "perto_de_terminar": 48,
     "zerados": 30
   },
@@ -1493,20 +1493,20 @@
       "nome": "amoxicilina+ clav 50mg",
       "tipo": "Medicamento",
       "unidade": "Unidade",
-      "almoxarifado": 3,
+      "almoxarifado": 6,
       "farmacia": 0,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 3,
+      "total": 6,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-16 14:12:07",
+      "atualizado_em": "2026-11-16 14:14:39",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -1514,7 +1514,7 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 3
+          "quantidade": 6
         }
       ],
       "minimo_manual": 0,
@@ -17507,6 +17507,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 6219,
+      "item_id": 405,
+      "produto_nome": "amoxicilina+ clav 50mg",
+      "tipo": "Entrada no Almoxarifado",
+      "origem": "Entrada externa",
+      "destino": "Almoxarifado",
+      "quantidade": 3,
+      "responsavel": "Leiliana",
+      "data": "2026-11-16",
+      "obs": "",
+      "criado_em": "2026-11-16 14:14:39",
+      "item": "amoxicilina+ clav 50mg",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 6218,
       "item_id": 303,
       "produto_nome": "Acetilcisteína XRP",
@@ -24989,21 +25004,6 @@
       "obs": "",
       "criado_em": "2026-11-05 09:50:56",
       "item": "Tramadol 50mg/ml 2ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 5719,
-      "item_id": 195,
-      "produto_nome": "Tira Reagente G-Tech",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 181,
-      "responsavel": "Assucena",
-      "data": "2026-11-05",
-      "obs": "AJUSTE DE ESTOQUE NO SISTEMA",
-      "criado_em": "2026-11-05 09:50:44",
-      "item": "Tira Reagente G-Tech",
       "usuario": "Assucena"
     }
   ]
