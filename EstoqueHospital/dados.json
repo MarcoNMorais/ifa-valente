@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "16/11/2026 14:34:37",
+  "atualizado_em": "16/11/2026 14:34:49",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
-    "total_almoxarifado": 112514,
+    "total_almoxarifado": 112549,
     "total_farmacia": 29578,
-    "total_geral": 142092,
+    "total_geral": 142127,
     "perto_de_terminar": 27,
     "zerados": 19
   },
@@ -1320,20 +1320,20 @@
       "nome": "Aminofilina 24mg",
       "tipo": "Medicamento",
       "unidade": "Unidade",
-      "almoxarifado": 0,
+      "almoxarifado": 35,
       "farmacia": 131,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 131,
+      "total": 166,
       "minimo": 0,
       "validade": "2026-12",
       "lote": "",
-      "origem": "Carga inicial Farmácia",
-      "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-11-16 14:31:46",
+      "origem": "Entrada externa",
+      "obs": "",
+      "atualizado_em": "2026-11-16 14:34:47",
       "validade_mais_proxima": "2026-12",
       "vencimento_mais_proximo": "2026-12",
       "lotes_validade": [
@@ -1342,6 +1342,12 @@
           "validade": "2026-12",
           "lote": "",
           "quantidade": 131
+        },
+        {
+          "local": "almoxarifado",
+          "validade": "",
+          "lote": "",
+          "quantidade": 35
         }
       ],
       "minimo_manual": 0,
@@ -17723,6 +17729,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 6290,
+      "item_id": 49,
+      "produto_nome": "Aminofilina 24mg",
+      "tipo": "Entrada no Almoxarifado",
+      "origem": "Entrada externa",
+      "destino": "Almoxarifado",
+      "quantidade": 35,
+      "responsavel": "Leiliana",
+      "data": "2026-11-16",
+      "obs": "",
+      "criado_em": "2026-11-16 14:34:47",
+      "item": "Aminofilina 24mg",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 6289,
       "item_id": 343,
       "produto_nome": "CLORETO DE POTÁSSIO 19,1% AMP 10ML",
@@ -25205,21 +25226,6 @@
       "obs": "",
       "criado_em": "2026-11-06 11:48:00",
       "item": "Seringa 3ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 5790,
-      "item_id": 102,
-      "produto_nome": "Seringa 5ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 30,
-      "responsavel": "Assucena",
-      "data": "2026-11-05",
-      "obs": "",
-      "criado_em": "2026-11-06 11:40:25",
-      "item": "Seringa 5ml",
       "usuario": "Assucena"
     }
   ]
