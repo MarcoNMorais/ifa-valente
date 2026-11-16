@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "16/11/2026 14:42:13",
+  "atualizado_em": "16/11/2026 14:42:25",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
-    "total_almoxarifado": 120331,
+    "total_almoxarifado": 120751,
     "total_farmacia": 29578,
-    "total_geral": 149909,
+    "total_geral": 150329,
     "perto_de_terminar": 23,
     "zerados": 16
   },
@@ -8108,20 +8108,20 @@
       "nome": "Gelco nº 24",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 1019,
+      "almoxarifado": 1439,
       "farmacia": 293,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1312,
+      "total": 1732,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-16 14:31:46",
+      "atualizado_em": "2026-11-16 14:42:23",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -8129,7 +8129,7 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 1019
+          "quantidade": 1439
         },
         {
           "local": "farmacia",
@@ -8145,7 +8145,7 @@
       "dias_historico": 96,
       "media_diaria_saida": 11.18,
       "total_saida_historica": 1073,
-      "cobertura_dias": 117.4,
+      "cobertura_dias": 155.0,
       "alerta_estoque": false
     },
     {
@@ -17780,6 +17780,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 6314,
+      "item_id": 176,
+      "produto_nome": "Gelco nº 24",
+      "tipo": "Entrada no Almoxarifado",
+      "origem": "Entrada externa",
+      "destino": "Almoxarifado",
+      "quantidade": 420,
+      "responsavel": "Leiliana",
+      "data": "2026-11-16",
+      "obs": "",
+      "criado_em": "2026-11-16 14:42:23",
+      "item": "Gelco nº 24",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 6313,
       "item_id": 177,
       "produto_nome": "Gelco nº 22",
@@ -25262,21 +25277,6 @@
       "obs": "",
       "criado_em": "2026-11-06 15:57:47",
       "item": "Dexametasona",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 5814,
-      "item_id": 59,
-      "produto_nome": "Ceftriaxona 1g",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 20,
-      "responsavel": "Leiliana",
-      "data": "2026-11-06",
-      "obs": "",
-      "criado_em": "2026-11-06 15:57:39",
-      "item": "Ceftriaxona 1g",
       "usuario": "Leiliana"
     }
   ]
