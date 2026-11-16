@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "16/11/2026 15:19:52",
+  "atualizado_em": "16/11/2026 15:20:03",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
     "total_almoxarifado": 124639,
-    "total_farmacia": 31132,
-    "total_geral": 155771,
+    "total_farmacia": 31131,
+    "total_geral": 155770,
     "perto_de_terminar": 23,
     "zerados": 15
   },
@@ -4963,19 +4963,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 13,
+      "farmacia": 12,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 13,
+      "total": 12,
       "minimo": 0,
       "validade": "04/28",
       "lote": "",
       "origem": "Carga Farmácia 227-288",
       "obs": "Importação Farmácia 227-288",
-      "atualizado_em": "2026-11-16 14:31:46",
+      "atualizado_em": "2026-11-16 15:20:01",
       "validade_mais_proxima": "04/28",
       "vencimento_mais_proximo": "04/28",
       "lotes_validade": [
@@ -4983,17 +4983,17 @@
           "local": "farmacia",
           "validade": "04/28",
           "lote": "",
-          "quantidade": 13
+          "quantidade": 12
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 2,
-      "previsao_20_dias": 2,
+      "minimo_alerta": 3,
+      "previsao_20_dias": 3,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 91,
-      "media_diaria_saida": 0.1,
-      "total_saida_historica": 9,
-      "cobertura_dias": 131.4,
+      "media_diaria_saida": 0.11,
+      "total_saida_historica": 10,
+      "cobertura_dias": 109.2,
       "alerta_estoque": false
     },
     {
@@ -17814,6 +17814,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 6477,
+      "item_id": 244,
+      "produto_nome": "Dexclorfeniramina 0,4mg/ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 1,
+      "responsavel": "Leiliana",
+      "data": "2026-11-16",
+      "obs": "",
+      "criado_em": "2026-11-16 15:20:01",
+      "item": "Dexclorfeniramina 0,4mg/ml",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 6476,
       "item_id": 241,
       "produto_nome": "Lactulose solução",
@@ -25296,21 +25311,6 @@
       "obs": "",
       "criado_em": "2026-11-09 16:46:36",
       "item": "HIDROCORTIZONA 500MG",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 5977,
-      "item_id": 82,
-      "produto_nome": "Hidrocortisona 100MG",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 6,
-      "responsavel": "Leiliana",
-      "data": "2026-11-09",
-      "obs": "",
-      "criado_em": "2026-11-09 16:46:26",
-      "item": "Hidrocortisona 100MG",
       "usuario": "Leiliana"
     }
   ]
