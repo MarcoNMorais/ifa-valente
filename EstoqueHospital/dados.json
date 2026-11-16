@@ -1,12 +1,12 @@
 {
-  "atualizado_em": "16/11/2026 15:12:02",
+  "atualizado_em": "16/11/2026 15:12:11",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
     "total_almoxarifado": 124919,
-    "total_farmacia": 31365,
-    "total_geral": 156284,
-    "perto_de_terminar": 22,
+    "total_farmacia": 31325,
+    "total_geral": 156244,
+    "perto_de_terminar": 23,
     "zerados": 15
   },
   "itens": [
@@ -12311,19 +12311,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 380,
+      "farmacia": 340,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 380,
+      "total": 340,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-16 15:05:58",
+      "atualizado_em": "2026-11-16 15:12:10",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -12331,18 +12331,18 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 410
+          "quantidade": 370
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 338,
-      "previsao_20_dias": 338,
+      "minimo_alerta": 347,
+      "previsao_20_dias": 347,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 93,
-      "media_diaria_saida": 16.88,
-      "total_saida_historica": 1570,
-      "cobertura_dias": 22.5,
-      "alerta_estoque": false
+      "media_diaria_saida": 17.31,
+      "total_saida_historica": 1610,
+      "cobertura_dias": 19.6,
+      "alerta_estoque": true
     },
     {
       "id": 118,
@@ -17813,6 +17813,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 6438,
+      "item_id": 238,
+      "produto_nome": "Ondansetrona 2mg/ml 2ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 40,
+      "responsavel": "Leiliana",
+      "data": "2026-11-16",
+      "obs": "",
+      "criado_em": "2026-11-16 15:12:10",
+      "item": "Ondansetrona 2mg/ml 2ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 6437,
       "item_id": 70,
@@ -25296,21 +25311,6 @@
       "obs": "",
       "criado_em": "2026-11-09 11:23:31",
       "item": "Luva M procedimento",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 5928,
-      "item_id": 390,
-      "produto_nome": "AGULHA  40X1,2",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 30,
-      "responsavel": "Assucena",
-      "data": "2026-11-09",
-      "obs": "",
-      "criado_em": "2026-11-09 11:23:24",
-      "item": "AGULHA  40X1,2",
       "usuario": "Assucena"
     }
   ]
