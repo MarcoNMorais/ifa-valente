@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "16/11/2026 15:17:16",
+  "atualizado_em": "16/11/2026 15:17:28",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
     "total_almoxarifado": 124639,
-    "total_farmacia": 31247,
-    "total_geral": 155886,
+    "total_farmacia": 31244,
+    "total_geral": 155883,
     "perto_de_terminar": 23,
     "zerados": 15
   },
@@ -15570,19 +15570,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 30,
-      "farmacia": 32,
+      "farmacia": 29,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 62,
+      "total": 59,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-11-16 14:31:46",
+      "atualizado_em": "2026-11-16 15:17:27",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -15596,17 +15596,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 32
+          "quantidade": 29
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 1,
-      "previsao_20_dias": 1,
+      "minimo_alerta": 2,
+      "previsao_20_dias": 2,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 96,
-      "media_diaria_saida": 0.02,
-      "total_saida_historica": 2,
-      "cobertura_dias": 2976.0,
+      "media_diaria_saida": 0.05,
+      "total_saida_historica": 5,
+      "cobertura_dias": 1132.8,
       "alerta_estoque": false
     },
     {
@@ -17813,6 +17813,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 6466,
+      "item_id": 147,
+      "produto_nome": "Sonda Nasogástrica nº 18",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 3,
+      "responsavel": "Leiliana",
+      "data": "2026-11-16",
+      "obs": "",
+      "criado_em": "2026-11-16 15:17:27",
+      "item": "Sonda Nasogástrica nº 18",
+      "usuario": "Leiliana"
+    },
     {
       "id": 6465,
       "item_id": 146,
@@ -25296,21 +25311,6 @@
       "obs": "",
       "criado_em": "2026-11-09 16:44:32",
       "item": "Ferropurum 20mg/ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 5966,
-      "item_id": 203,
-      "produto_nome": "Soro fisiológico 250ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 109,
-      "responsavel": "Leiliana",
-      "data": "2026-11-09",
-      "obs": "",
-      "criado_em": "2026-11-09 16:44:15",
-      "item": "Soro fisiológico 250ml",
       "usuario": "Leiliana"
     }
   ]
