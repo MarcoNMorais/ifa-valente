@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "16/11/2026 15:08:16",
+  "atualizado_em": "16/11/2026 15:08:35",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
-    "total_almoxarifado": 124987,
-    "total_farmacia": 31567,
+    "total_almoxarifado": 124967,
+    "total_farmacia": 31587,
     "total_geral": 156554,
     "perto_de_terminar": 22,
     "zerados": 15
@@ -10257,8 +10257,8 @@
       "nome": "Luva cirúrgica tam. 8",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 270,
-      "farmacia": 0,
+      "almoxarifado": 250,
+      "farmacia": 20,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -10270,7 +10270,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-16 14:31:46",
+      "atualizado_em": "2026-11-16 15:08:33",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -10278,7 +10278,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 270
+          "quantidade": 250
+        },
+        {
+          "local": "farmacia",
+          "validade": "",
+          "lote": "",
+          "quantidade": 20
         }
       ],
       "minimo_manual": 0,
@@ -17814,6 +17820,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 6419,
+      "item_id": 186,
+      "produto_nome": "Luva cirúrgica tam. 8",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 20,
+      "responsavel": "Leiliana",
+      "data": "2026-11-16",
+      "obs": "",
+      "criado_em": "2026-11-16 15:08:33",
+      "item": "Luva cirúrgica tam. 8",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 6418,
       "item_id": 185,
       "produto_nome": "Luva cirúrgica tam. 7,5",
@@ -25296,21 +25317,6 @@
       "obs": "",
       "criado_em": "2026-11-09 11:20:14",
       "item": "Seringa 5ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 5909,
-      "item_id": 103,
-      "produto_nome": "Seringa 10ml",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 40,
-      "responsavel": "Assucena",
-      "data": "2026-11-08",
-      "obs": "",
-      "criado_em": "2026-11-09 11:20:05",
-      "item": "Seringa 10ml",
       "usuario": "Assucena"
     }
   ]
