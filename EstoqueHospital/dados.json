@@ -1,13 +1,13 @@
 {
-  "atualizado_em": "16/11/2026 14:26:52",
+  "atualizado_em": "16/11/2026 14:27:04",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
-    "total_almoxarifado": 107513,
+    "total_almoxarifado": 107863,
     "total_farmacia": 29578,
-    "total_geral": 137091,
-    "perto_de_terminar": 34,
-    "zerados": 23
+    "total_geral": 137441,
+    "perto_de_terminar": 33,
+    "zerados": 22
   },
   "itens": [
     {
@@ -4612,23 +4612,30 @@
       "nome": "Complexo B",
       "tipo": "Medicamento",
       "unidade": "Unidade",
-      "almoxarifado": 0,
+      "almoxarifado": 350,
       "farmacia": 0,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 0,
+      "total": 350,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-16 14:12:07",
+      "atualizado_em": "2026-11-16 14:27:02",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
-      "lotes_validade": [],
+      "lotes_validade": [
+        {
+          "local": "almoxarifado",
+          "validade": "",
+          "lote": "",
+          "quantidade": 350
+        }
+      ],
       "minimo_manual": 0,
       "minimo_alerta": 182,
       "previsao_20_dias": 182,
@@ -4636,8 +4643,8 @@
       "dias_historico": 96,
       "media_diaria_saida": 9.06,
       "total_saida_historica": 870,
-      "cobertura_dias": 0.0,
-      "alerta_estoque": true
+      "cobertura_dias": 38.6,
+      "alerta_estoque": false
     },
     {
       "id": 392,
@@ -17661,6 +17668,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 6269,
+      "item_id": 66,
+      "produto_nome": "Complexo B",
+      "tipo": "Entrada no Almoxarifado",
+      "origem": "Entrada externa",
+      "destino": "Almoxarifado",
+      "quantidade": 350,
+      "responsavel": "Leiliana",
+      "data": "2026-11-16",
+      "obs": "",
+      "criado_em": "2026-11-16 14:27:02",
+      "item": "Complexo B",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 6268,
       "item_id": 229,
       "produto_nome": "Oxacilina 500mg pó injetável",
@@ -25142,21 +25164,6 @@
       "data": "2026-11-05",
       "obs": "",
       "criado_em": "2026-11-06 11:33:48",
-      "item": "Midazolam 5mg/ml 10ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 5769,
-      "item_id": 11,
-      "produto_nome": "Midazolam 5mg/ml 10ml",
-      "tipo": "Almoxarifado para Farmácia",
-      "origem": "Almoxarifado",
-      "destino": "Farmácia",
-      "quantidade": 155,
-      "responsavel": "Assucena",
-      "data": "2026-11-05",
-      "obs": "",
-      "criado_em": "2026-11-06 11:33:21",
       "item": "Midazolam 5mg/ml 10ml",
       "usuario": "Assucena"
     }
