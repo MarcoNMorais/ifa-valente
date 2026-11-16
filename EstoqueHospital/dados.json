@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "16/11/2026 15:16:31",
+  "atualizado_em": "16/11/2026 15:16:40",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
     "total_almoxarifado": 124639,
-    "total_farmacia": 31255,
-    "total_geral": 155894,
+    "total_farmacia": 31254,
+    "total_geral": 155893,
     "perto_de_terminar": 23,
     "zerados": 15
   },
@@ -10384,19 +10384,19 @@
       "tipo": "Material",
       "unidade": "Caixa",
       "almoxarifado": 70,
-      "farmacia": 154,
+      "farmacia": 153,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 224,
+      "total": 223,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-16 15:03:04",
+      "atualizado_em": "2026-11-16 15:16:39",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -10410,7 +10410,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 154
+          "quantidade": 153
         }
       ],
       "minimo_manual": 0,
@@ -10418,9 +10418,9 @@
       "previsao_20_dias": 181,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 96,
-      "media_diaria_saida": 9.02,
-      "total_saida_historica": 866,
-      "cobertura_dias": 24.8,
+      "media_diaria_saida": 9.03,
+      "total_saida_historica": 867,
+      "cobertura_dias": 24.7,
       "alerta_estoque": false
     },
     {
@@ -17813,6 +17813,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 6462,
+      "item_id": 180,
+      "produto_nome": "Luva de látex tam. P",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 1,
+      "responsavel": "Leiliana",
+      "data": "2026-11-16",
+      "obs": "",
+      "criado_em": "2026-11-16 15:16:39",
+      "item": "Luva de látex tam. P",
+      "usuario": "Leiliana"
+    },
     {
       "id": 6461,
       "item_id": 181,
@@ -25296,21 +25311,6 @@
       "obs": "",
       "criado_em": "2026-11-09 11:30:14",
       "item": "Cateter tipo óculos adulto",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 5961,
-      "item_id": 276,
-      "produto_nome": "Esparadrapo 10x4,5",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 2,
-      "responsavel": "Assucena",
-      "data": "2026-11-09",
-      "obs": "",
-      "criado_em": "2026-11-09 11:29:56",
-      "item": "Esparadrapo 10x4,5",
       "usuario": "Assucena"
     }
   ]
