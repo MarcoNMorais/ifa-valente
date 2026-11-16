@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "16/11/2026 15:19:41",
+  "atualizado_em": "16/11/2026 15:19:52",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
     "total_almoxarifado": 124639,
-    "total_farmacia": 31134,
-    "total_geral": 155773,
+    "total_farmacia": 31132,
+    "total_geral": 155771,
     "perto_de_terminar": 23,
     "zerados": 15
   },
@@ -9519,19 +9519,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 85,
-      "farmacia": 12,
+      "farmacia": 10,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 97,
+      "total": 95,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-16 15:15:07",
+      "atualizado_em": "2026-11-16 15:19:50",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -9545,7 +9545,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 12
+          "quantidade": 10
         }
       ],
       "minimo_manual": 0,
@@ -9553,9 +9553,9 @@
       "previsao_20_dias": 11,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 95,
-      "media_diaria_saida": 0.53,
-      "total_saida_historica": 50,
-      "cobertura_dias": 184.3,
+      "media_diaria_saida": 0.55,
+      "total_saida_historica": 52,
+      "cobertura_dias": 173.6,
       "alerta_estoque": false
     },
     {
@@ -17814,6 +17814,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 6476,
+      "item_id": 241,
+      "produto_nome": "Lactulose solução",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 2,
+      "responsavel": "Leiliana",
+      "data": "2026-11-16",
+      "obs": "",
+      "criado_em": "2026-11-16 15:19:50",
+      "item": "Lactulose solução",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 6475,
       "item_id": 59,
       "produto_nome": "Ceftriaxona 1g",
@@ -25296,21 +25311,6 @@
       "obs": "",
       "criado_em": "2026-11-09 16:46:26",
       "item": "Hidrocortisona 100MG",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 5976,
-      "item_id": 69,
-      "produto_nome": "Diclofenaco 25mg",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 30,
-      "responsavel": "Leiliana",
-      "data": "2026-11-09",
-      "obs": "",
-      "criado_em": "2026-11-09 16:46:16",
-      "item": "Diclofenaco 25mg",
       "usuario": "Leiliana"
     }
   ]
