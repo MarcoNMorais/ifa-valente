@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "16/11/2026 14:38:48",
+  "atualizado_em": "16/11/2026 14:39:10",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
-    "total_almoxarifado": 117564,
+    "total_almoxarifado": 117648,
     "total_farmacia": 29578,
-    "total_geral": 147142,
+    "total_geral": 147226,
     "perto_de_terminar": 23,
     "zerados": 16
   },
@@ -1612,20 +1612,20 @@
       "nome": "ATADURA ALGODÃO 20CM",
       "tipo": "Medicamento",
       "unidade": "Unidade",
-      "almoxarifado": 204,
+      "almoxarifado": 288,
       "farmacia": 0,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 204,
+      "total": 288,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-16 14:31:46",
+      "atualizado_em": "2026-11-16 14:39:08",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -1633,7 +1633,7 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 204
+          "quantidade": 288
         }
       ],
       "minimo_manual": 0,
@@ -17774,6 +17774,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 6305,
+      "item_id": 391,
+      "produto_nome": "ATADURA ALGODÃO 20CM",
+      "tipo": "Entrada no Almoxarifado",
+      "origem": "Entrada externa",
+      "destino": "Almoxarifado",
+      "quantidade": 84,
+      "responsavel": "Leiliana",
+      "data": "2026-11-16",
+      "obs": "",
+      "criado_em": "2026-11-16 14:39:08",
+      "item": "ATADURA ALGODÃO 20CM",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 6304,
       "item_id": 307,
       "produto_nome": "Atadura de algodão 10cm",
@@ -25256,21 +25271,6 @@
       "obs": "",
       "criado_em": "2026-11-06 13:37:52",
       "item": "Gelco nº 22",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 5805,
-      "item_id": 194,
-      "produto_nome": "Lanceta de segurança",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 1,
-      "responsavel": "Leiliana",
-      "data": "2026-11-06",
-      "obs": "",
-      "criado_em": "2026-11-06 13:37:35",
-      "item": "Lanceta de segurança",
       "usuario": "Leiliana"
     }
   ]
