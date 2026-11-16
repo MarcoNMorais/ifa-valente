@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "16/11/2026 15:20:25",
+  "atualizado_em": "16/11/2026 15:20:37",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
     "total_almoxarifado": 124639,
-    "total_farmacia": 31101,
-    "total_geral": 155740,
+    "total_farmacia": 31091,
+    "total_geral": 155730,
     "perto_de_terminar": 23,
     "zerados": 15
   },
@@ -4063,19 +4063,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 136,
-      "farmacia": 72,
+      "farmacia": 62,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 208,
+      "total": 198,
       "minimo": 0,
       "validade": "04/27",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-16 14:31:46",
+      "atualizado_em": "2026-11-16 15:20:36",
       "validade_mais_proxima": "04/27",
       "vencimento_mais_proximo": "04/27",
       "lotes_validade": [
@@ -4089,7 +4089,7 @@
           "local": "farmacia",
           "validade": "2027-04",
           "lote": "",
-          "quantidade": 52
+          "quantidade": 42
         },
         {
           "local": "almoxarifado",
@@ -4099,13 +4099,13 @@
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 54,
-      "previsao_20_dias": 54,
+      "minimo_alerta": 56,
+      "previsao_20_dias": 56,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 96,
-      "media_diaria_saida": 2.69,
-      "total_saida_historica": 258,
-      "cobertura_dias": 77.4,
+      "media_diaria_saida": 2.79,
+      "total_saida_historica": 268,
+      "cobertura_dias": 70.9,
       "alerta_estoque": false
     },
     {
@@ -17814,6 +17814,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 6480,
+      "item_id": 44,
+      "produto_nome": "Clopidogrel 75mg CP",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 10,
+      "responsavel": "Leiliana",
+      "data": "2026-11-16",
+      "obs": "",
+      "criado_em": "2026-11-16 15:20:36",
+      "item": "Clopidogrel 75mg CP",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 6479,
       "item_id": 123,
       "produto_nome": "Furosemida 40mg CPR",
@@ -25296,21 +25311,6 @@
       "obs": "",
       "criado_em": "2026-11-09 16:47:18",
       "item": "Scalp nº 23",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 5980,
-      "item_id": 97,
-      "produto_nome": "Scalp nº 19",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 10,
-      "responsavel": "Leiliana",
-      "data": "2026-11-09",
-      "obs": "",
-      "criado_em": "2026-11-09 16:47:09",
-      "item": "Scalp nº 19",
       "usuario": "Leiliana"
     }
   ]
