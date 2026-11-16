@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "16/11/2026 14:34:08",
+  "atualizado_em": "16/11/2026 14:34:37",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
-    "total_almoxarifado": 112500,
+    "total_almoxarifado": 112514,
     "total_farmacia": 29578,
-    "total_geral": 142078,
+    "total_geral": 142092,
     "perto_de_terminar": 27,
     "zerados": 19
   },
@@ -4061,20 +4061,20 @@
       "nome": "CLORETO DE POTÁSSIO 19,1% AMP 10ML",
       "tipo": "Medicamento",
       "unidade": "Unidade",
-      "almoxarifado": 0,
+      "almoxarifado": 14,
       "farmacia": 45,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 45,
+      "total": 59,
       "minimo": 15,
       "validade": "2027-08",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-16 14:31:46",
+      "atualizado_em": "2026-11-16 14:34:36",
       "validade_mais_proxima": "2027-08",
       "vencimento_mais_proximo": "2027-08",
       "lotes_validade": [
@@ -4083,6 +4083,12 @@
           "validade": "2027-08",
           "lote": "",
           "quantidade": 45
+        },
+        {
+          "local": "almoxarifado",
+          "validade": "",
+          "lote": "",
+          "quantidade": 14
         }
       ],
       "minimo_manual": 15,
@@ -4092,7 +4098,7 @@
       "dias_historico": 84,
       "media_diaria_saida": 0.24,
       "total_saida_historica": 20,
-      "cobertura_dias": 189.0,
+      "cobertura_dias": 247.8,
       "alerta_estoque": false
     },
     {
@@ -17717,6 +17723,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 6289,
+      "item_id": 343,
+      "produto_nome": "CLORETO DE POTÁSSIO 19,1% AMP 10ML",
+      "tipo": "Entrada no Almoxarifado",
+      "origem": "Entrada externa",
+      "destino": "Almoxarifado",
+      "quantidade": 14,
+      "responsavel": "Leiliana",
+      "data": "2026-11-16",
+      "obs": "",
+      "criado_em": "2026-11-16 14:34:36",
+      "item": "CLORETO DE POTÁSSIO 19,1% AMP 10ML",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 6288,
       "item_id": 260,
       "produto_nome": "Paracetamol gotas",
@@ -25199,21 +25220,6 @@
       "obs": "",
       "criado_em": "2026-11-06 11:40:25",
       "item": "Seringa 5ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 5789,
-      "item_id": 103,
-      "produto_nome": "Seringa 10ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 20,
-      "responsavel": "Assucena",
-      "data": "2026-11-05",
-      "obs": "",
-      "criado_em": "2026-11-06 11:40:17",
-      "item": "Seringa 10ml",
       "usuario": "Assucena"
     }
   ]
