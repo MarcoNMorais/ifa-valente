@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "16/11/2026 15:02:22",
+  "atualizado_em": "16/11/2026 15:02:34",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
     "total_almoxarifado": 125787,
-    "total_farmacia": 31602,
-    "total_geral": 157389,
+    "total_farmacia": 31592,
+    "total_geral": 157379,
     "perto_de_terminar": 22,
     "zerados": 15
   },
@@ -17019,19 +17019,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 320,
+      "farmacia": 310,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 320,
+      "total": 310,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-16 14:55:30",
+      "atualizado_em": "2026-11-16 15:02:33",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -17045,17 +17045,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 340
+          "quantidade": 330
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 218,
-      "previsao_20_dias": 218,
+      "minimo_alerta": 220,
+      "previsao_20_dias": 220,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 94,
-      "media_diaria_saida": 10.85,
-      "total_saida_historica": 1020,
-      "cobertura_dias": 29.5,
+      "media_diaria_saida": 10.96,
+      "total_saida_historica": 1030,
+      "cobertura_dias": 28.3,
       "alerta_estoque": false
     },
     {
@@ -17819,6 +17819,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 6390,
+      "item_id": 239,
+      "produto_nome": "Tramadol 50mg/ml 2ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 10,
+      "responsavel": "Leiliana",
+      "data": "2026-11-16",
+      "obs": "",
+      "criado_em": "2026-11-16 15:02:33",
+      "item": "Tramadol 50mg/ml 2ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 6389,
       "item_id": 176,
@@ -25302,21 +25317,6 @@
       "obs": "",
       "criado_em": "2026-11-09 11:12:00",
       "item": "Simeticona gotas",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 5877,
-      "item_id": 151,
-      "produto_nome": "Atadura crepon nº 15",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 12,
-      "responsavel": "Assucena",
-      "data": "2026-11-07",
-      "obs": "",
-      "criado_em": "2026-11-09 11:11:50",
-      "item": "Atadura crepon nº 15",
       "usuario": "Assucena"
     }
   ]
