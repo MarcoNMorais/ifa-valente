@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "16/11/2026 15:03:27",
+  "atualizado_em": "16/11/2026 15:03:37",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
     "total_almoxarifado": 125787,
-    "total_farmacia": 31528,
-    "total_geral": 157315,
+    "total_farmacia": 31428,
+    "total_geral": 157215,
     "perto_de_terminar": 22,
     "zerados": 15
   },
@@ -6012,19 +6012,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 2431,
-      "farmacia": 125,
+      "farmacia": 25,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 2556,
+      "total": 2456,
       "minimo": 300,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-16 14:53:22",
+      "atualizado_em": "2026-11-16 15:03:36",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -6038,17 +6038,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 150
+          "quantidade": 50
         }
       ],
       "minimo_manual": 300,
-      "minimo_alerta": 624,
-      "previsao_20_dias": 624,
+      "minimo_alerta": 645,
+      "previsao_20_dias": 645,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 96,
-      "media_diaria_saida": 31.19,
-      "total_saida_historica": 2994,
-      "cobertura_dias": 82.0,
+      "media_diaria_saida": 32.23,
+      "total_saida_historica": 3094,
+      "cobertura_dias": 76.2,
       "alerta_estoque": false
     },
     {
@@ -17820,6 +17820,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 6396,
+      "item_id": 220,
+      "produto_nome": "Equipo macrogotas",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 100,
+      "responsavel": "Leiliana",
+      "data": "2026-11-16",
+      "obs": "",
+      "criado_em": "2026-11-16 15:03:36",
+      "item": "Equipo macrogotas",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 6395,
       "item_id": 329,
       "produto_nome": "Polifix",
@@ -25302,21 +25317,6 @@
       "obs": "",
       "criado_em": "2026-11-09 11:16:06",
       "item": "Lençol descartável papel",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 5883,
-      "item_id": 220,
-      "produto_nome": "Equipo macrogotas",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 49,
-      "responsavel": "Assucena",
-      "data": "2026-11-08",
-      "obs": "",
-      "criado_em": "2026-11-09 11:15:31",
-      "item": "Equipo macrogotas",
       "usuario": "Assucena"
     }
   ]
