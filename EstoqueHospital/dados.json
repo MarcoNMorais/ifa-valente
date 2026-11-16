@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "16/11/2026 15:11:52",
+  "atualizado_em": "16/11/2026 15:12:02",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
     "total_almoxarifado": 124919,
-    "total_farmacia": 31395,
-    "total_geral": 156314,
+    "total_farmacia": 31365,
+    "total_geral": 156284,
     "perto_de_terminar": 22,
     "zerados": 15
   },
@@ -5261,19 +5261,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 1400,
-      "farmacia": 260,
+      "farmacia": 230,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1660,
+      "total": 1630,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-16 15:05:05",
+      "atualizado_em": "2026-11-16 15:12:00",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -5287,17 +5287,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 340
+          "quantidade": 310
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 880,
-      "previsao_20_dias": 880,
+      "minimo_alerta": 886,
+      "previsao_20_dias": 886,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 96,
-      "media_diaria_saida": 43.96,
-      "total_saida_historica": 4220,
-      "cobertura_dias": 37.8,
+      "media_diaria_saida": 44.27,
+      "total_saida_historica": 4250,
+      "cobertura_dias": 36.8,
       "alerta_estoque": false
     },
     {
@@ -17814,6 +17814,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 6437,
+      "item_id": 70,
+      "produto_nome": "Dipirona",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 30,
+      "responsavel": "Leiliana",
+      "data": "2026-11-16",
+      "obs": "",
+      "criado_em": "2026-11-16 15:12:00",
+      "item": "Dipirona",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 6436,
       "item_id": 56,
       "produto_nome": "Benzilpenicilina 600 UI",
@@ -25296,21 +25311,6 @@
       "obs": "",
       "criado_em": "2026-11-09 11:23:24",
       "item": "AGULHA  40X1,2",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 5927,
-      "item_id": 157,
-      "produto_nome": "Seringa 1ml",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 20,
-      "responsavel": "Assucena",
-      "data": "2026-11-09",
-      "obs": "",
-      "criado_em": "2026-11-09 11:23:14",
-      "item": "Seringa 1ml",
       "usuario": "Assucena"
     }
   ]
