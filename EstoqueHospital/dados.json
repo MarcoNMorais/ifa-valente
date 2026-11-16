@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "16/11/2026 14:35:48",
+  "atualizado_em": "16/11/2026 14:36:03",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
-    "total_almoxarifado": 112676,
+    "total_almoxarifado": 112697,
     "total_farmacia": 29578,
-    "total_geral": 142254,
+    "total_geral": 142275,
     "perto_de_terminar": 25,
     "zerados": 18
   },
@@ -8478,20 +8478,20 @@
       "nome": "GLUCONATO DE CÁLCIO 10%",
       "tipo": "Medicamento",
       "unidade": "Unidade",
-      "almoxarifado": 0,
+      "almoxarifado": 21,
       "farmacia": 30,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 30,
+      "total": 51,
       "minimo": 0,
       "validade": "2026-12",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-16 14:31:46",
+      "atualizado_em": "2026-11-16 14:36:01",
       "validade_mais_proxima": "2026-12",
       "vencimento_mais_proximo": "2026-12",
       "lotes_validade": [
@@ -8500,6 +8500,12 @@
           "validade": "2026-12",
           "lote": "",
           "quantidade": 30
+        },
+        {
+          "local": "almoxarifado",
+          "validade": "",
+          "lote": "",
+          "quantidade": 21
         }
       ],
       "minimo_manual": 0,
@@ -17748,6 +17754,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 6295,
+      "item_id": 341,
+      "produto_nome": "GLUCONATO DE CÁLCIO 10%",
+      "tipo": "Entrada no Almoxarifado",
+      "origem": "Entrada externa",
+      "destino": "Almoxarifado",
+      "quantidade": 21,
+      "responsavel": "Leiliana",
+      "data": "2026-11-16",
+      "obs": "",
+      "criado_em": "2026-11-16 14:36:01",
+      "item": "GLUCONATO DE CÁLCIO 10%",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 6294,
       "item_id": 294,
       "produto_nome": "Glicerina 12%",
@@ -25230,21 +25251,6 @@
       "obs": "",
       "criado_em": "2026-11-06 12:10:45",
       "item": "Bolsa coletora",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 5795,
-      "item_id": 138,
-      "produto_nome": "Captopril 25mg CPR",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 20,
-      "responsavel": "Assucena",
-      "data": "2026-11-05",
-      "obs": "",
-      "criado_em": "2026-11-06 12:10:38",
-      "item": "Captopril 25mg CPR",
       "usuario": "Assucena"
     }
   ]
