@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "16/11/2026 14:53:57",
+  "atualizado_em": "16/11/2026 14:54:11",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
-    "total_almoxarifado": 128927,
-    "total_farmacia": 29383,
+    "total_almoxarifado": 128427,
+    "total_farmacia": 29883,
     "total_geral": 158310,
     "perto_de_terminar": 22,
     "zerados": 15
@@ -12322,8 +12322,8 @@
       "nome": "Ondansetrona 2mg/ml 2ml",
       "tipo": "Medicamento",
       "unidade": "Unidade",
-      "almoxarifado": 500,
-      "farmacia": 0,
+      "almoxarifado": 0,
+      "farmacia": 500,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -12335,21 +12335,15 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-16 14:31:46",
+      "atualizado_em": "2026-11-16 14:54:10",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
         {
-          "local": "almoxarifado",
-          "validade": "",
-          "lote": "",
-          "quantidade": 500
-        },
-        {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 30
+          "quantidade": 530
         }
       ],
       "minimo_manual": 0,
@@ -17831,6 +17825,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 6353,
+      "item_id": 238,
+      "produto_nome": "Ondansetrona 2mg/ml 2ml",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 500,
+      "responsavel": "Leiliana",
+      "data": "2026-11-16",
+      "obs": "",
+      "criado_em": "2026-11-16 14:54:10",
+      "item": "Ondansetrona 2mg/ml 2ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 6352,
       "item_id": 28,
@@ -25314,21 +25323,6 @@
       "obs": "",
       "criado_em": "2026-11-09 11:27:52",
       "item": "Soro fisiológico 500ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 5937,
-      "item_id": 205,
-      "produto_nome": "Soro glicose 5% 500ml",
-      "tipo": "Almoxarifado para Farmácia",
-      "origem": "Almoxarifado",
-      "destino": "Farmácia",
-      "quantidade": 15,
-      "responsavel": "Assucena",
-      "data": "2026-11-06",
-      "obs": "",
-      "criado_em": "2026-11-09 11:25:52",
-      "item": "Soro glicose 5% 500ml",
       "usuario": "Assucena"
     }
   ]
