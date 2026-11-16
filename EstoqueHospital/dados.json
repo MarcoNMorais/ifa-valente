@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "16/11/2026 15:03:37",
+  "atualizado_em": "16/11/2026 15:03:52",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
     "total_almoxarifado": 125787,
-    "total_farmacia": 31428,
-    "total_geral": 157215,
+    "total_farmacia": 31426,
+    "total_geral": 157213,
     "perto_de_terminar": 22,
     "zerados": 15
   },
@@ -3235,19 +3235,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 39,
-      "farmacia": 19,
+      "farmacia": 17,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 58,
+      "total": 56,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-16 14:39:55",
+      "atualizado_em": "2026-11-16 15:03:50",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -3261,7 +3261,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 19
+          "quantidade": 17
         }
       ],
       "minimo_manual": 0,
@@ -3269,9 +3269,9 @@
       "previsao_20_dias": 11,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 96,
-      "media_diaria_saida": 0.52,
-      "total_saida_historica": 50,
-      "cobertura_dias": 111.4,
+      "media_diaria_saida": 0.54,
+      "total_saida_historica": 52,
+      "cobertura_dias": 103.4,
       "alerta_estoque": false
     },
     {
@@ -17820,6 +17820,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 6397,
+      "item_id": 200,
+      "produto_nome": "Caixa de perfurocortante",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 2,
+      "responsavel": "Leiliana",
+      "data": "2026-11-16",
+      "obs": "",
+      "criado_em": "2026-11-16 15:03:50",
+      "item": "Caixa de perfurocortante",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 6396,
       "item_id": 220,
       "produto_nome": "Equipo macrogotas",
@@ -25302,21 +25317,6 @@
       "obs": "",
       "criado_em": "2026-11-09 11:16:12",
       "item": "Polifix",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 5885,
-      "item_id": 199,
-      "produto_nome": "Lençol descartável papel",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 2,
-      "responsavel": "Assucena",
-      "data": "2026-11-08",
-      "obs": "",
-      "criado_em": "2026-11-09 11:16:06",
-      "item": "Lençol descartável papel",
       "usuario": "Assucena"
     }
   ]
