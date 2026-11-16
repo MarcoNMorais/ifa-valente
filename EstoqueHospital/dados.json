@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "16/11/2026 14:56:47",
+  "atualizado_em": "16/11/2026 14:56:53",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
     "total_almoxarifado": 126387,
-    "total_farmacia": 31558,
-    "total_geral": 157945,
+    "total_farmacia": 31528,
+    "total_geral": 157915,
     "perto_de_terminar": 22,
     "zerados": 15
   },
@@ -784,19 +784,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 16100,
-      "farmacia": 65,
+      "farmacia": 35,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 16165,
+      "total": 16135,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-16 14:52:50",
+      "atualizado_em": "2026-11-16 14:56:51",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -810,17 +810,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 65
+          "quantidade": 35
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 602,
-      "previsao_20_dias": 602,
+      "minimo_alerta": 608,
+      "previsao_20_dias": 608,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 91,
-      "media_diaria_saida": 30.05,
-      "total_saida_historica": 2735,
-      "cobertura_dias": 537.8,
+      "media_diaria_saida": 30.38,
+      "total_saida_historica": 2765,
+      "cobertura_dias": 531.0,
       "alerta_estoque": false
     },
     {
@@ -17820,6 +17820,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 6365,
+      "item_id": 285,
+      "produto_nome": "Agulha 30x7",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 30,
+      "responsavel": "Leiliana",
+      "data": "2026-11-16",
+      "obs": "",
+      "criado_em": "2026-11-16 14:56:51",
+      "item": "Agulha 30x7",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 6364,
       "item_id": 59,
       "produto_nome": "Ceftriaxona 1g",
@@ -25302,21 +25317,6 @@
       "obs": "",
       "criado_em": "2026-11-09 11:07:11",
       "item": "Luva P procedimento",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 5850,
-      "item_id": 280,
-      "produto_nome": "Luva M procedimento",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 1,
-      "responsavel": "Assucena",
-      "data": "2026-11-07",
-      "obs": "",
-      "criado_em": "2026-11-09 11:07:03",
-      "item": "Luva M procedimento",
       "usuario": "Assucena"
     }
   ]
