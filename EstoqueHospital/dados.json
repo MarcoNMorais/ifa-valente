@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "16/11/2026 15:05:18",
+  "atualizado_em": "16/11/2026 15:05:35",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
-    "total_almoxarifado": 125607,
-    "total_farmacia": 31312,
+    "total_almoxarifado": 125197,
+    "total_farmacia": 31722,
     "total_geral": 156919,
     "perto_de_terminar": 22,
     "zerados": 15
@@ -3650,8 +3650,8 @@
       "nome": "Cetoprofeno EV 100mg",
       "tipo": "Medicamento",
       "unidade": "Unidade",
-      "almoxarifado": 410,
-      "farmacia": 0,
+      "almoxarifado": 0,
+      "farmacia": 410,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -3663,21 +3663,15 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-16 14:31:46",
+      "atualizado_em": "2026-11-16 15:05:33",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
         {
-          "local": "almoxarifado",
-          "validade": "",
-          "lote": "",
-          "quantidade": 410
-        },
-        {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 20
+          "quantidade": 430
         }
       ],
       "minimo_manual": 0,
@@ -17820,6 +17814,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 6405,
+      "item_id": 60,
+      "produto_nome": "Cetoprofeno EV 100mg",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 410,
+      "responsavel": "Leiliana",
+      "data": "2026-11-16",
+      "obs": "",
+      "criado_em": "2026-11-16 15:05:33",
+      "item": "Cetoprofeno EV 100mg",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 6404,
       "item_id": 61,
       "produto_nome": "Cetoprofeno IM 50mg",
@@ -25302,21 +25311,6 @@
       "obs": "",
       "criado_em": "2026-11-09 11:17:43",
       "item": "Ceftriaxona 1g",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 5894,
-      "item_id": 331,
-      "produto_nome": "Agulha 30x8",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 30,
-      "responsavel": "Assucena",
-      "data": "2026-11-08",
-      "obs": "",
-      "criado_em": "2026-11-09 11:17:36",
-      "item": "Agulha 30x8",
       "usuario": "Assucena"
     }
   ]
