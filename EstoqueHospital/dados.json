@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "16/11/2026 14:19:46",
+  "atualizado_em": "16/11/2026 14:20:00",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
-    "total_almoxarifado": 101534,
+    "total_almoxarifado": 101555,
     "total_farmacia": 29578,
-    "total_geral": 131112,
+    "total_geral": 131133,
     "perto_de_terminar": 47,
     "zerados": 30
   },
@@ -12591,23 +12591,29 @@
       "nome": "Prednisolona 3mg/ml",
       "tipo": "Medicamento",
       "unidade": "Unidade",
-      "almoxarifado": 0,
+      "almoxarifado": 21,
       "farmacia": 32,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 32,
+      "total": 53,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-16 14:12:07",
+      "atualizado_em": "2026-11-16 14:19:59",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
+        {
+          "local": "almoxarifado",
+          "validade": "",
+          "lote": "",
+          "quantidade": 21
+        },
         {
           "local": "farmacia",
           "validade": "",
@@ -12622,7 +12628,7 @@
       "dias_historico": 95,
       "media_diaria_saida": 0.19,
       "total_saida_historica": 18,
-      "cobertura_dias": 168.9,
+      "cobertura_dias": 279.7,
       "alerta_estoque": false
     },
     {
@@ -17542,6 +17548,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 6242,
+      "item_id": 249,
+      "produto_nome": "Prednisolona 3mg/ml",
+      "tipo": "Entrada no Almoxarifado",
+      "origem": "Entrada externa",
+      "destino": "Almoxarifado",
+      "quantidade": 21,
+      "responsavel": "Leiliana",
+      "data": "2026-11-16",
+      "obs": "",
+      "criado_em": "2026-11-16 14:19:59",
+      "item": "Prednisolona 3mg/ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 6241,
       "item_id": 27,
@@ -25025,21 +25046,6 @@
       "obs": "",
       "criado_em": "2026-11-05 09:53:58",
       "item": "Polifix",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 5742,
-      "item_id": 82,
-      "produto_nome": "Hidrocortisona 100MG",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 6,
-      "responsavel": "Assucena",
-      "data": "2026-11-05",
-      "obs": "",
-      "criado_em": "2026-11-05 09:53:51",
-      "item": "Hidrocortisona 100MG",
       "usuario": "Assucena"
     }
   ]
