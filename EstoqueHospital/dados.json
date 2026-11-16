@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "16/11/2026 14:46:02",
+  "atualizado_em": "16/11/2026 14:46:15",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
-    "total_almoxarifado": 125108,
+    "total_almoxarifado": 126508,
     "total_farmacia": 29578,
-    "total_geral": 154686,
+    "total_geral": 156086,
     "perto_de_terminar": 22,
     "zerados": 15
   },
@@ -13371,20 +13371,20 @@
       "nome": "Seringa 10ml",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 4050,
+      "almoxarifado": 5450,
       "farmacia": 446,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 4496,
+      "total": 5896,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-16 14:31:46",
+      "atualizado_em": "2026-11-16 14:46:13",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -13392,7 +13392,7 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 4050
+          "quantidade": 5450
         },
         {
           "local": "farmacia",
@@ -13408,7 +13408,7 @@
       "dias_historico": 96,
       "media_diaria_saida": 66.96,
       "total_saida_historica": 6428,
-      "cobertura_dias": 67.1,
+      "cobertura_dias": 88.1,
       "alerta_estoque": false
     },
     {
@@ -17779,6 +17779,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 6327,
+      "item_id": 103,
+      "produto_nome": "Seringa 10ml",
+      "tipo": "Entrada no Almoxarifado",
+      "origem": "Entrada externa",
+      "destino": "Almoxarifado",
+      "quantidade": 1400,
+      "responsavel": "Leiliana",
+      "data": "2026-11-16",
+      "obs": "",
+      "criado_em": "2026-11-16 14:46:13",
+      "item": "Seringa 10ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 6326,
       "item_id": 102,
@@ -25262,21 +25277,6 @@
       "obs": "",
       "criado_em": "2026-11-06 16:01:06",
       "item": "Luva cirúrgica tam. 7,5",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 5827,
-      "item_id": 199,
-      "produto_nome": "Lençol descartável papel",
-      "tipo": "Almoxarifado para Farmácia",
-      "origem": "Almoxarifado",
-      "destino": "Farmácia",
-      "quantidade": 20,
-      "responsavel": "Leiliana",
-      "data": "2026-11-06",
-      "obs": "",
-      "criado_em": "2026-11-06 16:00:45",
-      "item": "Lençol descartável papel",
       "usuario": "Leiliana"
     }
   ]
