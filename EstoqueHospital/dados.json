@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "16/11/2026 15:11:04",
+  "atualizado_em": "16/11/2026 15:11:14",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
     "total_almoxarifado": 124919,
-    "total_farmacia": 31477,
-    "total_geral": 156396,
+    "total_farmacia": 31476,
+    "total_geral": 156395,
     "perto_de_terminar": 22,
     "zerados": 15
   },
@@ -9816,19 +9816,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 69,
+      "farmacia": 68,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 69,
+      "total": 68,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-16 14:31:46",
+      "atualizado_em": "2026-11-16 15:11:12",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -9836,7 +9836,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 69
+          "quantidade": 68
         }
       ],
       "minimo_manual": 0,
@@ -9844,9 +9844,9 @@
       "previsao_20_dias": 5,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 74,
-      "media_diaria_saida": 0.23,
-      "total_saida_historica": 17,
-      "cobertura_dias": 300.4,
+      "media_diaria_saida": 0.24,
+      "total_saida_historica": 18,
+      "cobertura_dias": 279.6,
       "alerta_estoque": false
     },
     {
@@ -17820,6 +17820,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 6432,
+      "item_id": 385,
+      "produto_nome": "LIDOCAINA S/ VASO",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 1,
+      "responsavel": "Leiliana",
+      "data": "2026-11-16",
+      "obs": "",
+      "criado_em": "2026-11-16 15:11:12",
+      "item": "LIDOCAINA S/ VASO",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 6431,
       "item_id": 85,
       "produto_nome": "Lidocaína Gel",
@@ -25302,21 +25317,6 @@
       "obs": "",
       "criado_em": "2026-11-09 11:22:43",
       "item": "Furosemida",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 5922,
-      "item_id": 27,
-      "produto_nome": "Paracetamol 500mg",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 10,
-      "responsavel": "Assucena",
-      "data": "2026-11-09",
-      "obs": "",
-      "criado_em": "2026-11-09 11:22:36",
-      "item": "Paracetamol 500mg",
       "usuario": "Assucena"
     }
   ]
