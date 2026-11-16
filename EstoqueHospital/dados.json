@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "16/11/2026 14:17:45",
+  "atualizado_em": "16/11/2026 14:17:57",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 418,
-    "total_almoxarifado": 100852,
+    "total_almoxarifado": 100866,
     "total_farmacia": 29578,
-    "total_geral": 130430,
+    "total_geral": 130444,
     "perto_de_terminar": 47,
     "zerados": 30
   },
@@ -9817,23 +9817,29 @@
       "nome": "LORATADINA SUSPENSÃO",
       "tipo": "Medicamento",
       "unidade": "Unidade",
-      "almoxarifado": 0,
+      "almoxarifado": 14,
       "farmacia": 12,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 12,
+      "total": 26,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-16 14:12:07",
+      "atualizado_em": "2026-11-16 14:17:55",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
+        {
+          "local": "almoxarifado",
+          "validade": "",
+          "lote": "",
+          "quantidade": 14
+        },
         {
           "local": "farmacia",
           "validade": "",
@@ -9848,7 +9854,7 @@
       "dias_historico": 74,
       "media_diaria_saida": 0.15,
       "total_saida_historica": 11,
-      "cobertura_dias": 80.7,
+      "cobertura_dias": 174.9,
       "alerta_estoque": false
     },
     {
@@ -17531,6 +17537,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 6233,
+      "item_id": 377,
+      "produto_nome": "LORATADINA SUSPENSÃO",
+      "tipo": "Entrada no Almoxarifado",
+      "origem": "Entrada externa",
+      "destino": "Almoxarifado",
+      "quantidade": 14,
+      "responsavel": "Leiliana",
+      "data": "2026-11-16",
+      "obs": "",
+      "criado_em": "2026-11-16 14:17:55",
+      "item": "LORATADINA SUSPENSÃO",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 6232,
       "item_id": 255,
       "produto_nome": "Ibuprofeno gotas",
@@ -25013,21 +25034,6 @@
       "obs": "",
       "criado_em": "2026-11-05 09:52:43",
       "item": "Polifix",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 5733,
-      "item_id": 220,
-      "produto_nome": "Equipo macrogotas",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 25,
-      "responsavel": "Assucena",
-      "data": "2026-11-05",
-      "obs": "",
-      "criado_em": "2026-11-05 09:52:37",
-      "item": "Equipo macrogotas",
       "usuario": "Assucena"
     }
   ]
