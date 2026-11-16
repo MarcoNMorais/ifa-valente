@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "16/11/2026 16:10:04",
+  "atualizado_em": "16/11/2026 16:10:15",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
     "total_almoxarifado": 124219,
-    "total_farmacia": 31239,
-    "total_geral": 155458,
+    "total_farmacia": 31219,
+    "total_geral": 155438,
     "perto_de_terminar": 23,
     "zerados": 15
   },
@@ -13256,19 +13256,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 650,
-      "farmacia": 116,
+      "farmacia": 96,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 766,
+      "total": 746,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-16 14:57:20",
+      "atualizado_em": "2026-11-16 16:10:14",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -13282,17 +13282,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 116
+          "quantidade": 96
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 148,
-      "previsao_20_dias": 148,
+      "minimo_alerta": 153,
+      "previsao_20_dias": 153,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 96,
-      "media_diaria_saida": 7.4,
-      "total_saida_historica": 710,
-      "cobertura_dias": 103.6,
+      "media_diaria_saida": 7.6,
+      "total_saida_historica": 730,
+      "cobertura_dias": 98.1,
       "alerta_estoque": false
     },
     {
@@ -17807,6 +17807,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 6505,
+      "item_id": 99,
+      "produto_nome": "Scalp nº 21",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 20,
+      "responsavel": "Leiliana",
+      "data": "2026-11-16",
+      "obs": "",
+      "criado_em": "2026-11-16 16:10:14",
+      "item": "Scalp nº 21",
+      "usuario": "Leiliana"
+    },
     {
       "id": 6504,
       "item_id": 98,
@@ -25290,21 +25305,6 @@
       "obs": "",
       "criado_em": "2026-11-10 11:38:24",
       "item": "Equipo macrogotas",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 6005,
-      "item_id": 104,
-      "produto_nome": "Seringa 3ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 50,
-      "responsavel": "Assucena",
-      "data": "2026-11-10",
-      "obs": "",
-      "criado_em": "2026-11-10 11:38:17",
-      "item": "Seringa 3ml",
       "usuario": "Assucena"
     }
   ]
