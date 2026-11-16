@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "16/11/2026 15:01:36",
+  "atualizado_em": "16/11/2026 15:01:59",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
-    "total_almoxarifado": 125887,
-    "total_farmacia": 31547,
+    "total_almoxarifado": 125787,
+    "total_farmacia": 31647,
     "total_geral": 157434,
     "perto_de_terminar": 22,
     "zerados": 15
@@ -8096,8 +8096,8 @@
       "nome": "Gelco nº 22",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 1460,
-      "farmacia": 18,
+      "almoxarifado": 1360,
+      "farmacia": 118,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -8109,7 +8109,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-16 14:57:02",
+      "atualizado_em": "2026-11-16 15:01:58",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -8117,13 +8117,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 1460
+          "quantidade": 1360
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 18
+          "quantidade": 118
         }
       ],
       "minimo_manual": 0,
@@ -17820,6 +17820,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 6387,
+      "item_id": 177,
+      "produto_nome": "Gelco nº 22",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 100,
+      "responsavel": "Leiliana",
+      "data": "2026-11-16",
+      "obs": "",
+      "criado_em": "2026-11-16 15:01:58",
+      "item": "Gelco nº 22",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 6386,
       "item_id": 178,
       "produto_nome": "Dispositivo intravenoso Gelco nº 20",
@@ -25302,21 +25317,6 @@
       "obs": "",
       "criado_em": "2026-11-09 11:11:31",
       "item": "Omeprazol sódico 40mg AMP",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 5874,
-      "item_id": 60,
-      "produto_nome": "Cetoprofeno EV 100mg",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 8,
-      "responsavel": "Assucena",
-      "data": "2026-11-07",
-      "obs": "",
-      "criado_em": "2026-11-09 11:11:21",
-      "item": "Cetoprofeno EV 100mg",
       "usuario": "Assucena"
     }
   ]
