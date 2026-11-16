@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "16/11/2026 15:16:40",
+  "atualizado_em": "16/11/2026 15:16:51",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
     "total_almoxarifado": 124639,
-    "total_farmacia": 31254,
-    "total_geral": 155893,
+    "total_farmacia": 31252,
+    "total_geral": 155891,
     "perto_de_terminar": 23,
     "zerados": 15
   },
@@ -2897,19 +2897,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 107,
-      "farmacia": 30,
+      "farmacia": 28,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 137,
+      "total": 135,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-16 15:03:15",
+      "atualizado_em": "2026-11-16 15:16:49",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -2923,7 +2923,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 30
+          "quantidade": 28
         }
       ],
       "minimo_manual": 0,
@@ -2931,9 +2931,9 @@
       "previsao_20_dias": 17,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 96,
-      "media_diaria_saida": 0.8,
-      "total_saida_historica": 77,
-      "cobertura_dias": 170.8,
+      "media_diaria_saida": 0.82,
+      "total_saida_historica": 79,
+      "cobertura_dias": 164.1,
       "alerta_estoque": false
     },
     {
@@ -17814,6 +17814,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 6463,
+      "item_id": 155,
+      "produto_nome": "Bolsa coletora",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 2,
+      "responsavel": "Leiliana",
+      "data": "2026-11-16",
+      "obs": "",
+      "criado_em": "2026-11-16 15:16:49",
+      "item": "Bolsa coletora",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 6462,
       "item_id": 180,
       "produto_nome": "Luva de látex tam. P",
@@ -25297,21 +25312,6 @@
       "criado_em": "2026-11-09 16:43:49",
       "item": "Soro fisiológico 250ml",
       "usuario": "Leiliana"
-    },
-    {
-      "id": 5963,
-      "item_id": 291,
-      "produto_nome": "Cateter tipo óculos adulto",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 10,
-      "responsavel": "Assucena",
-      "data": "2026-11-09",
-      "obs": "",
-      "criado_em": "2026-11-09 11:30:14",
-      "item": "Cateter tipo óculos adulto",
-      "usuario": "Assucena"
     }
   ]
 }
