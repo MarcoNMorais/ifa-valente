@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "16/11/2026 15:12:31",
+  "atualizado_em": "16/11/2026 15:12:47",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
-    "total_almoxarifado": 124919,
-    "total_farmacia": 31305,
+    "total_almoxarifado": 124639,
+    "total_farmacia": 31585,
     "total_geral": 156224,
     "perto_de_terminar": 23,
     "zerados": 15
@@ -519,8 +519,8 @@
       "nome": "AGUA P/ INJ",
       "tipo": "Medicamento",
       "unidade": "Unidade",
-      "almoxarifado": 280,
-      "farmacia": 0,
+      "almoxarifado": 0,
+      "farmacia": 280,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -532,12 +532,12 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-16 15:07:30",
+      "atualizado_em": "2026-11-16 15:12:45",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
         {
-          "local": "almoxarifado",
+          "local": "farmacia",
           "validade": "",
           "lote": "",
           "quantidade": 280
@@ -17814,6 +17814,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 6441,
+      "item_id": 382,
+      "produto_nome": "AGUA P/ INJ",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 280,
+      "responsavel": "Leiliana",
+      "data": "2026-11-16",
+      "obs": "",
+      "criado_em": "2026-11-16 15:12:45",
+      "item": "AGUA P/ INJ",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 6440,
       "item_id": 239,
       "produto_nome": "Tramadol 50mg/ml 2ml",
@@ -25296,21 +25311,6 @@
       "obs": "",
       "criado_em": "2026-11-09 11:26:24",
       "item": "Omeprazol sódico 40mg AMP",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 5939,
-      "item_id": 60,
-      "produto_nome": "Cetoprofeno EV 100mg",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 10,
-      "responsavel": "Assucena",
-      "data": "2026-11-09",
-      "obs": "",
-      "criado_em": "2026-11-09 11:26:17",
-      "item": "Cetoprofeno EV 100mg",
       "usuario": "Assucena"
     }
   ]
