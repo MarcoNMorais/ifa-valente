@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "16/11/2026 15:10:05",
+  "atualizado_em": "16/11/2026 15:10:15",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
     "total_almoxarifado": 124967,
-    "total_farmacia": 31484,
-    "total_geral": 156451,
+    "total_farmacia": 31481,
+    "total_geral": 156448,
     "perto_de_terminar": 22,
     "zerados": 15
   },
@@ -3361,19 +3361,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 105,
-      "farmacia": 153,
+      "farmacia": 150,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 258,
+      "total": 255,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-16 14:40:08",
+      "atualizado_em": "2026-11-16 15:10:13",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -3387,7 +3387,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 153
+          "quantidade": 150
         }
       ],
       "minimo_manual": 0,
@@ -3395,9 +3395,9 @@
       "previsao_20_dias": 20,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 91,
-      "media_diaria_saida": 0.96,
-      "total_saida_historica": 87,
-      "cobertura_dias": 269.9,
+      "media_diaria_saida": 0.99,
+      "total_saida_historica": 90,
+      "cobertura_dias": 257.8,
       "alerta_estoque": false
     },
     {
@@ -17820,6 +17820,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 6427,
+      "item_id": 291,
+      "produto_nome": "Cateter tipo óculos adulto",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 3,
+      "responsavel": "Leiliana",
+      "data": "2026-11-16",
+      "obs": "",
+      "criado_em": "2026-11-16 15:10:13",
+      "item": "Cateter tipo óculos adulto",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 6426,
       "item_id": 31,
       "produto_nome": "Omeprazol 20mg comprimido",
@@ -25302,21 +25317,6 @@
       "obs": "",
       "criado_em": "2026-11-09 11:22:03",
       "item": "Omeprazol sódico 40mg AMP",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 5917,
-      "item_id": 62,
-      "produto_nome": "Cimetidina 150mg",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 20,
-      "responsavel": "Assucena",
-      "data": "2026-11-09",
-      "obs": "",
-      "criado_em": "2026-11-09 11:21:57",
-      "item": "Cimetidina 150mg",
       "usuario": "Assucena"
     }
   ]
