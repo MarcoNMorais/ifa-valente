@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "16/11/2026 15:02:57",
+  "atualizado_em": "16/11/2026 15:03:06",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
     "total_almoxarifado": 125787,
-    "total_farmacia": 31577,
-    "total_geral": 157364,
+    "total_farmacia": 31576,
+    "total_geral": 157363,
     "perto_de_terminar": 22,
     "zerados": 15
   },
@@ -10390,19 +10390,19 @@
       "tipo": "Material",
       "unidade": "Caixa",
       "almoxarifado": 70,
-      "farmacia": 155,
+      "farmacia": 154,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 225,
+      "total": 224,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-16 14:43:30",
+      "atualizado_em": "2026-11-16 15:03:04",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -10416,7 +10416,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 155
+          "quantidade": 154
         }
       ],
       "minimo_manual": 0,
@@ -10424,9 +10424,9 @@
       "previsao_20_dias": 181,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 96,
-      "media_diaria_saida": 9.01,
-      "total_saida_historica": 865,
-      "cobertura_dias": 25.0,
+      "media_diaria_saida": 9.02,
+      "total_saida_historica": 866,
+      "cobertura_dias": 24.8,
       "alerta_estoque": false
     },
     {
@@ -17819,6 +17819,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 6393,
+      "item_id": 180,
+      "produto_nome": "Luva de látex tam. P",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 1,
+      "responsavel": "Leiliana",
+      "data": "2026-11-16",
+      "obs": "",
+      "criado_em": "2026-11-16 15:03:04",
+      "item": "Luva de látex tam. P",
+      "usuario": "Leiliana"
+    },
     {
       "id": 6392,
       "item_id": 276,
@@ -25301,21 +25316,6 @@
       "data": "2026-11-07",
       "obs": "",
       "criado_em": "2026-11-09 11:12:23",
-      "item": "Meropenem 1g",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 5880,
-      "item_id": 225,
-      "produto_nome": "Meropenem 1g",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 8,
-      "responsavel": "Assucena",
-      "data": "2026-11-07",
-      "obs": "",
-      "criado_em": "2026-11-09 11:12:14",
       "item": "Meropenem 1g",
       "usuario": "Assucena"
     }
