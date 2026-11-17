@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "17/11/2026 13:52:22",
+  "atualizado_em": "17/11/2026 13:52:43",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
     "total_almoxarifado": 124219,
-    "total_farmacia": 30372,
-    "total_geral": 154591,
+    "total_farmacia": 30366,
+    "total_geral": 154585,
     "perto_de_terminar": 25,
     "zerados": 15
   },
@@ -16206,19 +16206,19 @@
       "tipo": "Insumo",
       "unidade": "Unidade",
       "almoxarifado": 85,
-      "farmacia": 21,
+      "farmacia": 15,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 106,
+      "total": 100,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-16 14:31:46",
+      "atualizado_em": "2026-11-17 13:52:42",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -16232,17 +16232,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 31
+          "quantidade": 25
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 32,
-      "previsao_20_dias": 32,
+      "minimo_alerta": 33,
+      "previsao_20_dias": 33,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 97,
-      "media_diaria_saida": 1.56,
-      "total_saida_historica": 151,
-      "cobertura_dias": 68.1,
+      "media_diaria_saida": 1.62,
+      "total_saida_historica": 157,
+      "cobertura_dias": 61.8,
       "alerta_estoque": false
     },
     {
@@ -17807,6 +17807,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 6543,
+      "item_id": 205,
+      "produto_nome": "Soro glicose 5% 500ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 6,
+      "responsavel": "Leiliana",
+      "data": "2026-11-16",
+      "obs": "",
+      "criado_em": "2026-11-17 13:52:42",
+      "item": "Soro glicose 5% 500ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 6542,
       "item_id": 104,
@@ -25290,21 +25305,6 @@
       "obs": "",
       "criado_em": "2026-11-10 16:18:18",
       "item": "Diclofenaco 25mg",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 6043,
-      "item_id": 68,
-      "produto_nome": "Dexametasona",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 20,
-      "responsavel": "Leiliana",
-      "data": "2026-11-10",
-      "obs": "",
-      "criado_em": "2026-11-10 16:18:09",
-      "item": "Dexametasona",
       "usuario": "Leiliana"
     }
   ]
