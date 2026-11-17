@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "17/11/2026 13:56:40",
+  "atualizado_em": "17/11/2026 13:56:50",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
     "total_almoxarifado": 124045,
-    "total_farmacia": 30357,
-    "total_geral": 154402,
+    "total_farmacia": 30337,
+    "total_geral": 154382,
     "perto_de_terminar": 25,
     "zerados": 15
   },
@@ -8125,19 +8125,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 1439,
-      "farmacia": 243,
+      "farmacia": 223,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1682,
+      "total": 1662,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-17 13:51:20",
+      "atualizado_em": "2026-11-17 13:56:49",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -8151,17 +8151,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 243
+          "quantidade": 223
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 232,
-      "previsao_20_dias": 232,
+      "minimo_alerta": 236,
+      "previsao_20_dias": 236,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 97,
-      "media_diaria_saida": 11.58,
-      "total_saida_historica": 1123,
-      "cobertura_dias": 145.3,
+      "media_diaria_saida": 11.78,
+      "total_saida_historica": 1143,
+      "cobertura_dias": 141.0,
       "alerta_estoque": false
     },
     {
@@ -17808,6 +17808,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 6556,
+      "item_id": 176,
+      "produto_nome": "Gelco nº 24",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 20,
+      "responsavel": "Leiliana",
+      "data": "2026-11-16",
+      "obs": "",
+      "criado_em": "2026-11-17 13:56:49",
+      "item": "Gelco nº 24",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 6555,
       "item_id": 103,
       "produto_nome": "Seringa 10ml",
@@ -25290,21 +25305,6 @@
       "obs": "",
       "criado_em": "2026-11-10 16:21:14",
       "item": "Furosemida 40mg CPR",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 6056,
-      "item_id": 103,
-      "produto_nome": "Seringa 10ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 20,
-      "responsavel": "Leiliana",
-      "data": "2026-11-10",
-      "obs": "",
-      "criado_em": "2026-11-10 16:20:39",
-      "item": "Seringa 10ml",
       "usuario": "Leiliana"
     }
   ]
