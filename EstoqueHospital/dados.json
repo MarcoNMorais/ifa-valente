@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "17/11/2026 16:37:13",
+  "atualizado_em": "17/11/2026 16:56:19",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
     "total_almoxarifado": 123604,
-    "total_farmacia": 30304,
-    "total_geral": 153908,
+    "total_farmacia": 30302,
+    "total_geral": 153906,
     "perto_de_terminar": 25,
     "zerados": 15
   },
@@ -16841,19 +16841,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 80,
-      "farmacia": 9,
+      "farmacia": 7,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 89,
+      "total": 87,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-16 14:59:22",
+      "atualizado_em": "2026-11-17 16:56:18",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -16867,17 +16867,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 9
+          "quantidade": 7
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 223,
-      "previsao_20_dias": 223,
+      "minimo_alerta": 224,
+      "previsao_20_dias": 224,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 97,
-      "media_diaria_saida": 11.14,
-      "total_saida_historica": 1081,
-      "cobertura_dias": 8.0,
+      "media_diaria_saida": 11.16,
+      "total_saida_historica": 1083,
+      "cobertura_dias": 7.8,
       "alerta_estoque": true
     },
     {
@@ -17813,6 +17813,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 6608,
+      "item_id": 195,
+      "produto_nome": "Tira Reagente G-Tech",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 2,
+      "responsavel": "Leiliana",
+      "data": "2026-11-17",
+      "obs": "",
+      "criado_em": "2026-11-17 16:56:18",
+      "item": "Tira Reagente G-Tech",
+      "usuario": "Leiliana"
+    },
     {
       "id": 6607,
       "item_id": 202,
@@ -25296,21 +25311,6 @@
       "obs": "",
       "criado_em": "2026-11-11 16:32:48",
       "item": "Scalp nº 23",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 6108,
-      "item_id": 70,
-      "produto_nome": "Dipirona",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 30,
-      "responsavel": "Leiliana",
-      "data": "2026-11-11",
-      "obs": "",
-      "criado_em": "2026-11-11 16:32:07",
-      "item": "Dipirona",
       "usuario": "Leiliana"
     }
   ]
