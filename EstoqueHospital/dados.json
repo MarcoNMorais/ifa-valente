@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "17/11/2026 16:56:19",
+  "atualizado_em": "17/11/2026 16:56:27",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
     "total_almoxarifado": 123604,
-    "total_farmacia": 30302,
-    "total_geral": 153906,
+    "total_farmacia": 30301,
+    "total_geral": 153905,
     "perto_de_terminar": 25,
     "zerados": 15
   },
@@ -9565,19 +9565,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 44,
-      "farmacia": 36,
+      "farmacia": 35,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 80,
+      "total": 79,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-16 14:31:46",
+      "atualizado_em": "2026-11-17 16:56:26",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -9591,16 +9591,16 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 36
+          "quantidade": 35
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 1365,
-      "previsao_20_dias": 1365,
+      "minimo_alerta": 1366,
+      "previsao_20_dias": 1366,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 97,
-      "media_diaria_saida": 68.25,
-      "total_saida_historica": 6620,
+      "media_diaria_saida": 68.26,
+      "total_saida_historica": 6621,
       "cobertura_dias": 1.2,
       "alerta_estoque": true
     },
@@ -17814,6 +17814,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 6609,
+      "item_id": 194,
+      "produto_nome": "Lanceta de segurança",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 1,
+      "responsavel": "Leiliana",
+      "data": "2026-11-17",
+      "obs": "",
+      "criado_em": "2026-11-17 16:56:26",
+      "item": "Lanceta de segurança",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 6608,
       "item_id": 195,
       "produto_nome": "Tira Reagente G-Tech",
@@ -25296,21 +25311,6 @@
       "obs": "",
       "criado_em": "2026-11-11 16:32:59",
       "item": "Gelco nº 22",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 6109,
-      "item_id": 98,
-      "produto_nome": "Scalp nº 23",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 15,
-      "responsavel": "Leiliana",
-      "data": "2026-11-11",
-      "obs": "",
-      "criado_em": "2026-11-11 16:32:48",
-      "item": "Scalp nº 23",
       "usuario": "Leiliana"
     }
   ]
