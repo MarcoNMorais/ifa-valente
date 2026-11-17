@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "17/11/2026 13:56:50",
+  "atualizado_em": "17/11/2026 13:57:01",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
     "total_almoxarifado": 124045,
-    "total_farmacia": 30337,
-    "total_geral": 154382,
+    "total_farmacia": 30327,
+    "total_geral": 154372,
     "perto_de_terminar": 25,
     "zerados": 15
   },
@@ -16022,19 +16022,19 @@
       "tipo": "Insumo",
       "unidade": "Unidade",
       "almoxarifado": 1250,
-      "farmacia": 45,
+      "farmacia": 35,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1295,
+      "total": 1285,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-17 13:55:29",
+      "atualizado_em": "2026-11-17 13:57:00",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -16048,17 +16048,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 93
+          "quantidade": 83
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 576,
-      "previsao_20_dias": 576,
+      "minimo_alerta": 578,
+      "previsao_20_dias": 578,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 97,
-      "media_diaria_saida": 28.78,
-      "total_saida_historica": 2792,
-      "cobertura_dias": 45.0,
+      "media_diaria_saida": 28.89,
+      "total_saida_historica": 2802,
+      "cobertura_dias": 44.5,
       "alerta_estoque": false
     },
     {
@@ -17807,6 +17807,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 6557,
+      "item_id": 203,
+      "produto_nome": "Soro fisiológico 250ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 10,
+      "responsavel": "Leiliana",
+      "data": "2026-11-16",
+      "obs": "",
+      "criado_em": "2026-11-17 13:57:00",
+      "item": "Soro fisiológico 250ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 6556,
       "item_id": 176,
@@ -25291,21 +25306,6 @@
       "criado_em": "2026-11-11 11:22:02",
       "item": "Bromoprida 5mg",
       "usuario": "Assucena"
-    },
-    {
-      "id": 6057,
-      "item_id": 123,
-      "produto_nome": "Furosemida 40mg CPR",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 20,
-      "responsavel": "Leiliana",
-      "data": "2026-11-10",
-      "obs": "",
-      "criado_em": "2026-11-10 16:21:14",
-      "item": "Furosemida 40mg CPR",
-      "usuario": "Leiliana"
     }
   ]
 }
