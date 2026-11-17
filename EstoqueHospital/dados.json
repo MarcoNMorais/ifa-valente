@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "17/11/2026 13:53:16",
+  "atualizado_em": "17/11/2026 13:53:26",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
     "total_almoxarifado": 124119,
-    "total_farmacia": 30466,
-    "total_geral": 154585,
+    "total_farmacia": 30416,
+    "total_geral": 154535,
     "perto_de_terminar": 25,
     "zerados": 15
   },
@@ -5994,19 +5994,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 2331,
-      "farmacia": 100,
+      "farmacia": 50,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 2431,
+      "total": 2381,
       "minimo": 300,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-17 13:53:15",
+      "atualizado_em": "2026-11-17 13:53:22",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -6020,17 +6020,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 125
+          "quantidade": 75
         }
       ],
       "minimo_manual": 300,
-      "minimo_alerta": 644,
-      "previsao_20_dias": 644,
+      "minimo_alerta": 654,
+      "previsao_20_dias": 654,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 97,
-      "media_diaria_saida": 32.15,
-      "total_saida_historica": 3119,
-      "cobertura_dias": 75.6,
+      "media_diaria_saida": 32.67,
+      "total_saida_historica": 3169,
+      "cobertura_dias": 72.9,
       "alerta_estoque": false
     },
     {
@@ -17808,6 +17808,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 6545,
+      "item_id": 220,
+      "produto_nome": "Equipo macrogotas",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 50,
+      "responsavel": "Leiliana",
+      "data": "2026-11-16",
+      "obs": "",
+      "criado_em": "2026-11-17 13:53:22",
+      "item": "Equipo macrogotas",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 6544,
       "item_id": 220,
       "produto_nome": "Equipo macrogotas",
@@ -25290,21 +25305,6 @@
       "obs": "",
       "criado_em": "2026-11-10 16:18:41",
       "item": "Agulha 30x7",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 6045,
-      "item_id": 82,
-      "produto_nome": "Hidrocortisona 100MG",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 20,
-      "responsavel": "Leiliana",
-      "data": "2026-11-10",
-      "obs": "",
-      "criado_em": "2026-11-10 16:18:29",
-      "item": "Hidrocortisona 100MG",
       "usuario": "Leiliana"
     }
   ]
