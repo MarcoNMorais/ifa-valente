@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "17/11/2026 14:08:40",
+  "atualizado_em": "17/11/2026 14:08:54",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
-    "total_almoxarifado": 124021,
-    "total_farmacia": 30190,
+    "total_almoxarifado": 123973,
+    "total_farmacia": 30238,
     "total_geral": 154211,
     "perto_de_terminar": 25,
     "zerados": 15
@@ -7534,8 +7534,8 @@
       "nome": "Fio Nylon nº 4",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 432,
-      "farmacia": 0,
+      "almoxarifado": 384,
+      "farmacia": 48,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -7547,7 +7547,7 @@
       "lote": "",
       "origem": "Carga Almoxerifado",
       "obs": "Importação Almoxerifado",
-      "atualizado_em": "2026-11-16 14:31:46",
+      "atualizado_em": "2026-11-17 14:08:52",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -7555,7 +7555,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 432
+          "quantidade": 384
+        },
+        {
+          "local": "farmacia",
+          "validade": "",
+          "lote": "",
+          "quantidade": 48
         }
       ],
       "minimo_manual": 0,
@@ -17808,6 +17814,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 6577,
+      "item_id": 283,
+      "produto_nome": "Fio Nylon nº 4",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 48,
+      "responsavel": "Leiliana",
+      "data": "2026-11-16",
+      "obs": "",
+      "criado_em": "2026-11-17 14:08:52",
+      "item": "Fio Nylon nº 4",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 6576,
       "item_id": 393,
       "produto_nome": "NYLON N°3",
@@ -25290,21 +25311,6 @@
       "obs": "",
       "criado_em": "2026-11-11 11:27:20",
       "item": "Scalp nº 21",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 6077,
-      "item_id": 98,
-      "produto_nome": "Scalp nº 23",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 10,
-      "responsavel": "Assucena",
-      "data": "2026-11-10",
-      "obs": "",
-      "criado_em": "2026-11-11 11:27:14",
-      "item": "Scalp nº 23",
       "usuario": "Assucena"
     }
   ]
