@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "17/11/2026 13:51:43",
+  "atualizado_em": "17/11/2026 13:51:53",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
     "total_almoxarifado": 124219,
-    "total_farmacia": 30487,
-    "total_geral": 154706,
+    "total_farmacia": 30472,
+    "total_geral": 154691,
     "perto_de_terminar": 25,
     "zerados": 15
   },
@@ -13480,19 +13480,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 6950,
-      "farmacia": 185,
+      "farmacia": 170,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 7135,
+      "total": 7120,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-16 16:10:32",
+      "atualizado_em": "2026-11-17 13:51:51",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -13506,17 +13506,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 210
+          "quantidade": 195
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 765,
-      "previsao_20_dias": 765,
+      "minimo_alerta": 768,
+      "previsao_20_dias": 768,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 92,
-      "media_diaria_saida": 38.21,
-      "total_saida_historica": 3515,
-      "cobertura_dias": 186.7,
+      "media_diaria_saida": 38.37,
+      "total_saida_historica": 3530,
+      "cobertura_dias": 185.6,
       "alerta_estoque": false
     },
     {
@@ -17807,6 +17807,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 6539,
+      "item_id": 274,
+      "produto_nome": "Seringa 20ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 15,
+      "responsavel": "Leiliana",
+      "data": "2026-11-16",
+      "obs": "",
+      "criado_em": "2026-11-17 13:51:51",
+      "item": "Seringa 20ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 6538,
       "item_id": 157,
@@ -25290,21 +25305,6 @@
       "obs": "",
       "criado_em": "2026-11-10 11:43:48",
       "item": "Luva cirúrgica tam. 7",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 6039,
-      "item_id": 185,
-      "produto_nome": "Luva cirúrgica tam. 7,5",
-      "tipo": "Farmácia para SALA DE PARTO",
-      "origem": "Farmácia",
-      "destino": "SALA DE PARTO",
-      "quantidade": 5,
-      "responsavel": "Assucena",
-      "data": "2026-11-10",
-      "obs": "",
-      "criado_em": "2026-11-10 11:43:43",
-      "item": "Luva cirúrgica tam. 7,5",
       "usuario": "Assucena"
     }
   ]
