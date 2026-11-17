@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "17/11/2026 16:33:24",
+  "atualizado_em": "17/11/2026 16:33:33",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
     "total_almoxarifado": 123664,
-    "total_farmacia": 30485,
-    "total_geral": 154149,
+    "total_farmacia": 30481,
+    "total_geral": 154145,
     "perto_de_terminar": 25,
     "zerados": 15
   },
@@ -3572,19 +3572,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 500,
+      "farmacia": 496,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 500,
+      "total": 496,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-17 13:59:09",
+      "atualizado_em": "2026-11-17 16:33:32",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -3592,17 +3592,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 500
+          "quantidade": 496
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 309,
-      "previsao_20_dias": 309,
+      "minimo_alerta": 310,
+      "previsao_20_dias": 310,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 97,
-      "media_diaria_saida": 15.44,
-      "total_saida_historica": 1498,
-      "cobertura_dias": 32.4,
+      "media_diaria_saida": 15.48,
+      "total_saida_historica": 1502,
+      "cobertura_dias": 32.0,
       "alerta_estoque": false
     },
     {
@@ -17814,6 +17814,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 6589,
+      "item_id": 59,
+      "produto_nome": "Ceftriaxona 1g",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 4,
+      "responsavel": "Leiliana",
+      "data": "2026-11-16",
+      "obs": "",
+      "criado_em": "2026-11-17 16:33:32",
+      "item": "Ceftriaxona 1g",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 6588,
       "item_id": 60,
       "produto_nome": "Cetoprofeno EV 100mg",
@@ -25296,21 +25311,6 @@
       "obs": "",
       "criado_em": "2026-11-11 11:28:52",
       "item": "Polifix",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 6089,
-      "item_id": 151,
-      "produto_nome": "Atadura crepon nº 15",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 15,
-      "responsavel": "Assucena",
-      "data": "2026-11-10",
-      "obs": "",
-      "criado_em": "2026-11-11 11:28:43",
-      "item": "Atadura crepon nº 15",
       "usuario": "Assucena"
     }
   ]
