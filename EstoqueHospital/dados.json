@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "17/11/2026 13:55:22",
+  "atualizado_em": "17/11/2026 13:55:31",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
     "total_almoxarifado": 124069,
-    "total_farmacia": 30454,
-    "total_geral": 154523,
+    "total_farmacia": 30434,
+    "total_geral": 154503,
     "perto_de_terminar": 25,
     "zerados": 15
   },
@@ -16022,19 +16022,19 @@
       "tipo": "Insumo",
       "unidade": "Unidade",
       "almoxarifado": 1250,
-      "farmacia": 65,
+      "farmacia": 45,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1315,
+      "total": 1295,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-17 13:55:21",
+      "atualizado_em": "2026-11-17 13:55:29",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -16048,17 +16048,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 113
+          "quantidade": 93
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 572,
-      "previsao_20_dias": 572,
+      "minimo_alerta": 576,
+      "previsao_20_dias": 576,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 97,
-      "media_diaria_saida": 28.58,
-      "total_saida_historica": 2772,
-      "cobertura_dias": 46.0,
+      "media_diaria_saida": 28.78,
+      "total_saida_historica": 2792,
+      "cobertura_dias": 45.0,
       "alerta_estoque": false
     },
     {
@@ -17807,6 +17807,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 6550,
+      "item_id": 203,
+      "produto_nome": "Soro fisiológico 250ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 20,
+      "responsavel": "Leiliana",
+      "data": "2026-11-16",
+      "obs": "",
+      "criado_em": "2026-11-17 13:55:29",
+      "item": "Soro fisiológico 250ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 6549,
       "item_id": 203,
@@ -25290,21 +25305,6 @@
       "obs": "",
       "criado_em": "2026-11-10 16:19:31",
       "item": "Equipo macrogotas",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 6050,
-      "item_id": 104,
-      "produto_nome": "Seringa 3ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 45,
-      "responsavel": "Leiliana",
-      "data": "2026-11-10",
-      "obs": "",
-      "criado_em": "2026-11-10 16:19:23",
-      "item": "Seringa 3ml",
       "usuario": "Leiliana"
     }
   ]
