@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "17/11/2026 13:49:47",
+  "atualizado_em": "17/11/2026 13:49:55",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
     "total_almoxarifado": 124219,
-    "total_farmacia": 30822,
-    "total_geral": 155041,
+    "total_farmacia": 30812,
+    "total_geral": 155031,
     "perto_de_terminar": 25,
     "zerados": 15
   },
@@ -8395,19 +8395,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 70,
-      "farmacia": 127,
+      "farmacia": 117,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 197,
+      "total": 187,
       "minimo": 50,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-16 14:31:46",
+      "atualizado_em": "2026-11-17 13:49:53",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -8421,17 +8421,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 127
+          "quantidade": 117
         }
       ],
       "minimo_manual": 50,
-      "minimo_alerta": 51,
-      "previsao_20_dias": 51,
+      "minimo_alerta": 53,
+      "previsao_20_dias": 53,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 84,
-      "media_diaria_saida": 2.51,
-      "total_saida_historica": 211,
-      "cobertura_dias": 78.4,
+      "media_diaria_saida": 2.63,
+      "total_saida_historica": 221,
+      "cobertura_dias": 71.1,
       "alerta_estoque": false
     },
     {
@@ -17808,6 +17808,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 6528,
+      "item_id": 350,
+      "produto_nome": "GLICOSE 50% AMP 10ML",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 10,
+      "responsavel": "Leiliana",
+      "data": "2026-11-16",
+      "obs": "",
+      "criado_em": "2026-11-17 13:49:53",
+      "item": "GLICOSE 50% AMP 10ML",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 6527,
       "item_id": 351,
       "produto_nome": "GLICOSE 25% AMP 10ML",
@@ -25290,21 +25305,6 @@
       "obs": "",
       "criado_em": "2026-11-10 11:42:19",
       "item": "lidocaina c/ vaso",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 6028,
-      "item_id": 186,
-      "produto_nome": "Luva cirúrgica tam. 8",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 10,
-      "responsavel": "Assucena",
-      "data": "2026-11-10",
-      "obs": "",
-      "criado_em": "2026-11-10 11:41:24",
-      "item": "Luva cirúrgica tam. 8",
       "usuario": "Assucena"
     }
   ]
