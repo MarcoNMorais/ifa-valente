@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "18/11/2026 10:40:24",
+  "atualizado_em": "18/11/2026 10:40:38",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
-    "total_almoxarifado": 122234,
-    "total_farmacia": 31496,
+    "total_almoxarifado": 122224,
+    "total_farmacia": 31506,
     "total_geral": 153730,
     "perto_de_terminar": 26,
     "zerados": 15
@@ -10877,8 +10877,8 @@
       "nome": "MASCARA DESCARTAVEL",
       "tipo": "Material",
       "unidade": "Caixa",
-      "almoxarifado": 46,
-      "farmacia": 2,
+      "almoxarifado": 36,
+      "farmacia": 12,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -10890,7 +10890,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-18 10:34:31",
+      "atualizado_em": "2026-11-18 10:40:37",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -10898,13 +10898,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 46
+          "quantidade": 36
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 2
+          "quantidade": 12
         }
       ],
       "minimo_manual": 0,
@@ -17813,6 +17813,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 6626,
+      "item_id": 398,
+      "produto_nome": "MASCARA DESCARTAVEL",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 10,
+      "responsavel": "Assucena",
+      "data": "2026-11-18",
+      "obs": "",
+      "criado_em": "2026-11-18 10:40:37",
+      "item": "MASCARA DESCARTAVEL",
+      "usuario": "Assucena"
+    },
     {
       "id": 6625,
       "item_id": 202,
@@ -25296,21 +25311,6 @@
       "obs": "",
       "criado_em": "2026-11-11 16:51:26",
       "item": "Equipo fotossensível",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 6126,
-      "item_id": 201,
-      "produto_nome": "Soro Ringer Lactato 500ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 4,
-      "responsavel": "Leiliana",
-      "data": "2026-11-11",
-      "obs": "",
-      "criado_em": "2026-11-11 16:37:40",
-      "item": "Soro Ringer Lactato 500ml",
       "usuario": "Leiliana"
     }
   ]
