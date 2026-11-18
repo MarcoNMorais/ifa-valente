@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "18/11/2026 10:38:04",
+  "atualizado_em": "18/11/2026 10:38:10",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
     "total_almoxarifado": 123604,
-    "total_farmacia": 30194,
-    "total_geral": 153798,
+    "total_farmacia": 30174,
+    "total_geral": 153778,
     "perto_de_terminar": 25,
     "zerados": 15
   },
@@ -3315,19 +3315,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 500,
-      "farmacia": 150,
+      "farmacia": 130,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 650,
+      "total": 630,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-18 10:34:31",
+      "atualizado_em": "2026-11-18 10:38:08",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -3341,17 +3341,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 150
+          "quantidade": 130
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 100,
-      "previsao_20_dias": 100,
+      "minimo_alerta": 105,
+      "previsao_20_dias": 105,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 98,
-      "media_diaria_saida": 5.0,
-      "total_saida_historica": 490,
-      "cobertura_dias": 130.0,
+      "media_diaria_saida": 5.2,
+      "total_saida_historica": 510,
+      "cobertura_dias": 121.1,
       "alerta_estoque": false
     },
     {
@@ -17814,6 +17814,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 6617,
+      "item_id": 138,
+      "produto_nome": "Captopril 25mg CPR",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 20,
+      "responsavel": "Assucena",
+      "data": "2026-11-18",
+      "obs": "",
+      "criado_em": "2026-11-18 10:38:08",
+      "item": "Captopril 25mg CPR",
+      "usuario": "Assucena"
+    },
+    {
       "id": 6616,
       "item_id": 194,
       "produto_nome": "Lanceta de segurança",
@@ -25296,21 +25311,6 @@
       "obs": "",
       "criado_em": "2026-11-11 16:36:19",
       "item": "Esparadrapo 10x4,5",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 6117,
-      "item_id": 220,
-      "produto_nome": "Equipo macrogotas",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 50,
-      "responsavel": "Leiliana",
-      "data": "2026-11-11",
-      "obs": "",
-      "criado_em": "2026-11-11 16:36:10",
-      "item": "Equipo macrogotas",
       "usuario": "Leiliana"
     }
   ]
