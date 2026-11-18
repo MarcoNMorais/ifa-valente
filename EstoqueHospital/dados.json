@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "18/11/2026 14:52:07",
+  "atualizado_em": "18/11/2026 16:15:43",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
     "total_almoxarifado": 121809,
-    "total_farmacia": 31518,
-    "total_geral": 153327,
+    "total_farmacia": 31514,
+    "total_geral": 153323,
     "perto_de_terminar": 26,
     "zerados": 15
   },
@@ -9611,19 +9611,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 104,
-      "farmacia": 8,
+      "farmacia": 4,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 112,
+      "total": 108,
       "minimo": 50,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-18 14:49:31",
+      "atualizado_em": "2026-11-18 16:15:41",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -9637,17 +9637,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 8
+          "quantidade": 4
         }
       ],
       "minimo_manual": 50,
-      "minimo_alerta": 24,
-      "previsao_20_dias": 24,
+      "minimo_alerta": 25,
+      "previsao_20_dias": 25,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 85,
-      "media_diaria_saida": 1.18,
-      "total_saida_historica": 100,
-      "cobertura_dias": 95.2,
+      "media_diaria_saida": 1.22,
+      "total_saida_historica": 104,
+      "cobertura_dias": 88.3,
       "alerta_estoque": false
     },
     {
@@ -17820,6 +17820,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 6664,
+      "item_id": 376,
+      "produto_nome": "LENÇOL DESCARTAVEL PAPEL",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 4,
+      "responsavel": "Leiliana",
+      "data": "2026-11-18",
+      "obs": "",
+      "criado_em": "2026-11-18 16:15:41",
+      "item": "LENÇOL DESCARTAVEL PAPEL",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 6663,
       "item_id": 204,
       "produto_nome": "Soro fisiológico 500ml",
@@ -25302,21 +25317,6 @@
       "obs": "",
       "criado_em": "2026-11-12 16:31:57",
       "item": "Cetoprofeno EV 100mg",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 6164,
-      "item_id": 55,
-      "produto_nome": "Benzilpenicilina 1.200",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 10,
-      "responsavel": "Leiliana",
-      "data": "2026-11-11",
-      "obs": "",
-      "criado_em": "2026-11-12 16:31:38",
-      "item": "Benzilpenicilina 1.200",
       "usuario": "Leiliana"
     }
   ]
