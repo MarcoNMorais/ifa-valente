@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "18/11/2026 14:48:24",
+  "atualizado_em": "18/11/2026 14:48:35",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
-    "total_almoxarifado": 121975,
-    "total_farmacia": 31352,
+    "total_almoxarifado": 121965,
+    "total_farmacia": 31362,
     "total_geral": 153327,
     "perto_de_terminar": 26,
     "zerados": 15
@@ -16840,8 +16840,8 @@
       "nome": "Tira Reagente G-Tech",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 80,
-      "farmacia": 6,
+      "almoxarifado": 70,
+      "farmacia": 16,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -16853,7 +16853,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-18 10:46:58",
+      "atualizado_em": "2026-11-18 14:48:33",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -16861,13 +16861,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 80
+          "quantidade": 70
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 6
+          "quantidade": 16
         }
       ],
       "minimo_manual": 0,
@@ -17813,6 +17813,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 6659,
+      "item_id": 195,
+      "produto_nome": "Tira Reagente G-Tech",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 10,
+      "responsavel": "Leiliana",
+      "data": "2026-11-18",
+      "obs": "",
+      "criado_em": "2026-11-18 14:48:33",
+      "item": "Tira Reagente G-Tech",
+      "usuario": "Leiliana"
+    },
     {
       "id": 6658,
       "item_id": 201,
@@ -25296,21 +25311,6 @@
       "obs": "",
       "criado_em": "2026-11-12 13:39:50",
       "item": "Luva de vinil P",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 6159,
-      "item_id": 180,
-      "produto_nome": "Luva de látex tam. P",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 1,
-      "responsavel": "Leiliana",
-      "data": "2026-11-11",
-      "obs": "",
-      "criado_em": "2026-11-12 13:39:40",
-      "item": "Luva de látex tam. P",
       "usuario": "Leiliana"
     }
   ]
