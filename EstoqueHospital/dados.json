@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "18/11/2026 10:47:00",
+  "atualizado_em": "18/11/2026 14:47:27",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
-    "total_almoxarifado": 122164,
-    "total_farmacia": 31163,
+    "total_almoxarifado": 122154,
+    "total_farmacia": 31173,
     "total_geral": 153327,
     "perto_de_terminar": 26,
     "zerados": 15
@@ -10337,8 +10337,8 @@
       "nome": "Luva de látex tam. M",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 120,
-      "farmacia": 151,
+      "almoxarifado": 110,
+      "farmacia": 161,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -10350,7 +10350,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-18 10:34:31",
+      "atualizado_em": "2026-11-18 14:47:25",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -10358,13 +10358,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 120
+          "quantidade": 110
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 154
+          "quantidade": 164
         }
       ],
       "minimo_manual": 0,
@@ -17813,6 +17813,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 6655,
+      "item_id": 181,
+      "produto_nome": "Luva de látex tam. M",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 10,
+      "responsavel": "Leiliana",
+      "data": "2026-11-18",
+      "obs": "",
+      "criado_em": "2026-11-18 14:47:25",
+      "item": "Luva de látex tam. M",
+      "usuario": "Leiliana"
+    },
     {
       "id": 6654,
       "item_id": 195,
@@ -25296,21 +25311,6 @@
       "obs": "",
       "criado_em": "2026-11-12 13:38:05",
       "item": "Scalp nº 23",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 6155,
-      "item_id": 178,
-      "produto_nome": "Dispositivo intravenoso Gelco nº 20",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 20,
-      "responsavel": "Leiliana",
-      "data": "2026-11-11",
-      "obs": "",
-      "criado_em": "2026-11-12 13:37:54",
-      "item": "Dispositivo intravenoso Gelco nº 20",
       "usuario": "Leiliana"
     }
   ]
