@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "18/11/2026 10:44:51",
+  "atualizado_em": "18/11/2026 10:45:06",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
     "total_almoxarifado": 122164,
-    "total_farmacia": 31386,
-    "total_geral": 153550,
+    "total_farmacia": 31356,
+    "total_geral": 153520,
     "perto_de_terminar": 26,
     "zerados": 15
   },
@@ -13486,19 +13486,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 6950,
-      "farmacia": 115,
+      "farmacia": 85,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 7065,
+      "total": 7035,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-18 10:34:31",
+      "atualizado_em": "2026-11-18 10:45:04",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -13512,17 +13512,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 140
+          "quantidade": 110
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 771,
-      "previsao_20_dias": 771,
+      "minimo_alerta": 778,
+      "previsao_20_dias": 778,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 93,
-      "media_diaria_saida": 38.55,
-      "total_saida_historica": 3585,
-      "cobertura_dias": 183.3,
+      "media_diaria_saida": 38.87,
+      "total_saida_historica": 3615,
+      "cobertura_dias": 181.0,
       "alerta_estoque": false
     },
     {
@@ -17813,6 +17813,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 6640,
+      "item_id": 274,
+      "produto_nome": "Seringa 20ml",
+      "tipo": "Farmácia para Posto de Internamento",
+      "origem": "Farmácia",
+      "destino": "Posto de Internamento",
+      "quantidade": 30,
+      "responsavel": "Assucena",
+      "data": "2026-11-18",
+      "obs": "",
+      "criado_em": "2026-11-18 10:45:04",
+      "item": "Seringa 20ml",
+      "usuario": "Assucena"
+    },
     {
       "id": 6639,
       "item_id": 59,
@@ -25296,21 +25311,6 @@
       "obs": "",
       "criado_em": "2026-11-12 13:33:57",
       "item": "Luva cirúrgica tam. 7,5",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 6140,
-      "item_id": 329,
-      "produto_nome": "Polifix",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 10,
-      "responsavel": "Leiliana",
-      "data": "2026-11-11",
-      "obs": "",
-      "criado_em": "2026-11-12 13:33:48",
-      "item": "Polifix",
       "usuario": "Leiliana"
     }
   ]
