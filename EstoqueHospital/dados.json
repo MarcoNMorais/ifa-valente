@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "18/11/2026 10:43:35",
+  "atualizado_em": "18/11/2026 10:43:47",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
     "total_almoxarifado": 122164,
-    "total_farmacia": 31526,
-    "total_geral": 153690,
+    "total_farmacia": 31525,
+    "total_geral": 153689,
     "perto_de_terminar": 26,
     "zerados": 15
   },
@@ -10654,19 +10654,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 40,
-      "farmacia": 1141,
+      "farmacia": 1140,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1181,
+      "total": 1180,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-18 10:40:55",
+      "atualizado_em": "2026-11-18 10:43:45",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -10680,7 +10680,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 1141
+          "quantidade": 1140
         }
       ],
       "minimo_manual": 0,
@@ -10688,9 +10688,9 @@
       "previsao_20_dias": 7,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 93,
-      "media_diaria_saida": 0.31,
-      "total_saida_historica": 29,
-      "cobertura_dias": 3787.3,
+      "media_diaria_saida": 0.32,
+      "total_saida_historica": 30,
+      "cobertura_dias": 3658.0,
       "alerta_estoque": false
     },
     {
@@ -17813,6 +17813,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 6632,
+      "item_id": 281,
+      "produto_nome": "Luva P procedimento",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 1,
+      "responsavel": "Assucena",
+      "data": "2026-11-18",
+      "obs": "",
+      "criado_em": "2026-11-18 10:43:45",
+      "item": "Luva P procedimento",
+      "usuario": "Assucena"
+    },
     {
       "id": 6631,
       "item_id": 185,
@@ -25296,21 +25311,6 @@
       "obs": "",
       "criado_em": "2026-11-12 13:31:39",
       "item": "Dipirona 500mg",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 6132,
-      "item_id": 176,
-      "produto_nome": "Gelco nº 24",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 10,
-      "responsavel": "Leiliana",
-      "data": "2026-11-11",
-      "obs": "",
-      "criado_em": "2026-11-12 13:31:29",
-      "item": "Gelco nº 24",
       "usuario": "Leiliana"
     }
   ]
