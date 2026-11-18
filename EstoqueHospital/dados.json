@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "18/11/2026 14:48:03",
+  "atualizado_em": "18/11/2026 14:48:14",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
-    "total_almoxarifado": 122119,
-    "total_farmacia": 31208,
+    "total_almoxarifado": 121999,
+    "total_farmacia": 31328,
     "total_geral": 153327,
     "perto_de_terminar": 26,
     "zerados": 15
@@ -15981,8 +15981,8 @@
       "nome": "Soro fisiológico 100ml",
       "tipo": "Insumo",
       "unidade": "Unidade",
-      "almoxarifado": 2300,
-      "farmacia": 180,
+      "almoxarifado": 2180,
+      "farmacia": 300,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -15994,7 +15994,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-18 10:40:23",
+      "atualizado_em": "2026-11-18 14:48:12",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -16002,13 +16002,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 2420
+          "quantidade": 2300
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 240
+          "quantidade": 360
         }
       ],
       "minimo_manual": 0,
@@ -17813,6 +17813,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 6657,
+      "item_id": 202,
+      "produto_nome": "Soro fisiológico 100ml",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 120,
+      "responsavel": "Leiliana",
+      "data": "2026-11-18",
+      "obs": "",
+      "criado_em": "2026-11-18 14:48:12",
+      "item": "Soro fisiológico 100ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 6656,
       "item_id": 184,
@@ -25295,21 +25310,6 @@
       "data": "2026-11-11",
       "obs": "",
       "criado_em": "2026-11-12 13:39:29",
-      "item": "Ferropurum 20mg/ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 6157,
-      "item_id": 230,
-      "produto_nome": "Ferropurum 20mg/ml",
-      "tipo": "Almoxarifado para Farmácia",
-      "origem": "Almoxarifado",
-      "destino": "Farmácia",
-      "quantidade": 70,
-      "responsavel": "Leiliana",
-      "data": "2026-11-11",
-      "obs": "",
-      "criado_em": "2026-11-12 13:39:13",
       "item": "Ferropurum 20mg/ml",
       "usuario": "Leiliana"
     }
