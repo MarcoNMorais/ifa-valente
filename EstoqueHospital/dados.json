@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "18/11/2026 14:49:33",
+  "atualizado_em": "18/11/2026 14:49:54",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
-    "total_almoxarifado": 121857,
-    "total_farmacia": 31470,
+    "total_almoxarifado": 121833,
+    "total_farmacia": 31494,
     "total_geral": 153327,
     "perto_de_terminar": 26,
     "zerados": 15
@@ -16263,8 +16263,8 @@
       "nome": "Soro Ringer Lactato 500ml",
       "tipo": "Insumo",
       "unidade": "Unidade",
-      "almoxarifado": 292,
-      "farmacia": 26,
+      "almoxarifado": 268,
+      "farmacia": 50,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -16276,7 +16276,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-18 14:48:22",
+      "atualizado_em": "2026-11-18 14:49:53",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -16284,13 +16284,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 292
+          "quantidade": 268
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 26
+          "quantidade": 50
         }
       ],
       "minimo_manual": 0,
@@ -17819,6 +17819,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 6662,
+      "item_id": 201,
+      "produto_nome": "Soro Ringer Lactato 500ml",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 24,
+      "responsavel": "Leiliana",
+      "data": "2026-11-18",
+      "obs": "",
+      "criado_em": "2026-11-18 14:49:53",
+      "item": "Soro Ringer Lactato 500ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 6661,
       "item_id": 376,
@@ -25302,21 +25317,6 @@
       "obs": "",
       "criado_em": "2026-11-12 16:31:20",
       "item": "Diclofenaco 25mg",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 6162,
-      "item_id": 290,
-      "produto_nome": "Metronidazol 100ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 6,
-      "responsavel": "Leiliana",
-      "data": "2026-11-11",
-      "obs": "",
-      "criado_em": "2026-11-12 13:40:10",
-      "item": "Metronidazol 100ml",
       "usuario": "Leiliana"
     }
   ]
