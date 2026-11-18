@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "18/11/2026 10:45:28",
+  "atualizado_em": "18/11/2026 10:45:34",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
     "total_almoxarifado": 122164,
-    "total_farmacia": 31286,
-    "total_geral": 153450,
+    "total_farmacia": 31236,
+    "total_geral": 153400,
     "perto_de_terminar": 26,
     "zerados": 15
   },
@@ -560,19 +560,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 6300,
-      "farmacia": 545,
+      "farmacia": 495,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 6845,
+      "total": 6795,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-18 10:44:10",
+      "atualizado_em": "2026-11-18 10:45:33",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -586,17 +586,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 545
+          "quantidade": 495
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 1778,
-      "previsao_20_dias": 1778,
+      "minimo_alerta": 1791,
+      "previsao_20_dias": 1791,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 76,
-      "media_diaria_saida": 88.88,
-      "total_saida_historica": 6755,
-      "cobertura_dias": 77.0,
+      "media_diaria_saida": 89.54,
+      "total_saida_historica": 6805,
+      "cobertura_dias": 75.9,
       "alerta_estoque": false
     },
     {
@@ -17814,6 +17814,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 6644,
+      "item_id": 390,
+      "produto_nome": "AGULHA  40X1,2",
+      "tipo": "Farmácia para Posto de Internamento",
+      "origem": "Farmácia",
+      "destino": "Posto de Internamento",
+      "quantidade": 50,
+      "responsavel": "Assucena",
+      "data": "2026-11-18",
+      "obs": "",
+      "criado_em": "2026-11-18 10:45:33",
+      "item": "AGULHA  40X1,2",
+      "usuario": "Assucena"
+    },
+    {
       "id": 6643,
       "item_id": 157,
       "produto_nome": "Seringa 1ml",
@@ -25296,21 +25311,6 @@
       "obs": "",
       "criado_em": "2026-11-12 13:34:47",
       "item": "Dipirona",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 6144,
-      "item_id": 59,
-      "produto_nome": "Ceftriaxona 1g",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 6,
-      "responsavel": "Leiliana",
-      "data": "2026-11-11",
-      "obs": "",
-      "criado_em": "2026-11-12 13:34:35",
-      "item": "Ceftriaxona 1g",
       "usuario": "Leiliana"
     }
   ]
