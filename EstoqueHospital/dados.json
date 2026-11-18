@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "18/11/2026 10:37:49",
+  "atualizado_em": "18/11/2026 10:37:57",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
     "total_almoxarifado": 123604,
-    "total_farmacia": 30225,
-    "total_geral": 153829,
+    "total_farmacia": 30195,
+    "total_geral": 153799,
     "perto_de_terminar": 25,
     "zerados": 15
   },
@@ -5261,19 +5261,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 1400,
-      "farmacia": 140,
+      "farmacia": 110,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1540,
+      "total": 1510,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-18 10:34:31",
+      "atualizado_em": "2026-11-18 10:37:55",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -5287,17 +5287,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 220
+          "quantidade": 190
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 886,
-      "previsao_20_dias": 886,
+      "minimo_alerta": 892,
+      "previsao_20_dias": 892,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 98,
-      "media_diaria_saida": 44.29,
-      "total_saida_historica": 4340,
-      "cobertura_dias": 34.8,
+      "media_diaria_saida": 44.59,
+      "total_saida_historica": 4370,
+      "cobertura_dias": 33.9,
       "alerta_estoque": false
     },
     {
@@ -17814,6 +17814,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 6615,
+      "item_id": 70,
+      "produto_nome": "Dipirona",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 30,
+      "responsavel": "Assucena",
+      "data": "2026-11-18",
+      "obs": "",
+      "criado_em": "2026-11-18 10:37:55",
+      "item": "Dipirona",
+      "usuario": "Assucena"
+    },
+    {
       "id": 6614,
       "item_id": 177,
       "produto_nome": "Gelco nº 22",
@@ -25296,21 +25311,6 @@
       "obs": "",
       "criado_em": "2026-11-11 16:35:59",
       "item": "Seringa 3ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 6115,
-      "item_id": 102,
-      "produto_nome": "Seringa 5ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 40,
-      "responsavel": "Leiliana",
-      "data": "2026-11-11",
-      "obs": "",
-      "criado_em": "2026-11-11 16:35:46",
-      "item": "Seringa 5ml",
       "usuario": "Leiliana"
     }
   ]
