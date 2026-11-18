@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "18/11/2026 10:40:46",
+  "atualizado_em": "18/11/2026 10:40:56",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
-    "total_almoxarifado": 122174,
-    "total_farmacia": 31556,
+    "total_almoxarifado": 122164,
+    "total_farmacia": 31566,
     "total_geral": 153730,
     "perto_de_terminar": 26,
     "zerados": 15
@@ -10653,8 +10653,8 @@
       "nome": "Luva P procedimento",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 50,
-      "farmacia": 1131,
+      "almoxarifado": 40,
+      "farmacia": 1141,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -10666,7 +10666,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-18 10:34:31",
+      "atualizado_em": "2026-11-18 10:40:55",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -10674,13 +10674,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 50
+          "quantidade": 40
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 1131
+          "quantidade": 1141
         }
       ],
       "minimo_manual": 0,
@@ -17813,6 +17813,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 6628,
+      "item_id": 281,
+      "produto_nome": "Luva P procedimento",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 10,
+      "responsavel": "Assucena",
+      "data": "2026-11-18",
+      "obs": "",
+      "criado_em": "2026-11-18 10:40:55",
+      "item": "Luva P procedimento",
+      "usuario": "Assucena"
+    },
     {
       "id": 6627,
       "item_id": 185,
@@ -25296,21 +25311,6 @@
       "obs": "",
       "criado_em": "2026-11-12 13:30:59",
       "item": "Kollagenase com Cloranfenicol pomada",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 6128,
-      "item_id": 220,
-      "produto_nome": "Equipo macrogotas",
-      "tipo": "Almoxarifado para Farmácia",
-      "origem": "Almoxarifado",
-      "destino": "Farmácia",
-      "quantidade": 150,
-      "responsavel": "Leiliana",
-      "data": "2026-11-11",
-      "obs": "",
-      "criado_em": "2026-11-11 17:03:28",
-      "item": "Equipo macrogotas",
       "usuario": "Leiliana"
     }
   ]
