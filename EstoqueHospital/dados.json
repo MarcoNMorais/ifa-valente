@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "18/11/2026 14:48:49",
+  "atualizado_em": "18/11/2026 14:49:33",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
-    "total_almoxarifado": 121865,
-    "total_farmacia": 31462,
+    "total_almoxarifado": 121857,
+    "total_farmacia": 31470,
     "total_geral": 153327,
     "perto_de_terminar": 26,
     "zerados": 15
@@ -9610,8 +9610,8 @@
       "nome": "LENÇOL DESCARTAVEL PAPEL",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 112,
-      "farmacia": 0,
+      "almoxarifado": 104,
+      "farmacia": 8,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -9623,7 +9623,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-18 10:34:31",
+      "atualizado_em": "2026-11-18 14:49:31",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -9631,7 +9631,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 128
+          "quantidade": 120
+        },
+        {
+          "local": "farmacia",
+          "validade": "",
+          "lote": "",
+          "quantidade": 8
         }
       ],
       "minimo_manual": 50,
@@ -17814,6 +17820,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 6661,
+      "item_id": 376,
+      "produto_nome": "LENÇOL DESCARTAVEL PAPEL",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 8,
+      "responsavel": "Leiliana",
+      "data": "2026-11-18",
+      "obs": "",
+      "criado_em": "2026-11-18 14:49:31",
+      "item": "LENÇOL DESCARTAVEL PAPEL",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 6660,
       "item_id": 98,
       "produto_nome": "Scalp nº 23",
@@ -25296,21 +25317,6 @@
       "obs": "",
       "criado_em": "2026-11-12 13:40:10",
       "item": "Metronidazol 100ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 6161,
-      "item_id": 155,
-      "produto_nome": "Bolsa coletora",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 2,
-      "responsavel": "Leiliana",
-      "data": "2026-11-11",
-      "obs": "",
-      "criado_em": "2026-11-12 13:39:59",
-      "item": "Bolsa coletora",
       "usuario": "Leiliana"
     }
   ]
