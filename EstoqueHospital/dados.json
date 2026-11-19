@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "19/11/2026 15:49:53",
+  "atualizado_em": "19/11/2026 15:50:02",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
     "total_almoxarifado": 115628,
-    "total_farmacia": 33871,
-    "total_geral": 149499,
+    "total_farmacia": 33869,
+    "total_geral": 149497,
     "perto_de_terminar": 28,
     "zerados": 16
   },
@@ -9599,19 +9599,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 96,
-      "farmacia": 12,
+      "farmacia": 10,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 108,
+      "total": 106,
       "minimo": 50,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-19 10:54:51",
+      "atualizado_em": "2026-11-19 15:50:00",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -9625,7 +9625,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 12
+          "quantidade": 10
         }
       ],
       "minimo_manual": 50,
@@ -9633,9 +9633,9 @@
       "previsao_20_dias": 25,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 86,
-      "media_diaria_saida": 1.21,
-      "total_saida_historica": 104,
-      "cobertura_dias": 89.3,
+      "media_diaria_saida": 1.23,
+      "total_saida_historica": 106,
+      "cobertura_dias": 86.0,
       "alerta_estoque": false
     },
     {
@@ -17796,6 +17796,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 6768,
+      "item_id": 376,
+      "produto_nome": "LENÇOL DESCARTAVEL PAPEL",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 2,
+      "responsavel": "Leiliana",
+      "data": "2026-11-19",
+      "obs": "",
+      "criado_em": "2026-11-19 15:50:00",
+      "item": "LENÇOL DESCARTAVEL PAPEL",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 6767,
       "item_id": 102,
       "produto_nome": "Seringa 5ml",
@@ -25278,21 +25293,6 @@
       "obs": "",
       "criado_em": "2026-11-16 14:27:02",
       "item": "Complexo B",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 6268,
-      "item_id": 229,
-      "produto_nome": "Oxacilina 500mg pó injetável",
-      "tipo": "Entrada no Almoxarifado",
-      "origem": "Entrada externa",
-      "destino": "Almoxarifado",
-      "quantidade": 70,
-      "responsavel": "Leiliana",
-      "data": "2026-11-16",
-      "obs": "",
-      "criado_em": "2026-11-16 14:26:50",
-      "item": "Oxacilina 500mg pó injetável",
       "usuario": "Leiliana"
     }
   ]
