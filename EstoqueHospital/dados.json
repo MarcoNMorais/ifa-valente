@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "19/11/2026 10:55:15",
+  "atualizado_em": "19/11/2026 10:55:23",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
-    "total_almoxarifado": 121721,
-    "total_farmacia": 31214,
+    "total_almoxarifado": 121616,
+    "total_farmacia": 31319,
     "total_geral": 152935,
     "perto_de_terminar": 26,
     "zerados": 15
@@ -3360,8 +3360,8 @@
       "nome": "Cateter tipo óculos adulto",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 105,
-      "farmacia": 145,
+      "almoxarifado": 0,
+      "farmacia": 250,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -3373,21 +3373,15 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-18 10:46:50",
+      "atualizado_em": "2026-11-19 10:55:21",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
         {
-          "local": "almoxarifado",
-          "validade": "",
-          "lote": "",
-          "quantidade": 105
-        },
-        {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 145
+          "quantidade": 250
         }
       ],
       "minimo_manual": 0,
@@ -17820,6 +17814,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 6686,
+      "item_id": 291,
+      "produto_nome": "Cateter tipo óculos adulto",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 105,
+      "responsavel": "Assucena",
+      "data": "2026-11-18",
+      "obs": "",
+      "criado_em": "2026-11-19 10:55:21",
+      "item": "Cateter tipo óculos adulto",
+      "usuario": "Assucena"
+    },
+    {
       "id": 6685,
       "item_id": 205,
       "produto_nome": "Soro glicose 5% 500ml",
@@ -25302,21 +25311,6 @@
       "obs": "",
       "criado_em": "2026-11-13 10:56:43",
       "item": "Álcool 70% líquido 5L",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 6187,
-      "item_id": 103,
-      "produto_nome": "Seringa 10ml",
-      "tipo": "Almoxarifado para Farmácia",
-      "origem": "Almoxarifado",
-      "destino": "Farmácia",
-      "quantidade": 250,
-      "responsavel": "Assucena",
-      "data": "2026-11-12",
-      "obs": "",
-      "criado_em": "2026-11-13 10:56:30",
-      "item": "Seringa 10ml",
       "usuario": "Assucena"
     }
   ]
