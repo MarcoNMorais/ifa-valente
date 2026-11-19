@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "19/11/2026 14:02:05",
+  "atualizado_em": "19/11/2026 14:02:13",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
     "total_almoxarifado": 115628,
-    "total_farmacia": 34020,
-    "total_geral": 149648,
+    "total_farmacia": 34019,
+    "total_geral": 149647,
     "perto_de_terminar": 28,
     "zerados": 16
   },
@@ -10292,19 +10292,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 689,
+      "farmacia": 688,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 689,
+      "total": 688,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-18 10:34:31",
+      "atualizado_em": "2026-11-19 14:02:11",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -10312,7 +10312,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 689
+          "quantidade": 688
         }
       ],
       "minimo_manual": 0,
@@ -10320,9 +10320,9 @@
       "previsao_20_dias": 45,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 99,
-      "media_diaria_saida": 2.2,
-      "total_saida_historica": 218,
-      "cobertura_dias": 312.9,
+      "media_diaria_saida": 2.21,
+      "total_saida_historica": 219,
+      "cobertura_dias": 311.0,
       "alerta_estoque": false
     },
     {
@@ -17795,6 +17795,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 6752,
+      "item_id": 182,
+      "produto_nome": "Luva de látex tam. G",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 1,
+      "responsavel": "Leiliana",
+      "data": "2026-11-19",
+      "obs": "",
+      "criado_em": "2026-11-19 14:02:11",
+      "item": "Luva de látex tam. G",
+      "usuario": "Leiliana"
+    },
     {
       "id": 6751,
       "item_id": 181,
@@ -25278,21 +25293,6 @@
       "obs": "",
       "criado_em": "2026-11-16 14:22:51",
       "item": "Cetoprofeno EV 100mg",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 6252,
-      "item_id": 59,
-      "produto_nome": "Ceftriaxona 1g",
-      "tipo": "Entrada no Almoxarifado",
-      "origem": "Entrada externa",
-      "destino": "Almoxarifado",
-      "quantidade": 560,
-      "responsavel": "Leiliana",
-      "data": "2026-11-16",
-      "obs": "",
-      "criado_em": "2026-11-16 14:22:36",
-      "item": "Ceftriaxona 1g",
       "usuario": "Leiliana"
     }
   ]
