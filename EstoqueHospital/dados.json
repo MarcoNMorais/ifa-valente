@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "19/11/2026 15:47:46",
+  "atualizado_em": "19/11/2026 15:47:54",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
     "total_almoxarifado": 115628,
-    "total_farmacia": 34016,
-    "total_geral": 149644,
+    "total_farmacia": 34014,
+    "total_geral": 149642,
     "perto_de_terminar": 28,
     "zerados": 16
   },
@@ -6814,19 +6814,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 70,
-      "farmacia": 68,
+      "farmacia": 66,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 138,
+      "total": 136,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-18 10:34:31",
+      "atualizado_em": "2026-11-19 15:47:53",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -6840,7 +6840,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 68
+          "quantidade": 66
         }
       ],
       "minimo_manual": 0,
@@ -6848,9 +6848,9 @@
       "previsao_20_dias": 83,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 98,
-      "media_diaria_saida": 4.1,
-      "total_saida_historica": 402,
-      "cobertura_dias": 33.6,
+      "media_diaria_saida": 4.12,
+      "total_saida_historica": 404,
+      "cobertura_dias": 33.0,
       "alerta_estoque": false
     },
     {
@@ -17796,6 +17796,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 6755,
+      "item_id": 230,
+      "produto_nome": "Ferropurum 20mg/ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 2,
+      "responsavel": "Leiliana",
+      "data": "2026-11-19",
+      "obs": "",
+      "criado_em": "2026-11-19 15:47:53",
+      "item": "Ferropurum 20mg/ml",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 6754,
       "item_id": 21,
       "produto_nome": "Clonazepam gotas 25mg/ml",
@@ -25278,21 +25293,6 @@
       "obs": "",
       "criado_em": "2026-11-16 14:23:49",
       "item": "Ondansetrona 2mg/ml 2ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 6255,
-      "item_id": 62,
-      "produto_nome": "Cimetidina 150mg",
-      "tipo": "Entrada no Almoxarifado",
-      "origem": "Entrada externa",
-      "destino": "Almoxarifado",
-      "quantidade": 70,
-      "responsavel": "Leiliana",
-      "data": "2026-11-16",
-      "obs": "",
-      "criado_em": "2026-11-16 14:23:20",
-      "item": "Cimetidina 150mg",
       "usuario": "Leiliana"
     }
   ]
