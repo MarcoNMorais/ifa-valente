@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "19/11/2026 10:56:02",
+  "atualizado_em": "19/11/2026 10:56:09",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
-    "total_almoxarifado": 121016,
-    "total_farmacia": 31919,
+    "total_almoxarifado": 121011,
+    "total_farmacia": 31924,
     "total_geral": 152935,
     "perto_de_terminar": 26,
     "zerados": 15
@@ -731,8 +731,8 @@
       "nome": "Agulha 25x8",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 4700,
-      "farmacia": 170,
+      "almoxarifado": 4695,
+      "farmacia": 175,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -744,7 +744,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-18 10:34:31",
+      "atualizado_em": "2026-11-19 10:56:08",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -752,13 +752,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 4700
+          "quantidade": 4695
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 170
+          "quantidade": 175
         }
       ],
       "minimo_manual": 0,
@@ -17808,6 +17808,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 6691,
+      "item_id": 289,
+      "produto_nome": "Agulha 25x8",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 5,
+      "responsavel": "Assucena",
+      "data": "2026-11-18",
+      "obs": "",
+      "criado_em": "2026-11-19 10:56:08",
+      "item": "Agulha 25x8",
+      "usuario": "Assucena"
+    },
+    {
       "id": 6690,
       "item_id": 176,
       "produto_nome": "Gelco nº 24",
@@ -25290,21 +25305,6 @@
       "obs": "",
       "criado_em": "2026-11-13 10:57:37",
       "item": "Polifix",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 6192,
-      "item_id": 274,
-      "produto_nome": "Seringa 20ml",
-      "tipo": "Almoxarifado para Farmácia",
-      "origem": "Almoxarifado",
-      "destino": "Farmácia",
-      "quantidade": 250,
-      "responsavel": "Assucena",
-      "data": "2026-11-12",
-      "obs": "",
-      "criado_em": "2026-11-13 10:57:30",
-      "item": "Seringa 20ml",
       "usuario": "Assucena"
     }
   ]
