@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "19/11/2026 10:57:49",
+  "atualizado_em": "19/11/2026 10:57:56",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
-    "total_almoxarifado": 118147,
-    "total_farmacia": 34788,
+    "total_almoxarifado": 118099,
+    "total_farmacia": 34836,
     "total_geral": 152935,
     "perto_de_terminar": 26,
     "zerados": 15
@@ -16061,8 +16061,8 @@
       "nome": "Soro fisiológico 500ml",
       "tipo": "Insumo",
       "unidade": "Unidade",
-      "almoxarifado": 628,
-      "farmacia": 22,
+      "almoxarifado": 580,
+      "farmacia": 70,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -16074,7 +16074,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-18 16:17:57",
+      "atualizado_em": "2026-11-19 10:57:55",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -16082,13 +16082,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 676
+          "quantidade": 628
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 34
+          "quantidade": 82
         }
       ],
       "minimo_manual": 0,
@@ -17801,6 +17801,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 6701,
+      "item_id": 204,
+      "produto_nome": "Soro fisiológico 500ml",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 48,
+      "responsavel": "Assucena",
+      "data": "2026-11-18",
+      "obs": "",
+      "criado_em": "2026-11-19 10:57:55",
+      "item": "Soro fisiológico 500ml",
+      "usuario": "Assucena"
+    },
     {
       "id": 6700,
       "item_id": 202,
@@ -25284,21 +25299,6 @@
       "obs": "",
       "criado_em": "2026-11-13 10:59:34",
       "item": "Metildopa 250mg CPR",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 6200,
-      "item_id": 70,
-      "produto_nome": "Dipirona",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 20,
-      "responsavel": "Assucena",
-      "data": "2026-11-13",
-      "obs": "",
-      "criado_em": "2026-11-13 10:59:25",
-      "item": "Dipirona",
       "usuario": "Assucena"
     }
   ]
