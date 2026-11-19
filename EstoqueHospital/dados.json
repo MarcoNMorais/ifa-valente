@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "19/11/2026 13:57:56",
+  "atualizado_em": "19/11/2026 13:58:09",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
     "total_almoxarifado": 115628,
-    "total_farmacia": 34314,
-    "total_geral": 149942,
+    "total_farmacia": 34312,
+    "total_geral": 149940,
     "perto_de_terminar": 28,
     "zerados": 16
   },
@@ -5737,19 +5737,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 132,
+      "farmacia": 130,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 132,
+      "total": 130,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga Farmácia 227-288",
       "obs": "Importação Farmácia 227-288",
-      "atualizado_em": "2026-11-18 10:34:31",
+      "atualizado_em": "2026-11-19 13:58:07",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -5757,7 +5757,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 132
+          "quantidade": 130
         }
       ],
       "minimo_manual": 0,
@@ -5765,9 +5765,9 @@
       "previsao_20_dias": 13,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 94,
-      "media_diaria_saida": 0.62,
-      "total_saida_historica": 58,
-      "cobertura_dias": 213.9,
+      "media_diaria_saida": 0.64,
+      "total_saida_historica": 60,
+      "cobertura_dias": 203.7,
       "alerta_estoque": false
     },
     {
@@ -17796,6 +17796,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 6734,
+      "item_id": 226,
+      "produto_nome": "Enoxaparina sódica 40mg",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 2,
+      "responsavel": "Leiliana",
+      "data": "2026-11-19",
+      "obs": "",
+      "criado_em": "2026-11-19 13:58:07",
+      "item": "Enoxaparina sódica 40mg",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 6733,
       "item_id": 239,
       "produto_nome": "Tramadol 50mg/ml 2ml",
@@ -25278,21 +25293,6 @@
       "obs": "",
       "criado_em": "2026-11-16 14:18:21",
       "item": "Losartana potássica 50mg CPR",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 6234,
-      "item_id": 127,
-      "produto_nome": "Loratadina 10mg CPR",
-      "tipo": "Entrada no Almoxarifado",
-      "origem": "Entrada externa",
-      "destino": "Almoxarifado",
-      "quantidade": 40,
-      "responsavel": "Leiliana",
-      "data": "2026-11-16",
-      "obs": "",
-      "criado_em": "2026-11-16 14:18:10",
-      "item": "Loratadina 10mg CPR",
       "usuario": "Leiliana"
     }
   ]
