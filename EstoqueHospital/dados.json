@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "19/11/2026 15:49:23",
+  "atualizado_em": "19/11/2026 15:49:39",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
     "total_almoxarifado": 115628,
-    "total_farmacia": 33895,
-    "total_geral": 149523,
+    "total_farmacia": 33891,
+    "total_geral": 149519,
     "perto_de_terminar": 28,
     "zerados": 16
   },
@@ -16056,19 +16056,19 @@
       "tipo": "Insumo",
       "unidade": "Unidade",
       "almoxarifado": 580,
-      "farmacia": 70,
+      "farmacia": 66,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 650,
+      "total": 646,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-19 10:57:55",
+      "atualizado_em": "2026-11-19 15:49:38",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -16082,17 +16082,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 82
+          "quantidade": 78
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 212,
-      "previsao_20_dias": 212,
+      "minimo_alerta": 213,
+      "previsao_20_dias": 213,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 99,
-      "media_diaria_saida": 10.6,
-      "total_saida_historica": 1049,
-      "cobertura_dias": 61.3,
+      "media_diaria_saida": 10.64,
+      "total_saida_historica": 1053,
+      "cobertura_dias": 60.7,
       "alerta_estoque": false
     },
     {
@@ -17795,6 +17795,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 6765,
+      "item_id": 204,
+      "produto_nome": "Soro fisiológico 500ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 4,
+      "responsavel": "Leiliana",
+      "data": "2026-11-19",
+      "obs": "",
+      "criado_em": "2026-11-19 15:49:38",
+      "item": "Soro fisiológico 500ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 6764,
       "item_id": 103,
@@ -25278,21 +25293,6 @@
       "obs": "",
       "criado_em": "2026-11-16 14:26:13",
       "item": "Metronidazol 100ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 6265,
-      "item_id": 336,
-      "produto_nome": "Mathergan",
-      "tipo": "Entrada no Almoxarifado",
-      "origem": "Entrada externa",
-      "destino": "Almoxarifado",
-      "quantidade": 3,
-      "responsavel": "Leiliana",
-      "data": "2026-11-16",
-      "obs": "",
-      "criado_em": "2026-11-16 14:26:00",
-      "item": "Mathergan",
       "usuario": "Leiliana"
     }
   ]
