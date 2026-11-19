@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "19/11/2026 10:56:19",
+  "atualizado_em": "19/11/2026 10:56:34",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
-    "total_almoxarifado": 120211,
-    "total_farmacia": 32724,
+    "total_almoxarifado": 119211,
+    "total_farmacia": 33724,
     "total_geral": 152935,
     "perto_de_terminar": 26,
     "zerados": 15
@@ -559,8 +559,8 @@
       "nome": "AGULHA  40X1,2",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 6300,
-      "farmacia": 495,
+      "almoxarifado": 5300,
+      "farmacia": 1495,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -572,7 +572,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-18 10:45:33",
+      "atualizado_em": "2026-11-19 10:56:32",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -580,13 +580,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 6300
+          "quantidade": 5300
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 495
+          "quantidade": 1495
         }
       ],
       "minimo_manual": 0,
@@ -17808,6 +17808,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 6693,
+      "item_id": 390,
+      "produto_nome": "AGULHA  40X1,2",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 1000,
+      "responsavel": "Assucena",
+      "data": "2026-11-18",
+      "obs": "",
+      "criado_em": "2026-11-19 10:56:32",
+      "item": "AGULHA  40X1,2",
+      "usuario": "Assucena"
+    },
+    {
       "id": 6692,
       "item_id": 285,
       "produto_nome": "Agulha 30x7",
@@ -25290,21 +25305,6 @@
       "obs": "",
       "criado_em": "2026-11-13 10:57:55",
       "item": "Agulha 30x8",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 6194,
-      "item_id": 390,
-      "produto_nome": "AGULHA  40X1,2",
-      "tipo": "Almoxarifado para Farmácia",
-      "origem": "Almoxarifado",
-      "destino": "Farmácia",
-      "quantidade": 600,
-      "responsavel": "Assucena",
-      "data": "2026-11-12",
-      "obs": "",
-      "criado_em": "2026-11-13 10:57:44",
-      "item": "AGULHA  40X1,2",
       "usuario": "Assucena"
     }
   ]
