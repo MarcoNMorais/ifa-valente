@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "19/11/2026 10:55:56",
+  "atualizado_em": "19/11/2026 10:56:02",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
-    "total_almoxarifado": 121216,
-    "total_farmacia": 31719,
+    "total_almoxarifado": 121016,
+    "total_farmacia": 31919,
     "total_geral": 152935,
     "perto_de_terminar": 26,
     "zerados": 15
@@ -8124,8 +8124,8 @@
       "nome": "Gelco nº 24",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 1439,
-      "farmacia": 223,
+      "almoxarifado": 1239,
+      "farmacia": 423,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -8137,7 +8137,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-18 10:34:31",
+      "atualizado_em": "2026-11-19 10:55:59",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -8145,13 +8145,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 1439
+          "quantidade": 1239
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 223
+          "quantidade": 423
         }
       ],
       "minimo_manual": 0,
@@ -17808,6 +17808,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 6690,
+      "item_id": 176,
+      "produto_nome": "Gelco nº 24",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 200,
+      "responsavel": "Assucena",
+      "data": "2026-11-18",
+      "obs": "",
+      "criado_em": "2026-11-19 10:55:59",
+      "item": "Gelco nº 24",
+      "usuario": "Assucena"
+    },
+    {
       "id": 6689,
       "item_id": 177,
       "produto_nome": "Gelco nº 22",
@@ -25290,21 +25305,6 @@
       "obs": "",
       "criado_em": "2026-11-13 10:57:30",
       "item": "Seringa 20ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 6191,
-      "item_id": 199,
-      "produto_nome": "Lençol descartável papel",
-      "tipo": "Almoxarifado para Farmácia",
-      "origem": "Almoxarifado",
-      "destino": "Farmácia",
-      "quantidade": 8,
-      "responsavel": "Assucena",
-      "data": "2026-11-12",
-      "obs": "",
-      "criado_em": "2026-11-13 10:57:22",
-      "item": "Lençol descartável papel",
       "usuario": "Assucena"
     }
   ]
