@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "19/11/2026 13:40:10",
+  "atualizado_em": "19/11/2026 13:40:21",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
     "total_almoxarifado": 117959,
-    "total_farmacia": 34696,
-    "total_geral": 152655,
+    "total_farmacia": 34681,
+    "total_geral": 152640,
     "perto_de_terminar": 27,
     "zerados": 15
   },
@@ -8125,19 +8125,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 1239,
-      "farmacia": 423,
+      "farmacia": 408,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1662,
+      "total": 1647,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-19 10:55:59",
+      "atualizado_em": "2026-11-19 13:40:19",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -8151,17 +8151,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 423
+          "quantidade": 408
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 231,
-      "previsao_20_dias": 231,
+      "minimo_alerta": 234,
+      "previsao_20_dias": 234,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 99,
-      "media_diaria_saida": 11.55,
-      "total_saida_historica": 1143,
-      "cobertura_dias": 144.0,
+      "media_diaria_saida": 11.7,
+      "total_saida_historica": 1158,
+      "cobertura_dias": 140.8,
       "alerta_estoque": false
     },
     {
@@ -17802,6 +17802,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 6711,
+      "item_id": 176,
+      "produto_nome": "Gelco nº 24",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 15,
+      "responsavel": "Leiliana",
+      "data": "2026-11-19",
+      "obs": "",
+      "criado_em": "2026-11-19 13:40:19",
+      "item": "Gelco nº 24",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 6710,
       "item_id": 177,
       "produto_nome": "Gelco nº 22",
@@ -25284,21 +25299,6 @@
       "obs": "",
       "criado_em": "2026-11-13 11:02:37",
       "item": "Luva M procedimento",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 6211,
-      "item_id": 186,
-      "produto_nome": "Luva cirúrgica tam. 8",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 2,
-      "responsavel": "Assucena",
-      "data": "2026-11-13",
-      "obs": "",
-      "criado_em": "2026-11-13 11:02:29",
-      "item": "Luva cirúrgica tam. 8",
       "usuario": "Assucena"
     }
   ]
