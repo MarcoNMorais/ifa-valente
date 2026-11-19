@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "19/11/2026 13:39:37",
+  "atualizado_em": "19/11/2026 13:39:49",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
     "total_almoxarifado": 117959,
-    "total_farmacia": 34806,
-    "total_geral": 152765,
+    "total_farmacia": 34756,
+    "total_geral": 152715,
     "perto_de_terminar": 27,
     "zerados": 15
   },
@@ -778,19 +778,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 14900,
-      "farmacia": 1075,
+      "farmacia": 1025,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 15975,
+      "total": 15925,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-19 10:56:17",
+      "atualizado_em": "2026-11-19 13:39:47",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -804,17 +804,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 1075
+          "quantidade": 1025
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 623,
-      "previsao_20_dias": 623,
+      "minimo_alerta": 633,
+      "previsao_20_dias": 633,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 94,
-      "media_diaria_saida": 31.12,
-      "total_saida_historica": 2925,
-      "cobertura_dias": 513.4,
+      "media_diaria_saida": 31.65,
+      "total_saida_historica": 2975,
+      "cobertura_dias": 503.2,
       "alerta_estoque": false
     },
     {
@@ -17802,6 +17802,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 6708,
+      "item_id": 285,
+      "produto_nome": "Agulha 30x7",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 50,
+      "responsavel": "Leiliana",
+      "data": "2026-11-19",
+      "obs": "",
+      "criado_em": "2026-11-19 13:39:47",
+      "item": "Agulha 30x7",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 6707,
       "item_id": 390,
       "produto_nome": "AGULHA  40X1,2",
@@ -25284,21 +25299,6 @@
       "obs": "",
       "criado_em": "2026-11-13 11:02:18",
       "item": "Luva cirúrgica tam. 7,5",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 6208,
-      "item_id": 176,
-      "produto_nome": "Gelco nº 24",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 20,
-      "responsavel": "Assucena",
-      "data": "2026-11-13",
-      "obs": "",
-      "criado_em": "2026-11-13 11:02:08",
-      "item": "Gelco nº 24",
       "usuario": "Assucena"
     }
   ]
