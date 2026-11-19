@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "19/11/2026 13:58:51",
+  "atualizado_em": "19/11/2026 13:59:13",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
     "total_almoxarifado": 115628,
-    "total_farmacia": 34297,
-    "total_geral": 149925,
+    "total_farmacia": 34287,
+    "total_geral": 149915,
     "perto_de_terminar": 28,
     "zerados": 16
   },
@@ -13692,19 +13692,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 140,
+      "farmacia": 130,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 140,
+      "total": 130,
       "minimo": 0,
       "validade": "12/27",
       "lote": "",
       "origem": "Carga Farmácia 227-288",
       "obs": "Importação Farmácia 227-288",
-      "atualizado_em": "2026-11-18 10:34:31",
+      "atualizado_em": "2026-11-19 13:59:12",
       "validade_mais_proxima": "12/27",
       "vencimento_mais_proximo": "12/27",
       "lotes_validade": [
@@ -13712,17 +13712,17 @@
           "local": "farmacia",
           "validade": "12/27",
           "lote": "",
-          "quantidade": 140
+          "quantidade": 130
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 15,
-      "previsao_20_dias": 15,
+      "minimo_alerta": 17,
+      "previsao_20_dias": 17,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 97,
-      "media_diaria_saida": 0.72,
-      "total_saida_historica": 70,
-      "cobertura_dias": 194.0,
+      "media_diaria_saida": 0.82,
+      "total_saida_historica": 80,
+      "cobertura_dias": 157.6,
       "alerta_estoque": false
     },
     {
@@ -17795,6 +17795,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 6737,
+      "item_id": 254,
+      "produto_nome": "Simeticona 40mg comprimido",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 10,
+      "responsavel": "Leiliana",
+      "data": "2026-11-19",
+      "obs": "",
+      "criado_em": "2026-11-19 13:59:12",
+      "item": "Simeticona 40mg comprimido",
+      "usuario": "Leiliana"
+    },
     {
       "id": 6736,
       "item_id": 82,
@@ -25278,21 +25293,6 @@
       "obs": "",
       "criado_em": "2026-11-16 14:19:07",
       "item": "NIMESULIDA COMP",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 6237,
-      "item_id": 263,
-      "produto_nome": "Metronidazol 250mg CPR",
-      "tipo": "Entrada no Almoxarifado",
-      "origem": "Entrada externa",
-      "destino": "Almoxarifado",
-      "quantidade": 40,
-      "responsavel": "Leiliana",
-      "data": "2026-11-16",
-      "obs": "",
-      "criado_em": "2026-11-16 14:18:56",
-      "item": "Metronidazol 250mg CPR",
       "usuario": "Leiliana"
     }
   ]
