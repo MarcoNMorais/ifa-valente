@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "19/11/2026 10:56:57",
+  "atualizado_em": "19/11/2026 10:57:13",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
-    "total_almoxarifado": 119177,
-    "total_farmacia": 33758,
+    "total_almoxarifado": 119157,
+    "total_farmacia": 33778,
     "total_geral": 152935,
     "perto_de_terminar": 26,
     "zerados": 15
@@ -10607,8 +10607,8 @@
       "nome": "Luva M procedimento",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 20,
-      "farmacia": 937,
+      "almoxarifado": 0,
+      "farmacia": 957,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -10620,21 +10620,15 @@
       "lote": "",
       "origem": "Carga Almoxerifado",
       "obs": "Importação Almoxerifado",
-      "atualizado_em": "2026-11-18 10:43:51",
+      "atualizado_em": "2026-11-19 10:57:11",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
         {
-          "local": "almoxarifado",
-          "validade": "",
-          "lote": "",
-          "quantidade": 20
-        },
-        {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 937
+          "quantidade": 957
         }
       ],
       "minimo_manual": 0,
@@ -17807,6 +17801,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 6696,
+      "item_id": 280,
+      "produto_nome": "Luva M procedimento",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 20,
+      "responsavel": "Assucena",
+      "data": "2026-11-18",
+      "obs": "",
+      "criado_em": "2026-11-19 10:57:11",
+      "item": "Luva M procedimento",
+      "usuario": "Assucena"
+    },
     {
       "id": 6695,
       "item_id": 155,
@@ -25290,21 +25299,6 @@
       "obs": "",
       "criado_em": "2026-11-13 10:58:26",
       "item": "Esparadrapo 10x4,5",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 6197,
-      "item_id": 175,
-      "produto_nome": "Fita cirúrgica microporosa",
-      "tipo": "Almoxarifado para Farmácia",
-      "origem": "Almoxarifado",
-      "destino": "Farmácia",
-      "quantidade": 6,
-      "responsavel": "Assucena",
-      "data": "2026-11-12",
-      "obs": "",
-      "criado_em": "2026-11-13 10:58:20",
-      "item": "Fita cirúrgica microporosa",
       "usuario": "Assucena"
     }
   ]
