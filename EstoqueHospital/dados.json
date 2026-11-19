@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "19/11/2026 14:00:45",
+  "atualizado_em": "19/11/2026 14:00:56",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
     "total_almoxarifado": 115628,
-    "total_farmacia": 34105,
-    "total_geral": 149733,
+    "total_farmacia": 34065,
+    "total_geral": 149693,
     "perto_de_terminar": 28,
     "zerados": 16
   },
@@ -13468,19 +13468,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 6700,
-      "farmacia": 305,
+      "farmacia": 265,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 7005,
+      "total": 6965,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-19 13:52:47",
+      "atualizado_em": "2026-11-19 14:00:54",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -13494,17 +13494,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 330
+          "quantidade": 290
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 776,
-      "previsao_20_dias": 776,
+      "minimo_alerta": 785,
+      "previsao_20_dias": 785,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 94,
-      "media_diaria_saida": 38.78,
-      "total_saida_historica": 3645,
-      "cobertura_dias": 180.7,
+      "media_diaria_saida": 39.2,
+      "total_saida_historica": 3685,
+      "cobertura_dias": 177.7,
       "alerta_estoque": false
     },
     {
@@ -17795,6 +17795,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 6746,
+      "item_id": 274,
+      "produto_nome": "Seringa 20ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 40,
+      "responsavel": "Leiliana",
+      "data": "2026-11-19",
+      "obs": "",
+      "criado_em": "2026-11-19 14:00:54",
+      "item": "Seringa 20ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 6745,
       "item_id": 285,
@@ -25278,21 +25293,6 @@
       "obs": "",
       "criado_em": "2026-11-16 14:21:10",
       "item": "AGUA P/ INJ",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 6246,
-      "item_id": 381,
-      "produto_nome": "AGUA OXIGENADA VOL 10",
-      "tipo": "Entrada no Almoxarifado",
-      "origem": "Entrada externa",
-      "destino": "Almoxarifado",
-      "quantidade": 1,
-      "responsavel": "Leiliana",
-      "data": "2026-11-16",
-      "obs": "",
-      "criado_em": "2026-11-16 14:20:54",
-      "item": "AGUA OXIGENADA VOL 10",
       "usuario": "Leiliana"
     }
   ]
