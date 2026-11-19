@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "19/11/2026 10:55:30",
+  "atualizado_em": "19/11/2026 10:55:48",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
-    "total_almoxarifado": 121516,
-    "total_farmacia": 31419,
+    "total_almoxarifado": 121416,
+    "total_farmacia": 31519,
     "total_geral": 152935,
     "perto_de_terminar": 26,
     "zerados": 15
@@ -5518,8 +5518,8 @@
       "nome": "Dispositivo intravenoso Gelco nº 20",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 480,
-      "farmacia": 137,
+      "almoxarifado": 380,
+      "farmacia": 237,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -5531,7 +5531,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-18 10:46:19",
+      "atualizado_em": "2026-11-19 10:55:46",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -5539,13 +5539,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 480
+          "quantidade": 380
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 152
+          "quantidade": 252
         }
       ],
       "minimo_manual": 0,
@@ -17808,6 +17808,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 6688,
+      "item_id": 178,
+      "produto_nome": "Dispositivo intravenoso Gelco nº 20",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 100,
+      "responsavel": "Assucena",
+      "data": "2026-11-18",
+      "obs": "",
+      "criado_em": "2026-11-19 10:55:46",
+      "item": "Dispositivo intravenoso Gelco nº 20",
+      "usuario": "Assucena"
+    },
+    {
       "id": 6687,
       "item_id": 97,
       "produto_nome": "Scalp nº 19",
@@ -25290,21 +25305,6 @@
       "obs": "",
       "criado_em": "2026-11-13 10:57:07",
       "item": "Bolsa coletora",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 6189,
-      "item_id": 222,
-      "produto_nome": "Touca descartável",
-      "tipo": "Almoxarifado para Farmácia",
-      "origem": "Almoxarifado",
-      "destino": "Farmácia",
-      "quantidade": 2,
-      "responsavel": "Assucena",
-      "data": "2026-11-12",
-      "obs": "",
-      "criado_em": "2026-11-13 10:56:51",
-      "item": "Touca descartável",
       "usuario": "Assucena"
     }
   ]
