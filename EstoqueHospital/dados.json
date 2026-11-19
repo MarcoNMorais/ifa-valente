@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "19/11/2026 13:58:39",
+  "atualizado_em": "19/11/2026 13:58:51",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
     "total_almoxarifado": 115628,
-    "total_farmacia": 34307,
-    "total_geral": 149935,
+    "total_farmacia": 34297,
+    "total_geral": 149925,
     "perto_de_terminar": 28,
     "zerados": 16
   },
@@ -8825,19 +8825,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 215,
-      "farmacia": 101,
+      "farmacia": 91,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 316,
+      "total": 306,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-18 10:34:31",
+      "atualizado_em": "2026-11-19 13:58:50",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -8851,17 +8851,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 111
+          "quantidade": 101
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 133,
-      "previsao_20_dias": 133,
+      "minimo_alerta": 135,
+      "previsao_20_dias": 135,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 99,
-      "media_diaria_saida": 6.64,
-      "total_saida_historica": 657,
-      "cobertura_dias": 47.6,
+      "media_diaria_saida": 6.74,
+      "total_saida_historica": 667,
+      "cobertura_dias": 45.4,
       "alerta_estoque": false
     },
     {
@@ -17796,6 +17796,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 6736,
+      "item_id": 82,
+      "produto_nome": "Hidrocortisona 100MG",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 10,
+      "responsavel": "Leiliana",
+      "data": "2026-11-19",
+      "obs": "",
+      "criado_em": "2026-11-19 13:58:50",
+      "item": "Hidrocortisona 100MG",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 6735,
       "item_id": 342,
       "produto_nome": "CLORETO DE SÓDIO 20% AMP 10ML",
@@ -25278,21 +25293,6 @@
       "obs": "",
       "criado_em": "2026-11-16 14:18:56",
       "item": "Metronidazol 250mg CPR",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 6236,
-      "item_id": 134,
-      "produto_nome": "Metformina 500mg CPR",
-      "tipo": "Entrada no Almoxarifado",
-      "origem": "Entrada externa",
-      "destino": "Almoxarifado",
-      "quantidade": 80,
-      "responsavel": "Leiliana",
-      "data": "2026-11-16",
-      "obs": "",
-      "criado_em": "2026-11-16 14:18:35",
-      "item": "Metformina 500mg CPR",
       "usuario": "Leiliana"
     }
   ]
