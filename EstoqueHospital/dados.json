@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "19/11/2026 10:56:43",
+  "atualizado_em": "19/11/2026 10:56:57",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
-    "total_almoxarifado": 119187,
-    "total_farmacia": 33748,
+    "total_almoxarifado": 119177,
+    "total_farmacia": 33758,
     "total_geral": 152935,
     "perto_de_terminar": 26,
     "zerados": 15
@@ -2896,8 +2896,8 @@
       "nome": "Bolsa coletora",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 107,
-      "farmacia": 25,
+      "almoxarifado": 97,
+      "farmacia": 35,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -2909,7 +2909,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-18 10:34:31",
+      "atualizado_em": "2026-11-19 10:56:56",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -2917,13 +2917,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 107
+          "quantidade": 97
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 25
+          "quantidade": 35
         }
       ],
       "minimo_manual": 0,
@@ -17808,6 +17808,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 6695,
+      "item_id": 155,
+      "produto_nome": "Bolsa coletora",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 10,
+      "responsavel": "Assucena",
+      "data": "2026-11-18",
+      "obs": "",
+      "criado_em": "2026-11-19 10:56:56",
+      "item": "Bolsa coletora",
+      "usuario": "Assucena"
+    },
+    {
       "id": 6694,
       "item_id": 201,
       "produto_nome": "Soro Ringer Lactato 500ml",
@@ -25290,21 +25305,6 @@
       "obs": "",
       "criado_em": "2026-11-13 10:58:20",
       "item": "Fita cirúrgica microporosa",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 6196,
-      "item_id": 280,
-      "produto_nome": "Luva M procedimento",
-      "tipo": "Almoxarifado para Farmácia",
-      "origem": "Almoxarifado",
-      "destino": "Farmácia",
-      "quantidade": 10,
-      "responsavel": "Assucena",
-      "data": "2026-11-12",
-      "obs": "",
-      "criado_em": "2026-11-13 10:58:04",
-      "item": "Luva M procedimento",
       "usuario": "Assucena"
     }
   ]
