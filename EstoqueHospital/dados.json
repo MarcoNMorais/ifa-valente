@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "19/11/2026 10:57:36",
+  "atualizado_em": "19/11/2026 10:57:49",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
-    "total_almoxarifado": 118507,
-    "total_farmacia": 34428,
+    "total_almoxarifado": 118147,
+    "total_farmacia": 34788,
     "total_geral": 152935,
     "perto_de_terminar": 26,
     "zerados": 15
@@ -15969,8 +15969,8 @@
       "nome": "Soro fisiológico 100ml",
       "tipo": "Insumo",
       "unidade": "Unidade",
-      "almoxarifado": 2180,
-      "farmacia": 300,
+      "almoxarifado": 1820,
+      "farmacia": 660,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -15982,7 +15982,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-18 14:48:12",
+      "atualizado_em": "2026-11-19 10:57:48",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -15990,13 +15990,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 2300
+          "quantidade": 1940
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 360
+          "quantidade": 720
         }
       ],
       "minimo_manual": 0,
@@ -17801,6 +17801,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 6700,
+      "item_id": 202,
+      "produto_nome": "Soro fisiológico 100ml",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 360,
+      "responsavel": "Assucena",
+      "data": "2026-11-18",
+      "obs": "",
+      "criado_em": "2026-11-19 10:57:48",
+      "item": "Soro fisiológico 100ml",
+      "usuario": "Assucena"
+    },
     {
       "id": 6699,
       "item_id": 203,
@@ -25284,21 +25299,6 @@
       "obs": "",
       "criado_em": "2026-11-13 10:59:25",
       "item": "Dipirona",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 6199,
-      "item_id": 64,
-      "produto_nome": "Fosfato de Clindamicina 150mg",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 20,
-      "responsavel": "Assucena",
-      "data": "2026-11-13",
-      "obs": "",
-      "criado_em": "2026-11-13 10:59:10",
-      "item": "Fosfato de Clindamicina 150mg",
       "usuario": "Assucena"
     }
   ]
