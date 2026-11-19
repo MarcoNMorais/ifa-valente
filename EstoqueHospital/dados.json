@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "19/11/2026 13:58:09",
+  "atualizado_em": "19/11/2026 13:58:39",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
     "total_almoxarifado": 115628,
-    "total_farmacia": 34312,
-    "total_geral": 149940,
+    "total_farmacia": 34307,
+    "total_geral": 149935,
     "perto_de_terminar": 28,
     "zerados": 16
   },
@@ -4155,19 +4155,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 42,
-      "farmacia": 36,
+      "farmacia": 31,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 78,
+      "total": 73,
       "minimo": 15,
       "validade": "2027-02",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-18 10:34:31",
+      "atualizado_em": "2026-11-19 13:58:37",
       "validade_mais_proxima": "2027-02",
       "vencimento_mais_proximo": "2027-02",
       "lotes_validade": [
@@ -4175,7 +4175,7 @@
           "local": "farmacia",
           "validade": "2027-02",
           "lote": "",
-          "quantidade": 36
+          "quantidade": 31
         },
         {
           "local": "almoxarifado",
@@ -4185,13 +4185,13 @@
         }
       ],
       "minimo_manual": 15,
-      "minimo_alerta": 6,
-      "previsao_20_dias": 6,
+      "minimo_alerta": 7,
+      "previsao_20_dias": 7,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 87,
-      "media_diaria_saida": 0.29,
-      "total_saida_historica": 25,
-      "cobertura_dias": 271.4,
+      "media_diaria_saida": 0.34,
+      "total_saida_historica": 30,
+      "cobertura_dias": 211.7,
       "alerta_estoque": false
     },
     {
@@ -17796,6 +17796,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 6735,
+      "item_id": 342,
+      "produto_nome": "CLORETO DE SÓDIO 20% AMP 10ML",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 5,
+      "responsavel": "Leiliana",
+      "data": "2026-11-19",
+      "obs": "",
+      "criado_em": "2026-11-19 13:58:37",
+      "item": "CLORETO DE SÓDIO 20% AMP 10ML",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 6734,
       "item_id": 226,
       "produto_nome": "Enoxaparina sódica 40mg",
@@ -25278,21 +25293,6 @@
       "obs": "",
       "criado_em": "2026-11-16 14:18:35",
       "item": "Metformina 500mg CPR",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 6235,
-      "item_id": 115,
-      "produto_nome": "Losartana potássica 50mg CPR",
-      "tipo": "Entrada no Almoxarifado",
-      "origem": "Entrada externa",
-      "destino": "Almoxarifado",
-      "quantidade": 45,
-      "responsavel": "Leiliana",
-      "data": "2026-11-16",
-      "obs": "",
-      "criado_em": "2026-11-16 14:18:21",
-      "item": "Losartana potássica 50mg CPR",
       "usuario": "Leiliana"
     }
   ]
