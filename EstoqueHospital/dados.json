@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "19/11/2026 15:50:02",
+  "atualizado_em": "19/11/2026 15:50:13",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
     "total_almoxarifado": 115628,
-    "total_farmacia": 33869,
-    "total_geral": 149497,
+    "total_farmacia": 33867,
+    "total_geral": 149495,
     "perto_de_terminar": 28,
     "zerados": 16
   },
@@ -5942,19 +5942,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 40,
-      "farmacia": 7,
+      "farmacia": 5,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 47,
+      "total": 45,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-18 10:34:31",
+      "atualizado_em": "2026-11-19 15:50:11",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -5968,7 +5968,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 9
+          "quantidade": 7
         }
       ],
       "minimo_manual": 0,
@@ -5976,9 +5976,9 @@
       "previsao_20_dias": 20,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 99,
-      "media_diaria_saida": 0.97,
-      "total_saida_historica": 96,
-      "cobertura_dias": 48.5,
+      "media_diaria_saida": 0.99,
+      "total_saida_historica": 98,
+      "cobertura_dias": 45.5,
       "alerta_estoque": false
     },
     {
@@ -17796,6 +17796,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 6769,
+      "item_id": 154,
+      "produto_nome": "Equipo fotossensível",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 2,
+      "responsavel": "Leiliana",
+      "data": "2026-11-19",
+      "obs": "",
+      "criado_em": "2026-11-19 15:50:11",
+      "item": "Equipo fotossensível",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 6768,
       "item_id": 376,
       "produto_nome": "LENÇOL DESCARTAVEL PAPEL",
@@ -25278,21 +25293,6 @@
       "obs": "",
       "criado_em": "2026-11-16 14:27:16",
       "item": "Soro fisiológico 100ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 6269,
-      "item_id": 66,
-      "produto_nome": "Complexo B",
-      "tipo": "Entrada no Almoxarifado",
-      "origem": "Entrada externa",
-      "destino": "Almoxarifado",
-      "quantidade": 350,
-      "responsavel": "Leiliana",
-      "data": "2026-11-16",
-      "obs": "",
-      "criado_em": "2026-11-16 14:27:02",
-      "item": "Complexo B",
       "usuario": "Leiliana"
     }
   ]
