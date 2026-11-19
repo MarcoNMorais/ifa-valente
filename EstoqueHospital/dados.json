@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "19/11/2026 10:55:23",
+  "atualizado_em": "19/11/2026 10:55:30",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
-    "total_almoxarifado": 121616,
-    "total_farmacia": 31319,
+    "total_almoxarifado": 121516,
+    "total_farmacia": 31419,
     "total_geral": 152935,
     "perto_de_terminar": 26,
     "zerados": 15
@@ -13215,8 +13215,8 @@
       "nome": "Scalp nº 19",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 100,
-      "farmacia": 38,
+      "almoxarifado": 0,
+      "farmacia": 138,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -13228,21 +13228,15 @@
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-11-18 10:34:31",
+      "atualizado_em": "2026-11-19 10:55:28",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
         {
-          "local": "almoxarifado",
-          "validade": "",
-          "lote": "",
-          "quantidade": 100
-        },
-        {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 38
+          "quantidade": 138
         }
       ],
       "minimo_manual": 0,
@@ -17813,6 +17807,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 6687,
+      "item_id": 97,
+      "produto_nome": "Scalp nº 19",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 100,
+      "responsavel": "Assucena",
+      "data": "2026-11-18",
+      "obs": "",
+      "criado_em": "2026-11-19 10:55:28",
+      "item": "Scalp nº 19",
+      "usuario": "Assucena"
+    },
     {
       "id": 6686,
       "item_id": 291,
@@ -25296,21 +25305,6 @@
       "obs": "",
       "criado_em": "2026-11-13 10:56:51",
       "item": "Touca descartável",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 6188,
-      "item_id": 272,
-      "produto_nome": "Álcool 70% líquido 5L",
-      "tipo": "Almoxarifado para Farmácia",
-      "origem": "Almoxarifado",
-      "destino": "Farmácia",
-      "quantidade": 2,
-      "responsavel": "Assucena",
-      "data": "2026-11-12",
-      "obs": "",
-      "criado_em": "2026-11-13 10:56:43",
-      "item": "Álcool 70% líquido 5L",
       "usuario": "Assucena"
     }
   ]
