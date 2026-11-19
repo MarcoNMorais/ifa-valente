@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "19/11/2026 15:49:03",
+  "atualizado_em": "19/11/2026 15:49:14",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
     "total_almoxarifado": 115628,
-    "total_farmacia": 33925,
-    "total_geral": 149553,
+    "total_farmacia": 33915,
+    "total_geral": 149543,
     "perto_de_terminar": 28,
     "zerados": 16
   },
@@ -13468,19 +13468,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 6700,
-      "farmacia": 265,
+      "farmacia": 255,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 6965,
+      "total": 6955,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-19 14:00:54",
+      "atualizado_em": "2026-11-19 15:49:12",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -13494,17 +13494,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 290
+          "quantidade": 280
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 785,
-      "previsao_20_dias": 785,
+      "minimo_alerta": 787,
+      "previsao_20_dias": 787,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 94,
-      "media_diaria_saida": 39.2,
-      "total_saida_historica": 3685,
-      "cobertura_dias": 177.7,
+      "media_diaria_saida": 39.31,
+      "total_saida_historica": 3695,
+      "cobertura_dias": 176.9,
       "alerta_estoque": false
     },
     {
@@ -17795,6 +17795,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 6763,
+      "item_id": 274,
+      "produto_nome": "Seringa 20ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 10,
+      "responsavel": "Leiliana",
+      "data": "2026-11-19",
+      "obs": "",
+      "criado_em": "2026-11-19 15:49:12",
+      "item": "Seringa 20ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 6762,
       "item_id": 97,
@@ -25278,21 +25293,6 @@
       "obs": "",
       "criado_em": "2026-11-16 14:25:43",
       "item": "Escopolamina 20mg",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 6263,
-      "item_id": 76,
-      "produto_nome": "Escopolamina + Dipirona",
-      "tipo": "Entrada no Almoxarifado",
-      "origem": "Entrada externa",
-      "destino": "Almoxarifado",
-      "quantidade": 350,
-      "responsavel": "Leiliana",
-      "data": "2026-11-16",
-      "obs": "",
-      "criado_em": "2026-11-16 14:25:31",
-      "item": "Escopolamina + Dipirona",
       "usuario": "Leiliana"
     }
   ]
