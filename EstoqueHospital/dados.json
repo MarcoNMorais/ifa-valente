@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "19/11/2026 10:54:52",
+  "atualizado_em": "19/11/2026 10:55:08",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
-    "total_almoxarifado": 121801,
-    "total_farmacia": 31134,
+    "total_almoxarifado": 121751,
+    "total_farmacia": 31184,
     "total_geral": 152935,
     "perto_de_terminar": 26,
     "zerados": 15
@@ -16171,8 +16171,8 @@
       "nome": "Soro glicose 5% 250ml",
       "tipo": "Insumo",
       "unidade": "Unidade",
-      "almoxarifado": 97,
-      "farmacia": 7,
+      "almoxarifado": 47,
+      "farmacia": 57,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -16184,7 +16184,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-18 10:34:31",
+      "atualizado_em": "2026-11-19 10:55:06",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -16192,13 +16192,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 97
+          "quantidade": 47
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 7
+          "quantidade": 57
         }
       ],
       "minimo_manual": 0,
@@ -17819,6 +17819,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 6684,
+      "item_id": 206,
+      "produto_nome": "Soro glicose 5% 250ml",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 50,
+      "responsavel": "Assucena",
+      "data": "2026-11-18",
+      "obs": "",
+      "criado_em": "2026-11-19 10:55:06",
+      "item": "Soro glicose 5% 250ml",
+      "usuario": "Assucena"
+    },
     {
       "id": 6683,
       "item_id": 376,
@@ -25302,21 +25317,6 @@
       "obs": "",
       "criado_em": "2026-11-13 10:56:21",
       "item": "Seringa 3ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 6185,
-      "item_id": 404,
-      "produto_nome": "soro glicofidiologoco",
-      "tipo": "Almoxarifado para Farmácia",
-      "origem": "Almoxarifado",
-      "destino": "Farmácia",
-      "quantidade": 15,
-      "responsavel": "Assucena",
-      "data": "2026-11-12",
-      "obs": "",
-      "criado_em": "2026-11-13 10:56:13",
-      "item": "soro glicofidiologoco",
       "usuario": "Assucena"
     }
   ]
