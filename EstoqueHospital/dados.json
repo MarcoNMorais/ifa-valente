@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "23/11/2026 13:52:08",
+  "atualizado_em": "23/11/2026 13:52:25",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
-    "total_almoxarifado": 114228,
-    "total_farmacia": 33196,
+    "total_almoxarifado": 113528,
+    "total_farmacia": 33896,
     "total_geral": 147424,
     "perto_de_terminar": 28,
     "zerados": 16
@@ -68,8 +68,8 @@
       "nome": "ABAIXADOR DE LINGUA",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 700,
-      "farmacia": 0,
+      "almoxarifado": 0,
+      "farmacia": 700,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -81,12 +81,12 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-19 15:53:21",
+      "atualizado_em": "2026-11-23 13:52:23",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
         {
-          "local": "almoxarifado",
+          "local": "farmacia",
           "validade": "",
           "lote": "",
           "quantidade": 700
@@ -17790,6 +17790,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 6863,
+      "item_id": 419,
+      "produto_nome": "ABAIXADOR DE LINGUA",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 700,
+      "responsavel": "Leiliana",
+      "data": "2026-11-19",
+      "obs": "",
+      "criado_em": "2026-11-23 13:52:23",
+      "item": "ABAIXADOR DE LINGUA",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 6862,
       "item_id": 75,
       "produto_nome": "Escopolamina 20mg",
@@ -25271,21 +25286,6 @@
       "data": "2026-11-16",
       "obs": "",
       "criado_em": "2026-11-16 14:56:40",
-      "item": "Ceftriaxona 1g",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 6363,
-      "item_id": 59,
-      "produto_nome": "Ceftriaxona 1g",
-      "tipo": "Almoxarifado para Farmácia",
-      "origem": "Almoxarifado",
-      "destino": "Farmácia",
-      "quantidade": 560,
-      "responsavel": "Leiliana",
-      "data": "2026-11-16",
-      "obs": "",
-      "criado_em": "2026-11-16 14:56:28",
       "item": "Ceftriaxona 1g",
       "usuario": "Leiliana"
     }
