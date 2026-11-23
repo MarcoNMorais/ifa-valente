@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "23/11/2026 14:07:07",
+  "atualizado_em": "23/11/2026 14:07:16",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
     "total_almoxarifado": 113008,
-    "total_farmacia": 33382,
-    "total_geral": 146390,
+    "total_farmacia": 33372,
+    "total_geral": 146380,
     "perto_de_terminar": 28,
     "zerados": 16
   },
@@ -12594,19 +12594,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 210,
-      "farmacia": 420,
+      "farmacia": 410,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 630,
+      "total": 620,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-23 13:37:32",
+      "atualizado_em": "2026-11-23 14:07:14",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -12620,17 +12620,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 420
+          "quantidade": 410
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 63,
-      "previsao_20_dias": 63,
+      "minimo_alerta": 65,
+      "previsao_20_dias": 65,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 103,
-      "media_diaria_saida": 3.11,
-      "total_saida_historica": 320,
-      "cobertura_dias": 202.8,
+      "media_diaria_saida": 3.2,
+      "total_saida_historica": 330,
+      "cobertura_dias": 193.5,
       "alerta_estoque": false
     },
     {
@@ -17753,6 +17753,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 6934,
+      "item_id": 27,
+      "produto_nome": "Paracetamol 500mg",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 10,
+      "responsavel": "Leiliana",
+      "data": "2026-11-19",
+      "obs": "",
+      "criado_em": "2026-11-23 14:07:14",
+      "item": "Paracetamol 500mg",
+      "usuario": "Leiliana"
+    },
     {
       "id": 6933,
       "item_id": 28,
@@ -25236,21 +25251,6 @@
       "obs": "",
       "criado_em": "2026-11-16 15:11:43",
       "item": "Benzilpenicilina 1.200",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 6434,
-      "item_id": 68,
-      "produto_nome": "Dexametasona",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 30,
-      "responsavel": "Leiliana",
-      "data": "2026-11-16",
-      "obs": "",
-      "criado_em": "2026-11-16 15:11:33",
-      "item": "Dexametasona",
       "usuario": "Leiliana"
     }
   ]
