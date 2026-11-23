@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "23/11/2026 13:37:57",
+  "atualizado_em": "23/11/2026 13:38:07",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
     "total_almoxarifado": 115628,
-    "total_farmacia": 33732,
-    "total_geral": 149360,
+    "total_farmacia": 33722,
+    "total_geral": 149350,
     "perto_de_terminar": 26,
     "zerados": 16
   },
@@ -8073,19 +8073,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 1160,
-      "farmacia": 203,
+      "farmacia": 193,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1363,
+      "total": 1353,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-19 15:53:21",
+      "atualizado_em": "2026-11-23 13:38:05",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -8099,17 +8099,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 203
+          "quantidade": 193
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 440,
-      "previsao_20_dias": 440,
+      "minimo_alerta": 442,
+      "previsao_20_dias": 442,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 103,
-      "media_diaria_saida": 21.99,
-      "total_saida_historica": 2265,
-      "cobertura_dias": 62.0,
+      "media_diaria_saida": 22.09,
+      "total_saida_historica": 2275,
+      "cobertura_dias": 61.3,
       "alerta_estoque": false
     },
     {
@@ -17796,6 +17796,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 6787,
+      "item_id": 177,
+      "produto_nome": "Gelco nº 22",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 10,
+      "responsavel": "Leiliana",
+      "data": "2026-11-19",
+      "obs": "",
+      "criado_em": "2026-11-23 13:38:05",
+      "item": "Gelco nº 22",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 6786,
       "item_id": 178,
       "produto_nome": "Dispositivo intravenoso Gelco nº 20",
@@ -25278,21 +25293,6 @@
       "obs": "",
       "criado_em": "2026-11-16 14:34:07",
       "item": "Paracetamol gotas",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 6287,
-      "item_id": 380,
-      "produto_nome": "OLEO MINERAL",
-      "tipo": "Entrada no Almoxarifado",
-      "origem": "Entrada externa",
-      "destino": "Almoxarifado",
-      "quantidade": 14,
-      "responsavel": "Leiliana",
-      "data": "2026-11-16",
-      "obs": "",
-      "criado_em": "2026-11-16 14:33:55",
-      "item": "OLEO MINERAL",
       "usuario": "Leiliana"
     }
   ]
