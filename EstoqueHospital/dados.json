@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "23/11/2026 13:41:53",
+  "atualizado_em": "23/11/2026 13:42:03",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
     "total_almoxarifado": 115628,
-    "total_farmacia": 33050,
-    "total_geral": 148678,
+    "total_farmacia": 33035,
+    "total_geral": 148663,
     "perto_de_terminar": 26,
     "zerados": 16
   },
@@ -4865,19 +4865,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 1400,
-      "farmacia": 50,
+      "farmacia": 35,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1450,
+      "total": 1435,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-19 15:53:21",
+      "atualizado_em": "2026-11-23 13:42:02",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -4891,17 +4891,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 70
+          "quantidade": 55
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 548,
-      "previsao_20_dias": 548,
+      "minimo_alerta": 551,
+      "previsao_20_dias": 551,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 103,
-      "media_diaria_saida": 27.38,
-      "total_saida_historica": 2820,
-      "cobertura_dias": 53.0,
+      "media_diaria_saida": 27.52,
+      "total_saida_historica": 2835,
+      "cobertura_dias": 52.1,
       "alerta_estoque": false
     },
     {
@@ -17796,6 +17796,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 6807,
+      "item_id": 68,
+      "produto_nome": "Dexametasona",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 15,
+      "responsavel": "Leiliana",
+      "data": "2026-11-19",
+      "obs": "",
+      "criado_em": "2026-11-23 13:42:02",
+      "item": "Dexametasona",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 6806,
       "item_id": 319,
       "produto_nome": "Agulha 25x7",
@@ -25278,21 +25293,6 @@
       "obs": "",
       "criado_em": "2026-11-16 14:40:08",
       "item": "Cateter tipo óculos adulto",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 6307,
-      "item_id": 200,
-      "produto_nome": "Caixa de perfurocortante",
-      "tipo": "Entrada no Almoxarifado",
-      "origem": "Entrada externa",
-      "destino": "Almoxarifado",
-      "quantidade": 35,
-      "responsavel": "Leiliana",
-      "data": "2026-11-16",
-      "obs": "",
-      "criado_em": "2026-11-16 14:39:55",
-      "item": "Caixa de perfurocortante",
       "usuario": "Leiliana"
     }
   ]
