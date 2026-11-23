@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "23/11/2026 16:09:09",
+  "atualizado_em": "23/11/2026 16:09:18",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
     "total_almoxarifado": 111169,
-    "total_farmacia": 34906,
-    "total_geral": 146075,
+    "total_farmacia": 34866,
+    "total_geral": 146035,
     "perto_de_terminar": 28,
     "zerados": 16
   },
@@ -13322,19 +13322,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 4700,
-      "farmacia": 556,
+      "farmacia": 516,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 5256,
+      "total": 5216,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-23 14:01:48",
+      "atualizado_em": "2026-11-23 16:09:16",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -13348,17 +13348,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 616
+          "quantidade": 576
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 1373,
-      "previsao_20_dias": 1373,
+      "minimo_alerta": 1381,
+      "previsao_20_dias": 1381,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 103,
-      "media_diaria_saida": 68.62,
-      "total_saida_historica": 7068,
-      "cobertura_dias": 76.6,
+      "media_diaria_saida": 69.01,
+      "total_saida_historica": 7108,
+      "cobertura_dias": 75.6,
       "alerta_estoque": false
     },
     {
@@ -17741,6 +17741,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 6960,
+      "item_id": 103,
+      "produto_nome": "Seringa 10ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 40,
+      "responsavel": "Leiliana",
+      "data": "2026-11-19",
+      "obs": "",
+      "criado_em": "2026-11-23 16:09:16",
+      "item": "Seringa 10ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 6959,
       "item_id": 274,
@@ -25224,21 +25239,6 @@
       "obs": "",
       "criado_em": "2026-11-16 15:16:30",
       "item": "Luva de látex tam. M",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 6460,
-      "item_id": 184,
-      "produto_nome": "Luva cirúrgica tam. 7",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 5,
-      "responsavel": "Leiliana",
-      "data": "2026-11-16",
-      "obs": "",
-      "criado_em": "2026-11-16 15:16:21",
-      "item": "Luva cirúrgica tam. 7",
       "usuario": "Leiliana"
     }
   ]
