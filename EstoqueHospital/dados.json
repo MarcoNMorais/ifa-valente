@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "23/11/2026 13:50:52",
+  "atualizado_em": "23/11/2026 13:51:01",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
     "total_almoxarifado": 114228,
-    "total_farmacia": 33382,
-    "total_geral": 147610,
+    "total_farmacia": 33381,
+    "total_geral": 147609,
     "perto_de_terminar": 26,
     "zerados": 16
   },
@@ -2897,19 +2897,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 97,
-      "farmacia": 31,
+      "farmacia": 30,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 128,
+      "total": 127,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-23 13:45:28",
+      "atualizado_em": "2026-11-23 13:51:00",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -2923,7 +2923,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 31
+          "quantidade": 30
         }
       ],
       "minimo_manual": 0,
@@ -2931,9 +2931,9 @@
       "previsao_20_dias": 17,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 103,
-      "media_diaria_saida": 0.83,
-      "total_saida_historica": 86,
-      "cobertura_dias": 153.3,
+      "media_diaria_saida": 0.84,
+      "total_saida_historica": 87,
+      "cobertura_dias": 150.4,
       "alerta_estoque": false
     },
     {
@@ -17790,6 +17790,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 6855,
+      "item_id": 155,
+      "produto_nome": "Bolsa coletora",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 1,
+      "responsavel": "Leiliana",
+      "data": "2026-11-19",
+      "obs": "",
+      "criado_em": "2026-11-23 13:51:00",
+      "item": "Bolsa coletora",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 6854,
       "item_id": 180,
       "produto_nome": "Luva de látex tam. P",
@@ -25271,21 +25286,6 @@
       "data": "2026-11-16",
       "obs": "",
       "criado_em": "2026-11-16 14:54:46",
-      "item": "Cetoprofeno IM 50mg",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 6355,
-      "item_id": 61,
-      "produto_nome": "Cetoprofeno IM 50mg",
-      "tipo": "Almoxarifado para Farmácia",
-      "origem": "Almoxarifado",
-      "destino": "Farmácia",
-      "quantidade": 420,
-      "responsavel": "Leiliana",
-      "data": "2026-11-16",
-      "obs": "",
-      "criado_em": "2026-11-16 14:54:35",
       "item": "Cetoprofeno IM 50mg",
       "usuario": "Leiliana"
     }
