@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "23/11/2026 13:50:43",
+  "atualizado_em": "23/11/2026 13:50:52",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
     "total_almoxarifado": 114228,
-    "total_farmacia": 33384,
-    "total_geral": 147612,
+    "total_farmacia": 33382,
+    "total_geral": 147610,
     "perto_de_terminar": 26,
     "zerados": 16
   },
@@ -10372,19 +10372,19 @@
       "tipo": "Material",
       "unidade": "Caixa",
       "almoxarifado": 70,
-      "farmacia": 147,
+      "farmacia": 145,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 217,
+      "total": 215,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-23 13:45:07",
+      "atualizado_em": "2026-11-23 13:50:50",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -10398,7 +10398,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 148
+          "quantidade": 146
         }
       ],
       "minimo_manual": 0,
@@ -10406,9 +10406,9 @@
       "previsao_20_dias": 170,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 103,
-      "media_diaria_saida": 8.48,
-      "total_saida_historica": 873,
-      "cobertura_dias": 25.6,
+      "media_diaria_saida": 8.5,
+      "total_saida_historica": 875,
+      "cobertura_dias": 25.3,
       "alerta_estoque": false
     },
     {
@@ -17789,6 +17789,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 6854,
+      "item_id": 180,
+      "produto_nome": "Luva de látex tam. P",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 2,
+      "responsavel": "Leiliana",
+      "data": "2026-11-19",
+      "obs": "",
+      "criado_em": "2026-11-23 13:50:50",
+      "item": "Luva de látex tam. P",
+      "usuario": "Leiliana"
+    },
     {
       "id": 6853,
       "item_id": 154,
@@ -25272,21 +25287,6 @@
       "obs": "",
       "criado_em": "2026-11-16 14:54:35",
       "item": "Cetoprofeno IM 50mg",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 6354,
-      "item_id": 238,
-      "produto_nome": "Ondansetrona 2mg/ml 2ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 100,
-      "responsavel": "Leiliana",
-      "data": "2026-11-16",
-      "obs": "",
-      "criado_em": "2026-11-16 14:54:21",
-      "item": "Ondansetrona 2mg/ml 2ml",
       "usuario": "Leiliana"
     }
   ]
