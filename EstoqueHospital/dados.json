@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "23/11/2026 13:33:27",
+  "atualizado_em": "23/11/2026 13:33:41",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
     "total_almoxarifado": 115628,
-    "total_farmacia": 33852,
-    "total_geral": 149480,
+    "total_farmacia": 33848,
+    "total_geral": 149476,
     "perto_de_terminar": 26,
     "zerados": 16
   },
@@ -5691,19 +5691,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 1720,
-      "farmacia": 11,
+      "farmacia": 7,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1731,
+      "total": 1727,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-19 15:53:21",
+      "atualizado_em": "2026-11-23 13:33:39",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -5717,17 +5717,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 11
+          "quantidade": 7
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 740,
-      "previsao_20_dias": 740,
+      "minimo_alerta": 741,
+      "previsao_20_dias": 741,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 103,
-      "media_diaria_saida": 36.98,
-      "total_saida_historica": 3809,
-      "cobertura_dias": 46.8,
+      "media_diaria_saida": 37.02,
+      "total_saida_historica": 3813,
+      "cobertura_dias": 46.7,
       "alerta_estoque": false
     },
     {
@@ -17796,6 +17796,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 6772,
+      "item_id": 163,
+      "produto_nome": "Eletrodo ECG descartável",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 4,
+      "responsavel": "Leiliana",
+      "data": "2026-11-19",
+      "obs": "",
+      "criado_em": "2026-11-23 13:33:39",
+      "item": "Eletrodo ECG descartável",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 6771,
       "item_id": 252,
       "produto_nome": "Salbutamol spray",
@@ -25278,21 +25293,6 @@
       "obs": "",
       "criado_em": "2026-11-16 14:28:03",
       "item": "Soro glicose 5% 500ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 6272,
-      "item_id": 404,
-      "produto_nome": "soro glicofidiologoco",
-      "tipo": "Entrada no Almoxarifado",
-      "origem": "Entrada externa",
-      "destino": "Almoxarifado",
-      "quantidade": 63,
-      "responsavel": "Leiliana",
-      "data": "2026-11-16",
-      "obs": "",
-      "criado_em": "2026-11-16 14:27:42",
-      "item": "soro glicofidiologoco",
       "usuario": "Leiliana"
     }
   ]
