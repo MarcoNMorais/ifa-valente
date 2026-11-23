@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "23/11/2026 13:43:49",
+  "atualizado_em": "23/11/2026 13:44:20",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
-    "total_almoxarifado": 115628,
-    "total_farmacia": 32886,
+    "total_almoxarifado": 114228,
+    "total_farmacia": 34286,
     "total_geral": 148514,
     "perto_de_terminar": 26,
     "zerados": 16
@@ -5254,8 +5254,8 @@
       "nome": "Dipirona",
       "tipo": "Medicamento",
       "unidade": "Unidade",
-      "almoxarifado": 1400,
-      "farmacia": 30,
+      "almoxarifado": 0,
+      "farmacia": 1430,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -5267,21 +5267,15 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-23 13:41:27",
+      "atualizado_em": "2026-11-23 13:44:18",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
         {
-          "local": "almoxarifado",
-          "validade": "",
-          "lote": "",
-          "quantidade": 1400
-        },
-        {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 110
+          "quantidade": 1510
         }
       ],
       "minimo_manual": 0,
@@ -17796,6 +17790,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 6818,
+      "item_id": 70,
+      "produto_nome": "Dipirona",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 1400,
+      "responsavel": "Leiliana",
+      "data": "2026-11-19",
+      "obs": "",
+      "criado_em": "2026-11-23 13:44:18",
+      "item": "Dipirona",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 6817,
       "item_id": 384,
       "produto_nome": "ACIDO ASCORBICO",
@@ -25278,21 +25287,6 @@
       "obs": "",
       "criado_em": "2026-11-16 14:43:30",
       "item": "Luva de látex tam. P",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 6318,
-      "item_id": 181,
-      "produto_nome": "Luva de látex tam. M",
-      "tipo": "Entrada no Almoxarifado",
-      "origem": "Entrada externa",
-      "destino": "Almoxarifado",
-      "quantidade": 50,
-      "responsavel": "Leiliana",
-      "data": "2026-11-16",
-      "obs": "",
-      "criado_em": "2026-11-16 14:43:18",
-      "item": "Luva de látex tam. M",
       "usuario": "Leiliana"
     }
   ]
