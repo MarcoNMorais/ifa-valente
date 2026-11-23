@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "23/11/2026 14:44:52",
+  "atualizado_em": "23/11/2026 16:06:31",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
-    "total_almoxarifado": 112619,
-    "total_farmacia": 33681,
+    "total_almoxarifado": 112569,
+    "total_farmacia": 33731,
     "total_geral": 146300,
     "perto_de_terminar": 28,
     "zerados": 16
@@ -12719,8 +12719,8 @@
       "nome": "Polifix",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 3220,
-      "farmacia": 4,
+      "almoxarifado": 3170,
+      "farmacia": 54,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -12732,7 +12732,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-23 13:53:54",
+      "atualizado_em": "2026-11-23 16:06:29",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -12740,13 +12740,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 3220
+          "quantidade": 3170
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 4
+          "quantidade": 54
         }
       ],
       "minimo_manual": 0,
@@ -17747,6 +17747,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 6945,
+      "item_id": 329,
+      "produto_nome": "Polifix",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 50,
+      "responsavel": "Leiliana",
+      "data": "2026-11-19",
+      "obs": "",
+      "criado_em": "2026-11-23 16:06:29",
+      "item": "Polifix",
+      "usuario": "Leiliana"
+    },
     {
       "id": 6944,
       "item_id": 284,
@@ -25230,21 +25245,6 @@
       "obs": "",
       "criado_em": "2026-11-16 15:13:46",
       "item": "Agulha 30x7",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 6445,
-      "item_id": 390,
-      "produto_nome": "AGULHA  40X1,2",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 40,
-      "responsavel": "Leiliana",
-      "data": "2026-11-16",
-      "obs": "",
-      "criado_em": "2026-11-16 15:13:35",
-      "item": "AGULHA  40X1,2",
       "usuario": "Leiliana"
     }
   ]
