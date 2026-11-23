@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "23/11/2026 16:09:28",
+  "atualizado_em": "23/11/2026 16:09:37",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
     "total_almoxarifado": 111169,
-    "total_farmacia": 34826,
-    "total_geral": 145995,
+    "total_farmacia": 34796,
+    "total_geral": 145965,
     "perto_de_terminar": 28,
     "zerados": 16
   },
@@ -13460,19 +13460,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 5100,
-      "farmacia": 2688,
+      "farmacia": 2658,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 7788,
+      "total": 7758,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-23 14:02:05",
+      "atualizado_em": "2026-11-23 16:09:36",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -13486,17 +13486,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 2738
+          "quantidade": 2708
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 795,
-      "previsao_20_dias": 795,
+      "minimo_alerta": 800,
+      "previsao_20_dias": 800,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 103,
-      "media_diaria_saida": 39.71,
-      "total_saida_historica": 4090,
-      "cobertura_dias": 196.1,
+      "media_diaria_saida": 40.0,
+      "total_saida_historica": 4120,
+      "cobertura_dias": 193.9,
       "alerta_estoque": false
     },
     {
@@ -17741,6 +17741,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 6962,
+      "item_id": 104,
+      "produto_nome": "Seringa 3ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 30,
+      "responsavel": "Leiliana",
+      "data": "2026-11-19",
+      "obs": "",
+      "criado_em": "2026-11-23 16:09:36",
+      "item": "Seringa 3ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 6961,
       "item_id": 102,
@@ -25224,21 +25239,6 @@
       "obs": "",
       "criado_em": "2026-11-16 15:16:49",
       "item": "Bolsa coletora",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 6462,
-      "item_id": 180,
-      "produto_nome": "Luva de látex tam. P",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 1,
-      "responsavel": "Leiliana",
-      "data": "2026-11-16",
-      "obs": "",
-      "criado_em": "2026-11-16 15:16:39",
-      "item": "Luva de látex tam. P",
       "usuario": "Leiliana"
     }
   ]
