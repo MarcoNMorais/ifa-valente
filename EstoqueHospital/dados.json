@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "23/11/2026 13:44:59",
+  "atualizado_em": "23/11/2026 13:45:08",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
     "total_almoxarifado": 114228,
-    "total_farmacia": 34143,
-    "total_geral": 148371,
+    "total_farmacia": 34142,
+    "total_geral": 148370,
     "perto_de_terminar": 26,
     "zerados": 16
   },
@@ -10372,19 +10372,19 @@
       "tipo": "Material",
       "unidade": "Caixa",
       "almoxarifado": 70,
-      "farmacia": 148,
+      "farmacia": 147,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 218,
+      "total": 217,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-19 15:53:21",
+      "atualizado_em": "2026-11-23 13:45:07",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -10398,7 +10398,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 149
+          "quantidade": 148
         }
       ],
       "minimo_manual": 0,
@@ -10406,9 +10406,9 @@
       "previsao_20_dias": 170,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 103,
-      "media_diaria_saida": 8.47,
-      "total_saida_historica": 872,
-      "cobertura_dias": 25.8,
+      "media_diaria_saida": 8.48,
+      "total_saida_historica": 873,
+      "cobertura_dias": 25.6,
       "alerta_estoque": false
     },
     {
@@ -17789,6 +17789,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 6823,
+      "item_id": 180,
+      "produto_nome": "Luva de látex tam. P",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 1,
+      "responsavel": "Leiliana",
+      "data": "2026-11-19",
+      "obs": "",
+      "criado_em": "2026-11-23 13:45:07",
+      "item": "Luva de látex tam. P",
+      "usuario": "Leiliana"
+    },
     {
       "id": 6822,
       "item_id": 181,
@@ -25272,21 +25287,6 @@
       "obs": "",
       "criado_em": "2026-11-16 14:45:37",
       "item": "Seringa 1ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 6323,
-      "item_id": 393,
-      "produto_nome": "NYLON N°3",
-      "tipo": "Entrada no Almoxarifado",
-      "origem": "Entrada externa",
-      "destino": "Almoxarifado",
-      "quantidade": 168,
-      "responsavel": "Leiliana",
-      "data": "2026-11-16",
-      "obs": "",
-      "criado_em": "2026-11-16 14:45:20",
-      "item": "NYLON N°3",
       "usuario": "Leiliana"
     }
   ]
