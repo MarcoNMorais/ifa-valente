@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "23/11/2026 14:01:07",
+  "atualizado_em": "23/11/2026 14:01:15",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
     "total_almoxarifado": 113478,
-    "total_farmacia": 33327,
-    "total_geral": 146805,
+    "total_farmacia": 33317,
+    "total_geral": 146795,
     "perto_de_terminar": 28,
     "zerados": 16
   },
@@ -15986,19 +15986,19 @@
       "tipo": "Insumo",
       "unidade": "Unidade",
       "almoxarifado": 1050,
-      "farmacia": 131,
+      "farmacia": 121,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1181,
+      "total": 1171,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-23 13:54:14",
+      "atualizado_em": "2026-11-23 14:01:13",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -16012,17 +16012,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 179
+          "quantidade": 169
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 565,
-      "previsao_20_dias": 565,
+      "minimo_alerta": 567,
+      "previsao_20_dias": 567,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 103,
-      "media_diaria_saida": 28.21,
-      "total_saida_historica": 2906,
-      "cobertura_dias": 41.9,
+      "media_diaria_saida": 28.31,
+      "total_saida_historica": 2916,
+      "cobertura_dias": 41.4,
       "alerta_estoque": false
     },
     {
@@ -17771,6 +17771,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 6902,
+      "item_id": 203,
+      "produto_nome": "Soro fisiológico 250ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 10,
+      "responsavel": "Leiliana",
+      "data": "2026-11-19",
+      "obs": "",
+      "criado_em": "2026-11-23 14:01:13",
+      "item": "Soro fisiológico 250ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 6901,
       "item_id": 376,
@@ -25254,21 +25269,6 @@
       "obs": "",
       "criado_em": "2026-11-16 15:05:05",
       "item": "Dipirona",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 6402,
-      "item_id": 68,
-      "produto_nome": "Dexametasona",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 50,
-      "responsavel": "Leiliana",
-      "data": "2026-11-16",
-      "obs": "",
-      "criado_em": "2026-11-16 15:04:54",
-      "item": "Dexametasona",
       "usuario": "Leiliana"
     }
   ]
