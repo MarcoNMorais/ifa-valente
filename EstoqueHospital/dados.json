@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "23/11/2026 16:07:46",
+  "atualizado_em": "23/11/2026 16:07:58",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
     "total_almoxarifado": 111169,
-    "total_farmacia": 35054,
-    "total_geral": 146223,
+    "total_farmacia": 35032,
+    "total_geral": 146201,
     "perto_de_terminar": 28,
     "zerados": 16
   },
@@ -3633,19 +3633,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 307,
+      "farmacia": 285,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 307,
+      "total": 285,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-23 13:51:29",
+      "atualizado_em": "2026-11-23 16:07:56",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -3659,17 +3659,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 327
+          "quantidade": 305
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 249,
-      "previsao_20_dias": 249,
+      "minimo_alerta": 253,
+      "previsao_20_dias": 253,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 103,
-      "media_diaria_saida": 12.42,
-      "total_saida_historica": 1279,
-      "cobertura_dias": 24.7,
+      "media_diaria_saida": 12.63,
+      "total_saida_historica": 1301,
+      "cobertura_dias": 22.6,
       "alerta_estoque": false
     },
     {
@@ -17742,6 +17742,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 6952,
+      "item_id": 60,
+      "produto_nome": "Cetoprofeno EV 100mg",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 22,
+      "responsavel": "Leiliana",
+      "data": "2026-11-19",
+      "obs": "",
+      "criado_em": "2026-11-23 16:07:56",
+      "item": "Cetoprofeno EV 100mg",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 6951,
       "item_id": 56,
       "produto_nome": "Benzilpenicilina 600 UI",
@@ -25224,21 +25239,6 @@
       "obs": "",
       "criado_em": "2026-11-16 15:15:07",
       "item": "Lactulose solução",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 6452,
-      "item_id": 255,
-      "produto_nome": "Ibuprofeno gotas",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 1,
-      "responsavel": "Leiliana",
-      "data": "2026-11-16",
-      "obs": "",
-      "criado_em": "2026-11-16 15:14:58",
-      "item": "Ibuprofeno gotas",
       "usuario": "Leiliana"
     }
   ]
