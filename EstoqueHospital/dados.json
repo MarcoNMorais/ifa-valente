@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "23/11/2026 13:58:50",
+  "atualizado_em": "23/11/2026 13:59:29",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
     "total_almoxarifado": 113478,
-    "total_farmacia": 33527,
-    "total_geral": 147005,
+    "total_farmacia": 33513,
+    "total_geral": 146991,
     "perto_de_terminar": 28,
     "zerados": 16
   },
@@ -11449,19 +11449,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 70,
-      "farmacia": 94,
+      "farmacia": 80,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 164,
+      "total": 150,
       "minimo": 0,
       "validade": "2028-01",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-19 15:53:21",
+      "atualizado_em": "2026-11-23 13:59:27",
       "validade_mais_proxima": "2028-01",
       "vencimento_mais_proximo": "2028-01",
       "lotes_validade": [
@@ -11469,7 +11469,7 @@
           "local": "farmacia",
           "validade": "2028-01",
           "lote": "",
-          "quantidade": 94
+          "quantidade": 80
         },
         {
           "local": "almoxarifado",
@@ -11479,13 +11479,13 @@
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 37,
-      "previsao_20_dias": 37,
+      "minimo_alerta": 39,
+      "previsao_20_dias": 39,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 103,
-      "media_diaria_saida": 1.81,
-      "total_saida_historica": 186,
-      "cobertura_dias": 90.8,
+      "media_diaria_saida": 1.94,
+      "total_saida_historica": 200,
+      "cobertura_dias": 77.2,
       "alerta_estoque": false
     },
     {
@@ -17771,6 +17771,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 6891,
+      "item_id": 12,
+      "produto_nome": "Morfina 10mg/ml 1ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 14,
+      "responsavel": "Leiliana",
+      "data": "2026-11-19",
+      "obs": "",
+      "criado_em": "2026-11-23 13:59:27",
+      "item": "Morfina 10mg/ml 1ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 6890,
       "item_id": 13,
@@ -25254,21 +25269,6 @@
       "obs": "",
       "criado_em": "2026-11-16 15:02:55",
       "item": "Esparadrapo 10x4,5",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 6391,
-      "item_id": 179,
-      "produto_nome": "Dispositivo intravenoso Gelco nº 14",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 10,
-      "responsavel": "Leiliana",
-      "data": "2026-11-16",
-      "obs": "",
-      "criado_em": "2026-11-16 15:02:43",
-      "item": "Dispositivo intravenoso Gelco nº 14",
       "usuario": "Leiliana"
     }
   ]
