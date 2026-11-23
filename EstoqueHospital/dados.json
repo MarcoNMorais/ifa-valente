@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "23/11/2026 13:33:41",
+  "atualizado_em": "23/11/2026 13:33:54",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
     "total_almoxarifado": 115628,
-    "total_farmacia": 33848,
-    "total_geral": 149476,
+    "total_farmacia": 33847,
+    "total_geral": 149475,
     "perto_de_terminar": 26,
     "zerados": 16
   },
@@ -16326,19 +16326,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 21,
-      "farmacia": 4,
+      "farmacia": 3,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 25,
+      "total": 24,
       "minimo": 0,
       "validade": "2027-05",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-19 15:53:21",
+      "atualizado_em": "2026-11-23 13:33:52",
       "validade_mais_proxima": "2027-05",
       "vencimento_mais_proximo": "2027-05",
       "lotes_validade": [
@@ -16346,7 +16346,7 @@
           "local": "farmacia",
           "validade": "2027-05",
           "lote": "",
-          "quantidade": 4
+          "quantidade": 3
         },
         {
           "local": "almoxarifado",
@@ -16360,9 +16360,9 @@
       "previsao_20_dias": 3,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 103,
-      "media_diaria_saida": 0.13,
-      "total_saida_historica": 13,
-      "cobertura_dias": 198.1,
+      "media_diaria_saida": 0.14,
+      "total_saida_historica": 14,
+      "cobertura_dias": 176.6,
       "alerta_estoque": false
     },
     {
@@ -17795,6 +17795,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 6773,
+      "item_id": 3,
+      "produto_nome": "Succinil 100mg",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 1,
+      "responsavel": "Leiliana",
+      "data": "2026-11-19",
+      "obs": "",
+      "criado_em": "2026-11-23 13:33:52",
+      "item": "Succinil 100mg",
+      "usuario": "Leiliana"
+    },
     {
       "id": 6772,
       "item_id": 163,
@@ -25278,21 +25293,6 @@
       "obs": "",
       "criado_em": "2026-11-16 14:28:24",
       "item": "Hidrocortisona 100MG",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 6273,
-      "item_id": 205,
-      "produto_nome": "Soro glicose 5% 500ml",
-      "tipo": "Entrada no Almoxarifado",
-      "origem": "Entrada externa",
-      "destino": "Almoxarifado",
-      "quantidade": 67,
-      "responsavel": "Leiliana",
-      "data": "2026-11-16",
-      "obs": "",
-      "criado_em": "2026-11-16 14:28:03",
-      "item": "Soro glicose 5% 500ml",
       "usuario": "Leiliana"
     }
   ]
