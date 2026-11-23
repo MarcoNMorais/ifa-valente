@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "23/11/2026 14:08:39",
+  "atualizado_em": "23/11/2026 14:33:08",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
     "total_almoxarifado": 112643,
-    "total_farmacia": 33669,
-    "total_geral": 146312,
+    "total_farmacia": 33666,
+    "total_geral": 146309,
     "perto_de_terminar": 28,
     "zerados": 16
   },
@@ -6796,19 +6796,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 70,
-      "farmacia": 66,
+      "farmacia": 63,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 136,
+      "total": 133,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-19 15:53:21",
+      "atualizado_em": "2026-11-23 14:33:06",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -6822,7 +6822,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 66
+          "quantidade": 63
         }
       ],
       "minimo_manual": 0,
@@ -6830,9 +6830,9 @@
       "previsao_20_dias": 80,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 102,
-      "media_diaria_saida": 3.96,
-      "total_saida_historica": 404,
-      "cobertura_dias": 34.3,
+      "media_diaria_saida": 3.99,
+      "total_saida_historica": 407,
+      "cobertura_dias": 33.3,
       "alerta_estoque": false
     },
     {
@@ -17748,6 +17748,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 6941,
+      "item_id": 230,
+      "produto_nome": "Ferropurum 20mg/ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 3,
+      "responsavel": "Leiliana",
+      "data": "2026-11-19",
+      "obs": "",
+      "criado_em": "2026-11-23 14:33:06",
+      "item": "Ferropurum 20mg/ml",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 6940,
       "item_id": 39,
       "produto_nome": "Espironolactona 25mg",
@@ -25229,21 +25244,6 @@
       "data": "2026-11-16",
       "obs": "",
       "criado_em": "2026-11-16 15:12:55",
-      "item": "AGUA P/ INJ",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 6441,
-      "item_id": 382,
-      "produto_nome": "AGUA P/ INJ",
-      "tipo": "Almoxarifado para Farmácia",
-      "origem": "Almoxarifado",
-      "destino": "Farmácia",
-      "quantidade": 280,
-      "responsavel": "Leiliana",
-      "data": "2026-11-16",
-      "obs": "",
-      "criado_em": "2026-11-16 15:12:45",
       "item": "AGUA P/ INJ",
       "usuario": "Leiliana"
     }
