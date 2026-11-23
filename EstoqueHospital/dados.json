@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "23/11/2026 14:04:33",
+  "atualizado_em": "23/11/2026 14:04:42",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
     "total_almoxarifado": 113478,
-    "total_farmacia": 33111,
-    "total_geral": 146589,
+    "total_farmacia": 33091,
+    "total_geral": 146569,
     "perto_de_terminar": 28,
     "zerados": 16
   },
@@ -5513,19 +5513,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 380,
-      "farmacia": 192,
+      "farmacia": 172,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 572,
+      "total": 552,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-23 14:00:04",
+      "atualizado_em": "2026-11-23 14:04:40",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -5539,17 +5539,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 207
+          "quantidade": 187
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 196,
-      "previsao_20_dias": 196,
+      "minimo_alerta": 200,
+      "previsao_20_dias": 200,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 103,
-      "media_diaria_saida": 9.79,
-      "total_saida_historica": 1008,
-      "cobertura_dias": 58.4,
+      "media_diaria_saida": 9.98,
+      "total_saida_historica": 1028,
+      "cobertura_dias": 55.3,
       "alerta_estoque": false
     },
     {
@@ -17772,6 +17772,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 6921,
+      "item_id": 178,
+      "produto_nome": "Dispositivo intravenoso Gelco nº 20",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 20,
+      "responsavel": "Leiliana",
+      "data": "2026-11-19",
+      "obs": "",
+      "criado_em": "2026-11-23 14:04:40",
+      "item": "Dispositivo intravenoso Gelco nº 20",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 6920,
       "item_id": 390,
       "produto_nome": "AGULHA  40X1,2",
@@ -25254,21 +25269,6 @@
       "obs": "",
       "criado_em": "2026-11-16 15:09:10",
       "item": "Atadura crepon nº 10",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 6421,
-      "item_id": 274,
-      "produto_nome": "Seringa 20ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 30,
-      "responsavel": "Leiliana",
-      "data": "2026-11-16",
-      "obs": "",
-      "criado_em": "2026-11-16 15:09:00",
-      "item": "Seringa 20ml",
       "usuario": "Leiliana"
     }
   ]
