@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "23/11/2026 14:04:24",
+  "atualizado_em": "23/11/2026 14:04:33",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
     "total_almoxarifado": 113478,
-    "total_farmacia": 33151,
-    "total_geral": 146629,
+    "total_farmacia": 33111,
+    "total_geral": 146589,
     "perto_de_terminar": 28,
     "zerados": 16
   },
@@ -560,19 +560,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 5300,
-      "farmacia": 1055,
+      "farmacia": 1015,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 6355,
+      "total": 6315,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-23 13:59:37",
+      "atualizado_em": "2026-11-23 14:04:31",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -586,17 +586,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 1055
+          "quantidade": 1015
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 1789,
-      "previsao_20_dias": 1789,
+      "minimo_alerta": 1799,
+      "previsao_20_dias": 1799,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 81,
-      "media_diaria_saida": 89.44,
-      "total_saida_historica": 7245,
-      "cobertura_dias": 71.0,
+      "media_diaria_saida": 89.94,
+      "total_saida_historica": 7285,
+      "cobertura_dias": 70.2,
       "alerta_estoque": false
     },
     {
@@ -17772,6 +17772,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 6920,
+      "item_id": 390,
+      "produto_nome": "AGULHA  40X1,2",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 40,
+      "responsavel": "Leiliana",
+      "data": "2026-11-19",
+      "obs": "",
+      "criado_em": "2026-11-23 14:04:31",
+      "item": "AGULHA  40X1,2",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 6919,
       "item_id": 204,
       "produto_nome": "Soro fisiológico 500ml",
@@ -25254,21 +25269,6 @@
       "obs": "",
       "criado_em": "2026-11-16 15:09:00",
       "item": "Seringa 20ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 6420,
-      "item_id": 186,
-      "produto_nome": "Luva cirúrgica tam. 8",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 10,
-      "responsavel": "Leiliana",
-      "data": "2026-11-16",
-      "obs": "",
-      "criado_em": "2026-11-16 15:08:51",
-      "item": "Luva cirúrgica tam. 8",
       "usuario": "Leiliana"
     }
   ]
