@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "23/11/2026 13:55:27",
+  "atualizado_em": "23/11/2026 13:55:35",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
     "total_almoxarifado": 113478,
-    "total_farmacia": 33659,
-    "total_geral": 147137,
+    "total_farmacia": 33656,
+    "total_geral": 147134,
     "perto_de_terminar": 28,
     "zerados": 16
   },
@@ -5731,19 +5731,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 130,
+      "farmacia": 127,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 130,
+      "total": 127,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga Farmácia 227-288",
       "obs": "Importação Farmácia 227-288",
-      "atualizado_em": "2026-11-19 15:53:21",
+      "atualizado_em": "2026-11-23 13:55:34",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -5751,7 +5751,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 130
+          "quantidade": 127
         }
       ],
       "minimo_manual": 0,
@@ -5759,9 +5759,9 @@
       "previsao_20_dias": 13,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 98,
-      "media_diaria_saida": 0.61,
-      "total_saida_historica": 60,
-      "cobertura_dias": 212.3,
+      "media_diaria_saida": 0.64,
+      "total_saida_historica": 63,
+      "cobertura_dias": 197.6,
       "alerta_estoque": false
     },
     {
@@ -17778,6 +17778,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 6880,
+      "item_id": 226,
+      "produto_nome": "Enoxaparina sódica 40mg",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 3,
+      "responsavel": "Leiliana",
+      "data": "2026-11-19",
+      "obs": "",
+      "criado_em": "2026-11-23 13:55:34",
+      "item": "Enoxaparina sódica 40mg",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 6879,
       "item_id": 256,
       "produto_nome": "Simeticona gotas",
@@ -25260,21 +25275,6 @@
       "obs": "",
       "criado_em": "2026-11-16 15:00:21",
       "item": "AGULHA  40X1,2",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 6380,
-      "item_id": 241,
-      "produto_nome": "Lactulose solução",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 2,
-      "responsavel": "Leiliana",
-      "data": "2026-11-16",
-      "obs": "",
-      "criado_em": "2026-11-16 14:59:57",
-      "item": "Lactulose solução",
       "usuario": "Leiliana"
     }
   ]
