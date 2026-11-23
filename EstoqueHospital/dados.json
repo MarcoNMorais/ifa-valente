@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "23/11/2026 14:00:56",
+  "atualizado_em": "23/11/2026 14:01:07",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
     "total_almoxarifado": 113478,
-    "total_farmacia": 33330,
-    "total_geral": 146808,
+    "total_farmacia": 33327,
+    "total_geral": 146805,
     "perto_de_terminar": 28,
     "zerados": 16
   },
@@ -9581,19 +9581,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 96,
-      "farmacia": 4,
+      "farmacia": 1,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 100,
+      "total": 97,
       "minimo": 50,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-23 13:52:44",
+      "atualizado_em": "2026-11-23 14:01:05",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -9607,17 +9607,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 4
+          "quantidade": 1
         }
       ],
       "minimo_manual": 50,
-      "minimo_alerta": 25,
-      "previsao_20_dias": 25,
+      "minimo_alerta": 26,
+      "previsao_20_dias": 26,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 90,
-      "media_diaria_saida": 1.24,
-      "total_saida_historica": 112,
-      "cobertura_dias": 80.4,
+      "media_diaria_saida": 1.28,
+      "total_saida_historica": 115,
+      "cobertura_dias": 75.9,
       "alerta_estoque": false
     },
     {
@@ -17772,6 +17772,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 6901,
+      "item_id": 376,
+      "produto_nome": "LENÇOL DESCARTAVEL PAPEL",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 3,
+      "responsavel": "Leiliana",
+      "data": "2026-11-19",
+      "obs": "",
+      "criado_em": "2026-11-23 14:01:05",
+      "item": "LENÇOL DESCARTAVEL PAPEL",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 6900,
       "item_id": 115,
       "produto_nome": "Losartana potássica 50mg CPR",
@@ -25254,21 +25269,6 @@
       "obs": "",
       "criado_em": "2026-11-16 15:04:54",
       "item": "Dexametasona",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 6401,
-      "item_id": 59,
-      "produto_nome": "Ceftriaxona 1g",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 12,
-      "responsavel": "Leiliana",
-      "data": "2026-11-16",
-      "obs": "",
-      "criado_em": "2026-11-16 15:04:46",
-      "item": "Ceftriaxona 1g",
       "usuario": "Leiliana"
     }
   ]
