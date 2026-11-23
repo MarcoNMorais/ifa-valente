@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "23/11/2026 16:33:08",
+  "atualizado_em": "23/11/2026 16:33:20",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
     "total_almoxarifado": 111121,
-    "total_farmacia": 34638,
-    "total_geral": 145759,
+    "total_farmacia": 34623,
+    "total_geral": 145744,
     "perto_de_terminar": 28,
     "zerados": 16
   },
@@ -13236,19 +13236,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 1190,
-      "farmacia": 65,
+      "farmacia": 50,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1255,
+      "total": 1240,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-19 15:53:21",
+      "atualizado_em": "2026-11-23 16:33:18",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -13262,17 +13262,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 75
+          "quantidade": 60
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 190,
-      "previsao_20_dias": 190,
+      "minimo_alerta": 193,
+      "previsao_20_dias": 193,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 103,
-      "media_diaria_saida": 9.49,
-      "total_saida_historica": 977,
-      "cobertura_dias": 132.3,
+      "media_diaria_saida": 9.63,
+      "total_saida_historica": 992,
+      "cobertura_dias": 128.8,
       "alerta_estoque": false
     },
     {
@@ -17741,6 +17741,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 6969,
+      "item_id": 98,
+      "produto_nome": "Scalp nº 23",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 15,
+      "responsavel": "Leiliana",
+      "data": "2026-11-23",
+      "obs": "",
+      "criado_em": "2026-11-23 16:33:18",
+      "item": "Scalp nº 23",
+      "usuario": "Leiliana"
+    },
     {
       "id": 6968,
       "item_id": 104,
@@ -25224,21 +25239,6 @@
       "obs": "",
       "criado_em": "2026-11-16 15:18:22",
       "item": "ACIDO ASCORBICO",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 6469,
-      "item_id": 228,
-      "produto_nome": "Omeprazol sódico 40mg AMP",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 8,
-      "responsavel": "Leiliana",
-      "data": "2026-11-16",
-      "obs": "",
-      "criado_em": "2026-11-16 15:18:12",
-      "item": "Omeprazol sódico 40mg AMP",
       "usuario": "Leiliana"
     }
   ]
