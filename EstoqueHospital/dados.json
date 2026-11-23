@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "23/11/2026 14:00:36",
+  "atualizado_em": "23/11/2026 14:00:45",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
     "total_almoxarifado": 113478,
-    "total_farmacia": 33342,
-    "total_geral": 146820,
+    "total_farmacia": 33340,
+    "total_geral": 146818,
     "perto_de_terminar": 28,
     "zerados": 16
   },
@@ -13094,19 +13094,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 37,
-      "farmacia": 5,
+      "farmacia": 3,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 42,
+      "total": 40,
       "minimo": 0,
       "validade": "12/26",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-23 13:33:25",
+      "atualizado_em": "2026-11-23 14:00:43",
       "validade_mais_proxima": "12/26",
       "vencimento_mais_proximo": "12/26",
       "lotes_validade": [
@@ -13114,7 +13114,7 @@
           "local": "farmacia",
           "validade": "12/26",
           "lote": "",
-          "quantidade": 5
+          "quantidade": 3
         },
         {
           "local": "almoxarifado",
@@ -13128,9 +13128,9 @@
       "previsao_20_dias": 7,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 101,
-      "media_diaria_saida": 0.31,
-      "total_saida_historica": 31,
-      "cobertura_dias": 136.8,
+      "media_diaria_saida": 0.33,
+      "total_saida_historica": 33,
+      "cobertura_dias": 122.4,
       "alerta_estoque": false
     },
     {
@@ -17771,6 +17771,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 6899,
+      "item_id": 252,
+      "produto_nome": "Salbutamol spray",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 2,
+      "responsavel": "Leiliana",
+      "data": "2026-11-19",
+      "obs": "",
+      "criado_em": "2026-11-23 14:00:43",
+      "item": "Salbutamol spray",
+      "usuario": "Leiliana"
+    },
     {
       "id": 6898,
       "item_id": 249,
@@ -25253,21 +25268,6 @@
       "data": "2026-11-16",
       "obs": "",
       "criado_em": "2026-11-16 15:04:35",
-      "item": "Soro fisiológico 100ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 6399,
-      "item_id": 202,
-      "produto_nome": "Soro fisiológico 100ml",
-      "tipo": "Almoxarifado para Farmácia",
-      "origem": "Almoxarifado",
-      "destino": "Farmácia",
-      "quantidade": 180,
-      "responsavel": "Leiliana",
-      "data": "2026-11-16",
-      "obs": "",
-      "criado_em": "2026-11-16 15:04:22",
       "item": "Soro fisiológico 100ml",
       "usuario": "Leiliana"
     }
