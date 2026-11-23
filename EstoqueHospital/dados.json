@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "23/11/2026 14:07:24",
+  "atualizado_em": "23/11/2026 14:07:34",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
-    "total_almoxarifado": 113008,
-    "total_farmacia": 33357,
+    "total_almoxarifado": 112873,
+    "total_farmacia": 33492,
     "total_geral": 146365,
     "perto_de_terminar": 28,
     "zerados": 16
@@ -10031,8 +10031,8 @@
       "nome": "Losartana potássica 50mg CPR",
       "tipo": "Medicamento",
       "unidade": "Unidade",
-      "almoxarifado": 135,
-      "farmacia": 0,
+      "almoxarifado": 0,
+      "farmacia": 135,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -10044,12 +10044,12 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-23 14:07:22",
+      "atualizado_em": "2026-11-23 14:07:32",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
         {
-          "local": "almoxarifado",
+          "local": "farmacia",
           "validade": "",
           "lote": "",
           "quantidade": 135
@@ -17748,6 +17748,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 6936,
+      "item_id": 115,
+      "produto_nome": "Losartana potássica 50mg CPR",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 135,
+      "responsavel": "Leiliana",
+      "data": "2026-11-19",
+      "obs": "",
+      "criado_em": "2026-11-23 14:07:32",
+      "item": "Losartana potássica 50mg CPR",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 6935,
       "item_id": 115,
       "produto_nome": "Losartana potássica 50mg CPR",
@@ -25230,21 +25245,6 @@
       "obs": "",
       "criado_em": "2026-11-16 15:12:00",
       "item": "Dipirona",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 6436,
-      "item_id": 56,
-      "produto_nome": "Benzilpenicilina 600 UI",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 6,
-      "responsavel": "Leiliana",
-      "data": "2026-11-16",
-      "obs": "",
-      "criado_em": "2026-11-16 15:11:51",
-      "item": "Benzilpenicilina 600 UI",
       "usuario": "Leiliana"
     }
   ]
