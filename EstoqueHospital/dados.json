@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "23/11/2026 13:45:29",
+  "atualizado_em": "23/11/2026 13:45:37",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
     "total_almoxarifado": 114228,
-    "total_farmacia": 34139,
-    "total_geral": 148367,
+    "total_farmacia": 34138,
+    "total_geral": 148366,
     "perto_de_terminar": 26,
     "zerados": 16
   },
@@ -9593,19 +9593,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 96,
-      "farmacia": 7,
+      "farmacia": 6,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 103,
+      "total": 102,
       "minimo": 50,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-23 13:38:35",
+      "atualizado_em": "2026-11-23 13:45:35",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -9619,7 +9619,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 7
+          "quantidade": 6
         }
       ],
       "minimo_manual": 50,
@@ -9627,9 +9627,9 @@
       "previsao_20_dias": 25,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 90,
-      "media_diaria_saida": 1.21,
-      "total_saida_historica": 109,
-      "cobertura_dias": 85.0,
+      "media_diaria_saida": 1.22,
+      "total_saida_historica": 110,
+      "cobertura_dias": 83.5,
       "alerta_estoque": false
     },
     {
@@ -17790,6 +17790,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 6826,
+      "item_id": 376,
+      "produto_nome": "LENÇOL DESCARTAVEL PAPEL",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 1,
+      "responsavel": "Leiliana",
+      "data": "2026-11-19",
+      "obs": "",
+      "criado_em": "2026-11-23 13:45:35",
+      "item": "LENÇOL DESCARTAVEL PAPEL",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 6825,
       "item_id": 155,
       "produto_nome": "Bolsa coletora",
@@ -25272,21 +25287,6 @@
       "obs": "",
       "criado_em": "2026-11-16 14:46:13",
       "item": "Seringa 10ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 6326,
-      "item_id": 102,
-      "produto_nome": "Seringa 5ml",
-      "tipo": "Entrada no Almoxarifado",
-      "origem": "Entrada externa",
-      "destino": "Almoxarifado",
-      "quantidade": 2100,
-      "responsavel": "Leiliana",
-      "data": "2026-11-16",
-      "obs": "",
-      "criado_em": "2026-11-16 14:46:00",
-      "item": "Seringa 5ml",
       "usuario": "Leiliana"
     }
   ]
