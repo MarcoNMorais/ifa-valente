@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "23/11/2026 14:05:46",
+  "atualizado_em": "23/11/2026 14:05:56",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
     "total_almoxarifado": 113128,
-    "total_farmacia": 33334,
-    "total_geral": 146462,
+    "total_farmacia": 33304,
+    "total_geral": 146432,
     "perto_de_terminar": 28,
     "zerados": 16
   },
@@ -17450,19 +17450,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 80,
+      "farmacia": 50,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 80,
+      "total": 50,
       "minimo": 0,
       "validade": "2027-05",
       "lote": "",
       "origem": "Carga inicial Farmácia",
       "obs": "Estoque inicial digitado a partir das fichas da Farmácia",
-      "atualizado_em": "2026-11-19 15:53:21",
+      "atualizado_em": "2026-11-23 14:05:55",
       "validade_mais_proxima": "2027-05",
       "vencimento_mais_proximo": "2027-05",
       "lotes_validade": [
@@ -17470,17 +17470,17 @@
           "local": "farmacia",
           "validade": "2027-05",
           "lote": "",
-          "quantidade": 80
+          "quantidade": 50
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 90,
-      "previsao_20_dias": 90,
+      "minimo_alerta": 96,
+      "previsao_20_dias": 96,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 103,
-      "media_diaria_saida": 4.47,
-      "total_saida_historica": 460,
-      "cobertura_dias": 17.9,
+      "media_diaria_saida": 4.76,
+      "total_saida_historica": 490,
+      "cobertura_dias": 10.5,
       "alerta_estoque": true
     },
     {
@@ -17765,6 +17765,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 6927,
+      "item_id": 53,
+      "produto_nome": "Ácido Tranexâmico 50mg",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 30,
+      "responsavel": "Leiliana",
+      "data": "2026-11-19",
+      "obs": "",
+      "criado_em": "2026-11-23 14:05:55",
+      "item": "Ácido Tranexâmico 50mg",
+      "usuario": "Leiliana"
+    },
     {
       "id": 6926,
       "item_id": 228,
@@ -25248,21 +25263,6 @@
       "obs": "",
       "criado_em": "2026-11-16 15:10:23",
       "item": "NYLON N°3",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 6427,
-      "item_id": 291,
-      "produto_nome": "Cateter tipo óculos adulto",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 3,
-      "responsavel": "Leiliana",
-      "data": "2026-11-16",
-      "obs": "",
-      "criado_em": "2026-11-16 15:10:13",
-      "item": "Cateter tipo óculos adulto",
       "usuario": "Leiliana"
     }
   ]
