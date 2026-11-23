@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "23/11/2026 14:07:16",
+  "atualizado_em": "23/11/2026 14:07:24",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
     "total_almoxarifado": 113008,
-    "total_farmacia": 33372,
-    "total_geral": 146380,
+    "total_farmacia": 33357,
+    "total_geral": 146365,
     "perto_de_terminar": 28,
     "zerados": 16
   },
@@ -10032,28 +10032,22 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 135,
-      "farmacia": 15,
+      "farmacia": 0,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 150,
+      "total": 135,
       "minimo": 0,
-      "validade": "2028-03",
+      "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-23 14:00:54",
-      "validade_mais_proxima": "2028-03",
-      "vencimento_mais_proximo": "2028-03",
+      "atualizado_em": "2026-11-23 14:07:22",
+      "validade_mais_proxima": "",
+      "vencimento_mais_proximo": "",
       "lotes_validade": [
-        {
-          "local": "farmacia",
-          "validade": "2028-03",
-          "lote": "",
-          "quantidade": 15
-        },
         {
           "local": "almoxarifado",
           "validade": "",
@@ -10062,13 +10056,13 @@
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 21,
-      "previsao_20_dias": 21,
+      "minimo_alerta": 24,
+      "previsao_20_dias": 24,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 103,
-      "media_diaria_saida": 1.02,
-      "total_saida_historica": 105,
-      "cobertura_dias": 147.1,
+      "media_diaria_saida": 1.17,
+      "total_saida_historica": 120,
+      "cobertura_dias": 115.9,
       "alerta_estoque": false
     },
     {
@@ -17754,6 +17748,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 6935,
+      "item_id": 115,
+      "produto_nome": "Losartana potássica 50mg CPR",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 15,
+      "responsavel": "Leiliana",
+      "data": "2026-11-19",
+      "obs": "",
+      "criado_em": "2026-11-23 14:07:22",
+      "item": "Losartana potássica 50mg CPR",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 6934,
       "item_id": 27,
       "produto_nome": "Paracetamol 500mg",
@@ -25236,21 +25245,6 @@
       "obs": "",
       "criado_em": "2026-11-16 15:11:51",
       "item": "Benzilpenicilina 600 UI",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 6435,
-      "item_id": 55,
-      "produto_nome": "Benzilpenicilina 1.200",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 15,
-      "responsavel": "Leiliana",
-      "data": "2026-11-16",
-      "obs": "",
-      "criado_em": "2026-11-16 15:11:43",
-      "item": "Benzilpenicilina 1.200",
       "usuario": "Leiliana"
     }
   ]
