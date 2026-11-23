@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "23/11/2026 13:55:05",
+  "atualizado_em": "23/11/2026 13:55:17",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
     "total_almoxarifado": 113478,
-    "total_farmacia": 33664,
-    "total_geral": 147142,
+    "total_farmacia": 33661,
+    "total_geral": 147139,
     "perto_de_terminar": 28,
     "zerados": 16
   },
@@ -5771,19 +5771,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 38,
+      "farmacia": 35,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 38,
+      "total": 35,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga Farmácia 227-288",
       "obs": "Importação Farmácia 227-288",
-      "atualizado_em": "2026-11-19 15:53:21",
+      "atualizado_em": "2026-11-23 13:55:16",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -5791,17 +5791,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 38
+          "quantidade": 35
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 8,
-      "previsao_20_dias": 8,
+      "minimo_alerta": 9,
+      "previsao_20_dias": 9,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 98,
-      "media_diaria_saida": 0.4,
-      "total_saida_historica": 39,
-      "cobertura_dias": 95.5,
+      "media_diaria_saida": 0.43,
+      "total_saida_historica": 42,
+      "cobertura_dias": 81.7,
       "alerta_estoque": false
     },
     {
@@ -17778,6 +17778,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 6878,
+      "item_id": 227,
+      "produto_nome": "Enoxaparina sódica 60mg",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 3,
+      "responsavel": "Leiliana",
+      "data": "2026-11-19",
+      "obs": "",
+      "criado_em": "2026-11-23 13:55:16",
+      "item": "Enoxaparina sódica 60mg",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 6877,
       "item_id": 403,
       "produto_nome": "vancomicina",
@@ -25260,21 +25275,6 @@
       "obs": "",
       "criado_em": "2026-11-16 14:59:50",
       "item": "Simeticona gotas",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 6378,
-      "item_id": 195,
-      "produto_nome": "Tira Reagente G-Tech",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 1,
-      "responsavel": "Leiliana",
-      "data": "2026-11-16",
-      "obs": "",
-      "criado_em": "2026-11-16 14:59:22",
-      "item": "Tira Reagente G-Tech",
       "usuario": "Leiliana"
     }
   ]
