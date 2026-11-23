@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "23/11/2026 13:40:22",
+  "atualizado_em": "23/11/2026 13:40:31",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
     "total_almoxarifado": 115628,
-    "total_farmacia": 33252,
-    "total_geral": 148880,
+    "total_farmacia": 33251,
+    "total_geral": 148879,
     "perto_de_terminar": 26,
     "zerados": 16
   },
@@ -8297,19 +8297,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 77,
-      "farmacia": 25,
+      "farmacia": 24,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 102,
+      "total": 101,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-19 15:53:21",
+      "atualizado_em": "2026-11-23 13:40:29",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -8323,7 +8323,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 25
+          "quantidade": 24
         }
       ],
       "minimo_manual": 0,
@@ -8331,9 +8331,9 @@
       "previsao_20_dias": 7,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 98,
-      "media_diaria_saida": 0.31,
-      "total_saida_historica": 30,
-      "cobertura_dias": 333.2,
+      "media_diaria_saida": 0.32,
+      "total_saida_historica": 31,
+      "cobertura_dias": 319.3,
       "alerta_estoque": false
     },
     {
@@ -17796,6 +17796,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 6799,
+      "item_id": 294,
+      "produto_nome": "Glicerina 12%",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 1,
+      "responsavel": "Leiliana",
+      "data": "2026-11-19",
+      "obs": "",
+      "criado_em": "2026-11-23 13:40:29",
+      "item": "Glicerina 12%",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 6798,
       "item_id": 185,
       "produto_nome": "Luva cirúrgica tam. 7,5",
@@ -25278,21 +25293,6 @@
       "obs": "",
       "criado_em": "2026-11-16 14:37:13",
       "item": "Haloperidol 5mg/ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 6299,
-      "item_id": 22,
-      "produto_nome": "Cloridrato tiamina 100mg/ml 1ml",
-      "tipo": "Entrada no Almoxarifado",
-      "origem": "Entrada externa",
-      "destino": "Almoxarifado",
-      "quantidade": 56,
-      "responsavel": "Leiliana",
-      "data": "2026-11-16",
-      "obs": "",
-      "criado_em": "2026-11-16 14:36:58",
-      "item": "Cloridrato tiamina 100mg/ml 1ml",
       "usuario": "Leiliana"
     }
   ]
