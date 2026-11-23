@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "23/11/2026 14:05:02",
+  "atualizado_em": "23/11/2026 14:05:26",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
-    "total_almoxarifado": 113478,
-    "total_farmacia": 33021,
+    "total_almoxarifado": 113128,
+    "total_farmacia": 33371,
     "total_geral": 146499,
     "perto_de_terminar": 28,
     "zerados": 16
@@ -3142,8 +3142,8 @@
       "nome": "Bromoprida 5mg",
       "tipo": "Medicamento",
       "unidade": "Unidade",
-      "almoxarifado": 350,
-      "farmacia": 9,
+      "almoxarifado": 0,
+      "farmacia": 359,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -3155,21 +3155,15 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-23 13:43:19",
+      "atualizado_em": "2026-11-23 14:05:24",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
         {
-          "local": "almoxarifado",
-          "validade": "",
-          "lote": "",
-          "quantidade": 350
-        },
-        {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 9
+          "quantidade": 359
         }
       ],
       "minimo_manual": 0,
@@ -17772,6 +17766,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 6924,
+      "item_id": 57,
+      "produto_nome": "Bromoprida 5mg",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 350,
+      "responsavel": "Leiliana",
+      "data": "2026-11-19",
+      "obs": "",
+      "criado_em": "2026-11-23 14:05:24",
+      "item": "Bromoprida 5mg",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 6923,
       "item_id": 62,
       "produto_nome": "Cimetidina 150mg",
@@ -25254,21 +25263,6 @@
       "obs": "",
       "criado_em": "2026-11-16 15:09:51",
       "item": "Luva de vinil P",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 6424,
-      "item_id": 227,
-      "produto_nome": "Enoxaparina sódica 60mg",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 4,
-      "responsavel": "Leiliana",
-      "data": "2026-11-16",
-      "obs": "",
-      "criado_em": "2026-11-16 15:09:39",
-      "item": "Enoxaparina sódica 60mg",
       "usuario": "Leiliana"
     }
   ]
