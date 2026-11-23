@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "23/11/2026 13:55:17",
+  "atualizado_em": "23/11/2026 13:55:27",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
     "total_almoxarifado": 113478,
-    "total_farmacia": 33661,
-    "total_geral": 147139,
+    "total_farmacia": 33659,
+    "total_geral": 147137,
     "perto_de_terminar": 28,
     "zerados": 16
   },
@@ -13714,19 +13714,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 35,
-      "farmacia": 13,
+      "farmacia": 11,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 48,
+      "total": 46,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-19 15:53:21",
+      "atualizado_em": "2026-11-23 13:55:25",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -13740,7 +13740,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 13
+          "quantidade": 11
         }
       ],
       "minimo_manual": 0,
@@ -13748,9 +13748,9 @@
       "previsao_20_dias": 20,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 102,
-      "media_diaria_saida": 0.97,
-      "total_saida_historica": 99,
-      "cobertura_dias": 49.5,
+      "media_diaria_saida": 0.99,
+      "total_saida_historica": 101,
+      "cobertura_dias": 46.5,
       "alerta_estoque": false
     },
     {
@@ -17777,6 +17777,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 6879,
+      "item_id": 256,
+      "produto_nome": "Simeticona gotas",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 2,
+      "responsavel": "Leiliana",
+      "data": "2026-11-19",
+      "obs": "",
+      "criado_em": "2026-11-23 13:55:25",
+      "item": "Simeticona gotas",
+      "usuario": "Leiliana"
+    },
     {
       "id": 6878,
       "item_id": 227,
@@ -25260,21 +25275,6 @@
       "obs": "",
       "criado_em": "2026-11-16 14:59:57",
       "item": "Lactulose solução",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 6379,
-      "item_id": 256,
-      "produto_nome": "Simeticona gotas",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 4,
-      "responsavel": "Leiliana",
-      "data": "2026-11-16",
-      "obs": "",
-      "criado_em": "2026-11-16 14:59:50",
-      "item": "Simeticona gotas",
       "usuario": "Leiliana"
     }
   ]
