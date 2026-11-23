@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "23/11/2026 14:05:56",
+  "atualizado_em": "23/11/2026 14:06:09",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
     "total_almoxarifado": 113128,
-    "total_farmacia": 33304,
-    "total_geral": 146432,
+    "total_farmacia": 33294,
+    "total_geral": 146422,
     "perto_de_terminar": 28,
     "zerados": 16
   },
@@ -8801,19 +8801,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 215,
-      "farmacia": 91,
+      "farmacia": 81,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 306,
+      "total": 296,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-19 15:53:21",
+      "atualizado_em": "2026-11-23 14:06:07",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -8827,17 +8827,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 101
+          "quantidade": 91
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 130,
-      "previsao_20_dias": 130,
+      "minimo_alerta": 132,
+      "previsao_20_dias": 132,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 103,
-      "media_diaria_saida": 6.48,
-      "total_saida_historica": 667,
-      "cobertura_dias": 47.3,
+      "media_diaria_saida": 6.57,
+      "total_saida_historica": 677,
+      "cobertura_dias": 45.0,
       "alerta_estoque": false
     },
     {
@@ -17766,6 +17766,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 6928,
+      "item_id": 82,
+      "produto_nome": "Hidrocortisona 100MG",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 10,
+      "responsavel": "Leiliana",
+      "data": "2026-11-19",
+      "obs": "",
+      "criado_em": "2026-11-23 14:06:07",
+      "item": "Hidrocortisona 100MG",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 6927,
       "item_id": 53,
       "produto_nome": "Ácido Tranexâmico 50mg",
@@ -25248,21 +25263,6 @@
       "obs": "",
       "criado_em": "2026-11-16 15:10:42",
       "item": "Fio Nylon nº 0",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 6428,
-      "item_id": 393,
-      "produto_nome": "NYLON N°3",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 24,
-      "responsavel": "Leiliana",
-      "data": "2026-11-16",
-      "obs": "",
-      "criado_em": "2026-11-16 15:10:23",
-      "item": "NYLON N°3",
       "usuario": "Leiliana"
     }
   ]
