@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "23/11/2026 13:47:16",
+  "atualizado_em": "23/11/2026 13:47:43",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
     "total_almoxarifado": 114228,
-    "total_farmacia": 33949,
-    "total_geral": 148177,
+    "total_farmacia": 33889,
+    "total_geral": 148117,
     "perto_de_terminar": 26,
     "zerados": 16
   },
@@ -560,19 +560,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 5300,
-      "farmacia": 1285,
+      "farmacia": 1225,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 6585,
+      "total": 6525,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-23 13:41:38",
+      "atualizado_em": "2026-11-23 13:47:41",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -586,17 +586,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 1285
+          "quantidade": 1225
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 1733,
-      "previsao_20_dias": 1733,
+      "minimo_alerta": 1747,
+      "previsao_20_dias": 1747,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 81,
-      "media_diaria_saida": 86.6,
-      "total_saida_historica": 7015,
-      "cobertura_dias": 76.0,
+      "media_diaria_saida": 87.35,
+      "total_saida_historica": 7075,
+      "cobertura_dias": 74.7,
       "alerta_estoque": false
     },
     {
@@ -17790,6 +17790,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 6837,
+      "item_id": 390,
+      "produto_nome": "AGULHA  40X1,2",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 60,
+      "responsavel": "Leiliana",
+      "data": "2026-11-19",
+      "obs": "",
+      "criado_em": "2026-11-23 13:47:41",
+      "item": "AGULHA  40X1,2",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 6836,
       "item_id": 201,
       "produto_nome": "Soro Ringer Lactato 500ml",
@@ -25272,21 +25287,6 @@
       "obs": "",
       "criado_em": "2026-11-16 14:50:02",
       "item": "Dispositivo intravenoso Gelco nº 18",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 6337,
-      "item_id": 396,
-      "produto_nome": "Dispositivo intravenoso Gelco nº 16",
-      "tipo": "Entrada no Almoxarifado",
-      "origem": "Entrada externa",
-      "destino": "Almoxarifado",
-      "quantidade": 100,
-      "responsavel": "Leiliana",
-      "data": "2026-11-16",
-      "obs": "",
-      "criado_em": "2026-11-16 14:49:50",
-      "item": "Dispositivo intravenoso Gelco nº 16",
       "usuario": "Leiliana"
     }
   ]
