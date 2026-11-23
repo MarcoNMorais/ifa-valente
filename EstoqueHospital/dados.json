@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "23/11/2026 14:03:05",
+  "atualizado_em": "23/11/2026 14:03:15",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
     "total_almoxarifado": 113478,
-    "total_farmacia": 33204,
-    "total_geral": 146682,
+    "total_farmacia": 33203,
+    "total_geral": 146681,
     "perto_de_terminar": 28,
     "zerados": 16
   },
@@ -7597,19 +7597,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 177,
-      "farmacia": 7,
+      "farmacia": 6,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 184,
+      "total": 183,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-19 15:53:21",
+      "atualizado_em": "2026-11-23 14:03:13",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -7623,7 +7623,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 9
+          "quantidade": 8
         }
       ],
       "minimo_manual": 0,
@@ -7631,9 +7631,9 @@
       "previsao_20_dias": 6,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 103,
-      "media_diaria_saida": 0.25,
-      "total_saida_historica": 26,
-      "cobertura_dias": 728.9,
+      "media_diaria_saida": 0.26,
+      "total_saida_historica": 27,
+      "cobertura_dias": 698.1,
       "alerta_estoque": false
     },
     {
@@ -17772,6 +17772,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 6914,
+      "item_id": 175,
+      "produto_nome": "Fita cirúrgica microporosa",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 1,
+      "responsavel": "Leiliana",
+      "data": "2026-11-19",
+      "obs": "",
+      "criado_em": "2026-11-23 14:03:13",
+      "item": "Fita cirúrgica microporosa",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 6913,
       "item_id": 276,
       "produto_nome": "Esparadrapo 10x4,5",
@@ -25254,21 +25269,6 @@
       "obs": "",
       "criado_em": "2026-11-16 15:07:43",
       "item": "Seringa 10ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 6414,
-      "item_id": 382,
-      "produto_nome": "AGUA P/ INJ",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 20,
-      "responsavel": "Leiliana",
-      "data": "2026-11-16",
-      "obs": "",
-      "criado_em": "2026-11-16 15:07:30",
-      "item": "AGUA P/ INJ",
       "usuario": "Leiliana"
     }
   ]
