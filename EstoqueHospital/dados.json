@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "23/11/2026 13:46:09",
+  "atualizado_em": "23/11/2026 13:46:18",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
     "total_almoxarifado": 114228,
-    "total_farmacia": 34045,
-    "total_geral": 148273,
+    "total_farmacia": 34025,
+    "total_geral": 148253,
     "perto_de_terminar": 26,
     "zerados": 16
   },
@@ -8067,19 +8067,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 1160,
-      "farmacia": 193,
+      "farmacia": 173,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1353,
+      "total": 1333,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-23 13:38:05",
+      "atualizado_em": "2026-11-23 13:46:17",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -8093,17 +8093,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 193
+          "quantidade": 173
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 442,
-      "previsao_20_dias": 442,
+      "minimo_alerta": 446,
+      "previsao_20_dias": 446,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 103,
-      "media_diaria_saida": 22.09,
-      "total_saida_historica": 2275,
-      "cobertura_dias": 61.3,
+      "media_diaria_saida": 22.28,
+      "total_saida_historica": 2295,
+      "cobertura_dias": 59.8,
       "alerta_estoque": false
     },
     {
@@ -17790,6 +17790,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 6830,
+      "item_id": 177,
+      "produto_nome": "Gelco nº 22",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 20,
+      "responsavel": "Leiliana",
+      "data": "2026-11-19",
+      "obs": "",
+      "criado_em": "2026-11-23 13:46:17",
+      "item": "Gelco nº 22",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 6829,
       "item_id": 287,
       "produto_nome": "Agulha 13x4,5",
@@ -25272,21 +25287,6 @@
       "obs": "",
       "criado_em": "2026-11-16 14:47:43",
       "item": "tubo endotraqueal n°7,5",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 6330,
-      "item_id": 173,
-      "produto_nome": "Sonda Foley nº 16 - 2 vias",
-      "tipo": "Entrada no Almoxarifado",
-      "origem": "Entrada externa",
-      "destino": "Almoxarifado",
-      "quantidade": 6,
-      "responsavel": "Leiliana",
-      "data": "2026-11-16",
-      "obs": "",
-      "criado_em": "2026-11-16 14:47:25",
-      "item": "Sonda Foley nº 16 - 2 vias",
       "usuario": "Leiliana"
     }
   ]
