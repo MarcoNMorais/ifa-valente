@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "23/11/2026 14:03:15",
+  "atualizado_em": "23/11/2026 14:03:33",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
     "total_almoxarifado": 113478,
-    "total_farmacia": 33203,
-    "total_geral": 146681,
+    "total_farmacia": 33201,
+    "total_geral": 146679,
     "perto_de_terminar": 28,
     "zerados": 16
   },
@@ -2897,19 +2897,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 97,
-      "farmacia": 28,
+      "farmacia": 26,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 125,
+      "total": 123,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-23 14:02:54",
+      "atualizado_em": "2026-11-23 14:03:31",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -2923,7 +2923,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 28
+          "quantidade": 26
         }
       ],
       "minimo_manual": 0,
@@ -2931,9 +2931,9 @@
       "previsao_20_dias": 18,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 103,
-      "media_diaria_saida": 0.86,
-      "total_saida_historica": 89,
-      "cobertura_dias": 144.7,
+      "media_diaria_saida": 0.88,
+      "total_saida_historica": 91,
+      "cobertura_dias": 139.2,
       "alerta_estoque": false
     },
     {
@@ -17772,6 +17772,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 6915,
+      "item_id": 155,
+      "produto_nome": "Bolsa coletora",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 2,
+      "responsavel": "Leiliana",
+      "data": "2026-11-19",
+      "obs": "",
+      "criado_em": "2026-11-23 14:03:31",
+      "item": "Bolsa coletora",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 6914,
       "item_id": 175,
       "produto_nome": "Fita cirúrgica microporosa",
@@ -25254,21 +25269,6 @@
       "obs": "",
       "criado_em": "2026-11-16 15:07:54",
       "item": "Seringa 5ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 6415,
-      "item_id": 103,
-      "produto_nome": "Seringa 10ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 90,
-      "responsavel": "Leiliana",
-      "data": "2026-11-16",
-      "obs": "",
-      "criado_em": "2026-11-16 15:07:43",
-      "item": "Seringa 10ml",
       "usuario": "Leiliana"
     }
   ]
