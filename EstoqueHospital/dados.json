@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "23/11/2026 13:51:20",
+  "atualizado_em": "23/11/2026 13:51:31",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
     "total_almoxarifado": 114228,
-    "total_farmacia": 33306,
-    "total_geral": 147534,
+    "total_farmacia": 33296,
+    "total_geral": 147524,
     "perto_de_terminar": 26,
     "zerados": 16
   },
@@ -3639,19 +3639,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 317,
+      "farmacia": 307,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 317,
+      "total": 307,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-23 13:48:44",
+      "atualizado_em": "2026-11-23 13:51:29",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -3665,17 +3665,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 337
+          "quantidade": 327
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 247,
-      "previsao_20_dias": 247,
+      "minimo_alerta": 249,
+      "previsao_20_dias": 249,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 103,
-      "media_diaria_saida": 12.32,
-      "total_saida_historica": 1269,
-      "cobertura_dias": 25.7,
+      "media_diaria_saida": 12.42,
+      "total_saida_historica": 1279,
+      "cobertura_dias": 24.7,
       "alerta_estoque": false
     },
     {
@@ -17790,6 +17790,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 6858,
+      "item_id": 60,
+      "produto_nome": "Cetoprofeno EV 100mg",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 10,
+      "responsavel": "Leiliana",
+      "data": "2026-11-19",
+      "obs": "",
+      "criado_em": "2026-11-23 13:51:29",
+      "item": "Cetoprofeno EV 100mg",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 6857,
       "item_id": 68,
       "produto_nome": "Dexametasona",
@@ -25272,21 +25287,6 @@
       "obs": "",
       "criado_em": "2026-11-16 14:55:21",
       "item": "Tramadol 50mg/ml 2ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 6358,
-      "item_id": 66,
-      "produto_nome": "Complexo B",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 100,
-      "responsavel": "Leiliana",
-      "data": "2026-11-16",
-      "obs": "",
-      "criado_em": "2026-11-16 14:55:11",
-      "item": "Complexo B",
       "usuario": "Leiliana"
     }
   ]
