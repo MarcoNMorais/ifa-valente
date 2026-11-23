@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "23/11/2026 13:59:29",
+  "atualizado_em": "23/11/2026 13:59:38",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
     "total_almoxarifado": 113478,
-    "total_farmacia": 33513,
-    "total_geral": 146991,
+    "total_farmacia": 33463,
+    "total_geral": 146941,
     "perto_de_terminar": 28,
     "zerados": 16
   },
@@ -560,19 +560,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 5300,
-      "farmacia": 1105,
+      "farmacia": 1055,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 6405,
+      "total": 6355,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-23 13:49:05",
+      "atualizado_em": "2026-11-23 13:59:37",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -586,17 +586,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 1105
+          "quantidade": 1055
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 1777,
-      "previsao_20_dias": 1777,
+      "minimo_alerta": 1789,
+      "previsao_20_dias": 1789,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 81,
-      "media_diaria_saida": 88.83,
-      "total_saida_historica": 7195,
-      "cobertura_dias": 72.1,
+      "media_diaria_saida": 89.44,
+      "total_saida_historica": 7245,
+      "cobertura_dias": 71.0,
       "alerta_estoque": false
     },
     {
@@ -17772,6 +17772,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 6892,
+      "item_id": 390,
+      "produto_nome": "AGULHA  40X1,2",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 50,
+      "responsavel": "Leiliana",
+      "data": "2026-11-19",
+      "obs": "",
+      "criado_em": "2026-11-23 13:59:37",
+      "item": "AGULHA  40X1,2",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 6891,
       "item_id": 12,
       "produto_nome": "Morfina 10mg/ml 1ml",
@@ -25254,21 +25269,6 @@
       "obs": "",
       "criado_em": "2026-11-16 15:03:04",
       "item": "Luva de látex tam. P",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 6392,
-      "item_id": 276,
-      "produto_nome": "Esparadrapo 10x4,5",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 5,
-      "responsavel": "Leiliana",
-      "data": "2026-11-16",
-      "obs": "",
-      "criado_em": "2026-11-16 15:02:55",
-      "item": "Esparadrapo 10x4,5",
       "usuario": "Leiliana"
     }
   ]
