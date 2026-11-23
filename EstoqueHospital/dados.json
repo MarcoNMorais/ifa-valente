@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "23/11/2026 14:06:57",
+  "atualizado_em": "23/11/2026 14:07:07",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
     "total_almoxarifado": 113008,
-    "total_farmacia": 33392,
-    "total_geral": 146400,
+    "total_farmacia": 33382,
+    "total_geral": 146390,
     "perto_de_terminar": 28,
     "zerados": 16
   },
@@ -5289,19 +5289,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 210,
-      "farmacia": 300,
+      "farmacia": 290,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 510,
+      "total": 500,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-19 15:53:21",
+      "atualizado_em": "2026-11-23 14:07:05",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -5315,17 +5315,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 320
+          "quantidade": 310
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 94,
-      "previsao_20_dias": 94,
+      "minimo_alerta": 96,
+      "previsao_20_dias": 96,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 103,
-      "media_diaria_saida": 4.66,
-      "total_saida_historica": 480,
-      "cobertura_dias": 109.4,
+      "media_diaria_saida": 4.76,
+      "total_saida_historica": 490,
+      "cobertura_dias": 105.1,
       "alerta_estoque": false
     },
     {
@@ -17754,6 +17754,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 6933,
+      "item_id": 28,
+      "produto_nome": "Dipirona 500mg",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 10,
+      "responsavel": "Leiliana",
+      "data": "2026-11-19",
+      "obs": "",
+      "criado_em": "2026-11-23 14:07:05",
+      "item": "Dipirona 500mg",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 6932,
       "item_id": 123,
       "produto_nome": "Furosemida 40mg CPR",
@@ -25236,21 +25251,6 @@
       "obs": "",
       "criado_em": "2026-11-16 15:11:33",
       "item": "Dexametasona",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 6433,
-      "item_id": 69,
-      "produto_nome": "Diclofenaco 25mg",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 30,
-      "responsavel": "Leiliana",
-      "data": "2026-11-16",
-      "obs": "",
-      "criado_em": "2026-11-16 15:11:25",
-      "item": "Diclofenaco 25mg",
       "usuario": "Leiliana"
     }
   ]
