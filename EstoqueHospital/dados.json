@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "23/11/2026 16:07:04",
+  "atualizado_em": "23/11/2026 16:07:19",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
-    "total_almoxarifado": 112569,
-    "total_farmacia": 33696,
+    "total_almoxarifado": 111169,
+    "total_farmacia": 35096,
     "total_geral": 146265,
     "perto_de_terminar": 28,
     "zerados": 16
@@ -4858,8 +4858,8 @@
       "nome": "Dexametasona",
       "tipo": "Medicamento",
       "unidade": "Unidade",
-      "almoxarifado": 1400,
-      "farmacia": 0,
+      "almoxarifado": 0,
+      "farmacia": 1400,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -4871,21 +4871,15 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-23 13:51:19",
+      "atualizado_em": "2026-11-23 16:07:17",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
         {
-          "local": "almoxarifado",
-          "validade": "",
-          "lote": "",
-          "quantidade": 1400
-        },
-        {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 20
+          "quantidade": 1420
         }
       ],
       "minimo_manual": 0,
@@ -17748,6 +17742,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 6948,
+      "item_id": 68,
+      "produto_nome": "Dexametasona",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 1400,
+      "responsavel": "Leiliana",
+      "data": "2026-11-19",
+      "obs": "",
+      "criado_em": "2026-11-23 16:07:17",
+      "item": "Dexametasona",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 6947,
       "item_id": 69,
       "produto_nome": "Diclofenaco 25mg",
@@ -25230,21 +25239,6 @@
       "obs": "",
       "criado_em": "2026-11-16 15:14:18",
       "item": "Gelco nº 22",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 6448,
-      "item_id": 287,
-      "produto_nome": "Agulha 13x4,5",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 20,
-      "responsavel": "Leiliana",
-      "data": "2026-11-16",
-      "obs": "",
-      "criado_em": "2026-11-16 15:14:07",
-      "item": "Agulha 13x4,5",
       "usuario": "Leiliana"
     }
   ]
