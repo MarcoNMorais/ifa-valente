@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "23/11/2026 13:34:51",
+  "atualizado_em": "23/11/2026 13:35:07",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
     "total_almoxarifado": 115628,
-    "total_farmacia": 33825,
-    "total_geral": 149453,
+    "total_farmacia": 33824,
+    "total_geral": 149452,
     "perto_de_terminar": 26,
     "zerados": 16
   },
@@ -9507,19 +9507,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 85,
-      "farmacia": 7,
+      "farmacia": 6,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 92,
+      "total": 91,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-19 15:53:21",
+      "atualizado_em": "2026-11-23 13:35:06",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -9533,7 +9533,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 7
+          "quantidade": 6
         }
       ],
       "minimo_manual": 0,
@@ -9541,9 +9541,9 @@
       "previsao_20_dias": 11,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 102,
-      "media_diaria_saida": 0.54,
-      "total_saida_historica": 55,
-      "cobertura_dias": 170.6,
+      "media_diaria_saida": 0.55,
+      "total_saida_historica": 56,
+      "cobertura_dias": 165.7,
       "alerta_estoque": false
     },
     {
@@ -17796,6 +17796,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 6778,
+      "item_id": 241,
+      "produto_nome": "Lactulose solução",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 1,
+      "responsavel": "Leiliana",
+      "data": "2026-11-19",
+      "obs": "",
+      "criado_em": "2026-11-23 13:35:06",
+      "item": "Lactulose solução",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 6777,
       "item_id": 415,
       "produto_nome": "tubo endotraqueal n°7,5",
@@ -25278,21 +25293,6 @@
       "obs": "",
       "criado_em": "2026-11-16 14:29:33",
       "item": "Decanoato de haloperidol",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 6278,
-      "item_id": 239,
-      "produto_nome": "Tramadol 50mg/ml 2ml",
-      "tipo": "Entrada no Almoxarifado",
-      "origem": "Entrada externa",
-      "destino": "Almoxarifado",
-      "quantidade": 360,
-      "responsavel": "Leiliana",
-      "data": "2026-11-16",
-      "obs": "",
-      "criado_em": "2026-11-16 14:29:22",
-      "item": "Tramadol 50mg/ml 2ml",
       "usuario": "Leiliana"
     }
   ]
