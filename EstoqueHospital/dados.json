@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "23/11/2026 14:07:34",
+  "atualizado_em": "23/11/2026 14:07:52",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
-    "total_almoxarifado": 112873,
-    "total_farmacia": 33492,
+    "total_almoxarifado": 112643,
+    "total_farmacia": 33722,
     "total_geral": 146365,
     "perto_de_terminar": 28,
     "zerados": 16
@@ -7876,8 +7876,8 @@
       "nome": "Furosemida",
       "tipo": "Medicamento",
       "unidade": "Unidade",
-      "almoxarifado": 230,
-      "farmacia": 0,
+      "almoxarifado": 0,
+      "farmacia": 230,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -7889,12 +7889,12 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-19 15:53:21",
+      "atualizado_em": "2026-11-23 14:07:50",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
         {
-          "local": "almoxarifado",
+          "local": "farmacia",
           "validade": "",
           "lote": "",
           "quantidade": 230
@@ -17748,6 +17748,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 6937,
+      "item_id": 78,
+      "produto_nome": "Furosemida",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 230,
+      "responsavel": "Leiliana",
+      "data": "2026-11-19",
+      "obs": "",
+      "criado_em": "2026-11-23 14:07:50",
+      "item": "Furosemida",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 6936,
       "item_id": 115,
       "produto_nome": "Losartana potássica 50mg CPR",
@@ -25230,21 +25245,6 @@
       "obs": "",
       "criado_em": "2026-11-16 15:12:10",
       "item": "Ondansetrona 2mg/ml 2ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 6437,
-      "item_id": 70,
-      "produto_nome": "Dipirona",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 30,
-      "responsavel": "Leiliana",
-      "data": "2026-11-16",
-      "obs": "",
-      "criado_em": "2026-11-16 15:12:00",
-      "item": "Dipirona",
       "usuario": "Leiliana"
     }
   ]
