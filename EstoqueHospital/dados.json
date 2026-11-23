@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "23/11/2026 13:51:39",
+  "atualizado_em": "23/11/2026 13:51:49",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
     "total_almoxarifado": 114228,
-    "total_farmacia": 33276,
-    "total_geral": 147504,
+    "total_farmacia": 33256,
+    "total_geral": 147484,
     "perto_de_terminar": 27,
     "zerados": 16
   },
@@ -3566,19 +3566,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 427,
+      "farmacia": 407,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 427,
+      "total": 407,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-23 13:48:32",
+      "atualizado_em": "2026-11-23 13:51:47",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -3586,17 +3586,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 427
+          "quantidade": 407
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 306,
-      "previsao_20_dias": 306,
+      "minimo_alerta": 309,
+      "previsao_20_dias": 309,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 103,
-      "media_diaria_saida": 15.25,
-      "total_saida_historica": 1571,
-      "cobertura_dias": 28.0,
+      "media_diaria_saida": 15.45,
+      "total_saida_historica": 1591,
+      "cobertura_dias": 26.3,
       "alerta_estoque": false
     },
     {
@@ -17790,6 +17790,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 6860,
+      "item_id": 59,
+      "produto_nome": "Ceftriaxona 1g",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 20,
+      "responsavel": "Leiliana",
+      "data": "2026-11-19",
+      "obs": "",
+      "criado_em": "2026-11-23 13:51:47",
+      "item": "Ceftriaxona 1g",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 6859,
       "item_id": 61,
       "produto_nome": "Cetoprofeno IM 50mg",
@@ -25272,21 +25287,6 @@
       "obs": "",
       "criado_em": "2026-11-16 14:56:05",
       "item": "Escopolamina + Dipirona",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 6360,
-      "item_id": 239,
-      "produto_nome": "Tramadol 50mg/ml 2ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 40,
-      "responsavel": "Leiliana",
-      "data": "2026-11-16",
-      "obs": "",
-      "criado_em": "2026-11-16 14:55:30",
-      "item": "Tramadol 50mg/ml 2ml",
       "usuario": "Leiliana"
     }
   ]
