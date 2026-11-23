@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "23/11/2026 13:40:31",
+  "atualizado_em": "23/11/2026 13:40:42",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
     "total_almoxarifado": 115628,
-    "total_farmacia": 33251,
-    "total_geral": 148879,
+    "total_farmacia": 33247,
+    "total_geral": 148875,
     "perto_de_terminar": 26,
     "zerados": 16
   },
@@ -10332,19 +10332,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 110,
-      "farmacia": 18,
+      "farmacia": 14,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 128,
+      "total": 124,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-19 15:53:21",
+      "atualizado_em": "2026-11-23 13:40:40",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -10358,7 +10358,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 21
+          "quantidade": 17
         }
       ],
       "minimo_manual": 0,
@@ -10366,9 +10366,9 @@
       "previsao_20_dias": 380,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 103,
-      "media_diaria_saida": 18.95,
-      "total_saida_historica": 1952,
-      "cobertura_dias": 6.8,
+      "media_diaria_saida": 18.99,
+      "total_saida_historica": 1956,
+      "cobertura_dias": 6.5,
       "alerta_estoque": true
     },
     {
@@ -17795,6 +17795,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 6800,
+      "item_id": 181,
+      "produto_nome": "Luva de látex tam. M",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 4,
+      "responsavel": "Leiliana",
+      "data": "2026-11-19",
+      "obs": "",
+      "criado_em": "2026-11-23 13:40:40",
+      "item": "Luva de látex tam. M",
+      "usuario": "Leiliana"
+    },
     {
       "id": 6799,
       "item_id": 294,
@@ -25278,21 +25293,6 @@
       "obs": "",
       "criado_em": "2026-11-16 14:37:45",
       "item": "Agulha 25x8",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 6300,
-      "item_id": 8,
-      "produto_nome": "Haloperidol 5mg/ml",
-      "tipo": "Entrada no Almoxarifado",
-      "origem": "Entrada externa",
-      "destino": "Almoxarifado",
-      "quantidade": 35,
-      "responsavel": "Leiliana",
-      "data": "2026-11-16",
-      "obs": "",
-      "criado_em": "2026-11-16 14:37:13",
-      "item": "Haloperidol 5mg/ml",
       "usuario": "Leiliana"
     }
   ]
