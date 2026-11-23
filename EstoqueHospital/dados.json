@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "23/11/2026 16:33:20",
+  "atualizado_em": "23/11/2026 16:33:29",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
     "total_almoxarifado": 111121,
-    "total_farmacia": 34623,
-    "total_geral": 145744,
+    "total_farmacia": 34583,
+    "total_geral": 145704,
     "perto_de_terminar": 28,
     "zerados": 16
   },
@@ -824,19 +824,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 13500,
-      "farmacia": 460,
+      "farmacia": 420,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 13960,
+      "total": 13920,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga Almoxerifado",
       "obs": "Importação Almoxerifado",
-      "atualizado_em": "2026-11-23 13:49:26",
+      "atualizado_em": "2026-11-23 16:33:28",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -850,17 +850,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 460
+          "quantidade": 420
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 662,
-      "previsao_20_dias": 662,
+      "minimo_alerta": 670,
+      "previsao_20_dias": 670,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 98,
-      "media_diaria_saida": 33.06,
-      "total_saida_historica": 3240,
-      "cobertura_dias": 422.2,
+      "media_diaria_saida": 33.47,
+      "total_saida_historica": 3280,
+      "cobertura_dias": 415.9,
       "alerta_estoque": false
     },
     {
@@ -17742,6 +17742,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 6970,
+      "item_id": 331,
+      "produto_nome": "Agulha 30x8",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 40,
+      "responsavel": "Leiliana",
+      "data": "2026-11-23",
+      "obs": "",
+      "criado_em": "2026-11-23 16:33:28",
+      "item": "Agulha 30x8",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 6969,
       "item_id": 98,
       "produto_nome": "Scalp nº 23",
@@ -25224,21 +25239,6 @@
       "obs": "",
       "criado_em": "2026-11-16 15:18:32",
       "item": "Bromoprida 5mg",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 6470,
-      "item_id": 384,
-      "produto_nome": "ACIDO ASCORBICO",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 20,
-      "responsavel": "Leiliana",
-      "data": "2026-11-16",
-      "obs": "",
-      "criado_em": "2026-11-16 15:18:22",
-      "item": "ACIDO ASCORBICO",
       "usuario": "Leiliana"
     }
   ]
