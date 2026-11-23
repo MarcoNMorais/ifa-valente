@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "23/11/2026 14:06:26",
+  "atualizado_em": "23/11/2026 14:06:46",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
-    "total_almoxarifado": 113128,
-    "total_farmacia": 33292,
+    "total_almoxarifado": 113008,
+    "total_farmacia": 33412,
     "total_geral": 146420,
     "perto_de_terminar": 28,
     "zerados": 16
@@ -7916,8 +7916,8 @@
       "nome": "Furosemida 40mg CPR",
       "tipo": "Medicamento",
       "unidade": "Unidade",
-      "almoxarifado": 120,
-      "farmacia": 60,
+      "almoxarifado": 0,
+      "farmacia": 180,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -7929,7 +7929,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-23 13:37:22",
+      "atualizado_em": "2026-11-23 14:06:44",
       "validade_mais_proxima": "2027-08",
       "vencimento_mais_proximo": "2027-08",
       "lotes_validade": [
@@ -7940,16 +7940,10 @@
           "quantidade": 20
         },
         {
-          "local": "almoxarifado",
-          "validade": "",
-          "lote": "",
-          "quantidade": 120
-        },
-        {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 40
+          "quantidade": 160
         }
       ],
       "minimo_manual": 0,
@@ -17766,6 +17760,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 6931,
+      "item_id": 123,
+      "produto_nome": "Furosemida 40mg CPR",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 120,
+      "responsavel": "Leiliana",
+      "data": "2026-11-19",
+      "obs": "",
+      "criado_em": "2026-11-23 14:06:44",
+      "item": "Furosemida 40mg CPR",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 6930,
       "item_id": 249,
       "produto_nome": "Prednisolona 3mg/ml",
@@ -25248,21 +25257,6 @@
       "obs": "",
       "criado_em": "2026-11-16 15:11:12",
       "item": "LIDOCAINA S/ VASO",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 6431,
-      "item_id": 85,
-      "produto_nome": "Lidocaína Gel",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 4,
-      "responsavel": "Leiliana",
-      "data": "2026-11-16",
-      "obs": "",
-      "criado_em": "2026-11-16 15:11:03",
-      "item": "Lidocaína Gel",
       "usuario": "Leiliana"
     }
   ]
