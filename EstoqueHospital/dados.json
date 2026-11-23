@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "23/11/2026 16:07:29",
+  "atualizado_em": "23/11/2026 16:07:36",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
     "total_almoxarifado": 111169,
-    "total_farmacia": 35066,
-    "total_geral": 146235,
+    "total_farmacia": 35060,
+    "total_geral": 146229,
     "perto_de_terminar": 28,
     "zerados": 16
   },
@@ -2513,19 +2513,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 210,
-      "farmacia": 18,
+      "farmacia": 12,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 228,
+      "total": 222,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-23 13:58:07",
+      "atualizado_em": "2026-11-23 16:07:34",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -2539,17 +2539,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 18
+          "quantidade": 12
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 153,
-      "previsao_20_dias": 153,
+      "minimo_alerta": 154,
+      "previsao_20_dias": 154,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 103,
-      "media_diaria_saida": 7.63,
-      "total_saida_historica": 786,
-      "cobertura_dias": 29.9,
+      "media_diaria_saida": 7.69,
+      "total_saida_historica": 792,
+      "cobertura_dias": 28.9,
       "alerta_estoque": false
     },
     {
@@ -17742,6 +17742,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 6950,
+      "item_id": 55,
+      "produto_nome": "Benzilpenicilina 1.200",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 6,
+      "responsavel": "Leiliana",
+      "data": "2026-11-19",
+      "obs": "",
+      "criado_em": "2026-11-23 16:07:34",
+      "item": "Benzilpenicilina 1.200",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 6949,
       "item_id": 68,
       "produto_nome": "Dexametasona",
@@ -25224,21 +25239,6 @@
       "obs": "",
       "criado_em": "2026-11-16 15:14:49",
       "item": "LORATADINA SUSPENSÃO",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 6450,
-      "item_id": 28,
-      "produto_nome": "Dipirona 500mg",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 10,
-      "responsavel": "Leiliana",
-      "data": "2026-11-16",
-      "obs": "",
-      "criado_em": "2026-11-16 15:14:30",
-      "item": "Dipirona 500mg",
       "usuario": "Leiliana"
     }
   ]
