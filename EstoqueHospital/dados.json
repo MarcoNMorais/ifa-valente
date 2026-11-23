@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "23/11/2026 13:46:38",
+  "atualizado_em": "23/11/2026 13:46:47",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
     "total_almoxarifado": 114228,
-    "total_farmacia": 33993,
-    "total_geral": 148221,
+    "total_farmacia": 33978,
+    "total_geral": 148206,
     "perto_de_terminar": 26,
     "zerados": 16
   },
@@ -16004,19 +16004,19 @@
       "tipo": "Insumo",
       "unidade": "Unidade",
       "almoxarifado": 1050,
-      "farmacia": 161,
+      "farmacia": 146,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1211,
+      "total": 1196,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-23 13:39:54",
+      "atualizado_em": "2026-11-23 13:46:46",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -16030,17 +16030,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 209
+          "quantidade": 194
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 559,
-      "previsao_20_dias": 559,
+      "minimo_alerta": 562,
+      "previsao_20_dias": 562,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 103,
-      "media_diaria_saida": 27.92,
-      "total_saida_historica": 2876,
-      "cobertura_dias": 43.4,
+      "media_diaria_saida": 28.07,
+      "total_saida_historica": 2891,
+      "cobertura_dias": 42.6,
       "alerta_estoque": false
     },
     {
@@ -17789,6 +17789,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 6833,
+      "item_id": 203,
+      "produto_nome": "Soro fisiológico 250ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 15,
+      "responsavel": "Leiliana",
+      "data": "2026-11-19",
+      "obs": "",
+      "criado_em": "2026-11-23 13:46:46",
+      "item": "Soro fisiológico 250ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 6832,
       "item_id": 204,
@@ -25272,21 +25287,6 @@
       "obs": "",
       "criado_em": "2026-11-16 14:48:59",
       "item": "Equipo para transfusão",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 6333,
-      "item_id": 163,
-      "produto_nome": "Eletrodo ECG descartável",
-      "tipo": "Entrada no Almoxarifado",
-      "origem": "Entrada externa",
-      "destino": "Almoxarifado",
-      "quantidade": 40,
-      "responsavel": "Leiliana",
-      "data": "2026-11-16",
-      "obs": "",
-      "criado_em": "2026-11-16 14:48:38",
-      "item": "Eletrodo ECG descartável",
       "usuario": "Leiliana"
     }
   ]
