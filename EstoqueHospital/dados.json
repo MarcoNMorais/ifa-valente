@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "23/11/2026 13:53:24",
+  "atualizado_em": "23/11/2026 13:53:34",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
     "total_almoxarifado": 113478,
-    "total_farmacia": 33840,
-    "total_geral": 147318,
+    "total_farmacia": 33830,
+    "total_geral": 147308,
     "perto_de_terminar": 28,
     "zerados": 16
   },
@@ -12247,19 +12247,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 53,
+      "farmacia": 43,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 53,
+      "total": 43,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-23 13:53:22",
+      "atualizado_em": "2026-11-23 13:53:32",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -12267,17 +12267,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 53
+          "quantidade": 43
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 100,
-      "previsao_20_dias": 100,
+      "minimo_alerta": 102,
+      "previsao_20_dias": 102,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 102,
-      "media_diaria_saida": 4.99,
-      "total_saida_historica": 509,
-      "cobertura_dias": 10.6,
+      "media_diaria_saida": 5.09,
+      "total_saida_historica": 519,
+      "cobertura_dias": 8.5,
       "alerta_estoque": true
     },
     {
@@ -17783,6 +17783,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 6868,
+      "item_id": 228,
+      "produto_nome": "Omeprazol sódico 40mg AMP",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 10,
+      "responsavel": "Leiliana",
+      "data": "2026-11-19",
+      "obs": "",
+      "criado_em": "2026-11-23 13:53:32",
+      "item": "Omeprazol sódico 40mg AMP",
+      "usuario": "Leiliana"
+    },
     {
       "id": 6867,
       "item_id": 228,
@@ -25266,21 +25281,6 @@
       "obs": "",
       "criado_em": "2026-11-16 14:57:29",
       "item": "Seringa 20ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 6368,
-      "item_id": 99,
-      "produto_nome": "Scalp nº 21",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 10,
-      "responsavel": "Leiliana",
-      "data": "2026-11-16",
-      "obs": "",
-      "criado_em": "2026-11-16 14:57:20",
-      "item": "Scalp nº 21",
       "usuario": "Leiliana"
     }
   ]
