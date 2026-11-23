@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "23/11/2026 16:33:29",
+  "atualizado_em": "23/11/2026 16:33:38",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
     "total_almoxarifado": 111121,
-    "total_farmacia": 34583,
-    "total_geral": 145704,
+    "total_farmacia": 34582,
+    "total_geral": 145703,
     "perto_de_terminar": 28,
     "zerados": 16
   },
@@ -10284,19 +10284,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 110,
-      "farmacia": 7,
+      "farmacia": 6,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 117,
+      "total": 116,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-23 13:52:54",
+      "atualizado_em": "2026-11-23 16:33:36",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -10310,7 +10310,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 10
+          "quantidade": 9
         }
       ],
       "minimo_manual": 0,
@@ -10318,8 +10318,8 @@
       "previsao_20_dias": 382,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 103,
-      "media_diaria_saida": 19.06,
-      "total_saida_historica": 1963,
+      "media_diaria_saida": 19.07,
+      "total_saida_historica": 1964,
       "cobertura_dias": 6.1,
       "alerta_estoque": true
     },
@@ -17741,6 +17741,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 6971,
+      "item_id": 181,
+      "produto_nome": "Luva de látex tam. M",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 1,
+      "responsavel": "Leiliana",
+      "data": "2026-11-23",
+      "obs": "",
+      "criado_em": "2026-11-23 16:33:36",
+      "item": "Luva de látex tam. M",
+      "usuario": "Leiliana"
+    },
     {
       "id": 6970,
       "item_id": 331,
@@ -25224,21 +25239,6 @@
       "obs": "",
       "criado_em": "2026-11-16 15:18:43",
       "item": "Cetoprofeno EV 100mg",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 6471,
-      "item_id": 57,
-      "produto_nome": "Bromoprida 5mg",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 20,
-      "responsavel": "Leiliana",
-      "data": "2026-11-16",
-      "obs": "",
-      "criado_em": "2026-11-16 15:18:32",
-      "item": "Bromoprida 5mg",
       "usuario": "Leiliana"
     }
   ]
