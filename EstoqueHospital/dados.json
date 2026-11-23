@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "23/11/2026 13:45:37",
+  "atualizado_em": "23/11/2026 13:45:46",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
     "total_almoxarifado": 114228,
-    "total_farmacia": 34138,
-    "total_geral": 148366,
+    "total_farmacia": 34135,
+    "total_geral": 148363,
     "perto_de_terminar": 26,
     "zerados": 16
   },
@@ -3229,19 +3229,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 39,
-      "farmacia": 12,
+      "farmacia": 9,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 51,
+      "total": 48,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-19 15:53:21",
+      "atualizado_em": "2026-11-23 13:45:44",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -3255,7 +3255,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 12
+          "quantidade": 9
         }
       ],
       "minimo_manual": 0,
@@ -3263,9 +3263,9 @@
       "previsao_20_dias": 12,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 103,
-      "media_diaria_saida": 0.55,
-      "total_saida_historica": 57,
-      "cobertura_dias": 92.2,
+      "media_diaria_saida": 0.58,
+      "total_saida_historica": 60,
+      "cobertura_dias": 82.4,
       "alerta_estoque": false
     },
     {
@@ -17790,6 +17790,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 6827,
+      "item_id": 200,
+      "produto_nome": "Caixa de perfurocortante",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 3,
+      "responsavel": "Leiliana",
+      "data": "2026-11-19",
+      "obs": "",
+      "criado_em": "2026-11-23 13:45:44",
+      "item": "Caixa de perfurocortante",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 6826,
       "item_id": 376,
       "produto_nome": "LENÇOL DESCARTAVEL PAPEL",
@@ -25272,21 +25287,6 @@
       "obs": "",
       "criado_em": "2026-11-16 14:46:25",
       "item": "Seringa 20ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 6327,
-      "item_id": 103,
-      "produto_nome": "Seringa 10ml",
-      "tipo": "Entrada no Almoxarifado",
-      "origem": "Entrada externa",
-      "destino": "Almoxarifado",
-      "quantidade": 1400,
-      "responsavel": "Leiliana",
-      "data": "2026-11-16",
-      "obs": "",
-      "criado_em": "2026-11-16 14:46:13",
-      "item": "Seringa 10ml",
       "usuario": "Leiliana"
     }
   ]
