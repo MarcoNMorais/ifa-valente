@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "23/11/2026 13:41:40",
+  "atualizado_em": "23/11/2026 13:41:53",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
     "total_almoxarifado": 115628,
-    "total_farmacia": 33070,
-    "total_geral": 148698,
+    "total_farmacia": 33050,
+    "total_geral": 148678,
     "perto_de_terminar": 26,
     "zerados": 16
   },
@@ -692,19 +692,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 330,
+      "farmacia": 310,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 330,
+      "total": 310,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga Almoxerifado",
       "obs": "Importação Almoxerifado",
-      "atualizado_em": "2026-11-19 15:53:21",
+      "atualizado_em": "2026-11-23 13:41:52",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -712,17 +712,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 330
+          "quantidade": 310
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 117,
-      "previsao_20_dias": 117,
+      "minimo_alerta": 121,
+      "previsao_20_dias": 121,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 98,
-      "media_diaria_saida": 5.82,
-      "total_saida_historica": 570,
-      "cobertura_dias": 56.7,
+      "media_diaria_saida": 6.02,
+      "total_saida_historica": 590,
+      "cobertura_dias": 51.5,
       "alerta_estoque": false
     },
     {
@@ -17796,6 +17796,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 6806,
+      "item_id": 319,
+      "produto_nome": "Agulha 25x7",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 20,
+      "responsavel": "Leiliana",
+      "data": "2026-11-19",
+      "obs": "",
+      "criado_em": "2026-11-23 13:41:52",
+      "item": "Agulha 25x7",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 6805,
       "item_id": 390,
       "produto_nome": "AGULHA  40X1,2",
@@ -25278,21 +25293,6 @@
       "obs": "",
       "criado_em": "2026-11-16 14:39:55",
       "item": "Caixa de perfurocortante",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 6306,
-      "item_id": 152,
-      "produto_nome": "Atadura crepon nº 10",
-      "tipo": "Entrada no Almoxarifado",
-      "origem": "Entrada externa",
-      "destino": "Almoxarifado",
-      "quantidade": 672,
-      "responsavel": "Leiliana",
-      "data": "2026-11-16",
-      "obs": "",
-      "criado_em": "2026-11-16 14:39:41",
-      "item": "Atadura crepon nº 10",
       "usuario": "Leiliana"
     }
   ]
