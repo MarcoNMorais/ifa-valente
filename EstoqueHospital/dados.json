@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/11/2026 10:47:50",
+  "atualizado_em": "24/11/2026 10:47:57",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
     "total_almoxarifado": 111731,
-    "total_farmacia": 34724,
-    "total_geral": 146455,
+    "total_farmacia": 34722,
+    "total_geral": 146453,
     "perto_de_terminar": 30,
     "zerados": 14
   },
@@ -6234,19 +6234,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 352,
-      "farmacia": 20,
+      "farmacia": 18,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 372,
+      "total": 370,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-24 10:36:14",
+      "atualizado_em": "2026-11-24 10:47:55",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -6260,7 +6260,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 22
+          "quantidade": 20
         }
       ],
       "minimo_manual": 0,
@@ -6268,9 +6268,9 @@
       "previsao_20_dias": 48,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 99,
-      "media_diaria_saida": 2.36,
-      "total_saida_historica": 234,
-      "cobertura_dias": 157.4,
+      "media_diaria_saida": 2.38,
+      "total_saida_historica": 236,
+      "cobertura_dias": 155.2,
       "alerta_estoque": false
     },
     {
@@ -17755,6 +17755,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 7016,
+      "item_id": 276,
+      "produto_nome": "Esparadrapo 10x4,5",
+      "tipo": "Farmácia para Posto de Internamento",
+      "origem": "Farmácia",
+      "destino": "Posto de Internamento",
+      "quantidade": 2,
+      "responsavel": "Assucena",
+      "data": "2026-11-24",
+      "obs": "",
+      "criado_em": "2026-11-24 10:47:55",
+      "item": "Esparadrapo 10x4,5",
+      "usuario": "Assucena"
+    },
+    {
       "id": 7015,
       "item_id": 63,
       "produto_nome": "Ciprofloxacino",
@@ -25237,21 +25252,6 @@
       "obs": "",
       "criado_em": "2026-11-17 13:47:54",
       "item": "Ácido Tranexâmico 50mg",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 6516,
-      "item_id": 201,
-      "produto_nome": "Soro Ringer Lactato 500ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 8,
-      "responsavel": "Leiliana",
-      "data": "2026-11-16",
-      "obs": "",
-      "criado_em": "2026-11-16 16:12:10",
-      "item": "Soro Ringer Lactato 500ml",
       "usuario": "Leiliana"
     }
   ]
