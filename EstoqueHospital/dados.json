@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/11/2026 10:48:49",
+  "atualizado_em": "24/11/2026 10:48:56",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
     "total_almoxarifado": 111731,
-    "total_farmacia": 34679,
-    "total_geral": 146410,
+    "total_farmacia": 34659,
+    "total_geral": 146390,
     "perto_de_terminar": 30,
     "zerados": 14
   },
@@ -5163,19 +5163,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 330,
+      "farmacia": 310,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 330,
+      "total": 310,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-24 10:22:17",
+      "atualizado_em": "2026-11-24 10:48:54",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -5183,17 +5183,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 330
+          "quantidade": 310
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 224,
-      "previsao_20_dias": 224,
+      "minimo_alerta": 227,
+      "previsao_20_dias": 227,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 104,
-      "media_diaria_saida": 11.15,
-      "total_saida_historica": 1160,
-      "cobertura_dias": 29.6,
+      "media_diaria_saida": 11.35,
+      "total_saida_historica": 1180,
+      "cobertura_dias": 27.3,
       "alerta_estoque": false
     },
     {
@@ -17755,6 +17755,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 7023,
+      "item_id": 69,
+      "produto_nome": "Diclofenaco 25mg",
+      "tipo": "Farmácia para Posto de Internamento",
+      "origem": "Farmácia",
+      "destino": "Posto de Internamento",
+      "quantidade": 20,
+      "responsavel": "Assucena",
+      "data": "2026-11-24",
+      "obs": "",
+      "criado_em": "2026-11-24 10:48:54",
+      "item": "Diclofenaco 25mg",
+      "usuario": "Assucena"
+    },
+    {
       "id": 7022,
       "item_id": 103,
       "produto_nome": "Seringa 10ml",
@@ -25237,21 +25252,6 @@
       "obs": "",
       "criado_em": "2026-11-17 13:49:07",
       "item": "Complexo B",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 6523,
-      "item_id": 384,
-      "produto_nome": "ACIDO ASCORBICO",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 20,
-      "responsavel": "Leiliana",
-      "data": "2026-11-16",
-      "obs": "",
-      "criado_em": "2026-11-17 13:48:57",
-      "item": "ACIDO ASCORBICO",
       "usuario": "Leiliana"
     }
   ]
