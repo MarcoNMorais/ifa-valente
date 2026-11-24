@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/11/2026 10:35:18",
+  "atualizado_em": "24/11/2026 10:35:36",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
     "total_almoxarifado": 111731,
-    "total_farmacia": 34772,
-    "total_geral": 146503,
+    "total_farmacia": 34747,
+    "total_geral": 146478,
     "perto_de_terminar": 30,
     "zerados": 14
   },
@@ -5970,19 +5970,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 750,
-      "farmacia": 250,
+      "farmacia": 225,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1000,
+      "total": 975,
       "minimo": 300,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-24 10:35:16",
+      "atualizado_em": "2026-11-24 10:35:34",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -5996,17 +5996,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 275
+          "quantidade": 250
         }
       ],
       "minimo_manual": 300,
-      "minimo_alerta": 1068,
-      "previsao_20_dias": 1068,
+      "minimo_alerta": 1073,
+      "previsao_20_dias": 1073,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 104,
-      "media_diaria_saida": 53.37,
-      "total_saida_historica": 5550,
-      "cobertura_dias": 18.7,
+      "media_diaria_saida": 53.61,
+      "total_saida_historica": 5575,
+      "cobertura_dias": 18.2,
       "alerta_estoque": true
     },
     {
@@ -17755,6 +17755,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 7008,
+      "item_id": 220,
+      "produto_nome": "Equipo macrogotas",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 25,
+      "responsavel": "Assucena",
+      "data": "2026-11-24",
+      "obs": "",
+      "criado_em": "2026-11-24 10:35:34",
+      "item": "Equipo macrogotas",
+      "usuario": "Assucena"
+    },
+    {
       "id": 7007,
       "item_id": 220,
       "produto_nome": "Equipo macrogotas",
@@ -25237,21 +25252,6 @@
       "obs": "",
       "criado_em": "2026-11-16 16:10:49",
       "item": "Seringa 5ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 6508,
-      "item_id": 103,
-      "produto_nome": "Seringa 10ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 20,
-      "responsavel": "Leiliana",
-      "data": "2026-11-16",
-      "obs": "",
-      "criado_em": "2026-11-16 16:10:42",
-      "item": "Seringa 10ml",
       "usuario": "Leiliana"
     }
   ]
