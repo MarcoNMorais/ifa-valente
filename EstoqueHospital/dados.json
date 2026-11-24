@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/11/2026 10:35:44",
+  "atualizado_em": "24/11/2026 10:35:52",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
     "total_almoxarifado": 111731,
-    "total_farmacia": 34737,
-    "total_geral": 146468,
+    "total_farmacia": 34735,
+    "total_geral": 146466,
     "perto_de_terminar": 30,
     "zerados": 14
   },
@@ -2897,19 +2897,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 97,
-      "farmacia": 26,
+      "farmacia": 24,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 123,
+      "total": 121,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-24 10:22:17",
+      "atualizado_em": "2026-11-24 10:35:49",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -2923,7 +2923,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 26
+          "quantidade": 24
         }
       ],
       "minimo_manual": 0,
@@ -2931,9 +2931,9 @@
       "previsao_20_dias": 18,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 104,
-      "media_diaria_saida": 0.88,
-      "total_saida_historica": 91,
-      "cobertura_dias": 140.6,
+      "media_diaria_saida": 0.89,
+      "total_saida_historica": 93,
+      "cobertura_dias": 135.3,
       "alerta_estoque": false
     },
     {
@@ -17755,6 +17755,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 7010,
+      "item_id": 155,
+      "produto_nome": "Bolsa coletora",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 2,
+      "responsavel": "Assucena",
+      "data": "2026-11-24",
+      "obs": "",
+      "criado_em": "2026-11-24 10:35:49",
+      "item": "Bolsa coletora",
+      "usuario": "Assucena"
+    },
+    {
       "id": 7009,
       "item_id": 329,
       "produto_nome": "Polifix",
@@ -25237,21 +25252,6 @@
       "obs": "",
       "criado_em": "2026-11-16 16:11:17",
       "item": "Soro fisiológico 500ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 6510,
-      "item_id": 220,
-      "produto_nome": "Equipo macrogotas",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 25,
-      "responsavel": "Leiliana",
-      "data": "2026-11-16",
-      "obs": "",
-      "criado_em": "2026-11-16 16:11:02",
-      "item": "Equipo macrogotas",
       "usuario": "Leiliana"
     }
   ]
