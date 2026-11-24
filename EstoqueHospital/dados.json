@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/11/2026 10:48:29",
+  "atualizado_em": "24/11/2026 10:48:36",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
     "total_almoxarifado": 111731,
-    "total_farmacia": 34710,
-    "total_geral": 146441,
+    "total_farmacia": 34709,
+    "total_geral": 146440,
     "perto_de_terminar": 30,
     "zerados": 14
   },
@@ -9517,19 +9517,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 44,
-      "farmacia": 33,
+      "farmacia": 32,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 77,
+      "total": 76,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-24 10:22:17",
+      "atualizado_em": "2026-11-24 10:48:33",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -9543,7 +9543,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 33
+          "quantidade": 32
         }
       ],
       "minimo_manual": 0,
@@ -9551,8 +9551,8 @@
       "previsao_20_dias": 1274,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 104,
-      "media_diaria_saida": 63.68,
-      "total_saida_historica": 6623,
+      "media_diaria_saida": 63.69,
+      "total_saida_historica": 6624,
       "cobertura_dias": 1.2,
       "alerta_estoque": true
     },
@@ -17755,6 +17755,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 7020,
+      "item_id": 194,
+      "produto_nome": "Lanceta de segurança",
+      "tipo": "Farmácia para Posto de Internamento",
+      "origem": "Farmácia",
+      "destino": "Posto de Internamento",
+      "quantidade": 1,
+      "responsavel": "Assucena",
+      "data": "2026-11-24",
+      "obs": "",
+      "criado_em": "2026-11-24 10:48:33",
+      "item": "Lanceta de segurança",
+      "usuario": "Assucena"
+    },
+    {
       "id": 7019,
       "item_id": 98,
       "produto_nome": "Scalp nº 23",
@@ -25237,21 +25252,6 @@
       "obs": "",
       "criado_em": "2026-11-17 13:48:32",
       "item": "Ceftriaxona 1g",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 6520,
-      "item_id": 228,
-      "produto_nome": "Omeprazol sódico 40mg AMP",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 5,
-      "responsavel": "Leiliana",
-      "data": "2026-11-16",
-      "obs": "",
-      "criado_em": "2026-11-17 13:48:21",
-      "item": "Omeprazol sódico 40mg AMP",
       "usuario": "Leiliana"
     }
   ]
