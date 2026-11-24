@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "24/11/2026 10:48:56",
+  "atualizado_em": "24/11/2026 10:49:09",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
-    "total_almoxarifado": 111731,
-    "total_farmacia": 34659,
+    "total_almoxarifado": 111571,
+    "total_farmacia": 34819,
     "total_geral": 146390,
     "perto_de_terminar": 30,
     "zerados": 14
@@ -12818,8 +12818,8 @@
       "nome": "Prednisona 20mg CPR",
       "tipo": "Medicamento",
       "unidade": "Unidade",
-      "almoxarifado": 160,
-      "farmacia": 0,
+      "almoxarifado": 0,
+      "farmacia": 160,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -12831,12 +12831,12 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-24 10:22:17",
+      "atualizado_em": "2026-11-24 10:49:07",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
         {
-          "local": "almoxarifado",
+          "local": "farmacia",
           "validade": "",
           "lote": "",
           "quantidade": 160
@@ -17754,6 +17754,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 7024,
+      "item_id": 36,
+      "produto_nome": "Prednisona 20mg CPR",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 160,
+      "responsavel": "Assucena",
+      "data": "2026-11-24",
+      "obs": "",
+      "criado_em": "2026-11-24 10:49:07",
+      "item": "Prednisona 20mg CPR",
+      "usuario": "Assucena"
+    },
     {
       "id": 7023,
       "item_id": 69,
@@ -25237,21 +25252,6 @@
       "obs": "",
       "criado_em": "2026-11-17 13:49:17",
       "item": "Cimetidina 150mg",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 6524,
-      "item_id": 66,
-      "produto_nome": "Complexo B",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 50,
-      "responsavel": "Leiliana",
-      "data": "2026-11-16",
-      "obs": "",
-      "criado_em": "2026-11-17 13:49:07",
-      "item": "Complexo B",
       "usuario": "Leiliana"
     }
   ]
