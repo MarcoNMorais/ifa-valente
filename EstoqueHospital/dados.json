@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "24/11/2026 10:35:08",
+  "atualizado_em": "24/11/2026 10:35:18",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
-    "total_almoxarifado": 111981,
-    "total_farmacia": 34522,
+    "total_almoxarifado": 111731,
+    "total_farmacia": 34772,
     "total_geral": 146503,
     "perto_de_terminar": 30,
     "zerados": 14
@@ -5969,8 +5969,8 @@
       "nome": "Equipo macrogotas",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 1000,
-      "farmacia": 0,
+      "almoxarifado": 750,
+      "farmacia": 250,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -5982,7 +5982,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-24 10:35:06",
+      "atualizado_em": "2026-11-24 10:35:16",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -5990,13 +5990,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 1000
+          "quantidade": 750
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 25
+          "quantidade": 275
         }
       ],
       "minimo_manual": 300,
@@ -17755,6 +17755,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 7007,
+      "item_id": 220,
+      "produto_nome": "Equipo macrogotas",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 250,
+      "responsavel": "Assucena",
+      "data": "2026-11-24",
+      "obs": "",
+      "criado_em": "2026-11-24 10:35:16",
+      "item": "Equipo macrogotas",
+      "usuario": "Assucena"
+    },
+    {
       "id": 7006,
       "item_id": 220,
       "produto_nome": "Equipo macrogotas",
@@ -25237,21 +25252,6 @@
       "obs": "",
       "criado_em": "2026-11-16 16:10:42",
       "item": "Seringa 10ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 6507,
-      "item_id": 274,
-      "produto_nome": "Seringa 20ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 15,
-      "responsavel": "Leiliana",
-      "data": "2026-11-16",
-      "obs": "",
-      "criado_em": "2026-11-16 16:10:32",
-      "item": "Seringa 20ml",
       "usuario": "Leiliana"
     }
   ]
