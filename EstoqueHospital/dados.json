@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/11/2026 10:32:23",
+  "atualizado_em": "24/11/2026 10:32:35",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
     "total_almoxarifado": 110981,
-    "total_farmacia": 34859,
-    "total_geral": 145840,
+    "total_farmacia": 34759,
+    "total_geral": 145740,
     "perto_de_terminar": 30,
     "zerados": 15
   },
@@ -560,19 +560,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 5300,
-      "farmacia": 1015,
+      "farmacia": 915,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 6315,
+      "total": 6215,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-24 10:22:17",
+      "atualizado_em": "2026-11-24 10:32:33",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -586,17 +586,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 1015
+          "quantidade": 915
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 1777,
-      "previsao_20_dias": 1777,
+      "minimo_alerta": 1802,
+      "previsao_20_dias": 1802,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 82,
-      "media_diaria_saida": 88.84,
-      "total_saida_historica": 7285,
-      "cobertura_dias": 71.1,
+      "media_diaria_saida": 90.06,
+      "total_saida_historica": 7385,
+      "cobertura_dias": 69.0,
       "alerta_estoque": false
     },
     {
@@ -17749,6 +17749,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 6991,
+      "item_id": 390,
+      "produto_nome": "AGULHA  40X1,2",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 100,
+      "responsavel": "Assucena",
+      "data": "2026-11-24",
+      "obs": "",
+      "criado_em": "2026-11-24 10:32:33",
+      "item": "AGULHA  40X1,2",
+      "usuario": "Assucena"
+    },
+    {
       "id": 6990,
       "item_id": 176,
       "produto_nome": "Gelco nº 24",
@@ -25231,21 +25246,6 @@
       "obs": "",
       "criado_em": "2026-11-16 15:23:17",
       "item": "Prednisolona 3mg/ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 6491,
-      "item_id": 377,
-      "produto_nome": "LORATADINA SUSPENSÃO",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 1,
-      "responsavel": "Leiliana",
-      "data": "2026-11-16",
-      "obs": "",
-      "criado_em": "2026-11-16 15:23:05",
-      "item": "LORATADINA SUSPENSÃO",
       "usuario": "Leiliana"
     }
   ]
