@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/11/2026 16:30:34",
+  "atualizado_em": "24/11/2026 16:30:47",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
     "total_almoxarifado": 111361,
-    "total_farmacia": 32361,
-    "total_geral": 143722,
+    "total_farmacia": 32351,
+    "total_geral": 143712,
     "perto_de_terminar": 33,
     "zerados": 14
   },
@@ -8829,19 +8829,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 208,
-      "farmacia": 100,
+      "farmacia": 90,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 308,
+      "total": 298,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-24 10:22:17",
+      "atualizado_em": "2026-11-24 16:30:46",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -8855,17 +8855,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 122
+          "quantidade": 112
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 47,
-      "previsao_20_dias": 47,
+      "minimo_alerta": 49,
+      "previsao_20_dias": 49,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 82,
-      "media_diaria_saida": 2.32,
-      "total_saida_historica": 190,
-      "cobertura_dias": 132.9,
+      "media_diaria_saida": 2.44,
+      "total_saida_historica": 200,
+      "cobertura_dias": 122.2,
       "alerta_estoque": false
     },
     {
@@ -17749,6 +17749,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 7044,
+      "item_id": 387,
+      "produto_nome": "HIDROCORTIZONA 500MG",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 10,
+      "responsavel": "Leiliana",
+      "data": "2026-11-24",
+      "obs": "",
+      "criado_em": "2026-11-24 16:30:46",
+      "item": "HIDROCORTIZONA 500MG",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 7043,
       "item_id": 205,
       "produto_nome": "Soro glicose 5% 500ml",
@@ -25230,21 +25245,6 @@
       "data": "2026-11-16",
       "obs": "",
       "criado_em": "2026-11-17 13:53:22",
-      "item": "Equipo macrogotas",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 6544,
-      "item_id": 220,
-      "produto_nome": "Equipo macrogotas",
-      "tipo": "Almoxarifado para Farmácia",
-      "origem": "Almoxarifado",
-      "destino": "Farmácia",
-      "quantidade": 100,
-      "responsavel": "Leiliana",
-      "data": "2026-11-16",
-      "obs": "",
-      "criado_em": "2026-11-17 13:53:15",
       "item": "Equipo macrogotas",
       "usuario": "Leiliana"
     }
