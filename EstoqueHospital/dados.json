@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/11/2026 16:34:05",
+  "atualizado_em": "24/11/2026 16:34:13",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
     "total_almoxarifado": 111361,
-    "total_farmacia": 32094,
-    "total_geral": 143455,
+    "total_farmacia": 32093,
+    "total_geral": 143454,
     "perto_de_terminar": 34,
     "zerados": 14
   },
@@ -12767,19 +12767,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 21,
-      "farmacia": 29,
+      "farmacia": 28,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 50,
+      "total": 49,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-24 10:22:17",
+      "atualizado_em": "2026-11-24 16:34:11",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -12793,7 +12793,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 29
+          "quantidade": 28
         }
       ],
       "minimo_manual": 0,
@@ -12801,9 +12801,9 @@
       "previsao_20_dias": 5,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 103,
-      "media_diaria_saida": 0.2,
-      "total_saida_historica": 21,
-      "cobertura_dias": 245.2,
+      "media_diaria_saida": 0.21,
+      "total_saida_historica": 22,
+      "cobertura_dias": 229.4,
       "alerta_estoque": false
     },
     {
@@ -17748,6 +17748,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 7062,
+      "item_id": 249,
+      "produto_nome": "Prednisolona 3mg/ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 1,
+      "responsavel": "Leiliana",
+      "data": "2026-11-24",
+      "obs": "",
+      "criado_em": "2026-11-24 16:34:11",
+      "item": "Prednisolona 3mg/ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 7061,
       "item_id": 69,
@@ -25231,21 +25246,6 @@
       "obs": "",
       "criado_em": "2026-11-17 13:58:56",
       "item": "Fosfato de Clindamicina 150mg",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 6562,
-      "item_id": 12,
-      "produto_nome": "Morfina 10mg/ml 1ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 5,
-      "responsavel": "Leiliana",
-      "data": "2026-11-16",
-      "obs": "",
-      "criado_em": "2026-11-17 13:58:43",
-      "item": "Morfina 10mg/ml 1ml",
       "usuario": "Leiliana"
     }
   ]
