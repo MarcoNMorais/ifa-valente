@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "24/11/2026 11:02:24",
+  "atualizado_em": "24/11/2026 16:29:44",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
-    "total_almoxarifado": 111571,
-    "total_farmacia": 32221,
+    "total_almoxarifado": 111361,
+    "total_farmacia": 32431,
     "total_geral": 143792,
     "perto_de_terminar": 33,
     "zerados": 14
@@ -2512,8 +2512,8 @@
       "nome": "Benzilpenicilina 1.200",
       "tipo": "Medicamento",
       "unidade": "Unidade",
-      "almoxarifado": 210,
-      "farmacia": 12,
+      "almoxarifado": 0,
+      "farmacia": 222,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -2525,21 +2525,15 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-24 10:22:17",
+      "atualizado_em": "2026-11-24 16:29:43",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
         {
-          "local": "almoxarifado",
-          "validade": "",
-          "lote": "",
-          "quantidade": 210
-        },
-        {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 12
+          "quantidade": 222
         }
       ],
       "minimo_manual": 0,
@@ -17755,6 +17749,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 7037,
+      "item_id": 55,
+      "produto_nome": "Benzilpenicilina 1.200",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 210,
+      "responsavel": "Leiliana",
+      "data": "2026-11-24",
+      "obs": "",
+      "criado_em": "2026-11-24 16:29:43",
+      "item": "Benzilpenicilina 1.200",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 7036,
       "item_id": 199,
       "produto_nome": "Lençol descartável papel",
@@ -25237,21 +25246,6 @@
       "obs": "",
       "criado_em": "2026-11-17 13:51:42",
       "item": "Seringa 1ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 6537,
-      "item_id": 177,
-      "produto_nome": "Gelco nº 22",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 20,
-      "responsavel": "Leiliana",
-      "data": "2026-11-16",
-      "obs": "",
-      "criado_em": "2026-11-17 13:51:31",
-      "item": "Gelco nº 22",
       "usuario": "Leiliana"
     }
   ]
