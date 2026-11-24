@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/11/2026 10:48:12",
+  "atualizado_em": "24/11/2026 10:48:21",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
     "total_almoxarifado": 111731,
-    "total_farmacia": 34721,
-    "total_geral": 146452,
+    "total_farmacia": 34720,
+    "total_geral": 146451,
     "perto_de_terminar": 30,
     "zerados": 14
   },
@@ -10600,19 +10600,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 40,
-      "farmacia": 1139,
+      "farmacia": 1138,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1179,
+      "total": 1178,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-24 10:22:17",
+      "atualizado_em": "2026-11-24 10:48:20",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -10626,7 +10626,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 1139
+          "quantidade": 1138
         }
       ],
       "minimo_manual": 0,
@@ -10634,9 +10634,9 @@
       "previsao_20_dias": 7,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 99,
-      "media_diaria_saida": 0.31,
-      "total_saida_historica": 31,
-      "cobertura_dias": 3765.2,
+      "media_diaria_saida": 0.32,
+      "total_saida_historica": 32,
+      "cobertura_dias": 3644.4,
       "alerta_estoque": false
     },
     {
@@ -17754,6 +17754,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 7018,
+      "item_id": 281,
+      "produto_nome": "Luva P procedimento",
+      "tipo": "Farmácia para Posto de Internamento",
+      "origem": "Farmácia",
+      "destino": "Posto de Internamento",
+      "quantidade": 1,
+      "responsavel": "Assucena",
+      "data": "2026-11-24",
+      "obs": "",
+      "criado_em": "2026-11-24 10:48:20",
+      "item": "Luva P procedimento",
+      "usuario": "Assucena"
+    },
     {
       "id": 7017,
       "item_id": 280,
@@ -25237,21 +25252,6 @@
       "obs": "",
       "criado_em": "2026-11-17 13:48:11",
       "item": "Dipirona",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 6518,
-      "item_id": 68,
-      "produto_nome": "Dexametasona",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 30,
-      "responsavel": "Leiliana",
-      "data": "2026-11-16",
-      "obs": "",
-      "criado_em": "2026-11-17 13:48:02",
-      "item": "Dexametasona",
       "usuario": "Leiliana"
     }
   ]
