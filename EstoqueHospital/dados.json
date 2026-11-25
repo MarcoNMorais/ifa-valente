@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "25/11/2026 10:57:17",
+  "atualizado_em": "25/11/2026 10:57:26",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
     "total_almoxarifado": 111361,
-    "total_farmacia": 32008,
-    "total_geral": 143369,
+    "total_farmacia": 32007,
+    "total_geral": 143368,
     "perto_de_terminar": 33,
     "zerados": 14
   },
@@ -10508,19 +10508,19 @@
       "tipo": "Material",
       "unidade": "Caixa",
       "almoxarifado": 40,
-      "farmacia": 4,
+      "farmacia": 3,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 44,
+      "total": 43,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga Almoxerifado",
       "obs": "Importação Almoxerifado",
-      "atualizado_em": "2026-11-24 10:53:22",
+      "atualizado_em": "2026-11-25 10:57:24",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -10534,7 +10534,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 4
+          "quantidade": 3
         }
       ],
       "minimo_manual": 0,
@@ -10542,9 +10542,9 @@
       "previsao_20_dias": 92,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 100,
-      "media_diaria_saida": 4.56,
-      "total_saida_historica": 456,
-      "cobertura_dias": 9.6,
+      "media_diaria_saida": 4.57,
+      "total_saida_historica": 457,
+      "cobertura_dias": 9.4,
       "alerta_estoque": true
     },
     {
@@ -17748,6 +17748,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 7069,
+      "item_id": 282,
+      "produto_nome": "Luva G procedimento",
+      "tipo": "Farmácia para endoscopia",
+      "origem": "Farmácia",
+      "destino": "endoscopia",
+      "quantidade": 1,
+      "responsavel": "Assucena",
+      "data": "2026-11-24",
+      "obs": "",
+      "criado_em": "2026-11-25 10:57:24",
+      "item": "Luva G procedimento",
+      "usuario": "Assucena"
+    },
     {
       "id": 7068,
       "item_id": 331,
@@ -25231,21 +25246,6 @@
       "obs": "",
       "criado_em": "2026-11-17 14:00:11",
       "item": "Brometo de ipratrópio gotas",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 6569,
-      "item_id": 241,
-      "produto_nome": "Lactulose solução",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 2,
-      "responsavel": "Leiliana",
-      "data": "2026-11-16",
-      "obs": "",
-      "criado_em": "2026-11-17 14:00:01",
-      "item": "Lactulose solução",
       "usuario": "Leiliana"
     }
   ]
