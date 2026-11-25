@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "25/11/2026 10:59:34",
+  "atualizado_em": "25/11/2026 10:59:43",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
     "total_almoxarifado": 111281,
-    "total_farmacia": 31839,
-    "total_geral": 143120,
+    "total_farmacia": 31819,
+    "total_geral": 143100,
     "perto_de_terminar": 33,
     "zerados": 14
   },
@@ -3667,19 +3667,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 230,
+      "farmacia": 210,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 230,
+      "total": 210,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-24 10:22:17",
+      "atualizado_em": "2026-11-25 10:59:42",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -3687,17 +3687,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 250
+          "quantidade": 230
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 242,
-      "previsao_20_dias": 242,
+      "minimo_alerta": 246,
+      "previsao_20_dias": 246,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 105,
-      "media_diaria_saida": 12.09,
-      "total_saida_historica": 1269,
-      "cobertura_dias": 19.0,
+      "media_diaria_saida": 12.28,
+      "total_saida_historica": 1289,
+      "cobertura_dias": 17.1,
       "alerta_estoque": true
     },
     {
@@ -17743,6 +17743,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 7081,
+      "item_id": 61,
+      "produto_nome": "Cetoprofeno IM 50mg",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 20,
+      "responsavel": "Assucena",
+      "data": "2026-11-24",
+      "obs": "",
+      "criado_em": "2026-11-25 10:59:42",
+      "item": "Cetoprofeno IM 50mg",
+      "usuario": "Assucena"
+    },
+    {
       "id": 7080,
       "item_id": 238,
       "produto_nome": "Ondansetrona 2mg/ml 2ml",
@@ -25225,21 +25240,6 @@
       "obs": "",
       "criado_em": "2026-11-17 14:09:55",
       "item": "Agulha 13x4,5",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 6581,
-      "item_id": 390,
-      "produto_nome": "AGULHA  40X1,2",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 10,
-      "responsavel": "Leiliana",
-      "data": "2026-11-16",
-      "obs": "",
-      "criado_em": "2026-11-17 14:09:42",
-      "item": "AGULHA  40X1,2",
       "usuario": "Leiliana"
     }
   ]
