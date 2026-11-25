@@ -50,5 +50,6 @@ function mount(options){
  syncUploadControls();
  setInterval(async()=>{if(isBusy()||uploading)return;try{const data=await api('library');if(isBusy()||uploading)return;options.onRefresh?.(data.videos);}catch{}},30000);
 }
-globalThis.TVLibrary={api,update,mount,syncUploadControls};
+function captionButton(video){const link=document.createElement('a');link.className='caption-link';link.href='/TV/Admin/legendas?id='+encodeURIComponent(video.id);link.textContent='Revisar legendas';const wrap=document.createElement('div');wrap.className='caption-library-actions';const status=document.createElement('small');status.className='caption-library-status';status.textContent=video.captions?.label||'Legendas';wrap.append(status,link);return wrap;}
+globalThis.TVLibrary={api,update,mount,syncUploadControls,captionButton};
 })();

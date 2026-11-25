@@ -6,8 +6,9 @@ import os from 'node:os';
 import path from 'node:path';
 import {createTVHospHandler} from '../tvhosp.mjs';
 test('isolamento, autenticação, publicação, upload e persistência',async t=>{
+ const token='caption-test-token-12345678901234567890';
  const dir=await mkdtemp(path.join(os.tmpdir(),'tvhosp-test-'));const password='test-only-password-123';
- let handle=await createTVHospHandler({dataDir:dir,password,secureCookies:false});
+ let handle=await createTVHospHandler({dataDir:dir,password,secureCookies:false,captionToken:token});
  t.after(async()=>{await rm(dir,{recursive:true,force:true});});
  const root='http://local.test';
  async function fetch(url,options={}){
@@ -33,6 +34,19 @@ test('isolamento, autenticação, publicação, upload e persistência',async t=
  r=await fetch(root+'/TV/api/upload?name=teste.mp4',{method:'POST',headers:{...headers,'Content-Type':'video/mp4'},body:bytes});assert.equal(r.status,201);const uploaded=await r.json();const id=uploaded.video.id;
  r=await fetch(root+'/TV/api/hospital/state');let publicState=await r.json();assert.equal(publicState.videos.length,0);
  r=await fetch(root+'/TV/media/'+id);assert.equal(r.status,404);
+
+ async function approveFixture(id){
+   const prefix=root+'/TV/api/videos/'+id+'/captions';
+   let result=await fetch(prefix,{headers});let caption=await result.json();
+   const claim=await fetch(root+'/TV/api/caption-worker/claim',{method:'POST',headers:{'X-TVHosp-Request':'1',Authorization:'Bearer '+token},body:'{}'});const job=(await claim.json()).job;
+   if(job)await fetch(root+'/TV/api/caption-worker/complete',{method:'POST',headers:{'X-TVHosp-Request':'1',Authorization:'Bearer '+token},body:JSON.stringify({...job,duration:1,segments:[]})});
+   caption=await (await fetch(prefix,{headers})).json();
+   caption=await (await fetch(prefix,{method:'PUT',headers,body:JSON.stringify({revision:caption.revision,draft:{...caption.draft,enabled:false}})})).json();
+   caption=await (await fetch(prefix+'/approve',{method:'POST',headers,body:JSON.stringify({revision:caption.revision})})).json();
+   const published=await fetch(prefix+'/publish',{method:'POST',headers,body:JSON.stringify({revision:caption.revision})});assert.equal(published.status,200);
+ }
+
+ await approveFixture(id);
  r=await fetch(root+'/TV/api/hospital/admin',{headers});let state=await r.json();state.config.playlist=[id];state.config.messages=[{id:'a',text:'Ativa',on:true},{id:'b',text:'Rascunho privado',on:false}];
  r=await fetch(root+'/TV/api/hospital/config',{method:'PUT',headers,body:JSON.stringify(state)});assert.equal(r.status,200);
  r=await fetch(root+'/TV/api/hospital/config',{method:'PUT',headers,body:JSON.stringify(state)});assert.equal(r.status,409);
@@ -41,7 +55,7 @@ test('isolamento, autenticação, publicação, upload e persistência',async t=
  r=await fetch(root+'/TV/media/'+id,{headers:{Range:'bytes=9999-'}});assert.equal(r.status,416);
  r=await fetch(root+'/TV/api/videos/'+id,{method:'DELETE',headers});assert.equal(r.status,409);
  r=await fetch(root+'/tv/admin/tvhosp',{redirect:'manual'});assert.equal(r.status,308);assert.equal(r.headers.get('location'),'/TV/Admin/TVHosp');
- handle=await createTVHospHandler({dataDir:dir,password,secureCookies:false});
+ handle=await createTVHospHandler({dataDir:dir,password,secureCookies:false,captionToken:token});
  r=await fetch(root+'/TV/api/hospital/state');assert.equal((await r.json()).config.playlist[0],id);
  r=await fetch(root+'/TV/api/hospital/admin',{headers});assert.equal(r.status,401);
 });

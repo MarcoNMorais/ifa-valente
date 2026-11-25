@@ -11,3 +11,12 @@
 .transfer-budget{border-left-color:#0a8c9d}.transfer-budget progress{accent-color:#0a8c9d}#transferLimit{color:#a52432;font-weight:bold}
 .sending-box{margin:18px 0;padding:16px;background:#eef5fa;border-left:3px solid #0786af}.sending-box[hidden]{display:none}.sending-box progress{width:100%;height:16px;margin-bottom:12px}.sending-box p{margin-top:0}
 #welcomeTitle,#welcomeCaption{white-space:pre-line;overflow-wrap:anywhere}#welcomeTitle{font-size:clamp(22px,3.3vw,64px);max-width:65%;line-height:1.1} .tv-mode #welcomeTitle{font-size:clamp(32px,4vw,82px)}
+
+/* Cabeçalho com altura fixa: imagens contidas, sem influenciar o tamanho da faixa. */
+.bar{display:block;overflow:hidden;min-height:0}
+.bar .sec-brand{position:absolute;left:3%;top:12.5%;width:60%;height:75%;max-height:75%;max-width:none;min-width:0;min-height:0;object-fit:contain;object-position:left center}
+.bar .time-block{position:absolute;right:3%;top:50%;transform:translateY(-50%);max-width:16%;min-width:0;align-self:auto;white-space:nowrap}
+.bar #clock{line-height:1}
+.bar #tvDate{line-height:1.2}
+.ig-brand{position:absolute;right:17.5%;top:12.5%;width:14%;height:75%;max-height:75%;min-height:0;overflow:hidden;aspect-ratio:auto}
+.ig-brand img{position:absolute;left:0;top:50%;width:100%;height:auto;display:block;transform:translateY(-54%)}
