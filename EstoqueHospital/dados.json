@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "25/11/2026 10:56:51",
+  "atualizado_em": "25/11/2026 10:56:58",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
     "total_almoxarifado": 111361,
-    "total_farmacia": 32068,
-    "total_geral": 143429,
+    "total_farmacia": 32048,
+    "total_geral": 143409,
     "perto_de_terminar": 33,
     "zerados": 14
   },
@@ -13467,19 +13467,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 5100,
-      "farmacia": 2603,
+      "farmacia": 2583,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 7703,
+      "total": 7683,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-24 16:32:27",
+      "atualizado_em": "2026-11-25 10:56:56",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -13493,17 +13493,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 2653
+          "quantidade": 2633
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 796,
-      "previsao_20_dias": 796,
+      "minimo_alerta": 800,
+      "previsao_20_dias": 800,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 105,
-      "media_diaria_saida": 39.76,
-      "total_saida_historica": 4175,
-      "cobertura_dias": 193.7,
+      "media_diaria_saida": 39.95,
+      "total_saida_historica": 4195,
+      "cobertura_dias": 192.3,
       "alerta_estoque": false
     },
     {
@@ -17748,6 +17748,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 7066,
+      "item_id": 104,
+      "produto_nome": "Seringa 3ml",
+      "tipo": "Farmácia para endoscopia",
+      "origem": "Farmácia",
+      "destino": "endoscopia",
+      "quantidade": 20,
+      "responsavel": "Assucena",
+      "data": "2026-11-24",
+      "obs": "",
+      "criado_em": "2026-11-25 10:56:56",
+      "item": "Seringa 3ml",
+      "usuario": "Assucena"
+    },
     {
       "id": 7065,
       "item_id": 102,
@@ -25231,21 +25246,6 @@
       "obs": "",
       "criado_em": "2026-11-17 13:59:43",
       "item": "Cetoprofeno EV 100mg",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 6566,
-      "item_id": 70,
-      "produto_nome": "Dipirona",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 30,
-      "responsavel": "Leiliana",
-      "data": "2026-11-16",
-      "obs": "",
-      "criado_em": "2026-11-17 13:59:31",
-      "item": "Dipirona",
       "usuario": "Leiliana"
     }
   ]
