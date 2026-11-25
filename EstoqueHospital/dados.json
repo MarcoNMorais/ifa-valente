@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "25/11/2026 10:59:09",
+  "atualizado_em": "25/11/2026 10:59:17",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
     "total_almoxarifado": 111281,
-    "total_farmacia": 31909,
-    "total_geral": 143190,
+    "total_farmacia": 31889,
+    "total_geral": 143170,
     "perto_de_terminar": 33,
     "zerados": 14
   },
@@ -4847,19 +4847,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 1320,
+      "farmacia": 1300,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1320,
+      "total": 1300,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-24 16:30:12",
+      "atualizado_em": "2026-11-25 10:59:15",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -4867,17 +4867,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 1340
+          "quantidade": 1320
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 562,
-      "previsao_20_dias": 562,
+      "minimo_alerta": 566,
+      "previsao_20_dias": 566,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 105,
-      "media_diaria_saida": 28.1,
-      "total_saida_historica": 2950,
-      "cobertura_dias": 47.0,
+      "media_diaria_saida": 28.29,
+      "total_saida_historica": 2970,
+      "cobertura_dias": 46.0,
       "alerta_estoque": false
     },
     {
@@ -17743,6 +17743,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 7078,
+      "item_id": 68,
+      "produto_nome": "Dexametasona",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 20,
+      "responsavel": "Assucena",
+      "data": "2026-11-24",
+      "obs": "",
+      "criado_em": "2026-11-25 10:59:15",
+      "item": "Dexametasona",
+      "usuario": "Assucena"
+    },
+    {
       "id": 7077,
       "item_id": 66,
       "produto_nome": "Complexo B",
@@ -25225,21 +25240,6 @@
       "obs": "",
       "criado_em": "2026-11-17 14:09:12",
       "item": "Lençol descartável papel",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 6578,
-      "item_id": 283,
-      "produto_nome": "Fio Nylon nº 4",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 24,
-      "responsavel": "Leiliana",
-      "data": "2026-11-16",
-      "obs": "",
-      "criado_em": "2026-11-17 14:08:59",
-      "item": "Fio Nylon nº 4",
       "usuario": "Leiliana"
     }
   ]
