@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "25/11/2026 11:00:21",
+  "atualizado_em": "25/11/2026 11:00:28",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
     "total_almoxarifado": 111281,
-    "total_farmacia": 31699,
-    "total_geral": 142980,
+    "total_farmacia": 31659,
+    "total_geral": 142940,
     "perto_de_terminar": 33,
     "zerados": 14
   },
@@ -778,19 +778,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 14900,
-      "farmacia": 895,
+      "farmacia": 855,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 15795,
+      "total": 15755,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-24 10:32:41",
+      "atualizado_em": "2026-11-25 11:00:26",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -804,17 +804,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 895
+          "quantidade": 855
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 621,
-      "previsao_20_dias": 621,
+      "minimo_alerta": 629,
+      "previsao_20_dias": 629,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 100,
-      "media_diaria_saida": 31.05,
-      "total_saida_historica": 3105,
-      "cobertura_dias": 508.7,
+      "media_diaria_saida": 31.45,
+      "total_saida_historica": 3145,
+      "cobertura_dias": 501.0,
       "alerta_estoque": false
     },
     {
@@ -17743,6 +17743,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 7087,
+      "item_id": 285,
+      "produto_nome": "Agulha 30x7",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 40,
+      "responsavel": "Assucena",
+      "data": "2026-11-24",
+      "obs": "",
+      "criado_em": "2026-11-25 11:00:26",
+      "item": "Agulha 30x7",
+      "usuario": "Assucena"
+    },
+    {
       "id": 7086,
       "item_id": 390,
       "produto_nome": "AGULHA  40X1,2",
@@ -25225,21 +25240,6 @@
       "obs": "",
       "criado_em": "2026-11-17 16:33:22",
       "item": "Cetoprofeno EV 100mg",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 6587,
-      "item_id": 173,
-      "produto_nome": "Sonda Foley nº 16 - 2 vias",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 3,
-      "responsavel": "Leiliana",
-      "data": "2026-11-16",
-      "obs": "",
-      "criado_em": "2026-11-17 16:33:13",
-      "item": "Sonda Foley nº 16 - 2 vias",
       "usuario": "Leiliana"
     }
   ]
