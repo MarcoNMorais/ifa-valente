@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "25/11/2026 10:57:51",
+  "atualizado_em": "25/11/2026 10:58:00",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
     "total_almoxarifado": 111361,
-    "total_farmacia": 31905,
-    "total_geral": 143266,
+    "total_farmacia": 31880,
+    "total_geral": 143241,
     "perto_de_terminar": 33,
     "zerados": 14
   },
@@ -5964,19 +5964,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 750,
-      "farmacia": 200,
+      "farmacia": 175,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 950,
+      "total": 925,
       "minimo": 300,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-24 16:32:36",
+      "atualizado_em": "2026-11-25 10:57:58",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -5990,17 +5990,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 225
+          "quantidade": 200
         }
       ],
       "minimo_manual": 300,
-      "minimo_alerta": 1067,
-      "previsao_20_dias": 1067,
+      "minimo_alerta": 1072,
+      "previsao_20_dias": 1072,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 105,
-      "media_diaria_saida": 53.33,
-      "total_saida_historica": 5600,
-      "cobertura_dias": 17.8,
+      "media_diaria_saida": 53.57,
+      "total_saida_historica": 5625,
+      "cobertura_dias": 17.3,
       "alerta_estoque": true
     },
     {
@@ -17749,6 +17749,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 7072,
+      "item_id": 220,
+      "produto_nome": "Equipo macrogotas",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 25,
+      "responsavel": "Assucena",
+      "data": "2026-11-24",
+      "obs": "",
+      "criado_em": "2026-11-25 10:57:58",
+      "item": "Equipo macrogotas",
+      "usuario": "Assucena"
+    },
+    {
       "id": 7071,
       "item_id": 385,
       "produto_nome": "LIDOCAINA S/ VASO",
@@ -25231,21 +25246,6 @@
       "obs": "",
       "criado_em": "2026-11-17 14:05:47",
       "item": "Lactulose solução",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 6572,
-      "item_id": 186,
-      "produto_nome": "Luva cirúrgica tam. 8",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 10,
-      "responsavel": "Leiliana",
-      "data": "2026-11-16",
-      "obs": "",
-      "criado_em": "2026-11-17 14:05:37",
-      "item": "Luva cirúrgica tam. 8",
       "usuario": "Leiliana"
     }
   ]
