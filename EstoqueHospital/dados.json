@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "25/11/2026 11:02:16",
+  "atualizado_em": "25/11/2026 11:02:22",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
     "total_almoxarifado": 111141,
-    "total_farmacia": 31682,
-    "total_geral": 142823,
+    "total_farmacia": 31681,
+    "total_geral": 142822,
     "perto_de_terminar": 33,
     "zerados": 14
   },
@@ -13667,19 +13667,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 35,
-      "farmacia": 7,
+      "farmacia": 6,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 42,
+      "total": 41,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-24 10:50:10",
+      "atualizado_em": "2026-11-25 11:02:20",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -13693,7 +13693,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 7
+          "quantidade": 6
         }
       ],
       "minimo_manual": 0,
@@ -13701,9 +13701,9 @@
       "previsao_20_dias": 21,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 104,
-      "media_diaria_saida": 1.01,
-      "total_saida_historica": 105,
-      "cobertura_dias": 41.6,
+      "media_diaria_saida": 1.02,
+      "total_saida_historica": 106,
+      "cobertura_dias": 40.2,
       "alerta_estoque": false
     },
     {
@@ -17730,6 +17730,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 7100,
+      "item_id": 256,
+      "produto_nome": "Simeticona gotas",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 1,
+      "responsavel": "Assucena",
+      "data": "2026-11-24",
+      "obs": "",
+      "criado_em": "2026-11-25 11:02:20",
+      "item": "Simeticona gotas",
+      "usuario": "Assucena"
+    },
     {
       "id": 7099,
       "item_id": 37,
@@ -25213,21 +25228,6 @@
       "obs": "",
       "criado_em": "2026-11-17 16:36:02",
       "item": "Luva de látex tam. P",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 6600,
-      "item_id": 200,
-      "produto_nome": "Caixa de perfurocortante",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 1,
-      "responsavel": "Leiliana",
-      "data": "2026-11-16",
-      "obs": "",
-      "criado_em": "2026-11-17 16:35:53",
-      "item": "Caixa de perfurocortante",
       "usuario": "Leiliana"
     }
   ]
