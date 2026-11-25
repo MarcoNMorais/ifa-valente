@@ -1,3 +1,4 @@
+import {createCaptions} from './captions.mjs';
 import {convertMov} from './convert-video.mjs';
 import { randomBytes, randomUUID, scryptSync, timingSafeEqual } from 'node:crypto';
 import { mkdir, readFile, writeFile, rename, stat, unlink, readdir } from 'node:fs/promises';
@@ -16,11 +17,11 @@ const channels={
 const defaults={headline:"Mais perto.\nPara cuidar melhor.",caption:"Informação e acolhimento em todos os momentos.",cyclePause:5,playlist:[],ticker:'Bem-vindo ao Hospital Municipal José Mota Araújo.',rotation:10,enabled:true,interval:5,duration:12,messages:[]};
 const types={'.html':'text/html; charset=utf-8','.js':'text/javascript; charset=utf-8','.css':'text/css; charset=utf-8','.png':'image/png'};
 const fail=(code,message)=>Object.assign(new Error(message),{code});
-async function jsonBody(req){let size=0,parts=[];for await(const chunk of req){size+=chunk.length;if(size>1024*1024)throw fail(413,'Conteúdo muito grande.');parts.push(chunk);}try{return JSON.parse(Buffer.concat(parts).toString());}catch{throw fail(400,'Dados inválidos.');}}
-export async function createTVHospHandler({dataDir,password,secureCookies=true,maxStorageBytes=Infinity,clock=()=>Date.now()}={}){
+async function jsonBody(req,maxBytes=1024*1024){let size=0,parts=[];for await(const chunk of req){size+=chunk.length;if(size>maxBytes)throw fail(413,'Conteúdo muito grande.');parts.push(chunk);}try{return JSON.parse(Buffer.concat(parts).toString());}catch{throw fail(400,'Dados inválidos.');}}
+export async function createTVHospHandler({dataDir,password,secureCookies=true,maxStorageBytes=Infinity,clock=()=>Date.now(),captionToken=process.env.TVHOSP_CAPTION_TOKEN||'',captionTokenHash=process.env.TVHOSP_CAPTION_TOKEN_SHA256||''}={}){
   if(typeof password!=='string'||password.length<12)throw Error('Defina TVHOSP_ADMIN_PASSWORD com pelo menos 12 caracteres. Não há senha padrão.');
   const dir=path.resolve(dataDir||'data'),media=path.join(dir,'media'),statePath=path.join(dir,'state.json');
-  await mkdir(media,{recursive:true});for(const file of await readdir(media))if(file.endsWith('.part')||file.endsWith('.convert.mp4'))await unlink(path.join(media,file));
+  const originals=path.join(dir,'originals');await mkdir(originals,{recursive:true});await mkdir(media,{recursive:true});for(const file of await readdir(media))if(file.endsWith('.part')||file.endsWith('.convert.mp4'))await unlink(path.join(media,file));
   let state;try{state=JSON.parse(await readFile(statePath,'utf8'));}catch(e){if(e.code!=='ENOENT')throw e;state={revision:0,config:structuredClone(defaults),videos:[],uploadHistory:[]};}
   // Legacy files count once; an unknown original date must not be invented.
   const migrateHistory=!Object.hasOwn(state,'uploadHistory');
@@ -46,12 +47,17 @@ export async function createTVHospHandler({dataDir,password,secureCookies=true,m
   const usage=()=>({...uploadUsage(state.uploadHistory,clock(),state.historyMigrationAt),blocked:false,limitsEnforced:false});
   const transfers=()=>transferUsage(state.transferHistory,clock());
   let writeQueue=Promise.resolve();const transact=fn=>{const task=writeQueue.then(fn);writeQueue=task.catch(()=>{});return task;};
+  // Guarda o índice anterior uma única vez; a adoção de legendas não move os vídeos.
+  try{await stat(path.join(dir,'captions.json'));}catch(e){if(e.code!=='ENOENT')throw e;await writeFile(path.join(dir,'state-before-captions.json'),await readFile(statePath),{flag:'wx'}).catch(error=>{if(error.code!=='EEXIST')throw error;});}
+  const captions=await createCaptions({dir,token:captionToken,tokenHash:captionTokenHash,clock,onPublish:async id=>transact(()=>{const updated={...state,revision:state.revision+1,channels:{...state.channels}};for(const [key,value] of Object.entries(state.channels))if(value.config.playlist.includes(id))updated.channels[key]={...value,revision:value.revision+1};return save(updated);})});
+  for(const v of state.videos)await captions.register(v.id,path.join(media,v.id),{legacy:true});
   function json(res,code,body){res.writeHead(code,{'Content-Type':'application/json; charset=utf-8','Cache-Control':'no-store'});res.end(JSON.stringify(body));}
   function authenticated(req){const token=(req.headers.cookie||'').split(';').map(x=>x.trim()).find(x=>x.startsWith('tvhosp_session='))?.slice(15);return token&&sessions.get(token)>Date.now();}
   function cookie(value,maxAge){return `tvhosp_session=${value}; Path=/TV; HttpOnly; SameSite=Strict; Max-Age=${maxAge}${secureCookies?'; Secure':''}`;}
-  function catalog(){return state.videos.map(v=>({...v,usedBy:Object.entries(state.channels).filter(([,c])=>c.config.playlist.includes(v.id)).map(([key])=>channels[key].title)}));}
+  function catalog(){return state.videos.map(v=>({...v,captions:captions.summary(v.id),publishedCaptions:captions.published(v.id),usedBy:Object.entries(state.channels).filter(([,c])=>c.config.playlist.includes(v.id)).map(([key])=>channels[key].title)}));}
   function validateConfig(c){
     if(!c||!Array.isArray(c.playlist)||!Array.isArray(c.messages)||typeof c.ticker!=='string'||c.ticker.length>20000||typeof c.enabled!=='boolean')throw fail(400,'Programação inválida.');
+    if(c.playlist.some(id=>!captions.canSchedule(id)))throw fail(409,'Revise, aprove e publique as legendas dos novos vídeos antes de aplicar a programação.');
     if(c.playlist.some(id=>!state.videos.some(v=>v.id===id))||new Set(c.playlist).size!==c.playlist.length)throw fail(400,'Seleção de vídeos inválida.');
     for(const [key,min,max] of [['rotation',3,3600],['interval',.1,1440],['duration',3,300]])if(!Number.isFinite(c[key])||c[key]<min||c[key]>max)throw fail(400,`Valor inválido: ${key}`);
     if(c.messages.some(m=>!m||typeof m.id!=='string'||m.id.length>100||typeof m.text!=='string'||!m.text.trim()||m.text.length>2000||typeof m.on!=='boolean')||new Set(c.messages.map(m=>m.id)).size!==c.messages.length)throw fail(400,'Mensagem inválida.');
@@ -79,7 +85,8 @@ export async function createTVHospHandler({dataDir,password,secureCookies=true,m
       const canonicalPath=canonical.get(p.replace(/\/$/,'').toLowerCase());
       if(canonicalPath&&p!==canonicalPath){res.writeHead(308,{Location:canonicalPath+url.search});res.end();return true;}
       if(p.slice(0,3)!==base){res.writeHead(308,{Location:base+p.slice(3)+url.search});res.end();return true;}
-      const route=p.slice(base.length).replace(/\/$/,'');
+      let route=p.slice(base.length).replace(/\/$/,'');
+      let workerMediaAuthorized=false;
       const channelMatch=/^\/api\/(hospital|saude)\/(state|admin|config)$/.exec(route);
       const channel=channelMatch?.[1],operation=channelMatch?.[2];
       if(!['GET','HEAD'].includes(req.method)&&req.headers['x-tvhosp-request']!=='1')throw fail(403,'Requisição não autorizada.');
@@ -93,10 +100,31 @@ export async function createTVHospHandler({dataDir,password,secureCookies=true,m
       }
       if(route==='/api/logout'&&req.method==='POST'){for(const token of sessions.keys())if((req.headers.cookie||'').includes(token))sessions.delete(token);res.setHeader('Set-Cookie',cookie('',0));json(res,200,{ok:true});return true;}
       if(operation==='state'&&req.method==='GET'){
-        const {config,revision}=state.channels[channel];const selected=new Set(config.playlist);json(res,200,{revision,config:{...config,messages:config.messages.filter(m=>m.on)},videos:state.videos.filter(v=>selected.has(v.id)).map(({id,name,size,type})=>({id,name,size,type,url:`${base}/media/${id}`}))});return true;
+        const {config,revision}=state.channels[channel];const selected=new Set(config.playlist);json(res,200,{revision,captionRevision:captions.publishedRevision(config.playlist),config:{...config,messages:config.messages.filter(m=>m.on)},videos:state.videos.filter(v=>selected.has(v.id)).map(({id,name,size,type})=>({id,name,size,type,url:`${base}/media/${id}`,captions:captions.published(id)}))});return true;
+      }
+      if(route.startsWith('/api/caption-worker/')){
+        if(!captions.auth(req))throw fail(401,'Processador não autorizado.');
+        const mediaJob=/^\/api\/caption-worker\/media\/([^/]+)$/.exec(route);
+        if(mediaJob&&['GET','HEAD'].includes(req.method)){
+          if(!captions.canDownload(mediaJob[1],req.headers['x-tvhosp-job-lease']))throw fail(403,'Reserve a tarefa antes de baixar este vídeo.');
+          route='/media/'+mediaJob[1];workerMediaAuthorized=true;
+        }else{
+          if(route==='/api/caption-worker/pending'&&req.method==='GET'){const data=captions.pending(state.videos.map(v=>v.id));json(res,200,{apiVersion:1,...data,jobs:data.jobs.map(j=>({...j,name:state.videos.find(v=>v.id===j.id)?.name||'Vídeo'}))});return true;}
+          if(route==='/api/caption-worker/claim'&&req.method==='POST'){const options=await jsonBody(req);json(res,200,{job:await captions.claim(state.videos.map(v=>v.id),{fingerprints:options.fingerprints??null,includeUnqueued:options.includeUnqueued===true})});return true;}
+          const action=route.slice('/api/caption-worker/'.length);
+          if(['heartbeat','complete','fail'].includes(action)&&req.method==='POST'){json(res,200,await captions.worker(action,await jsonBody(req,8*1024*1024)));return true;}
+          throw fail(404,'Operação não encontrada.');
+        }
       }
       if(route.startsWith('/api/')){
         if(!authenticated(req))throw fail(401,'Entre na administração.');
+        const captionMatch=/^\/api\/videos\/([^/]+)\/captions(?:\/(approve|publish|retry|approve-publish))?$/.exec(route);
+        if(captionMatch){const [,id,action]=captionMatch;if(!state.videos.some(v=>v.id===id))throw fail(404,'Vídeo não encontrado.');
+          if(req.method==='GET'&&!action){json(res,200,{...captions.get(id),video:state.videos.find(v=>v.id===id)});return true;}
+          if(req.method==='PUT'&&!action){const body=await jsonBody(req,8*1024*1024);json(res,200,await captions.edit(id,body.revision,body.draft));return true;}
+          if(req.method==='POST'&&action){const body=await jsonBody(req,8*1024*1024);json(res,200,action==='approve-publish'?await captions.approveAndPublish(id,body.revision,body.draft):await captions[action](id,body.revision));return true;}
+          throw fail(405,'Método não permitido.');
+        }
         if(operation==='admin'&&req.method==='GET'){json(res,200,{...state.channels[channel],channel,videos:catalog()});return true;}
         if(route==='/api/upload-progress'&&req.method==='GET'){json(res,200,uploadProgress?.token===url.searchParams.get('token')?uploadProgress:{stage:'waiting'});return true;}
         if(route==='/api/library'&&req.method==='GET'){json(res,200,{videos:catalog()});return true;}
@@ -117,18 +145,19 @@ export async function createTVHospHandler({dataDir,password,secureCookies=true,m
             if(received!==size)throw fail(400,'Envio incompleto.');
             if(!isMov&&(type==='video/mp4'?signature.subarray(4,8).toString()!=='ftyp':signature.subarray(0,4).toString('hex')!=='1a45dfa3'))throw fail(400,'O arquivo não corresponde ao formato de vídeo informado.');
             let savedSize=size,savedName=name,savedType=type;
-            if(isMov){const controller=new AbortController(),cancel=()=>controller.abort();res.once('close',cancel);try{await convertMov(temp,converted,controller.signal,progress=>{uploadProgress={token:progressToken,...progress};});}finally{res.off('close',cancel);}savedSize=(await stat(converted)).size;savedName=name.replace(/\.mov$/i,'')+'.mp4';savedType='video/mp4';await unlink(temp);await rename(converted,path.join(media,id));}else await rename(temp,path.join(media,id));const video={id,name:savedName,size:savedSize,type:savedType};const record={size:received,uploadedAt:new Date(clock()).toISOString()};
+            if(isMov){const controller=new AbortController(),cancel=()=>controller.abort();res.once('close',cancel);try{await convertMov(temp,converted,controller.signal,progress=>{uploadProgress={token:progressToken,...progress};});}finally{res.off('close',cancel);}savedSize=(await stat(converted)).size;savedName=name.replace(/\.mov$/i,'')+'.mp4';savedType='video/mp4';await rename(temp,path.join(originals,id));await rename(converted,path.join(media,id));}else await rename(temp,path.join(media,id));const video={id,name:savedName,size:savedSize,type:savedType};const record={size:received,uploadedAt:new Date(clock()).toISOString()};
+            await captions.register(id,path.join(isMov?originals:media,id));
             await transact(()=>save({...state,revision:state.revision+1,videos:[...state.videos,video],uploadHistory:[...state.uploadHistory,record]}));
-            json(res,201,{video,revision:state.revision,uploadRecord:record,uploadUsage:usage()});
-          }catch(e){await unlink(converted).catch(()=>{});await unlink(temp).catch(()=>{});if(!state.videos.some(v=>v.id===id))await unlink(path.join(media,id)).catch(()=>{});throw e;}finally{uploadBusy=false;uploadProgress=null;}return true;
+            json(res,201,{video:{...video,captions:captions.summary(id)},revision:state.revision,uploadRecord:record,uploadUsage:usage()});
+          }catch(e){await unlink(converted).catch(()=>{});await unlink(temp).catch(()=>{});if(!state.videos.some(v=>v.id===id)){await unlink(path.join(media,id)).catch(()=>{});await unlink(path.join(originals,id)).catch(()=>{});await captions.remove(id);}throw e;}finally{uploadBusy=false;uploadProgress=null;}return true;
         }
         if(route.startsWith('/api/videos/')&&req.method==='DELETE'){
-          const id=route.slice('/api/videos/'.length);await transact(async()=>{const usedBy=Object.entries(state.channels).filter(([,c])=>c.config.playlist.includes(id)).map(([key])=>channels[key].title);if(usedBy.length)throw fail(409,'Este vídeo está em uso em '+usedBy.join(' e ')+'. Desmarque e aplique nessas TVs antes de excluir.');if(!state.videos.some(v=>v.id===id))throw fail(404,'Vídeo não encontrado.');await save({...state,revision:state.revision+1,videos:state.videos.filter(v=>v.id!==id)});await unlink(path.join(media,id)).catch(()=>{});});json(res,200,{revision:state.revision});return true;
+          const id=route.slice('/api/videos/'.length);await transact(async()=>{const usedBy=Object.entries(state.channels).filter(([,c])=>c.config.playlist.includes(id)).map(([key])=>channels[key].title);if(usedBy.length)throw fail(409,'Este vídeo está em uso em '+usedBy.join(' e ')+'. Desmarque e aplique nessas TVs antes de excluir.');if(!state.videos.some(v=>v.id===id))throw fail(404,'Vídeo não encontrado.');await save({...state,revision:state.revision+1,videos:state.videos.filter(v=>v.id!==id)});await unlink(path.join(media,id)).catch(()=>{});await unlink(path.join(originals,id)).catch(()=>{});await captions.remove(id);});json(res,200,{revision:state.revision});return true;
         }
         throw fail(404,'Recurso não encontrado.');
       }
       if(route.startsWith('/media/')&&['GET','HEAD'].includes(req.method)){
-        const id=route.slice(7),v=state.videos.find(v=>v.id===id);if(!v||(!Object.values(state.channels).some(c=>c.config.playlist.includes(id))&&!authenticated(req)))throw fail(404,'Vídeo indisponível.');
+        const id=route.slice(7),v=state.videos.find(v=>v.id===id);if(!v||(!Object.values(state.channels).some(c=>c.config.playlist.includes(id))&&!authenticated(req)&&!workerMediaAuthorized))throw fail(404,'Vídeo indisponível.');
         const headers={'Content-Type':v.type,'Accept-Ranges':'bytes','Cache-Control':'private, max-age=86400'},file=path.join(media,id);let start=0,end=v.size-1,status=200;
         if(req.headers.range){const match=/^bytes=(\d*)-(\d*)$/.exec(req.headers.range);if(!match||(!match[1]&&!match[2])){res.writeHead(416,{'Content-Range':`bytes */${v.size}`});res.end();return true;}
           if(!match[1])start=Math.max(0,v.size-Number(match[2]));else start=Number(match[1]);if(match[1]&&match[2])end=Math.min(end,Number(match[2]));if(start>end||start>=v.size){res.writeHead(416,{'Content-Range':`bytes */${v.size}`});res.end();return true;}status=206;headers['Content-Range']=`bytes ${start}-${end}/${v.size}`;}
@@ -142,10 +171,11 @@ export async function createTVHospHandler({dataDir,password,secureCookies=true,m
         finally{await transact(()=>save({...state,transferHistory:state.transferHistory.map(r=>r.id===transferId?{...r,size:sent,complete:true}:r)}));}
         return true;
       }
-      const assets=new Set(['style.css','player.js','admin.js','app.js','bridge.js','secretaria.png','brand.png','media-library.js','library-page.js','navigation.js']);
+      const assets=new Set(['style.css','player.js','admin.js','app.js','bridge.js','secretaria.png','brand.png','media-library.js','library-page.js','navigation.js','ig-logo.png','captions-view.js','captions-editor.js','captions.css']);
       let file=null;
       if(route==='')file='login.html';
       else if(route==='/Admin')file='choose.html';
+      else if(route==='/Admin/legendas')file='captions-editor.html';
       else if(route==='/Admin/video')file='library.html';
       else{for(const info of Object.values(channels)){if(route===info.publicRoute)file=info.filename;if(route===info.adminRoute)file=info.adminFile;}
         if(route.startsWith('/assets/')&&assets.has(route.slice(8)))file=route.slice(8);}

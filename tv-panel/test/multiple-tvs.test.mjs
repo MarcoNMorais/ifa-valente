@@ -6,10 +6,11 @@ import os from 'node:os';
 import {createTVHospHandler} from '../tvhosp.mjs';
 import {requestFor} from './request-helper.mjs';
 test('duas TVs independentes, biblioteca única, migração e exclusão protegida',async t=>{
+ const token='caption-test-token-12345678901234567890';
  const dir=await mkdtemp(path.join(os.tmpdir(),'tv-multiple-'));t.after(()=>rm(dir,{recursive:true,force:true}));
  const oldConfig={playlist:[],messages:[{id:'old',text:'Mensagem particular do Hospital',on:true}],ticker:'Rodapé original do Hospital',rotation:10,enabled:true,interval:5,duration:12};
  await writeFile(path.join(dir,'state.json'),JSON.stringify({revision:7,config:oldConfig,videos:[],uploadHistory:[]}));
- const password='multiple-tv-test-password';let request=requestFor(await createTVHospHandler({dataDir:dir,password,secureCookies:false}));
+ const password='multiple-tv-test-password';let request=requestFor(await createTVHospHandler({dataDir:dir,password,secureCookies:false,captionToken:token}));
  assert.equal((await request('/')).text(),'SITE PRINCIPAL');
  assert.equal((await request('/TV')).status,200);
  for(const route of ['/TV/Admin','/TV/Admin/TVHosp','/TV/Admin/TVSaude','/TV/Admin/video']){const r=await request(route);assert.equal(r.status,302);assert.equal(r.headers.get('Location'),'/TV');}
@@ -25,6 +26,19 @@ test('duas TVs independentes, biblioteca única, migração e exclusão protegid
  const bytes=Buffer.from('000000186674797069736f6d0000020069736f6d69736f32','hex');const ids=[];
  for(const name of ['primeiro.mp4','segundo.mp4']){r=await request('/TV/api/upload?name='+name,{method:'POST',headers:{...headers,'Content-Type':'video/mp4'},body:bytes});assert.equal(r.status,201);ids.push(r.json().video.id);}
  for(const channel of ['hospital','saude']){const data=(await request('/TV/api/'+channel+'/admin',{headers})).json();assert.equal(data.videos.length,2);assert.equal(data.config.playlist.length,0);}
+
+ async function approveFixture(id){
+   const prefix=''+'/TV/api/videos/'+id+'/captions';
+   let result=await request(prefix,{headers});let caption=await result.json();
+   const claim=await request(''+'/TV/api/caption-worker/claim',{method:'POST',headers:{'X-TVHosp-Request':'1',Authorization:'Bearer '+token},body:'{}'});const job=(await claim.json()).job;
+   if(job)await request(''+'/TV/api/caption-worker/complete',{method:'POST',headers:{'X-TVHosp-Request':'1',Authorization:'Bearer '+token},body:JSON.stringify({...job,duration:1,segments:[]})});
+   caption=await (await request(prefix,{headers})).json();
+   caption=await (await request(prefix,{method:'PUT',headers,body:JSON.stringify({revision:caption.revision,draft:{...caption.draft,enabled:false}})})).json();
+   caption=await (await request(prefix+'/approve',{method:'POST',headers,body:JSON.stringify({revision:caption.revision})})).json();
+   const published=await request(prefix+'/publish',{method:'POST',headers,body:JSON.stringify({revision:caption.revision})});assert.equal(published.status,200);
+ }
+
+ for(const id of ids)await approveFixture(id);
  hospital.config.playlist=[ids[0]];hospital.config.interval=2;
  saude.config.playlist=[ids[1],ids[0]];saude.config.messages=[{id:'saude',text:'Mensagem geral da Secretaria',on:true}];saude.config.interval=10;
  r=await request('/TV/api/hospital/config',{method:'PUT',headers,body:JSON.stringify(hospital)});assert.equal(r.status,200);hospital.revision=r.json().revision;
@@ -36,5 +50,5 @@ test('duas TVs independentes, biblioteca única, migração e exclusão protegid
  r=await request('/TV/api/videos/'+ids[0],{method:'DELETE',headers});assert.equal(r.status,409);assert(r.json().error.includes('TV Saúde'));
  saude.config.playlist=[ids[1]];r=await request('/TV/api/saude/config',{method:'PUT',headers,body:JSON.stringify(saude)});assert.equal(r.status,200);
  r=await request('/TV/api/videos/'+ids[0],{method:'DELETE',headers});assert.equal(r.status,200);library=(await request('/TV/api/library',{headers})).json();assert.equal(library.videos.length,1);assert.equal((await request('/TV/api/usage',{headers})).json().uploadHistory.length,2);
- request=requestFor(await createTVHospHandler({dataDir:dir,password,secureCookies:false}));assert.deepEqual((await request('/TV/api/saude/state')).json().config.playlist,[ids[1]]);assert.deepEqual((await request('/TV/api/hospital/state')).json().config.playlist,[]);
+ request=requestFor(await createTVHospHandler({dataDir:dir,password,secureCookies:false,captionToken:token}));assert.deepEqual((await request('/TV/api/saude/state')).json().config.playlist,[ids[1]]);assert.deepEqual((await request('/TV/api/hospital/state')).json().config.playlist,[]);
 });

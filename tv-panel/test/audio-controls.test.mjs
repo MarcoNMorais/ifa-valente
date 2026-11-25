@@ -8,7 +8,7 @@ function setup({allowed=true,blockAll=false}={}){
  const nodes={},listeners={},classes=new Set();let policyAllowed=allowed;
  const document={getElementById(id){return nodes[id]||(nodes[id]=element());},addEventListener(name,fn){listeners[name]=fn;},body:{classList:{add:x=>classes.add(x),remove:x=>classes.delete(x)}}};document.activeElement=document.body;
  function element(){return{style:{},textContent:'',hidden:false,ended:false,muted:false,tagName:'BUTTON',focus(){document.activeElement=this;},blur(){document.activeElement=document.body;},click(){return this.onclick?.();},play(){this.plays=(this.plays||0)+1;if(!policyAllowed&&(blockAll||!this.muted))return Promise.reject(Object.assign(Error('Autoplay blocked'),{name:'NotAllowedError'}));return Promise.resolve();},pause(){}};}
- const ctx={document,navigator:{},indexedDB:{open(){return{}}},URL:{revokeObjectURL(){}},Date,setInterval(){},setTimeout(){},clearTimeout(){}};vm.createContext(ctx);vm.runInContext(source,ctx);const run=s=>vm.runInContext(s,ctx);
+ const ctx={TVCaptionView:{attach(){}},structuredClone,document,navigator:{},indexedDB:{open(){return{}}},URL:{revokeObjectURL(){}},Date,setInterval(){},setTimeout(){},clearTimeout(){}};vm.createContext(ctx);vm.runInContext(source,ctx);const run=s=>vm.runInContext(s,ctx);
  return{nodes,document,classes,listeners,run,allow(){policyAllowed=true;},start(){run("urls.set('a','blob:a');urls.set('b','blob:b');config.playlist=['a','b'];next()");},key(key){let prevented=false;listeners.keydown({key,preventDefault(){prevented=true;}});return prevented;}};
 }
 test('som vem ligado e continua ligado no próximo vídeo',async()=>{

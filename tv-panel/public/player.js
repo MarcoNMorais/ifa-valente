@@ -2,6 +2,8 @@ const channel=document.body.dataset?.channel||'hospital';
 const $=id=>document.getElementById(id),video=$('video');
 let config={playlist:[],messages:[],ticker:channel==='hospital'?'Bem-vindo ao Hospital Municipal José Mota Araújo.':'Secretaria da Saúde de Valente. Informação e cuidado para todos.',rotation:10,interval:5,duration:12,enabled:true},revision=-1,current=null,urls=new Map(),pending=false,notice=false,noticeEnd=0,deadline=Date.now()+300000,lastMessage=null,tickerIndex=0,tickerAt=0,db=null,needsInteraction=false,failures=new Set();
 video.muted=false;
+let captionCatalog=new Map(),playingCaption=null,captionRevision=null;
+TVCaptionView.attach(video,$('screen'),()=>playingCaption);
 let soundBlocked=false,pauseUntil=0,messageAt=0;
 function message(text){$('status').textContent=text;}
 const openDB=new Promise((resolve,reject)=>{const r=indexedDB.open('tvhosp-player-v1',1);r.onupgradeneeded=()=>{r.result.createObjectStore('media');r.result.createObjectStore('settings');};r.onsuccess=()=>resolve(r.result);r.onerror=()=>reject(r.error);});
@@ -28,22 +30,22 @@ function activatePlayback(){
   soundBlocked=false;needsInteraction=false;soundUI();
   if(current&&!notice)play();
 }
-function next(){pauseUntil=0;const available=config.playlist.filter(id=>urls.has(id)&&!failures.has(id));const index=available.indexOf(current);current=available[(index+1)%available.length]||null;if(!current){video.pause();video.hidden=true;welcome(true);return;}video.hidden=false;video.src=urls.get(current);play();cleanupURLs();}
+function next(){pauseUntil=0;const available=config.playlist.filter(id=>urls.has(id)&&!failures.has(id));const index=available.indexOf(current);current=available[(index+1)%available.length]||null;if(!current){video.pause();video.hidden=true;welcome(true);return;}playingCaption=structuredClone(captionCatalog.get(current)||null);$('welcomeTitle').textContent=config.headline??"Mais perto.\nPara cuidar melhor.";video.hidden=false;video.src=urls.get(current);play();cleanupURLs();}
 async function discardUnusedMedia(id){if(!db)return;const other=await store('readonly','settings','published:'+(channel==='hospital'?'saude':'hospital'));if(!other?.config.playlist.includes(id))await store('readwrite','media',id);}
 function cleanupURLs(){for(const [id,url]of urls)if(id!==current&&!config.playlist.includes(id)){URL.revokeObjectURL(url);urls.delete(id);discardUnusedMedia(id).catch(()=>{});}}
 function active(){return config.enabled?config.messages.filter(m=>m.on):[];}
 function welcome(force=false){
  const now=Date.now(),list=active();
  if(force||now>=messageAt){const m=list.length?list[(list.findIndex(m=>m.id===lastMessage)+1)%list.length]:null;if(m)lastMessage=m.id;$('welcomeTitle').textContent=m?m.text:(config.headline??"Mais perto.\nPara cuidar melhor.");messageAt=now+config.duration*1000;}
- $('welcomeCaption').textContent=config.caption??"Informação e acolhimento em todos os momentos.";
+ $('welcomeCaption').textContent='';
 }
 video.onended=()=>{const available=config.playlist.filter(id=>urls.has(id)&&!failures.has(id));if(available.indexOf(current)===available.length-1&&available.length&&config.cyclePause>0){current=null;video.hidden=true;pauseUntil=Date.now()+config.cyclePause*60000;welcome(true);}else next();};
 video.onerror=()=>{if(current)failures.add(current);message('Um vídeo não pôde ser reproduzido neste aparelho.');setTimeout(next,500);};
 function tick(){const now=Date.now();$('clock').textContent=new Date().toLocaleTimeString('pt-BR',{hour:'2-digit',minute:'2-digit'});$('tvDate').textContent=new Date().toLocaleDateString('pt-BR',{day:'2-digit',month:'long'});if(now-tickerAt>=config.rotation*1000){const texts=config.ticker.split('\n').map(s=>s.trim()).filter(Boolean);$('tickerText').textContent=texts.length?texts[tickerIndex++%texts.length]:'';tickerAt=now;}
 if(pauseUntil&&now>=pauseUntil)next();
 if(!current)welcome();}
-function accept(state){config={headline:"Mais perto.\nPara cuidar melhor.",caption:"Informação e acolhimento em todos os momentos.",cyclePause:5,...state.config};revision=state.revision;tickerAt=0;failures.clear();if(!current&&!pauseUntil)next();if(!current)welcome(true);cleanupURLs();}
-async function synchronize(){try{const response=await fetch('/TV/api/'+channel+'/state',{cache:'no-store',signal:AbortSignal.timeout(12000)});if(!response.ok)throw Error('Servidor indisponível.');const state=await response.json();if(state.revision===revision&&state.config.playlist.every(id=>urls.has(id)))return;
+function accept(state){captionRevision=state.captionRevision??null;captionCatalog=new Map((state.videos||[]).map(v=>[v.id,v.captions]));config={headline:"Mais perto.\nPara cuidar melhor.",caption:"Informação e acolhimento em todos os momentos.",cyclePause:5,...state.config};revision=state.revision;tickerAt=0;if(current)$('welcomeTitle').textContent=config.headline;failures.clear();if(!current&&!pauseUntil)next();if(!current)welcome(true);cleanupURLs();}
+async function synchronize(){try{const response=await fetch('/TV/api/'+channel+'/state',{cache:'no-store',signal:AbortSignal.timeout(12000)});if(!response.ok)throw Error('Servidor indisponível.');const state=await response.json();if(state.revision===revision&&(state.captionRevision??null)===captionRevision&&state.config.playlist.every(id=>urls.has(id)))return;
   // Only a complete, locally saved playlist replaces the active one.
   for(const id of state.config.playlist){if(urls.has(id))continue;let blob=await store('readonly','media',id);if(!blob){const item=state.videos.find(v=>v.id===id);message('Preparando a programação neste aparelho…');const r=await fetch(item.url,{signal:AbortSignal.timeout(1800000)});if(r.status===429)throw Object.assign(Error('Transferência limitada.'),{transferLimited:true});if(!r.ok)throw Error('Não foi possível baixar um vídeo.');blob=await r.blob();if(blob.size!==item.size)throw Error('O download do vídeo ficou incompleto.');await store('readwrite','media',id,blob);}urls.set(id,URL.createObjectURL(blob));}
   await store('readwrite','settings','published:'+channel,state);accept(state);message(needsInteraction?'Clique na tela para iniciar a reprodução.':'');
