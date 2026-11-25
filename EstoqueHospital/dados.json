@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "25/11/2026 11:02:00",
+  "atualizado_em": "25/11/2026 11:02:08",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
-    "total_almoxarifado": 111281,
-    "total_farmacia": 31552,
+    "total_almoxarifado": 111141,
+    "total_farmacia": 31692,
     "total_geral": 142833,
     "perto_de_terminar": 33,
     "zerados": 14
@@ -5786,8 +5786,8 @@
       "nome": "Epinefrina 1mg",
       "tipo": "Medicamento",
       "unidade": "Unidade",
-      "almoxarifado": 140,
-      "farmacia": 17,
+      "almoxarifado": 0,
+      "farmacia": 157,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -5799,21 +5799,15 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-25 11:01:58",
+      "atualizado_em": "2026-11-25 11:02:05",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
         {
-          "local": "almoxarifado",
-          "validade": "",
-          "lote": "",
-          "quantidade": 140
-        },
-        {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 17
+          "quantidade": 157
         }
       ],
       "minimo_manual": 0,
@@ -17743,6 +17737,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 7098,
+      "item_id": 73,
+      "produto_nome": "Epinefrina 1mg",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 140,
+      "responsavel": "Assucena",
+      "data": "2026-11-24",
+      "obs": "",
+      "criado_em": "2026-11-25 11:02:05",
+      "item": "Epinefrina 1mg",
+      "usuario": "Assucena"
+    },
+    {
       "id": 7097,
       "item_id": 73,
       "produto_nome": "Epinefrina 1mg",
@@ -25225,21 +25234,6 @@
       "obs": "",
       "criado_em": "2026-11-17 16:35:45",
       "item": "Soro fisiológico 250ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 6598,
-      "item_id": 204,
-      "produto_nome": "Soro fisiológico 500ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 12,
-      "responsavel": "Leiliana",
-      "data": "2026-11-16",
-      "obs": "",
-      "criado_em": "2026-11-17 16:35:34",
-      "item": "Soro fisiológico 500ml",
       "usuario": "Leiliana"
     }
   ]
