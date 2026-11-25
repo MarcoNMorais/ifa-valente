@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "25/11/2026 16:15:46",
+  "atualizado_em": "25/11/2026 16:15:56",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
     "total_almoxarifado": 111078,
-    "total_farmacia": 31253,
-    "total_geral": 142331,
+    "total_farmacia": 31223,
+    "total_geral": 142301,
     "perto_de_terminar": 35,
     "zerados": 14
   },
@@ -13449,19 +13449,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 5100,
-      "farmacia": 2583,
+      "farmacia": 2553,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 7683,
+      "total": 7653,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-25 10:56:56",
+      "atualizado_em": "2026-11-25 16:15:54",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -13475,17 +13475,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 2633
+          "quantidade": 2603
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 800,
-      "previsao_20_dias": 800,
+      "minimo_alerta": 805,
+      "previsao_20_dias": 805,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 105,
-      "media_diaria_saida": 39.95,
-      "total_saida_historica": 4195,
-      "cobertura_dias": 192.3,
+      "media_diaria_saida": 40.24,
+      "total_saida_historica": 4225,
+      "cobertura_dias": 190.2,
       "alerta_estoque": false
     },
     {
@@ -17730,6 +17730,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 7131,
+      "item_id": 104,
+      "produto_nome": "Seringa 3ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 30,
+      "responsavel": "Leiliana",
+      "data": "2026-11-25",
+      "obs": "",
+      "criado_em": "2026-11-25 16:15:54",
+      "item": "Seringa 3ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 7130,
       "item_id": 102,
@@ -25213,21 +25228,6 @@
       "obs": "",
       "criado_em": "2026-11-18 10:43:45",
       "item": "Luva P procedimento",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 6631,
-      "item_id": 185,
-      "produto_nome": "Luva cirúrgica tam. 7,5",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 5,
-      "responsavel": "Assucena",
-      "data": "2026-11-18",
-      "obs": "",
-      "criado_em": "2026-11-18 10:43:33",
-      "item": "Luva cirúrgica tam. 7,5",
       "usuario": "Assucena"
     }
   ]
