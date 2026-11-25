@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "25/11/2026 16:16:15",
+  "atualizado_em": "25/11/2026 16:16:27",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
     "total_almoxarifado": 111078,
-    "total_farmacia": 31196,
-    "total_geral": 142274,
+    "total_farmacia": 31194,
+    "total_geral": 142272,
     "perto_de_terminar": 35,
     "zerados": 14
   },
@@ -6210,19 +6210,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 352,
-      "farmacia": 18,
+      "farmacia": 16,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 370,
+      "total": 368,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-24 10:47:55",
+      "atualizado_em": "2026-11-25 16:16:25",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -6236,7 +6236,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 20
+          "quantidade": 18
         }
       ],
       "minimo_manual": 0,
@@ -6244,9 +6244,9 @@
       "previsao_20_dias": 48,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 100,
-      "media_diaria_saida": 2.36,
-      "total_saida_historica": 236,
-      "cobertura_dias": 156.8,
+      "media_diaria_saida": 2.38,
+      "total_saida_historica": 238,
+      "cobertura_dias": 154.6,
       "alerta_estoque": false
     },
     {
@@ -17731,6 +17731,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 7134,
+      "item_id": 276,
+      "produto_nome": "Esparadrapo 10x4,5",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 2,
+      "responsavel": "Leiliana",
+      "data": "2026-11-25",
+      "obs": "",
+      "criado_em": "2026-11-25 16:16:25",
+      "item": "Esparadrapo 10x4,5",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 7133,
       "item_id": 220,
       "produto_nome": "Equipo macrogotas",
@@ -25213,21 +25228,6 @@
       "obs": "",
       "criado_em": "2026-11-18 10:44:10",
       "item": "AGULHA  40X1,2",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 6634,
-      "item_id": 255,
-      "produto_nome": "Ibuprofeno gotas",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 1,
-      "responsavel": "Assucena",
-      "data": "2026-11-18",
-      "obs": "",
-      "criado_em": "2026-11-18 10:44:01",
-      "item": "Ibuprofeno gotas",
       "usuario": "Assucena"
     }
   ]
