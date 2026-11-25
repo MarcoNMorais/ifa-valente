@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "25/11/2026 13:48:55",
+  "atualizado_em": "25/11/2026 13:49:04",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
     "total_almoxarifado": 111141,
-    "total_farmacia": 31650,
-    "total_geral": 142791,
+    "total_farmacia": 31635,
+    "total_geral": 142776,
     "perto_de_terminar": 33,
     "zerados": 14
   },
@@ -12703,19 +12703,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 3170,
-      "farmacia": 19,
+      "farmacia": 4,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 3189,
+      "total": 3174,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-25 10:58:10",
+      "atualizado_em": "2026-11-25 13:49:02",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -12729,17 +12729,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 19
+          "quantidade": 4
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 227,
-      "previsao_20_dias": 227,
+      "minimo_alerta": 230,
+      "previsao_20_dias": 230,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 100,
-      "media_diaria_saida": 11.31,
-      "total_saida_historica": 1131,
-      "cobertura_dias": 282.0,
+      "media_diaria_saida": 11.46,
+      "total_saida_historica": 1146,
+      "cobertura_dias": 277.0,
       "alerta_estoque": false
     },
     {
@@ -17730,6 +17730,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 7103,
+      "item_id": 329,
+      "produto_nome": "Polifix",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 15,
+      "responsavel": "Assucena",
+      "data": "2026-11-24",
+      "obs": "",
+      "criado_em": "2026-11-25 13:49:02",
+      "item": "Polifix",
+      "usuario": "Assucena"
+    },
     {
       "id": 7102,
       "item_id": 220,
@@ -25213,21 +25228,6 @@
       "obs": "",
       "criado_em": "2026-11-17 16:36:32",
       "item": "Soro Ringer Lactato 500ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 6603,
-      "item_id": 104,
-      "produto_nome": "Seringa 3ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 10,
-      "responsavel": "Leiliana",
-      "data": "2026-11-16",
-      "obs": "",
-      "criado_em": "2026-11-17 16:36:22",
-      "item": "Seringa 3ml",
       "usuario": "Leiliana"
     }
   ]
