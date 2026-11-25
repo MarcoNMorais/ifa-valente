@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "25/11/2026 10:58:00",
+  "atualizado_em": "25/11/2026 10:58:12",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
     "total_almoxarifado": 111361,
-    "total_farmacia": 31880,
-    "total_geral": 143241,
+    "total_farmacia": 31870,
+    "total_geral": 143231,
     "perto_de_terminar": 33,
     "zerados": 14
   },
@@ -12721,19 +12721,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 3170,
-      "farmacia": 29,
+      "farmacia": 19,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 3199,
+      "total": 3189,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-24 10:35:43",
+      "atualizado_em": "2026-11-25 10:58:10",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -12747,17 +12747,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 29
+          "quantidade": 19
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 225,
-      "previsao_20_dias": 225,
+      "minimo_alerta": 227,
+      "previsao_20_dias": 227,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 100,
-      "media_diaria_saida": 11.21,
-      "total_saida_historica": 1121,
-      "cobertura_dias": 285.4,
+      "media_diaria_saida": 11.31,
+      "total_saida_historica": 1131,
+      "cobertura_dias": 282.0,
       "alerta_estoque": false
     },
     {
@@ -17748,6 +17748,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 7073,
+      "item_id": 329,
+      "produto_nome": "Polifix",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 10,
+      "responsavel": "Assucena",
+      "data": "2026-11-24",
+      "obs": "",
+      "criado_em": "2026-11-25 10:58:10",
+      "item": "Polifix",
+      "usuario": "Assucena"
+    },
     {
       "id": 7072,
       "item_id": 220,
@@ -25231,21 +25246,6 @@
       "obs": "",
       "criado_em": "2026-11-17 14:05:59",
       "item": "OLEO MINERAL",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 6573,
-      "item_id": 241,
-      "produto_nome": "Lactulose solução",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 1,
-      "responsavel": "Leiliana",
-      "data": "2026-11-16",
-      "obs": "",
-      "criado_em": "2026-11-17 14:05:47",
-      "item": "Lactulose solução",
       "usuario": "Leiliana"
     }
   ]
