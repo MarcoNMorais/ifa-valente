@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "26/11/2026 09:10:18",
+  "atualizado_em": "26/11/2026 09:10:26",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
     "total_almoxarifado": 109272,
-    "total_farmacia": 32902,
-    "total_geral": 142174,
+    "total_farmacia": 32892,
+    "total_geral": 142164,
     "perto_de_terminar": 36,
     "zerados": 14
   },
@@ -4761,19 +4761,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 55,
-      "farmacia": 20,
+      "farmacia": 10,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 75,
+      "total": 65,
       "minimo": 0,
       "validade": "2028-02",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-24 10:22:17",
+      "atualizado_em": "2026-11-26 09:10:24",
       "validade_mais_proxima": "2028-02",
       "vencimento_mais_proximo": "2028-02",
       "lotes_validade": [
@@ -4781,7 +4781,7 @@
           "local": "farmacia",
           "validade": "2028-02",
           "lote": "",
-          "quantidade": 20
+          "quantidade": 10
         },
         {
           "local": "almoxarifado",
@@ -4791,13 +4791,13 @@
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 4,
-      "previsao_20_dias": 4,
+      "minimo_alerta": 6,
+      "previsao_20_dias": 6,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 106,
-      "media_diaria_saida": 0.19,
-      "total_saida_historica": 20,
-      "cobertura_dias": 397.5,
+      "media_diaria_saida": 0.28,
+      "total_saida_historica": 30,
+      "cobertura_dias": 229.7,
       "alerta_estoque": false
     },
     {
@@ -17737,6 +17737,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 7156,
+      "item_id": 4,
+      "produto_nome": "Decanoato de haloperidol",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 10,
+      "responsavel": "Assucena",
+      "data": "2026-11-25",
+      "obs": "",
+      "criado_em": "2026-11-26 09:10:24",
+      "item": "Decanoato de haloperidol",
+      "usuario": "Assucena"
+    },
+    {
       "id": 7155,
       "item_id": 195,
       "produto_nome": "Tira Reagente G-Tech",
@@ -25219,21 +25234,6 @@
       "obs": "",
       "criado_em": "2026-11-18 14:48:12",
       "item": "Soro fisiológico 100ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 6656,
-      "item_id": 184,
-      "produto_nome": "Luva cirúrgica tam. 7",
-      "tipo": "Almoxarifado para Farmácia",
-      "origem": "Almoxarifado",
-      "destino": "Farmácia",
-      "quantidade": 35,
-      "responsavel": "Leiliana",
-      "data": "2026-11-18",
-      "obs": "",
-      "criado_em": "2026-11-18 14:48:01",
-      "item": "Luva cirúrgica tam. 7",
       "usuario": "Leiliana"
     }
   ]
