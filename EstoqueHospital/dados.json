@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "26/11/2026 09:11:56",
+  "atualizado_em": "26/11/2026 09:12:02",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
     "total_almoxarifado": 109022,
-    "total_farmacia": 32937,
-    "total_geral": 141959,
+    "total_farmacia": 32927,
+    "total_geral": 141949,
     "perto_de_terminar": 36,
     "zerados": 14
   },
@@ -13363,19 +13363,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 1300,
-      "farmacia": 75,
+      "farmacia": 65,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 1375,
+      "total": 1365,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-25 13:49:13",
+      "atualizado_em": "2026-11-26 09:11:58",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -13389,17 +13389,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 75
+          "quantidade": 65
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 161,
-      "previsao_20_dias": 161,
+      "minimo_alerta": 163,
+      "previsao_20_dias": 163,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 106,
-      "media_diaria_saida": 8.05,
-      "total_saida_historica": 853,
-      "cobertura_dias": 170.9,
+      "media_diaria_saida": 8.14,
+      "total_saida_historica": 863,
+      "cobertura_dias": 167.7,
       "alerta_estoque": false
     },
     {
@@ -17736,6 +17736,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 7167,
+      "item_id": 157,
+      "produto_nome": "Seringa 1ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 10,
+      "responsavel": "Assucena",
+      "data": "2026-11-25",
+      "obs": "",
+      "criado_em": "2026-11-26 09:11:58",
+      "item": "Seringa 1ml",
+      "usuario": "Assucena"
+    },
     {
       "id": 7166,
       "item_id": 104,
@@ -25219,21 +25234,6 @@
       "obs": "",
       "criado_em": "2026-11-18 16:16:21",
       "item": "Diclofenaco 25mg",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 6667,
-      "item_id": 68,
-      "produto_nome": "Dexametasona",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 30,
-      "responsavel": "Leiliana",
-      "data": "2026-11-18",
-      "obs": "",
-      "criado_em": "2026-11-18 16:16:12",
-      "item": "Dexametasona",
       "usuario": "Leiliana"
     }
   ]
