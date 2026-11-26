@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "26/11/2026 09:08:31",
+  "atualizado_em": "26/11/2026 09:08:38",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
-    "total_almoxarifado": 109876,
-    "total_farmacia": 32389,
+    "total_almoxarifado": 109852,
+    "total_farmacia": 32413,
     "total_geral": 142265,
     "perto_de_terminar": 35,
     "zerados": 14
@@ -6203,8 +6203,8 @@
       "nome": "Esparadrapo 10x4,5",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 352,
-      "farmacia": 16,
+      "almoxarifado": 328,
+      "farmacia": 40,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -6216,7 +6216,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-25 16:16:25",
+      "atualizado_em": "2026-11-26 09:08:37",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -6224,13 +6224,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 352
+          "quantidade": 328
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 18
+          "quantidade": 42
         }
       ],
       "minimo_manual": 0,
@@ -17725,6 +17725,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 7144,
+      "item_id": 276,
+      "produto_nome": "Esparadrapo 10x4,5",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 24,
+      "responsavel": "Assucena",
+      "data": "2026-11-25",
+      "obs": "",
+      "criado_em": "2026-11-26 09:08:37",
+      "item": "Esparadrapo 10x4,5",
+      "usuario": "Assucena"
+    },
+    {
       "id": 7143,
       "item_id": 329,
       "produto_nome": "Polifix",
@@ -25207,21 +25222,6 @@
       "obs": "",
       "criado_em": "2026-11-18 10:45:39",
       "item": "Luva cirúrgica tam. 7,5",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 6644,
-      "item_id": 390,
-      "produto_nome": "AGULHA  40X1,2",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 50,
-      "responsavel": "Assucena",
-      "data": "2026-11-18",
-      "obs": "",
-      "criado_em": "2026-11-18 10:45:33",
-      "item": "AGULHA  40X1,2",
       "usuario": "Assucena"
     }
   ]
