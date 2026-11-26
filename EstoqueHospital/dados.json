@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "26/11/2026 09:11:48",
+  "atualizado_em": "26/11/2026 09:11:56",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
     "total_almoxarifado": 109022,
-    "total_farmacia": 32957,
-    "total_geral": 141979,
+    "total_farmacia": 32937,
+    "total_geral": 141959,
     "perto_de_terminar": 36,
     "zerados": 14
   },
@@ -13455,19 +13455,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 4600,
-      "farmacia": 3053,
+      "farmacia": 3033,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 7653,
+      "total": 7633,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-26 09:08:05",
+      "atualizado_em": "2026-11-26 09:11:51",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -13481,17 +13481,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 3103
+          "quantidade": 3083
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 798,
-      "previsao_20_dias": 798,
+      "minimo_alerta": 801,
+      "previsao_20_dias": 801,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 106,
-      "media_diaria_saida": 39.86,
-      "total_saida_historica": 4225,
-      "cobertura_dias": 192.0,
+      "media_diaria_saida": 40.05,
+      "total_saida_historica": 4245,
+      "cobertura_dias": 190.6,
       "alerta_estoque": false
     },
     {
@@ -17736,6 +17736,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 7166,
+      "item_id": 104,
+      "produto_nome": "Seringa 3ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 20,
+      "responsavel": "Assucena",
+      "data": "2026-11-25",
+      "obs": "",
+      "criado_em": "2026-11-26 09:11:51",
+      "item": "Seringa 3ml",
+      "usuario": "Assucena"
+    },
     {
       "id": 7165,
       "item_id": 102,
@@ -25219,21 +25234,6 @@
       "obs": "",
       "criado_em": "2026-11-18 16:16:12",
       "item": "Dexametasona",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 6666,
-      "item_id": 60,
-      "produto_nome": "Cetoprofeno EV 100mg",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 22,
-      "responsavel": "Leiliana",
-      "data": "2026-11-18",
-      "obs": "",
-      "criado_em": "2026-11-18 16:16:03",
-      "item": "Cetoprofeno EV 100mg",
       "usuario": "Leiliana"
     }
   ]
