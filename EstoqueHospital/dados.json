@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "26/11/2026 09:09:02",
+  "atualizado_em": "26/11/2026 09:09:18",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
-    "total_almoxarifado": 109532,
-    "total_farmacia": 32733,
+    "total_almoxarifado": 109472,
+    "total_farmacia": 32793,
     "total_geral": 142265,
     "perto_de_terminar": 35,
     "zerados": 14
@@ -1646,8 +1646,8 @@
       "nome": "ATADURA ALGODÃO 20CM",
       "tipo": "Medicamento",
       "unidade": "Unidade",
-      "almoxarifado": 288,
-      "farmacia": 0,
+      "almoxarifado": 228,
+      "farmacia": 60,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -1659,7 +1659,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-24 10:22:17",
+      "atualizado_em": "2026-11-26 09:09:16",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -1667,7 +1667,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 288
+          "quantidade": 228
+        },
+        {
+          "local": "farmacia",
+          "validade": "",
+          "lote": "",
+          "quantidade": 60
         }
       ],
       "minimo_manual": 0,
@@ -17731,6 +17737,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 7148,
+      "item_id": 391,
+      "produto_nome": "ATADURA ALGODÃO 20CM",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 60,
+      "responsavel": "Assucena",
+      "data": "2026-11-25",
+      "obs": "",
+      "criado_em": "2026-11-26 09:09:16",
+      "item": "ATADURA ALGODÃO 20CM",
+      "usuario": "Assucena"
+    },
+    {
       "id": 7147,
       "item_id": 155,
       "produto_nome": "Bolsa coletora",
@@ -25213,21 +25234,6 @@
       "obs": "",
       "criado_em": "2026-11-18 10:46:19",
       "item": "Dispositivo intravenoso Gelco nº 20",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 6648,
-      "item_id": 99,
-      "produto_nome": "Scalp nº 21",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 5,
-      "responsavel": "Assucena",
-      "data": "2026-11-18",
-      "obs": "",
-      "criado_em": "2026-11-18 10:46:04",
-      "item": "Scalp nº 21",
       "usuario": "Assucena"
     }
   ]
