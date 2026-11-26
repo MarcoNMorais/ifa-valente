@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "26/11/2026 09:10:40",
+  "atualizado_em": "26/11/2026 09:10:47",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
     "total_almoxarifado": 109272,
-    "total_farmacia": 32890,
-    "total_geral": 142162,
+    "total_farmacia": 32889,
+    "total_geral": 142161,
     "perto_de_terminar": 36,
     "zerados": 14
   },
@@ -9453,19 +9453,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 85,
-      "farmacia": 5,
+      "farmacia": 4,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 90,
+      "total": 89,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-24 10:22:17",
+      "atualizado_em": "2026-11-26 09:10:45",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -9479,17 +9479,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 5
+          "quantidade": 4
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 11,
-      "previsao_20_dias": 11,
+      "minimo_alerta": 12,
+      "previsao_20_dias": 12,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 105,
-      "media_diaria_saida": 0.54,
-      "total_saida_historica": 57,
-      "cobertura_dias": 165.8,
+      "media_diaria_saida": 0.55,
+      "total_saida_historica": 58,
+      "cobertura_dias": 161.1,
       "alerta_estoque": false
     },
     {
@@ -17737,6 +17737,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 7159,
+      "item_id": 241,
+      "produto_nome": "Lactulose solução",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 1,
+      "responsavel": "Assucena",
+      "data": "2026-11-25",
+      "obs": "",
+      "criado_em": "2026-11-26 09:10:45",
+      "item": "Lactulose solução",
+      "usuario": "Assucena"
+    },
+    {
       "id": 7158,
       "item_id": 258,
       "produto_nome": "Dipirona gotas",
@@ -25219,21 +25234,6 @@
       "obs": "",
       "criado_em": "2026-11-18 14:48:47",
       "item": "Scalp nº 23",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 6659,
-      "item_id": 195,
-      "produto_nome": "Tira Reagente G-Tech",
-      "tipo": "Almoxarifado para Farmácia",
-      "origem": "Almoxarifado",
-      "destino": "Farmácia",
-      "quantidade": 10,
-      "responsavel": "Leiliana",
-      "data": "2026-11-18",
-      "obs": "",
-      "criado_em": "2026-11-18 14:48:33",
-      "item": "Tira Reagente G-Tech",
       "usuario": "Leiliana"
     }
   ]
