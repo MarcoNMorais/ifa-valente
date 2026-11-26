@@ -16,3 +16,7 @@
 .screen.video-active.has-left-message .welcome .welcome-caption,.screen.video-active.has-left-message .welcome .welcome-mark{display:none}
 
 .tv-captions,.screen.video-active .welcome{pointer-events:none}
+
+/* Faixas azuis nas laterais de vídeos verticais, inclusive entre legendas. */
+.screen.video-active.has-left-message .welcome{background:#07274f}
+.screen.video-active.has-left-message::after{content:'';position:absolute;right:0;top:var(--message-top);width:var(--message-width);height:var(--message-height);background:#07274f;z-index:2;pointer-events:none}
