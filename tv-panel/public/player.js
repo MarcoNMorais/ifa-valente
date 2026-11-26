@@ -35,7 +35,7 @@ function activatePlayback(){
   soundBlocked=false;needsInteraction=false;soundUI();
   if(current&&!notice)play();
 }
-function next(){clearTimeout(playbackWatch);directFallback=false;pauseUntil=0;const available=config.playlist.filter(id=>urls.has(id)&&!failures.has(id));const index=available.indexOf(current);current=available[(index+1)%available.length]||null;if(!current){video.pause();video.hidden=true;welcome(true);return;}playingCaption=JSON.parse(JSON.stringify(captionCatalog.get(current)||null));$('welcomeTitle').textContent=config.headline??"Mais perto.\nPara cuidar melhor.";video.hidden=false;video.src=urls.get(current);play();watchPlayback(current);cleanupURLs();}
+function next(){clearTimeout(playbackWatch);directFallback=false;pauseUntil=0;const available=config.playlist.filter(id=>urls.has(id)&&!failures.has(id));const index=available.indexOf(current);current=available[(index+1)%available.length]||null;if(!current){video.pause();video.hidden=true;welcome(true);return;}playingCaption=JSON.parse(JSON.stringify(captionCatalog.get(current)||null));$('welcomeTitle').textContent=config.headline??"Mais perto.\nPara cuidar melhor.";video.hidden=false;video.src=localMediaControlled()?'/TV/media/'+encodeURIComponent(current)+'?local=1':urls.get(current);play();watchPlayback(current);cleanupURLs();}
 async function discardUnusedMedia(id){if(!db)return;const other=await store('readonly','settings','published:'+(channel==='hospital'?'saude':'hospital'));if(!other?.config.playlist.includes(id))await store('readwrite','media',id);}
 function cleanupURLs(){for(const [id,url]of urls)if(id!==current&&!config.playlist.includes(id)){URL.revokeObjectURL(url);urls.delete(id);discardUnusedMedia(id).catch(()=>{});}}
 function active(){return config.enabled?config.messages.filter(m=>m.on):[];}
@@ -55,7 +55,26 @@ async function synchronize(){try{const response=await fetch('/TV/api/'+channel+'
   for(const id of state.config.playlist){if(urls.has(id))continue;let blob=await store('readonly','media',id);if(!blob){const item=state.videos.find(v=>v.id===id);message('Preparando a programação neste aparelho…');const r=await fetch(item.url,{signal:timeoutSignal(1800000)});if(r.status===429)throw Object.assign(Error('Transferência limitada.'),{transferLimited:true});if(!r.ok)throw Error('Não foi possível baixar um vídeo.');blob=await r.blob();if(blob.size!==item.size)throw Error('O download do vídeo ficou incompleto.');await store('readwrite','media',id,blob);}urls.set(id,URL.createObjectURL(blob));}
   await store('readwrite','settings','published:'+channel,state);accept(state);message(needsInteraction?'Clique na tela para iniciar a reprodução.':'');
 }catch(e){if(e.transferLimited)message(current?'Novos vídeos aguardando liberação. A programação salva continua.':'Programação aguardando liberação. Contate o suporte.');else if(e.name==='QuotaExceededError')message('Espaço insuficiente neste aparelho para salvar a nova programação.');else if(!current)message('Aguardando conexão para carregar a programação.');}finally{setTimeout(synchronize,15000);}}
-async function boot(){try{db=await openDB;const previous=await store('readonly','settings','published:'+channel)||(channel==='hospital'?await store('readonly','settings','published'):null);if(previous){for(const id of previous.config.playlist){const blob=await store('readonly','media',id);if(blob)urls.set(id,URL.createObjectURL(blob));}accept(previous);}}catch{message('Este navegador não permite salvar os vídeos. Use Chrome ou Edge com armazenamento disponível.');return;}synchronize();}
+function localMediaControlled(){
+  const controller=navigator.serviceWorker && navigator.serviceWorker.controller;
+  return controller && new URL(controller.scriptURL).pathname==='/TV/media-worker.js';
+}
+async function prepareLocalMedia(){
+  if(!navigator.serviceWorker || localMediaControlled())return;
+  let timer, listener;
+  const controlled=new Promise(resolve=>{
+    listener=()=>{if(localMediaControlled())resolve();};
+    navigator.serviceWorker.addEventListener('controllerchange',listener);
+    timer=setTimeout(resolve,3000);
+  });
+  try{
+    await Promise.race([controlled,navigator.serviceWorker.register('/TV/media-worker.js').then(()=>controlled)]);
+  }catch{}finally{
+    clearTimeout(timer);
+    navigator.serviceWorker.removeEventListener('controllerchange',listener);
+  }
+}
+async function boot(){try{db=await openDB;await prepareLocalMedia();const previous=await store('readonly','settings','published:'+channel)||(channel==='hospital'?await store('readonly','settings','published'):null);if(previous){for(const id of previous.config.playlist){const blob=await store('readonly','media',id);if(blob)urls.set(id,URL.createObjectURL(blob));}accept(previous);}}catch{message('Este navegador não permite salvar os vídeos. Use Chrome ou Edge com armazenamento disponível.');return;}synchronize();}
 $('activatePlayback').onclick=activatePlayback;
 $('screen').onclick=()=>{if(needsInteraction||soundBlocked)activatePlayback();};
 $('sound').onclick=()=>{video.muted=!video.muted;soundBlocked=false;needsInteraction=false;soundUI();if(current&&!notice)play();if(navigator.storage?.persist)navigator.storage.persist().catch(()=>{});};

@@ -179,6 +179,7 @@ export async function createTVHospHandler({dataDir,password,secureCookies=true,m
       const assets=new Set(['style.css','player.js','admin.js','app.js','bridge.js','secretaria.png','brand.png','media-library.js','library-page.js','navigation.js','ig-logo.png','captions-view.js','captions-editor.js','captions.css']);
       let file=null;
       if(route==='')file='login.html';
+      else if(route==='/media-worker.js')file='media-worker.js';
       else if(route==='/Admin')file='choose.html';
       else if(route==='/Admin/legendas')file='captions-editor.html';
       else if(route==='/Admin/video')file='library.html';
