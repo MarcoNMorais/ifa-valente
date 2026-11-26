@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "26/11/2026 09:07:29",
+  "atualizado_em": "26/11/2026 09:07:38",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
-    "total_almoxarifado": 111020,
-    "total_farmacia": 31245,
+    "total_almoxarifado": 110890,
+    "total_farmacia": 31375,
     "total_geral": 142265,
     "perto_de_terminar": 35,
     "zerados": 14
@@ -13218,8 +13218,8 @@
       "nome": "Scalp nº 23",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 1130,
-      "farmacia": 55,
+      "almoxarifado": 1000,
+      "farmacia": 185,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -13231,7 +13231,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-25 16:14:12",
+      "atualizado_em": "2026-11-26 09:07:37",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -13239,13 +13239,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 1130
+          "quantidade": 1000
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 65
+          "quantidade": 195
         }
       ],
       "minimo_manual": 0,
@@ -17724,6 +17724,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 7138,
+      "item_id": 98,
+      "produto_nome": "Scalp nº 23",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 130,
+      "responsavel": "Assucena",
+      "data": "2026-11-25",
+      "obs": "",
+      "criado_em": "2026-11-26 09:07:37",
+      "item": "Scalp nº 23",
+      "usuario": "Assucena"
+    },
     {
       "id": 7137,
       "item_id": 376,
@@ -25207,21 +25222,6 @@
       "obs": "",
       "criado_em": "2026-11-18 10:44:50",
       "item": "Ceftriaxona 1g",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 6638,
-      "item_id": 228,
-      "produto_nome": "Omeprazol sódico 40mg AMP",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 7,
-      "responsavel": "Assucena",
-      "data": "2026-11-18",
-      "obs": "",
-      "criado_em": "2026-11-18 10:44:39",
-      "item": "Omeprazol sódico 40mg AMP",
       "usuario": "Assucena"
     }
   ]
