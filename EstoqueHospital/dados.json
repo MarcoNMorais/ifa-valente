@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "26/11/2026 09:08:46",
+  "atualizado_em": "26/11/2026 09:08:53",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
-    "total_almoxarifado": 109602,
-    "total_farmacia": 32663,
+    "total_almoxarifado": 109542,
+    "total_farmacia": 32723,
     "total_geral": 142265,
     "perto_de_terminar": 35,
     "zerados": 14
@@ -3820,8 +3820,8 @@
       "nome": "Ciprofloxacino 100ml",
       "tipo": "Medicamento",
       "unidade": "Unidade",
-      "almoxarifado": 140,
-      "farmacia": 0,
+      "almoxarifado": 80,
+      "farmacia": 60,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -3833,7 +3833,7 @@
       "lote": "",
       "origem": "Carga Almoxerifado",
       "obs": "Importação Almoxerifado",
-      "atualizado_em": "2026-11-24 10:22:17",
+      "atualizado_em": "2026-11-26 09:08:51",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -3841,7 +3841,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 140
+          "quantidade": 80
+        },
+        {
+          "local": "farmacia",
+          "validade": "",
+          "lote": "",
+          "quantidade": 60
         }
       ],
       "minimo_manual": 0,
@@ -17725,6 +17731,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 7146,
+      "item_id": 295,
+      "produto_nome": "Ciprofloxacino 100ml",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 60,
+      "responsavel": "Assucena",
+      "data": "2026-11-25",
+      "obs": "",
+      "criado_em": "2026-11-26 09:08:51",
+      "item": "Ciprofloxacino 100ml",
+      "usuario": "Assucena"
+    },
+    {
       "id": 7145,
       "item_id": 103,
       "produto_nome": "Seringa 10ml",
@@ -25207,21 +25228,6 @@
       "obs": "",
       "criado_em": "2026-11-18 10:45:58",
       "item": "Scalp nº 23",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 6646,
-      "item_id": 184,
-      "produto_nome": "Luva cirúrgica tam. 7",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 4,
-      "responsavel": "Assucena",
-      "data": "2026-11-18",
-      "obs": "",
-      "criado_em": "2026-11-18 10:45:45",
-      "item": "Luva cirúrgica tam. 7",
       "usuario": "Assucena"
     }
   ]
