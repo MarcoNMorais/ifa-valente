@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "26/11/2026 09:10:54",
+  "atualizado_em": "26/11/2026 09:11:02",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
     "total_almoxarifado": 109272,
-    "total_farmacia": 32887,
-    "total_geral": 142159,
+    "total_farmacia": 32837,
+    "total_geral": 142109,
     "perto_de_terminar": 36,
     "zerados": 14
   },
@@ -560,19 +560,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 5300,
-      "farmacia": 845,
+      "farmacia": 795,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 6145,
+      "total": 6095,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-25 13:55:10",
+      "atualizado_em": "2026-11-26 09:11:00",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -586,17 +586,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 845
+          "quantidade": 795
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 1775,
-      "previsao_20_dias": 1775,
+      "minimo_alerta": 1787,
+      "previsao_20_dias": 1787,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 84,
-      "media_diaria_saida": 88.75,
-      "total_saida_historica": 7455,
-      "cobertura_dias": 69.2,
+      "media_diaria_saida": 89.35,
+      "total_saida_historica": 7505,
+      "cobertura_dias": 68.2,
       "alerta_estoque": false
     },
     {
@@ -17737,6 +17737,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 7161,
+      "item_id": 390,
+      "produto_nome": "AGULHA  40X1,2",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 50,
+      "responsavel": "Assucena",
+      "data": "2026-11-25",
+      "obs": "",
+      "criado_em": "2026-11-26 09:11:00",
+      "item": "AGULHA  40X1,2",
+      "usuario": "Assucena"
+    },
+    {
       "id": 7160,
       "item_id": 260,
       "produto_nome": "Paracetamol gotas",
@@ -25219,21 +25234,6 @@
       "obs": "",
       "criado_em": "2026-11-18 14:49:53",
       "item": "Soro Ringer Lactato 500ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 6661,
-      "item_id": 376,
-      "produto_nome": "LENÇOL DESCARTAVEL PAPEL",
-      "tipo": "Almoxarifado para Farmácia",
-      "origem": "Almoxarifado",
-      "destino": "Farmácia",
-      "quantidade": 8,
-      "responsavel": "Leiliana",
-      "data": "2026-11-18",
-      "obs": "",
-      "criado_em": "2026-11-18 14:49:31",
-      "item": "LENÇOL DESCARTAVEL PAPEL",
       "usuario": "Leiliana"
     }
   ]
