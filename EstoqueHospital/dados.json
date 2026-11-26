@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "26/11/2026 09:14:28",
+  "atualizado_em": "26/11/2026 09:14:34",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
     "total_almoxarifado": 109022,
-    "total_farmacia": 32837,
-    "total_geral": 141859,
+    "total_farmacia": 32833,
+    "total_geral": 141855,
     "perto_de_terminar": 37,
     "zerados": 15
   },
@@ -3820,19 +3820,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 80,
-      "farmacia": 60,
+      "farmacia": 56,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 140,
+      "total": 136,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga Almoxerifado",
       "obs": "Importação Almoxerifado",
-      "atualizado_em": "2026-11-26 09:08:51",
+      "atualizado_em": "2026-11-26 09:14:30",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -3846,17 +3846,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 60
+          "quantidade": 56
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 0,
-      "previsao_20_dias": 0,
+      "minimo_alerta": 1,
+      "previsao_20_dias": 1,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 101,
-      "media_diaria_saida": 0.0,
-      "total_saida_historica": 0,
-      "cobertura_dias": null,
+      "media_diaria_saida": 0.04,
+      "total_saida_historica": 4,
+      "cobertura_dias": 3434.0,
       "alerta_estoque": false
     },
     {
@@ -17730,6 +17730,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 7183,
+      "item_id": 295,
+      "produto_nome": "Ciprofloxacino 100ml",
+      "tipo": "Farmácia para Posto de Internamento",
+      "origem": "Farmácia",
+      "destino": "Posto de Internamento",
+      "quantidade": 4,
+      "responsavel": "Assucena",
+      "data": "2026-11-25",
+      "obs": "",
+      "criado_em": "2026-11-26 09:14:30",
+      "item": "Ciprofloxacino 100ml",
+      "usuario": "Assucena"
+    },
+    {
       "id": 7182,
       "item_id": 63,
       "produto_nome": "Ciprofloxacino",
@@ -25212,21 +25227,6 @@
       "obs": "",
       "criado_em": "2026-11-19 10:55:06",
       "item": "Soro glicose 5% 250ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 6683,
-      "item_id": 376,
-      "produto_nome": "LENÇOL DESCARTAVEL PAPEL",
-      "tipo": "Almoxarifado para Farmácia",
-      "origem": "Almoxarifado",
-      "destino": "Farmácia",
-      "quantidade": 8,
-      "responsavel": "Assucena",
-      "data": "2026-11-18",
-      "obs": "",
-      "criado_em": "2026-11-19 10:54:51",
-      "item": "LENÇOL DESCARTAVEL PAPEL",
       "usuario": "Assucena"
     }
   ]
