@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "26/11/2026 09:13:33",
+  "atualizado_em": "26/11/2026 09:13:39",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
     "total_almoxarifado": 109022,
-    "total_farmacia": 32868,
-    "total_geral": 141890,
+    "total_farmacia": 32867,
+    "total_geral": 141889,
     "perto_de_terminar": 37,
     "zerados": 14
   },
@@ -142,19 +142,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 20,
-      "farmacia": 22,
+      "farmacia": 21,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 42,
+      "total": 41,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-24 10:22:17",
+      "atualizado_em": "2026-11-26 09:13:37",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -168,7 +168,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 22
+          "quantidade": 21
         }
       ],
       "minimo_manual": 0,
@@ -176,9 +176,9 @@
       "previsao_20_dias": 3,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 101,
-      "media_diaria_saida": 0.11,
-      "total_saida_historica": 11,
-      "cobertura_dias": 385.6,
+      "media_diaria_saida": 0.12,
+      "total_saida_historica": 12,
+      "cobertura_dias": 345.1,
       "alerta_estoque": false
     },
     {
@@ -17737,6 +17737,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 7177,
+      "item_id": 320,
+      "produto_nome": "Acebrofilina 10mg/ml",
+      "tipo": "Farmácia para Posto de Internamento",
+      "origem": "Farmácia",
+      "destino": "Posto de Internamento",
+      "quantidade": 1,
+      "responsavel": "Assucena",
+      "data": "2026-11-25",
+      "obs": "",
+      "criado_em": "2026-11-26 09:13:37",
+      "item": "Acebrofilina 10mg/ml",
+      "usuario": "Assucena"
+    },
+    {
       "id": 7176,
       "item_id": 260,
       "produto_nome": "Paracetamol gotas",
@@ -25219,21 +25234,6 @@
       "obs": "",
       "criado_em": "2026-11-18 16:18:05",
       "item": "Soro fisiológico 250ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 6677,
-      "item_id": 204,
-      "produto_nome": "Soro fisiológico 500ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 14,
-      "responsavel": "Leiliana",
-      "data": "2026-11-18",
-      "obs": "",
-      "criado_em": "2026-11-18 16:17:57",
-      "item": "Soro fisiológico 500ml",
       "usuario": "Leiliana"
     }
   ]
