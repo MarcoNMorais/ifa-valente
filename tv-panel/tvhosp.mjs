@@ -86,6 +86,11 @@ export async function createTVHospHandler({dataDir,password,secureCookies=true,m
       if(canonicalPath&&p!==canonicalPath){res.writeHead(308,{Location:canonicalPath+url.search});res.end();return true;}
       if(p.slice(0,3)!==base){res.writeHead(308,{Location:base+p.slice(3)+url.search});res.end();return true;}
       let route=p.slice(base.length).replace(/\/$/,'');
+      if(route==='/teste'&&['GET','HEAD'].includes(req.method)){
+        const id=state.channels.hospital.config.playlist[0];
+        if(!id){res.writeHead(404,{'Content-Type':'text/plain; charset=utf-8'});res.end('Nenhum vídeo publicado na TV Hospital.');return true;}
+        res.writeHead(302,{Location:base+'/media/'+encodeURIComponent(id),'Cache-Control':'no-store'});res.end();return true;
+      }
       let workerMediaAuthorized=false;
       const channelMatch=/^\/api\/(hospital|saude)\/(state|admin|config)$/.exec(route);
       const channel=channelMatch?.[1],operation=channelMatch?.[2];
