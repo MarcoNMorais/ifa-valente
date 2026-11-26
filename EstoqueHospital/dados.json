@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "26/11/2026 09:07:38",
+  "atualizado_em": "26/11/2026 09:07:46",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
-    "total_almoxarifado": 110890,
-    "total_farmacia": 31375,
+    "total_almoxarifado": 110866,
+    "total_farmacia": 31399,
     "total_geral": 142265,
     "perto_de_terminar": 35,
     "zerados": 14
@@ -15984,8 +15984,8 @@
       "nome": "Soro fisiológico 500ml",
       "tipo": "Insumo",
       "unidade": "Unidade",
-      "almoxarifado": 580,
-      "farmacia": 15,
+      "almoxarifado": 556,
+      "farmacia": 39,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -15997,7 +15997,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-25 16:12:47",
+      "atualizado_em": "2026-11-26 09:07:44",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -16005,13 +16005,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 628
+          "quantidade": 604
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 27
+          "quantidade": 51
         }
       ],
       "minimo_manual": 0,
@@ -17724,6 +17724,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 7139,
+      "item_id": 204,
+      "produto_nome": "Soro fisiológico 500ml",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 24,
+      "responsavel": "Assucena",
+      "data": "2026-11-25",
+      "obs": "",
+      "criado_em": "2026-11-26 09:07:44",
+      "item": "Soro fisiológico 500ml",
+      "usuario": "Assucena"
+    },
     {
       "id": 7138,
       "item_id": 98,
@@ -25207,21 +25222,6 @@
       "obs": "",
       "criado_em": "2026-11-18 10:45:04",
       "item": "Seringa 20ml",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 6639,
-      "item_id": 59,
-      "produto_nome": "Ceftriaxona 1g",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 10,
-      "responsavel": "Assucena",
-      "data": "2026-11-18",
-      "obs": "",
-      "criado_em": "2026-11-18 10:44:50",
-      "item": "Ceftriaxona 1g",
       "usuario": "Assucena"
     }
   ]
