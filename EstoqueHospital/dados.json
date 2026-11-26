@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "26/11/2026 09:09:52",
+  "atualizado_em": "26/11/2026 09:09:59",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
     "total_almoxarifado": 109272,
-    "total_farmacia": 32943,
-    "total_geral": 142215,
+    "total_farmacia": 32933,
+    "total_geral": 142205,
     "perto_de_terminar": 36,
     "zerados": 14
   },
@@ -8335,19 +8335,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 70,
-      "farmacia": 117,
+      "farmacia": 107,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 187,
+      "total": 177,
       "minimo": 50,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-24 10:22:17",
+      "atualizado_em": "2026-11-26 09:09:56",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -8361,17 +8361,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 117
+          "quantidade": 107
         }
       ],
       "minimo_manual": 50,
-      "minimo_alerta": 48,
-      "previsao_20_dias": 48,
+      "minimo_alerta": 50,
+      "previsao_20_dias": 50,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 93,
-      "media_diaria_saida": 2.38,
-      "total_saida_historica": 221,
-      "cobertura_dias": 78.7,
+      "media_diaria_saida": 2.48,
+      "total_saida_historica": 231,
+      "cobertura_dias": 71.3,
       "alerta_estoque": false
     },
     {
@@ -17737,6 +17737,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 7153,
+      "item_id": 350,
+      "produto_nome": "GLICOSE 50% AMP 10ML",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 10,
+      "responsavel": "Assucena",
+      "data": "2026-11-25",
+      "obs": "",
+      "criado_em": "2026-11-26 09:09:56",
+      "item": "GLICOSE 50% AMP 10ML",
+      "usuario": "Assucena"
+    },
+    {
       "id": 7152,
       "item_id": 62,
       "produto_nome": "Cimetidina 150mg",
@@ -25219,21 +25234,6 @@
       "obs": "",
       "criado_em": "2026-11-18 10:46:58",
       "item": "Tira Reagente G-Tech",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 6653,
-      "item_id": 291,
-      "produto_nome": "Cateter tipo óculos adulto",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 5,
-      "responsavel": "Assucena",
-      "data": "2026-11-18",
-      "obs": "",
-      "criado_em": "2026-11-18 10:46:50",
-      "item": "Cateter tipo óculos adulto",
       "usuario": "Assucena"
     }
   ]
