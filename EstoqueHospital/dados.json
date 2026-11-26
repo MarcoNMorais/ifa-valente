@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "26/11/2026 09:09:29",
+  "atualizado_em": "26/11/2026 09:09:37",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
-    "total_almoxarifado": 109372,
-    "total_farmacia": 32893,
+    "total_almoxarifado": 109272,
+    "total_farmacia": 32993,
     "total_geral": 142265,
     "perto_de_terminar": 35,
     "zerados": 14
@@ -13184,8 +13184,8 @@
       "nome": "Scalp nº 21",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 650,
-      "farmacia": 16,
+      "almoxarifado": 550,
+      "farmacia": 116,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -13197,7 +13197,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-25 16:13:39",
+      "atualizado_em": "2026-11-26 09:09:35",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -13205,13 +13205,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 650
+          "quantidade": 550
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 16
+          "quantidade": 116
         }
       ],
       "minimo_manual": 0,
@@ -17736,6 +17736,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 7150,
+      "item_id": 99,
+      "produto_nome": "Scalp nº 21",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 100,
+      "responsavel": "Assucena",
+      "data": "2026-11-25",
+      "obs": "",
+      "criado_em": "2026-11-26 09:09:35",
+      "item": "Scalp nº 21",
+      "usuario": "Assucena"
+    },
     {
       "id": 7149,
       "item_id": 203,
@@ -25219,21 +25234,6 @@
       "obs": "",
       "criado_em": "2026-11-18 10:46:32",
       "item": "Esparadrapo 10x4,5",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 6650,
-      "item_id": 177,
-      "produto_nome": "Gelco nº 22",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 20,
-      "responsavel": "Assucena",
-      "data": "2026-11-18",
-      "obs": "",
-      "criado_em": "2026-11-18 10:46:25",
-      "item": "Gelco nº 22",
       "usuario": "Assucena"
     }
   ]
