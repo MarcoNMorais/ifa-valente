@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "26/11/2026 09:14:04",
+  "atualizado_em": "26/11/2026 09:14:11",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
     "total_almoxarifado": 109022,
-    "total_farmacia": 32845,
-    "total_geral": 141867,
+    "total_farmacia": 32843,
+    "total_geral": 141865,
     "perto_de_terminar": 37,
     "zerados": 14
   },
@@ -10542,19 +10542,19 @@
       "tipo": "Material",
       "unidade": "Caixa",
       "almoxarifado": 0,
-      "farmacia": 11,
+      "farmacia": 9,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 11,
+      "total": 9,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga Almoxerifado",
       "obs": "Importação Almoxerifado",
-      "atualizado_em": "2026-11-26 09:12:11",
+      "atualizado_em": "2026-11-26 09:14:09",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -10562,17 +10562,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 11
+          "quantidade": 9
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 196,
-      "previsao_20_dias": 196,
+      "minimo_alerta": 197,
+      "previsao_20_dias": 197,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 101,
-      "media_diaria_saida": 9.79,
-      "total_saida_historica": 989,
-      "cobertura_dias": 1.1,
+      "media_diaria_saida": 9.81,
+      "total_saida_historica": 991,
+      "cobertura_dias": 0.9,
       "alerta_estoque": true
     },
     {
@@ -17736,6 +17736,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 7181,
+      "item_id": 280,
+      "produto_nome": "Luva M procedimento",
+      "tipo": "Farmácia para Posto de Internamento",
+      "origem": "Farmácia",
+      "destino": "Posto de Internamento",
+      "quantidade": 2,
+      "responsavel": "Assucena",
+      "data": "2026-11-25",
+      "obs": "",
+      "criado_em": "2026-11-26 09:14:09",
+      "item": "Luva M procedimento",
+      "usuario": "Assucena"
+    },
     {
       "id": 7180,
       "item_id": 281,
@@ -25219,21 +25234,6 @@
       "obs": "",
       "criado_em": "2026-11-18 16:18:46",
       "item": "Soro Ringer Lactato 500ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 6681,
-      "item_id": 61,
-      "produto_nome": "Cetoprofeno IM 50mg",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 35,
-      "responsavel": "Leiliana",
-      "data": "2026-11-18",
-      "obs": "",
-      "criado_em": "2026-11-18 16:18:35",
-      "item": "Cetoprofeno IM 50mg",
       "usuario": "Leiliana"
     }
   ]
