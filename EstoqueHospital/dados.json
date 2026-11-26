@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "26/11/2026 09:08:07",
+  "atualizado_em": "26/11/2026 09:08:31",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
-    "total_almoxarifado": 109996,
-    "total_farmacia": 32269,
+    "total_almoxarifado": 109876,
+    "total_farmacia": 32389,
     "total_geral": 142265,
     "perto_de_terminar": 35,
     "zerados": 14
@@ -12696,8 +12696,8 @@
       "nome": "Polifix",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 3170,
-      "farmacia": 4,
+      "almoxarifado": 3050,
+      "farmacia": 124,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -12709,7 +12709,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-25 13:49:02",
+      "atualizado_em": "2026-11-26 09:08:29",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -12717,13 +12717,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 3170
+          "quantidade": 3050
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 4
+          "quantidade": 124
         }
       ],
       "minimo_manual": 0,
@@ -17724,6 +17724,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 7143,
+      "item_id": 329,
+      "produto_nome": "Polifix",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 120,
+      "responsavel": "Assucena",
+      "data": "2026-11-25",
+      "obs": "",
+      "criado_em": "2026-11-26 09:08:29",
+      "item": "Polifix",
+      "usuario": "Assucena"
+    },
     {
       "id": 7142,
       "item_id": 104,
@@ -25207,21 +25222,6 @@
       "obs": "",
       "criado_em": "2026-11-18 10:45:33",
       "item": "AGULHA  40X1,2",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 6643,
-      "item_id": 157,
-      "produto_nome": "Seringa 1ml",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 20,
-      "responsavel": "Assucena",
-      "data": "2026-11-18",
-      "obs": "",
-      "criado_em": "2026-11-18 10:45:25",
-      "item": "Seringa 1ml",
       "usuario": "Assucena"
     }
   ]
