@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "26/11/2026 09:12:48",
+  "atualizado_em": "26/11/2026 09:12:56",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
     "total_almoxarifado": 109022,
-    "total_farmacia": 32886,
-    "total_geral": 141908,
+    "total_farmacia": 32884,
+    "total_geral": 141906,
     "perto_de_terminar": 36,
     "zerados": 14
   },
@@ -5707,19 +5707,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 127,
+      "farmacia": 125,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 127,
+      "total": 125,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Carga Farmácia 227-288",
       "obs": "Importação Farmácia 227-288",
-      "atualizado_em": "2026-11-24 10:22:17",
+      "atualizado_em": "2026-11-26 09:12:54",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -5727,7 +5727,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 127
+          "quantidade": 125
         }
       ],
       "minimo_manual": 0,
@@ -5735,9 +5735,9 @@
       "previsao_20_dias": 13,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 101,
-      "media_diaria_saida": 0.62,
-      "total_saida_historica": 63,
-      "cobertura_dias": 203.6,
+      "media_diaria_saida": 0.64,
+      "total_saida_historica": 65,
+      "cobertura_dias": 194.2,
       "alerta_estoque": false
     },
     {
@@ -17737,6 +17737,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 7172,
+      "item_id": 226,
+      "produto_nome": "Enoxaparina sódica 40mg",
+      "tipo": "Farmácia para Posto de Internamento",
+      "origem": "Farmácia",
+      "destino": "Posto de Internamento",
+      "quantidade": 2,
+      "responsavel": "Assucena",
+      "data": "2026-11-25",
+      "obs": "",
+      "criado_em": "2026-11-26 09:12:54",
+      "item": "Enoxaparina sódica 40mg",
+      "usuario": "Assucena"
+    },
+    {
       "id": 7171,
       "item_id": 233,
       "produto_nome": "Prometazina 25mg/ml",
@@ -25219,21 +25234,6 @@
       "obs": "",
       "criado_em": "2026-11-18 16:17:20",
       "item": "Ondansetrona 2mg/ml 2ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 6672,
-      "item_id": 104,
-      "produto_nome": "Seringa 3ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 10,
-      "responsavel": "Leiliana",
-      "data": "2026-11-18",
-      "obs": "",
-      "criado_em": "2026-11-18 16:17:06",
-      "item": "Seringa 3ml",
       "usuario": "Leiliana"
     }
   ]
