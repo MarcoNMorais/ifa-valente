@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "26/11/2026 09:09:18",
+  "atualizado_em": "26/11/2026 09:09:29",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
-    "total_almoxarifado": 109472,
-    "total_farmacia": 32793,
+    "total_almoxarifado": 109372,
+    "total_farmacia": 32893,
     "total_geral": 142265,
     "perto_de_terminar": 35,
     "zerados": 14
@@ -15950,8 +15950,8 @@
       "nome": "Soro fisiológico 250ml",
       "tipo": "Insumo",
       "unidade": "Unidade",
-      "almoxarifado": 1008,
-      "farmacia": 109,
+      "almoxarifado": 908,
+      "farmacia": 209,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -15963,7 +15963,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-25 16:50:16",
+      "atualizado_em": "2026-11-26 09:09:27",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -15971,13 +15971,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 1008
+          "quantidade": 908
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 157
+          "quantidade": 257
         }
       ],
       "minimo_manual": 0,
@@ -17736,6 +17736,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 7149,
+      "item_id": 203,
+      "produto_nome": "Soro fisiológico 250ml",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 100,
+      "responsavel": "Assucena",
+      "data": "2026-11-25",
+      "obs": "",
+      "criado_em": "2026-11-26 09:09:27",
+      "item": "Soro fisiológico 250ml",
+      "usuario": "Assucena"
+    },
     {
       "id": 7148,
       "item_id": 391,
@@ -25219,21 +25234,6 @@
       "obs": "",
       "criado_em": "2026-11-18 10:46:25",
       "item": "Gelco nº 22",
-      "usuario": "Assucena"
-    },
-    {
-      "id": 6649,
-      "item_id": 178,
-      "produto_nome": "Dispositivo intravenoso Gelco nº 20",
-      "tipo": "Farmácia para Posto de Internamento",
-      "origem": "Farmácia",
-      "destino": "Posto de Internamento",
-      "quantidade": 20,
-      "responsavel": "Assucena",
-      "data": "2026-11-18",
-      "obs": "",
-      "criado_em": "2026-11-18 10:46:19",
-      "item": "Dispositivo intravenoso Gelco nº 20",
       "usuario": "Assucena"
     }
   ]
