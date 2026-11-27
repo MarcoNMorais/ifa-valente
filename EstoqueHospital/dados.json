@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "27/11/2026 16:14:08",
+  "atualizado_em": "27/11/2026 16:14:17",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
     "total_almoxarifado": 108957,
-    "total_farmacia": 32205,
-    "total_geral": 141162,
+    "total_farmacia": 32192,
+    "total_geral": 141149,
     "perto_de_terminar": 37,
     "zerados": 15
   },
@@ -3548,19 +3548,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 363,
+      "farmacia": 350,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 363,
+      "total": 350,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-26 15:49:56",
+      "atualizado_em": "2026-11-27 16:14:15",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -3568,17 +3568,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 363
+          "quantidade": 350
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 306,
-      "previsao_20_dias": 306,
+      "minimo_alerta": 309,
+      "previsao_20_dias": 309,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 107,
-      "media_diaria_saida": 15.28,
-      "total_saida_historica": 1635,
-      "cobertura_dias": 23.8,
+      "media_diaria_saida": 15.4,
+      "total_saida_historica": 1648,
+      "cobertura_dias": 22.7,
       "alerta_estoque": false
     },
     {
@@ -17730,6 +17730,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 7240,
+      "item_id": 59,
+      "produto_nome": "Ceftriaxona 1g",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 13,
+      "responsavel": "Leiliana",
+      "data": "2026-11-27",
+      "obs": "",
+      "criado_em": "2026-11-27 16:14:15",
+      "item": "Ceftriaxona 1g",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 7239,
       "item_id": 55,
       "produto_nome": "Benzilpenicilina 1.200",
@@ -25212,21 +25227,6 @@
       "obs": "",
       "criado_em": "2026-11-19 13:59:54",
       "item": "Soro fisiológico 250ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 6740,
-      "item_id": 404,
-      "produto_nome": "soro glicofidiologoco",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 6,
-      "responsavel": "Leiliana",
-      "data": "2026-11-19",
-      "obs": "",
-      "criado_em": "2026-11-19 13:59:44",
-      "item": "soro glicofidiologoco",
       "usuario": "Leiliana"
     }
   ]
