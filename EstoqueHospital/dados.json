@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "27/11/2026 10:29:35",
+  "atualizado_em": "27/11/2026 10:29:42",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
     "total_almoxarifado": 109022,
-    "total_farmacia": 32539,
-    "total_geral": 141561,
+    "total_farmacia": 32509,
+    "total_geral": 141531,
     "perto_de_terminar": 37,
     "zerados": 15
   },
@@ -560,19 +560,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 5300,
-      "farmacia": 795,
+      "farmacia": 765,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 6095,
+      "total": 6065,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-26 09:11:00",
+      "atualizado_em": "2026-11-27 10:29:41",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -586,17 +586,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 795
+          "quantidade": 765
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 1766,
-      "previsao_20_dias": 1766,
+      "minimo_alerta": 1773,
+      "previsao_20_dias": 1773,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 85,
-      "media_diaria_saida": 88.29,
-      "total_saida_historica": 7505,
-      "cobertura_dias": 69.0,
+      "media_diaria_saida": 88.65,
+      "total_saida_historica": 7535,
+      "cobertura_dias": 68.4,
       "alerta_estoque": false
     },
     {
@@ -17730,6 +17730,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 7206,
+      "item_id": 390,
+      "produto_nome": "AGULHA  40X1,2",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 30,
+      "responsavel": "Assucena",
+      "data": "2026-11-26",
+      "obs": "",
+      "criado_em": "2026-11-27 10:29:41",
+      "item": "AGULHA  40X1,2",
+      "usuario": "Assucena"
+    },
+    {
       "id": 7205,
       "item_id": 239,
       "produto_nome": "Tramadol 50mg/ml 2ml",
@@ -25212,21 +25227,6 @@
       "obs": "",
       "criado_em": "2026-11-19 13:39:36",
       "item": "AGULHA  40X1,2",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 6706,
-      "item_id": 233,
-      "produto_nome": "Prometazina 25mg/ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 20,
-      "responsavel": "Leiliana",
-      "data": "2026-11-19",
-      "obs": "",
-      "criado_em": "2026-11-19 13:39:23",
-      "item": "Prometazina 25mg/ml",
       "usuario": "Leiliana"
     }
   ]
