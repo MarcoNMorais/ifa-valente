@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "27/11/2026 16:18:53",
+  "atualizado_em": "27/11/2026 16:19:04",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
     "total_almoxarifado": 108597,
-    "total_farmacia": 31922,
-    "total_geral": 140519,
+    "total_farmacia": 31912,
+    "total_geral": 140509,
     "perto_de_terminar": 37,
     "zerados": 15
   },
@@ -3621,19 +3621,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 239,
+      "farmacia": 229,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 239,
+      "total": 229,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-27 10:28:54",
+      "atualizado_em": "2026-11-27 16:19:03",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -3647,17 +3647,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 259
+          "quantidade": 249
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 252,
-      "previsao_20_dias": 252,
+      "minimo_alerta": 254,
+      "previsao_20_dias": 254,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 107,
-      "media_diaria_saida": 12.59,
-      "total_saida_historica": 1347,
-      "cobertura_dias": 19.0,
+      "media_diaria_saida": 12.68,
+      "total_saida_historica": 1357,
+      "cobertura_dias": 18.1,
       "alerta_estoque": true
     },
     {
@@ -17730,6 +17730,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 7254,
+      "item_id": 60,
+      "produto_nome": "Cetoprofeno EV 100mg",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 10,
+      "responsavel": "Leiliana",
+      "data": "2026-11-27",
+      "obs": "",
+      "criado_em": "2026-11-27 16:19:03",
+      "item": "Cetoprofeno EV 100mg",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 7253,
       "item_id": 376,
       "produto_nome": "LENÇOL DESCARTAVEL PAPEL",
@@ -25212,21 +25227,6 @@
       "obs": "",
       "criado_em": "2026-11-19 15:47:53",
       "item": "Ferropurum 20mg/ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 6754,
-      "item_id": 21,
-      "produto_nome": "Clonazepam gotas 25mg/ml",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 1,
-      "responsavel": "Leiliana",
-      "data": "2026-11-19",
-      "obs": "",
-      "criado_em": "2026-11-19 15:47:45",
-      "item": "Clonazepam gotas 25mg/ml",
       "usuario": "Leiliana"
     }
   ]
