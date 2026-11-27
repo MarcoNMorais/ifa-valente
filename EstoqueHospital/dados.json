@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "27/11/2026 10:32:31",
+  "atualizado_em": "27/11/2026 10:32:39",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
     "total_almoxarifado": 109002,
-    "total_farmacia": 32346,
-    "total_geral": 141348,
+    "total_farmacia": 32345,
+    "total_geral": 141347,
     "perto_de_terminar": 37,
     "zerados": 15
   },
@@ -3217,19 +3217,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 19,
-      "farmacia": 20,
+      "farmacia": 19,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 39,
+      "total": 38,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-27 10:32:29",
+      "atualizado_em": "2026-11-27 10:32:37",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -3243,17 +3243,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 20
+          "quantidade": 19
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 13,
-      "previsao_20_dias": 13,
+      "minimo_alerta": 14,
+      "previsao_20_dias": 14,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 107,
-      "media_diaria_saida": 0.64,
-      "total_saida_historica": 69,
-      "cobertura_dias": 60.5,
+      "media_diaria_saida": 0.65,
+      "total_saida_historica": 70,
+      "cobertura_dias": 58.1,
       "alerta_estoque": false
     },
     {
@@ -17736,6 +17736,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 7224,
+      "item_id": 200,
+      "produto_nome": "Caixa de perfurocortante",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 1,
+      "responsavel": "Assucena",
+      "data": "2026-11-26",
+      "obs": "",
+      "criado_em": "2026-11-27 10:32:37",
+      "item": "Caixa de perfurocortante",
+      "usuario": "Assucena"
+    },
+    {
       "id": 7223,
       "item_id": 200,
       "produto_nome": "Caixa de perfurocortante",
@@ -25218,21 +25233,6 @@
       "obs": "",
       "criado_em": "2026-11-19 13:54:47",
       "item": "Atadura gessada nº 10",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 6724,
-      "item_id": 393,
-      "produto_nome": "NYLON N°3",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 8,
-      "responsavel": "Leiliana",
-      "data": "2026-11-19",
-      "obs": "",
-      "criado_em": "2026-11-19 13:54:15",
-      "item": "NYLON N°3",
       "usuario": "Leiliana"
     }
   ]
