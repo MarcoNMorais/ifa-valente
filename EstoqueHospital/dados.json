@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "27/11/2026 10:29:03",
+  "atualizado_em": "27/11/2026 10:29:11",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
     "total_almoxarifado": 109022,
-    "total_farmacia": 32599,
-    "total_geral": 141621,
+    "total_farmacia": 32579,
+    "total_geral": 141601,
     "perto_de_terminar": 37,
     "zerados": 15
   },
@@ -12233,19 +12233,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 180,
+      "farmacia": 160,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 180,
+      "total": 160,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-25 10:59:32",
+      "atualizado_em": "2026-11-27 10:29:10",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -12253,17 +12253,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 210
+          "quantidade": 190
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 341,
-      "previsao_20_dias": 341,
+      "minimo_alerta": 345,
+      "previsao_20_dias": 345,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 104,
-      "media_diaria_saida": 17.02,
-      "total_saida_historica": 1770,
-      "cobertura_dias": 10.6,
+      "media_diaria_saida": 17.21,
+      "total_saida_historica": 1790,
+      "cobertura_dias": 9.3,
       "alerta_estoque": true
     },
     {
@@ -17729,6 +17729,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 7202,
+      "item_id": 238,
+      "produto_nome": "Ondansetrona 2mg/ml 2ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 20,
+      "responsavel": "Assucena",
+      "data": "2026-11-26",
+      "obs": "",
+      "criado_em": "2026-11-27 10:29:10",
+      "item": "Ondansetrona 2mg/ml 2ml",
+      "usuario": "Assucena"
+    },
     {
       "id": 7201,
       "item_id": 61,
@@ -25212,21 +25227,6 @@
       "obs": "",
       "criado_em": "2026-11-19 13:38:41",
       "item": "Dipirona",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 6702,
-      "item_id": 59,
-      "produto_nome": "Ceftriaxona 1g",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 10,
-      "responsavel": "Leiliana",
-      "data": "2026-11-19",
-      "obs": "",
-      "criado_em": "2026-11-19 13:38:23",
-      "item": "Ceftriaxona 1g",
       "usuario": "Leiliana"
     }
   ]
