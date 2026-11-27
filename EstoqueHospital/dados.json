@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "27/11/2026 16:18:36",
+  "atualizado_em": "27/11/2026 16:18:45",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
     "total_almoxarifado": 108597,
-    "total_farmacia": 31951,
-    "total_geral": 140548,
+    "total_farmacia": 31926,
+    "total_geral": 140523,
     "perto_de_terminar": 37,
     "zerados": 15
   },
@@ -5951,19 +5951,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 750,
-      "farmacia": 100,
+      "farmacia": 75,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 850,
+      "total": 825,
       "minimo": 300,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-26 15:50:48",
+      "atualizado_em": "2026-11-27 16:18:43",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -5977,17 +5977,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 125
+          "quantidade": 100
         }
       ],
       "minimo_manual": 300,
-      "minimo_alerta": 1066,
-      "previsao_20_dias": 1066,
+      "minimo_alerta": 1071,
+      "previsao_20_dias": 1071,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 107,
-      "media_diaria_saida": 53.27,
-      "total_saida_historica": 5700,
-      "cobertura_dias": 16.0,
+      "media_diaria_saida": 53.5,
+      "total_saida_historica": 5725,
+      "cobertura_dias": 15.4,
       "alerta_estoque": true
     },
     {
@@ -17730,6 +17730,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 7252,
+      "item_id": 220,
+      "produto_nome": "Equipo macrogotas",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 25,
+      "responsavel": "Leiliana",
+      "data": "2026-11-27",
+      "obs": "",
+      "criado_em": "2026-11-27 16:18:43",
+      "item": "Equipo macrogotas",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 7251,
       "item_id": 104,
       "produto_nome": "Seringa 3ml",
@@ -25212,21 +25227,6 @@
       "obs": "",
       "criado_em": "2026-11-19 15:47:38",
       "item": "Ocitocina",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 6752,
-      "item_id": 182,
-      "produto_nome": "Luva de látex tam. G",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 1,
-      "responsavel": "Leiliana",
-      "data": "2026-11-19",
-      "obs": "",
-      "criado_em": "2026-11-19 14:02:11",
-      "item": "Luva de látex tam. G",
       "usuario": "Leiliana"
     }
   ]
