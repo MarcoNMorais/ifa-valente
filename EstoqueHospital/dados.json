@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "27/11/2026 13:39:08",
+  "atualizado_em": "27/11/2026 13:39:20",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
     "total_almoxarifado": 108957,
-    "total_farmacia": 32285,
-    "total_geral": 141242,
+    "total_farmacia": 32284,
+    "total_geral": 141241,
     "perto_de_terminar": 37,
     "zerados": 15
   },
@@ -2513,19 +2513,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 0,
-      "farmacia": 210,
+      "farmacia": 209,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 210,
+      "total": 209,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-24 16:29:48",
+      "atualizado_em": "2026-11-27 13:39:19",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -2533,7 +2533,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 210
+          "quantidade": 209
         }
       ],
       "minimo_manual": 0,
@@ -2541,9 +2541,9 @@
       "previsao_20_dias": 151,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 107,
-      "media_diaria_saida": 7.51,
-      "total_saida_historica": 804,
-      "cobertura_dias": 27.9,
+      "media_diaria_saida": 7.52,
+      "total_saida_historica": 805,
+      "cobertura_dias": 27.8,
       "alerta_estoque": false
     },
     {
@@ -17736,6 +17736,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 7232,
+      "item_id": 55,
+      "produto_nome": "Benzilpenicilina 1.200",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 1,
+      "responsavel": "Leiliana",
+      "data": "2026-11-27",
+      "obs": "",
+      "criado_em": "2026-11-27 13:39:19",
+      "item": "Benzilpenicilina 1.200",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 7231,
       "item_id": 204,
       "produto_nome": "Soro fisiológico 500ml",
@@ -25218,21 +25233,6 @@
       "obs": "",
       "criado_em": "2026-11-19 13:57:55",
       "item": "Tramadol 50mg/ml 2ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 6732,
-      "item_id": 158,
-      "produto_nome": "Equipo para transfusão",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 2,
-      "responsavel": "Leiliana",
-      "data": "2026-11-19",
-      "obs": "",
-      "criado_em": "2026-11-19 13:57:32",
-      "item": "Equipo para transfusão",
       "usuario": "Leiliana"
     }
   ]
