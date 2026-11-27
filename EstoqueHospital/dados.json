@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "27/11/2026 13:38:55",
+  "atualizado_em": "27/11/2026 13:39:08",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
     "total_almoxarifado": 108957,
-    "total_farmacia": 32287,
-    "total_geral": 141244,
+    "total_farmacia": 32285,
+    "total_geral": 141242,
     "perto_de_terminar": 37,
     "zerados": 15
   },
@@ -15996,19 +15996,19 @@
       "tipo": "Insumo",
       "unidade": "Unidade",
       "almoxarifado": 556,
-      "farmacia": 28,
+      "farmacia": 26,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 584,
+      "total": 582,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-26 15:49:25",
+      "atualizado_em": "2026-11-27 13:39:07",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -16022,7 +16022,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 40
+          "quantidade": 38
         }
       ],
       "minimo_manual": 0,
@@ -16030,9 +16030,9 @@
       "previsao_20_dias": 209,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 107,
-      "media_diaria_saida": 10.42,
-      "total_saida_historica": 1115,
-      "cobertura_dias": 56.0,
+      "media_diaria_saida": 10.44,
+      "total_saida_historica": 1117,
+      "cobertura_dias": 55.8,
       "alerta_estoque": false
     },
     {
@@ -17735,6 +17735,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 7231,
+      "item_id": 204,
+      "produto_nome": "Soro fisiológico 500ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 2,
+      "responsavel": "Leiliana",
+      "data": "2026-11-27",
+      "obs": "",
+      "criado_em": "2026-11-27 13:39:07",
+      "item": "Soro fisiológico 500ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 7230,
       "item_id": 298,
@@ -25217,21 +25232,6 @@
       "data": "2026-11-19",
       "obs": "",
       "criado_em": "2026-11-19 13:57:32",
-      "item": "Equipo para transfusão",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 6731,
-      "item_id": 158,
-      "produto_nome": "Equipo para transfusão",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 4,
-      "responsavel": "Leiliana",
-      "data": "2026-11-19",
-      "obs": "",
-      "criado_em": "2026-11-19 13:56:56",
       "item": "Equipo para transfusão",
       "usuario": "Leiliana"
     }
