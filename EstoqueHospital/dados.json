@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "27/11/2026 16:15:00",
+  "atualizado_em": "27/11/2026 16:15:42",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
-    "total_almoxarifado": 108957,
-    "total_farmacia": 32141,
+    "total_almoxarifado": 108597,
+    "total_farmacia": 32501,
     "total_geral": 141098,
     "perto_de_terminar": 37,
     "zerados": 15
@@ -15897,8 +15897,8 @@
       "nome": "Soro fisiológico 100ml",
       "tipo": "Insumo",
       "unidade": "Unidade",
-      "almoxarifado": 1700,
-      "farmacia": 420,
+      "almoxarifado": 1340,
+      "farmacia": 780,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -15910,7 +15910,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-26 09:07:51",
+      "atualizado_em": "2026-11-27 16:15:40",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -15918,13 +15918,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 1820
+          "quantidade": 1460
         },
         {
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 480
+          "quantidade": 840
         }
       ],
       "minimo_manual": 0,
@@ -17729,6 +17729,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 7245,
+      "item_id": 202,
+      "produto_nome": "Soro fisiológico 100ml",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 360,
+      "responsavel": "Leiliana",
+      "data": "2026-11-27",
+      "obs": "",
+      "criado_em": "2026-11-27 16:15:40",
+      "item": "Soro fisiológico 100ml",
+      "usuario": "Leiliana"
+    },
     {
       "id": 7244,
       "item_id": 99,
@@ -25212,21 +25227,6 @@
       "obs": "",
       "criado_em": "2026-11-19 14:00:54",
       "item": "Seringa 20ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 6745,
-      "item_id": 285,
-      "produto_nome": "Agulha 30x7",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 30,
-      "responsavel": "Leiliana",
-      "data": "2026-11-19",
-      "obs": "",
-      "criado_em": "2026-11-19 14:00:43",
-      "item": "Agulha 30x7",
       "usuario": "Leiliana"
     }
   ]
