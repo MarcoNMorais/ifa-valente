@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "27/11/2026 10:33:09",
+  "atualizado_em": "27/11/2026 13:38:37",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
-    "total_almoxarifado": 109002,
-    "total_farmacia": 32252,
+    "total_almoxarifado": 108957,
+    "total_farmacia": 32297,
     "total_geral": 141254,
     "perto_de_terminar": 37,
     "zerados": 15
@@ -9668,8 +9668,8 @@
       "nome": "Levofloxacino 100ml",
       "tipo": "Medicamento",
       "unidade": "Unidade",
-      "almoxarifado": 45,
-      "farmacia": 0,
+      "almoxarifado": 0,
+      "farmacia": 45,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -9681,12 +9681,12 @@
       "lote": "",
       "origem": "Carga Almoxerifado",
       "obs": "Importação Almoxerifado",
-      "atualizado_em": "2026-11-24 10:22:17",
+      "atualizado_em": "2026-11-27 13:38:35",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
         {
-          "local": "almoxarifado",
+          "local": "farmacia",
           "validade": "",
           "lote": "",
           "quantidade": 45
@@ -17736,6 +17736,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 7229,
+      "item_id": 298,
+      "produto_nome": "Levofloxacino 100ml",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 45,
+      "responsavel": "Leiliana",
+      "data": "2026-11-27",
+      "obs": "",
+      "criado_em": "2026-11-27 13:38:35",
+      "item": "Levofloxacino 100ml",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 7228,
       "item_id": 390,
       "produto_nome": "AGULHA  40X1,2",
@@ -25218,21 +25233,6 @@
       "obs": "",
       "criado_em": "2026-11-19 13:56:38",
       "item": "vancomicina",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 6729,
-      "item_id": 200,
-      "produto_nome": "Caixa de perfurocortante",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 1,
-      "responsavel": "Leiliana",
-      "data": "2026-11-19",
-      "obs": "",
-      "criado_em": "2026-11-19 13:56:14",
-      "item": "Caixa de perfurocortante",
       "usuario": "Leiliana"
     }
   ]
