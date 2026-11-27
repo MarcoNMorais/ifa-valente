@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "27/11/2026 10:30:59",
+  "atualizado_em": "27/11/2026 10:31:05",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
     "total_almoxarifado": 109022,
-    "total_farmacia": 32394,
-    "total_geral": 141416,
+    "total_farmacia": 32374,
+    "total_geral": 141396,
     "perto_de_terminar": 37,
     "zerados": 15
   },
@@ -13494,19 +13494,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 6600,
-      "farmacia": 204,
+      "farmacia": 184,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 6804,
+      "total": 6784,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-26 15:50:37",
+      "atualizado_em": "2026-11-27 10:31:02",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -13520,17 +13520,17 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 249
+          "quantidade": 229
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 1161,
-      "previsao_20_dias": 1161,
+      "minimo_alerta": 1165,
+      "previsao_20_dias": 1165,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 107,
-      "media_diaria_saida": 58.05,
-      "total_saida_historica": 6211,
-      "cobertura_dias": 117.2,
+      "media_diaria_saida": 58.23,
+      "total_saida_historica": 6231,
+      "cobertura_dias": 116.5,
       "alerta_estoque": false
     },
     {
@@ -17729,6 +17729,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 7217,
+      "item_id": 102,
+      "produto_nome": "Seringa 5ml",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 20,
+      "responsavel": "Assucena",
+      "data": "2026-11-26",
+      "obs": "",
+      "criado_em": "2026-11-27 10:31:02",
+      "item": "Seringa 5ml",
+      "usuario": "Assucena"
+    },
     {
       "id": 7216,
       "item_id": 274,
@@ -25212,21 +25227,6 @@
       "obs": "",
       "criado_em": "2026-11-19 13:52:47",
       "item": "Seringa 20ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 6717,
-      "item_id": 155,
-      "produto_nome": "Bolsa coletora",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 3,
-      "responsavel": "Leiliana",
-      "data": "2026-11-19",
-      "obs": "",
-      "criado_em": "2026-11-19 13:52:35",
-      "item": "Bolsa coletora",
       "usuario": "Leiliana"
     }
   ]
