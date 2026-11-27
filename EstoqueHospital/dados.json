@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "27/11/2026 10:30:23",
+  "atualizado_em": "27/11/2026 10:30:32",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
     "total_almoxarifado": 109022,
-    "total_farmacia": 32429,
-    "total_geral": 141451,
+    "total_farmacia": 32428,
+    "total_geral": 141450,
     "perto_de_terminar": 37,
     "zerados": 15
   },
@@ -13052,19 +13052,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 37,
-      "farmacia": 3,
+      "farmacia": 2,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 40,
+      "total": 39,
       "minimo": 0,
       "validade": "12/26",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-24 10:22:17",
+      "atualizado_em": "2026-11-27 10:30:30",
       "validade_mais_proxima": "12/26",
       "vencimento_mais_proximo": "12/26",
       "lotes_validade": [
@@ -13072,7 +13072,7 @@
           "local": "farmacia",
           "validade": "12/26",
           "lote": "",
-          "quantidade": 3
+          "quantidade": 2
         },
         {
           "local": "almoxarifado",
@@ -13086,9 +13086,9 @@
       "previsao_20_dias": 7,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 105,
-      "media_diaria_saida": 0.31,
-      "total_saida_historica": 33,
-      "cobertura_dias": 127.3,
+      "media_diaria_saida": 0.32,
+      "total_saida_historica": 34,
+      "cobertura_dias": 120.4,
       "alerta_estoque": false
     },
     {
@@ -17729,6 +17729,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 7212,
+      "item_id": 252,
+      "produto_nome": "Salbutamol spray",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 1,
+      "responsavel": "Assucena",
+      "data": "2026-11-26",
+      "obs": "",
+      "criado_em": "2026-11-27 10:30:30",
+      "item": "Salbutamol spray",
+      "usuario": "Assucena"
+    },
     {
       "id": 7211,
       "item_id": 178,
@@ -25212,21 +25227,6 @@
       "obs": "",
       "criado_em": "2026-11-19 13:40:56",
       "item": "Equipo macrogotas",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 6712,
-      "item_id": 382,
-      "produto_nome": "AGUA P/ INJ",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 20,
-      "responsavel": "Leiliana",
-      "data": "2026-11-19",
-      "obs": "",
-      "criado_em": "2026-11-19 13:40:30",
-      "item": "AGUA P/ INJ",
       "usuario": "Leiliana"
     }
   ]
