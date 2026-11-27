@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "27/11/2026 16:18:45",
+  "atualizado_em": "27/11/2026 16:18:53",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
     "total_almoxarifado": 108597,
-    "total_farmacia": 31926,
-    "total_geral": 140523,
+    "total_farmacia": 31922,
+    "total_geral": 140519,
     "perto_de_terminar": 37,
     "zerados": 15
   },
@@ -9544,19 +9544,19 @@
       "tipo": "Material",
       "unidade": "Unidade",
       "almoxarifado": 77,
-      "farmacia": 17,
+      "farmacia": 13,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 94,
+      "total": 90,
       "minimo": 50,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-26 15:51:16",
+      "atualizado_em": "2026-11-27 16:18:52",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -9570,7 +9570,7 @@
           "local": "farmacia",
           "validade": "",
           "lote": "",
-          "quantidade": 17
+          "quantidade": 13
         }
       ],
       "minimo_manual": 50,
@@ -9578,9 +9578,9 @@
       "previsao_20_dias": 26,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 94,
-      "media_diaria_saida": 1.26,
-      "total_saida_historica": 118,
-      "cobertura_dias": 74.9,
+      "media_diaria_saida": 1.3,
+      "total_saida_historica": 122,
+      "cobertura_dias": 69.3,
       "alerta_estoque": false
     },
     {
@@ -17730,6 +17730,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 7253,
+      "item_id": 376,
+      "produto_nome": "LENÇOL DESCARTAVEL PAPEL",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 4,
+      "responsavel": "Leiliana",
+      "data": "2026-11-27",
+      "obs": "",
+      "criado_em": "2026-11-27 16:18:52",
+      "item": "LENÇOL DESCARTAVEL PAPEL",
+      "usuario": "Leiliana"
+    },
+    {
       "id": 7252,
       "item_id": 220,
       "produto_nome": "Equipo macrogotas",
@@ -25212,21 +25227,6 @@
       "obs": "",
       "criado_em": "2026-11-19 15:47:45",
       "item": "Clonazepam gotas 25mg/ml",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 6753,
-      "item_id": 210,
-      "produto_nome": "Ocitocina",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 2,
-      "responsavel": "Leiliana",
-      "data": "2026-11-19",
-      "obs": "",
-      "criado_em": "2026-11-19 15:47:38",
-      "item": "Ocitocina",
       "usuario": "Leiliana"
     }
   ]
