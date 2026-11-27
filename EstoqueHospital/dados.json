@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "27/11/2026 13:39:56",
+  "atualizado_em": "27/11/2026 13:40:10",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
     "total_almoxarifado": 108957,
-    "total_farmacia": 32254,
-    "total_geral": 141211,
+    "total_farmacia": 32252,
+    "total_geral": 141209,
     "perto_de_terminar": 37,
     "zerados": 15
   },
@@ -12055,19 +12055,19 @@
       "tipo": "Medicamento",
       "unidade": "Unidade",
       "almoxarifado": 16,
-      "farmacia": 2,
+      "farmacia": 0,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
       "baixa": 0,
       "outro": 0,
-      "total": 18,
+      "total": 16,
       "minimo": 0,
       "validade": "",
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-24 10:22:17",
+      "atualizado_em": "2026-11-27 13:40:09",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -12076,22 +12076,16 @@
           "validade": "",
           "lote": "",
           "quantidade": 16
-        },
-        {
-          "local": "farmacia",
-          "validade": "",
-          "lote": "",
-          "quantidade": 2
         }
       ],
       "minimo_manual": 0,
-      "minimo_alerta": 3,
-      "previsao_20_dias": 3,
+      "minimo_alerta": 4,
+      "previsao_20_dias": 4,
       "criterio_alerta": "media_uso_20_dias",
       "dias_historico": 46,
-      "media_diaria_saida": 0.11,
-      "total_saida_historica": 5,
-      "cobertura_dias": 165.6,
+      "media_diaria_saida": 0.15,
+      "total_saida_historica": 7,
+      "cobertura_dias": 105.1,
       "alerta_estoque": false
     },
     {
@@ -17735,6 +17729,21 @@
     }
   ],
   "movimentacoes": [
+    {
+      "id": 7235,
+      "item_id": 410,
+      "produto_nome": "oleo de girasol AGE",
+      "tipo": "Farmácia para Sala de Medicações",
+      "origem": "Farmácia",
+      "destino": "Sala de Medicações",
+      "quantidade": 2,
+      "responsavel": "Leiliana",
+      "data": "2026-11-27",
+      "obs": "",
+      "criado_em": "2026-11-27 13:40:09",
+      "item": "oleo de girasol AGE",
+      "usuario": "Leiliana"
+    },
     {
       "id": 7234,
       "item_id": 27,
@@ -25218,21 +25227,6 @@
       "obs": "",
       "criado_em": "2026-11-19 13:58:50",
       "item": "Hidrocortisona 100MG",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 6735,
-      "item_id": 342,
-      "produto_nome": "CLORETO DE SÓDIO 20% AMP 10ML",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 5,
-      "responsavel": "Leiliana",
-      "data": "2026-11-19",
-      "obs": "",
-      "criado_em": "2026-11-19 13:58:37",
-      "item": "CLORETO DE SÓDIO 20% AMP 10ML",
       "usuario": "Leiliana"
     }
   ]
