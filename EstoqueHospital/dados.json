@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "27/11/2026 10:32:07",
+  "atualizado_em": "27/11/2026 10:32:31",
   "origem": "Controle Local de Estoque Hospitalar",
   "resumo": {
     "itens": 419,
-    "total_almoxarifado": 109022,
-    "total_farmacia": 32326,
+    "total_almoxarifado": 109002,
+    "total_farmacia": 32346,
     "total_geral": 141348,
     "perto_de_terminar": 37,
     "zerados": 15
@@ -3216,8 +3216,8 @@
       "nome": "Caixa de perfurocortante",
       "tipo": "Material",
       "unidade": "Unidade",
-      "almoxarifado": 39,
-      "farmacia": 0,
+      "almoxarifado": 19,
+      "farmacia": 20,
       "sala_medicacoes": 0,
       "internamento": 0,
       "sala_cirurgica": 0,
@@ -3229,7 +3229,7 @@
       "lote": "",
       "origem": "Entrada externa",
       "obs": "",
-      "atualizado_em": "2026-11-25 16:16:37",
+      "atualizado_em": "2026-11-27 10:32:29",
       "validade_mais_proxima": "",
       "vencimento_mais_proximo": "",
       "lotes_validade": [
@@ -3237,7 +3237,13 @@
           "local": "almoxarifado",
           "validade": "",
           "lote": "",
-          "quantidade": 39
+          "quantidade": 19
+        },
+        {
+          "local": "farmacia",
+          "validade": "",
+          "lote": "",
+          "quantidade": 20
         }
       ],
       "minimo_manual": 0,
@@ -17730,6 +17736,21 @@
   ],
   "movimentacoes": [
     {
+      "id": 7223,
+      "item_id": 200,
+      "produto_nome": "Caixa de perfurocortante",
+      "tipo": "Almoxarifado para Farmácia",
+      "origem": "Almoxarifado",
+      "destino": "Farmácia",
+      "quantidade": 20,
+      "responsavel": "Assucena",
+      "data": "2026-11-26",
+      "obs": "",
+      "criado_em": "2026-11-27 10:32:29",
+      "item": "Caixa de perfurocortante",
+      "usuario": "Assucena"
+    },
+    {
       "id": 7222,
       "item_id": 281,
       "produto_nome": "Luva P procedimento",
@@ -25212,21 +25233,6 @@
       "obs": "",
       "criado_em": "2026-11-19 13:54:15",
       "item": "NYLON N°3",
-      "usuario": "Leiliana"
-    },
-    {
-      "id": 6723,
-      "item_id": 152,
-      "produto_nome": "Atadura crepon nº 10",
-      "tipo": "Farmácia para Sala de Medicações",
-      "origem": "Farmácia",
-      "destino": "Sala de Medicações",
-      "quantidade": 24,
-      "responsavel": "Leiliana",
-      "data": "2026-11-19",
-      "obs": "",
-      "criado_em": "2026-11-19 13:54:00",
-      "item": "Atadura crepon nº 10",
       "usuario": "Leiliana"
     }
   ]
